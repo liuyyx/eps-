@@ -1,0 +1,24 @@
+{
+ "batch": "F071",
+ "n": 3,
+ "classes": [
+  {
+   "obf": "l1",
+   "is_module": false,
+   "lines": 224,
+   "cands": []
+  },
+  {
+   "obf": "l2",
+   "is_module": false,
+   "lines": 64,
+   "cands": []
+  },
+  {
+   "obf": "l3",
+   "is_module": false,
+   "lines": 140,
+   "cands": []
+  }
+ ]
+}

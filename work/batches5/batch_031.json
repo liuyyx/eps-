@@ -1,0 +1,87 @@
+{
+ "batch": "F031",
+ "n": 3,
+ "classes": [
+  {
+   "obf": "di",
+   "is_module": false,
+   "lines": 55,
+   "cands": [
+    {
+     "name": "MixinVisGraph",
+     "jac": 0.333,
+     "path": "work/official26/com/github/epsilon/mixins/MixinVisGraph.java"
+    },
+    {
+     "name": "MixinBlockCollisions",
+     "jac": 0.2,
+     "path": "work/official26/com/github/epsilon/mixins/MixinBlockCollisions.java"
+    },
+    {
+     "name": "InteractionUtils",
+     "jac": 0.182,
+     "path": "work/official26/com/github/epsilon/utils/player/InteractionUtils.java"
+    },
+    {
+     "name": "AutoTool",
+     "jac": 0.182,
+     "path": "work/official26/com/github/epsilon/modules/impl/player/AutoTool.java"
+    }
+   ]
+  },
+  {
+   "obf": "dO",
+   "is_module": false,
+   "lines": 33,
+   "cands": [
+    {
+     "name": "MixinVisGraph",
+     "jac": 0.333,
+     "path": "work/official26/com/github/epsilon/mixins/MixinVisGraph.java"
+    },
+    {
+     "name": "MixinBlock",
+     "jac": 0.25,
+     "path": "work/official26/com/github/epsilon/mixins/MixinBlock.java"
+    },
+    {
+     "name": "MixinBlockCollisions",
+     "jac": 0.2,
+     "path": "work/official26/com/github/epsilon/mixins/MixinBlockCollisions.java"
+    },
+    {
+     "name": "MixinMultiPlayerGameMode",
+     "jac": 0.167,
+     "path": "work/official26/com/github/epsilon/mixins/MixinMultiPlayerGameMode.java"
+    }
+   ]
+  },
+  {
+   "obf": "ge",
+   "is_module": false,
+   "lines": 352,
+   "cands": [
+    {
+     "name": "MixinLivingEntity",
+     "jac": 0.333,
+     "path": "work/official26/com/github/epsilon/mixins/MixinLivingEntity.java"
+    },
+    {
+     "name": "MixinEntity",
+     "jac": 0.333,
+     "path": "work/official26/com/github/epsilon/mixins/MixinEntity.java"
+    },
+    {
+     "name": "MixinFireworkRocketEntity",
+     "jac": 0.25,
+     "path": "work/official26/com/github/epsilon/mixins/MixinFireworkRocketEntity.java"
+    },
+    {
+     "name": "MixinPlayer",
+     "jac": 0.2,
+     "path": "work/official26/com/github/epsilon/mixins/MixinPlayer.java"
+    }
+   ]
+  }
+ ]
+}

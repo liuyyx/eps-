@@ -1,0 +1,87 @@
+{
+ "batch": "F014",
+ "n": 3,
+ "classes": [
+  {
+   "obf": "dC",
+   "is_module": false,
+   "lines": 2484,
+   "cands": [
+    {
+     "name": "UiTree",
+     "jac": 1.0,
+     "path": "work/official26/com/github/epsilon/gui/lib/UiTree.java"
+    },
+    {
+     "name": "TtfFontLoader",
+     "jac": 1.0,
+     "path": "work/official26/com/github/epsilon/graphics/text/ttf/TtfFontLoader.java"
+    },
+    {
+     "name": "TtfFontFile",
+     "jac": 1.0,
+     "path": "work/official26/com/github/epsilon/graphics/text/ttf/TtfFontFile.java"
+    },
+    {
+     "name": "TextureCacheHolder",
+     "jac": 1.0,
+     "path": "work/official26/com/github/epsilon/holders/TextureCacheHolder.java"
+    }
+   ]
+  },
+  {
+   "obf": "eD",
+   "is_module": false,
+   "lines": 1663,
+   "cands": [
+    {
+     "name": "Watermark",
+     "jac": 1.0,
+     "path": "work/official26/com/github/epsilon/elements/impl/Watermark.java"
+    },
+    {
+     "name": "MixinDeltaTrackerTimer",
+     "jac": 1.0,
+     "path": "work/official26/com/github/epsilon/mixins/MixinDeltaTrackerTimer.java"
+    },
+    {
+     "name": "BPS",
+     "jac": 0.5,
+     "path": "work/official26/com/github/epsilon/elements/impl/BPS.java"
+    },
+    {
+     "name": "MixinGui",
+     "jac": 0.333,
+     "path": "work/official26/com/github/epsilon/mixins/MixinGui.java"
+    }
+   ]
+  },
+  {
+   "obf": "eg",
+   "is_module": false,
+   "lines": 2123,
+   "cands": [
+    {
+     "name": "Watermark",
+     "jac": 1.0,
+     "path": "work/official26/com/github/epsilon/elements/impl/Watermark.java"
+    },
+    {
+     "name": "MixinDeltaTrackerTimer",
+     "jac": 1.0,
+     "path": "work/official26/com/github/epsilon/mixins/MixinDeltaTrackerTimer.java"
+    },
+    {
+     "name": "BPS",
+     "jac": 0.5,
+     "path": "work/official26/com/github/epsilon/elements/impl/BPS.java"
+    },
+    {
+     "name": "MixinGui",
+     "jac": 0.333,
+     "path": "work/official26/com/github/epsilon/mixins/MixinGui.java"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,77 @@
+{
+ "batch": "F009",
+ "n": 3,
+ "classes": [
+  {
+   "obf": "ed",
+   "is_module": true,
+   "lines": 284,
+   "cands": [
+    {
+     "name": "MixinLocalPlayer",
+     "jac": 0.167,
+     "path": "work/official26/com/github/epsilon/mixins/MixinLocalPlayer.java"
+    },
+    {
+     "name": "MixinMinecraft",
+     "jac": 0.125,
+     "path": "work/official26/com/github/epsilon/mixins/MixinMinecraft.java"
+    },
+    {
+     "name": "MixinItemInHandRenderer",
+     "jac": 0.111,
+     "path": "work/official26/com/github/epsilon/mixins/MixinItemInHandRenderer.java"
+    }
+   ]
+  },
+  {
+   "obf": "o",
+   "is_module": true,
+   "lines": 281,
+   "cands": [
+    {
+     "name": "MixinLocalPlayer",
+     "jac": 0.167,
+     "path": "work/official26/com/github/epsilon/mixins/MixinLocalPlayer.java"
+    },
+    {
+     "name": "MixinMinecraft",
+     "jac": 0.125,
+     "path": "work/official26/com/github/epsilon/mixins/MixinMinecraft.java"
+    },
+    {
+     "name": "MixinItemInHandRenderer",
+     "jac": 0.111,
+     "path": "work/official26/com/github/epsilon/mixins/MixinItemInHandRenderer.java"
+    }
+   ]
+  },
+  {
+   "obf": "T",
+   "is_module": true,
+   "lines": 3625,
+   "cands": [
+    {
+     "name": "MixinPlayer",
+     "jac": 0.167,
+     "path": "work/official26/com/github/epsilon/mixins/MixinPlayer.java"
+    },
+    {
+     "name": "ESP2D",
+     "jac": 0.158,
+     "path": "work/official26/com/github/epsilon/modules/impl/render/ESP2D.java"
+    },
+    {
+     "name": "RotationUtils",
+     "jac": 0.154,
+     "path": "work/official26/com/github/epsilon/utils/rotation/RotationUtils.java"
+    },
+    {
+     "name": "MixinMinecraft",
+     "jac": 0.136,
+     "path": "work/official26/com/github/epsilon/mixins/MixinMinecraft.java"
+    }
+   ]
+  }
+ ]
+}

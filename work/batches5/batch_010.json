@@ -1,0 +1,82 @@
+{
+ "batch": "F010",
+ "n": 3,
+ "classes": [
+  {
+   "obf": "uG",
+   "is_module": true,
+   "lines": 971,
+   "cands": [
+    {
+     "name": "MixinLocalPlayer",
+     "jac": 0.167,
+     "path": "work/official26/com/github/epsilon/mixins/MixinLocalPlayer.java"
+    },
+    {
+     "name": "MixinMinecraft",
+     "jac": 0.125,
+     "path": "work/official26/com/github/epsilon/mixins/MixinMinecraft.java"
+    },
+    {
+     "name": "MixinItemInHandRenderer",
+     "jac": 0.111,
+     "path": "work/official26/com/github/epsilon/mixins/MixinItemInHandRenderer.java"
+    }
+   ]
+  },
+  {
+   "obf": "f",
+   "is_module": true,
+   "lines": 1881,
+   "cands": [
+    {
+     "name": "MixinItem",
+     "jac": 0.154,
+     "path": "work/official26/com/github/epsilon/mixins/MixinItem.java"
+    },
+    {
+     "name": "MixinCapeLayer",
+     "jac": 0.133,
+     "path": "work/official26/com/github/epsilon/mixins/MixinCapeLayer.java"
+    },
+    {
+     "name": "MixinLivingEntityRenderer",
+     "jac": 0.125,
+     "path": "work/official26/com/github/epsilon/mixins/MixinLivingEntityRenderer.java"
+    },
+    {
+     "name": "MixinEquipmentLayerRenderer",
+     "jac": 0.105,
+     "path": "work/official26/com/github/epsilon/mixins/MixinEquipmentLayerRenderer.java"
+    }
+   ]
+  },
+  {
+   "obf": "ex",
+   "is_module": true,
+   "lines": 316,
+   "cands": [
+    {
+     "name": "MixinLocalPlayer",
+     "jac": 0.143,
+     "path": "work/official26/com/github/epsilon/mixins/MixinLocalPlayer.java"
+    },
+    {
+     "name": "MixinMinecraft",
+     "jac": 0.111,
+     "path": "work/official26/com/github/epsilon/mixins/MixinMinecraft.java"
+    },
+    {
+     "name": "MixinItemInHandRenderer",
+     "jac": 0.1,
+     "path": "work/official26/com/github/epsilon/mixins/MixinItemInHandRenderer.java"
+    },
+    {
+     "name": "Stealer",
+     "jac": 0.067,
+     "path": "work/official26/com/github/epsilon/modules/impl/player/Stealer.java"
+    }
+   ]
+  }
+ ]
+}

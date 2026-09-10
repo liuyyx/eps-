@@ -1,0 +1,24 @@
+{
+ "batch": "F062",
+ "n": 3,
+ "classes": [
+  {
+   "obf": "gu",
+   "is_module": false,
+   "lines": 237,
+   "cands": []
+  },
+  {
+   "obf": "gX",
+   "is_module": false,
+   "lines": 15,
+   "cands": []
+  },
+  {
+   "obf": "gY",
+   "is_module": false,
+   "lines": 14,
+   "cands": []
+  }
+ ]
+}

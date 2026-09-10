@@ -1,0 +1,57 @@
+{
+ "batch": "F037",
+ "n": 3,
+ "classes": [
+  {
+   "obf": "l0",
+   "is_module": false,
+   "lines": 1183,
+   "cands": [
+    {
+     "name": "MixinBlockCollisions",
+     "jac": 0.2,
+     "path": "work/official26/com/github/epsilon/mixins/MixinBlockCollisions.java"
+    },
+    {
+     "name": "MixinScreenEffectRenderer",
+     "jac": 0.182,
+     "path": "work/official26/com/github/epsilon/mixins/MixinScreenEffectRenderer.java"
+    },
+    {
+     "name": "MixinWebBlock",
+     "jac": 0.167,
+     "path": "work/official26/com/github/epsilon/mixins/MixinWebBlock.java"
+    },
+    {
+     "name": "MixinItemInHandRenderer",
+     "jac": 0.133,
+     "path": "work/official26/com/github/epsilon/mixins/MixinItemInHandRenderer.java"
+    }
+   ]
+  },
+  {
+   "obf": "uu",
+   "is_module": false,
+   "lines": 65,
+   "cands": [
+    {
+     "name": "ESP2D",
+     "jac": 0.2,
+     "path": "work/official26/com/github/epsilon/modules/impl/render/ESP2D.java"
+    }
+   ]
+  },
+  {
+   "obf": "uY",
+   "is_module": false,
+   "lines": 95,
+   "cands": [
+    {
+     "name": "ESP2D",
+     "jac": 0.2,
+     "path": "work/official26/com/github/epsilon/modules/impl/render/ESP2D.java"
+    }
+   ]
+  }
+ ]
+}

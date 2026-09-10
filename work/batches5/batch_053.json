@@ -1,0 +1,24 @@
+{
+ "batch": "F053",
+ "n": 3,
+ "classes": [
+  {
+   "obf": "Dz",
+   "is_module": false,
+   "lines": 12,
+   "cands": []
+  },
+  {
+   "obf": "dZ",
+   "is_module": false,
+   "lines": 59,
+   "cands": []
+  },
+  {
+   "obf": "g0",
+   "is_module": false,
+   "lines": 30,
+   "cands": []
+  }
+ ]
+}

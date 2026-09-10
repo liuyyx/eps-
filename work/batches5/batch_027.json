@@ -1,0 +1,87 @@
+{
+ "batch": "F027",
+ "n": 3,
+ "classes": [
+  {
+   "obf": "uf",
+   "is_module": false,
+   "lines": 931,
+   "cands": [
+    {
+     "name": "MixinClientLevel",
+     "jac": 0.5,
+     "path": "work/official26/com/github/epsilon/mixins/MixinClientLevel.java"
+    },
+    {
+     "name": "RotationUtils",
+     "jac": 0.333,
+     "path": "work/official26/com/github/epsilon/utils/rotation/RotationUtils.java"
+    },
+    {
+     "name": "MixinWebBlock",
+     "jac": 0.3,
+     "path": "work/official26/com/github/epsilon/mixins/MixinWebBlock.java"
+    },
+    {
+     "name": "MixinEntity",
+     "jac": 0.286,
+     "path": "work/official26/com/github/epsilon/mixins/MixinEntity.java"
+    }
+   ]
+  },
+  {
+   "obf": "yd",
+   "is_module": false,
+   "lines": 31,
+   "cands": [
+    {
+     "name": "KeepSprint",
+     "jac": 0.5,
+     "path": "work/official26/com/github/epsilon/modules/impl/movement/KeepSprint.java"
+    },
+    {
+     "name": "MixinLivingEntity",
+     "jac": 0.333,
+     "path": "work/official26/com/github/epsilon/mixins/MixinLivingEntity.java"
+    },
+    {
+     "name": "MixinEntity",
+     "jac": 0.333,
+     "path": "work/official26/com/github/epsilon/mixins/MixinEntity.java"
+    },
+    {
+     "name": "MixinFireworkRocketEntity",
+     "jac": 0.25,
+     "path": "work/official26/com/github/epsilon/mixins/MixinFireworkRocketEntity.java"
+    }
+   ]
+  },
+  {
+   "obf": "yl",
+   "is_module": false,
+   "lines": 67,
+   "cands": [
+    {
+     "name": "MixinVisGraph",
+     "jac": 0.5,
+     "path": "work/official26/com/github/epsilon/mixins/MixinVisGraph.java"
+    },
+    {
+     "name": "MixinBlockCollisions",
+     "jac": 0.25,
+     "path": "work/official26/com/github/epsilon/mixins/MixinBlockCollisions.java"
+    },
+    {
+     "name": "MixinMultiPlayerGameMode",
+     "jac": 0.2,
+     "path": "work/official26/com/github/epsilon/mixins/MixinMultiPlayerGameMode.java"
+    },
+    {
+     "name": "MixinClientLevel",
+     "jac": 0.2,
+     "path": "work/official26/com/github/epsilon/mixins/MixinClientLevel.java"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,82 @@
+{
+ "batch": "F008",
+ "n": 3,
+ "classes": [
+  {
+   "obf": "eS",
+   "is_module": true,
+   "lines": 1183,
+   "cands": [
+    {
+     "name": "MixinWebBlock",
+     "jac": 0.2,
+     "path": "work/official26/com/github/epsilon/mixins/MixinWebBlock.java"
+    },
+    {
+     "name": "MixinVisGraph",
+     "jac": 0.143,
+     "path": "work/official26/com/github/epsilon/mixins/MixinVisGraph.java"
+    },
+    {
+     "name": "MixinBlockCollisions",
+     "jac": 0.111,
+     "path": "work/official26/com/github/epsilon/mixins/MixinBlockCollisions.java"
+    },
+    {
+     "name": "MixinMultiPlayerGameMode",
+     "jac": 0.1,
+     "path": "work/official26/com/github/epsilon/mixins/MixinMultiPlayerGameMode.java"
+    }
+   ]
+  },
+  {
+   "obf": "q",
+   "is_module": true,
+   "lines": 2907,
+   "cands": [
+    {
+     "name": "MixinMinecraft",
+     "jac": 0.179,
+     "path": "work/official26/com/github/epsilon/mixins/MixinMinecraft.java"
+    },
+    {
+     "name": "InteractionUtils",
+     "jac": 0.161,
+     "path": "work/official26/com/github/epsilon/utils/player/InteractionUtils.java"
+    },
+    {
+     "name": "MixinClientLevel",
+     "jac": 0.154,
+     "path": "work/official26/com/github/epsilon/mixins/MixinClientLevel.java"
+    },
+    {
+     "name": "RotationUtils",
+     "jac": 0.152,
+     "path": "work/official26/com/github/epsilon/utils/rotation/RotationUtils.java"
+    }
+   ]
+  },
+  {
+   "obf": "b",
+   "is_module": true,
+   "lines": 294,
+   "cands": [
+    {
+     "name": "MixinLocalPlayer",
+     "jac": 0.167,
+     "path": "work/official26/com/github/epsilon/mixins/MixinLocalPlayer.java"
+    },
+    {
+     "name": "MixinMinecraft",
+     "jac": 0.125,
+     "path": "work/official26/com/github/epsilon/mixins/MixinMinecraft.java"
+    },
+    {
+     "name": "MixinItemInHandRenderer",
+     "jac": 0.111,
+     "path": "work/official26/com/github/epsilon/mixins/MixinItemInHandRenderer.java"
+    }
+   ]
+  }
+ ]
+}

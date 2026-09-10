@@ -1,0 +1,24 @@
+{
+ "batch": "F040",
+ "n": 3,
+ "classes": [
+  {
+   "obf": "d0",
+   "is_module": false,
+   "lines": 735,
+   "cands": []
+  },
+  {
+   "obf": "D1",
+   "is_module": false,
+   "lines": 391,
+   "cands": []
+  },
+  {
+   "obf": "D4",
+   "is_module": false,
+   "lines": 20,
+   "cands": []
+  }
+ ]
+}

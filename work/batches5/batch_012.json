@@ -1,0 +1,24 @@
+{
+ "batch": "F012",
+ "n": 3,
+ "classes": [
+  {
+   "obf": "eC",
+   "is_module": true,
+   "lines": 922,
+   "cands": []
+  },
+  {
+   "obf": "ee",
+   "is_module": true,
+   "lines": 517,
+   "cands": []
+  },
+  {
+   "obf": "ep",
+   "is_module": true,
+   "lines": 1024,
+   "cands": []
+  }
+ ]
+}

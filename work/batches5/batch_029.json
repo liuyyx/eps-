@@ -1,0 +1,87 @@
+{
+ "batch": "F029",
+ "n": 3,
+ "classes": [
+  {
+   "obf": "_q",
+   "is_module": false,
+   "lines": 1469,
+   "cands": [
+    {
+     "name": "RotationUtils",
+     "jac": 0.5,
+     "path": "work/official26/com/github/epsilon/utils/rotation/RotationUtils.java"
+    },
+    {
+     "name": "MixinMinecraft",
+     "jac": 0.267,
+     "path": "work/official26/com/github/epsilon/mixins/MixinMinecraft.java"
+    },
+    {
+     "name": "MixinMultiPlayerGameMode",
+     "jac": 0.231,
+     "path": "work/official26/com/github/epsilon/mixins/MixinMultiPlayerGameMode.java"
+    },
+    {
+     "name": "MixinClientLevel",
+     "jac": 0.231,
+     "path": "work/official26/com/github/epsilon/mixins/MixinClientLevel.java"
+    }
+   ]
+  },
+  {
+   "obf": "uZ",
+   "is_module": false,
+   "lines": 1451,
+   "cands": [
+    {
+     "name": "RotationUtils",
+     "jac": 0.444,
+     "path": "work/official26/com/github/epsilon/utils/rotation/RotationUtils.java"
+    },
+    {
+     "name": "MixinClientLevel",
+     "jac": 0.286,
+     "path": "work/official26/com/github/epsilon/mixins/MixinClientLevel.java"
+    },
+    {
+     "name": "InteractionUtils",
+     "jac": 0.263,
+     "path": "work/official26/com/github/epsilon/utils/player/InteractionUtils.java"
+    },
+    {
+     "name": "MixinMultiPlayerGameMode",
+     "jac": 0.2,
+     "path": "work/official26/com/github/epsilon/mixins/MixinMultiPlayerGameMode.java"
+    }
+   ]
+  },
+  {
+   "obf": "_n",
+   "is_module": false,
+   "lines": 835,
+   "cands": [
+    {
+     "name": "MixinPlayer",
+     "jac": 0.429,
+     "path": "work/official26/com/github/epsilon/mixins/MixinPlayer.java"
+    },
+    {
+     "name": "MixinItem",
+     "jac": 0.375,
+     "path": "work/official26/com/github/epsilon/mixins/MixinItem.java"
+    },
+    {
+     "name": "MixinEntity",
+     "jac": 0.333,
+     "path": "work/official26/com/github/epsilon/mixins/MixinEntity.java"
+    },
+    {
+     "name": "MixinMultiPlayerGameMode",
+     "jac": 0.222,
+     "path": "work/official26/com/github/epsilon/mixins/MixinMultiPlayerGameMode.java"
+    }
+   ]
+  }
+ ]
+}

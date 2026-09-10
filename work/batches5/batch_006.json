@@ -1,0 +1,87 @@
+{
+ "batch": "F006",
+ "n": 3,
+ "classes": [
+  {
+   "obf": "up",
+   "is_module": true,
+   "lines": 3572,
+   "cands": [
+    {
+     "name": "Stealer",
+     "jac": 0.304,
+     "path": "work/official26/com/github/epsilon/modules/impl/player/Stealer.java"
+    },
+    {
+     "name": "NoSlow",
+     "jac": 0.08,
+     "path": "work/official26/com/github/epsilon/modules/impl/movement/NoSlow.java"
+    },
+    {
+     "name": "InteractionUtils",
+     "jac": 0.08,
+     "path": "work/official26/com/github/epsilon/utils/player/InteractionUtils.java"
+    },
+    {
+     "name": "Stuck",
+     "jac": 0.053,
+     "path": "work/official26/com/github/epsilon/modules/impl/movement/Stuck.java"
+    }
+   ]
+  },
+  {
+   "obf": "uv",
+   "is_module": true,
+   "lines": 1452,
+   "cands": [
+    {
+     "name": "MixinMinecraft",
+     "jac": 0.3,
+     "path": "work/official26/com/github/epsilon/mixins/MixinMinecraft.java"
+    },
+    {
+     "name": "MixinLocalPlayer",
+     "jac": 0.222,
+     "path": "work/official26/com/github/epsilon/mixins/MixinLocalPlayer.java"
+    },
+    {
+     "name": "FindItemResult",
+     "jac": 0.2,
+     "path": "work/official26/com/github/epsilon/utils/player/FindItemResult.java"
+    },
+    {
+     "name": "MixinItemInHandRenderer",
+     "jac": 0.167,
+     "path": "work/official26/com/github/epsilon/mixins/MixinItemInHandRenderer.java"
+    }
+   ]
+  },
+  {
+   "obf": "G",
+   "is_module": true,
+   "lines": 2138,
+   "cands": [
+    {
+     "name": "MixinLivingEntity",
+     "jac": 0.286,
+     "path": "work/official26/com/github/epsilon/mixins/MixinLivingEntity.java"
+    },
+    {
+     "name": "RotationUtils",
+     "jac": 0.25,
+     "path": "work/official26/com/github/epsilon/utils/rotation/RotationUtils.java"
+    },
+    {
+     "name": "MixinFireworkRocketEntity",
+     "jac": 0.25,
+     "path": "work/official26/com/github/epsilon/mixins/MixinFireworkRocketEntity.java"
+    },
+    {
+     "name": "MixinPlayer",
+     "jac": 0.222,
+     "path": "work/official26/com/github/epsilon/mixins/MixinPlayer.java"
+    }
+   ]
+  }
+ ]
+}

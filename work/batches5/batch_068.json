@@ -1,0 +1,24 @@
+{
+ "batch": "F068",
+ "n": 3,
+ "classes": [
+  {
+   "obf": "ik",
+   "is_module": false,
+   "lines": 22,
+   "cands": []
+  },
+  {
+   "obf": "im",
+   "is_module": false,
+   "lines": 147,
+   "cands": []
+  },
+  {
+   "obf": "in",
+   "is_module": false,
+   "lines": 528,
+   "cands": []
+  }
+ ]
+}

@@ -1,0 +1,87 @@
+{
+ "batch": "F023",
+ "n": 3,
+ "classes": [
+  {
+   "obf": "ls",
+   "is_module": false,
+   "lines": 651,
+   "cands": [
+    {
+     "name": "EpsilonFontMetrics",
+     "jac": 0.667,
+     "path": "work/official26/com/github/epsilon/graphics/text/minecraft/EpsilonFontMetrics.java"
+    },
+    {
+     "name": "UiTree",
+     "jac": 0.2,
+     "path": "work/official26/com/github/epsilon/gui/lib/UiTree.java"
+    },
+    {
+     "name": "TtfFontLoader",
+     "jac": 0.2,
+     "path": "work/official26/com/github/epsilon/graphics/text/ttf/TtfFontLoader.java"
+    },
+    {
+     "name": "TtfFontFile",
+     "jac": 0.2,
+     "path": "work/official26/com/github/epsilon/graphics/text/ttf/TtfFontFile.java"
+    }
+   ]
+  },
+  {
+   "obf": "_9",
+   "is_module": false,
+   "lines": 64,
+   "cands": [
+    {
+     "name": "MixinEntity",
+     "jac": 0.667,
+     "path": "work/official26/com/github/epsilon/mixins/MixinEntity.java"
+    },
+    {
+     "name": "MixinPlayer",
+     "jac": 0.4,
+     "path": "work/official26/com/github/epsilon/mixins/MixinPlayer.java"
+    },
+    {
+     "name": "MixinClientLevel",
+     "jac": 0.333,
+     "path": "work/official26/com/github/epsilon/mixins/MixinClientLevel.java"
+    },
+    {
+     "name": "MixinCamera",
+     "jac": 0.333,
+     "path": "work/official26/com/github/epsilon/mixins/MixinCamera.java"
+    }
+   ]
+  },
+  {
+   "obf": "OT",
+   "is_module": false,
+   "lines": 2209,
+   "cands": [
+    {
+     "name": "EpsilonGuiRenderer",
+     "jac": 0.586,
+     "path": "work/official26/com/github/epsilon/utils/render/EpsilonGuiRenderer.java"
+    },
+    {
+     "name": "MixinGuiRenderer",
+     "jac": 0.1,
+     "path": "work/official26/com/github/epsilon/mixins/MixinGuiRenderer.java"
+    },
+    {
+     "name": "UiTree",
+     "jac": 0.056,
+     "path": "work/official26/com/github/epsilon/gui/lib/UiTree.java"
+    },
+    {
+     "name": "TtfFontLoader",
+     "jac": 0.056,
+     "path": "work/official26/com/github/epsilon/graphics/text/ttf/TtfFontLoader.java"
+    }
+   ]
+  }
+ ]
+}

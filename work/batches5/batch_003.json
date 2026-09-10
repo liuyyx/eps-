@@ -1,0 +1,87 @@
+{
+ "batch": "F003",
+ "n": 3,
+ "classes": [
+  {
+   "obf": "eq",
+   "is_module": true,
+   "lines": 7528,
+   "cands": [
+    {
+     "name": "RotationUtils",
+     "jac": 0.368,
+     "path": "work/official26/com/github/epsilon/utils/rotation/RotationUtils.java"
+    },
+    {
+     "name": "MixinLocalPlayer",
+     "jac": 0.267,
+     "path": "work/official26/com/github/epsilon/mixins/MixinLocalPlayer.java"
+    },
+    {
+     "name": "InteractionUtils",
+     "jac": 0.263,
+     "path": "work/official26/com/github/epsilon/utils/player/InteractionUtils.java"
+    },
+    {
+     "name": "MixinClientLevel",
+     "jac": 0.2,
+     "path": "work/official26/com/github/epsilon/mixins/MixinClientLevel.java"
+    }
+   ]
+  },
+  {
+   "obf": "z",
+   "is_module": true,
+   "lines": 940,
+   "cands": [
+    {
+     "name": "MixinMinecraft",
+     "jac": 0.364,
+     "path": "work/official26/com/github/epsilon/mixins/MixinMinecraft.java"
+    },
+    {
+     "name": "MixinMultiPlayerGameMode",
+     "jac": 0.333,
+     "path": "work/official26/com/github/epsilon/mixins/MixinMultiPlayerGameMode.java"
+    },
+    {
+     "name": "ESP2D",
+     "jac": 0.333,
+     "path": "work/official26/com/github/epsilon/modules/impl/render/ESP2D.java"
+    },
+    {
+     "name": "MixinLivingEntityRenderer",
+     "jac": 0.25,
+     "path": "work/official26/com/github/epsilon/mixins/MixinLivingEntityRenderer.java"
+    }
+   ]
+  },
+  {
+   "obf": "A",
+   "is_module": true,
+   "lines": 2312,
+   "cands": [
+    {
+     "name": "MixinClientLevel",
+     "jac": 0.333,
+     "path": "work/official26/com/github/epsilon/mixins/MixinClientLevel.java"
+    },
+    {
+     "name": "MixinVisGraph",
+     "jac": 0.25,
+     "path": "work/official26/com/github/epsilon/mixins/MixinVisGraph.java"
+    },
+    {
+     "name": "MixinGustSeedParticle",
+     "jac": 0.2,
+     "path": "work/official26/com/github/epsilon/mixins/MixinGustSeedParticle.java"
+    },
+    {
+     "name": "MixinBlock",
+     "jac": 0.2,
+     "path": "work/official26/com/github/epsilon/mixins/MixinBlock.java"
+    }
+   ]
+  }
+ ]
+}

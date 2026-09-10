@@ -1,0 +1,87 @@
+{
+ "batch": "F018",
+ "n": 3,
+ "classes": [
+  {
+   "obf": "OE",
+   "is_module": false,
+   "lines": 659,
+   "cands": [
+    {
+     "name": "UiTree",
+     "jac": 1.0,
+     "path": "work/official26/com/github/epsilon/gui/lib/UiTree.java"
+    },
+    {
+     "name": "TtfFontLoader",
+     "jac": 1.0,
+     "path": "work/official26/com/github/epsilon/graphics/text/ttf/TtfFontLoader.java"
+    },
+    {
+     "name": "TtfFontFile",
+     "jac": 1.0,
+     "path": "work/official26/com/github/epsilon/graphics/text/ttf/TtfFontFile.java"
+    },
+    {
+     "name": "TextureCacheHolder",
+     "jac": 1.0,
+     "path": "work/official26/com/github/epsilon/holders/TextureCacheHolder.java"
+    }
+   ]
+  },
+  {
+   "obf": "Oe",
+   "is_module": false,
+   "lines": 105,
+   "cands": [
+    {
+     "name": "UiTree",
+     "jac": 1.0,
+     "path": "work/official26/com/github/epsilon/gui/lib/UiTree.java"
+    },
+    {
+     "name": "TtfFontLoader",
+     "jac": 1.0,
+     "path": "work/official26/com/github/epsilon/graphics/text/ttf/TtfFontLoader.java"
+    },
+    {
+     "name": "TtfFontFile",
+     "jac": 1.0,
+     "path": "work/official26/com/github/epsilon/graphics/text/ttf/TtfFontFile.java"
+    },
+    {
+     "name": "TextureCacheHolder",
+     "jac": 1.0,
+     "path": "work/official26/com/github/epsilon/holders/TextureCacheHolder.java"
+    }
+   ]
+  },
+  {
+   "obf": "ug",
+   "is_module": false,
+   "lines": 67,
+   "cands": [
+    {
+     "name": "UiTree",
+     "jac": 1.0,
+     "path": "work/official26/com/github/epsilon/gui/lib/UiTree.java"
+    },
+    {
+     "name": "TtfFontLoader",
+     "jac": 1.0,
+     "path": "work/official26/com/github/epsilon/graphics/text/ttf/TtfFontLoader.java"
+    },
+    {
+     "name": "TtfFontFile",
+     "jac": 1.0,
+     "path": "work/official26/com/github/epsilon/graphics/text/ttf/TtfFontFile.java"
+    },
+    {
+     "name": "TextureCacheHolder",
+     "jac": 1.0,
+     "path": "work/official26/com/github/epsilon/holders/TextureCacheHolder.java"
+    }
+   ]
+  }
+ ]
+}

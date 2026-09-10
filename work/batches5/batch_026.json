@@ -1,0 +1,87 @@
+{
+ "batch": "F026",
+ "n": 3,
+ "classes": [
+  {
+   "obf": "O7",
+   "is_module": false,
+   "lines": 84,
+   "cands": [
+    {
+     "name": "MixinLivingEntity",
+     "jac": 0.5,
+     "path": "work/official26/com/github/epsilon/mixins/MixinLivingEntity.java"
+    },
+    {
+     "name": "MixinFireworkRocketEntity",
+     "jac": 0.4,
+     "path": "work/official26/com/github/epsilon/mixins/MixinFireworkRocketEntity.java"
+    },
+    {
+     "name": "RotationUtils",
+     "jac": 0.308,
+     "path": "work/official26/com/github/epsilon/utils/rotation/RotationUtils.java"
+    },
+    {
+     "name": "MixinMultiPlayerGameMode",
+     "jac": 0.286,
+     "path": "work/official26/com/github/epsilon/mixins/MixinMultiPlayerGameMode.java"
+    }
+   ]
+  },
+  {
+   "obf": "Ol",
+   "is_module": false,
+   "lines": 80,
+   "cands": [
+    {
+     "name": "MixinSodiumAbstractBlockRenderContext",
+     "jac": 0.5,
+     "path": "work/official26/com/github/epsilon/fabric/mixins/sodium/MixinSodiumAbstractBlockRenderContext.java"
+    },
+    {
+     "name": "MixinFlowingFluid",
+     "jac": 0.5,
+     "path": "work/official26/com/github/epsilon/mixins/MixinFlowingFluid.java"
+    },
+    {
+     "name": "MixinBlock",
+     "jac": 0.333,
+     "path": "work/official26/com/github/epsilon/mixins/MixinBlock.java"
+    },
+    {
+     "name": "MixinMultiPlayerGameMode",
+     "jac": 0.2,
+     "path": "work/official26/com/github/epsilon/mixins/MixinMultiPlayerGameMode.java"
+    }
+   ]
+  },
+  {
+   "obf": "Oz",
+   "is_module": false,
+   "lines": 24,
+   "cands": [
+    {
+     "name": "MixinVisGraph",
+     "jac": 0.5,
+     "path": "work/official26/com/github/epsilon/mixins/MixinVisGraph.java"
+    },
+    {
+     "name": "MixinBlockCollisions",
+     "jac": 0.25,
+     "path": "work/official26/com/github/epsilon/mixins/MixinBlockCollisions.java"
+    },
+    {
+     "name": "MixinMultiPlayerGameMode",
+     "jac": 0.2,
+     "path": "work/official26/com/github/epsilon/mixins/MixinMultiPlayerGameMode.java"
+    },
+    {
+     "name": "MixinClientLevel",
+     "jac": 0.2,
+     "path": "work/official26/com/github/epsilon/mixins/MixinClientLevel.java"
+    }
+   ]
+  }
+ ]
+}

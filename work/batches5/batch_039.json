@@ -1,0 +1,66 @@
+{
+ "batch": "F039",
+ "n": 3,
+ "classes": [
+  {
+   "obf": "_R",
+   "is_module": false,
+   "lines": 2128,
+   "cands": [
+    {
+     "name": "MixinLocalPlayer",
+     "jac": 0.143,
+     "path": "work/official26/com/github/epsilon/mixins/MixinLocalPlayer.java"
+    },
+    {
+     "name": "MixinMinecraft",
+     "jac": 0.111,
+     "path": "work/official26/com/github/epsilon/mixins/MixinMinecraft.java"
+    },
+    {
+     "name": "MixinItemInHandRenderer",
+     "jac": 0.1,
+     "path": "work/official26/com/github/epsilon/mixins/MixinItemInHandRenderer.java"
+    },
+    {
+     "name": "MixinClientPacketListener",
+     "jac": 0.056,
+     "path": "work/official26/com/github/epsilon/mixins/MixinClientPacketListener.java"
+    }
+   ]
+  },
+  {
+   "obf": "nV",
+   "is_module": false,
+   "lines": 738,
+   "cands": [
+    {
+     "name": "Constants",
+     "jac": 0.1,
+     "path": "work/official26/com/github/epsilon/Constants.java"
+    },
+    {
+     "name": "TtfGlyphAtlas",
+     "jac": 0.083,
+     "path": "work/official26/com/github/epsilon/graphics/text/ttf/TtfGlyphAtlas.java"
+    },
+    {
+     "name": "MixinChunkBorderRenderer",
+     "jac": 0.077,
+     "path": "work/official26/com/github/epsilon/mixins/MixinChunkBorderRenderer.java"
+    },
+    {
+     "name": "MixinGameRenderer",
+     "jac": 0.067,
+     "path": "work/official26/com/github/epsilon/mixins/MixinGameRenderer.java"
+    }
+   ]
+  },
+  {
+   "obf": "bo",
+   "is_module": false,
+   "lines": 2299,
+   "cands": []
+  }
+ ]
+}

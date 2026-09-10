@@ -1,0 +1,82 @@
+{
+ "batch": "F038",
+ "n": 3,
+ "classes": [
+  {
+   "obf": "y2",
+   "is_module": false,
+   "lines": 65,
+   "cands": [
+    {
+     "name": "MixinGlyphRenderState",
+     "jac": 0.2,
+     "path": "work/official26/com/github/epsilon/mixins/MixinGlyphRenderState.java"
+    },
+    {
+     "name": "MixinRenderTypeFeatureRenderer",
+     "jac": 0.143,
+     "path": "work/official26/com/github/epsilon/mixins/MixinRenderTypeFeatureRenderer.java"
+    },
+    {
+     "name": "EpsilonGuiRenderer",
+     "jac": 0.107,
+     "path": "work/official26/com/github/epsilon/utils/render/EpsilonGuiRenderer.java"
+    }
+   ]
+  },
+  {
+   "obf": "_v",
+   "is_module": false,
+   "lines": 403,
+   "cands": [
+    {
+     "name": "MixinLivingEntity",
+     "jac": 0.2,
+     "path": "work/official26/com/github/epsilon/mixins/MixinLivingEntity.java"
+    },
+    {
+     "name": "MixinFireworkRocketEntity",
+     "jac": 0.167,
+     "path": "work/official26/com/github/epsilon/mixins/MixinFireworkRocketEntity.java"
+    },
+    {
+     "name": "MixinHumanoidMobRenderer",
+     "jac": 0.143,
+     "path": "work/official26/com/github/epsilon/mixins/MixinHumanoidMobRenderer.java"
+    },
+    {
+     "name": "MixinEntityRenderer",
+     "jac": 0.143,
+     "path": "work/official26/com/github/epsilon/mixins/MixinEntityRenderer.java"
+    }
+   ]
+  },
+  {
+   "obf": "Om",
+   "is_module": false,
+   "lines": 2344,
+   "cands": [
+    {
+     "name": "RotationUtils",
+     "jac": 0.143,
+     "path": "work/official26/com/github/epsilon/utils/rotation/RotationUtils.java"
+    },
+    {
+     "name": "MixinItem",
+     "jac": 0.143,
+     "path": "work/official26/com/github/epsilon/mixins/MixinItem.java"
+    },
+    {
+     "name": "Stealer",
+     "jac": 0.089,
+     "path": "work/official26/com/github/epsilon/modules/impl/player/Stealer.java"
+    },
+    {
+     "name": "MixinPlayer",
+     "jac": 0.083,
+     "path": "work/official26/com/github/epsilon/mixins/MixinPlayer.java"
+    }
+   ]
+  }
+ ]
+}

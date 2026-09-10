@@ -1,0 +1,87 @@
+{
+ "batch": "F033",
+ "n": 3,
+ "classes": [
+  {
+   "obf": "nD",
+   "is_module": false,
+   "lines": 63,
+   "cands": [
+    {
+     "name": "MixinVisGraph",
+     "jac": 0.333,
+     "path": "work/official26/com/github/epsilon/mixins/MixinVisGraph.java"
+    },
+    {
+     "name": "MixinBlockCollisions",
+     "jac": 0.2,
+     "path": "work/official26/com/github/epsilon/mixins/MixinBlockCollisions.java"
+    },
+    {
+     "name": "MixinMultiPlayerGameMode",
+     "jac": 0.167,
+     "path": "work/official26/com/github/epsilon/mixins/MixinMultiPlayerGameMode.java"
+    },
+    {
+     "name": "MixinClientLevel",
+     "jac": 0.167,
+     "path": "work/official26/com/github/epsilon/mixins/MixinClientLevel.java"
+    }
+   ]
+  },
+  {
+   "obf": "u5",
+   "is_module": false,
+   "lines": 109,
+   "cands": [
+    {
+     "name": "MixinPlayer",
+     "jac": 0.333,
+     "path": "work/official26/com/github/epsilon/mixins/MixinPlayer.java"
+    },
+    {
+     "name": "MixinItem",
+     "jac": 0.286,
+     "path": "work/official26/com/github/epsilon/mixins/MixinItem.java"
+    },
+    {
+     "name": "MixinLivingEntity",
+     "jac": 0.2,
+     "path": "work/official26/com/github/epsilon/mixins/MixinLivingEntity.java"
+    },
+    {
+     "name": "MixinEntity",
+     "jac": 0.2,
+     "path": "work/official26/com/github/epsilon/mixins/MixinEntity.java"
+    }
+   ]
+  },
+  {
+   "obf": "vu",
+   "is_module": false,
+   "lines": 61,
+   "cands": [
+    {
+     "name": "MixinSodiumAbstractBlockRenderContext",
+     "jac": 0.333,
+     "path": "work/official26/com/github/epsilon/fabric/mixins/sodium/MixinSodiumAbstractBlockRenderContext.java"
+    },
+    {
+     "name": "MixinFlowingFluid",
+     "jac": 0.333,
+     "path": "work/official26/com/github/epsilon/mixins/MixinFlowingFluid.java"
+    },
+    {
+     "name": "MixinBlock",
+     "jac": 0.25,
+     "path": "work/official26/com/github/epsilon/mixins/MixinBlock.java"
+    },
+    {
+     "name": "MixinMultiPlayerGameMode",
+     "jac": 0.167,
+     "path": "work/official26/com/github/epsilon/mixins/MixinMultiPlayerGameMode.java"
+    }
+   ]
+  }
+ ]
+}

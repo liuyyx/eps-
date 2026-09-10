@@ -1,0 +1,87 @@
+{
+ "batch": "F036",
+ "n": 3,
+ "classes": [
+  {
+   "obf": "lp",
+   "is_module": false,
+   "lines": 1065,
+   "cands": [
+    {
+     "name": "MixinMobEffectFogEnvironment",
+     "jac": 0.25,
+     "path": "work/official26/com/github/epsilon/mixins/MixinMobEffectFogEnvironment.java"
+    },
+    {
+     "name": "ESP2D",
+     "jac": 0.25,
+     "path": "work/official26/com/github/epsilon/modules/impl/render/ESP2D.java"
+    },
+    {
+     "name": "MixinLocalPlayer",
+     "jac": 0.222,
+     "path": "work/official26/com/github/epsilon/mixins/MixinLocalPlayer.java"
+    },
+    {
+     "name": "MixinMinecraft",
+     "jac": 0.182,
+     "path": "work/official26/com/github/epsilon/mixins/MixinMinecraft.java"
+    }
+   ]
+  },
+  {
+   "obf": "_i",
+   "is_module": false,
+   "lines": 392,
+   "cands": [
+    {
+     "name": "MixinMinecraft",
+     "jac": 0.25,
+     "path": "work/official26/com/github/epsilon/mixins/MixinMinecraft.java"
+    },
+    {
+     "name": "AutoFirework",
+     "jac": 0.222,
+     "path": "work/official26/com/github/epsilon/modules/impl/player/AutoFirework.java"
+    },
+    {
+     "name": "MixinLocalPlayer",
+     "jac": 0.182,
+     "path": "work/official26/com/github/epsilon/mixins/MixinLocalPlayer.java"
+    },
+    {
+     "name": "MixinChatComponentHash",
+     "jac": 0.167,
+     "path": "work/official26/com/github/epsilon/mixins/MixinChatComponentHash.java"
+    }
+   ]
+  },
+  {
+   "obf": "lc",
+   "is_module": false,
+   "lines": 4493,
+   "cands": [
+    {
+     "name": "EpsilonFontMetrics",
+     "jac": 0.231,
+     "path": "work/official26/com/github/epsilon/graphics/text/minecraft/EpsilonFontMetrics.java"
+    },
+    {
+     "name": "UiTree",
+     "jac": 0.091,
+     "path": "work/official26/com/github/epsilon/gui/lib/UiTree.java"
+    },
+    {
+     "name": "TtfFontLoader",
+     "jac": 0.091,
+     "path": "work/official26/com/github/epsilon/graphics/text/ttf/TtfFontLoader.java"
+    },
+    {
+     "name": "TtfFontFile",
+     "jac": 0.091,
+     "path": "work/official26/com/github/epsilon/graphics/text/ttf/TtfFontFile.java"
+    }
+   ]
+  }
+ ]
+}

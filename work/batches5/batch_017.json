@@ -1,0 +1,87 @@
+{
+ "batch": "F017",
+ "n": 3,
+ "classes": [
+  {
+   "obf": "n3",
+   "is_module": false,
+   "lines": 44,
+   "cands": [
+    {
+     "name": "MixinLivingEntity",
+     "jac": 1.0,
+     "path": "work/official26/com/github/epsilon/mixins/MixinLivingEntity.java"
+    },
+    {
+     "name": "MixinFireworkRocketEntity",
+     "jac": 0.667,
+     "path": "work/official26/com/github/epsilon/mixins/MixinFireworkRocketEntity.java"
+    },
+    {
+     "name": "MixinEntity",
+     "jac": 0.333,
+     "path": "work/official26/com/github/epsilon/mixins/MixinEntity.java"
+    },
+    {
+     "name": "MixinPlayer",
+     "jac": 0.2,
+     "path": "work/official26/com/github/epsilon/mixins/MixinPlayer.java"
+    }
+   ]
+  },
+  {
+   "obf": "nf",
+   "is_module": false,
+   "lines": 194,
+   "cands": [
+    {
+     "name": "UiTree",
+     "jac": 1.0,
+     "path": "work/official26/com/github/epsilon/gui/lib/UiTree.java"
+    },
+    {
+     "name": "TtfFontLoader",
+     "jac": 1.0,
+     "path": "work/official26/com/github/epsilon/graphics/text/ttf/TtfFontLoader.java"
+    },
+    {
+     "name": "TtfFontFile",
+     "jac": 1.0,
+     "path": "work/official26/com/github/epsilon/graphics/text/ttf/TtfFontFile.java"
+    },
+    {
+     "name": "TextureCacheHolder",
+     "jac": 1.0,
+     "path": "work/official26/com/github/epsilon/holders/TextureCacheHolder.java"
+    }
+   ]
+  },
+  {
+   "obf": "nK",
+   "is_module": false,
+   "lines": 2361,
+   "cands": [
+    {
+     "name": "UiTree",
+     "jac": 1.0,
+     "path": "work/official26/com/github/epsilon/gui/lib/UiTree.java"
+    },
+    {
+     "name": "TtfFontLoader",
+     "jac": 1.0,
+     "path": "work/official26/com/github/epsilon/graphics/text/ttf/TtfFontLoader.java"
+    },
+    {
+     "name": "TtfFontFile",
+     "jac": 1.0,
+     "path": "work/official26/com/github/epsilon/graphics/text/ttf/TtfFontFile.java"
+    },
+    {
+     "name": "TextureCacheHolder",
+     "jac": 1.0,
+     "path": "work/official26/com/github/epsilon/holders/TextureCacheHolder.java"
+    }
+   ]
+  }
+ ]
+}

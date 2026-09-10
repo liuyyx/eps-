@@ -1,0 +1,24 @@
+{
+ "batch": "F069",
+ "n": 3,
+ "classes": [
+  {
+   "obf": "iP",
+   "is_module": false,
+   "lines": 488,
+   "cands": []
+  },
+  {
+   "obf": "ip",
+   "is_module": false,
+   "lines": 278,
+   "cands": []
+  },
+  {
+   "obf": "iQ",
+   "is_module": false,
+   "lines": 20,
+   "cands": []
+  }
+ ]
+}

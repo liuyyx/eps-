@@ -1,0 +1,87 @@
+{
+ "batch": "F035",
+ "n": 3,
+ "classes": [
+  {
+   "obf": "yV",
+   "is_module": false,
+   "lines": 38,
+   "cands": [
+    {
+     "name": "MixinChestRenderer",
+     "jac": 0.308,
+     "path": "work/official26/com/github/epsilon/mixins/MixinChestRenderer.java"
+    },
+    {
+     "name": "MixinAvatarRenderer",
+     "jac": 0.25,
+     "path": "work/official26/com/github/epsilon/mixins/MixinAvatarRenderer.java"
+    },
+    {
+     "name": "MixinScreenEffectRenderer",
+     "jac": 0.222,
+     "path": "work/official26/com/github/epsilon/mixins/MixinScreenEffectRenderer.java"
+    },
+    {
+     "name": "MixinCapeLayer",
+     "jac": 0.182,
+     "path": "work/official26/com/github/epsilon/mixins/MixinCapeLayer.java"
+    }
+   ]
+  },
+  {
+   "obf": "us",
+   "is_module": false,
+   "lines": 1995,
+   "cands": [
+    {
+     "name": "MixinLocalPlayer",
+     "jac": 0.286,
+     "path": "work/official26/com/github/epsilon/mixins/MixinLocalPlayer.java"
+    },
+    {
+     "name": "InteractionUtils",
+     "jac": 0.278,
+     "path": "work/official26/com/github/epsilon/utils/player/InteractionUtils.java"
+    },
+    {
+     "name": "RotationUtils",
+     "jac": 0.25,
+     "path": "work/official26/com/github/epsilon/utils/rotation/RotationUtils.java"
+    },
+    {
+     "name": "MixinMinecraft",
+     "jac": 0.25,
+     "path": "work/official26/com/github/epsilon/mixins/MixinMinecraft.java"
+    }
+   ]
+  },
+  {
+   "obf": "ef",
+   "is_module": false,
+   "lines": 2397,
+   "cands": [
+    {
+     "name": "Watermark",
+     "jac": 0.25,
+     "path": "work/official26/com/github/epsilon/elements/impl/Watermark.java"
+    },
+    {
+     "name": "UiTree",
+     "jac": 0.25,
+     "path": "work/official26/com/github/epsilon/gui/lib/UiTree.java"
+    },
+    {
+     "name": "TtfFontLoader",
+     "jac": 0.25,
+     "path": "work/official26/com/github/epsilon/graphics/text/ttf/TtfFontLoader.java"
+    },
+    {
+     "name": "TtfFontFile",
+     "jac": 0.25,
+     "path": "work/official26/com/github/epsilon/graphics/text/ttf/TtfFontFile.java"
+    }
+   ]
+  }
+ ]
+}

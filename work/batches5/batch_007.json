@@ -1,0 +1,87 @@
+{
+ "batch": "F007",
+ "n": 3,
+ "classes": [
+  {
+   "obf": "h",
+   "is_module": true,
+   "lines": 2385,
+   "cands": [
+    {
+     "name": "MixinItem",
+     "jac": 0.25,
+     "path": "work/official26/com/github/epsilon/mixins/MixinItem.java"
+    },
+    {
+     "name": "MixinPlayer",
+     "jac": 0.188,
+     "path": "work/official26/com/github/epsilon/mixins/MixinPlayer.java"
+    },
+    {
+     "name": "RotationUtils",
+     "jac": 0.167,
+     "path": "work/official26/com/github/epsilon/utils/rotation/RotationUtils.java"
+    },
+    {
+     "name": "MixinItemInHandLayer",
+     "jac": 0.15,
+     "path": "work/official26/com/github/epsilon/mixins/MixinItemInHandLayer.java"
+    }
+   ]
+  },
+  {
+   "obf": "m",
+   "is_module": true,
+   "lines": 1525,
+   "cands": [
+    {
+     "name": "MixinWebBlock",
+     "jac": 0.25,
+     "path": "work/official26/com/github/epsilon/mixins/MixinWebBlock.java"
+    },
+    {
+     "name": "MixinMobEffectFogEnvironment",
+     "jac": 0.167,
+     "path": "work/official26/com/github/epsilon/mixins/MixinMobEffectFogEnvironment.java"
+    },
+    {
+     "name": "ESP2D",
+     "jac": 0.167,
+     "path": "work/official26/com/github/epsilon/modules/impl/render/ESP2D.java"
+    },
+    {
+     "name": "MixinMinecraft",
+     "jac": 0.133,
+     "path": "work/official26/com/github/epsilon/mixins/MixinMinecraft.java"
+    }
+   ]
+  },
+  {
+   "obf": "O",
+   "is_module": true,
+   "lines": 673,
+   "cands": [
+    {
+     "name": "AutoFirework",
+     "jac": 0.25,
+     "path": "work/official26/com/github/epsilon/modules/impl/player/AutoFirework.java"
+    },
+    {
+     "name": "MixinScreenEffectRenderer",
+     "jac": 0.2,
+     "path": "work/official26/com/github/epsilon/mixins/MixinScreenEffectRenderer.java"
+    },
+    {
+     "name": "MixinItemInHandLayer",
+     "jac": 0.125,
+     "path": "work/official26/com/github/epsilon/mixins/MixinItemInHandLayer.java"
+    },
+    {
+     "name": "MixinItemInHandRenderer",
+     "jac": 0.111,
+     "path": "work/official26/com/github/epsilon/mixins/MixinItemInHandRenderer.java"
+    }
+   ]
+  }
+ ]
+}

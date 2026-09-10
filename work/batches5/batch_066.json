@@ -1,0 +1,24 @@
+{
+ "batch": "F066",
+ "n": 3,
+ "classes": [
+  {
+   "obf": "ie",
+   "is_module": false,
+   "lines": 142,
+   "cands": []
+  },
+  {
+   "obf": "iF",
+   "is_module": false,
+   "lines": 35,
+   "cands": []
+  },
+  {
+   "obf": "iG",
+   "is_module": false,
+   "lines": 137,
+   "cands": []
+  }
+ ]
+}

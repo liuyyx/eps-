@@ -1,0 +1,87 @@
+{
+ "batch": "F004",
+ "n": 3,
+ "classes": [
+  {
+   "obf": "eP",
+   "is_module": true,
+   "lines": 1961,
+   "cands": [
+    {
+     "name": "MixinGuiManager",
+     "jac": 0.333,
+     "path": "work/official26/com/github/epsilon/mixins/MixinGuiManager.java"
+    },
+    {
+     "name": "MixinLocalPlayer",
+     "jac": 0.143,
+     "path": "work/official26/com/github/epsilon/mixins/MixinLocalPlayer.java"
+    },
+    {
+     "name": "MixinMinecraft",
+     "jac": 0.111,
+     "path": "work/official26/com/github/epsilon/mixins/MixinMinecraft.java"
+    },
+    {
+     "name": "MixinItemInHandRenderer",
+     "jac": 0.1,
+     "path": "work/official26/com/github/epsilon/mixins/MixinItemInHandRenderer.java"
+    }
+   ]
+  },
+  {
+   "obf": "n",
+   "is_module": true,
+   "lines": 203,
+   "cands": [
+    {
+     "name": "PacketEvent",
+     "jac": 0.333,
+     "path": "work/official26/com/github/epsilon/events/impl/PacketEvent.java"
+    },
+    {
+     "name": "MixinConnection",
+     "jac": 0.2,
+     "path": "work/official26/com/github/epsilon/mixins/MixinConnection.java"
+    },
+    {
+     "name": "Stuck",
+     "jac": 0.167,
+     "path": "work/official26/com/github/epsilon/modules/impl/movement/Stuck.java"
+    },
+    {
+     "name": "InteractionUtils",
+     "jac": 0.167,
+     "path": "work/official26/com/github/epsilon/utils/player/InteractionUtils.java"
+    }
+   ]
+  },
+  {
+   "obf": "p",
+   "is_module": true,
+   "lines": 3043,
+   "cands": [
+    {
+     "name": "RotationUtils",
+     "jac": 0.333,
+     "path": "work/official26/com/github/epsilon/utils/rotation/RotationUtils.java"
+    },
+    {
+     "name": "InteractionUtils",
+     "jac": 0.294,
+     "path": "work/official26/com/github/epsilon/utils/player/InteractionUtils.java"
+    },
+    {
+     "name": "MixinLocalPlayer",
+     "jac": 0.214,
+     "path": "work/official26/com/github/epsilon/mixins/MixinLocalPlayer.java"
+    },
+    {
+     "name": "MixinSodiumAbstractBlockRenderContext",
+     "jac": 0.182,
+     "path": "work/official26/com/github/epsilon/fabric/mixins/sodium/MixinSodiumAbstractBlockRenderContext.java"
+    }
+   ]
+  }
+ ]
+}

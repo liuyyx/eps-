@@ -1,0 +1,87 @@
+{
+ "batch": "F022",
+ "n": 3,
+ "classes": [
+  {
+   "obf": "_6",
+   "is_module": false,
+   "lines": 1014,
+   "cands": [
+    {
+     "name": "PanelPopupHost",
+     "jac": 1.0,
+     "path": "work/official26/com/github/epsilon/gui/panel/popup/PanelPopupHost.java"
+    },
+    {
+     "name": "FriendClientSettingTab",
+     "jac": 1.0,
+     "path": "work/official26/com/github/epsilon/gui/panel/view/settings/FriendClientSettingTab.java"
+    },
+    {
+     "name": "TopBarPanel",
+     "jac": 0.5,
+     "path": "work/official26/com/github/epsilon/gui/panel/view/TopBarPanel.java"
+    },
+    {
+     "name": "MessagePopup",
+     "jac": 0.5,
+     "path": "work/official26/com/github/epsilon/gui/panel/popup/MessagePopup.java"
+    }
+   ]
+  },
+  {
+   "obf": "gG",
+   "is_module": false,
+   "lines": 1531,
+   "cands": [
+    {
+     "name": "EpsilonFontGlyph",
+     "jac": 0.714,
+     "path": "work/official26/com/github/epsilon/graphics/text/minecraft/EpsilonFontGlyph.java"
+    },
+    {
+     "name": "CaptureMarkESP",
+     "jac": 0.231,
+     "path": "work/official26/com/github/epsilon/utils/render/esp/CaptureMarkESP.java"
+    },
+    {
+     "name": "EpsilonFontMetrics",
+     "jac": 0.222,
+     "path": "work/official26/com/github/epsilon/graphics/text/minecraft/EpsilonFontMetrics.java"
+    },
+    {
+     "name": "MixinCapeLayer",
+     "jac": 0.182,
+     "path": "work/official26/com/github/epsilon/mixins/MixinCapeLayer.java"
+    }
+   ]
+  },
+  {
+   "obf": "dh",
+   "is_module": false,
+   "lines": 1047,
+   "cands": [
+    {
+     "name": "EpsilonFontGlyph",
+     "jac": 0.667,
+     "path": "work/official26/com/github/epsilon/graphics/text/minecraft/EpsilonFontGlyph.java"
+    },
+    {
+     "name": "MixinGlyphRenderState",
+     "jac": 0.167,
+     "path": "work/official26/com/github/epsilon/mixins/MixinGlyphRenderState.java"
+    },
+    {
+     "name": "EpsilonFontMetrics",
+     "jac": 0.125,
+     "path": "work/official26/com/github/epsilon/graphics/text/minecraft/EpsilonFontMetrics.java"
+    },
+    {
+     "name": "MixinCapeLayer",
+     "jac": 0.1,
+     "path": "work/official26/com/github/epsilon/mixins/MixinCapeLayer.java"
+    }
+   ]
+  }
+ ]
+}

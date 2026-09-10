@@ -1,0 +1,87 @@
+{
+ "batch": "F025",
+ "n": 3,
+ "classes": [
+  {
+   "obf": "n4",
+   "is_module": false,
+   "lines": 1131,
+   "cands": [
+    {
+     "name": "Constants",
+     "jac": 0.5,
+     "path": "work/official26/com/github/epsilon/Constants.java"
+    },
+    {
+     "name": "TtfGlyphAtlas",
+     "jac": 0.25,
+     "path": "work/official26/com/github/epsilon/graphics/text/ttf/TtfGlyphAtlas.java"
+    },
+    {
+     "name": "PanelPopupHost",
+     "jac": 0.2,
+     "path": "work/official26/com/github/epsilon/gui/panel/popup/PanelPopupHost.java"
+    },
+    {
+     "name": "MixinChunkBorderRenderer",
+     "jac": 0.2,
+     "path": "work/official26/com/github/epsilon/mixins/MixinChunkBorderRenderer.java"
+    }
+   ]
+  },
+  {
+   "obf": "na",
+   "is_module": false,
+   "lines": 80,
+   "cands": [
+    {
+     "name": "MixinSodiumAbstractBlockRenderContext",
+     "jac": 0.5,
+     "path": "work/official26/com/github/epsilon/fabric/mixins/sodium/MixinSodiumAbstractBlockRenderContext.java"
+    },
+    {
+     "name": "MixinFlowingFluid",
+     "jac": 0.5,
+     "path": "work/official26/com/github/epsilon/mixins/MixinFlowingFluid.java"
+    },
+    {
+     "name": "MixinBlock",
+     "jac": 0.333,
+     "path": "work/official26/com/github/epsilon/mixins/MixinBlock.java"
+    },
+    {
+     "name": "MixinMultiPlayerGameMode",
+     "jac": 0.2,
+     "path": "work/official26/com/github/epsilon/mixins/MixinMultiPlayerGameMode.java"
+    }
+   ]
+  },
+  {
+   "obf": "O0",
+   "is_module": false,
+   "lines": 52,
+   "cands": [
+    {
+     "name": "TopBarPanel",
+     "jac": 0.5,
+     "path": "work/official26/com/github/epsilon/gui/panel/view/TopBarPanel.java"
+    },
+    {
+     "name": "MessagePopup",
+     "jac": 0.5,
+     "path": "work/official26/com/github/epsilon/gui/panel/popup/MessagePopup.java"
+    },
+    {
+     "name": "CategoryRailPanel",
+     "jac": 0.5,
+     "path": "work/official26/com/github/epsilon/gui/panel/view/CategoryRailPanel.java"
+    },
+    {
+     "name": "PanelPopupHost",
+     "jac": 0.25,
+     "path": "work/official26/com/github/epsilon/gui/panel/popup/PanelPopupHost.java"
+    }
+   ]
+  }
+ ]
+}

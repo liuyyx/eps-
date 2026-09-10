@@ -1,0 +1,87 @@
+{
+ "batch": "F005",
+ "n": 3,
+ "classes": [
+  {
+   "obf": "u3",
+   "is_module": true,
+   "lines": 1601,
+   "cands": [
+    {
+     "name": "MixinMultiPlayerGameMode",
+     "jac": 0.333,
+     "path": "work/official26/com/github/epsilon/mixins/MixinMultiPlayerGameMode.java"
+    },
+    {
+     "name": "MixinClientLevel",
+     "jac": 0.333,
+     "path": "work/official26/com/github/epsilon/mixins/MixinClientLevel.java"
+    },
+    {
+     "name": "MixinWebBlock",
+     "jac": 0.286,
+     "path": "work/official26/com/github/epsilon/mixins/MixinWebBlock.java"
+    },
+    {
+     "name": "MixinVisGraph",
+     "jac": 0.25,
+     "path": "work/official26/com/github/epsilon/mixins/MixinVisGraph.java"
+    }
+   ]
+  },
+  {
+   "obf": "ua",
+   "is_module": true,
+   "lines": 811,
+   "cands": [
+    {
+     "name": "MixinLivingEntity",
+     "jac": 0.333,
+     "path": "work/official26/com/github/epsilon/mixins/MixinLivingEntity.java"
+    },
+    {
+     "name": "MixinEntity",
+     "jac": 0.333,
+     "path": "work/official26/com/github/epsilon/mixins/MixinEntity.java"
+    },
+    {
+     "name": "MixinFireworkRocketEntity",
+     "jac": 0.25,
+     "path": "work/official26/com/github/epsilon/mixins/MixinFireworkRocketEntity.java"
+    },
+    {
+     "name": "MixinPlayer",
+     "jac": 0.2,
+     "path": "work/official26/com/github/epsilon/mixins/MixinPlayer.java"
+    }
+   ]
+  },
+  {
+   "obf": "uk",
+   "is_module": true,
+   "lines": 1275,
+   "cands": [
+    {
+     "name": "AutoFirework",
+     "jac": 0.333,
+     "path": "work/official26/com/github/epsilon/modules/impl/player/AutoFirework.java"
+    },
+    {
+     "name": "MixinItemInHandRenderer",
+     "jac": 0.3,
+     "path": "work/official26/com/github/epsilon/mixins/MixinItemInHandRenderer.java"
+    },
+    {
+     "name": "MixinLocalPlayer",
+     "jac": 0.25,
+     "path": "work/official26/com/github/epsilon/mixins/MixinLocalPlayer.java"
+    },
+    {
+     "name": "FindItemResult",
+     "jac": 0.25,
+     "path": "work/official26/com/github/epsilon/utils/player/FindItemResult.java"
+    }
+   ]
+  }
+ ]
+}
