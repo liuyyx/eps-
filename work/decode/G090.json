@@ -1,0 +1,22 @@
+{
+  "batch": "G090",
+  "results": {
+    "O3": {
+      "identity": "com.github.epsilon.gui.lib.UiTree$Insets",
+      "kind": "record",
+      "conf": "A",
+      "evidence": "4 float字段(left,top,right,bottom)完全对应; p(float)↔all(float)返回全同值; w(float,float)↔symmetric(h,v); e(ih)↔apply(UiRect): inset逻辑一致(新x=rect.x+left,新y=rect.y+top,新w=max(0,w-left-right),新h=max(0,h-top-bottom))",
+      "official_path": "work/official26/com/github/epsilon/gui/lib/UiTree.java:776"
+    }
+  },
+  "unident": [
+    {
+      "obf": "O1",
+      "reason": "编译器生成的synthetic switch map类(static final int[] + CallSite桥接), 官方源码中不存在等价类"
+    },
+    {
+      "obf": "O2",
+      "reason": "enum(O2)值为Columbina/Classic, 26.2官方源码中无此枚举, 可能为26.10.7新增; 无匹配"
+    }
+  ]
+}

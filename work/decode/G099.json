@@ -1,0 +1,22 @@
+{
+ "batch": "G099",
+ "results": {
+  "Ou": {
+   "identity": "OutlineNode",
+   "kind": "record",
+   "conf": "A",
+   "evidence": "record 实现 _Q(=UiNode); 9 字段类型序列: float×8 + Color(=outlineWidth + color); 构造 Ou(float,float,float,float,float,float,float,float,Color) 与 src OutlineNode(float x, float y, float width, float height, float radiusTopLeft, float radiusTopRight, float radiusBottomRight, float radiusBottomLeft, float outlineWidth, Color color) 逐类型逐数对应; 枚举序 xm/xs/xH/x6/xV/xz/x8/xB/ru 同构 src x/y/w/h/rtl/rtr/rbr/rbl/outlineWidth/color",
+   "official_path": "work/official26/com/github/epsilon/gui/lib/UiTree.java:717-718"
+  }
+ },
+ "unident": [
+  {
+   "obf": "OV",
+   "reason": "record(GpuTextureView,GpuSampler) 仅 2 字段; 官方 Render2DTexture 为 sealed interface(LuminRef/IdentifierRef) 非此二字段; QuadRenderingInfo 有 6 字段; 26.2 官方源无仅含 GpuTextureView+GpuSampler 的独立 record; 可能为 TextureSetup(MC vanilla) 内部实现或 26.2 新增内部类型, 无法从 26.2-2026.8.1 源确认"
+  },
+  {
+   "obf": "Ow",
+   "reason": "AutoCloseable 类, 字段 l5(=UiTheme)+LuminTessellator+gy, 方法 z(UiLayer)->lm(=LayeredRenderBatch); 官方 UiScene/AutoCloseable 用 Render2DScheduler 非 LuminTessellator, UiRenderBatch 同理; 无直接官方类同时持 LuminTessellator 字段+AutoCloseable+ UiTheme+创建 LayeredRenderBatch; 可能为 26.2-2026.10 新增渲染调度类"
+  }
+ ]
+}

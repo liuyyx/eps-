@@ -1,0 +1,27 @@
+{
+  "batch": "G084",
+  "results": {
+    "ni": {
+      "identity": "PanelLayout.Layout",
+      "kind": "record",
+      "conf": "A",
+      "evidence": "Xk.x(screenWidth,screenHeight,railWidth) computes panel/rail/modules/detail UiRects identically to PanelLayout.compute(), returns ni(ih,ih,ih,ih) matching Layout(panel,rail,modules,detail). 4 fields all of type ih=UiRect(x,y,width,height). Constructor: sY=ih2(panel),sv=ih3(rail),sT=ih4(modules),sb=ih5(detail).",
+      "official_path": "work/official26/com/github/epsilon/gui/panel/PanelLayout.java"
+    },
+    "nk": {
+      "identity": "Render2DBounds",
+      "kind": "record",
+      "conf": "A-",
+      "evidence": "Standalone record with 4 float fields (ZV=x,ZJ=y,z4=width,ZQ=height). y0.i(Object[]) computes a rectangle from width/height params and returns nk(f3,f4,var6_6,callSite) — a bounds rectangle. Only official standalone 4-float record is Render2DBounds(x,y,width,h). No other matching candidate.",
+      "official_path": "work/official26/com/github/epsilon/graphics/schedulers/render2d/Render2DBounds.java"
+    },
+    "nm": {
+      "identity": "SystemEmojiAtlas.ColorGlyphFont",
+      "kind": "record",
+      "conf": "A",
+      "evidence": "Record with Map<Integer,yG[]> pH and Color[] yL fields, matching ColorGlyphFont(layers,colors). W(int) returns yG[] — matches layers(int glyphId). Static method I(Object,Object) reads ByteBuffer data with readColr/readCpal-like logic using u16/i32 helpers. Static fields a/b/c/d match string/long/integer constant arrays in official.",
+      "official_path": "work/official26/com/github/epsilon/graphics/text/SystemEmojiAtlas.java"
+    }
+  },
+  "unident": []
+}

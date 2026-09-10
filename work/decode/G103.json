@@ -1,0 +1,22 @@
+{
+  "batch": "G103",
+  "results": {
+    "ud": {
+      "identity": "UiTree.SwitchNode",
+      "kind": "record",
+      "conf": "A",
+      "evidence": "Record 3字段: (ih bounds, float toggleProgress, float hoverProgress) 完全对应官方 UiTree.SwitchNode(UiRect bounds, float toggleProgress, float hoverProgress)，implements _Q 对应 sealed interface UiNode",
+      "official_path": "work/official26/com/github/epsilon/gui/lib/UiTree.java:689"
+    }
+  },
+  "unident": [
+    {
+      "obf": "uh",
+      "reason": "混淆基础设施类：静态 int[] 数组 + static initializer 用 hi.a() 设置 switch 表/字符串池，无真实类身份"
+    },
+    {
+      "obf": "uI",
+      "reason": "3008行大类，含 DV(ColorSetting)×2、DM(DoubleSetting)×2、XG(IntSetting)×1、Xn(BoolSetting)×2、Map<y1,zH> 缓存及复杂 T(Object[]) 渲染方法。非 _Q(UINode) 成员，被 eJ 实例化使用，但官方26.2-2026.8.1中未找到对应类（可能为版本演进新增或从内部类提升）"
+    }
+  ]
+}

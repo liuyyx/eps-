@@ -1,0 +1,21 @@
+{
+  "batch": "G097",
+  "results": {
+    "OR": {
+      "identity": "switch bootstrap map",
+      "kind": "class",
+      "conf": "A",
+      "evidence": "27行, static final int[] + 两个try/catch(NoSuchFieldError)填充boolean/int索引; 与D065中已识别的g6完全同构; 编译器生成的switch bootstrap合成类, 无官方源码对应文件"
+    }
+  },
+  "unident": [
+    {
+      "obf": "OQ",
+      "reason": "140行Enum, 值Auto/Assist; extends Enum<OQ>; 2个枚举常量; 静态块有Xor字符串解密+Indify; Y()返回2元素数组; 官方src中无同时包含Auto和Assist值的enum定义(AimBot.Mode为AimAssist/BowAim不匹配, SwingHand为Auto/OffHand/MainHand不匹配); 可能26.2新增或枚举值在演进中被重命名"
+    },
+    {
+      "obf": "Oq",
+      "reason": "267行Record, 10组件(9float+1Color): b_(0-12), BT(0-12), BK(0-20), BB(0-5), bz(1-64), bl(0-20), be(0-1), BZ(0-1), i6(Color nullable), BW(0-1); 构造器clamp各字段; B()用max*1.5f计算派生值; Q()用Dl.S()做dark mode分支; 官方src中无同结构Record; OutlineNode为8float+Color(缺bz/bl/be/BZ/BW); 可能26.2新增UI样式/渲染参数Record"
+    }
+  ]
+}

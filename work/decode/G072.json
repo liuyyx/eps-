@@ -1,0 +1,25 @@
+{
+ "batch": "G072",
+ "results": {
+  "l8": {
+   "identity": "Element",
+   "kind": "class",
+   "conf": "B",
+   "evidence": "abstract类, protected final gk d(空基类), _Z K辅助, float P/k/N/Z+int I, V(Color)->Color修改alpha, abstract B(Object[])/n(Object[]); 子类l0引用BlockTintSource; D036已识别为HUD元素渲染基类; 26.2新增抽象基类, src无对应",
+   "official_path": ""
+  },
+  "la": {
+   "identity": "EpsilonTranslations",
+   "kind": "class",
+   "conf": "A",
+   "evidence": "public final class + 10 static final uT(TranslateComponent)字段 + hi解密invokedynamic bootstrap + private构造; 同类型i18n常量注册表; 与官方EpsilonTranslations(private构造+static final TranslateComponent字段+create工厂)结构一致; 字段数差异因嵌套类扁平化(官方Keybind 3+Module 6+部分Gui/ElytraFly/PlayerAlarms)",
+   "official_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/assets/i18n/EpsilonTranslations.java"
+  }
+ },
+ "unident": [
+  {
+   "obf": "l7",
+   "reason": "Gson DTO @SerializedName(\"access_token\") String字段, 18行, private构造; 26.2新增HTTP认证响应类, 官方源码无OAuth/token相关类"
+  }
+ ]
+}

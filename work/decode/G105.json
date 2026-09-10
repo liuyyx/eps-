@@ -1,0 +1,18 @@
+{
+ "batch": "G105",
+ "results": {},
+ "unident": [
+  {
+   "obf": "ul",
+   "reason": "枚举含IDLE/READY_TO_EXECUTE/WAITING_FOR_INVENTORY_CLOSE/WAITING_FOR_SPRINT_STOP，这4个常量名在官方26.2源码中不存在（grep无命中）。前次C056判为AutoArmor状态枚举、D039判为PacketMine状态枚举，但AutoArmor仅有EnchantPriority/ElytraPriority、PacketMine仅有SwitchMode/RenderMode，均不匹配。此枚举为26.2+版本新增，官方字典无对应。"
+  },
+  {
+   "obf": "uM",
+   "reason": "Record(rM: y3=Render2DCommandKind, ef: Xu=Render2DScissor)。uM是顶层Record仅有2个字段（命令类型+裁剪区域）。官方Render2DCommand是sealed接口，其内部Record（Text/Texture/Rect等）均有10+字段，无独立2字段Record匹配。此Record为26.2+版本新增渲染管线数据类，官方字典无对应。"
+  },
+  {
+   "obf": "um",
+   "reason": "public class，持有ArrayList<iH>(iH=Setting<?>基类)和ConstantCallSite lambda桥接方法。前次D039判为EpsilonAddon(A-)，但EpsilonAddon是abstract class+SettingHost接口，有addonId字段和getAddonId()/getDisplayName()/getDescription()/onSetup()等方法，与um的字段和方法签名结构性不匹配。无法确认身份，判为unident。"
+  }
+ ]
+}

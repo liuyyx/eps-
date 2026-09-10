@@ -1,0 +1,18 @@
+{
+  "batch": "G126",
+  "results": {},
+  "unident": [
+    {
+      "obf": "XY",
+      "reason": "混淆器生成的SeQL字符串加密bootstrap类（56行）。唯一ConstantCallSite bootstrap方法 L(Lookup,String,MethodType,MethodHandle) → hi.d()解密MethodHandle；static block向hi.a(\"j\")分发表注入CallSite（值为true/2/3/4）；引用DJ(已知SeQL辅助枚举)。非官方源码类，为混淆器生成的INDY bootstrap分发入口。"
+    },
+    {
+      "obf": "XZ",
+      "reason": "26.2新增类（239行）。字段nT D（从hi加载l5类型颜色提供器）；方法boolean F(Object[])/void V()/boolean a()/boolean l()/float u(double,ih,float)。导入ih、nT（均src无对应）。功能疑似渲染状态/绘制上下文，但D035已确认src无匹配，26.2版本新增。"
+    },
+    {
+      "obf": "Xz",
+      "reason": "26.2新增Record（77行），implements _Q（26.2新增sealed interface，permits 30+类，src无对应）。字段：String fb(文本) + 3×float(位置/尺寸) + 2×Color(f5/FW，双色方案) + nK ud(字体/样式)。D052已确认src无对应，为26.2新增文本渲染段类型。"
+    }
+  ]
+}

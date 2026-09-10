@@ -1,0 +1,25 @@
+{
+  "batch": "G117",
+  "results": {
+    "vT": {
+      "identity": "com.github.epsilon.gui.lib.UiTree.Axis",
+      "kind": "enum",
+      "conf": "A",
+      "evidence": "UiTree.Axis是唯一含HORIZONTAL/VERTICAL的2常量枚举，与vT完全一致；UiTree.java:790-794定义 public static enum Axis { HORIZONTAL, VERTICAL; }",
+      "official_path": "com/github/epsilon/gui/lib/UiTree.java:790-794"
+    },
+    "vx": {
+      "identity": "com.github.epsilon.gui.lib.render.UiContentBuffer",
+      "kind": "class",
+      "conf": "A",
+      "evidence": "vx实现AutoCloseable；lambda名flushMarqueeTexts$0和queueViewport$0精确对应UiContentBuffer的private flushMarqueeTexts()和public queueViewport()方法；字段模式List+boolean+viewport与UiContentBuffer的marqueeDraws+pending+pendingViewport一致；3个UiRenderBatch字段(batch/scrollBarBatch/marqueeBatch)对应vx的3个lm字段",
+      "official_path": "com/github/epsilon/gui/lib/render/UiContentBuffer.java"
+    }
+  },
+  "unident": [
+    {
+      "obf": "vV",
+      "reason": "Record(String, long, String) — 官方26全部文件中无匹配的Record类型；MarqueeTextDraw有7字段不匹配；无任何内部Record具有(String, long, String)签名"
+    }
+  ]
+}

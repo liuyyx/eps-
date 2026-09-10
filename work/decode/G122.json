@@ -1,0 +1,18 @@
+{
+  "batch": "G122",
+  "results": {},
+  "unident": [
+    {
+      "obf": "Xi",
+      "reason": "48行final渲染包装类; private final i2(=LuminImmediateRenderer,已确认锚点) P; 私有构造Xi(i2); J(Matrix4f,float,float,float,float,float,int)渲染委托+i2.R(float,float)两次调用+int参数; I()生命周期方法; 与g0/lO/lZ/De同模式(均为26.2新增轻量渲染包装类); Oe.U(RenderPipeline,Identifier)→Xi; 26.2-2026.10.7版本演进; 官方26.2-2026.8.1无此类"
+    },
+    {
+      "obf": "Xj",
+      "reason": "140行Enum, 仅2常量Silent+Inventory; 复杂静态初始化含字符串解密; 逐一枚举所有官方top-level/inner enum: SoundKey(ENABLE/DISABLE/SETTINGS_OPEN), RotationMode(SILENT/SNAP), Render2DCommandKind(7值), 各module内部enum均无Silent+Inventory组合; AimBot.Rotation(Client/Silent)仅含Silent不含Inventory; 可能为26.2新增渲染/声音模式枚举"
+    },
+    {
+      "obf": "XK",
+      "reason": "170行注册表类; private final List<_A>(render command interface, 使用RenderPass) R; static final XK Y(单例); synchronized q(_A)/S(Object[])/W(T)→T(注册并返回); 迭代器遍历_s()/_A; _A接口为render pipeline callback(方法K/Q/m, default Q接受RenderPass); 与EventBus/CommandStore等已识别类结构不同; 26.2新增渲染命令注册表, 官方源码无对应"
+    }
+  ]
+}

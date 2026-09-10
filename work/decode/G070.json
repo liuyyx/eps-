@@ -1,0 +1,22 @@
+{
+  "batch": "G070",
+  "results": {
+    "l2": {
+      "identity": "com.github.epsilon.gui.lib.UiTree.RectNode",
+      "kind": "Record",
+      "conf": "A",
+      "evidence": "l2为Record，5字段：4 float(rJ,rB,r5,rk)+1 Color(kl)；构造器(float,float,float,float,Color)；实现_Q。官方RectNode(float x,float y,float width,float height,Color color) implements UiNode精确匹配：字段类型数量完全一致，sealed interface UiNode即_Q。UiNode仅有一个5字段Record（4 float+1 Color）即RectNode",
+      "official_path": "work/official26/com/github/epsilon/gui/lib/UiTree.java"
+    }
+  },
+  "unident": [
+    {
+      "obf": "l1",
+      "reason": "26.2新增类。final class，字段_E(C:dK?)/z(dK)/a(Consumer<String>)/N(String)/L(BooleanSupplier)/I(String)，构造器(iC,dK,String,String,Consumer,BooleanSupplier)。src无_E/dK/iC/lH定义。疑似26.2-2026.10.7版本新增的UI组件或弹窗辅助类"
+    },
+    {
+      "obf": "l3",
+      "reason": "26.2新增enum。仅Black和Follow两个值，src无对应enum。可能是新增的颜色/阴影模式枚举（如Black=固定黑色，Follow=跟随主色），但官方26.2-2026.8.1中无此类"
+    }
+  ]
+}

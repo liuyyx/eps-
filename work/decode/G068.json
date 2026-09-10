@@ -1,0 +1,25 @@
+{
+  "batch": "G068",
+  "results": {
+    "iP": {
+      "identity": "FabricPlatformAddon",
+      "kind": "class",
+      "conf": "A",
+      "evidence": "extends iH(=EpsilonAddon); 无参构造→super(解密字符串→\"epsilon_fabric\"); e(Object[])(=onSetup)空实现; V(Object[])(=getDescription)返回字符串; R()(=getDisplayName)返回字符串; z()(=getAddonId)返回字符串; w()(=getAuthors)返回List<String>; 实例化于lf(=AddonBootstrap).f()→new iP()→注册到um(=ModuleHolder); 结构与官方FabricPlatformAddon完全匹配(无参构造+super(\"epsilon_fabric\")+5个简单override)",
+      "official_path": "com/github/epsilon/fabric/FabricPlatformAddon.java"
+    },
+    "ip": {
+      "identity": "Render2DScheduler.BatchPlanner",
+      "kind": "class",
+      "conf": "A-",
+      "evidence": "final class; lambda$plan$0/lambda$plan$1对应Comparator.comparingInt(ToIntFunction)/thenComparingLong(ToLongFunction); 使用LinkedHashMap<BatchKey,BatchGroup>+ArrayList+Comparator排序; lambda$plan$0从yM(=Render2DCommand)提取y3(=kind)+Xu(=scissor)→new uM(=BatchKey)+new lb(=BatchGroup); lambda$plan$1从lb(=BatchGroup)提取int值→对应KIND_FLUSH_ORDER.indexOf(kind); switch中sort(Comparator+List)对应result.sort(comparingInt...thenComparingLong...); 官方BatchPlanner是private static final inner class, decompile后static标记可能丢失",
+      "official_path": "com/github/epsilon/graphics/schedulers/render2d/Render2DScheduler.java#BatchPlanner"
+    }
+  },
+  "unident": [
+    {
+      "obf": "iQ",
+      "reason": "20行极简DTO; @SerializedName(\"refresh_token\")+@SerializedName(\"access_token\")各一个String字段; 私有无参构造; 典型Gson auth token响应类; official26全库无任何@SerializedName注解、无Token/Auth/Response类; 26.2→26.10演进中新增的认证基础设施"
+    }
+  ]
+}

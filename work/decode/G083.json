@@ -1,0 +1,27 @@
+{
+  "batch": "G083",
+  "results": {
+    "nE": {
+      "identity": "Pitch40ControlState",
+      "kind": "record",
+      "conf": "A",
+      "evidence": "7组件Record与官方Pitch40ControlState字段类型完全对应：boolean(enabled)→QS, ElytraFlightModes(mode)→e1(nZ枚举含Pitch40/Control), double(lowerBounds)→xi, boolean(autoTakeoff)→QA, double(takeoffTargetHeight)→xa, boolean(autoFirework)→QZ, Float(yawOverride)→fy；nZ枚举2常量Pitch40/Control与ElytraFlightModes完全一致",
+      "official_path": "work/official26/com/github/epsilon/modules/impl/movement/elytrafly/ElytraFly.java"
+    },
+    "nG": {
+      "identity": "Render2DBounds",
+      "kind": "record",
+      "conf": "B",
+      "evidence": "4-float Record(wp/w_/wh/WN)与Render2DBounds(float x, y, width, height)字段类型一致；nG被GPU渲染类_B/gG/nK/yW/yn使用，与render2d管线用途匹配；UiRect有相同4-float结构但属gui.lib；nG无UiRect的contains/inset等方法",
+      "official_path": "work/official26/com/github/epsilon/graphics/schedulers/render2d/Render2DBounds.java"
+    },
+    "nH": {
+      "identity": "PanelVisibleResolver",
+      "kind": "interface",
+      "conf": "A",
+      "evidence": "@FunctionalInterface单方法boolean E(String)与官方PanelVisibleResolver.getAsBoolean(String)签名完全匹配（boolean返回+String参数）；PanelVisibleResolver是MainDropdownPanel的静态内部接口，混淆后提升为顶层类",
+      "official_path": "work/official26/com/github/epsilon/gui/dropdown/component/MainDropdownPanel.java"
+    }
+  },
+  "unident": []
+}

@@ -1,0 +1,22 @@
+{
+ "batch": "G096",
+ "results": {
+  "OO": {
+   "identity": "SystemEmojiAtlas",
+   "kind": "class",
+   "conf": "A-",
+   "evidence": "均为AutoCloseable单例；字段逐项对应：Font K→emojiFont、Map<String,d8> c→glyphs(LinkedHashMap)、BufferedImage a→atlasImage、y4 Q→texture(LuminTexture)；均有NativeImage/BufferedImage像素级拷贝逻辑（X方法≈drawEmojiToAtlas的像素写入）；均有字形缓存Map",
+   "official_path": "work/official26/com/github/epsilon/graphics/text/SystemEmojiAtlas.java"
+  }
+ },
+ "unident": [
+  {
+   "obf": "OP",
+   "reason": "渲染widget类，draw方法绘制圆角背景+头像+名称+状态文本；字段含nV<?>、ih、zU、_j、Xs、nK、uT(TranslateComponent)等；官方26.2无匹配的类结构（无类似draw方法签名，无匹配字段集）"
+  },
+  {
+   "obf": "Op",
+   "reason": "31行工具类，静态Gson+HttpClient，工厂方法t/I创建dX实例；官方26.2无等价类（无HttpClient+Gson组合的工厂类）"
+  }
+ ]
+}

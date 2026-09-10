@@ -1,0 +1,32 @@
+{
+  "batch": "G133",
+  "results": {
+    "yS": {
+      "identity": "unident",
+      "kind": "class",
+      "conf": "U",
+      "evidence": "2字段: @SerializedName('DisplayClaims') nd + @SerializedName('Token') String; 私有构造; Xbox/XSTS认证响应DTO; official26无此类（约2个月演进新增）",
+      "official_path": "N/A"
+    },
+    "ys": {
+      "identity": "RoundRectOutlineRenderer",
+      "kind": "class",
+      "conf": "A",
+      "evidence": "implements _A(IRenderer); _t=LuminRingBuffer buffer, d5=QuadRenderingInfo sharedInfo, int字段(vertexCount/currentOffset/scissor), m(Object[])含addOutlineGradient语义, Q(RenderPass)=draw(pass), 静态s()=create()工厂; 渲染管线: pass.setPipeline→pass.drawIndexed",
+      "official_path": "com/github/epsilon/graphics/renderers/RoundRectOutlineRenderer.java"
+    },
+    "yT": {
+      "identity": "UiScrollBar.Geometry",
+      "kind": "record",
+      "conf": "A",
+      "evidence": "record 8 float字段 ↔ thumbX/thumbY/thumbWidth/thumbHeight/trackX/trackY/trackWidth/trackHeight; r(double,double)=thumbContains(point-in-thumb), d(double,double)=trackContains(point-in-track); 字段getter通过hi.a反射访问匹配; official26 Geometry有同名2个boolean containment方法",
+      "official_path": "com/github/epsilon/gui/lib/control/UiScrollBar.java:Geometry"
+    }
+  },
+  "unident": [
+    {
+      "obf": "yS",
+      "reason": "Xbox/XSTS认证DTO(@SerializedName DisplayClaims+Token), official26无此类; 可能为26.2-2026.8.1→26.2-2026.10.7期间新增"
+    }
+  ]
+}

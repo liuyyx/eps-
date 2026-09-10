@@ -1,0 +1,18 @@
+{
+ "batch": "G069",
+ "results": {},
+ "unident": [
+  {
+   "obf": "iX",
+   "reason": "枚举仅有 Double/Single 两个常量; official26 全树无匹配的2值枚举(KillAura.TargetMode有Single但含3值Single/Switch/Multiple; HoleType含Single但有5值; HoleESP.HoleShape有Single但含4值); 枚举无MC导入,无额外常量方法; 26.2-2026.10.7 新增精度/质量枚举,官方26.2-2026.8.1无对应"
+  },
+  {
+   "obf": "iz",
+   "reason": "record实现DynamicUniformStorage.DynamicUniform,14个float字段; official26已知uniform record: ShaderParams(13float)、BlurUniforms(11float)、BoxBlurUniforms(3float)、FXAAInfo(2float)、FilterColor(4float)、SandboxInfo(7float); 字段数无一匹配14; write方法使用Std140Builder.putFloat链+putVec2/putVec3; 构造器中第14个float未被write方法使用; 26.2新增shader uniform record,官方无对应"
+  },
+  {
+   "obf": "i_",
+   "reason": "@FunctionalInterface仅含void G(int,int); official26全树无匹配的双参void回调接口; stringEncryptedMethods=0,refs=[],无外部依赖; 10行极小纯函数式接口; 可能是坐标/尺寸回调但无法确认身份"
+  }
+ ]
+}

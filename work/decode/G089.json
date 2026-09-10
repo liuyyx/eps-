@@ -1,0 +1,18 @@
+{
+  "batch": "G089",
+  "results": {},
+  "unident": [
+    {
+      "obf": "nY",
+      "reason": "静态工具类176行，含static方法C(Object[])迭代Iterable、N(Object[])处理um模块、U(Object[])分发Iterable，均有Object[]参数签名；static初始化含加密long[]表+Integer[]缓存（22条目）；引用hi(SeQL核心)、Dl(Setting)、um(列表容器)；所有调用经hi.a()解密。无MC导入。D038判定为'26.2新增字符串分发辅助类'，26.2-2026.8.1官方字典无匹配类——属于SeQL字符串解密/分发基础设施"
+    },
+    {
+      "obf": "ny",
+      "reason": "static final类172行，含3个uT(TranslateComponent)字段(O/r/y)；bootstrap方法y(Lookup,String,MethodType,MethodHandle)→ConstantCallSite用于invokedynamic链接；static初始化解密字符串创建TranslateComponent常量。无MC导入。D038判定为'26.2新增，3个static final TranslateComponent字段'；C044曾标记为EpsilonTranslations但EpsilonTranslations是final类含多层嵌套内部类(Keybind/Module/Gui等共~90个常量)，结构严重不匹配。属于invokedynamic bootstrap/字符串解密类，非EpsilonTranslations"
+    },
+    {
+      "obf": "n_",
+      "reason": "Record类68行，6组件：e(=Module)v3 + String ll + String LV + float gm + float gN + float gL；所有accessor通过hi.a()解密。无MC导入。D054/C044均判定为SeQL内部dispatch Record——属于SeQL字符串加密基础设施（Module+2String+3float dispatch记录），26.2-2026.8.1官方字典无匹配的6组件Record"
+    }
+  ]
+}

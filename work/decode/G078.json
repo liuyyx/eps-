@@ -1,0 +1,18 @@
+{
+  "batch": "G078",
+  "results": {},
+  "unident": [
+    {
+      "obf": "lt",
+      "reason": "3465行；全部为 public static final String 字段（~3400个），值均为单 Unicode 字符；无方法、无导入、无逻辑——属 obfuscator 字符串常量表（Allatori/Zelix 类模式）；官方 26.2 无等价类（EpsilonTranslations 仅 147 行且为 TranslateComponent 常量）；纯 synthetic 基础设施，无源码对应物"
+    },
+    {
+      "obf": "lV",
+      "reason": "record(double, double) 42行；访问器通过 hi.a() indy 分发无原始字段名；官方同型 record 均不匹配——BlurredBoxCommand(AABB,double) 含 AABB，Node(BlockPos,double,double) 含3字段且含 BlockPos；FollowerConfig(double,...) 含4字段；无 MC 导入或其他锚点区分具体归属"
+    },
+    {
+      "obf": "lY",
+      "reason": "109行 final class；2个 static final String 字段（t, d）；static 初始化含 XOR 解密 + char[] 操作——属 obfuscator 字符串解码器；官方 26.2 无等价类（I18NJson 为 JSON 解析器，EpsilonLanguage 为 enum）；纯 obfuscation 基础设施，无源码对应物"
+    }
+  ]
+}

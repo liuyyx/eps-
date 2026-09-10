@@ -1,0 +1,25 @@
+{
+  "batch": "G075",
+  "results": {
+    "lJ": {
+      "identity": "EpsilonTranslations",
+      "kind": "class",
+      "conf": "B",
+      "evidence": "public final class + 13 static final uT(TranslateComponent)字段 + private构造器 + 静态初始化解密字符串; 结构与EpsilonTranslations及其内部类(Keybind 3/Module 6/ElytraFly 3/PlayerAlarms 10)均为翻译常量容器; 13字段数与任何单一内部类不精确匹配, 可能为26.2-2026.10.7版EpsilonTranslations Gui子集重构或新增翻译子类; uT=TranslateComponent接口已确认(a()→getTranslatedName, j(Object[])→createChild)",
+      "official_path": "work/official26/com/github/epsilon/assets/i18n/EpsilonTranslations.java"
+    },
+    "lk": {
+      "identity": "ClientSetting.FontMode",
+      "kind": "enum",
+      "conf": "B",
+      "evidence": "enum 2值: Default+OsakaChips; Official FontMode: Default+Custom; Default值完全匹配; OsakaChips为StaticFontLoader.OSAKA_CHIPS字体常量名, 26.2-2026.10.7版将FontMode.Custom重命名为OsakaChips(指向osakachips.ttf内置字体); 枚举值数量(2)、首值名(Default)、字体领域语义一致",
+      "official_path": "work/official26/com/github/epsilon/modules/impl/ClientSetting.java:146"
+    }
+  },
+  "unident": [
+    {
+      "obf": "li",
+      "reason": "Record(78行) implements _Q(UiTree.UiNode sealed interface); 字段: String+3×float+Color+Oq(10-float+Color record)+nK(TtfFontLoader)共7字段; 官方UiTree所有record均无此类型组合: MarqueeTextNode(String,float×3,Color,TtfFontLoader,UiRect)字段类型不匹配(Oq≠TtfFontLoader, float≠UiRect, nK≠UiRect); 其他UiNode record字段数/类型均不符; 可能为26.2-2026.10.7版新增UiNode record类型"
+    }
+  ]
+}

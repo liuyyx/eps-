@@ -1,0 +1,18 @@
+{
+  "batch": "G134",
+  "results": {},
+  "unident": [
+    {
+      "obf": "yU",
+      "reason": "59行，package-private class；static initializer 通过 EquipmentSlot.ordinal() 构建 switch 表；bridge method m(Lookup,String,MethodType,MethodHandle)→CallSite 为 invokedynamic bootstrap 签名。编译器生成的 EquipmentSlot switch bootstrap 类，非手写源码，official26 src 无对应文件"
+    },
+    {
+      "obf": "yu",
+      "reason": "26.2 新增启动校验类（经二次混淆 NiurenDEOBF），含 HttpServer/AES-GCM/MessageDigest/Gson/CompletableFuture；private 构造器；MixinMain 注入 if(!yu.g()){yu.T();}。26.1.2 及 26.2 src 均无对应类，真实类名无法还原"
+    },
+    {
+      "obf": "yW",
+      "reason": "Record 7 组件(yn iB/nG jO/int×5)，yn 和 nG 均未在 class_map 中识别；疑似 SeQL 内部类型（GPU 纹理引用记录）但 SeQL 类在 official26 src 中不存在，无法确认真实身份"
+    }
+  ]
+}

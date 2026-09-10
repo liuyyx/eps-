@@ -1,0 +1,25 @@
+{
+  "batch": "G140",
+  "results": {
+    "zr": {
+      "identity": "ScaffoldBlock.Layout",
+      "kind": "record",
+      "conf": "A",
+      "evidence": "10 float字段 + private centerX() = Pa()+Ph()/2 对应 renderX+totalWidth/2; 构造器10参数; extends Record; 仅official中10 float record含centerX()方法; 字段语义: pa→renderX, ph→totalWidth, PP→labelGap等",
+      "official_path": "work/official26/com/github/epsilon/elements/impl/ScaffoldBlock.java:273"
+    },
+    "zT": {
+      "identity": "AbstractDropdownPanel.TitleSupplier",
+      "kind": "interface",
+      "conf": "A",
+      "evidence": "@FunctionalInterface + String c() 对应 TitleSupplier.get(); iN(obf)=AbstractDropdownPanel; iN中protected final zT o对应protected final TitleSupplier titleSupplier; 构造器接受TitleSupplier参数; 独立文件因为是内部接口提取",
+      "official_path": "work/official26/com/github/epsilon/gui/dropdown/component/AbstractDropdownPanel.java:405"
+    }
+  },
+  "unident": [
+    {
+      "obf": "zQ",
+      "reason": "744行非module类; @SerializedName(\"items\") private v4[] s (v4有@SerializedName(\"name\")); 静态String[]/long[]/Integer[]用于字符串解密; ConstantCallSite bootstrap方法; 被nb(HTTP服务器类)引用; official26无HttpServer/HttpExchange/import; nb/yS/zQ均为26.2新增HTTP API/Auth DTO, src无对应"
+    }
+  ]
+}

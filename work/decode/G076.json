@@ -1,0 +1,27 @@
+{
+  "batch": "G076",
+  "results": {
+    "ll": {
+      "identity": "ScissorNode",
+      "kind": "Record (UiNode)",
+      "conf": "A",
+      "evidence": "Record 2字段: ih(UiRect)+List<_Q>(List<UiNode>); implements _Q(UiNode); hashCode字段序 zC;q2 对应 clip;children",
+      "official_path": "com/github/epsilon/gui/lib/UiTree.java:745"
+    },
+    "lm": {
+      "identity": "UiRenderBatch",
+      "kind": "Class (AutoCloseable)",
+      "conf": "A",
+      "evidence": "AutoCloseable; Set<Integer>=HashSet(touchedLayers); l5(UiTheme); int(baseLayer); boolean(ownsScheduler); y_(Render2DScheduler); 构造函数(l5→UiTheme)匹配; 方法: F()→flush, v()→flushAndClear, H(int)→view, y()→baseLayer, o(int)→view",
+      "official_path": "com/github/epsilon/gui/lib/render/UiRenderBatch.java:17"
+    },
+    "ln": {
+      "identity": "RotatedTextNode",
+      "kind": "Record (UiNode)",
+      "conf": "A",
+      "evidence": "Record 9字段: String(text)+float×6(position/scale/rotation)+Color(color)+nK(TtfFontLoader); implements _Q(UiNode); nK为TtfFontLoader(Path构造+线程池+HashMap<CompletableFuture>完全匹配)",
+      "official_path": "com/github/epsilon/gui/lib/UiTree.java:709"
+    }
+  },
+  "unident": []
+}

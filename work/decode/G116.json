@@ -1,0 +1,27 @@
+{
+ "batch": "G116",
+ "results": {
+  "vq": {
+   "identity": "TtfTextRenderer",
+   "kind": "class",
+   "conf": "A",
+   "evidence": "o(float,nK)返回 fontHeight*0.35f*renderScale*scale 完全匹配 getHeight(float,TtfFontLoader); o(int,int,int,int)创建yJ(=ScissorRect)匹配setScissor; 构造(long,lP)匹配(long bufferSize,LuminRingBuffer); 常量0.35f=DEFAULT_SCALE, 3.0f=SPACE_WIDTH; imports含GpuBufferSlice/RenderPipeline/RenderPass/GpuSampler/GpuTextureView与官方一致; implements v2(=ITextRenderer)方法签名V(String,float,float,float,Color,nK,float,float,float)匹配addText/addRotatedText",
+   "official_path": "work/official26/com/github/epsilon/graphics/text/ttf/TtfTextRenderer.java"
+  },
+  "vr": {
+   "identity": "Render2DBounds",
+   "kind": "record",
+   "conf": "B",
+   "evidence": "extends Record 4 float字段(NG/np/n1/nz)匹配Render2DBounds(x,y,width,height); static A()返回NaN×4匹配empty bounds模式; 在vq(TtfTextRenderer)渲染管线上下文中使用; vS(=QuadTreeBucket)的bounds字段类型一致; 单信号:4-float record+NAN工厂方法+渲染上下文",
+   "official_path": "work/official26/com/github/epsilon/graphics/schedulers/render2d/Render2DBounds.java"
+  },
+  "vS": {
+   "identity": "Render2DScheduler.QuadTreeBucket",
+   "kind": "class",
+   "conf": "A",
+   "evidence": "vS[] Y递归数组=QuadTreeBucket[] children; y(Object[])递增p(=count)+children非null时insertIntoChild=add(); p(List<yM>)addAll(commands)+递归children=collect(); k(Object[])遍历children检查bounds.contains=insertIntoChild返回boolean; int o=p=count, int Z=depth, int p=maxDepth, XL Z=bounds, List<yM> f=commands; 官方6字段逐项对应; methods add/collect/split/injectIntoChild逻辑完全匹配",
+   "official_path": "work/official26/com/github/epsilon/graphics/schedulers/render2d/Render2DScheduler.java"
+  }
+ },
+ "unident": []
+}

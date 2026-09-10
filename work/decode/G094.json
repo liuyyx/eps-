@@ -1,0 +1,22 @@
+{
+  "batch": "G094",
+  "results": {
+    "Oi": {
+      "identity": "ShaderHolder.ShaderColors",
+      "kind": "record",
+      "conf": "B",
+      "evidence": "Record implements DynamicUniformStorage.DynamicUniform；write(ByteBuffer)方法含putVec4×6将3个Color字段分解为RGBA float(12 float)加12个独立float字段共24 float；3个Color字段(CX/CW/cm)语义对应outline/smokeOutline1/smokeOutline2；official ShaderColors有6 Color字段(outline/smokeOutline1/smokeOutline2/fill/smokeFill1/smokeFill2)，我方版仅3个(26.2版本演进中字段数从6缩减至3)；class_map已有Dc→ShaderColors(6 Color字段)映射，Oi为同名类不同版本实例",
+      "official_path": "com/github/epsilon/holders/ShaderHolder.java (inner record ShaderColors)"
+    }
+  },
+  "unident": [
+    {
+      "obf": "OI",
+      "reason": "2值枚举Solid/Gradient，语义为渲染填充模式；official26全树枚举无匹配：ShaderHolder.Shader(5值Default/Smoke/Gradient/Snow/Fade)、FireflyESP.ColorMode(3值Solid/Blend/Rainbow)、ModuleList.ColorMode(4值Double/Rainbow/Single/Fade)均非此二值组合；可能为26.2-2026.10.7新增枚举"
+    },
+    {
+      "obf": "Ok",
+      "reason": "Record含3字段(nK未知类型/String/float)，被vq类用作Map键(Map<Ok,Float>/Map<Ok,ON>)；official26已知record无精确匹配：Render2DScissor(4int)、ScaffoldBlock.AnimationState(3float)、Render3DScheduler.LineCommand(4字段)；nK类型未在class_map中映射，无法追溯官方身份"
+    }
+  ]
+}

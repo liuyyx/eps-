@@ -1,0 +1,25 @@
+{
+  "batch": "G142",
+  "results": {
+    "_0": {
+      "identity": "TriangleNode",
+      "kind": "record (UiNode inner)",
+      "conf": "A",
+      "evidence": "5字段: 4 float + Color，字段序列与 UiTree.TriangleNode(float centerX, centerY, size, progress, Color color) 完全对应；implements _Q(=UiNode)；sealed interface _Q permits 列表含 _0，官方 UiNode permits 含 TriangleNode；is_record=true, is_interface_inner=true",
+      "official_path": "work/official26/com/github/epsilon/gui/lib/UiTree.java"
+    },
+    "_2": {
+      "identity": "SwitchElement",
+      "kind": "record (UiTree inner)",
+      "conf": "A",
+      "evidence": "3字段: ih(=UiRect) + 2 float；字段序列与 UiTree.SwitchElement(UiRect bounds, float toggleProgress, float hoverProgress) 完全对应；ih 为4-float rect record(含x/y/width/height + contains/inset方法)与 UiRect 完全同构；record 无接口实现，SwitchElement 同理；equals bootstrap 组件名 oR;o2;oq 对应 bounds;hoverProgress;toggleProgress",
+      "official_path": "work/official26/com/github/epsilon/gui/lib/UiTree.java"
+    }
+  },
+  "unident": [
+    {
+      "obf": "z_",
+      "reason": "50行lambda bootstrap辅助类：static int[] s + CallSite W(bootstrap签名) + static初始化块向 hi.a(\"j\")数组写入 int 值(true/2/3)；是 invokedynamic/SeQL 分发的编译器生成类，无实际业务逻辑，无源码对应"
+    }
+  ]
+}

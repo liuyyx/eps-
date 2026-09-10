@@ -1,0 +1,24 @@
+{
+  "batch": "G121",
+  "results": {
+    "Xg": {
+      "identity": "FollowerConfig",
+      "kind": "record",
+      "conf": "A",
+      "evidence": "Record字段类型序列(double,double,int,int)与src FollowerConfig(double stopDistance, double verticalDeadzone, int searchRadius, int maxNodes)完全吻合; e1(Follower)中构造new Xg(d,d,i,i)对应FollowerConfig创建; 被Of(StrafeFollowerNavigator)引用与路径寻路Config用途一致",
+      "official_path": "work/official26/com/github/epsilon/modules/impl/movement/follower/FollowerConfig.java"
+    }
+  },
+  "unident": [
+    {
+      "obf": "XE",
+      "reason": "3值枚举 NONE/LAVA/LAVA_SUPPORT — official26(26.2-2026.8.1)全树无此枚举; 可能为26.10.7版本新增的流体渲染模式设置(语义: Xray/HoleESP相关)",
+      "kind": "enum"
+    },
+    {
+      "obf": "XH",
+      "reason": "单String字段+@SerializedName(\"uhs\") — official26无任何@SerializedName注解类; 可能为26.10.7新增的Gson数据传输对象(配置/网络序列化)",
+      "kind": "class"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "batch": "G147",
+  "results": {
+    "_j": {
+      "identity": "TextRenderer",
+      "kind": "class",
+      "conf": "B",
+      "evidence": "implements _A(=IRenderer)；字段 v2 F(ITextRenderer委托)，boolean R(registered)；构造函数创建 vq(=TtfTextRenderer) 作为底层实现；方法 S(String,float,nK)→addText，S()→静态工厂，U()→构造器调用，draw(RenderPass)→委托渲染，setScissor→o(int,int,int,int)；多个先前decode(C046/D030/G052)均将_j角色认定为文本渲染器委托类，与src TextRenderer(wrapper around ITextRenderer)结构完全匹配",
+      "official_path": "work/official26/com/github/epsilon/graphics/renderers/TextRenderer.java"
+    }
+  },
+  "unident": [
+    {
+      "obf": "_H",
+      "reason": "record extends Record implements DynamicUniformStorage.DynamicUniform；toString显示16组件：13×float(lq/lA/lm/lQ/lV/ls/lz/lh/la/l5/le/lR/lE)+2×float[](UH/UK)+1×int(yP)；write(ByteBuffer)用Std140Builder.putVec4处理float数组；official26中全部7个DynamicUniform实现(ShaderParams=13float, ShaderColors=6Color, BlurUniforms=11float, BoxBlurUniforms=3float, FXAAInfo=2float, FilterColor=4float, SandboxInfo=7float)字段类型和数量均不匹配；D018已标记同为unident；26.2新增复杂着色器uniform record，无源码对应"
+    },
+    {
+      "obf": "_k",
+      "reason": "20行小类，@SerializedName(\"name\")+@SerializedName(\"id\")，private构造器；通用命名实体DTO；D067已标记同为unident；official26全文搜索无Gson注解类(yj为相同结构的同批次DTO)；26.2新增API响应模型，无源码对应"
+    }
+  ],
+  "conflicts": []
+}

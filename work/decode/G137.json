@@ -1,0 +1,18 @@
+{
+ "batch": "G137",
+ "results": {},
+ "unident": [
+  {
+   "obf": "zg",
+   "reason": "642行纯工具类，静态Gson实例+String[]/long[]/Integer[]加密数组+Path方法。import vz(ConfigHolder)用于路径解析，private构造器，仅静态方法。官方26.2中ConfigHolder(vz)已包含全部Gson/Path操作，未发现独立配置工具类与之结构对应。"
+  },
+  {
+   "obf": "zH",
+   "reason": "241行弹簧动画类：long v(时间戳)+float H(位置)+float N(速度)，方法F实现弹簧物理(stiffness~-200, damping~-25, 1E9时间缩放)。官方26.2仅有Animation(时间缓动，8字段+Easing)和Easing(缓动函数枚举)，无弹簧物理插值器。可能是26.2-10.7新增的UI弹簧动画工具。"
+  },
+  {
+   "obf": "zh",
+   "reason": "220行枚举：7值FadeOut/Size/Otkisuli/Insert/Fall/Rocket/Roll。用作O(AutoFirework)的EnumSetting类型。官方AutoFirework(26.2-2026.8.1)仅有KeybindSetting+IntSetting+BoolSetting，无EnumSetting。枚举值Otkisuli(俄语'弹回')暗示动画过渡类型，官方源码中无此枚举定义。"
+  }
+ ]
+}

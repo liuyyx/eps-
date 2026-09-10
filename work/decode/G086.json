@@ -1,0 +1,36 @@
+{
+  "batch": "G086",
+  "results": {
+    "nQ": {
+      "identity": null,
+      "kind": "unident",
+      "conf": null,
+      "evidence": "extends ViaBedrockConfig（net.raphimc.viabedrock，外部库），official26 无此类；ViaBedrockConfig 非 epsilon 模组类，nQ 仅为 ViaBedrock 配置包装实现，official26 无匹配",
+      "official_path": null
+    },
+    "nR": {
+      "identity": "UiTree.OutlineNode",
+      "kind": "record",
+      "conf": "A",
+      "evidence": "Record 10 字段类型序列 9×float+1×Color 与 src OutlineNode(float x,y,width,height,radiusTopLeft,radiusTopRight,radiusBottomRight,radiusBottomLeft,outlineWidth,Color color) 逐一吻合；implements _Q(=UiNode sealed interface)；构造器 10 参数顺序 od→oe→o9→og→o7→oT→o1→oW→oh→AI 对应 x→y→width→height→radiusTopLeft→radiusTopRight→radiusBottomRight→radiusBottomLeft→outlineWidth→color",
+      "official_path": "work/official26/com/github/epsilon/gui/lib/UiTree.java:717"
+    },
+    "nr": {
+      "identity": null,
+      "kind": "unident",
+      "conf": null,
+      "evidence": "enum(Glow/Outline)，2 值；ic(=Shaders settings holder) 含 Dx<nr> Y 字段；26.2 official src 无含 Glow+Outline 常量的枚举；疑 26.2→2026.10.7 新增的渲染模式枚举",
+      "official_path": null
+    }
+  },
+  "unident": [
+    {
+      "obf": "nQ",
+      "reason": "extends ViaBedrockConfig（外部库 net.raphimc.viabedrock），official26 无匹配 epsilon 类"
+    },
+    {
+      "obf": "nr",
+      "reason": "enum(Glow/Outline) 2 值；official26 全树无含此二常量的枚举，疑 26.2→2026.10.7 新增"
+    }
+  ]
+}

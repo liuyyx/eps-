@@ -1,0 +1,22 @@
+{
+  "batch": "G144",
+  "results": {
+    "_A": {
+      "identity": "IRenderer",
+      "kind": "interface",
+      "conf": "A-",
+      "evidence": "public interface, 6方法(3 abstract + 3 default); 默认boolean K(Object[])=false → prepareSharedDraw()=false; 默认void H(Object[])调用两个abstract方法 → drawAndClear()调用draw()+clear(); 默认void Q(Object[]) cast RenderPass → draw(RenderPass)空默认; abstract K()/Q()/m(Object[]) → draw()/clear()/close(); 参数Object[]为混淆变形(IRenderer参数为void/RenderPass), 但抽象/默认分布+返回类型+行为模式完全一致",
+      "official_path": "work/official26/com/github/epsilon/graphics/renderers/IRenderer.java"
+    }
+  },
+  "unident": [
+    {
+      "obf": "_8",
+      "reason": "package-private class, 155行; static final int[] T 为Render2DCommandKind(y3)枚举序号→int映射表; static块用ordinal()映射10个枚举值到int(部分为常量1-5, 部分为解密值); 官方Render2DScheduler.pipelineFor()用switch语句实现相同功能, 无独立映射类; 26.2新增枚举映射优化类"
+    },
+    {
+      "obf": "_B",
+      "reason": "final class, 227行; float[] P顶点缓冲 + yn f纹理 + int i计数器; H(float×4,nG,float×2)推送10float/顶点(4坐标+nG记录4字段+2额外); F(Object[])返回yI(yn,float[],int)批次结果; w(int)反编译失败; 官方用StagedVertexBuffer+各Renderer子类管理顶点, 无float[]扁平缓冲类; 26.2新增顶点缓冲类, 可能为新渲染类型(ARC/BLUR_TEXT/GLITCH_TEXT)服务"
+    }
+  ]
+}

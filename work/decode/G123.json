@@ -1,0 +1,25 @@
+{
+  "batch": "G123",
+  "results": {
+    "XL": {
+      "identity": "Render2DBounds",
+      "kind": "record",
+      "conf": "A",
+      "evidence": "Record(float x,y,width,height) 4字段全float; bo()→height, bR()→x, bY()→y, bv()=y+height→bottom(), ba()=y+height*0.5→centerY(), bG()=x+width→right(), bw()=x+width*0.5→centerX(); F(XL)取min(x)/min(y)/max(right)/max(bottom)→include(); n(XL)判断width/height正负+边界交叉→intersects(); I(XL)判断是否在other内→contains(); T(float,float)→point(x,y); F(4float)→of(x,y,w,h); hash/equals/toString由ObjectMethods.bootstrap生成; 官方 Render2DBounds(float x,y,width,h) right()=x+width bottom()=y+height centerX()/centerY()/intersects()/include()方法语义逐项对应",
+      "official_path": "work/official26/com/github/epsilon/graphics/schedulers/render2d/Render2DBounds.java"
+    },
+    "XN": {
+      "identity": "RoundRectRenderer",
+      "kind": "class",
+      "conf": "A",
+      "evidence": "implements _A(=IRenderer)确认; _t K=LuminRingBuffer(已解码D027); d5 H=QuadRenderingInfo; int o/G=vertexCount, boolean a=scissorEnabled, int L/R/b=scissorX/Y/W/H; addVertex内存写入vx,vy,0.0f,color,rx1,ry1,rx2,ry2,r1,r2,r3,r4 stride=48字节,完全匹配RoundRectRenderer.addVertex(vx,vy,rx1,ry1,rx2,ry2,r1,r2,r3,r4,color); w(Object[])带13参数传递4色(C,C,C,C)对应addRoundRectGradient; e(Object[])传递2色(C,C,L,R)对应addVerticalGradient; f(Object[])传递1色对应addRoundRect; w(float×9,Color×2)带0.5f重复参数对应addHorizontalGradient; Q(RenderPass)使用pipeline设置+setIndexBuffer+drawIndexed+disableScissor; K()调用clear+unmap; draw路径与RoundRectRenderer.draw()完全一致; 官方文件205行 vs 混淆584行(控制流膨胀)",
+      "official_path": "work/official26/com/github/epsilon/graphics/renderers/RoundRectRenderer.java"
+    }
+  },
+  "unident": [
+    {
+      "obf": "XP",
+      "reason": "15个static final BindGroupLayout字段+静态初始化块+helper方法N(创建uniform+sampler双绑定布局)和O(invokebootstrap)。结构完全匹配BindGroupLayouts常量定义类(15个布局=Rect/RoundRect/RoundRectOutline/Shadow/Texture/Triangle/Blur/BoxBlur/FXAA/Filter/GlslSandbox/ShaderHolder×4个独立pipeline各需uniform+sampler组合)。但官方26.2-2026.8.1源码中无独立BindGroupLayouts常量类(各shader类内联创建BindGroupLayout); 此类可能为26.2-2026.10.7新增或从现有类提取的常量辅助类，无法从现有官方源码确定确切类名"
+    }
+  ]
+}

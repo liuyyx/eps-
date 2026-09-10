@@ -1,0 +1,27 @@
+{
+  "batch": "G112",
+  "results": {
+    "vA": {
+      "identity": "Render2DCommand.Shadow",
+      "kind": "record",
+      "conf": "A-",
+      "evidence": "Record 10字段: int layer/long sequence/XL bounds/Xu scissor/5×float(om/oj/ON/OQ/OL)/Color sU; implements yM(=Render2DCommand); a()返回kind值与gU完全一致(1073215605179372184L); G060已确认gU=Shadow(14字段)且kind相同; vA字段结构匹配官方Shadow 10字段(4核心+5float=radii+blurRadius+1Color); g()返回默认bounds(非扩展); conf A-因字段数差异(10 vs 官方10完全一致,但gU变体有14字段,说明存在版本差异)",
+      "official_path": "work/official26/com/github/epsilon/graphics/schedulers/render2d/Render2DCommand.java"
+    },
+    "vC": {
+      "identity": "ModuleList.ModuleToggleFlag",
+      "kind": "class",
+      "conf": "A",
+      "evidence": "final class, 3实例字段(float H/boolean x/long s); 用于es(=ModuleList)的Map<e,vC> kQ; 构造器new vC(long)与ModuleToggleFlag lambda$collectRows$1(boolean→long混淆); r(Object[])返回float.progress值, 与ModuleToggleFlag.update(state,now)→float.progress一致; o(Object[])返回当前值; 在es渲染循环中用法完全匹配ModuleList: toggleFlags.computeIfAbsent→flag.update(state,now)→progress<=0.001f判断; 字段映射:H=progress, x=target, s=lastChangeMs(字段名因混淆不同)",
+      "official_path": "work/official26/com/github/epsilon/elements/impl/ModuleList.java"
+    },
+    "vd": {
+      "identity": "UiTree.LayerNode",
+      "kind": "record",
+      "conf": "A",
+      "evidence": "Record 2字段: List<_Q> y6(=List<UiNode> children), int jo(=int layer); implements _Q(=UiTree.UiNode sealed interface); 官方UiTree.LayerNode(int layer, List<UiNode> children) implements UiNode; zU.java中new vd(var1_1, List<_Q>)使用模式完全匹配官方new LayerNode(layer, capture.nodes()); LuminUiRenderer中((UiTree.LayerNode)record).children()模式一致; 字段数/类型/用途完全匹配",
+      "official_path": "work/official26/com/github/epsilon/gui/lib/UiTree.java"
+    }
+  },
+  "unident": []
+}

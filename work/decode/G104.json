@@ -1,0 +1,25 @@
+{
+  "batch": "G104",
+  "results": {
+    "uK": {
+      "identity": "Rot2f",
+      "kind": "class",
+      "conf": "A",
+      "evidence": "2 float 字段(G,q) + 构造器(float,float) + 复制方法A(Object[])读取另一实例的两个float并写入自身 + 两个getter f()/p()分别返回两个float → 与 src Rot2f(float x, float y) + copy/getX/getY 结构完全吻合；46行体量匹配",
+      "official_path": "com/github/epsilon/utils/rotation/Rot2f.java"
+    },
+    "ui": {
+      "identity": "RoundRectRenderer",
+      "kind": "class",
+      "conf": "B",
+      "evidence": "implements _A(=IRenderer)确认；导入GpuBufferSlice/Std140SizeCalculator/RenderPass；d5 F=QuadRenderingInfo(class_map已确认)；_t N+_t p=2个LuminRingBuffer(class_map确认)；Y()方法签名(x,y,w,h,radius,stroke,innerRadius,shadowSize,blur,Color,float[] verts,float[] normals,float[] colors,int count)对应圆角矩形批量渲染参数；g()使用Std140SizeCalculator计算GPU uniform大小；List<zw>/List<nB>为内部顶点/图元批处理列表，26.2可能从单buffer扩展为shadow+fill双buffer架构",
+      "official_path": "com/github/epsilon/graphics/renderers/RoundRectRenderer.java"
+    }
+  },
+  "unident": [
+    {
+      "obf": "uJ",
+      "reason": "3565行大型静态工具类，全部静态方法。方法K(Object[])→绘制圆角矩形(d(float x,y,w,h,rTL..BL,Color))；方法j(Object[])→绘制带边框/内阴影圆角矩形(zP canvas + ih bounds + Color*2 + stroke)；方法O(Object[])→设置裁剪区域(Xu scissorRect)；方法V(Object[])→计算矩形交集(Xu,Xu→Xu)；方法c(Object[])→文字测量(iB/lm)；使用_Xu/scissorRect进行屏幕交集测试。体量(3565行)远超EpsilonGuiRenderer(405行)，非roundrect单渲染器。official26中无对应静态渲染工具类；可能是26.2新增的渲染辅助类（如LuminDraw/RenderHelper等），26.1.2源码字典无对照。"
+    }
+  ]
+}

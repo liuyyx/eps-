@@ -1,0 +1,18 @@
+{
+ "batch": "G082",
+ "results": {},
+ "unident": [
+  {
+   "obf": "nb",
+   "reason": "1985行大型class；import com.sun.net.httpserver.HttpServer/HttpExchange/HttpHandler(内置HTTP服务器)、Pair、ByteBuffer/CharBuffer、Consumer<String>；静态字段volatile HttpServer W+Consumer<String> G；方法P()做字符串解密；Dl.t()读取设置。official26中无HttpServer/HttpExchange/import com.sun.net使用，无Dl.t()调用。C039/D025均判定26.2新增HTTP外部控制/调试API服务类"
+  },
+  {
+   "obf": "nc",
+   "reason": "Record(6组件：String cv, float vi, float vD, float vq, Color eW, nK c9) implements _Q接口。_Q和nK类型均不在class_map中(未映射)。D053判定为SeQL文本渲染元素record；official26中无匹配的6组件record(最近似Potions.EffectInfo为7组件、Render2DCommand.Text为13组件，均不匹配)。26.2新增SeQL内部record类型"
+  },
+  {
+   "obf": "nd",
+   "reason": "19行Gson模型类；@SerializedName(\"xui\")含XH[]数组字段+private构造函数，为JSON反序列化DTO。XH类型不在class_map中(未映射)。official26中无@SerializedName使用(settings类无此注解)。C040/D067均判定26.2新增Gson DTO"
+  }
+ ]
+}

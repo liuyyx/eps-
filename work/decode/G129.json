@@ -1,0 +1,22 @@
+{
+  "batch": "G129",
+  "results": {
+    "yE": {
+      "identity": "EventHandler",
+      "kind": "annotation",
+      "conf": "A",
+      "evidence": "完全同构: @Retention(RUNTIME)+@Target(METHOD)+单int方法default 0; P()=priority()混淆; @yE 在 class_map 多处证据中被锚定为 @EventHandler(eB 含 @yE 处理器)",
+      "official_path": "com/github/epsilon/events/bus/EventHandler.java"
+    }
+  },
+  "unident": [
+    {
+      "obf": "ye",
+      "reason": "enum{VanillaAndModded,Off,VanillaOnly} 在 official26 源码中无任何匹配; 全文搜索 VanillaAndModded/VanillaOnly/ContentMode 均为零; ClientSetting 内嵌枚举和所有模块 Mode 枚举均不含此常量集; 推测为 26.2→26.1.2 期间新增的 addon 内容模式枚举"
+    },
+    {
+      "obf": "yG",
+      "reason": "record(int,int) 结构与 official26 中 SystemEmojiAtlas$ColorGlyphLayer(int glyphId,int paletteIndex) 及 SystemEmojiAtlas$Table(int offset,int length) 均完全匹配; 两候选均为 private 内嵌 record, 字段类型序列均为 {int,int}, 无其他区分信号"
+    }
+  ]
+}

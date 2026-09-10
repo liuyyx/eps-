@@ -1,0 +1,22 @@
+{
+  "batch": "G085",
+  "results": {
+    "nP": {
+      "identity": "EpsilonTranslations",
+      "kind": "class",
+      "conf": "A",
+      "evidence": "final class + private构造器 + 10个static final uT(TranslateComponent)字段(t/l/m/Z/v/j/b/d/J/N) 与官方EpsilonTranslations结构一致：private构造+静态工厂create(prefix,suffix)生成TranslateComponent；uT=TranslateComponent确认；C042批次同一识别佐证",
+      "official_path": "work/official26/com/github/epsilon/assets/i18n/EpsilonTranslations.java"
+    }
+  },
+  "unident": [
+    {
+      "obf": "nn",
+      "reason": "Enum(Cancel/Kick/CancelAndNotify) 3值；在uc(ClientSetting)中作Dx<nn>枚举设置；26.2新增，官方ClientSetting源码无此枚举；多次decode(C042/D044)均确认26.2新增，无对应官方类"
+    },
+    {
+      "obf": "no",
+      "reason": "Class(float l + float o + static final no B)，336行；构造器设l=1.0f；含z(Object[])交换字段、l(Object[])返回float、U(Object[])复杂分发；MethodHandles+CallSite indy分发；官方26.2无匹配类（Rot2f无static实例且无complex methods）；疑26.2新增渲染/旋转辅助类"
+    }
+  ]
+}

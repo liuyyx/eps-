@@ -1,0 +1,18 @@
+{
+ "batch": "G088",
+ "results": {},
+ "unident": [
+  {
+   "obf": "nu",
+   "reason": "Enum{Static,Hypixel,Heypixel}，142行；3个枚举值表示服务器类型（Static=离线/盗版，Hypixel=Hypixel服务器，Heypixel=替代Hypixel）；结构为标准Enum，仅引用hi解密分发器；无MC导入；官方26.2-2026.8.1源码无ServerType/ServerMode等服务器类型枚举；前批C043声称ServerType(conf B)但无src_path验证；枚举值语义清晰但无法在官方字典中定位对应类"
+  },
+  {
+   "obf": "nv",
+   "reason": "Record(HttpServer bV, CompletableFuture<String> ax)，45行；2个字段分别为HttpServer和异步字符串响应；前批C043声称LocalHttpServerRecord(conf B)、D061声称HTTP服务器包装Record(conf B)，均无src_path；官方26.2-2026.8.1源码无任何含HttpServer的Record类；功能为本地HTTP服务包装，但无法确定官方类名"
+  },
+  {
+   "obf": "nx",
+   "reason": "extends nV<nx>(nV=AccountManager,未在官方源码确认) implements zy；构造器nx(String)→super(DJ=AccountType.Microsoft, name)；单字段String V存储账号名；e()创建new User(UUID,name,Optional,Optional)管理账号凭据；O()/a()读写JSON序列化；g()返回用户名；equals()比较账号名；737行大部分为混淆switch开销；结构上符合AccountSetting模式（nV泛型子类+zy接口+单String字段+User交互），但官方26.2-2026.8.1源码settings/impl/仅含10个标准Setting类，无AccountSetting；前批C044声称AccountSetting(conf A-)但无法在官方字典中验证"
+  }
+ ]
+}

@@ -1,0 +1,25 @@
+{
+  "batch": "G135",
+  "results": {
+    "yX": {
+      "identity": "Render2DCommand.RoundRectOutline",
+      "kind": "Record (inner of sealed interface)",
+      "conf": "A",
+      "evidence": "10字段逐项对应：layer(int), sequence(long), bounds(Render2DBounds=XL), scissor(Render2DScissor=Xu), radiusTopLeft/_P(float), radiusTopRight/_y(float), radiusBottomRight/_b(float), radiusBottomLeft/_v(float), outlineWidth/_w(float), color(cn/Color)。g()方法计算orderingBounds：pad = outlineWidth * 0.5f，与官方orderinBounds()完全一致。a()返回y3.ROUND_RECT_OUTLINE对应Render2DCommandKind.ROUND_RECT_OUTLINE。",
+      "official_path": "work/official26/com/github/epsilon/graphics/schedulers/render2d/Render2DCommand.java"
+    },
+    "yy": {
+      "identity": "LuminTexture",
+      "kind": "Class (extends AbstractTexture)",
+      "conf": "A",
+      "evidence": "继承y4对应AbstractTexture。构造器yy(lD)调用super(lD.tn(), lD.WB(), lD.Cc(), true, false)对应LuminTexture(GpuTexture, GpuTextureView, GpuSampler, true, false)。lD字段类型GpuTexture/GpuTextureView/GpuSampler与LuminTexture完全一致。static H()方法用NativeImage+ByteBuffer+put+rewind+getPixelBytes与TextureRenderer中writeToTexture+image.close模式一致。static p()创建lD(GpuTexture, GpuTextureView, GpuSampler)与LuminTexture三参数构造器一致。多出的static方法为混淆合并的工具方法。",
+      "official_path": "work/official26/com/github/epsilon/graphics/LuminTexture.java"
+    }
+  },
+  "unident": [
+    {
+      "obf": "z5",
+      "reason": "合成类（$SwitchMap$），非真实类。class z5有static final int[] N和4个catch块设置值1-4，对应Category枚举(4值：COMBAT/PLAYER/MOVEMENT/RENDER)的编译器switch映射表。但$SwitchMap$是编译器合成产物，非官方源码中的命名类，官方Category是enum不是class，故不满足identity必须为非mixin真实类的要求。"
+    }
+  ]
+}

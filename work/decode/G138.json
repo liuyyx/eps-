@@ -1,0 +1,22 @@
+{
+  "batch": "G138",
+  "results": {
+    "zk": {
+      "identity": "ModuleButton",
+      "kind": "class (extends Component)",
+      "conf": "A",
+      "evidence": "extends zF(=Component)确认; 字段逐项对应: 4个_E(=Animation)→expandAnim/toggleAnim/hoverAnim/keybindHoverAnim, 2个Map<String,_E>(=Map<String,Animation>)→sectionHoverAnimations/sectionExpandAnimations, List<Db>(=List<SettingSection>)→sections, float l→cachedHeight, e o→Easing(Easing.EASE_IN_OUT_CUBIC用于expandAnim), int p→cachedHeightFrameId, boolean t/q→expanded/listeningKeybind; M(Object[])绘制section header文字(emoji字符+翻译标签+缩放渲染), X(Object[])处理settings渲染布局(hitTest/scissor/scroll/drawSection), 完全匹配ModuleButton展开/折叠/设置渲染逻辑; 6060行=CFR将SettingSection内部record+全部private方法合并展平",
+      "official_path": "work/official26/com/github/epsilon/gui/dropdown/component/ModuleButton.java"
+    }
+  },
+  "unident": [
+    {
+      "obf": "zI",
+      "reason": "16行interface, 4个Object[]方法: o→boolean(@Deprecated)/K→int/J→Class/z→void; 官方26.2所有interface(TranslateComponent/IListener/IRenderer/ITextRenderer/DropdownPanel/UiTextMetrics/UiTheme/SettingHost/FollowerNavigator等)均无Object[]参数签名匹配; 可能为26.2-26.10演进期新增的泛型调用接口或混淆框架内部类型"
+    },
+    {
+      "obf": "zK",
+      "reason": "140行enum(extends Enum), 2值: Modern/Akrien; 官方26.2所有enum(Language/Category/GuiMode/ModuleSort/FontMode/HideMode/ThemeMode/ThemePreset/IconMode/TitleMode/HorizontalAnchor/VerticalAnchor/Style/Mode/SortingMode/NotificationMode/Render2DCommandKind/PanelState.ActivePopup/ClientSettingTab/ActionButtonType/MainMenuScreen.Background/Shader/RotateMode/SoundKey)均无Modern+Akrien组合; 可能为26.2-26.10期间新增的版本/主题枚举"
+    }
+  ]
+}

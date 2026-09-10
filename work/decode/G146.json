@@ -1,0 +1,18 @@
+{
+  "batch": "G146",
+  "results": {},
+  "unident": [
+    {
+      "obf": "_G",
+      "reason": "Record 12字段(1×Ds+11×float)；Ds=Record(2String+1boolean+2Color)提供字体/颜色样式；11个float为文本布局度量；被NameTags(Z)使用: List<_G> w7存储名牌文本渲染项；vH record(6float+1double+1×List<_G>)为名牌布局数据；官方26.1.2源码无同结构Record（12字段含1自定义类型+11float）；26.2新增文本样式配置record"
+    },
+    {
+      "obf": "_e",
+      "reason": "Record 5字段(2×String+1×boolean+2×Color)，与Ds同构但为不同实例；被D013识别为tab entry列表元素(List<_e> O)；官方26.1.2源码无匹配record；26.2新增UI配置条目record"
+    },
+    {
+      "obf": "_g",
+      "reason": "空public class(8行)，无字段/方法/接口/父类；被R.java作为事件参数类型(@yE public void W(_g))；官方全部41个event类已映射；26.2新增事件类型"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "batch": "G118",
+  "results": {},
+  "unident": [
+    {
+      "obf": "vZ",
+      "reason": "静态工具类345行；private static final List<uT> E(settings list)；public static MutableComponent W(Object...)创建翻译组件；public static List<uT> H()返回设置列表；private static uT S(String,String)创建TranslateComponent；static initializer含157-long解密数组；vT(=UiTree.Axis)/uT(=TranslateComponent)为已知锚点确认功能语义为设置创建/翻译辅助；官方26.1.2无同名工具类(SettingCreator/SettingFactory均不存在)；疑为26.2新增"
+    },
+    {
+      "obf": "X1",
+      "reason": "final class 285行；字段ih(=UiRect)f + vT(=UiTree.Axis)Q + float F + zU(=UiTree.Scope)t + float d；构造器X1(zU,ih,vT,float)；方法v(Object[])→ih(计算边界)、b(Object[])→void(更新状态+Consumer<vI>回调)、y(Object[])→void(重置)；仅被vI(lambda$layer$0)引用→UI layer边界管理器；vT/ih类型已确认但类名未知；疑为26.2新增layer边界计算类"
+    },
+    {
+      "obf": "X5",
+      "reason": "枚举 Single/Double 2值；被eX(=ScaffoldBlock)用作Dx<X5> E设置字段(EnumSetting)；f(Object[])返回new X5[]{Single,Double}对应values()；官方26.1.2 ScaffoldBlock无mode enum；26.2 ScaffoldBlock扩展至1056行→新增显示模式设置；无anchored_refs+无MC import；疑为26.2新增显示模式枚举"
+    }
+  ],
+  "conflicts": []
+}

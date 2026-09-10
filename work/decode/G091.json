@@ -1,0 +1,22 @@
+{
+  "batch": "G091",
+  "results": {
+    "O5": {
+      "identity": "DropdownScreen$DropdownTextMetrics",
+      "kind": "inner class",
+      "conf": "A-",
+      "evidence": "O5 implements DF(UiTextMetrics), has u4(DropdownScreen) field, q(String,float)→textWidth, O(float)→textHeight; u4 has all 17 DropdownScreen fields (panels, textMetrics, uiTextMetrics, scene, popupHost, scrimAnim, searchField, visiblePanelIds, renderTarget, preeditOverlay, initialized, sessionId, renderFrameId, dropdownBatch, dropdownScope, dropdownLayer); constructor pattern O5(u4) matches DropdownTextMetrics(DropdownScreen) with Objects.requireNonNull; Object[] overloads are bridge methods from obfuscation",
+      "official_path": "com/github/epsilon/gui/dropdown/DropdownScreen.java"
+    }
+  },
+  "unident": [
+    {
+      "obf": "O4",
+      "reason": "Top-level Record with 3 float fields (j7, JF, jn); no DynamicUniform; no matching top-level record in official26 — only 3-float records are nested BoxBlurUniforms(DynamicUniform, in BlurShader) and AnimationState(in ScaffoldBlock), neither structurally matches"
+    },
+    {
+      "obf": "O6",
+      "reason": "Top-level Record implements DynamicUniformStorage.DynamicUniform with 2 fields (Oq KA, float cF); all official DynamicUniform records are nested private records in shader classes (BlurShader, FXAAShader, etc.); no standalone DynamicUniform record exists in official26; write() calls putVec4 twice, pattern differs from all known official records"
+    }
+  ]
+}

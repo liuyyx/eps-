@@ -1,0 +1,25 @@
+{
+ "batch": "G131",
+ "results": {
+  "yM": {
+   "identity": "Render2DCommand",
+   "kind": "sealed interface",
+   "conf": "A",
+   "evidence": "sealed interface，permits 12 类与 official 7 record 实现对应(版本演进增加)。逐方法匹配：layer()→int, sequence()→long, bounds()→Render2DBounds(=XL), scissor()→Render2DScissor(=Xu), default g()→Render2DBounds 对应 default orderingBounds()。y3→Render2DCommandKind。结构+方法签名完全对应，无其他 sealed interface 匹配。",
+   "official_path": "work/official26/com/github/epsilon/graphics/schedulers/render2d/Render2DCommand.java"
+  },
+  "yk": {
+   "identity": "UiTheme",
+   "kind": "interface",
+   "conf": "A",
+   "evidence": "实现 l5(=UiTheme)，25+ 方法全部返回 Color/float/boolean/long，与 UiTheme 25 方法逐项对应：R()→light(boolean), L()→hoverAnimationDuration(long), F(Object[])→controlRadius(float), r(Object[])→stateLayer(Color,float,int), t(Object[])→lerp(Color,Color,float), a(Object[])→withAlpha(Color,int) 等。方法数+返回类型+参数类型完全匹配。",
+   "official_path": "work/official26/com/github/epsilon/gui/lib/UiTheme.java"
+  }
+ },
+ "unident": [
+  {
+   "obf": "ym",
+   "reason": "10行 @FunctionalInterface<T,E>，单方法 E f(T)。官方 26.2 源码无任何泛型双参数 FunctionalInterface（仅有 TitleSupplier/LabelSupplier/PanelVisibleResolver/RowRenderCallback/RowClickInterceptor/Dependency，均为具体类型），可能为 26.10 新增的通用函数式接口"
+  }
+ ]
+}

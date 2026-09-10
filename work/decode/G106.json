@@ -1,0 +1,18 @@
+{
+  "batch": "G106",
+  "results": {},
+  "unident": [
+    {
+      "obf": "uO",
+      "reason": "enum 2值 RANDOM/SEQUENTIAL; 被 eV 模块用作 Dx<uO> (EnumSetting); 官方26.2源码中所有2值枚举(ElytraFlightModes/Velocity.Mode/HandsView.SwingMode/Module.BindMode/RaytraceMode/RotationMode等)均已映射，无一匹配 RANDOM/SEQUENTIAL 常量名; eV本身也未映射，无法通过宿主交叉验证; 枚举常量名在官方源码中搜索零命中"
+    },
+    {
+      "obf": "uP",
+      "reason": "switch map 辅助类(int[] L + static初始化3个条目); 为 uq 枚举的编译器生成类; uq 无法识别，故 uP 同样无法识别"
+    },
+    {
+      "obf": "uq",
+      "reason": "enum 3值 Quantum/NVIDIA/Akarin; 被 eJ (extends eh=HudModule) 用作 Dx<uq> (EnumSetting); 官方所有3值枚举(EpsilonLanguage/NotificationMode/HorizontalAnchor/VerticalAnchor/SortingMode/Mode/ClientSettingTab/Channel等)均已映射，无一匹配; eJ未映射; Quantum/NVIDIA/Akarin 三个枚举常量名在官方源码全文搜索零命中; 疑为26.2-2026.10.7版本新增枚举(2个月演进)"
+    }
+  ]
+}

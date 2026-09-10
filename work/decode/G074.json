@@ -1,0 +1,25 @@
+{
+  "batch": "G074",
+  "results": {
+    "lf": {
+      "identity": "FabricSelfAddonEntrypoint",
+      "kind": "class",
+      "conf": "A-",
+      "evidence": "final class implements gr; gr=G FabricEpsilonAddonEntrypoint(conf A-, G060); 方法f(Object[])=registerAddon(EpsilonAddonSetupEvent); 结构与src FabricSelfAddonEntrypoint完全一致: 单方法回调接口实现，提取event参数并创建新实例；CFR提取private inner class为top-level；行数/方法签名/语义均匹配",
+      "official_path": "com/github/epsilon/fabric/addon/FabricSelfAddonEntrypoint.java"
+    },
+    "lh": {
+      "identity": "KillAura.TargetMode",
+      "kind": "enum",
+      "conf": "B",
+      "evidence": "2值enum: Switch(ordinal1)/Single(ordinal0); eY.java(=KillAura, class_map conf A)导入lh并持有Dx<lh>(EnumSetting<lh>)字段vz，确认lh为KillAura内部枚举；常量名Switch/Single与src KillAura.TargetMode前两常量一一对应，序号一致(0=Single/1=Switch)；但官方TargetMode有3值(Single/Switch/Multiple)而lh仅2值，CFR decompile显示仅创建2个enum实例；可能是26.2→26.10演进(Multiple常量被移除/重命名)或decompile遗漏",
+      "official_path": "com/github/epsilon/modules/impl/combat/KillAura.java:201"
+    }
+  },
+  "unident": [
+    {
+      "obf": "lg",
+      "reason": "1517行implements _A(26.2新增渲染生命周期接口)；导入GpuBufferSlice/RenderPass/d5(QuadRenderingInfo)/_t(LuminRingBuffer)；有PI*2常量(arc/circle渲染)；多个j(Object[])/S(Object[])方法取float+Color参数做绘制；K(Object[])=prepareSharedDraw(boolean返回)；Q(Object[])/Q()=渲染接口方法(RenderPass绑定)。官方26.2源码中无对应类：IRenderer实现(Rect/RoundRect/Shadow/Text/Texture/Triangle)均体量不符(100-400行)且无PI*2/arc模式；EpsilonGuiRenderer/GlslSandBox亦不匹配。_A为26.2新增接口，lg是该接口的新实现类，official26字典中不存在对应"
+    }
+  ]
+}

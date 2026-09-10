@@ -1,0 +1,25 @@
+{
+  "batch": "G139",
+  "results": {
+    "zn": {
+      "identity": "IntSliderWidget",
+      "kind": "class",
+      "conf": "A",
+      "evidence": "extends z0<XG, Integer> 精确匹配 src IntSliderWidget extends AbstractSliderWidget<IntSetting, Integer>；z0=A-AbstractSliderWidget(D026), XG=IntSetting；构造器(IntSetting)→super(setting,12,验证lambda)完全一致；n(Object[])→lambda验证int数字字符匹配src ValueMatcher；o/D/F方法对应数值滑块的归一化/获取/设置逻辑",
+      "official_path": "work/official26/com/github/epsilon/gui/dropdown/widget/IntSliderWidget.java"
+    },
+    "zP": {
+      "identity": "Render2DScheduler.LayerHandle",
+      "kind": "class",
+      "conf": "A",
+      "evidence": "private构造器(y_,int)精确匹配LayerHandle(Render2DScheduler,int)；y_=Render2DScheduler(D026已确认y_=LuminRenderPipelines→实为Render2DScheduler通过Int2ObjectMap<zP> L映射)；int S=layer；绘制方法创建Render2DCommand子类(Od=RoundRectGradient,vA=Arc,yX=Triangle,gU=Texture,d7=Texture变体)并通过scheduler.add()提交，与src LayerHandle的addRoundRect/addRoundRectGradient/addChevronTriangle/addRoundedTexture/addText完全对应；创建参数(int layer,long sequence,XL bounds,Xu scissor,...)匹配src Render2DCommand构造器(layer,sequence,bounds,scissor,...)",
+      "official_path": "work/official26/com/github/epsilon/graphics/schedulers/render2d/Render2DScheduler.java"
+    }
+  },
+  "unident": [
+    {
+      "obf": "zl",
+      "reason": "17行Gson DTO，@SerializedName(\"name\"/\"value\")两个String字段；gu类properties数组元素；official26无任何类含此结构（无@SerializedName用法，无简单name/value DTO）；D068已确认为26.2新增mod侧类"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "batch": "G124",
+  "results": {},
+  "unident": [
+    {
+      "obf": "XS",
+      "reason": "Record 70行, 5 float + 1 Color = 6组件, implements _Q(密封接口)。_Q 在 D063 已确认为 26.2 新增 sealed interface, 32 个 permits 全部未在 26.1.2 源码找到; _Q 无方法声明, 结构类似 UiNode 但 permit 列表不同; XS 6 组件不匹配任何 UiTree 内 Record (最小 ShadowNode/OutlineNode 为 9 组件); src 无 5-float+Color 独立 Record。"
+    },
+    {
+      "obf": "Xq",
+      "reason": "Record 121行, 9 float + 3 float[] + 1 Color + 1 int = 14 组件, implements _Q(密封接口)。含 3 个 float[] 数组字段, src 全树无任何 Record 含 float[] 字段; 不匹配任何 UiNode Record 或 Render2DCommand Record; 26.2 新增渲染数据 Record, 无法确定真实类名。"
+    },
+    {
+      "obf": "XQ",
+      "reason": "1288 行普通类 (非 Record, 非 Module), 含 2×DM(DoubleSetting) + 2×XG(IntSetting) + 1×Xn(BoolSetting), 通过 eJ settings builder 构造; 导入 DM/XG/Xn/eJ/y1/_j/g7/z8/zU 等; 方法: D(_j,List<y1>,float,float)→float, N(zU,_j,List<y1>,7×float,g7,z8)→void, Y(float)→29.0f*f, renderToast$0 等渲染方法; 被 eJ(HudModule 子类) 持有。全 src 搜索 renderToast/29.0f*D/Settings+渲染组合, 无匹配类; eJ 本身亦未映射; 疑 26.2 新增 HUD 渲染辅助类。"
+    }
+  ]
+}

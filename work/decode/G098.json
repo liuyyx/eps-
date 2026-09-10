@@ -1,0 +1,25 @@
+{
+  "batch": "G098",
+  "results": {
+    "Or": {
+      "identity": "InputNode",
+      "kind": "record",
+      "conf": "A",
+      "evidence": "record Or(On xC) implements _Q(UiNode) 与 record InputNode(InputElement element) implements UiNode 结构逐项吻合: 两者均为单字段record+实现UiNode。On(17字段: ih+boolean+6×float+2×String+SelectionRange+5×Color+Integer) 与 InputElement(17字段: UiRect+boolean+6×float+String+Color+SelectionRange+Color+Integer+Color+String+float+Color) 字段数×类型序列完全对应。u_(2 int fields)=SelectionRange(int start,int end) 已确认。",
+      "official_path": "work/official26/com/github/epsilon/gui/lib/UiTree.java:681"
+    },
+    "Ot": {
+      "identity": "Render2DScheduler.CommandStore",
+      "kind": "class",
+      "conf": "A",
+      "evidence": "final class Ot: Int2ObjectMap<O9>=Int2ObjectOpenHashMap + int M(constructor param) + add/get/contains/remove/keySet/size 方法签名与 CommandStore: Int2ObjectMap<LayerBucket>=Int2ObjectOpenHashMap + int quadtreeThreshold + add/isEmpty/layers/layer/planBatches/clear/clearLayer 结构同构。Ot.m(Object[])中computeIfAbsent+add模式与CommandStore.add(computeIfAbsent+bucket.add)逐义同构。O9=LayerBucket(List<yM>=List<Render2DCommand>,int W=quadtreeThreshold), yM=Render2DCommand(sealed interface 7 permits 逐一对应: vA=Text,gU=Texture,ve=Triangle,yX=Rect,Od=RoundRectOutline,v1=RoundRect,u6=Shadow)。Ot为独立类vs CommandStore为内部类, 为26.2重构差异。",
+      "official_path": "work/official26/com/github/epsilon/graphics/schedulers/render2d/Render2DScheduler.java:336"
+    }
+  },
+  "unident": [
+    {
+      "obf": "OS",
+      "reason": "singleton+CopyOnWriteArrayList<nV<?>> 与官方所有holder/manager类均不匹配。nV为abstract session/auth类(DJ authType+X_ session+String name+JSON序列化), 非IRenderer。RendererHolder使用ArrayList<IRenderer>+synchronized register/unregister/destroyAll, 类型参数和方法语义均不匹配。TranslateHolder已有映射(DC)且含AtomicLong revision字段(OS无)。可能为26.2新增类, 官方26.1.2源码无对应。"
+    }
+  ]
+}

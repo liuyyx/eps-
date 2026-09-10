@@ -1,0 +1,22 @@
+{
+  "batch": "G071",
+  "results": {
+    "l5": {
+      "identity": "UiTheme",
+      "kind": "interface",
+      "conf": "A",
+      "evidence": "l5 是25方法的接口（含重复签名共24条），UiTheme 恰好25方法。逐项对应：E(Color,Color,float)->lerp, O(Color,float,int)->stateLayer, R()->boolean对应light(), L()->long对应hoverAnimationDuration(), l(float)->Color对应switchTrack(float)等。方法数量+签名类型完全吻合，无其他官方接口匹配此模式。",
+      "official_path": "work/official26/com/github/epsilon/gui/lib/UiTheme.java"
+    }
+  },
+  "unident": [
+    {
+      "obf": "l4",
+      "reason": "final enum，三值 Disabled/Auto/Enabled，非 Module。official26 中无任何 enum 含此三值组合（Category=COMBAT/PLAYER/MOVEMENT/RENDER，HideMode=None/Hide/Vanilla，其他枚举均不匹配）。可能为 2026.10 新增的三态开关枚举，official26(2026.8.1)中不存在对应类。"
+    },
+    {
+      "obf": "l6",
+      "reason": "singleton 类，ExecutorService + AtomicInteger daemon 线程工厂 + 命名前缀。official26 中最接近的是 TtfFontLoader.GLYPH_WORKER（内联同模式），但 l6 是独立类（public static final l6 p 单例，public void m(Object[]) 提交 Runnable），非 TtfFontLoader 本身。官方无独立线程池工具类，可能为 2026.10 新增。"
+    }
+  ]
+}

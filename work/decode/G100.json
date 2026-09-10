@@ -1,0 +1,26 @@
+{
+  "batch": "G100",
+  "results": {
+    "Ox": {
+      "identity": "UiTree.ButtonNode",
+      "kind": "record",
+      "conf": "A",
+      "evidence": "Record implements _Q, 9字段: 6×float(OJ,OS,o5,o3,OH,ou) + 2×Color(ss,sZ) + 1×String(vL); 与 UiTree.ButtonNode(float x, float y, float width, float height, float radius, Color background, String label, float labelScale, Color labelColor) 字段类型序列完全吻合(6f+2C+1S); _Q接口=UiNode密封接口; 结构逐一对应; C051此前标记unident因无法区分Ox与Ou, 本批独立确认匹配",
+      "official_path": "work/official26/com/github/epsilon/gui/lib/UiTree.java:693"
+    },
+    "u2": {
+      "identity": "UiTree.RotatedTextureNode",
+      "kind": "record",
+      "conf": "A",
+      "evidence": "Record implements _Q, 14字段: X6(vf) + 12×float(vm,vZ,va,vP,vz,vr,v5,v0,vF,vW,v7,v9) + 1×Color(fm); 与 UiTree.RotatedTextureNode(Render2DTexture texture, float x, float y, float width, float height, float u0, float v0, float u1, float v1, Color color, float originX, float originY, float rotationDegrees) 字段类型序列完全吻合(1 Render2DTexture+12f+1C=14); X6=Render2DTexture(已知映射); _Q=UiNode; 结构逐一对应",
+      "official_path": "work/official26/com/github/epsilon/gui/lib/UiTree.java:700"
+    }
+  },
+  "unident": [
+    {
+      "obf": "OY",
+      "reason": "static class, 静态字段 long[25] + Integer[25]; 静态初始化器构建 long 数组后 XOR 得到 Integer 查找表; 方法 N() 反编译失败(switch contiguity error); a(int,long) 通过位掩码 l & 0x7FFF ^ 0x55A4 查表解密; 与 gz.java 同模式(long[25]+XOR+ISO-8859-1字符串), 属 SeQL bootstrap/invokedynamic 字符串解密辅助类; 官方26.2源码无对应公开类"
+    }
+  ],
+  "conflicts": []
+}

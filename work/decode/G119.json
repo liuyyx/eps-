@@ -1,0 +1,22 @@
+{
+  "batch": "G119",
+  "results": {
+    "X6": {
+      "identity": "Render2DTexture",
+      "kind": "sealed interface",
+      "conf": "A",
+      "evidence": "均为无方法 sealed interface；permits 两个 Record：iO(Identifier vk, boolean dr) = IdentifierRef(Identifier identifier, boolean linearFilter)，dq(y4 i1) = LuminRef(LuminTexture texture)。字段类型一一对应。",
+      "official_path": "work/official26/com/github/epsilon/graphics/schedulers/render2d/Render2DTexture.java"
+    }
+  },
+  "unident": [
+    {
+      "obf": "X7",
+      "reason": "顶级 enum，值 Simple/Normal。官方 ModuleList.Style 为 Compact/Open，AutoWeapon.Mode 为 Simple/Smart，均不匹配。可能是两个月演进窗口内新增或改名的枚举，无法从官方源确认。"
+    },
+    {
+      "obf": "X8",
+      "reason": "final class extends EnumSetting<l4>，含 ProtocolVersionRange 字段，使用 ViaVersion API 做版本范围判断。官方源无任何 ProtocolVersionRange 引用，无 EnumSetting 子类。属演进窗口内新增类，无法定位官方身份。"
+    }
+  ]
+}

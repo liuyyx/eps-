@@ -1,0 +1,23 @@
+{
+  "batch": "G079",
+  "results": {
+    "n2": {
+      "identity": "SessionData",
+      "kind": "class",
+      "conf": "A",
+      "evidence": "@SerializedName(\"accessToken\") String I + @SerializedName(\"selectedProfile\") yj l（yj=Profile{name,id}）与 Mojang Yggdrasil 认证响应格式完全吻合；Gson 注解暴露明文字段名 accessToken/selectedProfile；同批认证模型 gg(auth request), yS(Xbox token), iQ(MS refresh) 形成完整认证链；C038 已确认此身份",
+      "official_path": "26.2新增认证模型"
+    }
+  },
+  "unident": [
+    {
+      "obf": "lZ",
+      "reason": "59行final渲染管道包装类；字段 Vector3f r + i2 b(=LuminImmediateRenderer)；Y()方法签名(Matrix4f,PoseStack.Pose,float×6,int,float×4)与LuminImmediateRenderer.Lines.vertex接近但参数不完全一致；私有构造接收i2；k()=end(); K(float)返回i2。C037/D056均已判定为26.2新增渲染辅助类，与g0/lO/De结构同质，src无独立配对"
+    },
+    {
+      "obf": "n0",
+      "reason": "Enum 3常量: POSITION_DRAG_GRAVITY/GRAVITY_DRAG_POSITION/GRAVITY_POSITION_DRAG（三概念全排列）；无MC import；C038已判定为26.2新增枚举，src无匹配；疑似GUI面板定位/拖拽/重力行为模式枚举，但无源码依据确认"
+    }
+  ],
+  "conflicts": []
+}

@@ -1,0 +1,23 @@
+{
+ "batch": "G080",
+ "results": {
+  "n6": {
+   "identity": "DynamicUniformChunk",
+   "kind": "class",
+   "conf": "B",
+   "evidence": "final非公开类；字段Oq S/float z/vq o/_t W/yn v/GpuBufferSlice O,q；构造器(vq,_t,yn,float,Oq)；f(Object[])计算GPU uniform偏移+写入GpuBufferSlice；private static a(int,long)解密常量。GpuBufferSlice仅出现在Lumin渲染管线中。与26.1.2源码无匹配类，疑为26.2 Lumin uniform chunk管理类",
+   "official_path": ""
+  }
+ },
+ "unident": [
+  {
+   "obf": "n7",
+   "reason": "public final enum 3常量(Cine/Euabe/Local)，无字段无参数构造器；在e5(Module)中作Dx<n7>(EnumSetting<n7>)字段D，在yK中作EnumMap<n7, RenderPipeline>键并构建RenderPipeline(含Snippet+pipeline名称)。语义为模块渲染管线模式枚举，但official26中无3常量无字段的顶层枚举与之匹配(ShaderHolder.Shader=5常量/EpsilonLanguage=3常量但已有映射OM)，疑为26.2新增枚举"
+  },
+  {
+   "obf": "n8",
+   "reason": "public final Record，2组件(int a, _Q f)实现_Q接口；递归类型(_Q包含自身)暗示链表/树节点结构。_Q接口在official26源码中未定义，官方records(QuadRenderingInfo/GlyphInstance/各Render2DCommand等)均不匹配此2组件递归结构。疑为26.2新增数据结构"
+  }
+ ],
+ "conflicts": []
+}

@@ -1,0 +1,22 @@
+{
+ "batch": "G109",
+ "results": {
+  "u_": {
+   "identity": "SelectionRange",
+   "kind": "record",
+   "conf": "A",
+   "evidence": "Record(int ho, int ha)共2个int字段; 官方UiTree.SelectionRange(int start, int end)结构完全一致; G095已确认On=InputElement含u_字段对应SelectionRange; 字段数+类型序列+Record结构逐项匹配; accessor Ho()/Ha()对应 start()/end()",
+   "official_path": "work/official26/com/github/epsilon/gui/lib/UiTree.java:760"
+  }
+ },
+ "unident": [
+  {
+   "obf": "uy",
+   "reason": "Enum共3值(StopSprinting/Backwards/NoForwards), 125行; 为v.java模块的EnumSetting<uy>; 枚举值描述冲刺控制模式; 官方26.2-2026.8.1源码所有top-level和inner enum均无匹配; 之前6批(C016/D006/G013/C059/D005/F013)均未能确认; v模块同时处理AttackEntityEvent+KeyboardInputEvent, 仅Criticals匹配但结构完全不同(113行vs673行); 疑26.2-2026.10新增模块的配套枚举"
+  },
+  {
+   "obf": "v0",
+   "reason": "Record(String q8, Color TI, float JB)共3字段, 50行; 被lc.java(NameTags相关, 含GameProfile/PlayerInfo/Scoreboard导入)和ug.java(含Identifier+List<v0>)使用; 官方26.2-2026.8.1源码无(String, Color, float)三字段Record; C059/D059此前均标记为无法确认; 疑26.2新增文本渲染数据类"
+  }
+ ]
+}

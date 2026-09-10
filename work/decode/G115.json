@@ -1,0 +1,18 @@
+{
+  "batch": "G115",
+  "results": {},
+  "unident": [
+    {
+      "obf": "vP",
+      "reason": "interface 63行，方法签名(double,double,int)hit test、(double,double,double)hit test、float属性getter、void(Object[])、default D(int)。官方26.2源码全部interface(DropdownPanel/UiTheme/UiTextMetrics/IRenderer等)方法签名均不匹配；Ds类型/float×6在src无对应；疑26.2.10新增渲染/输入抽象接口"
+    },
+    {
+      "obf": "vp",
+      "reason": "单例class 791行，N(UUID)→HTTP→Gson→_b(皮肤JSON)→返回皮肤URL；imports Dl/_b/gu/yy/hi。此前D028已标记unident：src无SkinManager/ProfileFetcher类。皮肤数据模型(_b/i3/gX)均为26.2新增，此Manager类亦为26.2.10新增"
+    },
+    {
+      "obf": "vQ",
+      "reason": "Record(Ds, float×6) 74行。Ds为Record(String,String,boolean,Color,Color)非src存在类型。26.2源码UiNode sealed interface的22个Record实现中无匹配（无Ds类型首字段+6float结构）。疑26.2.10新增渲染样式数据记录"
+    }
+  ]
+}

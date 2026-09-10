@@ -1,0 +1,25 @@
+{
+  "batch": "G107",
+  "results": {
+    "uS": {
+      "identity": "com.github.epsilon.gui.lib.UiTree$ViewportNode",
+      "kind": "record",
+      "conf": "A",
+      "evidence": "Record类型、implements _Q(=UiNode sealed interface)；8字段类型序列完全匹配：vx(=UiContentBuffer)+ih(=UiRect)+float×3(=scroll,maxScroll,contentHeight)+int×2(=mouseX,mouseY)+List<_Q>(=List<UiNode> children)；equals/hashCode/toString均通过ObjectMethods.bootstrap覆盖全部8字段；Record声明与官方ViewportNode完全一致",
+      "official_path": "work/official26/com/github/epsilon/gui/lib/UiTree.java:653"
+    },
+    "uU": {
+      "identity": "com.github.epsilon.events.bus.EventPriority",
+      "kind": "constants_class",
+      "conf": "A-",
+      "evidence": "5个public static final int字段(s,V,F,T=0,u)精确匹配EventPriority(HIGHEST,HIGH,MEDIUM=0,LOW,LOWEST)；T=0对应MEDIUM=0为确认值；无方法、纯常量类结构一致；XOR解码长字符串为int数组是标准混淆常量模式；字段名无直接对应但结构唯一匹配",
+      "official_path": "work/official26/com/github/epsilon/events/bus/EventPriority.java:6"
+    }
+  },
+  "unident": [
+    {
+      "obf": "uu",
+      "reason": "编译器生成的synthetic switch map类；static final int[] r + CallSite桥接方法M(Lookup,String,MethodType,MethodHandle)→ConstantCallSite；static初始化含MobCategory.ordinal()索引赋值(5个case:1-5)；用于ESP2D/Shaders中switch(category)的枚举映射；官方源码中无对应源码类，属编译器产物"
+    }
+  ]
+}

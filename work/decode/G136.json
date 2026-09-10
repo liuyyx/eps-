@@ -1,0 +1,22 @@
+{
+ "batch": "G136",
+ "results": {
+  "zB": {
+   "identity": "PanelDirtyState.BooleanSupplier",
+   "kind": "interface",
+   "conf": "A-",
+   "evidence": "单方法boolean接口，位于Xy(PanelDirtyState)内。official中PanelDirtyState有private static interface BooleanSupplier{boolean getAsBoolean();}，完全匹配：单方法/无参/返回boolean/static inner。混淆后flatten为顶级类。",
+   "official_path": "work/official26/com/github/epsilon/gui/panel/PanelDirtyState.java"
+  }
+ },
+ "unident": [
+  {
+   "obf": "z7",
+   "reason": "Record类，19个float字段（n/w/l/v/c/e/g/q/y/o/k/t/s/d/b/r/j/i/p），无其他类型。official中无匹配Record：ShaderParams(13float)、TextureNode(12float+2type)、SettingsSnapshot(混合类型)均不符。可能是26.2-2026.10.7新增record。"
+  },
+  {
+   "obf": "z9",
+   "reason": "类含2个static int[]数组(Y,z)，静态初始化器用DQ(ArmorEnchantmentMode)和Difficulty的ordinal()设置switch映射表，K方法生成CallSite。official中无对应独立类：DamageUtils的switch是内联的，不生成独立lookup table类。疑似混淆器生成的switch indirection类或10月版本新增。"
+  }
+ ]
+}

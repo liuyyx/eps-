@@ -1,0 +1,22 @@
+{
+  "batch": "G128",
+  "results": {
+    "y8": {
+      "identity": "Render2DScheduler$RendererPool",
+      "kind": "class",
+      "conf": "A",
+      "evidence": "implements AutoCloseable; 字段 Map<y3,Deque<_X>> + List<_X> 精确对应 Map<Render2DCommandKind,Deque<RendererBundle>> + List<RendererBundle>; close() 遍历 clear() 并清理 available map; x() 用 computeIfAbsent 填充 map; lambda$clear$0 返回 new ArrayDeque(); _X.V() 工厂方法 10 个 switch 分支匹配 RendererBundle.create()(26.2版多 BLUR_TEXT/GLITCH_TEXT/ARC 三个渲染器); y3=Render2DCommandKind, _X=RendererBundle",
+      "official_path": "work/official26/com/github/epsilon/graphics/schedulers/render2d/Render2DScheduler.java:298-335"
+    }
+  },
+  "unident": [
+    {
+      "obf": "y7",
+      "reason": "final class extends AbstractViaConfig(ViaVersion库); 方法 isServersideBlockConnections()/cancelBlockSounds()/use1_8HitboxMargin()/updateConfig(); 官方26.2-2026.8.1源码中无ViaVersion引用、无AbstractViaConfig子类，为26.2版本ViaVersion集成新增类"
+    },
+    {
+      "obf": "yB",
+      "reason": "Enum 常量 None/Color/Scoreboard; 125行; 全官方src搜索无此enum定义(MasEffects.getScoreboardName()仅调用方法非枚举值); 可能为26.2版本HUD/Tab信息显示模式新增枚举"
+    }
+  ]
+}

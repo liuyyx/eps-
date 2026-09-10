@@ -1,0 +1,22 @@
+{
+  "batch": "G081",
+  "results": {
+    "nA": {
+      "identity": "StringSettingRow.DisplaySlice",
+      "kind": "record",
+      "conf": "B",
+      "evidence": "Record 5组件(String wF, float qA, int lp, int lj, int LH)与官方StringSettingRow.DisplaySlice(String text, float textX, int caretIndex, int start, int end)字段类型序列完全一致(String,float,int,int,int)。语义映射：wF→text(String)/qA→textX(float)/lp→caretIndex(int)/lj→start(int)/LH→end(int)。nA在vs.java中用于文本光标位置和选区管理，与DisplaySlice用于文本选择渲染的用途一致。nA为独立顶层类(DisplaySlice为StringSettingRow私有内部Record)，混淆器提升内部类至顶层导致结构差异",
+      "official_path": "work/official26/com/github/epsilon/gui/panel/component/setting/StringSettingRow.java:428"
+    }
+  },
+  "unident": [
+    {
+      "obf": "n9",
+      "reason": "public final enum 5常量(None/LeftTop/RightTop/LeftBottom/RightBottom)，组合式屏幕锚点位置枚举。official26中最接近的是HudModule.HorizontalAnchor(Left/Center/Right)+VerticalAnchor(Top/Center/Bottom)两个独立枚举，无单枚举组合5值版本。n9为独立顶层enum(非内部类)，无字段无参数构造器。疑为26.2新增的HUD元素锚点组合枚举"
+    },
+    {
+      "obf": "nB",
+      "reason": "Record 4组件(boolean q1, int vx, int VR, int VG)。在ui.java(渲染管线类)中以List<nB>存储，构造new nB(boolean,int,int,int)，方法q1()返回boolean。official26中所有Record均无4组件(boolean,int,int,int)匹配(最近似Render2DTexture.IdentifierRef为2组件)。疑为26.2新增的GPU渲染命令/状态record"
+    }
+  ]
+}

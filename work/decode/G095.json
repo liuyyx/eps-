@@ -1,0 +1,27 @@
+{
+  "batch": "G095",
+  "results": {
+    "OL": {
+      "identity": "RenderEntry",
+      "kind": "record",
+      "conf": "A-",
+      "evidence": "3字段Record: (自定义类型, float, 自定义类型); 官方Notifications.RenderEntry(Notification, float boxWidth, RenderFrame)完全对应; 字段数+类型序列+Record结构一致; yn→Notification, Oq→RenderFrame 未在class_map确认",
+      "official_path": "work/official26/com/github/epsilon/elements/impl/notification/Notifications.java:230"
+    },
+    "ON": {
+      "identity": "TextLayout",
+      "kind": "class",
+      "conf": "A",
+      "evidence": "6字段final class, 仅private构造器无accessor; 字段类型序列: 数组→int→float→boolean→long→long; 官方TtfTextRenderer.TextLayout(LayoutRun[], int glyphCount, float width, boolean complete, long glyphRevision, long atlasRevision)逐项对应; yI→LayoutRun",
+      "official_path": "work/official26/com/github/epsilon/graphics/text/ttf/TtfTextRenderer.java:467"
+    },
+    "On": {
+      "identity": "InputElement",
+      "kind": "record",
+      "conf": "A",
+      "evidence": "17字段Record, 类型序列逐项匹配: (ih→UiRect, boolean, float×5, Color×4, String×2, float×2, u_→SelectionRange, Integer, Color); 官方UiTree.InputElement(UiRect, boolean focused, float hoverProgress, float focusRingProgress, Color focusRingColor, float focusRingInset, float textInset, String text, float textScale, Color textColor, SelectionRange selection, Color selectionColor, Integer caretIndex, Color caretColor, String trailingHint, float trailingHintScale, Color trailingHintColor) 17字段完全一致",
+      "official_path": "work/official26/com/github/epsilon/gui/lib/UiTree.java:757"
+    }
+  },
+  "unident": []
+}

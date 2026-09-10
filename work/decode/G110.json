@@ -1,0 +1,27 @@
+{
+  "batch": "G110",
+  "results": {
+    "v1": {
+      "identity": "Render2DCommand.Triangle",
+      "kind": "record",
+      "conf": "A",
+      "evidence": "Record with 9 fields: (int layer, long sequence, XL bounds, Xu scissor, 4×float, Color). Field types/count exactly match official Triangle: (int, long, Render2DBounds, Render2DScissor, float centerX, float centerY, float size, float progress, Color color). Both implement sealed yM/Render2DCommand interface. Constructor (int, long, XL, Xu, float, float, float, float, Color) matches.",
+      "official_path": "work/official26/com/github/epsilon/graphics/schedulers/render2d/Render2DCommand.java:44"
+    },
+    "v2": {
+      "identity": "ITextRenderer",
+      "kind": "interface",
+      "conf": "A-",
+      "evidence": "Interface with 14 methods matching ITextRenderer's structure: b(String,float,float,float,Color,nK)=addText(6 params), V(String,float,float,float,Color,nK,float,float,float)=addRotatedText, l(String,float,float,float,Color,Color,nK)=addGradientText, o(float,nK)=getHeight, o(int,int,int,int)=setScissor, H(RenderPass)=draw(RenderPass), n(Object[])=getWidth-ish, E/W(Object[])=draw/clear. nK=TtfFontLoader (font loader with Path constructor, glyph caching). 3 extra methods vs official ITextRenderer likely from version evolution.",
+      "official_path": "work/official26/com/github/epsilon/graphics/text/ITextRenderer.java"
+    },
+    "v3": {
+      "identity": "Render2DCommand.Text",
+      "kind": "record",
+      "conf": "A-",
+      "evidence": "Record with 11 fields: (int layer, long sequence, XL bounds, Xu scissor, String lu, 3×float, Color wr, Oq FE, nK cz). Maps to official Text: (int, long, Render2DBounds, Render2DScissor, String text, float x, float y, float scale, Color color, TtfFontLoader fontLoader, float originX, float originY, float rotationDegrees). 9/11 field positions match by type. v3 has Oq (font style record with 9 floats+Color) as 10th field vs official TtfFontLoader. v3 is missing originX/originY/rotationDegrees — likely version evolution (13 official fields vs 11 obfuscated). Oq is an independent record, not Render2DCommand subtype.",
+      "official_path": "work/official26/com/github/epsilon/graphics/schedulers/render2d/Render2DCommand.java:28"
+    }
+  },
+  "unident": []
+}

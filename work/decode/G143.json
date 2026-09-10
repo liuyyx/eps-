@@ -1,0 +1,22 @@
+{
+  "batch": "G143",
+  "results": {
+    "_7": {
+      "identity": "ThemeStyleB",
+      "kind": "record",
+      "conf": "B",
+      "evidence": "Record, 101行, implements _Q; 构造函数(ih, 7×float, 3×Color)=11字段; 字段类型序列ih+float×7+Color×3与D049确认的ThemeStyleB一致; 与yq(ThemeStyleA)/gi(ThemeStyleC)同族_Q记录, 结构为渲染/主题配置; 26.2新增, official26无graphics模块",
+      "official_path": null
+    }
+  },
+  "unident": [
+    {
+      "obf": "_3",
+      "reason": "final class, 1056行, 纯静态工具方法; p(Object[])比较器,N(Object[])集合处理; 引用lb/y3/uM+Dl.S()(boolean开关); Iterator+List遍历; MethodHandles.Lookup+ConstantCallSite(B方法); 26.2新增(src无对应), 集合/列表处理工具类+bootstrap辅助, 缺乏结构指纹定位; D027已确认无法识别"
+    },
+    {
+      "obf": "_4",
+      "reason": "public class, 8行, 完全空类(无字段/无方法); 仅被__.java和_y.java继承(两者同样为空类); 无接口实现/无MC导入; D071已确认无法识别; 26.2新增空父类, 推测为类型占位或序列化标记"
+    }
+  ]
+}

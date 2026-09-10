@@ -1,0 +1,36 @@
+{
+  "batch": "G093",
+  "results": {
+    "Od": {
+      "identity": "Render2DCommand.Rect",
+      "kind": "record",
+      "conf": "A",
+      "evidence": "extends Record implements yM(=Render2DCommand); 8字段逐一对应: int layer, long sequence, XL bounds(=Render2DBounds), Xu scissor(=Render2DScissor), 4×Color(vb/VP/VN/VF)=topLeft/bottomLeft/bottomRight/topRight; a()返回y3(=Render2DCommandKind); 官方Render2DCommand.Rect record签名(int,long,Render2DBounds,Render2DScissor,Color,Color,Color,Color)完全匹配; 属于Render2DCommand sealed interface的7个内部record之一",
+      "official_path": "work/official26/com/github/epsilon/graphics/schedulers/render2d/Render2DCommand.java"
+    },
+    "OF": {
+      "identity": "unident",
+      "kind": "class",
+      "conf": "",
+      "evidence": "extends nV<OF>(nV未映射,非官方基类); 构造器OF(String)→super(DJ,string); e(Object[])中创建net.minecraft.client.User(name,UUID,\"\",Optional.empty(),Optional); equals基于UUID匹配; 显然是Account相关类(MicrosoftAccount/OnlineAccount); 但official26(26.2-2026.8.1)中无任何Account/Alt/Login管理类; nV基类同样不在official26中; 属于26.2后期(8月→10月)新增类",
+      "official_path": ""
+    },
+    "OG": {
+      "identity": "unident",
+      "kind": "class",
+      "conf": "",
+      "evidence": "39行; static final int[4] x数组; 静态初始化器通过NoSuchFieldError try-catch设置x[0..3]=1..4; 13个加密方法; 无super/interfaces; 是enum辅助类(switch/ordinal映射); 但official26中无匹配的4值枚举类(已排除HoleShape/KillAura.ESPMode等已映射枚举); 无明确结构信号可定位具体枚举",
+      "official_path": ""
+    }
+  },
+  "unident": [
+    {
+      "obf": "OF",
+      "reason": "Account管理类,official26无对应Account/Alt/Login类"
+    },
+    {
+      "obf": "OG",
+      "reason": "enum辅助类(int[4]数组),official26无匹配的4值枚举"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "batch": "G077",
+  "results": {},
+  "unident": [
+    {
+      "obf": "lO",
+      "reason": "final class; 字段 i2(=LuminImmediateRenderer,已知锚点); 私有构造 lO(i2); i(Object[])解包Matrix4f+3float+int调用渲染委托; n(Object[])空方法; 与D058.De/D064.lO/G052.g0同类模式(轻量渲染包装类); official26源码无此类; 26.2版本新增(版本演进 gap: official 26.2-2026.8.1 vs ours 26.2-2026.10.7)"
+    },
+    {
+      "obf": "lP",
+      "reason": "enum extends Enum; 3常量 FONT_BLUR/STANDARD/GLITCH; 被 _j(文本渲染) 和 vq(GPU渲染) 引用; C035/D044 已标记unident; 官方ShaderHolder.Shader=Default/Smoke/Gradient/Snow/Fade 不匹配; official26全文搜索 FONT_BLUR/GLITCH/STANDARD 均无枚举匹配; 26.2版本新增渲染效果模式枚举"
+    },
+    {
+      "obf": "lT",
+      "reason": "enum extends Enum; 3常量 Balance/Always/SlowBalance; C036/D044 已标记unident; official26全文搜索 SlowBalance/Balance+Always 均无枚举匹配; 官方无此类枚举; 26.2版本新增(可能为键重复/平衡模式设置枚举)"
+    }
+  ]
+}

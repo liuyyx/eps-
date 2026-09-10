@@ -1,0 +1,18 @@
+{
+  "batch": "G145",
+  "results": {},
+  "unident": [
+    {
+      "obf": "_b",
+      "reason": "16行极简Gson模型类; @SerializedName(\"textures\")字段含i3类型; 与i3/gX构成26.2皮肤纹理反序列化模型; official26(26.1.2)无此类; 26.2新增皮肤数据模型"
+    },
+    {
+      "obf": "_D",
+      "reason": "174行重度加密类; static初始化器含22条long[]解密表; invokedynamic bootstrap(O方法)用hi辅助解密; 4个public String字段(k/B/u/H); 构造函数接收4个字符串; J方法用Dl.S()检查Setting状态; 字符串加密(XOR+switch控制流平坦化); official26(26.1.2)无此类; 26.2新增加密类"
+    },
+    {
+      "obf": "_d",
+      "reason": "23行final class extends ViaBackwardsConfig; 私有构造(File,Logger); save(File,Map) synchronized空覆写(no-op); ViaBackwards库兼容层; official26仅含epsilon源码无ViaBackwards库类; 非epsilon源码中的官方类"
+    }
+  ]
+}

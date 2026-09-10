@@ -1,0 +1,25 @@
+{
+  "batch": "G120",
+  "results": {
+    "Xa": {
+      "identity": "ZealotCrystalPlus.AsyncResult",
+      "kind": "record",
+      "conf": "A",
+      "evidence": "7字段Record逐一对应: (long DV=snapshotId, nh ow=rotationBreakPlan, nh op=breakPlan, iR xM=primaryTarget, long DE=calculationNanos, O7 br=rotationPlaceInfo, O7 bi=placeInfo); 字段类型序列(long,BreakPlan,BreakPlan,TargetSnapshot,long,PlaceInfo,PlaceInfo)与src AsyncResult完全一致; static final h 构造(-1L,null,null,null,null,null,0L)匹配src EMPTY常量; ZealotCrystalPlus是combat包大型类(1805行),nh=BreakPlan和iR=TargetSnapshot已在class_map确认",
+      "official_path": "work/official26/com/github/epsilon/modules/impl/combat/ZealotCrystalPlus.java:1803"
+    },
+    "XB": {
+      "identity": "UiTree.MarqueeTextNode",
+      "kind": "record",
+      "conf": "A-",
+      "evidence": "7字段Record逐一对应: (String vd=text, float LM=x, float l6=y, float LL=scale, Color eo=color, nK lk=fontLoader=TtfFontLoader, ih OY=clip=UiRect); 字段类型序列(String,float,float,float,Color,TtfFontLoader,UiRect)与src MarqueeTextNode完全一致; 0.2版本演进差异(nK/Ih类型名不同)不改结构; implements UiNodesealed permits列表含MarqueeTextNode",
+      "official_path": "work/official26/com/github/epsilon/gui/lib/UiTree.java:705"
+    }
+  },
+  "unident": [
+    {
+      "obf": "X9",
+      "reason": "public record 2字段: (Object rQ, boolean WR); 26.1.2源码中无匹配的2字段public record(Object,boolean); 所有official records均不符合此字段类型组合; 疑似26.2新增数据持有类,缺乏足够判别信号"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "batch": "G114",
+  "results": {
+    "vO": {
+      "identity": "TtfTextRenderer$widthCache",
+      "kind": "inner class (LinkedHashMap subclass)",
+      "conf": "A",
+      "evidence": "extends LinkedHashMap<Ok,Float>=LinkedHashMap<LayoutKey,Float>; 构造器(vq/int/float/boolean)与官方TtfTextRenderer中widthCache匿名类完全一致(intial capacity 64, loadFactor 0.75, accessOrder true); removeEldestEntry size>256 阈值完全匹配 WIDTH_CACHE_LIMIT=256; vq=渲染管线类(Render3DScheduler), 在vq中与vG(疑似layoutCache)并列实例化; Ok=LayoutKey(TtfFontLoader, String, float)已确认",
+      "official_path": "com/github/epsilon/graphics/text/ttf/TtfTextRenderer.java (匿名内部类, 字段 widthCache)"
+    }
+  },
+  "unident": [
+    {
+      "obf": "vH",
+      "reason": "Record, 8组件: 6 float(aA/aQ/aw/aK/aJ/an) + 1 double(yU) + 1 List<_G>=List<TextStyleConfig>(w7); 在NameTags(Z)中构造; 官方NameTags仅有TagDrawData(16组件, 含List<ItemStack>/String/boolean/Color/10float)结构完全不同; 官方26.2-2026.8.1中无此8组件(float*6+double+List)record; 疑为26.2-2026.10.7新增的玩家名牌渲染数据记录"
+    },
+    {
+      "obf": "vI",
+      "reason": "final class, 字段 zU(LuminRenderSystem)+ih(Render2DBounds); lambda$layer$0方法接受Consumer+zU创建新vI实例; 被X1(UI布局元素)和iB(批次结果)使用; 含CallSite bootstrap桥接方法; 官方26.2-2026.8.1渲染系统中无对应包装类; 疑为26.2-2026.10.7新增的渲染层/作用域对象"
+    }
+  ]
+}

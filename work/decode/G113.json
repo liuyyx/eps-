@@ -1,0 +1,25 @@
+{
+ "batch": "G113",
+ "results": {
+  "ve": {
+   "identity": "Render2DCommand.RoundRect",
+   "kind": "record",
+   "conf": "A",
+   "evidence": "Record 12组件类型序列(int layer, long sequence, Render2DBounds bounds, Render2DScissor scissor, float×4 radiusTopLeft/radiusTopRight/radiusBottomRight/radiusBottomLeft, Color×4 topLeft/bottomLeft/bottomRight/topRight) 与 official26 Render2DCommand.RoundRect record 完全一致；hashCode ObjectMethods.bootstrap 引用组件名 'layer;sequence;bounds;scissor;RP;rx;RK;rj;ic;iq;iH;im' 逐一对应；implements yM(=Render2DCommand sealed interface)；kind() 返回 y3(=Render2DCommandKind)；官方路径 Render2DCommand.java:74",
+   "official_path": "work/official26/com/github/epsilon/graphics/schedulers/render2d/Render2DCommand.java"
+  },
+  "vG": {
+   "identity": "TtfTextRenderer$layoutCache",
+   "kind": "class",
+   "conf": "A-",
+   "evidence": "extends LinkedHashMap<Ok,ON>(=LinkedHashMap<LayoutKey,TextLayout>)；构造器(vq,int,float,boolean)=(TtfTextRenderer outerRef, 64, 0.75f, true) 完全匹配 layoutCache 匿名子类构造签名；K(vq) 为外层 TtfTextRenderer synthetic 引用；removeEldestEntry 重写对应 layoutCache LRU 淘汰逻辑(size>256)；access-order=true 对应 true 参数；CFR 将 TtfTextRenderer 匿名子类提取为顶层类",
+   "official_path": "work/official26/com/github/epsilon/graphics/text/ttf/TtfTextRenderer.java"
+  }
+ },
+ "unident": [
+  {
+   "obf": "vF",
+   "reason": "SEQL indy bootstrap helper 类：static final int[] p + 常量池解密引导 + ordinal()/values() 调用；62行结构匹配 switch table bootstrap helper；数组大小 values().length=5 指向 5 常量枚举；同包内唯一 5 常量枚举为 ShaderHolder.Shader(Default/Smoke/Gradient/Snow/Fade)，但 vF 无直接类型引用佐证（导入 Xf=RegistryListSetting$Type 为混淆产物非实际依赖）；bootstrap 常量 ggpWFMCuoJqEAUMl 同 vG 共享但属 SEQL 全局密钥非定向证据；无法确定具体目标枚举，判 unident"
+  }
+ ]
+}

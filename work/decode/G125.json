@@ -1,0 +1,22 @@
+{
+  "batch": "G125",
+  "results": {
+    "XX": {
+      "identity": "EpsilonTranslations.Keybind",
+      "kind": "class",
+      "conf": "B",
+      "evidence": "static final class with 3 uT(=TranslateComponent)字段(u/Z/m)，正好匹配 EpsilonTranslations.Keybind 的 3 个 static final TranslateComponent 字段(NONE/TOGGLE/HOLD)。uT=TranslateComponent 已由 class_map 确认(dy=EpsilonTranslateComponent 提供 create 方法)。字段通过 hi.a(\"G\",...) 静态写入初始化，与 TranslateComponent 的 obfuscation 模式一致。Keybind 是 EpsilonTranslations 的内部类，obfuscation 后扁平化为顶层类 XX",
+      "official_path": "work/official26/com/github/epsilon/assets/i18n/EpsilonTranslations.java (inner class Keybind)"
+    }
+  },
+  "unident": [
+    {
+      "obf": "Xs",
+      "reason": "extends Record，字段签名 4 boolean(tN/tL/tC/tD) + 2 double(cB/cS)。官方26.2所有 Record 均无此签名: DirectionInput(4 boolean无double), Pitch40ControlState(含enum+Float), FollowerInput(4boolean+2float), TargetRequest(含float+Predicate)。该 Record 可能为 26.2→26.10.7 期间新增"
+    },
+    {
+      "obf": "XT",
+      "reason": "implements me.sofurry.via.W（ViaVersion/ViaFabric 第三方接口），方法 K(Object[]) 遍历 FabricLoader mod containers 构建 Bi(mod info) 列表。official26 无 ViaVersion 相关代码，该类属于第三方 ViaVersion 集成而非 Epsilon 官方源码"
+    }
+  ]
+}

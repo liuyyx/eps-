@@ -1,0 +1,22 @@
+{
+  "batch": "G141",
+  "results": {
+    "zY": {
+      "identity": "ZealotCrystalPlus$PlaceMode",
+      "kind": "enum",
+      "conf": "A",
+      "evidence": "enum值Off/Single/Multi与官方ZealotCrystalPlus.PlaceMode完全一致，字段结构匹配",
+      "official_path": "work/official26/com/github/epsilon/modules/impl/combat/ZealotCrystalPlus.java"
+    }
+  },
+  "unident": [
+    {
+      "obf": "zw",
+      "reason": "Record类，字段float+Color+3个float[]+int，在ui渲染类中用作GPU uniform数据。官方26.2中未找到结构匹配的Record，可能是后期新增的渲染数据类"
+    },
+    {
+      "obf": "zy",
+      "reason": "单方法函数式接口String g(Object[])，由O8/nx账号类实现。官方26.2中未找到签名匹配的接口，可能是后期新增的账号/token相关接口"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "batch": "G132",
+  "results": {
+    "yo": {
+      "identity": "FollowerInput",
+      "kind": "record",
+      "conf": "A-",
+      "evidence": "Record 8字段逐项吻合: 6 boolean(forward/back/left/right/jump/sneak)+2 float(yaw/pitch) 与 src FollowerInput 完全一致; 构造器 (6b,2f) 签名匹配; lB()/Gp()/GO() 含 forward==back→0, forward→1.0f:-1.0f 等逻辑与 forwardImpulse()/strafeImpulse()/hasMoveInput() 语义一致; 26.2 新增 hashCode/equals/toString(ObjectMethods.bootstrap) 与 Record 演进一致",
+      "official_path": "com/github/epsilon/modules/impl/movement/follower/FollowerInput.java"
+    },
+    "yP": {
+      "identity": "UiTextMetrics",
+      "kind": "interface",
+      "conf": "B",
+      "evidence": "yP implements DF 且仅含一个 yt(=HudEditorScreen) 字段, 私有构造+Objects.requireNonNull; q(String,float)↔textWidth(String,float), O(float)↔textHeight(float) 签名对应; X(Object[]) 提取(String,Float,nK)↔textWidth(String,float,TtfFontLoader) 三参桥接; O(Object[]) 提取(Float,nK)↔textHeight(float,TtfFontLoader); DF 即 UiTextMetrics(4方法接口); CFR 提取匿名内部类为顶层文件",
+      "official_path": "com/github/epsilon/gui/lib/UiTextMetrics.java"
+    },
+    "yq": {
+      "identity": "Render2DCommand.RoundRect",
+      "kind": "record",
+      "conf": "A",
+      "evidence": "Record 12字段逐项吻合: 构造器 8f+4Color 顺序对应 RoundRect 4 radius+4 corner Color; Uu()↔radiusTopLeft, UG()↔radiusTopRight, UO()↔radiusBottomRight, UI()↔radiusBottomLeft; Kk()↔topLeft, KS()↔bottomLeft, Kc()↔bottomRight, Kx()↔topRight; _Q=Render2DCommand(26.2 sealed→公开)",
+      "official_path": "com/github/epsilon/graphics/schedulers/render2d/Render2DCommand.java"
+    }
+  },
+  "unident": []
+}

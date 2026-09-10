@@ -1,0 +1,18 @@
+{
+  "batch": "G092",
+  "results": {},
+  "unident": [
+    {
+      "obf": "O9",
+      "reason": "final class, 566行, 字段 List<yM> g + int W + XL n + vS w; yM 为 sealed interface (渲染命令节点); 方法 T(Object[])/Z(Object[])/L(Object[]) 操作 yM/XL; 566行重度混淆控制流; 无 MC imports; 官方26.2无同结构 final class 可匹配; 非 Module(不 extends e); 非 Record; 疑似26.2新增渲染管线/命令调度类"
+    },
+    {
+      "obf": "OC",
+      "reason": "Record 4字段: zP w5 + _j JP + l5 d0 + vx cY; 工厂方法 R(vx) 从 Viewport(vx) 提取 Renderer(zP)/TextRenderer(_j)/ColorTheme(l5)/Viewport(vx); 官方26.2无匹配 Record 类型; 所有已知 Record(Render2DBounds/Render2DScissor/Render2DCommand子类等) 字段类型序列均不匹配; 疑似26.2新增 UI 组件快照 Record"
+    },
+    {
+      "obf": "Oc",
+      "reason": "extends nV<Oc>; nV = 抽象账户基类(DJ authType + String username + UserApiService/Services 管理 + JSON 序列化); Oc 字段 String v; e(Object[]) 创建 User(username, uuid, accessToken, ...); z() 返回 boolean; equals() 检查; 构造器 Oc(String) 调用 super(DJ Microsoft, username); 官方26.2源码无 ChoiceSetting/AccountSetting 类; class_map 中 O8=ChoiceSetting(conf B) 误判(O8实际为同系列账户类, 有 YggdrasilAuthenticationService+User+Environment); nV 子类体系(O8+Oc)为26.2新增账户管理, 26.1.2官方源码不存在"
+    }
+  ]
+}

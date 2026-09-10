@@ -1,0 +1,22 @@
+{
+  "batch": "G111",
+  "results": {
+    "v5": {
+      "identity": "TriangleRenderer",
+      "kind": "class",
+      "conf": "B",
+      "evidence": "implements _A(=IRenderer); V(Object[])取6float+Color→与TriangleRenderer.addTriangle(float,float,float,float,float,float,Color)签名完全吻合; W(Object[])取4int=setScissor(x,y,w,h); 字段_t d=LuminRingBuffer确认(已有class_map); int scissorX/Y/W/H+boolean scissorEnabled+long currentOffset+int vertexCount结构逐一对应; Q(Object[])含setVertexBuffer+draw→draw(RenderPass); 26.2版额外GpuBufferSlice i字段(dynamicUniforms)→26.1→26.2演进; D027'QuadPipelineB'为错误识别(官方无此类)",
+      "official_path": "work/official26/com/github/epsilon/graphics/renderers/TriangleRenderer.java"
+    }
+  },
+  "unident": [
+    {
+      "obf": "v4",
+      "reason": "18行小类; @SerializedName(\"name\") String字段+private构造; Gson DTO仅含name; 官方26源码中无@SerializedName注解使用,无匹配类; 可能是26.2新增的序列化DTO或第三方依赖类"
+    },
+    {
+      "obf": "v6",
+      "reason": "75行final Record; 7组件(n_=(String,Module)record + float×5 + Color); 官方26源码中无此签名Record; 含Module引用+5float+Color→疑似26.2新增的SeQL模块渲染位置/样式数据record; 无法对应官方已知类型"
+    }
+  ]
+}

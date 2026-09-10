@@ -1,0 +1,25 @@
+{
+  "batch": "G127",
+  "results": {
+    "y1": {
+      "identity": "Notification",
+      "kind": "class",
+      "conf": "A",
+      "evidence": "字段完全对应：id(int,final)=p, title(String)=W, subTitle(String)=K, mode(NotificationMode)=P, createTime(long)=y, replaceable(boolean,final)=u, skipIntroAnim(boolean)=N。构造器(int,String,String,NotificationMode,boolean)完全一致。hashCode用replaceable?id:identityHashCode匹配。equals按getClass+replaceable+各字段比较。方法getId/getTitle/getSubTitle/getMode/isReplaceable/getCreateTime/getElapsedTime对应。",
+      "official_path": "com/github/epsilon/elements/impl/notification/Notification.java"
+    },
+    "y3": {
+      "identity": "Render2DCommandKind",
+      "kind": "enum",
+      "conf": "A-",
+      "evidence": "10个枚举值中7个与官方完全匹配：SHADOW, ROUND_RECT, ROUND_RECT_OUTLINE, RECT, TRIANGLE, TEXTURE, TEXT。额外3个(BLUR_TEXT, GLITCH_TEXT, ARC)为~2月版本差新增值。枚举结构、命名风格和渲染管线语义完全一致。Render2DScheduler中KIND_FLUSH_ORDER引用了所有7个官方值。",
+      "official_path": "com/github/epsilon/graphics/schedulers/render2d/Render2DCommandKind.java"
+    }
+  },
+  "unident": [
+    {
+      "obf": "y5",
+      "reason": "枚举值ChargeFirst/ShieldFirst在官方26.2-2026.8.1源码中无任何匹配。搜索所有枚举定义（MaceAura.AttackMode{Normal,Mace}、AutoWeapon.Page/Mode等）均无此值。该enum为package-private，仅在eq.java中以Dx<y5>设置字段使用，可能为2026.10.7版本新增的战斗相关枚举（如盾牌/冲锋机制），无法从官方源确认身份。"
+    }
+  ]
+}

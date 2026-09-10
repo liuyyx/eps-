@@ -1,0 +1,23 @@
+{
+  "batch": "G108",
+  "results": {
+    "ux": {
+      "identity": "SegmentedControlNode",
+      "kind": "record",
+      "conf": "A-",
+      "evidence": "record implements _Q(=UiNode sealed interface); 构造器 ux(ih=UiRect, String, String, float, float) 与官方 SegmentedControlNode(UiRect bounds, String leadingLabel, String trailingLabel, float progress, float hoverProgress) 前5字段类型序列完全吻合(UiRect,String,String,float,float); 仅官方版多1个Color accentColor字段(26.2→26.1.2演进增加); ih=UiRect已确认(D031); _Q=UiNode已确认(G039等)",
+      "official_path": "work/official26/com/github/epsilon/gui/lib/UiTree.java"
+    }
+  },
+  "unident": [
+    {
+      "obf": "uV",
+      "reason": "record uV(GpuBufferSlice xh)，仅1个GpuBufferSlice字段。官方源码所有record均无此字段签名：ShaderUniforms(2个GpuBufferSlice)字段数不匹配；QuadRenderingInfo(6字段)不匹配；其余record无GpuBufferSlice字段。26.2新增的渲染基础设施record，官方26.1.2源码无对应"
+    },
+    {
+      "obf": "uY",
+      "reason": "编译器生成的MobCategory switch$Map辅助类(非独立语义类)。静态int[] r数组+CallSite桥接方法+MobCategory ordinal映射，为Java编译器为enum switch表达式生成的字节码辅助。ESP2D和Shaders均有MobCategory switch但均无独立官方类对应；switch$Map是编译产物非源码类，无法映射为独立官方身份"
+    }
+  ],
+  "conflicts": []
+}

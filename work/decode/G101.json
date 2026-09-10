@@ -1,0 +1,18 @@
+{
+  "batch": "G101",
+  "results": {},
+  "unident": [
+    {
+      "obf": "u6",
+      "reason": "public final class u6 extends Record implements yM; 15字段(int layer, long sequence, XL bounds, Xu scissor, 6×float, boolean xt, float BL, 3×Color); 前4字段(layer/sequence/bounds/scissor)匹配Render2DCommand记录模式(yM≈Render2DCommand接口), 但具体字段组合无官方对应: Shadow(10字段), RoundRect(16字段), Rect(8字段), RoundRectOutline(10字段), Texture(17字段), Text(13字段), Triangle(9字段)均不匹配; kind()返回y3(≈Render2DCommandKind); 可能是26.2版本新增的渲染命令record"
+    },
+    {
+      "obf": "u7",
+      "reason": "private final class u7 extends Record; 8字段(4×float + 2×float[] + Color[] + int); 所有accessor通过hi.a()混淆; 官方source中无任何record匹配此结构(4 floats, 2 float arrays, Color array, int); C053/D052已标记为unident; 可能是26.2新增的字形/顶点数据record"
+    },
+    {
+      "obf": "u9",
+      "reason": "abstract class u9; 单字段String f + 6个空壳方法(a/h/c/T/g/n/Y/H) + g(Object[])返回uK; 被uE/uZ/uf/us继承(模块子类); 官方source中Module是concrete class不是abstract, 无匹配的abstract基类; C053/C057/D063已标记为unident; 可能是26.2新增的模块抽象基类(非标准Module子类)"
+    }
+  ]
+}

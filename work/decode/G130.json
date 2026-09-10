@@ -1,0 +1,34 @@
+{
+  "batch": "G130",
+  "results": {
+    "yI": {
+      "identity": "TtfTextRenderer.LayoutRun",
+      "kind": "inner_class",
+      "conf": "A",
+      "evidence": "逐项结构对应：(yn j=float[]{j atlas=TtfGlyphAtlas}, float[] f=float[]{f data=layout glyph data}, int X=int[]{X glyphCount=glyph count})；构造函数 (yn, float[], int) → (TtfGlyphAtlas, float[], int) 完全匹配；TtfTextRenderer.java L527-535 的 private static final class LayoutRun 字段/构造器完全一致；obf 混淆器将 private static inner class 拍平到根包 com.github.epsilon",
+      "official_path": "work/official26/com/github/epsilon/graphics/text/ttf/TtfTextRenderer.java:527-535"
+    },
+    "yj": {
+      "identity": null,
+      "kind": null,
+      "conf": null,
+      "evidence": null
+    },
+    "yg": {
+      "identity": null,
+      "kind": null,
+      "conf": null,
+      "evidence": null
+    }
+  },
+  "unident": [
+    {
+      "obf": "yj",
+      "reason": "20行 Gson DTO，@SerializedName(\"name\")/(\"id\")；official26 非mixin源码中无任何 @SerializedName 注解类，属26.2版本新增 API 响应/实体模型"
+    },
+    {
+      "obf": "yg",
+      "reason": "195行 public class，含 ConstantCallSite bootstrap 方法 d(Lookup,String,MethodType,MethodHandle) 用于 invokedynamic 桥接；heavy string encryption（XOR long[]/Integer[] 静态初始化）；方法 M 返回 yT(8-float SeQL record)、v 返回 float、G 操作 zU(渲染作用域)+ih(bounds)+float×3；综合判断为 SeQL 运行时加密调度基础设施（string decryption dispatcher），非官方源码中的业务类"
+    }
+  ]
+}

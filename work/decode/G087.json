@@ -1,0 +1,25 @@
+{
+  "batch": "G087",
+  "results": {
+    "nt": {
+      "identity": "Render2DCommand.Shadow",
+      "kind": "record",
+      "conf": "A",
+      "evidence": "yM=Render2DCommand(sealed interface, 7 permits official→12 obf); nt 11字段: int layer, long sequence, XL bounds, Xu scissor, String, float×3, Color×2, nK(TtfFontLoader); 官方Shadow 10字段: int layer, long sequence, Render2DBounds, Render2DScissor, float×5(radii+blur), Color; 前4字段类型完全匹配, 多出的 Color(YT)+nK(mv) 为26.2-10月版新增字段",
+      "official_path": "com/github/epsilon/graphics/schedulers/render2d/Render2DCommand.java:82-90"
+    },
+    "nU": {
+      "identity": "UiTree.TextNode",
+      "kind": "record",
+      "conf": "B",
+      "evidence": "_Q=UiTree.UiNode(sealed interface, 26 permits official→31 obf); nU 8字段类型序列: String(MV), float(fr), float(fg), float(ff), Color(cs), float(FY), int(p3), nK(PR=TtfFontLoader); 官方TextNode 6字段: String text, float x, float y, float scale, Color color, TtfFontLoader fontLoader; 前5字段类型完全匹配(S,F,F,F,C), 后3字段(F,I,K)为mod版额外字段(float opacity, int priority, TtfFontLoader)",
+      "official_path": "com/github/epsilon/gui/lib/UiTree.java:713-715"
+    }
+  },
+  "unident": [
+    {
+      "obf": "nT",
+      "reason": "1098行class, 不实现yM/Render2DCommand也不实现_Q/UiNode; 字段: l5(UiTheme) m, _E(Animation) Z, float Y, boolean b; 6个static final float常量(3.5f,2.5f×2,10.0f×3); 方法D(Object[])处理zU(LuminRenderSystem)+ih(UiRect)+坐标+颜色; 使用MethodHandles indynamic bootstrap; 官方26.2源码无匹配类, 可能为mod新增的渲染辅助类"
+    }
+  ]
+}

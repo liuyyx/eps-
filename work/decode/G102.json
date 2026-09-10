@@ -1,0 +1,25 @@
+{
+  "batch": "G102",
+  "results": {
+    "uB": {
+      "identity": "UiTree.IconButtonNode",
+      "kind": "record",
+      "conf": "A",
+      "evidence": "Record implementing _Q(=UiNode), 5 fields: ih(UiRect)mo, String CF(=label), float aa(=scale), Color HX(=tone), float AJ(=hoverProgress) — field types/order exact match to official IconButtonNode(UiRect bounds, String label, float scale, Color tone, float hoverProgress)",
+      "official_path": "work/official26/com/github/epsilon/gui/lib/UiTree.java"
+    },
+    "uD": {
+      "identity": "EventBus.LambdaFactoryInfo",
+      "kind": "record",
+      "conf": "A",
+      "evidence": "Record with 2 fields: String se(=packagePrefix), yc(=LambdaListener.Factory) nk(=factory) — exact match to official LambdaFactoryInfo(String packagePrefix, LambdaListener.Factory factory) in EventBus.java",
+      "official_path": "work/official26/com/github/epsilon/events/bus/EventBus.java"
+    }
+  },
+  "unident": [
+    {
+      "obf": "ub",
+      "reason": "Package-private switch table helper class (static int[] L + 3-entry static initializer with NoSuchFieldError catch blocks). No references found in decompiled codebase. Cannot determine which 3-value enum it supports."
+    }
+  ]
+}

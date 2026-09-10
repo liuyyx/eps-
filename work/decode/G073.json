@@ -1,0 +1,31 @@
+{
+  "batch": "G073",
+  "results": {
+    "lb": {
+      "identity": "unknown",
+      "kind": "class",
+      "conf": "C",
+      "evidence": "final class 474行, 无MC imports; 字段y3/Xu(LuminRenderSystem.ScissorRect)/List<yM>/XL均未在class_map中识别; 构造器private(y3,Xu); 方法Q(yM)=add到List+B设置XL状态; H(lb)=addAll合并另一个lb; v()=new uM(y3,Xu); E()=返回List<yM>; G()=检查List非空+XL非空; N()=返回XL; i()=返回y3; Y()=返回Xu; 静态131-entry long[]解密表+switch分发; official26中无对应类, 可能为26.10.7新增的设置组/模块集合渲染器",
+      "official_path": null
+    },
+    "lD": {
+      "identity": "unknown",
+      "kind": "record",
+      "conf": "C",
+      "evidence": "57行 Record 3字段: GpuTexture tn + GpuTextureView WB + GpuSampler cc; 使用ObjectMethods.bootstrap确认Record语义; 构造器private(GpuTexture,GpuTextureView,GpuSampler); official26中唯一含这3个GPU资源字段的类是LuminTexture(y4), 但LuminTexture是class非Record且多2个boolean字段(closeTexture/closeSampler); official26中所有Record声明(13个)无一包含GpuTexture/GpuSampler; 此Record为26.10.7新增的GPU资源三元组持有者, 26.2无对应",
+      "official_path": null
+    },
+    "lF": {
+      "identity": "unknown",
+      "kind": "class",
+      "conf": "C",
+      "evidence": "extends l8(26.2新增抽象UI基类, 无official26对应); 737行; 导入lH(Easing)/_E(Animation)/_j(文本渲染器)/zU(UiTree.Scope); 字段Supplier<Long> S/b(时间值), _E A=Animation(接受lH+l8), Supplier<_j> U; static float常量o=6.0/Q=4.0/T=1.0/G=5.0; 构造器lF(Supplier<Long>,Supplier<Long>,Supplier<_j>,gk)调用super(gk,2); B(Object[])接收zU+4个Float绘制矩形/文本/进度条/圆角, 使用Color处理; n(Object[])计算宽高布局; 包含static String[]解密+switch分发; D029/D033/C033均判定unident; official26无对应类, 可能为26.10.7新增的HUD元素子类",
+      "official_path": null
+    }
+  },
+  "unident": [
+    {"obf": "lb", "reason": "final class 474行, 字段y3/Xu/yM/XL类型均未在class_map中识别, 无官方对应; 可能为26.10.7新增的设置组渲染/集合类"},
+    {"obf": "lD", "reason": "Record(GpuTexture+GpuTextureView+GpuSampler) 57行; official26中无含此3字段的Record; LuminTexture(y4)为同概念class但非Record; 26.10.7新增GPU资源三元组record"},
+    {"obf": "lF", "reason": "extends l8(26.2新增抽象UI基类), 737行UI渲染类; 含Animation/Easing/颜色处理/文本度量; official26无对应, 可能为26.10.7新增HUD元素子类"}
+  ]
+}
