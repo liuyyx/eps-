@@ -1,0 +1,24 @@
+{
+ "batch": "G115",
+ "n": 3,
+ "classes": [
+  {
+   "obf": "vP",
+   "is_module": false,
+   "lines": 63,
+   "cands": []
+  },
+  {
+   "obf": "vp",
+   "is_module": false,
+   "lines": 791,
+   "cands": []
+  },
+  {
+   "obf": "vQ",
+   "is_module": false,
+   "lines": 74,
+   "cands": []
+  }
+ ]
+}

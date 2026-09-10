@@ -1,0 +1,24 @@
+{
+ "batch": "G090",
+ "n": 3,
+ "classes": [
+  {
+   "obf": "O1",
+   "is_module": false,
+   "lines": 44,
+   "cands": []
+  },
+  {
+   "obf": "O2",
+   "is_module": false,
+   "lines": 140,
+   "cands": []
+  },
+  {
+   "obf": "O3",
+   "is_module": false,
+   "lines": 83,
+   "cands": []
+  }
+ ]
+}

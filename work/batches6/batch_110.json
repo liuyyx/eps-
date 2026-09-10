@@ -1,0 +1,24 @@
+{
+ "batch": "G110",
+ "n": 3,
+ "classes": [
+  {
+   "obf": "v1",
+   "is_module": false,
+   "lines": 100,
+   "cands": []
+  },
+  {
+   "obf": "v2",
+   "is_module": false,
+   "lines": 57,
+   "cands": []
+  },
+  {
+   "obf": "v3",
+   "is_module": false,
+   "lines": 114,
+   "cands": []
+  }
+ ]
+}

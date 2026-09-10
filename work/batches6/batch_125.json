@@ -1,0 +1,24 @@
+{
+ "batch": "G125",
+ "n": 3,
+ "classes": [
+  {
+   "obf": "Xs",
+   "is_module": false,
+   "lines": 67,
+   "cands": []
+  },
+  {
+   "obf": "XT",
+   "is_module": false,
+   "lines": 474,
+   "cands": []
+  },
+  {
+   "obf": "XX",
+   "is_module": false,
+   "lines": 155,
+   "cands": []
+  }
+ ]
+}

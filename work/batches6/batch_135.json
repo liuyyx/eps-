@@ -1,0 +1,24 @@
+{
+ "batch": "G135",
+ "n": 3,
+ "classes": [
+  {
+   "obf": "yX",
+   "is_module": false,
+   "lines": 128,
+   "cands": []
+  },
+  {
+   "obf": "yy",
+   "is_module": false,
+   "lines": 580,
+   "cands": []
+  },
+  {
+   "obf": "z5",
+   "is_module": false,
+   "lines": 39,
+   "cands": []
+  }
+ ]
+}

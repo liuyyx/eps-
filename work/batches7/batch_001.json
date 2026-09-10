@@ -1,0 +1,72 @@
+{
+ "batch": "H001",
+ "n": 11,
+ "classes": [
+  {
+   "obf": "A",
+   "is_module": true,
+   "lines": 2312,
+   "cands": []
+  },
+  {
+   "obf": "a",
+   "is_module": true,
+   "lines": 951,
+   "cands": []
+  },
+  {
+   "obf": "e3",
+   "is_module": true,
+   "lines": 323,
+   "cands": []
+  },
+  {
+   "obf": "e4",
+   "is_module": true,
+   "lines": 2583,
+   "cands": []
+  },
+  {
+   "obf": "e5",
+   "is_module": true,
+   "lines": 502,
+   "cands": []
+  },
+  {
+   "obf": "ed",
+   "is_module": true,
+   "lines": 284,
+   "cands": []
+  },
+  {
+   "obf": "ee",
+   "is_module": true,
+   "lines": 517,
+   "cands": []
+  },
+  {
+   "obf": "eH",
+   "is_module": true,
+   "lines": 2695,
+   "cands": []
+  },
+  {
+   "obf": "eP",
+   "is_module": true,
+   "lines": 1961,
+   "cands": []
+  },
+  {
+   "obf": "ep",
+   "is_module": true,
+   "lines": 1024,
+   "cands": []
+  },
+  {
+   "obf": "eQ",
+   "is_module": true,
+   "lines": 1640,
+   "cands": []
+  }
+ ]
+}

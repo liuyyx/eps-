@@ -1,0 +1,62 @@
+{
+ "batch": "B003",
+ "results": {
+  "D5": {
+   "identity": "ModuleHolder",
+   "kind": "holder",
+   "conf": "A",
+   "evidence": "jar: `class D5`(无 super) + `public static final D5 J`(单例) + `private final List<e> r`(e=Module, 持有全部模块) + anchored_refs 含 KeyPressEvent/MousePressEvent/Module/Setting/TranslateComponent 且 `vy`(EventBus)订阅。`refs` 含 e(Dl=Setting)。源码 holders/ModuleHolder.java: `public static final ModuleHolder INSTANCE`、`private final List<Module> modules`、`EventBus.INSTANCE.subscribe(this)`、`@EventHandler onKeyPress(KeyPressEvent)`/`onMousePress(MousePressEvent)`，import TranslateComponent。两端『持有 Module 列表 + 订阅键鼠事件』结构完全一致。噪声候选 I18NFileGenerator/FreeCamera 不持有 List<Module>，排除。",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/holders/ModuleHolder.java"
+  },
+  "iH": {
+   "identity": "EpsilonAddon",
+   "kind": "addon",
+   "conf": "A",
+   "evidence": "jar: `abstract class iH implements v8`(v8=SettingHost) + `public final String w`(addonId) + `private final ArrayList<nN> j`(nN=SettingGroup) + `private final ArrayList<Dl<?>> X`(Dl=Setting) + `private final ArrayList<e> x`(e=Module) + 构造 `protected iH(String)` 仅置 w/j/x + `abstract void e(Object[])`(onSetup)。源码 addon/EpsilonAddon.java: `abstract class EpsilonAddon implements SettingHost`、`public final String addonId`、`ArrayList<Setting<?>> settings`、`ArrayList<SettingGroup> settingGroups`、`ArrayList<Module> registeredModules`、`protected EpsilonAddon(String)`、`abstract void onSetup()`、getSettings/getSettingGroups/getRegisteredModules。字段集与抽象结构逐一对上。噪声候选 LuaScriptPackage 为 `final` 且额外实现 ExternalConfigState/AutoCloseable(jar 仅 implements v8)，排除；I18NFileGenerator 不持有 Module 列表，排除。",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/addon/EpsilonAddon.java"
+  },
+  "ei": {
+   "identity": "MTF",
+   "kind": "hudmodule",
+   "conf": "A",
+   "evidence": "jar: `class ei extends eh`(eh=HudModule) + 构造 `super(ei.b(...),0.0f,0.0f,36.0f,36.0f)`(位置 0,0,36,36) + `private final DM h=...double 32.0/12.0/96.0/1.0`(DM=DoubleSetting: 默认32,min12,max96,step1) + `private final DM W=...double 160.0/-720.0/720.0/5.0`(速度) + `private final DV w`(DV=ColorSetting, 默认白) + MCimport DeltaTracker + 渲染 `float f=(...% n)/1000*n*(speed)`, n=3600000。源码 elements/impl/MTF.java: `extends HudModule`、`super(\"MTF\",0f,0f,36f,36f)`、`doubleSetting(\"Size\",32.0,12.0,96.0,1.0)`、`doubleSetting(\"Speed\",160.0,-720.0,720.0,5.0)`、`colorSetting(\"Color\",new Color(255,255,255,255),true)`、render 中 `(System.currentTimeMillis()%3_600_000L)/1000.0f*speed`。两处 DoubleSetting 取值、位置、旋转模数 3600000 完全一致。噪声候选 Watermark 仅 1 个 DoubleSetting(1.0/0.5/2.0/0.1)、BPS 另有 Bool/IntSetting 且行数远超，均不符。",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/elements/impl/MTF.java"
+  },
+  "Q": {
+   "identity": "AutoQueue",
+   "kind": "module",
+   "conf": "A",
+   "evidence": "jar: `class Q extends e`(e=Module) + `public static final Q V`(单例) + `private final Dx<u1> u`(Dx=EnumSetting, u1=枚举 Mode) + `private final JsonObject v` + MCimport ClientboundSystemChatPacket + 方法 `X(dP)` 带 `@yE`(订阅) 检查 `instanceof ClientboundSystemChatPacket`，按 `\u4e28`(丨) split，`Matcher`/`group(1)`，并 sendChat。源码 modules/impl/player/AutoQueue.java: `extends Module`、`INSTANCE`、`EnumSetting<Mode> mode`(Mode.XIN_2B2T)、`JsonObject questions`、`@EventHandler onPacketReceive` 中 `instanceof ClientboundSystemChatPacket`、`message.split(\"丨\")`、`Matcher matcher`、`matcher.group(1)`、`mc.player.connection.sendChat(answer)`。枚举+系统聊天包+丨分割+Matcher.group(1)+发聊天 逐一对上。",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/modules/impl/player/AutoQueue.java"
+  },
+  "u4": {
+   "identity": "DropdownScreen",
+   "kind": "screen",
+   "conf": "A",
+   "evidence": "jar: `class u4 extends Screen` + anchored_refs 含 RegistryListSetting/StringListSetting/Setting/TranslateComponent + MCimports: Font, GuiGraphicsExtractor, IMEPreeditOverlay, CharacterEvent, KeyEvent, MouseButtonEvent, PreeditEvent, Component, Identifier(8 项 GUI/输入)。源码 gui/dropdown/DropdownScreen.java: `extends Screen`，import RegistryListSetting, StringListSetting, GuiGraphicsExtractor, IMEPreeditOverlay, CharacterEvent, KeyEvent, MouseButtonEvent, PreeditEvent, Component, Identifier, EpsilonTranslations(TranslateComponent), ClientSetting(Setting)。extends Screen + RegistryList/StringList 设置 + 全套 IME/输入 GUI import 完全交集。噪声候选 PlayerAlarms 不 extends Screen、ModuleButton 为组件非 Screen，排除。",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/gui/dropdown/DropdownScreen.java"
+  },
+  "DG": {
+   "identity": "RegistryListSelectPopup",
+   "kind": "popup",
+   "conf": "A",
+   "evidence": "jar: `class DG<T> implements XJ`(XJ=PanelPopupHost.Popup) + anchored_refs 含 RegistryListSetting/Setting/Type + MCimports: GuiGraphicsExtractor, CharacterEvent, KeyEvent, MouseButtonEvent, Holder, Registry, Identifier, ResourceKey, SoundEvent, EntityType(12 项)。源码 gui/panel/popup/RegistryListSelectPopup.java: `class RegistryListSelectPopup<T> implements PanelPopupHost.Popup`，import RegistryListSetting, Setting, GuiGraphicsExtractor, CharacterEvent, KeyEvent, MouseButtonEvent, Registry, ResourceKey, SoundEvent, EntityType, Identifier。泛型 <T> + 实现 PanelPopupHost.Popup(XJ) + RegistryListSetting + Registry/Holder/EntityType/SoundEvent import 完全对上。噪声候选 SettingHost(v8) 与 jar『implements XJ』不符，排除；ModuleButton 排除。",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/gui/panel/popup/RegistryListSelectPopup.java"
+  },
+  "m": {
+   "identity": "Criticals",
+   "kind": "module",
+   "conf": "A-",
+   "evidence": "jar: `class m extends e`(e=Module) + anchored_refs 含 AttackEntityEvent/BoolSetting/Module/Setting + 4 个 BoolSetting(Xn: v,P,y=默认true,t) + `Set<LivingEntity> W`、`Set<Entity> C`、`List<_v> X` + MCimports: Minecraft, BlockParticleOption, ParticleType, Entity, EntityType, LightningBolt, LivingEntity, Level, BlockState。render/attack 逻辑遍历 Set<LivingEntity> 取 getId、生成粒子与 LightningBolt。源码 modules/impl/combat/Criticals.java(26.1.2): `extends Module`、`@EventHandler onAttackEntity(AttackEntityEvent)`、BoolSetting(groundOnly/alwaysShowCritParticles) + EnumSetting<PacketMode>。结构(攻击事件+暴击视觉+布尔开关)一致；但 26.2 jar 新增 LightningBolt/ParticleType/BlockParticleOption/BlockState 导入且改为 4 个 BoolSetting(26.1.2 为 1 枚举+2 布尔)，属版本差。已排除 AutoWeapon/MasEffects: 两者源码均无 LightningBolt/粒子导入(前者武器切换, 后者药水效果覆盖)。",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/modules/impl/combat/Criticals.java"
+  },
+  "vh": {
+   "identity": "SettingRow",
+   "kind": "component",
+   "conf": "A",
+   "evidence": "jar: `class vh<T extends Dl<?>> implements AutoCloseable`(Dl=Setting) + n_fields=1(仅 `protected final T setting`) + MCimports: GuiGraphicsExtractor, CharacterEvent, KeyEvent, MouseButtonEvent, PreeditEvent + 含 mouseClicked/mouseReleased/mouseScrolled/keyPressed/charTyped/preeditUpdated/buildUi/close 等输入/渲染方法。源码 gui/panel/component/SettingRow.java: `abstract class SettingRow<T extends Setting<?>> implements AutoCloseable`、`protected final T setting`(唯一字段)、import Setting, GuiGraphicsExtractor, CharacterEvent, KeyEvent, MouseButtonEvent, PreeditEvent，方法 getSetting/buildUi/mouseClicked/mouseReleased/mouseScrolled/keyPressed/charTyped/preeditUpdated/setFocused/close。泛型上界 Setting、AutoCloseable、单字段、全套输入事件方法 逐一对上。噪声候选 SettingListController/ModuleDetailPanel 非 <T extends Setting<?>> 泛型+AutoCloseable，排除。",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/gui/panel/component/SettingRow.java"
+  }
+ },
+ "unident": []
+}

@@ -1,0 +1,24 @@
+{
+ "batch": "G143",
+ "n": 3,
+ "classes": [
+  {
+   "obf": "_3",
+   "is_module": false,
+   "lines": 1056,
+   "cands": []
+  },
+  {
+   "obf": "_4",
+   "is_module": false,
+   "lines": 8,
+   "cands": []
+  },
+  {
+   "obf": "_7",
+   "is_module": false,
+   "lines": 101,
+   "cands": []
+  }
+ ]
+}

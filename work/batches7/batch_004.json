@@ -1,0 +1,72 @@
+{
+ "batch": "H004",
+ "n": 11,
+ "classes": [
+  {
+   "obf": "D4",
+   "is_module": false,
+   "lines": 20,
+   "cands": []
+  },
+  {
+   "obf": "D8",
+   "is_module": false,
+   "lines": 125,
+   "cands": []
+  },
+  {
+   "obf": "DA",
+   "is_module": false,
+   "lines": 45,
+   "cands": []
+  },
+  {
+   "obf": "DF",
+   "is_module": false,
+   "lines": 15,
+   "cands": []
+  },
+  {
+   "obf": "DH",
+   "is_module": false,
+   "lines": 45,
+   "cands": []
+  },
+  {
+   "obf": "DI",
+   "is_module": false,
+   "lines": 8,
+   "cands": []
+  },
+  {
+   "obf": "DJ",
+   "is_module": false,
+   "lines": 168,
+   "cands": []
+  },
+  {
+   "obf": "DL",
+   "is_module": false,
+   "lines": 20,
+   "cands": []
+  },
+  {
+   "obf": "DS",
+   "is_module": false,
+   "lines": 17,
+   "cands": []
+  },
+  {
+   "obf": "De",
+   "is_module": false,
+   "lines": 52,
+   "cands": []
+  },
+  {
+   "obf": "Dg",
+   "is_module": false,
+   "lines": 473,
+   "cands": []
+  }
+ ]
+}

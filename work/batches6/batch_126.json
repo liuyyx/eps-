@@ -1,0 +1,24 @@
+{
+ "batch": "G126",
+ "n": 3,
+ "classes": [
+  {
+   "obf": "XY",
+   "is_module": false,
+   "lines": 56,
+   "cands": []
+  },
+  {
+   "obf": "XZ",
+   "is_module": false,
+   "lines": 239,
+   "cands": []
+  },
+  {
+   "obf": "Xz",
+   "is_module": false,
+   "lines": 77,
+   "cands": []
+  }
+ ]
+}

@@ -1,0 +1,24 @@
+{
+ "batch": "G108",
+ "n": 3,
+ "classes": [
+  {
+   "obf": "uV",
+   "is_module": false,
+   "lines": 19,
+   "cands": []
+  },
+  {
+   "obf": "ux",
+   "is_module": false,
+   "lines": 64,
+   "cands": []
+  },
+  {
+   "obf": "uY",
+   "is_module": false,
+   "lines": 95,
+   "cands": []
+  }
+ ]
+}

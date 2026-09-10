@@ -1,0 +1,24 @@
+{
+ "batch": "G116",
+ "n": 3,
+ "classes": [
+  {
+   "obf": "vq",
+   "is_module": false,
+   "lines": 4037,
+   "cands": []
+  },
+  {
+   "obf": "vr",
+   "is_module": false,
+   "lines": 411,
+   "cands": []
+  },
+  {
+   "obf": "vS",
+   "is_module": false,
+   "lines": 639,
+   "cands": []
+  }
+ ]
+}

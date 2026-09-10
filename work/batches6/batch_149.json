@@ -1,0 +1,24 @@
+{
+ "batch": "G149",
+ "n": 3,
+ "classes": [
+  {
+   "obf": "_R",
+   "is_module": false,
+   "lines": 2128,
+   "cands": []
+  },
+  {
+   "obf": "_r",
+   "is_module": false,
+   "lines": 168,
+   "cands": []
+  },
+  {
+   "obf": "_s",
+   "is_module": false,
+   "lines": 123,
+   "cands": []
+  }
+ ]
+}

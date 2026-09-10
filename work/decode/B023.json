@@ -1,0 +1,45 @@
+{
+ "batch": "B023",
+ "results": {
+  "DU": {
+   "identity": "FriendManager",
+   "kind": "class",
+   "conf": "A-",
+   "evidence": "jar DU: `private final HashSet<String> X = new HashSet();` + `public static final DU H = new DU();`(单例) + `public boolean B(Player player)` 返回 `friends.contains(player.getGameProfile().name())`(经 DU.z name()) + `public void c(String)`/`public void L(String)`(增删) + `public List<String> g()`(取列表) + `public void T(...)`。源码 FriendManager: `private final HashSet<String> friends`、`isFriend(Player)`→`friends.contains(player.getGameProfile().name())`、`addFriend(String)`、`removeFriend(String)`、`getFriends()`→`List<String>`。姓名集合管理器结构逐项吻合（≥2 强信号）；版本差：26.2 jar 多了静态单例 H（26.1.2 源码无，管理器常见 INSTANCE 形态，属小幅差异）。候选 FriendManager(score 4.0)经核实成立，非噪声误配（ClientSetting/RegistryListSetting 等仅因 Dl 锚点被自动生成）。",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/managers/impl/FriendManager.java"
+  },
+  "_C": {
+   "identity": "CircleESP",
+   "kind": "class",
+   "conf": "A",
+   "evidence": "jar _C.P(Object[]): 形参 (PoseStack, LivingEntity, float, Color, Color, float) 与源码 `CircleESP.render(PoseStack poseStack, LivingEntity target, float radius, Color sideColor, Color lineColor, float alphaFactor)` 完全一致。jar static{} 构造 4 个静态 RenderPipeline(U,Y,H,K)，均带 DepthStencilState + withVertexBinding(VertexFormat)/withLocation；源码 CircleESP 同样构造 4 个管线(TRIANGLE_STRIP_NO_DEPTH/TRIANGLE_STRIP/CIRCLE_LINES_NO_DEPTH/CIRCLE_LINES)。jar `private static Vector2f K(Object[])`→`new Vector2f(-sin*r,-cos*r)` 对应源码 getPoint/getNormal。三处独立强信号吻合，hi 分发仅混淆字段/方法访问，结构完整保留。",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/utils/render/esp/CircleESP.java"
+  }
+ },
+ "unident": [
+  {
+   "obf": "gV",
+   "reason": "final class extends gs；私有构造 (iJ, Vec3)→super(iJ2, vec3, <int>, new Identifier[]{...})；构造内以 hi 分发设置 4 个 float 字段(0.12/0.99/0.1/0.91)。gs(父类)与 iJ(SpriteSet 形态)既不在 class_map，26.1.2 源码中也找不到构造签名为 (SpriteSet, Vec3, int, Identifier[]) 的粒子基类(粒子均在 Particles.ParticleBase / MasEffects.EffectParticle，构造为 (Vec3, int, Identifier))。候选 ClientSetting/RegistryListSetting/RegistryListSelectPopup 仅因 Dl 锚点被自动生成，属噪声。无法确认是哪一个具体粒子子类 → unident。"
+  },
+  {
+   "obf": "iW",
+   "reason": "无父类，17 字段/31 方法；导入 RenderPipeline+RenderTarget+TextureTarget+Matrix4f+Matrix4fc+Vec3+GpuFormat+Std140SizeCalculator；static{} 内以 RenderPipeline.Snippet 构建管线(withLocation/withCull)，持有离屏 RenderTarget `u`(TextureTarget)，单例 `A`，方法 I()/a()/E()，lambda$renderEffect$0。属后处理/全屏 shader。但字段集合(1 RenderPipeline + 1 RenderTarget + 2 Matrix4f + Vec3 + long v + int m/Z + 单例)与 26.1.2 任一 shader 都不符：BlurShader 是唯一导入 Matrix4f 的 shader，但它是 2 管线+1 target 且无 Vec3/Matrix4f 字段；FXAAShader/FilterShader 为 1 管线+1 target 但不导入 Matrix4f。疑为 26.2 新增/重构的 shader，无法对应源码 → unident。"
+  },
+  {
+   "obf": "lG",
+   "reason": "class lG extends l8，15 字段/51 方法；导入外部库 me.sofurry.smtc.O/W(动画图像库) + DynamicTexture + NativeImage；方法 drawIconText / drawMarqueeTitle(跑马灯标题)；持有 DynamicTexture M、Supplier<_j> b、String f。属渲染动画图像+滚动文字的 HUD 元素。me.sofurry.smtc、drawIconText、MarqueeTitle 在 26.1.2 源码树中均无任何匹配；父类 l8 亦未映射。疑为 26.2 新增的图像 HUD → unident。"
+  },
+  {
+   "obf": "Om",
+   "reason": "class Om，27 字段/44 方法；导入约 12 种抛射物 EntityType(FishingHook/LlamaSpit/Projectile/ThrowableProjectile/AbstractArrow/ThrownTrident/AbstractHurtingProjectile/AbstractWindCharge/ThrownEnderpearl/ThrownExperienceBottle/ThrownLingeringPotion/ThrownSplashPotion) 与约 11 种抛射物物品(BowItem/CrossbowItem/EggItem/EnderpearlItem/ExperienceBottleItem/FishingRodItem/SnowballItem/SplashPotionItem/TridentItem/WindChargeItem/LingeringPotionItem)；持有 Level、Set<Entity>、BlockPos.MutableBlockPos、ClipContext，并为每种抛射物类型构造 gN 着色包围盒。26.1.2 源码中没有任何类同时引用这组抛射物物品类型(仅 AimBot 引用 BowItem、Velocity 引用 WindChargeItem、MasEffects 引用 WindCharge/ThrownEnderpearl)。结构上看是处理全部抛射物的瞄准/ESP 模块(疑似 26.2 的 Projectiles 功能)，但无 26.1.2 对应类可核实 → unident。"
+  },
+  {
+   "obf": "vo",
+   "reason": "class vo，5 字段/9 方法；静态方法 v(PoseStack, LivingEntity, int, int, double, double, Color, ya, Color, double, double, double, double, double)(14 参数：2 int + 2 double + 2 Color + 一个 ya 模式 + 5 double)，构建 2 个 RenderPipeline(y, o) 带 ColorTargetState/DepthStencilState/BlendFunction。属屏幕空间实体叠加/发光渲染器。26.1.2 源码无此 14 参 (PoseStack, LivingEntity, 2×int, 2×double, Color, X, Color, 5×double) 签名的类：CaptureMarkESP(7 参)、CircleESP(6 参)、FireflyESP(14 参但用 ColorMode 而非 ya)、WireframeEntityRenderer(PoseStack, Entity, double, Color, Color, float)。参类型 ya 未映射 → unident。"
+  },
+  {
+   "obf": "Dp",
+   "reason": "final class extends Record，组件类型 `Vec3 hI; _Z jh;`（record 配对 Vec3 + 未知 _Z）。候选 FollowerPath 为 record(Vec3 nextPoint, List<Vec3> points)，第二组件是 List<Vec3> 而非 _Z，按组件类型不符被排除。26.1.2 源码其余 record 亦无 (Vec3, X) 形态(Render3DScheduler.LineCommand=(Vec3,Vec3,int,float)；JumpCircle.Circle=(Vec3,TimerUtils))；_Z 未映射 → unident。"
+  }
+ ]
+}

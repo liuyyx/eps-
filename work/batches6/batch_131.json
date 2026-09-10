@@ -1,0 +1,24 @@
+{
+ "batch": "G131",
+ "n": 3,
+ "classes": [
+  {
+   "obf": "yk",
+   "is_module": false,
+   "lines": 176,
+   "cands": []
+  },
+  {
+   "obf": "yM",
+   "is_module": false,
+   "lines": 39,
+   "cands": []
+  },
+  {
+   "obf": "ym",
+   "is_module": false,
+   "lines": 10,
+   "cands": []
+  }
+ ]
+}

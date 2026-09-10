@@ -1,0 +1,24 @@
+{
+ "batch": "G140",
+ "n": 3,
+ "classes": [
+  {
+   "obf": "zQ",
+   "is_module": false,
+   "lines": 744,
+   "cands": []
+  },
+  {
+   "obf": "zr",
+   "is_module": false,
+   "lines": 95,
+   "cands": []
+  },
+  {
+   "obf": "zT",
+   "is_module": false,
+   "lines": 10,
+   "cands": []
+  }
+ ]
+}

@@ -1,0 +1,60 @@
+{
+  "batch": "B002",
+  "results": {
+    "e7": {
+      "identity": "Inventory",
+      "kind": "hud-element",
+      "conf": "A",
+      "evidence": "e7 extends eh；eh 经 Inventory 校验为 HudModule（HudModule extends Module=e）。字段类型逐一对应：3×DM(scale/cornerRadius/shadowBlur) + 3×DV(backgroundColor/slotColor/shadowColor) + 3×Xn(drawShadow/backgroundBlur/showCount) + 1×XG(blurStrength) = 源码 Inventory 的 10 个设置（3 Double+3 Color+3 Bool+1 Int）；静态常量 u=17.0f(SLOT_SIZE)、m=1.5f(SLOT_GAP)、l=4.5f(PADDING) 逐值吻合；MC 导入 DeltaTracker+GuiGraphicsExtractor+ItemStack，方法体含 pose()/item(ItemStack) 渲染；public static final e7 J == Inventory.INSTANCE。",
+      "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/elements/impl/Inventory.java"
+    },
+    "g1": {
+      "identity": "ControlElytraFlightMode",
+      "kind": "class",
+      "conf": "A",
+      "evidence": "g1 extends gt（gt 为 ElytraFlightMode，所有飞行模式基类）。静态常量唯一吻合：K=0.75=CEILING_PROBE_DISTANCE、e=1.0E-4=CEILING_PROBE_EPSILON、l=5.0f=CEILING_ESCAPE_PITCH（源码 ControlElytraFlightMode 的 3 个常量逐值一致）；anchored_refs 含 ElytraFly/FallFlyingEvent/FireworkRotationEvent/KeyboardInputEvent/TravelEvent，与 ControlElytraFlightMode 重写的 onTravel/onKeyboardInput/onFallFlying/onFireworkUpdate 完全对应。候选 ControlElytraFlightMode(unique)。",
+      "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/modules/impl/movement/elytrafly/ControlElytraFlightMode.java"
+    },
+    "gd": {
+      "identity": "Pitch40ElytraFlightMode",
+      "kind": "class",
+      "conf": "A",
+      "evidence": "gd extends gt（ElytraFlightMode）。字段逐值吻合：R=4.0=TARGET_REACH_MARGIN、l=37.72f=DESCEND_PITCH、p=-54.77f=ASCEND_PITCH、d=-54.77f=TAKEOFF_PITCH、U(float)=pitch、G(double)=completedTakeoffTarget、z(int)=packetDelayTicks、Y/V/a/D(bool)=pitchingDown/pendingActivationCheck/takingOff/shouldJump、_Z c=TimerUtils fireworkTimer；方法体出现 mc.player.getY()-40.0<pitch40lowerBounds（源码 updateTakeoff/initializeInWorld 的 -40.0 判定）。anchored_refs 含 ElytraFly/FallFlyingEvent/FireworkRotationEvent/KeyboardInputEvent（onFallFlying/onFireworkUpdate/onKeyboardInput）。",
+      "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/modules/impl/movement/elytrafly/Pitch40ElytraFlightMode.java"
+    },
+    "OD": {
+      "identity": "I18NFileGenerator",
+      "kind": "class",
+      "conf": "A",
+      "evidence": "OD 无 extends，纯工具类（多个 public static 方法）。方法 U(Object[]) 以 com.google.gson.JsonObject 为参数并写入翻译键（OD.K(...W(JsonObject,String,String)...) 与 I18NFileGenerator.generate/addModuleKeys/addAddonKeys 结构一致）；anchored_refs 含 EnumSetting/Module/Setting/SettingGroup/TranslateComponent，与 I18NFileGenerator 遍历 Module/Setting/SettingGroup/EnumSetting 生成 i18n 的逻辑吻合；另两候选 ClientSetting(=uc)、PlayerAlarms(=F) 已被占用，仅 I18NFileGenerator 可行。",
+      "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/assets/i18n/I18NFileGenerator.java"
+    },
+    "E": {
+      "identity": "GUIMove",
+      "kind": "module",
+      "conf": "A",
+      "evidence": "E extends e(Module)，public static final E H == GUIMove.INSTANCE。仅 1 个设置 Xn L(L=T(\"5XURX4VoCteQBuqU\",U(String,boolean),...,false)) 对应 GUIMove 的 BoolSetting sneakValue(false)；MC 导入 net.minecraft.client.KeyMapping + net.minecraft.client.gui.screens.ChatScreen，与 GUIMove 的 onKeyboardInput 读取 KeyMapping 并 `mc.screen instanceof ChatScreen` 提前返回逻辑完全对应。候选 GUIMove(unique)。",
+      "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/modules/impl/movement/GUIMove.java"
+    },
+    "l": {
+      "identity": "NoFall",
+      "kind": "module",
+      "conf": "A-",
+      "evidence": "l extends e(Module)，public static final l v == NoFall.INSTANCE。字段：Dx<uQ> o(EnumSetting<Mode> mode, Mode{GroundSpoof,Grim2B2T})、DM M(DoubleSetting fallDistance)、boolean P(shouldCancel)、double H 与源码 NoFall 的 enumSetting+doubleSetting+boolean 对应；导入 ServerboundMovePlayerPacket（onSendPosition/PosRot 用法）。另两候选 I18NFileGenerator(=OD)、ModuleButton(非 extends e 的 GUI 组件) 均排除。注：anchored_refs 含 FastWeb(t)/KeyboardInputEvent(yi)/RaytraceEvent(dY)，与 26.1.2 NoFall 的 SendPositionEvent/PacketEvent 不同，疑为 26.2 重构或混淆交叉引用噪声，故降为 A-。",
+      "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/modules/impl/movement/NoFall.java"
+    },
+    "eS": {
+      "identity": "PacketMine",
+      "kind": "module",
+      "conf": "A",
+      "evidence": "eS extends e(Module)，public static final eS L == PacketMine.INSTANCE。@yE(P=-200) private void H(dA StartDestroyBlockEvent) 处理器（dA=StartDestroyBlockEvent），内部通过 hi.a(...,getSelectedSlot(),Inventory,...) 选取挖掘槽位；方法体引用 DropExperienceBlock/RedStoneOreBlock/WebBlock（源码 PacketMine 对矿/网/经验方块的针对性挖掘）；设置 Xn t(BoolSetting)+XG w(IntSetting) 与 PacketMine 的布尔/整型设置一致；MC 导入 LocalPlayer/BlockPos/Inventory 及 RedStoneOreBlock/WebBlock/DropExperienceBlock。候选 PacketMine(unique,score 12.18)。【冲突提示】class_map 中 eb 亦以 conf C 标为 PacketMine（MC-API Jaccard），二者冲突，建议主代理复核 eb 实为某其他模块，本批据 StartDestroyBlockEvent+getSelectedSlot+Inventory+矿类方块 判定 eS=PacketMine。",
+      "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/modules/impl/combat/PacketMine.java"
+    }
+  },
+  "unident": [
+    {
+      "obf": "A",
+      "reason": "A extends e(Module)，结构为 2×Map<BlockPos,Integer>(E,L) + List<u9> d + uK m + Dx<OW> q(enum) + XG X(int) + 4×Xn(Q,W,x,o) + i9 B，导入 ClientLevel/BlockPos/Block，方法以 3 重循环扫描 BlockPos 邻域并按 Block 类型收集、经 Render3DEvent(d9) 渲染。全 26.1.2 源码无任何类使用 Map<BlockPos,Integer>（仅 follower 用 Map<BlockPos,BlockPos/Double/Boolean>），三个自动候选全部无效：Xray 已映射到 U、Scaffold 已映射到 p、Particles 无方块扫描/Map 结构（仅 Render3DEvent+枚举粒子模式）。推断为 26.2 新增或重构的方块高亮/ESP 类渲染模块，在 26.1.2 字典中无对应来源，无法验证，按噪声候选核实原则判 unident，不硬塞。"
+    }
+  ]
+}

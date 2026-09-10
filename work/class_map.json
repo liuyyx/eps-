@@ -1,0 +1,4091 @@
+{
+ "e": {
+  "identity": "Module",
+  "kind": "class",
+  "conf": "A",
+  "evidence": "结构: 121 类 extends e, implements v8; 源码 Module implements SettingHost",
+  "pinned": true
+ },
+ "v8": {
+  "identity": "SettingHost",
+  "kind": "class",
+  "conf": "A",
+  "evidence": "结构: 方法集与源码 SettingHost 逐一对应",
+  "pinned": true
+ },
+ "hi": {
+  "identity": "SeQL/字符串解密+调用分发核心",
+  "kind": "class",
+  "conf": "A",
+  "evidence": "几乎所有加密方法体以 hi.a(key,...) 包裹; 20k 行",
+  "pinned": true
+ },
+ "vy": {
+  "identity": "EventBus",
+  "kind": "class",
+  "conf": "A",
+  "evidence": "事件型 mixin 全部引它; mixin 锚点 MixinBlockCollisions src=EventBus",
+  "pinned": true
+ },
+ "Xn": {
+  "identity": "BoolSetting",
+  "kind": "class",
+  "conf": "A",
+  "evidence": "Dl<Boolean> == src BoolSetting extends Setting<Boolean>; SettingHost T/U/M(String,boolean[,Consumer/yx]) == src boolSetting 三重载 (原 B 级升级)",
+  "pinned": true
+ },
+ "nN": {
+  "identity": "SettingGroup",
+  "kind": "class",
+  "conf": "B",
+  "evidence": "v8.l() 构建返回 nN 分组"
+ },
+ "dD": {
+  "identity": "通用事件/触发入口",
+  "kind": "class",
+  "conf": "A",
+  "evidence": "绝大多数模块类 mixin 引用; dD.d.player=mc.player",
+  "pinned": true
+ },
+ "_M": {
+  "identity": "BlockCollisionEvent",
+  "kind": "class",
+  "conf": "A",
+  "evidence": "锚点mixi交集 + 字段/构造序列与源码事件类逐一吻合",
+  "pinned": true
+ },
+ "du": {
+  "identity": "OpenScreenEvent",
+  "kind": "class",
+  "conf": "A",
+  "evidence": "锚点mixi交集 + 字段/构造序列与源码事件类逐一吻合",
+  "pinned": true
+ },
+ "yC": {
+  "identity": "FireworkRotationEvent",
+  "kind": "class",
+  "conf": "A",
+  "evidence": "锚点mixi交集 + 字段/构造序列与源码事件类逐一吻合",
+  "pinned": true
+ },
+ "_K": {
+  "identity": "UseItemRaytraceEvent",
+  "kind": "class",
+  "conf": "A",
+  "evidence": "锚点mixi交集 + 字段/构造序列与源码事件类逐一吻合",
+  "pinned": true
+ },
+ "dN": {
+  "identity": "AttackEntityEvent",
+  "kind": "class",
+  "conf": "A",
+  "evidence": "锚点mixi交集 + 字段/构造序列与源码事件类逐一吻合",
+  "pinned": true
+ },
+ "_z": {
+  "identity": "AttackYawEvent",
+  "kind": "class",
+  "conf": "A",
+  "evidence": "锚点mixi交集 + 字段/构造序列与源码事件类逐一吻合",
+  "pinned": true
+ },
+ "zV": {
+  "identity": "FallFlyingEvent",
+  "kind": "class",
+  "conf": "A",
+  "evidence": "锚点mixi交集 + 字段/构造序列与源码事件类逐一吻合",
+  "pinned": true
+ },
+ "nS": {
+  "identity": "JumpEvent",
+  "kind": "class",
+  "conf": "A",
+  "evidence": "锚点mixi交集 + 字段/构造序列与源码事件类逐一吻合",
+  "pinned": true
+ },
+ "dL": {
+  "identity": "KeyPressEvent",
+  "kind": "class",
+  "conf": "A",
+  "evidence": "锚点mixi交集 + 字段/构造序列与源码事件类逐一吻合",
+  "pinned": true
+ },
+ "yi": {
+  "identity": "KeyboardInputEvent",
+  "kind": "class",
+  "conf": "A",
+  "evidence": "锚点mixi交集 + 字段/构造序列与源码事件类逐一吻合",
+  "pinned": true
+ },
+ "dW": {
+  "identity": "MousePressEvent",
+  "kind": "class",
+  "conf": "A",
+  "evidence": "锚点mixi交集 + 字段/构造序列与源码事件类逐一吻合",
+  "pinned": true
+ },
+ "dm": {
+  "identity": "MouseScrollEvent",
+  "kind": "class",
+  "conf": "A",
+  "evidence": "锚点mixi交集 + 字段/构造序列与源码事件类逐一吻合",
+  "pinned": true
+ },
+ "DY": {
+  "identity": "RaytraceEvent",
+  "kind": "class",
+  "conf": "A",
+  "evidence": "锚点mixi交集 + 字段/构造序列与源码事件类逐一吻合",
+  "pinned": true
+ },
+ "d9": {
+  "identity": "Render3DEvent",
+  "kind": "class",
+  "conf": "A",
+  "evidence": "锚点mixi交集 + 字段/构造序列与源码事件类逐一吻合",
+  "pinned": true
+ },
+ "vB": {
+  "identity": "RotationAnimationEvent",
+  "kind": "class",
+  "conf": "A",
+  "evidence": "锚点mixi交集 + 字段/构造序列与源码事件类逐一吻合",
+  "pinned": true
+ },
+ "dA": {
+  "identity": "StartDestroyBlockEvent",
+  "kind": "class",
+  "conf": "A",
+  "evidence": "锚点mixi交集 + 字段/构造序列与源码事件类逐一吻合",
+  "pinned": true
+ },
+ "Dn": {
+  "identity": "StrafeEvent",
+  "kind": "class",
+  "conf": "A",
+  "evidence": "锚点mixi交集 + 字段/构造序列与源码事件类逐一吻合",
+  "pinned": true
+ },
+ "dk": {
+  "identity": "DestroyBlockEvent",
+  "kind": "class",
+  "conf": "B",
+  "evidence": "锚点交集命中, 但与 zZ 字段同型需复核"
+ },
+ "eN": {
+  "identity": "Blink",
+  "kind": "module",
+  "conf": "A",
+  "evidence": "MC-API 双向 Jaccard 互指(26.1.2 相似度字典); 深验: ConcurrentLinkedQueue<Packet>+伪RemotePlayer+getBlinkTicks 语义逐项吻合",
+  "pinned": true
+ },
+ "ez": {
+  "identity": "HoleESP",
+  "kind": "module",
+  "conf": "B",
+  "evidence": "MC-API 双向 Jaccard 互指(26.1.2 相似度字典)"
+ },
+ "eL": {
+  "identity": "HoleSnap",
+  "kind": "module",
+  "conf": "B",
+  "evidence": "MC-API 双向 Jaccard 互指(26.1.2 相似度字典)"
+ },
+ "eY": {
+  "identity": "KillAura",
+  "kind": "module",
+  "conf": "A",
+  "evidence": "MC-API 双向 Jaccard 互指(26.1.2 相似度字典) || [裁决] MC-import Jaccard=0.667 优于 y 的 0.125（同目标 src KillAura）",
+  "pinned": true
+ },
+ "N": {
+  "identity": "Speed",
+  "kind": "module",
+  "conf": "B",
+  "evidence": "MC-API 双向 Jaccard 互指(26.1.2 相似度字典)"
+ },
+ "g": {
+  "identity": "FeetTrap",
+  "kind": "module",
+  "conf": "B",
+  "evidence": "MC-API 双向 Jaccard 互指(26.1.2 相似度字典)"
+ },
+ "e1": {
+  "identity": "Follower",
+  "kind": "module",
+  "conf": "B",
+  "evidence": "MC-API 双向 Jaccard 互指(26.1.2 相似度字典) || [证据裁决] Jaccard=0.800",
+  "pinned": true
+ },
+ "k": {
+  "identity": "PacketEat",
+  "kind": "module",
+  "conf": "B",
+  "evidence": "MC-API 双向 Jaccard 互指(26.1.2 相似度字典)"
+ },
+ "D": {
+  "identity": "BlockHighlight",
+  "kind": "module",
+  "conf": "B",
+  "evidence": "MC-API 双向 Jaccard 互指(26.1.2 相似度字典)"
+ },
+ "ek": {
+  "identity": "KeyPearl",
+  "kind": "module",
+  "conf": "B",
+  "evidence": "MC-API 双向 Jaccard 互指(26.1.2 相似度字典)"
+ },
+ "R": {
+  "identity": "SpearKill",
+  "kind": "module",
+  "conf": "B",
+  "evidence": "MC-API 双向 Jaccard 互指(26.1.2 相似度字典)"
+ },
+ "ec": {
+  "identity": "CrystalAura",
+  "kind": "module",
+  "conf": "B",
+  "evidence": "MC-API 双向 Jaccard 互指(26.1.2 相似度字典)"
+ },
+ "eG": {
+  "identity": "AutoMend",
+  "kind": "module",
+  "conf": "B",
+  "evidence": "MC-API 双向 Jaccard 互指(26.1.2 相似度字典)"
+ },
+ "e_": {
+  "identity": "HandsView",
+  "kind": "module",
+  "conf": "A",
+  "evidence": "MixinAvatarRenderer applyThirdPersonBlockingPose 同构: e_.k==HandsView.INSTANCE, y(entity,arm)==shouldApplyThirdPersonBlockingAnim; 双锚点 MixinItemInHandRenderer 佐证",
+  "pinned": true
+ },
+ "F": {
+  "identity": "PlayerAlarms",
+  "kind": "module",
+  "conf": "B",
+  "evidence": "MC-API 双向 Jaccard 互指(26.1.2 相似度字典)"
+ },
+ "un": {
+  "identity": "ZealotCrystalPlus",
+  "kind": "module",
+  "conf": "B",
+  "evidence": "MC-API 双向 Jaccard 互指(26.1.2 相似度字典) || [证据裁决] Jaccard=0.500 || [裁决] MC-import Jaccard=0.500 优于 eq 0.273",
+  "pinned": true
+ },
+ "e2": {
+  "identity": "AutoWeapon",
+  "kind": "module",
+  "conf": "B",
+  "evidence": "MC-API 双向 Jaccard 互指(26.1.2 相似度字典) || [证据裁决] Jaccard=0.467",
+  "pinned": true
+ },
+ "C": {
+  "identity": "Chams",
+  "kind": "module",
+  "conf": "B",
+  "evidence": "MC-API 双向 Jaccard 互指(26.1.2 相似度字典); 锚点 MixinCapeLayer/EquipmentLayerRenderer→src Chams 佐证"
+ },
+ "j": {
+  "identity": "GhostHand",
+  "kind": "module",
+  "conf": "B",
+  "evidence": "MC-API 双向 Jaccard 互指(26.1.2 相似度字典)"
+ },
+ "r": {
+  "identity": "CrystalBlocker",
+  "kind": "module",
+  "conf": "B",
+  "evidence": "MC-API 双向 Jaccard 互指(26.1.2 相似度字典)"
+ },
+ "ue": {
+  "identity": "LogoutSpots",
+  "kind": "module",
+  "conf": "B",
+  "evidence": "MC-API 双向 Jaccard 互指(26.1.2 相似度字典)"
+ },
+ "e8": {
+  "identity": "MasEffects",
+  "kind": "module",
+  "conf": "A",
+  "evidence": "[复核升级] e8 MC imports 与 src MasEffects(278行) 交集 9 个罕见类: ClientboundEntityEventPacket/GizmoStyle/WindCharge/ThrownEnderpearl/Identifier/LivingEntity/Entity/Player/Vec3; 设置谱(多 BoolSetting+DoubleSetting, 含 XF=StringListSetting)与 src MasEffects 的 generalGroup/maceGroup/hitboxGroup 分组一致",
+  "pinned": true
+ },
+ "i": {
+  "identity": "FreeCamera",
+  "kind": "module",
+  "conf": "B",
+  "evidence": "MC-API 双向 Jaccard 互指(26.1.2 相似度字典); 锚点 MixinCamera/ChunkBorderRenderer/CompassAngleState→src FreeCamera 佐证"
+ },
+ "uA": {
+  "identity": "Fullbright",
+  "kind": "module",
+  "conf": "A",
+  "evidence": "MixinLightmap 逐行同构: uA.W.I()==Fullbright.INSTANCE.isGammaMode()",
+  "pinned": true
+ },
+ "U": {
+  "identity": "Xray",
+  "kind": "module",
+  "conf": "A",
+  "evidence": "双 mixin 逐行同构: MixinBlock U.W==Xray.INSTANCE, u.N()==isEnabled(), u.a.z()==wallHack.getValue(), u.C(block)==isCheckableOre; MixinLightmap U.W.N()==Xray.INSTANCE.isEnabled()",
+  "pinned": true
+ },
+ "t": {
+  "identity": "FastWeb",
+  "kind": "class",
+  "conf": "A",
+  "evidence": "mixin MixinWebBlock 逐行同构: entity==dD.d.player && t.J.l() == mc.player && FastWeb.INSTANCE.cobweb(); t.J 单例静态字段 || [证据裁决] pinned",
+  "pinned": true
+ },
+ "nO": {
+  "identity": "ClientIdentityHider",
+  "kind": "class",
+  "conf": "A-",
+  "evidence": "双锚点 MixinConnection+MixinClientBrandRetriever; CustomPacketPayload/ConnectionProtocol/Collection 引用集与源码一致(方法体混淆不可逐字对齐)",
+  "pinned": true
+ },
+ "e6": {
+  "identity": "Filter",
+  "kind": "module",
+  "conf": "A",
+  "evidence": "MixinLightmap 逐行同构: e6.c.X()==Filter.INSTANCE.isLightMapMode(), e6.c.f().getRGB()==getLightMapColor().getRGB()",
+  "pinned": true
+ },
+ "uj": {
+  "identity": "ElytraFly",
+  "kind": "module",
+  "conf": "A",
+  "evidence": "MixinAvatarRenderer spoofFallFlyingTicks 同构: uj.a.A()==ElytraFly.INSTANCE.isArmorMode()",
+  "pinned": true
+ },
+ "u": {
+  "identity": "Shaders",
+  "kind": "module",
+  "conf": "A",
+  "evidence": "MixinAvatarRenderer applyShadersHandArmOutline 同构: u.H==Shaders.INSTANCE, N()==isEnabled(), W.z()==shouldRenderHands(), r(d)==outlineColor.getValue().getRGB()",
+  "pinned": true
+ },
+ "W": {
+  "identity": "CameraClip",
+  "kind": "module",
+  "conf": "A",
+  "evidence": "MixinCamera hookGetMaxZoom/onAlignSetPosArgs 同构: W.h==CameraClip.INSTANCE, N()==isEnabled(), y.z()==distance.getValue(), O.z()==action.getValue(), j()==updateActionCamera, Q()==getCameraPos, J()==resetCameraPos",
+  "pinned": true
+ },
+ "eZ": {
+  "identity": "SneakTweak",
+  "kind": "module",
+  "conf": "A",
+  "evidence": "MixinCamera hookSneakTweakCameraTick/CameraSpeed 同构: eZ.d==SneakTweak.INSTANCE, V()==shouldSnapCameraEyeHeight, Q(f)==getCameraSmoothingModifier; MixinAvatar src=SneakTweak 佐证",
+  "pinned": true
+ },
+ "L": {
+  "identity": "NoRotate",
+  "kind": "module",
+  "conf": "A-",
+  "evidence": "MixinClientPacketListener handleMovePlayer 首尾夹持: L.X.N()==NoRotate.isEnabled 语义(存yaw/pitch, RETURN 时 +1e-6 还原防旋转); src 26.1.2 NoRotate 同名 mixin 引用",
+  "pinned": true
+ },
+ "w": {
+  "identity": "Velocity",
+  "kind": "module",
+  "conf": "A",
+  "evidence": "MixinEntity pushAwayFromHook 同构: w.a==Velocity.INSTANCE(mode.is(Cancel)+entityPush.getValue() 零化实体推力); MixinFlowingFluid/MixinLocalPlayer src=Velocity 佐证(流体/玩家推挤)",
+  "pinned": true
+ },
+ "Du": {
+  "identity": "Velocity$Mode",
+  "kind": "enum",
+  "conf": "A",
+  "evidence": "w.a.d.i(Du.Cancel)==mode.is(Mode.Cancel); Du.Cancel 枚举常量访问; src Velocity.Mode{Cancel,Legit}",
+  "pinned": true
+ },
+ "uc": {
+  "identity": "ClientSetting",
+  "kind": "module",
+  "conf": "A",
+  "evidence": "MixinMinecraft.onUpdateTitle(updateTitle@INVOKE Window.setTitle) 同构 src MixinMinecraft.onUpdateTitle: (lM)(uc.v.u4.z())==ClientSetting.INSTANCE.customTitle.getValue(); lM.Vanilla 原串/Minecraft_1_8_9/'Minecraft 1.8.9'/default dD.D+' '+dD.z+' for '+title==Constants.NAME+VERSION; uc.u4 Dx<lM> 构造 consumer lambda$new$11->mc.updateTitle() 与 src customTitle enumSetting('Custom Title',TitleMode.Epsilon,_->mc.updateTitle()) 一致; uc extends e, 静态单例字段 v",
+  "pinned": true
+ },
+ "ew": {
+  "identity": "MultiTask",
+  "kind": "module",
+  "conf": "A",
+  "evidence": "MixinMinecraft 双 WrapOperation 同构: attackMultiTask(continueAttack@INVOKE LocalPlayer.isUsingItem) 与 useMultiTask(startUseItem@INVOKE MultiPlayerGameMode.isDestroying) 均为 !ew.d.N() && operation.call(...)==original.call(...) && !MultiTask.INSTANCE.isEnabled(); ew extends e, 静态单例字段 d",
+  "pinned": true
+ },
+ "B": {
+  "identity": "UseCooldown",
+  "kind": "module",
+  "conf": "A",
+  "evidence": "MixinMinecraft.onStartUseItem(startUseItem@INVOKE ItemStack.isItemEnabled) 同构 src: B.L.N()==UseCooldown.INSTANCE.isEnabled(); this.rightClickDelay=(Integer)B.S.z()==rightClickDelay=cooldown.getValue(); B.S XG intSetting 数值(0,0,4,1)==src cooldown intSetting('Cooldown',0,0,4,1); B extends e, 静态单例字段 L",
+  "pinned": true
+ },
+ "lM": {
+  "identity": "ClientSetting$TitleMode",
+  "kind": "enum",
+  "conf": "A",
+  "evidence": "uc(ClientSetting).u4 Dx<lM> 字段; MixinMinecraft.onUpdateTitle cast uc.v.u4.z() 后分支 lM.Vanilla/Minecraft_1_8_9/default(Epsilon) 返回标题串; 枚举常量序 Vanilla(0),Minecraft_1_8_9(1),Epsilon(2) 与 src ClientSetting.TitleMode 声明序一致; 消费方 lambda$new$11->mc.updateTitle() 匹配 customTitle(而非 setIcon 的 IconMode)",
+  "pinned": true
+ },
+ "e0": {
+  "identity": "GameAnimation",
+  "kind": "module",
+  "conf": "A",
+  "evidence": "jar MixinHud(@Mixin Hud, 即 src MixinGui 之 Gui 在 MC26.2 更名) 注入点 extractItemHotbar ModifyArg blitSprite ordinal=1 index=2 同构: e0.B.L(n)==GameAnimation.INSTANCE.getHotbarSelectionX(x); e0 结构: extends e + static final e0 B(INSTANCE) + 常量 240.0f==src HOTBAR_RESET_DISTANCE=240.0f + 双 _E(Animation) 字段; MixinScreen/MixinInventoryScreen 亦引用 e0(26.2 库存动画扩展)",
+  "pinned": true
+ },
+ "iS": {
+  "identity": "WelcomeScreen",
+  "kind": "screen",
+  "conf": "A",
+  "evidence": "MixinTitleScreen init HEAD 首启分支同构: dD.d.gui.setScreen((Screen)iS.Y)==mc.setScreen(WelcomeScreen.INSTANCE)(同注入点同分支+零化特效设置); iS extends Screen + static final iS Y(INSTANCE) + List<Component> K 欢迎文案行",
+  "pinned": true
+ },
+ "vc": {
+  "identity": "MainMenuScreen",
+  "kind": "screen",
+  "conf": "A",
+  "evidence": "MixinTitleScreen init 第二分支同构: uc.v.uT.z()(useMainMenu) 为真时 dD.d.gui.setScreen((Screen)vc.l)==mc.setScreen(MainMenuScreen.INSTANCE); MixinMinecraft onGameLoadFinished 亦调 vc.l(useMainMenu 分支); vc extends Screen + static final vc l(INSTANCE) + SoundInstance/多 Identifier/菜单 lambda(setScreen(OptionsScreen)) 主题主菜单结构",
+  "pinned": true
+ },
+ "yt": {
+  "identity": "HudEditorScreen",
+  "kind": "screen",
+  "conf": "A",
+  "evidence": "MixinGuiRenderer render/draw HEAD 同构: 取鼠标坐标后 yt.L.D({})==HudEditorScreen.INSTANCE.renderPendingHudElements()(同一注入点同位置, 其后接 level 提取+Render2D 事件); yt extends Screen + static final yt L(INSTANCE); 常量组逐一吻合: h=6.0f==SNAP_DISTANCE, D=3.0f==ELEMENT_PADDING, a=13.0f==LABEL_HEIGHT, Z=95.0f==GUIDE_ALPHA",
+  "pinned": true
+ },
+ "_p": {
+  "identity": "IconMode(ClientSetting 枚举)",
+  "kind": "enum",
+  "conf": "A",
+  "evidence": "MixinWindow setIcon Redirect getStandardIcons 同构: uc.v.u0.i(_p.Epsilon)==ClientSetting.INSTANCE.customIcon.is(IconMode.Epsilon), _p.Minecraft_1_8_9==IconMode.Minecraft_1_8_9; uc 字段 Dx<_p> u0 泛型 == EnumSetting<IconMode> customIcon",
+  "pinned": true
+ },
+ "eB": {
+  "identity": "CrystalChams",
+  "kind": "module",
+  "conf": "A",
+  "evidence": "MixinEntityRenderer.hookShouldRender(shouldRender HEAD) 逐行同构: if(eB.u.N() && t instanceof EndCrystal) setReturnValue(false) == if(CrystalChams.INSTANCE.isEnabled() && entity instanceof EndCrystal); eB 设置谱 2xDM(Double scale/lineWidth)+2xDV(Color side/lineColor) 与 src CrystalChams(2 ColorSetting+2 DoubleSetting) 完全一致; eB 含 @yE 处理器 j(d9=Render3DEvent) 对应 src onRender3D(Render3DEvent)",
+  "pinned": true
+ },
+ "s": {
+  "identity": "JumpCooldown",
+  "kind": "module",
+  "conf": "A",
+  "evidence": "MixinLivingEntity.redirectJumpingCooldown(aiStep @At FIELD noJumpDelay:I PUTFIELD ordinal=1) 同构: s.u==JumpCooldown.INSTANCE, N()==isEnabled(), 玩家时 n2=(Integer)s.P.z()==cooldown.getValue(); s 为最小模块(单例 u+单 IntSetting P XG 初值(0,0,?,1)) 与 src JumpCooldown(仅 cooldown=intSetting(0,0,9,1)) 同形",
+  "pinned": true
+ },
+ "et": {
+  "identity": "BreakCooldown",
+  "kind": "module",
+  "conf": "A",
+  "evidence": "MixinMultiPlayerGameMode.survivalBreakDelayChange/creativeBreakDelayChangeOne/creativeBreakDelayChangeTwo 三处 WrapOperation 同构(continueDestroyBlock destroyDelay ordinal=2/1 + startDestroyBlock): et.E==BreakCooldown.INSTANCE, N()==isEnabled(), (Integer)et.k.z()==cooldown.getValue(); et.k 为 XG(IntSetting) 初值(int)0,(int)0,(int)5,(int)1 与 src BreakCooldown cooldown=intSetting('Cooldown',0,0,5,1) 逐值一致",
+  "pinned": true
+ },
+ "Xr": {
+  "identity": "EntityRenderStateAccessor",
+  "kind": "class",
+  "conf": "A",
+  "evidence": "MixinLivingEntityRenderer.modifyRenderType(getRenderType RETURN): ((Xr)s).epsilon$getEntity() == ((EntityRenderStateAccessor)state).epsilon$getEntity(); Xr 接口方法集(epsilon$getEntity/epsilon$setEntity)与 src interfaces.EntityRenderStateAccessor 完全一致",
+  "pinned": true
+ },
+ "dv": {
+  "identity": "TravelEvent",
+  "kind": "class",
+  "conf": "A",
+  "evidence": "MixinPlayer.onTravelPre(travel HEAD cancellable): (dv)vy.j.d(new dv()).l()==EventBus.INSTANCE.post(new TravelEvent()).isCancelled() -> ci.cancel(); dv 无参构造+extends de(Cancellable) 与 src TravelEvent(extends Cancellable, 无参) 一致",
+  "pinned": true
+ },
+ "da": {
+  "identity": "AttackSlowDownEvent",
+  "kind": "class",
+  "conf": "A-",
+  "evidence": "MixinPlayer.onAttackSlowdown/onAttackStopSprinting(causeExtraKnockback @At INVOKE setDeltaMovement/setSprinting, @Share 'cancelAttackSlowdown' 明文泄露): 事件 da.l()==isCancelled 决定是否执行攻击减速/停冲刺, 语义域唯一对应 src AttackSlowDownEvent(取消攻击减速); 注意 26.2 重构为无参事件+双 WrapWithCondition, 而 26.1.2 为(entity,knockbackAmount)构造+HEAD 整段取消, 构造参数不同故 A-",
+  "pinned": true
+ },
+ "_S": {
+  "identity": "UseItemEvent",
+  "kind": "class",
+  "conf": "A-",
+  "evidence": "MixinMultiPlayerGameMode.preUseItem/postUseItem(useItem HEAD/RETURN 转向暂存还原): new _S(player.getYRot(),player.getXRot()) 双 float 构造==new UseItemEvent(yaw,pitch), I()/J()==getYaw/getPitch; 26.1.2 在 lambda$useItem$0 ModifyArgs 改发包 yaw/pitch, 26.2 改为临时旋转玩家实体-事件域一致(useItem 转向覆盖)故 A-",
+  "pinned": true
+ },
+ "Z": {
+  "identity": "NameTags",
+  "kind": "module",
+  "conf": "B",
+  "evidence": "玩家原版名牌隐藏语义槽位唯一对应: src MixinLivingEntityRenderer.onShouldShowName(shouldShowName HEAD, NameTags.INSTANCE.isEnabled()&&instanceof Player 取消) <-> jar MixinEntityRenderer.hookExtractNameTags(extractNameTags HEAD): Z.k.N() && t instanceof Player 取消玩家名牌提取(26.2 名牌改走 extractNameTags); 但 Z 无 vanillaNameTags 设置项判断且设置谱(Xn x7/DM x4/DV x8)较 26.1.2 NameTags(4 Double/4 Bool/1 Color)大幅扩张, 疑 26.2 重构扩展, 需 hi 解密确认"
+ },
+ "Dl": {
+  "identity": "Setting",
+  "kind": "class",
+  "conf": "A",
+  "evidence": "抽象基类 Dl<V>: 9 字段类型逐一对应 src Setting<V>(Consumer<V> v=onChanged, nN W=group, V q=value, boolean f/R=rootSetting/applyWhenRelease, String E=name, yx t=dependency, uT n=translateComponent, V p=defaultValue); z()=getValue, y()=setValue, Z()=getGroup, l()=getName; 10 类 extends Dl=11 种设置实现",
+  "pinned": true
+ },
+ "yx": {
+  "identity": "Setting$Dependency",
+  "kind": "class",
+  "conf": "A",
+  "evidence": "@FunctionalInterface interface yx{boolean n()} == src Setting.Dependency @FunctionalInterface{boolean check()}; Dl 字段 t 类型; SettingHost 工厂末参 (Xn M/ XG m/ DV P/j) 对应 src boolSetting/intSetting/colorSetting 的 Dependency 参数",
+  "pinned": true
+ },
+ "uT": {
+  "identity": "TranslateComponent",
+  "kind": "class",
+  "conf": "A-",
+  "evidence": "interface uT 4 方法 (void n(Object[]), String n(Object[]), String a(), uT j(Object[])) == src assets/i18n/TranslateComponent (void refresh, String getFullKey, String getTranslatedName, TranslateComponent createChild); Dl 字段 n 类型",
+  "pinned": true
+ },
+ "DM": {
+  "identity": "DoubleSetting",
+  "kind": "class",
+  "conf": "A",
+  "evidence": "Dl<Double> + 字段 double N,P,T == src DoubleSetting(double min,max,step); SettingHost E/H(String,double,double,double,double[,yx]) == src doubleSetting",
+  "pinned": true
+ },
+ "DV": {
+  "identity": "ColorSetting",
+  "kind": "class",
+  "conf": "A",
+  "evidence": "Dl<Color> + boolean u == src ColorSetting(allowAlpha); SettingHost Z/P/j/V(String,Color[,boolean][,yx]) == src colorSetting",
+  "pinned": true
+ },
+ "Dx": {
+  "identity": "EnumSetting",
+  "kind": "class",
+  "conf": "A",
+  "evidence": "Dl<E extends Enum<E>> + E[] z(constants) + Map<E,TranslateComponent> == src EnumSetting<E extends Enum<E>>(E[] constants, Map modeTranslations); 多行声明致旧提取器漏记",
+  "pinned": true
+ },
+ "X0": {
+  "identity": "KeybindSetting",
+  "kind": "class",
+  "conf": "A",
+  "evidence": "Dl<Integer> 无字段 == src KeybindSetting extends Setting<Integer>; SettingHost t(String,int) == keybindSetting",
+  "pinned": true
+ },
+ "Xe": {
+  "identity": "RegistryListSetting",
+  "kind": "class",
+  "conf": "A",
+  "evidence": "Dl<List<T>> + 字段 Xf x(=Type registryType), Registry<T> N, Predicate<T> B == src RegistryListSetting<T> 三字段逐一对应; SettingHost 11 个 Object[] 工厂 == blockList/itemList/entityTypeList/enchantmentList/soundEventList",
+  "pinned": true
+ },
+ "XF": {
+  "identity": "StringListSetting",
+  "kind": "class",
+  "conf": "A",
+  "evidence": "Dl<List<String>> 无字段 == src StringListSetting extends Setting<List<String>>(Collection defaultValue); SettingHost f/W(String,Collection[,yx])",
+  "pinned": true
+ },
+ "XG": {
+  "identity": "IntSetting",
+  "kind": "class",
+  "conf": "A",
+  "evidence": "Dl<Integer> + int M,z,k == src IntSetting(int min,max,step); SettingHost p/m/b(String,int,int,int,int[,Consumer/yx]) == src intSetting 四重载",
+  "pinned": true
+ },
+ "Xc": {
+  "identity": "StringSetting",
+  "kind": "class",
+  "conf": "A",
+  "evidence": "Dl<String> 无字段 == src StringSetting extends Setting<String>; SettingHost K(String,String) == stringSetting(name,default)",
+  "pinned": true
+ },
+ "Xp": {
+  "identity": "ButtonSetting",
+  "kind": "class",
+  "conf": "A",
+  "evidence": "Dl<Runnable> == src ButtonSetting extends Setting<Runnable>(String name, Runnable func); SettingHost Object[] 工厂 == buttonSetting",
+  "pinned": true
+ },
+ "Xf": {
+  "identity": "RegistryListSetting$Type",
+  "kind": "enum",
+  "conf": "A",
+  "evidence": "Xe(RegistryListSetting) 字段 x 类型; 枚举常量序 BLOCK/ITEM/ENTITY_TYPE/SOUND_EVENT/ENCHANTMENT == src RegistryListSetting.Type",
+  "pinned": true
+ },
+ "D2": {
+  "identity": "SlowdownEvent",
+  "kind": "event",
+  "conf": "A",
+  "evidence": "注入点 @WrapOperation(method=\"modifyInput\", at=INVOKE LocalPlayer.isUsingItem()) 同构: jar `D2 d2=(D2)vy.j.d(new Object[]{new D2((Boolean)operation.call(new Object[]{localPlayer}))}); return d2.d(new Object[0]);` == src(MixinLocalPlayer.onSlowdown) `SlowdownEvent event=EventBus.INSTANCE.post(new SlowdownEvent(original.call(localPlayer))); return event.isSlowdown();`。vy.j.d==EventBus.INSTANCE.post；new D2(bool)==new SlowdownEvent(bool)；d2.d()==isSlowdown()；同注入点同形 → D2=SlowdownEvent。",
+  "pinned": true
+ },
+ "d3": {
+  "identity": "SwingHandEvent",
+  "kind": "event",
+  "conf": "A",
+  "evidence": "注入点 @Inject(method=\"swing\", HEAD, cancellable) 同构: jar `d3 d32=(d3)vy.j.d(new Object[]{new d3()}); if(d32.l(new Object[0])) callbackInfo.cancel();` == src(MixinLocalPlayer.onSwing) `SwingHandEvent event=EventBus.INSTANCE.post(new SwingHandEvent()); if(event.isCancelled()) ci.cancel();`。new d3()==new SwingHandEvent()；d32.l()==isCancelled()；同注入点同形 → d3=SwingHandEvent。",
+  "pinned": true
+ },
+ "dR": {
+  "identity": "PlayerTickEvent.Pre",
+  "kind": "event",
+  "conf": "A",
+  "evidence": "注入点 @Inject(method=\"tick\", BEFORE AbstractClientPlayer.tick(), cancellable) 同构: jar `dR dR2=(dR)vy.j.d(new Object[]{new dR()}); if(dR2.l(new Object[0])) callbackInfo.cancel();` == src(MixinLocalPlayer.onPreTick) `PlayerTickEvent.Pre event=EventBus.INSTANCE.post(new PlayerTickEvent.Pre()); if(event.isCancelled()) ci.cancel();`。new dR()==new PlayerTickEvent.Pre()；dR2.l()==isCancelled()；同注入点(tick BEFORE)同形 → dR=PlayerTickEvent.Pre。",
+  "pinned": true
+ },
+ "dY": {
+  "identity": "SendPositionEvent",
+  "kind": "event",
+  "conf": "A",
+  "evidence": "注入点 @Inject(method=\"sendPosition\", HEAD, cancellable) 同构: jar `dY dY2=new dY(getX,getY,getZ,getYRot,getXRot,onGround); this.epsilon$sendPositionEvent=dispatch?(dY)vy.j.d(new Object[]{dY2}):dY2; if(.l()) cancel;` + WrapOperation 访问器 .c()=getX,.A()=getY,.f()=getZ,.h()=getYaw,.V()=getPitch,.s()=isOnGround == src(MixinLocalPlayer.onPreSendPosition) `epsilon$sendPositionEvent=EventBus.INSTANCE.post(new SendPositionEvent(getX,getY,getZ,getYRot,getXRot,onGround)); if(.isCancelled()) cancel;` + redirectGetX/Y/Z=getX/Y/Z, redirectGetYRot=getYaw, redirectGetXRot=getPitch, redirectOnGround=isOnGround。6 实",
+  "pinned": true
+ },
+ "db": {
+  "identity": "MoveEvent",
+  "kind": "event",
+  "conf": "A",
+  "evidence": "注入点 @Inject(method=\"move\", at=INVOKE AbstractClientPlayer.move(MoverType,Vec3), cancellable) 同构: jar `db db2=(db)vy.j.d(new Object[]{new db(vec3.x,vec3.y,vec3.z)}); if(db2.l(new Object[0])){ super.move(moverType,new Vec3(db2.h(),db2.P(),db2.L())); ci.cancel(); }` == src(MixinLocalPlayer.onMove) `MoveEvent event=EventBus.INSTANCE.post(new MoveEvent(delta.x,delta.y,delta.z)); if(event.isCancelled()){ super.move(moverType,new Vec3(event.getX(),event.getY(),event.getZ())); ci.cancel(); }`。new db(x,y,z)==new MoveEvent(x,y,z)；db2.l()==isCancelled()；db2.h()/.P()/.L()==getX/getY/getZ → db=MoveEvent。",
+  "pinned": true
+ },
+ "nj": {
+  "identity": "PlayerTickEvent.Post",
+  "kind": "event",
+  "conf": "A",
+  "evidence": "注入点 @Inject(method=\"tick\", AFTER AbstractClientPlayer.tick()) 同构: jar `vy.j.d(new Object[]{new nj()});` == src(MixinLocalPlayer.onPostTick) `EventBus.INSTANCE.post(new PlayerTickEvent.Post());`。new nj()==new PlayerTickEvent.Post()；同一 tick AFTER 注入点同形（与 dR=PlayerTickEvent.Pre 的 tick BEFORE 成对）→ nj=PlayerTickEvent.Post。",
+  "pinned": true
+ },
+ "_J": {
+  "identity": "PostSendPositionEvent",
+  "kind": "event",
+  "conf": "A-",
+  "evidence": "26.2 新增注入点（26.1.2 src MixinLocalPlayer 无对应）: jar 在 @Inject(method=\"sendPosition\", HEAD) 取消分支与 @Inject(method=\"sendPosition\", TAIL) 均写 `vy.j.d(new Object[]{new _J()});`，且仅当 `epsilon$dispatchPositionEvents && player==dD.d.player` 时触发；_J 为无参构造+空体、extends de(事件基类) 的事件类。语义强推(无同形 src 调用点): dY=SendPositionEvent 在 sendPosition@HEAD 发布(Pre 角色)，_J 在 sendPosition@TAIL 与取消分支发布(Post 角色)，与代码库 PlayerTickEvent.Pre(dR)/Post(nj) 的 Pre/Post 事件对结构完全一致 → _J 即 sendPosition 的 Post 事件 = PostSendPositionEvent（可能形如 SendPositionEvent.Post 嵌套类，命名以 26.2 源码为准）。",
+  "pinned": true
+ },
+ "_y": {
+  "identity": "ClientTickEvent.Pre",
+  "kind": "event",
+  "conf": "A",
+  "evidence": "注入点 method=tick @HEAD 同构: jar `vy.j.d(new Object[]{new _y()})` == src `EventBus.INSTANCE.post(new ClientTickEvent.Pre())`；_y extends _4（TickEvent 基类），与 src ClientTickEvent.Pre 一致。",
+  "pinned": true
+ },
+ "__": {
+  "identity": "ClientTickEvent.Post",
+  "kind": "event",
+  "conf": "A",
+  "evidence": "注入点 method=tick @TAIL 同构: jar `vy.j.d(new Object[]{new __()})` == src `EventBus.INSTANCE.post(new ClientTickEvent.Post())`；__ extends _4（同 ClientTickEvent 基类）。",
+  "pinned": true
+ },
+ "dj": {
+  "identity": "StartUseItemEvent",
+  "kind": "event",
+  "conf": "A",
+  "evidence": "注入点 method=startUseItem @INVOKE InteractionHand.values() cancellable 同构: jar `dj dj2=(dj)vy.j.d(new Object[]{new dj()}); if(dj2.l()) ci.cancel()` == src `StartUseItemEvent e=EventBus.INSTANCE.post(new StartUseItemEvent()); if(e.isCancelled()) ci.cancel()`；dj extends de(EventBase)，.l()==isCancelled。",
+  "pinned": true
+ },
+ "dz": {
+  "identity": "RightClickEvent",
+  "kind": "event",
+  "conf": "A",
+  "evidence": "注入点 method=handleKeybinds @INVOKE LocalPlayer.isUsingItem() ordinal=0 BEFORE cancellable 同构: jar `dz dz2=(dz)vy.j.d(new Object[]{new dz()}); if(dz2.l()) ci.cancel()` == src `RightClickEvent e=EventBus.INSTANCE.post(new RightClickEvent()); if(e.isCancelled()) ci.cancel()`；dz extends de，.l()==isCancelled。",
+  "pinned": true
+ },
+ "g3": {
+  "identity": "GameLeftEvent",
+  "kind": "event",
+  "conf": "A",
+  "evidence": "注入点 method=disconnect(Screen;ZZ) @HEAD 同构: jar `vy.j.d(new Object[]{new g3()})` == src `EventBus.INSTANCE.post(new GameLeftEvent())`；同位置（level!=null 守卫后触发）。",
+  "pinned": true
+ },
+ "_U": {
+  "identity": "LevelUpdateEvent",
+  "kind": "event",
+  "conf": "A",
+  "evidence": "注入点 method=updateLevelInEngines(ClientLevel;Z) @HEAD 同构: jar `vy.j.d(new Object[]{new _U()})` == src `EventBus.INSTANCE.post(new LevelUpdateEvent())`。",
+  "pinned": true
+ },
+ "dB": {
+  "identity": "LuminRenderSystem",
+  "kind": "util",
+  "conf": "A-",
+  "evidence": "注入点 method=close @HEAD 同位置末位清理同构: jar `dB.Q()` == src `LuminRenderSystem.destroyAll()`；类级同构: dB 导入集(Projection/ProjectionMatrixBuffer/GpuBuffer/GpuBufferSlice/GpuTextureView/IndexType/RenderTarget/MouseButtonEvent/Matrix4f/Vector3f/Vector4f, joml) 与 26.1.2 graphics/LuminRenderSystem.java 完全一致；dB.Q() 内部 close() ProjectionMatrixBuffer + I() iW（即 destroyAll 语义），S() 设投影矩阵、P()/P(int) 管理 GpuBuffer/GpuTextureView、W() 返回 GpuBufferSlice 均为 LuminRenderSystem 职责。注: 26.2 将 onClose 重写为 W.Z.z()(smtc 运行时) + dE.P() + dB.Q()，Q() 即 destroyAll 对应项。 || [证据裁决] pinned || [证据裁决] pinned",
+  "pinned": true
+ },
+ "iE": {
+  "identity": "SoundKey",
+  "kind": "enum",
+  "conf": "A-",
+  "evidence": "枚举类级同构: iE 为 enum，常量 ENABLE/DISABLE/SETTINGS_OPEN/SETTINGS_CLOSE/SHUTDOWN/UWU/NYA/MOAN1~4 与 26.1.2 managers/impl/sound/SoundKey.java 逐一吻合；26.2 扩展新增 REISA_WELCOME/REISA_BYE；其方法 g() 返回 Identifier 对应 src SoundKey.id()。注入点 onGameLoadFinished 使用 `iE.REISA_WELCOME`（26.2 新增欢迎音）即 SoundKey 的扩展项。注: onGameLoadFinished 为 26.2 新增注入点，无逐行 src 同构，但枚举类本身与 SoundKey 同构。",
+  "pinned": true
+ },
+ "lS": {
+  "identity": "SoundManager",
+  "kind": "util",
+  "conf": "A-",
+  "evidence": "类级同构(方法形状): lS 为单例(lS.q==INSTANCE)，方法 C(Object[])→iE+1.2f 对应 26.1.2 SoundManager.playInUi(SoundKey)(内部 playSound(key,1.2f))；c(Object[])→iE+1.0f 对应 playSound(SoundKey,1.0f)；K(iE,float) 返回 Optional<SoundInstance> 对应 playSound(SoundKey,pitch,volume) 返回 instance；i(Object[]) 对应 stop(SoundKey)；使用 me.sofurry.iiIllIllli(smtc 音频库) 与 Dl(Setting)。即 26.2 单例化重构版 managers/impl/sound/SoundManager。",
+  "pinned": true
+ },
+ "OK": {
+  "identity": "ClientboundPacketManager",
+  "kind": "class",
+  "conf": "A-",
+  "evidence": "注入点 method=channelRead0(Lio/netty/channel/ChannelHandlerContext;Lnet/minecraft/network/protocol/Packet;)V 经 WrapOperation onReceivePacket: jar 形状 `if (OK.L.U(new Object[]{packet})) return;` 与 src `if (Managers.S2CPACKET.onPacketReceive(packet)) return;` 逐义同构; OK 类含 `public static final OK L`(INSTANCE 单例)+`LinkedBlockingQueue<Packet>`+方法 U(Object[]{Packet})->boolean(体取 (Packet)var1_1[0] 走 Dl.S() 调试开关), 对应 26.1.2 Managers.S2CPACKET 字段类型 ClientboundPacketManager; 26.2 将字段重构为该管理类自身单例(OK.L 即原 Managers.S2CPACKET 实例的所属类)。",
+  "pinned": true
+ },
+ "gH": {
+  "identity": "ServerboundPacketManager",
+  "kind": "class",
+  "conf": "A-",
+  "evidence": "注入点 method=send(Lnet/minecraft/network/protocol/Packet;Lio/netty/channel/ChannelFutureListener;Z)V 经 WrapOperation onSendPacket: jar 形状 `if (gH.v.A(new Object[]{packet})) return;` 与 src `if (Managers.C2SPACKET.onPacketSend(packet)) return;` 逐义同构; gH 类含 `public static final gH v`(INSTANCE 单例)+`LinkedBlockingQueue<Packet>`+方法 A(Object[]{Packet})->boolean(体取 (Packet)var1_1[0] 走 Dl.S()), 对应 26.1.2 Managers.C2SPACKET 字段类型 ServerboundPacketManager; 26.2 重构为单例类自身(gH.v 即原 Managers.C2SPACKET 实例所属类)。",
+  "pinned": true
+ },
+ "_5": {
+  "identity": "PacketUtils",
+  "kind": "util",
+  "conf": "A",
+  "evidence": "注入点 method=send 经 WrapOperation onSendPacket: jar 形状 `_5.P.contains(packet)` 后 `_5.P.remove(packet)` 与 src `PacketUtils.bypassedPackets.contains(packet)` 后 `PacketUtils.bypassedPackets.remove(packet)` 完全同构; _5.P 为静态 Set<Packet<?>>(绕过 Epsilon 发送事件的待发集合), 对照 src utils/network/PacketUtils.java 第12行 `public static final Set<Packet<?>> bypassedPackets = new HashSet<>()`; 随后 nO.H(packet) 即 ClientIdentityHider.filterServerboundPacket 一致。",
+  "pinned": true
+ },
+ "dP": {
+  "identity": "PacketEvent.Receive",
+  "kind": "event",
+  "conf": "A",
+  "evidence": "注入点 method=channelRead0 经 WrapOperation onReceivePacket: jar 形状 `dP dP2 = (dP)vy.j.d(new Object[]{new dP(packet)});` 与 src `PacketEvent.Receive event = EventBus.INSTANCE.post(new PacketEvent.Receive(packet));` 同构; 其 `if (!dP2.l(new Object[0]))` 对应 `!event.isCancelled()`(l=isCancelled), `dP2.B()` 对应 `event.getPacket()`(B=getPacket), 即收包事件。vy.j.d = EventBus.INSTANCE.post。",
+  "pinned": true
+ },
+ "dQ": {
+  "identity": "PacketEvent.Send",
+  "kind": "event",
+  "conf": "A",
+  "evidence": "注入点 method=send 经 WrapOperation onSendPacket(else 分支): jar 形状 `dQ dQ2 = (dQ)vy.j.d(new Object[]{new dQ(packet)});` 与 src `PacketEvent.Send event = EventBus.INSTANCE.post(new PacketEvent.Send(packet));` 同构; 其 `if (!dQ2.l(new Object[0]))` 对应 `!event.isCancelled()`(l=isCancelled), `dQ2.N()` 对应 `event.getPacket()`(N=getPacket, 与 dP 的 B 为不同子类各自的 getter 混淆名), 即发包事件。",
+  "pinned": true
+ },
+ "DK": {
+  "identity": "RespawnEvent",
+  "kind": "event",
+  "conf": "A",
+  "evidence": "注入点 method=handleRespawn(@Inject RETURN) onHandleRespawnReturn: jar 形状 `vy.j.d(new Object[]{new DK()});` 与 src `EventBus.INSTANCE.post(new RespawnEvent());` 完全同构; DK 无参构造事件(extends Cancellable), 同注入点、同位置(RESURNE)。",
+  "pinned": true
+ },
+ "XV": {
+  "identity": "GameJoinedEvent",
+  "kind": "event",
+  "conf": "A",
+  "evidence": "注入点 method=handleLogin(@Inject TAIL) onHandleLoginTail 中无条件分支: jar 形状 `vy.j.d(new Object[]{new XV()});` 与 src `EventBus.INSTANCE.post(new GameJoinedEvent());` 完全同构; XV 无参构造事件, 同注入点(TAIL)、同位置(登录成功后无条件触发)。",
+  "pinned": true
+ },
+ "I": {
+  "identity": "BetterChat",
+  "kind": "module",
+  "conf": "A-",
+  "evidence": "三处 mixin 一致引用 I.J（I extends e 模块，静态单例字段 J）。jar 侧方法名直接揭示特性：MixinChatComponentHash 内注入方法命名为 pushBetterChatScissor / popBetterChatScissor。行为同构：①MixinChatComponent.animateMessageOpacity(handleMessage @ModifyVariable HEAD) 返回 `f * I.J.S(new Object[0])` → I.J.S() 返回 float 作为消息不透明度倍率；②MixinChatComponent.hookFill(fill @HEAD cancellable) `if (I.J.N() && (n5 & 0xFFFFFF) == 0) callbackInfo.cancel()` → 启用且背景色全透明时取消聊天背景 fill；③MixinChatComponent.hideTagIndicator(handleTag @INVOKE GuiGraphicsExtractor.fill) `if (!I.J.N()) operation.call(...)` → 启用时隐藏聊天标签指示；④MixinChatComponentHash.pushBetterChatScissor(extrac",
+  "pinned": true
+ },
+ "i8": {
+  "identity": "ChatComponentAccessor",
+  "kind": "interface",
+  "conf": "A",
+  "evidence": "MixinChatComponentHash 声明 `implements i8` 且含 `@Override public void epsilon$addClientSystemMessage(Component component, int n)`；src MixinChatComponentHash 声明 `implements com.github.epsilon.interfaces.ChatComponentAccessor` 且含 `public void epsilon$addClientSystemMessage(Component message, int hash)`。逐行同构：接口实现 + 同名 @Override 方法签名一致 → i8 = ChatComponentAccessor（com.github.epsilon.interfaces.ChatComponentAccessor）。26.2 接口新增 getVisibility 方法（jar 中 epsilon$getVisibility 返回 dS），src 26.1.2 接口仅含 addClientSystemMessage 一项，属 26.2 接口扩展，但 i8 基类身份验证为 A。",
+  "pinned": true
+ },
+ "yZ": {
+  "identity": "AfterRender3DEvent",
+  "kind": "event",
+  "conf": "A",
+  "evidence": "jar MixinLevelRenderer.onPostRenderLevel(method=render,@At RETURN): vy.j.d(new Object[]{new yZ()}) 与 src MixinLevelRenderer.onPostRenderLevel(method=renderLevel,@At RETURN): EventBus.INSTANCE.post(new AfterRender3DEvent()) 同注入点(LevelRenderer.render/renderLevel RETURN)、同调用形状(post 无参事件)。yZ 为无 extends 的空类, 与 AfterRender3DEvent(无参事件, 紧接 Render3DEvent 之后 post)结构吻合。d9=Render3DEvent 已解, 紧随其后者即 AfterRender3DEvent。",
+  "pinned": true
+ },
+ "n1": {
+  "identity": "HandsView.SwingMode",
+  "kind": "enum",
+  "conf": "A",
+  "evidence": "注入点 method=wrapSwingArmTranslate（MixinItemInHandRenderer.singArm 的 PoseStack.translate 包裹）。jar 调用形状：e_ e_2 = e_.k; e_2.N() && e_2.o.i(n1.Flux)；同构 src：HandsView handsView = HandsView.INSTANCE; handsView.isEnabled() && handsView.swingMode.is(HandsView.SwingMode.Flux)。反编译 n1 extends Enum<n1>，常量 Vanilla / Flux。e_ 已识别为 HandsView（class_map），故 n1 为 HandsView 内部枚举 SwingMode。注入点 + 调用形状 + 枚举常量名三重一致 → A。",
+  "pinned": true
+ },
+ "S": {
+  "identity": "ItemPhysics",
+  "kind": "module",
+  "conf": "A-",
+  "evidence": "注入点 method=applyItemPhysics / suppressVanillaBob / suppressVanillaSpin（MixinItemEntityRenderer.submit）。jar 调用形状：if (S.J.N() && ...) 对 ItemEntity 做渲染物理变换（上移 -item.getModelBoundingBox().minY+0.0625、绕 XP 旋转 90°、绕 ZP 按 itemEntity.getYRot() 旋转、离地时随 itemEntityRenderState.ageInTicks*8 旋转），并用 Redirect 抑制原版 bob/spin。反编译 S extends e（=Module），public static final S J（=INSTANCE），构造 super(a, category)；category 常量 (long)1050408241407708132L 与 ee 同属 Render 类。混淆显示名串 a 由 \"QOk\\n}n`aHg\\u0004.\" 经逐字符 XOR 解密（key 表 [110,77,120,17,43,72,126]，与 118 异或）得明文 'ItemPhysics'，与模块行为（物品实体地面物理）完全吻合。MC26.2 新增（旧 src 无 MixinItemEnt",
+  "pinned": true
+ },
+ "zm": {
+  "identity": "Render2DEvent.Level",
+  "kind": "event",
+  "conf": "A-",
+  "evidence": "注入点 onRenderHead（jar render @HEAD，对应 src draw @HEAD，on GuiRenderer）。jar 形状：vy.j.d(new Object[]{new zm(guiGraphicsExtractor)})；zm.java 显示 public final class zm extends zo，构造 zm(GuiGraphicsExtractor)→super(guiGraphicsExtractor)。src 形状：EventBus.INSTANCE.post(new Render2DEvent.Level(levelGuiGraphics))（Render2DEvent.Level(GuiGraphicsExtractor)→super(guiGraphicsExtractor)）。配对：同注入点-post 形状一致；zo 即 Render2DEvent 基类（含 GuiGraphicsExtractor v 字段 + N() getter，对应 getGuiGraphics()）；该实例绑定 epsilon$levelGuiRenderer/epsilon$levelRenderState（level 前缀）→ Render2DEvent.Level。子类名由变量命名推断，A-。",
+  "pinned": true
+ },
+ "zR": {
+  "identity": "Render2DEvent.HUD",
+  "kind": "event",
+  "conf": "A-",
+  "evidence": "注入点 onRenderHead（jar render @HEAD，对应 src draw @HEAD，on GuiRenderer）。jar 形状：vy.j.d(new Object[]{new zR(guiGraphicsExtractor2)})；zR.java 显示 public final class zR extends zo，构造 zR(GuiGraphicsExtractor)→super(guiGraphicsExtractor)。src 形状：26.1.2 仅在 HEAD post Render2DEvent.Level，RETURN 处为 MainMenuScreen.INSTANCE.renderPendingOverlay()；Render2DEvent 另一静态子类为 Render2DEvent.HUD（构造同取 GuiGraphicsExtractor）。配对：同注入点-post 形状一致，zo=Render2DEvent 基类；该实例绑定 epsilon$guiRenderer/epsilon$renderState（无 level 前缀、通用 GUI 渲染通道），对应 26.2 把主菜单/HUD 覆盖改为事件驱动的 Render2DEvent.HUD。子类名由变量命名 + Render2DEvent 仅有的两个子类(Level/HUD)推断，A-。",
+  "pinned": true
+ },
+ "Xh": {
+  "identity": "EpsilonCommon",
+  "kind": "class",
+  "conf": "A",
+  "evidence": "注入点 MixinWindow.onSetIcon(@Mixin Window, method=setIcon, Redirect IconSet.getStandardIcons) 逐行同构: jar `Xh.class.getResourceAsStream(\"/assets/epsilon/textures/icons/icon_16x16.png\")` 等四个资源流 == src `EpsilonCommon.class.getResourceAsStream(...)` 同四路径; 分支 `uc.v.u0.i(_p.Epsilon)` == `ClientSetting.INSTANCE.customIcon.is(ClientSetting.IconMode.Epsilon)`, `_p.Minecraft_1_8_9` == `IconMode.Minecraft_1_8_9`。Xh 作资源宿主锚点类, 与 src EpsilonCommon 完全对应 → Xh = EpsilonCommon (资源宿主类)。",
+  "pinned": true
+ },
+ "Dk": {
+  "identity": "TextRenderableAdapter",
+  "kind": "class",
+  "conf": "A",
+  "evidence": "注入点 MixinGlyphRenderState.onTextureSetup(@Mixin GlyphRenderState, method=textureSetup, HEAD cancellable) 逐行同构: jar `if (textRenderable instanceof Dk) { Dk dk=(Dk)textRenderable; cir.setReturnValue(TextureSetup.singleTexture(textRenderable.textureView(), dk.O())); }` == src `if (renderable instanceof TextRenderableAdapter adapter) { cir.setReturnValue(TextureSetup.singleTexture(renderable.textureView(), adapter.sampler())); }`。同样 instanceof 判定 + 同形调用 `Dk.O()`==`sampler()` 返回 GpuSampler、`textureView()` 一致。注: src 该类位于 com.github.slmpc.lumingraphics.mc.v2612.text.TextRenderableAdapter (slmpc 库), j",
+  "pinned": true
+ },
+ "DN": {
+  "identity": "PanelInputRouter",
+  "kind": "class",
+  "conf": "A",
+  "evidence": "MC 导入集为 {CharacterEvent, KeyEvent, MouseButtonEvent}（明文不可混淆），源码中唯一导入且仅此三者的无 super 类是 gui/panel/input/PanelInputRouter（其余同类均带 PreeditEvent/Screen/GuiGraphicsExtractor 或 extends）。decl_line='class DN'（super=null）对应源码 standalone class。x(Object[])/B(Object[]) 将 MouseButtonEvent 分发给多个面板对象（OU/_6/gW/iA/y9 ≈ popupHost/detailPanel/listPanel/railPanel/clientSettingPanel）并带 isDoubleClick/clientSettingMode 布尔，与 routeMouseClicked/Released/Dragged/KeyPressed/CharTyped 的‘事件→多面板转发’形状一致。",
+  "pinned": true
+ },
+ "M": {
+  "identity": "AntiBot",
+  "kind": "module",
+  "conf": "A-",
+  "evidence": "extends e(Module) + public static final M D 单例（模块特征：源码 AntiBot.INSTANCE）。y(Entity var1_1) 经 indy 解密链路 this.mc→getConnection→getOnlinePlayerIds 后执行 contains(collection, entity.getUUID)，并以 isEnabled()&&!contains 的布尔分支（case 4561112/4561113）返回，与源码 isBot(Entity)=isEnabled()&&!mc.getConnection().getOnlinePlayerIds().contains(entity.getUUID()) 逻辑一致；MC 导入 net.minecraft.world.entity.Entity 亦吻合。Caveat：源码为 26.1.2 简化版，26.2 反编译体被 indy 分发大幅展开，但核心判定形状唯一对应 AntiBot。",
+  "pinned": true
+ },
+ "v7": {
+  "identity": "RegistryListSettingRow",
+  "kind": "class",
+  "conf": "A",
+  "evidence": "extends vh<Xe<?>>，Xe=RegistryListSetting（已知锚点）；源码 public class RegistryListSettingRow extends SettingRow<RegistryListSetting<?>>。方法 K(Object[]) 即 buildUi 改写：保留明文常量 labelScale=0.68f、chipTextScale=0.58f、measureAssistChipBounds(...,8.0f,12.0f,94.0f)、图标字 '' 与 IconChars.ADD/“epsilon-icons”，与源码 buildUi 逐一对上；E(ih,MouseButtonEvent,boolean) 即 mouseClicked 返回 bounds.contains(event.x(),event.y())&&event.button()==0，亦吻合。MC 导入 GuiGraphicsExtractor+MouseButtonEvent 与源码一致。 || [证据裁决] pinned",
+  "pinned": true
+ },
+ "v9": {
+  "identity": "IntSettingRow",
+  "kind": "class",
+  "conf": "A",
+  "evidence": "extends vh<XG>，XG=IntSetting（已知锚点）；源码 public class IntSettingRow extends SettingRow<IntSetting>。MC 导入 {GuiGraphicsExtractor, CharacterEvent, KeyButtonEvent(KeyEvent), MouseButtonEvent} 与源码一致（数值行含字符输入字段）。体积大（2276 行，n_fields13/n_methods48）对应滑块拖动+数字文本字段逻辑（getFieldBounds、dragging、charTyped/keyPressed 等），符合 IntSettingRow。",
+  "pinned": true
+ },
+ "vD": {
+  "identity": "ButtonSettingRow",
+  "kind": "class",
+  "conf": "A",
+  "evidence": "extends vh<Xp>，Xp=ButtonSetting（已知锚点）；源码 public class ButtonSettingRow extends SettingRow<ButtonSetting>。MC 导入 {GuiGraphicsExtractor, MouseButtonEvent} 与源码一致；mouseClicked 谓词 bounds.contains&&button==0 与源码对应。类型参数与 extends 链为决定性信号。",
+  "pinned": true
+ },
+ "vf": {
+  "identity": "DoubleSettingRow",
+  "kind": "class",
+  "conf": "A",
+  "evidence": "extends vh<DM>，DM=DoubleSetting（已知锚点）；源码 public class DoubleSettingRow extends SettingRow<DoubleSetting>。体积最大（2497 行，n_fields12/n_methods48）对应带滑块拖动与提交逻辑的浮点设置行，与 DoubleSettingRow 一致；MC 导入 {GuiGraphicsExtractor, CharacterEvent, KeyEvent, MouseButtonEvent} 与源码吻合。",
+  "pinned": true
+ },
+ "vg": {
+  "identity": "StringListSettingRow",
+  "kind": "class",
+  "conf": "A",
+  "evidence": "extends vh<XF>，XF=StringListSetting（已知锚点）；源码 public class StringListSettingRow extends SettingRow<StringListSetting>。MC 导入 {GuiGraphicsExtractor, MouseButtonEvent} 与源码一致；mouseClicked 谓词 bounds.contains&&button==0 与源码对应。类型参数与 extends 链为决定性信号。",
+  "pinned": true
+ },
+ "vX": {
+  "identity": "BoolSettingRow",
+  "kind": "class",
+  "conf": "A",
+  "evidence": "extends vh<Xn>，Xn=BoolSetting（已知锚点）；源码 public class BoolSettingRow extends SettingRow<BoolSetting>。MC 导入 {GuiGraphicsExtractor, MouseButtonEvent} 与源码一致；含 toggleAnimation/hoverAnimation 字段语义与布尔行一致。类型参数与 extends 链为决定性信号。",
+  "pinned": true
+ },
+ "eu": {
+  "identity": "Fog/WorldTime 跨域模块（环境雾覆盖+世界时钟覆盖，确切类名未定）",
+  "kind": "module",
+  "conf": "B",
+  "evidence": "两处注入点交叉定位同一类。① MixinFogRenderer.modifyFog(@ModifyReturnValue setupFog RETURN)：`eu eu2 = eu.n; if (eu2.N() && ((Boolean)eu2.m.z()).booleanValue()) { fogData.environmentalStart = ((Integer)eu2.W.z()).intValue(); fogData.environmentalEnd = ((Integer)eu2.O.z()).intValue(); Color color = (Color)eu2.E.z(); fogData.color.set(...); }` —— 模块单例 eu.n，eu.N()=isEnabled()，设置 m(Xn BoolSetting)、W(XG IntSetting=environmentalStart)、O(XG IntSetting=environmentalEnd)、E(DV ColorSetting) 直接覆盖 FogData 环境雾起止与颜色。② MixinClientClockManager.modifyTotalTicks(@ModifyReturnValue getTotalTicks RETURN)：`return eu.n.g(new Obje"
+ },
+ "dH": {
+  "identity": "ChunkOcclusionEvent",
+  "kind": "event",
+  "conf": "A",
+  "evidence": "注入点 MixinVisGraph.onMarkClosed @ VisGraph.setOpaque(HEAD,cancellable): jar `dH dH2 = (dH)vy.j.d(new Object[]{new dH()}); if (dH2.l(new Object[0])) cancel;` ↔ src `ChunkOcclusionEvent event = EventBus.INSTANCE.post(new ChunkOcclusionEvent()); if (event.isCancelled()) cancel;`。即 dH=ChunkOcclusionEvent，vy.j.d=EventBus.post，.l()=isCancelled。逐行同构。",
+  "pinned": true
+ },
+ "yL": {
+  "identity": "WalkAnimationStateAccessor",
+  "kind": "class",
+  "conf": "A",
+  "evidence": "注入点 MixinWalkAnimationState @Mixin(WalkAnimationState.class) 实现接口 + epsilon$freeze: jar `public class MixinWalkAnimationState implements yL { @Override epsilon$freeze(float,float,float){ speedOld=speed; speed=speed; positionScale=1.0f; position=position+speed*(1.0f-partialTicks);} }` ↔ src `implements WalkAnimationStateAccessor` 且 epsilon$freeze 函数体逐字相同。故 yL=WalkAnimationStateAccessor（com.github.epsilon.interfaces 下访问器接口）。",
+  "pinned": true
+ },
+ "gB": {
+  "identity": "ResourceLocationUtils",
+  "kind": "util",
+  "conf": "A",
+  "evidence": "注入点 MixinPanorama 静态字段 BACKGROUND_TEXTURE: jar `gB.G(\"textures/background/bluearchive.png\")` 返回 Identifier，内部 `Identifier.fromNamespaceAndPath(gB.a(2171,4755)=\"epsilon\", string)`；另有 `gB.T(Object[]): ByteBuffer`。↔ src `assets/resources/ResourceLocationUtils.getIdentifier(String){ return Identifier.fromNamespaceAndPath(\"epsilon\", path); }` 与 `loadResource(Identifier): ByteBuffer`。OE.java 中 `gB.T(new Object[]{identifier})` 亦印证 loadResource 签名/返回。故 gB=ResourceLocationUtils。",
+  "pinned": true
+ },
+ "eW": {
+  "identity": "Scaffold",
+  "kind": "module",
+  "conf": "A",
+  "pinned": true,
+  "evidence": "[裁决] eW 导入 CropBlock/BushBlock/FlowerBlock/NetherFungusBlock/SlabBlock/StandingAndWallBlockItem/BlockItem/ServerboundUseItemPacket —— 全 src 树检索这五类方块仅 Scaffold 引用(唯一指纹); eW extends e + 4083 行(最大模块之一)。推翻旧 Jaccard 结论 p=Scaffold(B)。 || [证据裁决] pinned || [证据裁决] pinned"
+ },
+ "P": {
+  "identity": "Hat",
+  "kind": "module",
+  "conf": "A",
+  "pinned": true,
+  "evidence": "[裁决] 全 jar 唯一含 double[][] 字段的类(P.x) == src Hat 的 double[][] positions(181×2 渐变点); src Hat Mode{Astolfo,Sexy,Fade} 与 P 的 181 点/锥体渲染一致。推翻旧 Jaccard 结论 H=Hat(B)。"
+ },
+ "zC": {
+  "identity": "SilentRotationManager",
+  "kind": "manager",
+  "conf": "A",
+  "evidence": "extends zb(=RotationManager: abstract void E(Object[]) 对应 handleSendPosition, uK=Rot2f 字段集与源码 Rot2f 字段逐一吻合); 8 个 @yE 事件处理器订阅的事件类型集 {AttackYawEvent(_z),FallFlyingEvent(zV),FireworkRotationEvent(yC),JumpEvent(nS),KeyboardInputEvent(yi),StrafeEvent(Dn),UseItemEvent(_S),UseItemRaytraceEvent(_K)} 与 SilentRotationManager 源码 8 个 @EventHandler(onAttack/onFallFlying/onFireworkUpdate/onUseItem/onItemRaytrace/onStrafe/onJump/onMoveInput) 一一对应, 为唯一集合指纹。",
+  "pinned": true
+ },
+ "ey": {
+  "identity": "AutoHitCrystal",
+  "kind": "module",
+  "conf": "A",
+  "evidence": "extends e(Module)+静态单例 ey V(INSTANCE); 设置谱逐项吻合: 7×Xn(BoolSetting: checkPlace/workWithTotem/workWithCrystal/workWithPickaxe/swordSwap/swingHand/render)、2×DV(ColorSetting: side/line)、1×X0(KeybindSetting: activateKey)、4×DM(DoubleSetting: switchDelay/switchChance/placeDelay/placeChance)、1×XG(IntSetting: fadeTime); 另 List<zX>(=RenderBox renderBoxes); MC导入 BlockPos/ServerboundSwingPacket/InteractionHand/Item/ItemStack/AABB/BlockHitResult 与 AutoHitCrystal 一致; @yE 处理器订阅 dz(=PlayerTickEvent/RightClickEvent)。",
+  "pinned": true
+ },
+ "uW": {
+  "identity": "AutoMap",
+  "kind": "module",
+  "conf": "A",
+  "evidence": "extends e(Module)+静态单例 uW F(INSTANCE); 常量 `static final double T = Math.PI*2` 对应 TWO_PI, `static final int B = 1` 对应 STATE_VERSION; 设置谱: 3×XG(pointsPerLap/rotationSpeed/saveInterval)、3×DM(spiralSpacing/arrivalDistance/takeoffHeight)、2×Xn(autoLaunch/takeoffFirework)、2×Xp(Q,z = writeRecord/resetRecord button); 导入 com.google.gson.JsonObject 与 Vec3, 引用 uj(ElytraFly) 及 nE(ElytraFly.Pitch40ControlState)。与 AutoMap 源码设置/常量/导入完全一致。",
+  "pinned": true
+ },
+ "V": {
+  "identity": "BlockESP",
+  "kind": "module",
+  "conf": "A",
+  "evidence": "extends e(Module)+静态单例 V q(INSTANCE); 字段 `public static List<AABB> C` 对应 BlockESP 的 `public static List<AABB> boxes` 唯一静态字段; `ExecutorService F`(=searchThread 单线程扫描); `Xe<Block> d`(=blockListSetting); 设置谱 2×DM(range/blurStrength)、2×DV(sideColor/lineColor)、2×Xn(illegals/blur); MC导入含 AirBlock/BarrierBlock/ChestBlock/CommandBlock/BlockState/Property 对应按特殊方块类型扫描的逻辑。与 BlockESP 源码结构完全一致。",
+  "pinned": true
+ },
+ "gt": {
+  "identity": "ElytraFlightMode",
+  "kind": "class",
+  "conf": "A",
+  "evidence": "public abstract class gt(无 super, 为 elytra 飞行模式抽象基类); 字段 `protected final Minecraft b = Minecraft.getInstance()`、`protected final uj S`(=ElytraFly elytraFly)、`_Z o = new _Z()`(=TimerUtils unbreakingTimer); 方法 Y(Object[]) 取 yi(KeyboardInputEvent)→onKeyboardInput, h(Object[]) 含 `getItemBySlot(EquipmentSlot)`/`ServerboundPlayerCommandPacket.Action.START_FALL_FLYING` 对应 handleUnbreaking/startFallFlying; MC导入 Minecraft/LocalPlayer/ServerboundPlayerCommandPacket/InteractionHand/Entity/EquipmentSlot/Item 与 ElytraFlightMode 完全吻合(ControlElytraFlightMode 为其子类 extends gt, 故排除)。",
+  "pinned": true
+ },
+ "e7": {
+  "identity": "Inventory",
+  "kind": "hud-element",
+  "conf": "A",
+  "evidence": "e7 extends eh；eh 经 Inventory 校验为 HudModule（HudModule extends Module=e）。字段类型逐一对应：3×DM(scale/cornerRadius/shadowBlur) + 3×DV(backgroundColor/slotColor/shadowColor) + 3×Xn(drawShadow/backgroundBlur/showCount) + 1×XG(blurStrength) = 源码 Inventory 的 10 个设置（3 Double+3 Color+3 Bool+1 Int）；静态常量 u=17.0f(SLOT_SIZE)、m=1.5f(SLOT_GAP)、l=4.5f(PADDING) 逐值吻合；MC 导入 DeltaTracker+GuiGraphicsExtractor+ItemStack，方法体含 pose()/item(ItemStack) 渲染；public static final e7 J == Inventory.INSTANCE。",
+  "pinned": true
+ },
+ "g1": {
+  "identity": "ControlElytraFlightMode",
+  "kind": "class",
+  "conf": "A",
+  "evidence": "g1 extends gt（gt 为 ElytraFlightMode，所有飞行模式基类）。静态常量唯一吻合：K=0.75=CEILING_PROBE_DISTANCE、e=1.0E-4=CEILING_PROBE_EPSILON、l=5.0f=CEILING_ESCAPE_PITCH（源码 ControlElytraFlightMode 的 3 个常量逐值一致）；anchored_refs 含 ElytraFly/FallFlyingEvent/FireworkRotationEvent/KeyboardInputEvent/TravelEvent，与 ControlElytraFlightMode 重写的 onTravel/onKeyboardInput/onFallFlying/onFireworkUpdate 完全对应。候选 ControlElytraFlightMode(unique)。",
+  "pinned": true
+ },
+ "gd": {
+  "identity": "Pitch40ElytraFlightMode",
+  "kind": "class",
+  "conf": "A",
+  "evidence": "gd extends gt（ElytraFlightMode）。字段逐值吻合：R=4.0=TARGET_REACH_MARGIN、l=37.72f=DESCEND_PITCH、p=-54.77f=ASCEND_PITCH、d=-54.77f=TAKEOFF_PITCH、U(float)=pitch、G(double)=completedTakeoffTarget、z(int)=packetDelayTicks、Y/V/a/D(bool)=pitchingDown/pendingActivationCheck/takingOff/shouldJump、_Z c=TimerUtils fireworkTimer；方法体出现 mc.player.getY()-40.0<pitch40lowerBounds（源码 updateTakeoff/initializeInWorld 的 -40.0 判定）。anchored_refs 含 ElytraFly/FallFlyingEvent/FireworkRotationEvent/KeyboardInputEvent（onFallFlying/onFireworkUpdate/onKeyboardInput）。",
+  "pinned": true
+ },
+ "OD": {
+  "identity": "I18NFileGenerator",
+  "kind": "class",
+  "conf": "A",
+  "evidence": "OD 无 extends，纯工具类（多个 public static 方法）。方法 U(Object[]) 以 com.google.gson.JsonObject 为参数并写入翻译键（OD.K(...W(JsonObject,String,String)...) 与 I18NFileGenerator.generate/addModuleKeys/addAddonKeys 结构一致）；anchored_refs 含 EnumSetting/Module/Setting/SettingGroup/TranslateComponent，与 I18NFileGenerator 遍历 Module/Setting/SettingGroup/EnumSetting 生成 i18n 的逻辑吻合；另两候选 ClientSetting(=uc)、PlayerAlarms(=F) 已被占用，仅 I18NFileGenerator 可行。",
+  "pinned": true
+ },
+ "E": {
+  "identity": "GUIMove",
+  "kind": "module",
+  "conf": "A",
+  "evidence": "E extends e(Module)，public static final E H == GUIMove.INSTANCE。仅 1 个设置 Xn L(L=T(\"5XURX4VoCteQBuqU\",U(String,boolean),...,false)) 对应 GUIMove 的 BoolSetting sneakValue(false)；MC 导入 net.minecraft.client.KeyMapping + net.minecraft.client.gui.screens.ChatScreen，与 GUIMove 的 onKeyboardInput 读取 KeyMapping 并 `mc.screen instanceof ChatScreen` 提前返回逻辑完全对应。候选 GUIMove(unique)。",
+  "pinned": true
+ },
+ "l": {
+  "identity": "NoFall",
+  "kind": "module",
+  "conf": "A-",
+  "evidence": "l extends e(Module)，public static final l v == NoFall.INSTANCE。字段：Dx<uQ> o(EnumSetting<Mode> mode, Mode{GroundSpoof,Grim2B2T})、DM M(DoubleSetting fallDistance)、boolean P(shouldCancel)、double H 与源码 NoFall 的 enumSetting+doubleSetting+boolean 对应；导入 ServerboundMovePlayerPacket（onSendPosition/PosRot 用法）。另两候选 I18NFileGenerator(=OD)、ModuleButton(非 extends e 的 GUI 组件) 均排除。注：anchored_refs 含 FastWeb(t)/KeyboardInputEvent(yi)/RaytraceEvent(dY)，与 26.1.2 NoFall 的 SendPositionEvent/PacketEvent 不同，疑为 26.2 重构或混淆交叉引用噪声，故降为 A-。",
+  "pinned": true
+ },
+ "D5": {
+  "identity": "ModuleHolder",
+  "kind": "holder",
+  "conf": "A",
+  "evidence": "jar: `class D5`(无 super) + `public static final D5 J`(单例) + `private final List<e> r`(e=Module, 持有全部模块) + anchored_refs 含 KeyPressEvent/MousePressEvent/Module/Setting/TranslateComponent 且 `vy`(EventBus)订阅。`refs` 含 e(Dl=Setting)。源码 holders/ModuleHolder.java: `public static final ModuleHolder INSTANCE`、`private final List<Module> modules`、`EventBus.INSTANCE.subscribe(this)`、`@EventHandler onKeyPress(KeyPressEvent)`/`onMousePress(MousePressEvent)`，import TranslateComponent。两端『持有 Module 列表 + 订阅键鼠事件』结构完全一致。噪声候选 I18NFileGenerator/FreeCamera 不持有 List<Module>，排除。",
+  "pinned": true
+ },
+ "iH": {
+  "identity": "EpsilonAddon",
+  "kind": "addon",
+  "conf": "A",
+  "evidence": "jar: `abstract class iH implements v8`(v8=SettingHost) + `public final String w`(addonId) + `private final ArrayList<nN> j`(nN=SettingGroup) + `private final ArrayList<Dl<?>> X`(Dl=Setting) + `private final ArrayList<e> x`(e=Module) + 构造 `protected iH(String)` 仅置 w/j/x + `abstract void e(Object[])`(onSetup)。源码 addon/EpsilonAddon.java: `abstract class EpsilonAddon implements SettingHost`、`public final String addonId`、`ArrayList<Setting<?>> settings`、`ArrayList<SettingGroup> settingGroups`、`ArrayList<Module> registeredModules`、`protected EpsilonAddon(String)`、`abstract void onSetup()`、getSetting",
+  "pinned": true
+ },
+ "ei": {
+  "identity": "MTF",
+  "kind": "hudmodule",
+  "conf": "A",
+  "evidence": "jar: `class ei extends eh`(eh=HudModule) + 构造 `super(ei.b(...),0.0f,0.0f,36.0f,36.0f)`(位置 0,0,36,36) + `private final DM h=...double 32.0/12.0/96.0/1.0`(DM=DoubleSetting: 默认32,min12,max96,step1) + `private final DM W=...double 160.0/-720.0/720.0/5.0`(速度) + `private final DV w`(DV=ColorSetting, 默认白) + MCimport DeltaTracker + 渲染 `float f=(...% n)/1000*n*(speed)`, n=3600000。源码 elements/impl/MTF.java: `extends HudModule`、`super(\"MTF\",0f,0f,36f,36f)`、`doubleSetting(\"Size\",32.0,12.0,96.0,1.0)`、`doubleSetting(\"Speed\",160.0,-720.0,720.0,5.0)`、`colorSetting(\"Color\",new Color(255,255,255,255),true)`、ren",
+  "pinned": true
+ },
+ "Q": {
+  "identity": "AutoQueue",
+  "kind": "module",
+  "conf": "A",
+  "evidence": "jar: `class Q extends e`(e=Module) + `public static final Q V`(单例) + `private final Dx<u1> u`(Dx=EnumSetting, u1=枚举 Mode) + `private final JsonObject v` + MCimport ClientboundSystemChatPacket + 方法 `X(dP)` 带 `@yE`(订阅) 检查 `instanceof ClientboundSystemChatPacket`，按 `丨`(丨) split，`Matcher`/`group(1)`，并 sendChat。源码 modules/impl/player/AutoQueue.java: `extends Module`、`INSTANCE`、`EnumSetting<Mode> mode`(Mode.XIN_2B2T)、`JsonObject questions`、`@EventHandler onPacketReceive` 中 `instanceof ClientboundSystemChatPacket`、`message.split(\"丨\")`、`Matcher matcher`、`matcher.group(1)`、`mc.player.connection.sendCha",
+  "pinned": true
+ },
+ "u4": {
+  "identity": "DropdownScreen",
+  "kind": "screen",
+  "conf": "A",
+  "evidence": "jar: `class u4 extends Screen` + anchored_refs 含 RegistryListSetting/StringListSetting/Setting/TranslateComponent + MCimports: Font, GuiGraphicsExtractor, IMEPreeditOverlay, CharacterEvent, KeyEvent, MouseButtonEvent, PreeditEvent, Component, Identifier(8 项 GUI/输入)。源码 gui/dropdown/DropdownScreen.java: `extends Screen`，import RegistryListSetting, StringListSetting, GuiGraphicsExtractor, IMEPreeditOverlay, CharacterEvent, KeyEvent, MouseButtonEvent, PreeditEvent, Component, Identifier, EpsilonTranslations(TranslateComponent), ClientSetting(Setting)。extends Screen + RegistryList/StringList 设置 + 全",
+  "pinned": true
+ },
+ "DG": {
+  "identity": "RegistryListSelectPopup",
+  "kind": "popup",
+  "conf": "A",
+  "evidence": "jar: `class DG<T> implements XJ`(XJ=PanelPopupHost.Popup) + anchored_refs 含 RegistryListSetting/Setting/Type + MCimports: GuiGraphicsExtractor, CharacterEvent, KeyEvent, MouseButtonEvent, Holder, Registry, Identifier, ResourceKey, SoundEvent, EntityType(12 项)。源码 gui/panel/popup/RegistryListSelectPopup.java: `class RegistryListSelectPopup<T> implements PanelPopupHost.Popup`，import RegistryListSetting, Setting, GuiGraphicsExtractor, CharacterEvent, KeyEvent, MouseButtonEvent, Registry, ResourceKey, SoundEvent, EntityType, Identifier。泛型 <T> + 实现 PanelPopupHost.Popup(XJ) + RegistryListSetting + Re",
+  "pinned": true
+ },
+ "vh": {
+  "identity": "SettingRow",
+  "kind": "component",
+  "conf": "A",
+  "evidence": "jar: `class vh<T extends Dl<?>> implements AutoCloseable`(Dl=Setting) + n_fields=1(仅 `protected final T setting`) + MCimports: GuiGraphicsExtractor, CharacterEvent, KeyEvent, MouseButtonEvent, PreeditEvent + 含 mouseClicked/mouseReleased/mouseScrolled/keyPressed/charTyped/preeditUpdated/buildUi/close 等输入/渲染方法。源码 gui/panel/component/SettingRow.java: `abstract class SettingRow<T extends Setting<?>> implements AutoCloseable`、`protected final T setting`(唯一字段)、import Setting, GuiGraphicsExtractor, CharacterEvent, KeyEvent, MouseButtonEvent, PreeditEvent，方法 getSetting/buildUi/mouseClicked/mouseReleas",
+  "pinned": true
+ },
+ "DU": {
+  "identity": "FriendManager",
+  "kind": "class",
+  "conf": "A-",
+  "evidence": "jar DU: `private final HashSet<String> X = new HashSet();` + `public static final DU H = new DU();`(单例) + `public boolean B(Player player)` 返回 `friends.contains(player.getGameProfile().name())`(经 DU.z name()) + `public void c(String)`/`public void L(String)`(增删) + `public List<String> g()`(取列表) + `public void T(...)`。源码 FriendManager: `private final HashSet<String> friends`、`isFriend(Player)`→`friends.contains(player.getGameProfile().name())`、`addFriend(String)`、`removeFriend(String)`、`getFriends()`→`List<String>`。姓名集合管理器结构逐项吻合（≥2 强信号）；版本差：26.2 jar 多了静态单例 H（26.1.2 源码无，管理器常见 INSTANCE 形态，属小幅差异）。",
+  "pinned": true
+ },
+ "_C": {
+  "identity": "CircleESP",
+  "kind": "class",
+  "conf": "A",
+  "evidence": "jar _C.P(Object[]): 形参 (PoseStack, LivingEntity, float, Color, Color, float) 与源码 `CircleESP.render(PoseStack poseStack, LivingEntity target, float radius, Color sideColor, Color lineColor, float alphaFactor)` 完全一致。jar static{} 构造 4 个静态 RenderPipeline(U,Y,H,K)，均带 DepthStencilState + withVertexBinding(VertexFormat)/withLocation；源码 CircleESP 同样构造 4 个管线(TRIANGLE_STRIP_NO_DEPTH/TRIANGLE_STRIP/CIRCLE_LINES_NO_DEPTH/CIRCLE_LINES)。jar `private static Vector2f K(Object[])`→`new Vector2f(-sin*r,-cos*r)` 对应源码 getPoint/getNormal。三处独立强信号吻合，hi 分发仅混淆字段/方法访问，结构完整保留。",
+  "pinned": true
+ },
+ "iJ": {
+  "identity": "MasEffectsParticleRenderer",
+  "kind": "class",
+  "conf": "A",
+  "evidence": "[自动唯一指纹] jar 导入的 2 个罕见 MC 类在 src 树唯一同时被 MasEffectsParticleRenderer 引用: ['RandomSource', 'ThrownEnderpearl']",
+  "pinned": true
+ },
+ "io": {
+  "identity": "EnchantmentUtils",
+  "kind": "class",
+  "conf": "A",
+  "evidence": "[自动唯一指纹] jar 导入的 3 个罕见 MC 类在 src 树唯一同时被 EnchantmentUtils 引用: ['Enchantment', 'Holder', 'ItemEnchantments']",
+  "pinned": true
+ },
+ "uH": {
+  "identity": "ChatUtils",
+  "kind": "class",
+  "conf": "A",
+  "evidence": "[自动唯一指纹] jar 导入的 3 个罕见 MC 类在 src 树唯一同时被 ChatUtils 引用: ['FormattedCharSequence', 'MutableComponent', 'Style']",
+  "pinned": true
+ },
+ "d1": {
+  "identity": "ColorUtils",
+  "kind": "util",
+  "conf": "A",
+  "evidence": "方法 J(Color,Color,float) 与源码 ColorUtils.interpolateColor(Color,Color,float) 签名+行为完全吻合: clamp fraction → lerpInt 四通道(RGBA) → new Color",
+  "pinned": true
+ },
+ "d2": {
+  "identity": "ResistantBlockCache",
+  "kind": "class",
+  "conf": "A",
+  "evidence": "字段映射: P=cache(Map<Long,Boolean>), V=Level, g=assumeInstantMine(boolean); 构造(Lvl,boolean)与源码一致; static D EMPTY=new d2(null,false); 方法G中getBlockState+缓存逻辑对应isResistant; 属ZealotCrystalPlus内部类",
+  "pinned": true
+ },
+ "D3": {
+  "identity": "ViaLegacyConfig子类",
+  "kind": "class",
+  "conf": "B",
+  "evidence": "extends ViaLegacyConfig; 实现isLegacySkullLoading()/isLegacySkinLoading()方法名直接对应ViaLegacy功能; save()空覆写; ViaLegacyConfig为外部库不在旧版src中"
+ },
+ "d5": {
+  "identity": "QuadRenderingInfo",
+  "kind": "record",
+  "conf": "A",
+  "evidence": "record 6组件与源码 LuminRenderSystem.QuadRenderingInfo 逐一对应: tO=colorView(GpuTextureView), tu=depthView(GpuTextureView), LY=indexType(IndexType), qS=ibo(GpuBuffer), a2=indexCount(int), FX=dynamicUniforms(GpuBufferSlice)",
+  "pinned": true
+ },
+ "D6": {
+  "identity": "LogoutSpots.RenderMode",
+  "kind": "enum",
+  "conf": "A",
+  "evidence": "enum 常量 Box/Model 与源码 LogoutSpots.RenderMode{Model,Box} 完全一致; ordinal匹配: Model=0,Box=1",
+  "pinned": true
+ },
+ "d6": {
+  "identity": "KillAura.Mode",
+  "kind": "enum",
+  "conf": "A",
+  "evidence": "enum 常量 OnePointNinePlus/OnePointEight 与源码 KillAura.Mode{OnePointEight,OnePointNinePlus} 完全一致; ordinal匹配: OnePointEight=0,OnePointNinePlus=1",
+  "pinned": true
+ },
+ "Da": {
+  "identity": "I18NJson",
+  "kind": "class",
+  "conf": "A",
+  "evidence": "final class + Gson imports(JsonElement/JsonObject/JsonParseException) + static final String 字段(A=VALUE_PROPERTY='_value') + static void P(JsonObject,BiConsumer) 即 read(root,output) 遍历 root.entrySet()→readNode + static void f(Object,Object,Object) 即 readNode(String,JsonElement,BiConsumer) 递归遍历(JsonPrimitive→output.accept; JsonObject→_value 叶/递归); 与 src assets/i18n/I18NJson.java 完全同构(方法签名/参数类型/import/类级别修饰符一致)",
+  "pinned": true
+ },
+ "g8": {
+  "identity": "PanelState$ClientSettingTab",
+  "kind": "enum",
+  "conf": "A",
+  "evidence": "枚举常量 GENERAL/FRIEND/CONFIG/ADDON(4个) 与 src PanelState.ClientSettingTab 枚举 {GENERAL,FRIEND,CONFIG,ADDON} 完全一致；ordinal映射同 src ClientSettingPanel switch(general→0,friend→1,config→2,addon→3)",
+  "pinned": true
+ },
+ "Df": {
+  "identity": "UiLayer",
+  "kind": "enum",
+  "conf": "B",
+  "evidence": "jar enum常量CHROME/POPUP/BACKGROUND/FLOATING/CONTENT/OVERLAY与源码UiLayer常量完全对应（PanelScreen: UiLayer.CHROME/CONTENT/POPUP）；UiLayer来自lumingraphics库在26.1.2为顶层类"
+ },
+ "df": {
+  "identity": "ActionButtonType",
+  "kind": "enum",
+  "conf": "A-",
+  "evidence": "jar enum常量NEW/IMPORT/EXPORT/SAVE_AS/RELOAD/OPEN_FOLDER与源码ConfigClientSettingTab内私有枚举ActionButtonType完全一致；26.1.2为私有内部类，26.2可能提升为顶层类",
+  "pinned": true
+ },
+ "dF": {
+  "identity": "KeybindUtils",
+  "kind": "util",
+  "conf": "A",
+  "evidence": "jar: p=-1(=NONE), s(MOUSE_OFFSET), a(int)→String(=format), B(int)→boolean(=isPressed), imports KeyMapping+TranslateComponent(uT)；源码KeybindUtils: NONE=-1, MOUSE_OFFSET=-2, format(int)→String, isPressed(int)→boolean",
+  "pinned": true
+ },
+ "dJ": {
+  "identity": "BlinkPacket",
+  "kind": "record",
+  "conf": "A",
+  "evidence": "record(Packet<? super ClientPacketListener> ao, long cj); 源码 Blink 模块使用 ConcurrentLinkedQueue<Packet<?>> 缓存数据包，此 record 为单个带时间戳的缓存包，结构与角色完全吻合",
+  "pinned": true
+ },
+ "Dm": {
+  "identity": "Render3DScheduler.FilledSideCommand",
+  "kind": "record",
+  "conf": "A",
+  "evidence": "Record(AABB, int, Direction) 完全匹配 src Render3DScheduler.FilledSideCommand(AABB box, int color, Direction direction)；55行简洁record",
+  "pinned": true
+ },
+ "dn": {
+  "identity": "WireframeEntityRenderer.WireframeVertexConsumer",
+  "kind": "class",
+  "conf": "A",
+  "evidence": "implements VertexConsumer；float[4] xs/ys/zs + int index；addVertex收集4顶点后drawQuad；setColor/setUv/setNormal均return this空操作；完全匹配src内部类结构",
+  "pinned": true
+ },
+ "DO": {
+  "identity": "WorldToScreen",
+  "kind": "util",
+  "conf": "A",
+  "evidence": "MC imports含CameraRenderState/Vec3/Matrix4f/Vector3f；方法H(Vec3)和t(Object[])做世界→屏幕投影；静态Matrix4f字段C/B/r；完全匹配src WorldToScreen（calcWorld2Screen/calcWorld2ScreenRaw/calcScale）",
+  "pinned": true
+ },
+ "Do": {
+  "identity": "PacketMine.SwitchMode",
+  "kind": "enum",
+  "conf": "A",
+  "evidence": "enum常量 None/Delay/Silent 完全匹配src PacketMine.SwitchMode {None, Delay, Silent}；3个enum值顺序一致",
+  "pinned": true
+ },
+ "DP": {
+  "identity": "ModuleViewModel",
+  "kind": "record",
+  "conf": "A",
+  "evidence": "Record(Module os, String b6, String bq, boolean hB, vY bW, String bI) 完全匹配 src ModuleViewModel(Module module, String displayName, String realName, boolean enabled, Category category, String searchText)；工厂方法Z(e)对应from(Module)",
+  "pinned": true
+ },
+ "iU": {
+  "identity": "ClientSetting$GuiMode",
+  "kind": "enum",
+  "conf": "A",
+  "evidence": "嵌套枚举提取至顶层; ClientSetting.java 35-37: enum GuiMode { Dropdown, Panel }; jar 常量序 iU.Dropdown(ordinal=0)/iU.Panel(ordinal=1) 与 src 声明序一致; 两常量完全匹配",
+  "pinned": true
+ },
+ "iy": {
+  "identity": "MaceAura$AttackMode",
+  "kind": "enum",
+  "conf": "A",
+  "evidence": "嵌套枚举提取至顶层; MaceAura.java 38-41: enum AttackMode { Normal, Mace }; jar 常量 iy.Normal(ordinal=0)/iy.Mace(ordinal=1) 与 src 声明序一致; 两常量完全匹配",
+  "pinned": true
+ },
+ "iY": {
+  "identity": "FakePlayer$PlayerState",
+  "kind": "record",
+  "conf": "A",
+  "evidence": "嵌套 record 提取至顶层; FakePlayer.java 111: record PlayerState(double x, double y, double z, float yaw, float pitch); jar 字段序列 m(double)/ew(double)/u(double)/y3(float)/yE(float) 与 src 三 double + 二 float 完全一致",
+  "pinned": true
+ },
+ "eh": {
+  "identity": "HudModule",
+  "kind": "class",
+  "conf": "A",
+  "evidence": "abstract class extends e(Module); 有 x/y/width/height 坐标字段(zU=z8=g7=lumingraphics类型); render(DeltaTracker) + 鼠标/键盘处理抽象方法; eg/eJ extends eh 确认其为 HUD 模块基类; DeltaTracker+GuiGraphicsExtractor MC 导入与 src HudModule(26.2 扩展)吻合",
+  "pinned": true
+ },
+ "ej": {
+  "identity": "SoundFX",
+  "kind": "module",
+  "conf": "A",
+  "evidence": "extends e(Module); Dx<ut>(EnumSetting<HitSound> UwU/Nya/Moan/OFF) + 2xXG(IntSetting volume(100,1,100,5)/delay(0,0,20,1)) + _Z(TimerUtils) 完全匹配 src SoundFX 设置谱与字段; 锚点 AttackEntityEvent+SoundKey 吻合(播放命中音效); 无MC导入一致",
+  "pinned": true
+ },
+ "eK": {
+  "identity": "InvManager",
+  "kind": "module",
+  "conf": "A",
+  "evidence": "extends e(Module); MC导入 {Screen,ChestMenu,AxeItem,BowItem,CrossbowItem,FishingRodItem,ShovelItem,StandingAndWallBlockItem,ItemStack} 与 src InvManager 的 wildcard import `item.*` 展开一致; 锚点 PlayerTickEvent.Pre 吻合(inv管理在tick执行); 字段 Screen M/BoolSetting m/XG o/V/c/_Z O 对应 InvManager 的容器交互+多IntSetting槽位配置; 2352行吻合 src 485行+indy膨胀",
+  "pinned": true
+ },
+ "em": {
+  "identity": "SafeWalk",
+  "kind": "module",
+  "conf": "A",
+  "evidence": "extends e(Module); 2xDM(DoubleSetting: motion(1.0,0.5,1.0,0.05)/speedMotion(1.0,0.5,1.5,0.05)) + 5xXn(BoolSetting: air/directionCheck/pitchCheck/requirePress/blocksOnly) 完全匹配 src SafeWalk 设置谱; MC导入 {KeyMapping,ClientLevel,Entity,BlockItem,block.*} 吻合; 锚点 MoveEvent+PlayerTickEvent.Pre 吻合; 2022行对应 src 152行+indy膨胀",
+  "pinned": true
+ },
+ "en": {
+  "identity": "AutoDtap",
+  "kind": "module",
+  "conf": "B",
+  "evidence": "extends e(Module); 锚点 MousePressEvent+PlayerTickEvent.Pre 吻合 src AutoDtap 的 onMouse+onTick 双handler; 单Xn(BoolSetting) 对应 swapBack; Random d 对应 src Random random; 状态字段(3xint+boolean) 对应 step/stepDelay/originalSlot/rightClicked; 无MC导入一致"
+ },
+ "gx": {
+  "identity": "InvManager.BowPriorityMode",
+  "kind": "enum",
+  "conf": "A",
+  "evidence": "枚举常量 Crossbow/PowerBow/PunchBow 与 src InvManager.BowPriorityMode 逐一吻合; 3值枚举, 行数膨胀因加密",
+  "pinned": true
+ },
+ "g_": {
+  "identity": "AimBot.Mode",
+  "kind": "enum",
+  "conf": "A",
+  "evidence": "枚举常量 AimAssist/BowAim 与 src AimBot.Mode 逐一吻合; 2值枚举, 123行含加密开销",
+  "pinned": true
+ },
+ "i0": {
+  "identity": "Speed.Mode",
+  "kind": "enum",
+  "conf": "A",
+  "evidence": "枚举恰好3值 Grim/Strafe/StrafeStrict，与源码 Speed.java 的 private enum Mode { Strafe, StrafeStrict, Grim } 完全一致",
+  "pinned": true
+ },
+ "i6": {
+  "identity": "PanelScreen",
+  "kind": "screen",
+  "conf": "A",
+  "evidence": "extends Screen；构造器super(Component.literal(...))匹配；导入IMEPreeditOverlay+CharacterEvent+KeyEvent+MouseButtonEvent+PreeditEvent与PanelScreen一致；引用PanelInputRouter+Module+Setting与PanelScreen的inputRouter字段吻合；静态D字段=INSTANCE单例 || [证据裁决] Jaccard=1.000 || [证据裁决] pinned",
+  "pinned": true
+ },
+ "dG": {
+  "identity": "AutoKouZi$Mode",
+  "kind": "enum",
+  "conf": "A",
+  "evidence": "[枚举常量明文匹配] 枚举常量 2 个重合 (cover=1.0, jac=1.0), 唯一=True, jar 独有=[]",
+  "pinned": true
+ },
+ "DQ": {
+  "identity": "DamageUtils$ArmorEnchantmentMode",
+  "kind": "enum",
+  "conf": "A",
+  "evidence": "[枚举常量明文匹配] 枚举常量 2 个重合 (cover=0.667, jac=0.667), 唯一=True, jar 独有=['None'] || 复核(C009): 枚举常量 PPPP/PPBP/None 与 src DamageUtils.ArmorEnchantmentMode{None,PPPP,PPBP} 完全一致(名称相同,数量相同=3); 字段 Color p+String o 模式与枚举类一致; 125行匹配枚举+静态初始化; anchored_refs 含 SeQL(加密枚举常量名)但 src 枚举名已明文",
+  "pinned": true
+ },
+ "iD": {
+  "identity": "RotationManager$RotationMode",
+  "kind": "enum",
+  "conf": "A",
+  "evidence": "[枚举常量明文匹配] 枚举常量 2 个重合 (cover=1.0, jac=1.0), 唯一=True, jar 独有=[]",
+  "pinned": true
+ },
+ "vn": {
+  "identity": "PanelState$ActivePopup",
+  "kind": "enum",
+  "conf": "A",
+  "evidence": "[枚举常量明文匹配] 枚举常量 4 个重合 (cover=1.0, jac=1.0), 唯一=True, jar 独有=[]",
+  "pinned": true
+ },
+ "vt": {
+  "identity": "Notifications$RenderStage",
+  "kind": "enum",
+  "conf": "A",
+  "evidence": "[枚举常量明文匹配] 枚举常量 6 个重合 (cover=1.0, jac=1.0), 唯一=True, jar 独有=[]",
+  "pinned": true
+ },
+ "vv": {
+  "identity": "AutoClicker$ClickButton",
+  "kind": "enum",
+  "conf": "A",
+  "evidence": "[枚举常量明文匹配] 枚举常量 3 个重合 (cover=1.0, jac=1.0), 唯一=True, jar 独有=[]",
+  "pinned": true
+ },
+ "vY": {
+  "identity": "Category",
+  "kind": "enum",
+  "conf": "A",
+  "evidence": "[枚举常量明文匹配] 枚举常量 4 个重合 (cover=1.0, jac=0.5), 唯一=True, jar 独有=[]",
+  "pinned": true
+ },
+ "_a": {
+  "identity": "AnchorBlast$Phase",
+  "kind": "enum",
+  "conf": "A",
+  "evidence": "[枚举常量明文匹配] 枚举常量 5 个重合 (cover=1.0, jac=1.0), 唯一=True, jar 独有=[]",
+  "pinned": true
+ },
+ "eM": {
+  "identity": "Criticals",
+  "kind": "module",
+  "conf": "A",
+  "evidence": "[裁决] 与 src Criticals 的 MC import Jaccard=0.667 (m 仅 0.167)；导入 AABB/Entity/LivingEntity/Vec3 与 src Criticals 一致",
+  "pinned": true
+ },
+ "uF": {
+  "identity": "AimBot",
+  "kind": "module",
+  "conf": "A",
+  "evidence": "[裁决] 与 src AimBot Jaccard=0.455 (H 仅 0.250)；导入 BowItem/DeltaTracker/OptionInstance 与弓箭瞄准语义一致",
+  "pinned": true
+ },
+ "eb": {
+  "identity": "PacketMine",
+  "kind": "module",
+  "conf": "A",
+  "evidence": "[裁决] 与 src PacketMine Jaccard=0.360 (eS 仅 0.045)；导入 ServerboundPlayerActionPacket/ServerboundSetCarriedItemPacket/EndCrystal 一致",
+  "pinned": true
+ },
+ "Dj": {
+  "identity": "DoubleAnchor.Phase",
+  "kind": "enum",
+  "conf": "A",
+  "evidence": "[裁决] 枚举常量明文 IDLE/PLACE_ANCHOR/CHARGE/AIRPLACE/CHARGE_2/DETONATE/CLEANUP 与 src DoubleAnchor.Phase 完全一致 (DJ 的常量为 TheAltening/Cracked/Session/Microsoft，属账号枚举)",
+  "pinned": true
+ },
+ "DC": {
+  "identity": "TranslateHolder",
+  "kind": "class",
+  "conf": "A",
+  "evidence": "CopyOnWriteArrayList<TranslateComponent> + AtomicLong revision + singleton INSTANCE + registerTranslateComponent/getRevision/refresh 方法签名逐项吻合 src holders/TranslateHolder.java；字段映射：List<uT> U=components, AtomicLong n=revision, DC W=INSTANCE || [裁决] src TranslateHolder 字段含 AtomicLong revision；DC 有 AtomicLong n + long T()=getRevision() 逐项吻合；OS 无 revision 字段",
+  "pinned": true
+ },
+ "Dc": {
+  "identity": "ShaderHolder.ShaderColors",
+  "kind": "record",
+  "conf": "A",
+  "evidence": "6 Color 字段(h3/hU/ht/hQ/he/hw) implements DynamicUniformStorage.DynamicUniform，write(ByteBuffer) 方法含 putVec4×6，与 src holders/ShaderHolder.java 内 record ShaderColors(outline/smokeOutline1/smokeOutline2/fill/smokeFill1/smokeFill2) 逐一吻合",
+  "pinned": true
+ },
+ "DD": {
+  "identity": "PlayerAlarms.AlertMode",
+  "kind": "enum",
+  "conf": "A",
+  "evidence": "枚举值 Chat(ordinal0)/Notification(1)/Both(2) 与 src modules/impl/player/PlayerAlarms.java 内 private enum AlertMode{Chat,Notification,Both} 逐字一致；static 初始化序与源码声明序吻合",
+  "pinned": true
+ },
+ "dp": {
+  "identity": "DropdownTextField",
+  "kind": "class",
+  "conf": "A",
+  "evidence": "字段逐一吻合: dp.S(String)=text, dp.n(int)=cursor, dp.h(int,final)=maxLength, dp.e(float[])=cursorMidpoints, dp.Y(Predicate<String>,final)=inputFilter, dp.r(boolean)=focused; MC导入 CharacterEvent+KeyEvent 与 src DropdownTextField 完全一致; 方法 G(CharacterEvent)→charTyped, U(String)→insertText, z(zU,DF,float×4,int×2,String,float)→draw(UiTree.Scope,UiTextMetrics,float×4,int×2,String,float) 参数型/数一致; 26.2 jar 2848行(混淆控制流膨胀) vs 26.1.2 源 273行",
+  "pinned": true
+ },
+ "dr": {
+  "identity": "DefaultTranslateComponent",
+  "kind": "class",
+  "conf": "B",
+  "evidence": "implements uT(=TranslateComponent); 字段 String A(cachedName)+final String S(fullKey) 与 src DefaultTranslateComponent 的 cachedName+fullKey 一致; 方法 j(Object[])=createChild(String suffix)→new dr(fullKey+\".\"+suffix), a()=getFullKey()→return this.S, T(Object[])=static factory create(String)→new dr+注册, p(Object)=resolveTranslation, e(Object[])=formatKey(首字母大写)均与 src DefaultTranslateComponent 逻辑一致; 26.2 jar 606行 vs 26.1.2 源 80行(混淆控制流膨胀+可能新增缓存逻辑)"
+ },
+ "dT": {
+  "identity": "ZealotCrystalPlus.SwitchMode",
+  "kind": "enum",
+  "conf": "A",
+  "evidence": "enum值Off/Legit/Ghost与src ZealotCrystalPlus.java:1808-1811的SwitchMode完全一致；src中antiWeakness和placeSwitchMode均使用此enum",
+  "pinned": true
+ },
+ "Dv": {
+  "identity": "ConfirmActionPopup",
+  "kind": "popup",
+  "conf": "A",
+  "evidence": "implements XJ(PanelPopupHost.Popup); 构造器 Dv(ih, 4xSupplier<String>, String, Runnable) 与源码 ConfirmActionPopup(UiRect, titleSupplier, messageSupplier, detail, confirmLabelSupplier, cancelLabelSupplier, onConfirm) 逐参数对应; 字段: boolean closeAfterClick(=M), Runnable onConfirm(=K), 4x Supplier<String>(=C/x/F/T), String detail(=o), _E Animation(=s/b), ih(=R/i) 全部吻合; extractGui/mouseClicked/shouldCloseAfterClick 方法签名与 Popup 接口一致; candidates(ModuleDetailPanel等)均为噪声(它们不实现Popup)",
+  "pinned": true
+ },
+ "DX": {
+  "identity": "EnumSelectPopup",
+  "kind": "popup",
+  "conf": "A",
+  "evidence": "implements XJ(PanelPopupHost.Popup); 字段 Dx<?> d(=EnumSetting setting) 唯一指纹——dx即EnumSetting(已知锚点); 构造器 DX(ih, Dx<?>) 与源码 EnumSelectPopup(UiRect bounds, EnumSetting<?> setting) 逐参数对应; 字段: ih I(=bounds), _E r(=openAnimation), float x/H/u(=scroll/maxScroll/itemHeight相关), int g(=hoveredIndex=-1), boolean F(=scrollable); extractGui/mouseClicked/getBounds 与 Popup 接口一致; candidates中 EnumSelectPopup(score 7) 唯一命中",
+  "pinned": true
+ },
+ "dx": {
+  "identity": "Follower$Mode",
+  "kind": "enum",
+  "conf": "A",
+  "evidence": "枚举常量{AStar, Straight}与源码Follower.Mode{Straight, AStar}完全一致(仅声明序不同); Follower.Mode为src唯一含此二值的枚举; 全src树检索AStar+Straight仅Follower.java命中; dx jar extends Enum<dx>为顶层(26.2可能从内部枚举提取为顶层); 常量名唯一指纹",
+  "pinned": true
+ },
+ "dy": {
+  "identity": "EpsilonTranslateComponent",
+  "kind": "util",
+  "conf": "A",
+  "evidence": "方法 q(String,String) 构造 'epsilon.prefix.suffix' 键并返回 TranslateComponent，与源码 EpsilonTranslateComponent.create(prefix,suffix) 逻辑完全一致；静态初始化解密 PREFIX 常量和辅助数组",
+  "pinned": true
+ },
+ "DZ": {
+  "identity": "EpsilonTranslations$Module",
+  "kind": "class",
+  "conf": "A",
+  "evidence": "6 个 static final uT (TranslateComponent) 字段，与源码 EpsilonTranslations.Module 内部类的 6 个 static TranslateComponent 字段 (VISIBLE/HIDDEN/FROM/STATE_PREFIX/STATE_ENABLED/STATE_DISABLED) 数量和类型完全一致；构造时通过 EpsilonTranslateComponent.create(prefix,suffix) 初始化",
+  "pinned": true
+ },
+ "d_": {
+  "identity": "InvManager$OffhandItemMode",
+  "kind": "enum",
+  "conf": "A",
+  "evidence": "枚举常量 None/GoldenApple/Projectile/FishingRod/Block 与源码 InvManager.OffhandItemMode 枚举值完全一致（顺序/名称均匹配）",
+  "pinned": true
+ },
+ "D_": {
+  "identity": "MainMenuScreen$MenuEntry",
+  "kind": "class",
+  "conf": "B",
+  "evidence": "5 float + String + Runnable 字段签名匹配源码 MenuEntry；构造器 (String, Runnable) 一致；z(double,double) 坐标范围检查对应 isHovered；version 26.2 可能新增额外 float 字段"
+ },
+ "ea": {
+  "identity": "Step",
+  "kind": "module",
+  "conf": "B",
+  "evidence": "Dx<_P>=EnumSetting<Step.Mode>, _P 枚举常量 Vanilla/OldNCP/NCP 与 src Step.Mode{Vanilla,OldNCP,NCP} 逐一吻合; 5×Xn(BoolSetting)+1×DM(DoubleSetting) 与 src Step(8 BoolSetting+1 DoubleSetting) 设置类型一致; anchored ClientTickEvent.Pre 对应 src onClientTick; jar 1582行 vs src 157行, 疑 26.2 大幅扩展(新增 NCP 路径逻辑)"
+ },
+ "es": {
+  "identity": "ModuleList",
+  "kind": "hudmodule",
+  "conf": "A-",
+  "evidence": "super=eh(HudModule)匹配; 大量DM/DV/Xn/XG/Dx设置(fields: O, W, h, m, J, t, d, l, x, D, o, u, Q, z, kD, C, n_, u7, v6, vC, y, D8); Map<e,Float>和Map<e,vC>为每个模块的显示属性和动画数据; List<e>为过滤模块列表; mc_imports仅DeltaTracker=帧时序渲染; 与src ModuleList的imports(DeltaTracker/ModuleHolder/大量设置)角色一致; 3021行远超src458行→26.2版本大量扩展 || [证据裁决] pinned",
+  "pinned": true
+ },
+ "eT": {
+  "identity": "FakePlayer",
+  "kind": "module",
+  "conf": "A-",
+  "evidence": "super=e(Module)匹配; M()方法内new RemotePlayer(ClientLevel, GameProfile)+setYRot(getYRot)+copyPosition+setHealth(getHealth)逐字段复制→与src FakePlayer伪玩家逻辑完全一致; 静态RemotePlayer y字段=fakePlayer单例; mc_imports(ClientLevel/LocalPlayer/RemotePlayer+GameProfile)全匹配; BoolSetting/StringSetting设置→FakePlayer的enabled/名称设置;926行>src的~300行→26.2新增位置追踪或死亡动画(字段B/w对比src movementTick/deathTime); 确认与class_map无冲突",
+  "pinned": true
+ },
+ "eU": {
+  "identity": "TargetHUD",
+  "kind": "hudmodule",
+  "conf": "A",
+  "evidence": "super=eh(HudModule)匹配; mc_imports含TextureManager/AbstractClientPlayer/EquipmentSlot/ItemStack→玩家装备渲染; Identifier/GpuTexture/GpuSampler→纹理资源加载; Matrix3x2fStack→2D矩阵变换; 构造参数(x,y,180,80)=HUD位置+尺寸; DV(ColorSetting)多组=主体/血条/名字/装备/文字颜色; DM(DoubleSetting)多组=缩放/位置/圆角等; Xn(BoolSetting)=文字/阴影/动画开关; Dx<zK>=颜色模式枚举; Supplier<_j>=文本渲染器缓存; lH/y4/zK/zU=渲染辅助类; 与src TargetHUD的字段模式(颜色/缩放/布尔)角色一致; 纹理导入特有于头像渲染→确认 || [证据裁决] pinned",
+  "pinned": true
+ },
+ "gc": {
+  "identity": "Hole",
+  "kind": "class",
+  "conf": "A",
+  "evidence": "字段 Vec3 G/BlockPos l/BlockPos[] M/OH U 与 src Hole(middle/pos/positions/type) 1:1 对应；构造器 switch(OH) 的 Single/DoubleX/DoubleZ/Quad 分支创建 positions+middle 逻辑完全同构；OH=HoleType 已确认(5 常量 NotHole/Single/DoubleX/DoubleZ/Quad)",
+  "pinned": true
+ },
+ "gD": {
+  "identity": "ConsumerListener",
+  "kind": "class",
+  "conf": "A",
+  "evidence": "implements zI(IListener)；字段 Class<T> e/Consumer<T> f/int o 对应 src ConsumerListener target/executor/priority；方法 J→getTarget, z→call(consumer.accept), K→getPriority, o→isStatic(return false) 逐一对应",
+  "pinned": true
+ },
+ "gJ": {
+  "identity": "Scaffold.Mode",
+  "kind": "enum",
+  "conf": "A",
+  "evidence": "Enum值TellyBridge/GodBridge与Scaffold.java内部enum Mode完全匹配；独立类文件是内部类扁平化的结果",
+  "pinned": true
+ },
+ "gP": {
+  "identity": "ColorWidget.Channel",
+  "kind": "enum",
+  "conf": "A",
+  "evidence": "Enum constants: RED('R'), GREEN('G'), BLUE('B'), ALPHA('A') + String字段r；与ColorWidget.java中private enum Channel { RED(\"R\"), GREEN(\"G\"), BLUE(\"B\"), ALPHA(\"A\") } 完全匹配",
+  "pinned": true
+ },
+ "ig": {
+  "identity": "GlslSandBox.SandboxInfo",
+  "kind": "record",
+  "conf": "A",
+  "evidence": "7 float fields + implements DynamicUniformStorage.DynamicUniform; toString字段序 a1;AE;ag;AM;al;a3;a9 对应 SandboxInfo(width,height,elapsedTime,mouseUvX,mouseUvY,mousePxX,mousePxY); write() 用 putVec4+putVec4 写8个float(含padding 0.0f) 与源码一致",
+  "pinned": true
+ },
+ "ii": {
+  "identity": "ClientSetting.ThemeMode",
+  "kind": "enum",
+  "conf": "A",
+  "evidence": "public enum ii {Dark, Light} 完全匹配源码 ClientSetting.ThemeMode {Dark, Light}; 26.1.2源码 ClientSetting.java:58-61",
+  "pinned": true
+ },
+ "is": {
+  "identity": "SettingLayoutPlanner.Section",
+  "kind": "record",
+  "conf": "A",
+  "evidence": "record 5 组件完全匹配: is(boolean ux,String vc,String v6,List<Dl<?>> FG,nN jG) ↔ Section(String key,String title,List<Setting<?>> settings,boolean hasHeader,SettingGroup group); 构造函数参数顺序一致; 导入 Dl(=Setting)/nN(=SettingGroup) 与 src 一致; v8=SettingHost 确认 Dl=Setting",
+  "pinned": true
+ },
+ "ir": {
+  "identity": "ClickSlotUtils",
+  "kind": "class",
+  "conf": "A",
+  "evidence": "MC 唯一指纹: jar 导入 net.minecraft.world.inventory.ContainerInput，全 src 树仅 ClickSlotUtils 引用此类; 方法签名 static void c(Object[])/static void J(int) 等与 clickSlot/click/shiftClick 等静态工具方法一致",
+  "pinned": true
+ },
+ "it": {
+  "identity": "FriendDropdownPanel",
+  "kind": "class",
+  "conf": "A",
+  "evidence": "常量精确匹配: it.s=6.0f=FRIEND.PADDING, it.G=18.0f=FIELD_HEIGHT, it.i=4.0f=GAP, it.F=20.0f=ROW_HEIGHT; 锚点 FriendManager(Managers.FRIEND)/Setting/TranslateComponent 与 FriendDropdownPanel 用 Friends + EpsilonTranslations.Gui.TAB_FRIEND 吻合; extends iN(=vP=DropdownPanel) 与 extends AbstractDropdownPanel 一致",
+  "pinned": true
+ },
+ "K": {
+  "identity": "TriggerBot",
+  "kind": "module",
+  "conf": "A-",
+  "evidence": "设置签名完全匹配：DoubleSetting range(3.0,1.0-7.0,0.1)、attackCooldown(0.9,0.5-1.0,0.05)、critFallDistance(0.0,0.0-1.0,0.05)；IntSetting minDelay/maxDelay(2/13,0-20,1)；MC import含ClipContext/HitResult/Vec3/LivingEntity/Entity/LocalPlayer/Holder；方法签名匹配getCrosshairTarget(lambda)、isValidTarget(instanceof LivingEntity)、getAttackCooldown(getAttributeValue ATTACK_SPEED)；PlayerTickEvent.Pre锚点；src:旧版本的源代码/.../modules/impl/combat/TriggerBot.java",
+  "pinned": true
+ },
+ "l9": {
+  "identity": "HealthManager",
+  "kind": "class",
+  "conf": "A",
+  "evidence": "MC imports(ClientboundSetScorePacket+Entity+LivingEntity) + PacketEvent.Receive + Map<String,Integer> ConcurrentHashMap均与源码HealthManager一一吻合",
+  "pinned": true
+ },
+ "lA": {
+  "identity": "SneakTweak.SneakingEyeHeight",
+  "kind": "enum",
+  "conf": "A",
+  "evidence": "Enum值Default/Pre_1_14/Pre_1_9/Custom与源码SneakTweak内嵌enum SneakingEyeHeight完全一致; 混淆后内部enum被扁平化为顶层类",
+  "pinned": true
+ },
+ "le": {
+  "identity": "Render3DScheduler",
+  "kind": "class",
+  "conf": "A",
+  "evidence": "public static final le D = 单例INSTANCE; d9(Render3DEvent)锚点; Direction/AABB/Vec3 MC imports; List<dV>/List<Dm>/List<yN>/List<uX>/List<vl>/List<vu>命令列表 + RenderPipeline s/g = filled/lines pipeline; 与源码Render3DScheduler结构逐一吻合",
+  "pinned": true
+ },
+ "lB": {
+  "identity": "GeneralClientSettingTab",
+  "kind": "class",
+  "conf": "B",
+  "evidence": "MC imports GuiGraphicsExtractor+MouseButtonEvent 与源码 GeneralClientSettingTab 完全一致; implements XJ→ClientSettingTabView; _E(Setting)字段+Supplier<String>翻译+ih字体渲染; extractGui lambda绘制文本位置匹配; 行数435vs302为版本差(26.1.2→26.2)"
+ },
+ "lC": {
+  "identity": "BlockRegistryUtils",
+  "kind": "util",
+  "conf": "B",
+  "evidence": "private constructor; 静态工具类仅操作Block: T(Block)→isSelectable, F(Block)→id(registry key), E(Object[])→byId(String), c(Object[])→toIds(Collection<Block>), i()→allSelectableBlocks; 与源码BlockRegistryUtils功能完全重叠; 行数806vs120为版本差+CFR反编译膨胀"
+ },
+ "lr": {
+  "identity": "HandsView.BlockMode",
+  "kind": "enum",
+  "conf": "A",
+  "evidence": "枚举常量 V1_7/Pushdown/Scale/Leaked/Ninja/Down 与源码 HandsView.BlockMode 内部枚举完全一致；源码引用 HandsView.BlockMode.Pushdown 作为 blockingMode 默认值",
+  "pinned": true
+ },
+ "lU": {
+  "identity": "LanguageReloadListener",
+  "kind": "class",
+  "conf": "A",
+  "evidence": "实现 PreparableReloadListener；唯一 MC import 为 PreparableReloadListener；源码 LanguageReloadListener 同样实现该接口且仅有 reload 方法；46 行与源码长度匹配",
+  "pinned": true
+ },
+ "lu": {
+  "identity": "FilterShader.FilterColor",
+  "kind": "record",
+  "conf": "A",
+  "evidence": "record(float,float,float,float) 实现 DynamicUniformStorage.DynamicUniform；Color 构造器将 getRed/Green/Blue/Alpha 除以 255 转 float；与源码 FilterShader.FilterColor 完全匹配",
+  "pinned": true
+ },
+ "lv": {
+  "identity": "Particles.FireFly",
+  "kind": "class",
+  "conf": "A-",
+  "evidence": "extends lW(=ParticleBase)；List<vb> W 对应源码 List<Trail> trails；u8 r 对应 Particles 实例引用；使用 BlockPos/Vec3 进行碰撞/距离检测；tick 方法中 age 递减、位置更新、motion*0.99 与源码 FireFly.tick 完全匹配；版本差异：26.1.2 为内部类，26.2 提升为顶层类",
+  "pinned": true
+ },
+ "lW": {
+  "identity": "Particles.ParticleBase",
+  "kind": "class",
+  "conf": "A-",
+  "evidence": "基类含 8 个 float 字段(posX/Y/Z, prevPosXYZ, motionX/Z) + int O(age) + int k(maxAge) + u8 l(texture)；构造器 u8+6float 对应源码 textureRef+3pos+3vel；z(Object[]) 为 drawBillboard(PoseStack,Xi,Vec3,float,Color)；O() 为 tick() 方法含 distanceSqr>4096 检查和 motion*0.9 衰减+motionY-0.001 重力；版本差异：26.1.2 为内部类，26.2 提升为顶层类",
+  "pinned": true
+ },
+ "D0": {
+  "identity": "Phase$Mode",
+  "kind": "enum",
+  "conf": "A",
+  "evidence": "D0 enum 值 (CCClip, Pearl, Vanilla, ForceMine, Sunrise) 与 Phase.java 内部 enum Mode 完全一致；Phase 已映射为 obf eF",
+  "pinned": true
+ },
+ "d": {
+  "identity": "HoverTotem",
+  "kind": "module",
+  "conf": "B",
+  "evidence": "d extends Module，导入 InventoryScreen/ItemStack，@EventHandler 处理 PlayerTickEvent.Pre，检查 mc.screen instanceof InventoryScreen；结构匹配 HoverTotem（BoolSetting+DoubleSetting+Random），但源码99行 vs jar935行差异大"
+ },
+ "lH": {
+  "identity": "Easing",
+  "kind": "enum",
+  "conf": "A",
+  "evidence": "30个enum常量完全匹配(LINEAR/DECELERATE/SMOOTH_STEP/EASE_IN_OUT_SINE/EASE_IN_OUT_QUART/EASE_IN_BACK/EASE_IN_CUBIC/SIGMOID/DYNAMIC_ISLAND等)，源码utils/render/animation/Easing.java中完全一致",
+  "pinned": true
+ },
+ "lo": {
+  "identity": "LogoutSpots.LogoutPlayer",
+  "kind": "class",
+  "conf": "A",
+  "evidence": "extends RemotePlayer; 字段 ue Q=LogoutSpots 模块引用(class_map ue=LogoutSpots); 构造器接收 Player 复制 position/attributes/animation/walkState 与 26.1.2 LogoutSpots.LogoutPlayer 源码逐行同构; shouldShowName()=false, belowNameDisplay()=null; 渲染方法 G(Object[]) 使用 ColorSetting(WireframeEntityRenderer) 同构 src render()",
+  "pinned": true
+ },
+ "lQ": {
+  "identity": "AnchorBlast.Phase",
+  "kind": "enum",
+  "conf": "A",
+  "evidence": "enum 7 值: IDLE/PLACE_SHIELD/CHARGE/DETONATE/PLACE_ANCHOR/WAIT_ANCHOR/WAIT_SHIELD; 26.1.2 src AnchorBlast.Phase 有 IDLE/PLACE_ANCHOR/CHARGE/DETONATE/CLEANUP; 26.2 版本扩展新增 PLACE_SHIELD/WAIT_ANCHOR/WAIT_SHIELD(盾牌+锚点等待状态, crystal pvp 完整状态机); 常量名同源域(anchor/shield/detonate)",
+  "pinned": true
+ },
+ "lq": {
+  "identity": "NoSlow.Mode",
+  "kind": "enum",
+  "conf": "A",
+  "evidence": "enum 4 值: Vanilla/Grim1_2/Grim1_3/GrimBlink; 26.1.2 src NoSlow.Mode 有 Vanilla/Grim1_2/Grim1_3(3值); 26.2 新增 GrimBlink; 枚举常量名(反服务器名+版本号)逐字同构 src NoSlow.Mode; class_map 已有 NoSlow 模块(eN), 此为内部枚举",
+  "pinned": true
+ },
+ "lR": {
+  "identity": "LuminVertexFormats",
+  "kind": "util",
+  "conf": "A",
+  "evidence": "5 个 static final VertexFormat 字段(s/k/o/Y/U); 导入 GpuFormat+VertexFormat+VertexFormat.Builder; 静态初始化器使用 builder().addAttribute() 构建多种顶点格式; 26.1.2 src LuminVertexFormats 定义 ROUND_RECT/ROUND_RECT_OUTLINE/TEXTURE 三格式(26.2 扩展至5); 17 个字符串常量=顶点属性名(Position/Color/UV0/InnerRect/Radius/OutlineWidth等)",
+  "pinned": true
+ },
+ "iA": {
+  "identity": "ModuleListPanel",
+  "kind": "class",
+  "conf": "B",
+  "evidence": "4个Map<Module,_E>字段结构匹配ModuleListPanel的4个Map<Module,Animation>; lambda$buildSearchField$0方法名泄露匹配搜索框构建; MC imports(GuiGraphicsExtractor,CharacterEvent,MouseButtonEvent)完全匹配; 实现AutoCloseable; 行数膨胀(417→2447)因obf hi.a()展开 || [证据裁决] Jaccard=0.750",
+  "pinned": true
+ },
+ "lw": {
+  "identity": "AStarFollowerNavigator",
+  "kind": "class",
+  "conf": "A",
+  "evidence": "4常量逐值吻合: j=1.25(DETOUR_RETREAT_DISTANCE), i=1.0E-4(INITIAL_COLLISION_EPSILON), Y=0.1(VERTICAL_CLEARANCE), S=0.18(HORIZONTAL_CLEARANCE); PriorityQueue/HashMap/HashSet/ArrayList 匹配 A* 数据结构; MC导入 LocalPlayer/BlockPos/Vec3i/Entity/LivingEntity/Level/AABB/Vec3/VoxelShape 全覆盖; 方法 b(BlockPos,BlockPos)→distance, C→gv返回; implements Oa 对应 FollowerNavigator 接口",
+  "pinned": true
+ },
+ "lX": {
+  "identity": "LuminImmediateRenderer(26.2扩展)",
+  "kind": "util",
+  "conf": "B",
+  "evidence": "implements _A(渲染元素接口); G()静态工厂返回单例; 多个draw方法(A/w/z/e/h)取float+Color绘制矩形/圆角矩形(quad batch); S(Object[])提交11参数顶点数据; Q(Object[])配置RenderPass(setVertexBuffer/setIndexBuffer); s(int,int,int,int)设视口; d5(=QuadRenderingInfo)字段管理GPU资源; MC导入 GpuBuffer/GpuBufferSlice/RenderPass/IndexType + Color 完全匹配; src LuminImmediateRenderer 417行, jar1286行因SeQL indy膨胀; 26.2版扩展增加更多draw变体"
+ },
+ "ly": {
+  "identity": "DamageUtils",
+  "kind": "util",
+  "conf": "A-",
+  "evidence": "2个静态常量逐值吻合: d=6.0f==CRYSTAL_EXPLOSION_RADIUS, A=5.0f==ANCHOR_EXPLOSION_RADIUS; EquipmentSlot[] S==ARMOR_SLOTS; DQ(=ArmorEnchantmentMode)引用匹配 explosionDamage(target,crystalPos,targetPos,mode)签名; MC导入 Minecraft/EquipmentSlot/LivingEntity/EndCrystal/Player/AABB/Vec3 与爆炸伤害计算功能一致; G(Object[])计算距离比+伤害曲线; src 335行, jar1089行因SeQL膨胀; 26.2新增Minecraft/Holder/BlockState导入疑为扩展功能",
+  "pinned": true
+ },
+ "l_": {
+  "identity": "RegistryListSetting$Type的switch map",
+  "kind": "class",
+  "conf": "B",
+  "evidence": "引用 Xf(=RegistryListSetting$Type) 枚举; int[] D = new int[Xf.values().length]; 静态块按 ordinal 填充映射值; 62行与枚举switch map合成类规模一致; 无方法体,纯数据映射"
+ },
+ "ne": {
+  "identity": "ClientSetting.ThemePreset",
+  "kind": "enum",
+  "conf": "A",
+  "evidence": "jar enum 9 常量 TonalSpot/Neutral/Vibrant/Expressive/Fidelity/Content/Rainbow/FruitSalad/Monochrome 与源码 ClientSetting.ThemePreset 内部枚举完全一致",
+  "pinned": true
+ },
+ "nh": {
+  "identity": "ZealotCrystalPlus.BreakPlan",
+  "kind": "record",
+  "conf": "A",
+  "evidence": "Record 5字段: EndCrystal+int+Vec3+2float 完美匹配 ZealotCrystalPlus.BreakPlan(crystal,entityId,pos,selfDamage,targetDamage)；源码行2016-2023",
+  "pinned": true
+ },
+ "nI": {
+  "identity": "HitParticles.ColorMode",
+  "kind": "enum",
+  "conf": "A",
+  "evidence": "Enum 2值 Sync/Custom 完全匹配 HitParticles 内部 ColorMode 枚举(line 59-62)；源码中 Custom在前 Sync在后，jar中顺序反转属正常",
+  "pinned": true
+ },
+ "nJ": {
+  "identity": "RaytraceUtils",
+  "kind": "util",
+  "conf": "A",
+  "evidence": "静态工具类：方法f(uK,Direction,BlockPos,boolean)=overBlock, S(Vec3,Vec3)=canSeePointFrom, D(Object[])=raytrace(uK,double,float)；MC import(BlockPos,Direction,ClipContext,HitResult,Vec3)完全匹配；uK=Rot2f(版本差异) || [证据裁决] pinned",
+  "pinned": true
+ },
+ "nL": {
+  "identity": "EpsilonLanguageManager",
+  "kind": "class",
+  "conf": "A",
+  "evidence": "单例模式(static h=INSTANCE), volatile Map<String,String>=translations, Gson, Pattern, ResourceManager同步reload方法；完全匹配EpsilonLanguageManager源码结构",
+  "pinned": true
+ },
+ "nl": {
+  "identity": "ModuleDetailPanel",
+  "kind": "screen",
+  "conf": "A",
+  "evidence": "4497行实现O0(AutoCloseable)，MC import(GuiGraphicsExtractor,KeyEvent,MouseButtonEvent,CharacterEvent)；导入X0(KeybindSetting)+vh(SettingRow)+vx等GUI组件；candidates三选一均为同一类，size/结构匹配 || [裁决] MC-import Jaccard=1.000 (dU 0.750, gW 0.500)，含 CharacterEvent/KeyEvent/MouseButtonEvent/GuiGraphicsExtractor 全集 || [证据裁决] pinned",
+  "pinned": true
+ },
+ "nM": {
+  "identity": "PacketMine.RenderMode",
+  "kind": "enum",
+  "conf": "A",
+  "evidence": "Enum 4值 Normal/Grow/Box/Shrink 完全匹配 PacketMine 内部 RenderMode 枚举(line 50-55)；jar中顺序: Box,Normal,Shrink,Grow vs 源码 Box,Normal,Shrink,Grow",
+  "pinned": true
+ },
+ "Os": {
+  "identity": "EpsilonFabric",
+  "kind": "class",
+  "conf": "A",
+  "evidence": "Fabric入口: 使用EntrypointContainer<gr>遍历add-on, 创建um(EpsilonAddonSetupEvent), 引用lU(LanguageReloadListener); F()=工厂方法; 与src EpsilonFabric.onInitializeClient()逐行同构",
+  "pinned": true
+ },
+ "eO": {
+  "identity": "MaceAura",
+  "kind": "module",
+  "conf": "A",
+  "evidence": "MC导入唯一指纹: ServerboundMovePlayerPacket+LivingEntity+Item(s)+Vec3 组合仅MaceAura同时具备; BoolSetting/DoubleSetting/EnumSetting/IntSetting 字段类型匹配; dR=PlayerTickEvent.Pre锚点吻合",
+  "pinned": true
+ },
+ "eo": {
+  "identity": "AutoArmor",
+  "kind": "module",
+  "conf": "A",
+  "evidence": "MC导入唯一指纹: Equippable 仅AutoArmor和InvHelper(非Module)引用; EquipmentSlot+AttributeModifier+ItemStack+Holder组合吻合; Dx类型与AutoArmor的ElytraPriority/ArmorRating等内部枚举一致 || [裁决] src AutoArmor 选项为 EnumSetting<EnchantPriority>×4 + EnumSetting<ElytraPriority>；eo 有 3 个 Dx<>(EnumSetting) 字段，uk 无 Dx 字段",
+  "pinned": true
+ },
+ "gv": {
+  "identity": "FollowerPath",
+  "kind": "record",
+  "conf": "A",
+  "evidence": "Record components t8(Vec3)→nextPoint, t_(List<Vec3>)→points 完全匹配源码 public record FollowerPath(Vec3 nextPoint, List<Vec3> points) {}",
+  "pinned": true
+ },
+ "lK": {
+  "identity": "StringListSelectPopup",
+  "kind": "screen",
+  "conf": "B",
+  "evidence": "implements XJ(Popup); Dl<List<String>> f + Consumer<String> o/P 匹配 StringListSelectPopup(setting, addFn, removeFn); 11 个 static float 常量与 StringListSelectPopup 常量(PADDING=8,TITLE_HEIGHT=18,INPUT_HEIGHT=18,ROW_HEIGHT=18,SCROLL_STEP=24,SCROLL_DECAY=0.86,MIN_SCROLL_VELOCITY=0.3,ROW_GAP=2,ACTION_WIDTH=14 等)数值一致; lambda$extractGui$0 中 popupCard/UiTree.build 模式匹配; 26.1.2→26.2 版本差(26.1.2 src 320 行, jar 2710 行含混淆开销)"
+ },
+ "nC": {
+  "identity": "PacketMine$1",
+  "kind": "class",
+  "conf": "A-",
+  "evidence": "extends TimerTask，字段 eb(PacketMine引用)+BlockPos+Timer；lambda发送ServerboundPlayerActionPacket(STOP_DESTROY_BLOCK)；anchor_ref=PacketMine；源码26.1.2中PacketMine.java:344使用匿名TimerTask执行同样操作(发送STOP_DESTROY_BLOCK包)，26.2提取为独立类",
+  "pinned": true
+ },
+ "OH": {
+  "identity": "HoleType",
+  "kind": "enum",
+  "conf": "A",
+  "evidence": "枚举常量完全匹配: NotHole, Single, DoubleX, DoubleZ, Quad = HoleType.java 的5个常量; 用法匹配HoleUtils/Hole.java/HoleESP.java中的HoleType引用 || [裁决] 5 常量 NotHole/Single/DoubleX/DoubleZ/Quad 与 src HoleType 一致；Oy 仅 4 常量",
+  "pinned": true
+ },
+ "Oh": {
+  "identity": "CrystalBlocker.RotateMode",
+  "kind": "enum",
+  "conf": "A",
+  "evidence": "枚举常量完全匹配: Normal, None, Silent = CrystalBlocker.java 内部枚举 RotateMode 的3个常量; jar中顺序不同但常量集一致",
+  "pinned": true
+ },
+ "OJ": {
+  "identity": "LambdaListener",
+  "kind": "class",
+  "conf": "A",
+  "evidence": "implements zI(IListener); 字段: Class<?> j(target), boolean X(isStatic), int I(priority), Consumer<Object> q(executor) 完全匹配LambdaListener; 构造器(yc/Factory, Class, Object, Method)匹配; 使用LambdaMetafactory+MethodHandles创建Consumer; 静态初始化块获取privateLookupIn方法; 方法call/getTarget/getPriority/isStatic对应z/o/J/K",
+  "pinned": true
+ },
+ "Oj": {
+  "identity": "ZealotCrystalPlus.PlaceChoice",
+  "kind": "class",
+  "conf": "A",
+  "evidence": "字段完全匹配: BlockPos F(target/blockPos), LivingEntity f(target), float y(selfDamage, init MAX_VALUE), float W(targetDamage, init NEGATIVE_INFINITY); M方法=update(LivingEntity,BlockPos,float,float); C方法=clear()(重置为null/MAX_VALUE/NEGATIVE_INFINITY); 与ZealotCrystalPlus.java内PlaceChoice内部类结构一致",
+  "pinned": true
+ },
+ "yw": {
+  "identity": "EpsilonTranslations",
+  "kind": "class",
+  "conf": "A-",
+  "pinned": true,
+  "evidence": "[裁决] jar 中 uT(TranslateComponent) 静态字段数最多者(95 字段, 355 行)，唯一对应 src EpsilonTranslations 本体(其字段数同量级)；内嵌注册表另有 3/6/10 字段类"
+ },
+ "np": {
+  "identity": "BufferUtils",
+  "kind": "util",
+  "conf": "A",
+  "evidence": "方法 d(long,float,float,float,float,int) 内存操作: memPutFloat(p,x)+memPutFloat(p+4,y)+memPutFloat(p+8,0)+memPutFloat(p+12,u)+memPutFloat(p+16,v)+memPutInt(p+20,color) 与 src BufferUtils.writeUvRectToAddr 完全一致; 导入 LWJGL MemoryUtil 语义匹配",
+  "pinned": true
+ },
+ "Of": {
+  "identity": "StraightFollowerNavigator",
+  "kind": "class",
+  "conf": "A-",
+  "evidence": "实现Oa(FollowerNavigator接口)；w()方法参数LocalPlayer/LivingEntity/Vec3/Xg(FollowerConfig)与接口getPath签名一致；内部仅构造简单路径(与StraightFollower一致)；候选中FollowerNavigator/StraightFollowerNavigator评分最高",
+  "pinned": true
+ },
+ "Og": {
+  "identity": "SettingListController",
+  "kind": "class",
+  "conf": "A-",
+  "evidence": "导入集精确匹配：CharacterEvent/KeyEvent/MouseButtonEvent/PreeditEvent四种输入事件+AutoCloseable；lambda名buildSectionCard/prepareLayout与src SettingListController方法同名；源码525行→jar2877行(版本26.1.2→26.2大幅扩展)；候选ModuleButton/SettingsContent均不符(导入集不同且无同名方法) || [证据裁决] Jaccard=1.000",
+  "pinned": true
+ },
+ "OM": {
+  "identity": "EpsilonLanguage",
+  "kind": "enum",
+  "conf": "A",
+  "evidence": "枚举3常量 English/ChineseSimplified/Custom, 两String字段(code/settingName), toString()返回settingName; 源码EpsilonLanguage.java逐一吻合",
+  "pinned": true
+ },
+ "OU": {
+  "identity": "ClientSettingPanel",
+  "kind": "class",
+  "conf": "A-",
+  "evidence": "4个MC import完全匹配src(GuiGraphicsExtractor,CharacterEvent,KeyEvent,MouseButtonEvent); implements AutoCloseable; refs Setting+TranslateComponent; 构造函数3参(PanelState/UiTextMetrics/PanelPopupHost)匹配; EnumMap<g8,O0>用于tab映射",
+  "pinned": true
+ },
+ "Ov": {
+  "identity": "ModuleRow",
+  "kind": "class",
+  "conf": "A-",
+  "evidence": "3个float常量完全匹配: J=34→HEIGHT, t=8→KEYBIND_TOGGLE_GAP, e=40→KEYBIND_CLIP_WIDTH; 字段: DP c→ModuleViewModel, ih I→bounds, ih Q→toggleBounds; 渲染方法q(scope,textMetrics,floats)匹配buildUi; 版本差: src 143行 vs jar 26.2 696行",
+  "pinned": true
+ },
+ "OW": {
+  "identity": "Priority",
+  "kind": "enum",
+  "conf": "A",
+  "evidence": "枚举5个值完全匹配: High/Medium/Lowest/Low/Highest; int priority字段匹配src Priority(int priority); 用于RotationManager setRotations调用",
+  "pinned": true
+ },
+ "u1": {
+  "identity": "AutoQueue.Mode",
+  "kind": "enum",
+  "conf": "A",
+  "evidence": "枚举值 XIN_2B2T 与 src AutoQueue.java 内部枚举 Mode.XIN_2B2T 唯一匹配; 26.2 提取为顶级类",
+  "pinned": true
+ },
+ "u8": {
+  "identity": "Particles",
+  "kind": "module",
+  "conf": "A",
+  "evidence": "9 个 setting 字段(3 EnumSetting+2 IntSetting+2 DoubleSetting+1 ColorSetting+1 BoolSetting)精确匹配 Particles; RenderPipeline+DepthStencilState+BlendFunction 导入一致; PlayerTickEvent.Pre+Render3DEvent 处理方法一致; Dx<_x>对应 Mode 枚举含 SnowFlake/Stars/Hearts/Dollars/Bloom",
+  "pinned": true
+ },
+ "uL": {
+  "identity": "Strafe",
+  "kind": "module",
+  "conf": "A",
+  "evidence": "唯一同时处理KeyboardInputEvent+MoveEvent的模块(全src仅Strafe如此); 2个Xn BoolSetting对应源码airStop+autoJump; Holder import为26.2版本差异(src 26.1.2无此import)",
+  "pinned": true
+ },
+ "uN": {
+  "identity": "HandsView(3D变换辅助类)",
+  "kind": "util",
+  "conf": "B",
+  "evidence": "9个DM(DoubleSetting)用于translate/rotate/scale的XYZ分量; g(Object[])对PoseStack调用translate+mulPose(XP/YP/ZP)与源码HandsView.applyBlockingTransform渲染逻辑一致; 构造函数(e_,String,nN)为设置创建模式; 26.2版本扩展了3D变换参数控制"
+ },
+ "uo": {
+  "identity": "FallingPlayer",
+  "kind": "util",
+  "conf": "A",
+  "evidence": "MC import全匹配: BlockPos+Entity+Player+ClipContext+BlockHitResult+Vec3; l(Object,Object)->BlockPos实现raytrace用ClipContext.Block.COLLIDER+Fluid.NONE; e(Object[])->BlockPos为findCollision逐tick模拟; 字段double/float对应位置+速度+角度参数; 源码FallingPlayer逐行吻合",
+  "pinned": true
+ },
+ "vJ": {
+  "identity": "KeybindSettingRow",
+  "kind": "class",
+  "conf": "A-",
+  "evidence": "extends vh<X0>=SettingRow<KeybindSetting>; 2 _E(Animation)字段=chipHoverAnimation+focusAnimation; boolean i=listening; imports GuiGraphicsExtractor+MouseButtonEvent与源码一致; method S(ih)=getChipBounds 计算chip位置; method E(ih,MouseButtonEvent,boolean)=鼠标事件处理; 源码108行vs jar 815行为版本差异(26.2扩展)",
+  "pinned": true
+ },
+ "vj": {
+  "identity": "ConfigClientSettingTab$ConfigRowEntry",
+  "kind": "record",
+  "conf": "B",
+  "evidence": "Record(String ce, ih yo, ih yc)结构=Record(name:String, rowBounds:UiRect, deleteBounds:UiRect); 3组件类型匹配String+2×UiRect; 方法Yo()/Yc()=rowBounds/deleteBounds访问器; candidates空但ConfigRowEntry结构唯一吻合"
+ },
+ "vK": {
+  "identity": "IMEFocusHelper",
+  "kind": "util",
+  "conf": "A",
+  "evidence": "static float H/U=activeCursorX/Y; static int G=refCount; private vK()=private构造; vK.c()→activate()(refCount++后首次调onTextInputFocusChange(true)); vK.E()→deactivate()(refCount--后末次调onTextInputFocusChange(false)); vK.m()→forceDeactivate()(refCount=0+onTextInputFocusChange(false)); vK.x(float,float)→updateCursorPos; imports Minecraft+GuiEventListener与源码onTextInputFocusChange调用一致; jar 315行含加密常量展开vs源码86行",
+  "pinned": true
+ },
+ "vl": {
+  "identity": "Render3DScheduler$FilledBoxCommand",
+  "kind": "record",
+  "conf": "A",
+  "evidence": "Record(int jf, int jq, AABB cf)=Record(bottomColor:int, topColor:int, box:AABB); 3组件类型(AABB+2×int)与源码FilledBoxCommand(AABB box, int bottomColor, int topColor)完全一致; 来自Render3DScheduler渲染调度器的3D方块填充命令",
+  "pinned": true
+ },
+ "vL": {
+  "identity": "LuminRenderSystem$ShaderUniforms",
+  "kind": "class",
+  "conf": "A",
+  "evidence": "inner class结构完全同构: Map<String,DynamicUniformStorage<DynamicUniform>> l=UNIFORMS; A()→endFrame()(UNIFORMS.values().forEach(::endFrame)); b(key,label,size,cap,uniform)→write()(computeIfAbsent+writeUniform); P()→closeAll()(UNIFORMS.values().forEach(::close)+clear); lambda$write$0→new DynamicUniformStorage(label,size,cap); private构造=工具类; 来自LuminRenderSystem GPU渲染管理",
+  "pinned": true
+ },
+ "vM": {
+  "identity": "InvHelper",
+  "kind": "util",
+  "conf": "A",
+  "evidence": "MC imports大量Item类型(ArrowItem/AxeItem/BowItem/CrossbowItem/ShovelItem等)+Block类型(BushBlock/CropBlock/SlabBlock等)与源码InvHelper一致; Set<Item> e/X=物品分类集; List<Block> s=blacklistedBlocks黑名单; method f()→getBestShovelScore; lambda$getWorstArrow$0→ArrowItem instanceof检查; 5345行含加密常量展开vs源码1062行",
+  "pinned": true
+ },
+ "vm": {
+  "identity": "AStarFollowerNavigator$Direction",
+  "kind": "record",
+  "conf": "A",
+  "evidence": "Record(int cL, int cw, int cZ, double WU)=Record(int x, int y, int z, double cost); 4组件类型(3×int+double)与源码Direction(int x, int y, int z, double cost)完全一致; A*寻路算法方向+代价记录; 源码位于AStarFollowerNavigator内部(316行处)",
+  "pinned": true
+ },
+ "vN": {
+  "identity": "ClientSetting$ModuleSort",
+  "kind": "enum",
+  "conf": "A-",
+  "evidence": "枚举常量 Name/EnabledFirst/Addon 与 ClientSetting.ModuleSort(源码第40-43行)完全一致; 3个常量、125行均吻合; 版本差(26.1.2→26.2)",
+  "pinned": true
+ },
+ "nW": {
+  "identity": "ShaderHolder.Shader",
+  "kind": "enum",
+  "conf": "A",
+  "evidence": "枚举常量Default/Smoke/Gradient/Snow/Fade与src ShaderHolder.Shader逐一完全吻合; src ShaderHolder.java:344-348定义同名枚举",
+  "pinned": true
+ },
+ "uQ": {
+  "identity": "NoFall.Mode",
+  "kind": "enum",
+  "conf": "A",
+  "evidence": "enum常量GroundSpoof+GrimJump匹配src NoFall.Mode的GroundSpoof+Grim2B2T(版本26.2更名); NoFall在movement模块; 123行吻合src Mode enum规模",
+  "pinned": true
+ },
+ "uR": {
+  "identity": "RegistryListSelectPopup.Category",
+  "kind": "record",
+  "conf": "A",
+  "evidence": "record<T>(String aq, Predicate<T> AS)精确匹配src Category<T>(String name, Predicate<T> predicate); 21行一致; DG已映射为RegistryListSelectPopup(同文件内record)",
+  "pinned": true
+ },
+ "ur": {
+  "identity": "BlurShader.BoxBlurUniforms",
+  "kind": "record",
+  "conf": "A",
+  "evidence": "record(float,float,float) implements DynamicUniformStorage.DynamicUniform; write方法putVec4(w,h,q,0f)匹配src BoxBlurUniforms(float width,float height,float quality); 74行含indy膨胀吻合src精简record",
+  "pinned": true
+ },
+ "vs": {
+  "identity": "StringSettingRow",
+  "kind": "class",
+  "conf": "A",
+  "evidence": "extends vh<Xc>=SettingRow<StringSetting>; MC imports: KeyboardHandler, GuiGraphicsExtractor, CharacterEvent, MouseButtonEvent; 3252行; 源码StringSettingRow extends SettingRow<StringSetting> imports CharacterEvent/MouseButtonEvent/KeyboardHandler/GuiGraphicsExtractor; 匹配完整",
+  "pinned": true
+ },
+ "vU": {
+  "identity": "ColorSettingRow",
+  "kind": "class",
+  "conf": "A",
+  "evidence": "extends vh<DV>=SettingRow<ColorSetting>; MC imports: GuiGraphicsExtractor, MouseButtonEvent; 276行; 源码ColorSettingRow extends SettingRow<ColorSetting> imports GuiGraphicsExtractor/MouseButtonEvent; 方法签名匹配(mouseClicked→E, buildUi→K, getSwatchBounds→m)",
+  "pinned": true
+ },
+ "XC": {
+  "identity": "Fullbright.Mode",
+  "kind": "enum",
+  "conf": "A",
+  "evidence": "枚举常量 Potion, Gamma 与 src Fullbright.Mode{Gamma,Potion} 逐一对应; 行数140吻合内部枚举+静态初始化器解密块",
+  "pinned": true
+ },
+ "XD": {
+  "identity": "HitParticles.Mode",
+  "kind": "enum",
+  "conf": "A",
+  "evidence": "枚举常量 Stars, Hearts, Bloom 与 src HitParticles.Mode{Stars,Hearts,Bloom} 完全一致; Particles.Mode 多出 SnowFlake/Dollars 故排除",
+  "pinned": true
+ },
+ "Xd": {
+  "identity": "SettingListController.SettingEntry",
+  "kind": "record",
+  "conf": "A",
+  "evidence": "record(vh<?> l7, ih yL) = record(SettingRow<?> row, UiRect bounds); ih=UiRect(4 float字段含contains/inset方法); SettingListController内嵌SettingEntry签名完全匹配",
+  "pinned": true
+ },
+ "XM": {
+  "identity": "Filter.Mode",
+  "kind": "enum",
+  "conf": "A",
+  "evidence": "Enum 常量完全匹配：XM.LightMap=Filter.Mode.LightMap, XM.Shader=Filter.Mode.Shader; Filter.Mode 是 Filter.java 内 private enum → 编译后为顶层类",
+  "pinned": true
+ },
+ "OZ": {
+  "identity": "SettingListController.RowRenderCallback",
+  "kind": "interface",
+  "conf": "B",
+  "evidence": "@FunctionalInterface + void k(Dl<?>=Setting<?>, vh<?>=SettingRow<?>, ih=UiRect) 签名与 src SettingListController.java 内部接口 RowRenderCallback void render(Setting<?>, SettingRow<?>, UiRect) 三参类型逐一对应; CFR 将内部接口提取为顶层类"
+ },
+ "O_": {
+  "identity": "Particles$ColorMode",
+  "kind": "enum",
+  "conf": "B",
+  "evidence": "枚举常量 Custom/Sync 与 src Particles.java 内部枚举 ColorMode{Custom,Sync} 完全一致; 唯一宿主 u8(Dx<O_> E 字段)有 5 个 Identifier/2 个 List 粒子集合/RenderPipeline, 与 src Particles(5 个 Identifier+fireflies+particles 双列表+PARTICLE_PIPELINE)结构吻合; HitParticles 亦有同名枚举但仅 3 个 Identifier/1 个粒子列表, 与 u8 结构不匹配"
+ },
+ "uz": {
+  "identity": "PopChams",
+  "kind": "module",
+  "conf": "A",
+  "evidence": "设置谱逐项吻合: V=renderTime(1.0/0.1/6.0/0.1), H=yModifier(0.75/-4.0/4.0/0.05), e=scaleModifier(-0.25/-4.0/4.0/0.05), c=fadeOut(Xn BoolSetting true), P=sideColor(DV Color(255,255,255,25)), C=lineColor(DV Color(255,255,255,127)), q=yEasing(Dx<lH> EnumSetting<Easing>), t=ignoreSelf(Xn BoolSetting); 事件处理: @yE t(d9=Render3DEvent) + PacketEvent.Receive(anchored); W=List<GhostPlayer>(ghosts); 内部类 GhostPlayer(i=_i) extends RemotePlayer; lH=Easing 枚举确认 || [证据裁决] pinned",
+  "pinned": true
+ },
+ "vi": {
+  "identity": "EnumSettingRow",
+  "kind": "class",
+  "conf": "A",
+  "evidence": "extends vh<Dx<?>>匹配EnumSettingRow extends SettingRow<EnumSetting<?>>; GuiGraphicsExtractor+MouseButtonEvent导入匹配; labelScale=0.68f/chipTextScale=0.60f常量在jar源码可见; getChipBounds→j()方法签名一致; mouseClicked检查bounds.contains+button()==0一致",
+  "pinned": true
+ },
+ "vE": {
+  "identity": "TargetManager",
+  "kind": "class",
+  "conf": "B",
+  "evidence": "MC导入(ClientPacketListener,Entity,LivingEntity,ArmorStand,Player)与src TargetManager一致; private LivingEntity c对应sharedTarget; V()中isAlive()/level()检查匹配isSharedTargetAlive/isValidTarget; k()返回List处理实体列表匹配collectTargets/acquireTargets; 锚点ClientTickEvent.Pre匹配onClientTick注解; 但jar中为singleton(H)而src中TargetManager非singleton，疑26.2重构"
+ },
+ "vW": {
+  "identity": "AutoArmor.ElytraPriority",
+  "kind": "enum",
+  "conf": "A-",
+  "evidence": "jar枚举4值(None,Always,ElytraPlus,Ignore)匹配AutoArmor内部枚举ElytraPriority; 源码26.1.2版为3值(Always,ElytraPlus,Ignore), 26.2版新增None; 枚举值名完全明文匹配",
+  "pinned": true
+ },
+ "vw": {
+  "identity": "EpsilonTranslations.Module",
+  "kind": "class",
+  "conf": "A-",
+  "evidence": "jar有6个static uT(TranslateComponent)字段; 源码EpsilonTranslations.Module内部类有6个static TranslateComponent字段(VISIBLE,HIDDEN,FROM,STATE_PREFIX,STATE_ENABLED,STATE_DISABLED); 数量匹配, 类型匹配, 内部类obf后为独立顶级类",
+  "pinned": true
+ },
+ "vz": {
+  "identity": "ConfigHolder",
+  "kind": "class",
+  "conf": "A",
+  "evidence": "5057行; 导入所有Setting类型(Xn/XG/DM/DV/Dx/X0/XF/Xc/Xe)+Gson+ViaBackwards/ViaBedrock/ViaLegacy; 字段匹配: Gson F, Path n/Y/O/c/x/D/t/i/V, Pattern J, boolean W/N/v; 源码ConfigHolder有相同imports和字段结构 || [裁决] 7 字段(多 Path/String 常量)+Gson+Setting 全家导入，符合 src ConfigHolder(1288行, 含 CONFIGS_FOLDER/EXPORTS_FOLDER 等常量)；gm 仅 2 字段",
+  "pinned": true
+ },
+ "yD": {
+  "identity": "CrystalBlocker.SwitchMode",
+  "kind": "enum",
+  "conf": "A",
+  "evidence": "Enum constants Visible, Silent 完全匹配 CrystalBlocker.java:55-57 内部 enum SwitchMode；jar 为内部枚举编译产物",
+  "pinned": true
+ },
+ "yf": {
+  "identity": "ClientSetting.HideMode",
+  "kind": "enum",
+  "conf": "A",
+  "evidence": "Enum constants Hide, Vanilla, None 完全匹配 ClientSetting.java:77-79 内部 enum HideMode",
+  "pinned": true
+ },
+ "yv": {
+  "identity": "AutoWeapon$Mode",
+  "kind": "enum",
+  "conf": "A",
+  "evidence": "枚举仅2个常量Smart/Simple；src AutoWeapon.Mode恰好是private enum {Simple, Smart}，结构完全一致；anchored_refs含SeQL（加密分发器），与jar中静态初始化器的字符串解密吻合",
+  "pinned": true
+ },
+ "XU": {
+  "identity": "Scaffold.SwapMode",
+  "kind": "enum",
+  "conf": "A",
+  "evidence": "Enum值None/Normal/Silent/InvSwitch与源码Scaffold.SwapMode(行103-108)完全一致; 4值匹配; jar提取为独立顶层类(26.2提取内部enum)",
+  "pinned": true
+ },
+ "XW": {
+  "identity": "ZealotCrystalPlus.PlaceMode",
+  "kind": "enum",
+  "conf": "A",
+  "evidence": "Enum值Multi/Single/Off与源码ZealotCrystalPlus.PlaceMode(行1814-1817:Off/Single/Multi)完全一致(顺序不同); RenderPredictMode(行1859-1862)值相同; jar提取为独立顶层类",
+  "pinned": true
+ },
+ "yA": {
+  "identity": "Hat.Mode",
+  "kind": "enum",
+  "conf": "A",
+  "evidence": "Enum 常量 Fade/Sexy/Astolfo 与 src Hat.Mode (Astolfo/Sexy/Fade) 完全匹配（仅顺序不同）",
+  "pinned": true
+ },
+ "ya": {
+  "identity": "FireflyESP.ColorMode",
+  "kind": "enum",
+  "conf": "A",
+  "evidence": "Enum 常量 Solid/Rainbow/Blend 与 src FireflyESP.ColorMode (Solid/Blend/Rainbow) 完全匹配（仅顺序不同）",
+  "pinned": true
+ },
+ "yH": {
+  "identity": "LuminRenderPipelines",
+  "kind": "class",
+  "conf": "A",
+  "evidence": "12 static RenderPipeline字段+2 Snippet; import BlendFunction/ColorTargetState/VertexFormat/Identifier; 与 src LuminRenderPipelines 结构一致(26.1.2 有8条Pipeline, 26.2增至12条, 新增PrimitiveTopology/BindGroupLayout为26.2 API) || [裁决] 12 个 static RenderPipeline 字段(src 8 个，26.2 扩展)；y_ 有 0 个该字段(属管线缓存/管理器类) || [证据裁决] pinned",
+  "pinned": true
+ },
+ "yN": {
+  "identity": "Render3DScheduler$OutlineBoxCommand",
+  "kind": "record",
+  "conf": "A",
+  "evidence": "Record(AABB,int,float) 完全匹配 src OutlineBoxCommand(AABB box, int color, float thickness); Render3DScheduler.java:418",
+  "pinned": true
+ },
+ "yp": {
+  "identity": "AddonHolder",
+  "kind": "class",
+  "conf": "A",
+  "evidence": "singleton yp.e=AddonHolder.INSTANCE; List<iH>=List<EpsilonAddon> addons; Set<String> S=addonIds; boolean f=setupComplete; synchronized方法 registerAddon/setupAddons/getAddons 完全匹配 src AddonHolder.java",
+  "pinned": true
+ },
+ "z2": {
+  "identity": "ShaderHolder",
+  "kind": "class",
+  "conf": "A",
+  "pinned": true,
+  "evidence": "MixinGameRenderer.processShadersOutline 三联同构 u/p/J == processEntityOutlineTarget/processChestOutlineTarget/processHandOutlineTarget; MixinItemInHandRenderer z2.a.i==beginHandOutlineCapture; MixinOutputTarget z2.a.R==outline target getter || [裁决] 4 mixin 逐行同构证据远强于 yK 的 Jaccard 0.167"
+ },
+ "er": {
+  "identity": "AutoKouZi",
+  "kind": "module",
+  "conf": "A",
+  "pinned": true,
+  "evidence": "Dx<dG>=EnumSetting<AutoKouZi$Mode> 类型指纹唯一确认（dG=AutoKouZi.Mode 常量 TXT/SENTENCE 已由枚举明文匹配证实）；dR=PlayerTickEvent.Pre 锚点吻合 || [恢复] 曾被 Jaccard 启发式误删"
+ },
+ "x": {
+  "identity": "Disabler",
+  "kind": "module",
+  "conf": "A",
+  "evidence": "MC import 完全匹配：ServerboundContainerClickPacket, ServerboundContainerClosePacket, ServerboundPlayerInputPacket, Input。源码 Disabler.java 使用全部4个此类，super=e(Module)，处理 PacketEvent.Send，有 BoolSetting badPacketsA/sprinting/input",
+  "pinned": true
+ },
+ "X3": {
+  "identity": "InvUtils",
+  "kind": "util",
+  "conf": "A",
+  "evidence": "MC import LocalPlayer/Inventory/Item/ItemStack 匹配。jar 有 R(Predicate<ItemStack>) 返回 lz（=FindItemResult），对应源码 find(Predicate<ItemStack>)。静态字段 L(int[])/J(int) 对应 invSlots/previousSlot",
+  "pinned": true
+ },
+ "z8": {
+  "identity": "HudModule.VerticalAnchor",
+  "kind": "enum",
+  "conf": "A",
+  "evidence": "Enum constants Top, Bottom, Center; exact match: HudModule.java:32 'enum VerticalAnchor { Top, Center, Bottom }'; used in HudLayoutHelper for vertical positioning",
+  "pinned": true
+ },
+ "zb": {
+  "identity": "RotationManager",
+  "kind": "class",
+  "conf": "A",
+  "evidence": "Abstract class; fields match exactly: uK(rotations), uK(lastRotations), uK(targetRotations), uK(animationRotation), uK(lastAnimationRotation), boolean(active), boolean(smoothed), double(rotationSpeed), Function(rotations+raytrace), float(randomAngle), boolean(s08), HitResult(rotationHitResult), boolean(calculatingHitResult), int(priority); @yE=@EventHandler; events: PlayerTickEvent.Pre/RaytraceEvent/RespawnEvent/RotationAnimationEvent/SendPositionEvent; MC imports: Minecraft/LocalPlayer/HitResult",
+  "pinned": true
+ },
+ "zF": {
+  "identity": "Component",
+  "kind": "class",
+  "conf": "A",
+  "evidence": "抽象基类，3 float 字段(x,y,width)精确匹配源码 Component.java；抽象方法 H()=getHeight(), O()=draw()；方法 S() 实现 isHovered 矩形命中检测逻辑完全一致；import DF/IH/zU 与源码 UiTree/UiTextMetrics/UiRect 对应",
+  "pinned": true
+ },
+ "zc": {
+  "identity": "SettingWidget",
+  "kind": "class",
+  "conf": "A",
+  "evidence": "abstract class zc<S extends Dl<?>> extends zF 完全匹配 SettingWidget<S extends Setting<?>> extends Component；字段 protected final S v = setting；构造器接收 Setting 参数；两处强结构指纹一致",
+  "pinned": true
+ },
+ "zG": {
+  "identity": "ColorWidget",
+  "kind": "class",
+  "conf": "A",
+  "evidence": "extends zc<DV>(SettingWidget<ColorSetting>)精确匹配；float 常量全部吻合：R=15=CHANNEL_ROW_HEIGHT, P=48=PICKER_HEIGHT, b=24=CHANNEL_BOX_WIDTH, s=12=CHANNEL_BOX_HEIGHT, g=8=CHANNEL_LABEL_WIDTH, n=0.44=CHANNEL_TEXT_SCALE, K=3.0=PICKER_TO_HUE_GAP；Color 通道操作方法 Z()/z() 对应 RGB/HSV 通道切换",
+  "pinned": true
+ },
+ "ze": {
+  "identity": "DoubleSliderWidget",
+  "kind": "class",
+  "conf": "A",
+  "evidence": "extends z0<DM, Double> 精确匹配 AbstractSliderWidget<DoubleSetting, Double>；DecimalFormat y 字段匹配 FORMAT 常量；方法 V()=getRatio(), D(Object[])=updateValueFromRatio(), c()=formatValue()；引用 DM=DoubleSetting 一致",
+  "pinned": true
+ },
+ "zd": {
+  "identity": "MD3Theme",
+  "kind": "class",
+  "conf": "A",
+  "evidence": "10 个 public static final Color 字段精确匹配 MD3Theme.java 的 10 个主题色常量(SHADOW/SURFACE/SURFACE_DIM/SURFACE_CONTAINER_LOW/SURFACE_CONTAINER/SURFACE_CONTAINER_HIGH/SURFACE_CONTAINER_HIGHEST/OUTLINE/PRIMARY/ON_PRIMARY 等)；类结构为纯静态常量工具类 || [证据裁决] pinned",
+  "pinned": true
+ },
+ "zf": {
+  "identity": "HudElementHolder",
+  "kind": "class",
+  "conf": "A-",
+  "evidence": "List<eh>=List<HudModule> 匹配；zf.Z=INSTANCE 静态单例匹配；@yE 注解 on zR 参数 handler = @EventHandler on Render2DEvent.HUD；anchored_refs 包含 HudEditorScreen/Render2DEvent.HUD/Setting 完全吻合 HudElementHolder 功能；行数差异(820 vs ~100)因 26.2 新增逻辑",
+  "pinned": true
+ },
+ "zE": {
+  "identity": "ZealotCrystalPlus.RangeMode",
+  "kind": "enum",
+  "conf": "A",
+  "evidence": "Enum 恰好 2 常量 Eyes/Feet 精确匹配 ZealotCrystalPlus.java 内部枚举 RangeMode 的 Feet/Eyes 常量；src 中 i18n 文件同时有 'feet'/'eyes' 翻译键对应此枚举",
+  "pinned": true
+ },
+ "z4": {
+  "identity": "BlockHighlight$Mode",
+  "kind": "enum",
+  "conf": "A",
+  "evidence": "extends Enum<z4>; 6个enum常量: OutlinedSide, BothSide, Fill, Both, Outline, FilledSide; 源码BlockHighlight.Mode完全相同6个值(Both/BothSide/Fill/FilledSide/Outline/OutlinedSide); 字母顺序一致; 唯一指纹匹配",
+  "pinned": true
+ },
+ "XO": {
+  "identity": "HoleUtils",
+  "kind": "util",
+  "conf": "A",
+  "evidence": "imports BlockPos/Player/BlockGetter/BlockState; method H(BlockPos,int,boolean)→gc(Hole) 匹配 getHole; method q(Player) 检查玩家位置偏移(-1,0,0)(0,0,-1)等判断是否在洞中→匹配 inHole; method C(BlockPos) 检查 collisionShape→匹配 isBlock",
+  "pinned": true
+ },
+ "dd": {
+  "identity": "LuminRenderTarget",
+  "kind": "class",
+  "conf": "A",
+  "evidence": "implements AutoCloseable + 字段 GpuTextureView C/GpuTexture q/Identifier R/boolean F(useDepth)/int K(width)/int n(height)/boolean T(closed) 与 src graphics/LuminRenderSystem.java 内 inner class LuminRenderTarget 逐一吻合；F() 方法调 clearColorAndDepthTextures 与 src createTextures 逻辑一致；static w(String,int,int) 对应 create(name,w,h) 工厂方法 || [证据裁决] pinned",
+  "pinned": true
+ },
+ "gE": {
+  "identity": "FlickParticle",
+  "kind": "class",
+  "conf": "A",
+  "evidence": "extends gs(EffectParticle)；构造器(iJ,Vec3,float)中 random(-0.04,0.04)/random(0.02,0.1)/random(-0.04,0.04) 赋值 xd/yd/zd 与 src FlickParticle 构造器完全一致；W=scale, x=age；M() 即 afterTick(): clamp((1-age*1.5),0.2,1.0)-0.2 + age+=1/lifetime + alpha*=friction 与 src FlickParticle.afterTick 语义同构",
+  "pinned": true
+ },
+ "gs": {
+  "identity": "EffectParticle",
+  "kind": "class",
+  "conf": "A-",
+  "evidence": "abstract类720行；字段包含位置/缩放/alpha/纹理等粒子属性；方法s()(PoseStack渲染)/K()(Entity查询)/Z()(boolean)/X()(Identifier纹理选择)；gq(EffectParticle子类)extends它；26.2拆出为独立顶层类，26.1.2为MasEffectsParticleRenderer内嵌类",
+  "pinned": true
+ },
+ "n5": {
+  "identity": "RowClickInterceptor",
+  "kind": "interface",
+  "conf": "A",
+  "evidence": "精确结构匹配：@FunctionalInterface 接口，方法签名 boolean s(vh<?>, ih, MouseButtonEvent, boolean) 与源码 SettingListController.RowClickInterceptor handle(SettingRow<?>, UiRect, MouseButtonEvent, boolean isDoubleClick) 四参数类型完全对应(vh=SettingRow, ih=UiRect, MouseButtonEvent, boolean)。源码唯一匹配的 FunctionalInterface。",
+  "pinned": true
+ },
+ "nq": {
+  "identity": "CrystalSnapshot",
+  "kind": "record",
+  "conf": "A",
+  "evidence": "Record 6字段: EndCrystal jc + int GF + Vec3 HK + AABB c8 + boolean fv + boolean FJ 与 src CrystalAura.CrystalSnapshot(EndCrystal entity, int id, Vec3 pos, AABB box, boolean selfDamage, boolean targetDamage) 完全对应; MC import EndCrystal+AABB+Vec3 一致",
+  "pinned": true
+ },
+ "Ob": {
+  "identity": "FilledFieldColors",
+  "kind": "record",
+  "conf": "A",
+  "evidence": "Record组件3个Color(gv/gB/gZ)完全匹配源码 record FilledFieldColors(Color text, Color caret, Color indicator); 3字段顺序一致; 类型完全吻合(java.awt.Color); Ob.java 49行 vs PanelElements.java FilledFieldColors 114行位置",
+  "pinned": true
+ },
+ "uC": {
+  "identity": "SwapMode",
+  "kind": "enum",
+  "conf": "B",
+  "evidence": "Enum常量Silent,InvSwitch与src中Phase/Scaffold/ElytraFly的SwapMode内部枚举完全一致;26.2可能提取为顶层枚举类."
+ },
+ "ut": {
+  "identity": "HitSound",
+  "kind": "enum",
+  "conf": "A",
+  "evidence": "枚举4常量UwU/Nya/Moan/OFF，与SoundFX.java中private enum HitSound完全匹配",
+  "pinned": true
+ },
+ "uw": {
+  "identity": "FXAAInfo",
+  "kind": "record",
+  "conf": "A",
+  "evidence": "record(uw.kZ,uw.kB) implements DynamicUniformStorage.DynamicUniform，write方法putVec4；FXAAShader.java中record FXAAInfo(float width, float height) implements DynamicUniformStorage.DynamicUniform，UNIFORMS_SIZE=putVec4()，完全匹配",
+  "pinned": true
+ },
+ "uX": {
+  "identity": "LineCommand",
+  "kind": "record",
+  "conf": "A",
+  "evidence": "record uX(Vec3 rc, Vec3 rG, int fk, float iT) 与 Render3DScheduler.java 中 record LineCommand(Vec3 from, Vec3 to, int color, float thickness) 字段类型序列完全匹配(Vec3,Vec3,int,float)",
+  "pinned": true
+ },
+ "vb": {
+  "identity": "Trail",
+  "kind": "class",
+  "conf": "A-",
+  "evidence": "213行; Vec3 H/O(from/to位置) + Color z + u8 N + int r/C(age/tick计数); 方法z(float)做lerp插值/10.0, b(Object[])计算camera-relative Vec3; 与particles.Trail的Vec3 interpolate(float)结构一致; 26.1.2版本中Trail内联，26.2可能提取为独立类",
+  "pinned": true
+ },
+ "X4": {
+  "identity": "TabDefinition",
+  "kind": "record",
+  "conf": "A",
+  "evidence": "Record 组件 YO(g8=枚举)+pm(uT=TranslateComponent)。源码 ClientSettingPanel 内部类 record TabDefinition(PanelState.ClientSettingTab tab, TranslateComponent component) 完全匹配。g8=PanelState.ClientSettingTab",
+  "pinned": true
+ },
+ "Xb": {
+  "identity": "BreakMode",
+  "kind": "enum",
+  "conf": "B",
+  "evidence": "枚举常量完全匹配: Off/Target/All/Own/Smart (5个)与ZealotCrystalPlus.BreakMode一致；src版(26.1.2)中为private inner enum，jar版(26.2)为顶层类；常量声明顺序不同(src: Off,Target,Own,Smart,jar: Off,Target,All,Own,Smart)属版本差异"
+ },
+ "Xm": {
+  "identity": "DamagePriority.Efficient",
+  "kind": "enum",
+  "conf": "B",
+  "evidence": "Xm extends Xo(DamagePriority sealed class); Xm.e(float,float)返回 f2-f 完全对应 DamagePriority.Efficient.score(selfDamage,targetDamage)=targetDamage-selfDamage; Xm.Client/Silent 为 26.2 新增子模式"
+ },
+ "Xo": {
+  "identity": "DamagePriority",
+  "kind": "enum",
+  "conf": "A",
+  "evidence": "sealed Enum permits Xm/XR; 常量 Aggressive/Efficient; 抽象方法 float score(float,float); XR extends Xo 返回 targetDamage→匹配 Aggressive; 源码 ZealotCrystalPlus.DamagePriority 为同结构 inner enum(26.2 提取为顶层)",
+  "pinned": true
+ },
+ "Xt": {
+  "identity": "ThemePalette",
+  "kind": "record",
+  "conf": "A",
+  "evidence": "Record 26 Color字段(d9/dl/df/DZ/d8/DR/DA/dn/DM/dt/DF/dy/db/d5/d3/di/dz/dj/d1/d2/DX/DP/DB/de/DD/dk) + 构造器26 Object参数逐一强转Color + paletteDark/paletteLight静态工厂hi.a('G',hex,int)解密hex字符串; 源码MD3Theme.ThemePalette:26 Color字段完全吻合(26.1.2→26.2无字段变化)",
+  "pinned": true
+ },
+ "Xv": {
+  "identity": "ModuleSort",
+  "kind": "enum",
+  "conf": "B",
+  "evidence": "Enum值ADDED/NAME/TYPE + 字段uT(TranslateComponent) + Comparator<nV>; 语义匹配:ADDED=插入序(无comparator),NAME=按名排序(lambda提取nV名),TYPE=按类型排序(组合comparator); 源码26.1.2 ModuleSort=Name/EnabledFirst/Addon值名不同但语义一致(26.1.2→26.2重命名)"
+ },
+ "Xw": {
+  "identity": "SettingSection",
+  "kind": "record",
+  "conf": "B",
+  "evidence": "Record字段is(SettingLayoutPlanner.Section) + List<zc<?>>; 源码ModuleButton.SettingSection:record(SettingLayoutPlanner.Section model, List<SettingWidget<?>> widgets); 字段类型模式匹配(Section+List)"
+ },
+ "yh": {
+  "identity": "SwingHand",
+  "kind": "enum",
+  "conf": "B",
+  "evidence": "枚举常量 MainHand/OffHand/Auto 与 ZealotCrystalPlus.SwingHand 完全匹配; 26.1.2 为 ZealotCrystalPlus 内部 private enum, 26.2 提升为顶层类"
+ },
+ "yQ": {
+  "identity": "PlaceBypass",
+  "kind": "enum",
+  "conf": "A",
+  "evidence": "enum 常量 Up/Down/Closest 与 ZealotCrystalPlus.java 内部 enum PlaceBypass { Up, Down, Closest } 完全匹配；3 个常量，142 行；standalone class 是 inner enum 提取产物",
+  "pinned": true
+ },
+ "yR": {
+  "identity": "LungeMode",
+  "kind": "enum",
+  "conf": "A",
+  "evidence": "enum 常量 DirectionBased/Above 与 SpearKill.java 内部 enum LungeMode { DirectionBased, Above } 完全匹配；2 个常量，123 行；standalone class 是 inner enum 提取产物",
+  "pinned": true
+ },
+ "yr": {
+  "identity": "PacketPlaceMode",
+  "kind": "enum",
+  "conf": "A",
+  "evidence": "enum 常量 Off/Weak/Strong 各带2个boolean字段(onRemove,onBreak)与 ZealotCrystalPlus.java 内部 enum PacketPlaceMode { Off(false,false), Weak(true,false), Strong(true,true) } 完全匹配；149 行",
+  "pinned": true
+ },
+ "z6": {
+  "identity": "ShaderUniforms",
+  "kind": "record",
+  "conf": "A",
+  "evidence": "Record with 2 GpuBufferSlice fields (params,colors); exact match: ShaderHolder.java:351 'private record ShaderUniforms(GpuBufferSlice params, GpuBufferSlice colors)'",
+  "pinned": true
+ },
+ "eF": {
+  "identity": "Phase",
+  "kind": "module",
+  "conf": "A-",
+  "evidence": "Mode/SwapMode 枚举与 src Phase 的 Mode(Vanilla,Pearl,Sunrise,ForceMine,CCClip)+SwapMode(Silent,InvSwitch)一致；MC导入 ServerboundMovePlayerPacket$Pos+ServerboundPlayerCommandPacket+ServerboundSwingPacket+ClipContext 均为 Phase 穿墙核心依赖；26.2 行数膨胀(264→1992)符合 indy 混淆扩张 || [证据裁决] pinned",
+  "pinned": true
+ },
+ "el": {
+  "identity": "AspectRatio",
+  "kind": "module",
+  "conf": "A",
+  "evidence": "DoubleSetting C default=1.78, min=0.1, max=8.0, step=0.1 完全匹配 AspectRatio.java 的 ratio 字段；Category.RENDER；极简模块无其他设置；src 仅此一处有 1.78 默认值",
+  "pinned": true
+ },
+ "J": {
+  "identity": "AntiAlias",
+  "kind": "module",
+  "conf": "B",
+  "evidence": "82 行极简模块仅含 static final 实例 + 单个 @EventHandler 方法 V(yZ)；AntiAlias.java 是唯一仅处理 AfterRender3DEvent 的极简模块（21 行，差额为 SeQL 静态初始化解密）；Category.RENDER 匹配"
+ },
+ "_h": {
+  "identity": "BlockUtils",
+  "kind": "util",
+  "conf": "B",
+  "evidence": "854行static工具类; MC导入ExperienceOrb/ItemEntity/Arrow/ThrownExperienceBottle/EndCrystal/ClientLevel/Block/BlockState/AABB/BlockHitResult完全匹配src BlockUtils.java实体过滤集; 方法m(Vec3,boolean)检查方块可放置性并过滤非碰撞实体; 854行vs src25行说明26.2大幅扩展(新增EndCrystal处理等)"
+ },
+ "uE": {
+  "identity": "SafeAnchor",
+  "kind": "module",
+  "conf": "A",
+  "evidence": "MC imports匹配(LocalPlayer,InteractionHand,InteractionResult,Inventory,AABB,BlockHitResult)；jar extends u9(Module)；jar代码含getDirection()→BlockHitResult、consumesAction()→InteractionResult，与SafeAnchor锚块放置逻辑一致；字段BlockPos V=锚点位置 || [证据裁决] pinned",
+  "pinned": true
+ },
+ "e9": {
+  "identity": "ScaffoldBlock",
+  "kind": "hudmodule",
+  "conf": "A",
+  "evidence": "super=eh(HudModule)；imports含eW(Scaffold)、DM(DoubleSetting)、DV(ColorSetting)、Xn(BoolSetting)；anchored含HudModule+Scaffold；jar代码引用KeyMapping/Gui/ChatScreen+lambda(updateBalanceInstance/updateMusicInstance/updateTabListInstance)与ScaffoldBlock HUD元素完全匹配",
+  "pinned": true
+ },
+ "_I": {
+  "identity": "HitParticles",
+  "kind": "module",
+  "conf": "A",
+  "evidence": "anchored_refs 包含 HitParticles+IntSetting（双重确认）。MC 导入 ClientLevel+BlockPos+BlockState+Vec3 与 src HitParticles 的 onRender3D/onTick 方法使用一致。字段 r/Q/K/R/m/a 均 float 类型，对应 Particle 内部类的渲染属性（position/velocity/rotation/scale）。Color w 对应 particleColor。方法 P(float) 做 lerp 插值（粒子位置计算），方法 M() 检查距离/可见性。src HitParticles 确认含 IntSetting（amount/lifeTime/speed 三个 IntSetting）。 || [证据裁决] pinned",
+  "pinned": true
+ },
+ "vo": {
+  "identity": "FireflyESP",
+  "kind": "class",
+  "conf": "A",
+  "evidence": "ya=FireflyESP.ColorMode 唯一指纹（anchored_refs 含 ya，src 仅 KillAura 引用 FireflyESP.ColorMode）；static v(PoseStack, LivingEntity, int, int, double, double, Color, ya, Color, ...) 精确匹配 src FireflyESP.render 签名；2 个 RenderPipeline(y,o) 对应 TARGET_ICON_NO_DEPTH_PIPELINE/TARGET_ICON_PIPELINE；Identifier Y 对应 FIREFLY_TEX；BlendFunction/ColorTargetState/DepthStencilState/CompareOp 导入完全一致",
+  "pinned": true
+ },
+ "i2": {
+  "identity": "LuminImmediateRenderer",
+  "kind": "class",
+  "conf": "B",
+  "evidence": "final class+imports RenderPipeline/RenderPass/VertexFormat/PrimitiveTopology/Matrix4f/Vector3f(GPU顶点管线)+Consumer<RenderPass>+VertexFormat字段; 源码LuminImmediateRenderer final class+Channel内部类管理顶点格式/管线; 26.2展平+扩展"
+ },
+ "y_": {
+  "identity": "LuminTessellator",
+  "kind": "class",
+  "conf": "B",
+  "evidence": "implements AutoCloseable+imports gz(pipeline)+RenderPipeline+Int2ObjectMap<zP>(渲染通道映射)+Ot(渲染上下文)+y8(缓冲管理); 源码LuminTessellator仅26行, 26.2大幅扩展为批次化顶点装配管理器"
+ },
+ "_V": {
+  "identity": "GlslSandBox",
+  "kind": "class",
+  "conf": "A",
+  "evidence": "结构逐项同构: implements AutoCloseable + static final _V I(INSTANCE) + Map<Identifier,RenderPipeline> Z(pipelines) + getOrCreatePipeline(Identifier)方法 + lambda工厂创建pipeline(withCull/withFragmentShader) + close()清理pipelines + static初始化7个Identifier静态常量; src GlslSandBox.java: implements AutoCloseable + static final INSTANCE + Map<Identifier,RenderPipeline> pipelines + getOrCreatePipeline(Identifier) + close() + 4个Identifier常量(SEA_LEVEL/PLANET/BLACK_HOLE/MINECRAFT); 26.2扩展至7个Identifier,结构本质一致",
+  "pinned": true
+ },
+ "_F": {
+  "identity": "BlurShader.BlurUniforms",
+  "kind": "record",
+  "conf": "A",
+  "evidence": "record 11 float 字段 + write(ByteBuffer) 用 putVec4×3 序列化全部 11 float；与 src graphics/shaders/BlurShader.java 内 record BlurUniforms(float width,float height,float quality,float rectWidth,float rectHeight,float rectX,float rectY,float radiusTopLeft,float radiusTopRight,float radiusBottomRight,float radiusBottomLeft) 逐一吻合",
+  "pinned": true
+ },
+ "iL": {
+  "identity": "ZealotCrystalPlus.SnapshotData",
+  "kind": "record",
+  "conf": "A",
+  "evidence": "Record 8 字段逐一对应: t4(long)=id, ko(d2=ResistantBlockCache), nn(D7=SettingsSnapshot), fn(List<nq>=List<CrystalSnapshot>), fT(List<iR>=List<TargetSnapshot>), qw(u5=SelfSnapshot), t5(long)=capturedAt, fu(List<BlockPos>)=placePositions；static final N 构造 7 参数空实例匹配 src SnapshotData.EMPTY；d2=ResistantBlockCache(nq=CrystalSnapshot)已在 class_map 确认",
+  "pinned": true
+ },
+ "eE": {
+  "identity": "ElytraSwap",
+  "kind": "module",
+  "conf": "A-",
+  "evidence": "字段类型精确吻合: X0(activateKey:KeybindSetting) + 2×XG(swapDelay/switchDelay:IntSetting) + Xn(switchBack:BoolSetting); MC: Item+ItemStack 对应 src net.minecraft.world.item.ItemStack 导入; 构造器 Category.PLAYER 一致",
+  "pinned": true
+ },
+ "eA": {
+  "identity": "AutoTotem",
+  "kind": "module",
+  "conf": "A",
+  "evidence": "z()方法精确匹配 src shouldHoldTotem(): health+getAbsorptionAmount() 阈值判断、getY()<-64.0 虚空检测、getMainHandItem()==GOLDEN_APPLE 金苹果检查; DM(double阈值)对应 src health DoubleSetting; Xn 对应 src strict/checkGapple BoolSetting",
+  "pinned": true
+ },
+ "XJ": {
+  "identity": "ClientSettingTabView",
+  "kind": "interface",
+  "conf": "A",
+  "evidence": "接口 extends AutoCloseable; 方法签名逐一对应: g→render(GuiGraphicsExtractor,...), Y→keyPressed(KeyEvent), X→charTyped(CharacterEvent), h→mouseClicked(MouseButtonEvent), r(Object[])→mouseDragged(MouseButtonEvent,double,double), l(double,double,double,double)→mouseScrolled, o(lm)→markDirty, r(Object[])→hasActiveAnimations, V(MouseButtonEvent,boolean)→mouseClicked(Event,boolean); close() default",
+  "pinned": true
+ },
+ "zt": {
+  "identity": "ConfigClientSettingTab",
+  "kind": "class",
+  "conf": "A",
+  "evidence": "implements O0(ClientSettingTabView 26.2版); 锚点 ConfigRowEntry(ConfigClientSettingTab内部record)强唯一指纹; 字段 Map<String,_E>(rowHoverAnimations) + List<vj>(rowEntries) + Dg(文本) + n4 + XZ; src ConfigClientSettingTab 676行→jar 1869行(26.2扩展)",
+  "pinned": true
+ },
+ "ng": {
+  "identity": "BlurShader",
+  "kind": "class",
+  "conf": "A-",
+  "evidence": "锚点 LuminRenderTarget; 字段: RenderTarget input + RenderPipeline×2(pipeline/boxPipeline) + Identifier×2(BLUR_PATH/BLUR_3D_BOX_PATH); 单例 static ng g==INSTANCE; MC: Camera+AABB(render3DBox方法); src BlurShader字段模式一致, jar多了Camera(26.2新增3D渲染依赖)",
+  "pinned": true
+ },
+ "gp": {
+  "identity": "NotificationManager",
+  "kind": "util",
+  "conf": "A",
+  "evidence": "MC import唯一指纹 ChatFormatting+Component+FormattedCharSequence 仅匹配 NotificationManager；字段结构 Map<Integer,y1> O / Queue<y1> M 对应 src Map<Integer,Notification> hashCodeMap / Queue<Notification> notifications；单例 static gp p 对应 src static INSTANCE",
+  "pinned": true
+ },
+ "gw": {
+  "identity": "ShieldWaveParticle",
+  "kind": "class",
+  "conf": "A",
+  "evidence": "extends gs(=EffectParticle)；构造器iJ+Vec3→gs(iJ,Vec3,int,Identifier[])；afterTick: size+=0.2*scaler, alpha按1/lifetime衰减→完全匹配ShieldWaveParticle(Vec3)的afterTick(scaler*0.2F, alpha-1/lifetime)；父类gs已确认为EffectParticle；iJ已确认为MasEffectsParticleRenderer；26.1.2为内部类，26.2提升为顶层类",
+  "pinned": true
+ },
+ "gK": {
+  "identity": "ScrapParticle",
+  "kind": "class",
+  "conf": "A",
+  "evidence": "extends gs(=EffectParticle)；构造器iJ+Vec3+Vec3+Identifier→gs(iJ,Vec3,int,Identifier[])；存储方向xd/yd/zd(第二个Vec3)；设置physics=true；afterTick: alpha=(1-age/lifetime)*0.35→匹配ScrapParticle(Vec3,Vec3,Identifier)的构造器签名(position,motion,texture)+physics=true+afterTick: size=(1-age/lifetime)*0.35(alpha/size版本差)；26.1.2为内部类，26.2提升为顶层类",
+  "pinned": true
+ },
+ "iv": {
+  "identity": "WireframeEntityRenderer",
+  "kind": "util",
+  "conf": "A-",
+  "evidence": "静态工具类：RenderPipeline+PoseStack+Entity+Color+Matrix4f；引用dn(WireframeVertexConsumer)+g0+lZ；k()/P()/R()/x()方法处理管线切换与实体线框绘制；26.1.2 src WireframeEntityRenderer 匹配",
+  "pinned": true
+ },
+ "O8": {
+  "identity": "AccountSetting",
+  "kind": "class",
+  "conf": "A-",
+  "evidence": "[重算] 来自 C046（原始批次最高置信判定）",
+  "pinned": true
+ },
+ "z1": {
+  "identity": "FXAAShader",
+  "kind": "class",
+  "conf": "A-",
+  "evidence": "单例public static final z1 M；字段RenderPipeline u+RenderTarget g+Identifier r/D+int q；static init创建Std140SizeCalculator；lambda$render$0()返回着色器路径；src FXAAShader=INSTANCE+pipeline+input+vertexShader+fragmentShader+UNIFORMS_SIZE 结构完全对应",
+  "pinned": true
+ },
+ "zN": {
+  "identity": "FilterShader",
+  "kind": "class",
+  "conf": "A-",
+  "evidence": "单例public static final zN z；字段RenderPipeline g+RenderTarget U；F(Color)方法按颜色过滤渲染；k()管理RenderTarget创建/调整；c()构建RenderPipeline(withVertexShader/withFragmentShader)；src FilterShader=INSTANCE+pipeline+input+render(Color) 结构对应",
+  "pinned": true
+ },
+ "zu": {
+  "identity": "SnapRotationManager",
+  "kind": "class",
+  "conf": "A",
+  "evidence": "extends zb(=RotationManager) 且有 uK(=Rot2f)字段用于 snappedRot; 重写 E(Object[])=handleSendPosition(dY=SendPositionEvent)、J(dR)=onPlayerTick(PlayerTickEvent.Pre)、G(Object[])=onRotationsSet、B()=clearRotations; v(Object[])方法含snap/restore Rot2f逻辑——保存当前旋转→发包→下tick恢复，与 src SnapRotationManager 的 sendRotationPacket+snapToCurrentRotation+restoreSnappedRotation 流程同构",
+  "pinned": true
+ },
+ "lj": {
+  "identity": "AutoArmor.ArmorData",
+  "kind": "class",
+  "conf": "A",
+  "evidence": "final class 引用 eo(=AutoArmor); EquipmentSlot I(equipmentSlot); int Y(inventorySlot); 3个可重置int字段 V/B/n(prevProtection/newSlot/newProtection); 构造函数(eo,EquipmentSlot,int); G()=reset() 将3字段置-1; 与 src AutoArmor.ArmorData(229行) inner class 结构逐字段同构; 额外字段为外类引用(混淆后显式化)",
+  "pinned": true
+ },
+ "_l": {
+  "identity": "Xray.BlockMemory",
+  "kind": "class",
+  "conf": "A",
+  "evidence": "类级同构: private final BlockPos H(=blockPos) + private long w(=time) + 构造函数(_l/BlockPos) + private boolean v()=isDelayed(): 读取time, 与静态常量 _l.c(阈值) 比较; 被 U(=Xray) 引用为 ArrayList<_l> z 字段 + new _l(BlockPos)调用; 与 src Xray.BlockMemory(blockPos,time=0,构造,boolean isDelayed()) 完全同构",
+  "pinned": true
+ },
+ "zq": {
+  "identity": "TargetRequest",
+  "kind": "record",
+  "conf": "A-",
+  "evidence": "extends Record, 12组件: double th(=range) + float ac(=fov) + 9×boolean(XR/xd/xp/x1/xb/XS/x5/xe=实体类型过滤) + Predicate<LivingEntity> MP(=extraFilter) + int or(=maxTargets); 与 src TargetRequest(range,fov,player,mob,animal,villager,invisible,extraFilter,maxTargets) 9组件结构吻合(9布尔中5对应src+3为26.2新增); 被 eY(=KillAura) 等模块引用",
+  "pinned": true
+ },
+ "ev": {
+  "identity": "SafeCrystal",
+  "kind": "module",
+  "conf": "B",
+  "evidence": "DM(DoubleSetting:2.0,1.0,20.0,0.5)=antiSuicide参数完全匹配; Xn x2 BoolSetting=autoBreak+autoPlace; MC EndCrystal+InteractionHand+ClipContext+Vec3导入匹配; 构造器Category=COMBAT(长值=456237291118568391L); 26.2版新增MultiPlayerGameMode/AABB/BlockHitResult/EntityHitResult导入(通过mc.gameMode间接使用)"
+ },
+ "eI": {
+  "identity": "Eagle",
+  "kind": "module",
+  "conf": "A",
+  "evidence": "MC CarvedPumpkinBlock+PumpkinBlock+SlimeBlock+TntBlock+FallingBlock+EntityBlock+BlockItem导入与Eagle.isHoldingBlock()黑名单完全一致; Xn x5 BoolSetting匹配Eagle的5个BoolSetting; KeyboardInputEvent+PlayerTickEvent.Pre锚点一致; 26.2版新增Hidden0/IlilIlIlil加密库及额外IntSetting",
+  "pinned": true
+ },
+ "X": {
+  "identity": "DoubleAnchor",
+  "kind": "module",
+  "conf": "A",
+  "evidence": "_a导入=AnchorBlast$Phase枚举(DoubleAnchor源码直接使用AnchorBlast的Phase); KeybindSetting+IntSetting x2锚点完全匹配; Category=COMBAT(长值=1119278030115886606L); MC BlockHitResult+Item+Inventory导入匹配锚爆行为; 26.2版新增ClientLevel+LocalPlayer+BlockPos+X0(KeybindSetting)支持",
+  "pinned": true
+ },
+ "Y": {
+  "identity": "Flight",
+  "kind": "module",
+  "conf": "A",
+  "evidence": "DM字段值精确匹配: x(3.5,0.1,10.0,0.1)==src horizontalSpeed; E(1.0,0.1,5.0,0.1)==src verticalSpeed; 构造super(name,Category.MOVEMENT); @yE处理器i(dY=SendPositionEvent)对应src onSendPosition; 行数607≈src68+indy膨胀; MC:LocalPlayer+SendPositionEvent双吻合",
+  "pinned": true
+ },
+ "gq": {
+  "identity": "ShockwaveParticle",
+  "kind": "class",
+  "conf": "A",
+  "evidence": "构造器(iJ,Vec3,Identifier[],float,float,float,boolean)与源码ShockwaveParticle(Vec3,Identifier[],float,float,float,boolean)参数签名完全匹配（iJ为外层MasEffectsParticleRenderer引用）；o()方法(PoseStack渲染)使用Quaternionf旋转π/2+可选π/4(rotateX/rotateY)并检查crossed布尔标志，与源码ShockwaveParticle.render()的renderPlane(π/2) + if(crossed) renderPlane(rotateY(π/4).rotateX(π/2))完全对应；字段float alphaControl+boolean crossed匹配；导入PoseStack+Quaternionf",
+  "pinned": true
+ },
+ "gM": {
+  "identity": "PearlTrailParticle",
+  "kind": "class",
+  "conf": "A",
+  "evidence": "构造器(iJ,Vec3,Vec3)匹配源码PearlTrailParticle(Vec3,Vec3)（iJ为外层引用）；构造器内motion+random*0.005偏移与源码xd/motion.x+randomInclusive(-10,10)*0.005F完全对应；friction=0.98匹配；afterTick计算size=(1-age/lifetime)*0.15并检查player距离<6.0调整alpha，与源码PearlTrailParticle.afterTick一致；Dl.S()距离检查匹配源码mc.player.position().distanceTo(position)<6.0",
+  "pinned": true
+ },
+ "gV": {
+  "identity": "FlashParticle",
+  "kind": "class",
+  "conf": "A",
+  "evidence": "构造器(iJ,Vec3)匹配FlashParticle(Vec3)；字段初始化size=0.12, gravity=0.1, alpha=0.99, friction=0.91与源码this.size=0.12F/this.gravity=0.1F/this.alpha=0.99F/this.friction=0.91F完全一致；lifetime=base+nextInt(range)匹配源码48+random.nextInt(12)；M()实现age>lifetime/2时alpha衰减的分支逻辑与源码afterTick完全对应",
+  "pinned": true
+ },
+ "gT": {
+  "identity": "DeathSparkParticle",
+  "kind": "class",
+  "conf": "A",
+  "evidence": "构造器(iJ,Vec3)匹配DeathSparkParticle(Vec3)；friction=1.0匹配源码this.friction=1.0F；size使用gT.s(k,int,int,iJ,5,range)*0.06f匹配源码randomInclusive(5,10)*0.06F；lifetime使用gT.s(k,int,int,iJ,5,range)匹配源码固定值20的随机变体；M()中xd/zd乘以0.9匹配源码afterTick中xd*=0.9F/zd*=0.9F；alpha线性衰减(1-age/lifetime)*0.45匹配源码afterTick",
+  "pinned": true
+ },
+ "gl": {
+  "identity": "DeathSkullParticle",
+  "kind": "class",
+  "conf": "B",
+  "evidence": "构造器(iJ,Vec3)匹配DeathSkullParticle(Vec3)；size=1.0匹配源码this.size=1.0F；friction=1.0匹配源码this.friction=1.0F；M()中alpha递减与yd乘以0.95的摩擦逻辑匹配源码afterTick: alpha-=1/30F + yd*=0.95F；C()/n()返回固定lifetime匹配源码58；注意：源码设置yd=0.2(初始速度)而jar设置gravity=0.2，可能是26.2将初始向上速度改为重力参数的版本差异"
+ },
+ "y": {
+  "identity": "SilentAim",
+  "kind": "module",
+  "conf": "A",
+  "evidence": "双事件handler:PlayerTickEvent.Pre+SwingHandEvent(d3)为唯一指纹(全combat仅SilentAim导入SwingHandEvent)；5个Xn(BoolSetting)匹配weaponOnly/player/mob/animal/villagers/invisible；DM(DoubleSetting)+XG(IntSetting)匹配range+fov；LivingEntity u=target字段",
+  "pinned": true
+ },
+ "ld": {
+  "identity": "AddonClientSettingTab",
+  "kind": "class",
+  "conf": "B",
+  "evidence": "implements O0; MC GuiGraphicsExtractor+CharacterEvent+KeyEvent+MouseButtonEvent; 锚点 KeybindSetting(X0)+KeybindSettingRow(vJ)+RowClickInterceptor(n5)+SettingListController(Og)+SettingRow(v_); 字段 Map<Dl<?>,_E>(settings→view映射); AddonClientSettingTab 是唯一引用 SettingListController+KeybindSettingRow+RowClickInterceptor 的 Tab 类(排除已匹配的 XI/y9); 2401行 vs src 700行(26.2扩展)"
+ },
+ "zX": {
+  "identity": "RenderBox",
+  "kind": "record",
+  "conf": "A",
+  "evidence": "class_map AutoHitCrystal(ey)证据: List<zX>=renderBoxes; 字段序列 AABB(aabb)+Color(lineColor)+Color(sideColor)+long(startTime) 与 AutoHitCrystal.RenderBox record 完全吻合",
+  "pinned": true
+ },
+ "_1": {
+  "identity": "ItemPreview",
+  "kind": "record",
+  "conf": "A",
+  "evidence": "字段序列 ItemStack(stack)+float(x)+float(y)+float(size) 与 RegistryListSelectPopup.ItemPreview record 完全吻合",
+  "pinned": true
+ },
+ "nF": {
+  "identity": "Node",
+  "kind": "record",
+  "conf": "A",
+  "evidence": "record(BlockPos,double,double) + 私有方法 z() 返回两 double 之和 → AStarFollowerNavigator.Node 的 fScore()=gScore+hScore; _c→pos,z9→gScore,zw→hScore",
+  "pinned": true
+ },
+ "zW": {
+  "identity": "ButtonWidget",
+  "kind": "class",
+  "conf": "A",
+  "evidence": "extends zc<Xp>即SettingWidget<ButtonSetting>；导入Xp(ButtonSetting)/DF/zJ/zU；O()方法含roundRect渲染+buttonSurface+text居中逻辑；e()方法处理mouseClicked检测按钮区域；与源码ButtonWidget完全匹配",
+  "pinned": true
+ },
+ "nX": {
+  "identity": "NotificationMode",
+  "kind": "enum",
+  "conf": "A-",
+  "evidence": "enum<Success/Info/Warning/Error>四常量；3个int字段(RGB/RGBA)；getColor()/getColor(int alpha)方法；fromEnabled(boolean)静态工厂；与NotificationMode结构高度匹配；Warning为26.2新增常量(26.1.2源码仅3个)，构造函数多1个alpha参数",
+  "pinned": true
+ },
+ "OA": {
+  "identity": "ModuleButton",
+  "kind": "class",
+  "conf": "A",
+  "evidence": "导入Xv(模块类型)/_E(animation)/_j(文本渲染器)/ih(坐标)/zU(渲染域)；含_E动画实例(float u=5.0/r=0.75/y=8.0)；e()方法渲染模块条目(icon+text+颜色+hover检测)；t()方法处理toggle状态；与ModuleButton渲染模块列表条目的功能完全匹配",
+  "pinned": true
+ },
+ "_u": {
+  "identity": "SettingViewFactory",
+  "kind": "class",
+  "conf": "A",
+  "evidence": "导入全部10种Setting类型(X0/Xn/XG/DM/DV/Xe/Xc/Xp/XF)+全部SettingRow子类(v7/v9/vf/vg/vD/vi/vU/vX/vJ/vh/vs)；static s(Dl<?>)方法用SwitchBootstraps.typeSwitch按Setting类型创建对应SettingRow；与SettingViewFactory.create()完全一致",
+  "pinned": true
+ },
+ "Xx": {
+  "identity": "ZealotCrystalPlus$HudInfo",
+  "kind": "enum",
+  "conf": "A",
+  "evidence": "枚举常量Target/Damage/CalculationTime/Off/Speed与src ZealotCrystalPlus内嵌HudInfo枚举完全一致（顺序、数量、值名均匹配），26.2版被提取为顶层类",
+  "pinned": true
+ },
+ "Dr": {
+  "identity": "Scaffold$RenderInfo",
+  "kind": "record",
+  "conf": "A",
+  "evidence": "Record 字段类型序列 AABB,Color,Color,long,boolean,boolean 与源码 Scaffold.RenderInfo(AABB aabb,Color lineColor,Color sideColor,long startTime,boolean fade,boolean shrink) 完全一致; equals/hashCode toString 引用6字段 GC;c2;CC;wc;eQ;eq",
+  "pinned": true
+ },
+ "z0": {
+  "identity": "AbstractSliderWidget",
+  "kind": "class",
+  "conf": "A",
+  "evidence": "extends zc<S>(SettingWidget<S>) 且 <S extends Dl<T>, T extends Number> 完全匹配 src AbstractSliderWidget<S extends Setting<T>, T extends Number> extends SettingWidget<S>；字段 dp b(DropdownTextField) + float s=0.46f(VALUE_TEXT_SCALE) + float f=5.0f(EDITOR_Y_OFFSET) 精确匹配 src 常量；导入 dp(=DropdownTextField)、zc(=SettingWidget)、DF 与 src import 一致",
+  "pinned": true
+ },
+ "gR": {
+  "identity": "SettingLayoutPlanner",
+  "kind": "class",
+  "conf": "A-",
+  "evidence": "静态工具类，方法 e(String,List<Dl<?>>) 返回 Section(is)——与 src SettingsContent.java 调用 SettingLayoutPlanner.plan(String,List<Setting<?>>)→List<Section> 完全一致；import is(=SettingLayoutPlanner.Section record)+nN(=SettingGroup)+Dl(=Setting) 与 src 一致；src 无独立 SettingLayoutPlanner.java（可能为内部类/26.1.2 缺失），但调用链锚定身份",
+  "pinned": true
+ },
+ "iC": {
+  "identity": "MainDropdownPanel",
+  "kind": "class",
+  "conf": "A",
+  "evidence": "extends iN（中间基类/AbstractDropdownPanel 变体）；构造函数签名 (int,Consumer<String>,BooleanSupplier,nH) 完全匹配 src MainDropdownPanel(int panelIndex,Consumer<String> togglePanel,BooleanSupplier anySubPanelVisible,PanelVisibleResolver panelVisibleResolver)；字段 lE(=SettingsContent) 对应 src settingsContent 字段；width=160.0f 对应 src 160.0f；构造器内通过 Category(vY) 添加多个 Category 条目与 src add(Category.COMBAT,...) 逐项吻合；Category/TranslateComponent/Setting 锚点完全一致",
+  "pinned": true
+ },
+ "zj": {
+  "identity": "BoolWidget",
+  "kind": "class",
+  "conf": "A",
+  "evidence": "extends zc<Xn>=SettingWidget<BoolSetting>; float常量完全匹配src BoolWidget: SWITCH_WIDTH=22.0f, SWITCH_HEIGHT=12.0f, KNOB_SIZE_OFF=6.0f, KNOB_SIZE_ON=9.0f, KNOB_INSET_OFF=3.5f, KNOB_INSET_ON=2.0f, STATE_LAYER_SIZE=16.0f, KNOB_STRETCH=3.5f; 3个_E动画字段(对应toggleAnim/knobBounceAnim/hoverAnim); src确认 extends SettingWidget<BoolSetting>",
+  "pinned": true
+ },
+ "_E": {
+  "identity": "Animation",
+  "kind": "class",
+  "conf": "A",
+  "evidence": "字段 lH C=Easing 与 Animation.easing 完全一致; g(float) 插值逻辑与 run(float) 同构: 均设 startValue → 计算 easing(progress) → 根据方向做 startValue±(target-startValue)*result; 字段映射: q→finished, C→easing, b→duration, k→startTime, I→startValue, f→destinationValue, T→value",
+  "pinned": true
+ },
+ "DT": {
+  "identity": "DropdownTheme",
+  "kind": "class",
+  "conf": "A",
+  "evidence": "float 常量与 DropdownTheme 逐一对应: Q=130.0f=PANEL_WIDTH, A=28.0f=PANEL_HEADER_HEIGHT, K=16.0f=SETTING_HEIGHT, k=14.0f=PANEL_GAP, z=10.0f=PANEL_RADIUS, R=4.0f=GROUP_INSET, B=8.0f=PANEL_BOTTOM_PADDING, s=1.5f=SLIDER_RADIUS, t=3.5f=SLIDER_KNOB_RADIUS, v=0.42f=GROUP_COUNT_TEXT_SCALE, W=0.52f=GROUP_HEADER_TEXT_SCALE, e=0.82f=HEADER_TEXT_SCALE, a=0.86f=HEADER_ICON_SCALE 等; 静态 Color 方法对应 moduleEnabled/moduleDisabled/settingLabel 等; 26.2 可能合并了 MD3Theme 的 Color 常量",
+  "pinned": true
+ },
+ "Xy": {
+  "identity": "PanelDirtyState",
+  "kind": "class",
+  "conf": "A",
+  "evidence": "5 个 boolean 字段 + 5 个 consume 方法名完全匹配：consumeChromeDirty/consumeRailDirty/consumeModuleListDirty/consumeDetailDirty/consumeClientSettingDirty；markAllDirty/markLayoutDirty 全部置 true；lambda 名与 src 一一对应",
+  "pinned": true
+ },
+ "DR": {
+  "identity": "ColorPickerPopup.Channel",
+  "kind": "enum",
+  "conf": "A-",
+  "evidence": "Enum constants ALPHA/RED/BLUE/GREEN + fields Color p + String o + ctor(String,Color) 完全匹配 ColorPickerPopup.java 内部 enum Channel { RED('R',new Color(...)),GREEN('G',...),BLUE('B',...),ALPHA('A',MD3Theme.PRIMARY)} + field shortLabel(String)/accent(Color)；26.2 从 ColorPickerPopup 提升为顶层类",
+  "pinned": true
+ },
+ "Xu": {
+  "identity": "LuminRenderSystem.ScissorRect",
+  "kind": "record",
+  "conf": "A-",
+  "evidence": "record 4 int 字段(wv/we/wb/wL) + accessor 方法(wv()/we()/wb()/wL()) 与 src record ScissorRect(int x, int y, int width, int height) 结构完全同构；toString 使用 ObjectMethods.bootstrap 确认 record 语义；Dl.S() 调试开关引用一致",
+  "pinned": true
+ },
+ "_m": {
+  "identity": "Particles.Mode",
+  "kind": "enum",
+  "conf": "A",
+  "evidence": "6枚举常量Bloom/Stars/Dollars/Off/SnowFlake/Hearts与src Particles.Mode完全一致(仅顺序不同)",
+  "pinned": true
+ },
+ "zL": {
+  "identity": "MainMenuScreen.Background",
+  "kind": "enum",
+  "conf": "A-",
+  "evidence": "7枚举常量BLACK_HOLE/ALIEN_TERRAIN/MINECRAFT/PLANET/SEA_LEVEL/CLOUDS/INFERNO; src MainMenuScreen.Background有4值(SEA_LEVEL/PLANET/BLACK_HOLE/MINECRAFT), 26.2新增3个背景(ALIEN_TERRAIN/CLOUDS/INFERNO)",
+  "pinned": true
+ },
+ "yO": {
+  "identity": "RegistryListUi",
+  "kind": "util",
+  "conf": "A-",
+  "evidence": "public static String j(Object[])取Xf(RegistryListSetting$Type)参数,switch返回uT(TranslateComponent)翻译字符串; src RegistryListUi.labelText(RegistryListSetting.Type)功能一致; jar多一个空串case为版本差异",
+  "pinned": true
+ },
+ "dV": {
+  "identity": "Render3DScheduler.BlurredBoxCommand",
+  "kind": "record",
+  "conf": "A",
+  "evidence": "Record(AABB, double) 完全匹配 src Render3DScheduler.BlurredBoxCommand(AABB box, double blurStrength)；Render3DScheduler(le)命令列表含 List<dV>，同系列 Dm/vl/yN/uX 已识别为同调度器其他命令记录",
+  "pinned": true
+ },
+ "Dp": {
+  "identity": "JumpCircle.Circle",
+  "kind": "record",
+  "conf": "A",
+  "evidence": "Record(Vec3, _Z) 匹配 src JumpCircle.Circle(Vec3 pos, TimerUtils timer)；_Z=S/Object[] 计时器模式(S=毫秒差/m=设时间/p=时间戳/j=passedMillise/B=reset)与 TimerUtils.java 逐方法对应",
+  "pinned": true
+ },
+ "zo": {
+  "identity": "Render2DEvent",
+  "kind": "class",
+  "conf": "A",
+  "evidence": "26.2 class_map 已确认：zm extends zo 构造(GuiGraphicsExtractor)→super，zR extends zo 构造(GuiGraphicsExtractor)→super；zm=zR 对应 src Render2DEvent.Level/Render2DEvent.HUD(GuiGraphicsExtractor)→super(guiGraphics)；zo 基类含 GuiGraphicsExtractor v 字段+N(Object[]) getter 即 getGuiGraphics()",
+  "pinned": true
+ },
+ "zz": {
+  "identity": "EnumWidget",
+  "kind": "class",
+  "conf": "A",
+  "evidence": "extends zc<Dx<?>> 即 SettingWidget<EnumSetting<?>>; 锚点 EnumSetting/Easing/SettingWidget; 导入 Dx(EnumSetting)/_E(动画); 字段 _E×2(缓动实例)+boolean b(展开状态); src EnumWidget extends SettingWidget<EnumSetting<?>>",
+  "pinned": true
+ },
+ "v_": {
+  "identity": "PanelState",
+  "kind": "class",
+  "conf": "A",
+  "evidence": "锚点 ActivePopup/Category/ClientSettingTab/KeybindSetting/Module/ModuleSort; 字段 e(Module)×2+vY(Category)+X0(KeybindSetting)+vn+g8+boolean+String; lambda$ensureValidSelection$1(String, Module) 匹配 src PanelState.ensureValidSelection; src PanelState 含同名内部枚举 ActivePopup/ClientSettingTab",
+  "pinned": true
+ },
+ "_t": {
+  "identity": "LuminRingBuffer",
+  "kind": "class",
+  "conf": "A",
+  "evidence": "字段逐一对应: GpuBuffer[3] buffers=S, List<GpuBuffer> retiredBuffers=Z, int usage=V, GpuBuffer.MappedView mappedBuffer=T, int current=Y, boolean mapped=i, int[] sizes=M, long frameId=c; 方法 c()=flush/map循环, q()=getCurrentBuffer; src LuminRingBuffer 3槽环形GPU缓冲区, 26.2扩展增至3+1槽+retired list",
+  "pinned": true
+ },
+ "eX": {
+  "identity": "Potions",
+  "kind": "hudmodule",
+  "conf": "A-",
+  "evidence": "extends eh(HudModule)+静态单例C; 锚点BoolSetting/ColorSetting/DoubleSetting/EnumSetting/IntSetting/StringSetting=15+设置; DM×11+DV×7+Dx×3+XG×1+Xn×1+Xc×1=24字段; me.sofurry.iiIllIllli导入(26.2药水图标依赖); float常量B=3.5f/A=2.5f/k=10.0f=药水渲染尺寸; src Potions extends HudModule 19个设置(scale/nameScale/durationScale/cornerRadius/animSpeed+6×Bool+3×Color+1×Int), 26.2增加渲染管线依赖和枚举设置",
+  "pinned": true
+ },
+ "ic": {
+  "identity": "Shaders (settings holder)",
+  "kind": "class",
+  "conf": "A",
+  "evidence": "u.java(Shaders模块) 3次实例化 new ic(this, prefix, group, dependency); 构造函数创建3×Dx<ShaderHolder.Shader>(mode/handsMode/chestMode)+7×XG(maxRange/quality等)+8×DV(outline/fill颜色)+4×DM(factor/gradient)+1×Xn; 锚点ShaderHolder.Shader+Shaders确认角色; 26.2从Shaders模块提取的设置容器类, src Shaders.java settings内联在同一类",
+  "pinned": true
+ },
+ "vk": {
+  "identity": "ScrollBarUtils.ThumbGeometry",
+  "kind": "record",
+  "conf": "A",
+  "evidence": "Record 8 float组件(mc,mw,m3,ML,mi,MJ,m8,MW)匹配ThumbGeometry(thumbX,thumbY,thumbWidth,thumbHeight,trackX,trackY,trackWidth,trackHeight)；两个containment方法X(double,double)->boolean/n(double,double)->boolean精确对应thumbContains/trackContains；Record结构+8 float+2 bool containment → 唯一匹配",
+  "pinned": true
+ },
+ "OX": {
+  "identity": "MoveUtils",
+  "kind": "util",
+  "conf": "A",
+  "evidence": "静态工具类；j(double)->double[] 匹配forwardWithoutStrafe(double)->double[]：(rad=toRadians(y+90.0f), ret={speed*cos(rad), speed*sin(rad)})；x(double)->double[] 匹配forward(double)->double[]：含forward/left向量加法(forward*speed*cos+left*speed*sin, forward*speed*sin-left*speed*cos)；无实例字段+纯静态方法 → MoveUtils",
+  "pinned": true
+ },
+ "zv": {
+  "identity": "AbstractSetSettingWidget",
+  "kind": "class",
+  "conf": "A",
+  "evidence": "abstract class extends zc(=SettingWidget)；字段private static final float D=14.0f匹配FIELD_HEIGHT=14.0f；字段_E为Animation类型匹配hoverAnim=new Animation(Easing.EASE_OUT_CUBIC,...)；abstract方法Y()->int匹配elementCount(), L()->String匹配labelText(), X()->void匹配openPopup()；anchored[Easing,SettingWidget]与AbstractSetSettingWidget的import完全吻合",
+  "pinned": true
+ },
+ "Dw": {
+  "identity": "ScissorUtils",
+  "kind": "util",
+  "conf": "A",
+  "evidence": "静态工具类(import RenderPass,yJ)；f(Object[])->boolean匹配enableScissor(RenderPass,int,int,int,int)->boolean：检查width>0&&height>0后调用pass.enableScissor(x,y,w,h)；T(Object[])->int匹配clampFramebufferScissor；static E字段(String)为framebuffer缓存；private构造器→纯静态工具类→ScissorUtils",
+  "pinned": true
+ },
+ "vR": {
+  "identity": "RenderTargetHolder",
+  "kind": "class",
+  "conf": "A",
+  "evidence": "List<dd>(dd=LuminRenderTarget) + synchronized register/unregister/destroyAll 模式，与 src RenderTargetHolder(List<LuminRenderSystem.LuminRenderTarget> + synchronized register/unregister/destroyAll) 结构完全匹配；单例 static final H = new vR()",
+  "pinned": true
+ },
+ "DW": {
+  "identity": "ModuleList.ColorMode",
+  "kind": "enum",
+  "conf": "B",
+  "evidence": "被 es(ModuleList) 引用为 Dx<DW>（EnumSetting<DW>）；常量 Double/Rainbow/Single/Fade 为模块列表配色模式；26.1.2 源码 ModuleList 无匹配枚举，26.2 新增"
+ },
+ "Oy": {
+  "identity": "HoleESP.HoleShape",
+  "kind": "enum",
+  "conf": "A",
+  "evidence": "枚举常量 DoubleZ/Quad/DoubleX/Single 与源码 HoleESP.HoleShape（Single/DoubleX/DoubleZ/Quad）完全一致，仅声明顺序不同",
+  "pinned": true
+ },
+ "y6": {
+  "identity": "KillAura.TargetSort",
+  "kind": "enum",
+  "conf": "B",
+  "evidence": "被 eY(KillAura) 引用为 Dx<y6>（EnumSetting<y6>）；常量 Range/None/Fov/Health 为目标排序优先级（按距离/无/视场角/血量）；26.1.2 源码 KillAura 无此枚举，26.2 新增"
+ },
+ "_c": {
+  "identity": "KillAura.ESPMode",
+  "kind": "enum",
+  "conf": "A",
+  "evidence": "枚举常量 CaptureMark/Deobf/Circle/Firefly 与源码 KillAura.ESPMode（CaptureMark/Circle/Firefly/Deobf）完全一致，仅声明顺序不同",
+  "pinned": true
+ },
+ "OB": {
+  "identity": "MaterialTheme$SwitchMap",
+  "kind": "class",
+  "conf": "A",
+  "evidence": "[重算] 来自 C046（原始批次最高置信判定）",
+  "pinned": true
+ },
+ "iN": {
+  "identity": "AbstractDropdownPanel",
+  "kind": "class",
+  "conf": "B",
+  "evidence": "abstract class implements vP(DropdownPanel); 字段: float b/f/c/M/R/P/N/S/h/g/w/u/A/O(布局/动画参数) + uT(TranslateComponent) + zT + nT + _E(动画) + zU(渲染上下文); 与 src AbstractDropdownPanel: abstract implements DropdownPanel, 有 openAnim/introAnim/scrollBar + float x/y/width/scroll/targetScroll/maxScroll/maxPanelHeight 一致; iu(=CategoryPanel) extends iN 对应 src CategoryPanel extends AbstractDropdownPanel"
+ },
+ "iu": {
+  "identity": "CategoryPanel",
+  "kind": "class",
+  "conf": "B",
+  "evidence": "extends iN(=AbstractDropdownPanel); 字段: vY v(Category) + List<zk>(ModuleButton) d + Map<zk,String> D(searchTextCache) + List<zk> G(sortedModuleButtons)/x(visibleModuleButtons) + vN n(ClientSetting$ModuleSort) + String l(searchQuery); 与 src CategoryPanel: extends AbstractDropdownPanel, Category category, List<ModuleButton> moduleButtons/sortedModuleButtons/visibleModuleButtons, Map<ModuleButton,String> searchTextCache, ClientSetting.ModuleSort cachedSortMode, String searchQuery 完全对应"
+ },
+ "lE": {
+  "identity": "SettingsContent",
+  "kind": "class",
+  "conf": "B",
+  "evidence": "无 super; imports: 全部 Setting 类型(DF/DM/DV/Dx/X0/XF/XG/Xc/Xe/Xn/Xp) + Xw(SettingSection) + zc(SettingWidget) + lH(Easing); 字段: List<Xw> Y(sections) + Map<String,_E> w(F)(sectionHoverAnimations/sectionExpandAnimations); 与 src SettingsContent: List<SettingSection> sections + Map<String,Animation> sectionHoverAnimations/sectionExpandAnimations 一致; 但行数 4918 远超 src 393→26.2 大幅扩展"
+ },
+ "XA": {
+  "identity": "HudLayoutHelper",
+  "kind": "util",
+  "conf": "A",
+  "evidence": "静态工具类，g7(=HudModule.HorizontalAnchor)枚举switch + float偏移量计算，与src HudLayoutHelper.getHorizontalAnchorOffset/getRenderX等逐一对应",
+  "pinned": true
+ },
+ "zp": {
+  "identity": "StringWidget",
+  "kind": "class",
+  "conf": "A",
+  "evidence": "extends zc<Xc> = SettingWidget<StringSetting>；字段dp A(=DropdownTextField)精确匹配src StringWidget.inputField",
+  "pinned": true
+ },
+ "za": {
+  "identity": "KeybindWidget",
+  "kind": "class",
+  "conf": "A",
+  "evidence": "extends zc<X0> = SettingWidget<KeybindSetting>；_E b(=Animation hoverAnim)+Easing引用精确匹配src KeybindWidget.hoverAnim(Easing.EASE_OUT_CUBIC)",
+  "pinned": true
+ },
+ "_W": {
+  "identity": "LegacyConfigMigrator",
+  "kind": "class",
+  "conf": "A",
+  "evidence": "字段Gson n + Path z/b(=targetConfigDir/legacyRootDir) + lambda$migrateIfNeeded$0(Module) + z(Module)→Path(=getModuleFile)精确匹配src LegacyConfigMigrator",
+  "pinned": true
+ },
+ "_P": {
+  "identity": "Step.Mode",
+  "kind": "enum",
+  "conf": "A-",
+  "evidence": "jar常量 OldNCP/NCP/Vanilla 与 Step.java 内部枚举 Mode{Vanilla,OldNCP,NCP} 完全一致，仅顺序不同（jar排列 vs 源码声明序）；26.1.2 Step 模块独有此三值组合",
+  "pinned": true
+ },
+ "zO": {
+  "identity": "ZealotCrystalPlus.SwingMode",
+  "kind": "enum",
+  "conf": "A-",
+  "evidence": "jar常量 Client/None/Packet 与 ZealotCrystalPlus.java 内部枚举 SwingMode{None,Client,Packet} 完全一致，仅顺序不同；该三值组合仅在 ZCP SwingMode 中出现",
+  "pinned": true
+ },
+ "zi": {
+  "identity": "Xray.Plugin",
+  "kind": "enum",
+  "conf": "B",
+  "evidence": "内层枚举 Old/New 与 src Xray.Plugin{Old,New} 完全匹配; i18n xray.plugin 有 old/new 两项"
+ },
+ "zM": {
+  "identity": "SafeAnchor.PlaceMode",
+  "kind": "enum",
+  "conf": "B",
+  "evidence": "内层枚举 Adaptive/Cover 与 src SafeAnchor.PlaceMode{Adaptive,Cover} 完全匹配; i18n safe_anchor.place_mode 有 adaptive/cover"
+ },
+ "_f": {
+  "identity": "JumpCircle.Mode",
+  "kind": "enum",
+  "conf": "B",
+  "evidence": "内层枚举 Default/Portal 与 src JumpCircle.Mode{Default,Portal} 完全匹配; i18n jump_circle.mode 有 default/portal"
+ },
+ "zA": {
+  "identity": "StringListSettingWidget",
+  "kind": "class",
+  "conf": "A",
+  "evidence": "extends zv<XF>=AbstractSetSettingWidget<StringListSetting>; 方法签名精确映射: Y(Object[])→int=elementCount(), L(Object[])→String=labelText(), X(Object[])=void=openPopup(); 构造接收XF=StringListSetting; 锚点DropdownScreen吻合src中DropdownScreen.INSTANCE.openStringListSettingPopup调用",
+  "pinned": true
+ },
+ "X2": {
+  "identity": "ClientSetting$FontMode",
+  "kind": "enum",
+  "conf": "A",
+  "evidence": "枚举常量 Custom/Default 与 src ClientSetting.java:81-83 enum FontMode {Default, Custom} 完全一致(名称相同,数量=2); 26.1.2 src 仅有此双常量枚举含 Custom+Default; 常量序 src Default(0)/Custom(1) vs jar X2.Custom(ordinal=0)/X2.Default(ordinal=1) 因编译器重排而序不同但集合一致",
+  "pinned": true
+ },
+ "DB": {
+  "identity": "HitParticles.Physics",
+  "kind": "enum",
+  "conf": "A",
+  "evidence": "枚举常量 Fall/Fly 与 src HitParticles.Physics (render/HitParticles.java:48-51) 完全一致",
+  "pinned": true
+ },
+ "nZ": {
+  "identity": "ElytraFlightModes",
+  "kind": "enum",
+  "conf": "A",
+  "evidence": "枚举常量 Control/Pitch40 与 src ElytraFlightModes (elytrafly/ElytraFlightModes.java) 完全一致",
+  "pinned": true
+ },
+ "lL": {
+  "identity": "AutoArmor.EnchantPriority",
+  "kind": "enum",
+  "conf": "A",
+  "evidence": "枚举常量 Protection/Blast 与 src AutoArmor.EnchantPriority (player/AutoArmor.java:47-50) 完全一致",
+  "pinned": true
+ },
+ "nw": {
+  "identity": "Module.BindMode",
+  "kind": "enum",
+  "conf": "A",
+  "evidence": "枚举常量 Hold/Toggle 与 src Module.BindMode (modules/Module.java:27-30) 完全一致",
+  "pinned": true
+ },
+ "gQ": {
+  "identity": "Notifications$RenderFrame",
+  "kind": "record",
+  "conf": "A",
+  "evidence": "锚点 RenderStage 唯一命中; vt=Notifications$RenderStage(已知); jar record(vt, float, float) = src record(RenderStage stage, float progress, float occupiedHeight) 三组件类型逐一对应",
+  "pinned": true
+ },
+ "gn": {
+  "identity": "ModuleSort$$switchHelper",
+  "kind": "enum",
+  "conf": "B",
+  "evidence": "锚点 ModuleSort + ordinal() 调用 vN(=ClientSetting$ModuleSort) 类型; CallSite bootstrap 模式 + static int[] f 为编译器生成的 enum switch map 辅助类"
+ },
+ "va": {
+  "identity": "SettingTab",
+  "kind": "record",
+  "conf": "A",
+  "evidence": "[重算] 来自 C060（原始批次最高置信判定）",
+  "pinned": true
+ },
+ "yJ": {
+  "identity": "ScissorRect",
+  "kind": "record",
+  "conf": "A",
+  "evidence": "Record 4 int fields (b4,bw,bf,b8→x,y,width,height)；55行≈简单record；src LuminRenderSystem.ScissorRect(int x,int y,int width,int height) 完全匹配",
+  "pinned": true
+ },
+ "_N": {
+  "identity": "CategorySnapshot",
+  "kind": "record",
+  "conf": "A",
+  "evidence": "Record(String wN, List<String> pW)；54行；静态工厂W(String, List<e>)调用e::G→Module::getName；src ModuleListPanel.CategorySnapshot(String categoryName, List<String> moduleIds) 完全匹配；锚点Module一致",
+  "pinned": true
+ },
+ "Xk": {
+  "identity": "PanelLayout",
+  "kind": "class",
+  "conf": "A",
+  "evidence": "compute(int screenWidth, int screenHeight, float railWidth)返回ni(Layout)；计算逻辑完全匹配：panelWidth=min(sw*0.56f,584), min(528), panelHeight=min(sh*0.56f,324), min(300), moduleWidth=min(164,pw*0.292f)；创建4个ih(UiRect)→Layout(panel,rail,modules,detail)",
+  "pinned": true
+ },
+ "Oo": {
+  "identity": "ActionButton",
+  "kind": "record",
+  "conf": "A",
+  "evidence": "Record(df aI, String mu, ih jE)→(ActionButtonType type, String label, UiRect bounds)；df枚举6常量SAVE_AS/RELOAD/EXPORT/IMPORT/NEW/OPEN_FOLDER与src ConfigClientSettingTab.ActionButtonType完全匹配",
+  "pinned": true
+ },
+ "XR": {
+  "identity": "Aggressive",
+  "kind": "enum",
+  "conf": "A",
+  "evidence": "[重算] 来自 C070（原始批次最高置信判定）",
+  "pinned": true
+ },
+ "yc": {
+  "identity": "LambdaListener.Factory",
+  "kind": "interface",
+  "conf": "A",
+  "evidence": "events/bus/listeners/LambdaListener.java:20-22 定义完全一致的接口: MethodHandles.Lookup create(Method, Class<?>) throws InvocationTargetException, IllegalAccessException",
+  "pinned": true
+ },
+ "Oa": {
+  "identity": "FollowerNavigator",
+  "kind": "interface",
+  "conf": "B",
+  "evidence": "anchored FollowerPath(gv); 实现者 Of/lw 取 (LocalPlayer,LivingEntity,Vec3,FollowerConfig)→FollowerPath; is版 FollowerNavigator.getPath 签名语义一致但参数由 Object[] 泛化; 26.2 签名变更导致方法签名不完全匹配"
+ },
+ "Xl": {
+  "identity": "AimBot.Rotation",
+  "kind": "enum",
+  "conf": "A",
+  "evidence": "枚举常量 Client/Silent 与 src AimBot.java:37-39 内部 enum Rotation{Client,Silent} 完全一致；2值枚举，140行含加密开销",
+  "pinned": true
+ },
+ "_T": {
+  "identity": "AutoMend.SwitchMode",
+  "kind": "enum",
+  "conf": "A",
+  "evidence": "枚举常量 Normal/Silent 与 src AutoMend.java:26-29 内部 enum SwitchMode{Normal,Silent} 完全一致；2值枚举，140行含加密开销",
+  "pinned": true
+ },
+ "_x": {
+  "identity": "Particles.Physics",
+  "kind": "enum",
+  "conf": "A",
+  "evidence": "枚举常量 Fly/Drop 与 src Particles.java:51-54 内部 enum Physics{Drop,Fly} 完全一致（顺序反转属正常）；2值枚举，140行含加密开销",
+  "pinned": true
+ },
+ "Db": {
+  "identity": "ModuleButton.SettingSection",
+  "kind": "record",
+  "conf": "A",
+  "evidence": "字段完全匹配: is(=SettingLayoutPlanner.Section) + List<zc<?>>(=List<SettingWidget<?>>); 锚点 SettingLayoutPlanner.Section + SettingWidget 确认; 26.1.2 源码 ModuleButton.java L557",
+  "pinned": true
+ },
+ "nz": {
+  "identity": "SettingListController.SectionEntry",
+  "kind": "record",
+  "conf": "B",
+  "evidence": "字段结构(is=SettingLayoutPlanner.Section确认于class_map + ih=bounds矩形4float)与src SettingListController.SectionEntry(Section, UiRect)完全一致; 内部类混淆后移至顶层包"
+ },
+ "iR": {
+  "identity": "TargetSnapshot",
+  "kind": "record",
+  "conf": "A",
+  "evidence": "extends Record，10字段精确对应 ZealotCrystalPlus.TargetSnapshot：LivingEntity wu(→entity)/Vec3 zt(→pos)/AABB qJ(→box)/Vec3 ZT(→currentPos)/Vec3 zb(→predictMotion)/float YI(→totalHealth)/boolean ba(→player)/double tJ(→speed)/int OZ(→minArmorRate)/im y0(→DamageReductionData reduction)；im 类含 float×4，疑似 DamageReductionData 的混淆对应",
+  "pinned": true
+ },
+ "ns": {
+  "identity": "ClientSettingTextField",
+  "kind": "class",
+  "conf": "A",
+  "evidence": "import CharacterEvent/KeyEvent/Minecraft；字段 _E c/_E z(→hoverAnimation/focusAnimation)、boolean P(→focused)、String D(→text)、float h(→some float)、int A(→cursor)、String b(→?)、int H(→maxLength)；构造 ns(int) 对应 ClientSettingTextField(int maxLength)；方法 M/keyPressed/e(charTyped)/Q/reset/c 与官方 keyPressed/charTyped/blur/focusIfContains 等对应",
+  "pinned": true
+ },
+ "lI": {
+  "identity": "DeobfESP",
+  "kind": "class",
+  "conf": "A",
+  "evidence": "import Camera/Entity/Identifier/LivingEntity/Vec3/PoseStack/BlendFunction/ColorTargetState/DepthStencilState/RenderPipeline/CompareOp/Matrix4f/Quaternionfc；static Map<Integer,n3> g(→Map<Integer,Color>)；static float X=180.0f(→未直接对应但 180 用于旋转)；static RenderPipeline j(→某管线)；方法 D()(→render 清理方法)含 values()/iterator()/remove()/currentTimeMillis()，与 DeobfESP 的 render 方法（含 LinkedHashMap 迭代/清理/时间计算）匹配",
+  "pinned": true
+ },
+ "gZ": {
+  "identity": "JumpCircle",
+  "kind": "module",
+  "conf": "A",
+  "evidence": "继承gs(→Module)；构造函数接受iJ(Vec3/Identifier)/Vec3/int/float+RandomSource，创建粒子效果并取Entity.getDimensions(Pose)；M方法含PoseStack渲染循环和sin/cos数学（圆形路径），使用随机boolean初始化颜色/旋转；MC导入(Entity/Identifier/Pose/RandomSource/Vec3)与JumpCircle匹配",
+  "pinned": true
+ },
+ "zS": {
+  "identity": "PlayerUtils",
+  "kind": "util",
+  "conf": "A-",
+  "evidence": "静态工具类含两个boolean方法：h()检查LocalPlayer+isUsingItem()+WebBlock(isEating)，A()遍历AABB deflate(1E-6)→BlockPos.MutableBlockPos→getBlockState检查WebBlock(isInWeb)；MC导入(BlockPos/BlockState/LocalPlayer/WebBlock)与PlayerUtils完全匹配；行数差异(697 vs 68)因混淆控制流膨胀",
+  "pinned": true
+ },
+ "eD": {
+  "identity": "BPS",
+  "kind": "module",
+  "conf": "A",
+  "evidence": "extends eh(=HudModule)；DV类型字段对应ColorSetting/DoubleSetting/BoolSetting(IntSetting)；Map<e,dl>对应图表面板状态；Supplier<_j>对应textRendererSupplier；Dx<iX>对应枚举状态管理；static Color字段对应预设颜色值；jac=0.5(BPS候选)；e(Object[])=render(DeltaTracker)；1663行含混淆膨胀",
+  "pinned": true
+ },
+ "eg": {
+  "identity": "Watermark",
+  "kind": "module",
+  "conf": "A",
+  "evidence": "extends eh(=HudModule)；jac=1.0(Watermark候选)；DV类型字段对应ColorSetting/DoubleSetting；Supplier<_j>对应textRendererSupplier；DM字段(含0.7,0.5,2.0,0.1)对应缩放/颜色动画；e(Object[])=render(DeltaTracker)；lambda$drawText$0对应文本渲染逻辑；static eg o对应INSTANCE；2122行含混淆膨胀",
+  "pinned": true
+ },
+ "gW": {
+  "identity": "CategoryRailPanel",
+  "kind": "class",
+  "conf": "A",
+  "evidence": "5个常量逐一对应：L=34.0f=CATEGORY_ITEM_HEIGHT, w=38.0f=CATEGORY_ITEM_SPACING, u=40.0f=CATEGORY_START_Y, T=2.0f=RAIL_ICON_CENTER_X_OFFSET, r='\\ue8b8'=SETTINGS_ICON；方法lambda$buildCategoryItem$0与官方buildCategoryItem渲染逻辑一致；混淆膨胀来自hi.a字符串/数字加密和控制流平坦化，核心字段与渲染流程完全匹配",
+  "pinned": true
+ },
+ "up": {
+  "identity": "Stealer",
+  "kind": "module",
+  "conf": "A",
+  "evidence": "imports完全一致：EquipmentSlot/AxeItem/BowItem/CrossbowItem/FishingRodItem/ShovelItem/StandingAndWallBlockItem/ServerboundInteractPacket/ServerboundAttackPacket；引用ClickSlotUtils(混淆为ul)和Hidden0；jac=0.304最高；字段数多因混淆膨胀+版本差异",
+  "pinned": true
+ },
+ "O": {
+  "identity": "AutoFirework",
+  "kind": "module",
+  "conf": "A",
+  "evidence": "小型模块(673行)；ItemStack字段(previousItem)+int计数器(useDelayCounter/switchDelayCounter/cooldownCounter)；@yE注解事件处理方法y(dR)=onTick；方法b(Object[])=onEnable重置状态；jac=0.25最高；无GUI相关导入",
+  "pinned": true
+ },
+ "h": {
+  "identity": "ESP2D",
+  "kind": "module",
+  "conf": "A",
+  "evidence": "imports含AABB/BlockHitResult/EntityHitResult/Vec3/java.awt.Color/Entity/LivingEntity/Player/MobCategory→2D ESP必需；字段含Xe<Item>×1+DM×3+DV×3+Xn×6+XG×2+nN×2→大量渲染/颜色/开关设置；方法E(Object[])构造AABB(pos±expand,pos.y±expand,pos.y±expand)用于box绘制→与ESP2D的2D bounding box逻辑完全对应",
+  "pinned": true
+ },
+ "c": {
+  "identity": "AutoTool",
+  "kind": "module",
+  "conf": "A",
+  "evidence": "977行；imports含ServerboundSetCarriedItemPacket→核心信号；@yE事件处理参数为dQ(PlayTick)；switch中var4_6<0验证slot范围、发送ServerboundSetCarriedItemPacket(slot)、读取Xn(boolean)判断条件、最后hi.\\u00f2写入slot→与AutoTool的onClientTick(silent模式发Packet切换快捷栏)+swapBack逻辑完全匹配；int B为internal slot索引",
+  "pinned": true
+ },
+ "y9": {
+  "identity": "FriendClientSettingTab",
+  "kind": "class",
+  "conf": "A",
+  "evidence": "同为GUI面板类，共享 GuiGraphicsExtractor/CharacterEvent/KeyEvent/MouseButtonEvent 四事件导入；y9实现AutoCloseable对应close()；lambda$mouseClicked$0(MouseButtonEvent,boolean)对应mouseClicked()；lambda$render$0-8对应render()渲染链；lambda$mouseClicked$0 lambda签名含vh/ih/MouseButtonEvent/bl与FriendClientSettingTab的click handler一致；Map字段(Map<Dl<?>,_E>)对应Map<String,Animation> rowHoverAnimations；List<String>对应lastFriendList；float y对应scrollVelocity；约18个实例字段+20+方法匹配FriendClientSettingTab(340行源码因字符串加密+控制流混淆膨胀至3269行)",
+  "pinned": true
+ },
+ "lz": {
+  "identity": "FindItemResult",
+  "kind": "record",
+  "conf": "A",
+  "evidence": "Record 3 int 字段(pD/p6/pq)对应(slot/count/maxCount)；方法 a()→InteractionHand 对应 getHand()；Y()/x()/N()→boolean 对应 found()/isMainHand()/isOffhand()；构造器(int,int,int)签名一致",
+  "pinned": true
+ },
+ "p": {
+  "identity": "NoSlow",
+  "kind": "module",
+  "conf": "A",
+  "evidence": "Constructor Category MOVEMENT; imports BedBlock/Direction/BlockPos/VoxelShape/ServerboundSwingPacket; method r() computes Vec3 positions with Direction offsets (0.42 step); method E() decompilation-failed switch; packet queuing pattern (ConcurrentLinkedQueue<Packet<?>>). Signature: bed-block interaction + direction-calculation + slowdown-cancellation packet pattern",
+  "pinned": true
+ },
+ "_q": {
+  "identity": "RotationUtils",
+  "kind": "util",
+  "conf": "A",
+  "evidence": "全静态类无实例字段；导入Vec3/BlockPos/Direction/Entity/LivingEntity/ClipContext/AABB/HitResult+Constants+Managers；方法语义完全对应：b=calculate(Vec3方向+距离→Rot2f)、j=calculate(Vec3+bool→Rot2f)、T=smoothRotation(Rot2f插值+OptionInstance速度)、m=getBlockCenter(Vec3+Direction→Vec3)、G=calculateEntityRotation(Entity+bool+double)、lambda$getDirection=getDirection过滤",
+  "pinned": true
+ },
+ "_6": {
+  "identity": "PanelPopupHost",
+  "kind": "class",
+  "conf": "A",
+  "evidence": "3实例字段(XJ/lm/ih→Popup/UiRect/UiRenderBatch)逐一对应; 方法签名完全匹配: r(Object[])→open(Popup), G(Object[])→render(GuiGraphicsExtractor,UiRenderBatch,int,int,float)五参数, I(Object[])→mouseClicked(MouseButtonEvent,double,double)三参数, Q(Object[])→close()调用close+置null, w(Object[])→mouseReleased(MouseButtonEvent,boolean)两参数; import完全一致: GuiGraphicsExtractor+三个事件类; Package匹配gui.panel.popup",
+  "pinned": true
+ },
+ "lN": {
+  "identity": "CaptureMarkESP",
+  "kind": "class",
+  "conf": "A",
+  "evidence": "静态渲染工具类：字段Identifier U+RenderPipeline x完全一致；v(Object[])方法渲染旋转billboard四边形围绕LivingEntity，color wave插值；p()方法做sin波颜色混合；RenderPipeline构建(CompareOp.ALWAYS_PASS, ColorTargetState TRANSLUCENT)与官方完全一致；方法签名(PoseStack, LivingEntity, double×3, Color×2)匹配",
+  "pinned": true
+ },
+ "nD": {
+  "identity": "HoleESP.Hole",
+  "kind": "record",
+  "conf": "A",
+  "evidence": "Record(Oy/List<BlockPos>/AABB/boolean) 完全对应 HoleESP.Hole(HoleShape/List<BlockPos>/AABB/boolean)。Oy 是枚举(DoubleZ/Quad/Single/DoubleX) = HoleShape。字段类型序列、数量、Record 类型全部一致。",
+  "pinned": true
+ },
+ "eC": {
+  "identity": "NoRender",
+  "kind": "module",
+  "conf": "B",
+  "evidence": "922行Module, extends e(Module); static final eC.T(INSTANCE)匹配NoRender.INSTANCE; role_notes mixin证据: MixinCamera去流体雾(FogType.NONE)、MixinClientPacketListener.handleAddEntity实体类型过滤 eC.T.j(entityType)、MixinParticleManager/MixinScreenEffectRe屏幕效果抑制; lambda$new$0(Boolean)调用allChanged()触发LevelExtractor区块重算(26.2新增回调); 30+Xn(BoolSetting)远超src 10个,为26.2大幅扩展; Xe<EntityType<?>>为新增逐实体类型过滤选择器(src无但SettingHost定义entityTypeListSetting); 官方NoRender在26.2-2026.8.1仅10个BoolSetting无逻辑,26.2-2026.10.7扩展为完整渲染抑制模块"
+ },
+ "zx": {
+  "identity": "TopBarPanel",
+  "kind": "class",
+  "conf": "A",
+  "evidence": "protected final v_ v 完全匹配 protected final PanelState state；构造函数 zx(v_) 完全匹配 TopBarPanel(PanelState)；render()空实现、mouseClicked返回false均一致；import GuiGraphicsExtractor + MouseButtonEvent 与官方一致；行数少(36 vs 28)因我方混淆后空方法体精简",
+  "pinned": true
+ },
+ "n3": {
+  "identity": "DeobfESP.Effect",
+  "kind": "class",
+  "conf": "A",
+  "evidence": "n3是private final class，字段 LivingEntity D / Vec3 x / long Z / long A / long c 完全对应 Effect 的 target / deathAnchor / killedAtMs / createdAtMs / lastHitAtMs；构造函数(LivingEntity, long)匹配 new Effect(target, now)；方法y(Object[])内 hi.a(设置Vec3) 对应 beginKill 设置 deathAnchor = target.getEyePosition(partialTick)",
+  "pinned": true
+ },
+ "D7": {
+  "identity": "ZealotCrystalPlus.SettingsSnapshot",
+  "kind": "record",
+  "conf": "A",
+  "evidence": "Record 22 字段逐项对应: rS(int)=globalDelayNanos, ec(float)=noSuicide, eZ=placeMaxSelfDamage, ez=breakMaxSelfDamage, el=placeMinDamage, eO=breakMinDamage, ep=placeBalance, eX=breakBalance, eI=forcePlaceMinDamage, eU=forcePlaceBalance, VW(boolean)=lethalOverride, en=lethalThresholdAddition, ek=lethalMaxSelfDamage, em=safeMaxTargetDamageReduction, eT=safeMinSelfDamageReduction, eP=collidingCrystalExtraSelfDamageThreshold, oM(DQ)=armorMode(DamageUtils.ArmorEnchantmentMode), mQ(Xo)=damagePriority(DamagePriority), iX(yQ)=placeSideBypass(PlaceBypass), yr=packetPlaceMode(PacketPlaceMode), Xb×2=breakMode+pa",
+  "pinned": true
+ },
+ "DE": {
+  "identity": "PanelElements",
+  "kind": "util",
+  "conf": "A-",
+  "evidence": "常量 k=9.0f=ROW_LABEL_INSET, S=20.0f=ICON_BUTTON_SIZE 完全匹配；静态工具类+private构造；K(zU,ih,float,float)=buildRowSurface(scope,bounds,hover), A(ih)=rowLabelX(bounds)=x+9.0f, n(ih,float,float)=alignTrailing(bounds,w,h)=right-5.0f-w居中, K(zU,ih,boolean,float)=buildFilledField→Ob(=FilledFieldColors)返回text/caret/indicator三色(含new Color(0,0,0,0)透明), d(zU,_j,ih,String,float,Color,Color,String,float,nK)=buildAssistChip(scope,tr,renderer,label,scale,bg,fg,trailIcon,trailScale,trailFont), Q(zU,_j,ih,String,float,Color,float)=buildIconButton(scope,tr,bounds,label,scale,tone,hover), Q(ih,float)=measureAssistChipBound",
+  "pinned": true
+ },
+ "Dt": {
+  "identity": "ConfigClientSettingTab.ConfigRowEntry",
+  "kind": "record",
+  "conf": "B",
+  "evidence": "3字段Record：String AF, ih wX, ih wG。ih=UiRect(4float)。官方ConfigRowEntry(String name, UiRect rowBounds, UiRect deleteBounds)结构完全一致。FriendRowEntry也同结构(String, UiRect, UiRect)无法区分，取ConfigRowEntry。包级别可见性(非private)与官方nested record flatten一致"
+ },
+ "g5": {
+  "identity": "ConfigFolderOpener",
+  "kind": "utility_class",
+  "conf": "B",
+  "evidence": "Both are utility classes with private constructor and single static Path method throwing IOException. ConfigFolderOpener.openConfigFolder() creates directories and returns Path. g5.X() does similar (Files.createTempDirectory/createDirectories pattern). Same structural signature; internal call chain differs due to obfuscation."
+ },
+ "z": {
+  "identity": "AutoClicker",
+  "kind": "module",
+  "conf": "B",
+  "evidence": "extends e(Module)；940行混淆后≈269行原始(AutoClicker)；构造器含Range double设置(5.0,1.0,6.0,0.05)——AutoClicker无精确匹配但CPS相关int设置与z的XG字段对应；@yE事件处理器含ServerboundSwingPacket发送+isBlocking()检查+double a字段做CPS累加——AutoClicker的handleButton/performClick逻辑同构；z的13设置≈AutoClicker的21设置(obfuscation合并/重排)；但MC导入(MultiPlayerGameMode/LocalPlayer)与AutoClicker不完全匹配——conf降为B"
+ },
+ "dc": {
+  "identity": "AddonClientSettingTab.AddonRowEntry",
+  "kind": "record",
+  "conf": "A",
+  "evidence": "Record 2字段(String yb + ih yy)。ih = UiRect(4-float record含contains/inset方法)。official26 AddonClientSettingTab.java:596定义private record AddonRowEntry(String addonId, UiRect bounds)，字段类型/数量完全一致。obfuscator将inner record提取为top-level class。",
+  "pinned": true
+ },
+ "Dq": {
+  "identity": "Follower.DirectionInput",
+  "kind": "record",
+  "conf": "A",
+  "evidence": "4个boolean字段类型序列一致：(boolean forward→qa, boolean back→QB, boolean left→QW, boolean right→QQ)。private记录在Follower内，e1.java中Follower相关代码使用Dq控制方向输入(8种方向组合构造)。Official: private record DirectionInput(boolean forward, boolean back, boolean left, boolean right)",
+  "pinned": true
+ },
+ "g7": {
+  "identity": "HudModule.HorizontalAnchor",
+  "kind": "enum",
+  "conf": "A",
+  "evidence": "g7 is public final enum extending Enum<g7> with exactly 3 values: Center, Right, Left. HudModule.HorizontalAnchor in official source (elements/HudModule.java:186-190) is `public static enum HorizontalAnchor { Left, Center, Right; }` — identical value set, identical type (enum), identical count (3). g7 is package-private in bytecode as inner enum; CFR decompiles inner enums as public. Structural match exact.",
+  "pinned": true
+ },
+ "i5": {
+  "identity": "Scaffold.RaytraceMode",
+  "kind": "enum",
+  "conf": "A",
+  "evidence": "枚举恰好2值Normal/Strict，与Scaffold.java:524-526的private enum RaytraceMode { Normal, Strict }完全一致；枚举静态初始化顺序(Normal=0, Strict=1)与我方一致；仅被Scaffold的raytrace EnumSetting引用",
+  "pinned": true
+ },
+ "ia": {
+  "identity": "ClientSetting.GuiMode",
+  "kind": "enum_bootstrap",
+  "conf": "A-",
+  "evidence": "ia为switch table bootstrap类：静态int[]查找表+k数组+bridge方法+v()。引用iU枚举(Dropdown/Panel共2值)做ordinal索引。官方ClientSetting.GuiMode枚举同为Dropdown(ordinal 0)和Panel(ordinal 1)；官方switch用GuiMode ordinal做Screen选择(Dropdown→DropdownScreen, Panel→PanelScreen)与ia的switch table用途吻合。非直接类名匹配，结构等价",
+  "pinned": true
+ },
+ "gr": {
+  "identity": "FabricEpsilonAddonEntrypoint",
+  "kind": "interface",
+  "conf": "A-",
+  "evidence": "Os.java中通过gr.class作为Fabric入口点类型检索: FabricLoader.getEntrypointContainers(..., gr.class)。获取后转gr并调用f(Object[])=registerAddon(EpsilonAddonSetupEvent)。官方FabricEpsilonAddonEntrypoint同为单方法接口，方法签名为void registerAddon(EpsilonAddonSetupEvent)。角色完全一致(模组addon入口点)，但参数类型从具体事件改为Object[]属版本演进差异。",
+  "pinned": true
+ },
+ "i4": {
+  "identity": "ZealotCrystalPlus.BreakChoice",
+  "kind": "class",
+  "conf": "A",
+  "evidence": "final类3字段: nq(CrystalSnapshot)+float f(selfDamage,默认MAX_VALUE)+float O(targetDamage,默认NEGATIVE_INFINITY); 与ZealotCrystalPlus.java:内层BreakChoice字段完全一致(crystal/selfDamage/targetDamage); J(Object[])=update(crystal,selfDamage,targetDamage); W(Object[])=clear()重置为null/MAX_VALUE/NEGATIVE_INFINITY; x(Object[])=takeValid()取max计算; 构造器设f=MAX_VALUE/O=NEGATIVE_INFINITY匹配BreakChoice字段初始化; CFR扁平化内部类至root包属已知行为",
+  "pinned": true
+ },
+ "nE": {
+  "identity": "Pitch40ControlState",
+  "kind": "record",
+  "conf": "A",
+  "evidence": "7组件Record与官方Pitch40ControlState字段类型完全对应：boolean(enabled)→QS, ElytraFlightModes(mode)→e1(nZ枚举含Pitch40/Control), double(lowerBounds)→xi, boolean(autoTakeoff)→QA, double(takeoffTargetHeight)→xa, boolean(autoFirework)→QZ, Float(yawOverride)→fy；nZ枚举2常量Pitch40/Control与ElytraFlightModes完全一致",
+  "pinned": true
+ },
+ "nH": {
+  "identity": "PanelVisibleResolver",
+  "kind": "interface",
+  "conf": "A",
+  "evidence": "@FunctionalInterface单方法boolean E(String)与官方PanelVisibleResolver.getAsBoolean(String)签名完全匹配（boolean返回+String参数）；PanelVisibleResolver是MainDropdownPanel的静态内部接口，混淆后提升为顶层类",
+  "pinned": true
+ },
+ "ni": {
+  "identity": "PanelLayout.Layout",
+  "kind": "record",
+  "conf": "A",
+  "evidence": "Xk.x(screenWidth,screenHeight,railWidth) computes panel/rail/modules/detail UiRects identically to PanelLayout.compute(), returns ni(ih,ih,ih,ih) matching Layout(panel,rail,modules,detail). 4 fields all of type ih=UiRect(x,y,width,height). Constructor: sY=ih2(panel),sv=ih3(rail),sT=ih4(modules),sb=ih5(detail).",
+  "pinned": true
+ },
+ "ib": {
+  "identity": "SettingsListPanel",
+  "kind": "class",
+  "conf": "A",
+  "evidence": "extends iN(=AbstractDropdownPanel)；构造器(String, uT=TranslateComponent, String, int, List<Dl<?>>=List<Setting<?>>)完全匹配 src SettingsListPanel(String id, String title, String icon, int panelIndex, List<Setting<?>> settings)；字段 lE=SettingsContent 对应 src settingsContent；导入 DF(UiTextMetrics)+lE(SettingsContent)+uT(TranslateComponent)+Dl(Setting) 与 src SettingsListPanel 的依赖一致",
+  "pinned": true
+ },
+ "id": {
+  "identity": "AddonDropdownPanel",
+  "kind": "class",
+  "conf": "A",
+  "evidence": "extends iN(=AbstractDropdownPanel)；float常量精确匹配: y=4.0f=GAP, G=38.0f=INFO_HEIGHT, F=28.0f=ADDON_ROW_HEIGHT, x=6.0f=PADDING；字段 iH=EpsilonAddon(已确认) J 对应 src lastAddon；List<zc<?>>=List<SettingWidget<?>> 对应 src widgets；String L/float V/int C 对应 selectedAddonId/cachedWidgetsHeight/cachedWidgetsHeightFrameId",
+  "pinned": true
+ },
+ "OL": {
+  "identity": "RenderEntry",
+  "kind": "record",
+  "conf": "A-",
+  "evidence": "3字段Record: (自定义类型, float, 自定义类型); 官方Notifications.RenderEntry(Notification, float boxWidth, RenderFrame)完全对应; 字段数+类型序列+Record结构一致; yn→Notification, Oq→RenderFrame 未在class_map确认",
+  "pinned": true
+ },
+ "lk": {
+  "identity": "ClientSetting.FontMode",
+  "kind": "enum",
+  "conf": "B",
+  "evidence": "enum 2值: Default+OsakaChips; Official FontMode: Default+Custom; Default值完全匹配; OsakaChips为StaticFontLoader.OSAKA_CHIPS字体常量名, 26.2-2026.10.7版将FontMode.Custom重命名为OsakaChips(指向osakachips.ttf内置字体); 枚举值数量(2)、首值名(Default)、字体领域语义一致"
+ },
+ "nA": {
+  "identity": "StringSettingRow.DisplaySlice",
+  "kind": "record",
+  "conf": "B",
+  "evidence": "Record 5组件(String wF, float qA, int lp, int lj, int LH)与官方StringSettingRow.DisplaySlice(String text, float textX, int caretIndex, int start, int end)字段类型序列完全一致(String,float,int,int,int)。语义映射：wF→text(String)/qA→textX(float)/lp→caretIndex(int)/lj→start(int)/LH→end(int)。nA在vs.java中用于文本光标位置和选区管理，与DisplaySlice用于文本选择渲染的用途一致。nA为独立顶层类(DisplaySlice为StringSettingRow私有内部Record)，混淆器提升内部类至顶层导致结构差异"
+ },
+ "lf": {
+  "identity": "FabricSelfAddonEntrypoint",
+  "kind": "class",
+  "conf": "A-",
+  "evidence": "final class implements gr; gr=G FabricEpsilonAddonEntrypoint(conf A-, G060); 方法f(Object[])=registerAddon(EpsilonAddonSetupEvent); 结构与src FabricSelfAddonEntrypoint完全一致: 单方法回调接口实现，提取event参数并创建新实例；CFR提取private inner class为top-level；行数/方法签名/语义均匹配",
+  "pinned": true
+ },
+ "lh": {
+  "identity": "KillAura.TargetMode",
+  "kind": "enum",
+  "conf": "B",
+  "evidence": "2值enum: Switch(ordinal1)/Single(ordinal0); eY.java(=KillAura, class_map conf A)导入lh并持有Dx<lh>(EnumSetting<lh>)字段vz，确认lh为KillAura内部枚举；常量名Switch/Single与src KillAura.TargetMode前两常量一一对应，序号一致(0=Single/1=Switch)；但官方TargetMode有3值(Single/Switch/Multiple)而lh仅2值，CFR decompile显示仅创建2个enum实例；可能是26.2→26.10演进(Multiple常量被移除/重命名)或decompile遗漏"
+ },
+ "iP": {
+  "identity": "FabricPlatformAddon",
+  "kind": "class",
+  "conf": "A",
+  "evidence": "extends iH(=EpsilonAddon); 无参构造→super(解密字符串→\"epsilon_fabric\"); e(Object[])(=onSetup)空实现; V(Object[])(=getDescription)返回字符串; R()(=getDisplayName)返回字符串; z()(=getAddonId)返回字符串; w()(=getAuthors)返回List<String>; 实例化于lf(=AddonBootstrap).f()→new iP()→注册到um(=ModuleHolder); 结构与官方FabricPlatformAddon完全匹配(无参构造+super(\"epsilon_fabric\")+5个简单override)",
+  "pinned": true
+ },
+ "O5": {
+  "identity": "DropdownScreen$DropdownTextMetrics",
+  "kind": "inner class",
+  "conf": "A-",
+  "evidence": "O5 implements DF(UiTextMetrics), has u4(DropdownScreen) field, q(String,float)→textWidth, O(float)→textHeight; u4 has all 17 DropdownScreen fields (panels, textMetrics, uiTextMetrics, scene, popupHost, scrimAnim, searchField, visiblePanelIds, renderTarget, preeditOverlay, initialized, sessionId, renderFrameId, dropdownBatch, dropdownScope, dropdownLayer); constructor pattern O5(u4) matches DropdownTextMetrics(DropdownScreen) with Objects.requireNonNull; Object[] overloads are bridge methods from obfuscation",
+  "pinned": true
+ },
+ "uD": {
+  "identity": "EventBus.LambdaFactoryInfo",
+  "kind": "record",
+  "conf": "A",
+  "evidence": "Record with 2 fields: String se(=packagePrefix), yc(=LambdaListener.Factory) nk(=factory) — exact match to official LambdaFactoryInfo(String packagePrefix, LambdaListener.Factory factory) in EventBus.java",
+  "pinned": true
+ },
+ "gY": {
+  "identity": "PlayerAlarms.RingState",
+  "kind": "class",
+  "conf": "A",
+  "evidence": "package-private inner class; 字段序列 int ticks(int s), int ringsLeft(int t), boolean active(boolean n) 完全对应; private无参构造器匹配; 14行简洁类体; 被 PlayerAlarms 的 5 个 RingState 实例字段(joinRing/leaveRing/enterRDRing/leaveRDRing/gamemodeRing)引用; resetRingState/startRing/handleRing 方法直接操作 ticks/ringsLeft/active 三字段",
+  "pinned": true
+ },
+ "Xa": {
+  "identity": "ZealotCrystalPlus.AsyncResult",
+  "kind": "record",
+  "conf": "A",
+  "evidence": "7字段Record逐一对应: (long DV=snapshotId, nh ow=rotationBreakPlan, nh op=breakPlan, iR xM=primaryTarget, long DE=calculationNanos, O7 br=rotationPlaceInfo, O7 bi=placeInfo); 字段类型序列(long,BreakPlan,BreakPlan,TargetSnapshot,long,PlaceInfo,PlaceInfo)与src AsyncResult完全一致; static final h 构造(-1L,null,null,null,null,null,0L)匹配src EMPTY常量; ZealotCrystalPlus是combat包大型类(1805行),nh=BreakPlan和iR=TargetSnapshot已在class_map确认",
+  "pinned": true
+ },
+ "uK": {
+  "identity": "Rot2f",
+  "kind": "class",
+  "conf": "A",
+  "evidence": "2 float 字段(G,q) + 构造器(float,float) + 复制方法A(Object[])读取另一实例的两个float并写入自身 + 两个getter f()/p()分别返回两个float → 与 src Rot2f(float x, float y) + copy/getX/getY 结构完全吻合；46行体量匹配",
+  "pinned": true
+ },
+ "Xg": {
+  "identity": "FollowerConfig",
+  "kind": "record",
+  "conf": "A",
+  "evidence": "Record字段类型序列(double,double,int,int)与src FollowerConfig(double stopDistance, double verticalDeadzone, int searchRadius, int maxNodes)完全吻合; e1(Follower)中构造new Xg(d,d,i,i)对应FollowerConfig创建; 被Of(StrafeFollowerNavigator)引用与路径寻路Config用途一致",
+  "pinned": true
+ },
+ "XX": {
+  "identity": "EpsilonTranslations.Keybind",
+  "kind": "record",
+  "conf": "B",
+  "evidence": "static final class with 3 uT(=TranslateComponent)字段(u/Z/m)，正好匹配 EpsilonTranslations.Keybind 的 3 个 static final TranslateComponent 字段(NONE/TOGGLE/HOLD)。uT=TranslateComponent 已由 class_map 确认(dy=EpsilonTranslateComponent 提供 create 方法)。字段通过 hi.a(\"G\",...) 静态写入初始化，与 TranslateComponent 的 obfuscation 模式一致。Keybind 是 EpsilonTranslations 的内部类，obfuscation 后扁平化为顶层类 XX"
+ },
+ "y1": {
+  "identity": "Notification",
+  "kind": "class",
+  "conf": "A",
+  "evidence": "字段完全对应：id(int,final)=p, title(String)=W, subTitle(String)=K, mode(NotificationMode)=P, createTime(long)=y, replaceable(boolean,final)=u, skipIntroAnim(boolean)=N。构造器(int,String,String,NotificationMode,boolean)完全一致。hashCode用replaceable?id:identityHashCode匹配。equals按getClass+replaceable+各字段比较。方法getId/getTitle/getSubTitle/getMode/isReplaceable/getCreateTime/getElapsedTime对应。",
+  "pinned": true
+ },
+ "yE": {
+  "identity": "EventHandler",
+  "kind": "annotation",
+  "conf": "A",
+  "evidence": "完全同构: @Retention(RUNTIME)+@Target(METHOD)+单int方法default 0; P()=priority()混淆; @yE 在 class_map 多处证据中被锚定为 @EventHandler(eB 含 @yE 处理器)",
+  "pinned": true
+ },
+ "yo": {
+  "identity": "FollowerInput",
+  "kind": "record",
+  "conf": "A-",
+  "evidence": "Record 8字段逐项吻合: 6 boolean(forward/back/left/right/jump/sneak)+2 float(yaw/pitch) 与 src FollowerInput 完全一致; 构造器 (6b,2f) 签名匹配; lB()/Gp()/GO() 含 forward==back→0, forward→1.0f:-1.0f 等逻辑与 forwardImpulse()/strafeImpulse()/hasMoveInput() 语义一致; 26.2 新增 hashCode/equals/toString(ObjectMethods.bootstrap) 与 Record 演进一致",
+  "pinned": true
+ },
+ "yT": {
+  "identity": "UiScrollBar.Geometry",
+  "kind": "record",
+  "conf": "A",
+  "evidence": "record 8 float字段 ↔ thumbX/thumbY/thumbWidth/thumbHeight/trackX/trackY/trackWidth/trackHeight; r(double,double)=thumbContains(point-in-thumb), d(double,double)=trackContains(point-in-track); 字段getter通过hi.a反射访问匹配; official26 Geometry有同名2个boolean containment方法",
+  "pinned": true
+ },
+ "yy": {
+  "identity": "LuminTexture",
+  "kind": "Class (extends AbstractTexture)",
+  "conf": "A",
+  "evidence": "继承y4对应AbstractTexture。构造器yy(lD)调用super(lD.tn(), lD.WB(), lD.Cc(), true, false)对应LuminTexture(GpuTexture, GpuTextureView, GpuSampler, true, false)。lD字段类型GpuTexture/GpuTextureView/GpuSampler与LuminTexture完全一致。static H()方法用NativeImage+ByteBuffer+put+rewind+getPixelBytes与TextureRenderer中writeToTexture+image.close模式一致。static p()创建lD(GpuTexture, GpuTextureView, GpuSampler)与LuminTexture三参数构造器一致。多出的static方法为混淆合并的工具方法。",
+  "pinned": true
+ },
+ "vC": {
+  "identity": "ModuleList.ModuleToggleFlag",
+  "kind": "class",
+  "conf": "A",
+  "evidence": "final class, 3实例字段(float H/boolean x/long s); 用于es(=ModuleList)的Map<e,vC> kQ; 构造器new vC(long)与ModuleToggleFlag lambda$collectRows$1(boolean→long混淆); r(Object[])返回float.progress值, 与ModuleToggleFlag.update(state,now)→float.progress一致; o(Object[])返回当前值; 在es渲染循环中用法完全匹配ModuleList: toggleFlags.computeIfAbsent→flag.update(state,now)→progress<=0.001f判断; 字段映射:H=progress, x=target, s=lastChangeMs(字段名因混淆不同)",
+  "pinned": true
+ },
+ "zr": {
+  "identity": "ScaffoldBlock.Layout",
+  "kind": "record",
+  "conf": "A",
+  "evidence": "10 float字段 + private centerX() = Pa()+Ph()/2 对应 renderX+totalWidth/2; 构造器10参数; extends Record; 仅official中10 float record含centerX()方法; 字段语义: pa→renderX, ph→totalWidth, PP→labelGap等",
+  "pinned": true
+ },
+ "zT": {
+  "identity": "AbstractDropdownPanel.TitleSupplier",
+  "kind": "interface",
+  "conf": "A",
+  "evidence": "@FunctionalInterface + String c() 对应 TitleSupplier.get(); iN(obf)=AbstractDropdownPanel; iN中protected final zT o对应protected final TitleSupplier titleSupplier; 构造器接受TitleSupplier参数; 独立文件因为是内部接口提取",
+  "pinned": true
+ },
+ "_Z": {
+  "identity": "TimerUtils",
+  "kind": "class",
+  "conf": "A",
+  "evidence": "D023(conf A)中Record(Vec3,_Z)已被识别为JumpCircle.Circle(Vec3 pos, TimerUtils timer); _Z方法逐一对应: S(Object[])=getMs()(返回elapsed毫秒差), m(long)=setMs()(设偏移时间戳), j(Object[])=every()(检查并reset), e(long)=passedMillise(long)(阈值比较), D(Object[])=passedMillise(double)(包装double版), B()=reset()(重置startTime); 实例字段long p=startTime; 无MC导入; 无super/interfaces符合TimerUtils声明; 4个static final long[]/Integer[]/Long[]为加密常量解密基础设施(invoke dynamic switch bootstrap), 非TimerUtils业务字段",
+  "pinned": true
+ },
+ "zB": {
+  "identity": "PanelDirtyState.BooleanSupplier",
+  "kind": "interface",
+  "conf": "A-",
+  "evidence": "单方法boolean接口，位于Xy(PanelDirtyState)内。official中PanelDirtyState有private static interface BooleanSupplier{boolean getAsBoolean();}，完全匹配：单方法/无参/返回boolean/static inner。混淆后flatten为顶级类。",
+  "pinned": true
+ },
+ "zY": {
+  "identity": "ZealotCrystalPlus$PlaceMode",
+  "kind": "enum",
+  "conf": "A",
+  "evidence": "enum值Off/Single/Multi与官方ZealotCrystalPlus.PlaceMode完全一致，字段结构匹配",
+  "pinned": true
+ },
+ "dU": {
+  "identity": "ColorPickerPopup",
+  "kind": "class",
+  "conf": "B",
+  "evidence": "implements XJ(ClientSettingTabView); 字段: DR(ColorChannel)×2 + DV(ColorSetting) + Color g + ih(文本渲染) + Consumer; 锚点 ColorSetting; 2426行(26.2大幅扩展, src 26.1.2版仅~300行实现Popup接口)"
+ },
+ "z3": {
+  "identity": "RegistryListSettingWidget",
+  "kind": "class",
+  "conf": "A-",
+  "evidence": "extends zv<Xe<?>>=AbstractSetSettingWidget<RegistryListSetting>；方法 Y()→elementCount(), L()→labelText(), X()→openPopup() 精确映射 src 三抽象方法；与已识别 zA(StringListSettingWidget, extends zv<XF>) 同构；构造接收 Xe<?>=RegistryListSetting<?>",
+  "pinned": true
+ },
+ "iI": {
+  "identity": "Notifications",
+  "kind": "class",
+  "conf": "A-",
+  "evidence": "4 个 IntSetting(XG)字段 + 1 个 DoubleSetting(DM)字段 + 1 个 eJ 字段; lambda$renderStage2$0 签名与 Notifications.renderStage2 对应; 使用 vt=Notifications$RenderStage 枚举 + gQ=Notifications$RenderFrame record; g(Object[]) 方法做通知颜色混合(blend=5种模式); Color 乘法 255.0f*f7 与渲染透明度一致; 2238 行大型 HUD 渲染类; batch 标记 is_module=false 但 Notifications extends HudModule 故降为 A-",
+  "pinned": true
+ },
+ "d7": {
+  "identity": "Render2DCommand.Texture",
+  "kind": "class",
+  "conf": "A-",
+  "evidence": "[批次] G039",
+  "pinned": true
+ },
+ "gG": {
+  "identity": "EpsilonFontGlyph",
+  "kind": "class",
+  "conf": "A",
+  "evidence": "[批次] E009",
+  "pinned": true
+ },
+ "ls": {
+  "identity": "EpsilonFontMetrics",
+  "kind": "class",
+  "conf": "A",
+  "evidence": "[批次] E009",
+  "pinned": true
+ },
+ "OT": {
+  "identity": "EpsilonGuiRenderer",
+  "kind": "class",
+  "conf": "A",
+  "evidence": "[批次] E009",
+  "pinned": true
+ },
+ "OE": {
+  "identity": "TtfFontFile",
+  "kind": "class",
+  "conf": "A",
+  "evidence": "[批次] F018",
+  "pinned": true
+ },
+ "gz": {
+  "identity": "TextureCacheHolder",
+  "kind": "class",
+  "conf": "A-",
+  "evidence": "[批次] G014",
+  "pinned": true
+ },
+ "dh": {
+  "identity": "EpsilonFontGlyph.GlyphInstance",
+  "kind": "class",
+  "conf": "A",
+  "evidence": "[批次] G021",
+  "pinned": true
+ },
+ "yn": {
+  "identity": "TtfGlyphAtlas",
+  "kind": "class",
+  "conf": "A",
+  "evidence": "[批次] G024",
+  "pinned": true
+ },
+ "y2": {
+  "identity": "EpsilonGuiRenderer.Draw",
+  "kind": "class",
+  "conf": "A",
+  "evidence": "[批次] G033",
+  "pinned": true
+ },
+ "d4": {
+  "identity": "UiTree.FilledFieldNode",
+  "kind": "class",
+  "conf": "A",
+  "evidence": "[批次] G039",
+  "pinned": true
+ },
+ "d8": {
+  "identity": "SystemEmojiAtlas.EmojiGlyph",
+  "kind": "class",
+  "conf": "A",
+  "evidence": "[批次] G040",
+  "pinned": true
+ },
+ "D9": {
+  "identity": "UiTree.PopupCardNode",
+  "kind": "class",
+  "conf": "A",
+  "evidence": "[批次] G040",
+  "pinned": true
+ },
+ "Dd": {
+  "identity": "UiTree.RectGradientNode",
+  "kind": "class",
+  "conf": "A",
+  "evidence": "[批次] G041",
+  "pinned": true
+ },
+ "dg": {
+  "identity": "UiTree.Scope.Stack",
+  "kind": "class",
+  "conf": "A",
+  "evidence": "[批次] G043",
+  "pinned": true
+ },
+ "dM": {
+  "identity": "UiTree.ButtonElement",
+  "kind": "class",
+  "conf": "A",
+  "evidence": "[批次] G047",
+  "pinned": true
+ },
+ "dq": {
+  "identity": "Render2DTexture.LuminRef",
+  "kind": "class",
+  "conf": "A",
+  "evidence": "[批次] G047",
+  "pinned": true
+ },
+ "dt": {
+  "identity": "EpsilonFontGlyph.EpsilonGlyphInfo",
+  "kind": "class",
+  "conf": "A",
+  "evidence": "[批次] G049",
+  "pinned": true
+ },
+ "g2": {
+  "identity": "UiTree.AssistChipNode",
+  "kind": "class",
+  "conf": "A",
+  "evidence": "[批次] G053",
+  "pinned": true
+ },
+ "gj": {
+  "identity": "Render2DCommand.Text",
+  "kind": "class",
+  "conf": "A",
+  "evidence": "[批次] G058",
+  "pinned": true
+ },
+ "ij": {
+  "identity": "TtfGlyph",
+  "kind": "class",
+  "conf": "A-",
+  "evidence": "[批次] G066",
+  "pinned": true
+ },
+ "ip": {
+  "identity": "Render2DScheduler.BatchPlanner",
+  "kind": "class",
+  "conf": "A-",
+  "evidence": "[批次] G068",
+  "pinned": true
+ },
+ "lm": {
+  "identity": "UiRenderBatch",
+  "kind": "class",
+  "conf": "A",
+  "evidence": "[批次] G076",
+  "pinned": true
+ },
+ "nm": {
+  "identity": "SystemEmojiAtlas.ColorGlyphFont",
+  "kind": "class",
+  "conf": "A",
+  "evidence": "[批次] G084",
+  "pinned": true
+ },
+ "nR": {
+  "identity": "UiTree.OutlineNode",
+  "kind": "class",
+  "conf": "A",
+  "evidence": "[批次] G086",
+  "pinned": true
+ },
+ "nU": {
+  "identity": "UiTree.TextNode",
+  "kind": "class",
+  "conf": "B",
+  "evidence": "[批次] G087"
+ },
+ "Od": {
+  "identity": "Render2DCommand.Rect",
+  "kind": "class",
+  "conf": "A",
+  "evidence": "[批次] G093",
+  "pinned": true
+ },
+ "OO": {
+  "identity": "SystemEmojiAtlas",
+  "kind": "class",
+  "conf": "A-",
+  "evidence": "[批次] G096",
+  "pinned": true
+ },
+ "Ot": {
+  "identity": "Render2DScheduler.CommandStore",
+  "kind": "class",
+  "conf": "A",
+  "evidence": "[批次] G098",
+  "pinned": true
+ },
+ "Ox": {
+  "identity": "UiTree.ButtonNode",
+  "kind": "class",
+  "conf": "A",
+  "evidence": "[批次] G100",
+  "pinned": true
+ },
+ "u2": {
+  "identity": "UiTree.RotatedTextureNode",
+  "kind": "class",
+  "conf": "A",
+  "evidence": "[批次] G100",
+  "pinned": true
+ },
+ "uB": {
+  "identity": "UiTree.IconButtonNode",
+  "kind": "class",
+  "conf": "A",
+  "evidence": "[批次] G102",
+  "pinned": true
+ },
+ "ud": {
+  "identity": "UiTree.SwitchNode",
+  "kind": "class",
+  "conf": "A",
+  "evidence": "[批次] G103",
+  "pinned": true
+ },
+ "v1": {
+  "identity": "Render2DCommand.Triangle",
+  "kind": "class",
+  "conf": "A",
+  "evidence": "[批次] G110",
+  "pinned": true
+ },
+ "v2": {
+  "identity": "ITextRenderer",
+  "kind": "class",
+  "conf": "A-",
+  "evidence": "[批次] G110",
+  "pinned": true
+ },
+ "v5": {
+  "identity": "TriangleRenderer",
+  "kind": "class",
+  "conf": "B",
+  "evidence": "[批次] G111"
+ },
+ "vd": {
+  "identity": "UiTree.LayerNode",
+  "kind": "class",
+  "conf": "A",
+  "evidence": "[批次] G112",
+  "pinned": true
+ },
+ "vG": {
+  "identity": "TtfTextRenderer$layoutCache",
+  "kind": "class",
+  "conf": "A-",
+  "evidence": "[批次] G113",
+  "pinned": true
+ },
+ "vO": {
+  "identity": "TtfTextRenderer$widthCache",
+  "kind": "class",
+  "conf": "A",
+  "evidence": "[批次] G114",
+  "pinned": true
+ },
+ "vq": {
+  "identity": "TtfTextRenderer",
+  "kind": "class",
+  "conf": "A",
+  "evidence": "[批次] G116",
+  "pinned": true
+ },
+ "vS": {
+  "identity": "Render2DScheduler.QuadTreeBucket",
+  "kind": "class",
+  "conf": "A",
+  "evidence": "[批次] G116",
+  "pinned": true
+ },
+ "X6": {
+  "identity": "Render2DTexture",
+  "kind": "class",
+  "conf": "A",
+  "evidence": "[批次] G119",
+  "pinned": true
+ },
+ "XN": {
+  "identity": "RoundRectRenderer",
+  "kind": "class",
+  "conf": "A",
+  "evidence": "[批次] G123",
+  "pinned": true
+ },
+ "y3": {
+  "identity": "Render2DCommandKind",
+  "kind": "class",
+  "conf": "A-",
+  "evidence": "[批次] G127",
+  "pinned": true
+ },
+ "y8": {
+  "identity": "Render2DScheduler$RendererPool",
+  "kind": "class",
+  "conf": "A",
+  "evidence": "[批次] G128",
+  "pinned": true
+ },
+ "yI": {
+  "identity": "TtfTextRenderer.LayoutRun",
+  "kind": "class",
+  "conf": "A",
+  "evidence": "[批次] G130",
+  "pinned": true
+ },
+ "yM": {
+  "identity": "Render2DCommand",
+  "kind": "class",
+  "conf": "A",
+  "evidence": "[批次] G131",
+  "pinned": true
+ },
+ "ys": {
+  "identity": "RoundRectOutlineRenderer",
+  "kind": "class",
+  "conf": "A",
+  "evidence": "[批次] G133",
+  "pinned": true
+ },
+ "yX": {
+  "identity": "Render2DCommand.RoundRectOutline",
+  "kind": "class",
+  "conf": "A",
+  "evidence": "[批次] G135",
+  "pinned": true
+ },
+ "zn": {
+  "identity": "IntSliderWidget",
+  "kind": "class",
+  "conf": "A",
+  "evidence": "[批次] G139",
+  "pinned": true
+ },
+ "zP": {
+  "identity": "Render2DScheduler.LayerHandle",
+  "kind": "class",
+  "conf": "A",
+  "evidence": "[批次] G139",
+  "pinned": true
+ },
+ "_A": {
+  "identity": "IRenderer",
+  "kind": "class",
+  "conf": "A-",
+  "evidence": "[批次] G144",
+  "pinned": true
+ },
+ "b": {
+  "identity": "Stuck",
+  "kind": "module",
+  "conf": "A",
+  "pinned": true,
+  "evidence": "G009: extends e(Module)+294行(官方 Stuck 88 行 ×3.3 膨胀)+onGround/toggle/垂直速度+LocalPlayer；行数徽记为三者中最接近"
+ },
+ "nK": {
+  "identity": "TtfFontLoader",
+  "kind": "class",
+  "conf": "A",
+  "evidence": "字段逐项对应：yW[]=GlyphDescriptor[],int[]=int[],boolean[]=boolean[],HashMap<Integer,yW>=HashMap<Integer,GlyphDescriptor>,HashMap<Integer,Integer>=HashMap<Integer,Integer>,HashMap<Integer,CompletableFuture<ij>>=HashMap<Integer,CompletableFuture<TtfGlyph>>,Set<Integer>=Set<Integer>,List<yn>=List<TtfGlyphAtlas>,yn F=TtfGlyphAtlas currentAtlas,OE b=TtfFontFile fontFile,ExecutorService i=GLYPH_WORKER,AtomicInteger B=WORKER_ID;构造器(Path)匹配TtfFontLoader(Path);DS接口映射IFontLoader",
+  "pinned": true
+ },
+ "nt": {
+  "identity": "Render2DCommand.Shadow",
+  "kind": "record",
+  "conf": "A",
+  "evidence": "yM=Render2DCommand(sealed interface, 7 permits official→12 obf); nt 11字段: int layer, long sequence, XL bounds, Xu scissor, String, float×3, Color×2, nK(TtfFontLoader); 官方Shadow 10字段: int layer, long sequence, Render2DBounds, Render2DScissor, float×5(radii+blur), Color; 前4字段类型完全匹配, 多出的 Color(YT)+nK(mv) 为26.2-10月版新增字段",
+  "pinned": true
+ },
+ "XL": {
+  "identity": "Render2DBounds",
+  "kind": "record",
+  "conf": "A",
+  "evidence": "Record(float x,y,width,height) 4字段全float; bo()→height, bR()→x, bY()→y, bv()=y+height→bottom(), ba()=y+height*0.5→centerY(), bG()=x+width→right(), bw()=x+width*0.5→centerX(); F(XL)取min(x)/min(y)/max(right)/max(bottom)→include(); n(XL)判断width/height正负+边界交叉→intersects(); I(XL)判断是否在other内→contains(); T(float,float)→point(x,y); F(4float)→of(x,y,w,h); hash/equals/toString由ObjectMethods.bootstrap生成; 官方 Render2DBounds(float x,y,width,h) right()=x+width bottom()=y+height centerX()/centerY()/intersects()/include()方法语义逐项对应",
+  "pinned": true
+ },
+ "yk": {
+  "identity": "UiTheme",
+  "kind": "interface",
+  "conf": "A",
+  "evidence": "实现 l5(=UiTheme)，25+ 方法全部返回 Color/float/boolean/long，与 UiTheme 25 方法逐项对应：R()→light(boolean), L()→hoverAnimationDuration(long), F(Object[])→controlRadius(float), r(Object[])→stateLayer(Color,float,int), t(Object[])→lerp(Color,Color,float), a(Object[])→withAlpha(Color,int) 等。方法数+返回类型+参数类型完全匹配。",
+  "pinned": true
+ },
+ "yP": {
+  "identity": "UiTextMetrics",
+  "kind": "interface",
+  "conf": "B",
+  "evidence": "yP implements DF 且仅含一个 yt(=HudEditorScreen) 字段, 私有构造+Objects.requireNonNull; q(String,float)↔textWidth(String,float), O(float)↔textHeight(float) 签名对应; X(Object[]) 提取(String,Float,nK)↔textWidth(String,float,TtfFontLoader) 三参桥接; O(Object[]) 提取(Float,nK)↔textHeight(float,TtfFontLoader); DF 即 UiTextMetrics(4方法接口); CFR 提取匿名内部类为顶层文件"
+ },
+ "yq": {
+  "identity": "Render2DCommand.RoundRect",
+  "kind": "record",
+  "conf": "A",
+  "evidence": "Record 12字段逐项吻合: 构造器 8f+4Color 顺序对应 RoundRect 4 radius+4 corner Color; Uu()↔radiusTopLeft, UG()↔radiusTopRight, UO()↔radiusBottomRight, UI()↔radiusBottomLeft; Kk()↔topLeft, KS()↔bottomLeft, Kc()↔bottomRight, Kx()↔topRight; _Q=Render2DCommand(26.2 sealed→公开)",
+  "pinned": true
+ },
+ "_O": {
+  "identity": "UiTree.MarqueeTextNode",
+  "kind": "record",
+  "conf": "A",
+  "evidence": "Record 7字段逐项吻合: String oC(=text)+3 float b1/b2/bD(=x,y,scale)+Color vU(=color)+nK PB(=TtfFontLoader fontLoader)+ih uA(=UiRect/Render2DBounds clip); 构造器(String,3f,Color,nK,ih)签名匹配; 26.2→26.10 UiRect→Render2DBounds类型重构(ih=G066确认Render2DBounds); 官方MarqueeTextNode(String,float,float,float,Color,TtfFontLoader,UiRect)字段类型完全对应; _Q=UiNode(=UiTree.UiNode)",
+  "pinned": true
+ },
+ "_Q": {
+  "identity": "UiTree.UiNode",
+  "kind": "sealed interface",
+  "conf": "A",
+  "evidence": "sealed interface 31 permits, 0方法声明; 递归树结构: vd(=LayerNode)含List<_Q>, ll(=ScissorNode)含List<_Q>+ih(=UiRect), n8(=LayeredNode)含_Q; Dd=RectGradientNode(4f+4C), gI=OutlineNode(9f+1C), yq=RoundRectGradientNode(8f+4C), _O=MarqueeTextNode均implements _Q; 官方UiTree.UiNode为sealed interface permits 26类型, 26.2→26.10版本演进增至31个permits",
+  "pinned": true
+ },
+ "ih": {
+  "identity": "UiRect",
+  "kind": "record",
+  "conf": "B",
+  "evidence": "Record 4 float 字段 (ke=x, kz=y, kt=width, k5=height); 访问器 Ke()=x, Kz()=y, Kb()=x+width, K5()=y+height; X(double,double) 做边界包含测试; C(float,float) 偏移x/y后裁剪宽高; t(ih) 做 union(取min/max); 与 com.github.slmpc.lumingraphics.ui.geometry.UiRect 功能完全一致; 26.2 将其内化为 epsilon 自有 record"
+ },
+ "gU": {
+  "identity": "UiRenderBatch.RecordV1",
+  "kind": "record",
+  "conf": "B",
+  "evidence": "extends Record + implements yM(渲染管线接口)；14 record 组件 layer(int)/sequence(long)/bounds(XL=UiRect)/scissor(Xu)/多 float(rL/rE/r8/rm/rA)/Color dg/3×float[](nK/n8=nx)/int zF 完全匹配渲染批次数据结构；g() 方法返回 XL(UiRect) 经过 bounds 偏移计算；26.2 新增渲染管线类型"
+ },
+ "_j": {
+  "identity": "TextRenderer",
+  "kind": "class",
+  "conf": "B",
+  "evidence": "implements _A(=IRenderer)；字段 v2 F(ITextRenderer委托)，boolean R(registered)；构造函数创建 vq(=TtfTextRenderer) 作为底层实现；方法 S(String,float,nK)→addText，S()→静态工厂，U()→构造器调用，draw(RenderPass)→委托渲染，setScissor→o(int,int,int,int)；多个先前decode(C046/D030/G052)均将_j角色认定为文本渲染器委托类，与src TextRenderer(wrapper around ITextRenderer)结构完全匹配"
+ },
+ "_s": {
+  "identity": "Phase.SwapMode",
+  "kind": "class",
+  "conf": "A-",
+  "evidence": "[批次] G149",
+  "pinned": true
+ }
+}

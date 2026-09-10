@@ -1,0 +1,24 @@
+{
+ "batch": "G096",
+ "n": 3,
+ "classes": [
+  {
+   "obf": "OO",
+   "is_module": false,
+   "lines": 1407,
+   "cands": []
+  },
+  {
+   "obf": "OP",
+   "is_module": false,
+   "lines": 1032,
+   "cands": []
+  },
+  {
+   "obf": "Op",
+   "is_module": false,
+   "lines": 31,
+   "cands": []
+  }
+ ]
+}

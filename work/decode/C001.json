@@ -1,0 +1,46 @@
+{
+ "batch": "C001",
+ "results": {
+  "D0": {
+   "identity": "Phase$Mode",
+   "kind": "enum",
+   "conf": "A",
+   "evidence": "D0 enum 值 (CCClip, Pearl, Vanilla, ForceMine, Sunrise) 与 Phase.java 内部 enum Mode 完全一致；Phase 已映射为 obf eF",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/modules/impl/movement/Phase.java"
+  },
+  "d": {
+   "identity": "HoverTotem",
+   "kind": "module",
+   "conf": "B",
+   "evidence": "d extends Module，导入 InventoryScreen/ItemStack，@EventHandler 处理 PlayerTickEvent.Pre，检查 mc.screen instanceof InventoryScreen；结构匹配 HoverTotem（BoolSetting+DoubleSetting+Random），但源码99行 vs jar935行差异大",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/modules/impl/combat/HoverTotem.java"
+  }
+ },
+ "unident": [
+  {
+   "obf": "A",
+   "reason": "2312行 Module，导入 ClientLevel/BlockPos/Block，含 Map<BlockPos,Integer> x2、EnumSetting<OW>（优先级 Highest/High/Medium/Low/Lowest）、IntSetting、多个 BoolSetting、List<u9>。candidates (Xray/Particles/Scaffold) 均与已有 class_map 冲突或结构不匹配；26.1.2 源码中无对应类（26.2 新增模块）"
+  },
+  {
+   "obf": "b",
+   "reason": "294行 Module，仅导入 LocalPlayer，有 KeyboardInputEvent 锚点。candidates (Follower/EpsilonAddon/I18NFileGenerator) 均已在 class_map 映射为其他 obf，且结构不匹配。疑似26.2新增简单模块"
+  },
+  {
+   "obf": "bo",
+   "reason": "2299行独立类（无 super），无 MC 导入/锚点。字段含 MessageDigest、ConcurrentHashMap x4、PrintWriter，为加密/哈希工具类。26.1.2 源码中无对应类"
+  },
+  {
+   "obf": "c",
+   "reason": "977行 Module，导入 ServerboundSetCarriedItemPacket，@EventHandler 处理 PacketEvent.Send，含2个 BoolSetting。candidates (ModuleButton/ConfigHolder/ClientSetting) 均为非 Module 类或已在 class_map 映射，结构不匹配。疑似26.2新增模块"
+  },
+  {
+   "obf": "d0",
+   "reason": "735行独立类（无 super），含 List<l8> 及迭代搜索逻辑，为集合管理/注册工具类。26.1.2 源码中无对应类"
+  },
+  {
+   "obf": "D1",
+   "reason": "391行独立类（无 super），含多个 long/boolean 字段及 BoolSetting 引用，为状态持有类。26.1.2 源码中无对应类"
+  }
+ ],
+ "conflicts": []
+}

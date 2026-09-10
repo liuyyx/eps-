@@ -1,0 +1,24 @@
+{
+ "batch": "G132",
+ "n": 3,
+ "classes": [
+  {
+   "obf": "yo",
+   "is_module": false,
+   "lines": 516,
+   "cands": []
+  },
+  {
+   "obf": "yP",
+   "is_module": false,
+   "lines": 47,
+   "cands": []
+  },
+  {
+   "obf": "yq",
+   "is_module": false,
+   "lines": 106,
+   "cands": []
+  }
+ ]
+}

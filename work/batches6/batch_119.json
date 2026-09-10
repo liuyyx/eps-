@@ -1,0 +1,24 @@
+{
+ "batch": "G119",
+ "n": 3,
+ "classes": [
+  {
+   "obf": "X6",
+   "is_module": false,
+   "lines": 12,
+   "cands": []
+  },
+  {
+   "obf": "X7",
+   "is_module": false,
+   "lines": 123,
+   "cands": []
+  },
+  {
+   "obf": "X8",
+   "is_module": false,
+   "lines": 220,
+   "cands": []
+  }
+ ]
+}

@@ -1,0 +1,60 @@
+{
+ "batch": "B001",
+ "results": {
+  "eW": {
+   "identity": "Scaffold",
+   "kind": "module",
+   "conf": "A",
+   "evidence": "extends e(Module)+静态单例 eW X(INSTANCE); 字段类型序列与源码逐一对上: 4×Dx(枚举设置: Mode/SwapMode/RotationMode/RaytraceMode)、2×DV(colorSetting side/line)、1×Xe<Block>(blacklistedBlocks)、~8×Xn、~5×XG; MC导入含 BlockItem/StandingAndWallBlockItem/BlockPos/Direction。决定性指纹: 方法 t(ItemStack) 内 `var4_5 instanceof CropBlock` 与 `hi.a(...) instanceof BlockItem`, 对应 Scaffold.java:575-580 的 `block instanceof FlowerBlock||BushBlock||NetherFungusBlock||CropBlock` 及 :580 `!(block instanceof SlabBlock)` 唯一性校验(grep 确认整个 26.1.2 源码仅 Scaffold 引用 CropBlock)。注: class_map 中 p 以 conf B(Jaccard) 标为 Scaffold, 与本条冲突; 本判定为结构级 A(唯一 instanceof 指纹), 优先。",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/modules/impl/movement/Scaffold.java"
+  },
+  "zC": {
+   "identity": "SilentRotationManager",
+   "kind": "manager",
+   "conf": "A",
+   "evidence": "extends zb(=RotationManager: abstract void E(Object[]) 对应 handleSendPosition, uK=Rot2f 字段集与源码 Rot2f 字段逐一吻合); 8 个 @yE 事件处理器订阅的事件类型集 {AttackYawEvent(_z),FallFlyingEvent(zV),FireworkRotationEvent(yC),JumpEvent(nS),KeyboardInputEvent(yi),StrafeEvent(Dn),UseItemEvent(_S),UseItemRaytraceEvent(_K)} 与 SilentRotationManager 源码 8 个 @EventHandler(onAttack/onFallFlying/onFireworkUpdate/onUseItem/onItemRaytrace/onStrafe/onJump/onMoveInput) 一一对应, 为唯一集合指纹。",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/managers/impl/rotations/SilentRotationManager.java"
+  },
+  "ey": {
+   "identity": "AutoHitCrystal",
+   "kind": "module",
+   "conf": "A",
+   "evidence": "extends e(Module)+静态单例 ey V(INSTANCE); 设置谱逐项吻合: 7×Xn(BoolSetting: checkPlace/workWithTotem/workWithCrystal/workWithPickaxe/swordSwap/swingHand/render)、2×DV(ColorSetting: side/line)、1×X0(KeybindSetting: activateKey)、4×DM(DoubleSetting: switchDelay/switchChance/placeDelay/placeChance)、1×XG(IntSetting: fadeTime); 另 List<zX>(=RenderBox renderBoxes); MC导入 BlockPos/ServerboundSwingPacket/InteractionHand/Item/ItemStack/AABB/BlockHitResult 与 AutoHitCrystal 一致; @yE 处理器订阅 dz(=PlayerTickEvent/RightClickEvent)。",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/modules/impl/combat/AutoHitCrystal.java"
+  },
+  "uW": {
+   "identity": "AutoMap",
+   "kind": "module",
+   "conf": "A",
+   "evidence": "extends e(Module)+静态单例 uW F(INSTANCE); 常量 `static final double T = Math.PI*2` 对应 TWO_PI, `static final int B = 1` 对应 STATE_VERSION; 设置谱: 3×XG(pointsPerLap/rotationSpeed/saveInterval)、3×DM(spiralSpacing/arrivalDistance/takeoffHeight)、2×Xn(autoLaunch/takeoffFirework)、2×Xp(Q,z = writeRecord/resetRecord button); 导入 com.google.gson.JsonObject 与 Vec3, 引用 uj(ElytraFly) 及 nE(ElytraFly.Pitch40ControlState)。与 AutoMap 源码设置/常量/导入完全一致。",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/modules/impl/movement/AutoMap.java"
+  },
+  "P": {
+   "identity": "Hat",
+   "kind": "module",
+   "conf": "A",
+   "evidence": "extends e(Module)+静态单例 P J(INSTANCE); 决定性指纹: 方法 j(Object[]) 构建 181 长度的 Color[] 彩虹渐变(Astolfo 配色, 具体 RGB 常量写入), 对应 Hat.getColorMode() 的 181 色阵列; 字段 `double[][] x`(=positions[181][2])、`Dx<yA> Q`(EnumSetting<Mode>, Mode{Astolfo,Sexy,Fade} 三常量, 方法内 case 0/1/2 分发)、2×DV(color/secondColor)、2×DM(size/offset)、1×XG(points)、1×Xn(onlyThirdPerson)、Color 混合方法 S/C(=fadeBetween); 导入 RenderPipeline/DepthStencilState/PoseStack/Camera/DeltaTracker/Player 对应 drawHat。注: class_map 中 H 以 conf B(Jaccard) 标为 Hat, 与本条冲突; 本判定为结构级 A(181 色 Astolfo 渐变唯一指纹), 优先。",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/modules/impl/render/Hat.java"
+  },
+  "V": {
+   "identity": "BlockESP",
+   "kind": "module",
+   "conf": "A",
+   "evidence": "extends e(Module)+静态单例 V q(INSTANCE); 字段 `public static List<AABB> C` 对应 BlockESP 的 `public static List<AABB> boxes` 唯一静态字段; `ExecutorService F`(=searchThread 单线程扫描); `Xe<Block> d`(=blockListSetting); 设置谱 2×DM(range/blurStrength)、2×DV(sideColor/lineColor)、2×Xn(illegals/blur); MC导入含 AirBlock/BarrierBlock/ChestBlock/CommandBlock/BlockState/Property 对应按特殊方块类型扫描的逻辑。与 BlockESP 源码结构完全一致。",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/modules/impl/render/BlockESP.java"
+  },
+  "gt": {
+   "identity": "ElytraFlightMode",
+   "kind": "class",
+   "conf": "A",
+   "evidence": "public abstract class gt(无 super, 为 elytra 飞行模式抽象基类); 字段 `protected final Minecraft b = Minecraft.getInstance()`、`protected final uj S`(=ElytraFly elytraFly)、`_Z o = new _Z()`(=TimerUtils unbreakingTimer); 方法 Y(Object[]) 取 yi(KeyboardInputEvent)→onKeyboardInput, h(Object[]) 含 `getItemBySlot(EquipmentSlot)`/`ServerboundPlayerCommandPacket.Action.START_FALL_FLYING` 对应 handleUnbreaking/startFallFlying; MC导入 Minecraft/LocalPlayer/ServerboundPlayerCommandPacket/InteractionHand/Entity/EquipmentSlot/Item 与 ElytraFlightMode 完全吻合(ControlElytraFlightMode 为其子类 extends gt, 故排除)。",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/modules/impl/movement/elytrafly/ElytraFlightMode.java"
+  }
+ },
+ "unident": [
+  {
+   "obf": "h",
+   "reason": "extends e(Module)+静态单例 h k(INSTANCE), 但 MC 导入含 ThrownTrident/WitherSkull/CrossbowItem/ChargedProjectiles/EntityHitResult/Projectile 等抛射体类, 且设置谱为 5×DV(ColorSetting)+2×DM+2×XG+6×Xn+1×Xe<Item>(itemListSetting)+2×nN(SettingGroup)+订阅 d9(Render3DEvent)。已在整个 26.1.2 源码字典 grep 确认: ThrownTrident/ChargedProjectiles/WitherSkull 无任何引用, CrossbowItem 仅出现在 InvManager/Stealer/InvHelper 的背包评分逻辑而非任何模块——即 26.1.2 字典中不存在具备此抛射体渲染/处理结构的模块。判定为 26.2 新增或重构模块, 在 26.1.2 字典中无对应源类, 禁止猜名。建议由主代理在 26.2 源码或反编译产物中按 5 色 Render3D 抛射体 ESP 特征二次定位。"
+  }
+ ]
+}

@@ -1,0 +1,48 @@
+{
+ "batch": "H005",
+ "n": 7,
+ "classes": [
+  {
+   "obf": "Dh",
+   "is_module": false,
+   "lines": 82,
+   "cands": []
+  },
+  {
+   "obf": "Di",
+   "is_module": false,
+   "lines": 45,
+   "cands": []
+  },
+  {
+   "obf": "Ds",
+   "is_module": false,
+   "lines": 62,
+   "cands": []
+  },
+  {
+   "obf": "Dy",
+   "is_module": false,
+   "lines": 56,
+   "cands": []
+  },
+  {
+   "obf": "Dz",
+   "is_module": false,
+   "lines": 12,
+   "cands": []
+  },
+  {
+   "obf": "O1",
+   "is_module": false,
+   "lines": 44,
+   "cands": []
+  },
+  {
+   "obf": "O2",
+   "is_module": false,
+   "lines": 140,
+   "cands": []
+  }
+ ]
+}

@@ -1,0 +1,24 @@
+{
+ "batch": "G142",
+ "n": 3,
+ "classes": [
+  {
+   "obf": "z_",
+   "is_module": false,
+   "lines": 50,
+   "cands": []
+  },
+  {
+   "obf": "_0",
+   "is_module": false,
+   "lines": 64,
+   "cands": []
+  },
+  {
+   "obf": "_2",
+   "is_module": false,
+   "lines": 49,
+   "cands": []
+  }
+ ]
+}

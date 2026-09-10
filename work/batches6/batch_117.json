@@ -1,0 +1,24 @@
+{
+ "batch": "G117",
+ "n": 3,
+ "classes": [
+  {
+   "obf": "vT",
+   "is_module": false,
+   "lines": 123,
+   "cands": []
+  },
+  {
+   "obf": "vV",
+   "is_module": false,
+   "lines": 49,
+   "cands": []
+  },
+  {
+   "obf": "vx",
+   "is_module": false,
+   "lines": 580,
+   "cands": []
+  }
+ ]
+}

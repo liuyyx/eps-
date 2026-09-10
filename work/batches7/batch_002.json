@@ -1,0 +1,72 @@
+{
+ "batch": "H002",
+ "n": 11,
+ "classes": [
+  {
+   "obf": "eq",
+   "is_module": true,
+   "lines": 7528,
+   "cands": []
+  },
+  {
+   "obf": "eR",
+   "is_module": true,
+   "lines": 759,
+   "cands": []
+  },
+  {
+   "obf": "eS",
+   "is_module": true,
+   "lines": 1183,
+   "cands": []
+  },
+  {
+   "obf": "eV",
+   "is_module": true,
+   "lines": 1230,
+   "cands": []
+  },
+  {
+   "obf": "ex",
+   "is_module": true,
+   "lines": 316,
+   "cands": []
+  },
+  {
+   "obf": "f",
+   "is_module": true,
+   "lines": 1881,
+   "cands": []
+  },
+  {
+   "obf": "G",
+   "is_module": true,
+   "lines": 2138,
+   "cands": []
+  },
+  {
+   "obf": "H",
+   "is_module": true,
+   "lines": 1269,
+   "cands": []
+  },
+  {
+   "obf": "m",
+   "is_module": true,
+   "lines": 1525,
+   "cands": []
+  },
+  {
+   "obf": "n",
+   "is_module": true,
+   "lines": 203,
+   "cands": []
+  },
+  {
+   "obf": "o",
+   "is_module": true,
+   "lines": 281,
+   "cands": []
+  }
+ ]
+}

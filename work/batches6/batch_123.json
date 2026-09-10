@@ -1,0 +1,24 @@
+{
+ "batch": "G123",
+ "n": 3,
+ "classes": [
+  {
+   "obf": "XL",
+   "is_module": false,
+   "lines": 585,
+   "cands": []
+  },
+  {
+   "obf": "XN",
+   "is_module": false,
+   "lines": 1426,
+   "cands": []
+  },
+  {
+   "obf": "XP",
+   "is_module": false,
+   "lines": 203,
+   "cands": []
+  }
+ ]
+}

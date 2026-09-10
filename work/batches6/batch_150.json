@@ -1,0 +1,24 @@
+{
+ "batch": "G150",
+ "n": 3,
+ "classes": [
+  {
+   "obf": "_w",
+   "is_module": false,
+   "lines": 25,
+   "cands": []
+  },
+  {
+   "obf": "_X",
+   "is_module": false,
+   "lines": 597,
+   "cands": []
+  },
+  {
+   "obf": "_Y",
+   "is_module": false,
+   "lines": 39,
+   "cands": []
+  }
+ ]
+}

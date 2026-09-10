@@ -1,0 +1,62 @@
+{
+  "batch": "B004",
+  "results": {
+    "DN": {
+      "identity": "PanelInputRouter",
+      "kind": "class",
+      "conf": "A",
+      "evidence": "MC 导入集为 {CharacterEvent, KeyEvent, MouseButtonEvent}（明文不可混淆），源码中唯一导入且仅此三者的无 super 类是 gui/panel/input/PanelInputRouter（其余同类均带 PreeditEvent/Screen/GuiGraphicsExtractor 或 extends）。decl_line='class DN'（super=null）对应源码 standalone class。x(Object[])/B(Object[]) 将 MouseButtonEvent 分发给多个面板对象（OU/_6/gW/iA/y9 ≈ popupHost/detailPanel/listPanel/railPanel/clientSettingPanel）并带 isDoubleClick/clientSettingMode 布尔，与 routeMouseClicked/Released/Dragged/KeyPressed/CharTyped 的‘事件→多面板转发’形状一致。",
+      "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/gui/panel/input/PanelInputRouter.java"
+    },
+    "M": {
+      "identity": "AntiBot",
+      "kind": "module",
+      "conf": "A-",
+      "evidence": "extends e(Module) + public static final M D 单例（模块特征：源码 AntiBot.INSTANCE）。y(Entity var1_1) 经 indy 解密链路 this.mc→getConnection→getOnlinePlayerIds 后执行 contains(collection, entity.getUUID)，并以 isEnabled()&&!contains 的布尔分支（case 4561112/4561113）返回，与源码 isBot(Entity)=isEnabled()&&!mc.getConnection().getOnlinePlayerIds().contains(entity.getUUID()) 逻辑一致；MC 导入 net.minecraft.world.entity.Entity 亦吻合。Caveat：源码为 26.1.2 简化版，26.2 反编译体被 indy 分发大幅展开，但核心判定形状唯一对应 AntiBot。",
+      "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/modules/impl/combat/AntiBot.java"
+    },
+    "v7": {
+      "identity": "RegistryListSettingRow",
+      "kind": "class",
+      "conf": "A",
+      "evidence": "extends vh<Xe<?>>，Xe=RegistryListSetting（已知锚点）；源码 public class RegistryListSettingRow extends SettingRow<RegistryListSetting<?>>。方法 K(Object[]) 即 buildUi 改写：保留明文常量 labelScale=0.68f、chipTextScale=0.58f、measureAssistChipBounds(...,8.0f,12.0f,94.0f)、图标字 '\ue145' 与 IconChars.ADD/“epsilon-icons”，与源码 buildUi 逐一对上；E(ih,MouseButtonEvent,boolean) 即 mouseClicked 返回 bounds.contains(event.x(),event.y())&&event.button()==0，亦吻合。MC 导入 GuiGraphicsExtractor+MouseButtonEvent 与源码一致。",
+      "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/gui/panel/component/setting/RegistryListSettingRow.java"
+    },
+    "v9": {
+      "identity": "IntSettingRow",
+      "kind": "class",
+      "conf": "A",
+      "evidence": "extends vh<XG>，XG=IntSetting（已知锚点）；源码 public class IntSettingRow extends SettingRow<IntSetting>。MC 导入 {GuiGraphicsExtractor, CharacterEvent, KeyButtonEvent(KeyEvent), MouseButtonEvent} 与源码一致（数值行含字符输入字段）。体积大（2276 行，n_fields13/n_methods48）对应滑块拖动+数字文本字段逻辑（getFieldBounds、dragging、charTyped/keyPressed 等），符合 IntSettingRow。",
+      "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/gui/panel/component/setting/IntSettingRow.java"
+    },
+    "vD": {
+      "identity": "ButtonSettingRow",
+      "kind": "class",
+      "conf": "A",
+      "evidence": "extends vh<Xp>，Xp=ButtonSetting（已知锚点）；源码 public class ButtonSettingRow extends SettingRow<ButtonSetting>。MC 导入 {GuiGraphicsExtractor, MouseButtonEvent} 与源码一致；mouseClicked 谓词 bounds.contains&&button==0 与源码对应。类型参数与 extends 链为决定性信号。",
+      "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/gui/panel/component/setting/ButtonSettingRow.java"
+    },
+    "vf": {
+      "identity": "DoubleSettingRow",
+      "kind": "class",
+      "conf": "A",
+      "evidence": "extends vh<DM>，DM=DoubleSetting（已知锚点）；源码 public class DoubleSettingRow extends SettingRow<DoubleSetting>。体积最大（2497 行，n_fields12/n_methods48）对应带滑块拖动与提交逻辑的浮点设置行，与 DoubleSettingRow 一致；MC 导入 {GuiGraphicsExtractor, CharacterEvent, KeyEvent, MouseButtonEvent} 与源码吻合。",
+      "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/gui/panel/component/setting/DoubleSettingRow.java"
+    },
+    "vg": {
+      "identity": "StringListSettingRow",
+      "kind": "class",
+      "conf": "A",
+      "evidence": "extends vh<XF>，XF=StringListSetting（已知锚点）；源码 public class StringListSettingRow extends SettingRow<StringListSetting>。MC 导入 {GuiGraphicsExtractor, MouseButtonEvent} 与源码一致；mouseClicked 谓词 bounds.contains&&button==0 与源码对应。类型参数与 extends 链为决定性信号。",
+      "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/gui/panel/component/setting/StringListSettingRow.java"
+    },
+    "vX": {
+      "identity": "BoolSettingRow",
+      "kind": "class",
+      "conf": "A",
+      "evidence": "extends vh<Xn>，Xn=BoolSetting（已知锚点）；源码 public class BoolSettingRow extends SettingRow<BoolSetting>。MC 导入 {GuiGraphicsExtractor, MouseButtonEvent} 与源码一致；含 toggleAnimation/hoverAnimation 字段语义与布尔行一致。类型参数与 extends 链为决定性信号。",
+      "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/gui/panel/component/setting/BoolSettingRow.java"
+    }
+  },
+  "unident": []
+}

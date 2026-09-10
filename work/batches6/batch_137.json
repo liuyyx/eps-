@@ -1,0 +1,24 @@
+{
+ "batch": "G137",
+ "n": 3,
+ "classes": [
+  {
+   "obf": "zg",
+   "is_module": false,
+   "lines": 642,
+   "cands": []
+  },
+  {
+   "obf": "zH",
+   "is_module": false,
+   "lines": 241,
+   "cands": []
+  },
+  {
+   "obf": "zh",
+   "is_module": false,
+   "lines": 220,
+   "cands": []
+  }
+ ]
+}

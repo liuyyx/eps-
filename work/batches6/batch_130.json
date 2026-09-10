@@ -1,0 +1,24 @@
+{
+ "batch": "G130",
+ "n": 3,
+ "classes": [
+  {
+   "obf": "yg",
+   "is_module": false,
+   "lines": 195,
+   "cands": []
+  },
+  {
+   "obf": "yI",
+   "is_module": false,
+   "lines": 19,
+   "cands": []
+  },
+  {
+   "obf": "yj",
+   "is_module": false,
+   "lines": 20,
+   "cands": []
+  }
+ ]
+}
