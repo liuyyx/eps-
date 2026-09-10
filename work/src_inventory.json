@@ -1,0 +1,8532 @@
+[
+ {
+  "rel": "addon/AddonBootstrap.java",
+  "name": "AddonBootstrap",
+  "pkg": "com.github.epsilon.addon",
+  "methods": [
+   "AddonBootstrap",
+   "registerAddons",
+   "if",
+   "setupAddons"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "addon/EpsilonAddon.java",
+  "name": "EpsilonAddon",
+  "pkg": "com.github.epsilon.addon",
+  "methods": [
+   "EpsilonAddon",
+   "getAddonId",
+   "getDisplayName",
+   "getDescription",
+   "getVersion",
+   "getAuthors",
+   "getSettings",
+   "getSettingGroups",
+   "mutableSettings",
+   "mutableSettingGroups",
+   "getRegisteredModules",
+   "resetSettings",
+   "for",
+   "if",
+   "initAddonI18n",
+   "registerModule"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "addon/EpsilonAddonSetupEvent.java",
+  "name": "EpsilonAddonSetupEvent",
+  "pkg": "com.github.epsilon.addon",
+  "methods": [
+   "registerAddon",
+   "if",
+   "getAddons"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "assets/config/LegacyConfigMigrator.java",
+  "name": "LegacyConfigMigrator",
+  "pkg": "com.github.epsilon.assets.config",
+  "methods": [
+   "LegacyConfigMigrator",
+   "getModuleFile",
+   "migrateIfNeeded",
+   "for",
+   "getAvailableBackupPath",
+   "if",
+   "getObject"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "assets/i18n/DefaultTranslateComponent.java",
+  "name": "DefaultTranslateComponent",
+  "pkg": "com.github.epsilon.assets.i18n",
+  "methods": [
+   "DefaultTranslateComponent",
+   "create",
+   "getFullKey",
+   "getTranslatedName",
+   "if",
+   "refresh",
+   "resolveTranslation",
+   "formatKey",
+   "createChild"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "assets/i18n/EpsilonLanguage.java",
+  "name": "EpsilonLanguage",
+  "pkg": "com.github.epsilon.assets.i18n",
+  "methods": [
+   "EpsilonLanguage",
+   "getCode",
+   "toString",
+   "isCustom"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "assets/i18n/EpsilonLanguageManager.java",
+  "name": "EpsilonLanguageManager",
+  "pkg": "com.github.epsilon.assets.i18n",
+  "methods": [
+   "EpsilonLanguageManager",
+   "selectLanguage",
+   "if",
+   "refreshCustomLanguage",
+   "getSelectedLanguage",
+   "reload",
+   "getOrDefault",
+   "has",
+   "appendLanguage",
+   "for",
+   "appendResources",
+   "try",
+   "refreshUi",
+   "resolveSelectedLanguageCode"
+  ],
+  "hasInstance": true
+ },
+ {
+  "rel": "assets/i18n/EpsilonTranslateComponent.java",
+  "name": "EpsilonTranslateComponent",
+  "pkg": "com.github.epsilon.assets.i18n",
+  "methods": [
+   "create"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "assets/i18n/EpsilonTranslations.java",
+  "name": "EpsilonTranslations",
+  "pkg": "com.github.epsilon.assets.i18n",
+  "methods": [
+   "EpsilonTranslations",
+   "all",
+   "Keybind",
+   "Module",
+   "Gui",
+   "ElytraFly",
+   "PlayerAlarms",
+   "create"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "assets/i18n/I18NFileGenerator.java",
+  "name": "I18NFileGenerator",
+  "pkg": "com.github.epsilon.assets.i18n",
+  "methods": [
+   "generate",
+   "if",
+   "for",
+   "try",
+   "addEpsilonKeys",
+   "addAddonKeys",
+   "addModuleKeys",
+   "addSettingGroupKey",
+   "addSettingKey",
+   "matchesOwner",
+   "normalizeOwner"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "assets/i18n/I18NJson.java",
+  "name": "I18NJson",
+  "pkg": "com.github.epsilon.assets.i18n",
+  "methods": [
+   "I18NJson",
+   "read",
+   "for",
+   "addTranslation",
+   "if",
+   "readNode"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "assets/i18n/LanguageReloadListener.java",
+  "name": "LanguageReloadListener",
+  "pkg": "com.github.epsilon.assets.i18n",
+  "methods": [
+   "reload"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "assets/i18n/TranslateComponent.java",
+  "name": "TranslateComponent",
+  "pkg": "com.github.epsilon.assets.i18n",
+  "methods": [],
+  "hasInstance": false
+ },
+ {
+  "rel": "assets/resources/ResourceLocationUtils.java",
+  "name": "ResourceLocationUtils",
+  "pkg": "com.github.epsilon.assets.resources",
+  "methods": [
+   "getIdentifier",
+   "loadResource",
+   "if",
+   "try"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "Constants.java",
+  "name": "Constants",
+  "pkg": "com.github.epsilon",
+  "methods": [],
+  "hasInstance": false
+ },
+ {
+  "rel": "elements/HudModule.java",
+  "name": "HudModule",
+  "pkg": "com.github.epsilon.elements",
+  "methods": [
+   "HudModule",
+   "reset",
+   "resetLayout",
+   "updateLayout",
+   "setBounds",
+   "if",
+   "contains",
+   "moveTo",
+   "moveBy",
+   "loadLegacyPosition",
+   "setAnchorState",
+   "getHorizontalAnchor",
+   "getVerticalAnchor",
+   "getAnchorX",
+   "getAnchorY",
+   "applyRenderPosition",
+   "getAnchoredRenderX",
+   "getAnchoredRenderY",
+   "getScreenWidth",
+   "getScreenHeight",
+   "renderWithBatch",
+   "renderScope",
+   "renderOverlay"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "elements/impl/BPS.java",
+  "name": "BPS",
+  "pkg": "com.github.epsilon.elements.impl",
+  "methods": [
+   "BPS",
+   "onEnable",
+   "onDisable",
+   "render",
+   "if",
+   "drawGraph",
+   "updateBps",
+   "pushGraphValue",
+   "getGraphMax",
+   "for",
+   "drawRollingNumber",
+   "resetBps",
+   "formatBps",
+   "withAlpha"
+  ],
+  "hasInstance": true
+ },
+ {
+  "rel": "elements/impl/Inventory.java",
+  "name": "Inventory",
+  "pkg": "com.github.epsilon.elements.impl",
+  "methods": [
+   "Inventory",
+   "render",
+   "if",
+   "renderOverlay",
+   "drawItem"
+  ],
+  "hasInstance": true
+ },
+ {
+  "rel": "elements/impl/ModuleList.java",
+  "name": "ModuleList",
+  "pkg": "com.github.epsilon.elements.impl",
+  "methods": [
+   "ModuleList",
+   "render",
+   "switch",
+   "collectRows",
+   "for",
+   "renderCompact",
+   "if",
+   "renderOpen",
+   "rowComparator",
+   "categoryOrder",
+   "resolveState",
+   "computeRowX",
+   "drawCompactRow",
+   "drawOpenRow",
+   "drawOpenBox",
+   "drawCompactLine",
+   "timedHue",
+   "rainbowColor",
+   "withAlpha",
+   "ModuleToggleFlag",
+   "update",
+   "RenderRow",
+   "ModuleLine",
+   "withOpenWidths",
+   "create"
+  ],
+  "hasInstance": true
+ },
+ {
+  "rel": "elements/impl/MTF.java",
+  "name": "MTF",
+  "pkg": "com.github.epsilon.elements.impl",
+  "methods": [
+   "MTF",
+   "render"
+  ],
+  "hasInstance": true
+ },
+ {
+  "rel": "elements/impl/notification/Notification.java",
+  "name": "Notification",
+  "pkg": "com.github.epsilon.elements.impl.notification",
+  "methods": [
+   "Notification",
+   "refresh",
+   "isExpired",
+   "isExiting",
+   "hashCode",
+   "getTitle",
+   "getSubTitle",
+   "getMode",
+   "isReplaceable",
+   "getCreateTime",
+   "getElapsedTime",
+   "getExitTime",
+   "getDisplayTime",
+   "getId",
+   "shouldSkipIntroAnim",
+   "equals"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "elements/impl/notification/NotificationMode.java",
+  "name": "NotificationMode",
+  "pkg": "com.github.epsilon.elements.impl.notification",
+  "methods": [
+   "NotificationMode",
+   "fromEnabled",
+   "getColor"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "elements/impl/notification/Notifications.java",
+  "name": "Notifications",
+  "pkg": "com.github.epsilon.elements.impl.notification",
+  "methods": [
+   "Notifications",
+   "render",
+   "for",
+   "if",
+   "getSubTitleScale",
+   "getRenderX",
+   "getBaseY",
+   "getRenderFrame",
+   "renderNotification",
+   "switch",
+   "renderStage1",
+   "renderStage2",
+   "renderText",
+   "getLineGap",
+   "getFittedTextScale",
+   "textExceedsBox",
+   "isLeftDocked",
+   "createPreviewNotification",
+   "RenderFrame",
+   "RenderEntry"
+  ],
+  "hasInstance": true
+ },
+ {
+  "rel": "elements/impl/Potions.java",
+  "name": "Potions",
+  "pkg": "com.github.epsilon.elements.impl",
+  "methods": [
+   "Potions",
+   "render",
+   "for",
+   "if",
+   "computeRowX",
+   "switch",
+   "collectItems",
+   "while",
+   "getIconTexture",
+   "formatDuration",
+   "romanLevel",
+   "withAlpha",
+   "brighten",
+   "EffectInfo"
+  ],
+  "hasInstance": true
+ },
+ {
+  "rel": "elements/impl/ScaffoldBlock.java",
+  "name": "ScaffoldBlock",
+  "pkg": "com.github.epsilon.elements.impl",
+  "methods": [
+   "ScaffoldBlock",
+   "onEnable",
+   "onDisable",
+   "render",
+   "if",
+   "shouldShowHud",
+   "getDisplayBlockCount",
+   "createAnimationState",
+   "createLayout",
+   "drawBackground",
+   "drawText",
+   "syncNumberAnimation",
+   "updateVisibilityAnimation",
+   "getNumberColumnWidth",
+   "drawRollingNumber",
+   "resetAnimation",
+   "withAlpha",
+   "AnimationState",
+   "Layout",
+   "centerX"
+  ],
+  "hasInstance": true
+ },
+ {
+  "rel": "elements/impl/TargetHUD.java",
+  "name": "TargetHUD",
+  "pkg": "com.github.epsilon.elements.impl",
+  "methods": [
+   "TargetHUD",
+   "render",
+   "if",
+   "renderOverlay",
+   "renderEquipmentItems",
+   "appendEquipmentItem",
+   "drawItem",
+   "resolveTarget",
+   "isRenderableTarget",
+   "updateRenderedTarget",
+   "tintColor",
+   "withAlpha",
+   "updateAnimatedHealth",
+   "updateDelayedHealth",
+   "resetAnimatedState"
+  ],
+  "hasInstance": true
+ },
+ {
+  "rel": "elements/impl/Watermark.java",
+  "name": "Watermark",
+  "pkg": "com.github.epsilon.elements.impl",
+  "methods": [
+   "Watermark",
+   "render"
+  ],
+  "hasInstance": true
+ },
+ {
+  "rel": "EpsilonCommon.java",
+  "name": "EpsilonCommon",
+  "pkg": "com.github.epsilon",
+  "methods": [
+   "init"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "events/bus/Cancellable.java",
+  "name": "Cancellable",
+  "pkg": "com.github.epsilon.events.bus",
+  "methods": [
+   "isCancelled",
+   "cancel"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "events/bus/EventBus.java",
+  "name": "EventBus",
+  "pkg": "com.github.epsilon.events.bus",
+  "methods": [
+   "registerLambdaFactory",
+   "synchronized",
+   "isListening",
+   "post",
+   "if",
+   "for",
+   "subscribe",
+   "insert",
+   "unsubscribe",
+   "getListeners",
+   "isValid",
+   "getLambdaFactory",
+   "LambdaFactoryInfo"
+  ],
+  "hasInstance": true
+ },
+ {
+  "rel": "events/bus/EventHandler.java",
+  "name": "EventHandler",
+  "pkg": "com.github.epsilon.events.bus",
+  "methods": [],
+  "hasInstance": false
+ },
+ {
+  "rel": "events/bus/EventPriority.java",
+  "name": "EventPriority",
+  "pkg": "com.github.epsilon.events.bus",
+  "methods": [],
+  "hasInstance": false
+ },
+ {
+  "rel": "events/bus/listeners/ConsumerListener.java",
+  "name": "ConsumerListener",
+  "pkg": "com.github.epsilon.events.bus.listeners",
+  "methods": [
+   "ConsumerListener",
+   "call",
+   "getTarget",
+   "getPriority",
+   "isStatic"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "events/bus/listeners/IListener.java",
+  "name": "IListener",
+  "pkg": "com.github.epsilon.events.bus.listeners",
+  "methods": [],
+  "hasInstance": false
+ },
+ {
+  "rel": "events/bus/listeners/LambdaListener.java",
+  "name": "LambdaListener",
+  "pkg": "com.github.epsilon.events.bus.listeners",
+  "methods": [
+   "create",
+   "if",
+   "call",
+   "getTarget",
+   "getPriority",
+   "isStatic"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "events/impl/AfterRender3DEvent.java",
+  "name": "AfterRender3DEvent",
+  "pkg": "com.github.epsilon.events.impl",
+  "methods": [],
+  "hasInstance": false
+ },
+ {
+  "rel": "events/impl/AttackEntityEvent.java",
+  "name": "AttackEntityEvent",
+  "pkg": "com.github.epsilon.events.impl",
+  "methods": [
+   "AttackEntityEvent",
+   "getPlayer",
+   "getEntity"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "events/impl/AttackSlowDownEvent.java",
+  "name": "AttackSlowDownEvent",
+  "pkg": "com.github.epsilon.events.impl",
+  "methods": [
+   "AttackSlowDownEvent",
+   "getEntity",
+   "getKnockbackAmount"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "events/impl/AttackYawEvent.java",
+  "name": "AttackYawEvent",
+  "pkg": "com.github.epsilon.events.impl",
+  "methods": [
+   "AttackYawEvent",
+   "getYaw",
+   "setYaw"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "events/impl/BlockCollisionEvent.java",
+  "name": "BlockCollisionEvent",
+  "pkg": "com.github.epsilon.events.impl",
+  "methods": [
+   "BlockCollisionEvent",
+   "getState",
+   "getPos",
+   "setState"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "events/impl/ChunkOcclusionEvent.java",
+  "name": "ChunkOcclusionEvent",
+  "pkg": "com.github.epsilon.events.impl",
+  "methods": [],
+  "hasInstance": false
+ },
+ {
+  "rel": "events/impl/ClientTickEvent.java",
+  "name": "ClientTickEvent",
+  "pkg": "com.github.epsilon.events.impl",
+  "methods": [],
+  "hasInstance": false
+ },
+ {
+  "rel": "events/impl/DestroyBlockEvent.java",
+  "name": "DestroyBlockEvent",
+  "pkg": "com.github.epsilon.events.impl",
+  "methods": [
+   "DestroyBlockEvent",
+   "getPos"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "events/impl/FallFlyingEvent.java",
+  "name": "FallFlyingEvent",
+  "pkg": "com.github.epsilon.events.impl",
+  "methods": [
+   "FallFlyingEvent",
+   "setYaw",
+   "getYaw",
+   "setPitch",
+   "getPitch"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "events/impl/FireworkRotationEvent.java",
+  "name": "FireworkRotationEvent",
+  "pkg": "com.github.epsilon.events.impl",
+  "methods": [
+   "FireworkRotationEvent",
+   "getYaw",
+   "getPitch",
+   "setYaw",
+   "setPitch"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "events/impl/GameJoinedEvent.java",
+  "name": "GameJoinedEvent",
+  "pkg": "com.github.epsilon.events.impl",
+  "methods": [],
+  "hasInstance": false
+ },
+ {
+  "rel": "events/impl/GameLeftEvent.java",
+  "name": "GameLeftEvent",
+  "pkg": "com.github.epsilon.events.impl",
+  "methods": [],
+  "hasInstance": false
+ },
+ {
+  "rel": "events/impl/JumpEvent.java",
+  "name": "JumpEvent",
+  "pkg": "com.github.epsilon.events.impl",
+  "methods": [
+   "JumpEvent",
+   "getYaw",
+   "setYaw"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "events/impl/KeyboardInputEvent.java",
+  "name": "KeyboardInputEvent",
+  "pkg": "com.github.epsilon.events.impl",
+  "methods": [
+   "KeyboardInputEvent",
+   "toNewInput",
+   "getForward",
+   "getStrafe",
+   "isJump",
+   "isSneak",
+   "setForward",
+   "setStrafe",
+   "setJump",
+   "setSneak",
+   "isSprint",
+   "setSprint"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "events/impl/KeyPressEvent.java",
+  "name": "KeyPressEvent",
+  "pkg": "com.github.epsilon.events.impl",
+  "methods": [
+   "KeyPressEvent",
+   "getKeyEvent",
+   "getAction",
+   "getKey",
+   "getModifiers"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "events/impl/LevelUpdateEvent.java",
+  "name": "LevelUpdateEvent",
+  "pkg": "com.github.epsilon.events.impl",
+  "methods": [],
+  "hasInstance": false
+ },
+ {
+  "rel": "events/impl/MousePressEvent.java",
+  "name": "MousePressEvent",
+  "pkg": "com.github.epsilon.events.impl",
+  "methods": [
+   "MousePressEvent",
+   "getButton",
+   "getAction",
+   "getModifiers"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "events/impl/MouseScrollEvent.java",
+  "name": "MouseScrollEvent",
+  "pkg": "com.github.epsilon.events.impl",
+  "methods": [
+   "MouseScrollEvent",
+   "getValue"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "events/impl/MoveEvent.java",
+  "name": "MoveEvent",
+  "pkg": "com.github.epsilon.events.impl",
+  "methods": [
+   "MoveEvent",
+   "getX",
+   "getY",
+   "getZ",
+   "setX",
+   "setY",
+   "setZ"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "events/impl/OpenScreenEvent.java",
+  "name": "OpenScreenEvent",
+  "pkg": "com.github.epsilon.events.impl",
+  "methods": [
+   "OpenScreenEvent",
+   "getScreen"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "events/impl/PacketEvent.java",
+  "name": "PacketEvent",
+  "pkg": "com.github.epsilon.events.impl",
+  "methods": [
+   "Send",
+   "getPacket",
+   "setPacket",
+   "Receive"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "events/impl/PlayerTickEvent.java",
+  "name": "PlayerTickEvent",
+  "pkg": "com.github.epsilon.events.impl",
+  "methods": [],
+  "hasInstance": false
+ },
+ {
+  "rel": "events/impl/RaytraceEvent.java",
+  "name": "RaytraceEvent",
+  "pkg": "com.github.epsilon.events.impl",
+  "methods": [
+   "RaytraceEvent",
+   "getYaw",
+   "getPitch",
+   "setYaw",
+   "setPitch"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "events/impl/Render2DEvent.java",
+  "name": "Render2DEvent",
+  "pkg": "com.github.epsilon.events.impl",
+  "methods": [
+   "Render2DEvent",
+   "getGuiGraphics",
+   "Level",
+   "HUD"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "events/impl/Render3DEvent.java",
+  "name": "Render3DEvent",
+  "pkg": "com.github.epsilon.events.impl",
+  "methods": [
+   "Render3DEvent",
+   "getPoseStack"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "events/impl/RespawnEvent.java",
+  "name": "RespawnEvent",
+  "pkg": "com.github.epsilon.events.impl",
+  "methods": [],
+  "hasInstance": false
+ },
+ {
+  "rel": "events/impl/RightClickEvent.java",
+  "name": "RightClickEvent",
+  "pkg": "com.github.epsilon.events.impl",
+  "methods": [],
+  "hasInstance": false
+ },
+ {
+  "rel": "events/impl/RotationAnimationEvent.java",
+  "name": "RotationAnimationEvent",
+  "pkg": "com.github.epsilon.events.impl",
+  "methods": [
+   "RotationAnimationEvent",
+   "getYaw",
+   "getLastYaw",
+   "getPitch",
+   "getLastPitch",
+   "setYaw",
+   "setLastYaw",
+   "setPitch",
+   "setLastPitch"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "events/impl/SendPositionEvent.java",
+  "name": "SendPositionEvent",
+  "pkg": "com.github.epsilon.events.impl",
+  "methods": [
+   "SendPositionEvent",
+   "getX",
+   "getY",
+   "getZ",
+   "getYaw",
+   "getPitch",
+   "isOnGround",
+   "setX",
+   "setY",
+   "setZ",
+   "setYaw",
+   "setPitch",
+   "setOnGround"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "events/impl/SlowdownEvent.java",
+  "name": "SlowdownEvent",
+  "pkg": "com.github.epsilon.events.impl",
+  "methods": [
+   "SlowdownEvent",
+   "isSlowdown",
+   "setSlowdown"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "events/impl/StartDestroyBlockEvent.java",
+  "name": "StartDestroyBlockEvent",
+  "pkg": "com.github.epsilon.events.impl",
+  "methods": [
+   "StartDestroyBlockEvent",
+   "getBlockPos",
+   "setBlockPos",
+   "getDirection",
+   "setDirection"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "events/impl/StartUseItemEvent.java",
+  "name": "StartUseItemEvent",
+  "pkg": "com.github.epsilon.events.impl",
+  "methods": [],
+  "hasInstance": false
+ },
+ {
+  "rel": "events/impl/StrafeEvent.java",
+  "name": "StrafeEvent",
+  "pkg": "com.github.epsilon.events.impl",
+  "methods": [
+   "StrafeEvent",
+   "getYaw",
+   "setYaw"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "events/impl/SwingHandEvent.java",
+  "name": "SwingHandEvent",
+  "pkg": "com.github.epsilon.events.impl",
+  "methods": [],
+  "hasInstance": false
+ },
+ {
+  "rel": "events/impl/TravelEvent.java",
+  "name": "TravelEvent",
+  "pkg": "com.github.epsilon.events.impl",
+  "methods": [],
+  "hasInstance": false
+ },
+ {
+  "rel": "events/impl/UseItemEvent.java",
+  "name": "UseItemEvent",
+  "pkg": "com.github.epsilon.events.impl",
+  "methods": [
+   "UseItemEvent",
+   "getYaw",
+   "getPitch",
+   "setYaw",
+   "setPitch"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "events/impl/UseItemRaytraceEvent.java",
+  "name": "UseItemRaytraceEvent",
+  "pkg": "com.github.epsilon.events.impl",
+  "methods": [
+   "UseItemRaytraceEvent",
+   "getYaw",
+   "getPitch",
+   "setYaw",
+   "setPitch"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "graphics/buffer/BufferUtils.java",
+  "name": "BufferUtils",
+  "pkg": "com.github.epsilon.graphics.buffer",
+  "methods": [
+   "writeUvRectToAddr"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "graphics/buffer/LuminRingBuffer.java",
+  "name": "LuminRingBuffer",
+  "pkg": "com.github.epsilon.graphics.buffer",
+  "methods": [
+   "LuminRingBuffer",
+   "size",
+   "isMapped",
+   "getMappedBuffer",
+   "if",
+   "ensureCapacity",
+   "tryMap",
+   "unmap",
+   "rotate",
+   "unmapAndRotate",
+   "getGpuBuffer",
+   "write",
+   "close",
+   "for",
+   "resizeCurrent",
+   "beginFrameIfNeeded",
+   "closeRetiredBuffers",
+   "checkedBufferSize",
+   "growSize",
+   "while",
+   "createBuffer"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "graphics/immediate/LuminImmediateRenderer.java",
+  "name": "LuminImmediateRenderer",
+  "pkg": "com.github.epsilon.graphics.immediate",
+  "methods": [
+   "LuminImmediateRenderer",
+   "beginPosColorQuads",
+   "beginPosColorTriangleStrip",
+   "beginPosColorTriangleFan",
+   "beginPosTexColorQuads",
+   "beginLines",
+   "endFrame",
+   "PosColorQuads",
+   "vertex",
+   "end",
+   "PosColorTriangleStrip",
+   "PosColorTriangleFan",
+   "PosTexColorQuads",
+   "Lines",
+   "Channel",
+   "resolveOffset",
+   "begin",
+   "if",
+   "putPosition",
+   "putColor",
+   "putUv",
+   "putNormal",
+   "putLineWidth",
+   "finishVertex",
+   "ensureCapacity",
+   "drawAndReset",
+   "try",
+   "switch",
+   "packNormal"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "graphics/immediate/LuminTessellator.java",
+  "name": "LuminTessellator",
+  "pkg": "com.github.epsilon.graphics.immediate",
+  "methods": [
+   "LuminTessellator",
+   "getInstance",
+   "begin"
+  ],
+  "hasInstance": true
+ },
+ {
+  "rel": "graphics/LuminRenderPipelines.java",
+  "name": "LuminRenderPipelines",
+  "pkg": "com.github.epsilon.graphics",
+  "methods": [],
+  "hasInstance": false
+ },
+ {
+  "rel": "graphics/LuminRenderSystem.java",
+  "name": "LuminRenderSystem",
+  "pkg": "com.github.epsilon.graphics",
+  "methods": [
+   "setActiveTarget",
+   "isVulkan",
+   "destroyAll",
+   "writeDynamicUniform",
+   "endDynamicUniformFrame",
+   "beginRenderFrame",
+   "getRenderFrameId",
+   "getActiveTarget",
+   "getGuiScale",
+   "getScaledWidth",
+   "getScaledHeight",
+   "getScaledWidthInt",
+   "getScaledHeightInt",
+   "toEpsilonMouseX",
+   "toEpsilonMouseY",
+   "toMinecraftGuiX",
+   "toMinecraftGuiY",
+   "toEpsilonMouseEvent",
+   "toFramebufferScissor",
+   "applyOrthoProjection",
+   "resolveColorView",
+   "resolveDepthView",
+   "prepareQuadRendering",
+   "if",
+   "getQuadIndexBuffer",
+   "getQuadIndexType",
+   "writeTransform",
+   "writeDefaultGuiTransform",
+   "ScissorRect",
+   "QuadRenderingInfo",
+   "ShaderUniforms",
+   "write",
+   "endFrame",
+   "closeAll",
+   "LuminRenderTarget",
+   "create",
+   "createWithDepth",
+   "createTextures",
+   "resize",
+   "getIdentifier",
+   "clear",
+   "colorView",
+   "depthView",
+   "colorTexture",
+   "sampler",
+   "width",
+   "height",
+   "getColorTexture",
+   "destroyTextures",
+   "close"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "graphics/LuminTexture.java",
+  "name": "LuminTexture",
+  "pkg": "com.github.epsilon.graphics",
+  "methods": [
+   "LuminTexture",
+   "close",
+   "if"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "graphics/LuminVertexFormats.java",
+  "name": "LuminVertexFormats",
+  "pkg": "com.github.epsilon.graphics",
+  "methods": [],
+  "hasInstance": false
+ },
+ {
+  "rel": "graphics/renderers/IRenderer.java",
+  "name": "IRenderer",
+  "pkg": "com.github.epsilon.graphics.renderers",
+  "methods": [
+   "prepareSharedDraw",
+   "draw",
+   "drawAndClear"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "graphics/renderers/RectRenderer.java",
+  "name": "RectRenderer",
+  "pkg": "com.github.epsilon.graphics.renderers",
+  "methods": [
+   "RectRenderer",
+   "create",
+   "addRect",
+   "addOutline",
+   "addVerticalGradient",
+   "addHorizontalGradient",
+   "addRectGradient",
+   "addVertex",
+   "setScissor",
+   "clearScissor",
+   "draw",
+   "if",
+   "try",
+   "prepareSharedDraw",
+   "drawPrepared",
+   "clear",
+   "close"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "graphics/renderers/RoundRectOutlineRenderer.java",
+  "name": "RoundRectOutlineRenderer",
+  "pkg": "com.github.epsilon.graphics.renderers",
+  "methods": [
+   "RoundRectOutlineRenderer",
+   "create",
+   "addOutline",
+   "addVerticalGradient",
+   "addHorizontalGradient",
+   "addOutlineGradient",
+   "addVertex",
+   "setScissor",
+   "clearScissor",
+   "draw",
+   "try",
+   "prepareSharedDraw",
+   "drawPrepared",
+   "if",
+   "clear",
+   "close"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "graphics/renderers/RoundRectRenderer.java",
+  "name": "RoundRectRenderer",
+  "pkg": "com.github.epsilon.graphics.renderers",
+  "methods": [
+   "RoundRectRenderer",
+   "create",
+   "addRoundRect",
+   "addVerticalGradient",
+   "addHorizontalGradient",
+   "addRoundRectGradient",
+   "addVertex",
+   "draw",
+   "try",
+   "prepareSharedDraw",
+   "drawPrepared",
+   "if",
+   "clear",
+   "close",
+   "setScissor",
+   "clearScissor"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "graphics/renderers/ShadowRenderer.java",
+  "name": "ShadowRenderer",
+  "pkg": "com.github.epsilon.graphics.renderers",
+  "methods": [
+   "ShadowRenderer",
+   "create",
+   "addShadow",
+   "addVertex",
+   "setScissor",
+   "clearScissor",
+   "draw",
+   "try",
+   "prepareSharedDraw",
+   "drawPrepared",
+   "if",
+   "clear",
+   "close"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "graphics/renderers/TextRenderer.java",
+  "name": "TextRenderer",
+  "pkg": "com.github.epsilon.graphics.renderers",
+  "methods": [
+   "TextRenderer",
+   "create",
+   "addText",
+   "addGradientText",
+   "addRotatedText",
+   "getHeight",
+   "getWidth",
+   "setScissor",
+   "clearScissor",
+   "draw",
+   "prepareSharedDraw",
+   "clear",
+   "close",
+   "if",
+   "ensureRegistered"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "graphics/renderers/TextureRenderer.java",
+  "name": "TextureRenderer",
+  "pkg": "com.github.epsilon.graphics.renderers",
+  "methods": [
+   "TextureRenderer",
+   "create",
+   "setScissor",
+   "clearScissor",
+   "addQuadTexture",
+   "addRoundedTexture",
+   "addRotatedTexture",
+   "addPlayerHead",
+   "rotateX",
+   "rotateY",
+   "writeVertex",
+   "draw",
+   "try",
+   "if",
+   "prepareSharedDraw",
+   "prepareTextureBatches",
+   "for",
+   "resolveTexture",
+   "drawPrepared",
+   "loadTexture",
+   "clear",
+   "close",
+   "Batch"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "graphics/renderers/TriangleRenderer.java",
+  "name": "TriangleRenderer",
+  "pkg": "com.github.epsilon.graphics.renderers",
+  "methods": [
+   "create",
+   "TriangleRenderer",
+   "addChevronTriangle",
+   "addTriangle",
+   "addVertex",
+   "setScissor",
+   "clearScissor",
+   "draw",
+   "if",
+   "try",
+   "prepareSharedDraw",
+   "drawPrepared",
+   "clear",
+   "close"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "graphics/schedulers/render2d/Render2DBounds.java",
+  "name": "Render2DBounds",
+  "pkg": "com.github.epsilon.graphics.schedulers.render2d",
+  "methods": [
+   "of",
+   "point",
+   "right",
+   "bottom",
+   "centerX",
+   "centerY",
+   "intersects",
+   "if",
+   "contains",
+   "include"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "graphics/schedulers/render2d/Render2DCommand.java",
+  "name": "Render2DCommand",
+  "pkg": "com.github.epsilon.graphics.schedulers.render2d",
+  "methods": [
+   "orderingBounds",
+   "kind"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "graphics/schedulers/render2d/Render2DCommandKind.java",
+  "name": "Render2DCommandKind",
+  "pkg": "com.github.epsilon.graphics.schedulers.render2d",
+  "methods": [],
+  "hasInstance": false
+ },
+ {
+  "rel": "graphics/schedulers/render2d/Render2DScheduler.java",
+  "name": "Render2DScheduler",
+  "pkg": "com.github.epsilon.graphics.schedulers.render2d",
+  "methods": [
+   "Render2DScheduler",
+   "layer",
+   "textMetrics",
+   "isEmpty",
+   "clear",
+   "for",
+   "clearLayer",
+   "if",
+   "flush",
+   "flushLayer",
+   "flushAndClear",
+   "add",
+   "nextSequence",
+   "flushBatchGroups",
+   "prepareBatchGroup",
+   "flushPreparedBatches",
+   "while",
+   "flushPipelineRun",
+   "try",
+   "pipelineFor",
+   "switch",
+   "emit",
+   "close",
+   "LayerHandle",
+   "scissor",
+   "setScissor",
+   "clearScissor",
+   "addShadow",
+   "addRoundRect",
+   "addRoundRectGradient",
+   "addOutline",
+   "addRect",
+   "addRectGradient",
+   "addRectOutline",
+   "addChevronTriangle",
+   "addTexture",
+   "addRoundedTexture",
+   "addRotatedTexture",
+   "addText",
+   "addRotatedText",
+   "rotatedBounds",
+   "rotateX",
+   "rotateY",
+   "CommandStore",
+   "layers",
+   "planBatches",
+   "LayerBucket",
+   "count",
+   "promoteToQuadTree",
+   "padded",
+   "QuadTreeBucket",
+   "collect",
+   "insertIntoChild",
+   "split",
+   "BatchPlanner",
+   "plan",
+   "FrameBatchPlanner",
+   "mustKeepOrder",
+   "selectReady",
+   "selectFirstUnscheduled",
+   "schedule",
+   "BatchKey",
+   "BatchGroup",
+   "kind",
+   "commands",
+   "bounds",
+   "key",
+   "append",
+   "visible",
+   "firstSequence",
+   "acquire",
+   "PreparedBatch",
+   "RendererBundle",
+   "create",
+   "shadowRenderer",
+   "roundRectRenderer",
+   "roundRectOutlineRenderer",
+   "rectRenderer",
+   "triangleRenderer",
+   "textureRenderer",
+   "textRenderer",
+   "applyScissor",
+   "draw",
+   "prepareSharedDraw"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "graphics/schedulers/render2d/Render2DScissor.java",
+  "name": "Render2DScissor",
+  "pkg": "com.github.epsilon.graphics.schedulers.render2d",
+  "methods": [
+   "visible",
+   "equals",
+   "hashCode"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "graphics/schedulers/render2d/Render2DTexture.java",
+  "name": "Render2DTexture",
+  "pkg": "com.github.epsilon.graphics.schedulers.render2d",
+  "methods": [],
+  "hasInstance": false
+ },
+ {
+  "rel": "graphics/schedulers/render3d/Render3DScheduler.java",
+  "name": "Render3DScheduler",
+  "pkg": "com.github.epsilon.graphics.schedulers.render3d",
+  "methods": [
+   "Render3DScheduler",
+   "init",
+   "isEmpty",
+   "clear",
+   "addBlurredBox",
+   "addFilledBox",
+   "addFilledFadeBox",
+   "addFilledSide",
+   "addOutlineBox",
+   "addSideOutline",
+   "addLine",
+   "flush",
+   "if",
+   "onRender3D",
+   "flushBlur",
+   "for",
+   "flushFilled",
+   "flushLines",
+   "emitFilledBox",
+   "emitFilledSide",
+   "switch",
+   "emitOutlineBox",
+   "emitSideOutline",
+   "emitLine",
+   "quad",
+   "vertexLine",
+   "getNormal",
+   "BlurredBoxCommand",
+   "FilledBoxCommand",
+   "FilledSideCommand",
+   "OutlineBoxCommand",
+   "SideOutlineCommand",
+   "LineCommand"
+  ],
+  "hasInstance": true
+ },
+ {
+  "rel": "graphics/shaders/BlurShader.java",
+  "name": "BlurShader",
+  "pkg": "com.github.epsilon.graphics.shaders",
+  "methods": [
+   "ensureProgram",
+   "if",
+   "ensureBoxProgram",
+   "render",
+   "try",
+   "render3DBoxes",
+   "for",
+   "addBoxVertices",
+   "vertex",
+   "write"
+  ],
+  "hasInstance": true
+ },
+ {
+  "rel": "graphics/shaders/FilterShader.java",
+  "name": "FilterShader",
+  "pkg": "com.github.epsilon.graphics.shaders",
+  "methods": [
+   "ensureProgram",
+   "if",
+   "ensureInput",
+   "renderToMainTarget",
+   "render",
+   "try",
+   "FilterColor",
+   "write"
+  ],
+  "hasInstance": true
+ },
+ {
+  "rel": "graphics/shaders/FXAAShader.java",
+  "name": "FXAAShader",
+  "pkg": "com.github.epsilon.graphics.shaders",
+  "methods": [
+   "ensureProgram",
+   "if",
+   "ensureInput",
+   "renderMainTarget",
+   "render",
+   "try",
+   "write"
+  ],
+  "hasInstance": true
+ },
+ {
+  "rel": "graphics/shaders/GlslSandBox.java",
+  "name": "GlslSandBox",
+  "pkg": "com.github.epsilon.graphics.shaders",
+  "methods": [
+   "getOrCreatePipeline",
+   "resetTime",
+   "render",
+   "try",
+   "close",
+   "write"
+  ],
+  "hasInstance": true
+ },
+ {
+  "rel": "graphics/text/GlyphDescriptor.java",
+  "name": "GlyphDescriptor",
+  "pkg": "com.github.epsilon.graphics.text",
+  "methods": [],
+  "hasInstance": false
+ },
+ {
+  "rel": "graphics/text/IconChars.java",
+  "name": "IconChars",
+  "pkg": "com.github.epsilon.graphics.text",
+  "methods": [],
+  "hasInstance": false
+ },
+ {
+  "rel": "graphics/text/IFontLoader.java",
+  "name": "IFontLoader",
+  "pkg": "com.github.epsilon.graphics.text",
+  "methods": [],
+  "hasInstance": false
+ },
+ {
+  "rel": "graphics/text/ITextRenderer.java",
+  "name": "ITextRenderer",
+  "pkg": "com.github.epsilon.graphics.text",
+  "methods": [
+   "addRotatedText",
+   "addGradientText",
+   "prepareSharedDraw",
+   "draw",
+   "setScissor",
+   "clearScissor"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "graphics/text/minecraft/EpsilonFontGlyph.java",
+  "name": "EpsilonFontGlyph",
+  "pkg": "com.github.epsilon.graphics.text.minecraft",
+  "methods": [
+   "EpsilonFontGlyph",
+   "if",
+   "info",
+   "renderType",
+   "baselineY",
+   "scale",
+   "left",
+   "extraThickness",
+   "top",
+   "right",
+   "bottom",
+   "yTop",
+   "yBottom",
+   "italicShearTop",
+   "italicShearBottom",
+   "renderGlyph",
+   "hasShadow",
+   "render",
+   "textureView",
+   "guiPipeline",
+   "activeRight",
+   "getAdvance",
+   "getBoldOffset",
+   "getShadowOffset"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "graphics/text/minecraft/EpsilonFontMetrics.java",
+  "name": "EpsilonFontMetrics",
+  "pkg": "com.github.epsilon.graphics.text.minecraft",
+  "methods": [
+   "EpsilonFontMetrics",
+   "if",
+   "minecraftScale",
+   "advance"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "graphics/text/minecraft/EpsilonTextRenderable.java",
+  "name": "EpsilonTextRenderable",
+  "pkg": "com.github.epsilon.graphics.text.minecraft",
+  "methods": [],
+  "hasInstance": false
+ },
+ {
+  "rel": "graphics/text/StaticFontLoader.java",
+  "name": "StaticFontLoader",
+  "pkg": "com.github.epsilon.graphics.text",
+  "methods": [
+   "defaultFont",
+   "if",
+   "applyDefaultFont",
+   "isApplied",
+   "destroyDefault",
+   "applyBuiltinDefault",
+   "applyCustomDefault",
+   "resolveCustomFont",
+   "stripQuotes",
+   "resolveExistingFontPath",
+   "for",
+   "resolveSystemFont",
+   "getSystemFontLookup",
+   "synchronized",
+   "buildSystemFontLookup",
+   "try",
+   "systemFontDirectories",
+   "addDirectory",
+   "registerSystemFont",
+   "putFontLookupKey",
+   "normalizeFontLookupKey",
+   "stripFontExtension",
+   "hasSupportedFontExtension",
+   "customRenderScale",
+   "destroyLoader",
+   "destroyLoaderIfDifferent"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "graphics/text/SystemEmojiAtlas.java",
+  "name": "SystemEmojiAtlas",
+  "pkg": "com.github.epsilon.graphics.text",
+  "methods": [
+   "SystemEmojiAtlas",
+   "get",
+   "if",
+   "clearAtlas",
+   "drawEmojiToAtlas",
+   "drawColorGlyph",
+   "for",
+   "uploadAtlas",
+   "try",
+   "systemEmojiFontPath",
+   "loadFont",
+   "systemEmojiFamily",
+   "toNativeImage",
+   "close",
+   "EmojiGlyph",
+   "ColorGlyphLayer",
+   "ColorGlyphFont",
+   "load",
+   "layers",
+   "color",
+   "readColr",
+   "readCpal",
+   "table",
+   "tag",
+   "u8",
+   "u16",
+   "i32",
+   "Table"
+  ],
+  "hasInstance": true
+ },
+ {
+  "rel": "graphics/text/ttf/TtfFontFile.java",
+  "name": "TtfFontFile",
+  "pkg": "com.github.epsilon.graphics.text.ttf",
+  "methods": [
+   "TtfFontFile",
+   "if",
+   "try",
+   "loadFontFile",
+   "generateGlyph",
+   "getAdvance",
+   "getVisualHeight",
+   "destroy"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "graphics/text/ttf/TtfFontLoader.java",
+  "name": "TtfFontLoader",
+  "pkg": "com.github.epsilon.graphics.text.ttf",
+  "methods": [
+   "TtfFontLoader",
+   "getRenderScale",
+   "setRenderScale",
+   "if",
+   "checkAndLoadChar",
+   "loadCharImmediately",
+   "loadCodepointImmediately",
+   "getAdvance",
+   "requestChars",
+   "prepareChars",
+   "requestMissingChars",
+   "drainReadyGlyphs",
+   "for",
+   "while",
+   "getMaxGlyphUploadsPerFrame",
+   "setMaxGlyphUploadsPerFrame",
+   "beginRenderFrame",
+   "getGlyphRevision",
+   "getAtlasRevision",
+   "beginUploadFrameIfNeeded",
+   "canUploadMoreGlyphsThisFrame",
+   "appendGlyph",
+   "createNewAtlas",
+   "checkAndLoadChars",
+   "destroy",
+   "freeGlyph",
+   "getGlyph",
+   "putGlyph",
+   "hasGlyph",
+   "putPendingGlyph",
+   "removePendingGlyph",
+   "hasPendingGlyph",
+   "isAscii"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "graphics/text/ttf/TtfGlyph.java",
+  "name": "TtfGlyph",
+  "pkg": "com.github.epsilon.graphics.text.ttf",
+  "methods": [],
+  "hasInstance": false
+ },
+ {
+  "rel": "graphics/text/ttf/TtfGlyphAtlas.java",
+  "name": "TtfGlyphAtlas",
+  "pkg": "com.github.epsilon.graphics.text.ttf",
+  "methods": [
+   "TtfGlyphAtlas",
+   "fillTextureWithTransparentDistance",
+   "uploadTexture",
+   "if",
+   "try",
+   "roundToward",
+   "appendGlyph",
+   "getTexture",
+   "getSize",
+   "getTextureId",
+   "destroy",
+   "GlyphUV"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "graphics/text/ttf/TtfTextRenderer.java",
+  "name": "TtfTextRenderer",
+  "pkg": "com.github.epsilon.graphics.text.ttf",
+  "methods": [
+   "removeEldestEntry",
+   "TtfTextRenderer",
+   "addText",
+   "addRotatedText",
+   "addGradientText",
+   "layoutFor",
+   "if",
+   "buildLayout",
+   "for",
+   "emitLayout",
+   "emitRotatedLayout",
+   "emitGradientLayout",
+   "batchFor",
+   "writeGlyph",
+   "writeRotatedGlyph",
+   "writeRotatedVertex",
+   "baseWidth",
+   "clamp01",
+   "draw",
+   "try",
+   "prepareSharedDraw",
+   "prepareTextBatches",
+   "drawPrepared",
+   "clear",
+   "close",
+   "getHeight",
+   "getWidth",
+   "setScissor",
+   "clearScissor",
+   "Batch",
+   "beginWrite",
+   "LayoutKey",
+   "TextLayout",
+   "LayoutRun",
+   "LayoutRunBuilder",
+   "add",
+   "ensureCapacity",
+   "build"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "graphics/vulkan/buffer/Std430Writer.java",
+  "name": "Std430Writer",
+  "pkg": "com.github.epsilon.graphics.vulkan.buffer",
+  "methods": [
+   "Std430Writer",
+   "clear",
+   "position",
+   "writtenBytes",
+   "align",
+   "if",
+   "while",
+   "putInt",
+   "putUInt",
+   "putFloat",
+   "putVec2",
+   "putVec3",
+   "putVec4",
+   "putMat4",
+   "for",
+   "putBytes"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "graphics/vulkan/buffer/VulkanBuffer.java",
+  "name": "VulkanBuffer",
+  "pkg": "com.github.epsilon.graphics.vulkan.buffer",
+  "methods": [
+   "VulkanBuffer",
+   "create",
+   "try",
+   "if",
+   "handle",
+   "allocation",
+   "size",
+   "mappedData",
+   "flush",
+   "invalidate",
+   "close"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "graphics/vulkan/buffer/VulkanOutputBuffer.java",
+  "name": "VulkanOutputBuffer",
+  "pkg": "com.github.epsilon.graphics.vulkan.buffer",
+  "methods": [
+   "VulkanOutputBuffer",
+   "storageBuffer",
+   "gpuBuffer",
+   "readbackBuffer",
+   "size",
+   "map",
+   "copyToReadback",
+   "try",
+   "readMapped",
+   "validateRange",
+   "if",
+   "close"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "graphics/vulkan/buffer/VulkanStd430Buffer.java",
+  "name": "VulkanStd430Buffer",
+  "pkg": "com.github.epsilon.graphics.vulkan.buffer",
+  "methods": [
+   "VulkanStd430Buffer",
+   "storageBuffer",
+   "writer",
+   "gpuBuffer",
+   "stagingBuffer",
+   "size",
+   "map",
+   "copy",
+   "if",
+   "try",
+   "close"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "graphics/vulkan/compute/VulkanComputePipeline.java",
+  "name": "VulkanComputePipeline",
+  "pkg": "com.github.epsilon.graphics.vulkan.compute",
+  "methods": [
+   "VulkanComputePipeline",
+   "pipeline",
+   "pipelineLayout",
+   "descriptorSetLayout",
+   "descriptorLayout",
+   "close",
+   "createShaderModule",
+   "try",
+   "createPipelineLayout",
+   "createComputePipeline"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "graphics/vulkan/compute/VulkanComputeUtils.java",
+  "name": "VulkanComputeUtils",
+  "pkg": "com.github.epsilon.graphics.vulkan.compute",
+  "methods": [
+   "VulkanComputeUtils",
+   "dispatchAndWait",
+   "try",
+   "for",
+   "readOutput",
+   "readFloat",
+   "readFloats",
+   "allocateCommandBuffer",
+   "createFence",
+   "close"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "graphics/vulkan/descriptor/DescriptorBindingSpec.java",
+  "name": "DescriptorBindingSpec",
+  "pkg": "com.github.epsilon.graphics.vulkan.descriptor",
+  "methods": [
+   "if",
+   "ssbo",
+   "uniformBuffer",
+   "combinedImageSampler",
+   "sampledImage",
+   "storageImage"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "graphics/vulkan/descriptor/DescriptorLayout.java",
+  "name": "DescriptorLayout",
+  "pkg": "com.github.epsilon.graphics.vulkan.descriptor",
+  "methods": [
+   "DescriptorLayout",
+   "create",
+   "try",
+   "handle",
+   "close"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "graphics/vulkan/descriptor/DescriptorLayoutSpec.java",
+  "name": "DescriptorLayoutSpec",
+  "pkg": "com.github.epsilon.graphics.vulkan.descriptor",
+  "methods": [
+   "DescriptorLayoutSpec",
+   "if",
+   "builder",
+   "bindings",
+   "addBinding",
+   "addSsbo",
+   "addTexture",
+   "addSampledImage",
+   "addStorageImage",
+   "addUniformBuffer",
+   "build"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "graphics/vulkan/descriptor/DescriptorSetWrite.java",
+  "name": "DescriptorSetWrite",
+  "pkg": "com.github.epsilon.graphics.vulkan.descriptor",
+  "methods": [
+   "if",
+   "storageBuffer",
+   "uniformBuffer",
+   "combinedImageSampler",
+   "sampledImage",
+   "storageImage",
+   "isBufferDescriptor",
+   "isImageDescriptor"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "graphics/vulkan/descriptor/VulkanResourceManager.java",
+  "name": "VulkanResourceManager",
+  "pkg": "com.github.epsilon.graphics.vulkan.descriptor",
+  "methods": [
+   "VulkanResourceManager",
+   "if",
+   "allocateDescriptorSet",
+   "findOrCreatePool",
+   "for",
+   "createPoolState",
+   "try",
+   "allocateFromPool",
+   "updateDescriptorSet",
+   "freeDescriptorSet",
+   "release",
+   "ensureOpen",
+   "close",
+   "ManagedDescriptorSet",
+   "handle",
+   "DescriptorPoolState",
+   "PoolKey",
+   "fromLayoutSpec",
+   "equals",
+   "hashCode"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "graphics/vulkan/LuminVulkanContext.java",
+  "name": "LuminVulkanContext",
+  "pkg": "com.github.epsilon.graphics.vulkan",
+  "methods": [
+   "LuminVulkanContext",
+   "if",
+   "try",
+   "device",
+   "blz3dDevice",
+   "vma",
+   "cmdPool",
+   "isAvailable",
+   "graphicsQueue",
+   "computeQueue",
+   "transferQueue",
+   "destroy",
+   "getBackend"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "graphics/vulkan/shader/Glsl2SpirVCompiler.java",
+  "name": "Glsl2SpirVCompiler",
+  "pkg": "com.github.epsilon.graphics.vulkan.shader",
+  "methods": [
+   "Glsl2SpirVCompiler",
+   "if",
+   "compile",
+   "getSpirV",
+   "close"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "gui/dropdown/component/AbstractDropdownPanel.java",
+  "name": "AbstractDropdownPanel",
+  "pkg": "com.github.epsilon.gui.dropdown.component",
+  "methods": [
+   "AbstractDropdownPanel",
+   "getId",
+   "startIntro",
+   "beginRenderFrame",
+   "getIntroValue",
+   "drawBackground",
+   "if",
+   "drawContent",
+   "getContentClipY",
+   "getContentClipHeight",
+   "requiresContentScissor",
+   "getPanelHeight",
+   "mouseClicked",
+   "mouseReleased",
+   "mouseDragged",
+   "mouseScrolled",
+   "keyPressed",
+   "charTyped",
+   "hasActiveInput",
+   "setPosition",
+   "setMaxPanelHeight",
+   "getX",
+   "getY",
+   "getWidth",
+   "isOpened",
+   "setOpened",
+   "isVisible",
+   "setVisible",
+   "mouseClickedContent",
+   "mouseReleasedContent",
+   "getTitle",
+   "computeVisibleContentHeight",
+   "getRenderFrameId",
+   "ensureFrameMetrics",
+   "isHeaderHovered",
+   "isContentHovered",
+   "isPanelHovered",
+   "isHovered",
+   "setScrollImmediate",
+   "updateScroll",
+   "getScrollbarViewport",
+   "trimToWidth"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "gui/dropdown/component/AddonDropdownPanel.java",
+  "name": "AddonDropdownPanel",
+  "pkg": "com.github.epsilon.gui.dropdown.component",
+  "methods": [
+   "AddonDropdownPanel",
+   "computeContentHeight",
+   "if",
+   "drawPanelContent",
+   "for",
+   "mouseClickedContent",
+   "mouseReleasedContent",
+   "keyPressed",
+   "charTyped",
+   "hasActiveInput",
+   "resolveSelectedAddon",
+   "ensureWidgets",
+   "computeWidgetsHeight"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "gui/dropdown/component/CategoryPanel.java",
+  "name": "CategoryPanel",
+  "pkg": "com.github.epsilon.gui.dropdown.component",
+  "methods": [
+   "CategoryPanel",
+   "initModuleButtons",
+   "for",
+   "drawPanelContent",
+   "if",
+   "computeContentHeight",
+   "mouseClicked",
+   "mouseClickedContent",
+   "mouseReleasedContent",
+   "keyPressed",
+   "charTyped",
+   "getCategory",
+   "setSearchQuery",
+   "hasActiveInput",
+   "refreshSortedModuleButtons",
+   "visibleButtons",
+   "buildSortSignature",
+   "getComparator",
+   "switch",
+   "normalizedName",
+   "normalizedAddon",
+   "matchesSearch",
+   "refreshSearchTextCache"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "gui/dropdown/component/Component.java",
+  "name": "Component",
+  "pkg": "com.github.epsilon.gui.dropdown.component",
+  "methods": [
+   "draw",
+   "drawInScope",
+   "mouseClicked",
+   "mouseReleased",
+   "mouseScrolled",
+   "keyPressed",
+   "charTyped",
+   "setPosition",
+   "getX",
+   "getY",
+   "getWidth",
+   "isHovered",
+   "absoluteX",
+   "absoluteY"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "gui/dropdown/component/ConfigDropdownPanel.java",
+  "name": "ConfigDropdownPanel",
+  "pkg": "com.github.epsilon.gui.dropdown.component",
+  "methods": [
+   "ConfigDropdownPanel",
+   "computeContentHeight",
+   "drawPanelContent",
+   "if",
+   "for",
+   "mouseClickedContent",
+   "runAction",
+   "switch",
+   "keyPressed",
+   "charTyped",
+   "hasActiveInput",
+   "errorText",
+   "getCenteredTextY",
+   "configsForFrame"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "gui/dropdown/component/DropdownPanel.java",
+  "name": "DropdownPanel",
+  "pkg": "com.github.epsilon.gui.dropdown.component",
+  "methods": [
+   "beginRenderFrame"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "gui/dropdown/component/FriendDropdownPanel.java",
+  "name": "FriendDropdownPanel",
+  "pkg": "com.github.epsilon.gui.dropdown.component",
+  "methods": [
+   "FriendDropdownPanel",
+   "computeContentHeight",
+   "drawPanelContent",
+   "if",
+   "for",
+   "mouseClickedContent",
+   "keyPressed",
+   "charTyped",
+   "hasActiveInput",
+   "addFriend"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "gui/dropdown/component/MainDropdownPanel.java",
+  "name": "MainDropdownPanel",
+  "pkg": "com.github.epsilon.gui.dropdown.component",
+  "methods": [
+   "MainDropdownPanel",
+   "add",
+   "drawBackground",
+   "if",
+   "computeContentHeight",
+   "drawPanelContent",
+   "mouseClickedContent",
+   "mouseReleasedContent",
+   "keyPressed",
+   "charTyped",
+   "hasActiveInput",
+   "getSettingsY",
+   "getIconRows",
+   "getIconX",
+   "Entry",
+   "isActive"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "gui/dropdown/component/ModuleButton.java",
+  "name": "ModuleButton",
+  "pkg": "com.github.epsilon.gui.dropdown.component",
+  "methods": [
+   "ModuleButton",
+   "for",
+   "if",
+   "createWidget",
+   "getHeight",
+   "getHeightForFrame",
+   "computeHeight",
+   "computeSettingsHeight",
+   "getSectionHeight",
+   "getGroupContentHeight",
+   "getGroupExpandProgress",
+   "getGroupExpandAnimation",
+   "draw",
+   "drawAddonInfo",
+   "drawSection",
+   "createGroupAnimation",
+   "getAddonLabel",
+   "drawKeybindButton",
+   "formatCompactKeybind",
+   "isKeybindButtonHovered",
+   "drawHiddenButton",
+   "isHiddenButtonHovered",
+   "isGroupHeaderHovered",
+   "mouseClicked",
+   "mouseReleased",
+   "keyPressed",
+   "charTyped",
+   "getModule",
+   "blurInputs",
+   "isExpanded",
+   "hasListeningKeybind",
+   "hasFocusedInput",
+   "SettingSection",
+   "key",
+   "title",
+   "hasHeader",
+   "isCollapsed",
+   "toggleCollapsed"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "gui/dropdown/component/SettingsContent.java",
+  "name": "SettingsContent",
+  "pkg": "com.github.epsilon.gui.dropdown.component",
+  "methods": [
+   "SettingsContent",
+   "for",
+   "if",
+   "createWidget",
+   "computeContentHeight",
+   "computeContentHeightUncached",
+   "computeContentHeightInto",
+   "draw",
+   "mouseClicked",
+   "blurAllInputs",
+   "blurInputs",
+   "mouseReleased",
+   "keyPressed",
+   "charTyped",
+   "hasActiveInput",
+   "getSectionHeight",
+   "getGroupContentHeight",
+   "getGroupExpandProgress",
+   "getGroupExpandAnimation",
+   "drawSection",
+   "createGroupAnimation",
+   "canInteractWith",
+   "isHovered",
+   "trimToWidth",
+   "SettingSection",
+   "key",
+   "title",
+   "hasHeader",
+   "isCollapsed",
+   "toggleCollapsed"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "gui/dropdown/component/SettingsListPanel.java",
+  "name": "SettingsListPanel",
+  "pkg": "com.github.epsilon.gui.dropdown.component",
+  "methods": [
+   "SettingsListPanel",
+   "computeContentHeight",
+   "drawPanelContent",
+   "mouseClickedContent",
+   "mouseReleasedContent",
+   "keyPressed",
+   "charTyped",
+   "hasActiveInput",
+   "createWidget"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "gui/dropdown/DropdownLayoutState.java",
+  "name": "DropdownLayoutState",
+  "pkg": "com.github.epsilon.gui.dropdown",
+  "methods": [
+   "DropdownLayoutState",
+   "load",
+   "for",
+   "if",
+   "save",
+   "getFile",
+   "readFloat",
+   "readBoolean"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "gui/dropdown/DropdownScreen.java",
+  "name": "DropdownScreen",
+  "pkg": "com.github.epsilon.gui.dropdown",
+  "methods": [
+   "DropdownScreen",
+   "init",
+   "if",
+   "for",
+   "extractRenderState",
+   "drawGui",
+   "drawSearch",
+   "drawHints",
+   "beginDropdownLayer",
+   "flushDropdownLayer",
+   "withDropdownScissor",
+   "textWidth",
+   "textHeight",
+   "mouseClicked",
+   "mouseReleased",
+   "mouseDragged",
+   "mouseScrolled",
+   "keyPressed",
+   "charTyped",
+   "onClose",
+   "preeditUpdated",
+   "removed",
+   "isPauseScreen",
+   "buildPanels",
+   "createSubPanel",
+   "handleMainPanelAction",
+   "anySubPanelVisible",
+   "isPanelVisible",
+   "updateVisiblePanelIds",
+   "resolveMaxPanelHeight",
+   "switch",
+   "updatePanelHeightLimits",
+   "beginPanelFrames",
+   "syncSearchQuery",
+   "getSearchX",
+   "getSearchY",
+   "getSearchWidth",
+   "getSearchHeight",
+   "getSessionId",
+   "openRegistryListSettingPopup",
+   "openStringListSettingPopup"
+  ],
+  "hasInstance": true
+ },
+ {
+  "rel": "gui/dropdown/DropdownTheme.java",
+  "name": "DropdownTheme",
+  "pkg": "com.github.epsilon.gui.dropdown",
+  "methods": [
+   "DropdownTheme",
+   "panelBackground",
+   "panelShadow",
+   "moduleDivider",
+   "moduleEnabled",
+   "moduleDisabled",
+   "moduleTextEnabled",
+   "moduleTextDisabled",
+   "moduleAddonInfoText",
+   "settingLabel",
+   "settingLabelMuted",
+   "settingSurface",
+   "sliderTrack",
+   "sliderActive",
+   "sliderKnob",
+   "chipSelected",
+   "chipSelectedText",
+   "chipUnselected",
+   "chipUnselectedText",
+   "keybindSurface",
+   "keybindText",
+   "inputSurface",
+   "inputText",
+   "inputIndicator",
+   "buttonSurface",
+   "buttonText",
+   "expandArrow",
+   "scrollbar",
+   "scrim",
+   "groupBackground",
+   "groupBackgroundHover",
+   "groupText",
+   "groupCountChip",
+   "groupCountText",
+   "groupChevron",
+   "groupDivider"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "gui/dropdown/widget/AbstractSetSettingWidget.java",
+  "name": "AbstractSetSettingWidget",
+  "pkg": "com.github.epsilon.gui.dropdown.widget",
+  "methods": [
+   "AbstractSetSettingWidget",
+   "getHeight",
+   "draw",
+   "mouseClicked",
+   "isFieldHovered",
+   "getFieldX",
+   "getFieldY",
+   "getFieldWidth",
+   "centeredTextY"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "gui/dropdown/widget/AbstractSliderWidget.java",
+  "name": "AbstractSliderWidget",
+  "pkg": "com.github.epsilon.gui.dropdown.widget",
+  "methods": [
+   "AbstractSliderWidget",
+   "getHeight",
+   "draw",
+   "if",
+   "getVisibleValue",
+   "previewValue",
+   "applyValueNow",
+   "commitPendingValue",
+   "clearPendingValue",
+   "mouseClicked",
+   "mouseReleased",
+   "keyPressed",
+   "charTyped",
+   "isFocused",
+   "blurInput",
+   "syncSessionState",
+   "drawValueLabels",
+   "getTrackX",
+   "getTrackY",
+   "getLocalTrackX",
+   "getLocalTrackY",
+   "getTrackWidth",
+   "getEditorX",
+   "getEditorY",
+   "getLocalEditorX",
+   "getLocalEditorY",
+   "getEditorWidth",
+   "getEditorHeight",
+   "isEditorBoundsHovered",
+   "isEditorHitboxHovered"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "gui/dropdown/widget/BoolWidget.java",
+  "name": "BoolWidget",
+  "pkg": "com.github.epsilon.gui.dropdown.widget",
+  "methods": [
+   "BoolWidget",
+   "getHeight",
+   "draw",
+   "if",
+   "mouseClicked"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "gui/dropdown/widget/ButtonWidget.java",
+  "name": "ButtonWidget",
+  "pkg": "com.github.epsilon.gui.dropdown.widget",
+  "methods": [
+   "ButtonWidget",
+   "getHeight",
+   "draw",
+   "mouseClicked",
+   "if"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "gui/dropdown/widget/ColorWidget.java",
+  "name": "ColorWidget",
+  "pkg": "com.github.epsilon.gui.dropdown.widget",
+  "methods": [
+   "ColorWidget",
+   "getHeight",
+   "draw",
+   "if",
+   "drawSaturationBrightnessPalette",
+   "drawSliderPicker",
+   "drawChannelRows",
+   "drawChannelRow",
+   "drawChannelTrack",
+   "mouseClicked",
+   "for",
+   "mouseReleased",
+   "keyPressed",
+   "charTyped",
+   "hasFocusedInput",
+   "blurAllInputs",
+   "getChannelY",
+   "getFieldX",
+   "getLocalFieldX",
+   "getTrackX",
+   "getLocalTrackX",
+   "getTrackWidth",
+   "getLocalTrackWidth",
+   "updateChannelFromMouse",
+   "getChannelValue",
+   "switch",
+   "setChannelValue",
+   "getField",
+   "getFocusedField",
+   "getFocusedChannel",
+   "syncFocusedInput",
+   "commitFocusedInput",
+   "parseChannel",
+   "syncFieldsFromColor",
+   "blurFields",
+   "getChannels",
+   "getChannelIndex",
+   "syncAlphaAvailability",
+   "getVisibleColor",
+   "previewColor",
+   "applyColorNow",
+   "commitPendingColor",
+   "clearPendingColor",
+   "Channel"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "gui/dropdown/widget/DoubleSliderWidget.java",
+  "name": "DoubleSliderWidget",
+  "pkg": "com.github.epsilon.gui.dropdown.widget",
+  "methods": [
+   "DoubleSliderWidget",
+   "getRatio",
+   "updateValueFromRatio",
+   "formatValue",
+   "formatPlainValue",
+   "commitInput",
+   "if",
+   "syncInputValue",
+   "applyValue",
+   "getMin",
+   "getMax"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "gui/dropdown/widget/DropdownTextField.java",
+  "name": "DropdownTextField",
+  "pkg": "com.github.epsilon.gui.dropdown.widget",
+  "methods": [
+   "DropdownTextField",
+   "draw",
+   "if",
+   "drawCentered",
+   "focusIfContains",
+   "focusIfContainsCentered",
+   "focus",
+   "blur",
+   "keyPressed",
+   "switch",
+   "charTyped",
+   "isFocused",
+   "getText",
+   "setText",
+   "clear",
+   "setCursorToEnd",
+   "insertText",
+   "handleControlShortcut",
+   "isControlDown",
+   "clamp",
+   "updateCursorLayout",
+   "resolveCursor",
+   "drawCaret",
+   "trimToWidth",
+   "while"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "gui/dropdown/widget/EnumWidget.java",
+  "name": "EnumWidget",
+  "pkg": "com.github.epsilon.gui.dropdown.widget",
+  "methods": [
+   "EnumWidget",
+   "getHeight",
+   "draw",
+   "if",
+   "mouseClicked",
+   "keyPressed",
+   "drawCurrentValueField",
+   "drawExpandedOptions",
+   "getHoveredOption",
+   "handleFieldClick",
+   "handleExpandedClick",
+   "updateExpandProgress",
+   "updateHoverProgress",
+   "drawExpandedBackground",
+   "drawOption",
+   "isFieldHovered",
+   "isOptionHovered",
+   "getCollapsedHeight",
+   "getExpandedTotalHeight",
+   "getListHeight",
+   "getHiddenModeCount",
+   "getHiddenModes",
+   "for",
+   "shouldExpand",
+   "getFieldX",
+   "getFieldY",
+   "getLocalFieldX",
+   "getLocalFieldY",
+   "getFieldWidth",
+   "getListY",
+   "getLocalListY",
+   "getOptionY",
+   "getLocalOptionY"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "gui/dropdown/widget/IntSliderWidget.java",
+  "name": "IntSliderWidget",
+  "pkg": "com.github.epsilon.gui.dropdown.widget",
+  "methods": [
+   "IntSliderWidget",
+   "getRatio",
+   "updateValueFromRatio",
+   "formatValue",
+   "formatPlainValue",
+   "commitInput",
+   "if",
+   "syncInputValue",
+   "applyValue",
+   "getMin",
+   "getMax"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "gui/dropdown/widget/KeybindWidget.java",
+  "name": "KeybindWidget",
+  "pkg": "com.github.epsilon.gui.dropdown.widget",
+  "methods": [
+   "KeybindWidget",
+   "getHeight",
+   "draw",
+   "mouseClicked",
+   "if",
+   "keyPressed",
+   "isListening"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "gui/dropdown/widget/RegistryListSettingWidget.java",
+  "name": "RegistryListSettingWidget",
+  "pkg": "com.github.epsilon.gui.dropdown.widget",
+  "methods": [
+   "RegistryListSettingWidget",
+   "elementCount",
+   "labelText",
+   "openPopup"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "gui/dropdown/widget/SettingWidget.java",
+  "name": "SettingWidget",
+  "pkg": "com.github.epsilon.gui.dropdown.widget",
+  "methods": [
+   "SettingWidget",
+   "getSetting",
+   "isVisible"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "gui/dropdown/widget/StringListSettingWidget.java",
+  "name": "StringListSettingWidget",
+  "pkg": "com.github.epsilon.gui.dropdown.widget",
+  "methods": [
+   "StringListSettingWidget",
+   "elementCount",
+   "labelText",
+   "openPopup"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "gui/dropdown/widget/StringWidget.java",
+  "name": "StringWidget",
+  "pkg": "com.github.epsilon.gui.dropdown.widget",
+  "methods": [
+   "StringWidget",
+   "getHeight",
+   "draw",
+   "if",
+   "mouseClicked",
+   "keyPressed",
+   "charTyped",
+   "isFocused",
+   "blurInput",
+   "previewSetting",
+   "commitSetting",
+   "applyText"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "gui/hudeditor/HudEditorScreen.java",
+  "name": "HudEditorScreen",
+  "pkg": "com.github.epsilon.gui.hudeditor",
+  "methods": [
+   "HudEditorScreen",
+   "init",
+   "extractRenderState",
+   "drawEditor",
+   "for",
+   "getRenderTarget",
+   "if",
+   "drawElementOverlays",
+   "drawPanel",
+   "drawCanvasChrome",
+   "drawSnapGuides",
+   "drawElementFrame",
+   "drawAnchorMarker",
+   "drawElementLabel",
+   "beginEditorLayer",
+   "flushEditorLayer",
+   "withEditorScissor",
+   "textWidth",
+   "textHeight",
+   "keyPressed",
+   "charTyped",
+   "mouseClicked",
+   "mouseReleased",
+   "mouseDragged",
+   "mouseScrolled",
+   "handleEditorKey",
+   "switch",
+   "moveElementTo",
+   "computeSnap",
+   "findElementAt",
+   "isOverPanel",
+   "validateSelection",
+   "isPauseScreen",
+   "onClose",
+   "removed",
+   "extractBackground",
+   "resolveMaxPanelHeight",
+   "ensureHudPanel",
+   "SnapInfo",
+   "none",
+   "hasAny",
+   "resolvedX",
+   "resolvedY"
+  ],
+  "hasInstance": true
+ },
+ {
+  "rel": "gui/hudeditor/HudLayoutHelper.java",
+  "name": "HudLayoutHelper",
+  "pkg": "com.github.epsilon.gui.hudeditor",
+  "methods": [
+   "HudLayoutHelper",
+   "getHorizontalAnchorOffset",
+   "switch",
+   "getVerticalAnchorOffset",
+   "getRenderX",
+   "getRenderY",
+   "toAnchorX",
+   "toAnchorY",
+   "resolveHorizontalAnchor",
+   "if",
+   "resolveVerticalAnchor",
+   "getAnchorPointX",
+   "getAnchorPointY"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "gui/lib/control/UiScrollBar.java",
+  "name": "UiScrollBar",
+  "pkg": "com.github.epsilon.gui.lib.control",
+  "methods": [
+   "UiScrollBar",
+   "isDragging",
+   "draw",
+   "if",
+   "mouseClicked",
+   "mouseDragged",
+   "mouseReleased",
+   "reset",
+   "isHovered",
+   "computeGeometry",
+   "scrollFromThumbTopY",
+   "Geometry",
+   "thumbContains",
+   "trackContains"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "gui/lib/render/LuminUiRenderer.java",
+  "name": "LuminUiRenderer",
+  "pkg": "com.github.epsilon.gui.lib.render",
+  "methods": [
+   "LuminUiRenderer",
+   "renderIntoLayeredBatch",
+   "renderNodesIntoLayeredBatch",
+   "for",
+   "if",
+   "renderNodesIntoTarget",
+   "renderNode",
+   "renderButton",
+   "renderPopupCard",
+   "renderSlider",
+   "renderSegmentedControl",
+   "renderSwitch",
+   "renderFilledField",
+   "renderInput",
+   "applyScissor",
+   "restoreScissor",
+   "toScissor",
+   "intersect",
+   "RenderTarget",
+   "forLayer",
+   "forContentBuffer"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "gui/lib/render/UiContentBuffer.java",
+  "name": "UiContentBuffer",
+  "pkg": "com.github.epsilon.gui.lib.render",
+  "methods": [
+   "UiContentBuffer",
+   "theme",
+   "contentLayer",
+   "textMetrics",
+   "clear",
+   "addMarqueeText",
+   "clearContent",
+   "beginViewport",
+   "queueViewport",
+   "flush",
+   "if",
+   "flushMarqueeTexts",
+   "for",
+   "MarqueeTextDraw",
+   "flushAndClear",
+   "close"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "gui/lib/render/UiRenderBatch.java",
+  "name": "UiRenderBatch",
+  "pkg": "com.github.epsilon.gui.lib.render",
+  "methods": [
+   "UiRenderBatch",
+   "view",
+   "scheduler",
+   "baseLayer",
+   "theme",
+   "ownsScheduler",
+   "layerHandle",
+   "absoluteLayer",
+   "render",
+   "flush",
+   "if",
+   "for",
+   "clear",
+   "flushAndClear",
+   "close",
+   "sortedTouchedLayers"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "gui/lib/scene/UiLayer.java",
+  "name": "UiLayer",
+  "pkg": "com.github.epsilon.gui.lib.scene",
+  "methods": [
+   "UiLayer",
+   "baseLayer"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "gui/lib/scene/UiLayerStack.java",
+  "name": "UiLayerStack",
+  "pkg": "com.github.epsilon.gui.lib.scene",
+  "methods": [
+   "resolve",
+   "if"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "gui/lib/scene/UiScene.java",
+  "name": "UiScene",
+  "pkg": "com.github.epsilon.gui.lib.scene",
+  "methods": [
+   "UiScene",
+   "beginFrame",
+   "batch",
+   "submit",
+   "flush",
+   "flushAndClear",
+   "clear",
+   "endFrame",
+   "scheduler",
+   "layers",
+   "close"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "gui/lib/state/UiInvalidationState.java",
+  "name": "UiInvalidationState",
+  "pkg": "com.github.epsilon.gui.lib.state",
+  "methods": [
+   "markDirty",
+   "beginRebuild",
+   "noteAnimation",
+   "hasActiveAnimations",
+   "needsRebuild",
+   "rememberSnapshot"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "gui/lib/UiRect.java",
+  "name": "UiRect",
+  "pkg": "com.github.epsilon.gui.lib",
+  "methods": [
+   "if",
+   "right",
+   "bottom",
+   "centerX",
+   "centerY",
+   "contains",
+   "inset",
+   "atOrigin",
+   "relativeTo",
+   "translate",
+   "intersect"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "gui/lib/UiTextMetrics.java",
+  "name": "UiTextMetrics",
+  "pkg": "com.github.epsilon.gui.lib",
+  "methods": [],
+  "hasInstance": false
+ },
+ {
+  "rel": "gui/lib/UiTheme.java",
+  "name": "UiTheme",
+  "pkg": "com.github.epsilon.gui.lib",
+  "methods": [],
+  "hasInstance": false
+ },
+ {
+  "rel": "gui/lib/UiTree.java",
+  "name": "UiTree",
+  "pkg": "com.github.epsilon.gui.lib",
+  "methods": [
+   "UiTree",
+   "build",
+   "from",
+   "layout",
+   "nodes",
+   "hasActiveAnimations",
+   "addNode",
+   "if",
+   "snapshot",
+   "clear",
+   "bound",
+   "stack",
+   "push",
+   "pushRelative",
+   "pushAbsolute",
+   "stackPush",
+   "stackPushRelative",
+   "stackPushAbsolute",
+   "stackPop",
+   "withBound",
+   "currentBound",
+   "resolveX",
+   "resolveY",
+   "resolveRect",
+   "resolveButton",
+   "resolveSwitch",
+   "resolveInput",
+   "layer",
+   "scissor",
+   "scissorIf",
+   "animate",
+   "shadow",
+   "roundRect",
+   "roundRectGradient",
+   "roundRectVerticalGradient",
+   "roundRectHorizontalGradient",
+   "rect",
+   "rectOutline",
+   "rectGradient",
+   "rectVerticalGradient",
+   "rectHorizontalGradient",
+   "outline",
+   "text",
+   "rotatedText",
+   "marqueeText",
+   "texture",
+   "rotatedTexture",
+   "roundedTexture",
+   "playerHead",
+   "button",
+   "switchControl",
+   "toggle",
+   "toggleSwitch",
+   "filledField",
+   "input",
+   "assistChip",
+   "chip",
+   "segmentedControl",
+   "segmented",
+   "iconButton",
+   "popupCard",
+   "slider",
+   "triangle",
+   "viewport",
+   "capture",
+   "while",
+   "Stack",
+   "bounds",
+   "item",
+   "gap",
+   "offset",
+   "cursor",
+   "LayoutScope",
+   "draw",
+   "box",
+   "column",
+   "row",
+   "drawTextHeight",
+   "LinearScope",
+   "fill",
+   "spacer",
+   "nextRect",
+   "Insets",
+   "all",
+   "symmetric",
+   "apply",
+   "CaptureResult",
+   "ButtonElement",
+   "SwitchElement",
+   "SelectionRange",
+   "InputElement"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "gui/panel/adapter/ModuleViewModel.java",
+  "name": "ModuleViewModel",
+  "pkg": "com.github.epsilon.gui.panel.adapter",
+  "methods": [
+   "from"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "gui/panel/adapter/SettingListController.java",
+  "name": "SettingListController",
+  "pkg": "com.github.epsilon.gui.panel.adapter",
+  "methods": [
+   "SettingListController",
+   "getPopupHost",
+   "isPopupHovered",
+   "prepareLayout",
+   "getContentHeight",
+   "if",
+   "for",
+   "layoutRows",
+   "appendRows",
+   "mouseClicked",
+   "mouseReleased",
+   "mouseDragged",
+   "keyPressed",
+   "charTyped",
+   "preeditUpdated",
+   "clearFocus",
+   "clearAll",
+   "resetTransientState",
+   "close",
+   "hasActiveAnimations",
+   "buildSectionCard",
+   "buildSections",
+   "getSectionHeight",
+   "createAnimation",
+   "closeRowsNotIn",
+   "trimToWidth",
+   "createEnumPopup",
+   "createColorPopup",
+   "createStringListSettingPopup",
+   "createRegistryListSettingPopup",
+   "SettingEntry",
+   "SectionEntry"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "gui/panel/adapter/SettingViewFactory.java",
+  "name": "SettingViewFactory",
+  "pkg": "com.github.epsilon.gui.panel.adapter",
+  "methods": [
+   "SettingViewFactory",
+   "create",
+   "switch"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "gui/panel/component/ModuleRow.java",
+  "name": "ModuleRow",
+  "pkg": "com.github.epsilon.gui.panel.component",
+  "methods": [
+   "ModuleRow",
+   "getModule",
+   "getBounds",
+   "getToggleBounds",
+   "buildUi",
+   "if",
+   "hasOverflowingKeybind",
+   "marqueePhase",
+   "formatKeybind"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "gui/panel/component/PanelElements.java",
+  "name": "PanelElements",
+  "pkg": "com.github.epsilon.gui.panel.component",
+  "methods": [
+   "PanelElements",
+   "buildRowSurface",
+   "rowLabelX",
+   "alignTrailing",
+   "switchBounds",
+   "compactFieldBounds",
+   "buildSwitch",
+   "buildFilledField",
+   "measureAssistChipBounds",
+   "buildAssistChip",
+   "buildSegmentedControl",
+   "buildIconButton",
+   "FilledFieldColors"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "gui/panel/component/setting/BoolSettingRow.java",
+  "name": "BoolSettingRow",
+  "pkg": "com.github.epsilon.gui.panel.component.setting",
+  "methods": [
+   "BoolSettingRow",
+   "buildUi",
+   "getSwitchBounds",
+   "mouseClicked",
+   "if",
+   "hasActiveAnimation"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "gui/panel/component/setting/ButtonSettingRow.java",
+  "name": "ButtonSettingRow",
+  "pkg": "com.github.epsilon.gui.panel.component.setting",
+  "methods": [
+   "ButtonSettingRow",
+   "buildUi",
+   "mouseClicked",
+   "if",
+   "hasActiveAnimation"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "gui/panel/component/setting/ColorSettingRow.java",
+  "name": "ColorSettingRow",
+  "pkg": "com.github.epsilon.gui.panel.component.setting",
+  "methods": [
+   "ColorSettingRow",
+   "buildUi",
+   "getSwatchBounds",
+   "mouseClicked"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "gui/panel/component/setting/DoubleSettingRow.java",
+  "name": "DoubleSettingRow",
+  "pkg": "com.github.epsilon.gui.panel.component.setting",
+  "methods": [
+   "DoubleSettingRow",
+   "buildUi",
+   "if",
+   "getTrackBounds",
+   "getFieldBounds",
+   "mouseClicked",
+   "mouseReleased",
+   "keyPressed",
+   "switch",
+   "charTyped",
+   "setFocused",
+   "isFocused",
+   "hasActiveAnimation",
+   "updateFromMouse",
+   "isDragging",
+   "getInteractiveBounds",
+   "getProgress",
+   "formatValue",
+   "formatPlainValue",
+   "getDisplayBuffer",
+   "commitInput",
+   "getVisibleValue",
+   "previewValue",
+   "applyValueNow",
+   "commitPendingValue",
+   "getCursorIndex",
+   "getFieldTextScale",
+   "textMetrics"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "gui/panel/component/setting/EnumSettingRow.java",
+  "name": "EnumSettingRow",
+  "pkg": "com.github.epsilon.gui.panel.component.setting",
+  "methods": [
+   "EnumSettingRow",
+   "setDropdownOpen",
+   "hasActiveAnimation",
+   "buildUi",
+   "getChipBounds",
+   "mouseClicked"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "gui/panel/component/setting/IntSettingRow.java",
+  "name": "IntSettingRow",
+  "pkg": "com.github.epsilon.gui.panel.component.setting",
+  "methods": [
+   "IntSettingRow",
+   "buildUi",
+   "if",
+   "getTrackBounds",
+   "getFieldBounds",
+   "mouseClicked",
+   "mouseReleased",
+   "keyPressed",
+   "switch",
+   "charTyped",
+   "setFocused",
+   "isFocused",
+   "hasActiveAnimation",
+   "updateFromMouse",
+   "isDragging",
+   "getInteractiveBounds",
+   "getProgress",
+   "formatValue",
+   "formatPlainValue",
+   "getDisplayBuffer",
+   "commitInput",
+   "getVisibleValue",
+   "previewValue",
+   "applyValueNow",
+   "commitPendingValue",
+   "getCursorIndex",
+   "getFieldTextScale",
+   "textMetrics"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "gui/panel/component/setting/KeybindSettingRow.java",
+  "name": "KeybindSettingRow",
+  "pkg": "com.github.epsilon.gui.panel.component.setting",
+  "methods": [
+   "KeybindSettingRow",
+   "isListening",
+   "setListening",
+   "buildUi",
+   "if",
+   "getChipBounds",
+   "mouseClicked",
+   "hasActiveAnimation",
+   "formatKeybind"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "gui/panel/component/setting/RegistryListSettingRow.java",
+  "name": "RegistryListSettingRow",
+  "pkg": "com.github.epsilon.gui.panel.component.setting",
+  "methods": [
+   "RegistryListSettingRow",
+   "buildUi",
+   "mouseClicked"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "gui/panel/component/setting/StringListSettingRow.java",
+  "name": "StringListSettingRow",
+  "pkg": "com.github.epsilon.gui.panel.component.setting",
+  "methods": [
+   "StringListSettingRow",
+   "buildUi",
+   "mouseClicked"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "gui/panel/component/setting/StringSettingRow.java",
+  "name": "StringSettingRow",
+  "pkg": "com.github.epsilon.gui.panel.component.setting",
+  "methods": [
+   "StringSettingRow",
+   "buildUi",
+   "if",
+   "mouseClicked",
+   "keyPressed",
+   "switch",
+   "charTyped",
+   "setFocused",
+   "isFocused",
+   "getFieldBounds",
+   "getDisplayBuffer",
+   "commitInput",
+   "getCursorIndex",
+   "buildDisplaySlice",
+   "while",
+   "fitWithEllipsis",
+   "normalize",
+   "handleControlShortcut",
+   "selectAll",
+   "copySelection",
+   "pasteClipboard",
+   "sanitizeClipboard",
+   "replaceSelection",
+   "deleteBackward",
+   "deleteForward",
+   "previewInput",
+   "applyValue",
+   "hasSelection",
+   "getSelectionStart",
+   "getSelectionEnd",
+   "clearSelection",
+   "isControlDown",
+   "textMetrics",
+   "DisplaySlice"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "gui/panel/component/SettingRow.java",
+  "name": "SettingRow",
+  "pkg": "com.github.epsilon.gui.panel.component",
+  "methods": [
+   "SettingRow",
+   "getSetting",
+   "getHeight",
+   "buildUi",
+   "mouseClicked",
+   "mouseReleased",
+   "mouseScrolled",
+   "keyPressed",
+   "charTyped",
+   "preeditUpdated",
+   "setFocused",
+   "isFocused",
+   "hasActiveAnimation",
+   "close"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "gui/panel/input/PanelInputRouter.java",
+  "name": "PanelInputRouter",
+  "pkg": "com.github.epsilon.gui.panel.input",
+  "methods": [
+   "routeMouseClicked",
+   "if",
+   "routeKeyPressed",
+   "routeMouseReleased",
+   "routeMouseDragged",
+   "routeCharTyped"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "gui/panel/PanelDirtyState.java",
+  "name": "PanelDirtyState",
+  "pkg": "com.github.epsilon.gui.panel",
+  "methods": [
+   "markAllDirty",
+   "markLayoutDirty",
+   "markRailDirty",
+   "markModuleListDirty",
+   "markDetailDirty",
+   "markClientSettingDirty",
+   "consumeChromeDirty",
+   "consumeRailDirty",
+   "consumeModuleListDirty",
+   "consumeDetailDirty",
+   "consumeClientSettingDirty",
+   "consume",
+   "if"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "gui/panel/PanelLayout.java",
+  "name": "PanelLayout",
+  "pkg": "com.github.epsilon.gui.panel",
+  "methods": [
+   "PanelLayout",
+   "compute",
+   "Layout"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "gui/panel/PanelScreen.java",
+  "name": "PanelScreen",
+  "pkg": "com.github.epsilon.gui.panel",
+  "methods": [
+   "PanelScreen",
+   "isPauseScreen",
+   "extractRenderState",
+   "if",
+   "drawChrome",
+   "flushQueuedContentBuffers",
+   "renderPopup",
+   "mouseClicked",
+   "mouseScrolled",
+   "mouseReleased",
+   "mouseDragged",
+   "keyPressed",
+   "charTyped",
+   "preeditUpdated",
+   "onClose",
+   "removed",
+   "getRenderTarget"
+  ],
+  "hasInstance": true
+ },
+ {
+  "rel": "gui/panel/PanelState.java",
+  "name": "PanelState",
+  "pkg": "com.github.epsilon.gui.panel",
+  "methods": [
+   "PanelState",
+   "getSelectedCategory",
+   "setSelectedCategory",
+   "getSelectedModule",
+   "setSelectedModule",
+   "getSearchQuery",
+   "setSearchQuery",
+   "getActivePopup",
+   "setActivePopup",
+   "getListeningKeyBindModule",
+   "setListeningKeyBindModule",
+   "isSidebarExpanded",
+   "setSidebarExpanded",
+   "toggleSidebarExpanded",
+   "getVisibleModules",
+   "if",
+   "getModuleScroll",
+   "scrollModules",
+   "getDetailScroll",
+   "scrollDetail",
+   "getMaxModuleScroll",
+   "setModuleScroll",
+   "setMaxModuleScroll",
+   "getMaxDetailScroll",
+   "setDetailScroll",
+   "setMaxDetailScroll",
+   "ensureValidSelection",
+   "getComparator",
+   "switch",
+   "normalizedName",
+   "normalizedAddon",
+   "matchesSearch",
+   "isClientSettingMode",
+   "setClientSettingMode",
+   "getListeningKeybindSetting",
+   "setListeningKeybindSetting",
+   "getClientSettingScroll",
+   "scrollClientSetting",
+   "getMaxClientSettingScroll",
+   "setClientSettingScroll",
+   "setMaxClientSettingScroll",
+   "getClientSettingTab",
+   "setClientSettingTab",
+   "getFriendScroll",
+   "scrollFriend",
+   "getMaxFriendScroll",
+   "setFriendScroll",
+   "setMaxFriendScroll",
+   "getConfigScroll",
+   "scrollConfig",
+   "getMaxConfigScroll",
+   "setConfigScroll",
+   "setMaxConfigScroll",
+   "getSelectedAddonId",
+   "setSelectedAddonId",
+   "getAddonListScroll",
+   "scrollAddonList",
+   "getMaxAddonListScroll",
+   "setAddonListScroll",
+   "setMaxAddonListScroll",
+   "getAddonDetailScroll",
+   "scrollAddonDetail",
+   "getMaxAddonDetailScroll",
+   "setAddonDetailScroll",
+   "setMaxAddonDetailScroll",
+   "clampScroll"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "gui/panel/popup/ColorPickerPopup.java",
+  "name": "ColorPickerPopup",
+  "pkg": "com.github.epsilon.gui.panel.popup",
+  "methods": [
+   "Channel",
+   "ColorPickerPopup",
+   "for",
+   "getBounds",
+   "extractGui",
+   "if",
+   "mouseClicked",
+   "mouseReleased",
+   "mouseDragged",
+   "keyPressed",
+   "switch",
+   "charTyped",
+   "getPreviewBounds",
+   "getPreviewSwatchBounds",
+   "getChannelRowBounds",
+   "getTrackBounds",
+   "getValueBounds",
+   "getChannels",
+   "getChannelIndex",
+   "getChannelValue",
+   "updateChannelFromMouse",
+   "formatHex",
+   "buildValueIndicator",
+   "buildValueBox",
+   "buildCheckerboard",
+   "commitInput",
+   "getDisplayBuffer",
+   "getCursorIndex",
+   "getVisibleColor",
+   "previewColor",
+   "applyColorNow",
+   "commitPendingColor",
+   "close"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "gui/panel/popup/ConfirmActionPopup.java",
+  "name": "ConfirmActionPopup",
+  "pkg": "com.github.epsilon.gui.panel.popup",
+  "methods": [
+   "ConfirmActionPopup",
+   "getBounds",
+   "extractGui",
+   "if",
+   "mouseClicked",
+   "shouldCloseAfterClick",
+   "buildButton",
+   "updateLayout"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "gui/panel/popup/EnumSelectPopup.java",
+  "name": "EnumSelectPopup",
+  "pkg": "com.github.epsilon.gui.panel.popup",
+  "methods": [
+   "EnumSelectPopup",
+   "if",
+   "getSetting",
+   "getBounds",
+   "extractGui",
+   "flush",
+   "mouseClicked",
+   "mouseScrolled",
+   "shouldCloseAfterClick",
+   "close"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "gui/panel/popup/MessagePopup.java",
+  "name": "MessagePopup",
+  "pkg": "com.github.epsilon.gui.panel.popup",
+  "methods": [
+   "MessagePopup",
+   "getBounds",
+   "extractGui",
+   "if",
+   "mouseClicked",
+   "shouldCloseAfterClick",
+   "updateLayout"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "gui/panel/popup/PanelPopupHost.java",
+  "name": "PanelPopupHost",
+  "pkg": "com.github.epsilon.gui.panel.popup",
+  "methods": [
+   "open",
+   "close",
+   "if",
+   "getActivePopup",
+   "setOverlayBounds",
+   "getCenteredBounds",
+   "render",
+   "flush",
+   "extractOverlay",
+   "mouseClicked",
+   "keyPressed",
+   "charTyped",
+   "mouseReleased",
+   "mouseDragged",
+   "mouseScrolled",
+   "shouldCloseAfterClick"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "gui/panel/popup/RegistryListSelectPopup.java",
+  "name": "RegistryListSelectPopup",
+  "pkg": "com.github.epsilon.gui.panel.popup",
+  "methods": [
+   "RegistryListSelectPopup",
+   "collectRegistryEntries",
+   "for",
+   "if",
+   "filterFor",
+   "create",
+   "switch",
+   "blockPopup",
+   "itemPopup",
+   "entityTypePopup",
+   "soundEventPopup",
+   "enchantmentPopup",
+   "collectEnchantments",
+   "enchantmentDisplayName",
+   "itemDisplayName",
+   "blockPreviewStack",
+   "itemPreviewStack",
+   "entityTypePreviewStack",
+   "formatPath",
+   "getBounds",
+   "extractGui",
+   "flush",
+   "extractOverlay",
+   "mouseClicked",
+   "mouseReleased",
+   "mouseDragged",
+   "keyPressed",
+   "charTyped",
+   "mouseScrolled",
+   "filteredAvailable",
+   "filteredSelected",
+   "buildColumn",
+   "getSearchBounds",
+   "getViewport",
+   "getAvailableViewport",
+   "getSelectedViewport",
+   "getColumnViewports",
+   "updateAvailableSmoothScroll",
+   "updateSelectedSmoothScroll",
+   "resetScroll",
+   "resetAvailableScroll",
+   "resetSelectedScroll",
+   "applyDraggedAvailableScroll",
+   "applyDraggedSelectedScroll",
+   "trim",
+   "centeredTextY",
+   "drawItemPreview",
+   "toMinecraftGuiX",
+   "toMinecraftGuiY",
+   "toMinecraftGuiXInt",
+   "toMinecraftGuiYInt",
+   "close",
+   "ItemPreview"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "gui/panel/popup/StringListSelectPopup.java",
+  "name": "StringListSelectPopup",
+  "pkg": "com.github.epsilon.gui.panel.popup",
+  "methods": [
+   "StringListSelectPopup",
+   "getBounds",
+   "extractGui",
+   "flush",
+   "mouseClicked",
+   "if",
+   "mouseReleased",
+   "mouseDragged",
+   "keyPressed",
+   "switch",
+   "charTyped",
+   "mouseScrolled",
+   "entries",
+   "buildEntryList",
+   "actionBounds",
+   "drawAction",
+   "moveEntry",
+   "getInputBounds",
+   "getViewport",
+   "updateSmoothScroll",
+   "resetScroll",
+   "applyDraggedScroll",
+   "trim",
+   "centeredTextY",
+   "close"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "gui/panel/utils/IMEFocusHelper.java",
+  "name": "IMEFocusHelper",
+  "pkg": "com.github.epsilon.gui.panel.utils",
+  "methods": [
+   "IMEFocusHelper",
+   "activate",
+   "if",
+   "deactivate",
+   "forceDeactivate",
+   "updateCursorPos"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "gui/panel/utils/ScrollBarDragState.java",
+  "name": "ScrollBarDragState",
+  "pkg": "com.github.epsilon.gui.panel.utils",
+  "methods": [
+   "isDragging",
+   "mouseClicked",
+   "if",
+   "mouseDragged",
+   "mouseReleased",
+   "reset"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "gui/panel/utils/ScrollBarUtils.java",
+  "name": "ScrollBarUtils",
+  "pkg": "com.github.epsilon.gui.panel.utils",
+  "methods": [
+   "ScrollBarUtils",
+   "draw",
+   "ThumbGeometry",
+   "thumbContains",
+   "trackContains",
+   "computeThumb",
+   "if",
+   "scrollFromMouseY"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "gui/panel/view/CategoryRailPanel.java",
+  "name": "CategoryRailPanel",
+  "pkg": "com.github.epsilon.gui.panel.view",
+  "methods": [
+   "CategoryRailPanel",
+   "getAnimatedWidth",
+   "render",
+   "if",
+   "for",
+   "mouseClicked",
+   "getMenuButtonBounds",
+   "hasActiveAnimations",
+   "mouseOver",
+   "getCategoryStartY",
+   "getSettingsButtonY",
+   "buildMenuGlyph",
+   "buildCategoryItem",
+   "buildSettingsItem",
+   "getRailIconCenterX",
+   "getCategoryCount"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "gui/panel/view/ClientSettingPanel.java",
+  "name": "ClientSettingPanel",
+  "pkg": "com.github.epsilon.gui.panel.view",
+  "methods": [
+   "ClientSettingPanel",
+   "for",
+   "render",
+   "flushContent",
+   "markDirty",
+   "hasActiveAnimations",
+   "resetTransientState",
+   "mouseClicked",
+   "if",
+   "mouseReleased",
+   "mouseDragged",
+   "mouseScrolled",
+   "keyPressed",
+   "charTyped",
+   "buildTabs",
+   "switchToTab",
+   "resolveClickedTab",
+   "getCurrentTabView",
+   "getTabIndex",
+   "switch",
+   "getTabBarRect",
+   "getContentBounds",
+   "TabDefinition",
+   "close"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "gui/panel/view/ModuleDetailPanel.java",
+  "name": "ModuleDetailPanel",
+  "pkg": "com.github.epsilon.gui.panel.view",
+  "methods": [
+   "ModuleDetailPanel",
+   "render",
+   "if",
+   "mouseClicked",
+   "mouseReleased",
+   "mouseDragged",
+   "mouseScrolled",
+   "keyPressed",
+   "charTyped",
+   "getViewport",
+   "getBindModeBounds",
+   "getKeybindBounds",
+   "getHeaderControlGroupLeftX",
+   "getHeaderControlGroupRightX",
+   "getHeaderControlGroupWidth",
+   "getHeaderContentInset",
+   "getHeaderContentInsetX",
+   "getHeaderControlHeight",
+   "getKeybindControlSize",
+   "getBindModeControlWidth",
+   "getHiddenControlWidth",
+   "getHiddenBounds",
+   "getHeaderControlGap",
+   "getHeaderControlRadius",
+   "getKeybindControlRadius",
+   "getHeaderControlsY",
+   "buildBindModeControl",
+   "buildKeybindControl",
+   "buildHiddenControl",
+   "formatCompactKeybind",
+   "for",
+   "formatKeybind",
+   "flushContent",
+   "markDirty",
+   "hasActiveAnimations",
+   "resetTransientState",
+   "shouldRebuildContent",
+   "rememberSnapshot",
+   "getSettingOwnerKey",
+   "buildContentSignature",
+   "close"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "gui/panel/view/ModuleListPanel.java",
+  "name": "ModuleListPanel",
+  "pkg": "com.github.epsilon.gui.panel.view",
+  "methods": [
+   "ModuleListPanel",
+   "render",
+   "if",
+   "for",
+   "flushContent",
+   "markDirty",
+   "hasActiveAnimations",
+   "resetTransientState",
+   "mouseClicked",
+   "mouseReleased",
+   "mouseDragged",
+   "mouseScrolled",
+   "keyPressed",
+   "switch",
+   "charTyped",
+   "handleGlobalClick",
+   "shouldRebuildContent",
+   "rememberSnapshot",
+   "buildContentSignature",
+   "CategorySnapshot",
+   "of",
+   "getViewport",
+   "getSearchBounds",
+   "buildSearchField",
+   "close"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "gui/panel/view/settings/AddonClientSettingTab.java",
+  "name": "AddonClientSettingTab",
+  "pkg": "com.github.epsilon.gui.panel.view.settings",
+  "methods": [
+   "AddonClientSettingTab",
+   "render",
+   "if",
+   "for",
+   "flushContent",
+   "markDirty",
+   "hasActiveAnimations",
+   "mouseClicked",
+   "mouseReleased",
+   "mouseDragged",
+   "mouseScrolled",
+   "keyPressed",
+   "charTyped",
+   "consumesHover",
+   "onActivated",
+   "onDeactivated",
+   "resolveSelectedAddon",
+   "buildAddonShell",
+   "buildAddonListRow",
+   "buildAddonInfo",
+   "buildAddonInfoContent",
+   "getListPanelBounds",
+   "getListViewport",
+   "getDetailPanelBounds",
+   "getDetailInfoBounds",
+   "getDetailSettingsViewport",
+   "getDetailInfoHeight",
+   "shouldRebuild",
+   "rememberSnapshot",
+   "buildContentSignature",
+   "trimToWidth",
+   "createAnimation",
+   "close",
+   "AddonRowEntry"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "gui/panel/view/settings/ClientSettingTabView.java",
+  "name": "ClientSettingTabView",
+  "pkg": "com.github.epsilon.gui.panel.view.settings",
+  "methods": [
+   "consumesHover",
+   "onActivated",
+   "onDeactivated",
+   "close"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "gui/panel/view/settings/ClientSettingTextField.java",
+  "name": "ClientSettingTextField",
+  "pkg": "com.github.epsilon.gui.panel.view.settings",
+  "methods": [
+   "ClientSettingTextField",
+   "buildUi",
+   "if",
+   "focusIfContains",
+   "blur",
+   "keyPressed",
+   "switch",
+   "charTyped",
+   "hasActiveAnimations",
+   "isFocused",
+   "getText",
+   "setText",
+   "clear",
+   "setCursorToEnd",
+   "handleControlShortcut",
+   "insertText",
+   "clampToMaxLength",
+   "isControlDown"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "gui/panel/view/settings/ConfigClientSettingTab.java",
+  "name": "ConfigClientSettingTab",
+  "pkg": "com.github.epsilon.gui.panel.view.settings",
+  "methods": [
+   "ConfigClientSettingTab",
+   "render",
+   "if",
+   "for",
+   "flushContent",
+   "markDirty",
+   "hasActiveAnimations",
+   "consumesHover",
+   "mouseClicked",
+   "mouseReleased",
+   "mouseDragged",
+   "mouseScrolled",
+   "keyPressed",
+   "charTyped",
+   "onActivated",
+   "onDeactivated",
+   "buildActionButton",
+   "buildConfigRow",
+   "handleAction",
+   "switch",
+   "trySaveAs",
+   "tryNewConfig",
+   "tryReload",
+   "tryExport",
+   "tryImport",
+   "tryOpenFolder",
+   "trySwitchConfig",
+   "tryDeleteConfig",
+   "openDeleteConfirmation",
+   "openErrorPopup",
+   "openExportSuccessPopup",
+   "buildErrorDetail",
+   "shouldRebuild",
+   "rememberSnapshot",
+   "buildContentSignature",
+   "getInputSectionBounds",
+   "getListViewport",
+   "getInputFieldBounds",
+   "getActionButtons",
+   "getDeleteButtonBounds",
+   "createAnimation",
+   "trimToWidth",
+   "close",
+   "ConfigRowEntry",
+   "ActionButton"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "gui/panel/view/settings/FriendClientSettingTab.java",
+  "name": "FriendClientSettingTab",
+  "pkg": "com.github.epsilon.gui.panel.view.settings",
+  "methods": [
+   "FriendClientSettingTab",
+   "render",
+   "if",
+   "for",
+   "flushContent",
+   "markDirty",
+   "hasActiveAnimations",
+   "mouseClicked",
+   "mouseReleased",
+   "mouseDragged",
+   "mouseScrolled",
+   "keyPressed",
+   "switch",
+   "charTyped",
+   "onDeactivated",
+   "addFriendFromInput",
+   "buildFriendRow",
+   "getListViewport",
+   "getInputBounds",
+   "getRemoveButtonBounds",
+   "shouldRebuild",
+   "rememberSnapshot",
+   "buildContentSignature",
+   "createAnimation",
+   "close",
+   "FriendRowEntry"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "gui/panel/view/settings/GeneralClientSettingTab.java",
+  "name": "GeneralClientSettingTab",
+  "pkg": "com.github.epsilon.gui.panel.view.settings",
+  "methods": [
+   "GeneralClientSettingTab",
+   "render",
+   "if",
+   "flushContent",
+   "markDirty",
+   "hasActiveAnimations",
+   "mouseClicked",
+   "mouseReleased",
+   "mouseDragged",
+   "mouseScrolled",
+   "keyPressed",
+   "charTyped",
+   "consumesHover",
+   "onDeactivated",
+   "shouldRebuildContent",
+   "rememberSnapshot",
+   "buildContentSignature",
+   "for",
+   "close"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "gui/panel/view/TopBarPanel.java",
+  "name": "TopBarPanel",
+  "pkg": "com.github.epsilon.gui.panel.view",
+  "methods": [
+   "TopBarPanel",
+   "render",
+   "mouseClicked"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "gui/screen/MainMenuScreen.java",
+  "name": "MainMenuScreen",
+  "pkg": "com.github.epsilon.gui.screen",
+  "methods": [
+   "MainMenuScreen",
+   "init",
+   "if",
+   "for",
+   "extractBackground",
+   "extractRenderState",
+   "drawMenu",
+   "localizedTitle",
+   "switch",
+   "easeOutCubic",
+   "applyAlpha",
+   "mouseClicked",
+   "removed",
+   "shouldCloseOnEsc",
+   "isPauseScreen",
+   "MenuEntry",
+   "setBounds",
+   "isHovered"
+  ],
+  "hasInstance": true
+ },
+ {
+  "rel": "gui/screen/WelcomeScreen.java",
+  "name": "WelcomeScreen",
+  "pkg": "com.github.epsilon.gui.screen",
+  "methods": [
+   "WelcomeScreen",
+   "init",
+   "extractRenderState",
+   "for",
+   "shouldCloseOnEsc",
+   "onClose",
+   "isPauseScreen",
+   "confirmDoNotShowAgain",
+   "continueToNextScreen",
+   "if",
+   "githubLine",
+   "getCardHeight",
+   "getCardY",
+   "decode"
+  ],
+  "hasInstance": true
+ },
+ {
+  "rel": "gui/theme/EpsilonUiTheme.java",
+  "name": "EpsilonUiTheme",
+  "pkg": "com.github.epsilon.gui.theme",
+  "methods": [
+   "EpsilonUiTheme",
+   "controlRadius",
+   "textPrimary",
+   "textMuted",
+   "outlineSoft",
+   "stateLayer",
+   "lerp",
+   "withAlpha",
+   "light",
+   "filledFieldSurface",
+   "segmentedControlSurface",
+   "segmentedControlIndicator",
+   "segmentedControlActiveLabel",
+   "segmentedControlInactiveLabel",
+   "switchTrack",
+   "switchKnob",
+   "switchTrackOutline",
+   "switchTrackOutlineWidth",
+   "switchHandleSizeOff",
+   "switchHandleSizeOn",
+   "switchHandleInsetOff",
+   "switchHandleInsetOn",
+   "switchStateLayerSize",
+   "scrollBar",
+   "hoverAnimationDuration"
+  ],
+  "hasInstance": true
+ },
+ {
+  "rel": "gui/theme/MD3Theme.java",
+  "name": "MD3Theme",
+  "pkg": "com.github.epsilon.gui.theme",
+  "methods": [
+   "MD3Theme",
+   "syncFromSettings",
+   "if",
+   "withAlpha",
+   "lerp",
+   "isLightTheme",
+   "stateLayer",
+   "rowSurface",
+   "filledFieldSurface",
+   "filledFieldContent",
+   "filledFieldCaret",
+   "filledFieldIndicator",
+   "segmentedControlSurface",
+   "segmentedControlIndicator",
+   "segmentedControlActiveLabel",
+   "segmentedControlInactiveLabel",
+   "switchTrack",
+   "switchKnob",
+   "switchTrackOutline",
+   "switchTrackOutlineWidth",
+   "ThemePalette",
+   "forPreset",
+   "switch",
+   "paletteDark",
+   "paletteLight",
+   "color"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "gui/utils/RegistryListUi.java",
+  "name": "RegistryListUi",
+  "pkg": "com.github.epsilon.gui.utils",
+  "methods": [
+   "RegistryListUi",
+   "labelText",
+   "switch"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "holders/AddonHolder.java",
+  "name": "AddonHolder",
+  "pkg": "com.github.epsilon.holders",
+  "methods": [
+   "registerAddon",
+   "if",
+   "registerAddons",
+   "setupAddons",
+   "for",
+   "getAddons",
+   "isBlank"
+  ],
+  "hasInstance": true
+ },
+ {
+  "rel": "holders/ConfigHolder.java",
+  "name": "ConfigHolder",
+  "pkg": "com.github.epsilon.holders",
+  "methods": [
+   "ConfigHolder",
+   "initConfig",
+   "getConfigDir",
+   "getConfigsDir",
+   "getImportDir",
+   "getExportDir",
+   "getActiveConfigStorageDir",
+   "getActiveConfigName",
+   "listConfigs",
+   "reload",
+   "reloadOrThrow",
+   "applyToModules",
+   "for",
+   "saveNow",
+   "saveAsConfig",
+   "if",
+   "newDefaultConfig",
+   "switchConfig",
+   "deleteConfig",
+   "exportActiveConfigToZip",
+   "exportConfigToZip",
+   "try",
+   "importConfigFromZip",
+   "getModuleFile",
+   "applyModuleFromDisk",
+   "applyModuleObject",
+   "saveModuleToDisk",
+   "buildModuleObject",
+   "getAddonSettingsFile",
+   "applyAddonFromDisk",
+   "saveAddonToDisk",
+   "buildAddonObject",
+   "saveFriends",
+   "loadFriends",
+   "serializeSetting",
+   "applySetting",
+   "getObject",
+   "readFloat",
+   "readHorizontalAnchor",
+   "readVerticalAnchor",
+   "ensureRootDirectories",
+   "ensureConfigExists",
+   "getConfigStorageDir",
+   "getConfigurableModules",
+   "resetModulesToDefaults",
+   "resetAddonsToDefaults",
+   "applyToAddons",
+   "saveAddonsToDisk",
+   "loadActiveConfigSnapshot",
+   "saveActiveConfigSnapshot",
+   "loadRootClientSettings",
+   "saveRootClientSettings",
+   "readLegacyShowWelcomeScreen",
+   "migrateLegacyLayoutsIfNeeded",
+   "migrateLegacyFriendsIfNeeded",
+   "resolveStoredActiveConfigName",
+   "writeActiveConfigName",
+   "listConfigsInternal",
+   "listConfigsCached",
+   "invalidateConfigListCache",
+   "normalizeAndValidateConfigName",
+   "isValidConfigName",
+   "resolveExportZipPath",
+   "resolveImportZipPath",
+   "buildExportMetadata",
+   "writeStringZipEntry",
+   "writeFileZipEntry",
+   "unzipSecurely",
+   "while",
+   "detectConfigRoot",
+   "buildImportedConfigName",
+   "fileNameWithoutExtension",
+   "copyDirectory",
+   "preVisitDirectory",
+   "visitFile",
+   "deleteDirectory",
+   "postVisitDirectory",
+   "getAvailableBackupPath"
+  ],
+  "hasInstance": true
+ },
+ {
+  "rel": "holders/HudElementHolder.java",
+  "name": "HudElementHolder",
+  "pkg": "com.github.epsilon.holders",
+  "methods": [
+   "HudElementHolder",
+   "initElements",
+   "addElement",
+   "getElements",
+   "onRender2D",
+   "for",
+   "if"
+  ],
+  "hasInstance": true
+ },
+ {
+  "rel": "holders/ModuleHolder.java",
+  "name": "ModuleHolder",
+  "pkg": "com.github.epsilon.holders",
+  "methods": [
+   "ModuleHolder",
+   "initModules",
+   "addModule",
+   "registerAddonModule",
+   "getModules",
+   "onKeyPress",
+   "if",
+   "onMousePress",
+   "dispatchKeyBind",
+   "for"
+  ],
+  "hasInstance": true
+ },
+ {
+  "rel": "holders/RendererHolder.java",
+  "name": "RendererHolder",
+  "pkg": "com.github.epsilon.holders",
+  "methods": [
+   "RendererHolder",
+   "register",
+   "unregister",
+   "destroyAll",
+   "for"
+  ],
+  "hasInstance": true
+ },
+ {
+  "rel": "holders/RenderTargetHolder.java",
+  "name": "RenderTargetHolder",
+  "pkg": "com.github.epsilon.holders",
+  "methods": [
+   "RenderTargetHolder",
+   "register",
+   "unregister",
+   "destroyAll",
+   "for"
+  ],
+  "hasInstance": true
+ },
+ {
+  "rel": "holders/ShaderHolder.java",
+  "name": "ShaderHolder",
+  "pkg": "com.github.epsilon.holders",
+  "methods": [
+   "ShaderHolder",
+   "processEntityOutlineTarget",
+   "if",
+   "beginHandOutlineCapture",
+   "endHandOutlineCapture",
+   "isRenderingHands",
+   "getHandOutlineTarget",
+   "getChestOutlineTarget",
+   "markChestOutlineSubmit",
+   "isChestOutlineSubmit",
+   "beginChestOutlineCapture",
+   "endChestOutlineCapture",
+   "processHandOutlineTarget",
+   "prepareChestOutlineTarget",
+   "processChestOutlineTarget",
+   "renderPass",
+   "try",
+   "writeShaderUniforms",
+   "ensureProgram",
+   "ensureSwap",
+   "ensureHandTarget",
+   "ensureChestTarget",
+   "pipeline",
+   "switch",
+   "usesColors",
+   "red",
+   "green",
+   "blue",
+   "alpha",
+   "ShaderUniforms",
+   "write"
+  ],
+  "hasInstance": true
+ },
+ {
+  "rel": "holders/TextureCacheHolder.java",
+  "name": "TextureCacheHolder",
+  "pkg": "com.github.epsilon.holders",
+  "methods": [
+   "TextureCacheHolder",
+   "clearCache",
+   "for"
+  ],
+  "hasInstance": true
+ },
+ {
+  "rel": "holders/TranslateHolder.java",
+  "name": "TranslateHolder",
+  "pkg": "com.github.epsilon.holders",
+  "methods": [
+   "TranslateHolder",
+   "refresh",
+   "for",
+   "registerTranslateComponent",
+   "getRevision"
+  ],
+  "hasInstance": true
+ },
+ {
+  "rel": "interfaces/ChatComponentAccessor.java",
+  "name": "ChatComponentAccessor",
+  "pkg": "com.github.epsilon.interfaces",
+  "methods": [],
+  "hasInstance": false
+ },
+ {
+  "rel": "interfaces/EntityRenderStateAccessor.java",
+  "name": "EntityRenderStateAccessor",
+  "pkg": "com.github.epsilon.interfaces",
+  "methods": [],
+  "hasInstance": false
+ },
+ {
+  "rel": "interfaces/SubmitNodeCollectionAccessor.java",
+  "name": "SubmitNodeCollectionAccessor",
+  "pkg": "com.github.epsilon.interfaces",
+  "methods": [],
+  "hasInstance": false
+ },
+ {
+  "rel": "interfaces/WalkAnimationStateAccessor.java",
+  "name": "WalkAnimationStateAccessor",
+  "pkg": "com.github.epsilon.interfaces",
+  "methods": [],
+  "hasInstance": false
+ },
+ {
+  "rel": "managers/impl/FriendManager.java",
+  "name": "FriendManager",
+  "pkg": "com.github.epsilon.managers.impl",
+  "methods": [
+   "isFriend",
+   "addFriend",
+   "removeFriend",
+   "clearFriends",
+   "getFriends"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "managers/impl/HealthManager.java",
+  "name": "HealthManager",
+  "pkg": "com.github.epsilon.managers.impl",
+  "methods": [
+   "HealthManager",
+   "getHealth",
+   "if",
+   "onPacket",
+   "isHealthObjective"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "managers/impl/network/ClientboundPacketManager.java",
+  "name": "ClientboundPacketManager",
+  "pkg": "com.github.epsilon.managers.impl.network",
+  "methods": [
+   "ClientboundPacketManager",
+   "onLevelUpdate",
+   "flush",
+   "while",
+   "isDisallowedPacket",
+   "startTracking",
+   "stopTracking",
+   "onPacketReceive",
+   "if"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "managers/impl/network/ServerboundPacketManager.java",
+  "name": "ServerboundPacketManager",
+  "pkg": "com.github.epsilon.managers.impl.network",
+  "methods": [
+   "ServerboundPacketManager",
+   "onLevelUpdate",
+   "flush",
+   "while",
+   "stopBlinking",
+   "startBlinking",
+   "onPacketSend",
+   "if"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "managers/impl/NotificationManager.java",
+  "name": "NotificationManager",
+  "pkg": "com.github.epsilon.managers.impl",
+  "methods": [
+   "success",
+   "info",
+   "error",
+   "notifyHud",
+   "moduleState",
+   "applyAnimatedPrefix",
+   "update",
+   "while",
+   "if",
+   "getNotifications",
+   "isEmpty",
+   "clearAll",
+   "notify",
+   "notifyReplaceable",
+   "enqueue",
+   "unregister",
+   "createNotificationMessage",
+   "createModuleStateMessage",
+   "sendChatMessage",
+   "makeRoomIfNeeded"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "managers/impl/rotations/RotationManager.java",
+  "name": "RotationManager",
+  "pkg": "com.github.epsilon.managers.impl.rotations",
+  "methods": [
+   "setRotations",
+   "if",
+   "onRotationsSet",
+   "resetModeState",
+   "smooth",
+   "correctDisabledRotations",
+   "getYaw",
+   "getPitch",
+   "getRotation",
+   "getLastRotation",
+   "isActive",
+   "setActive",
+   "isSmoothed",
+   "setSmoothed",
+   "copyStateFrom",
+   "onRespawn",
+   "onPacketReceive",
+   "onPlayerTick",
+   "afterPlayerTick",
+   "onAnimation",
+   "onSendPosition"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "managers/impl/rotations/SilentRotationManager.java",
+  "name": "SilentRotationManager",
+  "pkg": "com.github.epsilon.managers.impl.rotations",
+  "methods": [
+   "handleSendPosition",
+   "if",
+   "onMoveInput",
+   "onRaytrace",
+   "onItemRaytrace",
+   "onStrafe",
+   "onJump",
+   "onFallFlying",
+   "onUseItem",
+   "onFireworkUpdate",
+   "onAttack"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "managers/impl/rotations/SnapRotationManager.java",
+  "name": "SnapRotationManager",
+  "pkg": "com.github.epsilon.managers.impl.rotations",
+  "methods": [
+   "onRotationsSet",
+   "snapToCurrentRotation",
+   "if",
+   "restoreSnappedRotation",
+   "sendRotationPacket",
+   "onPlayerTick",
+   "handleSendPosition",
+   "resetModeState"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "managers/impl/sound/SoundKey.java",
+  "name": "SoundKey",
+  "pkg": "com.github.epsilon.managers.impl.sound",
+  "methods": [
+   "SoundKey",
+   "id"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "managers/impl/sound/SoundManager.java",
+  "name": "SoundManager",
+  "pkg": "com.github.epsilon.managers.impl.sound",
+  "methods": [
+   "playInUi",
+   "playSound",
+   "stop",
+   "stopAllSounds",
+   "for"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "managers/impl/target/TargetManager.java",
+  "name": "TargetManager",
+  "pkg": "com.github.epsilon.managers.impl.target",
+  "methods": [
+   "TargetManager",
+   "onClientTick",
+   "if",
+   "acquirePrimary",
+   "acquireTargets",
+   "getSharedTarget",
+   "collectTargets",
+   "for",
+   "isSharedTargetAlive",
+   "isValidTarget",
+   "switch"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "managers/impl/target/TargetRequest.java",
+  "name": "TargetRequest",
+  "pkg": "com.github.epsilon.managers.impl.target",
+  "methods": [
+   "of"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "managers/impl/TimerManager.java",
+  "name": "TimerManager",
+  "pkg": "com.github.epsilon.managers.impl",
+  "methods": [
+   "set",
+   "reset",
+   "tryReset",
+   "if",
+   "get",
+   "getDefault"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "managers/Managers.java",
+  "name": "Managers",
+  "pkg": "com.github.epsilon.managers",
+  "methods": [
+   "initManagers",
+   "switchRotationManager",
+   "if"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "mixins/MixinAvatar.java",
+  "name": "MixinAvatar",
+  "pkg": "com.github.epsilon.mixins",
+  "methods": [
+   "hookSneakTweakDefaultDimensions",
+   "if"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "mixins/MixinAvatarRenderer.java",
+  "name": "MixinAvatarRenderer",
+  "pkg": "com.github.epsilon.mixins",
+  "methods": [
+   "applyThirdPersonBlockingPose",
+   "if",
+   "spoofFallFlyingTicks",
+   "applyShadersHandArmOutline"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "mixins/MixinBaseEntityRenderer.java",
+  "name": "MixinBaseEntityRenderer",
+  "pkg": "com.github.epsilon.mixins",
+  "methods": [
+   "onExtractRenderStateReturn",
+   "if"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "mixins/MixinBlock.java",
+  "name": "MixinBlock",
+  "pkg": "com.github.epsilon.mixins",
+  "methods": [
+   "hookShouldRenderFace",
+   "if"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "mixins/MixinBlockCollisions.java",
+  "name": "MixinBlockCollisions",
+  "pkg": "com.github.epsilon.mixins",
+  "methods": [
+   "hookComputeNext"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "mixins/MixinCamera.java",
+  "name": "MixinCamera",
+  "pkg": "com.github.epsilon.mixins",
+  "methods": [
+   "hookGetMaxZoom",
+   "if",
+   "onAlignWithEntityTail",
+   "onAlignSetPosArgs",
+   "onAlignSetRotationArgs",
+   "hookSneakTweakCameraTick",
+   "hookSneakTweakCameraSpeed"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "mixins/MixinCapeLayer.java",
+  "name": "MixinCapeLayer",
+  "pkg": "com.github.epsilon.mixins",
+  "methods": [
+   "redirectCapeRenderType",
+   "if"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "mixins/MixinChatComponent.java",
+  "name": "MixinChatComponent",
+  "pkg": "com.github.epsilon.mixins",
+  "methods": [],
+  "hasInstance": false
+ },
+ {
+  "rel": "mixins/MixinChatComponentHash.java",
+  "name": "MixinChatComponentHash",
+  "pkg": "com.github.epsilon.mixins",
+  "methods": [
+   "logChatMessage",
+   "addMessageToDisplayQueue",
+   "addMessageToQueue",
+   "refreshTrimmedMessages",
+   "if",
+   "while"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "mixins/MixinChestRenderer.java",
+  "name": "MixinChestRenderer",
+  "pkg": "com.github.epsilon.mixins",
+  "methods": [
+   "applyShadersChestOutline",
+   "if"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "mixins/MixinChunkBorderRenderer.java",
+  "name": "MixinChunkBorderRenderer",
+  "pkg": "com.github.epsilon.mixins",
+  "methods": [
+   "if"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "mixins/MixinClientBrandRetriever.java",
+  "name": "MixinClientBrandRetriever",
+  "pkg": "com.github.epsilon.mixins",
+  "methods": [
+   "onGetClientModName"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "mixins/MixinClientLevel.java",
+  "name": "MixinClientLevel",
+  "pkg": "com.github.epsilon.mixins",
+  "methods": [
+   "onLevelEvent"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "mixins/MixinClientPacketListener.java",
+  "name": "MixinClientPacketListener",
+  "pkg": "com.github.epsilon.mixins",
+  "methods": [
+   "MixinClientPacketListener",
+   "onHandleLoginTail",
+   "if",
+   "onHandleConfigurationStart",
+   "onHandleRespawnReturn",
+   "hookSneakTweakSetEntityData",
+   "for",
+   "onHandleMovePlayerHead",
+   "onHandleMovePlayerReturn"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "mixins/MixinCompassAngleState.java",
+  "name": "MixinCompassAngleState",
+  "pkg": "com.github.epsilon.mixins",
+  "methods": [
+   "hookGetWrappedVisualRotationY",
+   "if",
+   "modifyGetAngleTo"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "mixins/MixinConnection.java",
+  "name": "MixinConnection",
+  "pkg": "com.github.epsilon.mixins",
+  "methods": [
+   "onReceivePacket",
+   "if",
+   "onSendPacket"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "mixins/MixinCrystalChamsEntityRenderer.java",
+  "name": "MixinCrystalChamsEntityRenderer",
+  "pkg": "com.github.epsilon.mixins",
+  "methods": [
+   "hookShouldRender",
+   "if"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "mixins/MixinDataComponentInitializerEntry.java",
+  "name": "MixinDataComponentInitializerEntry",
+  "pkg": "com.github.epsilon.mixins",
+  "methods": [
+   "skipMissingInstrument"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "mixins/MixinDeltaTrackerTimer.java",
+  "name": "MixinDeltaTrackerTimer",
+  "pkg": "com.github.epsilon.mixins",
+  "methods": [
+   "onBeginRenderTick"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "mixins/MixinEntity.java",
+  "name": "MixinEntity",
+  "pkg": "com.github.epsilon.mixins",
+  "methods": [
+   "updateTurn",
+   "if",
+   "redirectGetViewYRot",
+   "redirectGetYRotInMoveRelative",
+   "pushAwayFromHook"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "mixins/MixinEntityHitboxDebugRenderer.java",
+  "name": "MixinEntityHitboxDebugRenderer",
+  "pkg": "com.github.epsilon.mixins",
+  "methods": [
+   "onShowHitboxes",
+   "if"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "mixins/MixinEntityRenderDispatcher.java",
+  "name": "MixinEntityRenderDispatcher",
+  "pkg": "com.github.epsilon.mixins",
+  "methods": [
+   "onExtractEntity",
+   "if"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "mixins/MixinEntityRenderer.java",
+  "name": "MixinEntityRenderer",
+  "pkg": "com.github.epsilon.mixins",
+  "methods": [
+   "onShouldShowName",
+   "if"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "mixins/MixinEntityRenderState.java",
+  "name": "MixinEntityRenderState",
+  "pkg": "com.github.epsilon.mixins",
+  "methods": [],
+  "hasInstance": false
+ },
+ {
+  "rel": "mixins/MixinEquipmentLayerRenderer.java",
+  "name": "MixinEquipmentLayerRenderer",
+  "pkg": "com.github.epsilon.mixins",
+  "methods": [
+   "redirectRenderType",
+   "if"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "mixins/MixinFeatureRenderDispatcherPhaseSubmitGrouper.java",
+  "name": "MixinFeatureRenderDispatcherPhaseSubmitGrouper",
+  "pkg": "com.github.epsilon.mixins",
+  "methods": [
+   "splitChestOutlineGroup",
+   "if",
+   "for"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "mixins/MixinFireworkRocketEntity.java",
+  "name": "MixinFireworkRocketEntity",
+  "pkg": "com.github.epsilon.mixins",
+  "methods": [
+   "redirectMovement",
+   "if"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "mixins/MixinFlowingFluid.java",
+  "name": "MixinFlowingFluid",
+  "pkg": "com.github.epsilon.mixins",
+  "methods": [
+   "hookGetFlow",
+   "if"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "mixins/MixinFont.java",
+  "name": "MixinFont",
+  "pkg": "com.github.epsilon.mixins",
+  "methods": [
+   "onGetGlyph",
+   "if",
+   "onWidthString",
+   "onWidthFormattedCharSequence",
+   "onWidthFormattedText"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "mixins/MixinGameRenderer.java",
+  "name": "MixinGameRenderer",
+  "pkg": "com.github.epsilon.mixins",
+  "methods": [
+   "processShadersOutline",
+   "if",
+   "renderHandShaderOutline",
+   "try",
+   "renderItemInHand"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "mixins/MixinGlDebug.java",
+  "name": "MixinGlDebug",
+  "pkg": "com.github.epsilon.mixins",
+  "methods": [
+   "avoidSpam",
+   "if"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "mixins/MixinGlyphRenderState.java",
+  "name": "MixinGlyphRenderState",
+  "pkg": "com.github.epsilon.mixins",
+  "methods": [
+   "onTextureSetup",
+   "if"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "mixins/MixinGui.java",
+  "name": "MixinGui",
+  "pkg": "com.github.epsilon.mixins",
+  "methods": [
+   "onExtractEffects",
+   "if",
+   "modifyHotbarSelectionX",
+   "alwaysRenderCrosshairInFreecam"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "mixins/MixinGuiManager.java",
+  "name": "MixinGuiManager",
+  "pkg": "com.github.epsilon.mixins",
+  "methods": [
+   "onSetScreen",
+   "if"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "mixins/MixinGuiRenderer.java",
+  "name": "MixinGuiRenderer",
+  "pkg": "com.github.epsilon.mixins",
+  "methods": [
+   "onDrawHead",
+   "onClose",
+   "if"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "mixins/MixinGustSeedParticle.java",
+  "name": "MixinGustSeedParticle",
+  "pkg": "com.github.epsilon.mixins",
+  "methods": [
+   "MixinGustSeedParticle",
+   "onTick",
+   "if"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "mixins/MixinHumanoidMobRenderer.java",
+  "name": "MixinHumanoidMobRenderer",
+  "pkg": "com.github.epsilon.mixins",
+  "methods": [
+   "spoofFallFlyingVisualState",
+   "if"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "mixins/MixinItem.java",
+  "name": "MixinItem",
+  "pkg": "com.github.epsilon.mixins",
+  "methods": [
+   "hookUseItemRayTrace"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "mixins/MixinItemInHandLayer.java",
+  "name": "MixinItemInHandLayer",
+  "pkg": "com.github.epsilon.mixins",
+  "methods": [
+   "applyChamsToHeldItem",
+   "if"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "mixins/MixinItemInHandRenderer.java",
+  "name": "MixinItemInHandRenderer",
+  "pkg": "com.github.epsilon.mixins",
+  "methods": [
+   "beginShadersHandCapture",
+   "if",
+   "cacheBlockingState",
+   "clearBlockingState",
+   "hideHotbarSwitchAnimation",
+   "addSwingToEating",
+   "cancelSwingForBlocking",
+   "applyBlockingAnimation",
+   "wrapSwingArmTranslate",
+   "applyShadersHandOutline"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "mixins/MixinItemStackLayerRenderState.java",
+  "name": "MixinItemStackLayerRenderState",
+  "pkg": "com.github.epsilon.mixins",
+  "methods": [
+   "applyChamsRenderType",
+   "if"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "mixins/MixinKeyboardHandler.java",
+  "name": "MixinKeyboardHandler",
+  "pkg": "com.github.epsilon.mixins",
+  "methods": [
+   "keyPress",
+   "if"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "mixins/MixinKeyboardInput.java",
+  "name": "MixinKeyboardInput",
+  "pkg": "com.github.epsilon.mixins",
+  "methods": [
+   "calculateImpulse",
+   "redirectKeyPresses"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "mixins/MixinLevelRenderer.java",
+  "name": "MixinLevelRenderer",
+  "pkg": "com.github.epsilon.mixins",
+  "methods": [
+   "onPostRenderLevel",
+   "replaceEntityOutlineShader"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "mixins/MixinLightmap.java",
+  "name": "MixinLightmap",
+  "pkg": "com.github.epsilon.mixins",
+  "methods": [
+   "onRender",
+   "if",
+   "toVector"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "mixins/MixinLivingEntity.java",
+  "name": "MixinLivingEntity",
+  "pkg": "com.github.epsilon.mixins",
+  "methods": [
+   "modifyHeadYaw",
+   "if",
+   "modifyJumpYaw",
+   "modifyFallFlyingLookAngle",
+   "modifyFallFlyingPitch",
+   "redirectJumpingCooldown",
+   "hookGetCurrentSwingDuration"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "mixins/MixinLivingEntityRenderer.java",
+  "name": "MixinLivingEntityRenderer",
+  "pkg": "com.github.epsilon.mixins",
+  "methods": [
+   "modifyRenderType",
+   "if",
+   "hookShouldShowName",
+   "modifyBodyYaw",
+   "modifyHeadYaw",
+   "modifyPitch",
+   "onShouldShowName"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "mixins/MixinLocalPlayer.java",
+  "name": "MixinLocalPlayer",
+  "pkg": "com.github.epsilon.mixins",
+  "methods": [
+   "MixinLocalPlayer",
+   "onPreTick",
+   "if",
+   "onPostTick",
+   "onPreSendPosition",
+   "onSwing",
+   "redirectPosition",
+   "redirectGetX",
+   "redirectGetY",
+   "redirectGetZ",
+   "redirectGetYRot",
+   "redirectGetXRot",
+   "redirectOnGround",
+   "hookPushOutOfBlocks",
+   "onSlowdown",
+   "onMove"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "mixins/MixinMain.java",
+  "name": "MixinMain",
+  "pkg": "com.github.epsilon.mixins",
+  "methods": [
+   "redirectStaticInit"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "mixins/MixinMinecraft.java",
+  "name": "MixinMinecraft",
+  "pkg": "com.github.epsilon.mixins",
+  "methods": [
+   "onPreTick",
+   "onPostTick",
+   "onUpdateTitle",
+   "switch",
+   "onDisconnect",
+   "if",
+   "onHandleKeybinds",
+   "onStartUseItemBeforeHands",
+   "onStartUseItem",
+   "attackMultiTask",
+   "useMultiTask",
+   "onItemUseMouseHandle",
+   "onUpdateLevelInEngines",
+   "onClose",
+   "updateTargetedEntityInvoke"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "mixins/MixinMobEffectFogEnvironment.java",
+  "name": "MixinMobEffectFogEnvironment",
+  "pkg": "com.github.epsilon.mixins",
+  "methods": [
+   "onIsApplicable",
+   "if"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "mixins/MixinMouseHandler.java",
+  "name": "MixinMouseHandler",
+  "pkg": "com.github.epsilon.mixins",
+  "methods": [
+   "onButton",
+   "if",
+   "onMouseScroll"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "mixins/MixinMultiPlayerGameMode.java",
+  "name": "MixinMultiPlayerGameMode",
+  "pkg": "com.github.epsilon.mixins",
+  "methods": [
+   "modifyUseItemPacketArgs",
+   "onAttackEntity",
+   "if",
+   "onStartDestroyBlock",
+   "hookDestroyBlock",
+   "survivalBreakDelayChange",
+   "creativeBreakDelayChangeOne",
+   "creativeBreakDelayChangeTwo"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "mixins/MixinOptions.java",
+  "name": "MixinOptions",
+  "pkg": "com.github.epsilon.mixins",
+  "methods": [
+   "setPerspective",
+   "if"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "mixins/MixinOutputTarget.java",
+  "name": "MixinOutputTarget",
+  "pkg": "com.github.epsilon.mixins",
+  "methods": [
+   "redirectHandOutlineTarget",
+   "if"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "mixins/MixinParticleManager.java",
+  "name": "MixinParticleManager",
+  "pkg": "com.github.epsilon.mixins",
+  "methods": [
+   "onCreateParticle",
+   "if",
+   "onCreateTrackingEmitter",
+   "shouldCancel"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "mixins/MixinPlayer.java",
+  "name": "MixinPlayer",
+  "pkg": "com.github.epsilon.mixins",
+  "methods": [
+   "onTravelPre",
+   "if",
+   "modifyAttackYaw",
+   "onCauseExtraKnockback",
+   "onAfterAttack"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "mixins/MixinProjection.java",
+  "name": "MixinProjection",
+  "pkg": "com.github.epsilon.mixins",
+  "methods": [],
+  "hasInstance": false
+ },
+ {
+  "rel": "mixins/MixinRenderSystem.java",
+  "name": "MixinRenderSystem",
+  "pkg": "com.github.epsilon.mixins",
+  "methods": [
+   "onReset"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "mixins/MixinRenderTypeFeatureRenderer.java",
+  "name": "MixinRenderTypeFeatureRenderer",
+  "pkg": "com.github.epsilon.mixins",
+  "methods": [
+   "markChestOutlineGroup",
+   "for",
+   "if",
+   "redirectChestOutlineDraw",
+   "clearChestOutlineGroups"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "mixins/MixinScreenEffectRenderer.java",
+  "name": "MixinScreenEffectRenderer",
+  "pkg": "com.github.epsilon.mixins",
+  "methods": [
+   "onRenderFluid",
+   "if",
+   "onRenderFire",
+   "onRenderItemActivationAnimation"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "mixins/MixinSimpleFeatureRenderPhaseFeatureSubmits.java",
+  "name": "MixinSimpleFeatureRenderPhaseFeatureSubmits",
+  "pkg": "com.github.epsilon.mixins",
+  "methods": [
+   "splitChestOutlineBatch"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "mixins/MixinSubmitNodeCollection.java",
+  "name": "MixinSubmitNodeCollection",
+  "pkg": "com.github.epsilon.mixins",
+  "methods": [],
+  "hasInstance": false
+ },
+ {
+  "rel": "mixins/MixinSubmitNodeStorage.java",
+  "name": "MixinSubmitNodeStorage",
+  "pkg": "com.github.epsilon.mixins",
+  "methods": [],
+  "hasInstance": false
+ },
+ {
+  "rel": "mixins/MixinTitleScreen.java",
+  "name": "MixinTitleScreen",
+  "pkg": "com.github.epsilon.mixins",
+  "methods": [
+   "onInit",
+   "if"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "mixins/MixinVisGraph.java",
+  "name": "MixinVisGraph",
+  "pkg": "com.github.epsilon.mixins",
+  "methods": [
+   "onMarkClosed",
+   "if"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "mixins/MixinWalkAnimationState.java",
+  "name": "MixinWalkAnimationState",
+  "pkg": "com.github.epsilon.mixins",
+  "methods": [],
+  "hasInstance": false
+ },
+ {
+  "rel": "mixins/MixinWebBlock.java",
+  "name": "MixinWebBlock",
+  "pkg": "com.github.epsilon.mixins",
+  "methods": [
+   "onEntityCollision",
+   "if"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "mixins/MixinWindow.java",
+  "name": "MixinWindow",
+  "pkg": "com.github.epsilon.mixins",
+  "methods": [
+   "onSetIcon",
+   "if"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "modules/Category.java",
+  "name": "Category",
+  "pkg": "com.github.epsilon.modules",
+  "methods": [
+   "Category",
+   "getName",
+   "toString"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "modules/impl/ClientSetting.java",
+  "name": "ClientSetting",
+  "pkg": "com.github.epsilon.modules.impl",
+  "methods": [
+   "ClientSetting",
+   "if",
+   "getScale",
+   "getFontGlyphsPerFrame",
+   "syncFontGlyphUploadBudget",
+   "applyFontGlyphUploadBudget",
+   "snapRotation",
+   "silentRotation"
+  ],
+  "hasInstance": true
+ },
+ {
+  "rel": "modules/impl/combat/AimBot.java",
+  "name": "AimBot",
+  "pkg": "com.github.epsilon.modules.impl.combat",
+  "methods": [
+   "AimBot",
+   "onEnable",
+   "onPlayerTick",
+   "switch",
+   "onSendPosition",
+   "if",
+   "onUseItem",
+   "onRender3D",
+   "updateBowAim",
+   "updateAimAssist",
+   "resetAimAssist",
+   "calculateArc",
+   "getTargetByFOV",
+   "for",
+   "getNearestTarget",
+   "shouldSkipPlayer",
+   "getYawBetween",
+   "predictPosition",
+   "isUsingBow"
+  ],
+  "hasInstance": true
+ },
+ {
+  "rel": "modules/impl/combat/AnchorBlast.java",
+  "name": "AnchorBlast",
+  "pkg": "com.github.epsilon.modules.impl.combat",
+  "methods": [
+   "AnchorBlast",
+   "onEnable",
+   "onDisable",
+   "onTick",
+   "if",
+   "switch",
+   "doPlaceAnchor",
+   "doCharge",
+   "doDetonate",
+   "doCleanup",
+   "findHotbarSlot",
+   "humanizedCooldownTicks",
+   "resetState",
+   "isActive"
+  ],
+  "hasInstance": true
+ },
+ {
+  "rel": "modules/impl/combat/AntiBot.java",
+  "name": "AntiBot",
+  "pkg": "com.github.epsilon.modules.impl.combat",
+  "methods": [
+   "AntiBot",
+   "isBot"
+  ],
+  "hasInstance": true
+ },
+ {
+  "rel": "modules/impl/combat/AutoClicker.java",
+  "name": "AutoClicker",
+  "pkg": "com.github.epsilon.modules.impl.combat",
+  "methods": [
+   "AutoClicker",
+   "onDisable",
+   "onTick",
+   "if",
+   "isLeftButtonEnabled",
+   "isRightButtonEnabled",
+   "handleButton",
+   "updateNextDelay",
+   "applyJitter",
+   "isButtonPressed",
+   "performClick",
+   "shouldMiss",
+   "scheduleDoubleClick",
+   "handlePendingDoubleClick",
+   "applyBurstAndDecay",
+   "ClickButton",
+   "toString",
+   "updateBurstState",
+   "reset"
+  ],
+  "hasInstance": true
+ },
+ {
+  "rel": "modules/impl/combat/AutoDtap.java",
+  "name": "AutoDtap",
+  "pkg": "com.github.epsilon.modules.impl.combat",
+  "methods": [
+   "AutoDtap",
+   "onEnable",
+   "onDisable",
+   "onMouse",
+   "if",
+   "onTick",
+   "while",
+   "switch",
+   "resetState"
+  ],
+  "hasInstance": true
+ },
+ {
+  "rel": "modules/impl/combat/AutoHitCrystal.java",
+  "name": "AutoHitCrystal",
+  "pkg": "com.github.epsilon.modules.impl.combat",
+  "methods": [
+   "AutoHitCrystal",
+   "for",
+   "onEnable",
+   "onTick",
+   "if",
+   "onClick",
+   "selectItemFromHotbar",
+   "placeBlock",
+   "resetState",
+   "RenderBox"
+  ],
+  "hasInstance": true
+ },
+ {
+  "rel": "modules/impl/combat/AutoMend.java",
+  "name": "AutoMend",
+  "pkg": "com.github.epsilon.modules.impl.combat",
+  "methods": [
+   "AutoMend",
+   "onEnable",
+   "onDisable",
+   "if",
+   "onClientTick"
+  ],
+  "hasInstance": true
+ },
+ {
+  "rel": "modules/impl/combat/AutoTotem.java",
+  "name": "AutoTotem",
+  "pkg": "com.github.epsilon.modules.impl.combat",
+  "methods": [
+   "AutoTotem",
+   "getInfo",
+   "onTick",
+   "if",
+   "shouldHoldTotem",
+   "moveItemToOffhand"
+  ],
+  "hasInstance": true
+ },
+ {
+  "rel": "modules/impl/combat/AutoWeapon.java",
+  "name": "AutoWeapon",
+  "pkg": "com.github.epsilon.modules.impl.combat",
+  "methods": [
+   "AutoWeapon",
+   "onDisable",
+   "onAttackEntity",
+   "performSwap",
+   "if",
+   "onTick",
+   "canSwapByWeapon",
+   "getSmartSlot",
+   "getItemScore",
+   "getDurabilityScore",
+   "getCombatScore",
+   "getFireAspectScore",
+   "getLootingScore",
+   "getSharpnessScore",
+   "getSmiteScore",
+   "getBaneOfArthropodsScore",
+   "getSweepingEdgeScore",
+   "getImpalingScore",
+   "getBreachScore",
+   "getDensityScore",
+   "getWindBurstScore",
+   "getMaceScore",
+   "hasFireProtectionArmor"
+  ],
+  "hasInstance": true
+ },
+ {
+  "rel": "modules/impl/combat/Criticals.java",
+  "name": "Criticals",
+  "pkg": "com.github.epsilon.modules.impl.combat",
+  "methods": [
+   "Criticals",
+   "getInfo",
+   "onEnable",
+   "onAttackEntity",
+   "if",
+   "onTick",
+   "onKeyboardInput",
+   "doPacketCriticals",
+   "isCriticalHitAvailable"
+  ],
+  "hasInstance": true
+ },
+ {
+  "rel": "modules/impl/combat/CrystalAura.java",
+  "name": "CrystalAura",
+  "pkg": "com.github.epsilon.modules.impl.combat",
+  "methods": [
+   "CrystalAura",
+   "resetClocks",
+   "onEnable",
+   "onDisable",
+   "onTick",
+   "if",
+   "onClick",
+   "selectSword",
+   "canPlaceCrystalAssumeObsidian",
+   "cantBreakCrystal",
+   "isToolLike",
+   "isDeadBodyNearby",
+   "for",
+   "damageTickCheck"
+  ],
+  "hasInstance": true
+ },
+ {
+  "rel": "modules/impl/combat/CrystalBlocker.java",
+  "name": "CrystalBlocker",
+  "pkg": "com.github.epsilon.modules.impl.combat",
+  "methods": [
+   "CrystalBlocker",
+   "onTick",
+   "if",
+   "placeBlock"
+  ],
+  "hasInstance": true
+ },
+ {
+  "rel": "modules/impl/combat/DoubleAnchor.java",
+  "name": "DoubleAnchor",
+  "pkg": "com.github.epsilon.modules.impl.combat",
+  "methods": [
+   "DoubleAnchor",
+   "onEnable",
+   "onDisable",
+   "onTick",
+   "if",
+   "switch",
+   "doPlaceAnchor",
+   "doCharge",
+   "doAirplace",
+   "doCharge2",
+   "doDetonate",
+   "doCleanup",
+   "isTriggerKeyDown",
+   "findHotbarSlot",
+   "humanizedCooldownTicks",
+   "resetState",
+   "isActive"
+  ],
+  "hasInstance": true
+ },
+ {
+  "rel": "modules/impl/combat/FeetTrap.java",
+  "name": "FeetTrap",
+  "pkg": "com.github.epsilon.modules.impl.combat",
+  "methods": [
+   "FeetTrap",
+   "onEnable",
+   "if",
+   "onPlayerTick",
+   "onClientTick",
+   "doSurround",
+   "for",
+   "tryPlaceBlockOrHelper",
+   "getPlaceSide",
+   "isClickable",
+   "tryPlaceBlock",
+   "placeBlock",
+   "hitVec",
+   "getHelperPos",
+   "selfIntersectPos",
+   "otherIntersectPos",
+   "findBlocks"
+  ],
+  "hasInstance": true
+ },
+ {
+  "rel": "modules/impl/combat/HoverTotem.java",
+  "name": "HoverTotem",
+  "pkg": "com.github.epsilon.modules.impl.combat",
+  "methods": [
+   "HoverTotem",
+   "onEnable",
+   "getRandomDelay",
+   "if",
+   "onTick"
+  ],
+  "hasInstance": true
+ },
+ {
+  "rel": "modules/impl/combat/KeyPearl.java",
+  "name": "KeyPearl",
+  "pkg": "com.github.epsilon.modules.impl.combat",
+  "methods": [
+   "KeyPearl",
+   "onEnable",
+   "onTick",
+   "if",
+   "handleSwitchBack",
+   "resetState"
+  ],
+  "hasInstance": true
+ },
+ {
+  "rel": "modules/impl/combat/KillAura.java",
+  "name": "KillAura",
+  "pkg": "com.github.epsilon.modules.impl.combat",
+  "methods": [
+   "KillAura",
+   "onDisable",
+   "onTick",
+   "if",
+   "while",
+   "clickTargets",
+   "for",
+   "doAttack",
+   "onRender3D",
+   "switch"
+  ],
+  "hasInstance": true
+ },
+ {
+  "rel": "modules/impl/combat/MaceAura.java",
+  "name": "MaceAura",
+  "pkg": "com.github.epsilon.modules.impl.combat",
+  "methods": [
+   "MaceAura",
+   "onEnable",
+   "onDisable",
+   "onTick",
+   "if",
+   "isReadyToAttack",
+   "doAura",
+   "doMaceAttack",
+   "doTp",
+   "sendMovePacket",
+   "attack"
+  ],
+  "hasInstance": true
+ },
+ {
+  "rel": "modules/impl/combat/PacketMine.java",
+  "name": "PacketMine",
+  "pkg": "com.github.epsilon.modules.impl.combat",
+  "methods": [
+   "PacketMine",
+   "onEnable",
+   "onDisable",
+   "if",
+   "onStartBreakingBlock",
+   "isInstantMining",
+   "mine",
+   "onRender",
+   "sendStart",
+   "run",
+   "sendStop",
+   "sendStopSecond",
+   "getMineTicks",
+   "getMineTicksSecond",
+   "isAir",
+   "isSolidForFade",
+   "hasCrystal",
+   "for",
+   "getTool",
+   "checkPause",
+   "canBreak",
+   "updateFadeProgress",
+   "renderFadeBoxes",
+   "renderFadeBox",
+   "mainBlockRender",
+   "switch",
+   "secondBlockRender"
+  ],
+  "hasInstance": true
+ },
+ {
+  "rel": "modules/impl/combat/SafeAnchor.java",
+  "name": "SafeAnchor",
+  "pkg": "com.github.epsilon.modules.impl.combat",
+  "methods": [
+   "SafeAnchor",
+   "for",
+   "onEnable",
+   "onDisable",
+   "onPacketSend",
+   "if",
+   "synchronized",
+   "onTick",
+   "switch",
+   "onRender3D",
+   "smoothAim",
+   "getTargetRotation",
+   "setShiftState",
+   "placeAt",
+   "handleCharge",
+   "shouldExplodeNow",
+   "isTooCloseToAnchor",
+   "preparePlace",
+   "findPlacePos",
+   "isSideShielding",
+   "isValidPlacePos",
+   "isExplosionSafe",
+   "handleRotatingToPlace",
+   "prepareExplode",
+   "selectExplosionItem",
+   "isHotbarSlotSafe",
+   "isExplosionHandSafe",
+   "handleRotatingToExplode",
+   "switchBackToAnchor",
+   "isLookingAt",
+   "isLookingAtCurrentAnchor",
+   "getCrosshairHit",
+   "isLookingAtPlayerSide",
+   "getPlayerSideOfAnchor",
+   "interactBlock",
+   "addRenderBox",
+   "resetState",
+   "isActive",
+   "scheduleDelay",
+   "mapSpeedToInternal",
+   "RenderBox"
+  ],
+  "hasInstance": true
+ },
+ {
+  "rel": "modules/impl/combat/SafeCrystal.java",
+  "name": "SafeCrystal",
+  "pkg": "com.github.epsilon.modules.impl.combat",
+  "methods": [
+   "SafeCrystal",
+   "onEnable",
+   "onDisable",
+   "getInfo",
+   "onTick",
+   "if",
+   "handleAutoCrystalBreak",
+   "handleAutoCrystalPlace",
+   "getCrystalHand"
+  ],
+  "hasInstance": true
+ },
+ {
+  "rel": "modules/impl/combat/SilentAim.java",
+  "name": "SilentAim",
+  "pkg": "com.github.epsilon.modules.impl.combat",
+  "methods": [
+   "SilentAim",
+   "onTick",
+   "if",
+   "onSwingHand"
+  ],
+  "hasInstance": true
+ },
+ {
+  "rel": "modules/impl/combat/SpearKill.java",
+  "name": "SpearKill",
+  "pkg": "com.github.epsilon.modules.impl.combat",
+  "methods": [
+   "SpearKill",
+   "onEnable",
+   "onDisable",
+   "onTick",
+   "if",
+   "updateTarget",
+   "isUsingSpear",
+   "getReadyTicks",
+   "lunge",
+   "switch",
+   "rotateToTarget"
+  ],
+  "hasInstance": true
+ },
+ {
+  "rel": "modules/impl/combat/TriggerBot.java",
+  "name": "TriggerBot",
+  "pkg": "com.github.epsilon.modules.impl.combat",
+  "methods": [
+   "TriggerBot",
+   "onDisable",
+   "onTick",
+   "if",
+   "getCrosshairTarget",
+   "rayTrace",
+   "getRotationVector",
+   "isValidTarget",
+   "shouldAttack",
+   "isAboveWater",
+   "getAttackCooldown"
+  ],
+  "hasInstance": true
+ },
+ {
+  "rel": "modules/impl/combat/ZealotCrystalPlus.java",
+  "name": "ZealotCrystalPlus",
+  "pkg": "com.github.epsilon.modules.impl.combat",
+  "methods": [
+   "ZealotCrystalPlus",
+   "onEnable",
+   "onDisable",
+   "onTick",
+   "if",
+   "onPacketReceive",
+   "onRender3D",
+   "onRender2D",
+   "getInfo",
+   "switch",
+   "workerLoop",
+   "while",
+   "waitForSignal",
+   "synchronized",
+   "signalWorker",
+   "captureSnapshotIfNeeded",
+   "captureSnapshot",
+   "captureSelfSnapshot",
+   "captureTargets",
+   "for",
+   "buildTargetSnapshot",
+   "capturePlacePositions",
+   "captureCrystals",
+   "captureResistantBlocks",
+   "evaluateSnapshot",
+   "evaluatePlace",
+   "evaluateBreak",
+   "evaluateBestBreak",
+   "calcCollidingCrystalDamage",
+   "buildPlaceInfo",
+   "resolveCurrentTarget",
+   "getValidPlaceInfo",
+   "getValidBreakPlan",
+   "getActionPlaceInfo",
+   "getActionBreakPlan",
+   "placeDirect",
+   "breakDirect",
+   "handleSpawnPacket",
+   "handleExplosionPacket",
+   "checkBreakDamage",
+   "getTargetCrystal",
+   "calcDamage",
+   "calcRawDamage",
+   "getExposureAmount",
+   "rayTraceResistant",
+   "intBound",
+   "applyDifficultyDamage",
+   "shouldForcePlace",
+   "getRawPosList",
+   "buildRawPosList",
+   "getCollidingEntities",
+   "checkPlaceCollision",
+   "checkPlaceRotation",
+   "checkCrystalRotation",
+   "checkBreakRange",
+   "canMove",
+   "isPlaceable",
+   "isPotentialPlacePosition",
+   "isCrystalSupport",
+   "placeDistanceSq",
+   "breakDistanceSq",
+   "eyeDistanceSq",
+   "getMinArmorRate",
+   "getRealSpeed",
+   "getTotalHealth",
+   "getSpawnTime",
+   "isHoldingTool",
+   "isToolLike",
+   "findWeaponSlot",
+   "findCrystalItem",
+   "resolveSwingHand",
+   "doSwing",
+   "getRotationSpeed",
+   "getRotationDelta",
+   "getCrystalPos",
+   "getCrystalPlaceBox",
+   "getCrystalBoundingBox",
+   "crystalPlaceBoxIntersects",
+   "toLong",
+   "updateTimeouts",
+   "isEatingPaused",
+   "updateExplosionSamples",
+   "getExplosionSpeed",
+   "shouldAttemptPlace",
+   "renderTargetPredictions",
+   "updateRenderTarget",
+   "deactivateRenderTarget",
+   "resetRenderState",
+   "projectToScreen",
+   "calcDirection",
+   "isResistantState",
+   "easeOutQuart",
+   "easeOutCubic",
+   "easeInCubic",
+   "toDelta",
+   "score",
+   "PacketPlaceMode",
+   "ResistantBlockCache",
+   "isResistant",
+   "isResistantStateStatic",
+   "SettingsSnapshot",
+   "SelfSnapshot",
+   "TargetSnapshot",
+   "CrystalSnapshot",
+   "SnapshotData",
+   "AsyncResult",
+   "PlaceInfo",
+   "BreakPlan",
+   "DamageReductionData",
+   "fromEntity",
+   "apply",
+   "update",
+   "clear",
+   "takeValid"
+  ],
+  "hasInstance": true
+ },
+ {
+  "rel": "modules/impl/movement/AutoMap.java",
+  "name": "AutoMap",
+  "pkg": "com.github.epsilon.modules.impl.movement",
+  "methods": [
+   "AutoMap",
+   "onEnable",
+   "if",
+   "onDisable",
+   "getInfo",
+   "resetCustomState",
+   "saveCustomState",
+   "loadCustomState",
+   "onPlayerTick",
+   "onKeyboardInput",
+   "initializeInWorld",
+   "syncFlightControl",
+   "captureFlightState",
+   "restoreFlightControl",
+   "updateNavigation",
+   "while",
+   "currentTarget",
+   "advanceTarget",
+   "angleStep",
+   "radiusStep",
+   "horizontalDistanceSqr",
+   "yawTo",
+   "resetRecord",
+   "resetRouteToPlayer",
+   "updateTakeoffTarget",
+   "needsTakeoffRetarget",
+   "writeRecord",
+   "autoSaveRecord",
+   "currentDimension",
+   "sendMessage",
+   "normalizeAngle",
+   "isFinite",
+   "readString",
+   "readDouble"
+  ],
+  "hasInstance": true
+ },
+ {
+  "rel": "modules/impl/movement/AutoSprint.java",
+  "name": "AutoSprint",
+  "pkg": "com.github.epsilon.modules.impl.movement",
+  "methods": [
+   "AutoSprint",
+   "onDisable",
+   "onPlayerTick"
+  ],
+  "hasInstance": true
+ },
+ {
+  "rel": "modules/impl/movement/Blink.java",
+  "name": "Blink",
+  "pkg": "com.github.epsilon.modules.impl.movement",
+  "methods": [
+   "Blink",
+   "onHigherPacketSend",
+   "onEnable",
+   "if",
+   "onDisable",
+   "handlePlayerMove",
+   "getBlinkTicks",
+   "releaseTick",
+   "while",
+   "releaseAll",
+   "for",
+   "onRender",
+   "onMotion"
+  ],
+  "hasInstance": true
+ },
+ {
+  "rel": "modules/impl/movement/Eagle.java",
+  "name": "Eagle",
+  "pkg": "com.github.epsilon.modules.impl.movement",
+  "methods": [
+   "Eagle",
+   "getInfo",
+   "onDisable",
+   "resetCustomState",
+   "onPlayerTick",
+   "if",
+   "onMoveInput",
+   "shouldSneak",
+   "isOverEdge",
+   "predictMovement",
+   "getAllowedHorizontalDistance",
+   "getInput",
+   "isHoldingBlock"
+  ],
+  "hasInstance": true
+ },
+ {
+  "rel": "modules/impl/movement/elytrafly/ControlElytraFlightMode.java",
+  "name": "ControlElytraFlightMode",
+  "pkg": "com.github.epsilon.modules.impl.movement.elytrafly",
+  "methods": [
+   "ControlElytraFlightMode",
+   "onEnable",
+   "onDisable",
+   "onPlayerTick",
+   "onTravel",
+   "if",
+   "onKeyboardInput",
+   "onFallFlying",
+   "onFireworkUpdate",
+   "updateControl",
+   "useTimedFirework",
+   "redirectRotation",
+   "calcYaw",
+   "calcPitch",
+   "applyCeilingPitchGuard",
+   "shouldAvoidCeilingLift",
+   "hasMoveInput",
+   "jiaFei"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "modules/impl/movement/elytrafly/ElytraFlightMode.java",
+  "name": "ElytraFlightMode",
+  "pkg": "com.github.epsilon.modules.impl.movement.elytrafly",
+  "methods": [
+   "ElytraFlightMode",
+   "onEnable",
+   "onDisable",
+   "onPlayerTick",
+   "onTravel",
+   "onKeyboardInput",
+   "onFallFlying",
+   "onFireworkUpdate",
+   "shouldCancelRightClick",
+   "armUnbreakingTimer",
+   "handleUnbreaking",
+   "canStartFallFlying",
+   "startFallFlying",
+   "if",
+   "restartFallFlying",
+   "canGlide",
+   "for",
+   "useFirework",
+   "swapArmor"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "modules/impl/movement/elytrafly/ElytraFlightModes.java",
+  "name": "ElytraFlightModes",
+  "pkg": "com.github.epsilon.modules.impl.movement.elytrafly",
+  "methods": [],
+  "hasInstance": false
+ },
+ {
+  "rel": "modules/impl/movement/elytrafly/ElytraFly.java",
+  "name": "ElytraFly",
+  "pkg": "com.github.epsilon.modules.impl.movement.elytrafly",
+  "methods": [
+   "ElytraFly",
+   "Pitch40ControlState",
+   "onEnable",
+   "onDisable",
+   "getInfo",
+   "isArmorMode",
+   "capturePitch40ControlState",
+   "applyPitch40Control",
+   "if",
+   "restorePitch40Control",
+   "getPitch40Yaw",
+   "onPlayerTick",
+   "onTravel",
+   "onKeyboardInput",
+   "onFallFlying",
+   "onFireworkRotationUpdate",
+   "onMousePress",
+   "getActiveMode",
+   "getMode",
+   "onModeChanged"
+  ],
+  "hasInstance": true
+ },
+ {
+  "rel": "modules/impl/movement/elytrafly/Pitch40ElytraFlightMode.java",
+  "name": "Pitch40ElytraFlightMode",
+  "pkg": "com.github.epsilon.modules.impl.movement.elytrafly",
+  "methods": [
+   "Pitch40ElytraFlightMode",
+   "onEnable",
+   "if",
+   "resetState",
+   "initializeInWorld",
+   "onDisable",
+   "onPlayerTick",
+   "onKeyboardInput",
+   "shouldCancelRightClick",
+   "onFallFlying",
+   "onFireworkUpdate",
+   "updateTakeoff",
+   "maintainFallFlying",
+   "redirectRotation",
+   "finishTakeoff",
+   "refreshArmoredFallFlying",
+   "updatePitch",
+   "getTakeoffTargetHeight",
+   "startTakeoff",
+   "shouldStartTakeoff",
+   "fail",
+   "randPitch"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "modules/impl/movement/FastWeb.java",
+  "name": "FastWeb",
+  "pkg": "com.github.epsilon.modules.impl.movement",
+  "methods": [
+   "FastWeb",
+   "onSendPosition",
+   "if",
+   "cobweb"
+  ],
+  "hasInstance": true
+ },
+ {
+  "rel": "modules/impl/movement/Flight.java",
+  "name": "Flight",
+  "pkg": "com.github.epsilon.modules.impl.movement",
+  "methods": [
+   "Flight",
+   "onDisable",
+   "onSendPosition",
+   "if"
+  ],
+  "hasInstance": true
+ },
+ {
+  "rel": "modules/impl/movement/follower/AStarFollowerNavigator.java",
+  "name": "AStarFollowerNavigator",
+  "pkg": "com.github.epsilon.modules.impl.movement.follower",
+  "methods": [
+   "getPath",
+   "if",
+   "findPath",
+   "while",
+   "for",
+   "canOccupy",
+   "collisionBox",
+   "isSegmentClear",
+   "isInitialSegmentClear",
+   "isBoxSweepClear",
+   "hasLoadedChunks",
+   "limitTarget",
+   "findVisibleDetour",
+   "findLocalEscape",
+   "heuristic",
+   "reconstructPath",
+   "createPath",
+   "isPathSegmentClear",
+   "createNeighbors",
+   "Node",
+   "fScore",
+   "Direction"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "modules/impl/movement/follower/Follower.java",
+  "name": "Follower",
+  "pkg": "com.github.epsilon.modules.impl.movement.follower",
+  "methods": [
+   "Follower",
+   "onDisable",
+   "getInfo",
+   "if",
+   "getControlInput",
+   "onPlayerTick",
+   "onKeyboardInput",
+   "onRender3D",
+   "canControlElytraFly",
+   "predictedTargetPos",
+   "createInput",
+   "yawTo",
+   "pitchTo",
+   "directionInput",
+   "switch",
+   "clearControl",
+   "DirectionInput"
+  ],
+  "hasInstance": true
+ },
+ {
+  "rel": "modules/impl/movement/follower/FollowerConfig.java",
+  "name": "FollowerConfig",
+  "pkg": "com.github.epsilon.modules.impl.movement.follower",
+  "methods": [],
+  "hasInstance": false
+ },
+ {
+  "rel": "modules/impl/movement/follower/FollowerInput.java",
+  "name": "FollowerInput",
+  "pkg": "com.github.epsilon.modules.impl.movement.follower",
+  "methods": [
+   "forwardImpulse",
+   "strafeImpulse",
+   "hasMoveInput"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "modules/impl/movement/follower/FollowerNavigator.java",
+  "name": "FollowerNavigator",
+  "pkg": "com.github.epsilon.modules.impl.movement.follower",
+  "methods": [],
+  "hasInstance": false
+ },
+ {
+  "rel": "modules/impl/movement/follower/FollowerPath.java",
+  "name": "FollowerPath",
+  "pkg": "com.github.epsilon.modules.impl.movement.follower",
+  "methods": [],
+  "hasInstance": false
+ },
+ {
+  "rel": "modules/impl/movement/follower/StraightFollowerNavigator.java",
+  "name": "StraightFollowerNavigator",
+  "pkg": "com.github.epsilon.modules.impl.movement.follower",
+  "methods": [
+   "getPath"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "modules/impl/movement/GUIMove.java",
+  "name": "GUIMove",
+  "pkg": "com.github.epsilon.modules.impl.movement",
+  "methods": [
+   "GUIMove",
+   "onKeyboardInput",
+   "isKeyDown"
+  ],
+  "hasInstance": true
+ },
+ {
+  "rel": "modules/impl/movement/HoleSnap.java",
+  "name": "HoleSnap",
+  "pkg": "com.github.epsilon.modules.impl.movement",
+  "methods": [
+   "HoleSnap",
+   "onEnable",
+   "onDisable",
+   "if",
+   "onPacketReceive",
+   "onMove",
+   "onRender3D",
+   "getTopEdge",
+   "for",
+   "singleBlocked",
+   "findHole",
+   "inHole",
+   "hasBlockCollision",
+   "getAngle",
+   "getSpeed"
+  ],
+  "hasInstance": true
+ },
+ {
+  "rel": "modules/impl/movement/JumpReset.java",
+  "name": "JumpReset",
+  "pkg": "com.github.epsilon.modules.impl.movement",
+  "methods": [
+   "JumpReset",
+   "onKeyboardInput",
+   "if"
+  ],
+  "hasInstance": true
+ },
+ {
+  "rel": "modules/impl/movement/KeepSprint.java",
+  "name": "KeepSprint",
+  "pkg": "com.github.epsilon.modules.impl.movement",
+  "methods": [
+   "KeepSprint",
+   "getInfo",
+   "onTick",
+   "onPostTick",
+   "shouldKeepSprint",
+   "if"
+  ],
+  "hasInstance": true
+ },
+ {
+  "rel": "modules/impl/movement/MovementFix.java",
+  "name": "MovementFix",
+  "pkg": "com.github.epsilon.modules.impl.movement",
+  "methods": [
+   "MovementFix",
+   "getDirection",
+   "if",
+   "fixMovement"
+  ],
+  "hasInstance": true
+ },
+ {
+  "rel": "modules/impl/movement/NoFall.java",
+  "name": "NoFall",
+  "pkg": "com.github.epsilon.modules.impl.movement",
+  "methods": [
+   "NoFall",
+   "onEnable",
+   "onClientTick",
+   "if",
+   "onSendPosition",
+   "onPacketSend",
+   "isFalling"
+  ],
+  "hasInstance": true
+ },
+ {
+  "rel": "modules/impl/movement/NoSlow.java",
+  "name": "NoSlow",
+  "pkg": "com.github.epsilon.modules.impl.movement",
+  "methods": [
+   "NoSlow",
+   "onEnable",
+   "onDisable",
+   "onSlowdown",
+   "if",
+   "switch",
+   "onKeyboardInput",
+   "onTick",
+   "onPacketSend",
+   "onPacketReceive",
+   "cancel",
+   "jump",
+   "grim50",
+   "grim33",
+   "grimC0F",
+   "releasePackets",
+   "while",
+   "swap",
+   "isUsable"
+  ],
+  "hasInstance": true
+ },
+ {
+  "rel": "modules/impl/movement/Phase.java",
+  "name": "Phase",
+  "pkg": "com.github.epsilon.modules.impl.movement",
+  "methods": [
+   "Phase",
+   "onEnable",
+   "if",
+   "onDestroyBlock",
+   "onCollide",
+   "onClientTickPre",
+   "doUsePearl",
+   "canNoClip",
+   "isPlayerInBlock"
+  ],
+  "hasInstance": true
+ },
+ {
+  "rel": "modules/impl/movement/SafeWalk.java",
+  "name": "SafeWalk",
+  "pkg": "com.github.epsilon.modules.impl.movement",
+  "methods": [
+   "SafeWalk",
+   "onPlayerTick",
+   "onMove",
+   "while",
+   "if",
+   "canSafeWalk",
+   "canMove",
+   "canFallAtLeast",
+   "isMovementInputPressed",
+   "isHoldingBlock"
+  ],
+  "hasInstance": true
+ },
+ {
+  "rel": "modules/impl/movement/Scaffold.java",
+  "name": "Scaffold",
+  "pkg": "com.github.epsilon.modules.impl.movement",
+  "methods": [
+   "Scaffold",
+   "for",
+   "if",
+   "onEnable",
+   "onDisable",
+   "onPlayerTick",
+   "switch",
+   "onMoveInput",
+   "getBlockCount",
+   "handleTelly",
+   "handleNormal",
+   "place",
+   "getYLevel",
+   "getBlockInfo",
+   "checkBlock",
+   "getRotation",
+   "onAir",
+   "getVec3",
+   "findBlockResult",
+   "swap",
+   "swapBack",
+   "isValidStack",
+   "RenderInfo"
+  ],
+  "hasInstance": true
+ },
+ {
+  "rel": "modules/impl/movement/Speed.java",
+  "name": "Speed",
+  "pkg": "com.github.epsilon.modules.impl.movement",
+  "methods": [
+   "Speed",
+   "onEnable",
+   "if",
+   "onPacketReceive",
+   "onPlayerTickPre",
+   "for",
+   "onPlayerTickPost",
+   "onMove",
+   "handleStrafeMotion",
+   "getSpeed",
+   "getJumpSpeed",
+   "canCollide",
+   "setMotionY",
+   "getDistance2D",
+   "getSprintYaw",
+   "resetStrafe"
+  ],
+  "hasInstance": true
+ },
+ {
+  "rel": "modules/impl/movement/Step.java",
+  "name": "Step",
+  "pkg": "com.github.epsilon.modules.impl.movement",
+  "methods": [
+   "Step",
+   "getInfo",
+   "onDisable",
+   "onClientTick",
+   "if",
+   "onPlayerTickPre",
+   "for",
+   "onPlayerTickPost",
+   "getTimer",
+   "getOffset",
+   "setStepHeight"
+  ],
+  "hasInstance": true
+ },
+ {
+  "rel": "modules/impl/movement/Strafe.java",
+  "name": "Strafe",
+  "pkg": "com.github.epsilon.modules.impl.movement",
+  "methods": [
+   "Strafe",
+   "onMove",
+   "if",
+   "onKeyboardInput"
+  ],
+  "hasInstance": true
+ },
+ {
+  "rel": "modules/impl/movement/Stuck.java",
+  "name": "Stuck",
+  "pkg": "com.github.epsilon.modules.impl.movement",
+  "methods": [
+   "Stuck",
+   "onDisable",
+   "if",
+   "onKeyboardInput",
+   "onPacket",
+   "onTravel",
+   "onInteract"
+  ],
+  "hasInstance": true
+ },
+ {
+  "rel": "modules/impl/movement/Velocity.java",
+  "name": "Velocity",
+  "pkg": "com.github.epsilon.modules.impl.movement",
+  "methods": [
+   "Velocity",
+   "onEnable",
+   "onDisable",
+   "onPacketSend",
+   "if",
+   "onPacketReceive",
+   "switch",
+   "onKeyboardInput",
+   "shouldExcludeMotion",
+   "shouldExcludeExplosion",
+   "isSpearLungeMotion",
+   "isWindChargeExplosion",
+   "isSpearWithLunge"
+  ],
+  "hasInstance": true
+ },
+ {
+  "rel": "modules/impl/player/AutoArmor.java",
+  "name": "AutoArmor",
+  "pkg": "com.github.epsilon.modules.impl.player",
+  "methods": [
+   "AutoArmor",
+   "onClientTick",
+   "if",
+   "for",
+   "getEquipmentSlot",
+   "getProtection",
+   "switch",
+   "ArmorData",
+   "getPrevProtection",
+   "getNewSlot",
+   "setNewSlot",
+   "getNewProtection",
+   "setNewProtection",
+   "reset"
+  ],
+  "hasInstance": true
+ },
+ {
+  "rel": "modules/impl/player/AutoFirework.java",
+  "name": "AutoFirework",
+  "pkg": "com.github.epsilon.modules.impl.player",
+  "methods": [
+   "AutoFirework",
+   "onEnable",
+   "onTick",
+   "if",
+   "handleSwitchBack",
+   "resetState"
+  ],
+  "hasInstance": true
+ },
+ {
+  "rel": "modules/impl/player/AutoKouZi.java",
+  "name": "AutoKouZi",
+  "pkg": "com.github.epsilon.modules.impl.player",
+  "methods": [
+   "AutoKouZi",
+   "onEnable",
+   "onDisable",
+   "onPlayerTick",
+   "if",
+   "canSend",
+   "sendTxtMode",
+   "for",
+   "sendSentenceMode",
+   "generateSentence",
+   "loadSentences",
+   "loadFromDefaultPath",
+   "while",
+   "loadFromCustomPath",
+   "sendChatMessage",
+   "sendMessage"
+  ],
+  "hasInstance": true
+ },
+ {
+  "rel": "modules/impl/player/AutoQueue.java",
+  "name": "AutoQueue",
+  "pkg": "com.github.epsilon.modules.impl.player",
+  "methods": [
+   "AutoQueue",
+   "loadQuestions",
+   "try",
+   "onPacketReceive"
+  ],
+  "hasInstance": true
+ },
+ {
+  "rel": "modules/impl/player/AutoTool.java",
+  "name": "AutoTool",
+  "pkg": "com.github.epsilon.modules.impl.player",
+  "methods": [
+   "AutoTool",
+   "onClientTick",
+   "if",
+   "getTool"
+  ],
+  "hasInstance": true
+ },
+ {
+  "rel": "modules/impl/player/BreakCooldown.java",
+  "name": "BreakCooldown",
+  "pkg": "com.github.epsilon.modules.impl.player",
+  "methods": [
+   "BreakCooldown"
+  ],
+  "hasInstance": true
+ },
+ {
+  "rel": "modules/impl/player/Disabler.java",
+  "name": "Disabler",
+  "pkg": "com.github.epsilon.modules.impl.player",
+  "methods": [
+   "Disabler",
+   "onPacketSend",
+   "if",
+   "raoGuoSprinting",
+   "spoofInput",
+   "restoreInput"
+  ],
+  "hasInstance": true
+ },
+ {
+  "rel": "modules/impl/player/ElytraSwap.java",
+  "name": "ElytraSwap",
+  "pkg": "com.github.epsilon.modules.impl.player",
+  "methods": [
+   "ElytraSwap",
+   "onEnable",
+   "onTick",
+   "if",
+   "handleSwitchBack",
+   "resetState"
+  ],
+  "hasInstance": true
+ },
+ {
+  "rel": "modules/impl/player/FakePlayer.java",
+  "name": "FakePlayer",
+  "pkg": "com.github.epsilon.modules.impl.player",
+  "methods": [
+   "FakePlayer",
+   "onEnable",
+   "if",
+   "onDisable",
+   "onPlayerTick",
+   "PlayerState"
+  ],
+  "hasInstance": true
+ },
+ {
+  "rel": "modules/impl/player/GhostHand.java",
+  "name": "GhostHand",
+  "pkg": "com.github.epsilon.modules.impl.player",
+  "methods": [
+   "GhostHand",
+   "onStartUseItem",
+   "if",
+   "for"
+  ],
+  "hasInstance": true
+ },
+ {
+  "rel": "modules/impl/player/InvManager.java",
+  "name": "InvManager",
+  "pkg": "com.github.epsilon.modules.impl.player",
+  "methods": [
+   "InvManager",
+   "isItemUseful",
+   "if",
+   "onPacketSend",
+   "checkConfig",
+   "for",
+   "onTick",
+   "swapOffHand",
+   "throwItem",
+   "swapItem"
+  ],
+  "hasInstance": true
+ },
+ {
+  "rel": "modules/impl/player/JumpCooldown.java",
+  "name": "JumpCooldown",
+  "pkg": "com.github.epsilon.modules.impl.player",
+  "methods": [
+   "JumpCooldown"
+  ],
+  "hasInstance": true
+ },
+ {
+  "rel": "modules/impl/player/MultiTask.java",
+  "name": "MultiTask",
+  "pkg": "com.github.epsilon.modules.impl.player",
+  "methods": [
+   "MultiTask"
+  ],
+  "hasInstance": true
+ },
+ {
+  "rel": "modules/impl/player/NoRotate.java",
+  "name": "NoRotate",
+  "pkg": "com.github.epsilon.modules.impl.player",
+  "methods": [
+   "NoRotate"
+  ],
+  "hasInstance": true
+ },
+ {
+  "rel": "modules/impl/player/PacketEat.java",
+  "name": "PacketEat",
+  "pkg": "com.github.epsilon.modules.impl.player",
+  "methods": [
+   "PacketEat",
+   "onPostTick",
+   "onPacketSend",
+   "if"
+  ],
+  "hasInstance": true
+ },
+ {
+  "rel": "modules/impl/player/PlayerAlarms.java",
+  "name": "PlayerAlarms",
+  "pkg": "com.github.epsilon.modules.impl.player",
+  "methods": [
+   "PlayerAlarms",
+   "onEnable",
+   "resetRingState",
+   "onTick",
+   "if",
+   "for",
+   "onReceivePacket",
+   "shouldAlarm",
+   "startRing",
+   "handleRing",
+   "getRingDelay",
+   "sendAlert",
+   "playSound",
+   "getPlayerName",
+   "getGamemodeName",
+   "translateGamemode"
+  ],
+  "hasInstance": true
+ },
+ {
+  "rel": "modules/impl/player/SoundFX.java",
+  "name": "SoundFX",
+  "pkg": "com.github.epsilon.modules.impl.player",
+  "methods": [
+   "SoundFX",
+   "onAttackEntity",
+   "if",
+   "playHitSound",
+   "switch",
+   "playSound"
+  ],
+  "hasInstance": true
+ },
+ {
+  "rel": "modules/impl/player/Stealer.java",
+  "name": "Stealer",
+  "pkg": "com.github.epsilon.modules.impl.player",
+  "methods": [
+   "Stealer",
+   "isWorking",
+   "isItemUseful",
+   "if",
+   "isBestItemInChest",
+   "onTick",
+   "for",
+   "isChestEmpty"
+  ],
+  "hasInstance": true
+ },
+ {
+  "rel": "modules/impl/player/Timer.java",
+  "name": "Timer",
+  "pkg": "com.github.epsilon.modules.impl.player",
+  "methods": [
+   "Timer",
+   "onEnable",
+   "onDisable",
+   "onPlayerTick"
+  ],
+  "hasInstance": true
+ },
+ {
+  "rel": "modules/impl/player/UseCooldown.java",
+  "name": "UseCooldown",
+  "pkg": "com.github.epsilon.modules.impl.player",
+  "methods": [
+   "UseCooldown"
+  ],
+  "hasInstance": true
+ },
+ {
+  "rel": "modules/impl/render/AntiAlias.java",
+  "name": "AntiAlias",
+  "pkg": "com.github.epsilon.modules.impl.render",
+  "methods": [
+   "AntiAlias",
+   "onAfterRender3D"
+  ],
+  "hasInstance": true
+ },
+ {
+  "rel": "modules/impl/render/AspectRatio.java",
+  "name": "AspectRatio",
+  "pkg": "com.github.epsilon.modules.impl.render",
+  "methods": [
+   "AspectRatio"
+  ],
+  "hasInstance": true
+ },
+ {
+  "rel": "modules/impl/render/BlockESP.java",
+  "name": "BlockESP",
+  "pkg": "com.github.epsilon.modules.impl.render",
+  "methods": [
+   "BlockESP",
+   "defaultBlockList",
+   "onEnable",
+   "onPlayerTick",
+   "if",
+   "onRender3D",
+   "for",
+   "scan",
+   "shouldAdd",
+   "isIllegal",
+   "getConnectedShapeAABB",
+   "isConnectedChestPart",
+   "getShapeAABB"
+  ],
+  "hasInstance": true
+ },
+ {
+  "rel": "modules/impl/render/BlockHighlight.java",
+  "name": "BlockHighlight",
+  "pkg": "com.github.epsilon.modules.impl.render",
+  "methods": [
+   "BlockHighlight",
+   "onRender3D",
+   "if",
+   "switch",
+   "drawBlur"
+  ],
+  "hasInstance": true
+ },
+ {
+  "rel": "modules/impl/render/CameraClip.java",
+  "name": "CameraClip",
+  "pkg": "com.github.epsilon.modules.impl.render",
+  "methods": [
+   "CameraClip",
+   "onEnable",
+   "onDisable",
+   "updateActionCamera",
+   "if",
+   "resetCameraPos",
+   "getCameraPos"
+  ],
+  "hasInstance": true
+ },
+ {
+  "rel": "modules/impl/render/Chams.java",
+  "name": "Chams",
+  "pkg": "com.github.epsilon.modules.impl.render",
+  "methods": [
+   "Chams",
+   "getRenderType",
+   "getItemRenderType",
+   "beginThirdPersonHandItemRender",
+   "endThirdPersonHandItemRender",
+   "shouldApplyThirdPersonHandItemRenderType",
+   "withChamsRenderType",
+   "for"
+  ],
+  "hasInstance": true
+ },
+ {
+  "rel": "modules/impl/render/CrystalChams.java",
+  "name": "CrystalChams",
+  "pkg": "com.github.epsilon.modules.impl.render",
+  "methods": [
+   "CrystalChams",
+   "onRender3D",
+   "for",
+   "if"
+  ],
+  "hasInstance": true
+ },
+ {
+  "rel": "modules/impl/render/ESP2D.java",
+  "name": "ESP2D",
+  "pkg": "com.github.epsilon.modules.impl.render",
+  "methods": [
+   "ESP2D",
+   "onRender2D",
+   "for",
+   "if",
+   "shouldRender",
+   "switch",
+   "getEntityColor",
+   "drawSolidBox",
+   "drawHealthBar"
+  ],
+  "hasInstance": true
+ },
+ {
+  "rel": "modules/impl/render/Filter.java",
+  "name": "Filter",
+  "pkg": "com.github.epsilon.modules.impl.render",
+  "methods": [
+   "Filter",
+   "isLightMapMode",
+   "getLightMapColor",
+   "onAfterRender3D",
+   "if"
+  ],
+  "hasInstance": true
+ },
+ {
+  "rel": "modules/impl/render/FreeCamera.java",
+  "name": "FreeCamera",
+  "pkg": "com.github.epsilon.modules.impl.render",
+  "methods": [
+   "FreeCamera",
+   "onEnable",
+   "if",
+   "onDisable",
+   "onOpenScreen",
+   "unpress",
+   "onPostClientTick",
+   "onKeyboardInput",
+   "onKey",
+   "onMouseClick",
+   "onInput",
+   "onMouseScroll",
+   "onChunkOcclusion",
+   "onGameLeft",
+   "onPacketReceive",
+   "changeLookDirection",
+   "sendChatInfo",
+   "renderHands",
+   "getX",
+   "getY",
+   "getZ",
+   "getYaw",
+   "getPitch"
+  ],
+  "hasInstance": true
+ },
+ {
+  "rel": "modules/impl/render/Fullbright.java",
+  "name": "Fullbright",
+  "pkg": "com.github.epsilon.modules.impl.render",
+  "methods": [
+   "Fullbright",
+   "if",
+   "isGammaMode",
+   "onDisable",
+   "onPlayerTick"
+  ],
+  "hasInstance": true
+ },
+ {
+  "rel": "modules/impl/render/GameAnimation.java",
+  "name": "GameAnimation",
+  "pkg": "com.github.epsilon.modules.impl.render",
+  "methods": [
+   "GameAnimation",
+   "onDisable",
+   "getHotbarSelectionX",
+   "if",
+   "shouldAnimateHotbar",
+   "resetHotbarAnimation"
+  ],
+  "hasInstance": true
+ },
+ {
+  "rel": "modules/impl/render/HandsView.java",
+  "name": "HandsView",
+  "pkg": "com.github.epsilon.modules.impl.render",
+  "methods": [
+   "HandsView",
+   "isBlocking",
+   "shouldApplyBlockingAnimation",
+   "shouldApplyThirdPersonBlockingAnim",
+   "canRenderMainHand",
+   "isBlockableWeapon",
+   "isOffhandBlocking",
+   "if",
+   "applyBlockingTransform",
+   "switch",
+   "applyAttackTransform",
+   "applyBlockPose"
+  ],
+  "hasInstance": true
+ },
+ {
+  "rel": "modules/impl/render/Hat.java",
+  "name": "Hat",
+  "pkg": "com.github.epsilon.modules.impl.render",
+  "methods": [
+   "Hat",
+   "computeChineseHatPoints",
+   "onRender3D",
+   "if",
+   "drawHat",
+   "withAlpha",
+   "getColorMode",
+   "switch",
+   "fadeBetween",
+   "gradient"
+  ],
+  "hasInstance": true
+ },
+ {
+  "rel": "modules/impl/render/HitParticles.java",
+  "name": "HitParticles",
+  "pkg": "com.github.epsilon.modules.impl.render",
+  "methods": [
+   "HitParticles",
+   "onDisable",
+   "onTick",
+   "for",
+   "onRender3D",
+   "resolveColor",
+   "syncColor",
+   "Particle",
+   "tick",
+   "if",
+   "renderTexture",
+   "interpolatedCameraRelativePosition",
+   "applyCameraRotation",
+   "nextRotation",
+   "isSolidBlock"
+  ],
+  "hasInstance": true
+ },
+ {
+  "rel": "modules/impl/render/HoleESP.java",
+  "name": "HoleESP",
+  "pkg": "com.github.epsilon.modules.impl.render",
+  "methods": [
+   "HoleESP",
+   "onEnable",
+   "onDisable",
+   "onPlayerTick",
+   "onRender3D",
+   "scan",
+   "if",
+   "isAirMarker",
+   "findHole",
+   "createHole",
+   "for",
+   "isHoleCell",
+   "isSafeHole",
+   "getWallSide",
+   "isAir",
+   "isBedrock",
+   "isHard",
+   "hasCollision",
+   "draw",
+   "drawHoles",
+   "drawBox",
+   "getDistanceAlpha",
+   "withAlpha",
+   "clearResults",
+   "Hole",
+   "ScanResult"
+  ],
+  "hasInstance": true
+ },
+ {
+  "rel": "modules/impl/render/JumpCircle.java",
+  "name": "JumpCircle",
+  "pkg": "com.github.epsilon.modules.impl.render",
+  "methods": [
+   "JumpCircle",
+   "onDisable",
+   "onTick",
+   "for",
+   "if",
+   "onRender3D",
+   "shouldTrack",
+   "renderCircle",
+   "syncColor",
+   "applyOpacity",
+   "Circle"
+  ],
+  "hasInstance": true
+ },
+ {
+  "rel": "modules/impl/render/maseffects/MasEffects.java",
+  "name": "MasEffects",
+  "pkg": "com.github.epsilon.modules.impl.render.maseffects",
+  "methods": [
+   "MasEffects",
+   "onDisable",
+   "onTick",
+   "if",
+   "for",
+   "onAttack",
+   "onPacket",
+   "onRender3D",
+   "onRender2D",
+   "onLevelUpdate",
+   "onLevelEvent",
+   "onWindSeed",
+   "renderCustomHitbox",
+   "shouldHideVanillaTotemParticles",
+   "getMaceShockwaveOpacity",
+   "getTotemEffectOpacity",
+   "getPearlTrailOpacity",
+   "isMaceShockwaveEnabled",
+   "getMaceShockwaveSize",
+   "isLegacyMaceShockwave",
+   "isMaceSparkEnabled",
+   "isMaceFlashEnabled",
+   "isShielding",
+   "distanceFade",
+   "pearlColor",
+   "drawHitbox"
+  ],
+  "hasInstance": true
+ },
+ {
+  "rel": "modules/impl/render/maseffects/MasEffectsParticleRenderer.java",
+  "name": "MasEffectsParticleRenderer",
+  "pkg": "com.github.epsilon.modules.impl.render.maseffects",
+  "methods": [
+   "MasEffectsParticleRenderer",
+   "ParticleBatch",
+   "tick",
+   "render",
+   "for",
+   "if",
+   "clear",
+   "spawnSlam",
+   "spawnWindWave",
+   "spawnShieldWave",
+   "spawnArmorParticles",
+   "spawnTotem",
+   "spawnDeath",
+   "spawnPearlTrail",
+   "spawnScraps",
+   "armorTexture",
+   "add",
+   "drainPending",
+   "while",
+   "random",
+   "randomInclusive",
+   "texture",
+   "textures",
+   "euler",
+   "EffectParticle",
+   "afterTick",
+   "shouldRender",
+   "frameAge",
+   "frameDuration",
+   "renderPlane",
+   "target",
+   "move",
+   "ShockwaveParticle",
+   "ShieldWaveParticle",
+   "FlickParticle",
+   "FlashParticle",
+   "ScrapParticle",
+   "ReviveParticle",
+   "ReviveSparkParticle",
+   "DeathSkullParticle",
+   "DeathSparkParticle",
+   "PearlTrailParticle"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "modules/impl/render/NameTags.java",
+  "name": "NameTags",
+  "pkg": "com.github.epsilon.modules.impl.render",
+  "methods": [
+   "NameTags",
+   "onRender3D",
+   "for",
+   "renderTagList",
+   "if",
+   "buildEquipmentItems",
+   "getPerspectiveScale",
+   "getItemScale",
+   "appendItem",
+   "drawItem",
+   "TagDrawData"
+  ],
+  "hasInstance": true
+ },
+ {
+  "rel": "modules/impl/render/NoRender.java",
+  "name": "NoRender",
+  "pkg": "com.github.epsilon.modules.impl.render",
+  "methods": [
+   "NoRender"
+  ],
+  "hasInstance": true
+ },
+ {
+  "rel": "modules/impl/render/Particles.java",
+  "name": "Particles",
+  "pkg": "com.github.epsilon.modules.impl.render",
+  "methods": [
+   "Particles",
+   "onDisable",
+   "onTick",
+   "if",
+   "onRender3D",
+   "renderParticleList",
+   "for",
+   "textureForMode",
+   "switch",
+   "resolveColor",
+   "syncColor",
+   "withAlpha",
+   "FireFly",
+   "tick",
+   "render",
+   "ParticleBase",
+   "interpolatePos",
+   "drawBillboard",
+   "Trail",
+   "interpolate",
+   "animation",
+   "update",
+   "color"
+  ],
+  "hasInstance": true
+ },
+ {
+  "rel": "modules/impl/render/PopChams.java",
+  "name": "PopChams",
+  "pkg": "com.github.epsilon.modules.impl.render",
+  "methods": [
+   "PopChams",
+   "onDisable",
+   "synchronized",
+   "onReceivePacket",
+   "onRender3D",
+   "if",
+   "GhostPlayer",
+   "render",
+   "withAlpha",
+   "shouldShowName"
+  ],
+  "hasInstance": true
+ },
+ {
+  "rel": "modules/impl/render/Shaders.java",
+  "name": "Shaders",
+  "pkg": "com.github.epsilon.modules.impl.render",
+  "methods": [
+   "Shaders",
+   "shouldRenderHands",
+   "shouldRenderChest",
+   "if",
+   "shouldRender",
+   "switch"
+  ],
+  "hasInstance": true
+ },
+ {
+  "rel": "modules/impl/render/SneakTweak.java",
+  "name": "SneakTweak",
+  "pkg": "com.github.epsilon.modules.impl.render",
+  "methods": [
+   "SneakTweak",
+   "onEnable",
+   "onDisable",
+   "getCameraSmoothingModifier",
+   "if",
+   "shouldSnapCameraEyeHeight",
+   "modifySneakingEyeHeight",
+   "switch",
+   "refreshPlayerDimensions"
+  ],
+  "hasInstance": true
+ },
+ {
+  "rel": "modules/impl/render/Xray.java",
+  "name": "Xray",
+  "pkg": "com.github.epsilon.modules.impl.render",
+  "methods": [
+   "Xray",
+   "onEnable",
+   "onDisable",
+   "onPlayerTick",
+   "if",
+   "onPacketReceive",
+   "onMove",
+   "onRender3D",
+   "for",
+   "getArea",
+   "draw",
+   "isCheckableOre",
+   "getBlocks",
+   "log",
+   "BlockMemory",
+   "isDelayed"
+  ],
+  "hasInstance": true
+ },
+ {
+  "rel": "modules/Module.java",
+  "name": "Module",
+  "pkg": "com.github.epsilon.modules",
+  "methods": [
+   "Module",
+   "initI18n",
+   "for",
+   "setAddonId",
+   "getAddonId",
+   "nullCheck",
+   "onEnable",
+   "onDisable",
+   "isEnabled",
+   "toggle",
+   "setEnabled",
+   "if",
+   "setDefaultEnabled",
+   "setDefaultHidden",
+   "getNotificationHash",
+   "reset",
+   "getSettings",
+   "getSettingGroups",
+   "mutableSettings",
+   "mutableSettingGroups",
+   "getCategory",
+   "getKeyBind",
+   "setKeyBind",
+   "getBindMode",
+   "setBindMode",
+   "getName",
+   "getTranslatedName",
+   "getInfo",
+   "isHidden",
+   "setHidden",
+   "resetCustomState",
+   "saveCustomState",
+   "loadCustomState"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "settings/impl/BoolSetting.java",
+  "name": "BoolSetting",
+  "pkg": "com.github.epsilon.settings.impl",
+  "methods": [
+   "BoolSetting"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "settings/impl/ButtonSetting.java",
+  "name": "ButtonSetting",
+  "pkg": "com.github.epsilon.settings.impl",
+  "methods": [
+   "ButtonSetting"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "settings/impl/ColorSetting.java",
+  "name": "ColorSetting",
+  "pkg": "com.github.epsilon.settings.impl",
+  "methods": [
+   "ColorSetting",
+   "isAllowAlpha"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "settings/impl/DoubleSetting.java",
+  "name": "DoubleSetting",
+  "pkg": "com.github.epsilon.settings.impl",
+  "methods": [
+   "DoubleSetting",
+   "setValue",
+   "setUnboundedValue",
+   "getMin",
+   "getMax",
+   "getStep"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "settings/impl/EnumSetting.java",
+  "name": "EnumSetting",
+  "pkg": "com.github.epsilon.settings.impl",
+  "methods": [
+   "EnumSetting",
+   "initTranslateComponent",
+   "for",
+   "getTranslatedValue",
+   "getTranslatedValueByIndex",
+   "getTranslatedValueUnchecked",
+   "if",
+   "is",
+   "setMode",
+   "setModeSilently",
+   "getModeIndex",
+   "getModes",
+   "matchesMode"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "settings/impl/IntSetting.java",
+  "name": "IntSetting",
+  "pkg": "com.github.epsilon.settings.impl",
+  "methods": [
+   "IntSetting",
+   "setValue",
+   "setUnboundedValue",
+   "getMin",
+   "getMax",
+   "getStep"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "settings/impl/KeybindSetting.java",
+  "name": "KeybindSetting",
+  "pkg": "com.github.epsilon.settings.impl",
+  "methods": [
+   "KeybindSetting"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "settings/impl/RegistryListSetting.java",
+  "name": "RegistryListSetting",
+  "pkg": "com.github.epsilon.settings.impl",
+  "methods": [
+   "registry",
+   "return",
+   "defaultFilter",
+   "toId",
+   "if",
+   "fromId",
+   "RegistryListSetting",
+   "setValue",
+   "setValueSilently",
+   "reset",
+   "contains",
+   "add",
+   "remove",
+   "toggle",
+   "getIds",
+   "for",
+   "setIds",
+   "size",
+   "isEmpty",
+   "getRegistryType",
+   "getRegistry",
+   "getFilter",
+   "normalize",
+   "canUse"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "settings/impl/StringListSetting.java",
+  "name": "StringListSetting",
+  "pkg": "com.github.epsilon.settings.impl",
+  "methods": [
+   "StringListSetting",
+   "setValue",
+   "setValueSilently",
+   "reset",
+   "contains",
+   "add",
+   "remove",
+   "toggle",
+   "if",
+   "get",
+   "size",
+   "isEmpty",
+   "normalize",
+   "for"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "settings/impl/StringSetting.java",
+  "name": "StringSetting",
+  "pkg": "com.github.epsilon.settings.impl",
+  "methods": [
+   "StringSetting"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "settings/Setting.java",
+  "name": "Setting",
+  "pkg": "com.github.epsilon.settings",
+  "methods": [
+   "Setting",
+   "initTranslateComponent",
+   "getTranslateComponent",
+   "getName",
+   "getDisplayName",
+   "getValue",
+   "setValue",
+   "setValueSilently",
+   "reset",
+   "getDefaultValue",
+   "isAvailable",
+   "rootSetting",
+   "isRootSetting",
+   "applyWhenRelease",
+   "isApplyWhenRelease",
+   "getGroup",
+   "group",
+   "getDependency"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "settings/SettingGroup.java",
+  "name": "SettingGroup",
+  "pkg": "com.github.epsilon.settings",
+  "methods": [
+   "SettingGroup",
+   "initTranslateComponent",
+   "getTranslateComponent",
+   "getName",
+   "getDisplayName",
+   "isCollapsed",
+   "setCollapsed",
+   "toggleCollapsed"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "settings/SettingHost.java",
+  "name": "SettingHost",
+  "pkg": "com.github.epsilon.settings",
+  "methods": [
+   "addSetting",
+   "settingGroup",
+   "for",
+   "if",
+   "intSetting",
+   "boolSetting",
+   "doubleSetting",
+   "stringSetting",
+   "blockListSetting",
+   "itemListSetting",
+   "entityTypeListSetting",
+   "enchantmentListSetting",
+   "enumSetting",
+   "colorSetting",
+   "keybindSetting",
+   "buttonSetting",
+   "stringListSetting",
+   "soundEventListSetting"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "settings/SettingLayoutPlanner.java",
+  "name": "SettingLayoutPlanner",
+  "pkg": "com.github.epsilon.settings",
+  "methods": [
+   "SettingLayoutPlanner",
+   "plan",
+   "if",
+   "for",
+   "signature",
+   "lastInlineSection",
+   "inferOwnerKey",
+   "normalizeKey",
+   "MutableSection",
+   "inline",
+   "group",
+   "Section",
+   "title",
+   "isCollapsed",
+   "toggleCollapsed"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "utils/client/ClientUtils.java",
+  "name": "ClientUtils",
+  "pkg": "com.github.epsilon.utils.client",
+  "methods": [
+   "isLoading"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "utils/client/ConfigFolderOpener.java",
+  "name": "ConfigFolderOpener",
+  "pkg": "com.github.epsilon.utils.client",
+  "methods": [
+   "ConfigFolderOpener",
+   "openConfigFolder"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "utils/client/KeybindUtils.java",
+  "name": "KeybindUtils",
+  "pkg": "com.github.epsilon.utils.client",
+  "methods": [
+   "KeybindUtils",
+   "isMouseButton",
+   "encodeMouseButton",
+   "decodeMouseButton",
+   "getKey",
+   "isPressed",
+   "if",
+   "format"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "utils/combat/DamageUtils.java",
+  "name": "DamageUtils",
+  "pkg": "com.github.epsilon.utils.combat",
+  "methods": [
+   "crystalDamage",
+   "anchorDamage",
+   "explosionDamage",
+   "if",
+   "rawExplosionDamage",
+   "getSeenPercent",
+   "applyDifficultyScaling",
+   "switch",
+   "applyArmorReduction",
+   "applyResistanceReduction",
+   "applyEnchantmentReduction",
+   "for",
+   "selfCrystalDamage",
+   "getPredictedBoundingBox",
+   "DamageUtils"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "utils/math/MathUtils.java",
+  "name": "MathUtils",
+  "pkg": "com.github.epsilon.utils.math",
+  "methods": [
+   "MathUtils",
+   "getRandom"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "utils/network/ClientIdentityHider.java",
+  "name": "ClientIdentityHider",
+  "pkg": "com.github.epsilon.utils.network",
+  "methods": [
+   "ClientIdentityHider",
+   "filterServerboundPacket",
+   "if",
+   "filterClientBrand",
+   "shouldHideAsVanilla",
+   "filterPayload",
+   "filterChannelPayload",
+   "filterNeoForgeQueryPayload",
+   "for",
+   "readChannels",
+   "recreateChannelPayload",
+   "readAccessor",
+   "createConstructorArguments",
+   "isCollectionParameter",
+   "asCollection",
+   "convertProtocol"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "utils/network/PacketUtils.java",
+  "name": "PacketUtils",
+  "pkg": "com.github.epsilon.utils.network",
+  "methods": [
+   "sendSilently"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "utils/player/ChatUtils.java",
+  "name": "ChatUtils",
+  "pkg": "com.github.epsilon.utils.player",
+  "methods": [
+   "addChatMessage",
+   "if",
+   "buildClientMessage",
+   "applyAnimatedPrefix",
+   "appendStyledSuffix",
+   "toPlainString"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "utils/player/ClickSlotUtils.java",
+  "name": "ClickSlotUtils",
+  "pkg": "com.github.epsilon.utils.player",
+  "methods": [
+   "clickSlot",
+   "click",
+   "shiftClick",
+   "drop",
+   "dropAll",
+   "swap"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "utils/player/EnchantmentUtils.java",
+  "name": "EnchantmentUtils",
+  "pkg": "com.github.epsilon.utils.player",
+  "methods": [
+   "getEnchantments",
+   "if",
+   "for",
+   "getEnchantmentLevel",
+   "hasEnchantments",
+   "hasEnchantment"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "utils/player/FallingPlayer.java",
+  "name": "FallingPlayer",
+  "pkg": "com.github.epsilon.utils.player",
+  "methods": [
+   "FallingPlayer",
+   "calculateForTick",
+   "if",
+   "calculate",
+   "findCollision",
+   "raytrace",
+   "getX",
+   "getY",
+   "getZ"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "utils/player/FindItemResult.java",
+  "name": "FindItemResult",
+  "pkg": "com.github.epsilon.utils.player",
+  "methods": [
+   "found",
+   "getHand",
+   "if",
+   "isMainHand",
+   "isOffhand"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "utils/player/InteractionUtils.java",
+  "name": "InteractionUtils",
+  "pkg": "com.github.epsilon.utils.player",
+  "methods": [
+   "airPlace",
+   "if",
+   "try",
+   "swapWithOffhand"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "utils/player/InvHelper.java",
+  "name": "InvHelper",
+  "pkg": "com.github.epsilon.utils.player",
+  "methods": [
+   "getEnchantmentLevel",
+   "if",
+   "for",
+   "shouldDisableFeatures",
+   "isGoldenHead",
+   "isArmor",
+   "getArmorSlot",
+   "isSword",
+   "isPickaxe",
+   "getInventoryStack",
+   "getArmorStack",
+   "getOffhandStack",
+   "isSharpnessAxe",
+   "isGodAxe",
+   "isEnchantedGApple",
+   "isEndCrystal",
+   "isKBBall",
+   "isKBStick",
+   "findEmptyInventory",
+   "findEmptySlot",
+   "findItemHotbar",
+   "getPunchLevel",
+   "getPowerLevel",
+   "getAllItems",
+   "getBestArmorScore",
+   "getCurrentArmorScore",
+   "getBestSwordDamage",
+   "getBestSword",
+   "getItemStackSlot",
+   "isItemValid",
+   "getItemSlot",
+   "getBestProjectile",
+   "getFishingRod",
+   "getBlockCountInInventory",
+   "getWorstProjectile",
+   "getWorstArrow",
+   "getWorstBlock",
+   "getBestBlock",
+   "getBestPickaxeScore",
+   "getBestPickaxe",
+   "getBestAxeScore",
+   "getBestAxe",
+   "getBestShapeAxe",
+   "getBestShovelScore",
+   "getBestShovel",
+   "getBestCrossbowScore",
+   "getBestCrossbow",
+   "getBestPunchBowScore",
+   "getBestPunchBow",
+   "getBestPowerBowScore",
+   "getBestPowerBow",
+   "isPunchBow",
+   "isPowerBow",
+   "hasItem",
+   "getItemCount",
+   "getPunchBowScore",
+   "getPowerBowScore",
+   "getToolScore",
+   "getMainhandAttackDamage",
+   "getSharpnessBonus",
+   "getAttributeModifierAmount",
+   "getAxeDamage",
+   "getSwordDamage",
+   "getProtection",
+   "getCrossbowScore",
+   "isGodItem",
+   "isCommonItemUseful",
+   "isValidStack"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "utils/player/InvUtils.java",
+  "name": "InvUtils",
+  "pkg": "com.github.epsilon.utils.player",
+  "methods": [
+   "testInMainHand",
+   "testInOffHand",
+   "findInHotbar",
+   "for",
+   "if",
+   "find",
+   "swap",
+   "swapBack",
+   "invSwap",
+   "invSwapBack"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "utils/player/MoveUtils.java",
+  "name": "MoveUtils",
+  "pkg": "com.github.epsilon.utils.player",
+  "methods": [
+   "forwardWithoutStrafe",
+   "forward",
+   "if"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "utils/player/PlayerUtils.java",
+  "name": "PlayerUtils",
+  "pkg": "com.github.epsilon.utils.player",
+  "methods": [
+   "isEating",
+   "isInWeb",
+   "if",
+   "isInBlock"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "utils/render/animation/Animation.java",
+  "name": "Animation",
+  "pkg": "com.github.epsilon.utils.render.animation",
+  "methods": [
+   "Animation",
+   "run",
+   "if",
+   "getProgress",
+   "reset",
+   "getDuration",
+   "setDuration",
+   "setMillis",
+   "getMillis",
+   "getValue",
+   "setValue",
+   "setStartValue",
+   "getStartValue",
+   "isFinished",
+   "setFinished"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "utils/render/animation/Easing.java",
+  "name": "Easing",
+  "pkg": "com.github.epsilon.utils.render.animation",
+  "methods": [
+   "Easing",
+   "getFunction"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "utils/render/ColorUtils.java",
+  "name": "ColorUtils",
+  "pkg": "com.github.epsilon.utils.render",
+  "methods": [
+   "interpolateColor"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "utils/render/EpsilonGuiRenderer.java",
+  "name": "EpsilonGuiRenderer",
+  "pkg": "com.github.epsilon.utils.render",
+  "methods": [
+   "EpsilonGuiRenderer",
+   "endFrame",
+   "if",
+   "render",
+   "clearUnusedOversizedItemRenderers",
+   "while",
+   "prepare",
+   "addElementsToMeshes",
+   "draw",
+   "executeDrawRange",
+   "try",
+   "addElementToMesh",
+   "prepareText",
+   "acceptRenderable",
+   "prepareItemElements",
+   "submitBlitFromItemAtlas",
+   "prepareItemAtlas",
+   "getGuiScaleInvalidatingItemAtlasIfChanged",
+   "for",
+   "invalidateItemAtlas",
+   "executeDraw",
+   "scissorChanged",
+   "enableScissor",
+   "registerPanoramaTextures",
+   "close",
+   "Draw"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "utils/render/esp/CaptureMarkESP.java",
+  "name": "CaptureMarkESP",
+  "pkg": "com.github.epsilon.utils.render.esp",
+  "methods": [
+   "render",
+   "getColorForProgress"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "utils/render/esp/CircleESP.java",
+  "name": "CircleESP",
+  "pkg": "com.github.epsilon.utils.render.esp",
+  "methods": [
+   "render",
+   "getPoint",
+   "getNormal"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "utils/render/esp/DeobfESP.java",
+  "name": "DeobfESP",
+  "pkg": "com.github.epsilon.utils.render.esp",
+  "methods": [
+   "DeobfESP",
+   "markHit",
+   "if",
+   "clear",
+   "retainRisingEffects",
+   "while",
+   "render",
+   "renderEffect",
+   "livingAnchor",
+   "aliveRotation",
+   "hitTint",
+   "redTint",
+   "progress",
+   "Effect",
+   "beginKill"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "utils/render/esp/FireflyESP.java",
+  "name": "FireflyESP",
+  "pkg": "com.github.epsilon.utils.render.esp",
+  "methods": [
+   "render",
+   "resolveColor",
+   "switch"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "utils/render/ScissorUtils.java",
+  "name": "ScissorUtils",
+  "pkg": "com.github.epsilon.utils.render",
+  "methods": [
+   "ScissorUtils",
+   "toFramebufferScissor",
+   "clampFramebufferScissor",
+   "isVisible",
+   "enableScissor",
+   "if",
+   "getFramebufferWidth",
+   "getFramebufferHeight"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "utils/render/WireframeEntityRenderer.java",
+  "name": "WireframeEntityRenderer",
+  "pkg": "com.github.epsilon.utils.render",
+  "methods": [
+   "WireframeEntityRenderer",
+   "beginBatch",
+   "if",
+   "endBatch",
+   "render",
+   "renderEntity",
+   "isBatching",
+   "beginDraw",
+   "endDraw",
+   "drawQuad",
+   "drawLine",
+   "getNormal",
+   "submitModel",
+   "submitCustomGeometry",
+   "reset"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "utils/render/WorldToScreen.java",
+  "name": "WorldToScreen",
+  "pkg": "com.github.epsilon.utils.render",
+  "methods": [
+   "WorldToScreen",
+   "getWorldPositionToScreen",
+   "getEntityPositionsOn2D",
+   "projectAbsoluteAABBOn2D",
+   "if",
+   "projectEntity",
+   "interpolate",
+   "getViewProjectionMatrix",
+   "getViewport"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "utils/rotation/Priority.java",
+  "name": "Priority",
+  "pkg": "com.github.epsilon.utils.rotation",
+  "methods": [
+   "Priority"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "utils/rotation/RaytraceUtils.java",
+  "name": "RaytraceUtils",
+  "pkg": "com.github.epsilon.utils.rotation",
+  "methods": [
+   "canSeePointFrom",
+   "raytrace",
+   "if",
+   "for",
+   "overBlock"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "utils/rotation/Rot2f.java",
+  "name": "Rot2f",
+  "pkg": "com.github.epsilon.utils.rotation",
+  "methods": [
+   "Rot2f",
+   "getYaw",
+   "getPitch",
+   "setYaw",
+   "setPitch",
+   "set"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "utils/rotation/RotationUtils.java",
+  "name": "RotationUtils",
+  "pkg": "com.github.epsilon.utils.rotation",
+  "methods": [
+   "getDirection",
+   "if",
+   "getNearestSide",
+   "for",
+   "canSee",
+   "getCollisionBox",
+   "isGrimDirection",
+   "isInFov",
+   "getRotationsToEntity",
+   "getEyeDistanceToEntity",
+   "calculate",
+   "applySensitivityPatch",
+   "relateToPlayerRotation",
+   "resetRotation",
+   "move",
+   "smooth"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "utils/timer/TimerUtils.java",
+  "name": "TimerUtils",
+  "pkg": "com.github.epsilon.utils.timer",
+  "methods": [
+   "TimerUtils",
+   "reset",
+   "getMs",
+   "setMs",
+   "passedSecond",
+   "hasDelayed",
+   "every",
+   "if",
+   "passedMillise"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "utils/world/BlockRegistryUtils.java",
+  "name": "BlockRegistryUtils",
+  "pkg": "com.github.epsilon.utils.world",
+  "methods": [
+   "BlockRegistryUtils",
+   "allSelectableBlocks",
+   "for",
+   "if",
+   "isSelectable",
+   "id",
+   "byId",
+   "displayName",
+   "searchText",
+   "toIds"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "utils/world/BlockUtils.java",
+  "name": "BlockUtils",
+  "pkg": "com.github.epsilon.utils.world",
+  "methods": [
+   "canPlaceAt"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "utils/world/hole/Hole.java",
+  "name": "Hole",
+  "pkg": "com.github.epsilon.utils.world.hole",
+  "methods": [
+   "Hole",
+   "switch",
+   "positions"
+  ],
+  "hasInstance": false
+ },
+ {
+  "rel": "utils/world/hole/HoleType.java",
+  "name": "HoleType",
+  "pkg": "com.github.epsilon.utils.world.hole",
+  "methods": [],
+  "hasInstance": false
+ },
+ {
+  "rel": "utils/world/hole/HoleUtils.java",
+  "name": "HoleUtils",
+  "pkg": "com.github.epsilon.utils.world.hole",
+  "methods": [
+   "getHole",
+   "if",
+   "isBlock",
+   "isHole",
+   "inHole"
+  ],
+  "hasInstance": false
+ }
+]

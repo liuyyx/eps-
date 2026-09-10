@@ -1,0 +1,402 @@
+{
+ "summary": {
+  "top_classes": 926,
+  "identified": 331,
+  "modules_total": 121,
+  "modules_identified": 73,
+  "unidentified_total": 595
+ },
+ "unidentified_modules": [
+  {
+   "obf": "A",
+   "kind": "class",
+   "lines": 2312,
+   "mc_imports": 18,
+   "note": ""
+  },
+  {
+   "obf": "G",
+   "kind": "class",
+   "lines": 2138,
+   "mc_imports": 13,
+   "note": ""
+  },
+  {
+   "obf": "H",
+   "kind": "class",
+   "lines": 1269,
+   "mc_imports": 14,
+   "note": ""
+  },
+  {
+   "obf": "J",
+   "kind": "class",
+   "lines": 82,
+   "mc_imports": 5,
+   "note": ""
+  },
+  {
+   "obf": "O",
+   "kind": "class",
+   "lines": 673,
+   "mc_imports": 9,
+   "note": ""
+  },
+  {
+   "obf": "T",
+   "kind": "class",
+   "lines": 3625,
+   "mc_imports": 18,
+   "note": ""
+  },
+  {
+   "obf": "X",
+   "kind": "class",
+   "lines": 1293,
+   "mc_imports": 9,
+   "note": ""
+  },
+  {
+   "obf": "Y",
+   "kind": "class",
+   "lines": 607,
+   "mc_imports": 7,
+   "note": ""
+  },
+  {
+   "obf": "a",
+   "kind": "class",
+   "lines": 951,
+   "mc_imports": 9,
+   "note": ""
+  },
+  {
+   "obf": "b",
+   "kind": "class",
+   "lines": 294,
+   "mc_imports": 6,
+   "note": ""
+  },
+  {
+   "obf": "c",
+   "kind": "class",
+   "lines": 977,
+   "mc_imports": 7,
+   "note": ""
+  },
+  {
+   "obf": "e3",
+   "kind": "class",
+   "lines": 323,
+   "mc_imports": 7,
+   "note": ""
+  },
+  {
+   "obf": "e4",
+   "kind": "class",
+   "lines": 2583,
+   "mc_imports": 12,
+   "note": ""
+  },
+  {
+   "obf": "e5",
+   "kind": "class",
+   "lines": 502,
+   "mc_imports": 7,
+   "note": "CustomSky"
+  },
+  {
+   "obf": "eA",
+   "kind": "class",
+   "lines": 1067,
+   "mc_imports": 8,
+   "note": ""
+  },
+  {
+   "obf": "eC",
+   "kind": "class",
+   "lines": 922,
+   "mc_imports": 6,
+   "note": "C 级推测不入库"
+  },
+  {
+   "obf": "eE",
+   "kind": "class",
+   "lines": 1048,
+   "mc_imports": 9,
+   "note": ""
+  },
+  {
+   "obf": "eF",
+   "kind": "class",
+   "lines": 1992,
+   "mc_imports": 14,
+   "note": "C 级推测不入库"
+  },
+  {
+   "obf": "eH",
+   "kind": "class",
+   "lines": 2695,
+   "mc_imports": 19,
+   "note": "C 级推测不入库"
+  },
+  {
+   "obf": "eI",
+   "kind": "class",
+   "lines": 1626,
+   "mc_imports": 9,
+   "note": ""
+  },
+  {
+   "obf": "eP",
+   "kind": "class",
+   "lines": 1961,
+   "mc_imports": 12,
+   "note": ""
+  },
+  {
+   "obf": "eQ",
+   "kind": "class",
+   "lines": 1640,
+   "mc_imports": 10,
+   "note": ""
+  },
+  {
+   "obf": "eS",
+   "kind": "class",
+   "lines": 1183,
+   "mc_imports": 9,
+   "note": ""
+  },
+  {
+   "obf": "eV",
+   "kind": "class",
+   "lines": 1230,
+   "mc_imports": 9,
+   "note": ""
+  },
+  {
+   "obf": "ed",
+   "kind": "class",
+   "lines": 284,
+   "mc_imports": 7,
+   "note": ""
+  },
+  {
+   "obf": "ee",
+   "kind": "class",
+   "lines": 517,
+   "mc_imports": 8,
+   "note": ""
+  },
+  {
+   "obf": "el",
+   "kind": "class",
+   "lines": 409,
+   "mc_imports": 4,
+   "note": "C 级推测不入库"
+  },
+  {
+   "obf": "ep",
+   "kind": "class",
+   "lines": 1024,
+   "mc_imports": 5,
+   "note": ""
+  },
+  {
+   "obf": "eq",
+   "kind": "class",
+   "lines": 7528,
+   "mc_imports": 23,
+   "note": ""
+  },
+  {
+   "obf": "ev",
+   "kind": "class",
+   "lines": 1460,
+   "mc_imports": 8,
+   "note": ""
+  },
+  {
+   "obf": "ex",
+   "kind": "class",
+   "lines": 316,
+   "mc_imports": 6,
+   "note": ""
+  },
+  {
+   "obf": "f",
+   "kind": "class",
+   "lines": 1881,
+   "mc_imports": 7,
+   "note": "C 级推测不入库"
+  },
+  {
+   "obf": "h",
+   "kind": "class",
+   "lines": 2385,
+   "mc_imports": 17,
+   "note": ""
+  },
+  {
+   "obf": "m",
+   "kind": "class",
+   "lines": 1525,
+   "mc_imports": 9,
+   "note": ""
+  },
+  {
+   "obf": "n",
+   "kind": "class",
+   "lines": 203,
+   "mc_imports": 7,
+   "note": "C 级推测不入库"
+  },
+  {
+   "obf": "o",
+   "kind": "class",
+   "lines": 281,
+   "mc_imports": 6,
+   "note": ""
+  },
+  {
+   "obf": "p",
+   "kind": "class",
+   "lines": 3043,
+   "mc_imports": 12,
+   "note": ""
+  },
+  {
+   "obf": "q",
+   "kind": "class",
+   "lines": 2907,
+   "mc_imports": 15,
+   "note": ""
+  },
+  {
+   "obf": "u0",
+   "kind": "class",
+   "lines": 701,
+   "mc_imports": 11,
+   "note": "Scoreboard?(计分板侧栏模块, 26.2 新增)?"
+  },
+  {
+   "obf": "u3",
+   "kind": "class",
+   "lines": 1601,
+   "mc_imports": 8,
+   "note": ""
+  },
+  {
+   "obf": "uG",
+   "kind": "class",
+   "lines": 971,
+   "mc_imports": 7,
+   "note": ""
+  },
+  {
+   "obf": "ua",
+   "kind": "class",
+   "lines": 811,
+   "mc_imports": 15,
+   "note": ""
+  },
+  {
+   "obf": "uk",
+   "kind": "class",
+   "lines": 1275,
+   "mc_imports": 9,
+   "note": ""
+  },
+  {
+   "obf": "up",
+   "kind": "class",
+   "lines": 3572,
+   "mc_imports": 15,
+   "note": ""
+  },
+  {
+   "obf": "uv",
+   "kind": "class",
+   "lines": 1452,
+   "mc_imports": 9,
+   "note": "C 级推测不入库"
+  },
+  {
+   "obf": "v",
+   "kind": "class",
+   "lines": 673,
+   "mc_imports": 10,
+   "note": ""
+  },
+  {
+   "obf": "y",
+   "kind": "class",
+   "lines": 993,
+   "mc_imports": 10,
+   "note": ""
+  },
+  {
+   "obf": "z",
+   "kind": "class",
+   "lines": 940,
+   "mc_imports": 9,
+   "note": ""
+  }
+ ],
+ "role_notes_count": 120,
+ "h_batch_attempted": {
+  "A": "无候选，26.2新增Module，无法判定",
+  "a": "无候选，26.2新增Module，无法判定",
+  "e3": "无候选，26.2新增Module，无法判定",
+  "e4": "无候选，26.2新增Module，无法判定",
+  "e5": "无候选，26.2新增Module，无法判定",
+  "ed": "无候选，26.2新增Module，无法判定",
+  "ee": "无候选，26.2新增Module，无法判定",
+  "eH": "无候选，26.2新增Module，无法判定",
+  "eP": "无候选，26.2新增Module，无法判定",
+  "ep": "无候选，26.2新增Module，无法判定",
+  "eQ": "无候选，26.2新增Module，无法判定",
+  "eq": "7528行module，字段极多(DM/XG/Xn/Dx)，导入BlockHitResult/Vec3/BlockPos，无候选无法定位",
+  "eR": "759行module，导入RenderPipeline/Color/Identifier，渲染相关但无候选",
+  "eS": "1183行module，导入DropExperienceBlock/WebBlock/Inventory，方块交互但无候选",
+  "eV": "1230行module，无外部库导入，仅有基础字段，无法辨识",
+  "ex": "316行module，导入CrossbowItem/LocalPlayer，弩相关但无候选",
+  "f": "1881行module，导入Gui/Font/ContainerScreen，HUD/渲染类但无候选",
+  "G": "2138行module，导入Gui/LivingEntity/Player/AABB，实体渲染但无候选",
+  "H": "1269行module，导入RenderPipeline/Player/PoseStack，渲染相关但无候选",
+  "m": "1525行module，导入Entity/LightningBolt/ParticleType，实体/粒子但无候选",
+  "n": "203行module，导入Packet/ServerboundUseItemOnPacket，网络模块但无候选",
+  "o": "281行module，导入LocalPlayer，仅玩家相关，无候选无法定位",
+  "q": "Module类，无候选，2907行无法判别",
+  "T": "Module类，无候选，3625行无法判别",
+  "u0": "Module类，无候选，701行无法判别",
+  "u3": "Module类，无候选，1601行无法判别",
+  "ua": "Module类，无候选，811行无法判别",
+  "uG": "Module类，无候选，971行无法判别",
+  "uk": "Module类，无候选，1275行无法判别",
+  "uv": "Module类，无候选，1452行无法判别",
+  "v": "Module类，无候选，673行无法判别",
+  "O0": "接口(extends AutoCloseable)，候选MessagePopup为实现类，结构不匹配",
+  "D1": "普通类，无候选，方法名严重混淆无法判别",
+  "D4": "Gson数据类(@SerializedName id/name), 无候选无匹配",
+  "D8": "Enum(Sakura/Tradition/Glitch), 26.2新增, official26无匹配",
+  "DA": "SwitchMap helper类, static int[]+ordinal映射, 无法关联enum",
+  "DF": "float值提供接口(O/q/X方法), 无匹配",
+  "DH": "Record(ka:boolean, XM:List<_Q>), 无法判断用途",
+  "DI": "空类, 无字段无方法",
+  "DJ": "Enum(TheAltening/Cracked/Session/Microsoft), 26.2新增登录类型",
+  "DL": "Record(qN:int, qd:int), 二元组/坐标, 无上下文",
+  "DS": "接口4方法, r()返回yW, 无匹配",
+  "De": "类持有i2字段+Matrix4f, 渲染相关, 无法确定身份",
+  "Dg": "重度混淆473行switch控制流, 引用Dl/ih, 无候选",
+  "Dh": "无候选，判不出",
+  "Di": "无候选，判不出",
+  "Ds": "无候选，判不出",
+  "Dy": "无候选，判不出",
+  "Dz": "无候选，判不出",
+  "O1": "无候选，判不出",
+  "O2": "无候选，判不出"
+ },
+ "h_batch_note": "5 个 agent (mimo) 用官方 26.2 + 26.1.2 双字典尝试，51 类全部无匹配 → 确认为 26.2-2026.10.7 新增或 SeQL 基础设施"
+}

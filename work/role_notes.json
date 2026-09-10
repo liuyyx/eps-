@@ -1,0 +1,2427 @@
+[
+ {
+  "obf": "d2",
+  "claimed": "ResistantBlockCache",
+  "conf": "A",
+  "from": "C002",
+  "evidence": "字段映射: P=cache(Map<Long,Boolean>), V=Level, g=assumeInstantMine(boolean); 构造(Lvl,boolean)与源码一致; static D EMPTY=new d2(null,false); 方法G中getBlockState+缓存逻辑对应isResistant; 属ZealotCrystalPlus内部类"
+ },
+ {
+  "obf": "D3",
+  "claimed": "ViaLegacyConfig子类",
+  "conf": "B",
+  "from": "C002",
+  "evidence": "extends ViaLegacyConfig; 实现isLegacySkullLoading()/isLegacySkinLoading()方法名直接对应ViaLegacy功能; save()空覆写; ViaLegacyConfig为外部库不在旧版src中"
+ },
+ {
+  "obf": "d5",
+  "claimed": "QuadRenderingInfo",
+  "conf": "A",
+  "from": "C002",
+  "evidence": "record 6组件与源码 LuminRenderSystem.QuadRenderingInfo 逐一对应: tO=colorView(GpuTextureView), tu=depthView(GpuTextureView), LY=indexType(IndexType), qS=ibo(GpuBuffer), a2=indexCount(int), FX=dynamicUniforms(G"
+ },
+ {
+  "obf": "Df",
+  "claimed": "UiLayer",
+  "conf": "B",
+  "from": "C005",
+  "evidence": "jar enum常量CHROME/POPUP/BACKGROUND/FLOATING/CONTENT/OVERLAY与源码UiLayer常量完全对应（PanelScreen: UiLayer.CHROME/CONTENT/POPUP）；UiLayer来自lumingraphics库在26.1.2为顶层类"
+ },
+ {
+  "obf": "df",
+  "claimed": "ActionButtonType",
+  "conf": "A-",
+  "from": "C005",
+  "evidence": "jar enum常量NEW/IMPORT/EXPORT/SAVE_AS/RELOAD/OPEN_FOLDER与源码ConfigClientSettingTab内私有枚举ActionButtonType完全一致；26.1.2为私有内部类，26.2可能提升为顶层类"
+ },
+ {
+  "obf": "dh",
+  "claimed": "StyleGlyphRecord",
+  "conf": "B",
+  "from": "C006",
+  "evidence": "Record implements TextRenderable.Styled+Dk(TextRenderableAdapter); 8组件(kv=gG字形,p5/PO/_8/_T=度量,style=Style,PN/pp=额外度量); MC imports:Font,TextRenderable,RenderType,Style; render/textureView/sampler/left/"
+ },
+ {
+  "obf": "Dh",
+  "claimed": "Bounds",
+  "conf": "A-",
+  "from": "C006",
+  "evidence": "Record(float zG,zo,z5,z7)四组件全float; z()=z5-zo(高差),K()=z7-zG(宽差),z(Dh)=取各分量min/max(合并/扩展矩形); 结构与矩形/边界框完全吻合; 但src 26.1.2无同名record(可能新增或在lumingraphics库中)"
+ },
+ {
+  "obf": "dG",
+  "claimed": "TextMode",
+  "conf": "C",
+  "from": "C006",
+  "evidence": "Enum仅有TXT和SENTENCE两个值; 引用SeQL解密; 名称暗示文本模式(纯文本vs句子); src 26.1.2中无匹配enum(可能在26.2新增); 仅角色推测"
+ },
+ {
+  "obf": "dg",
+  "claimed": "ItemContainer",
+  "conf": "C",
+  "from": "C006",
+  "evidence": "125行; 字段ih S(边界)+zU I(内容)+float a(高度); lambda$ item$0/1表明item模式; 方法j(float)创建ih并推进高度,r/S/c接受BiConsumer/Consumer回调遍历item; 构造函数dg(zU,ih)初始化容器; 仅角色推测(无src匹配)"
+ },
+ {
+  "obf": "DH",
+  "claimed": "ListResult",
+  "conf": "C",
+  "from": "C006",
+  "evidence": "Record(List<_Q> XM, boolean ka)两组件; 列表结果+标志位模式; 引用SeQL; src 26.1.2无匹配record; 仅角色推测"
+ },
+ {
+  "obf": "DI",
+  "claimed": "EmptyMarker",
+  "conf": "C",
+  "from": "C006",
+  "evidence": "仅8行空类体; 无字段无方法无引用; 可能是编译占位/接口桩; 仅角色推测"
+ },
+ {
+  "obf": "Di",
+  "claimed": "GlyphDataEntry",
+  "conf": "C",
+  "from": "C006",
+  "evidence": "Record(gQ e8, y1 zu)两组件; 方法E8()返回gQ, Zu()返回y1; 与dh(StyleGlyphRecord)同批次且共引SeQL; gQ可能是字形查询,y1可能是字形值; 仅角色推测"
+ },
+ {
+  "obf": "dJ",
+  "claimed": "BlinkPacket",
+  "conf": "A",
+  "from": "C007",
+  "evidence": "record(Packet<? super ClientPacketListener> ao, long cj); 源码 Blink 模块使用 ConcurrentLinkedQueue<Packet<?>> 缓存数据包，此 record 为单个带时间戳的缓存包，结构与角色完全吻合"
+ },
+ {
+  "obf": "_J",
+  "claimed": "PostSendPositionEvent",
+  "conf": "A-",
+  "from": "S01-LocalPlayer",
+  "evidence": "26.2 新增注入点（26.1.2 src MixinLocalPlayer 无对应）: jar 在 @Inject(method=\"sendPosition\", HEAD) 取消分支与 @Inject(method=\"sendPosition\", TAIL) 均写 `vy.j.d(new Object[]{new _J()});`，且仅当 `epsilon$dispatchPositionEve"
+ },
+ {
+  "obf": "I",
+  "claimed": "BetterChat",
+  "conf": "A-",
+  "from": "S04-Chat",
+  "evidence": "三处 mixin 一致引用 I.J（I extends e 模块，静态单例字段 J）。jar 侧方法名直接揭示特性：MixinChatComponentHash 内注入方法命名为 pushBetterChatScissor / popBetterChatScissor。行为同构：①MixinChatComponent.animateMessageOpacity(handleMessage @Mod"
+ },
+ {
+  "obf": "e5",
+  "claimed": "CustomSky",
+  "conf": "C",
+  "from": "S05-LevelRender",
+  "evidence": "jar MixinLevelRenderer.addCustomSkyPass(addSkyPass@RETURN): if(e5.F.N()) 守卫新增 FramePass 名字面量 \"epsilon_custom_sky\"(开发署名, 自定义天空特征确凿), lambda$addCustomSkyPass$0 以 [RenderTarget, e5.F] 调 yK.b.q 绘制。e5 结构: "
+ },
+ {
+  "obf": "S",
+  "claimed": "ItemPhysics",
+  "conf": "A-",
+  "from": "S06-ItemRender",
+  "evidence": "注入点 method=applyItemPhysics / suppressVanillaBob / suppressVanillaSpin（MixinItemEntityRenderer.submit）。jar 调用形状：if (S.J.N() && ...) 对 ItemEntity 做渲染物理变换（上移 -item.getModelBoundingBox().minY+0.0625、绕 XP"
+ },
+ {
+  "obf": "Dk",
+  "claimed": "TextRenderableAdapter",
+  "conf": "A",
+  "from": "S07-FontHudGlyph",
+  "evidence": "注入点 MixinGlyphRenderState.onTextureSetup(@Mixin GlyphRenderState, method=textureSetup, HEAD cancellable) 逐行同构: jar `if (textRenderable instanceof Dk) { Dk dk=(Dk)textRenderable; cir.setReturnValue(Tex"
+ },
+ {
+  "obf": "gG",
+  "claimed": "字体字形静态封装类(对应 26.1.2 MinecraftFontAdapter2612.glyph 的 26.2 拆出, extends BakedGlyph)?",
+  "conf": "C",
+  "from": "S07-FontHudGlyph",
+  "evidence": "注入点 MixinFont.onGetGlyph(method=getGlyph, HEAD, cancellable): jar `if (((Boolean)uc.v.u2.z()).booleanValue() && (gG2 = gG.g(n)) != null) cir.setReturnValue((Object)gG2);` —— gG.g(int) 静态返回 gG 实例并强转 Ba"
+ },
+ {
+  "obf": "ls",
+  "claimed": "字体宽度测量静态封装(util, 对应 26.1.2 adapter.width 的 26.2 拆出)?",
+  "conf": "C",
+  "from": "S07-FontHudGlyph",
+  "evidence": "注入点 MixinFont 三处 width 注入(method=width(String)/width(FormattedCharSequence)/width(FormattedText), HEAD, cancellable) 同形: jar `if (uc.v.u2.z() && (f = ls.Y(string)) != null) cir.setReturnValue(Mth.ceil"
+ },
+ {
+  "obf": "e9",
+  "claimed": "TabList?(标签页/计分板名单模块, 26.2 新增)?",
+  "conf": "C",
+  "from": "S07-FontHudGlyph",
+  "evidence": "注入点 MixinHud.onExtractTabList(method=extractTabList, HEAD, cancellable): jar `if (e9.d.N()) { ci.cancel(); }` —— e9.d 为静态单例字段(INSTANCE 形), .N()=isEnabled(); 启用即取消原版 tab list 提取, 行为域唯一对应“标签页(TabList)”模"
+ },
+ {
+  "obf": "u0",
+  "claimed": "Scoreboard?(计分板侧栏模块, 26.2 新增)?",
+  "conf": "C",
+  "from": "S07-FontHudGlyph",
+  "evidence": "注入点 MixinHud.onExtractScoreboardSidebar / displayScoreboardSidebar (extractScoreboardSidebar HEAD + displayScoreboardSidebar 两处 WrapOperation): jar 以 `u0.J.N()` 判定启用; `u0.J.K(objectArray[4])` 等价 GuiGr"
+ },
+ {
+  "obf": "eu",
+  "claimed": "Fog/WorldTime 跨域模块（环境雾覆盖+世界时钟覆盖，确切类名未定）",
+  "conf": "B",
+  "from": "S08-UniformsClock",
+  "evidence": "两处注入点交叉定位同一类。① MixinFogRenderer.modifyFog(@ModifyReturnValue setupFog RETURN)：`eu eu2 = eu.n; if (eu2.N() && ((Boolean)eu2.m.z()).booleanValue()) { fogData.environmentalStart = ((Integer)eu2.W.z()).in"
+ },
+ {
+  "obf": "Oe",
+  "claimed": "渲染管线/渲染通道构建工具类（RenderPipeline/RenderPass 构建器，确切类名未定）",
+  "conf": "C",
+  "from": "S08-UniformsClock",
+  "evidence": "注入点：MixinDynamicUniforms.onReset(@Inject DynamicUniforms.reset RETURN) 调 `Oe.B();`（与 dB.b()/dB.Z()/nK.Z() 并列）。jar 类体：com.github.epsilon.Oe 私有构造器静态工具类；import blaze3d.RenderPipeline/RenderPass/VertexFor"
+ },
+ {
+  "obf": "dB",
+  "claimed": "投影矩阵/GPU缓冲/DynamicUniform 渲染宿主工具类（与 ShaderHolder 同类，确切类名未定）",
+  "conf": "C",
+  "from": "S08-UniformsClock",
+  "evidence": "两处注入点。① MixinDynamicUniforms.onReset：`dB.b(); dB.Z();`（与 Oe.B()/nK.Z() 并列）。② MixinMinecraft(S02 共享)：`dB.Q();`（src:[] 无对照）。jar 类体：com.github.epsilon.dB 静态工具类；字段 A:static final Projection、b:ProjectionMa"
+ },
+ {
+  "obf": "nK",
+  "claimed": "异步资源/数据加载缓存类（implements DS 接口，确切类名未定）",
+  "conf": "C",
+  "from": "S08-UniformsClock",
+  "evidence": "注入点：MixinDynamicUniforms.onReset：`nK.Z();`（与 dB.b()/dB.Z()/Oe.B() 并列）。jar 类体：com.github.epsilon.nK implements DS 接口，2361 行/244 个加密方法；字段含 ExecutorService i、AtomicInteger B、HashMap<Integer,CompletableFu"
+ },
+ {
+  "obf": "OT",
+  "claimed": "MinecraftGuiExtractionBridge2612",
+  "conf": "A-",
+  "from": "S10-GuiRenderer",
+  "evidence": "注入点 onRenderHead（jar method=\"render\" @HEAD，对应 src method=\"draw\" @HEAD，均 on @Mixin(GuiRenderer)）。jar 形状：new OT(this.epsilon$levelRenderState, this.featureRenderDispatcher) 生成两个实例（epsilon$levelGuiRender"
+ },
+ {
+  "obf": "dd",
+  "claimed": "LuminRenderTarget",
+  "conf": "A",
+  "from": "C004",
+  "evidence": "implements AutoCloseable + 字段 GpuTextureView C/GpuTexture q/Identifier R/boolean F(useDepth)/int K(width)/int n(height)/boolean T(closed) 与 src graphics/LuminRenderSystem.java 内 inner class LuminRende"
+ },
+ {
+  "obf": "dV",
+  "claimed": "BlurredBoxCommand(record, 26.2新增)",
+  "conf": "C",
+  "from": "C011",
+  "evidence": "Record组件(AABB, double)疑似(=box, blurStrength); 源码Render3DScheduler.BlurredBoxCommand(AABB box, double blurStrength) 结构接近但为private内部record(26.1.2); 26.2可能提取为顶层record; 无法同构确认真实类名, 仅列功能角色"
+ },
+ {
+  "obf": "DW",
+  "claimed": "颜色模式枚举(4值: Double/Rainbow/Single/Fade)",
+  "conf": "C",
+  "from": "C011",
+  "evidence": "4个枚举常量Double/Rainbow/Single/Fade为颜色渲染模式名称; 全src树检索无同名枚举(26.1.2无此类); candidates为空; 属26.2新增枚举, 真实类名不可证"
+ },
+ {
+  "obf": "Dw",
+  "claimed": "渲染工具类(RenderPass相关, 具体类名未定)",
+  "conf": "C",
+  "from": "C011",
+  "evidence": "静态方法 f(Object[]) 参数含RenderPass+int(int x,y,w,h)返回boolean; 判断是否在视口内并执行渲染操作; imports Dl(Setting)+RenderPass+yJ; 与ScissorUtils功能类似但import不同(Dw引Setting/ScissorUtils不引); candidates为空; 26.2可能重组了渲染工具, 真实类名不可"
+ },
+ {
+  "obf": "dw",
+  "claimed": "渲染状态/配置Record(6字段)",
+  "conf": "C",
+  "from": "C011",
+  "evidence": "Record组件(float, int, int, boolean, boolean, boolean)={ov, BU, bv, j1, jS, j9}; 访问器Ov()/BU()/Bv()/j1()/jS()/j9(); 全src树检索无匹配record; candidates为空; 可能为26.2渲染管线状态记录"
+ },
+ {
+  "obf": "dX",
+  "claimed": "网络请求工具类(HTTP, 具体类名未定)",
+  "conf": "C",
+  "from": "C011",
+  "evidence": "imports HttpRequest.Builder+Consumer<Exception>+InputStream+IOException; 构造器 Dl(Setting)+hi; 方法 M(Object[])反编译失败(switch异常); 静态bridge方法M(Lookup,String,MethodType,MethodHandle)处理indy分发; Consumer<Excepti"
+ },
+ {
+  "obf": "gE",
+  "claimed": "FlickParticle",
+  "conf": "A",
+  "from": "C018",
+  "evidence": "extends gs(EffectParticle)；构造器(iJ,Vec3,float)中 random(-0.04,0.04)/random(0.02,0.1)/random(-0.04,0.04) 赋值 xd/yd/zd 与 src FlickParticle 构造器完全一致；W=scale, x=age；M() 即 afterTick(): clamp((1-age*1.5),0.2,1."
+ },
+ {
+  "obf": "gs",
+  "claimed": "EffectParticle",
+  "conf": "A-",
+  "from": "C021",
+  "evidence": "abstract类720行；字段包含位置/缩放/alpha/纹理等粒子属性；方法s()(PoseStack渲染)/K()(Entity查询)/Z()(boolean)/X()(Identifier纹理选择)；gq(EffectParticle子类)extends它；26.2拆出为独立顶层类，26.1.2为MasEffectsParticleRenderer内嵌类"
+ },
+ {
+  "obf": "lT",
+  "claimed": "unident",
+  "conf": null,
+  "from": "C036",
+  "evidence": "枚举常量 Balance/Always/SlowBalance 在 26.1.2 源码中完全不存在；无 candidates；无 mc_imports；无 anchored_refs 可定位。可能是 26.2 新增枚举或常量名在版本间有大幅重命名"
+ },
+ {
+  "obf": "lt",
+  "claimed": "加密字符串常量表",
+  "conf": "B",
+  "from": "C036",
+  "evidence": "3464 行全部为 public static final String 字段（加密 Unicode 字符），无方法；是 hi 解密分发器的数据表。源码中无等价独立类（26.1.2 中字符串直接内联或使用不同结构）"
+ },
+ {
+  "obf": "lV",
+  "claimed": "unident",
+  "conf": null,
+  "from": "C036",
+  "evidence": "record(double vN, double vl) 仅 42 行，无 MC import；源码中未找到匹配的 2-double record；可能为 26.2 新增或 26.1.2 中结构不同"
+ },
+ {
+  "obf": "nx",
+  "claimed": "AccountSetting",
+  "conf": "A-",
+  "from": "C044",
+  "evidence": "extends nV(Setting), imports User, e()创建new User(UUID,name,Optional,Optional)存账号凭据; 构造器nx(String)→super(DJ,name); O()/a()读写JSON; g()返回用户名; 737行大部分为混淆switch开销"
+ },
+ {
+  "obf": "Oi",
+  "claimed": "着色器Uniform数据record（26.2新增）",
+  "conf": "C",
+  "from": "C048",
+  "evidence": "implements DynamicUniformStorage.DynamicUniform; 15组件: 12float+3Color; write()用Std140Builder.putVec4写入; 26.1.2源码中ShaderParams(13float)和ShaderColors(6Color)均不匹配此15组件结构; 可能为26.2新增的着色器uniform record"
+ },
+ {
+  "obf": "eX",
+  "claimed": "ScaffoldBlock",
+  "conf": "C",
+  "from": "C016",
+  "reason": "C 级推测不入库",
+  "evidence": "super=eh(HudModule)匹配; Xc(=StringSetting)D字段=自定义文字; XG b(IntSetting)和多个DV/DM=显示设置; Dx<X5>和Dx<lk>两组枚举=显示模式选择; Dx<D8> o=字体/渲染模式; Supplier<_j>=字体渲染缓存; X5"
+ },
+ {
+  "obf": "n5",
+  "claimed": "RowClickInterceptor",
+  "conf": "A",
+  "from": "C038",
+  "evidence": "精确结构匹配：@FunctionalInterface 接口，方法签名 boolean s(vh<?>, ih, MouseButtonEvent, boolean) 与源码 SettingListController.RowClickInterceptor handle(SettingRow<?>, UiRect, MouseButtonEvent, boolean isDoubleClick)"
+ },
+ {
+  "obf": "n2",
+  "claimed": "SessionData",
+  "conf": "A",
+  "from": "C038",
+  "evidence": "@SerializedName(\"accessToken\") String I 和 @SerializedName(\"selectedProfile\") yj l 与 Minecraft 认证会话数据格式完全匹配：accessToken + selectedProfile 是 Yggdrasil 认证响应的标准字段名。Gson 注解直接暴露明文字段名，无需解密。"
+ },
+ {
+  "obf": "nq",
+  "claimed": "CrystalSnapshot",
+  "conf": "A",
+  "from": "C042",
+  "evidence": "Record 6字段: EndCrystal jc + int GF + Vec3 HK + AABB c8 + boolean fv + boolean FJ 与 src CrystalAura.CrystalSnapshot(EndCrystal entity, int id, Vec3 pos, AABB box, boolean selfDamage, boolean targetDama"
+ },
+ {
+  "obf": "nQ",
+  "claimed": "ViaBedrockConfig",
+  "conf": "A",
+  "from": "C042",
+  "evidence": "extends ViaBedrockConfig; override save(File,Map) 和 shouldEnableExperimentalFeatures(); 非 epsilon 模块,是 ViaBedrock 库配置子类"
+ },
+ {
+  "obf": "OB",
+  "claimed": "MaterialTheme$SwitchMap",
+  "conf": "A",
+  "from": "C046",
+  "evidence": "静态int[] X 通过ne ordinal映射填充(9项); ne enum有9个常量(TonalSpot/Neutral/Vibrant/Expressive/Fidelity/Content/Rainbow/FruitSalad/Monochrome); 经典SwitchMap模式: values()[ordinal()]索引; 引用ne ordinal()方法; OB jar仅含静态初始化"
+ },
+ {
+  "obf": "Ob",
+  "claimed": "FilledFieldColors",
+  "conf": "A",
+  "from": "C046",
+  "evidence": "Record组件3个Color(gv/gB/gZ)完全匹配源码 record FilledFieldColors(Color text, Color caret, Color indicator); 3字段顺序一致; 类型完全吻合(java.awt.Color); Ob.java 49行 vs PanelElements.java FilledFieldColors 114行位置"
+ },
+ {
+  "obf": "O8",
+  "claimed": "AccountSetting",
+  "conf": "A-",
+  "from": "C046",
+  "evidence": "extends nV<O8>(Setting); implements zy; imports YggdrasilAuthenticationService+Environment+User(认证); 2个String字段(x,w)→凭据; z()方法执行登录验证; O(Object[])写JSON序列化; 847行; 与C044的nx(AccountSetting)功能相同但为不同实例(26.2"
+ },
+ {
+  "obf": "OA",
+  "claimed": "TextRenderer",
+  "conf": "B",
+  "from": "C046",
+  "evidence": "文本渲染工具类: e(zU,ih,double,double,_j,Xv)绘制文本(含颜色/阴影/透明度); O(Object[])计算文本宽度; t(Object[])布局验证; 常量5.0f/0.75f/8.0f为字体度量; imports _E(lH→字体度量)+_j(字体渲染器)+ih(字体)+zU(图形上下文)+Xv(字符串包装器); 无唯一指纹但角色明确"
+ },
+ {
+  "obf": "O6",
+  "claimed": "ShaderUniformParams",
+  "conf": "C",
+  "from": "C046",
+  "reason": "C 级推测不入库",
+  "evidence": "implements DynamicUniformStorage.DynamicUniform; write()调用putVec4(4个float); 组件Oq KA(ShaderParams:10字段含Color)+float cF; Oq在src中广泛用于着色器参数; DynamicUnifor"
+ },
+ {
+  "obf": "O7",
+  "claimed": "EntityPlacementContext",
+  "conf": "C",
+  "from": "C046",
+  "reason": "C 级推测不入库",
+  "evidence": "Record 7组件: LivingEntity gX + BlockPos mL + float uk + float u5 + Direction WL + Vec3 pn + uK HC; 包含实体+方块位置+方向+向量+自定义上下文(uK); MC imports BlockPos/Dire"
+ },
+ {
+  "obf": "O9",
+  "claimed": "TextRenderList",
+  "conf": "C",
+  "from": "C046",
+  "reason": "C 级推测不入库",
+  "evidence": "566行; List<yM> g(文本渲染元素列表) + XL n(文本布局) + vS w(渲染状态); T(Object[])遍历yM列表处理文本渲染; Z(Object[])获取列表长度; L(Object[])获取列表内容; 引用Setting(Dl.t()); src无精确匹配; 26.2"
+ },
+ {
+  "obf": "Oa",
+  "claimed": "PathFinder",
+  "conf": "C",
+  "from": "C046",
+  "reason": "C 级推测不入库",
+  "evidence": "11行功能接口; gv w(Object[])返回gv(FollowerPath=路径结果); 返回类型确认为路径相关; 但方法签名(Object[]→gv)与FollowerNavigator(LocalPlayer,LivingEntity,Vec3,FollowerConfig→Followe"
+ },
+ {
+  "obf": "OE",
+  "claimed": "Font",
+  "conf": "A",
+  "from": "C047",
+  "evidence": "STBTTFontinfo+Identifier+ByteBuffer字段；方法Z(行高)、B(字宽)、N(文本宽)、Y(int)均对应字体度量操作；构造函数接受Identifier/Path加载字体资源"
+ },
+ {
+  "obf": "Om",
+  "claimed": "弹道预测/轨迹计算类",
+  "conf": "B",
+  "from": "C049",
+  "evidence": "2344行, 导入全部投射物类型(FishingHook/LlamaSpit/AbstractArrow/ThrownTrident/ThrownEnderpearl等)及武器(BowItem/CrossbowItem/TridentItem), 12个gN静态字段定义各投射物物理参数(初始速度/drag/gravity/entityType), 实例字段含Entity/Vec3/EntityDi"
+ },
+ {
+  "obf": "On",
+  "claimed": "UI条目 record (bounds+action+size)",
+  "conf": "B",
+  "from": "C049",
+  "evidence": "136行Record, 字段 mu(String)=标签, jE(ih)=UI矩形四float, aI(df)=文件操作枚举(SAVE_AS/RELOAD/EXPORT/IMPORT/NEW/OPEN_FOLDER); 结合df枚举值为文件/设置面板条目; src无精确record匹配(26.2新增或重构)"
+ },
+ {
+  "obf": "Oo",
+  "claimed": "UI条目 record (bounds+component+action)",
+  "conf": "B",
+  "from": "C049",
+  "evidence": "51行Record, 字段 mu(String)=标签, jE(ih)=UI矩形, aI(df)=文件操作枚举; 与On结构相似(同三字段但df类型独立); 推测为同系列文件面板条目; src无精确匹配"
+ },
+ {
+  "obf": "OO",
+  "claimed": "字体图集/字形缓存类",
+  "conf": "B",
+  "from": "C049",
+  "evidence": "1407行, 实现AutoCloseable, 单例OO Y, 导入NativeImage(BufferedImage→NativeImage)/Font/Graphics2D/FontRenderContext, Map<String,d8>字形缓存, nm纹理管理器, y4字体配置; 结构匹配FontAtlas: 渲染Java Font字形到NativeImage供MC使用; src无精确匹配"
+ },
+ {
+  "obf": "ug",
+  "claimed": "SoundEntry",
+  "conf": "C",
+  "from": "C055",
+  "reason": "C 级推测不入库",
+  "evidence": "Record 5组件: Identifier yD(声音ID)+List<v0> qW(v0=Record(float JB,Color TI,String q8)声音变体列表)+int QD(优先级/索引)+String eM(声音名称)+float e5(音量/pitch); v0为嵌套声音描述"
+ },
+ {
+  "obf": "uh",
+  "claimed": "SwitchTableHelper",
+  "conf": "C",
+  "from": "C055",
+  "reason": "C 级推测不入库",
+  "evidence": "39行; static final int[] v=switch表+static初始化块向hi.a(\"j\")数组写入int值(true/2/3/4); 混淆工具生成的switch bootstrap辅助类; 无MC导入; 无anchor引用; 无源码对应"
+ },
+ {
+  "obf": "uI",
+  "claimed": "SettingsView",
+  "conf": "C",
+  "from": "C055",
+  "reason": "C 级推测不入库",
+  "evidence": "3008行implements _A(渲染接口); 字段含DV(ColorSetting)×2, DM(DoubleSetting)×2, XG(IntSetting), Xn(BoolSetting)×2+Map<y1,zH>(IdentityHashMap); T(Object[])渲染方法接收"
+ },
+ {
+  "obf": "ui",
+  "claimed": "ShapeRenderer",
+  "conf": "C",
+  "from": "C055",
+  "reason": "C 级推测不入库",
+  "evidence": "2338行implements _A(渲染接口); mc_imports含GpuBufferSlice+Std140SizeCalculator+RenderPass(GPU渲染原语); 字段含_t N+d5 F+List<uV> H+List<zw> I+List<nB> j+多int; Y(fl"
+ },
+ {
+  "obf": "uJ",
+  "claimed": "RenderUtils",
+  "conf": "C",
+  "from": "C055",
+  "reason": "C 级推测不入库",
+  "evidence": "3565行; V(Object[])→Xu(合并两个Xu矩形); z(Object[])→Xu(ih几何→Xu); K(Object[])(OC渲染器+ih几何+Color); j(Object[])(进度条渲染:clamp+Color+ih); O(Object[])(文本居中:OC渲染器+Str"
+ },
+ {
+  "obf": "uK",
+  "claimed": "Vec2f",
+  "conf": "C",
+  "from": "C055",
+  "reason": "C 级推测不入库",
+  "evidence": "46行; 2个float字段G/p; 构造函数(uK(float,float); getter/setter p()/f(); Z(float,float)批量设值; j(Object[])/b(Object[])单值设; A(Object[])复制另一个uK; 无MC导入; 简单2D坐标/向量类;"
+ },
+ {
+  "obf": "ut",
+  "claimed": "HitSound",
+  "conf": "A",
+  "from": "C058",
+  "evidence": "枚举4常量UwU/Nya/Moan/OFF，与SoundFX.java中private enum HitSound完全匹配"
+ },
+ {
+  "obf": "uw",
+  "claimed": "FXAAInfo",
+  "conf": "A",
+  "from": "C058",
+  "evidence": "record(uw.kZ,uw.kB) implements DynamicUniformStorage.DynamicUniform，write方法putVec4；FXAAShader.java中record FXAAInfo(float width, float height) implements DynamicUniformStorage.DynamicUniform，UNIFORMS_S"
+ },
+ {
+  "obf": "uX",
+  "claimed": "LineCommand",
+  "conf": "A",
+  "from": "C058",
+  "evidence": "record uX(Vec3 rc, Vec3 rG, int fk, float iT) 与 Render3DScheduler.java 中 record LineCommand(Vec3 from, Vec3 to, int color, float thickness) 字段类型序列完全匹配(Vec3,Vec3,int,float)"
+ },
+ {
+  "obf": "va",
+  "claimed": "SettingTab",
+  "conf": "A",
+  "from": "C060",
+  "evidence": "Record(String LO, List<Dl<?>> nb, nN qO); 字段=名称+settings列表+SettingGroup; 工厂方法C(name,group)/n(name)构造空ArrayList; candidates(EpsilonAddon/I18NFileGenerator)均为抽象类/工具类，与Record结构不匹配"
+ },
+ {
+  "obf": "vb",
+  "claimed": "Trail",
+  "conf": "A-",
+  "from": "C060",
+  "evidence": "213行; Vec3 H/O(from/to位置) + Color z + u8 N + int r/C(age/tick计数); 方法z(float)做lerp插值/10.0, b(Object[])计算camera-relative Vec3; 与particles.Trail的Vec3 interpolate(float)结构一致; 26.1.2版本中Trail内联，26.2可能提取为独立类"
+ },
+ {
+  "obf": "zZ",
+  "claimed": "DestroyBlockEvent?",
+  "conf": "C",
+  "from": "存量清理",
+  "reason": "C 级推测不入库",
+  "evidence": "字段 BlockPos 与 DestroyBlockEvent 吻合但缺 mixin 交叉"
+ },
+ {
+  "obf": "eH",
+  "claimed": "Stuck",
+  "conf": "C",
+  "from": "存量清理",
+  "reason": "C 级推测不入库",
+  "evidence": "MC-API 双向 Jaccard 互指(26.1.2 相似度字典)"
+ },
+ {
+  "obf": "uv",
+  "claimed": "AnchorBlast",
+  "conf": "C",
+  "from": "存量清理",
+  "reason": "C 级推测不入库",
+  "evidence": "MC-API 双向 Jaccard 互指(26.1.2 相似度字典)"
+ },
+ {
+  "obf": "eF",
+  "claimed": "Phase",
+  "conf": "C",
+  "from": "存量清理",
+  "reason": "C 级推测不入库",
+  "evidence": "MC-API 双向 Jaccard 互指(26.1.2 相似度字典)"
+ },
+ {
+  "obf": "n",
+  "claimed": "Disabler",
+  "conf": "C",
+  "from": "存量清理",
+  "reason": "C 级推测不入库",
+  "evidence": "MC-API 双向 Jaccard 互指(26.1.2 相似度字典)"
+ },
+ {
+  "obf": "f",
+  "claimed": "Stealer",
+  "conf": "C",
+  "from": "存量清理",
+  "reason": "C 级推测不入库",
+  "evidence": "MC-API 双向 Jaccard 互指(26.1.2 相似度字典)"
+ },
+ {
+  "obf": "el",
+  "claimed": "AspectRatio",
+  "conf": "C",
+  "from": "存量清理",
+  "reason": "C 级推测不入库",
+  "evidence": "锚点 MixinProjection 单引用; 4-double 配置参数疑似纵横比, 结构未与源码逐一核"
+ },
+ {
+  "obf": "eC",
+  "claimed": "NoRender(26.2扩展)",
+  "conf": "C",
+  "from": "存量清理",
+  "reason": "C 级推测不入库",
+  "evidence": "多 mixin: MixinCamera 去流体雾(FogType.NONE), MixinClientPacketListener handleAddEntity 实体类型过滤 eC.T.j(entityType), MixinParticleManager/MixinScreenEffectRe"
+ },
+ {
+  "obf": "e5",
+  "claimed": "CustomSky",
+  "conf": "C",
+  "from": "存量清理",
+  "reason": "C 级推测不入库",
+  "evidence": "jar MixinLevelRenderer.addCustomSkyPass(addSkyPass@RETURN): if(e5.F.N()) 守卫新增 FramePass 名字面量 \"epsilon_custom_sky\"(开发署名, 自定义天空特征确凿), lambda$addCustomSk"
+ },
+ {
+  "obf": "OT",
+  "claimed": "MinecraftGuiExtractionBridge2612",
+  "conf": "C",
+  "from": "存量清理",
+  "reason": "C 级推测不入库",
+  "evidence": "[复核降级] MixinGuiRenderer render/draw HEAD 注入点角色=GuiRenderer 的 GUI 抽取/渲染桥(持有 GuiRenderState+FeatureRenderDispatcher, implements AutoCloseable, 暴露 extrac"
+ },
+ {
+  "obf": "gG",
+  "claimed": "字体字形静态封装类(对应 26.1.2 MinecraftFontAdapter2612.glyph 的 26.2 拆出, extends BakedGlyph)?",
+  "conf": "C",
+  "from": "存量清理",
+  "reason": "C 级推测不入库",
+  "evidence": "注入点 MixinFont.onGetGlyph(method=getGlyph, HEAD, cancellable): jar `if (((Boolean)uc.v.u2.z()).booleanValue() && (gG2 = gG.g(n)) != null) cir.setReturn"
+ },
+ {
+  "obf": "ls",
+  "claimed": "字体宽度测量静态封装(util, 对应 26.1.2 adapter.width 的 26.2 拆出)?",
+  "conf": "C",
+  "from": "存量清理",
+  "reason": "C 级推测不入库",
+  "evidence": "注入点 MixinFont 三处 width 注入(method=width(String)/width(FormattedCharSequence)/width(FormattedText), HEAD, cancellable) 同形: jar `if (uc.v.u2.z() && (f = "
+ },
+ {
+  "obf": "e9",
+  "claimed": "TabList?(标签页/计分板名单模块, 26.2 新增)?",
+  "conf": "C",
+  "from": "存量清理",
+  "reason": "C 级推测不入库",
+  "evidence": "注入点 MixinHud.onExtractTabList(method=extractTabList, HEAD, cancellable): jar `if (e9.d.N()) { ci.cancel(); }` —— e9.d 为静态单例字段(INSTANCE 形), .N()=isEnab"
+ },
+ {
+  "obf": "u0",
+  "claimed": "Scoreboard?(计分板侧栏模块, 26.2 新增)?",
+  "conf": "C",
+  "from": "存量清理",
+  "reason": "C 级推测不入库",
+  "evidence": "注入点 MixinHud.onExtractScoreboardSidebar / displayScoreboardSidebar (extractScoreboardSidebar HEAD + displayScoreboardSidebar 两处 WrapOperation): jar 以 "
+ },
+ {
+  "obf": "Oe",
+  "claimed": "渲染管线/渲染通道构建工具类（RenderPipeline/RenderPass 构建器，确切类名未定）",
+  "conf": "C",
+  "from": "存量清理",
+  "reason": "C 级推测不入库",
+  "evidence": "注入点：MixinDynamicUniforms.onReset(@Inject DynamicUniforms.reset RETURN) 调 `Oe.B();`（与 dB.b()/dB.Z()/nK.Z() 并列）。jar 类体：com.github.epsilon.Oe 私有构造器静态工具类；"
+ },
+ {
+  "obf": "nK",
+  "claimed": "异步资源/数据加载缓存类（implements DS 接口，确切类名未定）",
+  "conf": "C",
+  "from": "存量清理",
+  "reason": "C 级推测不入库",
+  "evidence": "注入点：MixinDynamicUniforms.onReset：`nK.Z();`（与 dB.b()/dB.Z()/Oe.B() 并列）。jar 类体：com.github.epsilon.nK implements DS 接口，2361 行/244 个加密方法；字段含 ExecutorServi"
+ },
+ {
+  "obf": "iN",
+  "claimed": "DropdownPanelBase(vP实现, 26.2新增抽象面板基类)",
+  "conf": "C",
+  "from": "存量清理",
+  "reason": "C 级推测不入库",
+  "evidence": "abstract class iN implements vP; vP在26.1.2源码中不存在, 属26.2新增接口; iN有6个子类(i1/iC/ib/id/it/iu)均为GUI面板组件; 字段含多个String(Q,q,j=面板标识)+大量float(b/f/c/M/R/N/S/h/g/w/"
+ },
+ {
+  "obf": "in",
+  "claimed": "DynamicUniform记录(着色器uniform数据, 26.2新增)",
+  "conf": "C",
+  "from": "存量清理",
+  "reason": "C 级推测不入库",
+  "evidence": "extends Record implements DynamicUniformStorage.DynamicUniform; 字段zw f8(单字段); write(ByteBuffer)方法处理颜色数组: float[]/255.0f→putVec4(类似src FilterColor的getR"
+ },
+ {
+  "obf": "ij",
+  "claimed": "着色器/渲染管线数据record(26.2新增)",
+  "conf": "C",
+  "from": "存量清理",
+  "reason": "C 级推测不入库",
+  "evidence": "extends Record, 7组件: int cp + ByteBuffer hy + int CN + ByteBuffer hR + int CT + int c5 + int CQ; 2个ByteBuffer(疑为编译后着色器代码/纹理数据)+5个int(维度/元数据); 无MC导入, 无"
+ },
+ {
+  "obf": "ik",
+  "claimed": "hi分发辅助类(26.2新增)",
+  "conf": "C",
+  "from": "存量清理",
+  "reason": "C 级推测不入库",
+  "evidence": "22行极小类: int y + _t L + OV K + long M; _t和OV均为26.1.2源码不存在的类型; 构造器调hi.a()加密写入; 锚点仅SeQL, 无MC导入, 无候选, 无法判定角色"
+ },
+ {
+  "obf": "iL",
+  "claimed": "区块/方块交互数据record(26.2新增)",
+  "conf": "C",
+  "from": "存量清理",
+  "reason": "C 级推测不入库",
+  "evidence": "extends Record, 8组件含List<BlockPos> fu; 锚点SeQL; MC导入BlockPos; 候选DestroyBlockEvent/BlockCollisionEvent/StartDestroyBlockEvent均为事件类(非record, 有static INST"
+ },
+ {
+  "obf": "im",
+  "claimed": "数学/向量工具类(26.2新增)",
+  "conf": "C",
+  "from": "存量清理",
+  "reason": "C 级推测不入库",
+  "evidence": "147行类: 4个float字段(u,t,x,U)构成向量/颜色四元组; 静态indy blob(73项); P(Object[])方法含distance/scale计算(2.0f+field/4.0f, 结果×20.0f); 无MC导入, 无候选, 26.1.2源码无匹配类; 锚点仅SeQL, 无"
+ },
+ {
+  "obf": "iO",
+  "claimed": "资源引用record(Identifier+boolean, 26.2新增)",
+  "conf": "C",
+  "from": "存量清理",
+  "reason": "C 级推测不入库",
+  "evidence": "extends Record implements X6; 2组件: Identifier vk + boolean dr; X6在26.1.2源码不存在; 候选SoundKey为enum(非record)排除, ResourceLocationUtils已被gB占用, ClientSetting已"
+ },
+ {
+  "obf": "eX",
+  "claimed": "ScaffoldBlock",
+  "conf": "C",
+  "from": "存量清理",
+  "reason": "C 级推测不入库",
+  "evidence": "super=eh(HudModule)匹配; Xc(=StringSetting)D字段=自定义文字; XG b(IntSetting)和多个DV/DM=显示设置; Dx<X5>和Dx<lk>两组枚举=显示模式选择; Dx<D8> o=字体/渲染模式; Supplier<_j>=字体渲染缓存; X5"
+ },
+ {
+  "obf": "lm",
+  "claimed": "AddonPanelEntryRegistry",
+  "conf": "C",
+  "from": "存量清理",
+  "reason": "C 级推测不入库",
+  "evidence": "implements AutoCloseable; 843行,持有 Set<Integer> B(已注册 addon 索引集合) + y_ X(可能是 addon 注册表数据结构) + l5 g(PanelPopupHost) + int S(注册计数) + boolean u(是否已初始化); 方"
+ },
+ {
+  "obf": "nu",
+  "claimed": "ServerType",
+  "conf": "B",
+  "from": "C043",
+  "evidence": "枚举常量Static/Hypixel/Heypixel对应服务器类型; 26.1.2源码Scaffold.RotationMode有Hypixel但结构不同, Heypixel为26.2新增常量"
+ },
+ {
+  "obf": "nV",
+  "claimed": "AccountEntry",
+  "conf": "B",
+  "from": "C043",
+  "evidence": "abstract generic class<T extends nV<?>>; MC imports含User/SkinManager/YggdrasilAuthenticationService/PlayerSocialManager; 字段DJ(枚举含TheAltening/Cracked=账号类型)/X_(账号数据)/String(账号名); 抽象账户基类"
+ },
+ {
+  "obf": "nv",
+  "claimed": "LocalHttpServerRecord",
+  "conf": "B",
+  "from": "C043",
+  "evidence": "Record仅有2字段: HttpServer bV + CompletableFuture<String> ax; 唯一同时持有HttpServer和异步响应的record, 功能为本地HTTP服务包装"
+ },
+ {
+  "obf": "Xo",
+  "claimed": "DamagePriority",
+  "conf": "B",
+  "from": "C069",
+  "evidence": "sealed class Xo permits Xm,XR; Xo.Aggressive+Xo.Efficient 枚举值匹配 ZealotCrystalPlus.DamagePriority 内部枚举(Aggressive,Efficient); 26.1.2 为 private inner enum，26.2 重构为 sealed class"
+ },
+ {
+  "obf": "Xm",
+  "claimed": "DamagePriority.Efficient",
+  "conf": "B",
+  "from": "C069",
+  "evidence": "Xm extends Xo( DamagePriority); Xm.e(float,float)返回 f2-f 对应 Efficient.score(selfDamage,targetDamage)=targetDamage-selfDamage; 枚举值 Client/Silent 为 26.2 新增模式"
+ },
+ {
+  "obf": "Xl",
+  "claimed": "RotationMode",
+  "conf": "C",
+  "from": "C069",
+  "reason": "C 级推测不入库",
+  "evidence": "Enum 常量 Client+Silent 匹配 AimBot.Rotation 的 Rotation.Client/Silent 模式; AimBot.Rotation 为 private inner enum → 编译后为顶层类; C 级仅凭枚举常量名推测"
+ },
+ {
+  "obf": "XL",
+  "claimed": "UiRect",
+  "conf": "C",
+  "from": "C069",
+  "reason": "C 级推测不入库",
+  "evidence": "record(float bo,bE,bR,bY) 四个 float 字段; 被所有渲染命令类(d7,ds,gU,gj,nt,u6,v1,v3,vA,ve,yX,zP,Od)用作 bounds 字段, 与 lumingraphics 的 UiRect(x,y,w,h) 语义一致; n(XL) 为坐标"
+ },
+ {
+  "obf": "uB",
+  "claimed": "TextRenderRecord",
+  "conf": "C",
+  "from": "C054",
+  "reason": "C 级推测不入库",
+  "evidence": "Record implements _Q; fields: Color, float×2, ih(font metrics), String; _Q is sealed marker for rendering UI data types. No direct source match (26.2 "
+ },
+ {
+  "obf": "uD",
+  "claimed": "MethodLookupRecord",
+  "conf": "C",
+  "from": "C054",
+  "reason": "C 级推测不入库",
+  "evidence": "Record fields: yc(method lookup interface, MethodHandles.Lookup), String; likely stores method lookup context for scripting/invocation. No direct sour"
+ },
+ {
+  "obf": "ud",
+  "claimed": "PositionRenderRecord",
+  "conf": "C",
+  "from": "C054",
+  "reason": "C 级推测不入库",
+  "evidence": "Record implements _Q; fields: float×2, ih(font metrics); likely a 2D position+size data record for rendering elements. No direct source match."
+ },
+ {
+  "obf": "uC",
+  "claimed": "SwapMode",
+  "conf": "B",
+  "from": "C054",
+  "evidence": "Enum常量Silent,InvSwitch与src中Phase/Scaffold/ElytraFly的SwapMode内部枚举完全一致;26.2可能提取为顶层枚举类."
+ },
+ {
+  "obf": "Xb",
+  "claimed": "BreakMode",
+  "conf": "B",
+  "from": "C067",
+  "evidence": "枚举常量完全匹配: Off/Target/All/Own/Smart (5个)与ZealotCrystalPlus.BreakMode一致；src版(26.1.2)中为private inner enum，jar版(26.2)为顶层类；常量声明顺序不同(src: Off,Target,Own,Smart,jar: Off,Target,All,Own,Smart)属版本差异"
+ },
+ {
+  "obf": "Xt",
+  "claimed": "ThemePalette",
+  "conf": "A",
+  "from": "C071",
+  "evidence": "Record 26 Color字段(d9/dl/df/DZ/d8/DR/DA/dn/DM/dt/DF/dy/db/d5/d3/di/dz/dj/d1/d2/DX/DP/DB/de/DD/dk) + 构造器26 Object参数逐一强转Color + paletteDark/paletteLight静态工厂hi.a('G',hex,int)解密hex字符串; 源码MD3Theme.ThemePale"
+ },
+ {
+  "obf": "Xv",
+  "claimed": "ModuleSort",
+  "conf": "B",
+  "from": "C071",
+  "evidence": "Enum值ADDED/NAME/TYPE + 字段uT(TranslateComponent) + Comparator<nV>; 语义匹配:ADDED=插入序(无comparator),NAME=按名排序(lambda提取nV名),TYPE=按类型排序(组合comparator); 源码26.1.2 ModuleSort=Name/EnabledFirst/Addon值名不同但语义一致(26.1"
+ },
+ {
+  "obf": "Xw",
+  "claimed": "SettingSection",
+  "conf": "B",
+  "from": "C071",
+  "evidence": "Record字段is(SettingLayoutPlanner.Section) + List<zc<?>>; 源码ModuleButton.SettingSection:record(SettingLayoutPlanner.Section model, List<SettingWidget<?>> widgets); 字段类型模式匹配(Section+List)"
+ },
+ {
+  "obf": "yh",
+  "claimed": "SwingHand",
+  "conf": "B",
+  "from": "C076",
+  "evidence": "枚举常量 MainHand/OffHand/Auto 与 ZealotCrystalPlus.SwingHand 完全匹配; 26.1.2 为 ZealotCrystalPlus 内部 private enum, 26.2 提升为顶层类"
+ },
+ {
+  "obf": "yM",
+  "claimed": "RenderLayer",
+  "conf": "B",
+  "from": "C077",
+  "evidence": "sealed interface permits 12 impls; methods bounds()→XL, layer()→int, scissor()→Xu, sequence()→long 对应渲染层元素接口(边界/层级/裁剪/序列号); src 无直接对应但结构唯一"
+ },
+ {
+  "obf": "yn",
+  "claimed": "LuminRenderTarget",
+  "conf": "A-",
+  "from": "C077",
+  "evidence": "imports AbstractTexture/TextureManager/Identifier/GpuTexture/GpuTextureView/GpuSampler/CommandEncoder 与 src LuminRenderTarget 完全一致; 构造器创建 y4(LuminTexture)×2 + Identifier via fromNamespaceAndPath; 26.2"
+ },
+ {
+  "obf": "yO",
+  "claimed": "RegistryListSettingTypeDispatcher",
+  "conf": "B",
+  "from": "C077",
+  "evidence": "imports Xf(=RegistryListSetting$Type) + uT(=TranslateComponent); static j(Object[])→String 根据 Xf 类型分派翻译键; 219行含 switch 逻辑与算术混淆; 26.1.2 src 无直接对应(可能在26.2新增)"
+ },
+ {
+  "obf": "yP",
+  "claimed": "HudEditorScreenInterpolator",
+  "conf": "B",
+  "from": "C077",
+  "evidence": "implements DF(float计算接口); field yt(=HudEditorScreen); 构造器 private yP(yt); 方法 O(float)→float, q(String,float)→float 委托给 yt; 47行; 为 HudEditorScreen 提供浮点插值/计算功能"
+ },
+ {
+  "obf": "X4",
+  "claimed": "TabDefinition",
+  "conf": "A",
+  "from": "C066",
+  "evidence": "Record 组件 YO(g8=枚举)+pm(uT=TranslateComponent)。源码 ClientSettingPanel 内部类 record TabDefinition(PanelState.ClientSettingTab tab, TranslateComponent component) 完全匹配。g8=PanelState.ClientSettingTab"
+ },
+ {
+  "obf": "yo",
+  "claimed": "SettingSnapshot",
+  "conf": "C",
+  "from": "C077",
+  "reason": "C 级推测不入库",
+  "evidence": "Record 8组件(6 boolean+2 float); imports Dl(=Setting); 516行含复杂算术混淆; hashCode 确认字段 l9,lM,lg,g4,g5,l8,ly,lb; src 无直接对应; 角色推测为设置快照/配置记录"
+ },
+ {
+  "obf": "z6",
+  "claimed": "ShaderUniforms",
+  "conf": "A",
+  "from": "C081",
+  "evidence": "Record with 2 GpuBufferSlice fields (params,colors); exact match: ShaderHolder.java:351 'private record ShaderUniforms(GpuBufferSlice params, GpuBufferSlice colors)'"
+ },
+ {
+  "obf": "z9",
+  "claimed": "Difficulty_dispatch_bootstrap",
+  "conf": "B",
+  "from": "C081",
+  "evidence": "Static arrays + invokedynamic bootstrap method; uses ordinal() on Difficulty enum; builds switch dispatch tables for Difficulty; anchored to SeQL/字符串解密+调用分发核心; MC import: Difficulty"
+ },
+ {
+  "obf": "zA",
+  "claimed": "StringListSettingDropdownView",
+  "conf": "A-",
+  "from": "C081",
+  "evidence": "Extends zv<XF>(XF=StringListSetting); anchored to DropdownScreen/SeQL/StringListSetting; methods: Y() returns int from setting, L() returns string, X() renders; version 26.1.2 src has StringListSettin"
+ },
+ {
+  "obf": "za",
+  "claimed": "KeybindSettingView",
+  "conf": "A",
+  "from": "C081",
+  "evidence": "Extends zc<X0>(X0=KeybindSetting); anchored to KeybindSetting/SeQL/Setting; 880 lines; fields: _E animation, floats for keybind state; methods: b(Object[]) renders keybind UI, H()=16.0f, e(Object[]) h"
+ },
+ {
+  "obf": "yz",
+  "claimed": "Direction的switch map / invokedynamic bootstrap类(26.2新增)",
+  "conf": "A",
+  "from": "C080",
+  "evidence": "唯一指纹: mc_imports仅Direction; 80行; static int[] a + static initializer通过hi.a/dispatch based on ordinal pattern是典型的switch map / lambda bootstrap; 全src仅此模式+Direction import"
+ },
+ {
+  "obf": "z0",
+  "claimed": "AbstractNumberSettingRow(抽象数值滑块SettingRow基类, 26.2新增)",
+  "conf": "A-",
+  "from": "C080",
+  "evidence": "extends zc(SettingRow基类); 泛型 <S extends Dl<T>, T extends Number> (Number类型约束); abstract y(T)->String(数值转显示); 1428行; 源码DoubleSettingRow/IntSettingRow非抽象、行数较少(325/323行); z0是它们在26.2的抽象父类; 有dp字段(StepSize/"
+ },
+ {
+  "obf": "z5",
+  "claimed": "BlockHighlight的switch map(由BlockHighlight$Mode switch语句生成)",
+  "conf": "A",
+  "from": "C080",
+  "evidence": "唯一指纹: 39行; static final int[] N = new int[length] + static initializer通过hi.a/ordinal dispatch pattern; 与yz结构相同; z4=BlockHighlight$Mode, z5为对应switch map; src中BlockHighlight.Mode有switch语句使用Mode枚举"
+ },
+ {
+  "obf": "XR",
+  "claimed": "Aggressive",
+  "conf": "A",
+  "from": "C070",
+  "evidence": "final class extends Xo(DamagePriority); 方法 float e(float,float){return f2;}→返回 targetDamage 即 DamagePriority.Aggressive.score 的实现"
+ },
+ {
+  "obf": "yQ",
+  "claimed": "PlaceBypass",
+  "conf": "A",
+  "from": "C078",
+  "evidence": "enum 常量 Up/Down/Closest 与 ZealotCrystalPlus.java 内部 enum PlaceBypass { Up, Down, Closest } 完全匹配；3 个常量，142 行；standalone class 是 inner enum 提取产物"
+ },
+ {
+  "obf": "yR",
+  "claimed": "LungeMode",
+  "conf": "A",
+  "from": "C078",
+  "evidence": "enum 常量 DirectionBased/Above 与 SpearKill.java 内部 enum LungeMode { DirectionBased, Above } 完全匹配；2 个常量，123 行；standalone class 是 inner enum 提取产物"
+ },
+ {
+  "obf": "yr",
+  "claimed": "PacketPlaceMode",
+  "conf": "A",
+  "from": "C078",
+  "evidence": "enum 常量 Off/Weak/Strong 各带2个boolean字段(onRemove,onBreak)与 ZealotCrystalPlus.java 内部 enum PacketPlaceMode { Off(false,false), Weak(true,false), Strong(true,true) } 完全匹配；149 行"
+ },
+ {
+  "obf": "y",
+  "claimed": "疑 AutoWeapon 本体",
+  "conf": "B",
+  "from": "裁决移出",
+  "reason": "attack(Player,Entity) via gameMode.attack + 5 BoolSetting/IntSetting/DoubleSetting",
+  "evidence": "待下次确认"
+ },
+ {
+  "obf": "z",
+  "claimed": "26.2新增战斗模块(确切类名未定,非26.1.2已有模块)",
+  "conf": "C",
+  "from": "C080",
+  "reason": "C 级推测不入库",
+  "evidence": "extends e(Module); 940行(vY=Category.COMBAT); mc_imports含MultiPlayerGameMode+LocalPlayer+ServerboundSwingPacket+InteractionHand+Entity+LivingEntity+Pla"
+ },
+ {
+  "obf": "OT",
+  "claimed": "LuminRenderPipeline",
+  "conf": "B",
+  "from": "D007",
+  "evidence": "2209行implements AutoCloseable; MC导入GuiItemAtlas/OversizedItemRenderer/StagedVertexBuffer/Projection/FeatureRenderDispatcher/BlitRenderState均为Lumin渲染管线组件; 字段含Map<Object,OversizedItemRenderer>、GuiRender"
+ },
+ {
+  "obf": "lc",
+  "claimed": "TabOverlay",
+  "conf": "B",
+  "from": "D007",
+  "evidence": "4493行extends l8(非Module); MC导入Hud/ClientPacketListener/PlayerInfo/Component/FormattedText/Style/Objective/PlayerTeam/Scoreboard/TeamColor; 字段Comparator<PlayerInfo> a(玩家排序)/List<List<v0>> f(渲染行)/Suppli"
+ },
+ {
+  "obf": "nV",
+  "claimed": "AccountManager",
+  "conf": "B",
+  "from": "D007",
+  "evidence": "738行abstract class nV<T extends nV<?>>; MC导入Minecraft/User/PlayerSocialManager/ProfileKeyPairManager/ReportingContext/SkinManager/Services; 构造函数nV(DJ,String); 方法Z(User)调用YggdrasilAuthenticationService"
+ },
+ {
+  "obf": "iz",
+  "claimed": "26.2新增shader uniform record(14-float)",
+  "conf": "B",
+  "from": "D020",
+  "evidence": "record 14 float 字段 + implements DynamicUniformStorage.DynamicUniform + write(ByteBuffer) 用 putFloat 序列化；src 无 14-float DynamicUniform record（BlurUniforms=11, ShaderParams=13, SandboxInfo=7）；26.2 新增 sh"
+ },
+ {
+  "obf": "Oi",
+  "claimed": "26.2新增shader uniform record",
+  "conf": "B",
+  "from": "D020",
+  "evidence": "extends Record + implements DynamicUniformStorage.DynamicUniform；15 字段(3 Color + 12 float)；write(ByteBuffer) 用 putVec4 序列化 float 部分；字段类型组合(3 Color + 12 float)在 26.1.2 src 无匹配 record（ShaderColors=6 Col"
+ },
+ {
+  "obf": "Oe",
+  "claimed": "26.2新增render pipeline工厂",
+  "conf": "B",
+  "from": "D020",
+  "evidence": "静态方法 U/P/s/W 接收 RenderPipeline(±Identifier) 返回包装类型(Xi/g0/lZ/lO)；MC 导入 RenderPipeline/Identifier/PrimitiveTopology/RenderPass/VertexFormat；src LuminImmediateRenderer 为不同功能（创建 PosColorQuads/Lines 等顶点批处理"
+ },
+ {
+  "obf": "uY",
+  "claimed": "26.2新增MobCategory switch辅助类",
+  "conf": "B",
+  "from": "D020",
+  "evidence": "MC 导入 MobCategory；static int[] r 在 static{} 中通过 MobCategory ordinal switch 表达式赋值（编译器将 switch 生成为 int 数组查表）；方法 A(MethodHandles.Lookup,String,MethodType,MethodHandle) 为 SeQL indy bootstrap；src 无独立 MobCa"
+ },
+ {
+  "obf": "iZ",
+  "claimed": "26.2新增player/entity profile record",
+  "conf": "B",
+  "from": "D020",
+  "evidence": "Record 9 字段: Identifier cg + Color co/c3 + String s2/sg/sw/s9/sQ + UUID fz；Identifier+UUID+Color+String 组合在 src 无匹配 record；疑为玩家皮肤/资料 profile 数据结构，26.2 新增"
+ },
+ {
+  "obf": "gN",
+  "claimed": "26.2新增entity position snapshot record",
+  "conf": "B",
+  "from": "D020",
+  "evidence": "Record 7 字段: 5×double(UV/uf/u3/ub/um) + EntityType<?> si + n0 ny；double 坐标+EntityType 为实体位置快照模式；src 无对应独立 record（26.1.2 无此结构），26.2 新增"
+ },
+ {
+  "obf": "yb",
+  "claimed": "FontGlyphVisitorAdapter",
+  "conf": "B",
+  "from": "D011",
+  "evidence": "实现 Font.GlyphVisitor; 构造参数 OT(Matrix3x2fc,ScreenRectangle); acceptRenderable(TextRenderable) 创建 GlyphRenderState; 43行内部类; 26.1.2 无同名类(编译后匿名类提升为顶级类)"
+ },
+ {
+  "obf": "zs",
+  "claimed": "TotemEffectType",
+  "conf": "B",
+  "from": "D011",
+  "evidence": "Enum<zs>; 枚举常量 CONTAINER/FROZEN/NORMAL/POISONED/WITHERED/ABSORBING; 字段 Identifier×6; MC: Holder+Identifier+Player; 26.1.2 src无此类(26.2新增自定义图腾效果类型枚举)"
+ },
+ {
+  "obf": "zs",
+  "claimed": "StatusEffectType",
+  "conf": "B",
+  "from": "D011",
+  "evidence": "Enum<zs>; 枚举常量 CONTAINER/FROZEN/NORMAL/POISONED/WITHERED/ABSORBING(自定义状态效果); 字段 Identifier×6(每种效果关联资源); MC: Holder+Identifier+Player; 26.1.2 src无此类(26.2新增枚举)"
+ },
+ {
+  "obf": "X_",
+  "claimed": "PlayerSkinLoader(暂名)",
+  "conf": "B",
+  "from": "D017",
+  "evidence": "字段yy(皮肤数据类型)+String+boolean(m标志)；lambda$loadHead$0/1异步加载模式；P()/I()/S()/M()/y()方法处理头部纹理加载与JSON序列化；引用Minecraft实例执行线程切换"
+ },
+ {
+  "obf": "zJ",
+  "claimed": "InteractionEvent",
+  "conf": "B",
+  "from": "D017",
+  "evidence": "extends Enum<zJ>；21枚举值：IDLE/PANEL_OPEN/CANCEL/PANEL_CLOSE/SCROLL_DOWN/TOGGLE_ON/PRIMARY_CLICK/CONFIRM/HEAD_HOVER/TOGGLE_OFF/BUTTON_ACTION/BLINK/COLOR_PICK/DRAG/SLIDER_ADJUST/KEY_BIND/SCROLL_UP/MODULE_"
+ },
+ {
+  "obf": "vZ",
+  "claimed": "TranslatableComponentUtils",
+  "conf": "B",
+  "from": "D019",
+  "evidence": "静态 List<uT>(=TranslateComponent) E(约157个注册组件) + 静态方法 W(uT, Object[])→MutableComponent; MC导入 MutableComponent; 功能: 将 Epsilon TranslateComponent 转换为 MC MutableComponent(translatable); 26.1.2 src 无此类直接对应"
+ },
+ {
+  "obf": "Oc",
+  "claimed": "CrackedAccount",
+  "conf": "B",
+  "from": "D019",
+  "evidence": "extends nV(=Account基类, 737行, 含User/Minecraft/Services/SkinManager导入+JSON序列化); private String v(用户名字段); MC导入 User; z()重写(=isCracked方法, 返回用户名是否为空); 与 O8(=MicrosoftAccount) 为同级子类; 26.1.2 src 无Alt/Account"
+ },
+ {
+  "obf": "nf",
+  "claimed": "PlayerModel",
+  "conf": "B",
+  "from": "D019",
+  "evidence": "extends Enum, 2值(Niuren/Mengcha), 每值含 Identifier o 字段; 被 eY(=KillAura) 和 lI(渲染类) 引用; 常量名为中文(Niuren=牛人/Mengcha=萌茶)暗示角色/皮肤模型; 26.1.2 src 无完全匹配的双值Identifier枚举(iE=SoundKey已有更多值); 可能为26.2新增角色模型枚举"
+ },
+ {
+  "obf": "OF",
+  "claimed": "MicrosoftAccount",
+  "conf": "B",
+  "from": "D019",
+  "evidence": "extends nV(=Account基类); equals方法: 先检查instanceof OF, 再比较User(UUID); MC导入 User+UUID+Optional; 与 Oc(=CrackedAccount) 为同级子类; equals基于UUID匹配符合Microsoft账户特征; 26.1.2 src 无Alt/Account管理类(26.2新增)"
+ },
+ {
+  "obf": "gS",
+  "claimed": "MaceSlamResult",
+  "conf": "B",
+  "from": "D014",
+  "evidence": "Record类，8个字段：BlockPos+Direction+uK+double+int+boolean+BlockPos+Direction；mc导入BlockPos+Direction匹配攻击判定场景；26.2新增record（src无对应），从字段结构推断为锤击攻击的碰撞/方向结果记录（起点BlockPos+方向+距离+碰撞BlockPos+方向），命名为MaceSlamResult"
+ },
+ {
+  "obf": "nD",
+  "claimed": "WindBurstResult",
+  "conf": "B",
+  "from": "D014",
+  "evidence": "Record类，4个字段：Oy(未知类型)+List<BlockPos>+AABB+boolean；mc导入BlockPos+AABB匹配区域判定场景；26.2新增record（src无对应），从字段结构推断为风爆效果的结果记录（风爆类型+受影响方块列表+影响区域+是否成功），命名为WindBurstResult"
+ },
+ {
+  "obf": "vu",
+  "claimed": "ArmorBreakResult",
+  "conf": "B",
+  "from": "D014",
+  "evidence": "Record类，4个字段：AABB+int+float+Direction；mc导入Direction+AABB匹配方向+区域判定场景；26.2新增record（src无对应），从字段结构推断为护甲破坏效果的结果记录（破坏区域+破坏数量+伤害值+方向），命名为ArmorBreakResult"
+ },
+ {
+  "obf": "gZ",
+  "claimed": "EffectParticle subclass",
+  "conf": "B",
+  "from": "D009",
+  "evidence": "extends gs(EffectParticle); 6字段(V:float,g:int,z:iJ,S:float,y:float,Z:float); 锚点 EffectParticle+MasEffectsParticleRenderer; 291行; MC Identifier+PoseStack+Vec3+Entity+Pose+RandomSource; 是 EffectParticle"
+ },
+ {
+  "obf": "Oc",
+  "claimed": "OfflineAccount",
+  "conf": "B",
+  "from": "D019",
+  "evidence": "extends nV(=Account基类, 含User/Minecraft/Services导入+JSON序列化); 构造 Oc(String)=super(DJ,string); e(Object[])中从name+UUID构建User(username,uuid,空串,Optional.empty(),Optional)→离线模式; equals基于name比较; MC导入User; 与O8"
+ },
+ {
+  "obf": "OF",
+  "claimed": "OnlineAccount",
+  "conf": "B",
+  "from": "D019",
+  "evidence": "extends nV(=Account基类); 构造OF(String)=super(DJ,string); e(Object[])中从name构建User(name,uuid,token,Optional.empty(),Optional)→在线模式; equals基于UUID比较(实例同类型+UUID.equals); z()=login成功; MC导入User+UUID+Optional; "
+ },
+ {
+  "obf": "uu",
+  "claimed": "MobCategory-switch-bootstrap",
+  "conf": "B",
+  "from": "D022",
+  "evidence": "编译器生成的 invokedynamic switch bootstrap 类; 静态初始化器通过 MobCategory.ordinal() 构建 switch 表; 源码 ESP2D.java 有 switch(category) on MobCategory"
+ },
+ {
+  "obf": "dZ",
+  "claimed": "Difficulty-switch-bootstrap",
+  "conf": "B",
+  "from": "D022",
+  "evidence": "编译器生成的 invokedynamic switch bootstrap 类; 静态初始化器通过 Difficulty.ordinal() 构建 switch 表; 源码 ZealotCrystalPlus/DamageUtils 有 switch(difficulty) on Difficulty"
+ },
+ {
+  "obf": "yU",
+  "claimed": "EquipmentSlot-switch-bootstrap",
+  "conf": "B",
+  "from": "D022",
+  "evidence": "编译器生成的 invokedynamic switch bootstrap 类; 静态初始化器通过 EquipmentSlot.ordinal() 构建 switch 表; 源码 AutoWeapon/ZealotCrystalPlus/DamageUtils 等多处有 switch(slot) on EquipmentSlot"
+ },
+ {
+  "obf": "_L",
+  "claimed": "ConfigFileVisitor",
+  "conf": "A",
+  "from": "D033",
+  "evidence": "extends SimpleFileVisitor<Path>；字段Path J/Z + boolean T；f()方法(visitFile)做文件复制(Files.copy with CopyOption)；y()方法(preVisitDirectory)做目录创建(Files.createDirectories)；静态块含混淆字符串解密常量a；与ConfigHolder中SimpleFileV"
+ },
+ {
+  "obf": "_j",
+  "claimed": "UiTextMetrics",
+  "conf": "B",
+  "from": "D029",
+  "evidence": "implements _A(接口); 方法S(String,float,nK)→float, v(String,float)→float, X(String,float×8,Color,nK)等为文本宽度/高度度量; 导入RenderPass(MC渲染); v2 F为底层实现(vq/lP); 静态工厂S()和U()创建实例; src中UiTextMetrics被广泛用于textWidth/text"
+ },
+ {
+  "obf": "ih",
+  "claimed": "UiRect",
+  "conf": "B",
+  "from": "D031",
+  "evidence": "Record 4 float 字段 (ke=x, kz=y, kt=width, k5=height); 访问器 Ke()=x, Kz()=y, Kb()=x+width, K5()=y+height; X(double,double) 做边界包含测试; C(float,float) 偏移x/y后裁剪宽高; t(ih) 做 union(取min/max); 与 com.github.slmpc.l"
+ },
+ {
+  "obf": "lb",
+  "claimed": "SettingGroupRenderer",
+  "conf": "B",
+  "from": "D031",
+  "evidence": "字段 y3(Setting参考), Xu(渲染工具), List<yM>(行项集合), XL(当前选中/展开项); 方法 m()=计算高度, Q()=添加行, G()=状态检查, H()=渲染; 构造器 (y3, Xu) 取 Setting+渲染器; 锚点含 Setting; 26.2 新增, src 无直接对应"
+ },
+ {
+  "obf": "Dg",
+  "claimed": "BoundsChecker",
+  "conf": "B",
+  "from": "D031",
+  "evidence": "字段 ih T=UiRect(边界), int L=标识, boolean e=状态; 方法 L(ih,int,int,int,long) 对 6 个字段逐一做 == 比较 → 判定边界匹配; Y(Object[]) 处理布尔开关; 锚点含 Setting; 26.2 新增空间/边界判定工具类"
+ },
+ {
+  "obf": "y8",
+  "claimed": "AddonLifecycleManager",
+  "conf": "B",
+  "from": "D031",
+  "evidence": "implements AutoCloseable; 字段 Map<y3,Deque<_X>> 和 List<_X> 管理生命周期对象; close() 遍历 map 调用 _X.close() 并清空; x() 通过 computeIfAbsent 初始化 Deque; lambda$clear$0 为工厂; 锚点含 EpsilonAddon; 26.2 新增的 addon 资源生命周期管理器"
+ },
+ {
+  "obf": "X8",
+  "claimed": "ProtocolVersionSetting",
+  "conf": "B",
+  "from": "D036",
+  "evidence": "extends Dx<l4>(EnumSetting<l4>), l4枚举3值(Disabled/Auto/Enabled), 字段ProtocolVersionRange; ViaVersion兼容功能; 26.1.2 src无对应(ViaVersion为新依赖)"
+ },
+ {
+  "obf": "i4",
+  "claimed": "CrystalDamageInfo",
+  "conf": "B",
+  "from": "D036",
+  "evidence": "final类, 字段nq(=CrystalSnapshot)+float f/O(J方法设最小/最大浮点边界,W方法重置为MAX/MIN); anchor含CrystalSnapshot; 26.2新增CrystalAura伤害追踪辅助类"
+ },
+ {
+  "obf": "l8",
+  "claimed": "Element",
+  "conf": "B",
+  "from": "D036",
+  "evidence": "abstract类, protected final gk d(空基类引用), _Z K辅助, float P/k/N/Z坐标+int I索引, V(Color)->Color修改alpha, abstract B/n; 子类l0(l8)引用BlockTintSource, 为HUD元素渲染基类; 26.2新增抽象基类"
+ },
+ {
+  "obf": "n6",
+  "claimed": "DynamicUniformChunk",
+  "conf": "B",
+  "from": "D036",
+  "evidence": "字段Oq S/float z/vq o/_t W/yn v/GpuBufferSlice O/q, GpuBufferSlice用于GPU uniform管理; f(Object[])方法计算偏移量+写入uniform; 26.2 Lumin渲染管线新增的uniform chunk管理类"
+ },
+ {
+  "obf": "zh",
+  "claimed": "NotificationType",
+  "conf": "B",
+  "from": "D036",
+  "evidence": "7枚举常量Roll/Fall/Insert/Size/FadeOut/Rocket/Otkisuli均为动画/通知效果名; src Notifications模块使用NotificationMode, 26.2重构为独立枚举"
+ },
+ {
+  "obf": "nm",
+  "claimed": "PipelineStateRecord",
+  "conf": "B",
+  "from": "D027",
+  "evidence": "Record含Map<Integer, yG[]> pH+Color[] yL; 静态I()方法解析ByteBuffer→LinkedHashMap(按hash分发switch); 引用DL(boolean)+yG(渲染管线数据); 26.2新增类(src无对应), 角色为着色器管线状态解码记录"
+ },
+ {
+  "obf": "ys",
+  "claimed": "QuadPipelineA",
+  "conf": "B",
+  "from": "D027",
+  "evidence": "implements _A(渲染管线接口); d5(QuadRenderingInfo)=IndexType+GpuBufferSlice+GpuTextureView×2; Q(Object[])接收RenderPass绑定纹理渲染; K(Object[])返回boolean(状态检查); 引用_t(LuminRingBuffer); 26.2新增(src无对应), com.github.slm"
+ },
+ {
+  "obf": "v5",
+  "claimed": "QuadPipelineB",
+  "conf": "B",
+  "from": "D027",
+  "evidence": "implements _A(渲染管线接口); GpuBufferSlice i(DynamicUniform); W(Object[])渲染四边形坐标; 引用_t(LuminRingBuffer)+yJ(渲染参数Record); 与ys结构相似但使用不同GPU缓冲方案; 26.2新增(src无对应), com.github.slmpc.lumingraphics库渲染管线实现B"
+ },
+ {
+  "obf": "nT",
+  "claimed": "PathEasingHelper",
+  "conf": "B",
+  "from": "D027",
+  "evidence": "float常量B=3.5f/A=2.5f/k=10.0f/y=10.0f/H=2.5f/O=10.0f; 锚点Easing(lH); 引用zU(路径数据)+ih(2D点)+_E(Easing状态对象含lH C); D(Object[])做路径点插值+easing曲线计算; B(Object[])静态浮点插值工具; 26.2新增(src无对应), UI路径动画插值辅助类"
+ },
+ {
+  "obf": "yy",
+  "claimed": "LuminGpuTextureLoader",
+  "conf": "B",
+  "from": "D030",
+  "evidence": "extends y4(LuminTexture)；导入NativeImage/CommandEncoder/GpuTexture/GpuTextureView/GpuSampler/GpuSampler；构造函数从byte[]创建NativeImage→GPU纹理；静态方法p()→lD(texture,view,sampler)与源码LuminTexture(GpuTexture,GpuTextu"
+ },
+ {
+  "obf": "vx",
+  "claimed": "MarqueeTextRenderer",
+  "conf": "B",
+  "from": "D030",
+  "evidence": "implements AutoCloseable；List<XB> G(文本条目列表)；方法lambda$flushMarqueeTexts$0处理zU(渲染域)上marquee text绘制(位置+颜色+clip)；方法o(Object[])含ih(float,float,float)→viewport坐标；方法W(Object[])添加XB条目；方法s()清空列表；方法O()→_j(文本渲染器"
+ },
+ {
+  "obf": "DJ",
+  "claimed": "AccountType",
+  "conf": "B",
+  "from": "D039",
+  "evidence": "枚举常量 TheAltening/Cracked/Session/Microsoft 为账号认证类型；被 nV(DJ I) 基类及子类 O8(Session)/OF(TheAltening)/Oc(Cracked)/nx(Microsoft) 引用；26.1.2 源码无此枚举，26.2 新增"
+ },
+ {
+  "obf": "_r",
+  "claimed": "LoginStatus",
+  "conf": "B",
+  "from": "D039",
+  "evidence": "枚举常量 SESSION/CRACKED/NONE/ALTENING 为登录状态；被 _o（登录管理器）引用为 _r M 字段，默认值 _r.NONE；SCREAMING_CASE 命名风格为顶层枚举；26.1.2 源码无此枚举，26.2 新增"
+ },
+ {
+  "obf": "gU",
+  "claimed": "UiRenderBatch.RecordV1",
+  "conf": "B",
+  "from": "D040",
+  "evidence": "extends Record + implements yM(渲染管线接口)；14 record 组件 layer(int)/sequence(long)/bounds(XL=UiRect)/scissor(Xu)/多 float(rL/rE/r8/rm/rA)/Color dg/3×float[](nK/n8=nx)/int zF 完全匹配渲染批次数据结构；g() 方法返回 XL(UiRect)"
+ },
+ {
+  "obf": "d7",
+  "claimed": "UiRenderBatch.RecordV2",
+  "conf": "B",
+  "from": "D040",
+  "evidence": "extends Record + implements yM(同 gU)；17 record 组件含 scissor(Xu)/layer(int)/bounds(XL)/sequence(long) 与 gU 完全相同结构骨架；额外 X6 dH 字段+更多 float(xY/xU/xl/xx/xg/xr/xN/xD/xJ/x9/xR) 对应扩展渲染数据；与 gU 成对出现于渲染管线，为增强版批次记"
+ },
+ {
+  "obf": "_8",
+  "claimed": "ShapeType$SwitchMap",
+  "conf": "B",
+  "from": "D040",
+  "evidence": "引用 y3 枚举(常量 TEXT/TEXTURE/ROUND_RECT_OUTLINE/RECT/ROUND_RECT/BLUR_TEXT/SHADOW/TRIANGLE/GLITCH_TEXT/ARC=10值，为渲染形状类型枚举)；int[] T[5] 为 ordinal→index 映射数组；static block 解密 long[5] 并按 ordinal() 填充；编译器生成的 swit"
+ },
+ {
+  "obf": "XX",
+  "claimed": "TranslationConstants3",
+  "conf": "B",
+  "from": "D040",
+  "evidence": "3 个 static final uT(=TranslateComponent) 字段 u/Z/m；private 构造函数；static block 解密字符串数组(5字符串)并通过 hi.a(\"G\",...) 创建 TranslateComponent 实例；3个常量可能为 UI 标题/section 翻译组件；独立于 EpsilonTranslations(95个)的加密常量持有类"
+ },
+ {
+  "obf": "DE",
+  "claimed": "PanelTextFieldRenderer",
+  "conf": "B",
+  "from": "D040",
+  "evidence": "静态工具类(private 构造)；方法签名模式: K(zU=Render2D,ih=UiRect,...)=文本字段渲染, n(ih,float,float)=位置计算, Q(ih,float)=偏移计算, K(zU,ih,boolean,float)=buildFilledField→Ob(=FilledFieldColors), h(_j=TextMetrics,ih,String,...)"
+ },
+ {
+  "obf": "Ow",
+  "claimed": "UiLayerManager",
+  "conf": "B",
+  "from": "D040",
+  "evidence": "implements AutoCloseable + 引用 Df(=UiLayer)；字段 l5(O,疑似 Scene/Runtime)/y_(J,疑似 TextMetrics)/gy(t,疑似 UiTree)；z(Df)=按 UiLayer 返回 lm(疑似 UiRenderBatch)；close()/e()/p() 管理渲染资源生命周期；与 PanelScreen/DropdownScree"
+ },
+ {
+  "obf": "gC",
+  "claimed": "ModuleRegistry",
+  "conf": "B",
+  "from": "D040",
+  "evidence": "static e[](=Module[]) N + P()/F(e[]) getter/setter = 模块注册表；static double C(double,double)/float I(float,float)/int H(int,int) 为加密数学工具(clamp/max)；private 构造；static block 调用 IlilIlIlil.registerNativesFo"
+ },
+ {
+  "obf": "lt",
+  "claimed": "IconConstants",
+  "conf": "B",
+  "from": "D024",
+  "evidence": "纯常量类: 无 import/无 super/无 anchored_refs; 约 300+ 个 public static final String 字段，值均为 Unicode 转义(\\ueXXX 格式即 icon font codepoint); 3465 行与图标/资源常量表一致; 无方法体(仅字段声明)"
+ },
+ {
+  "obf": "lY",
+  "claimed": "StringDecryptor",
+  "conf": "B",
+  "from": "D049",
+  "evidence": "静态工具类, 109行; static initializer 含 XOR 字符串解密循环(XOR key + char[] 滚动解密), 产出 2 个 static final String 字段 (d,t); 与 hi(解密分发器) 同属字符串解密基础设施; 无 MC 导入/无锚点/无源码对应, 26.2 新增类"
+ },
+ {
+  "obf": "OY",
+  "claimed": "StringDispatch",
+  "conf": "B",
+  "from": "D049",
+  "evidence": "静态工具类, 109行; static initializer 含 long[] 加密表 (long[25]) + Integer[] 缓存表; static method N() 含加密 switch/if (CFR 反编译失败); 私有方法 a(int,long) 用 XOR+掩码从 long[] 表派发整数值; 与 hi(解密分发器) 结构同源, 属字符串解密+值分发基础设施; 26.2 新"
+ },
+ {
+  "obf": "yq",
+  "claimed": "ThemeStyleA",
+  "conf": "B",
+  "from": "D049",
+  "evidence": "Record, 106行, implements _Q; 8 float + 4 Color 字段 (UU/UG/UL/uu/UO/kk/kc/kx/US/KS/us/u8); 与 _7(11字段含ih)/gi(11字段) 同族 _Q 记录; 结构为渲染/主题配置记录; 无 MC 导入/无源码对应, 26.2 新增; _Q 接口身份未知"
+ },
+ {
+  "obf": "_G",
+  "claimed": "TextStyleConfig",
+  "conf": "B",
+  "from": "D049",
+  "evidence": "Record, 104行, 无实现接口; 11 float + 1 Ds (文本样式记录, 2 String+1 boolean+2 Color); 结构为文本渲染配置, Ds 提供字体/颜色样式; 与 _Q 族记录同批但无 _Q 接口; 26.2 新增"
+ },
+ {
+  "obf": "_7",
+  "claimed": "ThemeStyleB",
+  "conf": "B",
+  "from": "D049",
+  "evidence": "Record, 101行, implements _Q; 8 float + 3 Color + 1 ih (UiRect 边界类型, 4 float x/y/w/h); 与 yq/gi 同族 _Q 记录, 额外持有 ih 边界引用; 结构为渲染/主题配置记录; 26.2 新增"
+ },
+ {
+  "obf": "gi",
+  "claimed": "ThemeStyleC",
+  "conf": "B",
+  "from": "D049",
+  "evidence": "Record, 100行, implements _Q; 8 float + 3 Color 字段 (g3/g8/GZ/GO/NR/gk/GK/gu/gz/GN/g1); 与 yq/_7 同族 _Q 记录, 结构一致(无额外类型引用); 26.2 新增"
+ },
+ {
+  "obf": "v1",
+  "claimed": "DrawCall",
+  "conf": "B",
+  "from": "D049",
+  "evidence": "Record, 100行, implements yM; 唯一具有语义字段名的记录: layer(int)/sequence(long)/bounds(XL)/scissor(Xu=ScissorRect) + 4 float + 1 Color; XL 为 4-float 矩形边界记录; yM 为渲染元素接口; 语义字段名表明来自未混淆的渲染管线层; 26.2 新增"
+ },
+ {
+  "obf": "zr",
+  "claimed": "QuadVertexData",
+  "conf": "B",
+  "from": "D049",
+  "evidence": "Record, 95行, 无实现接口; 纯 10 float 字段 (pd/PX/PJ/pu/PZ/PQ/PP/PY/ph/pa); 无类型引用/无 Color; 私有方法 PC() 计算 pa+ph/2 (中点); 与 QuadRenderingInfo(d5) 同批渲染数据记录; 26.2 新增"
+ },
+ {
+  "obf": "ds",
+  "claimed": "TextRenderOp",
+  "conf": "B",
+  "from": "D048",
+  "evidence": "26.2 渲染管线 yM sealed interface 实现; 含 String r7 + nK font + Color + float + XL bounds + Xu scissor + layer/sequence; 对应 y3.TEXT 类型的文字绘制操作记录; 26.1.2 用外部库 UiTree.Scope.text()，26.2 内化为独立 Record"
+ },
+ {
+  "obf": "ve",
+  "claimed": "ShadowRenderOp",
+  "conf": "B",
+  "from": "D048",
+  "evidence": "26.2 渲染管线 yM sealed interface 实现; 含 4 个 Color 字段(ic/iq/iH/im) + 4 个 float(rj/rx/RK/RP) + XL bounds + Xu scissor + layer/sequence; 阴影渲染需要多色+多尺寸参数; 对应 y3.SHADOW"
+ },
+ {
+  "obf": "v3",
+  "claimed": "BlurTextRenderOp",
+  "conf": "B",
+  "from": "D048",
+  "evidence": "26.2 渲染管线 yM sealed interface 实现; 含 String lu + Oq FE(渐变/模糊参数) + nK cz(font) + Color wr + float eE/ed/eC + XL bounds + Xu scissor + layer/sequence; 对应 y3.BLUR_TEXT 模糊文字绘制操作"
+ },
+ {
+  "obf": "nt",
+  "claimed": "TextTextureRenderOp",
+  "conf": "B",
+  "from": "D048",
+  "evidence": "26.2 渲染管线 yM sealed interface 实现; 含 String hX(资源路径) + nK mv(font) + Color YT/ys + float gc/gh/gF + XL bounds + Xu scissor + layer/sequence; 对应 y3.TEXTURE 纹理绘制操作"
+ },
+ {
+  "obf": "vA",
+  "claimed": "RectRenderOp",
+  "conf": "B",
+  "from": "D048",
+  "evidence": "26.2 渲染管线 yM sealed interface 实现; 含 Color sU + 5 个 float(om/oj/ON/OQ/OL) + XL bounds + Xu scissor + layer/sequence; 最简单的绘制操作(矩形); 对应 y3.RECT 或 y3.ROUND_RECT"
+ },
+ {
+  "obf": "Xq",
+  "claimed": "QuadRenderOp",
+  "conf": "B",
+  "from": "D048",
+  "evidence": "26.2 _Q sealed interface 实现; 含 3 个 float[](w3/wO/wx) + 8 个 float + int NW + Color gd; float 数组表示顶点/UV 坐标; 与 u2 同属 _Q 接口，是四边形绘制操作"
+ },
+ {
+  "obf": "u2",
+  "claimed": "TexturedQuadRenderOp",
+  "conf": "B",
+  "from": "D048",
+  "evidence": "26.2 _Q sealed interface 实现; 含 X6 vf(纹理类型 sealed interface) + 13 个 float + Color fm; 与 Xq 同属 _Q 接口; X6 sealed interface permits iO/dq(纹理类型); 是带纹理的四边形绘制操作"
+ },
+ {
+  "obf": "vI",
+  "claimed": "RenderScope",
+  "conf": "B",
+  "from": "D048",
+  "evidence": "26.2 渲染作用域; 非 Record; 持有 zU(=UiTree.Scope) + ih(=bounds); 方法 G/text/X/rect/S/textAligned/F/render 创建 yM Record 类型的渲染操作; 有 ConstantCallSite bootstrap (类型混淆); 对应 26.1.2 的 com.github.slmpc.lumingraphics."
+ },
+ {
+  "obf": "XY",
+  "claimed": "SeQL/字符串解密+调用分发核心",
+  "conf": "A",
+  "from": "D057",
+  "evidence": "唯一 CallSite bootstrap 方法 L(Lookup,String,MethodType,MethodHandle) → 调用 hi.d() 解密 MethodHandle + hi.a(methodType) 转换；static block 向 hi.a(\"j\") 分发表注入 CallSite；引用 DJ（已知为 SeQL 辅助类）。此 INDY bootstrap 机制是 SeQ"
+ },
+ {
+  "obf": "nQ",
+  "claimed": "ViaBedrockConfig子类(26.2新增)",
+  "conf": "B",
+  "from": "D061",
+  "evidence": "直接继承ViaBedrockConfig，重写save()和shouldEnableExperimentalFeatures()，唯一可识别的非SeQL内部类"
+ },
+ {
+  "obf": "nv",
+  "claimed": "HTTP服务器包装Record(26.2新增)",
+  "conf": "B",
+  "from": "D061",
+  "evidence": "Record字段CompletableFuture<String>+HttpServer，SeQL管线中的HTTP服务端点包装器，src无对应"
+ },
+ {
+  "obf": "g0",
+  "claimed": "GpuRenderPass",
+  "conf": "B",
+  "from": "D065",
+  "evidence": "private field i2(=LuminImmediateRenderer,已知锚点)；N(Matrix4f,float,float,float,int)=绘制调用(proj+pos+scale+vertexCount)；J()=生命周期；SeQL解密方法体委托LuminImmediateRenderer；26.2新增轻量渲染包装类"
+ },
+ {
+  "obf": "g6",
+  "claimed": "switch bootstrap map",
+  "conf": "A",
+  "from": "D065",
+  "evidence": "静态 final int[] + try/catch(NoSuchFieldError) 填充序号到枚举ordinal映射；纯编译器生成的 switch bootstrap 合成类"
+ },
+ {
+  "obf": "OR",
+  "claimed": "switch bootstrap map",
+  "conf": "A",
+  "from": "D065",
+  "evidence": "与 g6 完全同构：static final int[] + try/catch(NoSuchFieldError) switch bootstrap 合成类"
+ },
+ {
+  "obf": "OV",
+  "claimed": "GpuTexturePair",
+  "conf": "B",
+  "from": "D065",
+  "evidence": "record(GpuTextureView kN, GpuSampler TX)；持有 GPU 纹理视图和采样器配对；方法 kN()→GpuTextureView, TX()→GpuSampler；MC导入 com.mojang.blaze3d.textures 精确匹配"
+ },
+ {
+  "obf": "ON",
+  "claimed": "AnimationPlaybackState",
+  "conf": "B",
+  "from": "D065",
+  "evidence": "final class；yI[] v=keyframes, int i=currentIndex, float k=duration, boolean U=looping, long x/Y=timing；私有构造；无 SeQL 加密方法→纯数据持有类"
+ },
+ {
+  "obf": "g5",
+  "claimed": "TempDir",
+  "conf": "B",
+  "from": "D065",
+  "evidence": "static Path X() 创建临时目录(FileAttribute+createDirectories+返回Path)；私有构造；27行极简工具类"
+ },
+ {
+  "obf": "_d",
+  "claimed": "ViaBackwardsConfig",
+  "conf": "A",
+  "from": "D065",
+  "evidence": "extends com.viaversion.viabackwards.ViaBackwardsConfig；save(File,Map) 无操作覆写；私有构造；23行极简兼容层；类名 ViaBackwardsConfig 在 import 中明文出现"
+ },
+ {
+  "obf": "n2",
+  "claimed": "MicrosoftAuthSession",
+  "conf": "B",
+  "from": "D066",
+  "evidence": "Gson字段组合: accessToken(String)+selectedProfile(yj{name+id}) 匹配MS OAuth登录响应; yj=Profile(name,id); 26.2新增"
+ },
+ {
+  "obf": "yS",
+  "claimed": "XboxAuthToken",
+  "conf": "B",
+  "from": "D066",
+  "evidence": "Gson字段组合: DisplayClaims(nd{xui[XH{uhs}]})+Token(String) 匹配Xbox Live认证令牌; nd=DisplayClaims, XH=uhs(user hash); 26.2新增"
+ },
+ {
+  "obf": "gG",
+  "claimed": "EpsilonFontGlyph",
+  "conf": "A",
+  "from": "E009",
+  "evidence": "implements BakedGlyph；字段 GlyphInfo/nK(→TtfFontLoader)/yW(→GlyphDescriptor)；static Map<yn,RenderType> L/T(→AA/NO_AA_RENDER_TYPES)；float 0.45f×2(→SHADOW_OFFSET/BOLD_OFFSET)；方法 create(int)/info()/renderT"
+ },
+ {
+  "obf": "dh",
+  "claimed": "GlyphInstance",
+  "conf": "A",
+  "from": "E009",
+  "evidence": "extends Record，implements TextRenderable.Styled；8字段：gG kv(→glyph)/float×4+int×2+Style/float(→x,y,color,shadowColor,style,boldOffset,shadowOffset)；方法 renderType/render/textureView/O()/left()/right()/to"
+ },
+ {
+  "obf": "ls",
+  "claimed": "EpsilonFontMetrics",
+  "conf": "A",
+  "from": "E009",
+  "evidence": "import FormattedCharSequence/FormattedText/Style/Identifier/FormattedCharSink；static final float F=7.0f/l=0.0f/e=3.0f/G=10.0f(→VANILLA_LINE_HEIGHT≈9→7是混淆)/LETTER_SPACING=0/SPACE_WIDTH=3；static nK b(→T"
+ },
+ {
+  "obf": "_9",
+  "claimed": "TraceResult",
+  "conf": "B",
+  "from": "E009",
+  "evidence": "extends Record，4字段：List<Entity> fo(→entities)/BlockHitResult wY(→hitResult)/List<Vec3> f4(→points)/int sy(→id/type)；import BlockHitResult/Entity/Vec3 与光线追踪结果一致；但官方 26.2 源码未见同名顶层 record，疑为 ZealotCrysta"
+ },
+ {
+  "obf": "OT",
+  "claimed": "EpsilonGuiRenderer",
+  "conf": "A",
+  "from": "E009",
+  "evidence": "implements AutoCloseable；字段 Map<Object,OversizedItemRenderer> F/GuiRenderState x/FeatureRenderDispatcher M/StagedVertexBuffer Q/Projection z/CubeMap j/ProjectionMatrixBuffer y/ScreenRectangle l/GuiIte"
+ },
+ {
+  "obf": "eR",
+  "claimed": "unidentifiable",
+  "conf": "-",
+  "from": "F001",
+  "evidence": "eR为渲染管线模块(extends e), 含RenderPipeline/BlendFunction/ColorTargetState/DepthStencilState/CompareOp字段, GUI Color计算方法, 19个字段; 4个候选(TtfGlyphAtlas/UiTree/TtfFontLoader/TtfFontFile)均不匹配: TtfGlyphAtlas仅6字段无管线"
+ },
+ {
+  "obf": "e3",
+  "claimed": "MixinGuiManager",
+  "conf": "A",
+  "from": "F001",
+  "evidence": "extends e(模块基类), 静态单例e3.q, 构造函数传(name,category); 导入net.minecraft.client.gui.Gui; 方法m(_y)参数含Screen+Gui, 逻辑为EventBus.post+screen管理; @yE=-200匹配@Mixin优先级; 322行与官方322行一致; 字段数(q,a,b,c共4个)与官方一致"
+ },
+ {
+  "obf": "eS",
+  "claimed": "unident",
+  "conf": "unident",
+  "from": "F008",
+  "evidence": "1183行Module，导入WebBlock/DropExperienceBlock/RedStoneOreBlock/Hidden0/IlilIlIlil。4个候选均为Mixin类且结构极不匹配(Jac≤0.2)：MixinWebBlock仅23行单方法，其余同理。DropExperienceBlock在官方源码中无任何出现，说明eS属于26.2-10.7版本新增或大改模块，官方26.2-8.1"
+ },
+ {
+  "obf": "dC",
+  "claimed": "TtfFontLoader",
+  "conf": "A",
+  "from": "F014",
+  "evidence": "字段对应：Identifier资源标识符、Map<String,Path>字体文件缓存、Path字体路径、LinkedHashSet已用导入、Locale语言区域设置；方法结构含CallSite/MethodHandle(invokedynamic用于字符串拼接)；功能为TTF字体加载与缓存，2484行含混淆膨胀"
+ },
+ {
+  "obf": "dC",
+  "claimed": "TtfFontLoader",
+  "conf": "A-",
+  "from": "G014",
+  "evidence": "imports Path/Identifier/LinkedHashSet/Map均指向字体加载；字段Path i, Map<String,Path> z为字体路径缓存；X2 V为字体渲染相关；volatile nK y/k/f为字体对象；方法n(Object[])做路径字符串处理；与官方TtfFontLoader的IFontLoader实现+TtfFontFile依赖一致"
+ },
+ {
+  "obf": "gz",
+  "claimed": "TextureCacheHolder",
+  "conf": "A-",
+  "from": "G014",
+  "evidence": "imports GPU资源(GpuBufferSlice/RenderPass/GpuSampler/GpuTextureView/Identifier)指向GPU纹理管理；方法addRotatedRoundedTexture接收8个Color+坐标参数，渲染圆角纹理；Map<Object,ik> U为纹理缓存映射；与官方TextureCacheHolder的Map<Identifier,Lumi"
+ },
+ {
+  "obf": "OE",
+  "claimed": "TtfFontFile",
+  "conf": "A",
+  "from": "F018",
+  "evidence": "字段结构逐项对应：STBTTFontinfo(fontInfo)、ByteBuffer(fontData)、int(padding)、float(scale)、int(pixelAscent→h)、int(fontHeight→U)；构造器(Identifier,int,int)/(Path,int,int)与官方TtfFontFile完全一致；方法generateGlyph→Y、getAdvan"
+ },
+ {
+  "obf": "u0",
+  "claimed": "unident",
+  "conf": "low",
+  "from": "G012",
+  "evidence": "u0继承e(Module)，而Watermark继承HudModule，继承体系不匹配；u0有7+设置(DM双精度/DV颜色/Xn布尔/Dh矩形/Supplier<y_>)远超Watermark的2个设置；无其他候选可匹配此复杂度"
+ },
+ {
+  "obf": "eP",
+  "claimed": "unidentifiable",
+  "conf": "-",
+  "from": "F004",
+  "evidence": "eP为大型渲染/ESP模块(extends e=Module)，1961行，含15+设置(DM=DoubleSetting, XG=IntegerSetting, Xn=BooleanSetting, Dx<vv>=EnumSetting, D1=容器实例2个)；方法f(Object[])处理D1+vv枚举渲染逻辑含1000/timing计算；n(Object[])含screen()访问和设置重置"
+ },
+ {
+  "obf": "n",
+  "claimed": "unidentifiable",
+  "conf": "-",
+  "from": "F004",
+  "evidence": "n为数据包过滤模块(extends e=Module)，203行，含ConcurrentLinkedQueue<Packet<?>> l缓存数据包、int m/a计数器；M(Object[])初始化队列+计数器；j(dQ)@yE检测ServerboundUseItemOnPacket/ServerboundUseItemPacket实例类型，满足条件时l.add(packet)+cancel+设置"
+ },
+ {
+  "obf": "p",
+  "claimed": "unidentifiable",
+  "conf": "-",
+  "from": "F004",
+  "evidence": "p为交互/放置/旋转模块(extends e=Module)，3043行，含多个设置(q/K/M/L=Boolean, l=XG整数范围, F/a=BlockPos, m=DM浮点, e=Direction+BlockPos)；方法r(Object[])处理BlockHitResult+Vec3+Direction含射线投射逻辑；t(Object[])处理距离+角度检查含AABB；B(Object"
+ },
+ {
+  "obf": "ed",
+  "claimed": "MixinLocalPlayer",
+  "conf": "B",
+  "from": "F009",
+  "reason": "Mixin* 非身份（误配）",
+  "evidence": "284行小型模块,extends e, boolean字段t, 2个@yE事件方法, 导入LocalPlayer, 方法l含isMoving()调用及速度值(float 2.0f/0.0f), 与MixinLocalPlayer的movem"
+ },
+ {
+  "obf": "o",
+  "claimed": "MixinLocalPlayer",
+  "conf": "B",
+  "from": "F009",
+  "reason": "Mixin* 非身份（误配）",
+  "evidence": "281行小型模块,extends e, boolean字段, 2个@yE事件方法, 导入LocalPlayer, 方法p含isShiftKeyDown()检查及setDeltaMovement操作(垂直+0.04加速度), 与MixinLo"
+ },
+ {
+  "obf": "T",
+  "claimed": "MixinPlayer",
+  "conf": "B",
+  "from": "F009",
+  "reason": "Mixin* 非身份（误配）",
+  "evidence": "3625行大型模块,extends e, 30+设置字段(Xn/DV/DM/XG/Dx), Deque<dJ>队列, LivingEntity M, Vec3 z, volatile boolean Q, 导入Packet+Clientbo"
+ },
+ {
+  "obf": "nK",
+  "claimed": "TtfFontLoader",
+  "conf": "A-",
+  "from": "G016",
+  "evidence": "nK implements DS（obf版IFontLoader），字段高度吻合：S=yW[128]→GlyphDescriptor[128], a=int[128]→int[128], U=boolean[128]→boolean[128], P=HashMap→glyphMap, O=HashMap→advanceMap, L=HashMap<CompletableFuture>→pendin"
+ },
+ {
+  "obf": "yK",
+  "claimed": "TextureCacheHolder",
+  "conf": "B",
+  "from": "G019",
+  "evidence": "含static final单例(b≈INSTANCE)、纹理相关字段(TextureTarget, Identifier)、缓存结构(EnumMap)；但官方TextureCacheHolder仅2字段，行数差异大(746 vs 20)，对应度低"
+ },
+ {
+  "obf": "yn",
+  "claimed": "TtfGlyphAtlas",
+  "conf": "A",
+  "from": "G024",
+  "evidence": "imports GPU纹理类(GpuSampler/GpuTexture/GpuTextureView/CommandEncoder)+AbstractTexture+TextureManager；字段有Identifier(textureId)、AtomicInteger(NEXT_TEXTURE_ID)、两处y4=LuminTexture、int X/a=currentX/currentRow"
+ },
+ {
+  "obf": "uZ",
+  "claimed": "BlockPlace",
+  "conf": "B",
+  "from": "G024",
+  "evidence": "extends u9(=Module)；字段yY/ie/BlockPos/uK+double=20.25+static String模块名；构造器调super(name)+设置category+默认值；findBlock用BlockItem过滤；onMotion+lambda设置rotation+BlockPos目标；调InteractionUtils(airPlace)+RotationUtil"
+ },
+ {
+  "obf": "dh",
+  "claimed": "EpsilonFontGlyph.GlyphInstance",
+  "conf": "A",
+  "from": "G021",
+  "evidence": "final Record implements TextRenderable.Styled+Dk(=EpsilonTextRenderable)与official GlyphInstance签名一致; 8个字段逐一对应: gG kv→glyph(EpsilonFontGlyph), float p5→x, float PO→y, int _8→color, int _T→shadowColor, "
+ },
+ {
+  "obf": "y2",
+  "claimed": "EpsilonGuiRenderer.Draw",
+  "conf": "A",
+  "from": "G033",
+  "evidence": "EpsilonGuiRenderer.java:402定义private record Draw(StagedVertexBuffer.Draw draw, RenderPipeline pipeline, TextureSetup textureSetup, @Nullable ScreenRectangle scissorArea)。我方y2是Record，4个字段类型完全一致(StagedV"
+ },
+ {
+  "obf": "yV",
+  "claimed": "WireframeSubmitNodeStorage",
+  "conf": "A",
+  "from": "G035",
+  "evidence": "final class extends SubmitNodeStorage; 私有构造; 两个方法 submitModel + submitCustomGeometry 参数签名与 WireframeEntityRenderer.java:211-230 的内部类 WireframeSubmitNodeStorage 完全一致 (submitModel: Model<S>, S, PoseStac"
+ },
+ {
+  "obf": "DH",
+  "claimed": "CaptureResult",
+  "conf": "A-",
+  "from": "G044",
+  "evidence": "final Record 两组件: List<_Q> XM + boolean ka; 官方 UiTree.java 内部 record CaptureResult(List<UiNode> nodes, boolean hasActiveAnimations) 字段类型完全对应(List+boolean); 同为 private final inner Record; 虽 CaptureResu"
+ },
+ {
+  "obf": "Dh",
+  "claimed": "Render2DBounds",
+  "conf": "A",
+  "from": "G044",
+  "evidence": "Record(float zG,zo,z5,z7) 四组件全 float; K()=z7-zG→width差, z()=z5-zo→height差, z(Dh)取各分量min/max→矩形合并/intersect; 官方 Render2DBounds(float x,y,width,height) right()=x+width, bottom()=y+height, include()取min("
+ },
+ {
+  "obf": "DI",
+  "claimed": "unknown",
+  "conf": "C",
+  "from": "G044",
+  "reason": "C 级推测不入库",
+  "evidence": "8行空类体: 无字段/无方法/无extends/无implements/无注解; 全official26搜索无顶层com.github.epsilon空类匹配; 事件类(AfterRender3DEvent等)已在其他obf中解出; 仅角色推测(编译占位/接口桩)"
+ },
+ {
+  "obf": "gC",
+  "claimed": "unknown",
+  "conf": "C",
+  "from": "G056",
+  "reason": "C 级推测不入库",
+  "evidence": "混淆框架类: IlilIlIlil.registerNativesForClass((int)19) + Hidden0.special_clinit_19_70(); 私有构造, static final long[] a + Integer[] b 为解密常量表; C(double,double"
+ },
+ {
+  "obf": "gF",
+  "claimed": "unknown",
+  "conf": "C",
+  "from": "G056",
+  "reason": "C 级推测不入库",
+  "evidence": "混淆框架类: static int[] x/s + bootstrap桥r(MethodHandles.Lookup,String,MethodType,MethodHandle); 静态初始化块含NoSuchFieldError catch块包围的CallSite赋值(StringSwitch辅助"
+ },
+ {
+  "obf": "gg",
+  "claimed": "unknown",
+  "conf": "C",
+  "from": "G056",
+  "reason": "C 级推测不入库",
+  "evidence": "final Record 5字段, @SerializedName标注: agent(String), username(String), password(String), clientToken(String), requestUser(boolean)。标准Yggdrasil认证请求数据结构,"
+ },
+ {
+  "obf": "d4",
+  "claimed": "UiTree.FilledFieldNode",
+  "conf": "A",
+  "from": "G039",
+  "evidence": "Record 3 字段逐项对应: MS(ih=UiRect)=bounds, u4(boolean)=focused, il(float)=hoverProgress; 官方 UiTree.FilledFieldNode(UiRect bounds, boolean focused, float hoverProgress) implements UiNode 完全一致; _Q=UiTree.Ui"
+ },
+ {
+  "obf": "d7",
+  "claimed": "Render2DCommand.Texture",
+  "conf": "A-",
+  "from": "G039",
+  "evidence": "Record 17 字段逐项对应: layer(int)/sequence(long)/bounds(XL=Render2DBounds)/scissor(Xu=Render2DScissor)/dH(X6=Render2DTexture) 类型骨架一致; 12×float(xr/xg/xl/xD/xY/xU/xN/xx/xJ/xR/x9/xR对应radiusTopLeft/radiusTopRi"
+ },
+ {
+  "obf": "d8",
+  "claimed": "SystemEmojiAtlas.EmojiGlyph",
+  "conf": "A",
+  "from": "G040",
+  "evidence": "Record字段: LuminTexture + 4×float (u0/v0/u1/v1); y4=LuminTexture (extends AbstractTexture, 构造GpuTexture+GpuTextureView+GpuSampler, close()逻辑一致); OO.java中构造new d8(y4, u0, v0, u1, v1)与SystemEmojiAtlas.ge"
+ },
+ {
+  "obf": "D9",
+  "claimed": "UiTree.PopupCardNode",
+  "conf": "A",
+  "from": "G040",
+  "evidence": "Record实现sealed interface _Q (permits约32个); 字段: ih(UiRect, 4×float带finite校验) + float + float + Color + Color 共5字段; 官方PopupCardNode: UiRect bounds, float radius, float blurRadius, Color shadowColor, Col"
+ },
+ {
+  "obf": "dg",
+  "claimed": "UiTree.Scope.Stack",
+  "conf": "A",
+  "from": "G043",
+  "evidence": "结构逐项对应：字段 ih S=bounds(float4)=UiRect, zU I=this$0=Scope(合成字段), float a=cursor; 构造(dzU,ih)=(Scope,UiRect)与官方Stack(Scope,UiRect)一一对应; x(float4)→ih 返回 new ih(x+w,y+h,w-h3-w4,h-h4) 对应 offset(xOffset,yOffs"
+ },
+ {
+  "obf": "ds",
+  "claimed": "Render2DCommand.Text",
+  "conf": "A-",
+  "from": "G049",
+  "evidence": "12字段Record，前9字段逐位对应：int layer, long sequence, Render2DBounds bounds(XL), Render2DScissor scissor(Xu), String text(r7), float x(tA), float y(ti), float scale(t3), Color color(rZ)。implements yM=Render2D"
+ },
+ {
+  "obf": "dt",
+  "claimed": "EpsilonFontGlyph.EpsilonGlyphInfo",
+  "conf": "A",
+  "from": "G049",
+  "evidence": "record实现GlyphInfo接口，单float字段PI。getAdvance()返回PI值。getShadowOffset()=0.45f, getBoldOffset()=0.45f与官方完全一致。官方EpsilonGlyphInfo为EpsilonFontGlyph内private record(float advance)implements GlyphInfo，方法和常量逐位匹配"
+ },
+ {
+  "obf": "g2",
+  "claimed": "UiTree.AssistChipNode",
+  "conf": "A",
+  "from": "G053",
+  "evidence": "Record implements _Q(UiNode), 8 fields match exactly: UiRect tp→bounds, String oJ→label, float kO→textScale, Color MN→background, Color m1→foreground, String oi→trailingIcon, float kI→trailingIconScal"
+ },
+ {
+  "obf": "gI",
+  "claimed": "OutlineNode",
+  "conf": "B",
+  "from": "G057",
+  "evidence": "Record implements _Q（=UiNode），10字段=9float+1Color，与OutlineNode(x,y,w,h,radiusTopLeft,TopRight,BottomRight,BottomLeft,outlineWidth,color)字段数/类型完全对应"
+ },
+ {
+  "obf": "gi",
+  "claimed": "ShadowNode",
+  "conf": "B",
+  "from": "G057",
+  "evidence": "Record implements _Q（=UiNode），11字段=8float+1boolean+3Color，与ShadowNode(x,y,w,h,radiusTopLeft,TopRight,BottomRight,BottomLeft,blurRadius,color)字段数/类型对应；hashCode含boolean字段NR，ShadowNode无boolean但字段总数匹配"
+ },
+ {
+  "obf": "gj",
+  "claimed": "Render2DCommand.Text",
+  "conf": "A",
+  "from": "G058",
+  "evidence": "final class extends Record implements yM(=Render2DCommand); 13字段序列: int layer/long sequence/Render2DBounds bounds/Render2DScissor scissor/String text/float x/float y/float scale/Color color/TtfFontLoa"
+ },
+ {
+  "obf": "Dd",
+  "claimed": "UiTree.RectGradientNode",
+  "conf": "A",
+  "from": "G041",
+  "evidence": "Record 8字段(4 float v2/vh/v_/vI + 4 Color wW/ww/wg/wT)，implements _Q(=UiTree.UiNode sealed interface)。official26 UiTree.java:733定义record RectGradientNode(float x, float y, float width, float height, Co"
+ },
+ {
+  "obf": "dM",
+  "claimed": "UiTree.ButtonElement",
+  "conf": "A",
+  "from": "G047",
+  "evidence": "6字段类型序列完全一致：(ih→UiRect bounds, float→radius, Color→background, String→label, float→labelScale, Color→labelColor)。zU.java直接new dM(ih,float,Color,String,float,Color)构造后提取bounds/label字段，字段语义完全对应ButtonEle"
+ },
+ {
+  "obf": "dq",
+  "claimed": "Render2DTexture.LuminRef",
+  "conf": "A",
+  "from": "G047",
+  "evidence": "单字段y4(LuminTexture)记录+实现X6(Render2DTexture sealed interface)。class_map确认y4→LuminTexture。X6是sealed interface permits iO(dq→IdentifierRef)和dq(LuminRef)，与官方Render2DTexture结构完全一致：record LuminRef(LuminText"
+ },
+ {
+  "obf": "gb",
+  "claimed": "PreparedBatch",
+  "conf": "A",
+  "from": "G055",
+  "evidence": "record字段: RenderPipeline zj + _X gl。官方PreparedBatch: RenderPipeline pipeline + RendererBundle renderers。_X=RendererBundle(AutoCloseable/3字段/静态工厂方法)。record结构完全一致；gb是Render2DScheduler的private inner reco"
+ },
+ {
+  "obf": "l5",
+  "claimed": "UiTheme",
+  "conf": "A",
+  "from": "G071",
+  "evidence": "l5 是25方法的接口（含重复签名共24条），UiTheme 恰好25方法。逐项对应：E(Color,Color,float)->lerp, O(Color,float,int)->stateLayer, R()->boolean对应light(), L()->long对应hoverAnimationDuration(), l(float)->Color对应switchTrack(float)等。"
+ },
+ {
+  "obf": "gU",
+  "claimed": "Render2DCommand.Shadow",
+  "conf": "A",
+  "from": "G060",
+  "evidence": "14字段完全对应: layer(int),sequence(long),bounds(XL→Render2DBounds),scissor(Xu→Render2DScissor),rL→radiusTopLeft,rE→radiusTopRight,r8→radiusBottomRight,rm→radiusBottomLeft,rA→blurRadius,dg(Color)→color,nK→o"
+ },
+ {
+  "obf": "gy",
+  "claimed": "unknown",
+  "conf": "C",
+  "from": "G062",
+  "reason": "C 级推测不入库",
+  "evidence": "混淆框架类: CallSite bootstrap桥 s(MethodHandles.Lookup,String,MethodType,MethodHandle)创建ConstantCallSite; 静态字段S(int)/a(String)/b(long[])/c(Integer[])为strin"
+ },
+ {
+  "obf": "i3",
+  "claimed": "unknown",
+  "conf": "C",
+  "from": "G062",
+  "reason": "C 级推测不入库",
+  "evidence": "仅16行Gson反序列化模型类: @SerializedName(\"SKIN\") public gX y; 其中gX为@SerializedName(\"url\") String O; 为皮肤配置DTO; official26(26.2-2026.8.1)中无任何Gson@SerializedName"
+ },
+ {
+  "obf": "ie",
+  "claimed": "unknown",
+  "conf": "C",
+  "from": "G065",
+  "reason": "C 级推测不入库",
+  "evidence": "final enum<ie> 3值: NONE/WATER/WATER_SUPPORT; 仅被uZ(Scaffold)引用(唯一import者); Scaffold在official26中有Mode(TellyBridge/GodBridge)、SwapMode(None/Normal/Silent"
+ },
+ {
+  "obf": "iF",
+  "claimed": "unknown",
+  "conf": "C",
+  "from": "G065",
+  "reason": "C 级推测不入库",
+  "evidence": "extends SimpleFileVisitor<Path>, 构造函数接收vz(ConfigHolder); 方法X(Object[])=visitFile(Path,BasicFileAttributes)返回CONTINUE, o(Object[])=visitFileFailed(Path"
+ },
+ {
+  "obf": "iG",
+  "claimed": "unknown",
+  "conf": "C",
+  "from": "G065",
+  "reason": "C 级推测不入库",
+  "evidence": "public final class iG extends Record implements _Q; 17字段: X6 tz + Color YE + 15个float(RV/RT/RW/rr/RG/re/ra/rh/rp/rf/r9/rb/RB/RE/ri); _Q为sealed interfa"
+ },
+ {
+  "obf": "l2",
+  "claimed": "com.github.epsilon.gui.lib.UiTree.RectNode",
+  "conf": "A",
+  "from": "G070",
+  "evidence": "l2为Record，5字段：4 float(rJ,rB,r5,rk)+1 Color(kl)；构造器(float,float,float,float,Color)；实现_Q。官方RectNode(float x,float y,float width,float height,Color color) implements UiNode精确匹配：字段类型数量完全一致，sealed interfac"
+ },
+ {
+  "obf": "ll",
+  "claimed": "ScissorNode",
+  "conf": "A",
+  "from": "G076",
+  "evidence": "Record 2字段: ih(UiRect)+List<_Q>(List<UiNode>); implements _Q(UiNode); hashCode字段序 zC;q2 对应 clip;children"
+ },
+ {
+  "obf": "lm",
+  "claimed": "UiRenderBatch",
+  "conf": "A",
+  "from": "G076",
+  "evidence": "AutoCloseable; Set<Integer>=HashSet(touchedLayers); l5(UiTheme); int(baseLayer); boolean(ownsScheduler); y_(Render2DScheduler); 构造函数(l5→UiTheme)匹配; 方法: F()→flush, v()→flushAndClear, H(int)→view, y()→b"
+ },
+ {
+  "obf": "ln",
+  "claimed": "RotatedTextNode",
+  "conf": "A",
+  "from": "G076",
+  "evidence": "Record 9字段: String(text)+float×6(position/scale/rotation)+Color(color)+nK(TtfFontLoader); implements _Q(UiNode); nK为TtfFontLoader(Path构造+线程池+HashMap<CompletableFuture>完全匹配)"
+ },
+ {
+  "obf": "nG",
+  "claimed": "Render2DBounds",
+  "conf": "B",
+  "from": "G083",
+  "evidence": "4-float Record(wp/w_/wh/WN)与Render2DBounds(float x, y, width, height)字段类型一致；nG被GPU渲染类_B/gG/nK/yW/yn使用，与render2d管线用途匹配；UiRect有相同4-float结构但属gui.lib；nG无UiRect的contains/inset等方法"
+ },
+ {
+  "obf": "nk",
+  "claimed": "Render2DBounds",
+  "conf": "A-",
+  "from": "G084",
+  "evidence": "Standalone record with 4 float fields (ZV=x,ZJ=y,z4=width,ZQ=height). y0.i(Object[]) computes a rectangle from width/height params and returns nk(f3,f4,var6_6,callSite) — a bounds rectangle. Only offi"
+ },
+ {
+  "obf": "nm",
+  "claimed": "SystemEmojiAtlas.ColorGlyphFont",
+  "conf": "A",
+  "from": "G084",
+  "evidence": "Record with Map<Integer,yG[]> pH and Color[] yL fields, matching ColorGlyphFont(layers,colors). W(int) returns yG[] — matches layers(int glyphId). Static method I(Object,Object) reads ByteBuffer data "
+ },
+ {
+  "obf": "nR",
+  "claimed": "UiTree.OutlineNode",
+  "conf": "A",
+  "from": "G086",
+  "evidence": "Record 10 字段类型序列 9×float+1×Color 与 src OutlineNode(float x,y,width,height,radiusTopLeft,radiusTopRight,radiusBottomRight,radiusBottomLeft,outlineWidth,Color color) 逐一吻合；implements _Q(=UiNode sealed in"
+ },
+ {
+  "obf": "O3",
+  "claimed": "com.github.epsilon.gui.lib.UiTree$Insets",
+  "conf": "A",
+  "from": "G090",
+  "evidence": "4 float字段(left,top,right,bottom)完全对应; p(float)↔all(float)返回全同值; w(float,float)↔symmetric(h,v); e(ih)↔apply(UiRect): inset逻辑一致(新x=rect.x+left,新y=rect.y+top,新w=max(0,w-left-right),新h=max(0,h-top-bottom)"
+ },
+ {
+  "obf": "ON",
+  "claimed": "TextLayout",
+  "conf": "A",
+  "from": "G095",
+  "evidence": "6字段final class, 仅private构造器无accessor; 字段类型序列: 数组→int→float→boolean→long→long; 官方TtfTextRenderer.TextLayout(LayoutRun[], int glyphCount, float width, boolean complete, long glyphRevision, long atlasRev"
+ },
+ {
+  "obf": "On",
+  "claimed": "InputElement",
+  "conf": "A",
+  "from": "G095",
+  "evidence": "17字段Record, 类型序列逐项匹配: (ih→UiRect, boolean, float×5, Color×4, String×2, float×2, u_→SelectionRange, Integer, Color); 官方UiTree.InputElement(UiRect, boolean focused, float hoverProgress, float focusRingP"
+ },
+ {
+  "obf": "OO",
+  "claimed": "SystemEmojiAtlas",
+  "conf": "A-",
+  "from": "G096",
+  "evidence": "均为AutoCloseable单例；字段逐项对应：Font K→emojiFont、Map<String,d8> c→glyphs(LinkedHashMap)、BufferedImage a→atlasImage、y4 Q→texture(LuminTexture)；均有NativeImage/BufferedImage像素级拷贝逻辑（X方法≈drawEmojiToAtlas的像素写入）；均有字"
+ },
+ {
+  "obf": "Ox",
+  "claimed": "UiTree.ButtonNode",
+  "conf": "A",
+  "from": "G100",
+  "evidence": "Record implements _Q, 9字段: 6×float(OJ,OS,o5,o3,OH,ou) + 2×Color(ss,sZ) + 1×String(vL); 与 UiTree.ButtonNode(float x, float y, float width, float height, float radius, Color background, String label, fl"
+ },
+ {
+  "obf": "u2",
+  "claimed": "UiTree.RotatedTextureNode",
+  "conf": "A",
+  "from": "G100",
+  "evidence": "Record implements _Q, 14字段: X6(vf) + 12×float(vm,vZ,va,vP,vz,vr,v5,v0,vF,vW,v7,v9) + 1×Color(fm); 与 UiTree.RotatedTextureNode(Render2DTexture texture, float x, float y, float width, float height, floa"
+ },
+ {
+  "obf": "nt",
+  "claimed": "Render2DCommand.Shadow",
+  "conf": "A",
+  "from": "G087",
+  "evidence": "yM=Render2DCommand(sealed interface, 7 permits official→12 obf); nt 11字段: int layer, long sequence, XL bounds, Xu scissor, String, float×3, Color×2, nK(TtfFontLoader); 官方Shadow 10字段: int layer, long s"
+ },
+ {
+  "obf": "nU",
+  "claimed": "UiTree.TextNode",
+  "conf": "B",
+  "from": "G087",
+  "evidence": "_Q=UiTree.UiNode(sealed interface, 26 permits official→31 obf); nU 8字段类型序列: String(MV), float(fr), float(fg), float(ff), Color(cs), float(FY), int(p3), nK(PR=TtfFontLoader); 官方TextNode 6字段: String tex"
+ },
+ {
+  "obf": "ih",
+  "claimed": "Render2DBounds",
+  "conf": "A",
+  "from": "G066",
+  "evidence": "Record 4 float 字段序列完全匹配: (ke→x, kz→y, kt→width, k5→height); 构造器验证 width/height≥0 并抛 IllegalArgumentException 与官方 of() 的 Math.max(0, width) 一致; Kb()=x+width 对应 right(); t(ih) 求交集对应 intersects()/include"
+ },
+ {
+  "obf": "ij",
+  "claimed": "TtfGlyph",
+  "conf": "A-",
+  "from": "G066",
+  "evidence": "Record 2 ByteBuffer + 5 int 字段; nK(字体加载类)用 HashMap<Integer, CompletableFuture<ij>> 存储字形; OE(STB字体读取器)方法返回 ij; yn(ATLAS渲染)用 ij 获取 Cp(字形宽度)/C5(偏移) 做 1024.0f 归一化 UV 坐标; 官方 TtfGlyph(ByteBuffer glyphData, "
+ },
+ {
+  "obf": "Ou",
+  "claimed": "OutlineNode",
+  "conf": "A",
+  "from": "G099",
+  "evidence": "record 实现 _Q(=UiNode); 9 字段类型序列: float×8 + Color(=outlineWidth + color); 构造 Ou(float,float,float,float,float,float,float,float,Color) 与 src OutlineNode(float x, float y, float width, float height, flo"
+ },
+ {
+  "obf": "ip",
+  "claimed": "Render2DScheduler.BatchPlanner",
+  "conf": "A-",
+  "from": "G068",
+  "evidence": "final class; lambda$plan$0/lambda$plan$1对应Comparator.comparingInt(ToIntFunction)/thenComparingLong(ToLongFunction); 使用LinkedHashMap<BatchKey,BatchGroup>+ArrayList+Comparator排序; lambda$plan$0从yM(=Rende"
+ },
+ {
+  "obf": "uB",
+  "claimed": "UiTree.IconButtonNode",
+  "conf": "A",
+  "from": "G102",
+  "evidence": "Record implementing _Q(=UiNode), 5 fields: ih(UiRect)mo, String CF(=label), float aa(=scale), Color HX(=tone), float AJ(=hoverProgress) — field types/order exact match to official IconButtonNode(UiRec"
+ },
+ {
+  "obf": "uS",
+  "claimed": "com.github.epsilon.gui.lib.UiTree$ViewportNode",
+  "conf": "A",
+  "from": "G107",
+  "evidence": "Record类型、implements _Q(=UiNode sealed interface)；8字段类型序列完全匹配：vx(=UiContentBuffer)+ih(=UiRect)+float×3(=scroll,maxScroll,contentHeight)+int×2(=mouseX,mouseY)+List<_Q>(=List<UiNode> children)；equals/has"
+ },
+ {
+  "obf": "uU",
+  "claimed": "com.github.epsilon.events.bus.EventPriority",
+  "conf": "A-",
+  "from": "G107",
+  "evidence": "5个public static final int字段(s,V,F,T=0,u)精确匹配EventPriority(HIGHEST,HIGH,MEDIUM=0,LOW,LOWEST)；T=0对应MEDIUM=0为确认值；无方法、纯常量类结构一致；XOR解码长字符串为int数组是标准混淆常量模式；字段名无直接对应但结构唯一匹配"
+ },
+ {
+  "obf": "ux",
+  "claimed": "SegmentedControlNode",
+  "conf": "A-",
+  "from": "G108",
+  "evidence": "record implements _Q(=UiNode sealed interface); 构造器 ux(ih=UiRect, String, String, float, float) 与官方 SegmentedControlNode(UiRect bounds, String leadingLabel, String trailingLabel, float progress, float"
+ },
+ {
+  "obf": "lb",
+  "claimed": "unknown",
+  "conf": "C",
+  "from": "G073",
+  "reason": "C 级推测不入库",
+  "evidence": "final class 474行, 无MC imports; 字段y3/Xu(LuminRenderSystem.ScissorRect)/List<yM>/XL均未在class_map中识别; 构造器private(y3,Xu); 方法Q(yM)=add到List+B设置XL状态; H(lb)=a"
+ },
+ {
+  "obf": "lD",
+  "claimed": "unknown",
+  "conf": "C",
+  "from": "G073",
+  "reason": "C 级推测不入库",
+  "evidence": "57行 Record 3字段: GpuTexture tn + GpuTextureView WB + GpuSampler cc; 使用ObjectMethods.bootstrap确认Record语义; 构造器private(GpuTexture,GpuTextureView,GpuSample"
+ },
+ {
+  "obf": "lF",
+  "claimed": "unknown",
+  "conf": "C",
+  "from": "G073",
+  "reason": "C 级推测不入库",
+  "evidence": "extends l8(26.2新增抽象UI基类, 无official26对应); 737行; 导入lH(Easing)/_E(Animation)/_j(文本渲染器)/zU(UiTree.Scope); 字段Supplier<Long> S/b(时间值), _E A=Animation(接受lH+l"
+ },
+ {
+  "obf": "OI",
+  "claimed": "unident",
+  "conf": "N/A",
+  "from": "G094",
+  "evidence": "2值枚举 Solid/Gradient，语义为渲染填充模式(实心/渐变)。官方26.2-2026.8.1源码中未找到完全匹配的枚举：ShaderHolder.Shader有5值(Default/Smoke/Gradient/Snow/Fade)，FireflyESP.ColorMode有3值(Solid/Blend/Rainbow)，ModuleList.ColorMode有4值(Double/R"
+ },
+ {
+  "obf": "Ok",
+  "claimed": "unident",
+  "conf": "N/A",
+  "from": "G094",
+  "evidence": "Record含3字段：nK(未知类型)、String、float。被vq类(疑似渲染调度器)用作Map键(Map<Ok,Float>和<Map<Ok,ON>)。官方26.2-2026.8.1源码中未找到精确匹配的3字段record：Render2DScissor有4 int字段，ScaffoldBlock.AnimationState有3 float字段，Render3DScheduler.Lin"
+ },
+ {
+  "obf": "u_",
+  "claimed": "SelectionRange",
+  "conf": "A",
+  "from": "G109",
+  "evidence": "Record(int ho, int ha)共2个int字段; 官方UiTree.SelectionRange(int start, int end)结构完全一致; G095已确认On=InputElement含u_字段对应SelectionRange; 字段数+类型序列+Record结构逐项匹配; accessor Ho()/Ha()对应 start()/end()"
+ },
+ {
+  "obf": "v5",
+  "claimed": "TriangleRenderer",
+  "conf": "B",
+  "from": "G111",
+  "evidence": "implements _A(=IRenderer); V(Object[])取6float+Color→与TriangleRenderer.addTriangle(float,float,float,float,float,float,Color)签名完全吻合; W(Object[])取4int=setScissor(x,y,w,h); 字段_t d=LuminRingBuffer确认(已有cla"
+ },
+ {
+  "obf": "vO",
+  "claimed": "TtfTextRenderer$widthCache",
+  "conf": "A",
+  "from": "G114",
+  "evidence": "extends LinkedHashMap<Ok,Float>=LinkedHashMap<LayoutKey,Float>; 构造器(vq/int/float/boolean)与官方TtfTextRenderer中widthCache匿名类完全一致(intial capacity 64, loadFactor 0.75, accessOrder true); removeEldestEntry "
+ },
+ {
+  "obf": "X6",
+  "claimed": "Render2DTexture",
+  "conf": "A",
+  "from": "G119",
+  "evidence": "均为无方法 sealed interface；permits 两个 Record：iO(Identifier vk, boolean dr) = IdentifierRef(Identifier identifier, boolean linearFilter)，dq(y4 i1) = LuminRef(LuminTexture texture)。字段类型一一对应。"
+ },
+ {
+  "obf": "XB",
+  "claimed": "UiTree.MarqueeTextNode",
+  "conf": "A-",
+  "from": "G120",
+  "evidence": "7字段Record逐一对应: (String vd=text, float LM=x, float l6=y, float LL=scale, Color eo=color, nK lk=fontLoader=TtfFontLoader, ih OY=clip=UiRect); 字段类型序列(String,float,float,float,Color,TtfFontLoader,UiRect)与"
+ },
+ {
+  "obf": "Od",
+  "claimed": "Render2DCommand.Rect",
+  "conf": "A",
+  "from": "G093",
+  "evidence": "extends Record implements yM(=Render2DCommand); 8字段逐一对应: int layer, long sequence, XL bounds(=Render2DBounds), Xu scissor(=Render2DScissor), 4×Color(vb/VP/VN/VF)=topLeft/bottomLeft/bottomRight/topRigh"
+ },
+ {
+  "obf": "OF",
+  "claimed": "unident",
+  "conf": "",
+  "from": "G093",
+  "evidence": "extends nV<OF>(nV未映射,非官方基类); 构造器OF(String)→super(DJ,string); e(Object[])中创建net.minecraft.client.User(name,UUID,\"\",Optional.empty(),Optional); equals基于UUID匹配; 显然是Account相关类(MicrosoftAccount/OnlineAccou"
+ },
+ {
+  "obf": "OG",
+  "claimed": "unident",
+  "conf": "",
+  "from": "G093",
+  "evidence": "39行; static final int[4] x数组; 静态初始化器通过NoSuchFieldError try-catch设置x[0..3]=1..4; 13个加密方法; 无super/interfaces; 是enum辅助类(switch/ordinal映射); 但official26中无匹配的4值枚举类(已排除HoleShape/KillAura.ESPMode等已映射枚举); 无明确结"
+ },
+ {
+  "obf": "Or",
+  "claimed": "InputNode",
+  "conf": "A",
+  "from": "G098",
+  "evidence": "record Or(On xC) implements _Q(UiNode) 与 record InputNode(InputElement element) implements UiNode 结构逐项吻合: 两者均为单字段record+实现UiNode。On(17字段: ih+boolean+6×float+2×String+SelectionRange+5×Color+Integer) 与 "
+ },
+ {
+  "obf": "Ot",
+  "claimed": "Render2DScheduler.CommandStore",
+  "conf": "A",
+  "from": "G098",
+  "evidence": "final class Ot: Int2ObjectMap<O9>=Int2ObjectOpenHashMap + int M(constructor param) + add/get/contains/remove/keySet/size 方法签名与 CommandStore: Int2ObjectMap<LayerBucket>=Int2ObjectOpenHashMap + int quad"
+ },
+ {
+  "obf": "ui",
+  "claimed": "RoundRectRenderer",
+  "conf": "B",
+  "from": "G104",
+  "evidence": "implements _A(=IRenderer)确认；导入GpuBufferSlice/Std140SizeCalculator/RenderPass；d5 F=QuadRenderingInfo(class_map已确认)；_t N+_t p=2个LuminRingBuffer(class_map确认)；Y()方法签名(x,y,w,h,radius,stroke,innerRadius,sha"
+ },
+ {
+  "obf": "v1",
+  "claimed": "Render2DCommand.Triangle",
+  "conf": "A",
+  "from": "G110",
+  "evidence": "Record with 9 fields: (int layer, long sequence, XL bounds, Xu scissor, 4×float, Color). Field types/count exactly match official Triangle: (int, long, Render2DBounds, Render2DScissor, float centerX, "
+ },
+ {
+  "obf": "v2",
+  "claimed": "ITextRenderer",
+  "conf": "A-",
+  "from": "G110",
+  "evidence": "Interface with 14 methods matching ITextRenderer's structure: b(String,float,float,float,Color,nK)=addText(6 params), V(String,float,float,float,Color,nK,float,float,float)=addRotatedText, l(String,fl"
+ },
+ {
+  "obf": "v3",
+  "claimed": "Render2DCommand.Text",
+  "conf": "A-",
+  "from": "G110",
+  "evidence": "Record with 11 fields: (int layer, long sequence, XL bounds, Xu scissor, String lu, 3×float, Color wr, Oq FE, nK cz). Maps to official Text: (int, long, Render2DBounds, Render2DScissor, String text, f"
+ },
+ {
+  "obf": "vq",
+  "claimed": "TtfTextRenderer",
+  "conf": "A",
+  "from": "G116",
+  "evidence": "o(float,nK)返回 fontHeight*0.35f*renderScale*scale 完全匹配 getHeight(float,TtfFontLoader); o(int,int,int,int)创建yJ(=ScissorRect)匹配setScissor; 构造(long,lP)匹配(long bufferSize,LuminRingBuffer); 常量0.35f=DEFAULT_"
+ },
+ {
+  "obf": "vr",
+  "claimed": "Render2DBounds",
+  "conf": "B",
+  "from": "G116",
+  "evidence": "extends Record 4 float字段(NG/np/n1/nz)匹配Render2DBounds(x,y,width,height); static A()返回NaN×4匹配empty bounds模式; 在vq(TtfTextRenderer)渲染管线上下文中使用; vS(=QuadTreeBucket)的bounds字段类型一致; 单信号:4-float record+NAN工厂方法"
+ },
+ {
+  "obf": "vS",
+  "claimed": "Render2DScheduler.QuadTreeBucket",
+  "conf": "A",
+  "from": "G116",
+  "evidence": "vS[] Y递归数组=QuadTreeBucket[] children; y(Object[])递增p(=count)+children非null时insertIntoChild=add(); p(List<yM>)addAll(commands)+递归children=collect(); k(Object[])遍历children检查bounds.contains=insertIntoChi"
+ },
+ {
+  "obf": "vT",
+  "claimed": "com.github.epsilon.gui.lib.UiTree.Axis",
+  "conf": "A",
+  "from": "G117",
+  "evidence": "UiTree.Axis是唯一含HORIZONTAL/VERTICAL的2常量枚举，与vT完全一致；UiTree.java:790-794定义 public static enum Axis { HORIZONTAL, VERTICAL; }"
+ },
+ {
+  "obf": "vx",
+  "claimed": "com.github.epsilon.gui.lib.render.UiContentBuffer",
+  "conf": "A",
+  "from": "G117",
+  "evidence": "vx实现AutoCloseable；lambda名flushMarqueeTexts$0和queueViewport$0精确对应UiContentBuffer的private flushMarqueeTexts()和public queueViewport()方法；字段模式List+boolean+viewport与UiContentBuffer的marqueeDraws+pending+pend"
+ },
+ {
+  "obf": "XL",
+  "claimed": "Render2DBounds",
+  "conf": "A",
+  "from": "G123",
+  "evidence": "Record(float x,y,width,height) 4字段全float; bo()→height, bR()→x, bY()→y, bv()=y+height→bottom(), ba()=y+height*0.5→centerY(), bG()=x+width→right(), bw()=x+width*0.5→centerX(); F(XL)取min(x)/min(y)/max(ri"
+ },
+ {
+  "obf": "XN",
+  "claimed": "RoundRectRenderer",
+  "conf": "A",
+  "from": "G123",
+  "evidence": "implements _A(=IRenderer)确认; _t K=LuminRingBuffer(已解码D027); d5 H=QuadRenderingInfo; int o/G=vertexCount, boolean a=scissorEnabled, int L/R/b=scissorX/Y/W/H; addVertex内存写入vx,vy,0.0f,color,rx1,ry1,rx2,r"
+ },
+ {
+  "obf": "y3",
+  "claimed": "Render2DCommandKind",
+  "conf": "A-",
+  "from": "G127",
+  "evidence": "10个枚举值中7个与官方完全匹配：SHADOW, ROUND_RECT, ROUND_RECT_OUTLINE, RECT, TRIANGLE, TEXTURE, TEXT。额外3个(BLUR_TEXT, GLITCH_TEXT, ARC)为~2月版本差新增值。枚举结构、命名风格和渲染管线语义完全一致。Render2DScheduler中KIND_FLUSH_ORDER引用了所有7个官方值。"
+ },
+ {
+  "obf": "y8",
+  "claimed": "Render2DScheduler$RendererPool",
+  "conf": "A",
+  "from": "G128",
+  "evidence": "implements AutoCloseable; 字段 Map<y3,Deque<_X>> + List<_X> 精确对应 Map<Render2DCommandKind,Deque<RendererBundle>> + List<RendererBundle>; close() 遍历 clear(); x() 用 computeIfAbsent 填充 map 并添加 ArrayDeque; l"
+ },
+ {
+  "obf": "yI",
+  "claimed": "TtfTextRenderer.LayoutRun",
+  "conf": "A",
+  "from": "G130",
+  "evidence": "逐项结构对应：(yn j=float[]{j atlas=TtfGlyphAtlas}, float[] f=float[]{f data=layout glyph data}, int X=int[]{X glyphCount=glyph count})；构造函数 (yn, float[], int) → (TtfGlyphAtlas, float[], int) 完全匹配；TtfTextRen"
+ },
+ {
+  "obf": "yM",
+  "claimed": "Render2DCommand",
+  "conf": "A",
+  "from": "G131",
+  "evidence": "sealed interface，permits 12 类与 official 7 record 实现对应(版本演进增加)。逐方法匹配：layer()→int, sequence()→long, bounds()→Render2DBounds(=XL), scissor()→Render2DScissor(=Xu), default g()→Render2DBounds 对应 default or"
+ },
+ {
+  "obf": "yk",
+  "claimed": "UiTheme",
+  "conf": "A",
+  "from": "G131",
+  "evidence": "实现 l5(=UiTheme)，25+ 方法全部返回 Color/float/boolean/long，与 UiTheme 25 方法逐项对应：R()→light(boolean), L()→hoverAnimationDuration(long), F(Object[])→controlRadius(float), r(Object[])→stateLayer(Color,float,int),"
+ },
+ {
+  "obf": "yP",
+  "claimed": "UiTextMetrics",
+  "conf": "B",
+  "from": "G132",
+  "evidence": "yP implements DF 且仅含一个 yt(=HudEditorScreen) 字段, 私有构造+Objects.requireNonNull; q(String,float)↔textWidth(String,float), O(float)↔textHeight(float) 签名对应; X(Object[]) 提取(String,Float,nK)↔textWidth(String,"
+ },
+ {
+  "obf": "yq",
+  "claimed": "Render2DCommand.RoundRect",
+  "conf": "A",
+  "from": "G132",
+  "evidence": "Record 12字段逐项吻合: 4 float(radiusTopLeft/radiusTopRight/radiusBottomRight/radiusBottomLeft)+4 Color(topLeft/bottomLeft/bottomRight/topRight); implements _Q=Render2DCommand; 构造器 (8f,4Color) 签名匹配; Uu()↔ra"
+ },
+ {
+  "obf": "yS",
+  "claimed": "unident",
+  "conf": "U",
+  "from": "G133",
+  "evidence": "2字段: @SerializedName('DisplayClaims') nd + @SerializedName('Token') String; 私有构造; Xbox/XSTS认证响应DTO; official26无此类（约2个月演进新增）"
+ },
+ {
+  "obf": "ys",
+  "claimed": "RoundRectOutlineRenderer",
+  "conf": "A",
+  "from": "G133",
+  "evidence": "implements _A(IRenderer); _t=LuminRingBuffer buffer, d5=QuadRenderingInfo sharedInfo, int字段(vertexCount/currentOffset/scissor), m(Object[])含addOutlineGradient语义, Q(RenderPass)=draw(pass), 静态s()=create"
+ },
+ {
+  "obf": "yX",
+  "claimed": "Render2DCommand.RoundRectOutline",
+  "conf": "A",
+  "from": "G135",
+  "evidence": "10字段逐项对应：layer(int), sequence(long), bounds(Render2DBounds=XL), scissor(Render2DScissor=Xu), radiusTopLeft/_P(float), radiusTopRight/_y(float), radiusBottomRight/_b(float), radiusBottomLeft/_v(float),"
+ },
+ {
+  "obf": "ud",
+  "claimed": "UiTree.SwitchNode",
+  "conf": "A",
+  "from": "G103",
+  "evidence": "Record 3字段: (ih bounds, float toggleProgress, float hoverProgress) 完全对应官方 UiTree.SwitchNode(UiRect bounds, float toggleProgress, float hoverProgress)，implements _Q 对应 sealed interface UiNode"
+ },
+ {
+  "obf": "vA",
+  "claimed": "Render2DCommand.Shadow",
+  "conf": "A-",
+  "from": "G112",
+  "evidence": "Record 10字段: int layer/long sequence/XL bounds/Xu scissor/5×float(om/oj/ON/OQ/OL)/Color sU; implements yM(=Render2DCommand); a()返回kind值与gU完全一致(1073215605179372184L); G060已确认gU=Shadow(14字段)且kind相同; vA字"
+ },
+ {
+  "obf": "vd",
+  "claimed": "UiTree.LayerNode",
+  "conf": "A",
+  "from": "G112",
+  "evidence": "Record 2字段: List<_Q> y6(=List<UiNode> children), int jo(=int layer); implements _Q(=UiTree.UiNode sealed interface); 官方UiTree.LayerNode(int layer, List<UiNode> children) implements UiNode; zU.java中new"
+ },
+ {
+  "obf": "ve",
+  "claimed": "Render2DCommand.RoundRect",
+  "conf": "A",
+  "from": "G113",
+  "evidence": "Record 12组件类型序列(int layer, long sequence, Render2DBounds bounds, Render2DScissor scissor, float×4 radiusTopLeft/radiusTopRight/radiusBottomRight/radiusBottomLeft, Color×4 topLeft/bottomLeft/bottomRigh"
+ },
+ {
+  "obf": "vG",
+  "claimed": "TtfTextRenderer$layoutCache",
+  "conf": "A-",
+  "from": "G113",
+  "evidence": "extends LinkedHashMap<Ok,ON>(=LinkedHashMap<LayoutKey,TextLayout>)；构造器(vq,int,float,boolean)=(TtfTextRenderer outerRef, 64, 0.75f, true) 完全匹配 layoutCache 匿名子类构造签名；K(vq) 为外层 TtfTextRenderer synthetic 引"
+ },
+ {
+  "obf": "_0",
+  "claimed": "TriangleNode",
+  "conf": "A",
+  "from": "G142",
+  "evidence": "5字段: 4 float + Color，字段序列与 UiTree.TriangleNode(float centerX, centerY, size, progress, Color color) 完全对应；implements _Q(=UiNode)；sealed interface _Q permits 列表含 _0，官方 UiNode permits 含 TriangleNode；is_r"
+ },
+ {
+  "obf": "_2",
+  "claimed": "SwitchElement",
+  "conf": "A",
+  "from": "G142",
+  "evidence": "3字段: ih(=UiRect) + 2 float；字段序列与 UiTree.SwitchElement(UiRect bounds, float toggleProgress, float hoverProgress) 完全对应；ih 为4-float rect record(含x/y/width/height + contains/inset方法)与 UiRect 完全同构；record 无"
+ },
+ {
+  "obf": "_j",
+  "claimed": "TextRenderer",
+  "conf": "B",
+  "from": "G147",
+  "evidence": "implements _A(=IRenderer)；字段 v2 F(ITextRenderer委托)，boolean R(registered)；构造函数创建 vq(=TtfTextRenderer) 作为底层实现；方法 S(String,float,nK)→addText，S()→静态工厂，U()→构造器调用，draw(RenderPass)→委托渲染，setScissor→o(int,int,"
+ },
+ {
+  "obf": "_X",
+  "claimed": "Render2DCommandKind",
+  "conf": "B",
+  "from": "G150",
+  "evidence": "26.2新增597行final class implements AutoCloseable；import RenderPass+8渲染类型(ui/lX/XN/ys/v5/lg/gz/_j)；typeSwitch对应8种渲染命令类型(RendererBundle.create有7种+默认)；工厂方法V(y3)按enum ordinal创建不同实例(case 0-10共11个case)；close("
+ },
+ {
+  "obf": "zP",
+  "claimed": "Render2DScheduler.LayerHandle",
+  "conf": "A",
+  "from": "G139",
+  "evidence": "private构造器(y_,int)精确匹配LayerHandle(Render2DScheduler,int)；y_=Render2DScheduler(D026已确认y_=LuminRenderPipelines→实为Render2DScheduler通过Int2ObjectMap<zP> L映射)；int S=layer；绘制方法创建Render2DCommand子类(Od=RoundRec"
+ },
+ {
+  "obf": "_A",
+  "claimed": "IRenderer",
+  "conf": "A-",
+  "from": "G144",
+  "evidence": "public interface, 6方法(3 abstract + 3 default); 默认boolean K(Object[])=false → prepareSharedDraw()=false; 默认void H(Object[])调用两个abstract方法 → drawAndClear()调用draw()+clear(); 默认void Q(Object[]) cast Rende"
+ },
+ {
+  "obf": "_O",
+  "claimed": "UiTree.MarqueeTextNode",
+  "conf": "A",
+  "from": "G148",
+  "evidence": "Record 7字段逐项吻合: String oC(=text)+3 float b1/b2/bD(=x,y,scale)+Color vU(=color)+nK PB(=TtfFontLoader fontLoader)+ih uA(=UiRect/Render2DBounds clip); 构造器(String,3f,Color,nK,ih)签名匹配; 26.2→26.10 UiRect→Re"
+ },
+ {
+  "obf": "_Q",
+  "claimed": "UiTree.UiNode",
+  "conf": "A",
+  "from": "G148",
+  "evidence": "sealed interface 31 permits, 0方法声明; 递归树结构: vd(=LayerNode)含List<_Q>, ll(=ScissorNode)含List<_Q>+ih(=UiRect), n8(=LayeredNode)含_Q; Dd=RectGradientNode(4f+4C), gI=OutlineNode(9f+1C), yq=RoundRectGradientN"
+ }
+]

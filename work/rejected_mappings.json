@@ -1,0 +1,818 @@
+[
+ {
+  "obf": "p",
+  "old": "Scaffold",
+  "old_conf": "B",
+  "reason": "Jaccard 误配：p 导入 BedBlock/ServerboundSwingPacket/AABB/BlockHitResult/VoxelShape/BlockState，与 Scaffold 的方块放置指纹不符；BedBlock 全 src 树 0 引用 → p 为 26.2 新增(疑床类模块)，旧结论作废"
+ },
+ {
+  "obf": "H",
+  "old": "Hat",
+  "old_conf": "B",
+  "reason": "Jaccard 误配：H 仅导入 Identifier/Player/Vec3(1268 行, 持 RenderPipeline+List<Dp>+3×Identifier)，与 src Hat 的 double[][] positions/Mode 指纹不符 → 旧结论作废，H 待重识别"
+ },
+ {
+  "obf": "gA",
+  "old": "ColorUtils",
+  "old_conf": "A-",
+  "reason": "误判：src ColorUtils 仅 28 行/1 个 interpolateColor 方法，而 gA 有 352 行/43 个 static Color 常量；d1(65行/1方法) 才是 ColorUtils。gA 实为「颜色常量集合」类，待重识别"
+ },
+ {
+  "obf": "m",
+  "old": "Criticals",
+  "old_conf": "A",
+  "reason": "裁决移出：更强证据归属另一混淆名（见 class_map 同身份的 pinned 条目）"
+ },
+ {
+  "obf": "H",
+  "old": "AimBot",
+  "old_conf": "A",
+  "reason": "裁决移出：更强证据归属另一混淆名（见 class_map 同身份的 pinned 条目）"
+ },
+ {
+  "obf": "eS",
+  "old": "PacketMine",
+  "old_conf": "A",
+  "reason": "裁决移出：更强证据归属另一混淆名（见 class_map 同身份的 pinned 条目）"
+ },
+ {
+  "obf": "DJ",
+  "old": "DoubleAnchor.Phase",
+  "old_conf": "A",
+  "reason": "裁决移出：更强证据归属另一混淆名（见 class_map 同身份的 pinned 条目）"
+ },
+ {
+  "obf": "gp",
+  "old": "Managers",
+  "old_conf": "A",
+  "reason": "裁决移出：更强证据归属另一混淆名（见 class_map 同身份的 pinned 条目）"
+ },
+ {
+  "obf": "no",
+  "old": "Managers",
+  "old_conf": "A",
+  "reason": "裁决移出：更强证据归属另一混淆名（见 class_map 同身份的 pinned 条目）"
+ },
+ {
+  "obf": "ev",
+  "old": "TriggerBot",
+  "old_conf": "A",
+  "reason": "[裁决移出] Jaccard 0.353 vs K 0.333 差异不显著，K 的 ray-casting/设置签名证据更具体；ev 待重识别"
+ },
+ {
+  "obf": "J",
+  "old": "Filter",
+  "old_conf": "A",
+  "reason": "[裁决移出] Jaccard 均 0；e6 有 MixinLightmap 逐行同构(A) 证据，J 仅语义候选"
+ },
+ {
+  "obf": "eg",
+  "old": "TargetHUD",
+  "old_conf": "A",
+  "reason": "[裁决移出] Jaccard 0.143 vs eU 0.667（eU 命中 AbstractClientPlayer/EquipmentSlot/GuiGraphicsExtractor 等 6 类）"
+ },
+ {
+  "obf": "eJ",
+  "old": "ModuleList",
+  "old_conf": "A",
+  "reason": "[裁决移出] Jaccard 0.333 vs es 0.500；eJ 待重识别"
+ },
+ {
+  "obf": "eI",
+  "old": "Scaffold",
+  "old_conf": "A",
+  "reason": "[裁决移出] eW 有唯一方块指纹(CropBlock/BushBlock/FlowerBlock/NetherFungusBlock/SlabBlock 全 src 仅 Scaffold+InvHelper 引用)且为 pinned；eI 的方块集(CarvedPumpkin/Pumpkin/Slime/Tnt/Falling)属 Eagle/SafeWalk → eI 待重识别"
+ },
+ {
+  "obf": "eI",
+  "old": "Scaffold",
+  "old_conf": "A",
+  "reason": "[证据裁决] eW pinned 优于 eI Jaccard=0.095（目标 src Scaffold）"
+ },
+ {
+  "obf": "lp",
+  "old": "TargetHUD",
+  "old_conf": "A",
+  "reason": "[证据裁决] eU pinned 优于 lp Jaccard=0.200（目标 src TargetHUD）"
+ },
+ {
+  "obf": "eq",
+  "old": "ZealotCrystalPlus",
+  "old_conf": "A",
+  "reason": "[证据裁决] un Jaccard=0.500 优于 eq Jaccard=0.273（目标 src ZealotCrystalPlus）"
+ },
+ {
+  "obf": "OS",
+  "old": "TranslateHolder",
+  "old_conf": "A",
+  "reason": "[裁决] 无 revision 字段；DC 的 AtomicLong+getRevision 更符合 src TranslateHolder"
+ },
+ {
+  "obf": "ny",
+  "old": "EpsilonTranslations",
+  "old_conf": "A",
+  "reason": "[裁决] 字段数 3 < la 的 8"
+ },
+ {
+  "obf": "dU",
+  "old": "ModuleDetailPanel",
+  "old_conf": "A",
+  "reason": "[裁决] Jaccard 0.750 < nl 1.000"
+ },
+ {
+  "obf": "gW",
+  "old": "ModuleDetailPanel",
+  "old_conf": "A",
+  "reason": "[裁决] Jaccard 0.500 < nl 1.000"
+ },
+ {
+  "obf": "a",
+  "old": "AutoKouZi",
+  "old_conf": "A",
+  "reason": "[裁决] 导入 title/subtitle/actionbar 文本包且参数为 Component，属文本显示类模块（待重识别）"
+ },
+ {
+  "obf": "la",
+  "old": "EpsilonTranslations",
+  "old_conf": "A",
+  "reason": "[裁决移出] 仅 10 个 uT 字段，属 EpsilonTranslations 内嵌注册表(如 PlayerAlarms/26.2 新增)，非本体；本体为 yw(95 字段)"
+ },
+ {
+  "obf": "nP",
+  "old": "EpsilonTranslations",
+  "old_conf": "A",
+  "reason": "[裁决移出] 仅 10 个 uT 字段，属 EpsilonTranslations 内嵌注册表(如 PlayerAlarms/26.2 新增)，非本体；本体为 yw(95 字段)"
+ },
+ {
+  "obf": "uG",
+  "old": "Follower",
+  "old_conf": "A",
+  "reason": "[证据裁决] e1 Jaccard=0.800 优于 uG Jaccard=0.200（目标 src Follower）"
+ },
+ {
+  "obf": "n4",
+  "old": "ModuleListPanel",
+  "old_conf": "A",
+  "reason": "[证据裁决] iA Jaccard=0.750 优于 n4 Jaccard=0.200（目标 src ModuleListPanel）"
+ },
+ {
+  "obf": "dl",
+  "old": "Animation",
+  "old_conf": "A",
+  "reason": "[裁决] 结构/选项谱证据更弱者让位（见同身份 pinned 条目）"
+ },
+ {
+  "obf": "uk",
+  "old": "AutoArmor",
+  "old_conf": "A",
+  "reason": "[裁决] 结构/选项谱证据更弱者让位（见同身份 pinned 条目）"
+ },
+ {
+  "obf": "XI",
+  "old": "PanelScreen",
+  "old_conf": "A",
+  "reason": "[证据裁决] i6 Jaccard=1.000 优于 XI Jaccard=0.500（目标 src PanelScreen）"
+ },
+ {
+  "obf": "ns",
+  "old": "SettingListController",
+  "old_conf": "A",
+  "reason": "[证据裁决] Og Jaccard=1.000 优于 ns Jaccard=0.400（目标 src SettingListController）"
+ },
+ {
+  "obf": "Oy",
+  "old": "HoleType",
+  "old_conf": "A",
+  "reason": "[裁决] 常量数 4 < OH 的 5(含 NotHole)"
+ },
+ {
+  "obf": "gm",
+  "old": "ConfigHolder",
+  "old_conf": "B",
+  "reason": "[裁决] 字段数 2 < vz 的 7；vz 且有 Gson+Setting 导入"
+ },
+ {
+  "obf": "y9",
+  "old": "ModuleDetailPanel",
+  "old_conf": "A",
+  "reason": "[证据裁决] nl pinned 优于 y9 Jaccard=1.000（目标 src ModuleDetailPanel）"
+ },
+ {
+  "obf": "yK",
+  "old": "ShaderHolder",
+  "old_conf": "B",
+  "reason": "[裁决] z2 有 4 mixin 逐行同构(A)证据；yK 仅 Jaccard 0.167"
+ },
+ {
+  "obf": "DT",
+  "old": "MD3Theme",
+  "old_conf": "A",
+  "reason": "[证据裁决] zd pinned 优于 DT Jaccard=0.000（目标 src MD3Theme）"
+ },
+ {
+  "obf": "z1",
+  "old": "LuminRenderSystem",
+  "old_conf": "A",
+  "reason": "[证据裁决] dB pinned 优于 z1 Jaccard=0.167（目标 src LuminRenderSystem）"
+ },
+ {
+  "obf": "z3",
+  "old": "RegistryListSettingRow",
+  "old_conf": "A",
+  "reason": "[证据裁决] v7 pinned 优于 z3 pinned（目标 src RegistryListSettingRow）"
+ },
+ {
+  "obf": "y_",
+  "old": "LuminRenderPipelines",
+  "old_conf": "B",
+  "reason": "[裁决] 0 个 RenderPipeline 字段；yH 有 12 个"
+ },
+ {
+  "obf": "y",
+  "old": "KillAura",
+  "old_conf": "A",
+  "reason": "[裁决] Jaccard 0.125 vs eY 0.667；y 含 attack+gameMode.attack 疑为 AutoWeapon 本体(其 Mode 枚举 yv 已识别)，待重识别"
+ },
+ {
+  "obf": "yn",
+  "old": "LuminRenderTarget",
+  "old_conf": "A",
+  "reason": "[证据裁决] dd pinned 优于 yn pinned（目标 src LuminRenderTarget）"
+ },
+ {
+  "obf": "up",
+  "old": "AutoWeapon",
+  "old_conf": "A",
+  "reason": "[证据裁决] e2 Jaccard=0.467 优于 up Jaccard=0.115（目标 src AutoWeapon）"
+ },
+ {
+  "obf": "zS",
+  "old": "FastWeb",
+  "old_conf": "A",
+  "reason": "[证据裁决] t pinned 优于 zS Jaccard=0.000（目标 src FastWeb）"
+ },
+ {
+  "obf": "zU",
+  "old": "LuminRenderSystem",
+  "old_conf": "A",
+  "reason": "[证据裁决] dB pinned 优于 zU Jaccard=0.167（目标 src LuminRenderSystem）"
+ },
+ {
+  "obf": "uZ",
+  "old": "Scaffold",
+  "old_conf": "A",
+  "reason": "[证据裁决] eW pinned 优于 uZ pinned（目标 src Scaffold）"
+ },
+ {
+  "obf": "us",
+  "old": "Scaffold",
+  "old_conf": "A",
+  "reason": "[证据裁决] eW pinned 优于 us pinned（目标 src Scaffold）"
+ },
+ {
+  "obf": "_o",
+  "old": "PanelScreen",
+  "old_conf": "A",
+  "reason": "[证据裁决] i6 pinned 优于 _o Jaccard=0.800（目标 src PanelScreen）"
+ },
+ {
+  "obf": "eD",
+  "old": "ModuleList",
+  "old_conf": "A",
+  "reason": "[证据裁决] es pinned 优于 eD Jaccard=0.500（目标 src ModuleList）"
+ },
+ {
+  "obf": "_q",
+  "old": "RaytraceUtils",
+  "old_conf": "A",
+  "reason": "[证据裁决] nJ pinned 优于 _q pinned（目标 src RaytraceUtils）"
+ },
+ {
+  "obf": "eR",
+  "old": "HitParticles",
+  "old_conf": "A",
+  "reason": "[证据裁决] _I pinned 优于 eR Jaccard=0.062（目标 src HitParticles）"
+ },
+ {
+  "obf": "_i",
+  "old": "PopChams",
+  "old_conf": "A",
+  "reason": "[证据裁决] uz pinned 优于 _i pinned（目标 src PopChams）"
+ },
+ {
+  "obf": "gz",
+  "old": "LuminRenderPipelines",
+  "old_conf": "A",
+  "reason": "[证据裁决] yH pinned 优于 gz Jaccard=0.000（目标 src LuminRenderPipelines）"
+ },
+ {
+  "obf": "ee",
+  "old": "Phase",
+  "old_conf": "A",
+  "reason": "[证据裁决] eF pinned 优于 ee Jaccard=0.000（目标 src Phase）"
+ },
+ {
+  "obf": "eq",
+  "old": "SafeAnchor",
+  "old_conf": "A",
+  "reason": "[证据裁决] uE pinned 优于 eq Jaccard=0.400（目标 src SafeAnchor）"
+ },
+ {
+  "obf": "ua",
+  "old": "FreeCamera",
+  "old_conf": "B",
+  "reason": "[批量裁决] 保留 i(pin=0,conf=B,jac=0.308) 优于 ua(pin=0,conf=B,jac=0.091)"
+ },
+ {
+  "obf": "ns",
+  "old": "GeneralClientSettingTab",
+  "old_conf": "B",
+  "reason": "[批量裁决] 保留 lB(pin=0,conf=B,jac=0.5) 优于 ns(pin=0,conf=B,jac=0.4)"
+ },
+ {
+  "obf": "c",
+  "old": "Disabler",
+  "old_conf": "B",
+  "reason": "[批量裁决] 保留 x(pin=1,conf=A,jac=0.2) 优于 c(pin=0,conf=B,jac=0.0)"
+ },
+ {
+  "obf": "yn",
+  "old": "LuminTexture",
+  "old_conf": "A",
+  "reason": "[批量裁决] 保留 y4(pin=1,conf=A,jac=1.0) 优于 yn(pin=0,conf=A,jac=0.333)"
+ },
+ {
+  "obf": "y0",
+  "old": "ColorWidget",
+  "old_conf": "B",
+  "reason": "[批量裁决] 保留 zG(A,0.0) 优于 y0(B,0.0)"
+ },
+ {
+  "obf": "G",
+  "old": "KillAura",
+  "old_conf": "B",
+  "reason": "[批量裁决] 保留 eY(A,0.667) 优于 G(B,0.091)"
+ },
+ {
+  "obf": "eQ",
+  "old": "Scaffold",
+  "old_conf": "A",
+  "reason": "[批量裁决] 保留 eW(A,0.28) 优于 eQ(A,0.15)"
+ },
+ {
+  "obf": "eH",
+  "old": "Disabler",
+  "old_conf": "B",
+  "reason": "[批量裁决] 保留 x(A,0.2) 优于 eH(B,0.111)"
+ },
+ {
+  "obf": "A",
+  "old": "BlockESP",
+  "old_conf": "A",
+  "reason": "[批量裁决] 保留 V(A,0.2) 优于 A(A,0.111)"
+ },
+ {
+  "obf": "lI",
+  "old": "MasEffectsParticleRenderer",
+  "old_conf": "B",
+  "reason": "[批量裁决] 保留 iJ(A,0.32) 优于 lI(B,0.217)"
+ },
+ {
+  "obf": "ef",
+  "old": "TargetHUD",
+  "old_conf": "B",
+  "reason": "[批量裁决] 保留 eU(A,0.667) 优于 ef(B,0.222)"
+ },
+ {
+  "obf": "z",
+  "old": "SilentAim",
+  "old_conf": "B",
+  "reason": "[批量裁决] 保留 y(A,0.143) 优于 z(B,0.222)"
+ },
+ {
+  "obf": "XI",
+  "old": "ConfigClientSettingTab",
+  "old_conf": "B",
+  "reason": "[批量裁决] 保留 zt(A,0.75) 优于 XI(B,1.0)"
+ },
+ {
+  "obf": "uv",
+  "old": "DoubleAnchor",
+  "old_conf": "A",
+  "reason": "[批量裁决] 保留 X(A,0.2) 优于 uv(A,0.375)"
+ },
+ {
+  "obf": "um",
+  "old": "EpsilonAddon",
+  "old_conf": "A-",
+  "reason": "[批量裁决] 保留 iH 优于 um"
+ },
+ {
+  "obf": "gA",
+  "old": "ThemePalette",
+  "old_conf": "A",
+  "reason": "[批量裁决] 保留 Xt 优于 gA"
+ },
+ {
+  "obf": "zn",
+  "old": "IntSettingRow",
+  "old_conf": "A-",
+  "reason": "[批量裁决] 保留 v9(A,0.75) 优于 zn(A-,0.0)"
+ },
+ {
+  "obf": "iP",
+  "old": "EpsilonAddon",
+  "old_conf": "B",
+  "reason": "[批量裁决] 保留 iH(A,0.0) 优于 iP(B,0.0)"
+ },
+ {
+  "obf": "vC",
+  "old": "Animation",
+  "old_conf": "A-",
+  "reason": "[批量裁决] 保留 _E(A,0.0) 优于 vC(A-,0.0)"
+ },
+ {
+  "obf": "ib",
+  "old": "SettingWidget",
+  "old_conf": "B",
+  "reason": "[批量裁决] 保留 zc(A,0.0) 优于 ib(B,0.0)"
+ },
+ {
+  "obf": "OS",
+  "old": "NotificationManager",
+  "old_conf": "B",
+  "reason": "[批量裁决] 保留 gp(A,1.0) 优于 OS(B,0.0)"
+ },
+ {
+  "obf": "ip",
+  "old": "SettingLayoutPlanner",
+  "old_conf": "A-",
+  "reason": "[批量裁决] 保留 gR(A-,0.0) 优于 ip(A-,0.0)"
+ },
+ {
+  "obf": "ui",
+  "old": "QuadRenderingInfo",
+  "old_conf": "B",
+  "reason": "[批量裁决] 保留 d5 优于 ui"
+ },
+ {
+  "obf": "id",
+  "old": "ColorWidget",
+  "old_conf": "A",
+  "reason": "[批量裁决] 保留 zG 优于 id"
+ },
+ {
+  "obf": "iI",
+  "old": "ModuleButton",
+  "old_conf": "A",
+  "reason": "[批量裁决] 保留 OA 优于 iI"
+ },
+ {
+  "obf": "zY",
+  "old": "ZealotCrystalPlus.PlaceMode",
+  "old_conf": "A-",
+  "reason": "[批量裁决] 保留 XW"
+ },
+ {
+  "obf": "_s",
+  "old": "SwapMode",
+  "old_conf": "B",
+  "reason": "[批量裁决] 保留 uC"
+ },
+ {
+  "obf": "zk",
+  "old": "ModuleButton",
+  "old_conf": "B",
+  "reason": "[批量裁决] 保留 OA"
+ },
+ {
+  "obf": "H",
+  "old": "JumpCircle",
+  "old_conf": "A-",
+  "reason": "[裁决] 保留 gZ"
+ },
+ {
+  "obf": "G",
+  "old": "ESP2D",
+  "old_conf": "A-",
+  "reason": "[裁决] 保留 h"
+ },
+ {
+  "obf": "yb",
+  "old": "MixinFont",
+  "old_conf": "A-",
+  "reason": "[门控] Mixin* 类不是我方类的身份（agent 误配）"
+ },
+ {
+  "obf": "e4",
+  "old": "MixinLivingEntity",
+  "old_conf": "B",
+  "reason": "[门控] Mixin* 类不是我方类的身份（agent 误配）"
+ },
+ {
+  "obf": "eQ",
+  "old": "MixinClientLevel",
+  "old_conf": "A-",
+  "reason": "[门控] Mixin* 类不是我方类的身份（agent 误配）"
+ },
+ {
+  "obf": "q",
+  "old": "MixinMinecraft",
+  "old_conf": "B",
+  "reason": "[门控] Mixin* 类不是我方类的身份（agent 误配）"
+ },
+ {
+  "obf": "o",
+  "old": "Stuck",
+  "old_conf": "B",
+  "reason": "[裁决] 保留 eH(A,0.5) 优于 o(B,0.0)"
+ },
+ {
+  "obf": "eV",
+  "old": "Stealer",
+  "old_conf": "A-",
+  "reason": "[裁决] 保留 up(A,0.304) 优于 eV(A-,0.0)"
+ },
+ {
+  "obf": "q",
+  "old": "AutoTool",
+  "old_conf": "A",
+  "reason": "[裁决] 保留 c(A,0.091) 优于 q(A,0.091)"
+ },
+ {
+  "obf": "z",
+  "old": "KillAura",
+  "old_conf": "B",
+  "reason": "[裁决] 保留 eY(A,0.5) 优于 z(B,0.556)"
+ },
+ {
+  "obf": "e5",
+  "old": "JumpCircle",
+  "old_conf": "A-",
+  "reason": "[裁决] 保留 gZ(A,0.222) 优于 e5(A-,0.0)"
+ },
+ {
+  "obf": "a",
+  "old": "Watermark",
+  "old_conf": "B",
+  "reason": "[裁决] 保留 eg(A,1.0) 优于 a(B,0.0)"
+ },
+ {
+  "obf": "e3",
+  "old": "Stealer",
+  "old_conf": "A",
+  "reason": "[裁决] 保留 up(A,0.304) 优于 e3(A,0.0)"
+ },
+ {
+  "obf": "uk",
+  "old": "AutoFirework",
+  "old_conf": "A",
+  "reason": "[裁决] 保留 O(A,0.25) 优于 uk(A,0.333)"
+ },
+ {
+  "obf": "f",
+  "old": "ESP2D",
+  "old_conf": "A-",
+  "reason": "[裁决] 保留 h(A,0.111) 优于 f(A-,0.071)"
+ },
+ {
+  "obf": "H",
+  "old": "ESP2D",
+  "old_conf": "B",
+  "reason": "[裁决] 保留 h(A,0.111) 优于 H(B,0.143)"
+ },
+ {
+  "obf": "m",
+  "old": "ESP2D",
+  "old_conf": "B",
+  "reason": "[裁决] 保留 h(A,0.111) 优于 m(B,0.167)"
+ },
+ {
+  "obf": "T",
+  "old": "ESP2D",
+  "old_conf": "A",
+  "reason": "[裁决] 保留 h(A,0.111) 优于 T(A,0.158)"
+ },
+ {
+  "obf": "A",
+  "old": "AutoTool",
+  "old_conf": "A-",
+  "reason": "[裁决] 保留 c(A,0.091) 优于 A(A-,0.077)"
+ },
+ {
+  "obf": "e4",
+  "old": "AutoTool",
+  "old_conf": "A-",
+  "reason": "[裁决] 保留 c(A,0.091) 优于 e4(A-,0.071)"
+ },
+ {
+  "obf": "eS",
+  "old": "AutoTool",
+  "old_conf": "B",
+  "reason": "[裁决] 保留 c(A,0.091) 优于 eS(B,0.062)"
+ },
+ {
+  "obf": "XI",
+  "old": "FriendClientSettingTab",
+  "old_conf": "B",
+  "reason": "[裁决] 保留 y9(A,1.0) 优于 XI(B,1.0)"
+ },
+ {
+  "obf": "eQ",
+  "old": "NoSlow",
+  "old_conf": "A-",
+  "reason": "[裁决] 保留 p(A,0.158) 优于 eQ(A-,0.053)"
+ },
+ {
+  "obf": "n",
+  "old": "NoSlow",
+  "old_conf": "A-",
+  "reason": "[裁决] 保留 p(A,0.158) 优于 n(A-,0.077)"
+ },
+ {
+  "obf": "uf",
+  "old": "BlockHighlight",
+  "old_conf": "B",
+  "reason": "[裁决] 保留 D"
+ },
+ {
+  "obf": "eP",
+  "old": "KillAura",
+  "old_conf": "B",
+  "reason": "[裁决] 保留 eY"
+ },
+ {
+  "obf": "u0",
+  "old": "CrystalChams",
+  "old_conf": "B",
+  "reason": "[裁决] 保留 eB"
+ },
+ {
+  "obf": "eR",
+  "old": "Particles",
+  "old_conf": "A-",
+  "reason": "[裁决] 保留 u8"
+ },
+ {
+  "obf": "eV",
+  "old": "AutoKouZi",
+  "old_conf": "B",
+  "reason": "[裁决] 保留 er"
+ },
+ {
+  "obf": "ep",
+  "old": "Stuck",
+  "old_conf": "B",
+  "reason": "[裁决] 保留 eH"
+ },
+ {
+  "obf": "gh",
+  "old": "EpsilonFabric",
+  "old_conf": "B",
+  "reason": "[裁决] 保留 Os"
+ },
+ {
+  "obf": "d0",
+  "old": "ModuleHolder",
+  "old_conf": "A",
+  "reason": "[裁决] 保留 D5"
+ },
+ {
+  "obf": "gA",
+  "old": "MD3Theme",
+  "old_conf": "A",
+  "reason": "[裁决] 保留 zd"
+ },
+ {
+  "obf": "i1",
+  "old": "SettingsListPanel",
+  "old_conf": "B",
+  "reason": "[裁决] 保留 ib"
+ },
+ {
+  "obf": "lJ",
+  "old": "EpsilonTranslations",
+  "old_conf": "B",
+  "reason": "[裁决] 保留 yw"
+ },
+ {
+  "obf": "Oi",
+  "old": "ShaderHolder.ShaderColors",
+  "old_conf": "?",
+  "reason": "[去重] 同身份由 Dc 承载"
+ },
+ {
+  "obf": "y4",
+  "old": "LuminTexture",
+  "old_conf": "?",
+  "reason": "[去重] 同身份由 yy 承载"
+ },
+ {
+  "obf": "_j",
+  "old": "UiTextMetrics",
+  "old_conf": "?",
+  "reason": "[去重] 同身份由 yP 承载"
+ },
+ {
+  "obf": "Dh",
+  "old": "Render2DBounds",
+  "old_conf": "?",
+  "reason": "[去重] 同身份由 XL 承载"
+ },
+ {
+  "obf": "ih",
+  "old": "Render2DBounds",
+  "old_conf": "?",
+  "reason": "[去重] 同身份由 XL 承载"
+ },
+ {
+  "obf": "nk",
+  "old": "Render2DBounds",
+  "old_conf": "?",
+  "reason": "[去重] 同身份由 XL 承载"
+ },
+ {
+  "obf": "vr",
+  "old": "Render2DBounds",
+  "old_conf": "?",
+  "reason": "[去重] 同身份由 XL 承载"
+ },
+ {
+  "obf": "nG",
+  "old": "Render2DBounds",
+  "old_conf": "?",
+  "reason": "[去重] 同身份由 XL 承载"
+ },
+ {
+  "obf": "gU",
+  "old": "Render2DCommand.Shadow",
+  "old_conf": "?",
+  "reason": "[去重] 同身份由 nt 承载"
+ },
+ {
+  "obf": "vA",
+  "old": "Render2DCommand.Shadow",
+  "old_conf": "?",
+  "reason": "[去重] 同身份由 nt 承载"
+ },
+ {
+  "obf": "dC",
+  "old": "TtfFontLoader",
+  "old_conf": "?",
+  "reason": "[去重] 同身份由 nK 承载"
+ },
+ {
+  "obf": "yK",
+  "old": "TextureCacheHolder",
+  "old_conf": "?",
+  "reason": "[去重] 同身份由 gz 承载"
+ },
+ {
+  "obf": "v3",
+  "old": "Render2DCommand.Text",
+  "old_conf": "?",
+  "reason": "[去重] 同身份由 gj 承载"
+ },
+ {
+  "obf": "ds",
+  "old": "Render2DCommand.Text",
+  "old_conf": "?",
+  "reason": "[去重] 同身份由 gj 承载"
+ },
+ {
+  "obf": "l5",
+  "old": "UiTheme",
+  "old_conf": "?",
+  "reason": "[去重] 同身份由 yk 承载"
+ },
+ {
+  "obf": "ve",
+  "old": "Render2DCommand.RoundRect",
+  "old_conf": "?",
+  "reason": "[去重] 同身份由 yq 承载"
+ },
+ {
+  "obf": "XB",
+  "old": "UiTree.MarqueeTextNode",
+  "old_conf": "?",
+  "reason": "[去重] 同身份由 _O 承载"
+ },
+ {
+  "obf": "ui",
+  "old": "RoundRectRenderer",
+  "old_conf": "?",
+  "reason": "[去重] 同身份由 XN 承载"
+ },
+ {
+  "obf": "b",
+  "old": "InteractionUtils",
+  "old_conf": "B",
+  "reason": "[裁决] A 级 Stuck 证据更强（G009）"
+ },
+ {
+  "obf": "eH",
+  "old": "Stuck",
+  "old_conf": "A",
+  "reason": "[裁决] 行数 2694 远超官方 Stuck(88行)；b(294行)更匹配"
+ }
+]

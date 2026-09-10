@@ -1,0 +1,7938 @@
+{
+ "A": [
+  {
+   "src": "Xray",
+   "score": 15.89,
+   "why": "锚点引用:BoolSetting,EnumSetting,IntSetting,Module,Render3DEvent; MCimport:2",
+   "mcj": 0.222
+  },
+  {
+   "src": "Particles",
+   "score": 15.31,
+   "why": "锚点引用:BoolSetting,EnumSetting,IntSetting,Module,Render3DEvent; MCimport:1",
+   "mcj": 0.077
+  },
+  {
+   "src": "Scaffold",
+   "score": 15.25,
+   "why": "锚点引用:BoolSetting,EnumSetting,IntSetting,Module,Render3DEvent; MCimport:1",
+   "mcj": 0.062
+  }
+ ],
+ "b": [
+  {
+   "src": "Follower",
+   "score": 6.8,
+   "why": "锚点引用:KeyboardInputEvent,Module; MCimport:1",
+   "mcj": 0.2
+  },
+  {
+   "src": "EpsilonAddon",
+   "score": 6.0,
+   "why": "锚点引用:Module,Setting",
+   "mcj": 0.0
+  },
+  {
+   "src": "I18NFileGenerator",
+   "score": 6.0,
+   "why": "锚点引用:Module,Setting",
+   "mcj": 0.0
+  }
+ ],
+ "c": [
+  {
+   "src": "ModuleButton",
+   "score": 9.0,
+   "why": "锚点引用:BoolSetting,Module,Setting",
+   "mcj": 0.0
+  },
+  {
+   "src": "ConfigHolder",
+   "score": 9.0,
+   "why": "锚点引用:BoolSetting,Module,Setting",
+   "mcj": 0.0
+  },
+  {
+   "src": "ClientSetting",
+   "score": 9.0,
+   "why": "锚点引用:BoolSetting,Module,Setting",
+   "mcj": 0.0
+  }
+ ],
+ "d": [
+  {
+   "src": "ModuleButton",
+   "score": 12.0,
+   "why": "锚点引用:BoolSetting,DoubleSetting,Module,Setting",
+   "mcj": 0.0
+  },
+  {
+   "src": "ConfigHolder",
+   "score": 12.0,
+   "why": "锚点引用:BoolSetting,DoubleSetting,Module,Setting",
+   "mcj": 0.0
+  },
+  {
+   "src": "ClientSetting",
+   "score": 12.0,
+   "why": "锚点引用:BoolSetting,DoubleSetting,Module,Setting",
+   "mcj": 0.0
+  }
+ ],
+ "d0": [
+  {
+   "src": "EpsilonAddon",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0
+  },
+  {
+   "src": "I18NFileGenerator",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0
+  },
+  {
+   "src": "AddonPanelEntry",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0
+  }
+ ],
+ "D1": [
+  {
+   "src": "ModuleButton",
+   "score": 6.0,
+   "why": "锚点引用:BoolSetting,Setting",
+   "mcj": 0.0
+  },
+  {
+   "src": "SettingsContent",
+   "score": 6.0,
+   "why": "锚点引用:BoolSetting,Setting",
+   "mcj": 0
+  },
+  {
+   "src": "SettingViewFactory",
+   "score": 6.0,
+   "why": "锚点引用:BoolSetting,Setting",
+   "mcj": 0
+  }
+ ],
+ "d2": [
+  {
+   "src": "EpsilonAddon",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0.0
+  },
+  {
+   "src": "I18NFileGenerator",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0.0
+  },
+  {
+   "src": "AddonPanelEntry",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0.0
+  }
+ ],
+ "D3": [
+  {
+   "src": "BPS",
+   "score": 3.0,
+   "why": "锚点引用:BoolSetting",
+   "mcj": 0.0
+  },
+  {
+   "src": "Inventory",
+   "score": 3.0,
+   "why": "锚点引用:BoolSetting",
+   "mcj": 0.0
+  },
+  {
+   "src": "ModuleList",
+   "score": 3.0,
+   "why": "锚点引用:BoolSetting",
+   "mcj": 0.0
+  }
+ ],
+ "D5": [
+  {
+   "src": "ModuleHolder",
+   "score": 12.0,
+   "why": "锚点引用:KeyPressEvent,Module,MousePressEvent,TranslateComponent",
+   "mcj": 0
+  },
+  {
+   "src": "I18NFileGenerator",
+   "score": 9.0,
+   "why": "锚点引用:Module,Setting,TranslateComponent",
+   "mcj": 0
+  },
+  {
+   "src": "FreeCamera",
+   "score": 9.0,
+   "why": "锚点引用:KeyPressEvent,Module,MousePressEvent",
+   "mcj": 0.0
+  }
+ ],
+ "Da": [
+  {
+   "src": "EpsilonAddon",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0
+  },
+  {
+   "src": "I18NFileGenerator",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0
+  },
+  {
+   "src": "AddonPanelEntry",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0
+  }
+ ],
+ "dB": [
+  {
+   "src": "Module",
+   "score": 3.67,
+   "why": "锚点引用:Setting; MCimport:1",
+   "mcj": 0.167
+  },
+  {
+   "src": "SettingListController",
+   "score": 3.44,
+   "why": "锚点引用:Setting; MCimport:1",
+   "mcj": 0.111
+  },
+  {
+   "src": "ModuleDetailPanel",
+   "score": 3.44,
+   "why": "锚点引用:Setting; MCimport:1",
+   "mcj": 0.111
+  }
+ ],
+ "DC": [
+  {
+   "src": "I18NFileGenerator",
+   "score": 6.0,
+   "why": "锚点引用:Setting,TranslateComponent",
+   "mcj": 0
+  },
+  {
+   "src": "SettingsListPanel",
+   "score": 6.0,
+   "why": "锚点引用:Setting,TranslateComponent",
+   "mcj": 0
+  },
+  {
+   "src": "Module",
+   "score": 6.0,
+   "why": "锚点引用:Setting,TranslateComponent",
+   "mcj": 0.0
+  }
+ ],
+ "dC": [
+  {
+   "src": "ClientSetting",
+   "score": 5.0,
+   "why": "锚点引用:Setting; MCimport:1",
+   "mcj": 0.5
+  },
+  {
+   "src": "SoundKey",
+   "score": 4.0,
+   "why": "MCimport:1",
+   "mcj": 1.0
+  },
+  {
+   "src": "RegistryListSetting",
+   "score": 3.5,
+   "why": "锚点引用:Setting; MCimport:1",
+   "mcj": 0.125
+  }
+ ],
+ "dd": [
+  {
+   "src": "ClientSetting",
+   "score": 5.0,
+   "why": "锚点引用:Setting; MCimport:1",
+   "mcj": 0.5
+  },
+  {
+   "src": "SoundKey",
+   "score": 4.0,
+   "why": "MCimport:1",
+   "mcj": 1.0
+  },
+  {
+   "src": "RegistryListSetting",
+   "score": 3.5,
+   "why": "锚点引用:Setting; MCimport:1",
+   "mcj": 0.125
+  }
+ ],
+ "dE": [
+  {
+   "src": "ClientSetting",
+   "score": 3.8,
+   "why": "锚点引用:Setting; MCimport:1",
+   "mcj": 0.2
+  },
+  {
+   "src": "RegistryListSetting",
+   "score": 3.36,
+   "why": "锚点引用:Setting; MCimport:1",
+   "mcj": 0.091
+  },
+  {
+   "src": "RegistryListSelectPopup",
+   "score": 3.21,
+   "why": "锚点引用:Setting; MCimport:1",
+   "mcj": 0.053
+  }
+ ],
+ "dF": [
+  {
+   "src": "I18NFileGenerator",
+   "score": 6.0,
+   "why": "锚点引用:Setting,TranslateComponent",
+   "mcj": 0.0
+  },
+  {
+   "src": "SettingsListPanel",
+   "score": 6.0,
+   "why": "锚点引用:Setting,TranslateComponent",
+   "mcj": 0.0
+  },
+  {
+   "src": "Module",
+   "score": 6.0,
+   "why": "锚点引用:Setting,TranslateComponent",
+   "mcj": 0.0
+  }
+ ],
+ "DG": [
+  {
+   "src": "RegistryListSelectPopup",
+   "score": 9.67,
+   "why": "锚点引用:RegistryListSetting,Setting; MCimport:12",
+   "mcj": 0.667
+  },
+  {
+   "src": "SettingHost",
+   "score": 8.14,
+   "why": "锚点引用:RegistryListSetting,Setting; MCimport:4",
+   "mcj": 0.286
+  },
+  {
+   "src": "ModuleButton",
+   "score": 6.0,
+   "why": "锚点引用:RegistryListSetting,Setting",
+   "mcj": 0.0
+  }
+ ],
+ "Dg": [
+  {
+   "src": "EpsilonAddon",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0
+  },
+  {
+   "src": "I18NFileGenerator",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0
+  },
+  {
+   "src": "AddonPanelEntry",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0
+  }
+ ],
+ "dh": [
+  {
+   "src": "EpsilonAddon",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0.0
+  },
+  {
+   "src": "I18NFileGenerator",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0.0
+  },
+  {
+   "src": "AddonPanelEntry",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0.0
+  }
+ ],
+ "dl": [
+  {
+   "src": "EpsilonAddon",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0
+  },
+  {
+   "src": "I18NFileGenerator",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0
+  },
+  {
+   "src": "AddonPanelEntry",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0
+  }
+ ],
+ "DN": [
+  {
+   "src": "SettingListController",
+   "score": 7.0,
+   "why": "锚点引用:Setting; MCimport:3",
+   "mcj": 0.75
+  },
+  {
+   "src": "ModuleDetailPanel",
+   "score": 7.0,
+   "why": "锚点引用:Setting; MCimport:3",
+   "mcj": 0.75
+  },
+  {
+   "src": "AddonClientSettingTab",
+   "score": 7.0,
+   "why": "锚点引用:Setting; MCimport:3",
+   "mcj": 0.75
+  }
+ ],
+ "dn": [
+  {
+   "src": "EpsilonAddon",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0
+  },
+  {
+   "src": "I18NFileGenerator",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0
+  },
+  {
+   "src": "AddonPanelEntry",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0
+  }
+ ],
+ "DO": [
+  {
+   "src": "EpsilonAddon",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0.0
+  },
+  {
+   "src": "I18NFileGenerator",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0.0
+  },
+  {
+   "src": "AddonPanelEntry",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0.0
+  }
+ ],
+ "DP": [
+  {
+   "src": "EpsilonAddon",
+   "score": 3.0,
+   "why": "锚点引用:Module",
+   "mcj": 0
+  },
+  {
+   "src": "LegacyConfigMigrator",
+   "score": 3.0,
+   "why": "锚点引用:Module",
+   "mcj": 0
+  },
+  {
+   "src": "EpsilonTranslations",
+   "score": 3.0,
+   "why": "锚点引用:Module",
+   "mcj": 0
+  }
+ ],
+ "Dp": [
+  {
+   "src": "FollowerPath",
+   "score": 4.0,
+   "why": "MCimport:1",
+   "mcj": 1.0
+  },
+  {
+   "src": "MixinEntity",
+   "score": 2.0,
+   "why": "MCimport:1",
+   "mcj": 0.5
+  },
+  {
+   "src": "MixinLivingEntity",
+   "score": 2.0,
+   "why": "MCimport:1",
+   "mcj": 0.5
+  }
+ ],
+ "dP": [
+  {
+   "src": "PacketEvent",
+   "score": 4.0,
+   "why": "MCimport:1",
+   "mcj": 1.0
+  },
+  {
+   "src": "ClientboundPacketManager",
+   "score": 4.0,
+   "why": "MCimport:1",
+   "mcj": 1.0
+  },
+  {
+   "src": "ServerboundPacketManager",
+   "score": 4.0,
+   "why": "MCimport:1",
+   "mcj": 1.0
+  }
+ ],
+ "dp": [
+  {
+   "src": "SettingListController",
+   "score": 5.0,
+   "why": "锚点引用:Setting; MCimport:2",
+   "mcj": 0.5
+  },
+  {
+   "src": "ModuleDetailPanel",
+   "score": 5.0,
+   "why": "锚点引用:Setting; MCimport:2",
+   "mcj": 0.5
+  },
+  {
+   "src": "AddonClientSettingTab",
+   "score": 5.0,
+   "why": "锚点引用:Setting; MCimport:2",
+   "mcj": 0.5
+  }
+ ],
+ "dQ": [
+  {
+   "src": "PacketEvent",
+   "score": 4.0,
+   "why": "MCimport:1",
+   "mcj": 1.0
+  },
+  {
+   "src": "ClientboundPacketManager",
+   "score": 4.0,
+   "why": "MCimport:1",
+   "mcj": 1.0
+  },
+  {
+   "src": "ServerboundPacketManager",
+   "score": 4.0,
+   "why": "MCimport:1",
+   "mcj": 1.0
+  }
+ ],
+ "dr": [
+  {
+   "src": "I18NFileGenerator",
+   "score": 6.0,
+   "why": "锚点引用:Setting,TranslateComponent",
+   "mcj": 0
+  },
+  {
+   "src": "SettingsListPanel",
+   "score": 6.0,
+   "why": "锚点引用:Setting,TranslateComponent",
+   "mcj": 0
+  },
+  {
+   "src": "Module",
+   "score": 6.0,
+   "why": "锚点引用:Setting,TranslateComponent",
+   "mcj": 0.0
+  }
+ ],
+ "DT": [
+  {
+   "src": "EpsilonAddon",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0
+  },
+  {
+   "src": "I18NFileGenerator",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0
+  },
+  {
+   "src": "AddonPanelEntry",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0
+  }
+ ],
+ "DU": [
+  {
+   "src": "FriendManager",
+   "score": 4.0,
+   "why": "MCimport:1",
+   "mcj": 1.0
+  },
+  {
+   "src": "AttackEntityEvent",
+   "score": 2.0,
+   "why": "MCimport:1",
+   "mcj": 0.5
+  },
+  {
+   "src": "HoleUtils",
+   "score": 2.0,
+   "why": "MCimport:1",
+   "mcj": 0.5
+  }
+ ],
+ "dU": [
+  {
+   "src": "ModuleDetailPanel",
+   "score": 7.0,
+   "why": "锚点引用:Setting; MCimport:3",
+   "mcj": 0.75
+  },
+  {
+   "src": "AddonClientSettingTab",
+   "score": 7.0,
+   "why": "锚点引用:Setting; MCimport:3",
+   "mcj": 0.75
+  },
+  {
+   "src": "GeneralClientSettingTab",
+   "score": 7.0,
+   "why": "锚点引用:Setting; MCimport:3",
+   "mcj": 0.75
+  }
+ ],
+ "Dv": [
+  {
+   "src": "ModuleDetailPanel",
+   "score": 5.0,
+   "why": "锚点引用:Setting; MCimport:2",
+   "mcj": 0.5
+  },
+  {
+   "src": "AddonClientSettingTab",
+   "score": 5.0,
+   "why": "锚点引用:Setting; MCimport:2",
+   "mcj": 0.5
+  },
+  {
+   "src": "GeneralClientSettingTab",
+   "score": 5.0,
+   "why": "锚点引用:Setting; MCimport:2",
+   "mcj": 0.5
+  }
+ ],
+ "Dw": [
+  {
+   "src": "EpsilonAddon",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0
+  },
+  {
+   "src": "I18NFileGenerator",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0
+  },
+  {
+   "src": "AddonPanelEntry",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0
+  }
+ ],
+ "DX": [
+  {
+   "src": "EnumSettingRow",
+   "score": 7.0,
+   "why": "锚点引用:EnumSetting; MCimport:2",
+   "mcj": 1.0
+  },
+  {
+   "src": "EnumSelectPopup",
+   "score": 7.0,
+   "why": "锚点引用:EnumSetting; MCimport:2",
+   "mcj": 1.0
+  },
+  {
+   "src": "I18NFileGenerator",
+   "score": 6.0,
+   "why": "锚点引用:EnumSetting,Setting",
+   "mcj": 0.0
+  }
+ ],
+ "dX": [
+  {
+   "src": "EpsilonAddon",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0
+  },
+  {
+   "src": "I18NFileGenerator",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0
+  },
+  {
+   "src": "AddonPanelEntry",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0
+  }
+ ],
+ "dy": [
+  {
+   "src": "DefaultTranslateComponent",
+   "score": 3.0,
+   "why": "锚点引用:TranslateComponent",
+   "mcj": 0
+  },
+  {
+   "src": "EpsilonTranslateComponent",
+   "score": 3.0,
+   "why": "锚点引用:TranslateComponent",
+   "mcj": 0
+  },
+  {
+   "src": "EpsilonTranslations",
+   "score": 3.0,
+   "why": "锚点引用:TranslateComponent",
+   "mcj": 0
+  }
+ ],
+ "DZ": [
+  {
+   "src": "DefaultTranslateComponent",
+   "score": 3.0,
+   "why": "锚点引用:TranslateComponent",
+   "mcj": 0
+  },
+  {
+   "src": "EpsilonTranslateComponent",
+   "score": 3.0,
+   "why": "锚点引用:TranslateComponent",
+   "mcj": 0
+  },
+  {
+   "src": "EpsilonTranslations",
+   "score": 3.0,
+   "why": "锚点引用:TranslateComponent",
+   "mcj": 0
+  }
+ ],
+ "D_": [
+  {
+   "src": "EpsilonAddon",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0
+  },
+  {
+   "src": "I18NFileGenerator",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0
+  },
+  {
+   "src": "AddonPanelEntry",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0
+  }
+ ],
+ "E": [
+  {
+   "src": "GUIMove",
+   "score": 13.0,
+   "why": "锚点引用:BoolSetting,KeyboardInputEvent,Module; MCimport:2",
+   "mcj": 1.0
+  },
+  {
+   "src": "ModuleButton",
+   "score": 9.0,
+   "why": "锚点引用:BoolSetting,Module,Setting",
+   "mcj": 0.0
+  },
+  {
+   "src": "ConfigHolder",
+   "score": 9.0,
+   "why": "锚点引用:BoolSetting,Module,Setting",
+   "mcj": 0.0
+  }
+ ],
+ "e3": [
+  {
+   "src": "EpsilonAddon",
+   "score": 6.0,
+   "why": "锚点引用:Module,Setting",
+   "mcj": 0.0
+  },
+  {
+   "src": "I18NFileGenerator",
+   "score": 6.0,
+   "why": "锚点引用:Module,Setting",
+   "mcj": 0.0
+  },
+  {
+   "src": "ModuleButton",
+   "score": 6.0,
+   "why": "锚点引用:Module,Setting",
+   "mcj": 0.0
+  }
+ ],
+ "e4": [
+  {
+   "src": "ModuleButton",
+   "score": 15.0,
+   "why": "锚点引用:DoubleSetting,EnumSetting,IntSetting,Module,Setting",
+   "mcj": 0.0
+  },
+  {
+   "src": "ConfigHolder",
+   "score": 15.0,
+   "why": "锚点引用:DoubleSetting,EnumSetting,IntSetting,Module,Setting",
+   "mcj": 0.0
+  },
+  {
+   "src": "ClientSetting",
+   "score": 15.0,
+   "why": "锚点引用:DoubleSetting,EnumSetting,IntSetting,Module,Setting",
+   "mcj": 0.0
+  }
+ ],
+ "e5": [
+  {
+   "src": "ModuleList",
+   "score": 12.0,
+   "why": "锚点引用:ColorSetting,DoubleSetting,EnumSetting,Module",
+   "mcj": 0.0
+  },
+  {
+   "src": "ModuleButton",
+   "score": 12.0,
+   "why": "锚点引用:ColorSetting,DoubleSetting,EnumSetting,Module",
+   "mcj": 0.0
+  },
+  {
+   "src": "ConfigHolder",
+   "score": 12.0,
+   "why": "锚点引用:ColorSetting,DoubleSetting,EnumSetting,Module",
+   "mcj": 0
+  }
+ ],
+ "e7": [
+  {
+   "src": "Inventory",
+   "score": 17.0,
+   "why": "锚点引用:BoolSetting,ColorSetting,DoubleSetting,IntSetting; MCimport:3",
+   "mcj": 1.0
+  },
+  {
+   "src": "ModuleButton",
+   "score": 15.0,
+   "why": "锚点引用:BoolSetting,ColorSetting,DoubleSetting,IntSetting,Setting",
+   "mcj": 0.0
+  },
+  {
+   "src": "SettingsContent",
+   "score": 15.0,
+   "why": "锚点引用:BoolSetting,ColorSetting,DoubleSetting,IntSetting,Setting",
+   "mcj": 0.0
+  }
+ ],
+ "e9": [
+  {
+   "src": "ModuleButton",
+   "score": 12.0,
+   "why": "锚点引用:BoolSetting,ColorSetting,DoubleSetting,Setting",
+   "mcj": 0.0
+  },
+  {
+   "src": "SettingsContent",
+   "score": 12.0,
+   "why": "锚点引用:BoolSetting,ColorSetting,DoubleSetting,Setting",
+   "mcj": 0.0
+  },
+  {
+   "src": "SettingViewFactory",
+   "score": 12.0,
+   "why": "锚点引用:BoolSetting,ColorSetting,DoubleSetting,Setting",
+   "mcj": 0.0
+  }
+ ],
+ "eA": [
+  {
+   "src": "ModuleButton",
+   "score": 12.0,
+   "why": "锚点引用:BoolSetting,DoubleSetting,Module,Setting",
+   "mcj": 0.0
+  },
+  {
+   "src": "ConfigHolder",
+   "score": 12.0,
+   "why": "锚点引用:BoolSetting,DoubleSetting,Module,Setting",
+   "mcj": 0.0
+  },
+  {
+   "src": "ClientSetting",
+   "score": 12.0,
+   "why": "锚点引用:BoolSetting,DoubleSetting,Module,Setting",
+   "mcj": 0.0
+  }
+ ],
+ "ea": [
+  {
+   "src": "ModuleButton",
+   "score": 15.0,
+   "why": "锚点引用:BoolSetting,DoubleSetting,EnumSetting,Module,Setting",
+   "mcj": 0.0
+  },
+  {
+   "src": "ConfigHolder",
+   "score": 15.0,
+   "why": "锚点引用:BoolSetting,DoubleSetting,EnumSetting,Module,Setting",
+   "mcj": 0
+  },
+  {
+   "src": "ClientSetting",
+   "score": 15.0,
+   "why": "锚点引用:BoolSetting,DoubleSetting,EnumSetting,Module,Setting",
+   "mcj": 0.0
+  }
+ ],
+ "eD": [
+  {
+   "src": "ModuleButton",
+   "score": 15.0,
+   "why": "锚点引用:BoolSetting,ColorSetting,EnumSetting,Module,Setting",
+   "mcj": 0.0
+  },
+  {
+   "src": "ConfigHolder",
+   "score": 15.0,
+   "why": "锚点引用:BoolSetting,ColorSetting,EnumSetting,Module,Setting",
+   "mcj": 0.0
+  },
+  {
+   "src": "ClientSetting",
+   "score": 15.0,
+   "why": "锚点引用:BoolSetting,ColorSetting,EnumSetting,Module,Setting",
+   "mcj": 0.0
+  }
+ ],
+ "ed": [
+  {
+   "src": "EpsilonAddon",
+   "score": 6.0,
+   "why": "锚点引用:Module,Setting",
+   "mcj": 0.0
+  },
+  {
+   "src": "I18NFileGenerator",
+   "score": 6.0,
+   "why": "锚点引用:Module,Setting",
+   "mcj": 0.0
+  },
+  {
+   "src": "ModuleButton",
+   "score": 6.0,
+   "why": "锚点引用:Module,Setting",
+   "mcj": 0.0
+  }
+ ],
+ "eE": [
+  {
+   "src": "ModuleButton",
+   "score": 15.0,
+   "why": "锚点引用:BoolSetting,IntSetting,KeybindSetting,Module,Setting",
+   "mcj": 0.0
+  },
+  {
+   "src": "ConfigHolder",
+   "score": 15.0,
+   "why": "锚点引用:BoolSetting,IntSetting,KeybindSetting,Module,Setting",
+   "mcj": 0.0
+  },
+  {
+   "src": "ClientSetting",
+   "score": 15.0,
+   "why": "锚点引用:BoolSetting,IntSetting,KeybindSetting,Module,Setting",
+   "mcj": 0.0
+  }
+ ],
+ "ee": [
+  {
+   "src": "ModuleButton",
+   "score": 9.0,
+   "why": "锚点引用:BoolSetting,Module,Setting",
+   "mcj": 0.0
+  },
+  {
+   "src": "ConfigHolder",
+   "score": 9.0,
+   "why": "锚点引用:BoolSetting,Module,Setting",
+   "mcj": 0
+  },
+  {
+   "src": "ClientSetting",
+   "score": 9.0,
+   "why": "锚点引用:BoolSetting,Module,Setting",
+   "mcj": 0.0
+  }
+ ],
+ "ef": [
+  {
+   "src": "ClientSetting",
+   "score": 15.8,
+   "why": "锚点引用:BoolSetting,ColorSetting,DoubleSetting,IntSetting,Setting; MCimport:1",
+   "mcj": 0.2
+  },
+  {
+   "src": "ModuleButton",
+   "score": 15.0,
+   "why": "锚点引用:BoolSetting,ColorSetting,DoubleSetting,IntSetting,Setting",
+   "mcj": 0.0
+  },
+  {
+   "src": "SettingsContent",
+   "score": 15.0,
+   "why": "锚点引用:BoolSetting,ColorSetting,DoubleSetting,IntSetting,Setting",
+   "mcj": 0.0
+  }
+ ],
+ "eg": [
+  {
+   "src": "ClientSetting",
+   "score": 18.0,
+   "why": "锚点引用:BoolSetting,ColorSetting,DoubleSetting,HudEditorScreen,IntSetting",
+   "mcj": 0.0
+  },
+  {
+   "src": "ScaffoldBlock",
+   "score": 17.0,
+   "why": "锚点引用:BoolSetting,ColorSetting,DoubleSetting,HudEditorScreen,IntSetting; MCimport:1",
+   "mcj": 0.5
+  },
+  {
+   "src": "ModuleButton",
+   "score": 15.0,
+   "why": "锚点引用:BoolSetting,ColorSetting,DoubleSetting,IntSetting,Setting",
+   "mcj": 0.0
+  }
+ ],
+ "eh": [
+  {
+   "src": "ModuleDetailPanel",
+   "score": 6.8,
+   "why": "锚点引用:Module,Setting; MCimport:1",
+   "mcj": 0.2
+  },
+  {
+   "src": "EpsilonAddon",
+   "score": 6.0,
+   "why": "锚点引用:Module,Setting",
+   "mcj": 0.0
+  },
+  {
+   "src": "I18NFileGenerator",
+   "score": 6.0,
+   "why": "锚点引用:Module,Setting",
+   "mcj": 0.0
+  }
+ ],
+ "eI": [
+  {
+   "src": "Follower",
+   "score": 12.67,
+   "why": "锚点引用:BoolSetting,IntSetting,KeyboardInputEvent,Module; MCimport:2",
+   "mcj": 0.167
+  },
+  {
+   "src": "Eagle",
+   "score": 12.57,
+   "why": "锚点引用:BoolSetting,IntSetting,KeyboardInputEvent,Module; MCimport:2",
+   "mcj": 0.143
+  },
+  {
+   "src": "Scaffold",
+   "score": 12.38,
+   "why": "锚点引用:BoolSetting,IntSetting,KeyboardInputEvent,Module; MCimport:2",
+   "mcj": 0.095
+  }
+ ],
+ "ei": [
+  {
+   "src": "MTF",
+   "score": 10.0,
+   "why": "锚点引用:ColorSetting,DoubleSetting; MCimport:1",
+   "mcj": 1.0
+  },
+  {
+   "src": "Watermark",
+   "score": 10.0,
+   "why": "锚点引用:ColorSetting,DoubleSetting; MCimport:1",
+   "mcj": 1.0
+  },
+  {
+   "src": "BPS",
+   "score": 8.0,
+   "why": "锚点引用:ColorSetting,DoubleSetting; MCimport:1",
+   "mcj": 0.5
+  }
+ ],
+ "eJ": [
+  {
+   "src": "ClientSetting",
+   "score": 12.0,
+   "why": "锚点引用:DoubleSetting,EnumSetting,HudEditorScreen,Setting",
+   "mcj": 0.0
+  },
+  {
+   "src": "ModuleButton",
+   "score": 9.0,
+   "why": "锚点引用:DoubleSetting,EnumSetting,Setting",
+   "mcj": 0.0
+  },
+  {
+   "src": "SettingsContent",
+   "score": 9.0,
+   "why": "锚点引用:DoubleSetting,EnumSetting,Setting",
+   "mcj": 0.0
+  }
+ ],
+ "ej": [
+  {
+   "src": "ModuleButton",
+   "score": 12.0,
+   "why": "锚点引用:EnumSetting,IntSetting,Module,Setting",
+   "mcj": 0.0
+  },
+  {
+   "src": "ConfigHolder",
+   "score": 12.0,
+   "why": "锚点引用:EnumSetting,IntSetting,Module,Setting",
+   "mcj": 0
+  },
+  {
+   "src": "ClientSetting",
+   "score": 12.0,
+   "why": "锚点引用:EnumSetting,IntSetting,Module,Setting",
+   "mcj": 0.0
+  }
+ ],
+ "eK": [
+  {
+   "src": "ModuleButton",
+   "score": 12.0,
+   "why": "锚点引用:BoolSetting,IntSetting,Module,Setting",
+   "mcj": 0.0
+  },
+  {
+   "src": "ConfigHolder",
+   "score": 12.0,
+   "why": "锚点引用:BoolSetting,IntSetting,Module,Setting",
+   "mcj": 0.0
+  },
+  {
+   "src": "ClientSetting",
+   "score": 12.0,
+   "why": "锚点引用:BoolSetting,IntSetting,Module,Setting",
+   "mcj": 0.0
+  }
+ ],
+ "em": [
+  {
+   "src": "ModuleButton",
+   "score": 12.0,
+   "why": "锚点引用:BoolSetting,DoubleSetting,Module,Setting",
+   "mcj": 0.0
+  },
+  {
+   "src": "ConfigHolder",
+   "score": 12.0,
+   "why": "锚点引用:BoolSetting,DoubleSetting,Module,Setting",
+   "mcj": 0.0
+  },
+  {
+   "src": "ClientSetting",
+   "score": 12.0,
+   "why": "锚点引用:BoolSetting,DoubleSetting,Module,Setting",
+   "mcj": 0.0
+  }
+ ],
+ "en": [
+  {
+   "src": "ModuleButton",
+   "score": 9.0,
+   "why": "锚点引用:BoolSetting,Module,Setting",
+   "mcj": 0.0
+  },
+  {
+   "src": "ConfigHolder",
+   "score": 9.0,
+   "why": "锚点引用:BoolSetting,Module,Setting",
+   "mcj": 0
+  },
+  {
+   "src": "ClientSetting",
+   "score": 9.0,
+   "why": "锚点引用:BoolSetting,Module,Setting",
+   "mcj": 0.0
+  }
+ ],
+ "eO": [
+  {
+   "src": "ModuleButton",
+   "score": 18.0,
+   "why": "锚点引用:BoolSetting,DoubleSetting,EnumSetting,IntSetting,Module",
+   "mcj": 0.0
+  },
+  {
+   "src": "ConfigHolder",
+   "score": 18.0,
+   "why": "锚点引用:BoolSetting,DoubleSetting,EnumSetting,IntSetting,Module",
+   "mcj": 0.0
+  },
+  {
+   "src": "ClientSetting",
+   "score": 18.0,
+   "why": "锚点引用:BoolSetting,DoubleSetting,EnumSetting,IntSetting,Module",
+   "mcj": 0.0
+  }
+ ],
+ "eo": [
+  {
+   "src": "ModuleButton",
+   "score": 15.0,
+   "why": "锚点引用:BoolSetting,EnumSetting,IntSetting,Module,Setting",
+   "mcj": 0.0
+  },
+  {
+   "src": "ConfigHolder",
+   "score": 15.0,
+   "why": "锚点引用:BoolSetting,EnumSetting,IntSetting,Module,Setting",
+   "mcj": 0.0
+  },
+  {
+   "src": "ClientSetting",
+   "score": 15.0,
+   "why": "锚点引用:BoolSetting,EnumSetting,IntSetting,Module,Setting",
+   "mcj": 0.0
+  }
+ ],
+ "eP": [
+  {
+   "src": "ModuleButton",
+   "score": 18.0,
+   "why": "锚点引用:BoolSetting,DoubleSetting,EnumSetting,IntSetting,Module",
+   "mcj": 0.0
+  },
+  {
+   "src": "ConfigHolder",
+   "score": 18.0,
+   "why": "锚点引用:BoolSetting,DoubleSetting,EnumSetting,IntSetting,Module",
+   "mcj": 0.0
+  },
+  {
+   "src": "ClientSetting",
+   "score": 18.0,
+   "why": "锚点引用:BoolSetting,DoubleSetting,EnumSetting,IntSetting,Module",
+   "mcj": 0.0
+  }
+ ],
+ "ep": [
+  {
+   "src": "EpsilonAddon",
+   "score": 6.0,
+   "why": "锚点引用:Module,Setting",
+   "mcj": 0
+  },
+  {
+   "src": "I18NFileGenerator",
+   "score": 6.0,
+   "why": "锚点引用:Module,Setting",
+   "mcj": 0
+  },
+  {
+   "src": "ModuleButton",
+   "score": 6.0,
+   "why": "锚点引用:Module,Setting",
+   "mcj": 0.0
+  }
+ ],
+ "eQ": [
+  {
+   "src": "ModuleButton",
+   "score": 9.0,
+   "why": "锚点引用:IntSetting,Module,Setting",
+   "mcj": 0.0
+  },
+  {
+   "src": "ConfigHolder",
+   "score": 9.0,
+   "why": "锚点引用:IntSetting,Module,Setting",
+   "mcj": 0.0
+  },
+  {
+   "src": "ClientSetting",
+   "score": 9.0,
+   "why": "锚点引用:IntSetting,Module,Setting",
+   "mcj": 0.0
+  }
+ ],
+ "eq": [
+  {
+   "src": "ClientSetting",
+   "score": 27.0,
+   "why": "锚点引用:BoolSetting,ColorSetting,DoubleSetting,EnumSetting,IntSetting",
+   "mcj": 0.0
+  },
+  {
+   "src": "ZealotCrystalPlus",
+   "score": 26.09,
+   "why": "锚点引用:BoolSetting,ColorSetting,DoubleSetting,EnumSetting,IntSetting; MCimport:9",
+   "mcj": 0.273
+  },
+  {
+   "src": "SettingHost",
+   "score": 24.25,
+   "why": "锚点引用:BoolSetting,ColorSetting,DoubleSetting,EnumSetting,IntSetting; MCimport:1",
+   "mcj": 0.062
+  }
+ ],
+ "eR": [
+  {
+   "src": "ClientSetting",
+   "score": 22.33,
+   "why": "锚点引用:BoolSetting,ColorSetting,DoubleSetting,EnumSetting,IntSetting; MCimport:1",
+   "mcj": 0.333
+  },
+  {
+   "src": "Particles",
+   "score": 21.33,
+   "why": "锚点引用:BoolSetting,ColorSetting,DoubleSetting,EnumSetting,IntSetting; MCimport:1",
+   "mcj": 0.083
+  },
+  {
+   "src": "HitParticles",
+   "score": 21.25,
+   "why": "锚点引用:BoolSetting,ColorSetting,DoubleSetting,EnumSetting,IntSetting; MCimport:1",
+   "mcj": 0.062
+  }
+ ],
+ "er": [
+  {
+   "src": "ModuleButton",
+   "score": 15.0,
+   "why": "锚点引用:EnumSetting,IntSetting,Module,Setting,StringSetting",
+   "mcj": 0.0
+  },
+  {
+   "src": "ConfigHolder",
+   "score": 15.0,
+   "why": "锚点引用:EnumSetting,IntSetting,Module,Setting,StringSetting",
+   "mcj": 0
+  },
+  {
+   "src": "ClientSetting",
+   "score": 15.0,
+   "why": "锚点引用:EnumSetting,IntSetting,Module,Setting,StringSetting",
+   "mcj": 0.0
+  }
+ ],
+ "eS": [
+  {
+   "src": "PacketMine",
+   "score": 12.18,
+   "why": "锚点引用:BoolSetting,IntSetting,Module,StartDestroyBlockEvent; MCimport:1",
+   "mcj": 0.045
+  },
+  {
+   "src": "ModuleButton",
+   "score": 12.0,
+   "why": "锚点引用:BoolSetting,IntSetting,Module,Setting",
+   "mcj": 0.0
+  },
+  {
+   "src": "ConfigHolder",
+   "score": 12.0,
+   "why": "锚点引用:BoolSetting,IntSetting,Module,Setting",
+   "mcj": 0.0
+  }
+ ],
+ "es": [
+  {
+   "src": "ModuleButton",
+   "score": 21.0,
+   "why": "锚点引用:BoolSetting,ColorSetting,DoubleSetting,EnumSetting,IntSetting",
+   "mcj": 0.0
+  },
+  {
+   "src": "ConfigHolder",
+   "score": 21.0,
+   "why": "锚点引用:BoolSetting,ColorSetting,DoubleSetting,EnumSetting,IntSetting",
+   "mcj": 0.0
+  },
+  {
+   "src": "ClientSetting",
+   "score": 21.0,
+   "why": "锚点引用:BoolSetting,ColorSetting,DoubleSetting,EnumSetting,IntSetting",
+   "mcj": 0.0
+  }
+ ],
+ "eT": [
+  {
+   "src": "ModuleButton",
+   "score": 12.0,
+   "why": "锚点引用:BoolSetting,Module,Setting,StringSetting",
+   "mcj": 0.0
+  },
+  {
+   "src": "ConfigHolder",
+   "score": 12.0,
+   "why": "锚点引用:BoolSetting,Module,Setting,StringSetting",
+   "mcj": 0.0
+  },
+  {
+   "src": "ClientSetting",
+   "score": 12.0,
+   "why": "锚点引用:BoolSetting,Module,Setting,StringSetting",
+   "mcj": 0.0
+  }
+ ],
+ "eU": [
+  {
+   "src": "ClientSetting",
+   "score": 15.44,
+   "why": "锚点引用:BoolSetting,ColorSetting,DoubleSetting,EnumSetting,Setting; MCimport:1",
+   "mcj": 0.111
+  },
+  {
+   "src": "ModuleButton",
+   "score": 15.0,
+   "why": "锚点引用:BoolSetting,ColorSetting,DoubleSetting,EnumSetting,Setting",
+   "mcj": 0.0
+  },
+  {
+   "src": "SettingsContent",
+   "score": 15.0,
+   "why": "锚点引用:BoolSetting,ColorSetting,DoubleSetting,EnumSetting,Setting",
+   "mcj": 0.0
+  }
+ ],
+ "eu": [
+  {
+   "src": "ModuleButton",
+   "score": 15.0,
+   "why": "锚点引用:BoolSetting,ColorSetting,IntSetting,Module,Setting",
+   "mcj": 0.0
+  },
+  {
+   "src": "ConfigHolder",
+   "score": 15.0,
+   "why": "锚点引用:BoolSetting,ColorSetting,IntSetting,Module,Setting",
+   "mcj": 0.0
+  },
+  {
+   "src": "ClientSetting",
+   "score": 15.0,
+   "why": "锚点引用:BoolSetting,ColorSetting,IntSetting,Module,Setting",
+   "mcj": 0.0
+  }
+ ],
+ "eV": [
+  {
+   "src": "ModuleButton",
+   "score": 12.0,
+   "why": "锚点引用:EnumSetting,IntSetting,Module,Setting",
+   "mcj": 0.0
+  },
+  {
+   "src": "ConfigHolder",
+   "score": 12.0,
+   "why": "锚点引用:EnumSetting,IntSetting,Module,Setting",
+   "mcj": 0
+  },
+  {
+   "src": "ClientSetting",
+   "score": 12.0,
+   "why": "锚点引用:EnumSetting,IntSetting,Module,Setting",
+   "mcj": 0.0
+  }
+ ],
+ "eW": [
+  {
+   "src": "Scaffold",
+   "score": 26.12,
+   "why": "锚点引用:BoolSetting,ColorSetting,EnumSetting,IntSetting,KeyboardInputEvent; MCimport:7",
+   "mcj": 0.28
+  },
+  {
+   "src": "Follower",
+   "score": 21.38,
+   "why": "锚点引用:BoolSetting,ColorSetting,EnumSetting,IntSetting,KeyboardInputEvent; MCimport:2",
+   "mcj": 0.095
+  },
+  {
+   "src": "ModuleButton",
+   "score": 21.0,
+   "why": "锚点引用:BoolSetting,ColorSetting,EnumSetting,IntSetting,Module",
+   "mcj": 0.0
+  }
+ ],
+ "eX": [
+  {
+   "src": "ModuleButton",
+   "score": 21.0,
+   "why": "锚点引用:BoolSetting,ColorSetting,DoubleSetting,EnumSetting,IntSetting",
+   "mcj": 0.0
+  },
+  {
+   "src": "SettingsContent",
+   "score": 21.0,
+   "why": "锚点引用:BoolSetting,ColorSetting,DoubleSetting,EnumSetting,IntSetting",
+   "mcj": 0
+  },
+  {
+   "src": "SettingViewFactory",
+   "score": 21.0,
+   "why": "锚点引用:BoolSetting,ColorSetting,DoubleSetting,EnumSetting,IntSetting",
+   "mcj": 0
+  }
+ ],
+ "ex": [
+  {
+   "src": "EpsilonAddon",
+   "score": 6.0,
+   "why": "锚点引用:Module,Setting",
+   "mcj": 0.0
+  },
+  {
+   "src": "I18NFileGenerator",
+   "score": 6.0,
+   "why": "锚点引用:Module,Setting",
+   "mcj": 0.0
+  },
+  {
+   "src": "ModuleButton",
+   "score": 6.0,
+   "why": "锚点引用:Module,Setting",
+   "mcj": 0.0
+  }
+ ],
+ "ey": [
+  {
+   "src": "AutoHitCrystal",
+   "score": 23.33,
+   "why": "锚点引用:BoolSetting,ColorSetting,DoubleSetting,IntSetting,KeybindSetting; MCimport:5",
+   "mcj": 0.333
+  },
+  {
+   "src": "ModuleButton",
+   "score": 21.0,
+   "why": "锚点引用:BoolSetting,ColorSetting,DoubleSetting,IntSetting,KeybindSetting",
+   "mcj": 0.0
+  },
+  {
+   "src": "ConfigHolder",
+   "score": 21.0,
+   "why": "锚点引用:BoolSetting,ColorSetting,DoubleSetting,IntSetting,KeybindSetting",
+   "mcj": 0.0
+  }
+ ],
+ "G": [
+  {
+   "src": "Follower",
+   "score": 21.0,
+   "why": "锚点引用:BoolSetting,DoubleSetting,IntSetting,KeyboardInputEvent,Module; MCimport:4",
+   "mcj": 0.5
+  },
+  {
+   "src": "HoleSnap",
+   "score": 17.2,
+   "why": "锚点引用:BoolSetting,DoubleSetting,IntSetting,Module,Render3DEvent; MCimport:3",
+   "mcj": 0.3
+  },
+  {
+   "src": "HoleESP",
+   "score": 17.0,
+   "why": "锚点引用:BoolSetting,DoubleSetting,IntSetting,Module,Render3DEvent; MCimport:3",
+   "mcj": 0.25
+  }
+ ],
+ "g1": [
+  {
+   "src": "ControlElytraFlightMode",
+   "score": 15.8,
+   "why": "锚点引用:ElytraFly,FallFlyingEvent,FireworkRotationEvent,KeyboardInputEvent,TravelEvent; MCimport:1",
+   "mcj": 0.2
+  },
+  {
+   "src": "ElytraFlightMode",
+   "score": 15.0,
+   "why": "锚点引用:ElytraFly,FallFlyingEvent,FireworkRotationEvent,KeyboardInputEvent,TravelEvent",
+   "mcj": 0.0
+  },
+  {
+   "src": "ElytraFly",
+   "score": 12.0,
+   "why": "锚点引用:FallFlyingEvent,FireworkRotationEvent,KeyboardInputEvent,TravelEvent",
+   "mcj": 0.0
+  }
+ ],
+ "gA": [
+  {
+   "src": "I18NFileGenerator",
+   "score": 6.0,
+   "why": "锚点引用:EnumSetting,Setting",
+   "mcj": 0
+  },
+  {
+   "src": "ModuleButton",
+   "score": 6.0,
+   "why": "锚点引用:EnumSetting,Setting",
+   "mcj": 0.0
+  },
+  {
+   "src": "SettingsContent",
+   "score": 6.0,
+   "why": "锚点引用:EnumSetting,Setting",
+   "mcj": 0
+  }
+ ],
+ "gB": [
+  {
+   "src": "SoundKey",
+   "score": 4.0,
+   "why": "MCimport:1",
+   "mcj": 1.0
+  },
+  {
+   "src": "ResourceLocationUtils",
+   "score": 2.0,
+   "why": "MCimport:1",
+   "mcj": 0.5
+  },
+  {
+   "src": "ClientSetting",
+   "score": 2.0,
+   "why": "MCimport:1",
+   "mcj": 0.5
+  }
+ ],
+ "gC": [
+  {
+   "src": "EpsilonAddon",
+   "score": 3.0,
+   "why": "锚点引用:Module",
+   "mcj": 0
+  },
+  {
+   "src": "LegacyConfigMigrator",
+   "score": 3.0,
+   "why": "锚点引用:Module",
+   "mcj": 0
+  },
+  {
+   "src": "EpsilonTranslations",
+   "score": 3.0,
+   "why": "锚点引用:Module",
+   "mcj": 0
+  }
+ ],
+ "gc": [
+  {
+   "src": "Hole",
+   "score": 4.0,
+   "why": "MCimport:2",
+   "mcj": 1.0
+  },
+  {
+   "src": "EpsilonAddon",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0.0
+  },
+  {
+   "src": "I18NFileGenerator",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0.0
+  }
+ ],
+ "gd": [
+  {
+   "src": "Pitch40ElytraFlightMode",
+   "score": 15.0,
+   "why": "锚点引用:ElytraFly,FallFlyingEvent,FireworkRotationEvent,KeyboardInputEvent,TranslateComponent",
+   "mcj": 0.0
+  },
+  {
+   "src": "ControlElytraFlightMode",
+   "score": 12.0,
+   "why": "锚点引用:ElytraFly,FallFlyingEvent,FireworkRotationEvent,KeyboardInputEvent",
+   "mcj": 0.0
+  },
+  {
+   "src": "ElytraFlightMode",
+   "score": 12.0,
+   "why": "锚点引用:ElytraFly,FallFlyingEvent,FireworkRotationEvent,KeyboardInputEvent",
+   "mcj": 0.0
+  }
+ ],
+ "ge": [
+  {
+   "src": "EpsilonAddon",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0.0
+  },
+  {
+   "src": "I18NFileGenerator",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0.0
+  },
+  {
+   "src": "AddonPanelEntry",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0.0
+  }
+ ],
+ "gf": [
+  {
+   "src": "MasEffectsParticleRenderer",
+   "score": 4.52,
+   "why": "锚点引用:MasEffects; MCimport:3",
+   "mcj": 0.13
+  },
+  {
+   "src": "ClientSetting",
+   "score": 4.0,
+   "why": "锚点引用:Setting; MCimport:1",
+   "mcj": 0.25
+  },
+  {
+   "src": "MixinClientLevel",
+   "score": 3.67,
+   "why": "锚点引用:MasEffects; MCimport:1",
+   "mcj": 0.167
+  }
+ ],
+ "gG": [
+  {
+   "src": "ClientSetting",
+   "score": 6.57,
+   "why": "锚点引用:BoolSetting,Setting; MCimport:1",
+   "mcj": 0.143
+  },
+  {
+   "src": "ModuleButton",
+   "score": 6.0,
+   "why": "锚点引用:BoolSetting,Setting",
+   "mcj": 0.0
+  },
+  {
+   "src": "SettingsContent",
+   "score": 6.0,
+   "why": "锚点引用:BoolSetting,Setting",
+   "mcj": 0.0
+  }
+ ],
+ "gH": [
+  {
+   "src": "PacketEvent",
+   "score": 4.0,
+   "why": "MCimport:1",
+   "mcj": 1.0
+  },
+  {
+   "src": "ClientboundPacketManager",
+   "score": 4.0,
+   "why": "MCimport:1",
+   "mcj": 1.0
+  },
+  {
+   "src": "ServerboundPacketManager",
+   "score": 4.0,
+   "why": "MCimport:1",
+   "mcj": 1.0
+  }
+ ],
+ "gl": [
+  {
+   "src": "ClientSetting",
+   "score": 4.33,
+   "why": "锚点引用:Setting; MCimport:1",
+   "mcj": 0.333
+  },
+  {
+   "src": "RegistryListSetting",
+   "score": 3.44,
+   "why": "锚点引用:Setting; MCimport:1",
+   "mcj": 0.111
+  },
+  {
+   "src": "RegistryListSelectPopup",
+   "score": 3.24,
+   "why": "锚点引用:Setting; MCimport:1",
+   "mcj": 0.059
+  }
+ ],
+ "gM": [
+  {
+   "src": "ClientSetting",
+   "score": 4.33,
+   "why": "锚点引用:Setting; MCimport:1",
+   "mcj": 0.333
+  },
+  {
+   "src": "RegistryListSetting",
+   "score": 3.44,
+   "why": "锚点引用:Setting; MCimport:1",
+   "mcj": 0.111
+  },
+  {
+   "src": "RegistryListSelectPopup",
+   "score": 3.24,
+   "why": "锚点引用:Setting; MCimport:1",
+   "mcj": 0.059
+  }
+ ],
+ "gm": [
+  {
+   "src": "EpsilonAddon",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0
+  },
+  {
+   "src": "I18NFileGenerator",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0
+  },
+  {
+   "src": "AddonPanelEntry",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0
+  }
+ ],
+ "go": [
+  {
+   "src": "EpsilonAddon",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0.0
+  },
+  {
+   "src": "I18NFileGenerator",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0.0
+  },
+  {
+   "src": "AddonPanelEntry",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0.0
+  }
+ ],
+ "gp": [
+  {
+   "src": "NotificationManager",
+   "score": 5.0,
+   "why": "MCimport:3",
+   "mcj": 1.0
+  },
+  {
+   "src": "EpsilonAddon",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0.0
+  },
+  {
+   "src": "I18NFileGenerator",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0.0
+  }
+ ],
+ "gq": [
+  {
+   "src": "ClientSetting",
+   "score": 4.33,
+   "why": "锚点引用:Setting; MCimport:1",
+   "mcj": 0.333
+  },
+  {
+   "src": "RegistryListSetting",
+   "score": 3.44,
+   "why": "锚点引用:Setting; MCimport:1",
+   "mcj": 0.111
+  },
+  {
+   "src": "RegistryListSelectPopup",
+   "score": 3.24,
+   "why": "锚点引用:Setting; MCimport:1",
+   "mcj": 0.059
+  }
+ ],
+ "gR": [
+  {
+   "src": "EpsilonAddon",
+   "score": 6.0,
+   "why": "锚点引用:Setting,SettingGroup",
+   "mcj": 0
+  },
+  {
+   "src": "I18NFileGenerator",
+   "score": 6.0,
+   "why": "锚点引用:Setting,SettingGroup",
+   "mcj": 0
+  },
+  {
+   "src": "Module",
+   "score": 6.0,
+   "why": "锚点引用:Setting,SettingGroup",
+   "mcj": 0.0
+  }
+ ],
+ "gS": [
+  {
+   "src": "StartDestroyBlockEvent",
+   "score": 4.0,
+   "why": "MCimport:2",
+   "mcj": 1.0
+  },
+  {
+   "src": "DestroyBlockEvent",
+   "score": 2.0,
+   "why": "MCimport:1",
+   "mcj": 0.5
+  },
+  {
+   "src": "RaytraceUtils",
+   "score": 2.0,
+   "why": "MCimport:2",
+   "mcj": 0.5
+  }
+ ],
+ "gs": [
+  {
+   "src": "ClientSetting",
+   "score": 3.67,
+   "why": "锚点引用:Setting; MCimport:1",
+   "mcj": 0.167
+  },
+  {
+   "src": "RegistryListSetting",
+   "score": 3.33,
+   "why": "锚点引用:Setting; MCimport:1",
+   "mcj": 0.083
+  },
+  {
+   "src": "RegistryListSelectPopup",
+   "score": 3.2,
+   "why": "锚点引用:Setting; MCimport:1",
+   "mcj": 0.05
+  }
+ ],
+ "gt": [
+  {
+   "src": "ElytraFlightMode",
+   "score": 17.45,
+   "why": "锚点引用:ElytraFly,FallFlyingEvent,FireworkRotationEvent,KeyboardInputEvent,TravelEvent; MCimport:4",
+   "mcj": 0.364
+  },
+  {
+   "src": "ControlElytraFlightMode",
+   "score": 15.0,
+   "why": "锚点引用:ElytraFly,FallFlyingEvent,FireworkRotationEvent,KeyboardInputEvent,TravelEvent",
+   "mcj": 0.0
+  },
+  {
+   "src": "ElytraFly",
+   "score": 15.0,
+   "why": "锚点引用:EnumSetting,FallFlyingEvent,FireworkRotationEvent,KeyboardInputEvent,TravelEvent",
+   "mcj": 0.0
+  }
+ ],
+ "gu": [
+  {
+   "src": "EpsilonAddon",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0
+  },
+  {
+   "src": "I18NFileGenerator",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0
+  },
+  {
+   "src": "AddonPanelEntry",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0
+  }
+ ],
+ "gV": [
+  {
+   "src": "ClientSetting",
+   "score": 4.33,
+   "why": "锚点引用:Setting; MCimport:1",
+   "mcj": 0.333
+  },
+  {
+   "src": "RegistryListSetting",
+   "score": 3.44,
+   "why": "锚点引用:Setting; MCimport:1",
+   "mcj": 0.111
+  },
+  {
+   "src": "RegistryListSelectPopup",
+   "score": 3.24,
+   "why": "锚点引用:Setting; MCimport:1",
+   "mcj": 0.059
+  }
+ ],
+ "gv": [
+  {
+   "src": "FollowerPath",
+   "score": 4.0,
+   "why": "MCimport:1",
+   "mcj": 1.0
+  },
+  {
+   "src": "MixinEntity",
+   "score": 2.0,
+   "why": "MCimport:1",
+   "mcj": 0.5
+  },
+  {
+   "src": "MixinLivingEntity",
+   "score": 2.0,
+   "why": "MCimport:1",
+   "mcj": 0.5
+  }
+ ],
+ "gW": [
+  {
+   "src": "ModuleDetailPanel",
+   "score": 8.0,
+   "why": "锚点引用:Module,Setting; MCimport:2",
+   "mcj": 0.5
+  },
+  {
+   "src": "EpsilonAddon",
+   "score": 6.0,
+   "why": "锚点引用:Module,Setting",
+   "mcj": 0.0
+  },
+  {
+   "src": "I18NFileGenerator",
+   "score": 6.0,
+   "why": "锚点引用:Module,Setting",
+   "mcj": 0.0
+  }
+ ],
+ "gy": [
+  {
+   "src": "EpsilonAddon",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0
+  },
+  {
+   "src": "I18NFileGenerator",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0
+  },
+  {
+   "src": "AddonPanelEntry",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0
+  }
+ ],
+ "gZ": [
+  {
+   "src": "ClientSetting",
+   "score": 3.67,
+   "why": "锚点引用:Setting; MCimport:1",
+   "mcj": 0.167
+  },
+  {
+   "src": "RegistryListSetting",
+   "score": 3.33,
+   "why": "锚点引用:Setting; MCimport:1",
+   "mcj": 0.083
+  },
+  {
+   "src": "RegistryListSelectPopup",
+   "score": 3.2,
+   "why": "锚点引用:Setting; MCimport:1",
+   "mcj": 0.05
+  }
+ ],
+ "gz": [
+  {
+   "src": "ClientSetting",
+   "score": 5.0,
+   "why": "锚点引用:Setting; MCimport:1",
+   "mcj": 0.5
+  },
+  {
+   "src": "SoundKey",
+   "score": 4.0,
+   "why": "MCimport:1",
+   "mcj": 1.0
+  },
+  {
+   "src": "RegistryListSetting",
+   "score": 3.5,
+   "why": "锚点引用:Setting; MCimport:1",
+   "mcj": 0.125
+  }
+ ],
+ "h": [
+  {
+   "src": "ZealotCrystalPlus",
+   "score": 22.76,
+   "why": "锚点引用:BoolSetting,ColorSetting,DoubleSetting,IntSetting,Module; MCimport:7",
+   "mcj": 0.189
+  },
+  {
+   "src": "HoleSnap",
+   "score": 21.42,
+   "why": "锚点引用:BoolSetting,ColorSetting,DoubleSetting,IntSetting,Module; MCimport:2",
+   "mcj": 0.105
+  },
+  {
+   "src": "HoleESP",
+   "score": 21.38,
+   "why": "锚点引用:BoolSetting,ColorSetting,DoubleSetting,IntSetting,Module; MCimport:2",
+   "mcj": 0.095
+  }
+ ],
+ "I": [
+  {
+   "src": "ModuleButton",
+   "score": 15.0,
+   "why": "锚点引用:BoolSetting,ColorSetting,DoubleSetting,Module,Setting",
+   "mcj": 0.0
+  },
+  {
+   "src": "ConfigHolder",
+   "score": 15.0,
+   "why": "锚点引用:BoolSetting,ColorSetting,DoubleSetting,Module,Setting",
+   "mcj": 0.0
+  },
+  {
+   "src": "ClientSetting",
+   "score": 15.0,
+   "why": "锚点引用:BoolSetting,ColorSetting,DoubleSetting,Module,Setting",
+   "mcj": 0.0
+  }
+ ],
+ "i1": [
+  {
+   "src": "I18NFileGenerator",
+   "score": 6.0,
+   "why": "锚点引用:Setting,TranslateComponent",
+   "mcj": 0
+  },
+  {
+   "src": "SettingsListPanel",
+   "score": 6.0,
+   "why": "锚点引用:Setting,TranslateComponent",
+   "mcj": 0
+  },
+  {
+   "src": "Module",
+   "score": 6.0,
+   "why": "锚点引用:Setting,TranslateComponent",
+   "mcj": 0.0
+  }
+ ],
+ "i2": [
+  {
+   "src": "ClientSetting",
+   "score": 5.0,
+   "why": "锚点引用:Setting; MCimport:1",
+   "mcj": 0.5
+  },
+  {
+   "src": "SoundKey",
+   "score": 4.0,
+   "why": "MCimport:1",
+   "mcj": 1.0
+  },
+  {
+   "src": "RegistryListSetting",
+   "score": 3.5,
+   "why": "锚点引用:Setting; MCimport:1",
+   "mcj": 0.125
+  }
+ ],
+ "i4": [
+  {
+   "src": "EpsilonAddon",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0
+  },
+  {
+   "src": "I18NFileGenerator",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0
+  },
+  {
+   "src": "AddonPanelEntry",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0
+  }
+ ],
+ "i6": [
+  {
+   "src": "ModuleDetailPanel",
+   "score": 9.0,
+   "why": "锚点引用:Module,Setting; MCimport:4",
+   "mcj": 0.5
+  },
+  {
+   "src": "SettingRow",
+   "score": 6.5,
+   "why": "锚点引用:Setting; MCimport:5",
+   "mcj": 0.625
+  },
+  {
+   "src": "EpsilonAddon",
+   "score": 6.0,
+   "why": "锚点引用:Module,Setting",
+   "mcj": 0.0
+  }
+ ],
+ "i7": [
+  {
+   "src": "EpsilonAddon",
+   "score": 3.0,
+   "why": "锚点引用:Module",
+   "mcj": 0
+  },
+  {
+   "src": "LegacyConfigMigrator",
+   "score": 3.0,
+   "why": "锚点引用:Module",
+   "mcj": 0
+  },
+  {
+   "src": "EpsilonTranslations",
+   "score": 3.0,
+   "why": "锚点引用:Module",
+   "mcj": 0
+  }
+ ],
+ "i8": [
+  {
+   "src": "ChatComponentAccessor",
+   "score": 4.0,
+   "why": "MCimport:1",
+   "mcj": 1.0
+  },
+  {
+   "src": "AutoKouZi",
+   "score": 4.0,
+   "why": "MCimport:1",
+   "mcj": 1.0
+  },
+  {
+   "src": "NotificationManager",
+   "score": 1.33,
+   "why": "MCimport:1",
+   "mcj": 0.333
+  }
+ ],
+ "iA": [
+  {
+   "src": "ModuleDetailPanel",
+   "score": 10.0,
+   "why": "锚点引用:Module,Setting; MCimport:3",
+   "mcj": 0.75
+  },
+  {
+   "src": "I18NFileGenerator",
+   "score": 9.0,
+   "why": "锚点引用:Module,Setting,TranslateComponent",
+   "mcj": 0.0
+  },
+  {
+   "src": "ClientSettingPanel",
+   "score": 7.0,
+   "why": "锚点引用:TranslateComponent; MCimport:3",
+   "mcj": 0.75
+  }
+ ],
+ "ib": [
+  {
+   "src": "I18NFileGenerator",
+   "score": 6.0,
+   "why": "锚点引用:Setting,TranslateComponent",
+   "mcj": 0
+  },
+  {
+   "src": "SettingsListPanel",
+   "score": 6.0,
+   "why": "锚点引用:Setting,TranslateComponent",
+   "mcj": 0
+  },
+  {
+   "src": "Module",
+   "score": 6.0,
+   "why": "锚点引用:Setting,TranslateComponent",
+   "mcj": 0.0
+  }
+ ],
+ "iC": [
+  {
+   "src": "I18NFileGenerator",
+   "score": 6.0,
+   "why": "锚点引用:Setting,TranslateComponent",
+   "mcj": 0
+  },
+  {
+   "src": "SettingsListPanel",
+   "score": 6.0,
+   "why": "锚点引用:Setting,TranslateComponent",
+   "mcj": 0
+  },
+  {
+   "src": "Module",
+   "score": 6.0,
+   "why": "锚点引用:Setting,TranslateComponent",
+   "mcj": 0.0
+  }
+ ],
+ "ic": [
+  {
+   "src": "ClientSetting",
+   "score": 21.0,
+   "why": "锚点引用:BoolSetting,ColorSetting,DoubleSetting,EnumSetting,IntSetting",
+   "mcj": 0.0
+  },
+  {
+   "src": "SettingHost",
+   "score": 21.0,
+   "why": "锚点引用:BoolSetting,ColorSetting,DoubleSetting,EnumSetting,IntSetting",
+   "mcj": 0.0
+  },
+  {
+   "src": "ModuleButton",
+   "score": 18.0,
+   "why": "锚点引用:BoolSetting,ColorSetting,DoubleSetting,EnumSetting,IntSetting",
+   "mcj": 0.0
+  }
+ ],
+ "id": [
+  {
+   "src": "I18NFileGenerator",
+   "score": 6.0,
+   "why": "锚点引用:Setting,TranslateComponent",
+   "mcj": 0
+  },
+  {
+   "src": "SettingsListPanel",
+   "score": 6.0,
+   "why": "锚点引用:Setting,TranslateComponent",
+   "mcj": 0
+  },
+  {
+   "src": "Module",
+   "score": 6.0,
+   "why": "锚点引用:Setting,TranslateComponent",
+   "mcj": 0.0
+  }
+ ],
+ "iE": [
+  {
+   "src": "SoundKey",
+   "score": 4.0,
+   "why": "MCimport:1",
+   "mcj": 1.0
+  },
+  {
+   "src": "ResourceLocationUtils",
+   "score": 2.0,
+   "why": "MCimport:1",
+   "mcj": 0.5
+  },
+  {
+   "src": "ClientSetting",
+   "score": 2.0,
+   "why": "MCimport:1",
+   "mcj": 0.5
+  }
+ ],
+ "iH": [
+  {
+   "src": "EpsilonAddon",
+   "score": 12.0,
+   "why": "锚点引用:Module,Setting,SettingGroup,SettingHost",
+   "mcj": 0
+  },
+  {
+   "src": "LuaScriptPackage",
+   "score": 12.0,
+   "why": "锚点引用:Module,Setting,SettingGroup,SettingHost",
+   "mcj": 0
+  },
+  {
+   "src": "I18NFileGenerator",
+   "score": 9.0,
+   "why": "锚点引用:Module,Setting,SettingGroup",
+   "mcj": 0
+  }
+ ],
+ "ih": [
+  {
+   "src": "EpsilonAddon",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0
+  },
+  {
+   "src": "I18NFileGenerator",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0
+  },
+  {
+   "src": "AddonPanelEntry",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0
+  }
+ ],
+ "iI": [
+  {
+   "src": "ModuleButton",
+   "score": 9.0,
+   "why": "锚点引用:DoubleSetting,IntSetting,Setting",
+   "mcj": 0.0
+  },
+  {
+   "src": "SettingsContent",
+   "score": 9.0,
+   "why": "锚点引用:DoubleSetting,IntSetting,Setting",
+   "mcj": 0
+  },
+  {
+   "src": "SettingViewFactory",
+   "score": 9.0,
+   "why": "锚点引用:DoubleSetting,IntSetting,Setting",
+   "mcj": 0
+  }
+ ],
+ "iJ": [
+  {
+   "src": "MasEffectsParticleRenderer",
+   "score": 5.28,
+   "why": "锚点引用:MasEffects; MCimport:8",
+   "mcj": 0.32
+  },
+  {
+   "src": "RegistryListSelectPopup",
+   "score": 4.52,
+   "why": "锚点引用:Setting; MCimport:3",
+   "mcj": 0.13
+  },
+  {
+   "src": "MixinClientLevel",
+   "score": 3.67,
+   "why": "锚点引用:MasEffects; MCimport:2",
+   "mcj": 0.167
+  }
+ ],
+ "iL": [
+  {
+   "src": "DestroyBlockEvent",
+   "score": 4.0,
+   "why": "MCimport:1",
+   "mcj": 1.0
+  },
+  {
+   "src": "BlockCollisionEvent",
+   "score": 2.0,
+   "why": "MCimport:1",
+   "mcj": 0.5
+  },
+  {
+   "src": "StartDestroyBlockEvent",
+   "score": 2.0,
+   "why": "MCimport:1",
+   "mcj": 0.5
+  }
+ ],
+ "iN": [
+  {
+   "src": "I18NFileGenerator",
+   "score": 6.0,
+   "why": "锚点引用:Setting,TranslateComponent",
+   "mcj": 0
+  },
+  {
+   "src": "SettingsListPanel",
+   "score": 6.0,
+   "why": "锚点引用:Setting,TranslateComponent",
+   "mcj": 0
+  },
+  {
+   "src": "Module",
+   "score": 6.0,
+   "why": "锚点引用:Setting,TranslateComponent",
+   "mcj": 0.0
+  }
+ ],
+ "in": [
+  {
+   "src": "EpsilonAddon",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0.0
+  },
+  {
+   "src": "I18NFileGenerator",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0.0
+  },
+  {
+   "src": "AddonPanelEntry",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0.0
+  }
+ ],
+ "iO": [
+  {
+   "src": "SoundKey",
+   "score": 4.0,
+   "why": "MCimport:1",
+   "mcj": 1.0
+  },
+  {
+   "src": "ResourceLocationUtils",
+   "score": 2.0,
+   "why": "MCimport:1",
+   "mcj": 0.5
+  },
+  {
+   "src": "ClientSetting",
+   "score": 2.0,
+   "why": "MCimport:1",
+   "mcj": 0.5
+  }
+ ],
+ "io": [
+  {
+   "src": "EnchantmentUtils",
+   "score": 3.86,
+   "why": "MCimport:5",
+   "mcj": 0.714
+  },
+  {
+   "src": "RegistryListSelectPopup",
+   "score": 3.42,
+   "why": "锚点引用:Setting; MCimport:2",
+   "mcj": 0.105
+  },
+  {
+   "src": "EpsilonAddon",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0.0
+  }
+ ],
+ "ip": [
+  {
+   "src": "EpsilonAddon",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0
+  },
+  {
+   "src": "I18NFileGenerator",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0
+  },
+  {
+   "src": "AddonPanelEntry",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0
+  }
+ ],
+ "iR": [
+  {
+   "src": "Criticals",
+   "score": 3.4,
+   "why": "MCimport:3",
+   "mcj": 0.6
+  },
+  {
+   "src": "SpearKill",
+   "score": 3.4,
+   "why": "MCimport:3",
+   "mcj": 0.6
+  },
+  {
+   "src": "AStarFollowerNavigator",
+   "score": 3.4,
+   "why": "MCimport:3",
+   "mcj": 0.6
+  }
+ ],
+ "ir": [
+  {
+   "src": "ClickSlotUtils",
+   "score": 4.0,
+   "why": "MCimport:1",
+   "mcj": 1.0
+  }
+ ],
+ "is": [
+  {
+   "src": "EpsilonAddon",
+   "score": 6.0,
+   "why": "锚点引用:Setting,SettingGroup",
+   "mcj": 0
+  },
+  {
+   "src": "I18NFileGenerator",
+   "score": 6.0,
+   "why": "锚点引用:Setting,SettingGroup",
+   "mcj": 0
+  },
+  {
+   "src": "Module",
+   "score": 6.0,
+   "why": "锚点引用:Setting,SettingGroup",
+   "mcj": 0.0
+  }
+ ],
+ "it": [
+  {
+   "src": "I18NFileGenerator",
+   "score": 6.0,
+   "why": "锚点引用:Setting,TranslateComponent",
+   "mcj": 0
+  },
+  {
+   "src": "SettingsListPanel",
+   "score": 6.0,
+   "why": "锚点引用:Setting,TranslateComponent",
+   "mcj": 0
+  },
+  {
+   "src": "Module",
+   "score": 6.0,
+   "why": "锚点引用:Setting,TranslateComponent",
+   "mcj": 0.0
+  }
+ ],
+ "iu": [
+  {
+   "src": "EpsilonAddon",
+   "score": 6.0,
+   "why": "锚点引用:Module,Setting",
+   "mcj": 0
+  },
+  {
+   "src": "I18NFileGenerator",
+   "score": 6.0,
+   "why": "锚点引用:Module,Setting",
+   "mcj": 0
+  },
+  {
+   "src": "ModuleButton",
+   "score": 6.0,
+   "why": "锚点引用:Module,Setting",
+   "mcj": 0.0
+  }
+ ],
+ "iv": [
+  {
+   "src": "AttackSlowDownEvent",
+   "score": 4.0,
+   "why": "MCimport:1",
+   "mcj": 1.0
+  },
+  {
+   "src": "EntityRenderStateAccessor",
+   "score": 4.0,
+   "why": "MCimport:1",
+   "mcj": 1.0
+  },
+  {
+   "src": "AntiBot",
+   "score": 4.0,
+   "why": "MCimport:1",
+   "mcj": 1.0
+  }
+ ],
+ "iW": [
+  {
+   "src": "ClientSetting",
+   "score": 4.33,
+   "why": "锚点引用:Setting; MCimport:1",
+   "mcj": 0.333
+  },
+  {
+   "src": "RegistryListSetting",
+   "score": 3.44,
+   "why": "锚点引用:Setting; MCimport:1",
+   "mcj": 0.111
+  },
+  {
+   "src": "RegistryListSelectPopup",
+   "score": 3.24,
+   "why": "锚点引用:Setting; MCimport:1",
+   "mcj": 0.059
+  }
+ ],
+ "iZ": [
+  {
+   "src": "SoundKey",
+   "score": 4.0,
+   "why": "MCimport:1",
+   "mcj": 1.0
+  },
+  {
+   "src": "ResourceLocationUtils",
+   "score": 2.0,
+   "why": "MCimport:1",
+   "mcj": 0.5
+  },
+  {
+   "src": "ClientSetting",
+   "score": 2.0,
+   "why": "MCimport:1",
+   "mcj": 0.5
+  }
+ ],
+ "J": [
+  {
+   "src": "EpsilonAddon",
+   "score": 3.0,
+   "why": "锚点引用:Module",
+   "mcj": 0
+  },
+  {
+   "src": "LegacyConfigMigrator",
+   "score": 3.0,
+   "why": "锚点引用:Module",
+   "mcj": 0
+  },
+  {
+   "src": "EpsilonTranslations",
+   "score": 3.0,
+   "why": "锚点引用:Module",
+   "mcj": 0
+  }
+ ],
+ "K": [
+  {
+   "src": "ModuleButton",
+   "score": 12.0,
+   "why": "锚点引用:DoubleSetting,IntSetting,Module,Setting",
+   "mcj": 0.0
+  },
+  {
+   "src": "ConfigHolder",
+   "score": 12.0,
+   "why": "锚点引用:DoubleSetting,IntSetting,Module,Setting",
+   "mcj": 0.0
+  },
+  {
+   "src": "ClientSetting",
+   "score": 12.0,
+   "why": "锚点引用:DoubleSetting,IntSetting,Module,Setting",
+   "mcj": 0.0
+  }
+ ],
+ "l": [
+  {
+   "src": "NoFall",
+   "score": 13.0,
+   "why": "锚点引用:DoubleSetting,EnumSetting,Module; MCimport:1",
+   "mcj": 1.0
+  },
+  {
+   "src": "I18NFileGenerator",
+   "score": 12.0,
+   "why": "锚点引用:EnumSetting,Module,Setting,TranslateComponent",
+   "mcj": 0.0
+  },
+  {
+   "src": "ModuleButton",
+   "score": 12.0,
+   "why": "锚点引用:DoubleSetting,EnumSetting,Module,Setting",
+   "mcj": 0.0
+  }
+ ],
+ "l0": [
+  {
+   "src": "RegistryListSelectPopup",
+   "score": 3.17,
+   "why": "锚点引用:Setting; MCimport:1",
+   "mcj": 0.043
+  },
+  {
+   "src": "EpsilonAddon",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0.0
+  },
+  {
+   "src": "I18NFileGenerator",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0.0
+  }
+ ],
+ "l1": [
+  {
+   "src": "EpsilonAddon",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0
+  },
+  {
+   "src": "I18NFileGenerator",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0
+  },
+  {
+   "src": "AddonPanelEntry",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0
+  }
+ ],
+ "l8": [
+  {
+   "src": "EpsilonAddon",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0
+  },
+  {
+   "src": "I18NFileGenerator",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0
+  },
+  {
+   "src": "AddonPanelEntry",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0
+  }
+ ],
+ "l9": [
+  {
+   "src": "HealthManager",
+   "score": 5.0,
+   "why": "MCimport:3",
+   "mcj": 1.0
+  },
+  {
+   "src": "EpsilonAddon",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0.0
+  },
+  {
+   "src": "I18NFileGenerator",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0.0
+  }
+ ],
+ "la": [
+  {
+   "src": "DefaultTranslateComponent",
+   "score": 3.0,
+   "why": "锚点引用:TranslateComponent",
+   "mcj": 0
+  },
+  {
+   "src": "EpsilonTranslateComponent",
+   "score": 3.0,
+   "why": "锚点引用:TranslateComponent",
+   "mcj": 0
+  },
+  {
+   "src": "EpsilonTranslations",
+   "score": 3.0,
+   "why": "锚点引用:TranslateComponent",
+   "mcj": 0
+  }
+ ],
+ "lB": [
+  {
+   "src": "ModuleDetailPanel",
+   "score": 5.0,
+   "why": "锚点引用:Setting; MCimport:2",
+   "mcj": 0.5
+  },
+  {
+   "src": "AddonClientSettingTab",
+   "score": 5.0,
+   "why": "锚点引用:Setting; MCimport:2",
+   "mcj": 0.5
+  },
+  {
+   "src": "GeneralClientSettingTab",
+   "score": 5.0,
+   "why": "锚点引用:Setting; MCimport:2",
+   "mcj": 0.5
+  }
+ ],
+ "lb": [
+  {
+   "src": "EpsilonAddon",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0
+  },
+  {
+   "src": "I18NFileGenerator",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0
+  },
+  {
+   "src": "AddonPanelEntry",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0
+  }
+ ],
+ "lC": [
+  {
+   "src": "SettingHost",
+   "score": 4.0,
+   "why": "锚点引用:Setting; MCimport:1",
+   "mcj": 0.25
+  },
+  {
+   "src": "RegistryListSetting",
+   "score": 3.5,
+   "why": "锚点引用:Setting; MCimport:1",
+   "mcj": 0.125
+  },
+  {
+   "src": "RegistryListSelectPopup",
+   "score": 3.25,
+   "why": "锚点引用:Setting; MCimport:1",
+   "mcj": 0.062
+  }
+ ],
+ "lc": [
+  {
+   "src": "ClientSetting",
+   "score": 3.33,
+   "why": "锚点引用:Setting; MCimport:1",
+   "mcj": 0.083
+  },
+  {
+   "src": "RegistryListSetting",
+   "score": 3.22,
+   "why": "锚点引用:Setting; MCimport:1",
+   "mcj": 0.056
+  },
+  {
+   "src": "RegistryListSelectPopup",
+   "score": 3.15,
+   "why": "锚点引用:Setting; MCimport:1",
+   "mcj": 0.038
+  }
+ ],
+ "ld": [
+  {
+   "src": "ModuleDetailPanel",
+   "score": 11.0,
+   "why": "锚点引用:KeybindSetting,Setting; MCimport:4",
+   "mcj": 1.0
+  },
+  {
+   "src": "AddonClientSettingTab",
+   "score": 11.0,
+   "why": "锚点引用:KeybindSetting,Setting; MCimport:4",
+   "mcj": 1.0
+  },
+  {
+   "src": "GeneralClientSettingTab",
+   "score": 11.0,
+   "why": "锚点引用:KeybindSetting,Setting; MCimport:4",
+   "mcj": 1.0
+  }
+ ],
+ "lE": [
+  {
+   "src": "ModuleButton",
+   "score": 33.0,
+   "why": "锚点引用:BoolSetting,ButtonSetting,ColorSetting,DoubleSetting,EnumSetting",
+   "mcj": 0.0
+  },
+  {
+   "src": "SettingsContent",
+   "score": 33.0,
+   "why": "锚点引用:BoolSetting,ButtonSetting,ColorSetting,DoubleSetting,EnumSetting",
+   "mcj": 0
+  },
+  {
+   "src": "SettingViewFactory",
+   "score": 33.0,
+   "why": "锚点引用:BoolSetting,ButtonSetting,ColorSetting,DoubleSetting,EnumSetting",
+   "mcj": 0
+  }
+ ],
+ "le": [
+  {
+   "src": "Render3DScheduler",
+   "score": 6.4,
+   "why": "锚点引用:Render3DEvent; MCimport:3",
+   "mcj": 0.6
+  },
+  {
+   "src": "HoleESP",
+   "score": 5.5,
+   "why": "锚点引用:Render3DEvent; MCimport:3",
+   "mcj": 0.375
+  },
+  {
+   "src": "LuaRender3DContext",
+   "score": 5.0,
+   "why": "MCimport:3",
+   "mcj": 1.0
+  }
+ ],
+ "lF": [
+  {
+   "src": "EpsilonAddon",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0
+  },
+  {
+   "src": "I18NFileGenerator",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0
+  },
+  {
+   "src": "AddonPanelEntry",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0
+  }
+ ],
+ "lG": [
+  {
+   "src": "ClientSetting",
+   "score": 4.33,
+   "why": "锚点引用:Setting; MCimport:1",
+   "mcj": 0.333
+  },
+  {
+   "src": "RegistryListSetting",
+   "score": 3.44,
+   "why": "锚点引用:Setting; MCimport:1",
+   "mcj": 0.111
+  },
+  {
+   "src": "RegistryListSelectPopup",
+   "score": 3.24,
+   "why": "锚点引用:Setting; MCimport:1",
+   "mcj": 0.059
+  }
+ ],
+ "lg": [
+  {
+   "src": "EpsilonAddon",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0
+  },
+  {
+   "src": "I18NFileGenerator",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0
+  },
+  {
+   "src": "AddonPanelEntry",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0
+  }
+ ],
+ "lH": [
+  {
+   "src": "EpsilonAddon",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0
+  },
+  {
+   "src": "I18NFileGenerator",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0
+  },
+  {
+   "src": "AddonPanelEntry",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0
+  }
+ ],
+ "lI": [
+  {
+   "src": "ClientSetting",
+   "score": 3.67,
+   "why": "锚点引用:Setting; MCimport:1",
+   "mcj": 0.167
+  },
+  {
+   "src": "RegistryListSetting",
+   "score": 3.33,
+   "why": "锚点引用:Setting; MCimport:1",
+   "mcj": 0.083
+  },
+  {
+   "src": "RegistryListSelectPopup",
+   "score": 3.2,
+   "why": "锚点引用:Setting; MCimport:1",
+   "mcj": 0.05
+  }
+ ],
+ "lJ": [
+  {
+   "src": "DefaultTranslateComponent",
+   "score": 3.0,
+   "why": "锚点引用:TranslateComponent",
+   "mcj": 0
+  },
+  {
+   "src": "EpsilonTranslateComponent",
+   "score": 3.0,
+   "why": "锚点引用:TranslateComponent",
+   "mcj": 0
+  },
+  {
+   "src": "EpsilonTranslations",
+   "score": 3.0,
+   "why": "锚点引用:TranslateComponent",
+   "mcj": 0
+  }
+ ],
+ "lK": [
+  {
+   "src": "ModuleDetailPanel",
+   "score": 7.0,
+   "why": "锚点引用:Setting; MCimport:3",
+   "mcj": 0.75
+  },
+  {
+   "src": "AddonClientSettingTab",
+   "score": 7.0,
+   "why": "锚点引用:Setting; MCimport:3",
+   "mcj": 0.75
+  },
+  {
+   "src": "GeneralClientSettingTab",
+   "score": 7.0,
+   "why": "锚点引用:Setting; MCimport:3",
+   "mcj": 0.75
+  }
+ ],
+ "lm": [
+  {
+   "src": "EpsilonAddon",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0
+  },
+  {
+   "src": "I18NFileGenerator",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0
+  },
+  {
+   "src": "AddonPanelEntry",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0
+  }
+ ],
+ "lo": [
+  {
+   "src": "ModuleButton",
+   "score": 6.0,
+   "why": "锚点引用:ColorSetting,Setting",
+   "mcj": 0.0
+  },
+  {
+   "src": "SettingsContent",
+   "score": 6.0,
+   "why": "锚点引用:ColorSetting,Setting",
+   "mcj": 0.0
+  },
+  {
+   "src": "SettingViewFactory",
+   "score": 6.0,
+   "why": "锚点引用:ColorSetting,Setting",
+   "mcj": 0.0
+  }
+ ],
+ "lp": [
+  {
+   "src": "EpsilonAddon",
+   "score": 6.0,
+   "why": "锚点引用:Module,Setting",
+   "mcj": 0.0
+  },
+  {
+   "src": "I18NFileGenerator",
+   "score": 6.0,
+   "why": "锚点引用:Module,Setting",
+   "mcj": 0.0
+  },
+  {
+   "src": "ModuleButton",
+   "score": 6.0,
+   "why": "锚点引用:Module,Setting",
+   "mcj": 0.0
+  }
+ ],
+ "lS": [
+  {
+   "src": "Module",
+   "score": 3.57,
+   "why": "锚点引用:Setting; MCimport:1",
+   "mcj": 0.143
+  },
+  {
+   "src": "ClientSetting",
+   "score": 3.5,
+   "why": "锚点引用:Setting; MCimport:1",
+   "mcj": 0.125
+  },
+  {
+   "src": "RegistryListSetting",
+   "score": 3.29,
+   "why": "锚点引用:Setting; MCimport:1",
+   "mcj": 0.071
+  }
+ ],
+ "ls": [
+  {
+   "src": "ClientSetting",
+   "score": 3.67,
+   "why": "锚点引用:Setting; MCimport:1",
+   "mcj": 0.167
+  },
+  {
+   "src": "RegistryListSetting",
+   "score": 3.33,
+   "why": "锚点引用:Setting; MCimport:1",
+   "mcj": 0.083
+  },
+  {
+   "src": "RegistryListSelectPopup",
+   "score": 3.2,
+   "why": "锚点引用:Setting; MCimport:1",
+   "mcj": 0.05
+  }
+ ],
+ "lU": [
+  {
+   "src": "LanguageReloadListener",
+   "score": 4.0,
+   "why": "MCimport:1",
+   "mcj": 1.0
+  }
+ ],
+ "lv": [
+  {
+   "src": "Hole",
+   "score": 4.0,
+   "why": "MCimport:2",
+   "mcj": 1.0
+  },
+  {
+   "src": "EpsilonAddon",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0.0
+  },
+  {
+   "src": "I18NFileGenerator",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0.0
+  }
+ ],
+ "lW": [
+  {
+   "src": "EpsilonAddon",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0.0
+  },
+  {
+   "src": "I18NFileGenerator",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0.0
+  },
+  {
+   "src": "AddonPanelEntry",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0.0
+  }
+ ],
+ "lw": [
+  {
+   "src": "AStarFollowerNavigator",
+   "score": 3.22,
+   "why": "MCimport:5",
+   "mcj": 0.556
+  },
+  {
+   "src": "EpsilonAddon",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0.0
+  },
+  {
+   "src": "I18NFileGenerator",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0.0
+  }
+ ],
+ "lX": [
+  {
+   "src": "EpsilonAddon",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0
+  },
+  {
+   "src": "I18NFileGenerator",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0
+  },
+  {
+   "src": "AddonPanelEntry",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0
+  }
+ ],
+ "lx": [
+  {
+   "src": "FindItemResult",
+   "score": 4.0,
+   "why": "MCimport:1",
+   "mcj": 1.0
+  },
+  {
+   "src": "AutoMend",
+   "score": 1.33,
+   "why": "MCimport:1",
+   "mcj": 0.333
+  },
+  {
+   "src": "AutoFirework",
+   "score": 1.33,
+   "why": "MCimport:1",
+   "mcj": 0.333
+  }
+ ],
+ "ly": [
+  {
+   "src": "Module",
+   "score": 3.44,
+   "why": "锚点引用:Setting; MCimport:1",
+   "mcj": 0.111
+  },
+  {
+   "src": "EpsilonAddon",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0.0
+  },
+  {
+   "src": "I18NFileGenerator",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0.0
+  }
+ ],
+ "lz": [
+  {
+   "src": "FindItemResult",
+   "score": 4.0,
+   "why": "MCimport:1",
+   "mcj": 1.0
+  },
+  {
+   "src": "EpsilonAddon",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0.0
+  },
+  {
+   "src": "I18NFileGenerator",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0.0
+  }
+ ],
+ "M": [
+  {
+   "src": "AntiBot",
+   "score": 7.0,
+   "why": "锚点引用:Module; MCimport:1",
+   "mcj": 1.0
+  },
+  {
+   "src": "EpsilonAddon",
+   "score": 6.0,
+   "why": "锚点引用:Module,Setting",
+   "mcj": 0.0
+  },
+  {
+   "src": "I18NFileGenerator",
+   "score": 6.0,
+   "why": "锚点引用:Module,Setting",
+   "mcj": 0.0
+  }
+ ],
+ "m": [
+  {
+   "src": "Criticals",
+   "score": 9.67,
+   "why": "锚点引用:AttackEntityEvent,BoolSetting,Module; MCimport:2",
+   "mcj": 0.167
+  },
+  {
+   "src": "AutoWeapon",
+   "score": 9.4,
+   "why": "锚点引用:AttackEntityEvent,BoolSetting,Module; MCimport:2",
+   "mcj": 0.1
+  },
+  {
+   "src": "MasEffects",
+   "score": 9.3,
+   "why": "锚点引用:AttackEntityEvent,BoolSetting,Module; MCimport:2",
+   "mcj": 0.074
+  }
+ ],
+ "n3": [
+  {
+   "src": "MixinLivingEntity",
+   "score": 4.0,
+   "why": "MCimport:2",
+   "mcj": 1.0
+  },
+  {
+   "src": "MixinFireworkRocketEntity",
+   "score": 2.67,
+   "why": "MCimport:2",
+   "mcj": 0.667
+  },
+  {
+   "src": "FollowerNavigator",
+   "score": 2.67,
+   "why": "MCimport:2",
+   "mcj": 0.667
+  }
+ ],
+ "n4": [
+  {
+   "src": "Module",
+   "score": 5.0,
+   "why": "锚点引用:Setting; MCimport:1",
+   "mcj": 0.5
+  },
+  {
+   "src": "SettingListController",
+   "score": 3.8,
+   "why": "锚点引用:Setting; MCimport:1",
+   "mcj": 0.2
+  },
+  {
+   "src": "ModuleDetailPanel",
+   "score": 3.8,
+   "why": "锚点引用:Setting; MCimport:1",
+   "mcj": 0.2
+  }
+ ],
+ "n5": [
+  {
+   "src": "UiCoordinateMapper",
+   "score": 4.0,
+   "why": "MCimport:1",
+   "mcj": 1.0
+  },
+  {
+   "src": "BoolSettingRow",
+   "score": 2.0,
+   "why": "MCimport:1",
+   "mcj": 0.5
+  },
+  {
+   "src": "ButtonSettingRow",
+   "score": 2.0,
+   "why": "MCimport:1",
+   "mcj": 0.5
+  }
+ ],
+ "n6": [
+  {
+   "src": "EpsilonAddon",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0
+  },
+  {
+   "src": "I18NFileGenerator",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0
+  },
+  {
+   "src": "AddonPanelEntry",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0
+  }
+ ],
+ "nb": [
+  {
+   "src": "EpsilonAddon",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0
+  },
+  {
+   "src": "I18NFileGenerator",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0
+  },
+  {
+   "src": "AddonPanelEntry",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0
+  }
+ ],
+ "nC": [
+  {
+   "src": "ZealotCrystalPlus",
+   "score": 3.26,
+   "why": "锚点引用:PacketMine; MCimport:2",
+   "mcj": 0.065
+  },
+  {
+   "src": "ModuleHolder",
+   "score": 3.0,
+   "why": "锚点引用:PacketMine",
+   "mcj": 0.0
+  },
+  {
+   "src": "InteractionUtils",
+   "score": 2.2,
+   "why": "MCimport:3",
+   "mcj": 0.3
+  }
+ ],
+ "nF": [
+  {
+   "src": "DestroyBlockEvent",
+   "score": 4.0,
+   "why": "MCimport:1",
+   "mcj": 1.0
+  },
+  {
+   "src": "BlockCollisionEvent",
+   "score": 2.0,
+   "why": "MCimport:1",
+   "mcj": 0.5
+  },
+  {
+   "src": "StartDestroyBlockEvent",
+   "score": 2.0,
+   "why": "MCimport:1",
+   "mcj": 0.5
+  }
+ ],
+ "nf": [
+  {
+   "src": "SoundKey",
+   "score": 4.0,
+   "why": "MCimport:1",
+   "mcj": 1.0
+  },
+  {
+   "src": "ResourceLocationUtils",
+   "score": 2.0,
+   "why": "MCimport:1",
+   "mcj": 0.5
+  },
+  {
+   "src": "ClientSetting",
+   "score": 2.0,
+   "why": "MCimport:1",
+   "mcj": 0.5
+  }
+ ],
+ "ng": [
+  {
+   "src": "ClientSetting",
+   "score": 4.0,
+   "why": "锚点引用:Setting; MCimport:1",
+   "mcj": 0.25
+  },
+  {
+   "src": "RegistryListSetting",
+   "score": 3.4,
+   "why": "锚点引用:Setting; MCimport:1",
+   "mcj": 0.1
+  },
+  {
+   "src": "RegistryListSelectPopup",
+   "score": 3.22,
+   "why": "锚点引用:Setting; MCimport:1",
+   "mcj": 0.056
+  }
+ ],
+ "nJ": [
+  {
+   "src": "RaytraceUtils",
+   "score": 3.29,
+   "why": "MCimport:4",
+   "mcj": 0.571
+  },
+  {
+   "src": "RotationUtils",
+   "score": 3.18,
+   "why": "MCimport:6",
+   "mcj": 0.545
+  },
+  {
+   "src": "EpsilonAddon",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0.0
+  }
+ ],
+ "nK": [
+  {
+   "src": "ClientSetting",
+   "score": 5.0,
+   "why": "锚点引用:Setting; MCimport:1",
+   "mcj": 0.5
+  },
+  {
+   "src": "SoundKey",
+   "score": 4.0,
+   "why": "MCimport:1",
+   "mcj": 1.0
+  },
+  {
+   "src": "RegistryListSetting",
+   "score": 3.5,
+   "why": "锚点引用:Setting; MCimport:1",
+   "mcj": 0.125
+  }
+ ],
+ "nL": [
+  {
+   "src": "EpsilonAddon",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0.0
+  },
+  {
+   "src": "I18NFileGenerator",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0.0
+  },
+  {
+   "src": "AddonPanelEntry",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0.0
+  }
+ ],
+ "nl": [
+  {
+   "src": "ModuleDetailPanel",
+   "score": 11.0,
+   "why": "锚点引用:KeybindSetting,Setting; MCimport:4",
+   "mcj": 1.0
+  },
+  {
+   "src": "AddonClientSettingTab",
+   "score": 11.0,
+   "why": "锚点引用:KeybindSetting,Setting; MCimport:4",
+   "mcj": 1.0
+  },
+  {
+   "src": "GeneralClientSettingTab",
+   "score": 11.0,
+   "why": "锚点引用:KeybindSetting,Setting; MCimport:4",
+   "mcj": 1.0
+  }
+ ],
+ "nm": [
+  {
+   "src": "EpsilonAddon",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0
+  },
+  {
+   "src": "I18NFileGenerator",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0
+  },
+  {
+   "src": "AddonPanelEntry",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0
+  }
+ ],
+ "no": [
+  {
+   "src": "EpsilonAddon",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0
+  },
+  {
+   "src": "I18NFileGenerator",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0
+  },
+  {
+   "src": "AddonPanelEntry",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0
+  }
+ ],
+ "nP": [
+  {
+   "src": "DefaultTranslateComponent",
+   "score": 3.0,
+   "why": "锚点引用:TranslateComponent",
+   "mcj": 0
+  },
+  {
+   "src": "EpsilonTranslateComponent",
+   "score": 3.0,
+   "why": "锚点引用:TranslateComponent",
+   "mcj": 0
+  },
+  {
+   "src": "EpsilonTranslations",
+   "score": 3.0,
+   "why": "锚点引用:TranslateComponent",
+   "mcj": 0
+  }
+ ],
+ "ns": [
+  {
+   "src": "SettingListController",
+   "score": 4.6,
+   "why": "锚点引用:Setting; MCimport:2",
+   "mcj": 0.4
+  },
+  {
+   "src": "ModuleDetailPanel",
+   "score": 4.6,
+   "why": "锚点引用:Setting; MCimport:2",
+   "mcj": 0.4
+  },
+  {
+   "src": "AddonClientSettingTab",
+   "score": 4.6,
+   "why": "锚点引用:Setting; MCimport:2",
+   "mcj": 0.4
+  }
+ ],
+ "nT": [
+  {
+   "src": "EpsilonAddon",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0
+  },
+  {
+   "src": "I18NFileGenerator",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0
+  },
+  {
+   "src": "AddonPanelEntry",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0
+  }
+ ],
+ "nV": [
+  {
+   "src": "Module",
+   "score": 3.4,
+   "why": "锚点引用:Setting; MCimport:1",
+   "mcj": 0.1
+  },
+  {
+   "src": "EpsilonAddon",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0.0
+  },
+  {
+   "src": "I18NFileGenerator",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0.0
+  }
+ ],
+ "nx": [
+  {
+   "src": "EpsilonAddon",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0.0
+  },
+  {
+   "src": "I18NFileGenerator",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0.0
+  },
+  {
+   "src": "AddonPanelEntry",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0.0
+  }
+ ],
+ "nY": [
+  {
+   "src": "EpsilonAddon",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0
+  },
+  {
+   "src": "I18NFileGenerator",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0
+  },
+  {
+   "src": "AddonPanelEntry",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0
+  }
+ ],
+ "ny": [
+  {
+   "src": "DefaultTranslateComponent",
+   "score": 3.0,
+   "why": "锚点引用:TranslateComponent",
+   "mcj": 0
+  },
+  {
+   "src": "EpsilonTranslateComponent",
+   "score": 3.0,
+   "why": "锚点引用:TranslateComponent",
+   "mcj": 0
+  },
+  {
+   "src": "EpsilonTranslations",
+   "score": 3.0,
+   "why": "锚点引用:TranslateComponent",
+   "mcj": 0
+  }
+ ],
+ "n_": [
+  {
+   "src": "EpsilonAddon",
+   "score": 3.0,
+   "why": "锚点引用:Module",
+   "mcj": 0
+  },
+  {
+   "src": "LegacyConfigMigrator",
+   "score": 3.0,
+   "why": "锚点引用:Module",
+   "mcj": 0
+  },
+  {
+   "src": "EpsilonTranslations",
+   "score": 3.0,
+   "why": "锚点引用:Module",
+   "mcj": 0
+  }
+ ],
+ "O": [
+  {
+   "src": "ModuleButton",
+   "score": 12.0,
+   "why": "锚点引用:EnumSetting,IntSetting,Module,Setting",
+   "mcj": 0.0
+  },
+  {
+   "src": "ConfigHolder",
+   "score": 12.0,
+   "why": "锚点引用:EnumSetting,IntSetting,Module,Setting",
+   "mcj": 0.0
+  },
+  {
+   "src": "ClientSetting",
+   "score": 12.0,
+   "why": "锚点引用:EnumSetting,IntSetting,Module,Setting",
+   "mcj": 0.0
+  }
+ ],
+ "o": [
+  {
+   "src": "EpsilonAddon",
+   "score": 6.0,
+   "why": "锚点引用:Module,Setting",
+   "mcj": 0.0
+  },
+  {
+   "src": "I18NFileGenerator",
+   "score": 6.0,
+   "why": "锚点引用:Module,Setting",
+   "mcj": 0.0
+  },
+  {
+   "src": "ModuleButton",
+   "score": 6.0,
+   "why": "锚点引用:Module,Setting",
+   "mcj": 0.0
+  }
+ ],
+ "O0": [
+  {
+   "src": "UiCoordinateMapper",
+   "score": 4.0,
+   "why": "MCimport:1",
+   "mcj": 1.0
+  },
+  {
+   "src": "BoolSettingRow",
+   "score": 2.0,
+   "why": "MCimport:1",
+   "mcj": 0.5
+  },
+  {
+   "src": "ButtonSettingRow",
+   "score": 2.0,
+   "why": "MCimport:1",
+   "mcj": 0.5
+  }
+ ],
+ "O7": [
+  {
+   "src": "AStarFollowerNavigator",
+   "score": 3.0,
+   "why": "MCimport:3",
+   "mcj": 0.5
+  },
+  {
+   "src": "RotationUtils",
+   "score": 2.6,
+   "why": "MCimport:4",
+   "mcj": 0.4
+  },
+  {
+   "src": "HoleESP",
+   "score": 2.33,
+   "why": "MCimport:3",
+   "mcj": 0.333
+  }
+ ],
+ "O8": [
+  {
+   "src": "EpsilonAddon",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0.0
+  },
+  {
+   "src": "I18NFileGenerator",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0.0
+  },
+  {
+   "src": "AddonPanelEntry",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0.0
+  }
+ ],
+ "O9": [
+  {
+   "src": "EpsilonAddon",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0
+  },
+  {
+   "src": "I18NFileGenerator",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0
+  },
+  {
+   "src": "AddonPanelEntry",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0
+  }
+ ],
+ "OA": [
+  {
+   "src": "EpsilonAddon",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0
+  },
+  {
+   "src": "I18NFileGenerator",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0
+  },
+  {
+   "src": "AddonPanelEntry",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0
+  }
+ ],
+ "Oc": [
+  {
+   "src": "EpsilonAddon",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0.0
+  },
+  {
+   "src": "I18NFileGenerator",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0.0
+  },
+  {
+   "src": "AddonPanelEntry",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0.0
+  }
+ ],
+ "OD": [
+  {
+   "src": "I18NFileGenerator",
+   "score": 15.0,
+   "why": "锚点引用:EnumSetting,Module,Setting,SettingGroup,TranslateComponent",
+   "mcj": 0
+  },
+  {
+   "src": "ClientSetting",
+   "score": 12.0,
+   "why": "锚点引用:EnumSetting,Module,Setting,SettingGroup",
+   "mcj": 0.0
+  },
+  {
+   "src": "PlayerAlarms",
+   "score": 12.0,
+   "why": "锚点引用:EnumSetting,Module,SettingGroup,TranslateComponent",
+   "mcj": 0.0
+  }
+ ],
+ "OE": [
+  {
+   "src": "SoundKey",
+   "score": 4.0,
+   "why": "MCimport:1",
+   "mcj": 1.0
+  },
+  {
+   "src": "ResourceLocationUtils",
+   "score": 2.0,
+   "why": "MCimport:1",
+   "mcj": 0.5
+  },
+  {
+   "src": "ClientSetting",
+   "score": 2.0,
+   "why": "MCimport:1",
+   "mcj": 0.5
+  }
+ ],
+ "Oe": [
+  {
+   "src": "SoundKey",
+   "score": 4.0,
+   "why": "MCimport:1",
+   "mcj": 1.0
+  },
+  {
+   "src": "ResourceLocationUtils",
+   "score": 2.0,
+   "why": "MCimport:1",
+   "mcj": 0.5
+  },
+  {
+   "src": "ClientSetting",
+   "score": 2.0,
+   "why": "MCimport:1",
+   "mcj": 0.5
+  }
+ ],
+ "OF": [
+  {
+   "src": "EpsilonAddon",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0.0
+  },
+  {
+   "src": "I18NFileGenerator",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0.0
+  },
+  {
+   "src": "AddonPanelEntry",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0.0
+  }
+ ],
+ "Of": [
+  {
+   "src": "FollowerNavigator",
+   "score": 5.0,
+   "why": "MCimport:3",
+   "mcj": 1.0
+  },
+  {
+   "src": "StraightFollowerNavigator",
+   "score": 5.0,
+   "why": "MCimport:3",
+   "mcj": 1.0
+  },
+  {
+   "src": "AStarFollowerNavigator",
+   "score": 3.4,
+   "why": "MCimport:3",
+   "mcj": 0.6
+  }
+ ],
+ "Og": [
+  {
+   "src": "ModuleButton",
+   "score": 15.0,
+   "why": "锚点引用:ColorSetting,EnumSetting,RegistryListSetting,Setting,StringListSetting",
+   "mcj": 0.0
+  },
+  {
+   "src": "SettingsContent",
+   "score": 15.0,
+   "why": "锚点引用:ColorSetting,EnumSetting,RegistryListSetting,Setting,StringListSetting",
+   "mcj": 0.0
+  },
+  {
+   "src": "SettingViewFactory",
+   "score": 15.0,
+   "why": "锚点引用:ColorSetting,EnumSetting,RegistryListSetting,Setting,StringListSetting",
+   "mcj": 0.0
+  }
+ ],
+ "OJ": [
+  {
+   "src": "EpsilonAddon",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0
+  },
+  {
+   "src": "I18NFileGenerator",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0
+  },
+  {
+   "src": "AddonPanelEntry",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0
+  }
+ ],
+ "Oj": [
+  {
+   "src": "EpsilonAddon",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0.0
+  },
+  {
+   "src": "I18NFileGenerator",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0.0
+  },
+  {
+   "src": "AddonPanelEntry",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0.0
+  }
+ ],
+ "OK": [
+  {
+   "src": "EpsilonAddon",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0.0
+  },
+  {
+   "src": "I18NFileGenerator",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0.0
+  },
+  {
+   "src": "AddonPanelEntry",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0.0
+  }
+ ],
+ "OM": [
+  {
+   "src": "EpsilonAddon",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0
+  },
+  {
+   "src": "I18NFileGenerator",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0
+  },
+  {
+   "src": "AddonPanelEntry",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0
+  }
+ ],
+ "Om": [
+  {
+   "src": "RegistryListSelectPopup",
+   "score": 4.25,
+   "why": "锚点引用:Setting; MCimport:3",
+   "mcj": 0.062
+  },
+  {
+   "src": "SettingHost",
+   "score": 3.22,
+   "why": "锚点引用:Setting; MCimport:2",
+   "mcj": 0.054
+  },
+  {
+   "src": "RegistryListSetting",
+   "score": 3.2,
+   "why": "锚点引用:Setting; MCimport:2",
+   "mcj": 0.049
+  }
+ ],
+ "OO": [
+  {
+   "src": "EpsilonAddon",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0
+  },
+  {
+   "src": "I18NFileGenerator",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0
+  },
+  {
+   "src": "AddonPanelEntry",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0
+  }
+ ],
+ "OP": [
+  {
+   "src": "I18NFileGenerator",
+   "score": 6.0,
+   "why": "锚点引用:Setting,TranslateComponent",
+   "mcj": 0
+  },
+  {
+   "src": "SettingsListPanel",
+   "score": 6.0,
+   "why": "锚点引用:Setting,TranslateComponent",
+   "mcj": 0
+  },
+  {
+   "src": "Module",
+   "score": 6.0,
+   "why": "锚点引用:Setting,TranslateComponent",
+   "mcj": 0.0
+  }
+ ],
+ "Oq": [
+  {
+   "src": "EpsilonAddon",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0
+  },
+  {
+   "src": "I18NFileGenerator",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0
+  },
+  {
+   "src": "AddonPanelEntry",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0
+  }
+ ],
+ "OS": [
+  {
+   "src": "EpsilonAddon",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0
+  },
+  {
+   "src": "I18NFileGenerator",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0
+  },
+  {
+   "src": "AddonPanelEntry",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0
+  }
+ ],
+ "Os": [
+  {
+   "src": "EpsilonAddon",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0
+  },
+  {
+   "src": "I18NFileGenerator",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0
+  },
+  {
+   "src": "AddonPanelEntry",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0
+  }
+ ],
+ "OT": [
+  {
+   "src": "ClientSetting",
+   "score": 3.21,
+   "why": "锚点引用:Setting; MCimport:1",
+   "mcj": 0.053
+  },
+  {
+   "src": "RegistryListSetting",
+   "score": 3.16,
+   "why": "锚点引用:Setting; MCimport:1",
+   "mcj": 0.04
+  },
+  {
+   "src": "RegistryListSelectPopup",
+   "score": 3.12,
+   "why": "锚点引用:Setting; MCimport:1",
+   "mcj": 0.03
+  }
+ ],
+ "Ot": [
+  {
+   "src": "EpsilonAddon",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0
+  },
+  {
+   "src": "I18NFileGenerator",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0
+  },
+  {
+   "src": "AddonPanelEntry",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0
+  }
+ ],
+ "OU": [
+  {
+   "src": "ClientSettingPanel",
+   "score": 8.0,
+   "why": "锚点引用:TranslateComponent; MCimport:4",
+   "mcj": 1.0
+  },
+  {
+   "src": "ModuleDetailPanel",
+   "score": 8.0,
+   "why": "锚点引用:Setting; MCimport:4",
+   "mcj": 1.0
+  },
+  {
+   "src": "AddonClientSettingTab",
+   "score": 8.0,
+   "why": "锚点引用:Setting; MCimport:4",
+   "mcj": 1.0
+  }
+ ],
+ "Ov": [
+  {
+   "src": "EpsilonAddon",
+   "score": 6.0,
+   "why": "锚点引用:Module,Setting",
+   "mcj": 0
+  },
+  {
+   "src": "I18NFileGenerator",
+   "score": 6.0,
+   "why": "锚点引用:Module,Setting",
+   "mcj": 0
+  },
+  {
+   "src": "ModuleButton",
+   "score": 6.0,
+   "why": "锚点引用:Module,Setting",
+   "mcj": 0.0
+  }
+ ],
+ "OX": [
+  {
+   "src": "EpsilonAddon",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0
+  },
+  {
+   "src": "I18NFileGenerator",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0
+  },
+  {
+   "src": "AddonPanelEntry",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0
+  }
+ ],
+ "OZ": [
+  {
+   "src": "EpsilonAddon",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0
+  },
+  {
+   "src": "I18NFileGenerator",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0
+  },
+  {
+   "src": "AddonPanelEntry",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0
+  }
+ ],
+ "Oz": [
+  {
+   "src": "DestroyBlockEvent",
+   "score": 4.0,
+   "why": "MCimport:1",
+   "mcj": 1.0
+  },
+  {
+   "src": "BlockCollisionEvent",
+   "score": 2.0,
+   "why": "MCimport:1",
+   "mcj": 0.5
+  },
+  {
+   "src": "StartDestroyBlockEvent",
+   "score": 2.0,
+   "why": "MCimport:1",
+   "mcj": 0.5
+  }
+ ],
+ "P": [
+  {
+   "src": "Hat",
+   "score": 21.67,
+   "why": "锚点引用:BoolSetting,ColorSetting,DoubleSetting,EnumSetting,IntSetting; MCimport:1",
+   "mcj": 0.167
+  },
+  {
+   "src": "Follower",
+   "score": 21.57,
+   "why": "锚点引用:BoolSetting,ColorSetting,DoubleSetting,EnumSetting,IntSetting; MCimport:1",
+   "mcj": 0.143
+  },
+  {
+   "src": "Particles",
+   "score": 21.31,
+   "why": "锚点引用:BoolSetting,ColorSetting,DoubleSetting,EnumSetting,IntSetting; MCimport:1",
+   "mcj": 0.077
+  }
+ ],
+ "Q": [
+  {
+   "src": "AutoQueue",
+   "score": 10.0,
+   "why": "锚点引用:EnumSetting,Module; MCimport:1",
+   "mcj": 1.0
+  },
+  {
+   "src": "I18NFileGenerator",
+   "score": 9.0,
+   "why": "锚点引用:EnumSetting,Module,Setting",
+   "mcj": 0.0
+  },
+  {
+   "src": "ModuleButton",
+   "score": 9.0,
+   "why": "锚点引用:EnumSetting,Module,Setting",
+   "mcj": 0.0
+  }
+ ],
+ "q": [
+  {
+   "src": "ModuleButton",
+   "score": 15.0,
+   "why": "锚点引用:BoolSetting,DoubleSetting,IntSetting,Module,Setting",
+   "mcj": 0.0
+  },
+  {
+   "src": "ConfigHolder",
+   "score": 15.0,
+   "why": "锚点引用:BoolSetting,DoubleSetting,IntSetting,Module,Setting",
+   "mcj": 0.0
+  },
+  {
+   "src": "ClientSetting",
+   "score": 15.0,
+   "why": "锚点引用:BoolSetting,DoubleSetting,IntSetting,Module,Setting",
+   "mcj": 0.0
+  }
+ ],
+ "S": [
+  {
+   "src": "EpsilonAddon",
+   "score": 3.0,
+   "why": "锚点引用:Module",
+   "mcj": 0
+  },
+  {
+   "src": "LegacyConfigMigrator",
+   "score": 3.0,
+   "why": "锚点引用:Module",
+   "mcj": 0
+  },
+  {
+   "src": "EpsilonTranslations",
+   "score": 3.0,
+   "why": "锚点引用:Module",
+   "mcj": 0
+  }
+ ],
+ "T": [
+  {
+   "src": "Follower",
+   "score": 22.89,
+   "why": "锚点引用:BoolSetting,ColorSetting,DoubleSetting,EnumSetting,IntSetting; MCimport:4",
+   "mcj": 0.222
+  },
+  {
+   "src": "ZealotCrystalPlus",
+   "score": 22.72,
+   "why": "锚点引用:BoolSetting,ColorSetting,DoubleSetting,EnumSetting,IntSetting; MCimport:7",
+   "mcj": 0.179
+  },
+  {
+   "src": "SafeAnchor",
+   "score": 22.41,
+   "why": "锚点引用:BoolSetting,ColorSetting,DoubleSetting,EnumSetting,IntSetting; MCimport:3",
+   "mcj": 0.103
+  }
+ ],
+ "u0": [
+  {
+   "src": "ModuleButton",
+   "score": 15.0,
+   "why": "锚点引用:BoolSetting,ColorSetting,DoubleSetting,Module,Setting",
+   "mcj": 0.0
+  },
+  {
+   "src": "ConfigHolder",
+   "score": 15.0,
+   "why": "锚点引用:BoolSetting,ColorSetting,DoubleSetting,Module,Setting",
+   "mcj": 0
+  },
+  {
+   "src": "ClientSetting",
+   "score": 15.0,
+   "why": "锚点引用:BoolSetting,ColorSetting,DoubleSetting,Module,Setting",
+   "mcj": 0.0
+  }
+ ],
+ "u3": [
+  {
+   "src": "ModuleButton",
+   "score": 12.0,
+   "why": "锚点引用:BoolSetting,DoubleSetting,Module,Setting",
+   "mcj": 0.0
+  },
+  {
+   "src": "ConfigHolder",
+   "score": 12.0,
+   "why": "锚点引用:BoolSetting,DoubleSetting,Module,Setting",
+   "mcj": 0.0
+  },
+  {
+   "src": "ClientSetting",
+   "score": 12.0,
+   "why": "锚点引用:BoolSetting,DoubleSetting,Module,Setting",
+   "mcj": 0.0
+  }
+ ],
+ "u4": [
+  {
+   "src": "DropdownScreen",
+   "score": 9.91,
+   "why": "锚点引用:RegistryListSetting,StringListSetting; MCimport:8",
+   "mcj": 0.727
+  },
+  {
+   "src": "PlayerAlarms",
+   "score": 9.2,
+   "why": "锚点引用:RegistryListSetting,StringListSetting,TranslateComponent; MCimport:1",
+   "mcj": 0.05
+  },
+  {
+   "src": "ModuleButton",
+   "score": 9.0,
+   "why": "锚点引用:RegistryListSetting,Setting,StringListSetting",
+   "mcj": 0.0
+  }
+ ],
+ "u8": [
+  {
+   "src": "ClientSetting",
+   "score": 22.0,
+   "why": "锚点引用:BoolSetting,ColorSetting,DoubleSetting,EnumSetting,IntSetting; MCimport:1",
+   "mcj": 0.25
+  },
+  {
+   "src": "Follower",
+   "score": 21.57,
+   "why": "锚点引用:BoolSetting,ColorSetting,DoubleSetting,EnumSetting,IntSetting; MCimport:1",
+   "mcj": 0.143
+  },
+  {
+   "src": "Particles",
+   "score": 21.31,
+   "why": "锚点引用:BoolSetting,ColorSetting,DoubleSetting,EnumSetting,IntSetting; MCimport:1",
+   "mcj": 0.077
+  }
+ ],
+ "ua": [
+  {
+   "src": "ModuleButton",
+   "score": 18.0,
+   "why": "锚点引用:BoolSetting,DoubleSetting,EnumSetting,IntSetting,Module",
+   "mcj": 0.0
+  },
+  {
+   "src": "ConfigHolder",
+   "score": 18.0,
+   "why": "锚点引用:BoolSetting,DoubleSetting,EnumSetting,IntSetting,Module",
+   "mcj": 0.0
+  },
+  {
+   "src": "ClientSetting",
+   "score": 18.0,
+   "why": "锚点引用:BoolSetting,DoubleSetting,EnumSetting,IntSetting,Module",
+   "mcj": 0.0
+  }
+ ],
+ "uE": [
+  {
+   "src": "SettingHost",
+   "score": 6.36,
+   "why": "锚点引用:BoolSetting,Setting; MCimport:1",
+   "mcj": 0.091
+  },
+  {
+   "src": "ModuleButton",
+   "score": 6.0,
+   "why": "锚点引用:BoolSetting,Setting",
+   "mcj": 0.0
+  },
+  {
+   "src": "SettingsContent",
+   "score": 6.0,
+   "why": "锚点引用:BoolSetting,Setting",
+   "mcj": 0.0
+  }
+ ],
+ "uf": [
+  {
+   "src": "MixinClientLevel",
+   "score": 3.29,
+   "why": "MCimport:4",
+   "mcj": 0.571
+  },
+  {
+   "src": "EpsilonAddon",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0.0
+  },
+  {
+   "src": "I18NFileGenerator",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0.0
+  }
+ ],
+ "uG": [
+  {
+   "src": "Follower",
+   "score": 6.8,
+   "why": "锚点引用:KeyboardInputEvent,Module; MCimport:1",
+   "mcj": 0.2
+  },
+  {
+   "src": "EpsilonAddon",
+   "score": 6.0,
+   "why": "锚点引用:Module,Setting",
+   "mcj": 0.0
+  },
+  {
+   "src": "I18NFileGenerator",
+   "score": 6.0,
+   "why": "锚点引用:Module,Setting",
+   "mcj": 0.0
+  }
+ ],
+ "ug": [
+  {
+   "src": "SoundKey",
+   "score": 4.0,
+   "why": "MCimport:1",
+   "mcj": 1.0
+  },
+  {
+   "src": "ResourceLocationUtils",
+   "score": 2.0,
+   "why": "MCimport:1",
+   "mcj": 0.5
+  },
+  {
+   "src": "ClientSetting",
+   "score": 2.0,
+   "why": "MCimport:1",
+   "mcj": 0.5
+  }
+ ],
+ "uH": [
+  {
+   "src": "ModuleButton",
+   "score": 6.0,
+   "why": "锚点引用:DoubleSetting,Setting",
+   "mcj": 0.0
+  },
+  {
+   "src": "SettingsContent",
+   "score": 6.0,
+   "why": "锚点引用:DoubleSetting,Setting",
+   "mcj": 0.0
+  },
+  {
+   "src": "SettingViewFactory",
+   "score": 6.0,
+   "why": "锚点引用:DoubleSetting,Setting",
+   "mcj": 0.0
+  }
+ ],
+ "uI": [
+  {
+   "src": "ModuleButton",
+   "score": 15.0,
+   "why": "锚点引用:BoolSetting,ColorSetting,DoubleSetting,IntSetting,Setting",
+   "mcj": 0.0
+  },
+  {
+   "src": "SettingsContent",
+   "score": 15.0,
+   "why": "锚点引用:BoolSetting,ColorSetting,DoubleSetting,IntSetting,Setting",
+   "mcj": 0
+  },
+  {
+   "src": "SettingViewFactory",
+   "score": 15.0,
+   "why": "锚点引用:BoolSetting,ColorSetting,DoubleSetting,IntSetting,Setting",
+   "mcj": 0
+  }
+ ],
+ "ui": [
+  {
+   "src": "EpsilonAddon",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0
+  },
+  {
+   "src": "I18NFileGenerator",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0
+  },
+  {
+   "src": "AddonPanelEntry",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0
+  }
+ ],
+ "uJ": [
+  {
+   "src": "EpsilonAddon",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0
+  },
+  {
+   "src": "I18NFileGenerator",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0
+  },
+  {
+   "src": "AddonPanelEntry",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0
+  }
+ ],
+ "uk": [
+  {
+   "src": "ModuleButton",
+   "score": 15.0,
+   "why": "锚点引用:BoolSetting,IntSetting,KeybindSetting,Module,Setting",
+   "mcj": 0.0
+  },
+  {
+   "src": "ConfigHolder",
+   "score": 15.0,
+   "why": "锚点引用:BoolSetting,IntSetting,KeybindSetting,Module,Setting",
+   "mcj": 0.0
+  },
+  {
+   "src": "ClientSetting",
+   "score": 15.0,
+   "why": "锚点引用:BoolSetting,IntSetting,KeybindSetting,Module,Setting",
+   "mcj": 0.0
+  }
+ ],
+ "uL": [
+  {
+   "src": "Follower",
+   "score": 9.67,
+   "why": "锚点引用:BoolSetting,KeyboardInputEvent,Module; MCimport:1",
+   "mcj": 0.167
+  },
+  {
+   "src": "ModuleButton",
+   "score": 9.0,
+   "why": "锚点引用:BoolSetting,Module,Setting",
+   "mcj": 0.0
+  },
+  {
+   "src": "ConfigHolder",
+   "score": 9.0,
+   "why": "锚点引用:BoolSetting,Module,Setting",
+   "mcj": 0.0
+  }
+ ],
+ "um": [
+  {
+   "src": "EpsilonAddon",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0
+  },
+  {
+   "src": "I18NFileGenerator",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0
+  },
+  {
+   "src": "AddonPanelEntry",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0
+  }
+ ],
+ "uN": [
+  {
+   "src": "ClientSetting",
+   "score": 9.0,
+   "why": "锚点引用:BoolSetting,DoubleSetting,SettingGroup",
+   "mcj": 0.0
+  },
+  {
+   "src": "ZealotCrystalPlus",
+   "score": 9.0,
+   "why": "锚点引用:BoolSetting,DoubleSetting,SettingGroup",
+   "mcj": 0.0
+  },
+  {
+   "src": "HoleSnap",
+   "score": 9.0,
+   "why": "锚点引用:BoolSetting,DoubleSetting,SettingGroup",
+   "mcj": 0.0
+  }
+ ],
+ "uo": [
+  {
+   "src": "FallingPlayer",
+   "score": 3.22,
+   "why": "MCimport:5",
+   "mcj": 0.556
+  },
+  {
+   "src": "EpsilonAddon",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0.0
+  },
+  {
+   "src": "I18NFileGenerator",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0.0
+  }
+ ],
+ "up": [
+  {
+   "src": "ModuleButton",
+   "score": 15.0,
+   "why": "锚点引用:BoolSetting,EnumSetting,IntSetting,Module,Setting",
+   "mcj": 0.0
+  },
+  {
+   "src": "ConfigHolder",
+   "score": 15.0,
+   "why": "锚点引用:BoolSetting,EnumSetting,IntSetting,Module,Setting",
+   "mcj": 0.0
+  },
+  {
+   "src": "ClientSetting",
+   "score": 15.0,
+   "why": "锚点引用:BoolSetting,EnumSetting,IntSetting,Module,Setting",
+   "mcj": 0.0
+  }
+ ],
+ "us": [
+  {
+   "src": "RegistryListSelectPopup",
+   "score": 3.31,
+   "why": "锚点引用:Setting; MCimport:2",
+   "mcj": 0.077
+  },
+  {
+   "src": "SettingHost",
+   "score": 3.27,
+   "why": "锚点引用:Setting; MCimport:1",
+   "mcj": 0.067
+  },
+  {
+   "src": "RegistryListSetting",
+   "score": 3.21,
+   "why": "锚点引用:Setting; MCimport:1",
+   "mcj": 0.053
+  }
+ ],
+ "uW": [
+  {
+   "src": "AutoMap",
+   "score": 22.0,
+   "why": "锚点引用:BoolSetting,ButtonSetting,DoubleSetting,ElytraFly,IntSetting; MCimport:1",
+   "mcj": 0.25
+  },
+  {
+   "src": "Follower",
+   "score": 19.6,
+   "why": "锚点引用:BoolSetting,DoubleSetting,ElytraFly,IntSetting,KeyboardInputEvent; MCimport:2",
+   "mcj": 0.4
+  },
+  {
+   "src": "ModuleButton",
+   "score": 18.0,
+   "why": "锚点引用:BoolSetting,ButtonSetting,DoubleSetting,IntSetting,Module",
+   "mcj": 0.0
+  }
+ ],
+ "uX": [
+  {
+   "src": "FollowerPath",
+   "score": 4.0,
+   "why": "MCimport:1",
+   "mcj": 1.0
+  },
+  {
+   "src": "MixinEntity",
+   "score": 2.0,
+   "why": "MCimport:1",
+   "mcj": 0.5
+  },
+  {
+   "src": "MixinLivingEntity",
+   "score": 2.0,
+   "why": "MCimport:1",
+   "mcj": 0.5
+  }
+ ],
+ "uZ": [
+  {
+   "src": "RegistryListSelectPopup",
+   "score": 3.3,
+   "why": "锚点引用:Setting; MCimport:2",
+   "mcj": 0.074
+  },
+  {
+   "src": "SettingHost",
+   "score": 3.25,
+   "why": "锚点引用:Setting; MCimport:1",
+   "mcj": 0.062
+  },
+  {
+   "src": "RegistryListSetting",
+   "score": 3.2,
+   "why": "锚点引用:Setting; MCimport:1",
+   "mcj": 0.05
+  }
+ ],
+ "uz": [
+  {
+   "src": "ModuleButton",
+   "score": 18.0,
+   "why": "锚点引用:BoolSetting,ColorSetting,DoubleSetting,EnumSetting,Module",
+   "mcj": 0.0
+  },
+  {
+   "src": "ConfigHolder",
+   "score": 18.0,
+   "why": "锚点引用:BoolSetting,ColorSetting,DoubleSetting,EnumSetting,Module",
+   "mcj": 0.0
+  },
+  {
+   "src": "ClientSetting",
+   "score": 18.0,
+   "why": "锚点引用:BoolSetting,ColorSetting,DoubleSetting,EnumSetting,Module",
+   "mcj": 0.0
+  }
+ ],
+ "V": [
+  {
+   "src": "BlockESP",
+   "score": 19.8,
+   "why": "锚点引用:BoolSetting,ColorSetting,DoubleSetting,Module,RegistryListSetting; MCimport:3",
+   "mcj": 0.2
+  },
+  {
+   "src": "ModuleButton",
+   "score": 18.0,
+   "why": "锚点引用:BoolSetting,ColorSetting,DoubleSetting,Module,RegistryListSetting",
+   "mcj": 0.0
+  },
+  {
+   "src": "ConfigHolder",
+   "score": 18.0,
+   "why": "锚点引用:BoolSetting,ColorSetting,DoubleSetting,Module,RegistryListSetting",
+   "mcj": 0.0
+  }
+ ],
+ "v": [
+  {
+   "src": "ModuleButton",
+   "score": 12.0,
+   "why": "锚点引用:EnumSetting,IntSetting,Module,Setting",
+   "mcj": 0.0
+  },
+  {
+   "src": "ConfigHolder",
+   "score": 12.0,
+   "why": "锚点引用:EnumSetting,IntSetting,Module,Setting",
+   "mcj": 0
+  },
+  {
+   "src": "ClientSetting",
+   "score": 12.0,
+   "why": "锚点引用:EnumSetting,IntSetting,Module,Setting",
+   "mcj": 0.0
+  }
+ ],
+ "v5": [
+  {
+   "src": "EpsilonAddon",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0
+  },
+  {
+   "src": "I18NFileGenerator",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0
+  },
+  {
+   "src": "AddonPanelEntry",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0
+  }
+ ],
+ "v7": [
+  {
+   "src": "RegistryListSettingRow",
+   "score": 7.0,
+   "why": "锚点引用:RegistryListSetting; MCimport:2",
+   "mcj": 1.0
+  },
+  {
+   "src": "RegistryListSelectPopup",
+   "score": 6.5,
+   "why": "锚点引用:RegistryListSetting,Setting; MCimport:2",
+   "mcj": 0.125
+  },
+  {
+   "src": "ModuleButton",
+   "score": 6.0,
+   "why": "锚点引用:RegistryListSetting,Setting",
+   "mcj": 0.0
+  }
+ ],
+ "v9": [
+  {
+   "src": "IntSettingRow",
+   "score": 7.0,
+   "why": "锚点引用:IntSetting; MCimport:3",
+   "mcj": 0.75
+  },
+  {
+   "src": "ModuleDetailPanel",
+   "score": 7.0,
+   "why": "锚点引用:Setting; MCimport:3",
+   "mcj": 0.75
+  },
+  {
+   "src": "AddonClientSettingTab",
+   "score": 7.0,
+   "why": "锚点引用:Setting; MCimport:3",
+   "mcj": 0.75
+  }
+ ],
+ "va": [
+  {
+   "src": "EpsilonAddon",
+   "score": 6.0,
+   "why": "锚点引用:Setting,SettingGroup",
+   "mcj": 0
+  },
+  {
+   "src": "I18NFileGenerator",
+   "score": 6.0,
+   "why": "锚点引用:Setting,SettingGroup",
+   "mcj": 0
+  },
+  {
+   "src": "Module",
+   "score": 6.0,
+   "why": "锚点引用:Setting,SettingGroup",
+   "mcj": 0.0
+  }
+ ],
+ "vb": [
+  {
+   "src": "EpsilonAddon",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0.0
+  },
+  {
+   "src": "I18NFileGenerator",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0.0
+  },
+  {
+   "src": "AddonPanelEntry",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0.0
+  }
+ ],
+ "vC": [
+  {
+   "src": "EpsilonAddon",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0
+  },
+  {
+   "src": "I18NFileGenerator",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0
+  },
+  {
+   "src": "AddonPanelEntry",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0
+  }
+ ],
+ "vD": [
+  {
+   "src": "ButtonSettingRow",
+   "score": 7.0,
+   "why": "锚点引用:ButtonSetting; MCimport:2",
+   "mcj": 1.0
+  },
+  {
+   "src": "ModuleButton",
+   "score": 6.0,
+   "why": "锚点引用:ButtonSetting,Setting",
+   "mcj": 0.0
+  },
+  {
+   "src": "SettingsContent",
+   "score": 6.0,
+   "why": "锚点引用:ButtonSetting,Setting",
+   "mcj": 0.0
+  }
+ ],
+ "vE": [
+  {
+   "src": "EpsilonAddon",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0.0
+  },
+  {
+   "src": "I18NFileGenerator",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0.0
+  },
+  {
+   "src": "AddonPanelEntry",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0.0
+  }
+ ],
+ "vf": [
+  {
+   "src": "DoubleSettingRow",
+   "score": 7.0,
+   "why": "锚点引用:DoubleSetting; MCimport:3",
+   "mcj": 0.75
+  },
+  {
+   "src": "ModuleDetailPanel",
+   "score": 7.0,
+   "why": "锚点引用:Setting; MCimport:3",
+   "mcj": 0.75
+  },
+  {
+   "src": "AddonClientSettingTab",
+   "score": 7.0,
+   "why": "锚点引用:Setting; MCimport:3",
+   "mcj": 0.75
+  }
+ ],
+ "vG": [
+  {
+   "src": "EpsilonAddon",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0
+  },
+  {
+   "src": "I18NFileGenerator",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0
+  },
+  {
+   "src": "AddonPanelEntry",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0
+  }
+ ],
+ "vg": [
+  {
+   "src": "StringListSettingRow",
+   "score": 7.0,
+   "why": "锚点引用:StringListSetting; MCimport:2",
+   "mcj": 1.0
+  },
+  {
+   "src": "ModuleButton",
+   "score": 6.0,
+   "why": "锚点引用:Setting,StringListSetting",
+   "mcj": 0.0
+  },
+  {
+   "src": "SettingsContent",
+   "score": 6.0,
+   "why": "锚点引用:Setting,StringListSetting",
+   "mcj": 0.0
+  }
+ ],
+ "vh": [
+  {
+   "src": "SettingRow",
+   "score": 8.0,
+   "why": "锚点引用:Setting; MCimport:5",
+   "mcj": 1.0
+  },
+  {
+   "src": "SettingListController",
+   "score": 7.2,
+   "why": "锚点引用:Setting; MCimport:4",
+   "mcj": 0.8
+  },
+  {
+   "src": "ModuleDetailPanel",
+   "score": 7.2,
+   "why": "锚点引用:Setting; MCimport:4",
+   "mcj": 0.8
+  }
+ ],
+ "vi": [
+  {
+   "src": "EnumSettingRow",
+   "score": 7.0,
+   "why": "锚点引用:EnumSetting; MCimport:2",
+   "mcj": 1.0
+  },
+  {
+   "src": "EnumSelectPopup",
+   "score": 7.0,
+   "why": "锚点引用:EnumSetting; MCimport:2",
+   "mcj": 1.0
+  },
+  {
+   "src": "I18NFileGenerator",
+   "score": 6.0,
+   "why": "锚点引用:EnumSetting,Setting",
+   "mcj": 0.0
+  }
+ ],
+ "vJ": [
+  {
+   "src": "ModuleDetailPanel",
+   "score": 8.0,
+   "why": "锚点引用:KeybindSetting,Setting; MCimport:2",
+   "mcj": 0.5
+  },
+  {
+   "src": "AddonClientSettingTab",
+   "score": 8.0,
+   "why": "锚点引用:KeybindSetting,Setting; MCimport:2",
+   "mcj": 0.5
+  },
+  {
+   "src": "GeneralClientSettingTab",
+   "score": 8.0,
+   "why": "锚点引用:KeybindSetting,Setting; MCimport:2",
+   "mcj": 0.5
+  }
+ ],
+ "vK": [
+  {
+   "src": "Module",
+   "score": 5.0,
+   "why": "锚点引用:Setting; MCimport:1",
+   "mcj": 0.5
+  },
+  {
+   "src": "EpsilonAddon",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0.0
+  },
+  {
+   "src": "I18NFileGenerator",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0.0
+  }
+ ],
+ "vk": [
+  {
+   "src": "EpsilonAddon",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0
+  },
+  {
+   "src": "I18NFileGenerator",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0
+  },
+  {
+   "src": "AddonPanelEntry",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0
+  }
+ ],
+ "vM": [
+  {
+   "src": "RegistryListSelectPopup",
+   "score": 4.37,
+   "why": "锚点引用:Setting; MCimport:4",
+   "mcj": 0.093
+  },
+  {
+   "src": "SettingHost",
+   "score": 3.24,
+   "why": "锚点引用:Setting; MCimport:2",
+   "mcj": 0.061
+  },
+  {
+   "src": "RegistryListSetting",
+   "score": 3.22,
+   "why": "锚点引用:Setting; MCimport:2",
+   "mcj": 0.054
+  }
+ ],
+ "vO": [
+  {
+   "src": "EpsilonAddon",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0
+  },
+  {
+   "src": "I18NFileGenerator",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0
+  },
+  {
+   "src": "AddonPanelEntry",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0
+  }
+ ],
+ "vo": [
+  {
+   "src": "ClientSetting",
+   "score": 4.33,
+   "why": "锚点引用:Setting; MCimport:1",
+   "mcj": 0.333
+  },
+  {
+   "src": "RegistryListSetting",
+   "score": 3.44,
+   "why": "锚点引用:Setting; MCimport:1",
+   "mcj": 0.111
+  },
+  {
+   "src": "RegistryListSelectPopup",
+   "score": 3.24,
+   "why": "锚点引用:Setting; MCimport:1",
+   "mcj": 0.059
+  }
+ ],
+ "vp": [
+  {
+   "src": "EpsilonAddon",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0
+  },
+  {
+   "src": "I18NFileGenerator",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0
+  },
+  {
+   "src": "AddonPanelEntry",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0
+  }
+ ],
+ "vq": [
+  {
+   "src": "EpsilonAddon",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0
+  },
+  {
+   "src": "I18NFileGenerator",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0
+  },
+  {
+   "src": "AddonPanelEntry",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0
+  }
+ ],
+ "vr": [
+  {
+   "src": "EpsilonAddon",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0
+  },
+  {
+   "src": "I18NFileGenerator",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0
+  },
+  {
+   "src": "AddonPanelEntry",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0
+  }
+ ],
+ "vS": [
+  {
+   "src": "EpsilonAddon",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0
+  },
+  {
+   "src": "I18NFileGenerator",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0
+  },
+  {
+   "src": "AddonPanelEntry",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0
+  }
+ ],
+ "vs": [
+  {
+   "src": "StringSettingRow",
+   "score": 6.4,
+   "why": "锚点引用:StringSetting; MCimport:3",
+   "mcj": 0.6
+  },
+  {
+   "src": "ModuleDetailPanel",
+   "score": 6.4,
+   "why": "锚点引用:Setting; MCimport:3",
+   "mcj": 0.6
+  },
+  {
+   "src": "AddonClientSettingTab",
+   "score": 6.4,
+   "why": "锚点引用:Setting; MCimport:3",
+   "mcj": 0.6
+  }
+ ],
+ "vU": [
+  {
+   "src": "ModuleButton",
+   "score": 6.0,
+   "why": "锚点引用:ColorSetting,Setting",
+   "mcj": 0.0
+  },
+  {
+   "src": "SettingsContent",
+   "score": 6.0,
+   "why": "锚点引用:ColorSetting,Setting",
+   "mcj": 0.0
+  },
+  {
+   "src": "SettingViewFactory",
+   "score": 6.0,
+   "why": "锚点引用:ColorSetting,Setting",
+   "mcj": 0.0
+  }
+ ],
+ "vw": [
+  {
+   "src": "DefaultTranslateComponent",
+   "score": 3.0,
+   "why": "锚点引用:TranslateComponent",
+   "mcj": 0
+  },
+  {
+   "src": "EpsilonTranslateComponent",
+   "score": 3.0,
+   "why": "锚点引用:TranslateComponent",
+   "mcj": 0
+  },
+  {
+   "src": "EpsilonTranslations",
+   "score": 3.0,
+   "why": "锚点引用:TranslateComponent",
+   "mcj": 0
+  }
+ ],
+ "vX": [
+  {
+   "src": "BoolSettingRow",
+   "score": 7.0,
+   "why": "锚点引用:BoolSetting; MCimport:2",
+   "mcj": 1.0
+  },
+  {
+   "src": "ModuleButton",
+   "score": 6.0,
+   "why": "锚点引用:BoolSetting,Setting",
+   "mcj": 0.0
+  },
+  {
+   "src": "SettingsContent",
+   "score": 6.0,
+   "why": "锚点引用:BoolSetting,Setting",
+   "mcj": 0.0
+  }
+ ],
+ "vx": [
+  {
+   "src": "EpsilonAddon",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0
+  },
+  {
+   "src": "I18NFileGenerator",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0
+  },
+  {
+   "src": "AddonPanelEntry",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0
+  }
+ ],
+ "vY": [
+  {
+   "src": "DefaultTranslateComponent",
+   "score": 3.0,
+   "why": "锚点引用:TranslateComponent",
+   "mcj": 0
+  },
+  {
+   "src": "EpsilonTranslateComponent",
+   "score": 3.0,
+   "why": "锚点引用:TranslateComponent",
+   "mcj": 0
+  },
+  {
+   "src": "EpsilonTranslations",
+   "score": 3.0,
+   "why": "锚点引用:TranslateComponent",
+   "mcj": 0
+  }
+ ],
+ "vZ": [
+  {
+   "src": "I18NFileGenerator",
+   "score": 6.0,
+   "why": "锚点引用:Setting,TranslateComponent",
+   "mcj": 0.0
+  },
+  {
+   "src": "SettingsListPanel",
+   "score": 6.0,
+   "why": "锚点引用:Setting,TranslateComponent",
+   "mcj": 0.0
+  },
+  {
+   "src": "Module",
+   "score": 6.0,
+   "why": "锚点引用:Setting,TranslateComponent",
+   "mcj": 0.0
+  }
+ ],
+ "vz": [
+  {
+   "src": "ModuleButton",
+   "score": 33.0,
+   "why": "锚点引用:BoolSetting,ColorSetting,DoubleSetting,EnumSetting,IntSetting",
+   "mcj": 0.0
+  },
+  {
+   "src": "ConfigHolder",
+   "score": 33.0,
+   "why": "锚点引用:BoolSetting,ColorSetting,DoubleSetting,EnumSetting,IntSetting",
+   "mcj": 0
+  },
+  {
+   "src": "SettingsContent",
+   "score": 30.0,
+   "why": "锚点引用:BoolSetting,ColorSetting,DoubleSetting,EnumSetting,IntSetting",
+   "mcj": 0
+  }
+ ],
+ "v_": [
+  {
+   "src": "ModuleButton",
+   "score": 12.0,
+   "why": "锚点引用:EnumSetting,KeybindSetting,Module,Setting",
+   "mcj": 0.0
+  },
+  {
+   "src": "ConfigHolder",
+   "score": 12.0,
+   "why": "锚点引用:EnumSetting,KeybindSetting,Module,Setting",
+   "mcj": 0
+  },
+  {
+   "src": "ClientSetting",
+   "score": 12.0,
+   "why": "锚点引用:EnumSetting,KeybindSetting,Module,Setting",
+   "mcj": 0.0
+  }
+ ],
+ "X": [
+  {
+   "src": "ModuleButton",
+   "score": 12.0,
+   "why": "锚点引用:IntSetting,KeybindSetting,Module,Setting",
+   "mcj": 0.0
+  },
+  {
+   "src": "ConfigHolder",
+   "score": 12.0,
+   "why": "锚点引用:IntSetting,KeybindSetting,Module,Setting",
+   "mcj": 0.0
+  },
+  {
+   "src": "ClientSetting",
+   "score": 12.0,
+   "why": "锚点引用:IntSetting,KeybindSetting,Module,Setting",
+   "mcj": 0.0
+  }
+ ],
+ "x": [
+  {
+   "src": "EpsilonAddon",
+   "score": 6.0,
+   "why": "锚点引用:Module,Setting",
+   "mcj": 0.0
+  },
+  {
+   "src": "I18NFileGenerator",
+   "score": 6.0,
+   "why": "锚点引用:Module,Setting",
+   "mcj": 0.0
+  },
+  {
+   "src": "ModuleButton",
+   "score": 6.0,
+   "why": "锚点引用:Module,Setting",
+   "mcj": 0.0
+  }
+ ],
+ "X1": [
+  {
+   "src": "EpsilonAddon",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0
+  },
+  {
+   "src": "I18NFileGenerator",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0
+  },
+  {
+   "src": "AddonPanelEntry",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0
+  }
+ ],
+ "X3": [
+  {
+   "src": "SettingHost",
+   "score": 3.57,
+   "why": "锚点引用:Setting; MCimport:1",
+   "mcj": 0.143
+  },
+  {
+   "src": "RegistryListSelectPopup",
+   "score": 3.44,
+   "why": "锚点引用:Setting; MCimport:2",
+   "mcj": 0.111
+  },
+  {
+   "src": "RegistryListSetting",
+   "score": 3.36,
+   "why": "锚点引用:Setting; MCimport:1",
+   "mcj": 0.091
+  }
+ ],
+ "X4": [
+  {
+   "src": "DefaultTranslateComponent",
+   "score": 3.0,
+   "why": "锚点引用:TranslateComponent",
+   "mcj": 0
+  },
+  {
+   "src": "EpsilonTranslateComponent",
+   "score": 3.0,
+   "why": "锚点引用:TranslateComponent",
+   "mcj": 0
+  },
+  {
+   "src": "EpsilonTranslations",
+   "score": 3.0,
+   "why": "锚点引用:TranslateComponent",
+   "mcj": 0
+  }
+ ],
+ "X8": [
+  {
+   "src": "I18NFileGenerator",
+   "score": 6.0,
+   "why": "锚点引用:EnumSetting,Setting",
+   "mcj": 0
+  },
+  {
+   "src": "ModuleButton",
+   "score": 6.0,
+   "why": "锚点引用:EnumSetting,Setting",
+   "mcj": 0.0
+  },
+  {
+   "src": "SettingsContent",
+   "score": 6.0,
+   "why": "锚点引用:EnumSetting,Setting",
+   "mcj": 0
+  }
+ ],
+ "XA": [
+  {
+   "src": "EpsilonAddon",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0
+  },
+  {
+   "src": "I18NFileGenerator",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0
+  },
+  {
+   "src": "AddonPanelEntry",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0
+  }
+ ],
+ "Xh": [
+  {
+   "src": "Constants",
+   "score": 4.0,
+   "why": "MCimport:1",
+   "mcj": 1.0
+  },
+  {
+   "src": "Module",
+   "score": 4.0,
+   "why": "MCimport:1",
+   "mcj": 1.0
+  },
+  {
+   "src": "MixinChunkBorderRenderer",
+   "score": 1.0,
+   "why": "MCimport:1",
+   "mcj": 0.25
+  }
+ ],
+ "XI": [
+  {
+   "src": "ClientSettingPanel",
+   "score": 8.0,
+   "why": "锚点引用:TranslateComponent; MCimport:4",
+   "mcj": 1.0
+  },
+  {
+   "src": "ModuleDetailPanel",
+   "score": 8.0,
+   "why": "锚点引用:Setting; MCimport:4",
+   "mcj": 1.0
+  },
+  {
+   "src": "AddonClientSettingTab",
+   "score": 8.0,
+   "why": "锚点引用:Setting; MCimport:4",
+   "mcj": 1.0
+  }
+ ],
+ "XJ": [
+  {
+   "src": "DoubleSettingRow",
+   "score": 5.0,
+   "why": "MCimport:4",
+   "mcj": 1.0
+  },
+  {
+   "src": "IntSettingRow",
+   "score": 5.0,
+   "why": "MCimport:4",
+   "mcj": 1.0
+  },
+  {
+   "src": "StringSettingRow",
+   "score": 5.0,
+   "why": "MCimport:4",
+   "mcj": 1.0
+  }
+ ],
+ "XL": [
+  {
+   "src": "EpsilonAddon",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0
+  },
+  {
+   "src": "I18NFileGenerator",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0
+  },
+  {
+   "src": "AddonPanelEntry",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0
+  }
+ ],
+ "XN": [
+  {
+   "src": "EpsilonAddon",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0
+  },
+  {
+   "src": "I18NFileGenerator",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0
+  },
+  {
+   "src": "AddonPanelEntry",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0
+  }
+ ],
+ "XO": [
+  {
+   "src": "MixinBlockCollisions",
+   "score": 3.4,
+   "why": "MCimport:3",
+   "mcj": 0.6
+  },
+  {
+   "src": "EpsilonAddon",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0.0
+  },
+  {
+   "src": "I18NFileGenerator",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0.0
+  }
+ ],
+ "XQ": [
+  {
+   "src": "ModuleButton",
+   "score": 12.0,
+   "why": "锚点引用:BoolSetting,DoubleSetting,IntSetting,Setting",
+   "mcj": 0.0
+  },
+  {
+   "src": "SettingsContent",
+   "score": 12.0,
+   "why": "锚点引用:BoolSetting,DoubleSetting,IntSetting,Setting",
+   "mcj": 0
+  },
+  {
+   "src": "SettingViewFactory",
+   "score": 12.0,
+   "why": "锚点引用:BoolSetting,DoubleSetting,IntSetting,Setting",
+   "mcj": 0
+  }
+ ],
+ "XT": [
+  {
+   "src": "EpsilonAddon",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0.0
+  },
+  {
+   "src": "I18NFileGenerator",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0.0
+  },
+  {
+   "src": "AddonPanelEntry",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0.0
+  }
+ ],
+ "Xu": [
+  {
+   "src": "EpsilonAddon",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0
+  },
+  {
+   "src": "I18NFileGenerator",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0
+  },
+  {
+   "src": "AddonPanelEntry",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0
+  }
+ ],
+ "Xv": [
+  {
+   "src": "DefaultTranslateComponent",
+   "score": 3.0,
+   "why": "锚点引用:TranslateComponent",
+   "mcj": 0
+  },
+  {
+   "src": "EpsilonTranslateComponent",
+   "score": 3.0,
+   "why": "锚点引用:TranslateComponent",
+   "mcj": 0
+  },
+  {
+   "src": "EpsilonTranslations",
+   "score": 3.0,
+   "why": "锚点引用:TranslateComponent",
+   "mcj": 0
+  }
+ ],
+ "XX": [
+  {
+   "src": "DefaultTranslateComponent",
+   "score": 3.0,
+   "why": "锚点引用:TranslateComponent",
+   "mcj": 0
+  },
+  {
+   "src": "EpsilonTranslateComponent",
+   "score": 3.0,
+   "why": "锚点引用:TranslateComponent",
+   "mcj": 0
+  },
+  {
+   "src": "EpsilonTranslations",
+   "score": 3.0,
+   "why": "锚点引用:TranslateComponent",
+   "mcj": 0
+  }
+ ],
+ "Xy": [
+  {
+   "src": "EpsilonAddon",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0
+  },
+  {
+   "src": "I18NFileGenerator",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0
+  },
+  {
+   "src": "AddonPanelEntry",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0
+  }
+ ],
+ "XZ": [
+  {
+   "src": "EpsilonAddon",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0
+  },
+  {
+   "src": "I18NFileGenerator",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0
+  },
+  {
+   "src": "AddonPanelEntry",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0
+  }
+ ],
+ "X_": [
+  {
+   "src": "Module",
+   "score": 7.0,
+   "why": "锚点引用:Setting; MCimport:1",
+   "mcj": 1.0
+  },
+  {
+   "src": "Constants",
+   "score": 4.0,
+   "why": "MCimport:1",
+   "mcj": 1.0
+  },
+  {
+   "src": "EpsilonAddon",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0.0
+  }
+ ],
+ "Y": [
+  {
+   "src": "ModuleButton",
+   "score": 9.0,
+   "why": "锚点引用:DoubleSetting,Module,Setting",
+   "mcj": 0.0
+  },
+  {
+   "src": "ConfigHolder",
+   "score": 9.0,
+   "why": "锚点引用:DoubleSetting,Module,Setting",
+   "mcj": 0.0
+  },
+  {
+   "src": "ClientSetting",
+   "score": 9.0,
+   "why": "锚点引用:DoubleSetting,Module,Setting",
+   "mcj": 0.0
+  }
+ ],
+ "y": [
+  {
+   "src": "ModuleButton",
+   "score": 15.0,
+   "why": "锚点引用:BoolSetting,DoubleSetting,IntSetting,Module,Setting",
+   "mcj": 0.0
+  },
+  {
+   "src": "ConfigHolder",
+   "score": 15.0,
+   "why": "锚点引用:BoolSetting,DoubleSetting,IntSetting,Module,Setting",
+   "mcj": 0.0
+  },
+  {
+   "src": "ClientSetting",
+   "score": 15.0,
+   "why": "锚点引用:BoolSetting,DoubleSetting,IntSetting,Module,Setting",
+   "mcj": 0.0
+  }
+ ],
+ "y0": [
+  {
+   "src": "ClientSetting",
+   "score": 5.0,
+   "why": "锚点引用:Setting; MCimport:1",
+   "mcj": 0.5
+  },
+  {
+   "src": "SoundKey",
+   "score": 4.0,
+   "why": "MCimport:1",
+   "mcj": 1.0
+  },
+  {
+   "src": "RegistryListSetting",
+   "score": 3.5,
+   "why": "锚点引用:Setting; MCimport:1",
+   "mcj": 0.125
+  }
+ ],
+ "y1": [
+  {
+   "src": "EpsilonAddon",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0
+  },
+  {
+   "src": "I18NFileGenerator",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0
+  },
+  {
+   "src": "AddonPanelEntry",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0
+  }
+ ],
+ "y4": [
+  {
+   "src": "LuminTexture",
+   "score": 4.0,
+   "why": "MCimport:1",
+   "mcj": 1.0
+  },
+  {
+   "src": "EpsilonAddon",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0.0
+  },
+  {
+   "src": "I18NFileGenerator",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0.0
+  }
+ ],
+ "y7": [
+  {
+   "src": "EpsilonAddon",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0
+  },
+  {
+   "src": "I18NFileGenerator",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0
+  },
+  {
+   "src": "AddonPanelEntry",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0
+  }
+ ],
+ "y8": [
+  {
+   "src": "EpsilonAddon",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0
+  },
+  {
+   "src": "I18NFileGenerator",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0
+  },
+  {
+   "src": "AddonPanelEntry",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0
+  }
+ ],
+ "y9": [
+  {
+   "src": "ModuleDetailPanel",
+   "score": 14.0,
+   "why": "锚点引用:KeybindSetting,Module,Setting; MCimport:4",
+   "mcj": 1.0
+  },
+  {
+   "src": "AddonClientSettingTab",
+   "score": 11.0,
+   "why": "锚点引用:KeybindSetting,Setting; MCimport:4",
+   "mcj": 1.0
+  },
+  {
+   "src": "GeneralClientSettingTab",
+   "score": 11.0,
+   "why": "锚点引用:KeybindSetting,Setting; MCimport:4",
+   "mcj": 1.0
+  }
+ ],
+ "yF": [
+  {
+   "src": "FindItemResult",
+   "score": 4.0,
+   "why": "MCimport:1",
+   "mcj": 1.0
+  },
+  {
+   "src": "AutoMend",
+   "score": 1.33,
+   "why": "MCimport:1",
+   "mcj": 0.333
+  },
+  {
+   "src": "AutoFirework",
+   "score": 1.33,
+   "why": "MCimport:1",
+   "mcj": 0.333
+  }
+ ],
+ "yg": [
+  {
+   "src": "EpsilonAddon",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0
+  },
+  {
+   "src": "I18NFileGenerator",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0
+  },
+  {
+   "src": "AddonPanelEntry",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0
+  }
+ ],
+ "yH": [
+  {
+   "src": "SoundKey",
+   "score": 4.0,
+   "why": "MCimport:1",
+   "mcj": 1.0
+  },
+  {
+   "src": "ResourceLocationUtils",
+   "score": 2.0,
+   "why": "MCimport:1",
+   "mcj": 0.5
+  },
+  {
+   "src": "ClientSetting",
+   "score": 2.0,
+   "why": "MCimport:1",
+   "mcj": 0.5
+  }
+ ],
+ "yK": [
+  {
+   "src": "ClientSetting",
+   "score": 5.0,
+   "why": "锚点引用:Setting; MCimport:1",
+   "mcj": 0.5
+  },
+  {
+   "src": "SoundKey",
+   "score": 4.0,
+   "why": "MCimport:1",
+   "mcj": 1.0
+  },
+  {
+   "src": "RegistryListSetting",
+   "score": 3.5,
+   "why": "锚点引用:Setting; MCimport:1",
+   "mcj": 0.125
+  }
+ ],
+ "yl": [
+  {
+   "src": "DestroyBlockEvent",
+   "score": 4.0,
+   "why": "MCimport:1",
+   "mcj": 1.0
+  },
+  {
+   "src": "BlockCollisionEvent",
+   "score": 2.0,
+   "why": "MCimport:1",
+   "mcj": 0.5
+  },
+  {
+   "src": "StartDestroyBlockEvent",
+   "score": 2.0,
+   "why": "MCimport:1",
+   "mcj": 0.5
+  }
+ ],
+ "yn": [
+  {
+   "src": "ClientSetting",
+   "score": 4.0,
+   "why": "锚点引用:Setting; MCimport:1",
+   "mcj": 0.25
+  },
+  {
+   "src": "RegistryListSetting",
+   "score": 3.4,
+   "why": "锚点引用:Setting; MCimport:1",
+   "mcj": 0.1
+  },
+  {
+   "src": "RegistryListSelectPopup",
+   "score": 3.22,
+   "why": "锚点引用:Setting; MCimport:1",
+   "mcj": 0.056
+  }
+ ],
+ "yO": [
+  {
+   "src": "I18NFileGenerator",
+   "score": 6.0,
+   "why": "锚点引用:Setting,TranslateComponent",
+   "mcj": 0
+  },
+  {
+   "src": "SettingsListPanel",
+   "score": 6.0,
+   "why": "锚点引用:Setting,TranslateComponent",
+   "mcj": 0
+  },
+  {
+   "src": "Module",
+   "score": 6.0,
+   "why": "锚点引用:Setting,TranslateComponent",
+   "mcj": 0.0
+  }
+ ],
+ "yo": [
+  {
+   "src": "EpsilonAddon",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0
+  },
+  {
+   "src": "I18NFileGenerator",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0
+  },
+  {
+   "src": "AddonPanelEntry",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0
+  }
+ ],
+ "yP": [
+  {
+   "src": "ScaffoldBlock",
+   "score": 3.0,
+   "why": "锚点引用:HudEditorScreen",
+   "mcj": 0.0
+  },
+  {
+   "src": "TargetHUD",
+   "score": 3.0,
+   "why": "锚点引用:HudEditorScreen",
+   "mcj": 0.0
+  },
+  {
+   "src": "Notifications",
+   "score": 3.0,
+   "why": "锚点引用:HudEditorScreen",
+   "mcj": 0.0
+  }
+ ],
+ "yp": [
+  {
+   "src": "EpsilonAddon",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0
+  },
+  {
+   "src": "I18NFileGenerator",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0
+  },
+  {
+   "src": "AddonPanelEntry",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0
+  }
+ ],
+ "ys": [
+  {
+   "src": "EpsilonAddon",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0
+  },
+  {
+   "src": "I18NFileGenerator",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0
+  },
+  {
+   "src": "AddonPanelEntry",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0
+  }
+ ],
+ "yT": [
+  {
+   "src": "EpsilonAddon",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0
+  },
+  {
+   "src": "I18NFileGenerator",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0
+  },
+  {
+   "src": "AddonPanelEntry",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0
+  }
+ ],
+ "yu": [
+  {
+   "src": "EpsilonAddon",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0
+  },
+  {
+   "src": "I18NFileGenerator",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0
+  },
+  {
+   "src": "AddonPanelEntry",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0
+  }
+ ],
+ "yw": [
+  {
+   "src": "DefaultTranslateComponent",
+   "score": 3.0,
+   "why": "锚点引用:TranslateComponent",
+   "mcj": 0
+  },
+  {
+   "src": "EpsilonTranslateComponent",
+   "score": 3.0,
+   "why": "锚点引用:TranslateComponent",
+   "mcj": 0
+  },
+  {
+   "src": "EpsilonTranslations",
+   "score": 3.0,
+   "why": "锚点引用:TranslateComponent",
+   "mcj": 0
+  }
+ ],
+ "y_": [
+  {
+   "src": "ClientSetting",
+   "score": 5.0,
+   "why": "锚点引用:Setting; MCimport:1",
+   "mcj": 0.5
+  },
+  {
+   "src": "SoundKey",
+   "score": 4.0,
+   "why": "MCimport:1",
+   "mcj": 1.0
+  },
+  {
+   "src": "RegistryListSetting",
+   "score": 3.5,
+   "why": "锚点引用:Setting; MCimport:1",
+   "mcj": 0.125
+  }
+ ],
+ "z": [
+  {
+   "src": "ModuleButton",
+   "score": 15.0,
+   "why": "锚点引用:BoolSetting,DoubleSetting,IntSetting,Module,Setting",
+   "mcj": 0.0
+  },
+  {
+   "src": "ConfigHolder",
+   "score": 15.0,
+   "why": "锚点引用:BoolSetting,DoubleSetting,IntSetting,Module,Setting",
+   "mcj": 0.0
+  },
+  {
+   "src": "ClientSetting",
+   "score": 15.0,
+   "why": "锚点引用:BoolSetting,DoubleSetting,IntSetting,Module,Setting",
+   "mcj": 0.0
+  }
+ ],
+ "z0": [
+  {
+   "src": "EpsilonAddon",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0
+  },
+  {
+   "src": "I18NFileGenerator",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0
+  },
+  {
+   "src": "AddonPanelEntry",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0
+  }
+ ],
+ "z1": [
+  {
+   "src": "ClientSetting",
+   "score": 5.0,
+   "why": "锚点引用:Setting; MCimport:1",
+   "mcj": 0.5
+  },
+  {
+   "src": "SoundKey",
+   "score": 4.0,
+   "why": "MCimport:1",
+   "mcj": 1.0
+  },
+  {
+   "src": "RegistryListSetting",
+   "score": 3.5,
+   "why": "锚点引用:Setting; MCimport:1",
+   "mcj": 0.125
+  }
+ ],
+ "z3": [
+  {
+   "src": "DropdownScreen",
+   "score": 3.0,
+   "why": "锚点引用:RegistryListSetting",
+   "mcj": 0.0
+  },
+  {
+   "src": "ModuleButton",
+   "score": 3.0,
+   "why": "锚点引用:RegistryListSetting",
+   "mcj": 0.0
+  },
+  {
+   "src": "SettingsContent",
+   "score": 3.0,
+   "why": "锚点引用:RegistryListSetting",
+   "mcj": 0
+  }
+ ],
+ "zA": [
+  {
+   "src": "DropdownScreen",
+   "score": 3.0,
+   "why": "锚点引用:StringListSetting",
+   "mcj": 0.0
+  },
+  {
+   "src": "ModuleButton",
+   "score": 3.0,
+   "why": "锚点引用:StringListSetting",
+   "mcj": 0.0
+  },
+  {
+   "src": "SettingsContent",
+   "score": 3.0,
+   "why": "锚点引用:StringListSetting",
+   "mcj": 0
+  }
+ ],
+ "za": [
+  {
+   "src": "ModuleButton",
+   "score": 6.0,
+   "why": "锚点引用:KeybindSetting,Setting",
+   "mcj": 0.0
+  },
+  {
+   "src": "SettingsContent",
+   "score": 6.0,
+   "why": "锚点引用:KeybindSetting,Setting",
+   "mcj": 0
+  },
+  {
+   "src": "SettingViewFactory",
+   "score": 6.0,
+   "why": "锚点引用:KeybindSetting,Setting",
+   "mcj": 0
+  }
+ ],
+ "zb": [
+  {
+   "src": "RotationManager",
+   "score": 6.67,
+   "why": "锚点引用:RaytraceEvent,RotationAnimationEvent; MCimport:1",
+   "mcj": 0.167
+  },
+  {
+   "src": "LuaEventRegistry",
+   "score": 6.0,
+   "why": "锚点引用:RaytraceEvent,RotationAnimationEvent",
+   "mcj": 0.0
+  },
+  {
+   "src": "Module",
+   "score": 4.33,
+   "why": "锚点引用:Setting; MCimport:1",
+   "mcj": 0.333
+  }
+ ],
+ "zC": [
+  {
+   "src": "SilentRotationManager",
+   "score": 24.0,
+   "why": "锚点引用:AttackYawEvent,FallFlyingEvent,FireworkRotationEvent,JumpEvent,KeyboardInputEvent",
+   "mcj": 0.0
+  },
+  {
+   "src": "LuaEventRegistry",
+   "score": 24.0,
+   "why": "锚点引用:AttackYawEvent,FallFlyingEvent,FireworkRotationEvent,JumpEvent,KeyboardInputEvent",
+   "mcj": 0.0
+  },
+  {
+   "src": "ElytraFlightMode",
+   "score": 9.36,
+   "why": "锚点引用:FallFlyingEvent,FireworkRotationEvent,KeyboardInputEvent; MCimport:1",
+   "mcj": 0.091
+  }
+ ],
+ "zc": [
+  {
+   "src": "EpsilonAddon",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0
+  },
+  {
+   "src": "I18NFileGenerator",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0
+  },
+  {
+   "src": "AddonPanelEntry",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0
+  }
+ ],
+ "ze": [
+  {
+   "src": "BPS",
+   "score": 3.0,
+   "why": "锚点引用:DoubleSetting",
+   "mcj": 0.0
+  },
+  {
+   "src": "Inventory",
+   "score": 3.0,
+   "why": "锚点引用:DoubleSetting",
+   "mcj": 0.0
+  },
+  {
+   "src": "ModuleList",
+   "score": 3.0,
+   "why": "锚点引用:DoubleSetting",
+   "mcj": 0.0
+  }
+ ],
+ "zF": [
+  {
+   "src": "EpsilonAddon",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0
+  },
+  {
+   "src": "I18NFileGenerator",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0
+  },
+  {
+   "src": "AddonPanelEntry",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0
+  }
+ ],
+ "zf": [
+  {
+   "src": "Module",
+   "score": 7.0,
+   "why": "锚点引用:Setting; MCimport:1",
+   "mcj": 1.0
+  },
+  {
+   "src": "ClientSetting",
+   "score": 6.0,
+   "why": "锚点引用:HudEditorScreen,Setting",
+   "mcj": 0.0
+  },
+  {
+   "src": "Constants",
+   "score": 4.0,
+   "why": "MCimport:1",
+   "mcj": 1.0
+  }
+ ],
+ "zG": [
+  {
+   "src": "ModuleButton",
+   "score": 6.0,
+   "why": "锚点引用:ColorSetting,Setting",
+   "mcj": 0.0
+  },
+  {
+   "src": "SettingsContent",
+   "score": 6.0,
+   "why": "锚点引用:ColorSetting,Setting",
+   "mcj": 0
+  },
+  {
+   "src": "SettingViewFactory",
+   "score": 6.0,
+   "why": "锚点引用:ColorSetting,Setting",
+   "mcj": 0
+  }
+ ],
+ "zH": [
+  {
+   "src": "EpsilonAddon",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0
+  },
+  {
+   "src": "I18NFileGenerator",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0
+  },
+  {
+   "src": "AddonPanelEntry",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0
+  }
+ ],
+ "zJ": [
+  {
+   "src": "ClientSetting",
+   "score": 5.0,
+   "why": "锚点引用:Setting; MCimport:1",
+   "mcj": 0.5
+  },
+  {
+   "src": "SoundKey",
+   "score": 4.0,
+   "why": "MCimport:1",
+   "mcj": 1.0
+  },
+  {
+   "src": "RegistryListSetting",
+   "score": 3.5,
+   "why": "锚点引用:Setting; MCimport:1",
+   "mcj": 0.125
+  }
+ ],
+ "zj": [
+  {
+   "src": "ModuleButton",
+   "score": 6.0,
+   "why": "锚点引用:BoolSetting,Setting",
+   "mcj": 0.0
+  },
+  {
+   "src": "SettingsContent",
+   "score": 6.0,
+   "why": "锚点引用:BoolSetting,Setting",
+   "mcj": 0
+  },
+  {
+   "src": "SettingViewFactory",
+   "score": 6.0,
+   "why": "锚点引用:BoolSetting,Setting",
+   "mcj": 0
+  }
+ ],
+ "zk": [
+  {
+   "src": "ModuleButton",
+   "score": 36.0,
+   "why": "锚点引用:BoolSetting,ButtonSetting,ColorSetting,DoubleSetting,EnumSetting",
+   "mcj": 0.0
+  },
+  {
+   "src": "SettingsContent",
+   "score": 33.0,
+   "why": "锚点引用:BoolSetting,ButtonSetting,ColorSetting,DoubleSetting,EnumSetting",
+   "mcj": 0
+  },
+  {
+   "src": "SettingViewFactory",
+   "score": 33.0,
+   "why": "锚点引用:BoolSetting,ButtonSetting,ColorSetting,DoubleSetting,EnumSetting",
+   "mcj": 0
+  }
+ ],
+ "zm": [
+  {
+   "src": "Render2DEvent",
+   "score": 4.0,
+   "why": "MCimport:1",
+   "mcj": 1.0
+  },
+  {
+   "src": "ColorSettingRow",
+   "score": 4.0,
+   "why": "MCimport:1",
+   "mcj": 1.0
+  },
+  {
+   "src": "BoolSettingRow",
+   "score": 2.0,
+   "why": "MCimport:1",
+   "mcj": 0.5
+  }
+ ],
+ "zN": [
+  {
+   "src": "ClientSetting",
+   "score": 5.0,
+   "why": "锚点引用:Setting; MCimport:1",
+   "mcj": 0.5
+  },
+  {
+   "src": "SoundKey",
+   "score": 4.0,
+   "why": "MCimport:1",
+   "mcj": 1.0
+  },
+  {
+   "src": "RegistryListSetting",
+   "score": 3.5,
+   "why": "锚点引用:Setting; MCimport:1",
+   "mcj": 0.125
+  }
+ ],
+ "zn": [
+  {
+   "src": "BPS",
+   "score": 3.0,
+   "why": "锚点引用:IntSetting",
+   "mcj": 0.0
+  },
+  {
+   "src": "Inventory",
+   "score": 3.0,
+   "why": "锚点引用:IntSetting",
+   "mcj": 0.0
+  },
+  {
+   "src": "ModuleList",
+   "score": 3.0,
+   "why": "锚点引用:IntSetting",
+   "mcj": 0.0
+  }
+ ],
+ "zo": [
+  {
+   "src": "Render2DEvent",
+   "score": 4.0,
+   "why": "MCimport:1",
+   "mcj": 1.0
+  },
+  {
+   "src": "ColorSettingRow",
+   "score": 4.0,
+   "why": "MCimport:1",
+   "mcj": 1.0
+  },
+  {
+   "src": "BoolSettingRow",
+   "score": 2.0,
+   "why": "MCimport:1",
+   "mcj": 0.5
+  }
+ ],
+ "zP": [
+  {
+   "src": "EpsilonAddon",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0
+  },
+  {
+   "src": "I18NFileGenerator",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0
+  },
+  {
+   "src": "AddonPanelEntry",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0
+  }
+ ],
+ "zp": [
+  {
+   "src": "ModuleButton",
+   "score": 6.0,
+   "why": "锚点引用:Setting,StringSetting",
+   "mcj": 0.0
+  },
+  {
+   "src": "SettingsContent",
+   "score": 6.0,
+   "why": "锚点引用:Setting,StringSetting",
+   "mcj": 0
+  },
+  {
+   "src": "SettingViewFactory",
+   "score": 6.0,
+   "why": "锚点引用:Setting,StringSetting",
+   "mcj": 0
+  }
+ ],
+ "zQ": [
+  {
+   "src": "EpsilonAddon",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0
+  },
+  {
+   "src": "I18NFileGenerator",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0
+  },
+  {
+   "src": "AddonPanelEntry",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0
+  }
+ ],
+ "zq": [
+  {
+   "src": "TargetRequest",
+   "score": 4.0,
+   "why": "MCimport:1",
+   "mcj": 1.0
+  },
+  {
+   "src": "EpsilonAddon",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0.0
+  },
+  {
+   "src": "I18NFileGenerator",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0.0
+  }
+ ],
+ "zR": [
+  {
+   "src": "Render2DEvent",
+   "score": 4.0,
+   "why": "MCimport:1",
+   "mcj": 1.0
+  },
+  {
+   "src": "ColorSettingRow",
+   "score": 4.0,
+   "why": "MCimport:1",
+   "mcj": 1.0
+  },
+  {
+   "src": "BoolSettingRow",
+   "score": 2.0,
+   "why": "MCimport:1",
+   "mcj": 0.5
+  }
+ ],
+ "zS": [
+  {
+   "src": "EpsilonAddon",
+   "score": 6.0,
+   "why": "锚点引用:Module,Setting",
+   "mcj": 0.0
+  },
+  {
+   "src": "I18NFileGenerator",
+   "score": 6.0,
+   "why": "锚点引用:Module,Setting",
+   "mcj": 0.0
+  },
+  {
+   "src": "ModuleButton",
+   "score": 6.0,
+   "why": "锚点引用:Module,Setting",
+   "mcj": 0.0
+  }
+ ],
+ "zs": [
+  {
+   "src": "ClientSetting",
+   "score": 4.0,
+   "why": "锚点引用:Setting; MCimport:1",
+   "mcj": 0.25
+  },
+  {
+   "src": "RegistryListSetting",
+   "score": 3.4,
+   "why": "锚点引用:Setting; MCimport:1",
+   "mcj": 0.1
+  },
+  {
+   "src": "RegistryListSelectPopup",
+   "score": 3.22,
+   "why": "锚点引用:Setting; MCimport:1",
+   "mcj": 0.056
+  }
+ ],
+ "zt": [
+  {
+   "src": "ModuleDetailPanel",
+   "score": 7.0,
+   "why": "锚点引用:Setting; MCimport:3",
+   "mcj": 0.75
+  },
+  {
+   "src": "AddonClientSettingTab",
+   "score": 7.0,
+   "why": "锚点引用:Setting; MCimport:3",
+   "mcj": 0.75
+  },
+  {
+   "src": "GeneralClientSettingTab",
+   "score": 7.0,
+   "why": "锚点引用:Setting; MCimport:3",
+   "mcj": 0.75
+  }
+ ],
+ "zU": [
+  {
+   "src": "ClientSetting",
+   "score": 5.0,
+   "why": "锚点引用:Setting; MCimport:1",
+   "mcj": 0.5
+  },
+  {
+   "src": "SoundKey",
+   "score": 4.0,
+   "why": "MCimport:1",
+   "mcj": 1.0
+  },
+  {
+   "src": "RegistryListSetting",
+   "score": 3.5,
+   "why": "锚点引用:Setting; MCimport:1",
+   "mcj": 0.125
+  }
+ ],
+ "zu": [
+  {
+   "src": "EpsilonAddon",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0.0
+  },
+  {
+   "src": "I18NFileGenerator",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0.0
+  },
+  {
+   "src": "AddonPanelEntry",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0.0
+  }
+ ],
+ "zv": [
+  {
+   "src": "EpsilonAddon",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0
+  },
+  {
+   "src": "I18NFileGenerator",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0
+  },
+  {
+   "src": "AddonPanelEntry",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0
+  }
+ ],
+ "zW": [
+  {
+   "src": "ModuleButton",
+   "score": 6.0,
+   "why": "锚点引用:ButtonSetting,Setting",
+   "mcj": 0.0
+  },
+  {
+   "src": "SettingsContent",
+   "score": 6.0,
+   "why": "锚点引用:ButtonSetting,Setting",
+   "mcj": 0
+  },
+  {
+   "src": "SettingViewFactory",
+   "score": 6.0,
+   "why": "锚点引用:ButtonSetting,Setting",
+   "mcj": 0
+  }
+ ],
+ "zx": [
+  {
+   "src": "BoolSettingRow",
+   "score": 4.0,
+   "why": "MCimport:2",
+   "mcj": 1.0
+  },
+  {
+   "src": "ButtonSettingRow",
+   "score": 4.0,
+   "why": "MCimport:2",
+   "mcj": 1.0
+  },
+  {
+   "src": "ChoiceSettingRow",
+   "score": 4.0,
+   "why": "MCimport:2",
+   "mcj": 1.0
+  }
+ ],
+ "zz": [
+  {
+   "src": "I18NFileGenerator",
+   "score": 6.0,
+   "why": "锚点引用:EnumSetting,Setting",
+   "mcj": 0
+  },
+  {
+   "src": "ModuleButton",
+   "score": 6.0,
+   "why": "锚点引用:EnumSetting,Setting",
+   "mcj": 0.0
+  },
+  {
+   "src": "SettingsContent",
+   "score": 6.0,
+   "why": "锚点引用:EnumSetting,Setting",
+   "mcj": 0
+  }
+ ],
+ "_3": [
+  {
+   "src": "EpsilonAddon",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0
+  },
+  {
+   "src": "I18NFileGenerator",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0
+  },
+  {
+   "src": "AddonPanelEntry",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0
+  }
+ ],
+ "_5": [
+  {
+   "src": "Module",
+   "score": 4.33,
+   "why": "锚点引用:Setting; MCimport:1",
+   "mcj": 0.333
+  },
+  {
+   "src": "EpsilonAddon",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0.0
+  },
+  {
+   "src": "I18NFileGenerator",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0.0
+  }
+ ],
+ "_6": [
+  {
+   "src": "ModuleDetailPanel",
+   "score": 8.0,
+   "why": "锚点引用:Setting; MCimport:4",
+   "mcj": 1.0
+  },
+  {
+   "src": "AddonClientSettingTab",
+   "score": 8.0,
+   "why": "锚点引用:Setting; MCimport:4",
+   "mcj": 1.0
+  },
+  {
+   "src": "GeneralClientSettingTab",
+   "score": 8.0,
+   "why": "锚点引用:Setting; MCimport:4",
+   "mcj": 1.0
+  }
+ ],
+ "_B": [
+  {
+   "src": "EpsilonAddon",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0
+  },
+  {
+   "src": "I18NFileGenerator",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0
+  },
+  {
+   "src": "AddonPanelEntry",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0
+  }
+ ],
+ "_C": [
+  {
+   "src": "ClientSetting",
+   "score": 4.33,
+   "why": "锚点引用:Setting; MCimport:1",
+   "mcj": 0.333
+  },
+  {
+   "src": "RegistryListSetting",
+   "score": 3.44,
+   "why": "锚点引用:Setting; MCimport:1",
+   "mcj": 0.111
+  },
+  {
+   "src": "RegistryListSelectPopup",
+   "score": 3.24,
+   "why": "锚点引用:Setting; MCimport:1",
+   "mcj": 0.059
+  }
+ ],
+ "_D": [
+  {
+   "src": "EpsilonAddon",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0
+  },
+  {
+   "src": "I18NFileGenerator",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0
+  },
+  {
+   "src": "AddonPanelEntry",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0
+  }
+ ],
+ "_E": [
+  {
+   "src": "EpsilonAddon",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0
+  },
+  {
+   "src": "I18NFileGenerator",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0
+  },
+  {
+   "src": "AddonPanelEntry",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0
+  }
+ ],
+ "_H": [
+  {
+   "src": "EpsilonAddon",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0.0
+  },
+  {
+   "src": "I18NFileGenerator",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0.0
+  },
+  {
+   "src": "AddonPanelEntry",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0.0
+  }
+ ],
+ "_h": [
+  {
+   "src": "RegistryListSelectPopup",
+   "score": 3.28,
+   "why": "锚点引用:Setting; MCimport:2",
+   "mcj": 0.069
+  },
+  {
+   "src": "SettingHost",
+   "score": 3.22,
+   "why": "锚点引用:Setting; MCimport:1",
+   "mcj": 0.056
+  },
+  {
+   "src": "RegistryListSetting",
+   "score": 3.18,
+   "why": "锚点引用:Setting; MCimport:1",
+   "mcj": 0.045
+  }
+ ],
+ "_I": [
+  {
+   "src": "ModuleButton",
+   "score": 6.0,
+   "why": "锚点引用:IntSetting,Setting",
+   "mcj": 0.0
+  },
+  {
+   "src": "SettingsContent",
+   "score": 6.0,
+   "why": "锚点引用:IntSetting,Setting",
+   "mcj": 0.0
+  },
+  {
+   "src": "SettingViewFactory",
+   "score": 6.0,
+   "why": "锚点引用:IntSetting,Setting",
+   "mcj": 0.0
+  }
+ ],
+ "_i": [
+  {
+   "src": "PopChams",
+   "score": 5.09,
+   "why": "锚点引用:Render3DEvent; MCimport:3",
+   "mcj": 0.273
+  },
+  {
+   "src": "LogoutSpots",
+   "score": 5.0,
+   "why": "锚点引用:Render3DEvent; MCimport:3",
+   "mcj": 0.25
+  },
+  {
+   "src": "Module",
+   "score": 3.57,
+   "why": "锚点引用:Setting; MCimport:1",
+   "mcj": 0.143
+  }
+ ],
+ "_j": [
+  {
+   "src": "EpsilonAddon",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0
+  },
+  {
+   "src": "I18NFileGenerator",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0
+  },
+  {
+   "src": "AddonPanelEntry",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0
+  }
+ ],
+ "_L": [
+  {
+   "src": "EpsilonAddon",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0
+  },
+  {
+   "src": "I18NFileGenerator",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0
+  },
+  {
+   "src": "AddonPanelEntry",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0
+  }
+ ],
+ "_l": [
+  {
+   "src": "DestroyBlockEvent",
+   "score": 4.0,
+   "why": "MCimport:1",
+   "mcj": 1.0
+  },
+  {
+   "src": "EpsilonAddon",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0.0
+  },
+  {
+   "src": "I18NFileGenerator",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0.0
+  }
+ ],
+ "_N": [
+  {
+   "src": "EpsilonAddon",
+   "score": 3.0,
+   "why": "锚点引用:Module",
+   "mcj": 0
+  },
+  {
+   "src": "LegacyConfigMigrator",
+   "score": 3.0,
+   "why": "锚点引用:Module",
+   "mcj": 0
+  },
+  {
+   "src": "EpsilonTranslations",
+   "score": 3.0,
+   "why": "锚点引用:Module",
+   "mcj": 0
+  }
+ ],
+ "_n": [
+  {
+   "src": "MixinPlayer",
+   "score": 6.0,
+   "why": "锚点引用:EventBus; MCimport:3",
+   "mcj": 0.5
+  },
+  {
+   "src": "Module",
+   "score": 6.0,
+   "why": "锚点引用:EventBus,Setting",
+   "mcj": 0.0
+  },
+  {
+   "src": "MixinItem",
+   "score": 5.5,
+   "why": "锚点引用:EventBus; MCimport:3",
+   "mcj": 0.375
+  }
+ ],
+ "_o": [
+  {
+   "src": "Module",
+   "score": 6.4,
+   "why": "锚点引用:Setting,TranslateComponent; MCimport:1",
+   "mcj": 0.1
+  },
+  {
+   "src": "I18NFileGenerator",
+   "score": 6.0,
+   "why": "锚点引用:Setting,TranslateComponent",
+   "mcj": 0.0
+  },
+  {
+   "src": "SettingsListPanel",
+   "score": 6.0,
+   "why": "锚点引用:Setting,TranslateComponent",
+   "mcj": 0.0
+  }
+ ],
+ "_q": [
+  {
+   "src": "RotationUtils",
+   "score": 3.46,
+   "why": "MCimport:8",
+   "mcj": 0.615
+  },
+  {
+   "src": "Module",
+   "score": 3.36,
+   "why": "锚点引用:Setting; MCimport:1",
+   "mcj": 0.091
+  },
+  {
+   "src": "EpsilonAddon",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0.0
+  }
+ ],
+ "_R": [
+  {
+   "src": "ModuleButton",
+   "score": 9.0,
+   "why": "锚点引用:BoolSetting,DoubleSetting,Setting",
+   "mcj": 0.0
+  },
+  {
+   "src": "SettingsContent",
+   "score": 9.0,
+   "why": "锚点引用:BoolSetting,DoubleSetting,Setting",
+   "mcj": 0.0
+  },
+  {
+   "src": "SettingViewFactory",
+   "score": 9.0,
+   "why": "锚点引用:BoolSetting,DoubleSetting,Setting",
+   "mcj": 0.0
+  }
+ ],
+ "_t": [
+  {
+   "src": "EpsilonAddon",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0
+  },
+  {
+   "src": "I18NFileGenerator",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0
+  },
+  {
+   "src": "AddonPanelEntry",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0
+  }
+ ],
+ "_u": [
+  {
+   "src": "ModuleButton",
+   "score": 33.0,
+   "why": "锚点引用:BoolSetting,ButtonSetting,ColorSetting,DoubleSetting,EnumSetting",
+   "mcj": 0.0
+  },
+  {
+   "src": "SettingsContent",
+   "score": 33.0,
+   "why": "锚点引用:BoolSetting,ButtonSetting,ColorSetting,DoubleSetting,EnumSetting",
+   "mcj": 0
+  },
+  {
+   "src": "SettingViewFactory",
+   "score": 33.0,
+   "why": "锚点引用:BoolSetting,ButtonSetting,ColorSetting,DoubleSetting,EnumSetting",
+   "mcj": 0
+  }
+ ],
+ "_V": [
+  {
+   "src": "SoundKey",
+   "score": 4.0,
+   "why": "MCimport:1",
+   "mcj": 1.0
+  },
+  {
+   "src": "ResourceLocationUtils",
+   "score": 2.0,
+   "why": "MCimport:1",
+   "mcj": 0.5
+  },
+  {
+   "src": "ClientSetting",
+   "score": 2.0,
+   "why": "MCimport:1",
+   "mcj": 0.5
+  }
+ ],
+ "_v": [
+  {
+   "src": "SettingHost",
+   "score": 3.57,
+   "why": "锚点引用:Setting; MCimport:1",
+   "mcj": 0.143
+  },
+  {
+   "src": "RegistryListSetting",
+   "score": 3.36,
+   "why": "锚点引用:Setting; MCimport:1",
+   "mcj": 0.091
+  },
+  {
+   "src": "RegistryListSelectPopup",
+   "score": 3.21,
+   "why": "锚点引用:Setting; MCimport:1",
+   "mcj": 0.053
+  }
+ ],
+ "_W": [
+  {
+   "src": "EpsilonAddon",
+   "score": 6.0,
+   "why": "锚点引用:Module,Setting",
+   "mcj": 0
+  },
+  {
+   "src": "I18NFileGenerator",
+   "score": 6.0,
+   "why": "锚点引用:Module,Setting",
+   "mcj": 0
+  },
+  {
+   "src": "ModuleButton",
+   "score": 6.0,
+   "why": "锚点引用:Module,Setting",
+   "mcj": 0.0
+  }
+ ],
+ "_X": [
+  {
+   "src": "EpsilonAddon",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0
+  },
+  {
+   "src": "I18NFileGenerator",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0
+  },
+  {
+   "src": "AddonPanelEntry",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0
+  }
+ ],
+ "_Z": [
+  {
+   "src": "EpsilonAddon",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0
+  },
+  {
+   "src": "I18NFileGenerator",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0
+  },
+  {
+   "src": "AddonPanelEntry",
+   "score": 3.0,
+   "why": "锚点引用:Setting",
+   "mcj": 0
+  }
+ ]
+}
