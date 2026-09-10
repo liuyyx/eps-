@@ -1,0 +1,52 @@
+{
+ "batch": "C050",
+ "results": {
+  "OS": {
+   "identity": "TranslateHolder",
+   "kind": "class",
+   "conf": "A",
+   "evidence": "单例(m static final) + CopyOnWriteArrayList<nV<?>> 管理 translate 组件; g()=register, x()=unregister, n()=refresh(遍历+revision++), l()=getRevision; 逐方法同构 src TranslateHolder(26.1.2)",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/holders/TranslateHolder.java"
+  },
+  "Os": {
+   "identity": "EpsilonFabric",
+   "kind": "class",
+   "conf": "A",
+   "evidence": "Fabric入口: 使用EntrypointContainer<gr>遍历add-on, 创建um(EpsilonAddonSetupEvent), 引用lU(LanguageReloadListener); F()=工厂方法; 与src EpsilonFabric.onInitializeClient()逐行同构",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/fabric/src/main/java/com/github/epsilon/fabric/EpsilonFabric.java"
+  }
+ },
+ "unident": [
+  {
+   "obf": "Op",
+   "reason": "31行静态工具类: Gson+HttpClient+hi(dX→EncryptedString), t()/I(String)返回dX; 无MC导入; 无法定位src对应类(可能26.2新增网络工具或ApiHelper)"
+  },
+  {
+   "obf": "OQ",
+   "reason": "140行Enum, 值Auto/Assist; 全部字符串加密; candidates均非enum; src中找不到含Auto+Assist值的enum定义"
+  },
+  {
+   "obf": "Oq",
+   "reason": "267行Record, 10组件(9float+Color), 构造器各字段clamp到特定范围; Q()用Dl.S()做dark mode switch; B()计算派生值; src中无同结构record(可能26.2新增主题/样式record)"
+  },
+  {
+   "obf": "OR",
+   "reason": "27行minimal class, 仅static int[2]+两个try/catch块设boolean/int索引; 无字段无方法; 结构不匹配任何src类"
+  },
+  {
+   "obf": "Or",
+   "reason": "18行Record, 单组件On(未识别), implements _Q(未识别); On和_Q均无src匹配; 无法判定"
+  },
+  {
+   "obf": "Ot",
+   "reason": "400行class, Int2ObjectMap<O9>包装; O9未识别(不在class_map); add/remove/contains/getAll结构; 无src匹配"
+  }
+ ],
+ "conflicts": [
+  {
+   "obf": "OS",
+   "claimed": "TranslateHolder",
+   "existing": "DC (class_map已有DC=TranslateHolder, 同一真实身份被两个混淆名占用)"
+  }
+ ]
+}

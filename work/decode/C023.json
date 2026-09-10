@@ -1,0 +1,49 @@
+{
+ "batch": "C023",
+ "results": {
+  "gx": {
+   "identity": "InvManager.BowPriorityMode",
+   "kind": "enum",
+   "conf": "A",
+   "evidence": "枚举常量 Crossbow/PowerBow/PunchBow 与 src InvManager.BowPriorityMode 逐一吻合; 3值枚举, 行数膨胀因加密",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/modules/impl/player/InvManager.java"
+  },
+  "g_": {
+   "identity": "AimBot.Mode",
+   "kind": "enum",
+   "conf": "A",
+   "evidence": "枚举常量 AimAssist/BowAim 与 src AimBot.Mode 逐一吻合; 2值枚举, 123行含加密开销",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/modules/impl/combat/AimBot.java"
+  },
+  "H": {
+   "identity": "AimBot",
+   "kind": "module",
+   "conf": "A",
+   "evidence": "extends e(Module); 锚点BoolSetting/DoubleSetting/EnumSetting/PlayerTickEvent.Pre/Render3DEvent 与 AimBot 设置完全匹配; 内部枚举 g_(Mode)确认; MC imports Identifier/Player/Vec3 吻合; 1269行=战斗模块体量",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/modules/impl/combat/AimBot.java"
+  }
+ },
+ "unident": [
+  {
+   "obf": "gY",
+   "reason": "14行简单数据类(int s, int t, boolean n); 无MC imports/无anchored_refs/无candidates; 字段过于通用无法匹配源码中任何特定类"
+  },
+  {
+   "obf": "gy",
+   "reason": "273行分发/查找表类; 方法e(Df)返回int, l(Object[])含复杂分支; 锚点仅SeQL/Setting; 无法在src中找到对应分发类; 可能是版本差异导致的新增类"
+  },
+  {
+   "obf": "gZ",
+   "reason": "extends gs(未知父类); 渲染组件, 使用PoseStack/Xi, float字段V/g/S/y/Z; MC imports含Entity/Pose/Vec3/RandomSource; 父类gs未在class_map中标识, 无法反向定位源码"
+  },
+  {
+   "obf": "gz",
+   "reason": "2337行大型GPU渲染工具类; implements _A(未知接口); 使用GpuBufferSlice/RenderPass/GpuSampler/GpuTextureView; 有addRotatedRoundedTexture等渲染方法; _A未在class_map中标识, 无法确认接口身份; 候选ClientSetting/SoundKey/RegistryListSetting均不匹配体量和功能"
+  },
+  {
+   "obf": "h",
+   "reason": "2385行Module; MC imports含CrossbowItem/Projectile/ThrownTrident/WitherSkull/ChargedProjectiles/Level/AABB/BlockHitResult/EntityHitResult; 这些投射物类在26.1.2源码中未被任何模块使用(仅InvHelper处理CrossbowItem); 可能是26.2新增模块或26.1.2中不存在的投射物渲染/轨迹模块; 无法匹配"
+  }
+ ],
+ "conflicts": []
+}

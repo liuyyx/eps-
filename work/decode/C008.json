@@ -1,0 +1,55 @@
+{
+ "batch": "C008",
+ "results": {
+  "Dm": {
+   "identity": "Render3DScheduler.FilledSideCommand",
+   "kind": "record",
+   "conf": "A",
+   "evidence": "Record(AABB, int, Direction) 完全匹配 src Render3DScheduler.FilledSideCommand(AABB box, int color, Direction direction)；55行简洁record",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/graphics/schedulers/render3d/Render3DScheduler.java:415"
+  },
+  "dn": {
+   "identity": "WireframeEntityRenderer.WireframeVertexConsumer",
+   "kind": "class",
+   "conf": "A",
+   "evidence": "implements VertexConsumer；float[4] xs/ys/zs + int index；addVertex收集4顶点后drawQuad；setColor/setUv/setNormal均return this空操作；完全匹配src内部类结构",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/utils/render/WireframeEntityRenderer.java:280"
+  },
+  "DO": {
+   "identity": "WorldToScreen",
+   "kind": "util",
+   "conf": "A",
+   "evidence": "MC imports含CameraRenderState/Vec3/Matrix4f/Vector3f；方法H(Vec3)和t(Object[])做世界→屏幕投影；静态Matrix4f字段C/B/r；完全匹配src WorldToScreen（calcWorld2Screen/calcWorld2ScreenRaw/calcScale）",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/utils/render/WorldToScreen.java:13"
+  },
+  "Do": {
+   "identity": "PacketMine.SwitchMode",
+   "kind": "enum",
+   "conf": "A",
+   "evidence": "enum常量 None/Delay/Silent 完全匹配src PacketMine.SwitchMode {None, Delay, Silent}；3个enum值顺序一致",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/modules/impl/combat/PacketMine.java:44"
+  },
+  "DP": {
+   "identity": "ModuleViewModel",
+   "kind": "record",
+   "conf": "A",
+   "evidence": "Record(Module os, String b6, String bq, boolean hB, vY bW, String bI) 完全匹配 src ModuleViewModel(Module module, String displayName, String realName, boolean enabled, Category category, String searchText)；工厂方法Z(e)对应from(Module)",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/gui/panel/adapter/ModuleViewModel.java:6"
+  }
+ },
+ "unident": [
+  {
+   "obf": "dM",
+   "reason": "Record 6字段(ih, float, Color, String, float, Color)，src中无匹配record；EffectInfo有7字段且类型不匹配；无candidates；仅anchored_ref=SeQL不足以定位"
+  },
+  {
+   "obf": "dO",
+   "reason": "extends de（obf基类），字段Block+BlockPos；src中未找到de的对应基类（无同结构abstract class）；候选均不匹配"
+  },
+  {
+   "obf": "Dp",
+   "reason": "Record(Vec3 hI, _Z jh)；_Z为obf类型，class_map和src均无对应；candidates中FollowerPath(Vec3, List<Vec3>)字段类型不匹配"
+  }
+ ],
+ "conflicts": []
+}

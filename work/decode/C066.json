@@ -1,0 +1,49 @@
+{
+ "batch": "C066",
+ "results": {
+  "x": {
+   "identity": "Disabler",
+   "kind": "module",
+   "conf": "A",
+   "evidence": "MC import 完全匹配：ServerboundContainerClickPacket, ServerboundContainerClosePacket, ServerboundPlayerInputPacket, Input。源码 Disabler.java 使用全部4个此类，super=e(Module)，处理 PacketEvent.Send，有 BoolSetting badPacketsA/sprinting/input",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/modules/impl/player/Disabler.java"
+  },
+  "X3": {
+   "identity": "InvUtils",
+   "kind": "util",
+   "conf": "A",
+   "evidence": "MC import LocalPlayer/Inventory/Item/ItemStack 匹配。jar 有 R(Predicate<ItemStack>) 返回 lz（=FindItemResult），对应源码 find(Predicate<ItemStack>)。静态字段 L(int[])/J(int) 对应 invSlots/previousSlot",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/utils/player/InvUtils.java"
+  },
+  "X4": {
+   "identity": "TabDefinition",
+   "kind": "record",
+   "conf": "A",
+   "evidence": "Record 组件 YO(g8=枚举)+pm(uT=TranslateComponent)。源码 ClientSettingPanel 内部类 record TabDefinition(PanelState.ClientSettingTab tab, TranslateComponent component) 完全匹配。g8=PanelState.ClientSettingTab",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/gui/panel/view/ClientSettingPanel.java"
+  }
+ },
+ "unident": [
+  {
+   "obf": "v_",
+   "reason": "1592行 UI 类，有 category(vY)/Module/KeybindSetting/枚举(g8)/scroll 布局字段和 ensureValidSelection 模块过滤逻辑，但与26.1.2源码中 ModuleButton(579行)、CategoryPanel(284行)、ModuleListPanel(417行) 均不完全匹配。候选 ModuleButton/ConfigHolder/ClientSetting 均不符，可能是26.2新增或重构的模块选择面板组件"
+  },
+  {
+   "obf": "X",
+   "reason": "1293行战斗模块(e/Module)，有3个IntSetting+1个KeybindSetting，MC import: ClientLevel+LocalPlayer+BlockPos+Inventory+Item+BlockHitResult。26.1.2源码中无同时使用全部6个此类的模块，可能是26.2新增的战斗模块或 AnchorBlast 类的大幅重构版"
+  },
+  {
+   "obf": "X1",
+   "reason": "285行 final 类，字段 ih/vT/float/zU/float，方法 v() 返回 ih、b(float,Consumer) 创建 vI 对象。ih/zU/vT/vI 均不在26.1.2源码中，可能是26.2新增的渲染/布局辅助类"
+  },
+  {
+   "obf": "X2",
+   "reason": "枚举常量 Custom/Default，无 anchored_refs，无 MC import。26.1.2源码中未找到同名枚举。可能是26.2新增的配置模式或设置类型枚举"
+  },
+  {
+   "obf": "X5",
+   "reason": "枚举常量 Single/Double，无 anchored_refs，无 MC import。26.1.2源码中未找到同名枚举。可能是26.2新增的渲染模式或设置枚举"
+  }
+ ],
+ "conflicts": []
+}

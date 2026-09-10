@@ -1,0 +1,55 @@
+{
+ "batch": "C046",
+ "results": {
+  "OB": {
+   "identity": "MaterialTheme$SwitchMap",
+   "kind": "class",
+   "conf": "A",
+   "evidence": "静态int[] X 通过ne ordinal映射填充(9项); ne enum有9个常量(TonalSpot/Neutral/Vibrant/Expressive/Fidelity/Content/Rainbow/FruitSalad/Monochrome); 经典SwitchMap模式: values()[ordinal()]索引; 引用ne ordinal()方法; OB jar仅含静态初始化器+int[]字段"
+  },
+  "Ob": {
+   "identity": "FilledFieldColors",
+   "kind": "record",
+   "conf": "A",
+   "evidence": "Record组件3个Color(gv/gB/gZ)完全匹配源码 record FilledFieldColors(Color text, Color caret, Color indicator); 3字段顺序一致; 类型完全吻合(java.awt.Color); Ob.java 49行 vs PanelElements.java FilledFieldColors 114行位置"
+  },
+  "O8": {
+   "identity": "AccountSetting",
+   "kind": "setting",
+   "conf": "A-",
+   "evidence": "extends nV<O8>(Setting); implements zy; imports YggdrasilAuthenticationService+Environment+User(认证); 2个String字段(x,w)→凭据; z()方法执行登录验证; O(Object[])写JSON序列化; 847行; 与C044的nx(AccountSetting)功能相同但为不同实例(26.2版本nx有737行); candidates(EpsilonAddon/I18NFileGenerator/AddonPanelEntry均为interface非Setting子类)reject"
+  },
+  "OA": {
+   "identity": "TextRenderer",
+   "kind": "class",
+   "conf": "B",
+   "evidence": "文本渲染工具类: e(zU,ih,double,double,_j,Xv)绘制文本(含颜色/阴影/透明度); O(Object[])计算文本宽度; t(Object[])布局验证; 常量5.0f/0.75f/8.0f为字体度量; imports _E(lH→字体度量)+_j(字体渲染器)+ih(字体)+zU(图形上下文)+Xv(字符串包装器); 无唯一指纹但角色明确"
+  },
+  "O6": {
+   "identity": "ShaderUniformParams",
+   "kind": "record",
+   "conf": "C",
+   "evidence": "implements DynamicUniformStorage.DynamicUniform; write()调用putVec4(4个float); 组件Oq KA(ShaderParams:10字段含Color)+float cF; Oq在src中广泛用于着色器参数; DynamicUniform标记明确但src 26.1.2中无匹配的2组件DynamicUniform记录; 26.2新增的uniform包装类"
+  },
+  "O7": {
+   "identity": "EntityPlacementContext",
+   "kind": "record",
+   "conf": "C",
+   "evidence": "Record 7组件: LivingEntity gX + BlockPos mL + float uk + float u5 + Direction WL + Vec3 pn + uK HC; 包含实体+方块位置+方向+向量+自定义上下文(uK); MC imports BlockPos/Direction/LivingEntity/Vec3; src 26.1.2中无匹配record; 可能为26.2新增的实体放置/碰撞上下文"
+  },
+  "O9": {
+   "identity": "TextRenderList",
+   "kind": "class",
+   "conf": "C",
+   "evidence": "566行; List<yM> g(文本渲染元素列表) + XL n(文本布局) + vS w(渲染状态); T(Object[])遍历yM列表处理文本渲染; Z(Object[])获取列表长度; L(Object[])获取列表内容; 引用Setting(Dl.t()); src无精确匹配; 26.2新增的文本渲染列表管理类"
+  },
+  "Oa": {
+   "identity": "PathFinder",
+   "kind": "interface",
+   "conf": "C",
+   "evidence": "11行功能接口; gv w(Object[])返回gv(FollowerPath=路径结果); 返回类型确认为路径相关; 但方法签名(Object[]→gv)与FollowerNavigator(LocalPlayer,LivingEntity,Vec3,FollowerConfig→FollowerPath)不匹配; src无精确匹配的功能接口; 26.2新增的路径查找接口"
+  }
+ },
+ "unident": [],
+ "conflicts": []
+}

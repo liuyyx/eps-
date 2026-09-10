@@ -1,0 +1,88 @@
+{
+  "batch": "C055",
+  "results": {
+    "uG": {
+      "identity": "Follower",
+      "kind": "module",
+      "conf": "A",
+      "evidence": "extends e(=Module)+static INSTANCE字段h; @yE(P=-200)C(yi)处理KeyboardInputEvent含setSprinting逻辑; @yE(P=200)W(_y)处理ClientTickEvent.Pre; mc_imports含LocalPlayer; 源码Follower extends Module有相同的@EventHandler onKeyboardInput(设置forward/strafe/sprint)+onPlayerTick+onRender3D; 971行混淆体含大量混淆但仍可辨事件处理结构",
+      "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/modules/impl/movement/follower/Follower.java"
+    },
+    "ug": {
+      "identity": "SoundEntry",
+      "kind": "record",
+      "conf": "C",
+      "evidence": "Record 5组件: Identifier yD(声音ID)+List<v0> qW(v0=Record(float JB,Color TI,String q8)声音变体列表)+int QD(优先级/索引)+String eM(声音名称)+float e5(音量/pitch); v0为嵌套声音描述record; mc_imports含Identifier; 候选SoundKey是枚举非record不匹配; 26.2新增声音描述record, src 26.1.2无对应(疑新增)",
+      "src_path": null
+    },
+    "uH": {
+      "identity": "ChatUtils",
+      "kind": "util",
+      "conf": "A",
+      "evidence": "方法签名逐一匹配: H(boolean,Component,int)=addChatMessage(boolean prefix,Component message,int hash); n(Object[])=buildClientMessage(prefix,string); E(Object[])=addChatMessage(string,hash); z(boolean,Component)=addChatMessage(boolean,Component); d(Object[])=toPlainString(FormattedCharSequence); lambda$appendStyledSuffix$0=appendStyledSuffix(MutableComponent,FormattedCharSequence,int); lambda$addChatMessage$1=同名; mc_imports含Minecraft+ChatComponent+Component+MutableComponent+Style+FormattedCharSequence; 实现i8(=ChatComponentAccessor)匹配源码((ChatComponentAccessor)mc.gui.getChat())",
+      "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/utils/player/ChatUtils.java"
+    },
+    "uh": {
+      "identity": "SwitchTableHelper",
+      "kind": "class",
+      "conf": "C",
+      "evidence": "39行; static final int[] v=switch表+static初始化块向hi.a(\"j\")数组写入int值(true/2/3/4); 混淆工具生成的switch bootstrap辅助类; 无MC导入; 无anchor引用; 无源码对应",
+      "src_path": null
+    },
+    "uI": {
+      "identity": "SettingsView",
+      "kind": "class",
+      "conf": "C",
+      "evidence": "3008行implements _A(渲染接口); 字段含DV(ColorSetting)×2, DM(DoubleSetting)×2, XG(IntSetting), Xn(BoolSetting)×2+Map<y1,zH>(IdentityHashMap); T(Object[])渲染方法接收zU/_j/List/float/Color/g7/z8+迭代Map<y1,zH>渲染设置条目; 候选ModuleButton/SettingsContent/SettingViewFactory均远小于3008行不匹配; 疑26.2新增大型设置渲染面板(26.1.2无对应)",
+      "src_path": null
+    },
+    "ui": {
+      "identity": "ShapeRenderer",
+      "kind": "class",
+      "conf": "C",
+      "evidence": "2338行implements _A(渲染接口); mc_imports含GpuBufferSlice+Std140SizeCalculator+RenderPass(GPU渲染原语); 字段含_t N+d5 F+List<uV> H+List<zw> I+List<nB> j+多int; Y(float×9,Color,float[]×3,int)渲染方法; 候选EpsilonAddon(110行)/I18NFileGenerator(156行)/AddonPanelEntry(小)均远小不匹配; 疑26.2新增GPU渲染组件",
+      "src_path": null
+    },
+    "uJ": {
+      "identity": "RenderUtils",
+      "kind": "util",
+      "conf": "C",
+      "evidence": "3565行; V(Object[])→Xu(合并两个Xu矩形); z(Object[])→Xu(ih几何→Xu); K(Object[])(OC渲染器+ih几何+Color); j(Object[])(进度条渲染:clamp+Color+ih); O(Object[])(文本居中:OC渲染器+String+float); y(Object[])(巨型switch多态分发); 引用OC(zP)/ih/Xu/g2等渲染类; 混淆名串'QOk\\n}n`aHg\\u0004.'等; 疑26.2大型渲染工具类(src无对应)",
+      "src_path": null
+    },
+    "uK": {
+      "identity": "Vec2f",
+      "kind": "class",
+      "conf": "C",
+      "evidence": "46行; 2个float字段G/p; 构造函数(uK(float,float); getter/setter p()/f(); Z(float,float)批量设值; j(Object[])/b(Object[])单值设; A(Object[])复制另一个uK; 无MC导入; 简单2D坐标/向量类; src无直接对应(可能为26.2新增基础类型)",
+      "src_path": null
+    }
+  },
+  "unident": [
+    {
+      "obf": "ug",
+      "reason": "Record(Identifier+List<v0>+int+String+float)为声音描述类, src 26.1.2无对应record, 候选SoundKey是枚举非record, 准确类名需hi解密确认"
+    },
+    {
+      "obf": "uh",
+      "reason": "39行混淆switch bootstrap辅助类, 无业务逻辑, 非用户代码"
+    },
+    {
+      "obf": "uI",
+      "reason": "3008行大型设置渲染面板implements _A, 候选ModuleButton/SettingsContent/SettingViewFactory均远小不匹配, src 26.1.2无对应, 疑26.2新增"
+    },
+    {
+      "obf": "ui",
+      "reason": "2338行GPU渲染组件implements _A, 候选EpsilonAddon/I18NFileGenerator/AddonPanelEntry均远小不匹配, src 26.1.2无对应, 疑26.2新增"
+    },
+    {
+      "obf": "uJ",
+      "reason": "3565行渲染工具类, 引用OC/ih/Xu/g2等大量渲染内部类, 混淆严重且多处反编译失败, src无对应, 疑26.2新增"
+    },
+    {
+      "obf": "uK",
+      "reason": "46行简单2D坐标类(float×2), 无MC导入, src无直接对应, 疑26.2新增基础类型"
+    }
+  ],
+  "conflicts": []
+}

@@ -1,0 +1,48 @@
+{
+  "batch": "C065",
+  "results": {
+    "vW": {
+      "identity": "AutoArmor.ElytraPriority",
+      "kind": "enum",
+      "conf": "A-",
+      "evidence": "jar枚举4值(None,Always,ElytraPlus,Ignore)匹配AutoArmor内部枚举ElytraPriority; 源码26.1.2版为3值(Always,ElytraPlus,Ignore), 26.2版新增None; 枚举值名完全明文匹配",
+      "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/modules/impl/player/AutoArmor.java"
+    },
+    "vw": {
+      "identity": "EpsilonTranslations.Module",
+      "kind": "class",
+      "conf": "A-",
+      "evidence": "jar有6个static uT(TranslateComponent)字段; 源码EpsilonTranslations.Module内部类有6个static TranslateComponent字段(VISIBLE,HIDDEN,FROM,STATE_PREFIX,STATE_ENABLED,STATE_DISABLED); 数量匹配, 类型匹配, 内部类obf后为独立顶级类",
+      "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/assets/i18n/EpsilonTranslations.java"
+    },
+    "vz": {
+      "identity": "ConfigHolder",
+      "kind": "class",
+      "conf": "A",
+      "evidence": "5057行; 导入所有Setting类型(Xn/XG/DM/DV/Dx/X0/XF/Xc/Xe)+Gson+ViaBackwards/ViaBedrock/ViaLegacy; 字段匹配: Gson F, Path n/Y/O/c/x/D/t/i/V, Pattern J, boolean W/N/v; 源码ConfigHolder有相同imports和字段结构",
+      "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/holders/ConfigHolder.java"
+    },
+    "vY": {
+      "identity": "Category",
+      "kind": "enum",
+      "conf": "A",
+      "evidence": "[已确认] 枚举常量4个明文匹配(RENDER,PLAYER,MOVEMENT,COMBAT), icon+TranslateComponent字段匹配",
+      "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/modules/Category.java"
+    }
+  },
+  "unident": [
+    {
+      "obf": "vV",
+      "reason": "Record(String,long,String),49行,仅refs SeQL; 源码中无匹配的公开record(组件类型序列不匹配任何已知record); candidates为空"
+    },
+    {
+      "obf": "vx",
+      "reason": "580行AutoCloseable类,有List<XB>/lm/l5/nT/ih字段,方法含flushMarqueeTexts/queueViewport; 3个candidates(EpsilonAddon/I18NFileGenerator/AddonPanelEntry)均不匹配(无AutoCloseable/字段类型不符/行数差距大); 无MC imports,无法通过import指纹定位"
+    },
+    {
+      "obf": "vZ",
+      "reason": "345行类,static W(Object...)返回MutableComponent, List<uT> E, 157元素long数组; 3个candidates(I18NFileGenerator/SettingsListPanel/Module)均不匹配(结构/行数/字段不符); 疑似翻译格式化工具但无法确认具体类名"
+    }
+  ],
+  "conflicts": []
+}

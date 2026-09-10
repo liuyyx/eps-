@@ -1,0 +1,46 @@
+{
+ "batch": "C022",
+ "results": {
+  "gv": {
+   "identity": "FollowerPath",
+   "kind": "record",
+   "conf": "A",
+   "evidence": "Record components t8(Vec3)→nextPoint, t_(List<Vec3>)→points 完全匹配源码 public record FollowerPath(Vec3 nextPoint, List<Vec3> points) {}",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/modules/impl/movement/follower/FollowerPath.java"
+  },
+  "gW": {
+   "identity": "ModuleDetailPanel",
+   "kind": "class",
+   "conf": "B+",
+   "evidence": "结构匹配：多_E字段(Animation), buildCategoryItem lambda, render(GuiGraphicsExtractor,...), mouseClicked(MouseButtonEvent,...), 引用Module+Setting+PanelState+SettingListController；源码568行→jar 1922行因CFR展开控制流+版本差异(26.1.2→26.2)",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/gui/panel/view/ModuleDetailPanel.java"
+  }
+ },
+ "unident": [
+  {
+   "obf": "gT",
+   "reason": "gs粒子子类(iJ循环创建多个同位置粒子)，构造参数(-0.1f gravity, 1.0f scale)。可能对应MasEffectsParticleRenderer中的DeathSparkParticle或类似粒子，但26.2版本新增粒子类型，源码26.1.2中无直接匹配"
+  },
+  {
+   "obf": "gU",
+   "reason": "Record实现yM密封接口(render command)，14个组件(layer/sequence/bounds/scissor/color/float[])。属于LuminGraphics渲染管线内部类，源码26.1.2中无对应记录"
+  },
+  {
+   "obf": "gu",
+   "reason": "公共类，zl[]字段@SerializedName(\"properties\")，z(String)按名查找属性。可能是26.2新增的addon/脚本配置描述类，源码26.1.2中无匹配"
+  },
+  {
+   "obf": "gV",
+   "reason": "gs粒子子类，构造参数(random int offset, 0.12f alpha, 0.99f friction, 0.1f gravity, 0.91f scale)。在spawnSlam方法中创建(与gq冲击波/gE闪烁同上下文)，可能对应FlashParticle，但构造签名不完全匹配，证据不足"
+  },
+  {
+   "obf": "gw",
+   "reason": "gs粒子子类，构造参数(1.0f gravity, 0.3f friction, 0.0f alpha)。在iJ.u()中创建(计算玩家高度60%+视线方向位置)，可能对应ShieldWaveParticle或PearlTrailParticle，但无直接源码匹配"
+  },
+  {
+   "obf": "gX",
+   "reason": "15行极简类，仅String O字段@SerializedName(\"url\")。可能是26.2新增的URL配置/端点模型类，源码26.1.2中无匹配"
+  }
+ ],
+ "conflicts": []
+}

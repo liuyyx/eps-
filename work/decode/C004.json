@@ -1,0 +1,52 @@
+{
+ "batch": "C004",
+ "results": {
+  "DC": {
+   "identity": "TranslateHolder",
+   "kind": "class",
+   "conf": "A",
+   "evidence": "CopyOnWriteArrayList<TranslateComponent> + AtomicLong revision + singleton INSTANCE + registerTranslateComponent/getRevision/refresh 方法签名逐项吻合 src holders/TranslateHolder.java；字段映射：List<uT> U=components, AtomicLong n=revision, DC W=INSTANCE",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/holders/TranslateHolder.java"
+  },
+  "Dc": {
+   "identity": "ShaderHolder.ShaderColors",
+   "kind": "record",
+   "conf": "A",
+   "evidence": "6 Color 字段(h3/hU/ht/hQ/he/hw) implements DynamicUniformStorage.DynamicUniform，write(ByteBuffer) 方法含 putVec4×6，与 src holders/ShaderHolder.java 内 record ShaderColors(outline/smokeOutline1/smokeOutline2/fill/smokeFill1/smokeFill2) 逐一吻合",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/holders/ShaderHolder.java"
+  },
+  "DD": {
+   "identity": "PlayerAlarms.AlertMode",
+   "kind": "enum",
+   "conf": "A",
+   "evidence": "枚举值 Chat(ordinal0)/Notification(1)/Both(2) 与 src modules/impl/player/PlayerAlarms.java 内 private enum AlertMode{Chat,Notification,Both} 逐字一致；static 初始化序与源码声明序吻合",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/modules/impl/player/PlayerAlarms.java"
+  },
+  "dd": {
+   "identity": "LuminRenderTarget",
+   "kind": "class",
+   "conf": "A",
+   "evidence": "implements AutoCloseable + 字段 GpuTextureView C/GpuTexture q/Identifier R/boolean F(useDepth)/int K(width)/int n(height)/boolean T(closed) 与 src graphics/LuminRenderSystem.java 内 inner class LuminRenderTarget 逐一吻合；F() 方法调 clearColorAndDepthTextures 与 src createTextures 逻辑一致；static w(String,int,int) 对应 create(name,w,h) 工厂方法",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/graphics/LuminRenderSystem.java"
+  }
+ },
+ "unident": [
+  {
+   "obf": "Db",
+   "reason": "Record 82行，字段 is(=SettingLayoutPlanner.Section 5-field Record) + List<zc<?>>(设置widget列表)；结构匹配 ModuleButton.SettingSection 或 SettingsContent.SettingSection（均为 inner record），但 26.1.2 源码中为 private inner record，jar 26.2 显示为 final top-level class，无法确认确切归属；candidates 为空，无 MC imports 可用指纹；置信度不足以给出 A/A- 级判定"
+  },
+  {
+   "obf": "dC",
+   "reason": "2484 行大型工具类，含 Identifier I + 多个 nK(异步资源加载器) 静态字段 + 路径处理 n(Object[])(去 -/_/空格) + CallSite bootstrap H(Object[])；源码 26.1.2 无匹配类（ResourceLocationUtils 仅 35 行，结构完全不同）；疑 26.2 新增资源管理器或 seql 解密路径扩展，无法确定真实类名"
+  },
+  {
+   "obf": "dc",
+   "reason": "Record 44行，字段 ih(UiRect 4-float record) + String；结构匹配 inner record AddonRowEntry(String addonId, UiRect bounds) from AddonClientSettingTab，但 jar 显示为 top-level final class，26.1.2 源码中为 private inner record；candidates 为空且无 MC imports；无法确认归属（可能是其他 inner record 或 26.2 新增）"
+  },
+  {
+   "obf": "Dd",
+   "reason": "Record 82行，implements sealed interface _Q（26.1.2 源码无 sealed interface），8 组件(4 float + 4 Color)；无 candidates、无 MC imports；src 无匹配 record（ShaderHolder 内无 4-float+4-Color 组合）；_Q 为 26.2 新增 sealed 接口，无法定位真实类名"
+  }
+ ],
+ "conflicts": []
+}

@@ -1,0 +1,46 @@
+{
+ "batch": "C021",
+ "results": {
+  "gP": {
+   "identity": "ColorWidget.Channel",
+   "kind": "enum",
+   "conf": "A",
+   "evidence": "Enum constants: RED('R'), GREEN('G'), BLUE('B'), ALPHA('A') + String字段r；与ColorWidget.java中private enum Channel { RED(\"R\"), GREEN(\"G\"), BLUE(\"B\"), ALPHA(\"A\") } 完全匹配",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/gui/dropdown/widget/ColorWidget.java"
+  },
+  "gs": {
+   "identity": "EffectParticle",
+   "kind": "class",
+   "conf": "A-",
+   "evidence": "abstract类720行；字段包含位置/缩放/alpha/纹理等粒子属性；方法s()(PoseStack渲染)/K()(Entity查询)/Z()(boolean)/X()(Identifier纹理选择)；gq(EffectParticle子类)extends它；26.2拆出为独立顶层类，26.1.2为MasEffectsParticleRenderer内嵌类",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/modules/impl/render/maseffects/MasEffectsParticleRenderer.java"
+  }
+ },
+ "unident": [
+  {
+   "obf": "gq",
+   "reason": "extends gs(EffectParticle基类)，引用iJ(MasEffectsParticleRenderer)，构造函数(iJ,Vec3,Identifier[],float,float,float,boolean)确认为MasEffects粒子子类；但无法确定具体粒子类型(Shockwave/Flick/Flash/Scrap/ReviveSpark/DeathSpark/PearlTrail等均有相似结构)"
+  },
+  {
+   "obf": "go",
+   "reason": "DynamicTexture在26.1.2源码字典中无引用，无MC import唯一指纹；候选(EpsilonAddon/I18NFileGenerator/AddonPanelEntry)均为已识别类且结构不匹配(549行+DynamicTexture管理逻辑)；无足够结构指纹判定身份"
+  },
+  {
+   "obf": "gQ",
+   "reason": "Record(vt EK, float GU, float gq)；vt为动画状态枚举(ENTER_BAR/EXIT_BAR等)，但Record仅2个float字段与源码中AnimationState(3float)不匹配；无法在源码字典中找到对应Record"
+  },
+  {
+   "obf": "gR",
+   "reason": "1288行，引用Setting+SettingGroup，方法处理List<Dl<?>>并计算签名/哈希/归一化字符串；候选(EpsilonAddon=已识别iH, I18NFileGenerator=仅98行太小, Module=已识别e)均不匹配；可能是SettingLayoutPlanner的26.2扩展版或新的settings签名工具类，但无法确认"
+  },
+  {
+   "obf": "gr",
+   "reason": "仅9行interface，方法f(Object[])，无任何锚点引用/MC import/明文串；结构太简单无法判定"
+  },
+  {
+   "obf": "gS",
+   "reason": "Record(g2:BlockPos, SU:Direction, HM:uK, td:double, _3:int, pj:boolean, g_:BlockPos, sd:Direction)；引用未识别类uK；候选StartDestroyBlockEvent仅为简单类(BlockPos+Direction)与8字段Record不匹配；可能为26.2新增的BlockMineResult/MiningState类"
+  }
+ ],
+ "conflicts": []
+}

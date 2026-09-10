@@ -1,0 +1,49 @@
+{
+  "batch": "C058",
+  "results": {
+    "ut": {
+      "identity": "HitSound",
+      "kind": "enum",
+      "conf": "A",
+      "evidence": "枚举4常量UwU/Nya/Moan/OFF，与SoundFX.java中private enum HitSound完全匹配",
+      "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/modules/impl/player/SoundFX.java"
+    },
+    "uw": {
+      "identity": "FXAAInfo",
+      "kind": "record",
+      "conf": "A",
+      "evidence": "record(uw.kZ,uw.kB) implements DynamicUniformStorage.DynamicUniform，write方法putVec4；FXAAShader.java中record FXAAInfo(float width, float height) implements DynamicUniformStorage.DynamicUniform，UNIFORMS_SIZE=putVec4()，完全匹配",
+      "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/graphics/shaders/FXAAShader.java"
+    },
+    "uX": {
+      "identity": "LineCommand",
+      "kind": "record",
+      "conf": "A",
+      "evidence": "record uX(Vec3 rc, Vec3 rG, int fk, float iT) 与 Render3DScheduler.java 中 record LineCommand(Vec3 from, Vec3 to, int color, float thickness) 字段类型序列完全匹配(Vec3,Vec3,int,float)",
+      "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/graphics/schedulers/render3d/Render3DScheduler.java"
+    }
+  },
+  "unident": [
+    {
+      "obf": "uU",
+      "reason": "普通类，5个static final int字段(s,V,F,T=0,u)，静态初始化块解密赋值。源码中无匹配的纯int常量类（Constants.java仅有mc实例字段），无法确定具体身份"
+    },
+    {
+      "obf": "uu",
+      "reason": "MobCategory ordinal switch$Map编译器生成辅助类，5个条目(ordinals 0-4)。ESP2D.java有MobCategory switch但分支数不匹配，源码中未找到精确匹配的switch语句"
+    },
+    {
+      "obf": "uV",
+      "reason": "record uV(GpuBufferSlice xh)，仅1个GpuBufferSlice字段。源码中唯一含GpuBufferSlice字段的record是ShaderHolder.ShaderUniforms(2个GpuBufferSlice)，字段数不匹配，无法确定"
+    },
+    {
+      "obf": "ux",
+      "reason": "record implements _Q，字段(ih/UiRect, String, String, float, float)。_Q是密封接口(permits约30个类)但源码中不存在(混淆名)。源码中所有record均不匹配此字段组合，无法确定"
+    },
+    {
+      "obf": "uY",
+      "reason": "MobCategory ordinal switch$Map编译器生成辅助类，7个条目(ordinals 0-6)。与uu类似，源码中未找到精确匹配的MobCategory switch语句"
+    }
+  ],
+  "conflicts": []
+}

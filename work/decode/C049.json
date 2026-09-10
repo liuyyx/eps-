@@ -1,0 +1,55 @@
+{
+ "batch": "C049",
+ "results": {
+  "OM": {
+   "identity": "EpsilonLanguage",
+   "kind": "enum",
+   "conf": "A",
+   "evidence": "枚举3常量 English/ChineseSimplified/Custom, 两String字段(code/settingName), toString()返回settingName; 源码EpsilonLanguage.java逐一吻合",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/assets/i18n/EpsilonLanguage.java"
+  },
+  "Om": {
+   "identity": "弹道预测/轨迹计算类",
+   "kind": "class",
+   "conf": "B",
+   "evidence": "2344行, 导入全部投射物类型(FishingHook/LlamaSpit/AbstractArrow/ThrownTrident/ThrownEnderpearl等)及武器(BowItem/CrossbowItem/TridentItem), 12个gN静态字段定义各投射物物理参数(初始速度/drag/gravity/entityType), 实例字段含Entity/Vec3/EntityDimensions/Level/MutableBlockPos; src无精确匹配(26.1.2→26.2重构或外部类)",
+   "src_path": null
+  },
+  "On": {
+   "identity": "UI条目 record (bounds+action+size)",
+   "kind": "record",
+   "conf": "B",
+   "evidence": "136行Record, 字段 mu(String)=标签, jE(ih)=UI矩形四float, aI(df)=文件操作枚举(SAVE_AS/RELOAD/EXPORT/IMPORT/NEW/OPEN_FOLDER); 结合df枚举值为文件/设置面板条目; src无精确record匹配(26.2新增或重构)",
+   "src_path": null
+  },
+  "Oo": {
+   "identity": "UI条目 record (bounds+component+action)",
+   "kind": "record",
+   "conf": "B",
+   "evidence": "51行Record, 字段 mu(String)=标签, jE(ih)=UI矩形, aI(df)=文件操作枚举; 与On结构相似(同三字段但df类型独立); 推测为同系列文件面板条目; src无精确匹配",
+   "src_path": null
+  },
+  "OO": {
+   "identity": "字体图集/字形缓存类",
+   "kind": "class",
+   "conf": "B",
+   "evidence": "1407行, 实现AutoCloseable, 单例OO Y, 导入NativeImage(BufferedImage→NativeImage)/Font/Graphics2D/FontRenderContext, Map<String,d8>字形缓存, nm纹理管理器, y4字体配置; 结构匹配FontAtlas: 渲染Java Font字形到NativeImage供MC使用; src无精确匹配(可能来自lumingraphics外部库)",
+   "src_path": null
+  }
+ },
+ "unident": [
+  {
+   "obf": "Ol",
+   "reason": "80行小类, invokedynamic bootstrap, Direction.ordinal()填int[]映射; MC import仅Direction; 为结构辅助类(invokedynamic分发), 非用户可见类, src无匹配"
+  },
+  {
+   "obf": "ON",
+   "reason": "25行final类, 字段yI[](dispatch entry)+boolean+float+long(2); 为invokedynamic dispatch entry结构, 非独立用户类; src无匹配"
+  },
+  {
+   "obf": "OP",
+   "reason": "1032行, 导入zU/_j/Xs/uT(TranslateComponent)/nV(配置基类), lambda$draw$0绘制设置行, Float常量定义UI尺寸; candidates(EpsilonAddon/I18NFileGenerator/AddonPanelEntry)均不符; 源码SettingRow为抽象基类(~30行)而此为完整渲染实现; 可能是26.2扩展的SettingRow或新基类, 无法确定src"
+  }
+ ],
+ "conflicts": []
+}

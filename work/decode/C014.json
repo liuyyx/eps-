@@ -1,0 +1,63 @@
+{
+ "batch": "C014",
+ "results": {
+  "eg": {
+   "identity": "TargetHUD",
+   "kind": "hudmodule",
+   "conf": "A",
+   "evidence": "extends eh(HudModule); 8xDM(DoubleSetting: scale/width/height/radius/blurStrength/healthBarHeight/healthBarRadius/nameSize) + 5xDV(ColorSetting: background/barBg/barFill/delayBar/barOutline) + 4xXn(BoolSetting: delayBar/delayWait/barOutline/drawShadow) 完全吻合 src TargetHUD 设置谱(含 delayBar 延迟血条 + barOutline 血条描边); z=24.0f==HEAD_DAMAGE_SCALE_FACTOR*160, w=7.0f 对应渲染常量; ih/lH/O4/zr 对应 lumingraphics 渲染类型",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/elements/impl/TargetHUD.java"
+  },
+  "eh": {
+   "identity": "HudModule",
+   "kind": "class",
+   "conf": "A",
+   "evidence": "abstract class extends e(Module); 有 x/y/width/height 坐标字段(zU=z8=g7=lumingraphics类型); render(DeltaTracker) + 鼠标/键盘处理抽象方法; eg/eJ extends eh 确认其为 HUD 模块基类; DeltaTracker+GuiGraphicsExtractor MC 导入与 src HudModule(26.2 扩展)吻合",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/elements/HudModule.java"
+  },
+  "eI": {
+   "identity": "Scaffold",
+   "kind": "module",
+   "conf": "A",
+   "evidence": "extends e(Module); MC导入 {LocalPlayer,BlockItem,CarvedPumpkinBlock,EntityBlock,FallingBlock,PumpkinBlock,SlimeBlock,TntBlock,Vec3} 与 src Scaffold 的 wildcard import `block.*` 展开一致; 5xXn(BoolSetting swapBack/skipTicks/snap/swingHand/render) + 2xXG(IntSetting) + Dx(EnumSetting) + DV(ColorSetting) 与 src Scaffold 设置谱匹配; 锚点 KeyboardInputEvent+PlayerTickEvent.Pre 吻合",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/modules/impl/movement/Scaffold.java"
+  },
+  "eJ": {
+   "identity": "ModuleList",
+   "kind": "hudmodule",
+   "conf": "A",
+   "evidence": "extends eh(HudModule); Dx<uq>(EnumSetting<Style/Mode/SortingMode>) + DM(DoubleSetting: scale等) + XG(IntSetting) + iI 完全吻合 src ModuleList 设置谱(Style enum Compact/Open, Mode enum, SortingMode enum, 多个 DoubleSetting); 锚点 HudEditorScreen 吻合模块列表 HUD; 常量 h=6.0f/D=3.0f/a=13.0f/Z=95.0f 对应 OPEN_ROW_HEIGHT/SPACING/PADDING 等",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/elements/impl/ModuleList.java"
+  },
+  "ej": {
+   "identity": "SoundFX",
+   "kind": "module",
+   "conf": "A",
+   "evidence": "extends e(Module); Dx<ut>(EnumSetting<HitSound> UwU/Nya/Moan/OFF) + 2xXG(IntSetting volume(100,1,100,5)/delay(0,0,20,1)) + _Z(TimerUtils) 完全匹配 src SoundFX 设置谱与字段; 锚点 AttackEntityEvent+SoundKey 吻合(播放命中音效); 无MC导入一致",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/modules/impl/player/SoundFX.java"
+  },
+  "eK": {
+   "identity": "InvManager",
+   "kind": "module",
+   "conf": "A",
+   "evidence": "extends e(Module); MC导入 {Screen,ChestMenu,AxeItem,BowItem,CrossbowItem,FishingRodItem,ShovelItem,StandingAndWallBlockItem,ItemStack} 与 src InvManager 的 wildcard import `item.*` 展开一致; 锚点 PlayerTickEvent.Pre 吻合(inv管理在tick执行); 字段 Screen M/BoolSetting m/XG o/V/c/_Z O 对应 InvManager 的容器交互+多IntSetting槽位配置; 2352行吻合 src 485行+indy膨胀",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/modules/impl/player/InvManager.java"
+  },
+  "em": {
+   "identity": "SafeWalk",
+   "kind": "module",
+   "conf": "A",
+   "evidence": "extends e(Module); 2xDM(DoubleSetting: motion(1.0,0.5,1.0,0.05)/speedMotion(1.0,0.5,1.5,0.05)) + 5xXn(BoolSetting: air/directionCheck/pitchCheck/requirePress/blocksOnly) 完全匹配 src SafeWalk 设置谱; MC导入 {KeyMapping,ClientLevel,Entity,BlockItem,block.*} 吻合; 锚点 MoveEvent+PlayerTickEvent.Pre 吻合; 2022行对应 src 152行+indy膨胀",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/modules/impl/movement/SafeWalk.java"
+  },
+  "en": {
+   "identity": "AutoDtap",
+   "kind": "module",
+   "conf": "B",
+   "evidence": "extends e(Module); 锚点 MousePressEvent+PlayerTickEvent.Pre 吻合 src AutoDtap 的 onMouse+onTick 双handler; 单Xn(BoolSetting) 对应 swapBack; Random d 对应 src Random random; 状态字段(3xint+boolean) 对应 step/stepDelay/originalSlot/rightClicked; 无MC导入一致",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/modules/impl/combat/AutoDtap.java"
+  }
+ },
+ "unident": [],
+ "conflicts": []
+}

@@ -1,0 +1,49 @@
+{
+  "batch": "C057",
+  "results": {
+    "uQ": {
+      "identity": "NoFall.Mode",
+      "kind": "enum",
+      "conf": "A",
+      "evidence": "enum常量GroundSpoof+GrimJump匹配src NoFall.Mode的GroundSpoof+Grim2B2T(版本26.2更名); NoFall在movement模块; 123行吻合src Mode enum规模",
+      "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/modules/impl/movement/NoFall.java"
+    },
+    "uR": {
+      "identity": "RegistryListSelectPopup.Category",
+      "kind": "record",
+      "conf": "A",
+      "evidence": "record<T>(String aq, Predicate<T> AS)精确匹配src Category<T>(String name, Predicate<T> predicate); 21行一致; DG已映射为RegistryListSelectPopup(同文件内record)",
+      "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/gui/panel/popup/RegistryListSelectPopup.java"
+    },
+    "ur": {
+      "identity": "BlurShader.BoxBlurUniforms",
+      "kind": "record",
+      "conf": "A",
+      "evidence": "record(float,float,float) implements DynamicUniformStorage.DynamicUniform; write方法putVec4(w,h,q,0f)匹配src BoxBlurUniforms(float width,float height,float quality); 74行含indy膨胀吻合src精简record",
+      "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/graphics/shaders/BlurShader.java"
+    }
+  },
+  "unident": [
+    {
+      "obf": "uP",
+      "reason": "33行纯static初始化块+CallSite indy模式; 无字段/方法/逻辑; 编译器生成的bootstrap/indy helper类, 非用户代码"
+    },
+    {
+      "obf": "up",
+      "reason": "3572行extends Module(e); MCimports含全部武器类型(AxeItem/BowItem/CrossbowItem/FishingRodItem/ShovelItem/StandingAndWallBlockItem)+7种Serverbound包(Attack/ContainerClose/Interact/MovePlayer/PlayerAction/UseItemOn/UseItem)+sofurry库; 字段含~15个Xn(BoolSetting)+~12个XG(IntSetting)+3个Dx(EnumSetting); candidates ModuleButton/ConfigHolder/ClientSetting均为错误(ModuleButton是GUI组件非Module子类, ConfigHolder=gm, ClientSetting=uc); src中无3500+行Module匹配; 可能是26.2新增或大幅重构的模块"
+    },
+    {
+      "obf": "uq",
+      "reason": "Enum常量Quantum/NVIDIA/Akarin在src中无匹配; 被eJ(HudModule子类)的Dx<uq>字段引用; 可能是26.2新增的渲染模式/HUD样式枚举"
+    },
+    {
+      "obf": "uS",
+      "reason": "84行record extends Record implements _Q; 8个字段(vx,ih,3×float,2×int,List<_Q>); _Q是26.2新增的sealed interface(permits 30+实现), 在src(26.1.2)中不存在; 可能是渲染/UI树节点record"
+    },
+    {
+      "obf": "us",
+      "reason": "1995行extends u9(抽象基类, 非Module); MCimports含BlockPos/Direction/BlockItem/AABB/BlockHitResult/Vec3等方块放置类; u9及其4个子类(uE/uZ/uf/us)均未映射; Scaffold已映射为eW; 可能是方块放置相关的新基类体系(26.2)"
+    }
+  ],
+  "conflicts": []
+}

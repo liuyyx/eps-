@@ -1,0 +1,63 @@
+{
+  "batch": "C011",
+  "results": {
+    "Dv": {
+      "identity": "ConfirmActionPopup",
+      "kind": "popup",
+      "conf": "A",
+      "evidence": "implements XJ(PanelPopupHost.Popup); 构造器 Dv(ih, 4xSupplier<String>, String, Runnable) 与源码 ConfirmActionPopup(UiRect, titleSupplier, messageSupplier, detail, confirmLabelSupplier, cancelLabelSupplier, onConfirm) 逐参数对应; 字段: boolean closeAfterClick(=M), Runnable onConfirm(=K), 4x Supplier<String>(=C/x/F/T), String detail(=o), _E Animation(=s/b), ih(=R/i) 全部吻合; extractGui/mouseClicked/shouldCloseAfterClick 方法签名与 Popup 接口一致; candidates(ModuleDetailPanel等)均为噪声(它们不实现Popup)",
+      "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/gui/panel/popup/ConfirmActionPopup.java"
+    },
+    "DX": {
+      "identity": "EnumSelectPopup",
+      "kind": "popup",
+      "conf": "A",
+      "evidence": "implements XJ(PanelPopupHost.Popup); 字段 Dx<?> d(=EnumSetting setting) 唯一指纹——dx即EnumSetting(已知锚点); 构造器 DX(ih, Dx<?>) 与源码 EnumSelectPopup(UiRect bounds, EnumSetting<?> setting) 逐参数对应; 字段: ih I(=bounds), _E r(=openAnimation), float x/H/u(=scroll/maxScroll/itemHeight相关), int g(=hoveredIndex=-1), boolean F(=scrollable); extractGui/mouseClicked/getBounds 与 Popup 接口一致; candidates中 EnumSelectPopup(score 7) 唯一命中",
+      "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/gui/panel/popup/EnumSelectPopup.java"
+    },
+    "dV": {
+      "identity": "BlurredBoxCommand(record, 26.2新增)",
+      "kind": "record",
+      "conf": "C",
+      "evidence": "Record组件(AABB, double)疑似(=box, blurStrength); 源码Render3DScheduler.BlurredBoxCommand(AABB box, double blurStrength) 结构接近但为private内部record(26.1.2); 26.2可能提取为顶层record; 无法同构确认真实类名, 仅列功能角色",
+      "src_path": ""
+    },
+    "DW": {
+      "identity": "颜色模式枚举(4值: Double/Rainbow/Single/Fade)",
+      "kind": "enum",
+      "conf": "C",
+      "evidence": "4个枚举常量Double/Rainbow/Single/Fade为颜色渲染模式名称; 全src树检索无同名枚举(26.1.2无此类); candidates为空; 属26.2新增枚举, 真实类名不可证",
+      "src_path": ""
+    },
+    "Dw": {
+      "identity": "渲染工具类(RenderPass相关, 具体类名未定)",
+      "kind": "util",
+      "conf": "C",
+      "evidence": "静态方法 f(Object[]) 参数含RenderPass+int(int x,y,w,h)返回boolean; 判断是否在视口内并执行渲染操作; imports Dl(Setting)+RenderPass+yJ; 与ScissorUtils功能类似但import不同(Dw引Setting/ScissorUtils不引); candidates为空; 26.2可能重组了渲染工具, 真实类名不可证",
+      "src_path": ""
+    },
+    "dw": {
+      "identity": "渲染状态/配置Record(6字段)",
+      "kind": "record",
+      "conf": "C",
+      "evidence": "Record组件(float, int, int, boolean, boolean, boolean)={ov, BU, bv, j1, jS, j9}; 访问器Ov()/BU()/Bv()/j1()/jS()/j9(); 全src树检索无匹配record; candidates为空; 可能为26.2渲染管线状态记录",
+      "src_path": ""
+    },
+    "dX": {
+      "identity": "网络请求工具类(HTTP, 具体类名未定)",
+      "kind": "util",
+      "conf": "C",
+      "evidence": "imports HttpRequest.Builder+Consumer<Exception>+InputStream+IOException; 构造器 Dl(Setting)+hi; 方法 M(Object[])反编译失败(switch异常); 静态bridge方法M(Lookup,String,MethodType,MethodHandle)处理indy分发; Consumer<Exception>字段H为错误回调; 全src树无HttpRequest引用(26.1.2无HTTP客户端); candidates(EpsilonAddon/I18NFileGenerator/AddonPanelEntry)均为噪声; 属26.2新增网络工具",
+      "src_path": ""
+    },
+    "dx": {
+      "identity": "Follower$Mode",
+      "kind": "enum",
+      "conf": "A",
+      "evidence": "枚举常量{AStar, Straight}与源码Follower.Mode{Straight, AStar}完全一致(仅声明序不同); Follower.Mode为src唯一含此二值的枚举; 全src树检索AStar+Straight仅Follower.java命中; dx jar extends Enum<dx>为顶层(26.2可能从内部枚举提取为顶层); 常量名唯一指纹",
+      "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/modules/impl/movement/follower/Follower.java"
+    }
+  },
+  "unident": [],
+  "conflicts": []
+}

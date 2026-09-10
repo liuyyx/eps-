@@ -1,0 +1,52 @@
+{
+ "batch": "C056",
+ "results": {
+  "uk": {
+   "identity": "AutoArmor",
+   "kind": "module",
+   "conf": "A",
+   "evidence": "MC import: Equippable(1.20.5+特有)+InteractionHand+ItemStack+LocalPlayer; lambda$onTick$0检查Equippable.useAnimation==FOOD匹配源码自动装备逻辑; 3个XG(IntSetting对应head/body/tights/feet枚举优先级)+2个Xn(BoolSetting)+X0(KeybindSetting)与源码AutoArmor一致",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/modules/impl/player/AutoArmor.java"
+  },
+  "uL": {
+   "identity": "Strafe",
+   "kind": "module",
+   "conf": "A",
+   "evidence": "唯一同时处理KeyboardInputEvent+MoveEvent的模块(全src仅Strafe如此); 2个Xn BoolSetting对应源码airStop+autoJump; Holder import为26.2版本差异(src 26.1.2无此import)",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/modules/impl/movement/Strafe.java"
+  },
+  "uN": {
+   "identity": "HandsView(3D变换辅助类)",
+   "kind": "util",
+   "conf": "B",
+   "evidence": "9个DM(DoubleSetting)用于translate/rotate/scale的XYZ分量; g(Object[])对PoseStack调用translate+mulPose(XP/YP/ZP)与源码HandsView.applyBlockingTransform渲染逻辑一致; 构造函数(e_,String,nN)为设置创建模式; 26.2版本扩展了3D变换参数控制",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/modules/impl/render/HandsView.java"
+  },
+  "uo": {
+   "identity": "FallingPlayer",
+   "kind": "util",
+   "conf": "A",
+   "evidence": "MC import全匹配: BlockPos+Entity+Player+ClipContext+BlockHitResult+Vec3; l(Object,Object)->BlockPos实现raytrace用ClipContext.Block.COLLIDER+Fluid.NONE; e(Object[])->BlockPos为findCollision逐tick模拟; 字段double/float对应位置+速度+角度参数; 源码FallingPlayer逐行吻合",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/utils/player/FallingPlayer.java"
+  }
+ },
+ "unident": [
+  {
+   "obf": "ul",
+   "reason": "26.2新增枚举: IDLE/READY_TO_EXECUTE/WAITING_FOR_INVENTORY_CLOSE/WAITING_FOR_SPRINT_STOP为AutoArmor的状态机枚举(src 26.1.2无此枚举); 可能是AutoArmor内部状态枚举的提升版本"
+  },
+  {
+   "obf": "uM",
+   "reason": "26.2新增Record: 组件(y3 shapeType, Xu bounds)为渲染描述符; y3是渲染图元枚举(TEXT/RECT/ROUND_RECT等); Xu是4-int记录(可能是颜色/边框); src 26.1.2无此Record类"
+  },
+  {
+   "obf": "um",
+   "reason": "类持有ArrayList<iH>(iH=SettingHost抽象基类),引用EpsilonAddon+Setting; 181行有slider设置(w(float)范围[-1.0,10.0]); 可能是设置布局/管理辅助类(如SettingLayoutPlanner或AddonSettingsHelper); 候选(AddonPanelEntry/I18NFileGenerator)均不匹配结构"
+  },
+  {
+   "obf": "uO",
+   "reason": "26.2新增枚举: RANDOM/SEQUENTIAL(排序/选择模式); src 26.1.2中无此枚举; 可能用于目标选择或物品遍历顺序"
+  }
+ ],
+ "conflicts": []
+}

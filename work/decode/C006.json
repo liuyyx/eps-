@@ -1,0 +1,61 @@
+{
+  "batch": "C006",
+  "results": {
+    "dh": {
+      "identity": "StyleGlyphRecord",
+      "kind": "record",
+      "conf": "B",
+      "evidence": "Record implements TextRenderable.Styled+Dk(TextRenderableAdapter); 8组件(kv=gG字形,p5/PO/_8/_T=度量,style=Style,PN/pp=额外度量); MC imports:Font,TextRenderable,RenderType,Style; render/textureView/sampler/left/right/top/bottom方法; 锚点'字体字形静态封装类'确认是字形渲染数据类; 版本差:26.2新增(26.1.2无TextRenderableAdapter实现)",
+      "src_path": null
+    },
+    "Dh": {
+      "identity": "Bounds",
+      "kind": "record",
+      "conf": "A-",
+      "evidence": "Record(float zG,zo,z5,z7)四组件全float; z()=z5-zo(高差),K()=z7-zG(宽差),z(Dh)=取各分量min/max(合并/扩展矩形); 结构与矩形/边界框完全吻合; 但src 26.1.2无同名record(可能新增或在lumingraphics库中)",
+      "src_path": null
+    },
+    "dG": {
+      "identity": "TextMode",
+      "kind": "enum",
+      "conf": "C",
+      "evidence": "Enum仅有TXT和SENTENCE两个值; 引用SeQL解密; 名称暗示文本模式(纯文本vs句子); src 26.1.2中无匹配enum(可能在26.2新增); 仅角色推测",
+      "src_path": null
+    },
+    "dg": {
+      "identity": "ItemContainer",
+      "kind": "class",
+      "conf": "C",
+      "evidence": "125行; 字段ih S(边界)+zU I(内容)+float a(高度); lambda$ item$0/1表明item模式; 方法j(float)创建ih并推进高度,r/S/c接受BiConsumer/Consumer回调遍历item; 构造函数dg(zU,ih)初始化容器; 仅角色推测(无src匹配)",
+      "src_path": null
+    },
+    "DH": {
+      "identity": "ListResult",
+      "kind": "record",
+      "conf": "C",
+      "evidence": "Record(List<_Q> XM, boolean ka)两组件; 列表结果+标志位模式; 引用SeQL; src 26.1.2无匹配record; 仅角色推测",
+      "src_path": null
+    },
+    "DI": {
+      "identity": "EmptyMarker",
+      "kind": "class",
+      "conf": "C",
+      "evidence": "仅8行空类体; 无字段无方法无引用; 可能是编译占位/接口桩; 仅角色推测",
+      "src_path": null
+    },
+    "Di": {
+      "identity": "GlyphDataEntry",
+      "kind": "record",
+      "conf": "C",
+      "evidence": "Record(gQ e8, y1 zu)两组件; 方法E8()返回gQ, Zu()返回y1; 与dh(StyleGlyphRecord)同批次且共引SeQL; gQ可能是字形查询,y1可能是字形值; 仅角色推测",
+      "src_path": null
+    }
+  },
+  "unident": [
+    {
+      "obf": "Dg",
+      "reason": "473行class; 字段int L, ih T, boolean e, int n, long p, int m, boolean O; 引用Dl(Setting); 方法Y(Object[])含复杂switch逻辑,L(ih,int,int,int,long)比较ih与多个数值返回boolean; candidates(EpsilonAddon/I18NFileGenerator/AddonPanelEntry)全部不匹配(EpsilonAddon=abstract+SettingHost, I18NFileGenerator=static util, AddonPanelEntry=interface); src 26.1.2无同结构类"
+    }
+  ],
+  "conflicts": []
+}

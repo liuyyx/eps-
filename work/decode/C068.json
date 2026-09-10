@@ -1,0 +1,52 @@
+{
+  "batch": "C068",
+  "results": {
+    "XC": {
+      "identity": "Fullbright.Mode",
+      "kind": "enum",
+      "conf": "A",
+      "evidence": "枚举常量 Potion, Gamma 与 src Fullbright.Mode{Gamma,Potion} 逐一对应; 行数140吻合内部枚举+静态初始化器解密块",
+      "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/modules/impl/render/Fullbright.java"
+    },
+    "XD": {
+      "identity": "HitParticles.Mode",
+      "kind": "enum",
+      "conf": "A",
+      "evidence": "枚举常量 Stars, Hearts, Bloom 与 src HitParticles.Mode{Stars,Hearts,Bloom} 完全一致; Particles.Mode 多出 SnowFlake/Dollars 故排除",
+      "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/modules/impl/render/HitParticles.java"
+    },
+    "Xd": {
+      "identity": "SettingListController.SettingEntry",
+      "kind": "record",
+      "conf": "A",
+      "evidence": "record(vh<?> l7, ih yL) = record(SettingRow<?> row, UiRect bounds); ih=UiRect(4 float字段含contains/inset方法); SettingListController内嵌SettingEntry签名完全匹配",
+      "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/gui/panel/adapter/SettingListController.java"
+    },
+    "XI": {
+      "identity": "PanelScreen",
+      "kind": "screen",
+      "conf": "A-",
+      "evidence": "3862行; MCimports(GuiGraphicsExtractor/CharacterEvent/KeyEvent/MouseButtonEvent)与src PanelScreen一致; anchor Setting+TranslateComponent匹配; implements O0(interface extends AutoCloseable)对应Screen继承体系; 含子面板路由/输入处理/渲染逻辑",
+      "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/gui/panel/PanelScreen.java"
+    }
+  },
+  "unident": [
+    {
+      "obf": "XE",
+      "reason": "枚举常量 NONE, LAVA, LAVA_SUPPORT 在 src 中无匹配; 26.1.2 源码未包含此枚举, 可能为26.2新增或完全内联类"
+    },
+    {
+      "obf": "Xg",
+      "reason": "record(double dS, double dp, int HT, int hc) 在 src 中无匹配; src所有record均使用UiRect/float类型或不同字段组合; 可能为26.2新增记录类"
+    },
+    {
+      "obf": "XH",
+      "reason": "单字段 @SerializedName(\"uhs\") private String z, src中无任何@SerializedName用法; 可能为Gson序列化模型,26.2新增或内部数据类"
+    },
+    {
+      "obf": "Xi",
+      "reason": "48行小类,字段 i2 P,使用Matrix4f(JOML)渲染; i2身份未知无法反推Xi; 需确认i2的源码对应后才能判定"
+    }
+  ],
+  "conflicts": []
+}

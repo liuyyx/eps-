@@ -1,0 +1,43 @@
+{
+  "batch": "C054",
+  "results": {
+    "uC": {
+      "identity": "SwapMode",
+      "kind": "enum",
+      "conf": "B",
+      "evidence": "Enum常量Silent,InvSwitch与src中Phase/Scaffold/ElytraFly的SwapMode内部枚举完全一致;26.2可能提取为顶层枚举类.",
+      "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/modules/impl/combat/PacketMine.java"
+    }
+  },
+  "unident": [
+    {
+      "obf": "ua",
+      "reason": "811行Module(e)子类;MCimports:CameraRenderState,Vec3;字段:Dx<ga>(EnumSetting)×1,Xn(BoolSetting)×3,DM(DoubleSetting)×1,XG(IntSetting)×1,Matrix4f×2,Vec3;handler:@yE(P=200)f(CameraRenderState,Matrix4fc),lifecycle(GameJoined/GameLeft/LevelUpdate).功能为render模块(AfterRender3DEvent后处理 viewRotationMatrix/projectionMatrix).src中无任何Module子类直接import CameraRenderState且拥有此字段组合;可能为26.2新增或重命名."
+    },
+    {
+      "obf": "uB",
+      "reason": "65行Record,implements sealed interface _Q(32种permits,无方法声明).字段:Color,ih(font metrics),float×2,String.功能为渲染UI数据类型,但_Q无法关联到src中任何已知类型(26.2新增密封接口)."
+    },
+    {
+      "obf": "ub",
+      "reason": "33行static bootstrap类;仅含CallSite[]数组和static{}初始化块;是SeQL字符串解密分发的引导类,无实际业务逻辑."
+    },
+    {
+      "obf": "uD",
+      "reason": "44行Record,字段:yc(MethodHandles.Lookup接口),String.为方法查找上下文记录,无src匹配."
+    },
+    {
+      "obf": "ud",
+      "reason": "52行Record,implements sealed interface _Q.字段:float×2,ih(font metrics).为2D位置/尺寸渲染数据记录,_Q无法关联."
+    },
+    {
+      "obf": "uE",
+      "reason": "1649行Module(u9)子类;MCimports:LocalPlayer,BlockPos,InteractionHand,InteractionResult,Inventory,Item,AABB,BlockHitResult;字段:int(-1),BlockPos,uK(rotation),boolean×2,InteractionHand,int.功能:inventory slot manipulation(setSelectedSlot),AABB.move()碰撞检测,BlockHitResult射线追踪.构造函数无settings声明(src中几乎所有Module均有settings).无法匹配具体源码模块."
+    },
+    {
+      "obf": "uf",
+      "reason": "931行Module(u9)子类;MCimports:ClientLevel,BlockPos,Entity,ClipContext,BlockState,AABB,Vec3;字段:int,BlockPos(target),uK(rotation),boolean;T()渲染AABB(Color fill+outline at stored BlockPos).功能为ray-trace block targeting模块.构造函数无settings声明(src中PacketMine有25+settings/629行,结构不匹配)."
+    }
+  ],
+  "conflicts": []
+}

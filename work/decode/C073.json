@@ -1,0 +1,52 @@
+{
+  "batch": "C073",
+  "results": {
+    "y": {
+      "identity": "KillAura",
+      "kind": "module",
+      "conf": "A",
+      "evidence": "extends e(Module); MC imports MultiPlayerGameMode/Entity/LivingEntity/Player; attack(Player,Entity) via gameMode.attack; BoolSetting x5 + IntSetting + DoubleSetting match KillAura src settings (player/mob/animal/villagers/invisible + fov + aimRange); Singleton pattern; @yE=EventHandler on onTick(PlayerTickEvent.Pre); SwingHandEvent ref; constructor super(String,vY)=Module(name,Category.COMBAT)",
+      "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/modules/impl/combat/KillAura.java"
+    },
+    "y4": {
+      "identity": "LuminTexture",
+      "kind": "class",
+      "conf": "A",
+      "evidence": "extends AbstractTexture; constructor(GpuTexture,GpuTextureView,GpuSampler) matches LuminTexture 3-arg ctor; fields q/R boolean = closeTexture/closeSampler; close() method with conditional sampler/texture cleanup pattern identical to LuminTexture src",
+      "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/graphics/LuminTexture.java"
+    }
+  },
+  "unident": [
+    {
+      "obf": "y0",
+      "reason": "1191行，无super；有draw/f/S/R/L方法，引用zJ/_E/lH/nk/zU类型，java.awt.Color；candidates(ClientSetting 261行/SoundKey 30行/RegistryListSetting 199行)均不匹配行数/结构；疑为26.2新增渲染/GUI组件，src 26.1.2无对应"
+    },
+    {
+      "obf": "y1",
+      "reason": "616行，无super；有hashCode/equals/N(E())/C(Object[])/E()方法；引用Dl/eJ/nX类型；candidates(EpsilonAddon/I18NFileGenerator/AddonPanelEntry)均不匹配；疑为26.2新增工具类"
+    },
+    {
+      "obf": "y2",
+      "reason": "Record，65行；组件: StagedVertexBuffer.Draw/RenderPipeline/TextureSetup/ScreenRectangle；src中无匹配Record定义；疑为26.2新增渲染管线状态Record"
+    },
+    {
+      "obf": "y3",
+      "reason": "Enum，279行，10常量: TEXT/TEXTURE/ROUND_RECT_OUTLINE/RECT/ROUND_RECT/BLUR_TEXT/SHADOW/TRIANGLE/GLITCH_TEXT/ARC；src有LuminRenderPipelines(Rectangle/ROUND_RECT/SHADOW/TEXTURE/TRIANGLE)但为static字段非enum；y3含TEXT/BLUR_TEXT/GLITCH_TEXT/ARC在src无对应；疑为26.2新增GUI元素类型enum"
+    },
+    {
+      "obf": "y5",
+      "reason": "Enum，123行，2常量: ChargeFirst/ShieldFirst；src无匹配enum；疑为26.2新增战斗优先级/模式enum"
+    },
+    {
+      "obf": "y6",
+      "reason": "Enum，168行，4常量: Range/None/Fov/Health；src无匹配enum；疑为26.2新增目标信息/显示模式enum"
+    }
+  ],
+  "conflicts": [
+    {
+      "obf": "y",
+      "claimed": "KillAura",
+      "existing": "class_map 里的 eY (conf B)"
+    }
+  ]
+}

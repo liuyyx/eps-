@@ -1,0 +1,49 @@
+{
+ "batch": "C070",
+ "results": {
+  "XO": {
+   "identity": "HoleUtils",
+   "kind": "util",
+   "conf": "A",
+   "evidence": "imports BlockPos/Player/BlockGetter/BlockState; method H(BlockPos,int,boolean)→gc(Hole) 匹配 getHole; method q(Player) 检查玩家位置偏移(-1,0,0)(0,0,-1)等判断是否在洞中→匹配 inHole; method C(BlockPos) 检查 collisionShape→匹配 isBlock",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/utils/world/hole/HoleUtils.java"
+  },
+  "Xo": {
+   "identity": "DamagePriority",
+   "kind": "enum",
+   "conf": "A",
+   "evidence": "sealed Enum permits Xm/XR; 常量 Aggressive/Efficient; 抽象方法 float score(float,float); XR extends Xo 返回 targetDamage→匹配 Aggressive; 源码 ZealotCrystalPlus.DamagePriority 为同结构 inner enum(26.2 提取为顶层)",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/modules/impl/combat/ZealotCrystalPlus.java"
+  },
+  "XR": {
+   "identity": "Aggressive",
+   "kind": "enum",
+   "conf": "A",
+   "evidence": "final class extends Xo(DamagePriority); 方法 float e(float,float){return f2;}→返回 targetDamage 即 DamagePriority.Aggressive.score 的实现",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/modules/impl/combat/ZealotCrystalPlus.java"
+  }
+ },
+ "unident": [
+  {
+   "obf": "XN",
+   "reason": "1426行渲染类; imports BindGroupLayout/RenderPass/GpuBuffer/IndexType(mojmap); implements _A; 有 d5(QuadRenderingInfo) 字段 + _t 未知字段; singleton z(); 方法 memPutFloat 写顶点数据。_A 接口和 _t 类在 26.1.2 源码中无匹配，无法确认具体身份"
+  },
+  {
+   "obf": "XP",
+   "reason": "203行; 15个 static final BindGroupLayout 字段(P/z/I/V/j/Z/A/m/K/f/Y/x/b/W/a); imports BindGroupLayout + UniformType。BindGroupLayout 在 26.1.2 源码中不存在，疑为 26.2 新增的渲染管线布局定义类"
+  },
+  {
+   "obf": "XQ",
+   "reason": "1288行设置相关类; 字段含 DM(DoubleSetting)×2 + XG(IntSetting)×2 + Xn(BoolSetting)×1 + eJ(未知父类); 浮点常量 L=29.0f/Y=110.0f 等布局常量; method D(_j,List<y1>,float,float) 计算高度。eJ/_j/y1 均未识别，候选 ModuleButton/SettingsContent/SettingViewFactory 均不完全匹配(字段/大小不一致)"
+  },
+  {
+   "obf": "Xq",
+   "reason": "121行 Record; 14个组件: 9个float + Color + 3个float[] + int; implements _Q。_Q 接口在 class_map 和源码中均未找到; 无法匹配源码中任何 record 定义"
+  },
+  {
+   "obf": "XS",
+   "reason": "70行 Record; 6个组件: 5个float(u0/UN/UB/UE/UX) + Color(u2); implements _Q。_Q 接口未知; 源码中无匹配的简单 Color+float record"
+  }
+ ],
+ "conflicts": []
+}

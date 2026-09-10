@@ -1,0 +1,49 @@
+{
+  "batch": "C010",
+  "results": {
+    "dT": {
+      "identity": "ZealotCrystalPlus.SwitchMode",
+      "kind": "enum",
+      "conf": "A",
+      "evidence": "enum值Off/Legit/Ghost与src ZealotCrystalPlus.java:1808-1811的SwitchMode完全一致；src中antiWeakness和placeSwitchMode均使用此enum",
+      "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/modules/impl/combat/ZealotCrystalPlus.java"
+    },
+    "dU": {
+      "identity": "ModuleDetailPanel",
+      "kind": "class",
+      "conf": "A",
+      "evidence": "implements XJ(AutoCloseable)；字段含DV(ColorSetting)、_E[]/ih/_j/UI元素；MC imports: GuiGraphicsExtractor/CharacterEvent/MouseButtonEvent；功能:设置面板渲染+鼠标/键盘事件处理+ColorPicker；src ModuleDetailPanel有相同imports和SettingListController/ColorSettingRow逻辑",
+      "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/gui/panel/view/ModuleDetailPanel.java"
+    },
+    "DT": {
+      "identity": "MD3Theme",
+      "kind": "class",
+      "conf": "B",
+      "evidence": "静态final float常量(V=7.0f≈CONTROL_RADIUS,j=12.0f,k=14.0f,d=16.0f等)+大量静态Color工具方法(n/K/F/v/e/g/h/k/Z/M等)；src MD3Theme有相同结构:float常量+Color工具方法(lerp/withAlpha/switchTrack等)；candidates(AddonPanelEntry等)均不符；版本差:src 26.1.2方法名为描述性，jar 26.2已混淆为短名",
+      "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/gui/theme/MD3Theme.java"
+    }
+  },
+  "unident": [
+    {
+      "obf": "Ds",
+      "reason": "Record(5组件:String/boolean/Color/String/Color)；src中无匹配record；无MC imports；无candidates；仅SeQL锚点不足以定位具体类"
+    },
+    {
+      "obf": "dS",
+      "reason": "Record(3组件:int/float/float)；src中无匹配record(无int+2float的record)；无MC imports；无candidates"
+    },
+    {
+      "obf": "ds",
+      "reason": "Record implementing yM(12组件:layer/sequence/bounds/scissor/string/4×float/Color/int/nK)；src中无匹配record；yM接口未在src词典中找到；疑为UI渲染元素record但无法确认"
+    },
+    {
+      "obf": "Dt",
+      "reason": "Record(3组件:String/ih/ih)；src中无匹配record；ih为文本组件类型，但无法确定具体record名"
+    },
+    {
+      "obf": "dt",
+      "reason": "record implementing com.mojang.blaze3d.font.GlyphInfo(单字段float PI；getAdvance/getShadowOffset=0.45f/getBoldOffset=0.45f)；src 26.1.2中无GlyphInfo相关类；疑为26.2新增的字体渲染record或来自Lumin图形库"
+    }
+  ],
+  "conflicts": []
+}

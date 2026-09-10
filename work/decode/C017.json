@@ -1,0 +1,46 @@
+{
+ "batch": "C017",
+ "results": {
+  "g8": {
+   "identity": "PanelState$ClientSettingTab",
+   "kind": "enum",
+   "conf": "A",
+   "evidence": "枚举常量 GENERAL/FRIEND/CONFIG/ADDON(4个) 与 src PanelState.ClientSettingTab 枚举 {GENERAL,FRIEND,CONFIG,ADDON} 完全一致；ordinal映射同 src ClientSettingPanel switch(general→0,friend→1,config→2,addon→3)",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/gui/panel/view/ClientSettingPanel.java"
+  },
+  "gA": {
+   "identity": "ColorUtils",
+   "kind": "util",
+   "conf": "A-",
+   "evidence": "353行静态工具类，~30个static Color字段 + 静态初始化块（加密Color值）；方法F(Color,Color,float)对应interpolateColor(Color,Color,float)；方法w()根据Dx枚举+Dl.t()(isLightTheme)选色；多处withAlpha/lerp/blend模式；src ColorUtils.java仅interpolateColor一方法(26.1.2)，26.2 jar扩展至完整颜色工具集（含主题感知选色、多渐变常量）；无其他src类匹配此结构",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/utils/render/ColorUtils.java"
+  }
+ },
+ "unident": [
+  {
+   "obf": "g2",
+   "reason": "Record implements _Q，8组件(ih tp, String oJ, float kO, Color MN, Color m1, String oi, float kI, nK ta)；26.1.2 src无_Q接口定义，无8组件Record匹配；nK=异步资源加载器为字段之一，疑为26.2新增的着色器/渲染配置Record，缺src对照不可判定"
+  },
+  {
+   "obf": "g4",
+   "reason": "编译器生成的synthetic switch map类(5条int[]条目+try/catch NoSuchFieldError模式)，为g7枚举的ordinal映射表，非业务类"
+  },
+  {
+   "obf": "g5",
+   "reason": "单方法工具类：Path X() 通过Files.createTempFile/createDirectories创建临时目录；26.1.2 src中ConfigHolder.java有createTempDirectory用法但为私有内联，无独立工具类匹配；疑为26.2抽取的FileUtil/TempDir工具，缺src对照"
+  },
+  {
+   "obf": "g6",
+   "reason": "编译器生成的synthetic switch map类(2条int[]条目)，为g9枚举的ordinal映射表，非业务类"
+  },
+  {
+   "obf": "g7",
+   "reason": "Enum常量Left/Center/Right(3值)，疑为文本对齐/HUD位置枚举；26.1.2 src全仓未找到匹配的3值Left/Center/Right枚举，疑26.2新增"
+  },
+  {
+   "obf": "g9",
+   "reason": "Enum常量Attack/Range(2值)，疑为某combat模块的Mode枚举；26.1.2 src MaceAura.AttackMode为{Normal,Mace}，无Attack/Range组合；其他combat模块枚举亦无匹配，疑26.2新增"
+  }
+ ],
+ "conflicts": []
+}

@@ -1,0 +1,54 @@
+{
+ "batch": "C013",
+ "results": {
+  "ea": {
+   "identity": "Step",
+   "kind": "module",
+   "conf": "B",
+   "evidence": "Dx<_P>=EnumSetting<Step.Mode>, _P 枚举常量 Vanilla/OldNCP/NCP 与 src Step.Mode{Vanilla,OldNCP,NCP} 逐一吻合; 5×Xn(BoolSetting)+1×DM(DoubleSetting) 与 src Step(8 BoolSetting+1 DoubleSetting) 设置类型一致; anchored ClientTickEvent.Pre 对应 src onClientTick; jar 1582行 vs src 157行, 疑 26.2 大幅扩展(新增 NCP 路径逻辑)",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/modules/impl/movement/Step.java"
+  }
+ },
+ "unident": [
+  {
+   "obf": "e4",
+   "reason": "2583行大型战斗模块, 含 LivingEntity(目标追踪)+Vec3(位置)+DM(DoubleSetting)+XG×3(IntSetting)+Dx<OW>(EnumSetting)+_Z(未知类型), 设置谱无源码匹配; LivingEntity+Vec3 暗示实体追踪, 但无单一源模块同时拥有此字段组合+行数匹配; 可能为 26.2 新增或大幅重构模块"
+  },
+  {
+   "obf": "eA",
+   "reason": "字段谱: 3×Xn(BoolSetting)+1×DM(DoubleSetting), MC import LocalPlayer, anchored PlayerTickEvent.Pre; 类似 SafeWalk 但 SafeWalk 已被 em 占用(A 级); 其余运动模块(eagle/nofall/noslow/keepsprint/strafe)字段谱不匹配; 可能为 26.2 新增运动模块或 SafeWalk 变体"
+  },
+  {
+   "obf": "eD",
+   "reason": "extends eh(HudModule), 含 DV×3(ColorSetting)+Map<e,dl>(模块→渲染数据映射)+Supplier<_j>+Dx<iX>(EnumSetting)+float常量; anchored DeltaTracker 对应渲染; closest match ModuleList 但字段结构差异(Map类型不同); 可能为 26.2 新增 HUD 元素或 ModuleList 大幅重构"
+  },
+  {
+   "obf": "ed",
+   "reason": "284行, 仅单 Boolean 字段+LocalPlayer; anchored AttackSlowDownEvent+PostSendPositionEvent 暗示战斗辅助; 但 src 无模块同时引用这两个事件; 可能为 26.2 新增辅助模块(如 AttackFix/SprintReset)"
+  },
+  {
+   "obf": "eE",
+   "reason": "X0(KeybindSetting)+XG×2(IntSetting)+Xn(BoolSetting)+ItemStack 字段; MC import Item/ItemStack; 类似 ElytraSwap 但 ElytraSwap 未被 class_map 占用, 字段结构一致(X0+XG×2+Xn+ItemStack); 但 jar 1048行 vs src 149行差距过大, 疑 26.2 大幅扩展; 置信不足以确认"
+  },
+  {
+   "obf": "ee",
+   "reason": "517行, 仅 Xn×2(BoolSetting)+boolean; anchored DestroyBlockEvent 暗示方块破坏相关; src 无模块同时仅含2个 BoolSetting 且引用 DestroyBlockEvent; 可能为 26.2 新增模块"
+  },
+  {
+   "obf": "ef",
+   "reason": "extends eh(HudModule), 含 Map<UUID,Integer>(玩家跟踪)+DV(ColorSetting)+DM×4(DoubleSetting)+TranslateComponent+MC import DeltaTracker/AbstractClientPlayer; TargetHUD 已被 eg 占用(A 级); 其余 HUD 元素(BPS/Inventory/ModuleList/Potions/ScaffoldBlock/Watermark)字段谱不匹配; 可能为 26.2 新增 HUD 元素"
+  }
+ ],
+ "conflicts": [
+  {
+   "obf": "eA",
+   "claimed": "SafeWalk",
+   "existing": "em"
+  },
+  {
+   "obf": "ef",
+   "claimed": "TargetHUD",
+   "existing": "eg"
+  }
+ ]
+}

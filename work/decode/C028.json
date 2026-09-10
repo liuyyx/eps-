@@ -1,0 +1,52 @@
+{
+ "batch": "C028",
+ "results": {
+  "io": {
+   "identity": "EnchantmentUtils",
+   "kind": "class",
+   "conf": "A",
+   "evidence": "[已存在class_map] jar 导入 Holder/ResourceKey/ItemStack/Enchantment/ItemEnchantments，唯一指纹匹配 src EnchantmentUtils（5 个 MC 导入完全吻合）",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/utils/player/EnchantmentUtils.java"
+  },
+  "is": {
+   "identity": "SettingLayoutPlanner.Section",
+   "kind": "record",
+   "conf": "A",
+   "evidence": "record 5 组件完全匹配: is(boolean ux,String vc,String v6,List<Dl<?>> FG,nN jG) ↔ Section(String key,String title,List<Setting<?>> settings,boolean hasHeader,SettingGroup group); 构造函数参数顺序一致; 导入 Dl(=Setting)/nN(=SettingGroup) 与 src 一致; v8=SettingHost 确认 Dl=Setting",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/settings/SettingLayoutPlanner.java"
+  },
+  "ir": {
+   "identity": "ClickSlotUtils",
+   "kind": "class",
+   "conf": "A",
+   "evidence": "MC 唯一指纹: jar 导入 net.minecraft.world.inventory.ContainerInput，全 src 树仅 ClickSlotUtils 引用此类; 方法签名 static void c(Object[])/static void J(int) 等与 clickSlot/click/shiftClick 等静态工具方法一致",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/utils/player/ClickSlotUtils.java"
+  },
+  "it": {
+   "identity": "FriendDropdownPanel",
+   "kind": "class",
+   "conf": "A",
+   "evidence": "常量精确匹配: it.s=6.0f=FRIEND.PADDING, it.G=18.0f=FIELD_HEIGHT, it.i=4.0f=GAP, it.F=20.0f=ROW_HEIGHT; 锚点 FriendManager(Managers.FRIEND)/Setting/TranslateComponent 与 FriendDropdownPanel 用 Friends + EpsilonTranslations.Gui.TAB_FRIEND 吻合; extends iN(=vP=DropdownPanel) 与 extends AbstractDropdownPanel 一致",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/gui/dropdown/component/FriendDropdownPanel.java"
+  }
+ },
+ "unident": [
+  {
+   "obf": "iP",
+   "reason": "extends iH(=EpsilonAddon)，488行，有 e()/w()/V()/R()/z() 方法重写和静态 CallSite f()。锚点 EpsilonAddon/SeQL 但无 MC 导入和 candidates。可能是某个具体 addon 实现类，但 26.1.2 源码中未找到与 iH(EpsilonAddon) 同构的具体子类；版本差异导致无法确认"
+  },
+  {
+   "obf": "ip",
+   "reason": "final class，278行，静态方法 o(Object[]) 返回 List<lb>，使用 LinkedHashMap/ArrayList + lambda 创建 lb(y3,Xu) 对象并排序。功能为 GUI 布局规划器，但 src SettingLayoutPlanner 返回 List<Section> 非 List<lb>(=PanelEntry)，lb 含 List<yM>(=UIElement) 子项。可能是 src 中无直接对应的 26.2 新增 GUI 布局规划类"
+  },
+  {
+   "obf": "iQ",
+   "reason": "仅 20 行，2 个 @SerializedName 字段: refresh_token(String)/access_token(String)，private 构造函数。OAuth 令牌数据类，26.1.2 源码无任何 Gson SerializedName 使用，属 26.2 新增认证模块"
+  },
+  {
+   "obf": "iR",
+   "reason": "record 10 组件: (LivingEntity,Vec3,Vec3,im,Vec3,float,boolean,double,int,AABB)。im 有 4 个 float 字段(armorValue/toughness/resistanceMultiplier/第4字段)，与 src DamageReductionData(3字段)不完全匹配。可能是 26.2 新增的战斗计算结果 record，src 无对应"
+  }
+ ],
+ "conflicts": []
+}

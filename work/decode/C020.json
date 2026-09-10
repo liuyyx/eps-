@@ -1,0 +1,43 @@
+{
+ "batch": "C020",
+ "results": {
+  "gm": {
+   "identity": "ConfigHolder",
+   "kind": "class",
+   "conf": "B",
+   "evidence": "静态单例gm.U+静态Path W；方法l()检查文件是否存在→创建目录→从dD.class ClassLoader getResourceAsStream复制资源到Path；static初始化器从epsilon配置目录构建文件路径。与源码ConfigHolder的INSTANCE/Path字段/文件操作模式一致。571行vs源码1288行，版本差(26.1.2→26.2)可能导致代码精简",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/holders/ConfigHolder.java"
+  }
+ },
+ "unident": [
+  {
+   "obf": "gk",
+   "reason": "10行空基类，仅protected构造函数，无可见字段（obfuscator将所有字段访问移至hi调度器）。可能是Setting<V>基类或另一个简单基类，但无法确认——源码Setting有7个字段+abstract修饰符，而gk无字段且非abstract"
+  },
+  {
+   "obf": "gL",
+   "reason": "extends gk，21行，单一int字段+getter方法D()。源码中无匹配类：IntSetting有3个额外字段(min/max/step)，BoolSetting无int字段，KeybindSetting的int字段对应键盘绑定而非单一int。obfuscator可能移除了其他字段，无法确认具体身份"
+  },
+  {
+   "obf": "gl",
+   "reason": "extends gs，219行，构造函数(iJ, Vec3)表明粒子类；Identifier[]纹理数组、alpha/gravity/friction动画参数、tick/render逻辑确认为粒子。但源码中所有粒子内类均为private(MasEffectsParticleRenderer/Particles/HitParticles)，无法匹配到具体源码类。candidates(ClientSetting等)全部为设置类，明显错误"
+  },
+  {
+   "obf": "gM",
+   "reason": "extends gs，238行，构造函数(iJ, Vec3, Vec3)表明带初始运动向量的粒子类；字段iJ(粒子引擎引用)、Identifier[]纹理、alpha/gravity参数。与gl同族但多一个Vec3参数(初始motion)。同样无法匹配到具体源码内粒子类"
+  },
+  {
+   "obf": "gN",
+   "reason": "Record，7个组件：5个double(UV/uf/u3/ub/um)+EntityType<?>+n0类型。源码中无匹配record（FollowerPath/LineCommand均不匹配）。n0类型无法确认，EntityType表明与实体相关，可能是粒子/效果的数据记录，但无法定位具体源码类"
+  },
+  {
+   "obf": "gn",
+   "reason": "50行，静态int[] f数组+引用vN枚举。静态初始化器用ordinal()映射枚举值到int数组。vN在源码中未找到（可能是MC枚举或26.2新增类）。功能为枚举→int映射工具，无法确认具体对应哪个枚举"
+  },
+  {
+   "obf": "gO",
+   "reason": "extends gk，22行，单一Supplier<Boolean>字段+getter。源码中无匹配类：无任何epsilon类使用Supplier<Boolean>字段。Dependency接口是boolean check()（原始boolean），不是Supplier<Boolean>。可能是obfuscator类型转换或26.2新增的条件包装类"
+  }
+ ],
+ "conflicts": []
+}

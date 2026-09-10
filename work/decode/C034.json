@@ -1,0 +1,43 @@
+{
+  "batch": "C034",
+  "results": {
+    "lK": {
+      "identity": "StringListSelectPopup",
+      "kind": "screen",
+      "conf": "B",
+      "evidence": "implements XJ(Popup); Dl<List<String>> f + Consumer<String> o/P 匹配 StringListSelectPopup(setting, addFn, removeFn); 11 个 static float 常量与 StringListSelectPopup 常量(PADDING=8,TITLE_HEIGHT=18,INPUT_HEIGHT=18,ROW_HEIGHT=18,SCROLL_STEP=24,SCROLL_DECAY=0.86,MIN_SCROLL_VELOCITY=0.3,ROW_GAP=2,ACTION_WIDTH=14 等)数值一致; lambda$extractGui$0 中 popupCard/UiTree.build 模式匹配; 26.1.2→26.2 版本差(26.1.2 src 320 行, jar 2710 行含混淆开销)",
+      "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/gui/panel/popup/StringListSelectPopup.java"
+    }
+  },
+  "unident": [
+    {
+      "obf": "lJ",
+      "reason": "13 个 public static final uT(TranslateComponent)字段 + private 构造器,是翻译常量类; 但 EpsilonTranslations 已被 la/class_map 占用,其他 i18n 源类(DefaultTranslateComponent 17行/EpsilonTranslateComponent 10行/I18NJson 无 uT 字段)均不匹配; 候选(DefaultTranslateComponent/EpsilonTranslateComponent/EpsilonTranslations)均不可信; 可能是 26.2 新增翻译常量子集类"
+    },
+    {
+      "obf": "lj",
+      "reason": "196行,final class,持有 EquipmentSlot I 字段 + eo P 类型引用; 含 switch 分发逻辑; MC import: EquipmentSlot; 源码中使用 EquipmentSlot 的类(AutoWeapon/ZealotCrystalPlus/TargetHUD 等)字段结构均不匹配(eo 类型无法确认); 候选为空; 判不了"
+    },
+    {
+      "obf": "lk",
+      "reason": "140行,Enum,常量 Default + OsakaChips(2值); 源码中未找到含 OsakaChips 的枚举; 'OsakaChips' 疑似 26.2 新增主题/模式枚举,26.1.2 源码无对应; 候选为空; 判不了"
+    },
+    {
+      "obf": "lL",
+      "reason": "123行,Enum,常量 Protection + Blast(2值); 源码 combat 模块中有 Protection/Blast 引用(ZealotCrystalPlus 的 EnchantPriority)但未找到独立枚举类; 可能是 AnchorBlast 或 ZealotCrystalPlus 的内部枚举(26.2 新增); 候选为空; 判不了"
+    },
+    {
+      "obf": "ll",
+      "reason": "47行,Record,字段 List<_Q> q2 + ih zC, implements _Q; 看似 AST 节点/树结构(子节点列表+位置); 源码 scripting/lua 中有 record(LuaScriptManifest/LuaScriptManager.ScriptDescriptor)但字段不匹配; _Q 接口在 src 中未找到; 可能是 26.2 新增的脚本/AST 记录类型; 判不了"
+    },
+    {
+      "obf": "lm",
+      "reason": "843行,implements AutoCloseable; 字段 y_ X + Set<Integer> B + l5 g + int S + boolean u; candidates(EpsilonAddon已在iH映射/I18NFileGenerator是静态工具类/AddonPanelEntry是接口)均不匹配; 源码中未找到 AutoCloseable+Set<Integer>+l5 组合的类; 可能是 26.2 新增的管理器/控制器类; 判不了"
+    },
+    {
+      "obf": "lN",
+      "reason": "194行,持有 Identifier U + RenderPipeline x; 方法 v(Object[])取 PoseStack+LivingEntity+double+Color 渲染光束/粒子效果; MC import: GameRenderer/Identifier/LivingEntity + Blaze3D pipeline; 结构类似 CaptureMarkESP(渲染方法签名接近),但 CaptureMarkESP 使用 LuminRenderSystem 而非 RenderPipeline; 26.2 可能重构了渲染管线; 候选为空; 判不了"
+    }
+  ],
+  "conflicts": []
+}

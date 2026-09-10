@@ -1,0 +1,61 @@
+{
+  "batch": "C062",
+  "results": {
+    "vJ": {
+      "identity": "KeybindSettingRow",
+      "kind": "class",
+      "conf": "A-",
+      "evidence": "extends vh<X0>=SettingRow<KeybindSetting>; 2 _E(Animation)字段=chipHoverAnimation+focusAnimation; boolean i=listening; imports GuiGraphicsExtractor+MouseButtonEvent与源码一致; method S(ih)=getChipBounds 计算chip位置; method E(ih,MouseButtonEvent,boolean)=鼠标事件处理; 源码108行vs jar 815行为版本差异(26.2扩展)",
+      "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/gui/panel/component/setting/KeybindSettingRow.java"
+    },
+    "vj": {
+      "identity": "ConfigClientSettingTab$ConfigRowEntry",
+      "kind": "record",
+      "conf": "B",
+      "evidence": "Record(String ce, ih yo, ih yc)结构=Record(name:String, rowBounds:UiRect, deleteBounds:UiRect); 3组件类型匹配String+2×UiRect; 方法Yo()/Yc()=rowBounds/deleteBounds访问器; candidates空但ConfigRowEntry结构唯一吻合",
+      "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/gui/panel/view/settings/ConfigClientSettingTab.java"
+    },
+    "vK": {
+      "identity": "IMEFocusHelper",
+      "kind": "util",
+      "conf": "A",
+      "evidence": "static float H/U=activeCursorX/Y; static int G=refCount; private vK()=private构造; vK.c()→activate()(refCount++后首次调onTextInputFocusChange(true)); vK.E()→deactivate()(refCount--后末次调onTextInputFocusChange(false)); vK.m()→forceDeactivate()(refCount=0+onTextInputFocusChange(false)); vK.x(float,float)→updateCursorPos; imports Minecraft+GuiEventListener与源码onTextInputFocusChange调用一致; jar 315行含加密常量展开vs源码86行",
+      "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/gui/panel/utils/IMEFocusHelper.java"
+    },
+    "vl": {
+      "identity": "Render3DScheduler$FilledBoxCommand",
+      "kind": "record",
+      "conf": "A",
+      "evidence": "Record(int jf, int jq, AABB cf)=Record(bottomColor:int, topColor:int, box:AABB); 3组件类型(AABB+2×int)与源码FilledBoxCommand(AABB box, int bottomColor, int topColor)完全一致; 来自Render3DScheduler渲染调度器的3D方块填充命令",
+      "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/graphics/schedulers/render3d/Render3DScheduler.java"
+    },
+    "vL": {
+      "identity": "LuminRenderSystem$ShaderUniforms",
+      "kind": "class",
+      "conf": "A",
+      "evidence": "inner class结构完全同构: Map<String,DynamicUniformStorage<DynamicUniform>> l=UNIFORMS; A()→endFrame()(UNIFORMS.values().forEach(::endFrame)); b(key,label,size,cap,uniform)→write()(computeIfAbsent+writeUniform); P()→closeAll()(UNIFORMS.values().forEach(::close)+clear); lambda$write$0→new DynamicUniformStorage(label,size,cap); private构造=工具类; 来自LuminRenderSystem GPU渲染管理",
+      "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/graphics/LuminRenderSystem.java"
+    },
+    "vM": {
+      "identity": "InvHelper",
+      "kind": "util",
+      "conf": "A",
+      "evidence": "MC imports大量Item类型(ArrowItem/AxeItem/BowItem/CrossbowItem/ShovelItem等)+Block类型(BushBlock/CropBlock/SlabBlock等)与源码InvHelper一致; Set<Item> e/X=物品分类集; List<Block> s=blacklistedBlocks黑名单; method f()→getBestShovelScore; lambda$getWorstArrow$0→ArrowItem instanceof检查; 5345行含加密常量展开vs源码1062行",
+      "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/utils/player/InvHelper.java"
+    },
+    "vm": {
+      "identity": "AStarFollowerNavigator$Direction",
+      "kind": "record",
+      "conf": "A",
+      "evidence": "Record(int cL, int cw, int cZ, double WU)=Record(int x, int y, int z, double cost); 4组件类型(3×int+double)与源码Direction(int x, int y, int z, double cost)完全一致; A*寻路算法方向+代价记录; 源码位于AStarFollowerNavigator内部(316行处)",
+      "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/modules/impl/movement/follower/AStarFollowerNavigator.java"
+    }
+  },
+  "unident": [
+    {
+      "obf": "vk",
+      "reason": "Record(8×float)含X(double,double)hit-testing方法(检查点是否在4个边界字段定义的矩形内); candidates(EpsilonAddon/I18NFileGenerator/AddonPanelEntry)均为低分噪声且非Record类型; 搜索源码未找到8-float Record匹配; 可能为GUI内部布局记录(TooltipInfo/LayoutInfo等),26.2版本新增类在26.1.2源码中无对应"
+    }
+  ],
+  "conflicts": []
+}

@@ -1,0 +1,46 @@
+{
+  "batch": "C030",
+  "results": {
+    "K": {
+      "identity": "TriggerBot",
+      "kind": "module",
+      "conf": "A-",
+      "evidence": "设置签名完全匹配：DoubleSetting range(3.0,1.0-7.0,0.1)、attackCooldown(0.9,0.5-1.0,0.05)、critFallDistance(0.0,0.0-1.0,0.05)；IntSetting minDelay/maxDelay(2/13,0-20,1)；MC import含ClipContext/HitResult/Vec3/LivingEntity/Entity/LocalPlayer/Holder；方法签名匹配getCrosshairTarget(lambda)、isValidTarget(instanceof LivingEntity)、getAttackCooldown(getAttributeValue ATTACK_SPEED)；PlayerTickEvent.Pre锚点；src:旧版本的源代码/.../modules/impl/combat/TriggerBot.java",
+      "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/modules/impl/combat/TriggerBot.java"
+    },
+    "J": {
+      "identity": "Filter",
+      "kind": "module",
+      "conf": "B",
+      "evidence": "src中仅Filter(48行)和AntiAlias(23行)使用AfterRender3DEvent；J=82行(26.2版本膨胀)；单例模式(a static final)+@yE事件注解匹配Filter的@EventHandler+INSTANCE；无mc_imports与Filter一致(Filter无net.minecraft导入)；行数差异可由26.1.2→26.2版本差解释；src:旧版本的源代码/.../modules/impl/render/Filter.java",
+      "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/modules/impl/render/Filter.java"
+    }
+  },
+  "unident": [
+    {
+      "obf": "iz",
+      "reason": "record实现DynamicUniformStorage.DynamicUniform，14个float字段(yg/yY/ya/yt/yN/yC/yZ/yz/y5/ye/yM/yp/yx/yw)；src中已知uniform record：FXAAInfo(2字段)、BlurUniforms(11字段)、BoxBlurUniforms(3字段)、SandboxInfo(7字段)，均不匹配14字段；MC import仅DynamicUniformStorage；26.2新增shader uniform record，src(26.1.2)无对应"
+    },
+    {
+      "obf": "i_",
+      "reason": "@FunctionalInterface仅含方法G(int,int)；无anchored_refs无mc_imports无candidates；src中未找到同名接口；10行极小接口，可能是坐标回调或尺寸回调，无法确定身份"
+    },
+    {
+      "obf": "l0",
+      "reason": "extends l8(26.2新增基类，src无l8)；MC import含BlockTintSource/BlockAndTintGetter/TextureAtlasSprite/BlockState/BlockItem/ItemStack/BlockPos/LocalPlayer；渲染逻辑含240/26/6/9像素常量和Color；src中HUD元素均extends HudModule，无extends l8的类；26.2新增渲染组件"
+    },
+    {
+      "obf": "l1",
+      "reason": "final class，字段含_E/dK/Consumer<String>/BooleanSupplier/String；src中未找到_E/dK/iC类定义(26.2新增)；MainDropdownPanel有类似Consumer+BooleanSupplier模式但结构不同(197行vs224行)；可能是26.2新增的UI组件或弹窗辅助类"
+    },
+    {
+      "obf": "l2",
+      "reason": "record实现_Q接口(5字段：rJ/rB/r5/rk float+kl Color)；src中_Q接口不存在；已知record均不匹配此字段组合；可能是26.2新增的渲染参数record(如渐变/阴影定义)"
+    },
+    {
+      "obf": "l3",
+      "reason": "enum仅有两个值Black和Follow；src中未找到此enum；可能与渲染模式(Xray背景/目标跟随)相关，但无足够证据确定"
+    }
+  ],
+  "conflicts": []
+}

@@ -1,0 +1,43 @@
+{
+  "batch": "C067",
+  "results": {
+    "Xb": {
+      "identity": "BreakMode",
+      "kind": "enum",
+      "conf": "B",
+      "evidence": "枚举常量完全匹配: Off/Target/All/Own/Smart (5个)与ZealotCrystalPlus.BreakMode一致；src版(26.1.2)中为private inner enum，jar版(26.2)为顶层类；常量声明顺序不同(src: Off,Target,Own,Smart,jar: Off,Target,All,Own,Smart)属版本差异",
+      "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/modules/impl/combat/ZealotCrystalPlus.java"
+    }
+  },
+  "unident": [
+    {
+      "obf": "X6",
+      "reason": "sealed interface permits iO(Identifier+boolean)和dq(y4)；src中无sealed接口；需更多上下文才能确定接口语义"
+    },
+    {
+      "obf": "X7",
+      "reason": "enum有Simple和Normal两个常量(123行)；src中AutoWeapon.Mode有Simple和Smart，不匹配；无其他src枚举匹配Simple+Normal组合"
+    },
+    {
+      "obf": "X8",
+      "reason": "EnumSetting<l4>(l4=Disabled/Auto/Enabled)+ProtocolVersionRange字段；ViaVersion协议兼容性设置；uc类(ViaVersion设置模块)中大量使用；该设置类为26.2新增，26.1.2 src中不存在"
+    },
+    {
+      "obf": "X9",
+      "reason": "record(Object rQ, boolean WR)，仅20行；字段类型过于通用，无法唯一匹配"
+    },
+    {
+      "obf": "XA",
+      "reason": "912行工具类，使用g7枚举(Left/Center/Right)计算HUD元素对齐位置；多方法返回float坐标；g7枚举在src中不存在，为26.2新增"
+    },
+    {
+      "obf": "Xa",
+      "reason": "record含7字段(DV:long, ow:nh, op:nh, xM:iR, DE:long, br:O7, bi:O7)；nh/iR/O7均为未识别类型；src中无匹配record"
+    },
+    {
+      "obf": "XB",
+      "reason": "record含7字段(vd:String, LM:float, eo:Color, LL:float, l6:float, lk:nK, OY:ih)；nK为异步资源加载缓存类(DS接口)，ih为4-float矩形；src中无匹配record"
+    }
+  ],
+  "conflicts": []
+}

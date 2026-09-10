@@ -1,0 +1,63 @@
+{
+  "batch": "C080",
+  "results": {
+    "yz": {
+      "identity": "Direction的switch map / invokedynamic bootstrap类(26.2新增)",
+      "kind": "class",
+      "conf": "A",
+      "evidence": "唯一指纹: mc_imports仅Direction; 80行; static int[] a + static initializer通过hi.a/dispatch based on ordinal pattern是典型的switch map / lambda bootstrap; 全src仅此模式+Direction import",
+      "src_path": "旧版本的源代码/中无对应(26.2编译产物, 由Direction switch语句生成)"
+    },
+    "y_": {
+      "identity": "LuminRenderPipelines",
+      "kind": "class",
+      "conf": "B",
+      "evidence": "2526行 AutoCloseable; mc_import RenderPipeline + Identifier; Int2ObjectMap<zP>(pipeline ID map); 引用iO(资源引用record)、vA(可能vertex format相关); 源码LuminRenderPipelines为85行静态pipeline定义; 26.2版本扩展为pipeline管理器+生命周期(含AutoCloseable)的推断; 源码render pipeline名匹配(Identifier+RenderPipeline)",
+      "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/graphics/LuminRenderPipelines.java"
+    },
+    "z": {
+      "identity": "26.2新增战斗模块(确切类名未定,非26.1.2已有模块)",
+      "kind": "module",
+      "conf": "C",
+      "evidence": "extends e(Module); 940行(vY=Category.COMBAT); mc_imports含MultiPlayerGameMode+LocalPlayer+ServerboundSwingPacket+InteractionHand+Entity+LivingEntity+Player; 14个BoolSetting+3个IntSetting+1个DoubleSetting(模块配置极多); 源码无任何战斗模块同时import这6个MC类; SilentAim源码仅97行/6 BoolSetting; TriggerBot 180行/无SwingPacket; SafeAnchor 780行/无SwingPacket; 候选ModuleButton/ConfigHolder/ClientSetting均不匹配Module继承关系; 可能是26.2新增模块或由26.1.2某模块大幅重构而成",
+      "src_path": "旧版本的源代码/中无匹配(26.2新增或重构模块)"
+    },
+    "z0": {
+      "identity": "AbstractNumberSettingRow(抽象数值滑块SettingRow基类, 26.2新增)",
+      "kind": "class",
+      "conf": "A-",
+      "evidence": "extends zc(SettingRow基类); 泛型 <S extends Dl<T>, T extends Number> (Number类型约束); abstract y(T)->String(数值转显示); 1428行; 源码DoubleSettingRow/IntSettingRow非抽象、行数较少(325/323行); z0是它们在26.2的抽象父类; 有dp字段(StepSize/step相关)和z字段(当前值index)",
+      "src_path": "旧版本的源代码/中无对应(26.2新增抽象类, DoubleSettingRow/IntSettingRow的抽象父类)"
+    },
+    "z1": {
+      "identity": "LuminRenderSystem",
+      "kind": "class",
+      "conf": "B",
+      "evidence": "mc_imports: RenderPipeline+RenderTarget+TextureTarget+Identifier+Std140SizeCalculator+GpuFormat; static final z1 M(单例); fields: RenderPipeline u, RenderTarget g, Identifier r(着色器路径); 源码LuminRenderSystem是渲染系统核心; 775行管理shader/uniform/render state; S(Object[])方法处理render target操作",
+      "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/graphics/LuminRenderSystem.java"
+    },
+    "z3": {
+      "identity": "RegistryListSettingRow",
+      "kind": "class",
+      "conf": "A",
+      "evidence": "extends zv<Xe(RegistryListSetting)<?>>; 31行; 三个方法: X(display)->调用hi.j(日志/渲染), Y(->count)->hi.a.size计数, L(->label)->hi.a.text获取显示文本; 源码RegistryListSettingRow extends SettingRow<RegistryListSetting<?>>, 有buildUi+measureAssistChip+size+labelText; 完全匹配",
+      "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/gui/panel/component/setting/RegistryListSettingRow.java"
+    },
+    "z4": {
+      "identity": "BlockHighlight$Mode",
+      "kind": "enum",
+      "conf": "A",
+      "evidence": "extends Enum<z4>; 6个enum常量: OutlinedSide, BothSide, Fill, Both, Outline, FilledSide; 源码BlockHighlight.Mode完全相同6个值(Both/BothSide/Fill/FilledSide/Outline/OutlinedSide); 字母顺序一致; 唯一指纹匹配",
+      "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/modules/impl/render/BlockHighlight.java"
+    },
+    "z5": {
+      "identity": "BlockHighlight的switch map(由BlockHighlight$Mode switch语句生成)",
+      "kind": "class",
+      "conf": "A",
+      "evidence": "唯一指纹: 39行; static final int[] N = new int[length] + static initializer通过hi.a/ordinal dispatch pattern; 与yz结构相同; z4=BlockHighlight$Mode, z5为对应switch map; src中BlockHighlight.Mode有switch语句使用Mode枚举",
+      "src_path": "旧版本的源代码/中无对应(26.2编译产物, 由BlockHighlight$Mode switch语句生成)"
+    }
+  },
+  "unident": [],
+  "conflicts": []
+}

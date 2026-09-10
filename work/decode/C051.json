@@ -1,0 +1,49 @@
+{
+ "batch": "C051",
+ "results": {
+  "OU": {
+   "identity": "ClientSettingPanel",
+   "kind": "class",
+   "conf": "A-",
+   "evidence": "4个MC import完全匹配src(GuiGraphicsExtractor,CharacterEvent,KeyEvent,MouseButtonEvent); implements AutoCloseable; refs Setting+TranslateComponent; 构造函数3参(PanelState/UiTextMetrics/PanelPopupHost)匹配; EnumMap<g8,O0>用于tab映射",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/gui/panel/view/ClientSettingPanel.java"
+  },
+  "Ov": {
+   "identity": "ModuleRow",
+   "kind": "class",
+   "conf": "A-",
+   "evidence": "3个float常量完全匹配: J=34→HEIGHT, t=8→KEYBIND_TOGGLE_GAP, e=40→KEYBIND_CLIP_WIDTH; 字段: DP c→ModuleViewModel, ih I→bounds, ih Q→toggleBounds; 渲染方法q(scope,textMetrics,floats)匹配buildUi; 版本差: src 143行 vs jar 26.2 696行",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/gui/panel/component/ModuleRow.java"
+  },
+  "OW": {
+   "identity": "Priority",
+   "kind": "enum",
+   "conf": "A",
+   "evidence": "枚举5个值完全匹配: High/Medium/Lowest/Low/Highest; int priority字段匹配src Priority(int priority); 用于RotationManager setRotations调用",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/utils/rotation/Priority.java"
+  }
+ },
+ "unident": [
+  {
+   "obf": "Ou",
+   "reason": "Record 88行, 8 float+1 Color字段, implements _Q接口(26.1.2源码中未找到_Q定义), 结构与Ox相同但字段名不同, 无法确定具体真实类名"
+  },
+  {
+   "obf": "OV",
+   "reason": "Record仅26行, 仅SeQL锚点引用, 无MC import, 无candidates, 信息不足无法判定"
+  },
+  {
+   "obf": "Ow",
+   "reason": "160行class, 仅SeQL锚点引用, 无MC import, 无candidates; 方法涉及Df/y_/gy/l5/lm类型, 角色不明"
+  },
+  {
+   "obf": "OX",
+   "reason": "407行class, SeQL+Setting引用; 全部为静态工具方法(角度/radian计算), 无实例字段, 无candidates能匹配; 可能是新增26.2版本工具类"
+  },
+  {
+   "obf": "Ox",
+   "reason": "Record 88行, 8 float+1 Color字段, implements _Q接口(26.1.2未定义); 结构与Ou相同但字段名不同, 无法区分两者真实身份"
+  }
+ ],
+ "conflicts": []
+}

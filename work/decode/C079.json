@@ -1,0 +1,39 @@
+{
+  "batch": "C079",
+  "results": {
+    "yv": {
+      "identity": "AutoWeapon$Mode",
+      "kind": "enum",
+      "conf": "A",
+      "evidence": "枚举仅2个常量Smart/Simple；src AutoWeapon.Mode恰好是private enum {Simple, Smart}，结构完全一致；anchored_refs含SeQL（加密分发器），与jar中静态初始化器的字符串解密吻合",
+      "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/modules/impl/combat/AutoWeapon.java"
+    }
+  },
+  "unident": [
+    {
+      "obf": "yu",
+      "reason": "1482行，imports Dl(Setting)/Dz/nv/vV/hi + HttpServer/HttpExchange + SecureRandom/MessageDigest/GCMParameterSpec/SecretKeySpec + JsonElement/JsonObject，@NiurenDEOBF注解。26.2新增的加密/网络基础设施类（可能是addon加载服务器或混淆引擎），旧版src中无对应类"
+    },
+    {
+      "obf": "yV",
+      "reason": "38行，extends SubmitNodeStorage，methods: submitModel(Model,PoseStack,RenderType,...)和submitCustomGeometry(PoseStack,RenderType,CustomGeometryRenderer)。26.2新增的渲染管线封装类，src中无直接对应（WireframeEntityRenderer结构不同）"
+    },
+    {
+      "obf": "yW",
+      "reason": "75行Record，7个组件(yn, nG, int x5)。yn和nG均未在class_map中识别，src中无匹配的record定义，无法确定真实身份"
+    },
+    {
+      "obf": "yX",
+      "reason": "128行Record，10个组件(_P:float, sequence:long, _w:float, scissor:Xu, layer:int, _y:float, _v:float, _b:float, cn:Color, bounds:XL)，implements yM。渲染绘制指令记录，但src中无对应record定义"
+    },
+    {
+      "obf": "yY",
+      "reason": "57行Record，3个组件(BlockPos, Direction, Vec3)。表示方块放置位置引用，但src中无此record定义（SafeAnchor/Scaffold等使用同类字段组合但无record形式）"
+    },
+    {
+      "obf": "yy",
+      "reason": "580行，extends y4(LuminTexture)，imports NativeImage/GpuTexture/GpuSampler/GpuTextureView/CommandEncoder/ByteBuffer，有byte[]→NativeImage→GPU纹理的转换方法。26.2新增的GPU纹理工具类，src中无对应（LuminTexture无子类）"
+    }
+  ],
+  "conflicts": []
+}

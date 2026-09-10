@@ -1,0 +1,52 @@
+{
+ "batch": "C037",
+ "results": {
+  "lw": {
+   "identity": "AStarFollowerNavigator",
+   "kind": "class",
+   "conf": "A",
+   "evidence": "4常量逐值吻合: j=1.25(DETOUR_RETREAT_DISTANCE), i=1.0E-4(INITIAL_COLLISION_EPSILON), Y=0.1(VERTICAL_CLEARANCE), S=0.18(HORIZONTAL_CLEARANCE); PriorityQueue/HashMap/HashSet/ArrayList 匹配 A* 数据结构; MC导入 LocalPlayer/BlockPos/Vec3i/Entity/LivingEntity/Level/AABB/Vec3/VoxelShape 全覆盖; 方法 b(BlockPos,BlockPos)→distance, C→gv返回; implements Oa 对应 FollowerNavigator 接口",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/modules/impl/movement/follower/AStarFollowerNavigator.java"
+  },
+  "lX": {
+   "identity": "LuminImmediateRenderer(26.2扩展)",
+   "kind": "util",
+   "conf": "B",
+   "evidence": "implements _A(渲染元素接口); G()静态工厂返回单例; 多个draw方法(A/w/z/e/h)取float+Color绘制矩形/圆角矩形(quad batch); S(Object[])提交11参数顶点数据; Q(Object[])配置RenderPass(setVertexBuffer/setIndexBuffer); s(int,int,int,int)设视口; d5(=QuadRenderingInfo)字段管理GPU资源; MC导入 GpuBuffer/GpuBufferSlice/RenderPass/IndexType + Color 完全匹配; src LuminImmediateRenderer 417行, jar1286行因SeQL indy膨胀; 26.2版扩展增加更多draw变体",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/graphics/immediate/LuminImmediateRenderer.java"
+  },
+  "ly": {
+   "identity": "DamageUtils",
+   "kind": "util",
+   "conf": "A-",
+   "evidence": "2个静态常量逐值吻合: d=6.0f==CRYSTAL_EXPLOSION_RADIUS, A=5.0f==ANCHOR_EXPLOSION_RADIUS; EquipmentSlot[] S==ARMOR_SLOTS; DQ(=ArmorEnchantmentMode)引用匹配 explosionDamage(target,crystalPos,targetPos,mode)签名; MC导入 Minecraft/EquipmentSlot/LivingEntity/EndCrystal/Player/AABB/Vec3 与爆炸伤害计算功能一致; G(Object[])计算距离比+伤害曲线; src 335行, jar1089行因SeQL膨胀; 26.2新增Minecraft/Holder/BlockState导入疑为扩展功能",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/utils/combat/DamageUtils.java"
+  },
+  "l_": {
+   "identity": "RegistryListSetting$Type的switch map",
+   "kind": "class",
+   "conf": "B",
+   "evidence": "引用 Xf(=RegistryListSetting$Type) 枚举; int[] D = new int[Xf.values().length]; 静态块按 ordinal 填充映射值; 62行与枚举switch map合成类规模一致; 无方法体,纯数据映射",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/settings/RegistryListSetting.java (内部枚举Type)"
+  }
+ },
+ "unident": [
+  {
+   "obf": "lx",
+   "reason": "49行Record, 组件 InteractionHand+PoseStack; 26.1.2源码树无此record定义(搜索无匹配); 疑26.2新增的手持渲染上下文record, 无源码配对依据"
+  },
+  {
+   "obf": "lY",
+   "reason": "109行字符串常量类, 仅2个static final String(d/t) + XOR解密静态块; 无MC导入/无anchored_refs/无方法体; 解密前无法判断字符串用途, 无源码配对依据"
+  },
+  {
+   "obf": "lZ",
+   "reason": "59行渲染管道包装类; 导入 Vector3f/Matrix4f/PoseStack.Pose; Y()方法提交矩阵/颜色/坐标到i2渲染元素; 疑Oe管道工具链中的某个小包装类(g0/lO/De/lZ), 但无独立src配对; 与De/lO结构高度同质, 无法区分"
+  },
+  {
+   "obf": "lz",
+   "reason": "419行Record(int pD, int p6, int pq); Y()方法做复杂switch/比较逻辑返回boolean; MC导入 InteractionHand 但Record组件均为int(非InteractionHand); 候选FindItemResult组件不匹配(slot/count/maxCount vs pD/p6/pq); 无源码配对依据"
+  }
+ ],
+ "conflicts": []
+}

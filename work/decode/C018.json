@@ -1,0 +1,49 @@
+{
+ "batch": "C018",
+ "results": {
+  "gc": {
+   "identity": "Hole",
+   "kind": "class",
+   "conf": "A",
+   "evidence": "字段 Vec3 G/BlockPos l/BlockPos[] M/OH U 与 src Hole(middle/pos/positions/type) 1:1 对应；构造器 switch(OH) 的 Single/DoubleX/DoubleZ/Quad 分支创建 positions+middle 逻辑完全同构；OH=HoleType 已确认(5 常量 NotHole/Single/DoubleX/DoubleZ/Quad)",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/utils/world/hole/Hole.java"
+  },
+  "gE": {
+   "identity": "FlickParticle",
+   "kind": "class",
+   "conf": "A",
+   "evidence": "extends gs(EffectParticle)；构造器(iJ,Vec3,float)中 random(-0.04,0.04)/random(0.02,0.1)/random(-0.04,0.04) 赋值 xd/yd/zd 与 src FlickParticle 构造器完全一致；W=scale, x=age；M() 即 afterTick(): clamp((1-age*1.5),0.2,1.0)-0.2 + age+=1/lifetime + alpha*=friction 与 src FlickParticle.afterTick 语义同构",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/modules/impl/render/maseffects/MasEffectsParticleRenderer.java"
+  },
+  "gD": {
+   "identity": "ConsumerListener",
+   "kind": "class",
+   "conf": "A",
+   "evidence": "implements zI(IListener)；字段 Class<T> e/Consumer<T> f/int o 对应 src ConsumerListener target/executor/priority；方法 J→getTarget, z→call(consumer.accept), K→getPriority, o→isStatic(return false) 逐一对应",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/events/bus/listeners/ConsumerListener.java"
+  }
+ },
+ "unident": [
+  {
+   "obf": "ga",
+   "reason": "Enum(Backwards,Centered)：仅被 ua 模块(Module+CameraRenderState)作为 Dx<ga> 设置引用并转 int 传入 dw record；src 26.1.2 全树无同名枚举常量(Backwards/Centered)，无 MC import，无候选；推测为 26.2 新增的渲染对齐枚举(可能用于 text/label alignment)，无法确定原始类名"
+  },
+  {
+   "obf": "gb",
+   "reason": "Record(_X gl, RenderPipeline zj)：_X 是 AutoCloseable 渲染封装类(持有 RenderPass 相关状态)；src 26.1.2 无此 record 类型(无 RenderPipeline 字段的 record)；26.2 新增的渲染管线命令记录，确切类名无法确定"
+  },
+  {
+   "obf": "gC",
+   "reason": "静态工具类：方法 C(double,double)/I(float,float)/H(int,int) 为 clamp/lerp 数学运算，F(e[])/P() 管理 Module 数组，static{} 注册 natives；src 无直接对应的独立工具类(MathUtils 等不含 Module 数组管理)；推测为 26.2 新增的混合工具类(math+module registry)，确切类名无法确定"
+  },
+  {
+   "obf": "ge",
+   "reason": "Record implementing DynamicUniformStorage.DynamicUniform：12 字段(Vec3 xw, boolean bL/bA, int fQ/f3, float md/m5/mq, Matrix4fc tW/t2/t0/tb) + write(ByteBuffer)；src 26.1.2 的 DynamicUniform record 均为 3-11 float 字段(FilterColor/FXAAInfo/BlurUniforms 等)，无 12 混合类型字段的匹配；26.2 新增的渲染 uniform 数据记录，确切类名无法确定"
+  },
+  {
+   "obf": "gF",
+   "reason": "字符串解密基础设施：静态 int[] x/s + CallSite 桥接方法 r()，属 SeQL 解密分发的底层支撑类；src 无对应文件(26.1.2 解密机制不同或内联)；26.2 新增的 invokedynamic bootstrap 类，确切类名无法确定"
+  }
+ ],
+ "conflicts": []
+}

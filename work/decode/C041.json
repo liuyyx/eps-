@@ -1,0 +1,58 @@
+{
+ "batch": "C041",
+ "results": {
+  "nh": {
+   "identity": "ZealotCrystalPlus.BreakPlan",
+   "kind": "record",
+   "conf": "A",
+   "evidence": "Record 5字段: EndCrystal+int+Vec3+2float 完美匹配 ZealotCrystalPlus.BreakPlan(crystal,entityId,pos,selfDamage,targetDamage)；源码行2016-2023",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/modules/impl/combat/ZealotCrystalPlus.java"
+  },
+  "nI": {
+   "identity": "HitParticles.ColorMode",
+   "kind": "enum",
+   "conf": "A",
+   "evidence": "Enum 2值 Sync/Custom 完全匹配 HitParticles 内部 ColorMode 枚举(line 59-62)；源码中 Custom在前 Sync在后，jar中顺序反转属正常",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/modules/impl/render/HitParticles.java"
+  },
+  "nJ": {
+   "identity": "RaytraceUtils",
+   "kind": "util",
+   "conf": "A",
+   "evidence": "静态工具类：方法f(uK,Direction,BlockPos,boolean)=overBlock, S(Vec3,Vec3)=canSeePointFrom, D(Object[])=raytrace(uK,double,float)；MC import(BlockPos,Direction,ClipContext,HitResult,Vec3)完全匹配；uK=Rot2f(版本差异)",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/utils/rotation/RaytraceUtils.java"
+  },
+  "nL": {
+   "identity": "EpsilonLanguageManager",
+   "kind": "class",
+   "conf": "A",
+   "evidence": "单例模式(static h=INSTANCE), volatile Map<String,String>=translations, Gson, Pattern, ResourceManager同步reload方法；完全匹配EpsilonLanguageManager源码结构",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/assets/i18n/EpsilonLanguageManager.java"
+  },
+  "nl": {
+   "identity": "ModuleDetailPanel",
+   "kind": "screen",
+   "conf": "A",
+   "evidence": "4497行实现O0(AutoCloseable)，MC import(GuiGraphicsExtractor,KeyEvent,MouseButtonEvent,CharacterEvent)；导入X0(KeybindSetting)+vh(SettingRow)+vx等GUI组件；candidates三选一均为同一类，size/结构匹配",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/gui/panel/view/ModuleDetailPanel.java"
+  },
+  "nM": {
+   "identity": "PacketMine.RenderMode",
+   "kind": "enum",
+   "conf": "A",
+   "evidence": "Enum 4值 Normal/Grow/Box/Shrink 完全匹配 PacketMine 内部 RenderMode 枚举(line 50-55)；jar中顺序: Box,Normal,Shrink,Grow vs 源码 Box,Normal,Shrink,Grow",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/modules/impl/combat/PacketMine.java"
+  }
+ },
+ "unident": [
+  {
+   "obf": "ni",
+   "reason": "Record 4字段全为ih类型(疑似解密字符串)，无MC import，无candidates，无明文串。源码中无匹配的4字段ih类型record。SeQL关联但具体角色不明，无法判定"
+  },
+  {
+   "obf": "nk",
+   "reason": "Record 4字段全为float(ZV,ZJ,z4,ZQ)，无MC import，无candidates，无明文串。源码中无精确匹配的4-float record(最接近HudEditorScreen.SnapInfo但无SeQL关联)。功能角色不明"
+  }
+ ],
+ "conflicts": []
+}

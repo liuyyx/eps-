@@ -1,0 +1,61 @@
+{
+ "batch": "C077",
+ "results": {
+  "yM": {
+   "identity": "RenderLayer",
+   "kind": "interface",
+   "conf": "B",
+   "evidence": "sealed interface permits 12 impls; methods bounds()→XL, layer()→int, scissor()→Xu, sequence()→long 对应渲染层元素接口(边界/层级/裁剪/序列号); src 无直接对应但结构唯一",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/graphics/"
+  },
+  "yN": {
+   "identity": "Render3DScheduler$OutlineBoxCommand",
+   "kind": "record",
+   "conf": "A",
+   "evidence": "Record(AABB,int,float) 完全匹配 src OutlineBoxCommand(AABB box, int color, float thickness); Render3DScheduler.java:418",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/graphics/schedulers/render3d/Render3DScheduler.java"
+  },
+  "yn": {
+   "identity": "LuminRenderTarget",
+   "kind": "class",
+   "conf": "A-",
+   "evidence": "imports AbstractTexture/TextureManager/Identifier/GpuTexture/GpuTextureView/GpuSampler/CommandEncoder 与 src LuminRenderTarget 完全一致; 构造器创建 y4(LuminTexture)×2 + Identifier via fromNamespaceAndPath; 26.2版扩展至885行(26.1.2 src仅含简化版)但核心GPU纹理管理模式相同",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/graphics/LuminRenderSystem.java"
+  },
+  "yO": {
+   "identity": "RegistryListSettingTypeDispatcher",
+   "kind": "class",
+   "conf": "B",
+   "evidence": "imports Xf(=RegistryListSetting$Type) + uT(=TranslateComponent); static j(Object[])→String 根据 Xf 类型分派翻译键; 219行含 switch 逻辑与算术混淆; 26.1.2 src 无直接对应(可能在26.2新增)",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/settings/"
+  },
+  "yP": {
+   "identity": "HudEditorScreenInterpolator",
+   "kind": "class",
+   "conf": "B",
+   "evidence": "implements DF(float计算接口); field yt(=HudEditorScreen); 构造器 private yP(yt); 方法 O(float)→float, q(String,float)→float 委托给 yt; 47行; 为 HudEditorScreen 提供浮点插值/计算功能",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/gui/"
+  },
+  "yp": {
+   "identity": "AddonHolder",
+   "kind": "class",
+   "conf": "A",
+   "evidence": "singleton yp.e=AddonHolder.INSTANCE; List<iH>=List<EpsilonAddon> addons; Set<String> S=addonIds; boolean f=setupComplete; synchronized方法 registerAddon/setupAddons/getAddons 完全匹配 src AddonHolder.java",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/holders/AddonHolder.java"
+  },
+  "yo": {
+   "identity": "SettingSnapshot",
+   "kind": "record",
+   "conf": "C",
+   "evidence": "Record 8组件(6 boolean+2 float); imports Dl(=Setting); 516行含复杂算术混淆; hashCode 确认字段 l9,lM,lg,g4,g5,l8,ly,lb; src 无直接对应; 角色推测为设置快照/配置记录",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/settings/"
+  }
+ },
+ "unident": [
+  {
+   "obf": "ym",
+   "reason": "10行 @FunctionalInterface 接口 f(T)→E; 通用泛型函数接口，无 MC import/锚点/结构特征，src 中有多个类似接口无法唯一匹配"
+  }
+ ],
+ "conflicts": []
+}

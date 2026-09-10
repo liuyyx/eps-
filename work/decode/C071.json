@@ -1,0 +1,55 @@
+{
+ "batch": "C071",
+ "results": {
+  "Xt": {
+   "identity": "ThemePalette",
+   "kind": "record",
+   "conf": "A",
+   "evidence": "Record 26 Color字段(d9/dl/df/DZ/d8/DR/DA/dn/DM/dt/DF/dy/db/d5/d3/di/dz/dj/d1/d2/DX/DP/DB/de/DD/dk) + 构造器26 Object参数逐一强转Color + paletteDark/paletteLight静态工厂hi.a('G',hex,int)解密hex字符串; 源码MD3Theme.ThemePalette:26 Color字段完全吻合(26.1.2→26.2无字段变化)",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/gui/theme/MD3Theme.java"
+  },
+  "XU": {
+   "identity": "Scaffold.SwapMode",
+   "kind": "enum",
+   "conf": "A",
+   "evidence": "Enum值None/Normal/Silent/InvSwitch与源码Scaffold.SwapMode(行103-108)完全一致; 4值匹配; jar提取为独立顶层类(26.2提取内部enum)",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/modules/impl/movement/Scaffold.java"
+  },
+  "XW": {
+   "identity": "ZealotCrystalPlus.PlaceMode",
+   "kind": "enum",
+   "conf": "A",
+   "evidence": "Enum值Multi/Single/Off与源码ZealotCrystalPlus.PlaceMode(行1814-1817:Off/Single/Multi)完全一致(顺序不同); RenderPredictMode(行1859-1862)值相同; jar提取为独立顶层类",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/modules/impl/combat/ZealotCrystalPlus.java"
+  },
+  "Xv": {
+   "identity": "ModuleSort",
+   "kind": "enum",
+   "conf": "B",
+   "evidence": "Enum值ADDED/NAME/TYPE + 字段uT(TranslateComponent) + Comparator<nV>; 语义匹配:ADDED=插入序(无comparator),NAME=按名排序(lambda提取nV名),TYPE=按类型排序(组合comparator); 源码26.1.2 ModuleSort=Name/EnabledFirst/Addon值名不同但语义一致(26.1.2→26.2重命名)",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/modules/impl/ClientSetting.java"
+  },
+  "Xw": {
+   "identity": "SettingSection",
+   "kind": "record",
+   "conf": "B",
+   "evidence": "Record字段is(SettingLayoutPlanner.Section) + List<zc<?>>; 源码ModuleButton.SettingSection:record(SettingLayoutPlanner.Section model, List<SettingWidget<?>> widgets); 字段类型模式匹配(Section+List)",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/gui/dropdown/component/ModuleButton.java"
+  }
+ },
+ "unident": [
+  {
+   "obf": "Xs",
+   "reason": "Record 4 boolean(tN/tL/tC/tD) + 2 double(cS/cB); 源码26.1.2中未找到匹配的record(搜索boolean+double组合无结果); 可能为26.2新增record或字段类型在混淆中变化"
+  },
+  {
+   "obf": "XT",
+   "reason": "Class 474行 implements W(me.sofurry.via.W), imports CommandBuildContext + me.sofurry.via.*; 候选EpsilonAddon(abstract/SettingHost)/I18NFileGenerator(utility)/AddonPanelEntry(interface)均不匹配W接口; Via模块类在源码26.1.2中无对应; 可能为26.2新增的Via命令注册类"
+  },
+  {
+   "obf": "Xu",
+   "reason": "Record 4 int(wv/we/wb/wL) imports Dl(Setting); 源码26.1.2中未找到匹配record(ScissorRect为4 int但不引用Setting); equals方法反编译失败(复杂switch); 可能为26.2新增或字段类型变化"
+  }
+ ],
+ "conflicts": []
+}

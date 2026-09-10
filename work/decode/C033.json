@@ -1,0 +1,39 @@
+{
+ "batch": "C033",
+ "results": {
+  "lH": {
+   "identity": "Easing",
+   "kind": "enum",
+   "conf": "A",
+   "evidence": "30个enum常量完全匹配(LINEAR/DECELERATE/SMOOTH_STEP/EASE_IN_OUT_SINE/EASE_IN_OUT_QUART/EASE_IN_BACK/EASE_IN_CUBIC/SIGMOID/DYNAMIC_ISLAND等)，源码utils/render/animation/Easing.java中完全一致",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/utils/render/animation/Easing.java"
+  }
+ },
+ "unident": [
+  {
+   "obf": "lF",
+   "reason": "Setting子类(extends l8)，737行，导入lH(Easing)/_E/_j/zU，含_E字段(构造接受lH枚举+gk)，B(Object[])方法接收zU+float参数。candidates(EpsilonAddon/I18NFileGenerator/AddonPanelEntry)均为噪声，均不匹配。可能是动画相关Setting子类，但源码树中未找到对应类"
+  },
+  {
+   "obf": "lf",
+   "reason": "极小类(19行)，implements gr(单方法接口void f(Object[]))，方法体仅调用hi.a分发创建iP实例。无candidates，无MC imports，无结构指纹，无法判定"
+  },
+  {
+   "obf": "lG",
+   "reason": "Setting子类(extends l8)，1657行，导入DynamicTexture/NativeImage/smtc.O/smtc.W/Identifier，字段含W l、O i、DynamicTexture M。有drawIconText/drawMarqueeTitle等绘制方法。candidates均为噪声。可能是带图片/纹理预览的Setting子类，但smtc库类无法在源码树中定位对应"
+  },
+  {
+   "obf": "lg",
+   "reason": "implements _A(含RenderPass的渲染接口)，1517行，导入GpuBufferSlice/RenderPass/d5/_t/XK。有多个绘制方法(j/S等接受float+Color参数)。无candidates可匹配，可能是渲染管线实现类，但源码树中未找到对应"
+  },
+  {
+   "obf": "lI",
+   "reason": "独立类(super=null)，1212行，导入Camera/Entity/LivingEntity/Vec3/BlendFunction/ColorTargetState/DepthStencilState/RenderPipeline/PoseStack/Matrix4f/Quaternionfc，含Map<Integer,n3> g字段(n3含Vec3+LivingEntity)。方法D()迭代n3集合做实体渲染。imports与MasEffectsParticleRenderer高度相似但字段结构不同(非List<EffectParticle>而是Map<Integer,n3>)。可能是3D渲染工具类，但源码树中未找到精确匹配"
+  },
+  {
+   "obf": "li",
+   "reason": "Record类(78行)，implements _Q(sealed接口)，组件：String m4, float n9/nt/nu, Color by, Oq eD, nK yV。_Q有29个permits实现。可能是UI/渲染数据record，但源码树中无匹配的record定义"
+  }
+ ],
+ "conflicts": []
+}

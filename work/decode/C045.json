@@ -1,0 +1,39 @@
+{
+ "batch": "C045",
+ "results": {},
+ "unident": [
+  {
+   "obf": "O",
+   "reason": "extends Module(e), 673行, imports ItemStack, Dx<zh>(EnumSetting), XG(IntSetting), 静态单例。candidates(ModuleButton/ConfigHolder/ClientSetting)均被排除: ModuleButton extends Component非Module; ConfigHolder非Module; ClientSetting已在class_map映射到uc(A级)。jar有1个Dx和1个XG字段，源码中多个模块(AutoArmor/AutoWeapon/CrystalBlocker等)同时有EnumSetting+IntSetting+ItemStack，但无法唯一锁定。版本差(26.1.2→26.2)可能新增ItemStack引用，进一步增加歧义。"
+  },
+  {
+   "obf": "o",
+   "reason": "extends Module(e), 281行, imports LocalPlayer, @EventHandler标注方法p(dR)。candidates(EpsilonAddon/I18NFileGenerator/ModuleButton)均非Module子类: EpsilonAddon implements SettingHost; I18NFileGenerator是工具类; ModuleButton extends Component。无法从候选锁定。"
+  },
+  {
+   "obf": "O0",
+   "reason": "interface extends AutoCloseable, 52行, imports MouseButtonEvent。13个方法(含Object[]参数、MouseButtonEvent参数、default close)。candidates(UiCoordinateMapper/BoolSettingRow/ButtonSettingRow)均非interface: UiCoordinateMapper是final工具类; BoolSettingRow/ButtonSettingRow是abstract class。源码中无匹配的interface定义。可能是26.2新增的UI事件处理接口。"
+  },
+  {
+   "obf": "O1",
+   "reason": "static class, 44行, 无MC imports, 无candidates。纯SeQL bootstrap/lambda bridge类: 静态int[] k字段 + CallSite桥接方法 + static初始化块。无源码可匹配。"
+  },
+  {
+   "obf": "O2",
+   "reason": "enum(O2), 140行, 无MC imports, 无candidates。枚举值: Columbina, Classic。源码中未找到包含Columbina的枚举。可能是26.2新增的音乐/主题/皮肤枚举。"
+  },
+  {
+   "obf": "O3",
+   "reason": "record(O3), 83行, 4个float字段(qC,qL,qp,qx)。有p(float)和w(float,float)静态工厂方法，e(ih)方法操作ih record(矩形/bounds)。语义疑似padding/margin记录。candidates为空; 源码中无匹配的4-float record。"
+  },
+  {
+   "obf": "O4",
+   "reason": "class extends Record, 49行, 3个float字段(j7,JF,jn)。accessor方法J7()/JF()/Jn()。candidates为空; 源码中无匹配的3-float record。可能是26.2新增的渲染数据record。"
+  },
+  {
+   "obf": "O5",
+   "reason": "class implements DF(float计算接口), 65行, u4(DropdownScreen)字段。DF接口有O(Object[])/q(String,float)/X(Object[])/O(float)方法。candidates(DropdownScreen)已在class_map映射到u4(A级)。无其他candidates; 源码中未找到实现DF接口的类。可能是26.2新增的float计算服务。"
+  }
+ ],
+ "conflicts": []
+}

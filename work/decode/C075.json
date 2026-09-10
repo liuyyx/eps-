@@ -1,0 +1,46 @@
+{
+  "batch": "C075",
+  "results": {
+    "yD": {
+      "identity": "CrystalBlocker.SwitchMode",
+      "kind": "enum",
+      "conf": "A",
+      "evidence": "Enum constants Visible, Silent 完全匹配 CrystalBlocker.java:55-57 内部 enum SwitchMode；jar 为内部枚举编译产物",
+      "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/modules/impl/combat/CrystalBlocker.java"
+    },
+    "yf": {
+      "identity": "ClientSetting.HideMode",
+      "kind": "enum",
+      "conf": "A",
+      "evidence": "Enum constants Hide, Vanilla, None 完全匹配 ClientSetting.java:77-79 内部 enum HideMode",
+      "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/modules/impl/ClientSetting.java"
+    }
+  },
+  "unident": [
+    {
+      "obf": "yd",
+      "reason": "Record(Vec3, HitResult, boolean)：raytrace 结果封装，26.1.2 源码中未找到匹配 record（可能 26.2 新增）"
+    },
+    {
+      "obf": "yE",
+      "reason": "Annotation@interface int P() default 0, RUNTIME+METHOD：26.1.2 源码中仅 EventHandler 有类似注解但方法名为 priority() 且默认值不同，不匹配"
+    },
+    {
+      "obf": "ye",
+      "reason": "Enum(VanillaAndModded, VanillaOnly, Off)：26.1.2 源码中未找到此枚举（可能 26.2 新增的模组兼容性设置）"
+    },
+    {
+      "obf": "yF",
+      "reason": "Record(PoseStack, InteractionHand)：手部渲染状态封装，26.1.2 源码中未找到匹配 record"
+    },
+    {
+      "obf": "yG",
+      "reason": "Record(int, int)：26.1.2 源码中最接近的 ScissorRect 有 4 个 int 字段，不匹配"
+    },
+    {
+      "obf": "yg",
+      "reason": "重度混淆的工具类，含 invokedynamic/ConstantCallSite 引导模式和 switch 分发逻辑；candidates（EpsilonAddon/I18NFileGenerator/AddonPanelEntry）均不匹配实际结构"
+    }
+  ],
+  "conflicts": []
+}

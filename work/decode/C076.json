@@ -1,0 +1,34 @@
+{
+ "batch": "C076",
+ "results": {
+  "yH": {
+   "identity": "LuminRenderPipelines",
+   "kind": "class",
+   "conf": "B",
+   "evidence": "12 static RenderPipeline字段+2 Snippet; import BlendFunction/ColorTargetState/VertexFormat/Identifier; 与 src LuminRenderPipelines 结构一致(26.1.2 有8条Pipeline, 26.2增至12条, 新增PrimitiveTopology/BindGroupLayout为26.2 API)",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/graphics/LuminRenderPipelines.java"
+  },
+  "yh": {
+   "identity": "SwingHand",
+   "kind": "enum",
+   "conf": "B",
+   "evidence": "枚举常量 MainHand/OffHand/Auto 与 ZealotCrystalPlus.SwingHand 完全匹配; 26.1.2 为 ZealotCrystalPlus 内部 private enum, 26.2 提升为顶层类",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/modules/impl/combat/ZealotCrystalPlus.java"
+  },
+  "yK": {
+   "identity": "ShaderHolder",
+   "kind": "class",
+   "conf": "B",
+   "evidence": "singleton(public static final yK b), TextureTarget, EnumMap<n7,RenderPipeline> 对应 ShaderHolder 的多管线(Default/Smoke/Gradient等); static Identifier J 对应 shader资源路径; 746行含完整管线构建逻辑; 与 src ShaderHolder 结构一致",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/holders/ShaderHolder.java"
+  }
+ },
+ "unident": [
+  {"obf": "yI", "reason": "19行数据持有类, 字段为yn/float[]/int, yn类型在src中不存在(26.2新增), 无src匹配"},
+  {"obf": "yJ", "reason": "Record, 4个int组件(b4,bw,b8,bf), src中ScissorRect为4-int record但属于LuminRenderSystem内部类, 无法确认顶层提取关系"},
+  {"obf": "yj", "reason": "简单Gson DTO(@SerializedName name+id), 20行; src中无任何@SerializedName注解类, 属26.2新增"},
+  {"obf": "yk", "reason": "实现l5接口, 大量Color/float方法(176行); l5接口在src中不存在; ColorUtils/DropdownTheme等src类结构不匹配"},
+  {"obf": "yl", "reason": "Record, 5个List组件(List<nD> x2, List<BlockPos> x3); nD类型在src中不存在; 无5-List-BlockPos record匹配"}
+ ],
+ "conflicts": []
+}

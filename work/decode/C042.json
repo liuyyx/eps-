@@ -1,0 +1,52 @@
+{
+  "batch": "C042",
+  "results": {
+    "nP": {
+      "identity": "EpsilonTranslations",
+      "kind": "class",
+      "conf": "A",
+      "evidence": "10 static final uT(TranslateComponent)字段(t/l/m/Z/v/j/b/d/J/N)与 src EpsilonTranslations 的 10 个顶层 static final 字段(Keybind 3+Module 6+Gui 第一个=10, 随后嵌套类继续)结构一致; private 构造器+静态工厂模式匹配; 锚点 TranslateComponent 强指 i18n 注册表",
+      "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/assets/i18n/EpsilonTranslations.java"
+    },
+    "np": {
+      "identity": "BufferUtils",
+      "kind": "util",
+      "conf": "A",
+      "evidence": "方法 d(long,float,float,float,float,int) 内存操作: memPutFloat(p,x)+memPutFloat(p+4,y)+memPutFloat(p+8,0)+memPutFloat(p+12,u)+memPutFloat(p+16,v)+memPutInt(p+20,color) 与 src BufferUtils.writeUvRectToAddr 完全一致; 导入 LWJGL MemoryUtil 语义匹配",
+      "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/graphics/buffer/BufferUtils.java"
+    },
+    "nq": {
+      "identity": "CrystalSnapshot",
+      "kind": "record",
+      "conf": "A",
+      "evidence": "Record 6字段: EndCrystal jc + int GF + Vec3 HK + AABB c8 + boolean fv + boolean FJ 与 src CrystalAura.CrystalSnapshot(EndCrystal entity, int id, Vec3 pos, AABB box, boolean selfDamage, boolean targetDamage) 完全对应; MC import EndCrystal+AABB+Vec3 一致",
+      "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/modules/impl/combat/CrystalAura.java"
+    },
+    "nQ": {
+      "identity": "ViaBedrockConfig",
+      "kind": "class",
+      "conf": "A",
+      "evidence": "extends ViaBedrockConfig; override save(File,Map) 和 shouldEnableExperimentalFeatures(); 非 epsilon 模块,是 ViaBedrock 库配置子类",
+      "src_path": "无对应 src (ViaBedrock 第三方库类)"
+    }
+  },
+  "unident": [
+    {
+      "obf": "nm",
+      "reason": "Record(Map<Integer,yG[]>+Color[]), 1123行, static B(Path) 读取二进制配置文件, 方法C(int)取颜色, 方法W(int)取yG数组; 仅引 SeQL+Setting, candidates(EpsilonAddon/I18NFileGenerator/AddonPanelEntry)均为非Record结构,无匹配; 26.1.2 src 无对应二进制配置加载类,疑 26.2 新增"
+    },
+    {
+      "obf": "nn",
+      "reason": "Enum(Cancel/Kick/CancelAndNotify), 125行; 仅引 SeQL; 26.1.2 src 无匹配枚举(Velocity=Cancel/Legit, Criticals=Pure/Legit, BlockHighlight=Both/Fill/Outline等均不匹配); 疑 26.2 新增的包处理动作枚举"
+    },
+    {
+      "obf": "nR",
+      "reason": "Record 实现 _Q, 9个float(od/oe/o9/og/o7/oT/o1/oW/oh)+Color(AI); _Q 为密封渲染数据接口(30+实现); 26.1.2 src 无匹配 Record; 疑 26.2 新增渲染顶点/渐变数据结构"
+    },
+    {
+      "obf": "nr",
+      "reason": "Enum(Glow/Outline), 140行; 仅引 SeQL; 26.1.2 src 无匹配枚举; 疑 26.2 新增的渲染模式枚举(NameTag发光/描边模式等)"
+    }
+  ],
+  "conflicts": []
+}

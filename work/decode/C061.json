@@ -1,0 +1,46 @@
+{
+ "batch": "C061",
+ "results": {
+  "vi": {
+   "identity": "EnumSettingRow",
+   "kind": "class",
+   "conf": "A",
+   "evidence": "extends vh<Dx<?>>匹配EnumSettingRow extends SettingRow<EnumSetting<?>>; GuiGraphicsExtractor+MouseButtonEvent导入匹配; labelScale=0.68f/chipTextScale=0.60f常量在jar源码可见; getChipBounds→j()方法签名一致; mouseClicked检查bounds.contains+button()==0一致",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/gui/panel/component/setting/EnumSettingRow.java"
+  },
+  "vE": {
+   "identity": "TargetManager",
+   "kind": "class",
+   "conf": "B",
+   "evidence": "MC导入(ClientPacketListener,Entity,LivingEntity,ArmorStand,Player)与src TargetManager一致; private LivingEntity c对应sharedTarget; V()中isAlive()/level()检查匹配isSharedTargetAlive/isValidTarget; k()返回List处理实体列表匹配collectTargets/acquireTargets; 锚点ClientTickEvent.Pre匹配onClientTick注解; 但jar中为singleton(H)而src中TargetManager非singleton，疑26.2重构",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/managers/impl/target/TargetManager.java"
+  }
+ },
+ "unident": [
+  {
+   "obf": "vd",
+   "reason": "Record实现_Q接口，字段int jo+List<_Q> y6。_Q是SeQL脚本AST节点接口，26.1.2 src中无SeQL相关代码，无法匹配源码类名。"
+  },
+  {
+   "obf": "ve",
+   "reason": "Record实现yM接口，12个渲染字段(Xu scissor/XL bounds/long sequence/int layer/4个Color/5个float)。为UI渲染命令记录。26.1.2 src中无对应record类型，疑26.2新增的lumingraphics渲染命令类。"
+  },
+  {
+   "obf": "vF",
+   "reason": "静态int数组p+引用Xf枚举类型，静态初始化器按ordinal()映射枚举值到int数组。为枚举索引映射工具类。26.1.2 src中无对应类。"
+  },
+  {
+   "obf": "vG",
+   "reason": "extends LinkedHashMap<Ok,ON>，重写removeEldestEntry实现LRU缓存。字段vq K。26.1.2 src中无extends LinkedHashMap的自定义类，疑26.2新增的LRU缓存实现。"
+  },
+  {
+   "obf": "vH",
+   "reason": "Record，8个字段(6个float+aA/aQ/aw/aK/aJ/an + double yU + List<_G> w7)。为图形渲染矩形/位置记录。26.1.2 src中无对应record类型。"
+  },
+  {
+   "obf": "vI",
+   "reason": "final类，字段zU q(渲染器)+ih D(文本度量)，方法涉及文本渲染(S/G/n)、矩形绘制(X)、层处理(D/layer)。疑为UI渲染辅助/上下文类。26.1.2 src中无精确匹配。"
+  }
+ ],
+ "conflicts": []
+}

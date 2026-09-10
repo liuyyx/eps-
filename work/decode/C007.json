@@ -1,0 +1,49 @@
+{
+ "batch": "C007",
+ "results": {
+  "Dj": {
+   "identity": "DoubleAnchor.Phase",
+   "kind": "enum",
+   "conf": "A",
+   "evidence": "7个枚举常量 IDLE/PLACE_ANCHOR/CHARGE/AIRPLACE/CHARGE_2/DETONATE/CLEANUP 与源码 DoubleAnchor.java 内部 enum Phase 完全一致，逐项吻合",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/modules/impl/combat/DoubleAnchor.java"
+  },
+  "dJ": {
+   "identity": "BlinkPacket",
+   "kind": "record",
+   "conf": "A",
+   "evidence": "record(Packet<? super ClientPacketListener> ao, long cj); 源码 Blink 模块使用 ConcurrentLinkedQueue<Packet<?>> 缓存数据包，此 record 为单个带时间戳的缓存包，结构与角色完全吻合",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/modules/impl/movement/Blink.java"
+  },
+  "dl": {
+   "identity": "Animation",
+   "kind": "util",
+   "conf": "B",
+   "evidence": "fields: float value + boolean active + long timestamp; H 方法含 clamp(0,1)+插值逻辑 与源码 Animation 类行为一致; 引用 Dl(Setting) 为版本差异(26.2新增设置面板状态检查)",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/utils/render/animation/Animation.java"
+  }
+ },
+ "unident": [
+  {
+   "obf": "DJ",
+   "reason": "enum 4个常量 TheAltening/Cracked/Session/Microsoft; 疑似认证类型枚举; src 26.1.2 中无匹配的 enum; 可能为 26.2 新增 AccountType/AuthType 类"
+  },
+  {
+   "obf": "dI",
+   "reason": "record(float[], float) 20行; 无MC导入; src中有多个 float[] record(RenderRow/EffectInfo/AnimationState等)但字段数不匹配; 无强信号可判定"
+  },
+  {
+   "obf": "di",
+   "reason": "record(boolean, BlockHitResult, BlockPos) 55行; 可能是方块交互/射线追踪结果 record; src 26.1.2 中无匹配的独立 record 类; 可能为 26.2 新增"
+  },
+  {
+   "obf": "dK",
+   "reason": "@FunctionalInterface 接口 String A() 10行; src 中 TitleSupplier(String get()) 与 LabelSupplier(String get()) 均匹配签名; 无 MC 导入或额外锚点区分二者; 判不了具体是哪个"
+  },
+  {
+   "obf": "DL",
+   "reason": "record(int, int) 20行; 无MC导入; src 中 ScissorRect(int,int,int,int) 有4个int而非2个; 无其他匹配; 可能是坐标对或范围记录，26.2新增"
+  }
+ ],
+ "conflicts": []
+}

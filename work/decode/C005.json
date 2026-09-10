@@ -1,0 +1,34 @@
+{
+ "batch": "C005",
+ "results": {
+  "Df": {
+   "identity": "UiLayer",
+   "kind": "enum",
+   "conf": "B",
+   "evidence": "jar enum常量CHROME/POPUP/BACKGROUND/FLOATING/CONTENT/OVERLAY与源码UiLayer常量完全对应（PanelScreen: UiLayer.CHROME/CONTENT/POPUP）；UiLayer来自lumingraphics库在26.1.2为顶层类",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/slmpc/lumingraphics/ui/scene/UiLayer.java"
+  },
+  "df": {
+   "identity": "ActionButtonType",
+   "kind": "enum",
+   "conf": "A-",
+   "evidence": "jar enum常量NEW/IMPORT/EXPORT/SAVE_AS/RELOAD/OPEN_FOLDER与源码ConfigClientSettingTab内私有枚举ActionButtonType完全一致；26.1.2为私有内部类，26.2可能提升为顶层类",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/gui/panel/view/settings/ConfigClientSettingTab.java:667-675"
+  },
+  "dF": {
+   "identity": "KeybindUtils",
+   "kind": "util",
+   "conf": "A",
+   "evidence": "jar: p=-1(=NONE), s(MOUSE_OFFSET), a(int)→String(=format), B(int)→boolean(=isPressed), imports KeyMapping+TranslateComponent(uT)；源码KeybindUtils: NONE=-1, MOUSE_OFFSET=-2, format(int)→String, isPressed(int)→boolean",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/utils/client/KeybindUtils.java"
+  }
+ },
+ "unident": [
+  {"obf": "DE", "reason": "静态渲染工具类(zU/ih/_j/Ob/nK)，158行，方法K/R/S/Q/n/h处理渲染边界和颜色；无MC import、无candidates；与已知UiRenderBatch/UiTree等库类关系不明，src中无对应顶层类"},
+  {"obf": "De", "reason": "52行包装类，持有i2(RenderPipeline)实例，方法z()处理Matrix4f变换并委托给i2；i2为1700行渲染管线核心类，De仅为其薄wrapper；src中无对应独立类"},
+  {"obf": "dE", "reason": "1660行视频/媒体播放器类，含FFmpegFrameGrabber/DynamicTexture/ByteBuffer/ExecutorService/Identifier；src 26.1.2中无FFmpegFrameGrabber引用，推测为26.2新增类"},
+  {"obf": "de", "reason": "38行极小类，仅含boolean字段X和static int[]字段K，3个方法(toggle/get/static init)；无MC import、无candidates、无特征结构，无法判定身份"},
+  {"obf": "DF", "reason": "15行接口，仅4个float方法(O/q/X/O)；无MC import、无字段、无常量；src中无匹配接口"}
+ ],
+ "conflicts": []
+}

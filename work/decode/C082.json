@@ -1,0 +1,61 @@
+{
+ "batch": "C082",
+ "results": {
+  "zF": {
+   "identity": "Component",
+   "kind": "class",
+   "conf": "A",
+   "evidence": "抽象基类，3 float 字段(x,y,width)精确匹配源码 Component.java；抽象方法 H()=getHeight(), O()=draw()；方法 S() 实现 isHovered 矩形命中检测逻辑完全一致；import DF/IH/zU 与源码 UiTree/UiTextMetrics/UiRect 对应",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/gui/dropdown/component/Component.java"
+  },
+  "zc": {
+   "identity": "SettingWidget",
+   "kind": "class",
+   "conf": "A",
+   "evidence": "abstract class zc<S extends Dl<?>> extends zF 完全匹配 SettingWidget<S extends Setting<?>> extends Component；字段 protected final S v = setting；构造器接收 Setting 参数；两处强结构指纹一致",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/gui/dropdown/widget/SettingWidget.java"
+  },
+  "zG": {
+   "identity": "ColorWidget",
+   "kind": "class",
+   "conf": "A",
+   "evidence": "extends zc<DV>(SettingWidget<ColorSetting>)精确匹配；float 常量全部吻合：R=15=CHANNEL_ROW_HEIGHT, P=48=PICKER_HEIGHT, b=24=CHANNEL_BOX_WIDTH, s=12=CHANNEL_BOX_HEIGHT, g=8=CHANNEL_LABEL_WIDTH, n=0.44=CHANNEL_TEXT_SCALE, K=3.0=PICKER_TO_HUE_GAP；Color 通道操作方法 Z()/z() 对应 RGB/HSV 通道切换",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/gui/dropdown/widget/ColorWidget.java"
+  },
+  "ze": {
+   "identity": "DoubleSliderWidget",
+   "kind": "class",
+   "conf": "A",
+   "evidence": "extends z0<DM, Double> 精确匹配 AbstractSliderWidget<DoubleSetting, Double>；DecimalFormat y 字段匹配 FORMAT 常量；方法 V()=getRatio(), D(Object[])=updateValueFromRatio(), c()=formatValue()；引用 DM=DoubleSetting 一致",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/gui/dropdown/widget/DoubleSliderWidget.java"
+  },
+  "zd": {
+   "identity": "MD3Theme",
+   "kind": "class",
+   "conf": "A",
+   "evidence": "10 个 public static final Color 字段精确匹配 MD3Theme.java 的 10 个主题色常量(SHADOW/SURFACE/SURFACE_DIM/SURFACE_CONTAINER_LOW/SURFACE_CONTAINER/SURFACE_CONTAINER_HIGH/SURFACE_CONTAINER_HIGHEST/OUTLINE/PRIMARY/ON_PRIMARY 等)；类结构为纯静态常量工具类",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/gui/theme/MD3Theme.java"
+  },
+  "zf": {
+   "identity": "HudElementHolder",
+   "kind": "class",
+   "conf": "A-",
+   "evidence": "List<eh>=List<HudModule> 匹配；zf.Z=INSTANCE 静态单例匹配；@yE 注解 on zR 参数 handler = @EventHandler on Render2DEvent.HUD；anchored_refs 包含 HudEditorScreen/Render2DEvent.HUD/Setting 完全吻合 HudElementHolder 功能；行数差异(820 vs ~100)因 26.2 新增逻辑",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/holders/HudElementHolder.java"
+  },
+  "zE": {
+   "identity": "ZealotCrystalPlus.RangeMode",
+   "kind": "enum",
+   "conf": "A",
+   "evidence": "Enum 恰好 2 常量 Eyes/Feet 精确匹配 ZealotCrystalPlus.java 内部枚举 RangeMode 的 Feet/Eyes 常量；src 中 i18n 文件同时有 'feet'/'eyes' 翻译键对应此枚举",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/modules/impl/combat/ZealotCrystalPlus.java"
+  }
+ },
+ "unident": [
+  {
+   "obf": "zD",
+   "reason": "Record(BlockPos m0, Direction NX, Vec3 kp) 3 字段签名在 src 26.1.2 中无匹配 Record 定义。PlaceInfo 有 7 字段不匹配，其他 Record(FilledSideCommand/LineCommand 等)字段类型不匹配。可能是 26.2 新增类或深层内部类"
+  }
+ ],
+ "conflicts": []
+}

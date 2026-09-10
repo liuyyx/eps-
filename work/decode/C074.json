@@ -1,0 +1,49 @@
+{
+ "batch": "C074",
+ "results": {
+  "y9": {
+   "identity": "ModuleDetailPanel",
+   "kind": "class",
+   "conf": "A",
+   "evidence": "AutoCloseable + 精确 MC 输入 import (GuiGraphicsExtractor,CharacterEvent,KeyEvent,MouseButtonEvent) + 方法签名匹配 (mouseClicked/keyPressed/charTyped/mouseDragged/mouseScrolled/render/close) + Map<Dl<?>,_E> 对应 Map<Setting<?>,Animation> + 引用 uT(TranslateComponent),e(Module),vh(SettingRow),X0(KeybindSetting)",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/gui/panel/view/ModuleDetailPanel.java"
+  },
+  "yA": {
+   "identity": "Hat.Mode",
+   "kind": "enum",
+   "conf": "A",
+   "evidence": "Enum 常量 Fade/Sexy/Astolfo 与 src Hat.Mode (Astolfo/Sexy/Fade) 完全匹配（仅顺序不同）",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/modules/impl/render/Hat.java"
+  },
+  "ya": {
+   "identity": "FireflyESP.ColorMode",
+   "kind": "enum",
+   "conf": "A",
+   "evidence": "Enum 常量 Solid/Rainbow/Blend 与 src FireflyESP.ColorMode (Solid/Blend/Rainbow) 完全匹配（仅顺序不同）",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/utils/render/esp/FireflyESP.java"
+  }
+ },
+ "unident": [
+  {
+   "obf": "y7",
+   "reason": "extends AbstractViaConfig (ViaVersion 库类)，方法 isServersideBlockConnections()/use1_8HitboxMargin()。ViaVersion 不在 src 中，无匹配源码类。candidates (EpsilonAddon/I18NFileGenerator/AddonPanelEntry) 均不继承 ViaConfig。"
+  },
+  {
+   "obf": "y8",
+   "reason": "Map<y3, Deque<_X>> + AutoCloseable，close() 遍历 map 处理 _X 队列，x() 用 computeIfAbsent 填充。candidates (EpsilonAddon/I18NFileGenerator/AddonPanelEntry) 均无此 Map/Deque 结构。EpsilonAddon 为 abstract+SettingHost，I18NFileGenerator 无 AutoCloseable，AddonPanelEntry 为 interface。"
+  },
+  {
+   "obf": "yB",
+   "reason": "Enum 常量 None/Color/Scoreboard，125 行。全 src 搜索 Scoreboard 仅见 MasEffects.getScoreboardName() 调用，无匹配 enum 定义。可能为 26.2 新增类。"
+  },
+  {
+   "obf": "yb",
+   "reason": "43 行，implements Font.GlyphVisitor，字段 OT/Matrix3x2fc/ScreenRectangle，方法 acceptRenderable(TextRenderable)。疑似 Font 渲染内部 helper，src 中无对应类（Font.GlyphVisitor 为 MC API，src 无自定义实现）。"
+  },
+  {
+   "obf": "yc",
+   "reason": "13 行 interface，单方法 y(Method, Class): MethodHandles.Lookup。疑似方法句柄查找工具接口，src 中无匹配。"
+  }
+ ],
+ "conflicts": []
+}

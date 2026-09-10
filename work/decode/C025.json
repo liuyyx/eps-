@@ -1,0 +1,46 @@
+{
+ "batch": "C025",
+ "results": {
+  "iA": {
+   "identity": "ModuleListPanel",
+   "kind": "class",
+   "conf": "B",
+   "evidence": "4个Map<Module,_E>字段结构匹配ModuleListPanel的4个Map<Module,Animation>; lambda$buildSearchField$0方法名泄露匹配搜索框构建; MC imports(GuiGraphicsExtractor,CharacterEvent,MouseButtonEvent)完全匹配; 实现AutoCloseable; 行数膨胀(417→2447)因obf hi.a()展开",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/gui/panel/view/ModuleListPanel.java"
+  },
+  "iD": {
+   "identity": "RotationManager.RotationMode",
+   "kind": "enum",
+   "conf": "A",
+   "evidence": "枚举常量SILENT和SNAP与源码RotationManager.RotationMode完全一致; super=Enum; 2个枚举常量匹配",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/managers/impl/rotations/RotationManager.java"
+  }
+ },
+ "unident": [
+  {
+   "obf": "i9",
+   "reason": "28行数据持有类，字段为Block r、BlockPos l、Set<BlockPos> g、int w。构造器(Block,BlockPos,Set<BlockPos>,int)。MC imports:BlockPos,Block。全仓搜索未找到匹配的record或内部类。可能是26.2新增或从某模块提取的内部数据类。"
+  },
+  {
+   "obf": "ia",
+   "reason": "44行lambda引导/间接调用类。包含CallSite/MethodHandle/ConstantCallSite间接调用机制。无实际业务逻辑，是invokedynamic引导类。无源码等价物。"
+  },
+  {
+   "obf": "iB",
+   "reason": "94行lambda间接调用类。含List<_Q>字段、boolean字段、静态int字段A。方法P/B/h为工厂方法，g为getter。_Q类型未在class_map中识别，无法定位源码。"
+  },
+  {
+   "obf": "ib",
+   "reason": "493行，extends iN。含lE字段，方法p(Object[])/N(Object[])/M(Object[])/J(Object[])/c()/k(Object[])处理zU+DF+坐标参数。疑为设置列表UI组件。candidates(I18NFileGenerator/SettingsListPanel/Module)行数和继承结构均不匹配。iN(vP)的3312行基类未识别，无法确认。"
+  },
+  {
+   "obf": "iC",
+   "reason": "1234行，extends iN。含List<l1>、lE字段，构造器(int,Consumer<String>,BooleanSupplier,nH)。y()做浮点除法计算列数。p()方法处理渲染坐标。疑为设置tab视图组件。candidates(AddonClientSettingTab/ConfigClientSettingTab)行数差距大(700/676 vs 1234)且继承结构不匹配。"
+  },
+  {
+   "obf": "ic",
+   "reason": "1069行Module类，含20个设置(3个Dx<nr/nW/OI>枚举、6个XG整数、3个DM双精度、1个Xn布尔、7个DV颜色)。anchor含Shaders和SettingGroup。依赖检查模式匹配渲染模块。但26.1.2源码中无任何模块的设置数量/类型分布(6I+3D+1B+7C+3E)匹配。可能是26.2版本重构或新增模块。"
+  }
+ ],
+ "conflicts": []
+}

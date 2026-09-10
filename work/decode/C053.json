@@ -1,0 +1,46 @@
+{
+ "batch": "C053",
+ "results": {
+  "u1": {
+   "identity": "AutoQueue.Mode",
+   "kind": "enum",
+   "conf": "A",
+   "evidence": "枚举值 XIN_2B2T 与 src AutoQueue.java 内部枚举 Mode.XIN_2B2T 唯一匹配; 26.2 提取为顶级类",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/modules/impl/player/AutoQueue.java"
+  },
+  "u8": {
+   "identity": "Particles",
+   "kind": "module",
+   "conf": "A",
+   "evidence": "9 个 setting 字段(3 EnumSetting+2 IntSetting+2 DoubleSetting+1 ColorSetting+1 BoolSetting)精确匹配 Particles; RenderPipeline+DepthStencilState+BlendFunction 导入一致; PlayerTickEvent.Pre+Render3DEvent 处理方法一致; Dx<_x>对应 Mode 枚举含 SnowFlake/Stars/Hearts/Dollars/Bloom",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/modules/impl/render/Particles.java"
+  }
+ },
+ "unident": [
+  {
+   "obf": "u2",
+   "reason": "Record 119行; fields: X6 vf + 13 float + Color fm; implements _Q 接口; src 中无 _Q/X6 定义, 无匹配 record; 可能是26.2新增内部数据结构"
+  },
+  {
+   "obf": "u3",
+   "reason": "Module 1601行; BedBlock 导入仅存在于26.2 jar, 26.1.2 src 中无任何模块引用 BedBlock; 仅2个 setting(Xn+DM); 坐标遍历逻辑(0.3/0.7阈值)围绕床位置检查; 可能是26.2新增的床相关战斗模块(如BedBreaker), src中无对应"
+  },
+  {
+   "obf": "u5",
+   "reason": "Record 109行; fields: im zf + boolean LX + uK DK + Player ol + boolean LQ + Vec3 JI + Difficulty k7 + float qm + AABB fV + boolean lt + Vec3 jl; 玩家状态快照 record; src 中无匹配 record, uK/im 为未识别类"
+  },
+  {
+   "obf": "u6",
+   "reason": "Record 136行; implements yM; imports XL/Xu/y3/yM + Color; src 中无 yM/XL/Xu 定义; 可能是26.2新增渲染/事件数据 record"
+  },
+  {
+   "obf": "u7",
+   "reason": "Record 80行; fields: float EW/e6/EM/EJ + float[] LN/LK + Color[] hr + int ej; 3 float+2 float[]+Color[]+int 结构; src 中无匹配 record; 可能是26.2新增渲染顶点/多边形数据 record"
+  },
+  {
+   "obf": "u9",
+   "reason": "Abstract class 41行; 单字段 String f + 6个空壳方法(a/h/c/T/g/n/Y/H); 抽象基类, src 中无匹配; 可能是26.2新增回调/处理器基类"
+  }
+ ],
+ "conflicts": []
+}

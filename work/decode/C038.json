@@ -1,0 +1,46 @@
+{
+ "batch": "C038",
+ "results": {
+  "n5": {
+   "identity": "RowClickInterceptor",
+   "kind": "interface",
+   "conf": "A",
+   "evidence": "精确结构匹配：@FunctionalInterface 接口，方法签名 boolean s(vh<?>, ih, MouseButtonEvent, boolean) 与源码 SettingListController.RowClickInterceptor handle(SettingRow<?>, UiRect, MouseButtonEvent, boolean isDoubleClick) 四参数类型完全对应(vh=SettingRow, ih=UiRect, MouseButtonEvent, boolean)。源码唯一匹配的 FunctionalInterface。",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/gui/panel/adapter/SettingListController.java"
+  },
+  "n2": {
+   "identity": "SessionData",
+   "kind": "class",
+   "conf": "A",
+   "evidence": "@SerializedName(\"accessToken\") String I 和 @SerializedName(\"selectedProfile\") yj l 与 Minecraft 认证会话数据格式完全匹配：accessToken + selectedProfile 是 Yggdrasil 认证响应的标准字段名。Gson 注解直接暴露明文字段名，无需解密。",
+   "src_path": "旧版本的源代码/（26.1.2 源码中无直接对应文件名，可能为内部类或新文件）"
+  }
+ },
+ "unident": [
+  {
+   "obf": "n4",
+   "reason": "1131 行 class，导入 Animation(_E)+Easing(lH)+UiRect(ih)+CharacterEvent+Setting(Dl)。有 _E(Animation) 字段和 CharacterEvent 处理方法 N()，以及字符串操作方法。导入集与 ModuleListPanel 高度相似，但 iA 已在 class_map 中确认为 ModuleListPanel（2447行），故 n4 非 ModuleListPanel。源码中无其他 1131 行的 GUI 组件匹配此导入集组合。可能是 26.2 新增的设置面板组件或大型文本输入类。"
+  },
+  {
+   "obf": "n0",
+   "reason": "Enum 3 常量：POSITION_DRAG_GRAVITY, GRAVITY_DRAG_POSITION, GRAVITY_POSITION_DRAG（描述三个效果的排序/优先级），无 MC import，无 candidates，源码中无匹配枚举。可能是动画或物理效果优先级枚举，但无法确定具体类名。"
+  },
+  {
+   "obf": "n3",
+   "reason": "Class：LivingEntity D + Vec3 x + long Z/A/c 字段，方法 y(Object[]) 设置 Vec3（可能是位置预测/插值）。MC import LivingEntity+Vec3 匹配多个候选（MixinLivingEntity, FollowerNavigator, DamageUtils），但结构特征不足以唯一匹配。"
+  },
+  {
+   "obf": "n6",
+   "reason": "Final class：Oq S + float z + vq o + _t W + yn v + GpuBufferSlice O/q。GpuBufferSlice 仅出现在渲染类中，但 Oq/vq/_t/yn 均为 26.2 新增或重命名的类，源码中无匹配结构。可能是渲染管线描述符/着色器状态类。"
+  },
+  {
+   "obf": "n7",
+   "reason": "Enum 3 常量 Cine, Euabe, Local（加密名称），无 MC import，无 candidates。名称含义不明（可能是网络类型、视图模式等），无法从结构推断。"
+  },
+  {
+   "obf": "n8",
+   "reason": "Record 实现 _Q 接口，字段 int a + _Q f（递归类型）。_Q 接口在源码中未找到定义。可能是 token 链表节点或递归数据结构，但无法确定具体类名。"
+  }
+ ],
+ "conflicts": []
+}

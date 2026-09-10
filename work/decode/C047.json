@@ -1,0 +1,49 @@
+{
+ "batch": "C047",
+ "results": {
+  "OE": {
+   "identity": "Font",
+   "kind": "class",
+   "conf": "A",
+   "evidence": "STBTTFontinfo+Identifier+ByteBuffer字段；方法Z(行高)、B(字宽)、N(文本宽)、Y(int)均对应字体度量操作；构造函数接受Identifier/Path加载字体资源",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/"
+  },
+  "Of": {
+   "identity": "StraightFollowerNavigator",
+   "kind": "class",
+   "conf": "A-",
+   "evidence": "实现Oa(FollowerNavigator接口)；w()方法参数LocalPlayer/LivingEntity/Vec3/Xg(FollowerConfig)与接口getPath签名一致；内部仅构造简单路径(与StraightFollower一致)；候选中FollowerNavigator/StraightFollowerNavigator评分最高",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/modules/impl/movement/follower/StraightFollowerNavigator.java"
+  },
+  "Og": {
+   "identity": "SettingListController",
+   "kind": "class",
+   "conf": "A-",
+   "evidence": "导入集精确匹配：CharacterEvent/KeyEvent/MouseButtonEvent/PreeditEvent四种输入事件+AutoCloseable；lambda名buildSectionCard/prepareLayout与src SettingListController方法同名；源码525行→jar2877行(版本26.1.2→26.2大幅扩展)；候选ModuleButton/SettingsContent均不符(导入集不同且无同名方法)",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/gui/panel/adapter/SettingListController.java"
+  }
+ },
+ "unident": [
+  {
+   "obf": "OC",
+   "reason": "Record类(67行)，字段zP/_j/l5/vx均为未识别混淆类型，无MC导入，无法与src中任何record匹配"
+  },
+  {
+   "obf": "Oc",
+   "reason": "extends nV<Oc>(SettingHost子类)，创建User对象(UUID+name)，无src匹配类(AccountSetting等在26.1.2中不存在，疑为26.2新增)"
+  },
+  {
+   "obf": "Od",
+   "reason": "Record类(94行)，字段layer(int)/sequence(long)/bounds(XL)/scissor(Xu)/4×Color，渲染叠加记录，src中无对应record定义"
+  },
+  {
+   "obf": "OF",
+   "reason": "extends nV<OF>(SettingHost子类)，创建User对象，equals引用values()疑为枚举型SettingHost，src中无匹配"
+  },
+  {
+   "obf": "OG",
+   "reason": "小类(39行)，static int[]+5个try-catch块设置枚举索引值1-4，src中无对应静态初始化类"
+  }
+ ],
+ "conflicts": []
+}

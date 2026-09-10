@@ -1,0 +1,66 @@
+{
+ "batch": "C015",
+ "results": {
+  "eO": {
+   "identity": "MaceAura",
+   "kind": "module",
+   "conf": "A",
+   "evidence": "MC导入唯一指纹: ServerboundMovePlayerPacket+LivingEntity+Item(s)+Vec3 组合仅MaceAura同时具备; BoolSetting/DoubleSetting/EnumSetting/IntSetting 字段类型匹配; dR=PlayerTickEvent.Pre锚点吻合",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/modules/impl/combat/MaceAura.java"
+  },
+  "eo": {
+   "identity": "AutoArmor",
+   "kind": "module",
+   "conf": "A",
+   "evidence": "MC导入唯一指纹: Equippable 仅AutoArmor和InvHelper(非Module)引用; EquipmentSlot+AttributeModifier+ItemStack+Holder组合吻合; Dx类型与AutoArmor的ElytraPriority/ArmorRating等内部枚举一致",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/modules/impl/player/AutoArmor.java"
+  },
+  "eq": {
+   "identity": "ZealotCrystalPlus",
+   "kind": "module",
+   "conf": "B",
+   "evidence": "DQ=DamageUtils$ArmorEnchantmentMode类型匹配; nN=SettingGroup确认; 大量Bool/Color/Double/Enum/Int/KeybindSetting字段与ZCP设置谱一致; MC导入(ClientLevel/LocalPlayer/BlockPos/Direction/InteractionHand/LivingEntity/Item/ItemStack/BlockState/AABB)吻合; jar 7528行 vs src 2118行为CFR膨胀",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/modules/impl/combat/ZealotCrystalPlus.java"
+  },
+  "eR": {
+   "identity": "HitParticles",
+   "kind": "module",
+   "conf": "B",
+   "evidence": "MC导入Minecraft+Identifier; RenderPipeline(static final)与HitParticles的HIT_PARTICLE_PIPELINE吻合; DV(ColorSetting)+XG(IntSetting)+Xn(BoolSetting)+Dx(EnumSetting)字段类型匹配; d9=Render3DEvent锚点确认; 渲染模块且含ColorSetting",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/modules/impl/render/HitParticles.java"
+  },
+  "er": {
+   "identity": "AutoKouZi",
+   "kind": "module",
+   "conf": "A",
+   "evidence": "Dx<dG>=EnumSetting<AutoKouZi$Mode> 类型指纹唯一确认; Xc(StringSetting)+XG(IntSetting)与AutoKouZi的mode/delay/customPath设置匹配; dR=PlayerTickEvent.Pre锚点吻合; MC无导入(纯文本处理模块)",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/modules/impl/player/AutoKouZi.java"
+  }
+ },
+ "unident": [
+  {
+   "obf": "eP",
+   "reason": "MC导入Gui+LocalPlayer但无模块源码直接导入Gui(仅MixinGui); jar有大量Bool/Double/Enum/IntSetting及D1类型(未识别); 1961行过大无法匹配任何已知渲染/HUD模块; candidates均不匹配"
+  },
+  {
+   "obf": "ep",
+   "reason": "MC导入为外部库me.sofurry.iiIllIllli(IlilIlIlil+Hidden0)，非net.minecraft标准类; 该外部库不在epsilon源码字典中，属于addon/外部模块"
+  },
+  {
+   "obf": "eQ",
+   "reason": "MC导入ClipContext+SlabBlock+SlabType组合独特但源码字典中无任何文件同时导入这三者; SlabType在src中零引用; ClientTickEvent.Pre+IntSetting信号不足以定位; 1640行无匹配候选"
+  }
+ ],
+ "conflicts": [
+  {
+   "obf": "eq",
+   "claimed": "ZealotCrystalPlus",
+   "existing": "class_map 'un' (conf B)"
+  },
+  {
+   "obf": "er",
+   "claimed": "AutoKouZi",
+   "existing": "class_map 'a' (conf C)"
+  }
+ ]
+}

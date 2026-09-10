@@ -1,0 +1,52 @@
+{
+  "batch": "C012",
+  "results": {
+    "dy": {
+      "identity": "EpsilonTranslateComponent",
+      "kind": "util",
+      "conf": "A",
+      "evidence": "方法 q(String,String) 构造 'epsilon.prefix.suffix' 键并返回 TranslateComponent，与源码 EpsilonTranslateComponent.create(prefix,suffix) 逻辑完全一致；静态初始化解密 PREFIX 常量和辅助数组",
+      "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/assets/i18n/EpsilonTranslateComponent.java"
+    },
+    "DZ": {
+      "identity": "EpsilonTranslations$Module",
+      "kind": "class",
+      "conf": "A",
+      "evidence": "6 个 static final uT (TranslateComponent) 字段，与源码 EpsilonTranslations.Module 内部类的 6 个 static TranslateComponent 字段 (VISIBLE/HIDDEN/FROM/STATE_PREFIX/STATE_ENABLED/STATE_DISABLED) 数量和类型完全一致；构造时通过 EpsilonTranslateComponent.create(prefix,suffix) 初始化",
+      "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/assets/i18n/EpsilonTranslations.java"
+    },
+    "d_": {
+      "identity": "InvManager$OffhandItemMode",
+      "kind": "enum",
+      "conf": "A",
+      "evidence": "枚举常量 None/GoldenApple/Projectile/FishingRod/Block 与源码 InvManager.OffhandItemMode 枚举值完全一致（顺序/名称均匹配）",
+      "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/modules/impl/player/InvManager.java"
+    },
+    "D_": {
+      "identity": "MainMenuScreen$MenuEntry",
+      "kind": "class",
+      "conf": "B",
+      "evidence": "5 float + String + Runnable 字段签名匹配源码 MenuEntry；构造器 (String, Runnable) 一致；z(double,double) 坐标范围检查对应 isHovered；version 26.2 可能新增额外 float 字段",
+      "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/gui/screen/MainMenuScreen.java"
+    }
+  },
+  "unident": [
+    {
+      "obf": "Dy",
+      "reason": "Record(ByteBuffer, int, int, long) 共 56 行，无 MC import，无候选；源码中无匹配的 Record 类定义（version 26.2 新增的内部数据类）"
+    },
+    {
+      "obf": "Dz",
+      "reason": "Exception 子类仅 12 行，单构造器 Dz(String)，无任何特征字段或方法；源码中无同名 Exception 子类"
+    },
+    {
+      "obf": "dZ",
+      "reason": "59 行工具类，static int[] y 通过 Difficulty ordinal() 映射索引，疑似难度值映射表；源码 26.1.2 中无同结构类（可能为 26.2 新增辅助类）"
+    },
+    {
+      "obf": "e3",
+      "reason": "extends Module(e) 共 323 行，imports Gui/IlilIlIlil/Hidden0；有 screen() 方法返回 Gui 实例、@EventPriority(LOWEST) 事件处理、b(Object[]) 主执行方法；源码所有 Module 子类中无使用 net.minecraft.client.gui.Gui 的（MixinGui 是 Mixin 不是 Module），无法定位"
+    }
+  ],
+  "conflicts": []
+}

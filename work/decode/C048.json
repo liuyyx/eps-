@@ -1,0 +1,55 @@
+{
+  "batch": "C048",
+  "results": {
+    "OH": {
+      "identity": "HoleType",
+      "kind": "enum",
+      "conf": "A",
+      "evidence": "枚举常量完全匹配: NotHole, Single, DoubleX, DoubleZ, Quad = HoleType.java 的5个常量; 用法匹配HoleUtils/Hole.java/HoleESP.java中的HoleType引用",
+      "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/utils/world/hole/HoleType.java"
+    },
+    "Oh": {
+      "identity": "CrystalBlocker.RotateMode",
+      "kind": "enum",
+      "conf": "A",
+      "evidence": "枚举常量完全匹配: Normal, None, Silent = CrystalBlocker.java 内部枚举 RotateMode 的3个常量; jar中顺序不同但常量集一致",
+      "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/modules/impl/combat/CrystalBlocker.java"
+    },
+    "Oi": {
+      "identity": "着色器Uniform数据record（26.2新增）",
+      "kind": "record",
+      "conf": "C",
+      "evidence": "implements DynamicUniformStorage.DynamicUniform; 15组件: 12float+3Color; write()用Std140Builder.putVec4写入; 26.1.2源码中ShaderParams(13float)和ShaderColors(6Color)均不匹配此15组件结构; 可能为26.2新增的着色器uniform record",
+      "src_path": "无匹配"
+    },
+    "OJ": {
+      "identity": "LambdaListener",
+      "kind": "class",
+      "conf": "A",
+      "evidence": "implements zI(IListener); 字段: Class<?> j(target), boolean X(isStatic), int I(priority), Consumer<Object> q(executor) 完全匹配LambdaListener; 构造器(yc/Factory, Class, Object, Method)匹配; 使用LambdaMetafactory+MethodHandles创建Consumer; 静态初始化块获取privateLookupIn方法; 方法call/getTarget/getPriority/isStatic对应z/o/J/K",
+      "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/events/bus/listeners/LambdaListener.java"
+    },
+    "Oj": {
+      "identity": "ZealotCrystalPlus.PlaceChoice",
+      "kind": "class",
+      "conf": "A",
+      "evidence": "字段完全匹配: BlockPos F(target/blockPos), LivingEntity f(target), float y(selfDamage, init MAX_VALUE), float W(targetDamage, init NEGATIVE_INFINITY); M方法=update(LivingEntity,BlockPos,float,float); C方法=clear()(重置为null/MAX_VALUE/NEGATIVE_INFINITY); 与ZealotCrystalPlus.java内PlaceChoice内部类结构一致",
+      "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/modules/impl/combat/ZealotCrystalPlus.java"
+    }
+  },
+  "unident": [
+    {
+      "obf": "OI",
+      "reason": "Enum只有2个常量Solid和Gradient; 26.1.2源码中FireflyESP.ColorMode有Solid但配Blend/Rainbow(3值), ShaderHolder.Shader有Gradient但配Default/Smoke/Snow/Fade(5值); 无任何枚举同时含Solid和Gradient; 可能为26.2新增枚举"
+    },
+    {
+      "obf": "Ok",
+      "reason": "Record 3组件: nK(未映射类型), String, float; 无MC导入; 锚点仅SeQL+异步资源/数据加载缓存类; 26.1.2源码无匹配record(nK类型无法确认)"
+    },
+    {
+      "obf": "OL",
+      "reason": "Record 3组件: yn(未映射类型), float, Oq(未映射类型); 无MC导入; 锚点仅SeQL; 26.1.2源码无匹配record(yn和Oq类型均未映射)"
+    }
+  ],
+  "conflicts": []
+}

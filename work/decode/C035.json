@@ -1,0 +1,55 @@
+{
+  "batch": "C035",
+  "results": {
+    "lo": {
+      "identity": "LogoutSpots.LogoutPlayer",
+      "kind": "class",
+      "conf": "A",
+      "evidence": "extends RemotePlayer; 字段 ue Q=LogoutSpots 模块引用(class_map ue=LogoutSpots); 构造器接收 Player 复制 position/attributes/animation/walkState 与 26.1.2 LogoutSpots.LogoutPlayer 源码逐行同构; shouldShowName()=false, belowNameDisplay()=null; 渲染方法 G(Object[]) 使用 ColorSetting(WireframeEntityRenderer) 同构 src render()",
+      "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/modules/impl/render/LogoutSpots.java:215"
+    },
+    "lp": {
+      "identity": "TargetHUD",
+      "kind": "hudmodule",
+      "conf": "A",
+      "evidence": "extends l8(Module/HudModule); 字段 LivingEntity w=渲染目标; 大量 float 常量(160.0/50.0/1.25/0.9)为 HUD 面板尺寸; L(Object[])绘制十字准星形状; W(Object[])做 float 插值动画; S() override 返回 boolean(可见性判断); V(Object[])返回 LivingEntity(获取目标); 构造器 LivingEntity+Supplier<_j>+gk 同构 src TargetHUD target tracking 结构",
+      "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/elements/impl/TargetHUD.java"
+    },
+    "lQ": {
+      "identity": "AnchorBlast.Phase",
+      "kind": "enum",
+      "conf": "A",
+      "evidence": "enum 7 值: IDLE/PLACE_SHIELD/CHARGE/DETONATE/PLACE_ANCHOR/WAIT_ANCHOR/WAIT_SHIELD; 26.1.2 src AnchorBlast.Phase 有 IDLE/PLACE_ANCHOR/CHARGE/DETONATE/CLEANUP; 26.2 版本扩展新增 PLACE_SHIELD/WAIT_ANCHOR/WAIT_SHIELD(盾牌+锚点等待状态, crystal pvp 完整状态机); 常量名同源域(anchor/shield/detonate)",
+      "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/modules/impl/combat/AnchorBlast.java:32"
+    },
+    "lq": {
+      "identity": "NoSlow.Mode",
+      "kind": "enum",
+      "conf": "A",
+      "evidence": "enum 4 值: Vanilla/Grim1_2/Grim1_3/GrimBlink; 26.1.2 src NoSlow.Mode 有 Vanilla/Grim1_2/Grim1_3(3值); 26.2 新增 GrimBlink; 枚举常量名(反服务器名+版本号)逐字同构 src NoSlow.Mode; class_map 已有 NoSlow 模块(eN), 此为内部枚举",
+      "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/modules/impl/movement/NoSlow.java:35"
+    },
+    "lR": {
+      "identity": "LuminVertexFormats",
+      "kind": "util",
+      "conf": "A",
+      "evidence": "5 个 static final VertexFormat 字段(s/k/o/Y/U); 导入 GpuFormat+VertexFormat+VertexFormat.Builder; 静态初始化器使用 builder().addAttribute() 构建多种顶点格式; 26.1.2 src LuminVertexFormats 定义 ROUND_RECT/ROUND_RECT_OUTLINE/TEXTURE 三格式(26.2 扩展至5); 17 个字符串常量=顶点属性名(Position/Color/UV0/InnerRect/Radius/OutlineWidth等)",
+      "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/graphics/LuminVertexFormats.java"
+    }
+  },
+  "unident": [
+    {
+      "obf": "ln",
+      "reason": "Record implementing _Q(sealed interface, 31 permit类); 字段: Color+6×float+String+nK(9组件); 锚点描述'异步资源/数据加载缓存类(implements DS接口)'; 26.1.2 源码无匹配 record(最近似 Potions.EffectInfo 7字段/类型不符); _Q 为 26.2 新增 sealed interface, 其 permit 类均为渲染命令 record; 无法从 26.1.2 源码定位具体类名"
+    },
+    {
+      "obf": "lO",
+      "reason": "小类(35行), 包装 i2 对象, 两个方法(Matrix4f+float/int → 委托 i2); 无 MC imports, 无 candidates; 26.1.2 源码无匹配类; i2 本身未在 class_map 中识别; 可能是 26.2 新增渲染管线辅助类, 无法确定类名"
+    },
+    {
+      "obf": "lP",
+      "reason": "Enum 3值: STANDARD/FONT_BLUR/GLITCH; 文本渲染效果模式枚举; 26.1.2 源码未找到包含 STANDARD/FONT_BLUR/GLITCH 常量的枚举类; 锚点仅 SeQL/字符串解密(无模块关联); 可能是 26.2 新增渲染模块的内部枚举或独立枚举类, 无法确定类名"
+    }
+  ],
+  "conflicts": []
+}

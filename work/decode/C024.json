@@ -1,0 +1,49 @@
+{
+ "batch": "C024",
+ "results": {
+  "i0": {
+   "identity": "Speed.Mode",
+   "kind": "enum",
+   "conf": "A",
+   "evidence": "枚举恰好3值 Grim/Strafe/StrafeStrict，与源码 Speed.java 的 private enum Mode { Strafe, StrafeStrict, Grim } 完全一致",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/modules/impl/movement/Speed.java:38-42"
+  },
+  "i1": {
+   "identity": "SettingsListPanel",
+   "kind": "class",
+   "conf": "B",
+   "evidence": "extends iN(抽象UI组件基类，implement vP)；引用Setting+TranslateComponent；1698行大UI面板；候选SettingsListPanel是最符合的UI面板类；排除Module(已识别=e)和ModuleDetailPanel(implements AutoCloseable)",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/gui/dropdown/component/SettingsListPanel.java"
+  },
+  "i6": {
+   "identity": "PanelScreen",
+   "kind": "screen",
+   "conf": "A",
+   "evidence": "extends Screen；构造器super(Component.literal(...))匹配；导入IMEPreeditOverlay+CharacterEvent+KeyEvent+MouseButtonEvent+PreeditEvent与PanelScreen一致；引用PanelInputRouter+Module+Setting与PanelScreen的inputRouter字段吻合；静态D字段=INSTANCE单例",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/gui/panel/PanelScreen.java"
+  }
+ },
+ "unident": [
+  {
+   "obf": "i2",
+   "reason": "final类，构造器接受VertexFormat+PrimitiveTopology，字段含RenderPipeline/Consumer<RenderPass>/Identifier/Vector3f/Matrix4f，为渲染管线封装类。PrimitiveTopology和Consumer<RenderPass>在26.1.2源码中未出现，可能为26.2新增渲染类，无法匹配"
+  },
+  {
+   "obf": "i3",
+   "reason": "仅16行，含@SerializedName(\"SKIN\")字段(gX类型)。无对应源码类，SKIN注解在src中未出现。可能是皮肤配置DTO，但无法确认"
+  },
+  {
+   "obf": "i4",
+   "reason": "223行类，字段float f/nq x/float O，引用Dl(Setting)。结构过小且高度混淆，候选(EpsilonAddon/I18NFileGenerator/AddonPanelEntry)均无结构匹配证据"
+  },
+  {
+   "obf": "i5",
+   "reason": "枚举恰好2值Normal/Strict。源码中Scaffold.RaytraceMode有完全相同的Normal/Strict值，但该enum为Scaffold的private inner enum，提取为顶层类的映射无法确认（需26.2源码验证）。候选为空"
+  },
+  {
+   "obf": "i7",
+   "reason": "Record类型，组件：Module e + String fw/fU/fe + float k3/KX/KG。74行。引用Module但无可识别源码Record类匹配。可能是模块列表行的渲染数据record，但无法确认"
+  }
+ ],
+ "conflicts": []
+}

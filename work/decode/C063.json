@@ -1,0 +1,46 @@
+{
+  "batch": "C063",
+  "results": {
+    "vN": {
+      "identity": "ClientSetting$ModuleSort",
+      "kind": "enum",
+      "conf": "A-",
+      "evidence": "枚举常量 Name/EnabledFirst/Addon 与 ClientSetting.ModuleSort(源码第40-43行)完全一致; 3个常量、125行均吻合; 版本差(26.1.2→26.2)",
+      "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/modules/impl/ClientSetting.java"
+    },
+    "vn": {
+      "identity": "PanelState$ActivePopup",
+      "kind": "enum",
+      "conf": "A-",
+      "evidence": "枚举常量 COLOR_PICKER/KEY_BIND/ENUM_SELECT/NONE 与 PanelState.ActivePopup(源码第16-21行)完全一致; 4个常量、168行均吻合; 版本差(26.1.2→26.2)",
+      "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/gui/panel/PanelState.java"
+    }
+  },
+  "unident": [
+    {
+      "obf": "vO",
+      "reason": "LinkedHashMap<Ok,Float> + removeEldestEntry LRU 缓存; 引用 SeQL/Setting; 166行; 源码26.1.2无 LinkedHashMap<Ok,Float> 子类, v26.2 可能为新增"
+    },
+    {
+      "obf": "vo",
+      "reason": "渲染工具类, 静态方法 v(PoseStack, LivingEntity, int, int, double, double, Color, ya, Color, ...) 14参数签名与 FireflyESP.render 吻合, 但使用26.2新RenderPipeline(Buffers/GpuSampler/GpuTextureView), 源码26.1.2无此API; 392行"
+    },
+    {
+      "obf": "vP",
+      "reason": "输入处理接口(float坐标 mouseClicked/mouseDragged/keyPressed); 63行; 源码26.1.2所有GUI组件类均用double坐标, 没有float坐标输入接口; 可能为26.2新版输入抽象"
+    },
+    {
+      "obf": "vp",
+      "reason": "单例类, 791行, N(UUID)方法+skinUrl字符串+Gson反序列化_b类; 异步加载皮肤数据; 源码26.1.2未找到同构皮肤管理类"
+    },
+    {
+      "obf": "vQ",
+      "reason": "Record 7组件: Ds(String,String,boolean,Color,Color) + 6个float; 渲染/样式记录; 74行; 源码26.1.2无同构record(可能为26.2新增渲染数据结构)"
+    },
+    {
+      "obf": "vq",
+      "reason": "4037行, implements v2(渲染接口), 使用26.2 GPU API(RenderPipeline/GpuBufferSlice/RenderPass/GpuSampler/GpuTextureView); 多个Map<Ok,Float>/Map<Ok,ON>/Map<OL,n6>; 源码26.1.2的Render3DScheduler结构差异过大, 无法确认对应关系"
+    }
+  ],
+  "conflicts": []
+}

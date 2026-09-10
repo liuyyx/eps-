@@ -1,0 +1,49 @@
+{
+ "batch": "C064",
+ "results": {
+  "vs": {
+   "identity": "StringSettingRow",
+   "kind": "class",
+   "conf": "A",
+   "evidence": "extends vh<Xc>=SettingRow<StringSetting>; MC imports: KeyboardHandler, GuiGraphicsExtractor, CharacterEvent, MouseButtonEvent; 3252行; 源码StringSettingRow extends SettingRow<StringSetting> imports CharacterEvent/MouseButtonEvent/KeyboardHandler/GuiGraphicsExtractor; 匹配完整",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/gui/panel/component/setting/StringSettingRow.java"
+  },
+  "vU": {
+   "identity": "ColorSettingRow",
+   "kind": "class",
+   "conf": "A",
+   "evidence": "extends vh<DV>=SettingRow<ColorSetting>; MC imports: GuiGraphicsExtractor, MouseButtonEvent; 276行; 源码ColorSettingRow extends SettingRow<ColorSetting> imports GuiGraphicsExtractor/MouseButtonEvent; 方法签名匹配(mouseClicked→E, buildUi→K, getSwatchBounds→m)",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/gui/panel/component/setting/ColorSettingRow.java"
+  },
+  "vt": {
+   "identity": "Notifications$RenderStage",
+   "kind": "enum",
+   "conf": "A",
+   "evidence": "已存在class_map(A级); jar枚举常量ENTER_BAR/ENTER_CONTENT/SHOW/EXIT_CONTENT/EXIT_BAR/HIDDEN与源码Notifications$RenderStage完全匹配",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/elements/impl/notification/Notifications.java"
+  }
+ },
+ "unident": [
+  {
+   "obf": "vR",
+   "reason": "类有List<dd>字段、静态单例H、同步方法G/Q(添加dd)/z(遍历); dd未识别; 无MC imports; 无candidates; 锚点仅SeQL; 无匹配源码; 无法判定身份"
+  },
+  {
+   "obf": "vr",
+   "reason": "Record(4 float字段NG/np/n1/nz); 有3个私有计算方法(NM/w/Nt)和默认构造A(NaN); candidates(EpsilonAddon/I18NFileGenerator/AddonPanelEntry)均为非Record类,不符; 源码中无匹配的4-float Record; 无法判定身份"
+  },
+  {
+   "obf": "vS",
+   "reason": "类有int字段o/z/p、XL字段、List<yM>集合、数组vS[]; XL和yM均未识别; candidates(EpsilonAddon/I18NFileGenerator/AddonPanelEntry)结构不符; 无MC imports; 无法匹配源码"
+  },
+  {
+   "obf": "vT",
+   "reason": "Enum(2常量HORIZONTAL/VERTICAL); 123行; 无candidates; 源码中未找到匹配的2值水平/垂直枚举; 可能为26.2新增或内部枚举; 无法判定身份"
+  },
+  {
+   "obf": "vu",
+   "reason": "Record(Direction bx, float iK, AABB FH, int hn); 61行; MC imports: Direction, AABB; 表面似raytrace hit结果; 源码中无匹配的含Direction+float+AABB+int的Record; 无法判定身份"
+  }
+ ],
+ "conflicts": []
+}

@@ -1,0 +1,49 @@
+{
+ "batch": "C078",
+ "results": {
+  "yQ": {
+   "identity": "PlaceBypass",
+   "kind": "enum",
+   "conf": "A",
+   "evidence": "enum 常量 Up/Down/Closest 与 ZealotCrystalPlus.java 内部 enum PlaceBypass { Up, Down, Closest } 完全匹配；3 个常量，142 行；standalone class 是 inner enum 提取产物",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/modules/impl/combat/ZealotCrystalPlus.java"
+  },
+  "yR": {
+   "identity": "LungeMode",
+   "kind": "enum",
+   "conf": "A",
+   "evidence": "enum 常量 DirectionBased/Above 与 SpearKill.java 内部 enum LungeMode { DirectionBased, Above } 完全匹配；2 个常量，123 行；standalone class 是 inner enum 提取产物",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/modules/impl/combat/SpearKill.java"
+  },
+  "yr": {
+   "identity": "PacketPlaceMode",
+   "kind": "enum",
+   "conf": "A",
+   "evidence": "enum 常量 Off/Weak/Strong 各带2个boolean字段(onRemove,onBreak)与 ZealotCrystalPlus.java 内部 enum PacketPlaceMode { Off(false,false), Weak(true,false), Strong(true,true) } 完全匹配；149 行",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/modules/impl/combat/ZealotCrystalPlus.java"
+  }
+ },
+ "unident": [
+  {
+   "obf": "yq",
+   "reason": "Record，8 float + 4 Color 组件，implements _Q；106 行。src 未找到匹配的独立 record：_Q 接口为混淆名，候选(EpsilonAddon/I18NFileGenerator/AddonPanelEntry)均为非 record 类型，无法核实。疑似 GUI 样式/渲染参数 record，版本差异导致 src 中缺失或已重构"
+  },
+  {
+   "obf": "yS",
+   "reason": "21 行小类，@SerializedName(\"DisplayClaims\") + @SerializedName(\"Token\") 字段，类型 nd。疑似 Xbox Live/XSTS 认证数据类，但 src 26.1.2 字典中无 SerializedName 注解出现，无匹配类。可能为 26.2 新增或从外部库引入"
+  },
+  {
+   "obf": "ys",
+   "reason": "1192 行大类，implements _A；导入 GpuBuffer/RenderPass(Dl Setting/_t/d5)；方法含 drawRect/gradient/border 渲染模式（M(4int)/K→boolean/Q(RenderPass)）；singleton s()。_A 接口为混淆名，src 中无匹配的同规模渲染+Settings 类。可能是面板 UI 渲染核心类（如 SettingListController 或 PanelScreen 的渲染部分），版本差异导致无法确认"
+  },
+  {
+   "obf": "yT",
+   "reason": "Record，8 float 组件(mP/mY/mV/mM/mF/mr/ms/my)；404 行；含两种 containment 方法 r(double,double)/d(double,double) 分别检查不同坐标边界。疑似滚动条/布局几何 record（类似 UiScrollBar.Geometry 或 ScrollBarUtils.ThumbGeometry），但 src 中对应 record 为 inner private class 且行数/结构不符，无法确认"
+  },
+  {
+   "obf": "yU",
+   "reason": "59 行，导入 EquipmentSlot；static final int[] B 通过 EquipmentSlot.ordinal() 索引赋值 1-5；疑似装备槽到整数索引的映射工具类。src 中使用 EquipmentSlot 的类(TargetHUD/AutoWeapon/InvManager 等)均为使用方而非定义此映射的类；无独立映射类匹配"
+  }
+ ],
+ "conflicts": []
+}

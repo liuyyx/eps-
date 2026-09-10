@@ -1,0 +1,58 @@
+{
+ "batch": "C081",
+ "results": {
+  "z6": {
+   "identity": "ShaderUniforms",
+   "kind": "record",
+   "conf": "A",
+   "evidence": "Record with 2 GpuBufferSlice fields (params,colors); exact match: ShaderHolder.java:351 'private record ShaderUniforms(GpuBufferSlice params, GpuBufferSlice colors)'",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/holders/ShaderHolder.java"
+  },
+  "z8": {
+   "identity": "HudModule.VerticalAnchor",
+   "kind": "enum",
+   "conf": "A",
+   "evidence": "Enum constants Top, Bottom, Center; exact match: HudModule.java:32 'enum VerticalAnchor { Top, Center, Bottom }'; used in HudLayoutHelper for vertical positioning",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/elements/impl/HudModule.java"
+  },
+  "z9": {
+   "identity": "Difficulty_dispatch_bootstrap",
+   "kind": "class",
+   "conf": "B",
+   "evidence": "Static arrays + invokedynamic bootstrap method; uses ordinal() on Difficulty enum; builds switch dispatch tables for Difficulty; anchored to SeQL/字符串解密+调用分发核心; MC import: Difficulty",
+   "src_path": null
+  },
+  "zA": {
+   "identity": "StringListSettingDropdownView",
+   "kind": "class",
+   "conf": "A-",
+   "evidence": "Extends zv<XF>(XF=StringListSetting); anchored to DropdownScreen/SeQL/StringListSetting; methods: Y() returns int from setting, L() returns string, X() renders; version 26.1.2 src has StringListSettingRow in panel adapter (different system); panel dropdown system zv base not yet mapped",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/gui/panel/adapter/SettingViewFactory.java"
+  },
+  "za": {
+   "identity": "KeybindSettingView",
+   "kind": "class",
+   "conf": "A",
+   "evidence": "Extends zc<X0>(X0=KeybindSetting); anchored to KeybindSetting/SeQL/Setting; 880 lines; fields: _E animation, floats for keybind state; methods: b(Object[]) renders keybind UI, H()=16.0f, e(Object[]) handles events; matches SettingViewFactory pattern for KeybindSetting",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/gui/panel/adapter/SettingViewFactory.java"
+  },
+  "zb": {
+   "identity": "RotationManager",
+   "kind": "class",
+   "conf": "A",
+   "evidence": "Abstract class; fields match exactly: uK(rotations), uK(lastRotations), uK(targetRotations), uK(animationRotation), uK(lastAnimationRotation), boolean(active), boolean(smoothed), double(rotationSpeed), Function(rotations+raytrace), float(randomAngle), boolean(s08), HitResult(rotationHitResult), boolean(calculatingHitResult), int(priority); @yE=@EventHandler; events: PlayerTickEvent.Pre/RaytraceEvent/RespawnEvent/RotationAnimationEvent/SendPositionEvent; MC imports: Minecraft/LocalPlayer/HitResult",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/managers/impl/rotations/RotationManager.java"
+  }
+ },
+ "unident": [
+  {
+   "obf": "z7",
+   "reason": "Record with 19 float fields (n/w/l/v/c/e/g/q/y/o/k/t/s/d/b/r/j/i/p), 145 lines; no MC imports, anchored to SeQL; no matching record found in 26.1.2 src (all src records have ≤10 fields); may be new in 26.2 or a rendering/matrix utility record"
+  },
+  {
+   "obf": "zB",
+   "reason": "Interface with single method 'boolean F()'; no MC imports, no anchored_refs, no candidates; too minimal to identify without usage context; could be a predicate/toggle/update-check interface"
+  }
+ ],
+ "conflicts": []
+}

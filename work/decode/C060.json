@@ -1,0 +1,49 @@
+{
+ "batch": "C060",
+ "results": {
+  "va": {
+   "identity": "SettingTab",
+   "kind": "record",
+   "conf": "A",
+   "evidence": "Record(String LO, List<Dl<?>> nb, nN qO); 字段=名称+settings列表+SettingGroup; 工厂方法C(name,group)/n(name)构造空ArrayList; candidates(EpsilonAddon/I18NFileGenerator)均为抽象类/工具类，与Record结构不匹配",
+   "src_path": "无直接源文件匹配（SettingTab为渲染管线内部类，26.1.2源码未暴露此类型）"
+  },
+  "vb": {
+   "identity": "Trail",
+   "kind": "class",
+   "conf": "A-",
+   "evidence": "213行; Vec3 H/O(from/to位置) + Color z + u8 N + int r/C(age/tick计数); 方法z(float)做lerp插值/10.0, b(Object[])计算camera-relative Vec3; 与particles.Trail的Vec3 interpolate(float)结构一致; 26.1.2版本中Trail内联，26.2可能提取为独立类",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/modules/impl/render/Particles.java#Trail"
+  },
+  "vC": {
+   "identity": "Animation",
+   "kind": "class",
+   "conf": "A-",
+   "evidence": "269行; 字段float H/value + boolean x/forward + long s/startMs; 方法r(Object[])做float插值+easing曲线+状态切换(正反向); 与utils.render.animation.Animation(UiAnimation接口)角色完全匹配; 版本差异: Animation实现UiAnimation接口，vC可能接口名被混淆",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/utils/render/animation/Animation.java"
+  }
+ },
+ "unident": [
+  {
+   "obf": "v3",
+   "reason": "114行Record(layer,sequence,bounds,scissor,lu(String),3×float,Color,Oq,nK) implements yM; 返回y3; yM/y3/Oq/nK/XL/Xu均为lumingraphics库混淆类型; 是UI渲染管线中的render command record(与vA/v6同族); 26.1.2源码无此类型直接暴露; candidates为空; 无法确认具体类名"
+  },
+  {
+   "obf": "v4",
+   "reason": "18行小类; @SerializedName('name') String A + private构造; 是Gson DTO仅含name字段; candidates(EpsilonAddon/I18NFileGenerator)均不匹配(抽象类/工具类); 可能是lumingraphics库或addon系统的DTO; 无法确认具体类名"
+  },
+  {
+   "obf": "v5",
+   "reason": "1157行类 implements _A; 导入GpuBufferSlice+RenderPass; v(float,float,int)写position-color顶点(x,y,0,color); W/Q/K/J方法处理GPU渲染管线; P()返回单例; 是GPU即时渲染器; _A为混淆的渲染接口; candidates(EpsilonAddon/I18NFileGenerator)均不匹配; 无法确认具体类名"
+  },
+  {
+   "obf": "v6",
+   "reason": "75行Record(n_ KW, Color TU, 5×float EY/EG/ea/EB/eu) implements yM; 返回y3; 与v3/vA同为render command record但字段不同(n_+5float+Color); n_类型未知; 无法确认具体类名"
+  },
+  {
+   "obf": "vA",
+   "reason": "113行Record(layer,sequence,bounds,scissor,5×float Color) implements yM; 返回y3; 与v3同族render command record但字段不同(无String,多2个float); 26.1.2源码无直接暴露; candidates为空; 无法确认具体类名"
+  }
+ ],
+ "conflicts": []
+}

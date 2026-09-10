@@ -1,0 +1,52 @@
+{
+ "batch": "C052",
+ "results": {
+  "Oy": {
+   "identity": "HoleType",
+   "kind": "enum",
+   "conf": "A",
+   "evidence": "枚举常量 Single/DoubleX/DoubleZ/Quad 与 src utils/world/hole/HoleType.java 的 HoleType{NotHole,Single,DoubleX,DoubleZ,Quad} 完全一致(NotHole 为默认非正式常量, 4 个正式值序一致); src HoleESP 亦引用该 enum 的 switch 判断坑洞形状",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/utils/world/hole/HoleType.java"
+  },
+  "OZ": {
+   "identity": "SettingListController.RowRenderCallback",
+   "kind": "interface",
+   "conf": "B",
+   "evidence": "@FunctionalInterface + void k(Dl<?>=Setting<?>, vh<?>=SettingRow<?>, ih=UiRect) 签名与 src SettingListController.java 内部接口 RowRenderCallback void render(Setting<?>, SettingRow<?>, UiRect) 三参类型逐一对应; CFR 将内部接口提取为顶层类",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/gui/panel/adapter/SettingListController.java"
+  },
+  "O_": {
+   "identity": "Particles$ColorMode",
+   "kind": "enum",
+   "conf": "B",
+   "evidence": "枚举常量 Custom/Sync 与 src Particles.java 内部枚举 ColorMode{Custom,Sync} 完全一致; 唯一宿主 u8(Dx<O_> E 字段)有 5 个 Identifier/2 个 List 粒子集合/RenderPipeline, 与 src Particles(5 个 Identifier+fireflies+particles 双列表+PARTICLE_PIPELINE)结构吻合; HitParticles 亦有同名枚举但仅 3 个 Identifier/1 个粒子列表, 与 u8 结构不匹配",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/modules/impl/render/Particles.java"
+  },
+  "p": {
+   "identity": "Scaffold",
+   "kind": "module",
+   "conf": "A",
+   "evidence": "extends e(Module), 3043 行, MC 导入 BedBlock/BlockState/Direction/BlockHitResult/BlockPos/Vec3/AABB/ServerboundSwingPacket/InteractionHand/VoxelShape; 设置谱含 Xn x5+XG x1+DM x1(Double range 4.5/1.0/6.0/0.1); @yE 处理 dR(PlayerTickEvent.Pre)+d9(Render3DEvent); class_map 中 p 未被占用, 候选无噪声; 与 src Scaffold(588 行)膨胀比 5.2x 合理; Scaffold 为唯一使用 BedBlock+VoxelShape 的运动模块",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/modules/impl/movement/Scaffold.java"
+  }
+ },
+ "unident": [
+  {
+   "obf": "OY",
+   "reason": "109 行工具类, long[]+Integer[] 静态数组, N() 方法反编译失败(switch 异常), 无 MC 导入, 无锚点引用, 无候选; 26.1.2 源码无匹配类(非加密注册表/映射表); 可能为 26.2 新增的混淆辅助/常量解密工具类"
+  },
+  {
+   "obf": "Oz",
+   "reason": "record(BlockPos, long) 24 行, MC 导入 BlockPos; 候选 DestroyBlockEvent/BlockCollisionEvent/StartDestroyBlockEvent 均已被 class_map 映射为其他混淆名(dk/_M/dA), 且候选为事件类(非 record); 26.1.2 源码无 Block交互 record; 可能为 26.2 新增的方块交互数据 record(如 PacketMine 内部数据结构)"
+  },
+  {
+   "obf": "q",
+   "reason": "extends e(Module) 2907 行, MC 导入含 BlastFurnaceBlockEntity/BrewingStandBlockEntity/ChestBlockEntity/FurnaceBlockEntity/SmokerBlockEntity/ClientboundContainerClosePacket/ServerboundContainerClosePacket/ServerboundUseItemOnPacket/ClientboundBlockEventPacket 等容器交互类型; 26.1.2 源码无任何类导入这些容器方块实体; 候选(ModuleButton/ConfigHolder/ClientSetting)均为非 Module 类型, 噪声排除; 可能为 26.2 新增的容器交互模块(ContainerAura/ContainerManager 等)"
+  },
+  {
+   "obf": "T",
+   "reason": "extends e(Module) 3625 行, Deque<dJ>(BlinkPacket 缓存队列) 为独特结构; MC 导入 ArmorStand/ClientboundEntityPositionSyncPacket/ClientboundMoveEntityPacket/ClientboundTeleportEntityPacket/PositionMoveRotation 等 26.2 新增实体同步包; 候选中 Follower(e1)/ZealotCrystalPlus(un) 已被占用, SafeAnchor(780 src)导入集不匹配(ArmorStand/entity sync packets); 26.1.2 源码无模块同时使用 BlinkPacket+ArmorStand+实体同步包; 可能为 26.2 新增的实体追踪/同步模块"
+  }
+ ],
+ "conflicts": []
+}

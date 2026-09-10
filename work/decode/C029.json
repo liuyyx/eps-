@@ -1,0 +1,49 @@
+{
+ "batch": "C029",
+ "results": {
+  "iU": {
+   "identity": "ClientSetting$GuiMode",
+   "kind": "enum",
+   "conf": "A",
+   "evidence": "嵌套枚举提取至顶层; ClientSetting.java 35-37: enum GuiMode { Dropdown, Panel }; jar 常量序 iU.Dropdown(ordinal=0)/iU.Panel(ordinal=1) 与 src 声明序一致; 两常量完全匹配",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/modules/impl/ClientSetting.java"
+  },
+  "iy": {
+   "identity": "MaceAura$AttackMode",
+   "kind": "enum",
+   "conf": "A",
+   "evidence": "嵌套枚举提取至顶层; MaceAura.java 38-41: enum AttackMode { Normal, Mace }; jar 常量 iy.Normal(ordinal=0)/iy.Mace(ordinal=1) 与 src 声明序一致; 两常量完全匹配",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/modules/impl/combat/MaceAura.java"
+  },
+  "iY": {
+   "identity": "FakePlayer$PlayerState",
+   "kind": "record",
+   "conf": "A",
+   "evidence": "嵌套 record 提取至顶层; FakePlayer.java 111: record PlayerState(double x, double y, double z, float yaw, float pitch); jar 字段序列 m(double)/ew(double)/u(double)/y3(float)/yE(float) 与 src 三 double + 二 float 完全一致",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/modules/impl/player/FakePlayer.java"
+  }
+ },
+ "unident": [
+  {
+   "obf": "iX",
+   "reason": "Enum(2常量: Single,Double), 无MC导入, 无candidates; 26.1.2 src 全树未找到同名双常量枚举(HoleType有Single但有5常量; KillAura.TargetMode有Single但有3常量); 疑26.2新增枚举, 无源码佐证"
+  },
+  {
+   "obf": "iZ",
+   "reason": "Record(9字段: UUID/Identifier/String×6/Color×2), anchored仅SeQL; 26.1.2 src 全树未找到同构record(Potions.EffectInfo/ModuleList.RenderRow等均不匹配); 疑26.2新增数据record(可能为玩家皮肤/资料), 无源码佐证"
+  },
+  {
+   "obf": "iu",
+   "reason": "extends iN(抽象基类, 3312行, implements vP), 2749行, 字段含 List<zk>/vY/Map<zk,String>, 方法含 Comparator 排序; anchored_refs Module/Setting 与3个候选(EpsilonAddon/I18NFileGenerator/ModuleButton)均不extends iN; iN身份数百行加密体不可解析, 无源码佐证"
+  },
+  {
+   "obf": "iv",
+   "reason": "1158行静态工具类(private构造), 导入 RenderPipeline/DepthStencilState/CompareOp/PoseStack/Entity/Matrix4f/Vector3f/Color; 3个候选(AttackSlowDownEvent/EntityRenderStateAccessor/AntiBot)均非渲染工具类; 为渲染管线工具类(处理PoseStack+Entity+管线), 但26.1.2 src 无精确同构类"
+  },
+  {
+   "obf": "iW",
+   "reason": "1379行, 导入 RenderPipeline/RenderTarget/TextureTarget/GpuFormat/Matrix4f/Vec3; 字段含 RenderPipeline R、RenderTarget u、Matrix4f t/l、Vec3 N、boolean I、static double j=0.25/B=1024; 为渲染效果管理类(管线+目标+变换矩阵), 3个候选(ClientSetting/RegistryListSetting/RegistryListSelectPopup)均非渲染类; 26.1.2 src 无精确同构"
+  }
+ ],
+ "conflicts": []
+}

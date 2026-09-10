@@ -1,0 +1,43 @@
+{
+ "batch": "C003",
+ "results": {
+  "Da": {
+   "identity": "I18NJson",
+   "kind": "class",
+   "conf": "A",
+   "evidence": "final class + Gson imports(JsonElement/JsonObject/JsonParseException) + static final String 字段(A=VALUE_PROPERTY='_value') + static void P(JsonObject,BiConsumer) 即 read(root,output) 遍历 root.entrySet()→readNode + static void f(Object,Object,Object) 即 readNode(String,JsonElement,BiConsumer) 递归遍历(JsonPrimitive→output.accept; JsonObject→_value 叶/递归); 与 src assets/i18n/I18NJson.java 完全同构(方法签名/参数类型/import/类级别修饰符一致)",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/assets/i18n/I18NJson.java"
+  }
+ },
+ "unident": [
+  {
+   "obf": "D7",
+   "reason": "final Record, 22个record组件(1int/14float/1boolean/Xb×2/Xo/DQ/yQ/yr), 全部方法经hi.a indy分发, 无MC导入, 26.1.2 src无同名/同形Record, 疑lumin graphics渲染管线内部状态记录(无本地源码可同构)"
+  },
+  {
+   "obf": "d7",
+   "reason": "public final Record implements yM, 17个record组件(int layer/long sequence/XL bounds/Xu scissor + 11float/1Color/X6 dH), 部分组件名明文(layer/sequence/bounds/scissor)暗示lumin graphics渲染绘制命令, 但无MC导入且26.1.2 src无对应"
+  },
+  {
+   "obf": "D8",
+   "reason": "Enum, 3个常量(Sakura/Tradition/Glitch), 静态初始化为字符串解密+XOR解码, 无MC导入, 26.1.2 src无Sakura/Tradition/Glitch枚举; 疑26.2新增渲染/动画模式枚举(lumin graphics关联), 无源码佐证"
+  },
+  {
+   "obf": "d8",
+   "reason": "final Record, 仅5个组件(4float xE/xX/xA/x3 + y4 cC), 无MC导入, 无26.1.2 src同形Record, 组件过少且类型泛化, 无法判定"
+  },
+  {
+   "obf": "D9",
+   "reason": "final Record implements _Q, 5个组件(ih ja/float hD/float hK/Color u_/Color ua), 无MC导入, 无26.1.2 src同形Record; 疑lumin graphics渲染属性记录(2Color+2float), 无源码佐证"
+  },
+  {
+   "obf": "DA",
+   "reason": "class(非final), 6个static int字段在try-catch中按hi.a解密初始化, 仅import hi; 疑某枚举/常量索引表的混淆中间类, 无MC导入, 无26.1.2 src可匹配的int数组初始化模式"
+  },
+  {
+   "obf": "DB",
+   "reason": "Enum, 2个常量(解密为'Fall'/'Fly'), 静态初始化为字符串解密+XOR解码, 无MC导入, 26.1.2 src无Fall/Fly枚举; 疑26.2新增模式枚举(Fall/Fly可能为falling/flying相关状态或动画模式), 无源码佐证"
+  }
+ ],
+ "conflicts": []
+}

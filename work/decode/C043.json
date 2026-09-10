@@ -1,0 +1,55 @@
+{
+  "batch": "C043",
+  "results": {
+    "ns": {
+      "identity": "SettingListController",
+      "kind": "class",
+      "conf": "B",
+      "evidence": "MC imports(CharacterEvent,KeyEvent)+anchored_ref(Setting)+lambda$handleControlShortcut$0处理Ctrl+A/V快捷键; src 26.1.2 SettingListController 525行含相同import和键盘处理, 26.2版本膨胀至1044行",
+      "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/gui/panel/adapter/SettingListController.java"
+    },
+    "nu": {
+      "identity": "ServerType",
+      "kind": "enum",
+      "conf": "B",
+      "evidence": "枚举常量Static/Hypixel/Heypixel对应服务器类型; 26.1.2源码Scaffold.RotationMode有Hypixel但结构不同, Heypixel为26.2新增常量",
+      "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/modules/impl/movement/Scaffold.java"
+    },
+    "nV": {
+      "identity": "AccountEntry",
+      "kind": "class",
+      "conf": "B",
+      "evidence": "abstract generic class<T extends nV<?>>; MC imports含User/SkinManager/YggdrasilAuthenticationService/PlayerSocialManager; 字段DJ(枚举含TheAltening/Cracked=账号类型)/X_(账号数据)/String(账号名); 抽象账户基类",
+      "src_path": null
+    },
+    "nv": {
+      "identity": "LocalHttpServerRecord",
+      "kind": "record",
+      "conf": "B",
+      "evidence": "Record仅有2字段: HttpServer bV + CompletableFuture<String> ax; 唯一同时持有HttpServer和异步响应的record, 功能为本地HTTP服务包装",
+      "src_path": null
+    },
+    "nW": {
+      "identity": "ShaderHolder.Shader",
+      "kind": "enum",
+      "conf": "A",
+      "evidence": "枚举常量Default/Smoke/Gradient/Snow/Fade与src ShaderHolder.Shader逐一完全吻合; src ShaderHolder.java:344-348定义同名枚举",
+      "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/holders/ShaderHolder.java"
+    }
+  },
+  "unident": [
+    {
+      "obf": "nT",
+      "reason": "1098行class, 无MC imports; 字段l5(颜色提供者接口)/_E(动画元素); 方法D(Object[])处理zU(形状)+ih(点)+坐标数据; 26.1.2源码无匹配类, 26.2版本新增渲染处理类, 缺少可辨识的类型指纹"
+    },
+    {
+      "obf": "nt",
+      "reason": "113行Record, implements sealed interface yM; 字段: int layer/long sequence/XL bounds/Xu scissor/String hX/Color ys/YT/nK mv/float gc/gh/gF; yM为26.2新增sealed interface渲染命令接口, 26.1.2源码无此接口及其任何实现"
+    },
+    {
+      "obf": "nU",
+      "reason": "83行Record, implements sealed interface _Q; 字段: String MV/float fr/fg/ff/Color cs/FY/int p3/nK PR; _Q为26.2新增sealed interface渲染命令接口, 26.1.2源码无此接口及其任何实现"
+    }
+  ],
+  "conflicts": []
+}

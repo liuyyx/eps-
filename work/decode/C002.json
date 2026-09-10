@@ -1,0 +1,58 @@
+{
+ "batch": "C002",
+ "results": {
+  "d1": {
+   "identity": "ColorUtils",
+   "kind": "util",
+   "conf": "A",
+   "evidence": "方法 J(Color,Color,float) 与源码 ColorUtils.interpolateColor(Color,Color,float) 签名+行为完全吻合: clamp fraction → lerpInt 四通道(RGBA) → new Color",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/utils/render/ColorUtils.java"
+  },
+  "d2": {
+   "identity": "ResistantBlockCache",
+   "kind": "class",
+   "conf": "A",
+   "evidence": "字段映射: P=cache(Map<Long,Boolean>), V=Level, g=assumeInstantMine(boolean); 构造(Lvl,boolean)与源码一致; static D EMPTY=new d2(null,false); 方法G中getBlockState+缓存逻辑对应isResistant; 属ZealotCrystalPlus内部类",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/modules/impl/combat/ZealotCrystalPlus.java"
+  },
+  "D3": {
+   "identity": "ViaLegacyConfig子类",
+   "kind": "class",
+   "conf": "B",
+   "evidence": "extends ViaLegacyConfig; 实现isLegacySkullLoading()/isLegacySkinLoading()方法名直接对应ViaLegacy功能; save()空覆写; ViaLegacyConfig为外部库不在旧版src中",
+   "src_path": "（ViaLegacyConfig为外部库依赖，旧版src不含此类）"
+  },
+  "d5": {
+   "identity": "QuadRenderingInfo",
+   "kind": "record",
+   "conf": "A",
+   "evidence": "record 6组件与源码 LuminRenderSystem.QuadRenderingInfo 逐一对应: tO=colorView(GpuTextureView), tu=depthView(GpuTextureView), LY=indexType(IndexType), qS=ibo(GpuBuffer), a2=indexCount(int), FX=dynamicUniforms(GpuBufferSlice)",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/graphics/LuminRenderSystem.java"
+  },
+  "D6": {
+   "identity": "LogoutSpots.RenderMode",
+   "kind": "enum",
+   "conf": "A",
+   "evidence": "enum 常量 Box/Model 与源码 LogoutSpots.RenderMode{Model,Box} 完全一致; ordinal匹配: Model=0,Box=1",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/modules/impl/render/LogoutSpots.java"
+  },
+  "d6": {
+   "identity": "KillAura.Mode",
+   "kind": "enum",
+   "conf": "A",
+   "evidence": "enum 常量 OnePointNinePlus/OnePointEight 与源码 KillAura.Mode{OnePointEight,OnePointNinePlus} 完全一致; ordinal匹配: OnePointEight=0,OnePointNinePlus=1",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/modules/impl/combat/KillAura.java"
+  }
+ },
+ "unident": [
+  {
+   "obf": "D4",
+   "reason": "简单Gson DTO(@SerializedName id+name, 20行), 旧版src无对应类; 可能为ViaLegacy库或版本新增辅助类, 无强信号判定"
+  },
+  {
+   "obf": "d4",
+   "reason": "record实现未知接口_Q(旧版src无_Q定义), 组件ih类型不明+float+boolean; 无匹配record, 判定失败"
+  }
+ ],
+ "conflicts": []
+}

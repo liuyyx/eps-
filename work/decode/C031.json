@@ -1,0 +1,49 @@
+{
+ "batch": "C031",
+ "results": {
+  "l9": {
+   "identity": "HealthManager",
+   "kind": "class",
+   "conf": "A",
+   "evidence": "MC imports(ClientboundSetScorePacket+Entity+LivingEntity) + PacketEvent.Receive + Map<String,Integer> ConcurrentHashMap均与源码HealthManager一一吻合",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/managers/impl/HealthManager.java"
+  },
+  "lA": {
+   "identity": "SneakTweak.SneakingEyeHeight",
+   "kind": "enum",
+   "conf": "A",
+   "evidence": "Enum值Default/Pre_1_14/Pre_1_9/Custom与源码SneakTweak内嵌enum SneakingEyeHeight完全一致; 混淆后内部enum被扁平化为顶层类",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/modules/impl/render/SneakTweak.java"
+  },
+  "la": {
+   "identity": "EpsilonTranslations",
+   "kind": "class",
+   "conf": "A",
+   "evidence": "多个static final uT(TranslateComponent)字段 + invokedynamic bootstrap + 静态注册表结构与源码EpsilonTranslations一致(26.1.2→26.2字段数有版本差)",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/assets/i18n/EpsilonTranslations.java"
+  }
+ },
+ "unident": [
+  {
+   "obf": "l4",
+   "reason": "Enum(Disabled/Auto/Enabled), 125行, 无MC import, 仅引用SeQL/hi; 26.1.2源码中未找到具有这三个值的独立enum(可能为26.2新增类)"
+  },
+  {
+   "obf": "l5",
+   "reason": "interface, 60行, 多个返回Color/float的方法(含Color(Color,Color,float)插值), 无锚点引用; 26.1.2源码中未找到匹配的Color相关接口"
+  },
+  {
+   "obf": "l6",
+   "reason": "singleton(private构造+static final p), ExecutorService字段, 88行; 26.1.2源码中未找到匹配的线程池/任务调度单例类"
+  },
+  {
+   "obf": "l7",
+   "reason": "简单POJO, @SerializedName(\"access_token\") String字段, 18行; 26.1.2源码中无任何OAuth/token相关类(可能为26.2新增或来自外部依赖)"
+  },
+  {
+   "obf": "l8",
+   "reason": "abstract class, 222行, 引用Setting(Dl)+_Z+gk, 含Color manipulation方法V(Color)和抽象方法B(Object[])/n(Object[]); 26.1.2源码中未找到匹配的抽象基类(可能为26.2新增的颜色相关抽象基类)"
+  }
+ ],
+ "conflicts": []
+}

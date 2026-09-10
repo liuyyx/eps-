@@ -1,0 +1,55 @@
+{
+ "batch": "C036",
+ "results": {
+  "lr": {
+   "identity": "HandsView.BlockMode",
+   "kind": "enum",
+   "conf": "A",
+   "evidence": "枚举常量 V1_7/Pushdown/Scale/Leaked/Ninja/Down 与源码 HandsView.BlockMode 内部枚举完全一致（已确认：class_map 已有此条目）",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/modules/impl/render/HandsView.java"
+  },
+  "lU": {
+   "identity": "LanguageReloadListener",
+   "kind": "class",
+   "conf": "A",
+   "evidence": "实现 PreparableReloadListener；唯一 MC import 为 PreparableReloadListener；46 行（已确认：class_map 已有此条目）",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/assets/i18n/LanguageReloadListener.java"
+  },
+  "lu": {
+   "identity": "FilterShader.FilterColor",
+   "kind": "record",
+   "conf": "A",
+   "evidence": "record(float,float,float,float) implements DynamicUniformStorage.DynamicUniform；Color 构造器完全匹配（已确认：class_map 已有此条目）",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/graphics/shaders/FilterShader.java"
+  },
+  "lv": {
+   "identity": "Particles.FireFly",
+   "kind": "class",
+   "conf": "A-",
+   "evidence": "extends lW(=ParticleBase)；List<vb> W=List<Trail> trails；u8 r=Particles 实例引用；版本差异：26.1.2 为内部类（已确认：class_map 已有此条目）",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/modules/impl/render/Particles.java"
+  },
+  "lW": {
+   "identity": "Particles.ParticleBase",
+   "kind": "class",
+   "conf": "A-",
+   "evidence": "基类含 float pos/vel/prevPos + int age/maxAge + u8 texture；构造器 u8+6float；O()=tick()含 distanceSqr>4096/motion*0.9/motionY-0.001（已确认：class_map 已有此条目）",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/modules/impl/render/Particles.java"
+  }
+ },
+ "unident": [
+  {
+   "obf": "lT",
+   "reason": "枚举常量 Balance/Always/SlowBalance 在 26.1.2 源码中不存在，无任何匹配线索，无法判定身份"
+  },
+  {
+   "obf": "lt",
+   "reason": "3464 行全部为 public static final String 加密字段（Unicode 编码），无方法，无 MC import；为 hi 解密分发器的加密字符串常量表，但源码 26.1.2 中无等价独立类（字符串结构在版本间有变化）"
+  },
+  {
+   "obf": "lV",
+   "reason": "record(double vN, double vl) 仅 42 行无 MC import，源码中未找到匹配的 2-double record，无法判定身份"
+  }
+ ],
+ "conflicts": []
+}

@@ -1,0 +1,49 @@
+{
+ "batch": "C032",
+ "results": {
+  "le": {
+   "identity": "Render3DScheduler",
+   "kind": "class",
+   "conf": "A",
+   "evidence": "public static final le D = 单例INSTANCE; d9(Render3DEvent)锚点; Direction/AABB/Vec3 MC imports; List<dV>/List<Dm>/List<yN>/List<uX>/List<vl>/List<vu>命令列表 + RenderPipeline s/g = filled/lines pipeline; 与源码Render3DScheduler结构逐一吻合",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/graphics/schedulers/render3d/Render3DScheduler.java"
+  },
+  "lB": {
+   "identity": "GeneralClientSettingTab",
+   "kind": "class",
+   "conf": "B",
+   "evidence": "MC imports GuiGraphicsExtractor+MouseButtonEvent 与源码 GeneralClientSettingTab 完全一致; implements XJ→ClientSettingTabView; _E(Setting)字段+Supplier<String>翻译+ih字体渲染; extractGui lambda绘制文本位置匹配; 行数435vs302为版本差(26.1.2→26.2)",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/gui/panel/view/settings/GeneralClientSettingTab.java"
+  },
+  "lC": {
+   "identity": "BlockRegistryUtils",
+   "kind": "util",
+   "conf": "B",
+   "evidence": "private constructor; 静态工具类仅操作Block: T(Block)→isSelectable, F(Block)→id(registry key), E(Object[])→byId(String), c(Object[])→toIds(Collection<Block>), i()→allSelectableBlocks; 与源码BlockRegistryUtils功能完全重叠; 行数806vs120为版本差+CFR反编译膨胀",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/utils/world/BlockRegistryUtils.java"
+  }
+ },
+ "unident": [
+  {
+   "obf": "lb",
+   "reason": "final class, 无MC imports, 字段y3/Xu/yM/XL均未在class_map中识别; 候选EpsilonAddon(110行)太小, I18NFileGenerator无Setting引用, AddonPanelEntry(880B)结构不匹配; 缺乏强信号判定身份"
+  },
+  {
+   "obf": "lc",
+   "reason": "4493行extends l8(抽象渲染基类), Scoreboard/PlayerTeam/Objective/TeamColor/Hud/PlayerInfo/Component等大量tab/scoreboard相关MC imports, Comparator<PlayerInfo>字段→按玩家排序, nK字段→渲染辅助; 明显是TabOverlay/ScoreboardOverlay类但源码中无对应候选(可能为26.2新增类)"
+  },
+  {
+   "obf": "lD",
+   "reason": "57行Record, 3个GPU纹理组件(GpuTextureView/GpuTexture/GpuSampler); 无锚点引用指向特定epsilon类; 仅能确定是GPU资源持有record, 无法确定具体用途名称"
+  },
+  {
+   "obf": "ld",
+   "reason": "2401行implements O0, 构造器(ld(v_,_j,_6)), Map<Dl<?>,_E>设置映射, KeybindSetting引用+GuiGraphicsExtractor/CharacterEvent/KeyEvent/MouseButtonEvent→设置面板; 候选ModuleDetailPanel(568行)/AddonClientSettingTab(700行)/GeneralClientSettingTab(302行)行数均远小于2401, 可能为26.2版本重构后的大型设置管理类"
+  },
+  {
+   "obf": "lE",
+   "reason": "4918行, 引用全部Setting子类(Bool/Int/Double/Enum/Color/Keybind/String/StringList/RegistryList/Button), Map<String,_E>×2+List<Xw>→设置widget管理; 候选ModuleButton(579行)/SettingsContent(393行)/SettingViewFactory(63行)行数均远小于4918; 可能为26.2版本中合并/扩展后的设置内容渲染类"
+  }
+ ],
+ "conflicts": []
+}

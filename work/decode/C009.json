@@ -1,0 +1,49 @@
+{
+ "batch": "C009",
+ "results": {
+  "dp": {
+   "identity": "DropdownTextField",
+   "kind": "class",
+   "conf": "A",
+   "evidence": "字段逐一吻合: dp.S(String)=text, dp.n(int)=cursor, dp.h(int,final)=maxLength, dp.e(float[])=cursorMidpoints, dp.Y(Predicate<String>,final)=inputFilter, dp.r(boolean)=focused; MC导入 CharacterEvent+KeyEvent 与 src DropdownTextField 完全一致; 方法 G(CharacterEvent)→charTyped, U(String)→insertText, z(zU,DF,float×4,int×2,String,float)→draw(UiTree.Scope,UiTextMetrics,float×4,int×2,String,float) 参数型/数一致; 26.2 jar 2848行(混淆控制流膨胀) vs 26.1.2 源 273行",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/gui/dropdown/widget/DropdownTextField.java"
+  },
+  "DQ": {
+   "identity": "DamageUtils$ArmorEnchantmentMode",
+   "kind": "enum",
+   "conf": "A",
+   "evidence": "枚举常量 PPPP/PPBP/None 与 src DamageUtils.ArmorEnchantmentMode{None,PPPP,PPBP} 完全一致(名称相同,数量相同=3); 字段 Color p+String o 模式与枚举类一致; 125行匹配枚举+静态初始化; anchored_refs 含 SeQL(加密枚举常量名)但 src 枚举名已明文",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/utils/combat/DamageUtils.java"
+  },
+  "dr": {
+   "identity": "DefaultTranslateComponent",
+   "kind": "class",
+   "conf": "B",
+   "evidence": "implements uT(=TranslateComponent); 字段 String A(cachedName)+final String S(fullKey) 与 src DefaultTranslateComponent 的 cachedName+fullKey 一致; 方法 j(Object[])=createChild(String suffix)→new dr(fullKey+\".\"+suffix), a()=getFullKey()→return this.S, T(Object[])=static factory create(String)→new dr+注册, p(Object)=resolveTranslation, e(Object[])=formatKey(首字母大写)均与 src DefaultTranslateComponent 逻辑一致; 26.2 jar 606行 vs 26.1.2 源 80行(混淆控制流膨胀+可能新增缓存逻辑)",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/assets/i18n/DefaultTranslateComponent.java"
+  }
+ },
+ "unident": [
+  {
+   "obf": "Dq",
+   "reason": "Record 4 boolean 字段(QB,qa,QW,QQ); 仅 refs SeQL, 无 mc_imports, 无 candidates; 无 src 对照(源码无同型 4-boolean record); 疑与 ArmorEnchantmentMode 保护等级判定有关但无法确认真实类名"
+  },
+  {
+   "obf": "dq",
+   "reason": "Record 1 field(y4 i1), implements X6; 仅 refs SeQL; y4/X6 类型未知, 无 src 对照, 无 candidates; 结构信息不足判定"
+  },
+  {
+   "obf": "DR",
+   "reason": "Enum 4 常量{ALPHA,RED,BLUE,GREEN}, 各含 Color+String; 仅 refs SeQL; 无 src 对照(26.1.2 源码未发现同名/同形枚举); 疑色值相关枚举(ColorPicker/Theme), 但确切类名不可证"
+  },
+  {
+   "obf": "Dr",
+   "reason": "Record 6 fields(AABB,Color,Color,long,boolean,boolean); refs SeQL, mc_imports AABB; 疑 HoleESP/BlockESP 渲染数据 record, 但 26.1.2 源码无对应同型 record, 无法确认真实类名"
+  },
+  {
+   "obf": "DS",
+   "reason": "Interface 4 methods(3×void(Object[])+1×yW(Object[])); 无 refs, 无 mc_imports, 无 candidates; yW 类型未知, 无法判定接口角色"
+  }
+ ],
+ "conflicts": []
+}

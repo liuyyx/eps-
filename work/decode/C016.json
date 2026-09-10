@@ -1,0 +1,52 @@
+{
+ "batch": "C016",
+ "results": {
+  "es": {
+   "identity": "ModuleList",
+   "kind": "hudmodule",
+   "conf": "B",
+   "evidence": "super=eh(HudModule)匹配; 大量DM/DV/Xn/XG/Dx设置(fields: O, W, h, m, J, t, d, l, x, D, o, u, Q, z, kD, C, n_, u7, v6, vC, y, D8); Map<e,Float>和Map<e,vC>为每个模块的显示属性和动画数据; List<e>为过滤模块列表; mc_imports仅DeltaTracker=帧时序渲染; 与src ModuleList的imports(DeltaTracker/ModuleHolder/大量设置)角色一致; 3021行远超src458行→26.2版本大量扩展",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/elements/impl/ModuleList.java"
+  },
+  "eT": {
+   "identity": "FakePlayer",
+   "kind": "module",
+   "conf": "A-",
+   "evidence": "super=e(Module)匹配; M()方法内new RemotePlayer(ClientLevel, GameProfile)+setYRot(getYRot)+copyPosition+setHealth(getHealth)逐字段复制→与src FakePlayer伪玩家逻辑完全一致; 静态RemotePlayer y字段=fakePlayer单例; mc_imports(ClientLevel/LocalPlayer/RemotePlayer+GameProfile)全匹配; BoolSetting/StringSetting设置→FakePlayer的enabled/名称设置;926行>src的~300行→26.2新增位置追踪或死亡动画(字段B/w对比src movementTick/deathTime); 确认与class_map无冲突",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/modules/impl/player/FakePlayer.java"
+  },
+  "eU": {
+   "identity": "TargetHUD",
+   "kind": "hudmodule",
+   "conf": "B",
+   "evidence": "super=eh(HudModule)匹配; mc_imports含TextureManager/AbstractClientPlayer/EquipmentSlot/ItemStack→玩家装备渲染; Identifier/GpuTexture/GpuSampler→纹理资源加载; Matrix3x2fStack→2D矩阵变换; 构造参数(x,y,180,80)=HUD位置+尺寸; DV(ColorSetting)多组=主体/血条/名字/装备/文字颜色; DM(DoubleSetting)多组=缩放/位置/圆角等; Xn(BoolSetting)=文字/阴影/动画开关; Dx<zK>=颜色模式枚举; Supplier<_j>=文本渲染器缓存; lH/y4/zK/zU=渲染辅助类; 与src TargetHUD的字段模式(颜色/缩放/布尔)角色一致; 纹理导入特有于头像渲染→确认",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/elements/impl/TargetHUD.java"
+  },
+  "eX": {
+   "identity": "ScaffoldBlock",
+   "kind": "hudmodule",
+   "conf": "C",
+   "evidence": "super=eh(HudModule)匹配; Xc(=StringSetting)D字段=自定义文字; XG b(IntSetting)和多个DV/DM=显示设置; Dx<X5>和Dx<lk>两组枚举=显示模式选择; Dx<D8> o=字体/渲染模式; Supplier<_j>=字体渲染缓存; X5和D8/lk为26.2新增渲染模式枚举; 方法S/B/e涉及文本渲染和颜色计算→HUD元素的文字渲染逻辑; 与src ScaffoldBlock的HUD展示角色(显示放置方块信息)一致; 1056行>src→26.2版本大幅扩展; 其他候选(ModuleButton/SettingsContent/SettingViewFactory)均不extends HudModule→排除",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/elements/impl/ScaffoldBlock.java"
+  }
+ },
+ "unident": [
+  {
+   "obf": "eV",
+   "reason": "super=e(Module)匹配; Dx<uO>EnumSetting、XG IntSetting、List<String> H、Random F、int状态计数器E/x/q; 无MC导入→26.1.2源码候选(Scaffold/NoRotate/ScaffoldBlock等)均有MC依赖; 状态机推进逻辑(int状态值经多次比较递减/重置)→可能是计时器或聊天自动模块; 与class_map无冲突; 候选噪声过大(ModuleButton/ConfigHolder/ClientSetting均不符),源码中未找到完全匹配的Module子类"
+  },
+  {
+   "obf": "ex",
+   "reason": "super=e(Module)匹配; MC导入LocalPlayer+CrossbowItem; @yE标注的N方法: getUseItem()->CrossbowItem检查->比较useTicks->状态切换/returns动作→十字弓使用时机相关; 但源码中未找到对应Module(SpearKill已映射为R,其他十字弓逻辑在InvHelper等工具类中); 候选(EpsilonAddon/I18NFileGenerator/ModuleButton)全不符; 可能是26.2新增的十字弓战斗模块或26.1.2版本已删除/重命名的模块"
+  },
+  {
+   "obf": "G",
+   "reason": "super=e(Module)匹配; 锚点含MousePressEvent/Render3DEvent/BlockPos/LivingEntity/Player/Vec3/AABB→3D渲染+实体选择; d()方法: 遍历List<lV>调用distanceToSqr找最近实体->返回索引; L(dR)方法: mouseButton==0检查+toggle操作→点击选择+3D渲染; 但候选(Follower=e1/HoleSnap=eL/HoleESP=ez)均已映射; 源码中ClickTP/Teleport等无匹配Module; 可能是26.2新增模块或与26.1.2版本差异导致候选生成错误"
+  },
+  {
+   "obf": "g0",
+   "reason": "仅30行; 无super声明; 字段private final i2 W; 方法J()/N(Matrix4f,float,float,float,int)委托调用W→i2的渲染代理/包装类; 非Module/HudModule/enum/record; 候选为空; 源码中无对应文件名; 是内部渲染辅助类，无已知身份"
+  }
+ ],
+ "conflicts": []
+}

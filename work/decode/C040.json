@@ -1,0 +1,22 @@
+{
+  "batch": "C040",
+  "results": {
+    "ne": {
+      "identity": "ClientSetting.ThemePreset",
+      "kind": "enum",
+      "conf": "A",
+      "evidence": "jar enum 9 常量 TonalSpot/Neutral/Vibrant/Expressive/Fidelity/Content/Rainbow/FruitSalad/Monochrome 与源码 ClientSetting.ThemePreset 内部枚举完全一致",
+      "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/modules/impl/ClientSetting.java"
+    }
+  },
+  "unident": [
+    {"obf": "nd", "reason": "19行小类，仅有 @SerializedName(\"xui\") + XH[] 字段；XH 类型在 26.1.2 源码中不存在，无其他结构信号可匹配"},
+    {"obf": "nE", "reason": "7组件 record（boolean/double/Float/nZ），26.1.2 源码中无匹配的 7 组件 record；nZ 类型未知，无法交叉定位"},
+    {"obf": "nF", "reason": "3组件 record（BlockPos/double/double），候选 DestroyBlockEvent/BlockCollisionEvent 均为 class 不是 record，字段类型序列不匹配；源码中无 BlockPos+double+double 的 record"},
+    {"obf": "nf", "reason": "2常量枚举（Niuren/Mengcha），各持 Identifier；源码 SoundKey 有 11 英文常量，HitSound 有 4 常量，均不匹配；Niuren/Mengcha 在源码中不存在"},
+    {"obf": "nG", "reason": "4组件 float record（wp/w_/wh/WN），26.1.2 源码中无匹配的 4-float 公共 record；候选无一匹配"},
+    {"obf": "ng", "reason": "1044 行渲染类，引用 Dl(Setting)/dd/g0 + MC 渲染管线（Camera/Identifier/AABB/RenderTarget/RenderPipeline 等）；候选 ClientSetting 为模块非渲染类；ShaderHolder(414行)/BlurShader(325行)/FXAAShader(125行)/FilterShader(127行) 均不导入 Setting，结构不匹配；可能是 26.2 新增类"},
+    {"obf": "nH", "reason": "10 行 @FunctionalInterface，单方法 boolean E(String)；26.1.2 源码中无匹配的同签名接口（PanelVisibleResolver 返回 boolean 但参数为 String panelId，TitleSupplier 返回 String）"}
+  ],
+  "conflicts": []
+}

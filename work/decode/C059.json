@@ -1,0 +1,43 @@
+{
+ "batch": "C059",
+ "results": {
+  "uz": {
+   "identity": "PopChams",
+   "kind": "module",
+   "conf": "A",
+   "evidence": "设置谱逐项吻合: V=renderTime(1.0/0.1/6.0/0.1), H=yModifier(0.75/-4.0/4.0/0.05), e=scaleModifier(-0.25/-4.0/4.0/0.05), c=fadeOut(Xn BoolSetting true), P=sideColor(DV Color(255,255,255,25)), C=lineColor(DV Color(255,255,255,127)), q=yEasing(Dx<lH> EnumSetting<Easing>), t=ignoreSelf(Xn BoolSetting); 事件处理: @yE t(d9=Render3DEvent) + PacketEvent.Receive(anchored); W=List<GhostPlayer>(ghosts); 内部类 GhostPlayer(i=_i) extends RemotePlayer; lH=Easing 枚举确认",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/modules/impl/render/PopChams.java"
+  }
+ },
+ "unident": [
+  {
+   "obf": "uy",
+   "reason": "Enum(StopSprinting/Backwards/NoForwards) 在26.1.2源码中无对应枚举; 为v(Dx<uy>)的内部枚举, 可能是26.2新增的sprint控制模式; v本身也无法确认身份"
+  },
+  {
+   "obf": "uZ",
+   "reason": "extends u9(UI基类), 1451行, 含findBlock方法+BlockPos/Direction/Inventory/ClipContext; 可能是26.2新增的UI类(如RegistryListSelectPopup的26.2版)或复杂工具类, 26.1.2源码无直接匹配; 候选RegistryListSelectPopup/SettingHost/RegistryListSetting均为噪音"
+  },
+  {
+   "obf": "u_",
+   "reason": "Record(int ho, int ha), 43行, 仅引用SeQL; 可能是坐标/尺寸数据类, 26.1.2源码中未找到同构record(ScissorRect有4个int; RenderInfo有6个组件); 疑26.2新增小数据类"
+  },
+  {
+   "obf": "v",
+   "reason": "extends e(Module), 673行, Dx<uy>(EnumSetting)+XG(IntSetting), 处理AttackEntityEvent+KeyboardInputEvent; uy枚举(StopSprinting/Backwards/NoForwards)无26.1.2源码对应; 疑26.2新增的sprint控制模块, 需hi解密确认"
+  },
+  {
+   "obf": "v0",
+   "reason": "Record(String q8, Color TI, float JB), 50行, 仅引用SeQL; 可能是文本渲染数据(文字+颜色+透明度), 26.1.2源码未找到同构record; 疑26.2新增渲染数据类"
+  },
+  {
+   "obf": "v1",
+   "reason": "Record(Xu scissor, float qu, int layer, long sequence, float qI, Color ns, float qf, XL bounds, float qQ), 100行, implements yM; 疑渲染批次/命令记录, 字段名包含scissor/layer/sequence/bounds; 26.1.2 graphics包无同构record; yM接口未在src找到"
+  },
+  {
+   "obf": "v2",
+   "reason": "Interface 57行, 含渲染方法(drawString/o(float,nK)/b(Object[])/W(Object[])/H(RenderPass)); 参数类型nK/Oq/XL/Xu均为未识别混淆名; 疑26.2新增渲染接口, 26.1.2源码无直接匹配"
+  }
+ ],
+ "conflicts": []
+}

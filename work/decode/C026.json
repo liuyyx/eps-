@@ -1,0 +1,46 @@
+{
+ "batch": "C026",
+ "results": {
+  "ig": {
+   "identity": "GlslSandBox.SandboxInfo",
+   "kind": "record",
+   "conf": "A",
+   "evidence": "7 float fields + implements DynamicUniformStorage.DynamicUniform; toString字段序 a1;AE;ag;AM;al;a3;a9 对应 SandboxInfo(width,height,elapsedTime,mouseUvX,mouseUvY,mousePxX,mousePxY); write() 用 putVec4+putVec4 写8个float(含padding 0.0f) 与源码一致",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/graphics/shaders/GlslSandBox.java"
+  },
+  "ii": {
+   "identity": "ClientSetting.ThemeMode",
+   "kind": "enum",
+   "conf": "A",
+   "evidence": "public enum ii {Dark, Light} 完全匹配源码 ClientSetting.ThemeMode {Dark, Light}; 26.1.2源码 ClientSetting.java:58-61",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/modules/impl/ClientSetting.java"
+  }
+ },
+ "unident": [
+  {
+   "obf": "id",
+   "reason": "2547行class, super=iN(未知抽象类,3312行,implements vP均不在class_map), 引用Setting/TranslateComponent/EpsilonAddon(iH); 候选I18NFileGenerator(21行)/SettingsListPanel(64行)/Module(e)均不匹配(继承链不同/行数悬殊); iN和vP均为26.2新增基类,无法溯源"
+  },
+  {
+   "obf": "ie",
+   "reason": "enum{WATER,NONE,WATER_SUPPORT} 142行; 26.1.2源码中无此三值enum; WATER_SUPPORT在全src无出现; 26.2新增枚举"
+  },
+  {
+   "obf": "iF",
+   "reason": "extends SimpleFileVisitor<Path> 仅35行; 26.1.2中ConfigHolder使用匿名SimpleFileVisitor<>,无独立命名类; 构造函数取vz参数(未知); 26.2新增独立文件访问器类"
+  },
+  {
+   "obf": "iG",
+   "reason": "Record 17字段(15 float + Color + X6) implements _Q; _Q接口和X6类型均不在class_map/src中; 26.2新增渲染数据record"
+  },
+  {
+   "obf": "ih",
+   "reason": "Record 4 float字段(ke,kz,kt,k5) 489行; toString=ke;kz;kt;k5; 有X(double,double)命中测试、t(ih)交集运算; 虽结构似UiRect,但26.1.2中无独立4-float Rect record类; 26.2新增bounds记录"
+  },
+  {
+   "obf": "iI",
+   "reason": "2238行class super=null; 引用XG(IntSetting)/DM(DoubleSetting)/Dl(Setting)/Dependency(yx)/eJ/gQ/vt/y1/zU; 有renderStage2方法; 候选ModuleButton/SettingsContent/SettingViewFactory均在26.1.2中行数远小或结构不匹配; 26.2新增复杂模块类"
+  }
+ ],
+ "conflicts": []
+}

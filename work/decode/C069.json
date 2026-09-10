@@ -1,0 +1,52 @@
+{
+ "batch": "C069",
+ "results": {
+  "XM": {
+   "identity": "Filter.Mode",
+   "kind": "enum",
+   "conf": "A",
+   "evidence": "Enum 常量完全匹配：XM.LightMap=Filter.Mode.LightMap, XM.Shader=Filter.Mode.Shader; Filter.Mode 是 Filter.java 内 private enum → 编译后为顶层类",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/modules/impl/render/Filter.java:18-21"
+  },
+  "Xm": {
+   "identity": "DamagePriority.Efficient",
+   "kind": "enum",
+   "conf": "B",
+   "evidence": "Xm extends Xo(DamagePriority sealed class); Xm.e(float,float)返回 f2-f 完全对应 DamagePriority.Efficient.score(selfDamage,targetDamage)=targetDamage-selfDamage; Xm.Client/Silent 为 26.2 新增子模式",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/modules/impl/combat/ZealotCrystalPlus.java:1786-1790"
+  },
+  "Xl": {
+   "identity": "RotationMode",
+   "kind": "enum",
+   "conf": "C",
+   "evidence": "Enum 常量 Client+Silent 匹配 AimBot.Rotation 的 Rotation.Client/Silent 模式; AimBot.Rotation 为 private inner enum → 编译后为顶层类; C 级仅凭枚举常量名推测",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/modules/impl/combat/AimBot.java:43"
+  },
+  "XL": {
+   "identity": "UiRect",
+   "kind": "record",
+   "conf": "C",
+   "evidence": "record(float bo,bE,bR,bY) 四个 float 字段; 被所有渲染命令类(d7,ds,gU,gj,nt,u6,v1,v3,vA,ve,yX,zP,Od)用作 bounds 字段, 与 lumingraphics 的 UiRect(x,y,w,h) 语义一致; n(XL) 为坐标比较; 但源码中 UiRect 为外部库类，无法直接确认",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon"
+  }
+ },
+ "unident": [
+  {
+   "obf": "XJ",
+   "reason": "interface extends AutoCloseable, 74行, 方法: o(lm)/V(Object[])/w(Object[])/X(CharacterEvent)/g(GuiGraphicsExtractor+int+int+float)/l(4double)/h(MouseButtonEvent)/r(Object[])→ih/V(MouseButtonEvent+boolean)/Y(KeyEvent)/close(); MC imports: GuiGraphicsExtractor+CharacterEvent+KeyEvent+MouseButtonEvent; 候选 SettingRow 子类完全不匹配; 26.1.2 源码无此接口，可能为 26.2 新增的 Screen/UI 抽象层接口"
+  },
+  {
+   "obf": "Xj",
+   "reason": "Enum(Silent,Inventory), 140行; anchored_refs 仅 hi; 源码无匹配枚举; Silent+Inventory 语义不明确，可能为 display mode 或 rendering config; 判不了"
+  },
+  {
+   "obf": "XK",
+   "reason": "class(List<_A>), 单例(Y), synchronized q()/S()/W() 操作 _A 元素; _A 为 listener/callback 接口; anchored_refs 仅 hi; 源码无此注册表/观察者类; 可能为 26.2 新增的事件注册器或 _A callback 注册表"
+  },
+  {
+   "obf": "Xk",
+   "reason": "static utility, private 构造, 方法 x(int,int,float)→ni(ih×4) 返回面板布局; ni=record(ih×4), ih=矩形; 与源码 SettingListController 的面板布局逻辑语义一致但无直接匹配; 可能为 26.2 新增的 UI 布局工具类"
+  }
+ ],
+ "conflicts": []
+}

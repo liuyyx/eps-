@@ -1,0 +1,43 @@
+{
+  "batch": "C027",
+  "results": {
+    "iJ": {
+      "identity": "MasEffectsParticleRenderer",
+      "kind": "class",
+      "conf": "A",
+      "evidence": "MC导入集与src MasEffectsParticleRenderer高度吻合: 共享BlendFunction/ColorTargetState/DepthStencilState/RenderPipeline/CompareOp(Blaze3D管线)+Identifier/TagKey/RandomSource/Entity/EntityDimensions/Player/ThrownEnderpearl/Item/ItemStack/Vec3(实体/物品/投射物); 字段ConcurrentLinkedQueue<gs>(粒子队列)+Set<Item> H/q(物品集)+Identifier数组+RenderPipeline R(渲染管线)+e8 a(=MasEffects模块引用)与src final class MasEffectsParticleRenderer的ConcurrentLinkedQueue/RenderPipeline/Identifier[]/Set<Item>/MasEffects引用逐一对应; 3个候选均与src import集交集8个罕见类",
+      "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/modules/impl/render/maseffects/MasEffectsParticleRenderer.java"
+    }
+  },
+  "unident": [
+    {
+      "obf": "ij",
+      "reason": "extends Record, 7组件(int cp + ByteBuffer hy + int CN + ByteBuffer hR + int CT + int c5 + int CQ), 2个ByteBuffer+5个int, 无MC导入, 无候选, 26.1.2源码无匹配record; 可能是着色器/渲染管线数据record, 无法确认真实类名"
+    },
+    {
+      "obf": "ik",
+      "reason": "22行极小类: int y + _t L + OV K + long M; _t和OV为26.1.2不存在的类型; 构造器调hi.a()加密; 无MC导入, 无候选, 锚点仅SeQL, 无法判定角色"
+    },
+    {
+      "obf": "iL",
+      "reason": "extends Record, 8组件含List<BlockPos> fu + List<iR> fT + List<nq> fn; MC导入BlockPos; 候选事件类(DestroyBlockEvent等)均为非record有INSTANCE字段, 与纯数据record结构不匹配; 可能是26.2新增区块/方块交互数据record, 无法确认"
+    },
+    {
+      "obf": "im",
+      "reason": "147行类: 4个float字段(u,t,x,U)构成向量/颜色四元组, 静态indy blob(73项), P()方法含distance/scale计算; 无MC导入, 无候选, 26.1.2源码无匹配类; 可能是数学/向量工具类, 无法确认"
+    },
+    {
+      "obf": "iN",
+      "reason": "abstract class implements vP(26.2新增接口, src无), 3313行, 6个子类(i1/iC/ib/id/it/iu); 字段含String×3+float×15+uT/nT/zT/_E等26.2 GUI类型; S(Object[])为渲染入口; 候选SettingsListPanel(1字段concrete class)与iN(30+字段abstract基类)结构不匹配; I18NFileGenerator(static工具)和Module(extends e)均排除; 角色疑为DropdownPanelBase(抽象面板基类), 无法确认真实类名"
+    },
+    {
+      "obf": "in",
+      "reason": "extends Record implements DynamicUniformStorage.DynamicUniform, 单字段zw f8; write(ByteBuffer)处理颜色数组(/255.0f→putVec4); 26.1.2源码无匹配DynamicUniform record; 候选EpsilonAddon/AddonPanelEntry/I18NFileGenerator均非record; 可能是着色器uniform数据record, 无法确认"
+    },
+    {
+      "obf": "iO",
+      "reason": "extends Record implements X6(26.2新增接口), 2组件Identifier vk + boolean dr; 候选SoundKey为enum(非record)排除, ResourceLocationUtils已被gB占用, ClientSetting已被uc占用; 可能是26.2新增资源引用record, 无法确认"
+    }
+  ],
+  "conflicts": []
+}

@@ -1,0 +1,43 @@
+{
+  "batch": "C019",
+  "results": {
+    "gJ": {
+      "identity": "Scaffold.Mode",
+      "kind": "enum",
+      "conf": "A",
+      "evidence": "Enum值TellyBridge/GodBridge与Scaffold.java内部enum Mode完全匹配；独立类文件是内部类扁平化的结果",
+      "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/modules/impl/movement/Scaffold.java"
+    }
+  },
+  "unident": [
+    {
+      "obf": "gf",
+      "reason": "extends gs(EffectParticle抽象类)，anchored_refs引用MasEffects+Setting，构造器参数(iJ,Vec3,int)与源码中所有EffectParticle子类均不匹配(ShockwaveParticle需6参、ReviveParticle需3参(Vec3,int,float))，候选MasEffectsParticleRenderer是父类非子类；可能是26.2新增的particle子类或26.1.2版本差异导致构造器签名不匹配，无法唯一判定具体子类"
+    },
+    {
+      "obf": "gg",
+      "reason": "Record(75行)，字段含clientToken/requestUser/password/username/agent(SerializedName注解)，无MC导入，26.1.2源码中未找到同名认证类；可能是26.2新增的Minecraft账号认证请求Record"
+    },
+    {
+      "obf": "gh",
+      "reason": "极简类(17行)，仅构造器+1个空方法，无字段/导入，无源码匹配，信息不足无法判定"
+    },
+    {
+      "obf": "gI",
+      "reason": "Record(94行)implements _Q(密封接口30+实现类)，9个float字段+1个Color字段，推测为渐变/四边形渲染数据Record，但无法与源码中具体类匹配；26.2可能新增或26.1.2中名称已变"
+    },
+    {
+      "obf": "gi",
+      "reason": "Record(100行)implements _Q，7个float+1个boolean+3个Color字段，同为_Q密封接口的渲染数据实现，与gI结构相似但字段组合不同，无法确定具体源类名"
+    },
+    {
+      "obf": "gj",
+      "reason": "Record(125行)implements yM(DrawCommand密封接口)，13个字段(layer/sequence/bounds/scissor/String/7×float/Color/nK)，推断为文本或复杂绘制命令Record，yM接口在26.1.2源码中无直接对应(可能是26.2新增UI渲染管线)"
+    },
+    {
+      "obf": "gK",
+      "reason": "extends gs(EffectParticle)，45行，构造器(iJ,Vec3,Identifier)，M方法计算opacity=(1-age/lifetime)*0.35f；比gf简单但同样无法与源码中具体EffectParticle子类匹配；可能是26.2新增粒子效果"
+    }
+  ],
+  "conflicts": []
+}

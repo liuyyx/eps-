@@ -1,0 +1,46 @@
+{
+ "batch": "C044",
+ "results": {
+  "nx": {
+   "identity": "AccountSetting",
+   "kind": "setting",
+   "conf": "A-",
+   "evidence": "extends nV(Setting), imports User, e()创建new User(UUID,name,Optional,Optional)存账号凭据; 构造器nx(String)→super(DJ,name); O()/a()读写JSON; g()返回用户名; 737行大部分为混淆switch开销",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/settings/impl/AccountSetting.java"
+  },
+  "ny": {
+   "identity": "EpsilonTranslations",
+   "kind": "class",
+   "conf": "B",
+   "evidence": "3个static uT字段(O,r,y)均为翻译常量; CallSite bootstrap桥接加密字符串→TranslateComponent注册; 与源码EpsilonTranslations内Keybind/Module/Gui常量模式一致; 26.1.2源码EpsilonTranslations仅253行,此172行少是因为v26.2重组了常量分布",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/assets/i18n/EpsilonTranslations.java"
+  }
+ },
+ "unident": [
+  {
+   "obf": "nw",
+   "reason": "Enum{Toggle,Hold}, 123行, 仅引用SeQL; 为按键模式枚举(切换/按住), 但源码字典26.1.2中无对应命名枚举类, candidates为空; 无法确认真实类名"
+  },
+  {
+   "obf": "nX",
+   "reason": "Enum{Success,Info,Error,Warning}, 318行, 有Color返回方法; 为通知/消息级别枚举(含颜色), 但源码字典26.1.2中无匹配枚举, candidates为空; 无法确认真实类名"
+  },
+  {
+   "obf": "nY",
+   "reason": "静态工具类176行, 方法C(Iterable)、N(um模块)、U(Iterable)调用翻译分发; candidates(EpsilonAddon/I18NFileGenerator/AddonPanelEntry)均为同分猜测且无法核实—EpsilonAddon为abstract类不匹配; I18NFileGenerator为文件生成器方法集不符; AddonPanelEntry为GUI组件不符; 无法确认真实类名"
+  },
+  {
+   "obf": "nZ",
+   "reason": "Enum{Control,Pitch40}, 123行; 为瞄准/旋转模式枚举, 但源码字典26.1.2中无对应命名枚举, candidates为空; 无法确认真实类名"
+  },
+  {
+   "obf": "nz",
+   "reason": "Record{uv:is, oz:ih}, 45行; 组件类型is/ih为已识别混淆名但用途不明; 无candidates; 仅凭两组件无法推断真实类名"
+  },
+  {
+   "obf": "n_",
+   "reason": "Record{v3:e(Module), ll:String, LV:String, gm:float, gN:float, gL:float}, 68行; 含Module+2String+3float, 推测为HUD布局/位置记录, 但candidates(EpsilonAddon/LegacyConfigMigrator/EpsilonTranslations)均不匹配Record结构; 无法确认真实类名"
+  }
+ ],
+ "conflicts": []
+}

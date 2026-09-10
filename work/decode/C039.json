@@ -1,0 +1,43 @@
+{
+ "batch": "C039",
+ "results": {
+  "nC": {
+   "identity": "PacketMine$1",
+   "kind": "class",
+   "conf": "A-",
+   "evidence": "extends TimerTask，字段 eb(PacketMine引用)+BlockPos+Timer；lambda发送ServerboundPlayerActionPacket(STOP_DESTROY_BLOCK)；anchor_ref=PacketMine；源码26.1.2中PacketMine.java:344使用匿名TimerTask执行同样操作(发送STOP_DESTROY_BLOCK包)，26.2提取为独立类",
+   "src_path": "旧版本的源代码/.../modules/impl/combat/PacketMine.java"
+  }
+ },
+ "unident": [
+  {
+   "obf": "n9",
+   "reason": "Enum(RightTop/LeftBottom/RightBottom/LeftTop/None)，170行，无mc_imports。值为复合屏幕角位（非HorizontalAnchor/VerticalAnchor），src中无匹配enum。26.2新增类或src版本差未覆盖"
+  },
+  {
+   "obf": "nA",
+   "reason": "Record(5组件：String+int+int+float+int)，61行，无mc_imports，无candidates。src中无匹配record；仅依赖SeQL字符串解密，角色不明"
+  },
+  {
+   "obf": "na",
+   "reason": "Class(80行)，static int[] K，import Direction，含大量anti-decompilation保护。src中无匹配类（可能为新添加的Direction轴映射或旋转辅助类）"
+  },
+  {
+   "obf": "nB",
+   "reason": "Record(4组件：boolean+int+int+int)，55行，无mc_imports。src中无匹配record；组件含义不明（可能为颜色/坐标/配置元组）"
+  },
+  {
+   "obf": "nb",
+   "reason": "大型class(1985行)，import HttpServer/HttpExchange/Pair/ByteBuffer/CharBuffer/Consumer<String>及_D/_k/iQ/l7/yS/zQ/Dl(Setting)。src中无HttpServer使用，candidates(EpsilonAddon, score 3.0)经核实不匹配(EpsilonAddon是abstract类无HTTP功能)。可能为26.2新增的开发/调试HTTP服务器类"
+  },
+  {
+   "obf": "nc",
+   "reason": "Record(6组件：float+float+float+float+Color+String，implement _Q, 引用nK(异步资源/数据加载缓存))，71行。_Q接口和nK确切类名均未在class_map中确定；角色推测为资源加载缓存条目或渲染数据record，但无法确认具体类名"
+  },
+  {
+   "obf": "nD",
+   "reason": "Record(4组件：boolean+AABB+List<BlockPos>+Oy)，63行，import BlockPos/AABB。Oy类型未在class_map中确定。可能为方块操作/挖掘结果record，但确切类名无法从src确认"
+  }
+ ],
+ "conflicts": []
+}
