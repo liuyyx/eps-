@@ -1,0 +1,333 @@
+{
+ "batch": "B036",
+ "n": 8,
+ "classes": [
+  {
+   "obf": "nP",
+   "kind": "class",
+   "super": null,
+   "lines": 186,
+   "decl_line": "class nP ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心",
+    "TranslateComponent"
+   ],
+   "refs": [
+    "hi",
+    "uT"
+   ],
+   "mc_imports": [],
+   "n_fields": 10,
+   "n_methods": 12,
+   "candidates": [
+    {
+     "src": "DefaultTranslateComponent",
+     "score": 3.0,
+     "why": "锚点引用:TranslateComponent",
+     "unique": false
+    },
+    {
+     "src": "EpsilonTranslateComponent",
+     "score": 3.0,
+     "why": "锚点引用:TranslateComponent",
+     "unique": false
+    },
+    {
+     "src": "EpsilonTranslations",
+     "score": 3.0,
+     "why": "锚点引用:TranslateComponent",
+     "unique": false
+    }
+   ]
+  },
+  {
+   "obf": "nT",
+   "kind": "class",
+   "super": null,
+   "lines": 1098,
+   "decl_line": "class nT ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "refs": [
+    "Dl",
+    "_E",
+    "hi",
+    "ih",
+    "l5",
+    "lH",
+    "vk",
+    "zU"
+   ],
+   "mc_imports": [],
+   "n_fields": 7,
+   "n_methods": 27,
+   "candidates": [
+    {
+     "src": "EpsilonAddon",
+     "score": 3.0,
+     "why": "锚点引用:Setting",
+     "unique": true
+    },
+    {
+     "src": "I18NFileGenerator",
+     "score": 3.0,
+     "why": "锚点引用:Setting",
+     "unique": true
+    },
+    {
+     "src": "AddonPanelEntry",
+     "score": 3.0,
+     "why": "锚点引用:Setting",
+     "unique": false
+    }
+   ]
+  },
+  {
+   "obf": "nx",
+   "kind": "class",
+   "super": "nV",
+   "lines": 737,
+   "decl_line": "class nx\nextends nV<nx>\nimplements zy ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "refs": [
+    "DJ",
+    "Dl",
+    "hi",
+    "nV",
+    "zy"
+   ],
+   "mc_imports": [
+    "net.minecraft.client.User"
+   ],
+   "n_fields": 5,
+   "n_methods": 15,
+   "candidates": [
+    {
+     "src": "EpsilonAddon",
+     "score": 3.0,
+     "why": "锚点引用:Setting",
+     "unique": true
+    },
+    {
+     "src": "I18NFileGenerator",
+     "score": 3.0,
+     "why": "锚点引用:Setting",
+     "unique": true
+    },
+    {
+     "src": "AddonPanelEntry",
+     "score": 3.0,
+     "why": "锚点引用:Setting",
+     "unique": false
+    }
+   ]
+  },
+  {
+   "obf": "nY",
+   "kind": "class",
+   "super": null,
+   "lines": 176,
+   "decl_line": "class nY ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "refs": [
+    "Dl",
+    "hi",
+    "um"
+   ],
+   "mc_imports": [],
+   "n_fields": 2,
+   "n_methods": 8,
+   "candidates": [
+    {
+     "src": "EpsilonAddon",
+     "score": 3.0,
+     "why": "锚点引用:Setting",
+     "unique": true
+    },
+    {
+     "src": "I18NFileGenerator",
+     "score": 3.0,
+     "why": "锚点引用:Setting",
+     "unique": true
+    },
+    {
+     "src": "AddonPanelEntry",
+     "score": 3.0,
+     "why": "锚点引用:Setting",
+     "unique": false
+    }
+   ]
+  },
+  {
+   "obf": "ny",
+   "kind": "class",
+   "super": null,
+   "lines": 172,
+   "decl_line": "class ny ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心",
+    "TranslateComponent"
+   ],
+   "refs": [
+    "hi",
+    "uT"
+   ],
+   "mc_imports": [],
+   "n_fields": 3,
+   "n_methods": 5,
+   "candidates": [
+    {
+     "src": "DefaultTranslateComponent",
+     "score": 3.0,
+     "why": "锚点引用:TranslateComponent",
+     "unique": false
+    },
+    {
+     "src": "EpsilonTranslateComponent",
+     "score": 3.0,
+     "why": "锚点引用:TranslateComponent",
+     "unique": false
+    },
+    {
+     "src": "EpsilonTranslations",
+     "score": 3.0,
+     "why": "锚点引用:TranslateComponent",
+     "unique": false
+    }
+   ]
+  },
+  {
+   "obf": "n_",
+   "kind": "class",
+   "super": "Record",
+   "lines": 68,
+   "decl_line": "class n_\nextends Record ",
+   "anchored_refs": [
+    "Module",
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "e",
+    "hi"
+   ],
+   "mc_imports": [],
+   "n_fields": 6,
+   "n_methods": 16,
+   "candidates": [
+    {
+     "src": "EpsilonAddon",
+     "score": 3.0,
+     "why": "锚点引用:Module",
+     "unique": true
+    },
+    {
+     "src": "LegacyConfigMigrator",
+     "score": 3.0,
+     "why": "锚点引用:Module",
+     "unique": false
+    },
+    {
+     "src": "EpsilonTranslations",
+     "score": 3.0,
+     "why": "锚点引用:Module",
+     "unique": false
+    }
+   ]
+  },
+  {
+   "obf": "O7",
+   "kind": "class",
+   "super": "Record",
+   "lines": 84,
+   "decl_line": "class O7\nextends Record ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "hi",
+    "uK"
+   ],
+   "mc_imports": [
+    "net.minecraft.core.BlockPos",
+    "net.minecraft.core.Direction",
+    "net.minecraft.world.entity.LivingEntity",
+    "net.minecraft.world.phys.Vec3"
+   ],
+   "n_fields": 7,
+   "n_methods": 18,
+   "candidates": [
+    {
+     "src": "AStarFollowerNavigator",
+     "score": 3.0,
+     "why": "MCimport:3",
+     "unique": false
+    },
+    {
+     "src": "RotationUtils",
+     "score": 2.6,
+     "why": "MCimport:4",
+     "unique": false
+    },
+    {
+     "src": "HoleESP",
+     "score": 2.33,
+     "why": "MCimport:3",
+     "unique": false
+    }
+   ]
+  },
+  {
+   "obf": "O8",
+   "kind": "class",
+   "super": "nV",
+   "lines": 847,
+   "decl_line": "class O8\nextends nV<O8>\nimplements zy ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "refs": [
+    "DJ",
+    "Dl",
+    "gg",
+    "hi",
+    "n2",
+    "nV",
+    "zy"
+   ],
+   "mc_imports": [
+    "net.minecraft.client.User"
+   ],
+   "n_fields": 8,
+   "n_methods": 18,
+   "candidates": [
+    {
+     "src": "EpsilonAddon",
+     "score": 3.0,
+     "why": "锚点引用:Setting",
+     "unique": true
+    },
+    {
+     "src": "I18NFileGenerator",
+     "score": 3.0,
+     "why": "锚点引用:Setting",
+     "unique": true
+    },
+    {
+     "src": "AddonPanelEntry",
+     "score": 3.0,
+     "why": "锚点引用:Setting",
+     "unique": false
+    }
+   ]
+  }
+ ]
+}

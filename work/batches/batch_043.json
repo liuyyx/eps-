@@ -1,0 +1,322 @@
+{
+ "batch": "B043",
+ "n": 8,
+ "classes": [
+  {
+   "obf": "yp",
+   "kind": "class",
+   "super": null,
+   "lines": 800,
+   "decl_line": "class yp ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "refs": [
+    "Dl",
+    "hi",
+    "iH"
+   ],
+   "mc_imports": [],
+   "n_fields": 6,
+   "n_methods": 17,
+   "candidates": [
+    {
+     "src": "EpsilonAddon",
+     "score": 3.0,
+     "why": "锚点引用:Setting",
+     "unique": true
+    },
+    {
+     "src": "I18NFileGenerator",
+     "score": 3.0,
+     "why": "锚点引用:Setting",
+     "unique": true
+    },
+    {
+     "src": "AddonPanelEntry",
+     "score": 3.0,
+     "why": "锚点引用:Setting",
+     "unique": false
+    }
+   ]
+  },
+  {
+   "obf": "ys",
+   "kind": "class",
+   "super": null,
+   "lines": 1192,
+   "decl_line": "class ys\nimplements _A ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "refs": [
+    "Dl",
+    "_A",
+    "_t",
+    "d5",
+    "hi"
+   ],
+   "mc_imports": [],
+   "n_fields": 17,
+   "n_methods": 39,
+   "candidates": [
+    {
+     "src": "EpsilonAddon",
+     "score": 3.0,
+     "why": "锚点引用:Setting",
+     "unique": true
+    },
+    {
+     "src": "I18NFileGenerator",
+     "score": 3.0,
+     "why": "锚点引用:Setting",
+     "unique": true
+    },
+    {
+     "src": "AddonPanelEntry",
+     "score": 3.0,
+     "why": "锚点引用:Setting",
+     "unique": false
+    }
+   ]
+  },
+  {
+   "obf": "yT",
+   "kind": "record",
+   "super": null,
+   "lines": 404,
+   "decl_line": "record yT(float mP, float mY, float mV, float mM, float mF, float mr, float ms, float my) ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "refs": [
+    "Dl",
+    "hi"
+   ],
+   "mc_imports": [],
+   "n_fields": 10,
+   "n_methods": 26,
+   "candidates": [
+    {
+     "src": "EpsilonAddon",
+     "score": 3.0,
+     "why": "锚点引用:Setting",
+     "unique": true
+    },
+    {
+     "src": "I18NFileGenerator",
+     "score": 3.0,
+     "why": "锚点引用:Setting",
+     "unique": true
+    },
+    {
+     "src": "AddonPanelEntry",
+     "score": 3.0,
+     "why": "锚点引用:Setting",
+     "unique": false
+    }
+   ]
+  },
+  {
+   "obf": "yw",
+   "kind": "class",
+   "super": null,
+   "lines": 356,
+   "decl_line": "class yw ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心",
+    "TranslateComponent"
+   ],
+   "refs": [
+    "hi",
+    "uT"
+   ],
+   "mc_imports": [],
+   "n_fields": 95,
+   "n_methods": 97,
+   "candidates": [
+    {
+     "src": "DefaultTranslateComponent",
+     "score": 3.0,
+     "why": "锚点引用:TranslateComponent",
+     "unique": false
+    },
+    {
+     "src": "EpsilonTranslateComponent",
+     "score": 3.0,
+     "why": "锚点引用:TranslateComponent",
+     "unique": false
+    },
+    {
+     "src": "EpsilonTranslations",
+     "score": 3.0,
+     "why": "锚点引用:TranslateComponent",
+     "unique": false
+    }
+   ]
+  },
+  {
+   "obf": "z0",
+   "kind": "class",
+   "super": "Number",
+   "lines": 1428,
+   "decl_line": "class z0<S extends Dl<T>, T extends Number>\nextends zc<S> ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "refs": [
+    "DF",
+    "Dl",
+    "dp",
+    "hi",
+    "zU",
+    "zc"
+   ],
+   "mc_imports": [],
+   "n_fields": 6,
+   "n_methods": 49,
+   "candidates": [
+    {
+     "src": "EpsilonAddon",
+     "score": 3.0,
+     "why": "锚点引用:Setting",
+     "unique": true
+    },
+    {
+     "src": "I18NFileGenerator",
+     "score": 3.0,
+     "why": "锚点引用:Setting",
+     "unique": true
+    },
+    {
+     "src": "AddonPanelEntry",
+     "score": 3.0,
+     "why": "锚点引用:Setting",
+     "unique": false
+    }
+   ]
+  },
+  {
+   "obf": "z3",
+   "kind": "class",
+   "super": "zv",
+   "lines": 31,
+   "decl_line": "class z3\nextends zv<Xe<?>> ",
+   "anchored_refs": [
+    "RegistryListSetting",
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "Xe",
+    "hi",
+    "zv"
+   ],
+   "mc_imports": [],
+   "n_fields": 0,
+   "n_methods": 4,
+   "candidates": [
+    {
+     "src": "DropdownScreen",
+     "score": 3.0,
+     "why": "锚点引用:RegistryListSetting",
+     "unique": true
+    },
+    {
+     "src": "ModuleButton",
+     "score": 3.0,
+     "why": "锚点引用:RegistryListSetting",
+     "unique": false
+    },
+    {
+     "src": "SettingsContent",
+     "score": 3.0,
+     "why": "锚点引用:RegistryListSetting",
+     "unique": false
+    }
+   ]
+  },
+  {
+   "obf": "zA",
+   "kind": "class",
+   "super": "zv",
+   "lines": 49,
+   "decl_line": "class zA\nextends zv<XF> ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心",
+    "StringListSetting"
+   ],
+   "refs": [
+    "XF",
+    "hi",
+    "u4",
+    "zv"
+   ],
+   "mc_imports": [],
+   "n_fields": 0,
+   "n_methods": 5,
+   "candidates": [
+    {
+     "src": "DropdownScreen",
+     "score": 3.0,
+     "why": "锚点引用:StringListSetting",
+     "unique": true
+    },
+    {
+     "src": "ModuleButton",
+     "score": 3.0,
+     "why": "锚点引用:StringListSetting",
+     "unique": false
+    },
+    {
+     "src": "SettingsContent",
+     "score": 3.0,
+     "why": "锚点引用:StringListSetting",
+     "unique": false
+    }
+   ]
+  },
+  {
+   "obf": "zc",
+   "kind": "class",
+   "super": "zF",
+   "lines": 26,
+   "decl_line": "class zc<S extends Dl<?>>\nextends zF ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "refs": [
+    "Dl",
+    "hi",
+    "zF"
+   ],
+   "mc_imports": [],
+   "n_fields": 1,
+   "n_methods": 4,
+   "candidates": [
+    {
+     "src": "EpsilonAddon",
+     "score": 3.0,
+     "why": "锚点引用:Setting",
+     "unique": true
+    },
+    {
+     "src": "I18NFileGenerator",
+     "score": 3.0,
+     "why": "锚点引用:Setting",
+     "unique": true
+    },
+    {
+     "src": "AddonPanelEntry",
+     "score": 3.0,
+     "why": "锚点引用:Setting",
+     "unique": false
+    }
+   ]
+  }
+ ]
+}

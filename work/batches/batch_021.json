@@ -1,0 +1,351 @@
+{
+ "batch": "B021",
+ "n": 8,
+ "classes": [
+  {
+   "obf": "n4",
+   "kind": "class",
+   "super": null,
+   "lines": 1131,
+   "decl_line": "class n4 ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "refs": [
+    "Dl",
+    "_E",
+    "hi",
+    "ih",
+    "lH"
+   ],
+   "mc_imports": [
+    "net.minecraft.client.Minecraft",
+    "net.minecraft.client.input.CharacterEvent"
+   ],
+   "n_fields": 10,
+   "n_methods": 32,
+   "candidates": [
+    {
+     "src": "Module",
+     "score": 5.0,
+     "why": "锚点引用:Setting; MCimport:1",
+     "unique": false
+    },
+    {
+     "src": "SettingListController",
+     "score": 3.8,
+     "why": "锚点引用:Setting; MCimport:1",
+     "unique": true
+    },
+    {
+     "src": "ModuleDetailPanel",
+     "score": 3.8,
+     "why": "锚点引用:Setting; MCimport:1",
+     "unique": false
+    }
+   ]
+  },
+  {
+   "obf": "Of",
+   "kind": "class",
+   "super": null,
+   "lines": 48,
+   "decl_line": "class Of\nimplements Oa ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "Oa",
+    "Xg",
+    "gv",
+    "hi"
+   ],
+   "mc_imports": [
+    "net.minecraft.client.player.LocalPlayer",
+    "net.minecraft.world.entity.LivingEntity",
+    "net.minecraft.world.phys.Vec3"
+   ],
+   "n_fields": 0,
+   "n_methods": 2,
+   "candidates": [
+    {
+     "src": "FollowerNavigator",
+     "score": 5.0,
+     "why": "MCimport:3",
+     "unique": false
+    },
+    {
+     "src": "StraightFollowerNavigator",
+     "score": 5.0,
+     "why": "MCimport:3",
+     "unique": false
+    },
+    {
+     "src": "AStarFollowerNavigator",
+     "score": 3.4,
+     "why": "MCimport:3",
+     "unique": false
+    }
+   ]
+  },
+  {
+   "obf": "vK",
+   "kind": "class",
+   "super": null,
+   "lines": 315,
+   "decl_line": "class vK ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "refs": [
+    "Dl",
+    "hi"
+   ],
+   "mc_imports": [
+    "net.minecraft.client.Minecraft",
+    "net.minecraft.client.gui.components.events.GuiEventListener"
+   ],
+   "n_fields": 6,
+   "n_methods": 15,
+   "candidates": [
+    {
+     "src": "Module",
+     "score": 5.0,
+     "why": "锚点引用:Setting; MCimport:1",
+     "unique": false
+    },
+    {
+     "src": "EpsilonAddon",
+     "score": 3.0,
+     "why": "锚点引用:Setting",
+     "unique": true
+    },
+    {
+     "src": "I18NFileGenerator",
+     "score": 3.0,
+     "why": "锚点引用:Setting",
+     "unique": true
+    }
+   ]
+  },
+  {
+   "obf": "XJ",
+   "kind": "interface",
+   "super": "AutoCloseable",
+   "lines": 74,
+   "decl_line": "interface XJ\nextends AutoCloseable ",
+   "anchored_refs": [],
+   "refs": [
+    "ih",
+    "lm"
+   ],
+   "mc_imports": [
+    "net.minecraft.client.gui.GuiGraphicsExtractor",
+    "net.minecraft.client.input.CharacterEvent",
+    "net.minecraft.client.input.KeyEvent",
+    "net.minecraft.client.input.MouseButtonEvent"
+   ],
+   "n_fields": 0,
+   "n_methods": 3,
+   "candidates": [
+    {
+     "src": "DoubleSettingRow",
+     "score": 5.0,
+     "why": "MCimport:4",
+     "unique": true
+    },
+    {
+     "src": "IntSettingRow",
+     "score": 5.0,
+     "why": "MCimport:4",
+     "unique": true
+    },
+    {
+     "src": "StringSettingRow",
+     "score": 5.0,
+     "why": "MCimport:4",
+     "unique": false
+    }
+   ]
+  },
+  {
+   "obf": "y0",
+   "kind": "class",
+   "super": null,
+   "lines": 1191,
+   "decl_line": "class y0 ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "refs": [
+    "Dl",
+    "_E",
+    "hi",
+    "lH",
+    "nk",
+    "zJ",
+    "zU"
+   ],
+   "mc_imports": [
+    "net.minecraft.resources.Identifier"
+   ],
+   "n_fields": 13,
+   "n_methods": 37,
+   "candidates": [
+    {
+     "src": "ClientSetting",
+     "score": 5.0,
+     "why": "锚点引用:Setting; MCimport:1",
+     "unique": false
+    },
+    {
+     "src": "SoundKey",
+     "score": 4.0,
+     "why": "MCimport:1",
+     "unique": false
+    },
+    {
+     "src": "RegistryListSetting",
+     "score": 3.5,
+     "why": "锚点引用:Setting; MCimport:1",
+     "unique": false
+    }
+   ]
+  },
+  {
+   "obf": "y_",
+   "kind": "class",
+   "super": null,
+   "lines": 2526,
+   "decl_line": "class y_\nimplements AutoCloseable ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "refs": [
+    "Dl",
+    "O9",
+    "Od",
+    "Oq",
+    "Ot",
+    "XL",
+    "_X",
+    "_j",
+    "d7",
+    "dq",
+    "ds",
+    "gU",
+    "gb",
+    "gj"
+   ],
+   "mc_imports": [
+    "net.minecraft.resources.Identifier"
+   ],
+   "n_fields": 11,
+   "n_methods": 38,
+   "candidates": [
+    {
+     "src": "ClientSetting",
+     "score": 5.0,
+     "why": "锚点引用:Setting; MCimport:1",
+     "unique": false
+    },
+    {
+     "src": "SoundKey",
+     "score": 4.0,
+     "why": "MCimport:1",
+     "unique": false
+    },
+    {
+     "src": "RegistryListSetting",
+     "score": 3.5,
+     "why": "锚点引用:Setting; MCimport:1",
+     "unique": false
+    }
+   ]
+  },
+  {
+   "obf": "z1",
+   "kind": "class",
+   "super": null,
+   "lines": 775,
+   "decl_line": "class z1 ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "refs": [
+    "Dl",
+    "hi"
+   ],
+   "mc_imports": [
+    "net.minecraft.resources.Identifier"
+   ],
+   "n_fields": 10,
+   "n_methods": 18,
+   "candidates": [
+    {
+     "src": "ClientSetting",
+     "score": 5.0,
+     "why": "锚点引用:Setting; MCimport:1",
+     "unique": false
+    },
+    {
+     "src": "SoundKey",
+     "score": 4.0,
+     "why": "MCimport:1",
+     "unique": false
+    },
+    {
+     "src": "RegistryListSetting",
+     "score": 3.5,
+     "why": "锚点引用:Setting; MCimport:1",
+     "unique": false
+    }
+   ]
+  },
+  {
+   "obf": "zJ",
+   "kind": "class",
+   "super": "Enum",
+   "lines": 753,
+   "decl_line": "class zJ\nextends Enum<zJ> ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "refs": [
+    "Dl",
+    "hi"
+   ],
+   "mc_imports": [
+    "net.minecraft.resources.Identifier"
+   ],
+   "n_fields": 8,
+   "n_methods": 39,
+   "candidates": [
+    {
+     "src": "ClientSetting",
+     "score": 5.0,
+     "why": "锚点引用:Setting; MCimport:1",
+     "unique": false
+    },
+    {
+     "src": "SoundKey",
+     "score": 4.0,
+     "why": "MCimport:1",
+     "unique": false
+    },
+    {
+     "src": "RegistryListSetting",
+     "score": 3.5,
+     "why": "锚点引用:Setting; MCimport:1",
+     "unique": false
+    }
+   ]
+  }
+ ]
+}

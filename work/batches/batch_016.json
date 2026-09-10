@@ -1,0 +1,377 @@
+{
+ "batch": "B016",
+ "n": 8,
+ "classes": [
+  {
+   "obf": "i1",
+   "kind": "class",
+   "super": "iN",
+   "lines": 1698,
+   "decl_line": "class i1\nextends iN ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心",
+    "Setting",
+    "TranslateComponent"
+   ],
+   "refs": [
+    "DF",
+    "Dl",
+    "dp",
+    "hi",
+    "iN",
+    "uT",
+    "zU"
+   ],
+   "mc_imports": [],
+   "n_fields": 7,
+   "n_methods": 27,
+   "candidates": [
+    {
+     "src": "I18NFileGenerator",
+     "score": 6.0,
+     "why": "锚点引用:Setting,TranslateComponent",
+     "unique": true
+    },
+    {
+     "src": "SettingsListPanel",
+     "score": 6.0,
+     "why": "锚点引用:Setting,TranslateComponent",
+     "unique": false
+    },
+    {
+     "src": "Module",
+     "score": 6.0,
+     "why": "锚点引用:Setting,TranslateComponent",
+     "unique": false
+    }
+   ]
+  },
+  {
+   "obf": "ib",
+   "kind": "class",
+   "super": "iN",
+   "lines": 493,
+   "decl_line": "class ib\nextends iN ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心",
+    "Setting",
+    "TranslateComponent"
+   ],
+   "refs": [
+    "DF",
+    "Dl",
+    "hi",
+    "iN",
+    "lE",
+    "uT",
+    "zU",
+    "zc"
+   ],
+   "mc_imports": [],
+   "n_fields": 3,
+   "n_methods": 14,
+   "candidates": [
+    {
+     "src": "I18NFileGenerator",
+     "score": 6.0,
+     "why": "锚点引用:Setting,TranslateComponent",
+     "unique": true
+    },
+    {
+     "src": "SettingsListPanel",
+     "score": 6.0,
+     "why": "锚点引用:Setting,TranslateComponent",
+     "unique": false
+    },
+    {
+     "src": "Module",
+     "score": 6.0,
+     "why": "锚点引用:Setting,TranslateComponent",
+     "unique": false
+    }
+   ]
+  },
+  {
+   "obf": "iC",
+   "kind": "class",
+   "super": "iN",
+   "lines": 1234,
+   "decl_line": "class iC\nextends iN ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心",
+    "Setting",
+    "TranslateComponent"
+   ],
+   "refs": [
+    "DF",
+    "Dl",
+    "_E",
+    "dK",
+    "hi",
+    "iN",
+    "l1",
+    "lE",
+    "nH",
+    "uT",
+    "vY",
+    "zU"
+   ],
+   "mc_imports": [],
+   "n_fields": 6,
+   "n_methods": 28,
+   "candidates": [
+    {
+     "src": "I18NFileGenerator",
+     "score": 6.0,
+     "why": "锚点引用:Setting,TranslateComponent",
+     "unique": true
+    },
+    {
+     "src": "SettingsListPanel",
+     "score": 6.0,
+     "why": "锚点引用:Setting,TranslateComponent",
+     "unique": false
+    },
+    {
+     "src": "Module",
+     "score": 6.0,
+     "why": "锚点引用:Setting,TranslateComponent",
+     "unique": false
+    }
+   ]
+  },
+  {
+   "obf": "id",
+   "kind": "class",
+   "super": "iN",
+   "lines": 2547,
+   "decl_line": "class id\nextends iN ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心",
+    "Setting",
+    "TranslateComponent"
+   ],
+   "refs": [
+    "DF",
+    "Dl",
+    "hi",
+    "iH",
+    "iN",
+    "ih",
+    "uT",
+    "zG",
+    "zU",
+    "za",
+    "zc",
+    "zp"
+   ],
+   "mc_imports": [],
+   "n_fields": 8,
+   "n_methods": 28,
+   "candidates": [
+    {
+     "src": "I18NFileGenerator",
+     "score": 6.0,
+     "why": "锚点引用:Setting,TranslateComponent",
+     "unique": true
+    },
+    {
+     "src": "SettingsListPanel",
+     "score": 6.0,
+     "why": "锚点引用:Setting,TranslateComponent",
+     "unique": false
+    },
+    {
+     "src": "Module",
+     "score": 6.0,
+     "why": "锚点引用:Setting,TranslateComponent",
+     "unique": false
+    }
+   ]
+  },
+  {
+   "obf": "iN",
+   "kind": "class",
+   "super": null,
+   "lines": 3313,
+   "decl_line": "class iN\nimplements vP ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心",
+    "Setting",
+    "TranslateComponent"
+   ],
+   "refs": [
+    "DF",
+    "Dl",
+    "_E",
+    "hi",
+    "ih",
+    "l5",
+    "lH",
+    "nT",
+    "u4",
+    "uT",
+    "vP",
+    "zJ",
+    "zT",
+    "zU"
+   ],
+   "mc_imports": [],
+   "n_fields": 32,
+   "n_methods": 84,
+   "candidates": [
+    {
+     "src": "I18NFileGenerator",
+     "score": 6.0,
+     "why": "锚点引用:Setting,TranslateComponent",
+     "unique": true
+    },
+    {
+     "src": "SettingsListPanel",
+     "score": 6.0,
+     "why": "锚点引用:Setting,TranslateComponent",
+     "unique": false
+    },
+    {
+     "src": "Module",
+     "score": 6.0,
+     "why": "锚点引用:Setting,TranslateComponent",
+     "unique": false
+    }
+   ]
+  },
+  {
+   "obf": "is",
+   "kind": "class",
+   "super": "Record",
+   "lines": 405,
+   "decl_line": "class is\nextends Record ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心",
+    "Setting",
+    "SettingGroup"
+   ],
+   "refs": [
+    "Dl",
+    "hi",
+    "nN"
+   ],
+   "mc_imports": [],
+   "n_fields": 6,
+   "n_methods": 20,
+   "candidates": [
+    {
+     "src": "EpsilonAddon",
+     "score": 6.0,
+     "why": "锚点引用:Setting,SettingGroup",
+     "unique": true
+    },
+    {
+     "src": "I18NFileGenerator",
+     "score": 6.0,
+     "why": "锚点引用:Setting,SettingGroup",
+     "unique": true
+    },
+    {
+     "src": "Module",
+     "score": 6.0,
+     "why": "锚点引用:Setting,SettingGroup",
+     "unique": false
+    }
+   ]
+  },
+  {
+   "obf": "it",
+   "kind": "class",
+   "super": "iN",
+   "lines": 958,
+   "decl_line": "class it\nextends iN ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心",
+    "Setting",
+    "TranslateComponent"
+   ],
+   "refs": [
+    "DF",
+    "DU",
+    "Dl",
+    "dp",
+    "hi",
+    "iN",
+    "uT",
+    "zU"
+   ],
+   "mc_imports": [],
+   "n_fields": 3,
+   "n_methods": 18,
+   "candidates": [
+    {
+     "src": "I18NFileGenerator",
+     "score": 6.0,
+     "why": "锚点引用:Setting,TranslateComponent",
+     "unique": true
+    },
+    {
+     "src": "SettingsListPanel",
+     "score": 6.0,
+     "why": "锚点引用:Setting,TranslateComponent",
+     "unique": false
+    },
+    {
+     "src": "Module",
+     "score": 6.0,
+     "why": "锚点引用:Setting,TranslateComponent",
+     "unique": false
+    }
+   ]
+  },
+  {
+   "obf": "iu",
+   "kind": "class",
+   "super": "iN",
+   "lines": 2749,
+   "decl_line": "class iu\nextends iN ",
+   "anchored_refs": [
+    "Module",
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "refs": [
+    "DF",
+    "Dl",
+    "_E",
+    "e",
+    "hi",
+    "iN",
+    "ih",
+    "vN",
+    "vY",
+    "zU",
+    "zk"
+   ],
+   "mc_imports": [],
+   "n_fields": 16,
+   "n_methods": 48,
+   "candidates": [
+    {
+     "src": "EpsilonAddon",
+     "score": 6.0,
+     "why": "锚点引用:Module,Setting",
+     "unique": true
+    },
+    {
+     "src": "I18NFileGenerator",
+     "score": 6.0,
+     "why": "锚点引用:Module,Setting",
+     "unique": true
+    },
+    {
+     "src": "ModuleButton",
+     "score": 6.0,
+     "why": "锚点引用:Module,Setting",
+     "unique": false
+    }
+   ]
+  }
+ ]
+}

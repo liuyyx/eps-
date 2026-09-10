@@ -1,0 +1,152 @@
+{
+ "batch": "B070",
+ "n": 8,
+ "classes": [
+  {
+   "obf": "O6",
+   "kind": "class",
+   "super": "Record",
+   "lines": 74,
+   "decl_line": "class O6\nextends Record\nimplements DynamicUniformStorage.DynamicUniform ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "Oq",
+    "hi"
+   ],
+   "mc_imports": [
+    "net.minecraft.client.renderer.DynamicUniformStorage"
+   ],
+   "n_fields": 2,
+   "n_methods": 10,
+   "candidates": []
+  },
+  {
+   "obf": "Oa",
+   "kind": "interface",
+   "super": null,
+   "lines": 11,
+   "decl_line": "interface Oa ",
+   "anchored_refs": [],
+   "refs": [
+    "gv"
+   ],
+   "mc_imports": [],
+   "n_fields": 0,
+   "n_methods": 1,
+   "candidates": []
+  },
+  {
+   "obf": "OB",
+   "kind": "class",
+   "super": null,
+   "lines": 149,
+   "decl_line": "class OB ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "hi",
+    "ne"
+   ],
+   "mc_imports": [],
+   "n_fields": 0,
+   "n_methods": 1,
+   "candidates": []
+  },
+  {
+   "obf": "Ob",
+   "kind": "record",
+   "super": null,
+   "lines": 49,
+   "decl_line": "record Ob(Color gv, Color gB, Color gZ) ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "hi"
+   ],
+   "mc_imports": [],
+   "n_fields": 3,
+   "n_methods": 10,
+   "candidates": []
+  },
+  {
+   "obf": "OC",
+   "kind": "class",
+   "super": "Record",
+   "lines": 67,
+   "decl_line": "class OC\nextends Record ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "_j",
+    "hi",
+    "l5",
+    "vx",
+    "zP"
+   ],
+   "mc_imports": [],
+   "n_fields": 4,
+   "n_methods": 14,
+   "candidates": []
+  },
+  {
+   "obf": "Od",
+   "kind": "class",
+   "super": "Record",
+   "lines": 94,
+   "decl_line": "class Od\nextends Record\nimplements yM ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "XL",
+    "Xu",
+    "hi",
+    "y3",
+    "yM"
+   ],
+   "mc_imports": [],
+   "n_fields": 8,
+   "n_methods": 21,
+   "candidates": []
+  },
+  {
+   "obf": "OG",
+   "kind": "class",
+   "super": null,
+   "lines": 39,
+   "decl_line": "class OG ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "hi"
+   ],
+   "mc_imports": [],
+   "n_fields": 0,
+   "n_methods": 0,
+   "candidates": []
+  },
+  {
+   "obf": "OH",
+   "kind": "class",
+   "super": "Enum",
+   "lines": 170,
+   "decl_line": "class OH\nextends Enum<OH> ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "hi"
+   ],
+   "mc_imports": [],
+   "n_fields": 0,
+   "n_methods": 9,
+   "candidates": []
+  }
+ ]
+}

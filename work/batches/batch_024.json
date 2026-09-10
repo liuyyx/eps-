@@ -1,0 +1,316 @@
+{
+ "batch": "B024",
+ "n": 8,
+ "classes": [
+  {
+   "obf": "gc",
+   "kind": "class",
+   "super": null,
+   "lines": 80,
+   "decl_line": "class gc ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "refs": [
+    "Dl",
+    "OH",
+    "hi"
+   ],
+   "mc_imports": [
+    "net.minecraft.core.BlockPos",
+    "net.minecraft.world.phys.Vec3"
+   ],
+   "n_fields": 4,
+   "n_methods": 7,
+   "candidates": [
+    {
+     "src": "Hole",
+     "score": 4.0,
+     "why": "MCimport:2",
+     "unique": false
+    },
+    {
+     "src": "EpsilonAddon",
+     "score": 3.0,
+     "why": "锚点引用:Setting",
+     "unique": true
+    },
+    {
+     "src": "I18NFileGenerator",
+     "score": 3.0,
+     "why": "锚点引用:Setting",
+     "unique": true
+    }
+   ]
+  },
+  {
+   "obf": "gS",
+   "kind": "class",
+   "super": "Record",
+   "lines": 86,
+   "decl_line": "class gS\nextends Record ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "hi",
+    "uK"
+   ],
+   "mc_imports": [
+    "net.minecraft.core.BlockPos",
+    "net.minecraft.core.Direction"
+   ],
+   "n_fields": 8,
+   "n_methods": 20,
+   "candidates": [
+    {
+     "src": "StartDestroyBlockEvent",
+     "score": 4.0,
+     "why": "MCimport:2",
+     "unique": false
+    },
+    {
+     "src": "DestroyBlockEvent",
+     "score": 2.0,
+     "why": "MCimport:1",
+     "unique": false
+    },
+    {
+     "src": "RaytraceUtils",
+     "score": 2.0,
+     "why": "MCimport:2",
+     "unique": false
+    }
+   ]
+  },
+  {
+   "obf": "gv",
+   "kind": "class",
+   "super": "Record",
+   "lines": 48,
+   "decl_line": "class gv\nextends Record ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "hi"
+   ],
+   "mc_imports": [
+    "net.minecraft.world.phys.Vec3"
+   ],
+   "n_fields": 2,
+   "n_methods": 8,
+   "candidates": [
+    {
+     "src": "FollowerPath",
+     "score": 4.0,
+     "why": "MCimport:1",
+     "unique": false
+    },
+    {
+     "src": "MixinEntity",
+     "score": 2.0,
+     "why": "MCimport:1",
+     "unique": false
+    },
+    {
+     "src": "MixinLivingEntity",
+     "score": 2.0,
+     "why": "MCimport:1",
+     "unique": false
+    }
+   ]
+  },
+  {
+   "obf": "iL",
+   "kind": "class",
+   "super": "Record",
+   "lines": 99,
+   "decl_line": "class iL\nextends Record ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "D7",
+    "d2",
+    "hi",
+    "iR",
+    "nq",
+    "u5"
+   ],
+   "mc_imports": [
+    "net.minecraft.core.BlockPos"
+   ],
+   "n_fields": 9,
+   "n_methods": 21,
+   "candidates": [
+    {
+     "src": "DestroyBlockEvent",
+     "score": 4.0,
+     "why": "MCimport:1",
+     "unique": false
+    },
+    {
+     "src": "BlockCollisionEvent",
+     "score": 2.0,
+     "why": "MCimport:1",
+     "unique": false
+    },
+    {
+     "src": "StartDestroyBlockEvent",
+     "score": 2.0,
+     "why": "MCimport:1",
+     "unique": false
+    }
+   ]
+  },
+  {
+   "obf": "iO",
+   "kind": "class",
+   "super": "Record",
+   "lines": 49,
+   "decl_line": "class iO\nextends Record\nimplements X6 ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "X6",
+    "hi"
+   ],
+   "mc_imports": [
+    "net.minecraft.resources.Identifier"
+   ],
+   "n_fields": 2,
+   "n_methods": 8,
+   "candidates": [
+    {
+     "src": "SoundKey",
+     "score": 4.0,
+     "why": "MCimport:1",
+     "unique": false
+    },
+    {
+     "src": "ResourceLocationUtils",
+     "score": 2.0,
+     "why": "MCimport:1",
+     "unique": false
+    },
+    {
+     "src": "ClientSetting",
+     "score": 2.0,
+     "why": "MCimport:1",
+     "unique": false
+    }
+   ]
+  },
+  {
+   "obf": "ir",
+   "kind": "class",
+   "super": null,
+   "lines": 134,
+   "decl_line": "class ir ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "hi"
+   ],
+   "mc_imports": [
+    "net.minecraft.world.inventory.ContainerInput"
+   ],
+   "n_fields": 1,
+   "n_methods": 15,
+   "candidates": [
+    {
+     "src": "ClickSlotUtils",
+     "score": 4.0,
+     "why": "MCimport:1",
+     "unique": false
+    }
+   ]
+  },
+  {
+   "obf": "iv",
+   "kind": "class",
+   "super": null,
+   "lines": 1158,
+   "decl_line": "class iv ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "refs": [
+    "Dl",
+    "dn",
+    "g0",
+    "hi",
+    "lZ",
+    "yV"
+   ],
+   "mc_imports": [
+    "net.minecraft.world.entity.Entity"
+   ],
+   "n_fields": 19,
+   "n_methods": 33,
+   "candidates": [
+    {
+     "src": "AttackSlowDownEvent",
+     "score": 4.0,
+     "why": "MCimport:1",
+     "unique": false
+    },
+    {
+     "src": "EntityRenderStateAccessor",
+     "score": 4.0,
+     "why": "MCimport:1",
+     "unique": false
+    },
+    {
+     "src": "AntiBot",
+     "score": 4.0,
+     "why": "MCimport:1",
+     "unique": true
+    }
+   ]
+  },
+  {
+   "obf": "iZ",
+   "kind": "class",
+   "super": "Record",
+   "lines": 91,
+   "decl_line": "class iZ\nextends Record ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "hi"
+   ],
+   "mc_imports": [
+    "net.minecraft.resources.Identifier"
+   ],
+   "n_fields": 9,
+   "n_methods": 22,
+   "candidates": [
+    {
+     "src": "SoundKey",
+     "score": 4.0,
+     "why": "MCimport:1",
+     "unique": false
+    },
+    {
+     "src": "ResourceLocationUtils",
+     "score": 2.0,
+     "why": "MCimport:1",
+     "unique": false
+    },
+    {
+     "src": "ClientSetting",
+     "score": 2.0,
+     "why": "MCimport:1",
+     "unique": false
+    }
+   ]
+  }
+ ]
+}

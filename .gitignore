@@ -1,0 +1,19 @@
+# 构建产物 / 大文件 / 临时
+work/classes/
+*.class
+*.jar
+*.zip
+# 参考源码/原始输入不纳入仓库
+旧版本的源代码/
+要返混淆的文件/
+agent读我的要求.txt
+# 临时
+work/out/A_test.java
+# 官方 jar 反编译产物（第三方版权代码，仅作本地对照字典，不入库）
+work/official26/
+work/tmp/
+# python 缓存
+__pycache__/
+work/__pycache__/
+# git 凭据
+.git-credentials

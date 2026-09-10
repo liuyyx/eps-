@@ -1,0 +1,360 @@
+{
+ "batch": "B018",
+ "n": 8,
+ "classes": [
+  {
+   "obf": "vZ",
+   "kind": "class",
+   "super": null,
+   "lines": 345,
+   "decl_line": "class vZ ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心",
+    "Setting",
+    "TranslateComponent"
+   ],
+   "refs": [
+    "Dl",
+    "hi",
+    "uT"
+   ],
+   "mc_imports": [
+    "net.minecraft.network.chat.MutableComponent"
+   ],
+   "n_fields": 4,
+   "n_methods": 12,
+   "candidates": [
+    {
+     "src": "I18NFileGenerator",
+     "score": 6.0,
+     "why": "锚点引用:Setting,TranslateComponent",
+     "unique": true
+    },
+    {
+     "src": "SettingsListPanel",
+     "score": 6.0,
+     "why": "锚点引用:Setting,TranslateComponent",
+     "unique": false
+    },
+    {
+     "src": "Module",
+     "score": 6.0,
+     "why": "锚点引用:Setting,TranslateComponent",
+     "unique": false
+    }
+   ]
+  },
+  {
+   "obf": "x",
+   "kind": "class",
+   "super": "e",
+   "lines": 276,
+   "decl_line": "class x\nextends e ",
+   "anchored_refs": [
+    "Module",
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "refs": [
+    "Dl",
+    "dQ",
+    "e",
+    "hi",
+    "vY",
+    "yE"
+   ],
+   "mc_imports": [
+    "net.minecraft.network.protocol.game.ServerboundContainerClickPacket",
+    "net.minecraft.network.protocol.game.ServerboundContainerClosePacket",
+    "net.minecraft.network.protocol.game.ServerboundPlayerInputPacket",
+    "net.minecraft.world.entity.player.Input"
+   ],
+   "n_fields": 6,
+   "n_methods": 12,
+   "candidates": [
+    {
+     "src": "EpsilonAddon",
+     "score": 6.0,
+     "why": "锚点引用:Module,Setting",
+     "unique": true
+    },
+    {
+     "src": "I18NFileGenerator",
+     "score": 6.0,
+     "why": "锚点引用:Module,Setting",
+     "unique": true
+    },
+    {
+     "src": "ModuleButton",
+     "score": 6.0,
+     "why": "锚点引用:Module,Setting",
+     "unique": false
+    }
+   ]
+  },
+  {
+   "obf": "X8",
+   "kind": "class",
+   "super": "Dx",
+   "lines": 220,
+   "decl_line": "class X8\nextends Dx<l4> ",
+   "anchored_refs": [
+    "EnumSetting",
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "refs": [
+    "Dl",
+    "Dx",
+    "hi",
+    "l4"
+   ],
+   "mc_imports": [],
+   "n_fields": 3,
+   "n_methods": 10,
+   "candidates": [
+    {
+     "src": "I18NFileGenerator",
+     "score": 6.0,
+     "why": "锚点引用:EnumSetting,Setting",
+     "unique": true
+    },
+    {
+     "src": "ModuleButton",
+     "score": 6.0,
+     "why": "锚点引用:EnumSetting,Setting",
+     "unique": false
+    },
+    {
+     "src": "SettingsContent",
+     "score": 6.0,
+     "why": "锚点引用:EnumSetting,Setting",
+     "unique": false
+    }
+   ]
+  },
+  {
+   "obf": "yO",
+   "kind": "class",
+   "super": null,
+   "lines": 219,
+   "decl_line": "class yO ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心",
+    "Setting",
+    "TranslateComponent",
+    "Type"
+   ],
+   "refs": [
+    "Dl",
+    "Xf",
+    "hi",
+    "uT"
+   ],
+   "mc_imports": [],
+   "n_fields": 2,
+   "n_methods": 6,
+   "candidates": [
+    {
+     "src": "I18NFileGenerator",
+     "score": 6.0,
+     "why": "锚点引用:Setting,TranslateComponent",
+     "unique": true
+    },
+    {
+     "src": "SettingsListPanel",
+     "score": 6.0,
+     "why": "锚点引用:Setting,TranslateComponent",
+     "unique": false
+    },
+    {
+     "src": "Module",
+     "score": 6.0,
+     "why": "锚点引用:Setting,TranslateComponent",
+     "unique": false
+    }
+   ]
+  },
+  {
+   "obf": "za",
+   "kind": "class",
+   "super": "zc",
+   "lines": 880,
+   "decl_line": "class za\nextends zc<X0> ",
+   "anchored_refs": [
+    "KeybindSetting",
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "refs": [
+    "DF",
+    "Dl",
+    "X0",
+    "_E",
+    "hi",
+    "lH",
+    "zU",
+    "zc"
+   ],
+   "mc_imports": [],
+   "n_fields": 9,
+   "n_methods": 18,
+   "candidates": [
+    {
+     "src": "ModuleButton",
+     "score": 6.0,
+     "why": "锚点引用:KeybindSetting,Setting",
+     "unique": false
+    },
+    {
+     "src": "SettingsContent",
+     "score": 6.0,
+     "why": "锚点引用:KeybindSetting,Setting",
+     "unique": false
+    },
+    {
+     "src": "SettingViewFactory",
+     "score": 6.0,
+     "why": "锚点引用:KeybindSetting,Setting",
+     "unique": false
+    }
+   ]
+  },
+  {
+   "obf": "zG",
+   "kind": "class",
+   "super": "zc",
+   "lines": 3513,
+   "decl_line": "class zG\nextends zc<DV> ",
+   "anchored_refs": [
+    "ColorSetting",
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "refs": [
+    "DF",
+    "DV",
+    "Dl",
+    "_E",
+    "dp",
+    "gP",
+    "hi",
+    "lH",
+    "zU",
+    "zc"
+   ],
+   "mc_imports": [],
+   "n_fields": 13,
+   "n_methods": 77,
+   "candidates": [
+    {
+     "src": "ModuleButton",
+     "score": 6.0,
+     "why": "锚点引用:ColorSetting,Setting",
+     "unique": false
+    },
+    {
+     "src": "SettingsContent",
+     "score": 6.0,
+     "why": "锚点引用:ColorSetting,Setting",
+     "unique": false
+    },
+    {
+     "src": "SettingViewFactory",
+     "score": 6.0,
+     "why": "锚点引用:ColorSetting,Setting",
+     "unique": false
+    }
+   ]
+  },
+  {
+   "obf": "zj",
+   "kind": "class",
+   "super": "zc",
+   "lines": 630,
+   "decl_line": "class zj\nextends zc<Xn> ",
+   "anchored_refs": [
+    "BoolSetting",
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "refs": [
+    "DF",
+    "Dl",
+    "Xn",
+    "_E",
+    "hi",
+    "lH",
+    "zU",
+    "zc"
+   ],
+   "mc_imports": [],
+   "n_fields": 6,
+   "n_methods": 23,
+   "candidates": [
+    {
+     "src": "ModuleButton",
+     "score": 6.0,
+     "why": "锚点引用:BoolSetting,Setting",
+     "unique": false
+    },
+    {
+     "src": "SettingsContent",
+     "score": 6.0,
+     "why": "锚点引用:BoolSetting,Setting",
+     "unique": false
+    },
+    {
+     "src": "SettingViewFactory",
+     "score": 6.0,
+     "why": "锚点引用:BoolSetting,Setting",
+     "unique": false
+    }
+   ]
+  },
+  {
+   "obf": "zp",
+   "kind": "class",
+   "super": "zc",
+   "lines": 885,
+   "decl_line": "class zp\nextends zc<Xc> ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心",
+    "Setting",
+    "StringSetting"
+   ],
+   "refs": [
+    "DF",
+    "Dl",
+    "Xc",
+    "dp",
+    "hi",
+    "zU",
+    "zc"
+   ],
+   "mc_imports": [],
+   "n_fields": 3,
+   "n_methods": 17,
+   "candidates": [
+    {
+     "src": "ModuleButton",
+     "score": 6.0,
+     "why": "锚点引用:Setting,StringSetting",
+     "unique": false
+    },
+    {
+     "src": "SettingsContent",
+     "score": 6.0,
+     "why": "锚点引用:Setting,StringSetting",
+     "unique": false
+    },
+    {
+     "src": "SettingViewFactory",
+     "score": 6.0,
+     "why": "锚点引用:Setting,StringSetting",
+     "unique": false
+    }
+   ]
+  }
+ ]
+}

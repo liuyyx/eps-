@@ -1,0 +1,154 @@
+{
+ "batch": "B056",
+ "n": 8,
+ "classes": [
+  {
+   "obf": "gi",
+   "kind": "class",
+   "super": "Record",
+   "lines": 100,
+   "decl_line": "class gi\nextends Record\nimplements _Q ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "_Q",
+    "hi"
+   ],
+   "mc_imports": [],
+   "n_fields": 11,
+   "n_methods": 26,
+   "candidates": []
+  },
+  {
+   "obf": "gJ",
+   "kind": "class",
+   "super": "Enum",
+   "lines": 140,
+   "decl_line": "class gJ\nextends Enum<gJ> ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "hi"
+   ],
+   "mc_imports": [],
+   "n_fields": 1,
+   "n_methods": 7,
+   "candidates": []
+  },
+  {
+   "obf": "gj",
+   "kind": "class",
+   "super": "Record",
+   "lines": 125,
+   "decl_line": "class gj\nextends Record\nimplements yM ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "XL",
+    "Xu",
+    "hi",
+    "nK",
+    "y3",
+    "yM"
+   ],
+   "mc_imports": [],
+   "n_fields": 13,
+   "n_methods": 31,
+   "candidates": []
+  },
+  {
+   "obf": "gK",
+   "kind": "class",
+   "super": "gs",
+   "lines": 45,
+   "decl_line": "class gK\nextends gs ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "gs",
+    "hi",
+    "iJ"
+   ],
+   "mc_imports": [
+    "net.minecraft.resources.Identifier",
+    "net.minecraft.world.phys.Vec3"
+   ],
+   "n_fields": 1,
+   "n_methods": 3,
+   "candidates": []
+  },
+  {
+   "obf": "gk",
+   "kind": "class",
+   "super": null,
+   "lines": 10,
+   "decl_line": "class gk ",
+   "anchored_refs": [],
+   "refs": [],
+   "mc_imports": [],
+   "n_fields": 0,
+   "n_methods": 1,
+   "candidates": []
+  },
+  {
+   "obf": "gL",
+   "kind": "class",
+   "super": "gk",
+   "lines": 21,
+   "decl_line": "class gL\nextends gk ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "gk",
+    "hi"
+   ],
+   "mc_imports": [],
+   "n_fields": 1,
+   "n_methods": 3,
+   "candidates": []
+  },
+  {
+   "obf": "gN",
+   "kind": "class",
+   "super": "Record",
+   "lines": 82,
+   "decl_line": "class gN\nextends Record ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "hi",
+    "n0"
+   ],
+   "mc_imports": [
+    "net.minecraft.world.entity.EntityType"
+   ],
+   "n_fields": 6,
+   "n_methods": 19,
+   "candidates": []
+  },
+  {
+   "obf": "gn",
+   "kind": "class",
+   "super": null,
+   "lines": 50,
+   "decl_line": "class gn ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "hi",
+    "vN"
+   ],
+   "mc_imports": [],
+   "n_fields": 0,
+   "n_methods": 1,
+   "candidates": []
+  }
+ ]
+}

@@ -1,0 +1,210 @@
+{
+ "batch": "B046",
+ "n": 8,
+ "classes": [
+  {
+   "obf": "_t",
+   "kind": "class",
+   "super": null,
+   "lines": 1163,
+   "decl_line": "class _t ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "refs": [
+    "Dl",
+    "hi"
+   ],
+   "mc_imports": [],
+   "n_fields": 13,
+   "n_methods": 36,
+   "candidates": [
+    {
+     "src": "EpsilonAddon",
+     "score": 3.0,
+     "why": "锚点引用:Setting",
+     "unique": true
+    },
+    {
+     "src": "I18NFileGenerator",
+     "score": 3.0,
+     "why": "锚点引用:Setting",
+     "unique": true
+    },
+    {
+     "src": "AddonPanelEntry",
+     "score": 3.0,
+     "why": "锚点引用:Setting",
+     "unique": false
+    }
+   ]
+  },
+  {
+   "obf": "_X",
+   "kind": "class",
+   "super": null,
+   "lines": 597,
+   "decl_line": "class _X\nimplements AutoCloseable ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "refs": [
+    "Dl",
+    "XN",
+    "Xu",
+    "_A",
+    "_j",
+    "gz",
+    "hi",
+    "lX",
+    "lg",
+    "ui",
+    "v5",
+    "y3",
+    "ys"
+   ],
+   "mc_imports": [],
+   "n_fields": 5,
+   "n_methods": 26,
+   "candidates": [
+    {
+     "src": "EpsilonAddon",
+     "score": 3.0,
+     "why": "锚点引用:Setting",
+     "unique": true
+    },
+    {
+     "src": "I18NFileGenerator",
+     "score": 3.0,
+     "why": "锚点引用:Setting",
+     "unique": true
+    },
+    {
+     "src": "AddonPanelEntry",
+     "score": 3.0,
+     "why": "锚点引用:Setting",
+     "unique": false
+    }
+   ]
+  },
+  {
+   "obf": "_Z",
+   "kind": "class",
+   "super": null,
+   "lines": 296,
+   "decl_line": "class _Z ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "refs": [
+    "Dl",
+    "hi"
+   ],
+   "mc_imports": [],
+   "n_fields": 5,
+   "n_methods": 17,
+   "candidates": [
+    {
+     "src": "EpsilonAddon",
+     "score": 3.0,
+     "why": "锚点引用:Setting",
+     "unique": true
+    },
+    {
+     "src": "I18NFileGenerator",
+     "score": 3.0,
+     "why": "锚点引用:Setting",
+     "unique": true
+    },
+    {
+     "src": "AddonPanelEntry",
+     "score": 3.0,
+     "why": "锚点引用:Setting",
+     "unique": false
+    }
+   ]
+  },
+  {
+   "obf": "bo",
+   "kind": "class",
+   "super": null,
+   "lines": 2299,
+   "decl_line": "class bo ",
+   "anchored_refs": [],
+   "refs": [],
+   "mc_imports": [],
+   "n_fields": 12,
+   "n_methods": 37,
+   "candidates": []
+  },
+  {
+   "obf": "D0",
+   "kind": "class",
+   "super": "Enum",
+   "lines": 170,
+   "decl_line": "class D0\nextends Enum<D0> ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "hi"
+   ],
+   "mc_imports": [],
+   "n_fields": 1,
+   "n_methods": 9,
+   "candidates": []
+  },
+  {
+   "obf": "d1",
+   "kind": "class",
+   "super": null,
+   "lines": 66,
+   "decl_line": "class d1 ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "hi"
+   ],
+   "mc_imports": [],
+   "n_fields": 2,
+   "n_methods": 5,
+   "candidates": []
+  },
+  {
+   "obf": "D4",
+   "kind": "class",
+   "super": null,
+   "lines": 20,
+   "decl_line": "class D4 ",
+   "anchored_refs": [],
+   "refs": [],
+   "mc_imports": [],
+   "n_fields": 2,
+   "n_methods": 3,
+   "candidates": []
+  },
+  {
+   "obf": "d4",
+   "kind": "class",
+   "super": "Record",
+   "lines": 52,
+   "decl_line": "class d4\nextends Record\nimplements _Q ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "_Q",
+    "hi",
+    "ih"
+   ],
+   "mc_imports": [],
+   "n_fields": 3,
+   "n_methods": 10,
+   "candidates": []
+  }
+ ]
+}

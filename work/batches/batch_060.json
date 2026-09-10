@@ -1,0 +1,141 @@
+{
+ "batch": "B060",
+ "n": 8,
+ "classes": [
+  {
+   "obf": "ik",
+   "kind": "class",
+   "super": null,
+   "lines": 22,
+   "decl_line": "class ik ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "OV",
+    "_t",
+    "hi"
+   ],
+   "mc_imports": [],
+   "n_fields": 0,
+   "n_methods": 1,
+   "candidates": []
+  },
+  {
+   "obf": "im",
+   "kind": "class",
+   "super": null,
+   "lines": 147,
+   "decl_line": "class im ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "hi"
+   ],
+   "mc_imports": [],
+   "n_fields": 6,
+   "n_methods": 11,
+   "candidates": []
+  },
+  {
+   "obf": "iP",
+   "kind": "class",
+   "super": "iH",
+   "lines": 488,
+   "decl_line": "class iP\nextends iH ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "hi",
+    "iH"
+   ],
+   "mc_imports": [],
+   "n_fields": 2,
+   "n_methods": 10,
+   "candidates": []
+  },
+  {
+   "obf": "iQ",
+   "kind": "class",
+   "super": null,
+   "lines": 20,
+   "decl_line": "class iQ ",
+   "anchored_refs": [],
+   "refs": [],
+   "mc_imports": [],
+   "n_fields": 2,
+   "n_methods": 3,
+   "candidates": []
+  },
+  {
+   "obf": "iU",
+   "kind": "class",
+   "super": "Enum",
+   "lines": 140,
+   "decl_line": "class iU\nextends Enum<iU> ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "hi"
+   ],
+   "mc_imports": [],
+   "n_fields": 1,
+   "n_methods": 7,
+   "candidates": []
+  },
+  {
+   "obf": "iX",
+   "kind": "class",
+   "super": "Enum",
+   "lines": 123,
+   "decl_line": "class iX\nextends Enum<iX> ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "hi"
+   ],
+   "mc_imports": [],
+   "n_fields": 1,
+   "n_methods": 6,
+   "candidates": []
+  },
+  {
+   "obf": "iY",
+   "kind": "class",
+   "super": "Record",
+   "lines": 61,
+   "decl_line": "class iY\nextends Record ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "hi"
+   ],
+   "mc_imports": [],
+   "n_fields": 5,
+   "n_methods": 14,
+   "candidates": []
+  },
+  {
+   "obf": "iy",
+   "kind": "class",
+   "super": "Enum",
+   "lines": 123,
+   "decl_line": "class iy\nextends Enum<iy> ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "hi"
+   ],
+   "mc_imports": [],
+   "n_fields": 1,
+   "n_methods": 6,
+   "candidates": []
+  }
+ ]
+}

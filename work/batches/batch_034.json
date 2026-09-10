@@ -1,0 +1,334 @@
+{
+ "batch": "B034",
+ "n": 8,
+ "classes": [
+  {
+   "obf": "J",
+   "kind": "class",
+   "super": "e",
+   "lines": 82,
+   "decl_line": "class J\nextends e ",
+   "anchored_refs": [
+    "Module",
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "e",
+    "hi",
+    "vY",
+    "yE",
+    "yZ"
+   ],
+   "mc_imports": [],
+   "n_fields": 2,
+   "n_methods": 4,
+   "candidates": [
+    {
+     "src": "EpsilonAddon",
+     "score": 3.0,
+     "why": "锚点引用:Module",
+     "unique": true
+    },
+    {
+     "src": "LegacyConfigMigrator",
+     "score": 3.0,
+     "why": "锚点引用:Module",
+     "unique": false
+    },
+    {
+     "src": "EpsilonTranslations",
+     "score": 3.0,
+     "why": "锚点引用:Module",
+     "unique": false
+    }
+   ]
+  },
+  {
+   "obf": "l1",
+   "kind": "class",
+   "super": null,
+   "lines": 224,
+   "decl_line": "class l1 ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "refs": [
+    "Dl",
+    "_E",
+    "dK",
+    "hi",
+    "iC",
+    "lH"
+   ],
+   "mc_imports": [],
+   "n_fields": 9,
+   "n_methods": 13,
+   "candidates": [
+    {
+     "src": "EpsilonAddon",
+     "score": 3.0,
+     "why": "锚点引用:Setting",
+     "unique": true
+    },
+    {
+     "src": "I18NFileGenerator",
+     "score": 3.0,
+     "why": "锚点引用:Setting",
+     "unique": true
+    },
+    {
+     "src": "AddonPanelEntry",
+     "score": 3.0,
+     "why": "锚点引用:Setting",
+     "unique": false
+    }
+   ]
+  },
+  {
+   "obf": "l8",
+   "kind": "class",
+   "super": null,
+   "lines": 222,
+   "decl_line": "class l8 ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "refs": [
+    "Dl",
+    "_Z",
+    "gk",
+    "hi"
+   ],
+   "mc_imports": [],
+   "n_fields": 8,
+   "n_methods": 23,
+   "candidates": [
+    {
+     "src": "EpsilonAddon",
+     "score": 3.0,
+     "why": "锚点引用:Setting",
+     "unique": true
+    },
+    {
+     "src": "I18NFileGenerator",
+     "score": 3.0,
+     "why": "锚点引用:Setting",
+     "unique": true
+    },
+    {
+     "src": "AddonPanelEntry",
+     "score": 3.0,
+     "why": "锚点引用:Setting",
+     "unique": false
+    }
+   ]
+  },
+  {
+   "obf": "la",
+   "kind": "class",
+   "super": null,
+   "lines": 186,
+   "decl_line": "class la ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心",
+    "TranslateComponent"
+   ],
+   "refs": [
+    "hi",
+    "uT"
+   ],
+   "mc_imports": [],
+   "n_fields": 10,
+   "n_methods": 12,
+   "candidates": [
+    {
+     "src": "DefaultTranslateComponent",
+     "score": 3.0,
+     "why": "锚点引用:TranslateComponent",
+     "unique": false
+    },
+    {
+     "src": "EpsilonTranslateComponent",
+     "score": 3.0,
+     "why": "锚点引用:TranslateComponent",
+     "unique": false
+    },
+    {
+     "src": "EpsilonTranslations",
+     "score": 3.0,
+     "why": "锚点引用:TranslateComponent",
+     "unique": false
+    }
+   ]
+  },
+  {
+   "obf": "lb",
+   "kind": "class",
+   "super": null,
+   "lines": 474,
+   "decl_line": "class lb ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "refs": [
+    "Dl",
+    "XL",
+    "Xu",
+    "hi",
+    "uM",
+    "y3",
+    "yM"
+   ],
+   "mc_imports": [],
+   "n_fields": 6,
+   "n_methods": 19,
+   "candidates": [
+    {
+     "src": "EpsilonAddon",
+     "score": 3.0,
+     "why": "锚点引用:Setting",
+     "unique": true
+    },
+    {
+     "src": "I18NFileGenerator",
+     "score": 3.0,
+     "why": "锚点引用:Setting",
+     "unique": true
+    },
+    {
+     "src": "AddonPanelEntry",
+     "score": 3.0,
+     "why": "锚点引用:Setting",
+     "unique": false
+    }
+   ]
+  },
+  {
+   "obf": "lF",
+   "kind": "class",
+   "super": "l8",
+   "lines": 737,
+   "decl_line": "class lF\nextends l8 ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "refs": [
+    "Dl",
+    "_E",
+    "_j",
+    "gk",
+    "hi",
+    "l8",
+    "lH",
+    "zU"
+   ],
+   "mc_imports": [],
+   "n_fields": 9,
+   "n_methods": 20,
+   "candidates": [
+    {
+     "src": "EpsilonAddon",
+     "score": 3.0,
+     "why": "锚点引用:Setting",
+     "unique": true
+    },
+    {
+     "src": "I18NFileGenerator",
+     "score": 3.0,
+     "why": "锚点引用:Setting",
+     "unique": true
+    },
+    {
+     "src": "AddonPanelEntry",
+     "score": 3.0,
+     "why": "锚点引用:Setting",
+     "unique": false
+    }
+   ]
+  },
+  {
+   "obf": "lg",
+   "kind": "class",
+   "super": null,
+   "lines": 1517,
+   "decl_line": "class lg\nimplements _A ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "refs": [
+    "Dl",
+    "XK",
+    "_A",
+    "_t",
+    "d5",
+    "hi"
+   ],
+   "mc_imports": [],
+   "n_fields": 17,
+   "n_methods": 38,
+   "candidates": [
+    {
+     "src": "EpsilonAddon",
+     "score": 3.0,
+     "why": "锚点引用:Setting",
+     "unique": true
+    },
+    {
+     "src": "I18NFileGenerator",
+     "score": 3.0,
+     "why": "锚点引用:Setting",
+     "unique": true
+    },
+    {
+     "src": "AddonPanelEntry",
+     "score": 3.0,
+     "why": "锚点引用:Setting",
+     "unique": false
+    }
+   ]
+  },
+  {
+   "obf": "lH",
+   "kind": "class",
+   "super": "Enum",
+   "lines": 619,
+   "decl_line": "class lH\nextends Enum<lH> ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "refs": [
+    "Dl",
+    "hi"
+   ],
+   "mc_imports": [],
+   "n_fields": 3,
+   "n_methods": 69,
+   "candidates": [
+    {
+     "src": "EpsilonAddon",
+     "score": 3.0,
+     "why": "锚点引用:Setting",
+     "unique": true
+    },
+    {
+     "src": "I18NFileGenerator",
+     "score": 3.0,
+     "why": "锚点引用:Setting",
+     "unique": true
+    },
+    {
+     "src": "AddonPanelEntry",
+     "score": 3.0,
+     "why": "锚点引用:Setting",
+     "unique": false
+    }
+   ]
+  }
+ ]
+}

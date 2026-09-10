@@ -1,0 +1,380 @@
+{
+ "batch": "B017",
+ "n": 8,
+ "classes": [
+  {
+   "obf": "lo",
+   "kind": "class",
+   "super": "RemotePlayer",
+   "lines": 257,
+   "decl_line": "class lo\nextends RemotePlayer ",
+   "anchored_refs": [
+    "ColorSetting",
+    "LogoutSpots",
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "refs": [
+    "DV",
+    "Dl",
+    "hi",
+    "ue",
+    "yL"
+   ],
+   "mc_imports": [
+    "net.minecraft.client.multiplayer.ClientLevel",
+    "net.minecraft.client.player.RemotePlayer",
+    "net.minecraft.network.chat.Component",
+    "net.minecraft.world.InteractionHand",
+    "net.minecraft.world.TickRateManager",
+    "net.minecraft.world.entity.Entity",
+    "net.minecraft.world.entity.WalkAnimationState",
+    "net.minecraft.world.entity.ai.attributes.AttributeMap",
+    "net.minecraft.world.entity.player.Player"
+   ],
+   "n_fields": 5,
+   "n_methods": 11,
+   "candidates": [
+    {
+     "src": "ModuleButton",
+     "score": 6.0,
+     "why": "锚点引用:ColorSetting,Setting",
+     "unique": false
+    },
+    {
+     "src": "SettingsContent",
+     "score": 6.0,
+     "why": "锚点引用:ColorSetting,Setting",
+     "unique": false
+    },
+    {
+     "src": "SettingViewFactory",
+     "score": 6.0,
+     "why": "锚点引用:ColorSetting,Setting",
+     "unique": false
+    }
+   ]
+  },
+  {
+   "obf": "lp",
+   "kind": "class",
+   "super": "l8",
+   "lines": 1065,
+   "decl_line": "class lp\nextends l8 ",
+   "anchored_refs": [
+    "Module",
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "refs": [
+    "Dl",
+    "_Z",
+    "_j",
+    "e",
+    "gk",
+    "hi",
+    "l8",
+    "zU"
+   ],
+   "mc_imports": [
+    "net.minecraft.client.player.AbstractClientPlayer",
+    "net.minecraft.client.player.LocalPlayer",
+    "net.minecraft.network.chat.Component",
+    "net.minecraft.world.entity.Entity",
+    "net.minecraft.world.entity.LivingEntity"
+   ],
+   "n_fields": 9,
+   "n_methods": 36,
+   "candidates": [
+    {
+     "src": "EpsilonAddon",
+     "score": 6.0,
+     "why": "锚点引用:Module,Setting",
+     "unique": true
+    },
+    {
+     "src": "I18NFileGenerator",
+     "score": 6.0,
+     "why": "锚点引用:Module,Setting",
+     "unique": true
+    },
+    {
+     "src": "ModuleButton",
+     "score": 6.0,
+     "why": "锚点引用:Module,Setting",
+     "unique": false
+    }
+   ]
+  },
+  {
+   "obf": "o",
+   "kind": "class",
+   "super": "e",
+   "lines": 281,
+   "decl_line": "class o\nextends e ",
+   "anchored_refs": [
+    "Module",
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "refs": [
+    "Dl",
+    "dR",
+    "e",
+    "hi",
+    "vY",
+    "yE"
+   ],
+   "mc_imports": [
+    "net.minecraft.client.player.LocalPlayer"
+   ],
+   "n_fields": 4,
+   "n_methods": 8,
+   "candidates": [
+    {
+     "src": "EpsilonAddon",
+     "score": 6.0,
+     "why": "锚点引用:Module,Setting",
+     "unique": true
+    },
+    {
+     "src": "I18NFileGenerator",
+     "score": 6.0,
+     "why": "锚点引用:Module,Setting",
+     "unique": true
+    },
+    {
+     "src": "ModuleButton",
+     "score": 6.0,
+     "why": "锚点引用:Module,Setting",
+     "unique": false
+    }
+   ]
+  },
+  {
+   "obf": "OP",
+   "kind": "class",
+   "super": null,
+   "lines": 1032,
+   "decl_line": "class OP ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心",
+    "Setting",
+    "TranslateComponent"
+   ],
+   "refs": [
+    "Dl",
+    "Xs",
+    "_j",
+    "hi",
+    "ih",
+    "nK",
+    "nV",
+    "uT",
+    "zU"
+   ],
+   "mc_imports": [],
+   "n_fields": 9,
+   "n_methods": 33,
+   "candidates": [
+    {
+     "src": "I18NFileGenerator",
+     "score": 6.0,
+     "why": "锚点引用:Setting,TranslateComponent",
+     "unique": true
+    },
+    {
+     "src": "SettingsListPanel",
+     "score": 6.0,
+     "why": "锚点引用:Setting,TranslateComponent",
+     "unique": false
+    },
+    {
+     "src": "Module",
+     "score": 6.0,
+     "why": "锚点引用:Setting,TranslateComponent",
+     "unique": false
+    }
+   ]
+  },
+  {
+   "obf": "Ov",
+   "kind": "class",
+   "super": null,
+   "lines": 696,
+   "decl_line": "class Ov ",
+   "anchored_refs": [
+    "Module",
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "refs": [
+    "DP",
+    "Dl",
+    "_j",
+    "e",
+    "hi",
+    "ih",
+    "zU"
+   ],
+   "mc_imports": [],
+   "n_fields": 8,
+   "n_methods": 22,
+   "candidates": [
+    {
+     "src": "EpsilonAddon",
+     "score": 6.0,
+     "why": "锚点引用:Module,Setting",
+     "unique": true
+    },
+    {
+     "src": "I18NFileGenerator",
+     "score": 6.0,
+     "why": "锚点引用:Module,Setting",
+     "unique": true
+    },
+    {
+     "src": "ModuleButton",
+     "score": 6.0,
+     "why": "锚点引用:Module,Setting",
+     "unique": false
+    }
+   ]
+  },
+  {
+   "obf": "uH",
+   "kind": "class",
+   "super": null,
+   "lines": 751,
+   "decl_line": "class uH ",
+   "anchored_refs": [
+    "DoubleSetting",
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "refs": [
+    "DM",
+    "Dl",
+    "hi",
+    "i8"
+   ],
+   "mc_imports": [
+    "net.minecraft.client.Minecraft",
+    "net.minecraft.client.gui.components.ChatComponent",
+    "net.minecraft.network.chat.Component",
+    "net.minecraft.network.chat.MutableComponent",
+    "net.minecraft.network.chat.Style",
+    "net.minecraft.util.FormattedCharSequence"
+   ],
+   "n_fields": 5,
+   "n_methods": 26,
+   "candidates": [
+    {
+     "src": "ModuleButton",
+     "score": 6.0,
+     "why": "锚点引用:DoubleSetting,Setting",
+     "unique": false
+    },
+    {
+     "src": "SettingsContent",
+     "score": 6.0,
+     "why": "锚点引用:DoubleSetting,Setting",
+     "unique": false
+    },
+    {
+     "src": "SettingViewFactory",
+     "score": 6.0,
+     "why": "锚点引用:DoubleSetting,Setting",
+     "unique": false
+    }
+   ]
+  },
+  {
+   "obf": "va",
+   "kind": "class",
+   "super": "Record",
+   "lines": 64,
+   "decl_line": "class va\nextends Record ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心",
+    "Setting",
+    "SettingGroup"
+   ],
+   "refs": [
+    "Dl",
+    "hi",
+    "nN"
+   ],
+   "mc_imports": [],
+   "n_fields": 2,
+   "n_methods": 12,
+   "candidates": [
+    {
+     "src": "EpsilonAddon",
+     "score": 6.0,
+     "why": "锚点引用:Setting,SettingGroup",
+     "unique": true
+    },
+    {
+     "src": "I18NFileGenerator",
+     "score": 6.0,
+     "why": "锚点引用:Setting,SettingGroup",
+     "unique": true
+    },
+    {
+     "src": "Module",
+     "score": 6.0,
+     "why": "锚点引用:Setting,SettingGroup",
+     "unique": false
+    }
+   ]
+  },
+  {
+   "obf": "vU",
+   "kind": "class",
+   "super": "vh",
+   "lines": 276,
+   "decl_line": "class vU\nextends vh<DV> ",
+   "anchored_refs": [
+    "ColorSetting",
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "refs": [
+    "DV",
+    "Dl",
+    "_j",
+    "hi",
+    "ih",
+    "vh",
+    "zU"
+   ],
+   "mc_imports": [
+    "net.minecraft.client.gui.GuiGraphicsExtractor",
+    "net.minecraft.client.input.MouseButtonEvent"
+   ],
+   "n_fields": 2,
+   "n_methods": 8,
+   "candidates": [
+    {
+     "src": "ModuleButton",
+     "score": 6.0,
+     "why": "锚点引用:ColorSetting,Setting",
+     "unique": false
+    },
+    {
+     "src": "SettingsContent",
+     "score": 6.0,
+     "why": "锚点引用:ColorSetting,Setting",
+     "unique": false
+    },
+    {
+     "src": "SettingViewFactory",
+     "score": 6.0,
+     "why": "锚点引用:ColorSetting,Setting",
+     "unique": false
+    }
+   ]
+  }
+ ]
+}

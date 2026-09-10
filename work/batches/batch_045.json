@@ -1,0 +1,327 @@
+{
+ "batch": "B045",
+ "n": 8,
+ "classes": [
+  {
+   "obf": "_3",
+   "kind": "class",
+   "super": null,
+   "lines": 1056,
+   "decl_line": "class _3 ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "refs": [
+    "Dl",
+    "hi",
+    "lb",
+    "uM",
+    "y3"
+   ],
+   "mc_imports": [],
+   "n_fields": 2,
+   "n_methods": 11,
+   "candidates": [
+    {
+     "src": "EpsilonAddon",
+     "score": 3.0,
+     "why": "锚点引用:Setting",
+     "unique": true
+    },
+    {
+     "src": "I18NFileGenerator",
+     "score": 3.0,
+     "why": "锚点引用:Setting",
+     "unique": true
+    },
+    {
+     "src": "AddonPanelEntry",
+     "score": 3.0,
+     "why": "锚点引用:Setting",
+     "unique": false
+    }
+   ]
+  },
+  {
+   "obf": "_B",
+   "kind": "class",
+   "super": null,
+   "lines": 227,
+   "decl_line": "class _B ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "refs": [
+    "Dl",
+    "hi",
+    "nG",
+    "yI",
+    "yn"
+   ],
+   "mc_imports": [],
+   "n_fields": 5,
+   "n_methods": 11,
+   "candidates": [
+    {
+     "src": "EpsilonAddon",
+     "score": 3.0,
+     "why": "锚点引用:Setting",
+     "unique": true
+    },
+    {
+     "src": "I18NFileGenerator",
+     "score": 3.0,
+     "why": "锚点引用:Setting",
+     "unique": true
+    },
+    {
+     "src": "AddonPanelEntry",
+     "score": 3.0,
+     "why": "锚点引用:Setting",
+     "unique": false
+    }
+   ]
+  },
+  {
+   "obf": "_D",
+   "kind": "class",
+   "super": null,
+   "lines": 174,
+   "decl_line": "class _D ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "refs": [
+    "Dl",
+    "hi"
+   ],
+   "mc_imports": [],
+   "n_fields": 6,
+   "n_methods": 11,
+   "candidates": [
+    {
+     "src": "EpsilonAddon",
+     "score": 3.0,
+     "why": "锚点引用:Setting",
+     "unique": true
+    },
+    {
+     "src": "I18NFileGenerator",
+     "score": 3.0,
+     "why": "锚点引用:Setting",
+     "unique": true
+    },
+    {
+     "src": "AddonPanelEntry",
+     "score": 3.0,
+     "why": "锚点引用:Setting",
+     "unique": false
+    }
+   ]
+  },
+  {
+   "obf": "_E",
+   "kind": "class",
+   "super": null,
+   "lines": 496,
+   "decl_line": "class _E ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "refs": [
+    "Dl",
+    "hi",
+    "lH"
+   ],
+   "mc_imports": [],
+   "n_fields": 10,
+   "n_methods": 26,
+   "candidates": [
+    {
+     "src": "EpsilonAddon",
+     "score": 3.0,
+     "why": "锚点引用:Setting",
+     "unique": true
+    },
+    {
+     "src": "I18NFileGenerator",
+     "score": 3.0,
+     "why": "锚点引用:Setting",
+     "unique": true
+    },
+    {
+     "src": "AddonPanelEntry",
+     "score": 3.0,
+     "why": "锚点引用:Setting",
+     "unique": false
+    }
+   ]
+  },
+  {
+   "obf": "_H",
+   "kind": "class",
+   "super": "Record",
+   "lines": 510,
+   "decl_line": "class _H\nextends Record\nimplements DynamicUniformStorage.DynamicUniform ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "refs": [
+    "Dl",
+    "hi"
+   ],
+   "mc_imports": [
+    "net.minecraft.client.renderer.DynamicUniformStorage"
+   ],
+   "n_fields": 18,
+   "n_methods": 41,
+   "candidates": [
+    {
+     "src": "EpsilonAddon",
+     "score": 3.0,
+     "why": "锚点引用:Setting",
+     "unique": true
+    },
+    {
+     "src": "I18NFileGenerator",
+     "score": 3.0,
+     "why": "锚点引用:Setting",
+     "unique": true
+    },
+    {
+     "src": "AddonPanelEntry",
+     "score": 3.0,
+     "why": "锚点引用:Setting",
+     "unique": false
+    }
+   ]
+  },
+  {
+   "obf": "_j",
+   "kind": "class",
+   "super": null,
+   "lines": 627,
+   "decl_line": "class _j\nimplements _A ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "refs": [
+    "Dl",
+    "Oq",
+    "XK",
+    "_A",
+    "hi",
+    "lP",
+    "nK",
+    "v2",
+    "vq"
+   ],
+   "mc_imports": [],
+   "n_fields": 7,
+   "n_methods": 45,
+   "candidates": [
+    {
+     "src": "EpsilonAddon",
+     "score": 3.0,
+     "why": "锚点引用:Setting",
+     "unique": true
+    },
+    {
+     "src": "I18NFileGenerator",
+     "score": 3.0,
+     "why": "锚点引用:Setting",
+     "unique": true
+    },
+    {
+     "src": "AddonPanelEntry",
+     "score": 3.0,
+     "why": "锚点引用:Setting",
+     "unique": false
+    }
+   ]
+  },
+  {
+   "obf": "_L",
+   "kind": "class",
+   "super": "SimpleFileVisitor",
+   "lines": 296,
+   "decl_line": "class _L\nextends SimpleFileVisitor<Path> ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "refs": [
+    "Dl",
+    "hi",
+    "vz"
+   ],
+   "mc_imports": [],
+   "n_fields": 3,
+   "n_methods": 7,
+   "candidates": [
+    {
+     "src": "EpsilonAddon",
+     "score": 3.0,
+     "why": "锚点引用:Setting",
+     "unique": true
+    },
+    {
+     "src": "I18NFileGenerator",
+     "score": 3.0,
+     "why": "锚点引用:Setting",
+     "unique": true
+    },
+    {
+     "src": "AddonPanelEntry",
+     "score": 3.0,
+     "why": "锚点引用:Setting",
+     "unique": false
+    }
+   ]
+  },
+  {
+   "obf": "_N",
+   "kind": "class",
+   "super": "Record",
+   "lines": 54,
+   "decl_line": "class _N\nextends Record ",
+   "anchored_refs": [
+    "Module",
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "e",
+    "hi"
+   ],
+   "mc_imports": [],
+   "n_fields": 2,
+   "n_methods": 9,
+   "candidates": [
+    {
+     "src": "EpsilonAddon",
+     "score": 3.0,
+     "why": "锚点引用:Module",
+     "unique": true
+    },
+    {
+     "src": "LegacyConfigMigrator",
+     "score": 3.0,
+     "why": "锚点引用:Module",
+     "unique": false
+    },
+    {
+     "src": "EpsilonTranslations",
+     "score": 3.0,
+     "why": "锚点引用:Module",
+     "unique": false
+    }
+   ]
+  }
+ ]
+}

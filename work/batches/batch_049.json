@@ -1,0 +1,142 @@
+{
+ "batch": "B049",
+ "n": 8,
+ "classes": [
+  {
+   "obf": "De",
+   "kind": "class",
+   "super": null,
+   "lines": 52,
+   "decl_line": "class De ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "hi",
+    "i2"
+   ],
+   "mc_imports": [],
+   "n_fields": 1,
+   "n_methods": 5,
+   "candidates": []
+  },
+  {
+   "obf": "de",
+   "kind": "class",
+   "super": null,
+   "lines": 38,
+   "decl_line": "class de ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "hi"
+   ],
+   "mc_imports": [],
+   "n_fields": 2,
+   "n_methods": 7,
+   "candidates": []
+  },
+  {
+   "obf": "DF",
+   "kind": "interface",
+   "super": null,
+   "lines": 15,
+   "decl_line": "interface DF ",
+   "anchored_refs": [],
+   "refs": [],
+   "mc_imports": [],
+   "n_fields": 0,
+   "n_methods": 4,
+   "candidates": []
+  },
+  {
+   "obf": "Df",
+   "kind": "class",
+   "super": "Enum",
+   "lines": 259,
+   "decl_line": "class Df\nextends Enum<Df> ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "hi"
+   ],
+   "mc_imports": [],
+   "n_fields": 3,
+   "n_methods": 16,
+   "candidates": []
+  },
+  {
+   "obf": "df",
+   "kind": "class",
+   "super": "Enum",
+   "lines": 190,
+   "decl_line": "class df\nextends Enum<df> ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "hi"
+   ],
+   "mc_imports": [],
+   "n_fields": 2,
+   "n_methods": 11,
+   "candidates": []
+  },
+  {
+   "obf": "dG",
+   "kind": "class",
+   "super": "Enum",
+   "lines": 123,
+   "decl_line": "class dG\nextends Enum<dG> ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "hi"
+   ],
+   "mc_imports": [],
+   "n_fields": 1,
+   "n_methods": 6,
+   "candidates": []
+  },
+  {
+   "obf": "dg",
+   "kind": "class",
+   "super": null,
+   "lines": 125,
+   "decl_line": "class dg ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "hi",
+    "ih",
+    "zU"
+   ],
+   "mc_imports": [],
+   "n_fields": 2,
+   "n_methods": 17,
+   "candidates": []
+  },
+  {
+   "obf": "DH",
+   "kind": "class",
+   "super": "Record",
+   "lines": 45,
+   "decl_line": "class DH\nextends Record ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "_Q",
+    "hi"
+   ],
+   "mc_imports": [],
+   "n_fields": 2,
+   "n_methods": 8,
+   "candidates": []
+  }
+ ]
+}

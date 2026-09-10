@@ -1,0 +1,750 @@
+[
+ {
+  "mixin": "MixinAvatar",
+  "jar": [
+   "DM",
+   "dD",
+   "e",
+   "eZ"
+  ],
+  "src": [
+   "SneakTweak"
+  ]
+ },
+ {
+  "mixin": "MixinAvatarRenderer",
+  "jar": [
+   "dD",
+   "e_",
+   "u",
+   "uj"
+  ],
+  "src": [
+   "ElytraFly",
+   "HandsView",
+   "Shaders"
+  ]
+ },
+ {
+  "mixin": "MixinBlock",
+  "jar": [
+   "U",
+   "Xn",
+   "e"
+  ],
+  "src": [
+   "Xray"
+  ]
+ },
+ {
+  "mixin": "MixinBlockCollisions",
+  "jar": [
+   "_M",
+   "vy"
+  ],
+  "src": [
+   "EventBus",
+   "BlockCollisionEvent"
+  ]
+ },
+ {
+  "mixin": "MixinCamera",
+  "jar": [
+   "W",
+   "dD",
+   "e",
+   "eC",
+   "eZ",
+   "i"
+  ],
+  "src": [
+   "CameraClip",
+   "FreeCamera",
+   "SneakTweak"
+  ]
+ },
+ {
+  "mixin": "MixinCapeLayer",
+  "jar": [
+   "C",
+   "Xr"
+  ],
+  "src": [
+   "EntityRenderStateAccessor",
+   "Chams"
+  ]
+ },
+ {
+  "mixin": "MixinChatComponent",
+  "jar": [
+   "I",
+   "gp"
+  ],
+  "src": [
+   "Managers"
+  ]
+ },
+ {
+  "mixin": "MixinChatComponentHash",
+  "jar": [
+   "I",
+   "dS",
+   "i8"
+  ],
+  "src": [
+   "ChatComponentAccessor"
+  ]
+ },
+ {
+  "mixin": "MixinChestRenderer",
+  "jar": [
+   "C",
+   "u",
+   "z2"
+  ],
+  "src": [
+   "ShaderHolder",
+   "SubmitNodeCollectionAccessor",
+   "Shaders"
+  ]
+ },
+ {
+  "mixin": "MixinChunkBorderRenderer",
+  "jar": [
+   "i"
+  ],
+  "src": [
+   "FreeCamera"
+  ]
+ },
+ {
+  "mixin": "MixinClientBrandRetriever",
+  "jar": [
+   "nO"
+  ],
+  "src": [
+   "ClientIdentityHider"
+  ]
+ },
+ {
+  "mixin": "MixinClientLevel",
+  "jar": [
+   "dD",
+   "e",
+   "e8",
+   "eC"
+  ],
+  "src": [
+   "MasEffects"
+  ]
+ },
+ {
+  "mixin": "MixinClientPacketListener",
+  "jar": [
+   "DK",
+   "L",
+   "XV",
+   "e",
+   "eC",
+   "eZ",
+   "g3",
+   "vy"
+  ],
+  "src": [
+   "EventBus",
+   "GameJoinedEvent",
+   "GameLeftEvent",
+   "RespawnEvent",
+   "NoRotate",
+   "SneakTweak"
+  ]
+ },
+ {
+  "mixin": "MixinCompassAngleState",
+  "jar": [
+   "dD",
+   "i"
+  ],
+  "src": [
+   "FreeCamera"
+  ]
+ },
+ {
+  "mixin": "MixinConnection",
+  "jar": [
+   "OK",
+   "_5",
+   "dP",
+   "dQ",
+   "gH",
+   "nO",
+   "vy"
+  ],
+  "src": [
+   "EventBus",
+   "PacketEvent",
+   "Managers",
+   "ClientIdentityHider",
+   "PacketUtils"
+  ]
+ },
+ {
+  "mixin": "MixinDataComponentInitializerEntry",
+  "jar": [],
+  "src": []
+ },
+ {
+  "mixin": "MixinDeltaTrackerTimer",
+  "jar": [
+   "no"
+  ],
+  "src": [
+   "Managers"
+  ]
+ },
+ {
+  "mixin": "MixinEntity",
+  "jar": [
+   "DY",
+   "Dn",
+   "Du",
+   "dD",
+   "i",
+   "vy",
+   "w"
+  ],
+  "src": [
+   "EventBus",
+   "RaytraceEvent",
+   "StrafeEvent",
+   "Velocity",
+   "FreeCamera"
+  ]
+ },
+ {
+  "mixin": "MixinEntityHitboxDebugRenderer",
+  "jar": [
+   "e8"
+  ],
+  "src": [
+   "MasEffects"
+  ]
+ },
+ {
+  "mixin": "MixinEntityRenderDispatcher",
+  "jar": [
+   "Xr"
+  ],
+  "src": [
+   "EntityRenderStateAccessor"
+  ]
+ },
+ {
+  "mixin": "MixinEntityRenderer",
+  "jar": [
+   "DM",
+   "Z",
+   "e",
+   "eB",
+   "eC",
+   "u"
+  ],
+  "src": [
+   "NameTags"
+  ]
+ },
+ {
+  "mixin": "MixinEntityRenderState",
+  "jar": [
+   "Xr"
+  ],
+  "src": [
+   "EntityRenderStateAccessor"
+  ]
+ },
+ {
+  "mixin": "MixinEquipmentLayerRenderer",
+  "jar": [
+   "C",
+   "Xr"
+  ],
+  "src": [
+   "EntityRenderStateAccessor",
+   "Chams"
+  ]
+ },
+ {
+  "mixin": "MixinFireworkRocketEntity",
+  "jar": [
+   "dD",
+   "vy",
+   "yC"
+  ],
+  "src": [
+   "EventBus",
+   "FireworkRotationEvent"
+  ]
+ },
+ {
+  "mixin": "MixinFlowingFluid",
+  "jar": [
+   "Du",
+   "w"
+  ],
+  "src": [
+   "Velocity"
+  ]
+ },
+ {
+  "mixin": "MixinFont",
+  "jar": [
+   "e",
+   "eC",
+   "gG",
+   "ls",
+   "uc"
+  ],
+  "src": [
+   "EpsilonFontGlyph",
+   "EpsilonFontMetrics",
+   "ClientSetting"
+  ]
+ },
+ {
+  "mixin": "MixinGameRenderer",
+  "jar": [
+   "W",
+   "i",
+   "u",
+   "z2"
+  ],
+  "src": [
+   "ShaderHolder",
+   "FreeCamera",
+   "Shaders"
+  ]
+ },
+ {
+  "mixin": "MixinGlDebug",
+  "jar": [],
+  "src": []
+ },
+ {
+  "mixin": "MixinGlyphRenderState",
+  "jar": [
+   "Dk"
+  ],
+  "src": [
+   "EpsilonTextRenderable"
+  ]
+ },
+ {
+  "mixin": "MixinGuiManager",
+  "jar": [
+   "du",
+   "vy"
+  ],
+  "src": [
+   "EventBus",
+   "OpenScreenEvent"
+  ]
+ },
+ {
+  "mixin": "MixinGuiRenderer",
+  "jar": [
+   "OT",
+   "dD",
+   "vy",
+   "yt",
+   "zR",
+   "zm"
+  ],
+  "src": [
+   "EventBus",
+   "Render2DEvent",
+   "EpsilonGuiRenderer"
+  ]
+ },
+ {
+  "mixin": "MixinGustSeedParticle",
+  "jar": [
+   "e8"
+  ],
+  "src": [
+   "MasEffects"
+  ]
+ },
+ {
+  "mixin": "MixinHumanoidMobRenderer",
+  "jar": [
+   "dD",
+   "uj"
+  ],
+  "src": [
+   "ElytraFly"
+  ]
+ },
+ {
+  "mixin": "MixinItem",
+  "jar": [
+   "_K",
+   "vy"
+  ],
+  "src": [
+   "EventBus",
+   "UseItemRaytraceEvent"
+  ]
+ },
+ {
+  "mixin": "MixinItemInHandLayer",
+  "jar": [
+   "C",
+   "Xr"
+  ],
+  "src": [
+   "EntityRenderStateAccessor",
+   "Chams"
+  ]
+ },
+ {
+  "mixin": "MixinItemInHandRenderer",
+  "jar": [
+   "dD",
+   "e_",
+   "lx",
+   "n1",
+   "u",
+   "vy",
+   "yF",
+   "z2"
+  ],
+  "src": [
+   "ShaderHolder",
+   "HandsView",
+   "Shaders"
+  ]
+ },
+ {
+  "mixin": "MixinItemStackLayerRenderState",
+  "jar": [
+   "C"
+  ],
+  "src": [
+   "Chams"
+  ]
+ },
+ {
+  "mixin": "MixinKeyboardHandler",
+  "jar": [
+   "dL",
+   "vy"
+  ],
+  "src": [
+   "EventBus",
+   "KeyPressEvent"
+  ]
+ },
+ {
+  "mixin": "MixinKeyboardInput",
+  "jar": [
+   "vy",
+   "yi"
+  ],
+  "src": [
+   "EventBus",
+   "KeyboardInputEvent"
+  ]
+ },
+ {
+  "mixin": "MixinLevelRenderer",
+  "jar": [
+   "d9",
+   "e",
+   "e5",
+   "eC",
+   "u",
+   "ua",
+   "vy",
+   "yK",
+   "yZ"
+  ],
+  "src": [
+   "EventBus",
+   "AfterRender3DEvent",
+   "Render3DEvent",
+   "Shaders"
+  ]
+ },
+ {
+  "mixin": "MixinLightmap",
+  "jar": [
+   "U",
+   "e",
+   "e6",
+   "uA"
+  ],
+  "src": [
+   "Filter",
+   "Fullbright",
+   "Xray"
+  ]
+ },
+ {
+  "mixin": "MixinLivingEntity",
+  "jar": [
+   "dD",
+   "e",
+   "eC",
+   "e_",
+   "nS",
+   "s",
+   "up",
+   "vB",
+   "vy",
+   "zV"
+  ],
+  "src": [
+   "EventBus",
+   "FallFlyingEvent",
+   "JumpEvent",
+   "RotationAnimationEvent",
+   "JumpCooldown",
+   "HandsView"
+  ]
+ },
+ {
+  "mixin": "MixinLivingEntityRenderer",
+  "jar": [
+   "C",
+   "Xr",
+   "dD",
+   "i",
+   "vB",
+   "vy"
+  ],
+  "src": [
+   "EventBus",
+   "RotationAnimationEvent",
+   "EntityRenderStateAccessor",
+   "Chams",
+   "FreeCamera",
+   "NameTags"
+  ]
+ },
+ {
+  "mixin": "MixinLocalPlayer",
+  "jar": [
+   "D2",
+   "Du",
+   "_J",
+   "d3",
+   "dD",
+   "dR",
+   "dY",
+   "db",
+   "nj",
+   "up",
+   "vy",
+   "w"
+  ],
+  "src": [
+   "EventBus",
+   "Velocity"
+  ]
+ },
+ {
+  "mixin": "MixinMain",
+  "jar": [
+   "yu"
+  ],
+  "src": []
+ },
+ {
+  "mixin": "MixinMinecraft",
+  "jar": [
+   "B",
+   "_U",
+   "__",
+   "_y",
+   "dB",
+   "dD",
+   "dE",
+   "dj",
+   "dz",
+   "e_",
+   "ew",
+   "g3",
+   "i",
+   "iE",
+   "lM",
+   "lS",
+   "uc",
+   "vc",
+   "vy"
+  ],
+  "src": [
+   "EventBus",
+   "LuminRenderSystem",
+   "ClientSetting",
+   "MultiTask",
+   "UseCooldown",
+   "FreeCamera",
+   "HandsView"
+  ]
+ },
+ {
+  "mixin": "MixinMouseHandler",
+  "jar": [
+   "dW",
+   "dm",
+   "vy"
+  ],
+  "src": [
+   "EventBus",
+   "MousePressEvent",
+   "MouseScrollEvent"
+  ]
+ },
+ {
+  "mixin": "MixinMultiPlayerGameMode",
+  "jar": [
+   "_S",
+   "dA",
+   "dN",
+   "dk",
+   "et",
+   "vy",
+   "zZ"
+  ],
+  "src": [
+   "EventBus",
+   "AttackEntityEvent",
+   "DestroyBlockEvent",
+   "StartDestroyBlockEvent",
+   "UseItemEvent",
+   "BreakCooldown"
+  ]
+ },
+ {
+  "mixin": "MixinOptions",
+  "jar": [
+   "i"
+  ],
+  "src": [
+   "FreeCamera"
+  ]
+ },
+ {
+  "mixin": "MixinOutputTarget",
+  "jar": [
+   "z2"
+  ],
+  "src": [
+   "ShaderHolder"
+  ]
+ },
+ {
+  "mixin": "MixinParticleManager",
+  "jar": [
+   "e",
+   "e8",
+   "eC"
+  ],
+  "src": [
+   "NoRender",
+   "MasEffects"
+  ]
+ },
+ {
+  "mixin": "MixinPlayer",
+  "jar": [
+   "_z",
+   "dD",
+   "da",
+   "dv",
+   "vy"
+  ],
+  "src": [
+   "EventBus",
+   "AttackSlowDownEvent",
+   "AttackYawEvent",
+   "TravelEvent",
+   "KeepSprint"
+  ]
+ },
+ {
+  "mixin": "MixinProjection",
+  "jar": [
+   "el"
+  ],
+  "src": [
+   "AspectRatio"
+  ]
+ },
+ {
+  "mixin": "MixinScreenEffectRenderer",
+  "jar": [
+   "O",
+   "e",
+   "eC"
+  ],
+  "src": [
+   "NoRender"
+  ]
+ },
+ {
+  "mixin": "MixinTitleScreen",
+  "jar": [
+   "dD",
+   "iS",
+   "uc",
+   "vc"
+  ],
+  "src": [
+   "MainMenuScreen",
+   "WelcomeScreen",
+   "ClientSetting"
+  ]
+ },
+ {
+  "mixin": "MixinVisGraph",
+  "jar": [
+   "dH",
+   "vy"
+  ],
+  "src": [
+   "EventBus",
+   "ChunkOcclusionEvent"
+  ]
+ },
+ {
+  "mixin": "MixinWalkAnimationState",
+  "jar": [
+   "yL"
+  ],
+  "src": [
+   "WalkAnimationStateAccessor"
+  ]
+ },
+ {
+  "mixin": "MixinWebBlock",
+  "jar": [
+   "dD",
+   "t"
+  ],
+  "src": [
+   "FastWeb"
+  ]
+ },
+ {
+  "mixin": "MixinWindow",
+  "jar": [
+   "Xh",
+   "_p",
+   "uc"
+  ],
+  "src": [
+   "ClientSetting"
+  ]
+ }
+]

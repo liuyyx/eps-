@@ -1,0 +1,325 @@
+{
+ "batch": "B042",
+ "n": 8,
+ "classes": [
+  {
+   "obf": "Xy",
+   "kind": "class",
+   "super": null,
+   "lines": 272,
+   "decl_line": "class Xy ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "refs": [
+    "Dl",
+    "hi",
+    "zB"
+   ],
+   "mc_imports": [],
+   "n_fields": 7,
+   "n_methods": 32,
+   "candidates": [
+    {
+     "src": "EpsilonAddon",
+     "score": 3.0,
+     "why": "锚点引用:Setting",
+     "unique": true
+    },
+    {
+     "src": "I18NFileGenerator",
+     "score": 3.0,
+     "why": "锚点引用:Setting",
+     "unique": true
+    },
+    {
+     "src": "AddonPanelEntry",
+     "score": 3.0,
+     "why": "锚点引用:Setting",
+     "unique": false
+    }
+   ]
+  },
+  {
+   "obf": "XZ",
+   "kind": "class",
+   "super": null,
+   "lines": 239,
+   "decl_line": "class XZ ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "refs": [
+    "Dl",
+    "hi",
+    "ih",
+    "l5",
+    "nT"
+   ],
+   "mc_imports": [],
+   "n_fields": 2,
+   "n_methods": 9,
+   "candidates": [
+    {
+     "src": "EpsilonAddon",
+     "score": 3.0,
+     "why": "锚点引用:Setting",
+     "unique": true
+    },
+    {
+     "src": "I18NFileGenerator",
+     "score": 3.0,
+     "why": "锚点引用:Setting",
+     "unique": true
+    },
+    {
+     "src": "AddonPanelEntry",
+     "score": 3.0,
+     "why": "锚点引用:Setting",
+     "unique": false
+    }
+   ]
+  },
+  {
+   "obf": "y1",
+   "kind": "class",
+   "super": null,
+   "lines": 616,
+   "decl_line": "class y1 ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "refs": [
+    "Dl",
+    "eJ",
+    "hi",
+    "nX"
+   ],
+   "mc_imports": [],
+   "n_fields": 12,
+   "n_methods": 32,
+   "candidates": [
+    {
+     "src": "EpsilonAddon",
+     "score": 3.0,
+     "why": "锚点引用:Setting",
+     "unique": true
+    },
+    {
+     "src": "I18NFileGenerator",
+     "score": 3.0,
+     "why": "锚点引用:Setting",
+     "unique": true
+    },
+    {
+     "src": "AddonPanelEntry",
+     "score": 3.0,
+     "why": "锚点引用:Setting",
+     "unique": false
+    }
+   ]
+  },
+  {
+   "obf": "y7",
+   "kind": "class",
+   "super": "AbstractViaConfig",
+   "lines": 970,
+   "decl_line": "class y7\nextends AbstractViaConfig ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "refs": [
+    "Dl",
+    "hi"
+   ],
+   "mc_imports": [],
+   "n_fields": 4,
+   "n_methods": 19,
+   "candidates": [
+    {
+     "src": "EpsilonAddon",
+     "score": 3.0,
+     "why": "锚点引用:Setting",
+     "unique": true
+    },
+    {
+     "src": "I18NFileGenerator",
+     "score": 3.0,
+     "why": "锚点引用:Setting",
+     "unique": true
+    },
+    {
+     "src": "AddonPanelEntry",
+     "score": 3.0,
+     "why": "锚点引用:Setting",
+     "unique": false
+    }
+   ]
+  },
+  {
+   "obf": "y8",
+   "kind": "class",
+   "super": null,
+   "lines": 438,
+   "decl_line": "class y8\nimplements AutoCloseable ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "refs": [
+    "Dl",
+    "Xu",
+    "_X",
+    "hi",
+    "y3"
+   ],
+   "mc_imports": [],
+   "n_fields": 2,
+   "n_methods": 12,
+   "candidates": [
+    {
+     "src": "EpsilonAddon",
+     "score": 3.0,
+     "why": "锚点引用:Setting",
+     "unique": true
+    },
+    {
+     "src": "I18NFileGenerator",
+     "score": 3.0,
+     "why": "锚点引用:Setting",
+     "unique": true
+    },
+    {
+     "src": "AddonPanelEntry",
+     "score": 3.0,
+     "why": "锚点引用:Setting",
+     "unique": false
+    }
+   ]
+  },
+  {
+   "obf": "yg",
+   "kind": "class",
+   "super": null,
+   "lines": 195,
+   "decl_line": "class yg ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "refs": [
+    "Dl",
+    "hi",
+    "ih",
+    "vk",
+    "yT",
+    "zU"
+   ],
+   "mc_imports": [],
+   "n_fields": 2,
+   "n_methods": 9,
+   "candidates": [
+    {
+     "src": "EpsilonAddon",
+     "score": 3.0,
+     "why": "锚点引用:Setting",
+     "unique": true
+    },
+    {
+     "src": "I18NFileGenerator",
+     "score": 3.0,
+     "why": "锚点引用:Setting",
+     "unique": true
+    },
+    {
+     "src": "AddonPanelEntry",
+     "score": 3.0,
+     "why": "锚点引用:Setting",
+     "unique": false
+    }
+   ]
+  },
+  {
+   "obf": "yo",
+   "kind": "class",
+   "super": "Record",
+   "lines": 516,
+   "decl_line": "class yo\nextends Record ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "refs": [
+    "Dl",
+    "hi"
+   ],
+   "mc_imports": [],
+   "n_fields": 10,
+   "n_methods": 27,
+   "candidates": [
+    {
+     "src": "EpsilonAddon",
+     "score": 3.0,
+     "why": "锚点引用:Setting",
+     "unique": true
+    },
+    {
+     "src": "I18NFileGenerator",
+     "score": 3.0,
+     "why": "锚点引用:Setting",
+     "unique": true
+    },
+    {
+     "src": "AddonPanelEntry",
+     "score": 3.0,
+     "why": "锚点引用:Setting",
+     "unique": false
+    }
+   ]
+  },
+  {
+   "obf": "yP",
+   "kind": "class",
+   "super": null,
+   "lines": 47,
+   "decl_line": "class yP\nimplements DF ",
+   "anchored_refs": [
+    "HudEditorScreen",
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "DF",
+    "hi",
+    "nK",
+    "yt"
+   ],
+   "mc_imports": [],
+   "n_fields": 0,
+   "n_methods": 5,
+   "candidates": [
+    {
+     "src": "ScaffoldBlock",
+     "score": 3.0,
+     "why": "锚点引用:HudEditorScreen",
+     "unique": false
+    },
+    {
+     "src": "TargetHUD",
+     "score": 3.0,
+     "why": "锚点引用:HudEditorScreen",
+     "unique": false
+    },
+    {
+     "src": "Notifications",
+     "score": 3.0,
+     "why": "锚点引用:HudEditorScreen",
+     "unique": false
+    }
+   ]
+  }
+ ]
+}

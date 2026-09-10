@@ -1,0 +1,405 @@
+{
+ "batch": "B014",
+ "n": 8,
+ "classes": [
+  {
+   "obf": "uG",
+   "kind": "class",
+   "super": "e",
+   "lines": 971,
+   "decl_line": "class uG\nextends e ",
+   "anchored_refs": [
+    "KeyboardInputEvent",
+    "Module",
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "refs": [
+    "Dl",
+    "_y",
+    "e",
+    "hi",
+    "vY",
+    "yE",
+    "yi"
+   ],
+   "mc_imports": [
+    "net.minecraft.client.player.LocalPlayer"
+   ],
+   "n_fields": 6,
+   "n_methods": 14,
+   "candidates": [
+    {
+     "src": "Follower",
+     "score": 6.8,
+     "why": "锚点引用:KeyboardInputEvent,Module; MCimport:1",
+     "unique": false
+    },
+    {
+     "src": "EpsilonAddon",
+     "score": 6.0,
+     "why": "锚点引用:Module,Setting",
+     "unique": true
+    },
+    {
+     "src": "I18NFileGenerator",
+     "score": 6.0,
+     "why": "锚点引用:Module,Setting",
+     "unique": true
+    }
+   ]
+  },
+  {
+   "obf": "zb",
+   "kind": "class",
+   "super": null,
+   "lines": 1632,
+   "decl_line": "class zb ",
+   "anchored_refs": [
+    "RaytraceEvent",
+    "RotationAnimationEvent",
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "refs": [
+    "DK",
+    "DY",
+    "Dl",
+    "OW",
+    "dR",
+    "dY",
+    "hi",
+    "iD",
+    "uK",
+    "vB",
+    "yE"
+   ],
+   "mc_imports": [
+    "net.minecraft.client.Minecraft",
+    "net.minecraft.client.player.LocalPlayer",
+    "net.minecraft.world.phys.HitResult"
+   ],
+   "n_fields": 15,
+   "n_methods": 50,
+   "candidates": [
+    {
+     "src": "RotationManager",
+     "score": 6.67,
+     "why": "锚点引用:RaytraceEvent,RotationAnimationEvent; MCimport:1",
+     "unique": false
+    },
+    {
+     "src": "LuaEventRegistry",
+     "score": 6.0,
+     "why": "锚点引用:RaytraceEvent,RotationAnimationEvent",
+     "unique": false
+    },
+    {
+     "src": "Module",
+     "score": 4.33,
+     "why": "锚点引用:Setting; MCimport:1",
+     "unique": false
+    }
+   ]
+  },
+  {
+   "obf": "le",
+   "kind": "class",
+   "super": null,
+   "lines": 1695,
+   "decl_line": "class le ",
+   "anchored_refs": [
+    "Render3DEvent",
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "refs": [
+    "Dl",
+    "Dm",
+    "d9",
+    "dV",
+    "g0",
+    "hi",
+    "lZ",
+    "uX",
+    "vl",
+    "vu",
+    "yE",
+    "yN"
+   ],
+   "mc_imports": [
+    "net.minecraft.core.Direction",
+    "net.minecraft.world.phys.AABB",
+    "net.minecraft.world.phys.Vec3"
+   ],
+   "n_fields": 9,
+   "n_methods": 42,
+   "candidates": [
+    {
+     "src": "Render3DScheduler",
+     "score": 6.4,
+     "why": "锚点引用:Render3DEvent; MCimport:3",
+     "unique": false
+    },
+    {
+     "src": "HoleESP",
+     "score": 5.5,
+     "why": "锚点引用:Render3DEvent; MCimport:3",
+     "unique": false
+    },
+    {
+     "src": "LuaRender3DContext",
+     "score": 5.0,
+     "why": "MCimport:3",
+     "unique": false
+    }
+   ]
+  },
+  {
+   "obf": "vs",
+   "kind": "class",
+   "super": "vh",
+   "lines": 3252,
+   "decl_line": "class vs\nextends vh<Xc> ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心",
+    "Setting",
+    "StringSetting"
+   ],
+   "refs": [
+    "Dl",
+    "Xc",
+    "_j",
+    "hi",
+    "ih",
+    "nA",
+    "u_",
+    "vh",
+    "zU"
+   ],
+   "mc_imports": [
+    "net.minecraft.client.KeyboardHandler",
+    "net.minecraft.client.gui.GuiGraphicsExtractor",
+    "net.minecraft.client.input.CharacterEvent",
+    "net.minecraft.client.input.MouseButtonEvent"
+   ],
+   "n_fields": 11,
+   "n_methods": 47,
+   "candidates": [
+    {
+     "src": "StringSettingRow",
+     "score": 6.4,
+     "why": "锚点引用:StringSetting; MCimport:3",
+     "unique": false
+    },
+    {
+     "src": "ModuleDetailPanel",
+     "score": 6.4,
+     "why": "锚点引用:Setting; MCimport:3",
+     "unique": false
+    },
+    {
+     "src": "AddonClientSettingTab",
+     "score": 6.4,
+     "why": "锚点引用:Setting; MCimport:3",
+     "unique": false
+    }
+   ]
+  },
+  {
+   "obf": "_o",
+   "kind": "class",
+   "super": "Screen",
+   "lines": 4189,
+   "decl_line": "class _o\nextends Screen ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心",
+    "Setting",
+    "TranslateComponent"
+   ],
+   "refs": [
+    "Dl",
+    "OA",
+    "OP",
+    "OS",
+    "Oc",
+    "Ow",
+    "Xs",
+    "Xv",
+    "_j",
+    "_r",
+    "dd",
+    "hi",
+    "ih",
+    "l5"
+   ],
+   "mc_imports": [
+    "net.minecraft.client.Minecraft",
+    "net.minecraft.client.gui.Font",
+    "net.minecraft.client.gui.GuiGraphicsExtractor",
+    "net.minecraft.client.gui.components.IMEPreeditOverlay",
+    "net.minecraft.client.gui.screens.Screen",
+    "net.minecraft.client.input.CharacterEvent",
+    "net.minecraft.client.input.KeyEvent",
+    "net.minecraft.client.input.MouseButtonEvent",
+    "net.minecraft.client.input.PreeditEvent",
+    "net.minecraft.network.chat.Component"
+   ],
+   "n_fields": 39,
+   "n_methods": 98,
+   "candidates": [
+    {
+     "src": "Module",
+     "score": 6.4,
+     "why": "锚点引用:Setting,TranslateComponent; MCimport:1",
+     "unique": false
+    },
+    {
+     "src": "I18NFileGenerator",
+     "score": 6.0,
+     "why": "锚点引用:Setting,TranslateComponent",
+     "unique": true
+    },
+    {
+     "src": "SettingsListPanel",
+     "score": 6.0,
+     "why": "锚点引用:Setting,TranslateComponent",
+     "unique": false
+    }
+   ]
+  },
+  {
+   "obf": "uE",
+   "kind": "class",
+   "super": "u9",
+   "lines": 1649,
+   "decl_line": "class uE\nextends u9 ",
+   "anchored_refs": [
+    "BoolSetting",
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "refs": [
+    "Dl",
+    "Xn",
+    "hi",
+    "lz",
+    "u9",
+    "uK"
+   ],
+   "mc_imports": [
+    "net.minecraft.client.player.LocalPlayer",
+    "net.minecraft.core.BlockPos",
+    "net.minecraft.world.InteractionHand",
+    "net.minecraft.world.InteractionResult",
+    "net.minecraft.world.entity.player.Inventory",
+    "net.minecraft.world.item.Item",
+    "net.minecraft.world.phys.AABB",
+    "net.minecraft.world.phys.BlockHitResult"
+   ],
+   "n_fields": 12,
+   "n_methods": 29,
+   "candidates": [
+    {
+     "src": "SettingHost",
+     "score": 6.36,
+     "why": "锚点引用:BoolSetting,Setting; MCimport:1",
+     "unique": false
+    },
+    {
+     "src": "ModuleButton",
+     "score": 6.0,
+     "why": "锚点引用:BoolSetting,Setting",
+     "unique": false
+    },
+    {
+     "src": "SettingsContent",
+     "score": 6.0,
+     "why": "锚点引用:BoolSetting,Setting",
+     "unique": false
+    }
+   ]
+  },
+  {
+   "obf": "D1",
+   "kind": "class",
+   "super": null,
+   "lines": 391,
+   "decl_line": "class D1 ",
+   "anchored_refs": [
+    "BoolSetting",
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "refs": [
+    "Dl",
+    "Xn",
+    "eP",
+    "hi"
+   ],
+   "mc_imports": [],
+   "n_fields": 2,
+   "n_methods": 5,
+   "candidates": [
+    {
+     "src": "ModuleButton",
+     "score": 6.0,
+     "why": "锚点引用:BoolSetting,Setting",
+     "unique": false
+    },
+    {
+     "src": "SettingsContent",
+     "score": 6.0,
+     "why": "锚点引用:BoolSetting,Setting",
+     "unique": false
+    },
+    {
+     "src": "SettingViewFactory",
+     "score": 6.0,
+     "why": "锚点引用:BoolSetting,Setting",
+     "unique": false
+    }
+   ]
+  },
+  {
+   "obf": "DC",
+   "kind": "class",
+   "super": null,
+   "lines": 192,
+   "decl_line": "class DC ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心",
+    "Setting",
+    "TranslateComponent"
+   ],
+   "refs": [
+    "Dl",
+    "hi",
+    "uT"
+   ],
+   "mc_imports": [],
+   "n_fields": 4,
+   "n_methods": 10,
+   "candidates": [
+    {
+     "src": "I18NFileGenerator",
+     "score": 6.0,
+     "why": "锚点引用:Setting,TranslateComponent",
+     "unique": true
+    },
+    {
+     "src": "SettingsListPanel",
+     "score": 6.0,
+     "why": "锚点引用:Setting,TranslateComponent",
+     "unique": false
+    },
+    {
+     "src": "Module",
+     "score": 6.0,
+     "why": "锚点引用:Setting,TranslateComponent",
+     "unique": false
+    }
+   ]
+  }
+ ]
+}

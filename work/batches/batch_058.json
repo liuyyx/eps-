@@ -1,0 +1,140 @@
+{
+ "batch": "B058",
+ "n": 8,
+ "classes": [
+  {
+   "obf": "gx",
+   "kind": "class",
+   "super": "Enum",
+   "lines": 142,
+   "decl_line": "class gx\nextends Enum<gx> ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "hi"
+   ],
+   "mc_imports": [],
+   "n_fields": 1,
+   "n_methods": 8,
+   "candidates": []
+  },
+  {
+   "obf": "gY",
+   "kind": "class",
+   "super": null,
+   "lines": 14,
+   "decl_line": "class gY ",
+   "anchored_refs": [],
+   "refs": [],
+   "mc_imports": [],
+   "n_fields": 0,
+   "n_methods": 1,
+   "candidates": []
+  },
+  {
+   "obf": "g_",
+   "kind": "class",
+   "super": "Enum",
+   "lines": 123,
+   "decl_line": "class g_\nextends Enum<g_> ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "hi"
+   ],
+   "mc_imports": [],
+   "n_fields": 1,
+   "n_methods": 6,
+   "candidates": []
+  },
+  {
+   "obf": "i0",
+   "kind": "class",
+   "super": "Enum",
+   "lines": 142,
+   "decl_line": "class i0\nextends Enum<i0> ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "hi"
+   ],
+   "mc_imports": [],
+   "n_fields": 1,
+   "n_methods": 8,
+   "candidates": []
+  },
+  {
+   "obf": "i3",
+   "kind": "class",
+   "super": null,
+   "lines": 16,
+   "decl_line": "class i3 ",
+   "anchored_refs": [],
+   "refs": [
+    "gX"
+   ],
+   "mc_imports": [],
+   "n_fields": 1,
+   "n_methods": 1,
+   "candidates": []
+  },
+  {
+   "obf": "i5",
+   "kind": "class",
+   "super": "Enum",
+   "lines": 140,
+   "decl_line": "class i5\nextends Enum<i5> ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "hi"
+   ],
+   "mc_imports": [],
+   "n_fields": 1,
+   "n_methods": 7,
+   "candidates": []
+  },
+  {
+   "obf": "i9",
+   "kind": "class",
+   "super": null,
+   "lines": 28,
+   "decl_line": "class i9 ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "hi"
+   ],
+   "mc_imports": [
+    "net.minecraft.core.BlockPos",
+    "net.minecraft.world.level.block.Block"
+   ],
+   "n_fields": 4,
+   "n_methods": 5,
+   "candidates": []
+  },
+  {
+   "obf": "ia",
+   "kind": "class",
+   "super": null,
+   "lines": 44,
+   "decl_line": "class ia ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "hi",
+    "iU"
+   ],
+   "mc_imports": [],
+   "n_fields": 0,
+   "n_methods": 1,
+   "candidates": []
+  }
+ ]
+}

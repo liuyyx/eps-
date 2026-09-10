@@ -1,0 +1,421 @@
+{
+ "batch": "B011",
+ "n": 8,
+ "classes": [
+  {
+   "obf": "iA",
+   "kind": "class",
+   "super": null,
+   "lines": 2447,
+   "decl_line": "class iA\nimplements AutoCloseable ",
+   "anchored_refs": [
+    "Module",
+    "SeQL/字符串解密+调用分发核心",
+    "Setting",
+    "TranslateComponent"
+   ],
+   "refs": [
+    "DC",
+    "DP",
+    "Dg",
+    "Dl",
+    "Ov",
+    "XZ",
+    "_E",
+    "_N",
+    "_j",
+    "e",
+    "hi",
+    "ih",
+    "l5",
+    "lH"
+   ],
+   "mc_imports": [
+    "net.minecraft.client.gui.GuiGraphicsExtractor",
+    "net.minecraft.client.input.CharacterEvent",
+    "net.minecraft.client.input.MouseButtonEvent"
+   ],
+   "n_fields": 22,
+   "n_methods": 59,
+   "candidates": [
+    {
+     "src": "ModuleDetailPanel",
+     "score": 10.0,
+     "why": "锚点引用:Module,Setting; MCimport:3",
+     "unique": false
+    },
+    {
+     "src": "I18NFileGenerator",
+     "score": 9.0,
+     "why": "锚点引用:Module,Setting,TranslateComponent",
+     "unique": true
+    },
+    {
+     "src": "ClientSettingPanel",
+     "score": 7.0,
+     "why": "锚点引用:TranslateComponent; MCimport:3",
+     "unique": false
+    }
+   ]
+  },
+  {
+   "obf": "uL",
+   "kind": "class",
+   "super": "e",
+   "lines": 993,
+   "decl_line": "class uL\nextends e ",
+   "anchored_refs": [
+    "BoolSetting",
+    "KeyboardInputEvent",
+    "Module",
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "refs": [
+    "Dl",
+    "Xn",
+    "db",
+    "e",
+    "hi",
+    "vY",
+    "yE",
+    "yi"
+   ],
+   "mc_imports": [
+    "net.minecraft.client.player.LocalPlayer",
+    "net.minecraft.core.Holder"
+   ],
+   "n_fields": 5,
+   "n_methods": 13,
+   "candidates": [
+    {
+     "src": "Follower",
+     "score": 9.67,
+     "why": "锚点引用:BoolSetting,KeyboardInputEvent,Module; MCimport:1",
+     "unique": false
+    },
+    {
+     "src": "ModuleButton",
+     "score": 9.0,
+     "why": "锚点引用:BoolSetting,Module,Setting",
+     "unique": false
+    },
+    {
+     "src": "ConfigHolder",
+     "score": 9.0,
+     "why": "锚点引用:BoolSetting,Module,Setting",
+     "unique": false
+    }
+   ]
+  },
+  {
+   "obf": "c",
+   "kind": "class",
+   "super": "e",
+   "lines": 977,
+   "decl_line": "class c\nextends e ",
+   "anchored_refs": [
+    "BoolSetting",
+    "Module",
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "refs": [
+    "Dl",
+    "Xn",
+    "dQ",
+    "e",
+    "hi",
+    "vY",
+    "yE"
+   ],
+   "mc_imports": [
+    "net.minecraft.network.protocol.game.ServerboundSetCarriedItemPacket"
+   ],
+   "n_fields": 6,
+   "n_methods": 13,
+   "candidates": [
+    {
+     "src": "ModuleButton",
+     "score": 9.0,
+     "why": "锚点引用:BoolSetting,Module,Setting",
+     "unique": false
+    },
+    {
+     "src": "ConfigHolder",
+     "score": 9.0,
+     "why": "锚点引用:BoolSetting,Module,Setting",
+     "unique": false
+    },
+    {
+     "src": "ClientSetting",
+     "score": 9.0,
+     "why": "锚点引用:BoolSetting,Module,Setting",
+     "unique": false
+    }
+   ]
+  },
+  {
+   "obf": "en",
+   "kind": "class",
+   "super": "e",
+   "lines": 660,
+   "decl_line": "class en\nextends e ",
+   "anchored_refs": [
+    "BoolSetting",
+    "Module",
+    "MousePressEvent",
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "refs": [
+    "Dl",
+    "Xn",
+    "dR",
+    "dW",
+    "e",
+    "hi",
+    "vY",
+    "yE"
+   ],
+   "mc_imports": [],
+   "n_fields": 10,
+   "n_methods": 20,
+   "candidates": [
+    {
+     "src": "ModuleButton",
+     "score": 9.0,
+     "why": "锚点引用:BoolSetting,Module,Setting",
+     "unique": false
+    },
+    {
+     "src": "ConfigHolder",
+     "score": 9.0,
+     "why": "锚点引用:BoolSetting,Module,Setting",
+     "unique": false
+    },
+    {
+     "src": "ClientSetting",
+     "score": 9.0,
+     "why": "锚点引用:BoolSetting,Module,Setting",
+     "unique": false
+    }
+   ]
+  },
+  {
+   "obf": "eQ",
+   "kind": "class",
+   "super": "e",
+   "lines": 1640,
+   "decl_line": "class eQ\nextends e ",
+   "anchored_refs": [
+    "IntSetting",
+    "Module",
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "refs": [
+    "Dl",
+    "XG",
+    "_Z",
+    "_y",
+    "e",
+    "hi",
+    "uK",
+    "vY",
+    "yE",
+    "zb"
+   ],
+   "mc_imports": [
+    "net.minecraft.client.multiplayer.ClientLevel",
+    "net.minecraft.client.player.LocalPlayer",
+    "net.minecraft.core.BlockPos",
+    "net.minecraft.world.entity.Entity",
+    "net.minecraft.world.level.ClipContext",
+    "net.minecraft.world.level.block.SlabBlock",
+    "net.minecraft.world.level.block.state.BlockState",
+    "net.minecraft.world.level.block.state.properties.SlabType",
+    "net.minecraft.world.phys.Vec3"
+   ],
+   "n_fields": 20,
+   "n_methods": 39,
+   "candidates": [
+    {
+     "src": "ModuleButton",
+     "score": 9.0,
+     "why": "锚点引用:IntSetting,Module,Setting",
+     "unique": false
+    },
+    {
+     "src": "ConfigHolder",
+     "score": 9.0,
+     "why": "锚点引用:IntSetting,Module,Setting",
+     "unique": false
+    },
+    {
+     "src": "ClientSetting",
+     "score": 9.0,
+     "why": "锚点引用:IntSetting,Module,Setting",
+     "unique": false
+    }
+   ]
+  },
+  {
+   "obf": "i6",
+   "kind": "class",
+   "super": "Screen",
+   "lines": 2504,
+   "decl_line": "class i6\nextends Screen ",
+   "anchored_refs": [
+    "Module",
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "refs": [
+    "DN",
+    "Dl",
+    "OU",
+    "Ow",
+    "Xy",
+    "_6",
+    "_j",
+    "dd",
+    "e",
+    "gW",
+    "hi",
+    "iA",
+    "ih",
+    "l5"
+   ],
+   "mc_imports": [
+    "net.minecraft.client.gui.GuiGraphicsExtractor",
+    "net.minecraft.client.gui.components.IMEPreeditOverlay",
+    "net.minecraft.client.gui.screens.Screen",
+    "net.minecraft.client.input.CharacterEvent",
+    "net.minecraft.client.input.KeyEvent",
+    "net.minecraft.client.input.MouseButtonEvent",
+    "net.minecraft.client.input.PreeditEvent",
+    "net.minecraft.network.chat.Component"
+   ],
+   "n_fields": 25,
+   "n_methods": 53,
+   "candidates": [
+    {
+     "src": "ModuleDetailPanel",
+     "score": 9.0,
+     "why": "锚点引用:Module,Setting; MCimport:4",
+     "unique": false
+    },
+    {
+     "src": "SettingRow",
+     "score": 6.5,
+     "why": "锚点引用:Setting; MCimport:5",
+     "unique": true
+    },
+    {
+     "src": "EpsilonAddon",
+     "score": 6.0,
+     "why": "锚点引用:Module,Setting",
+     "unique": true
+    }
+   ]
+  },
+  {
+   "obf": "iI",
+   "kind": "class",
+   "super": null,
+   "lines": 2238,
+   "decl_line": "class iI ",
+   "anchored_refs": [
+    "Dependency",
+    "DoubleSetting",
+    "IntSetting",
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "refs": [
+    "DM",
+    "Di",
+    "Dl",
+    "XG",
+    "_j",
+    "eJ",
+    "gQ",
+    "hi",
+    "vt",
+    "y1",
+    "yx",
+    "zU"
+   ],
+   "mc_imports": [],
+   "n_fields": 12,
+   "n_methods": 35,
+   "candidates": [
+    {
+     "src": "ModuleButton",
+     "score": 9.0,
+     "why": "锚点引用:DoubleSetting,IntSetting,Setting",
+     "unique": false
+    },
+    {
+     "src": "SettingsContent",
+     "score": 9.0,
+     "why": "锚点引用:DoubleSetting,IntSetting,Setting",
+     "unique": false
+    },
+    {
+     "src": "SettingViewFactory",
+     "score": 9.0,
+     "why": "锚点引用:DoubleSetting,IntSetting,Setting",
+     "unique": false
+    }
+   ]
+  },
+  {
+   "obf": "uN",
+   "kind": "class",
+   "super": null,
+   "lines": 500,
+   "decl_line": "class uN ",
+   "anchored_refs": [
+    "BoolSetting",
+    "Dependency",
+    "DoubleSetting",
+    "HandsView",
+    "SeQL/字符串解密+调用分发核心",
+    "SettingGroup"
+   ],
+   "refs": [
+    "DM",
+    "Xn",
+    "e_",
+    "hi",
+    "nN",
+    "yx"
+   ],
+   "mc_imports": [],
+   "n_fields": 11,
+   "n_methods": 15,
+   "candidates": [
+    {
+     "src": "ClientSetting",
+     "score": 9.0,
+     "why": "锚点引用:BoolSetting,DoubleSetting,SettingGroup",
+     "unique": false
+    },
+    {
+     "src": "ZealotCrystalPlus",
+     "score": 9.0,
+     "why": "锚点引用:BoolSetting,DoubleSetting,SettingGroup",
+     "unique": true
+    },
+    {
+     "src": "HoleSnap",
+     "score": 9.0,
+     "why": "锚点引用:BoolSetting,DoubleSetting,SettingGroup",
+     "unique": false
+    }
+   ]
+  }
+ ]
+}

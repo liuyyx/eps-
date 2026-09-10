@@ -1,0 +1,320 @@
+{
+ "batch": "B041",
+ "n": 8,
+ "classes": [
+  {
+   "obf": "X4",
+   "kind": "class",
+   "super": "Record",
+   "lines": 45,
+   "decl_line": "class X4\nextends Record ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心",
+    "TranslateComponent"
+   ],
+   "refs": [
+    "g8",
+    "hi",
+    "uT"
+   ],
+   "mc_imports": [],
+   "n_fields": 2,
+   "n_methods": 8,
+   "candidates": [
+    {
+     "src": "DefaultTranslateComponent",
+     "score": 3.0,
+     "why": "锚点引用:TranslateComponent",
+     "unique": false
+    },
+    {
+     "src": "EpsilonTranslateComponent",
+     "score": 3.0,
+     "why": "锚点引用:TranslateComponent",
+     "unique": false
+    },
+    {
+     "src": "EpsilonTranslations",
+     "score": 3.0,
+     "why": "锚点引用:TranslateComponent",
+     "unique": false
+    }
+   ]
+  },
+  {
+   "obf": "XA",
+   "kind": "class",
+   "super": null,
+   "lines": 912,
+   "decl_line": "class XA ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "refs": [
+    "Dl",
+    "g7",
+    "hi",
+    "z8"
+   ],
+   "mc_imports": [],
+   "n_fields": 3,
+   "n_methods": 16,
+   "candidates": [
+    {
+     "src": "EpsilonAddon",
+     "score": 3.0,
+     "why": "锚点引用:Setting",
+     "unique": true
+    },
+    {
+     "src": "I18NFileGenerator",
+     "score": 3.0,
+     "why": "锚点引用:Setting",
+     "unique": true
+    },
+    {
+     "src": "AddonPanelEntry",
+     "score": 3.0,
+     "why": "锚点引用:Setting",
+     "unique": false
+    }
+   ]
+  },
+  {
+   "obf": "XL",
+   "kind": "record",
+   "super": null,
+   "lines": 585,
+   "decl_line": "record XL(float bo, float bE, float bR, float bY) ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "refs": [
+    "Dl",
+    "hi"
+   ],
+   "mc_imports": [],
+   "n_fields": 6,
+   "n_methods": 25,
+   "candidates": [
+    {
+     "src": "EpsilonAddon",
+     "score": 3.0,
+     "why": "锚点引用:Setting",
+     "unique": true
+    },
+    {
+     "src": "I18NFileGenerator",
+     "score": 3.0,
+     "why": "锚点引用:Setting",
+     "unique": true
+    },
+    {
+     "src": "AddonPanelEntry",
+     "score": 3.0,
+     "why": "锚点引用:Setting",
+     "unique": false
+    }
+   ]
+  },
+  {
+   "obf": "XN",
+   "kind": "class",
+   "super": null,
+   "lines": 1426,
+   "decl_line": "class XN\nimplements _A ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "refs": [
+    "Dl",
+    "_A",
+    "_t",
+    "d5",
+    "hi",
+    "yJ"
+   ],
+   "mc_imports": [],
+   "n_fields": 17,
+   "n_methods": 41,
+   "candidates": [
+    {
+     "src": "EpsilonAddon",
+     "score": 3.0,
+     "why": "锚点引用:Setting",
+     "unique": true
+    },
+    {
+     "src": "I18NFileGenerator",
+     "score": 3.0,
+     "why": "锚点引用:Setting",
+     "unique": true
+    },
+    {
+     "src": "AddonPanelEntry",
+     "score": 3.0,
+     "why": "锚点引用:Setting",
+     "unique": false
+    }
+   ]
+  },
+  {
+   "obf": "XT",
+   "kind": "class",
+   "super": null,
+   "lines": 474,
+   "decl_line": "class XT\nimplements W ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "refs": [
+    "Dl",
+    "hi"
+   ],
+   "mc_imports": [
+    "net.minecraft.commands.CommandBuildContext"
+   ],
+   "n_fields": 4,
+   "n_methods": 14,
+   "candidates": [
+    {
+     "src": "EpsilonAddon",
+     "score": 3.0,
+     "why": "锚点引用:Setting",
+     "unique": true
+    },
+    {
+     "src": "I18NFileGenerator",
+     "score": 3.0,
+     "why": "锚点引用:Setting",
+     "unique": true
+    },
+    {
+     "src": "AddonPanelEntry",
+     "score": 3.0,
+     "why": "锚点引用:Setting",
+     "unique": false
+    }
+   ]
+  },
+  {
+   "obf": "Xu",
+   "kind": "record",
+   "super": null,
+   "lines": 249,
+   "decl_line": "record Xu(int wv, int we, int wb, int wL) ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "refs": [
+    "Dl",
+    "hi"
+   ],
+   "mc_imports": [],
+   "n_fields": 6,
+   "n_methods": 17,
+   "candidates": [
+    {
+     "src": "EpsilonAddon",
+     "score": 3.0,
+     "why": "锚点引用:Setting",
+     "unique": true
+    },
+    {
+     "src": "I18NFileGenerator",
+     "score": 3.0,
+     "why": "锚点引用:Setting",
+     "unique": true
+    },
+    {
+     "src": "AddonPanelEntry",
+     "score": 3.0,
+     "why": "锚点引用:Setting",
+     "unique": false
+    }
+   ]
+  },
+  {
+   "obf": "Xv",
+   "kind": "class",
+   "super": "Enum",
+   "lines": 179,
+   "decl_line": "class Xv\nextends Enum<Xv> ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心",
+    "TranslateComponent"
+   ],
+   "refs": [
+    "hi",
+    "nV",
+    "uT"
+   ],
+   "mc_imports": [],
+   "n_fields": 2,
+   "n_methods": 17,
+   "candidates": [
+    {
+     "src": "DefaultTranslateComponent",
+     "score": 3.0,
+     "why": "锚点引用:TranslateComponent",
+     "unique": false
+    },
+    {
+     "src": "EpsilonTranslateComponent",
+     "score": 3.0,
+     "why": "锚点引用:TranslateComponent",
+     "unique": false
+    },
+    {
+     "src": "EpsilonTranslations",
+     "score": 3.0,
+     "why": "锚点引用:TranslateComponent",
+     "unique": false
+    }
+   ]
+  },
+  {
+   "obf": "XX",
+   "kind": "class",
+   "super": null,
+   "lines": 155,
+   "decl_line": "class XX ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心",
+    "TranslateComponent"
+   ],
+   "refs": [
+    "hi",
+    "uT"
+   ],
+   "mc_imports": [],
+   "n_fields": 3,
+   "n_methods": 4,
+   "candidates": [
+    {
+     "src": "DefaultTranslateComponent",
+     "score": 3.0,
+     "why": "锚点引用:TranslateComponent",
+     "unique": false
+    },
+    {
+     "src": "EpsilonTranslateComponent",
+     "score": 3.0,
+     "why": "锚点引用:TranslateComponent",
+     "unique": false
+    },
+    {
+     "src": "EpsilonTranslations",
+     "score": 3.0,
+     "why": "锚点引用:TranslateComponent",
+     "unique": false
+    }
+   ]
+  }
+ ]
+}

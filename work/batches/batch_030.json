@@ -1,0 +1,369 @@
+{
+ "batch": "B030",
+ "n": 8,
+ "classes": [
+  {
+   "obf": "_h",
+   "kind": "class",
+   "super": null,
+   "lines": 854,
+   "decl_line": "class _h ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "refs": [
+    "Dl",
+    "hi"
+   ],
+   "mc_imports": [
+    "net.minecraft.client.multiplayer.ClientLevel",
+    "net.minecraft.core.BlockPos",
+    "net.minecraft.core.Direction",
+    "net.minecraft.world.entity.Entity",
+    "net.minecraft.world.entity.ExperienceOrb",
+    "net.minecraft.world.entity.boss.enderdragon.EndCrystal",
+    "net.minecraft.world.entity.item.ItemEntity",
+    "net.minecraft.world.entity.projectile.arrow.Arrow",
+    "net.minecraft.world.entity.projectile.throwableitemprojectile.ThrownExperienceBottle",
+    "net.minecraft.world.item.ItemStack"
+   ],
+   "n_fields": 2,
+   "n_methods": 13,
+   "candidates": [
+    {
+     "src": "RegistryListSelectPopup",
+     "score": 3.28,
+     "why": "锚点引用:Setting; MCimport:2",
+     "unique": true
+    },
+    {
+     "src": "SettingHost",
+     "score": 3.22,
+     "why": "锚点引用:Setting; MCimport:1",
+     "unique": false
+    },
+    {
+     "src": "RegistryListSetting",
+     "score": 3.18,
+     "why": "锚点引用:Setting; MCimport:1",
+     "unique": false
+    }
+   ]
+  },
+  {
+   "obf": "nC",
+   "kind": "class",
+   "super": "TimerTask",
+   "lines": 64,
+   "decl_line": "class nC\nextends TimerTask ",
+   "anchored_refs": [
+    "PacketMine",
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "eb",
+    "hi"
+   ],
+   "mc_imports": [
+    "net.minecraft.client.Minecraft",
+    "net.minecraft.core.BlockPos",
+    "net.minecraft.core.Direction",
+    "net.minecraft.network.protocol.game.ServerboundPlayerActionPacket"
+   ],
+   "n_fields": 0,
+   "n_methods": 3,
+   "candidates": [
+    {
+     "src": "ZealotCrystalPlus",
+     "score": 3.26,
+     "why": "锚点引用:PacketMine; MCimport:2",
+     "unique": true
+    },
+    {
+     "src": "ModuleHolder",
+     "score": 3.0,
+     "why": "锚点引用:PacketMine",
+     "unique": true
+    },
+    {
+     "src": "InteractionUtils",
+     "score": 2.2,
+     "why": "MCimport:3",
+     "unique": false
+    }
+   ]
+  },
+  {
+   "obf": "lw",
+   "kind": "class",
+   "super": null,
+   "lines": 2885,
+   "decl_line": "class lw\nimplements Oa ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "refs": [
+    "Dl",
+    "Oa",
+    "Xg",
+    "gv",
+    "hi",
+    "nF",
+    "vm"
+   ],
+   "mc_imports": [
+    "net.minecraft.client.player.LocalPlayer",
+    "net.minecraft.core.BlockPos",
+    "net.minecraft.core.Vec3i",
+    "net.minecraft.world.entity.Entity",
+    "net.minecraft.world.entity.LivingEntity",
+    "net.minecraft.world.level.Level",
+    "net.minecraft.world.phys.AABB",
+    "net.minecraft.world.phys.Vec3",
+    "net.minecraft.world.phys.shapes.VoxelShape"
+   ],
+   "n_fields": 3,
+   "n_methods": 27,
+   "candidates": [
+    {
+     "src": "AStarFollowerNavigator",
+     "score": 3.22,
+     "why": "MCimport:5",
+     "unique": false
+    },
+    {
+     "src": "EpsilonAddon",
+     "score": 3.0,
+     "why": "锚点引用:Setting",
+     "unique": true
+    },
+    {
+     "src": "I18NFileGenerator",
+     "score": 3.0,
+     "why": "锚点引用:Setting",
+     "unique": true
+    }
+   ]
+  },
+  {
+   "obf": "uo",
+   "kind": "class",
+   "super": null,
+   "lines": 811,
+   "decl_line": "class uo ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "refs": [
+    "Dl",
+    "hi"
+   ],
+   "mc_imports": [
+    "net.minecraft.core.BlockPos",
+    "net.minecraft.world.entity.Entity",
+    "net.minecraft.world.entity.player.Player",
+    "net.minecraft.world.level.ClipContext",
+    "net.minecraft.world.phys.BlockHitResult",
+    "net.minecraft.world.phys.Vec3"
+   ],
+   "n_fields": 12,
+   "n_methods": 23,
+   "candidates": [
+    {
+     "src": "FallingPlayer",
+     "score": 3.22,
+     "why": "MCimport:5",
+     "unique": false
+    },
+    {
+     "src": "EpsilonAddon",
+     "score": 3.0,
+     "why": "锚点引用:Setting",
+     "unique": true
+    },
+    {
+     "src": "I18NFileGenerator",
+     "score": 3.0,
+     "why": "锚点引用:Setting",
+     "unique": true
+    }
+   ]
+  },
+  {
+   "obf": "l0",
+   "kind": "class",
+   "super": "l8",
+   "lines": 1183,
+   "decl_line": "class l0\nextends l8 ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "refs": [
+    "Dl",
+    "_E",
+    "_Z",
+    "_j",
+    "gO",
+    "hi",
+    "ih",
+    "l8",
+    "lH",
+    "zU"
+   ],
+   "mc_imports": [
+    "net.minecraft.client.color.block.BlockTintSource",
+    "net.minecraft.client.player.LocalPlayer",
+    "net.minecraft.client.renderer.block.BlockAndTintGetter",
+    "net.minecraft.client.renderer.texture.TextureAtlasSprite",
+    "net.minecraft.core.BlockPos",
+    "net.minecraft.world.item.BlockItem",
+    "net.minecraft.world.item.ItemStack",
+    "net.minecraft.world.level.block.state.BlockState"
+   ],
+   "n_fields": 16,
+   "n_methods": 41,
+   "candidates": [
+    {
+     "src": "RegistryListSelectPopup",
+     "score": 3.17,
+     "why": "锚点引用:Setting; MCimport:1",
+     "unique": true
+    },
+    {
+     "src": "EpsilonAddon",
+     "score": 3.0,
+     "why": "锚点引用:Setting",
+     "unique": true
+    },
+    {
+     "src": "I18NFileGenerator",
+     "score": 3.0,
+     "why": "锚点引用:Setting",
+     "unique": true
+    }
+   ]
+  },
+  {
+   "obf": "d0",
+   "kind": "class",
+   "super": null,
+   "lines": 735,
+   "decl_line": "class d0 ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "refs": [
+    "Dl",
+    "hi",
+    "l8"
+   ],
+   "mc_imports": [],
+   "n_fields": 3,
+   "n_methods": 10,
+   "candidates": [
+    {
+     "src": "EpsilonAddon",
+     "score": 3.0,
+     "why": "锚点引用:Setting",
+     "unique": true
+    },
+    {
+     "src": "I18NFileGenerator",
+     "score": 3.0,
+     "why": "锚点引用:Setting",
+     "unique": true
+    },
+    {
+     "src": "AddonPanelEntry",
+     "score": 3.0,
+     "why": "锚点引用:Setting",
+     "unique": false
+    }
+   ]
+  },
+  {
+   "obf": "d2",
+   "kind": "class",
+   "super": null,
+   "lines": 303,
+   "decl_line": "class d2 ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "refs": [
+    "Dl",
+    "hi"
+   ],
+   "mc_imports": [
+    "net.minecraft.core.BlockPos",
+    "net.minecraft.world.level.Level"
+   ],
+   "n_fields": 5,
+   "n_methods": 10,
+   "candidates": [
+    {
+     "src": "EpsilonAddon",
+     "score": 3.0,
+     "why": "锚点引用:Setting",
+     "unique": true
+    },
+    {
+     "src": "I18NFileGenerator",
+     "score": 3.0,
+     "why": "锚点引用:Setting",
+     "unique": true
+    },
+    {
+     "src": "AddonPanelEntry",
+     "score": 3.0,
+     "why": "锚点引用:Setting",
+     "unique": false
+    }
+   ]
+  },
+  {
+   "obf": "D3",
+   "kind": "class",
+   "super": "ViaLegacyConfig",
+   "lines": 50,
+   "decl_line": "class D3\nextends ViaLegacyConfig ",
+   "anchored_refs": [
+    "BoolSetting",
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "Xn",
+    "hi"
+   ],
+   "mc_imports": [],
+   "n_fields": 0,
+   "n_methods": 5,
+   "candidates": [
+    {
+     "src": "BPS",
+     "score": 3.0,
+     "why": "锚点引用:BoolSetting",
+     "unique": false
+    },
+    {
+     "src": "Inventory",
+     "score": 3.0,
+     "why": "锚点引用:BoolSetting",
+     "unique": true
+    },
+    {
+     "src": "ModuleList",
+     "score": 3.0,
+     "why": "锚点引用:BoolSetting",
+     "unique": true
+    }
+   ]
+  }
+ ]
+}

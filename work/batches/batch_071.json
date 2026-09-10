@@ -1,0 +1,149 @@
+{
+ "batch": "B071",
+ "n": 8,
+ "classes": [
+  {
+   "obf": "Oh",
+   "kind": "class",
+   "super": "Enum",
+   "lines": 142,
+   "decl_line": "class Oh\nextends Enum<Oh> ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "hi"
+   ],
+   "mc_imports": [],
+   "n_fields": 1,
+   "n_methods": 8,
+   "candidates": []
+  },
+  {
+   "obf": "OI",
+   "kind": "class",
+   "super": "Enum",
+   "lines": 123,
+   "decl_line": "class OI\nextends Enum<OI> ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "hi"
+   ],
+   "mc_imports": [],
+   "n_fields": 1,
+   "n_methods": 6,
+   "candidates": []
+  },
+  {
+   "obf": "Oi",
+   "kind": "class",
+   "super": "Record",
+   "lines": 150,
+   "decl_line": "class Oi\nextends Record\nimplements DynamicUniformStorage.DynamicUniform ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "hi"
+   ],
+   "mc_imports": [
+    "net.minecraft.client.renderer.DynamicUniformStorage"
+   ],
+   "n_fields": 15,
+   "n_methods": 36,
+   "candidates": []
+  },
+  {
+   "obf": "Ok",
+   "kind": "class",
+   "super": "Record",
+   "lines": 50,
+   "decl_line": "class Ok\nextends Record ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "hi",
+    "nK"
+   ],
+   "mc_imports": [],
+   "n_fields": 3,
+   "n_methods": 10,
+   "candidates": []
+  },
+  {
+   "obf": "OL",
+   "kind": "class",
+   "super": "Record",
+   "lines": 51,
+   "decl_line": "class OL\nextends Record ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "Oq",
+    "hi",
+    "yn"
+   ],
+   "mc_imports": [],
+   "n_fields": 3,
+   "n_methods": 10,
+   "candidates": []
+  },
+  {
+   "obf": "Ol",
+   "kind": "class",
+   "super": null,
+   "lines": 80,
+   "decl_line": "class Ol ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "hi"
+   ],
+   "mc_imports": [
+    "net.minecraft.core.Direction"
+   ],
+   "n_fields": 0,
+   "n_methods": 1,
+   "candidates": []
+  },
+  {
+   "obf": "ON",
+   "kind": "class",
+   "super": null,
+   "lines": 25,
+   "decl_line": "class ON ",
+   "anchored_refs": [],
+   "refs": [
+    "yI"
+   ],
+   "mc_imports": [],
+   "n_fields": 0,
+   "n_methods": 1,
+   "candidates": []
+  },
+  {
+   "obf": "On",
+   "kind": "class",
+   "super": "Record",
+   "lines": 136,
+   "decl_line": "class On\nextends Record ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "hi",
+    "ih",
+    "u_"
+   ],
+   "mc_imports": [],
+   "n_fields": 17,
+   "n_methods": 38,
+   "candidates": []
+  }
+ ]
+}

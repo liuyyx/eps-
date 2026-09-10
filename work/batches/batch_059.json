@@ -1,0 +1,151 @@
+{
+ "batch": "B059",
+ "n": 8,
+ "classes": [
+  {
+   "obf": "iB",
+   "kind": "class",
+   "super": null,
+   "lines": 94,
+   "decl_line": "class iB ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "_Q",
+    "hi",
+    "ih",
+    "vI",
+    "zU"
+   ],
+   "mc_imports": [],
+   "n_fields": 3,
+   "n_methods": 13,
+   "candidates": []
+  },
+  {
+   "obf": "iD",
+   "kind": "class",
+   "super": "Enum",
+   "lines": 123,
+   "decl_line": "class iD\nextends Enum<iD> ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "hi"
+   ],
+   "mc_imports": [],
+   "n_fields": 1,
+   "n_methods": 6,
+   "candidates": []
+  },
+  {
+   "obf": "ie",
+   "kind": "class",
+   "super": "Enum",
+   "lines": 142,
+   "decl_line": "class ie\nextends Enum<ie> ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "hi"
+   ],
+   "mc_imports": [],
+   "n_fields": 1,
+   "n_methods": 8,
+   "candidates": []
+  },
+  {
+   "obf": "iF",
+   "kind": "class",
+   "super": "SimpleFileVisitor",
+   "lines": 35,
+   "decl_line": "class iF\nextends SimpleFileVisitor<Path> ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "hi",
+    "vz"
+   ],
+   "mc_imports": [],
+   "n_fields": 0,
+   "n_methods": 2,
+   "candidates": []
+  },
+  {
+   "obf": "iG",
+   "kind": "class",
+   "super": "Record",
+   "lines": 137,
+   "decl_line": "class iG\nextends Record\nimplements _Q ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "X6",
+    "_Q",
+    "hi"
+   ],
+   "mc_imports": [],
+   "n_fields": 17,
+   "n_methods": 38,
+   "candidates": []
+  },
+  {
+   "obf": "ig",
+   "kind": "class",
+   "super": "Record",
+   "lines": 101,
+   "decl_line": "class ig\nextends Record\nimplements DynamicUniformStorage.DynamicUniform ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "hi"
+   ],
+   "mc_imports": [
+    "net.minecraft.client.renderer.DynamicUniformStorage"
+   ],
+   "n_fields": 7,
+   "n_methods": 20,
+   "candidates": []
+  },
+  {
+   "obf": "ii",
+   "kind": "class",
+   "super": "Enum",
+   "lines": 123,
+   "decl_line": "class ii\nextends Enum<ii> ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "hi"
+   ],
+   "mc_imports": [],
+   "n_fields": 1,
+   "n_methods": 6,
+   "candidates": []
+  },
+  {
+   "obf": "ij",
+   "kind": "class",
+   "super": "Record",
+   "lines": 74,
+   "decl_line": "class ij\nextends Record ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "hi"
+   ],
+   "mc_imports": [],
+   "n_fields": 7,
+   "n_methods": 18,
+   "candidates": []
+  }
+ ]
+}

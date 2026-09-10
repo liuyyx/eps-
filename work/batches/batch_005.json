@@ -1,0 +1,507 @@
+{
+ "batch": "B005",
+ "n": 8,
+ "classes": [
+  {
+   "obf": "zk",
+   "kind": "class",
+   "super": "zF",
+   "lines": 6060,
+   "decl_line": "class zk\nextends zF ",
+   "anchored_refs": [
+    "BoolSetting",
+    "ButtonSetting",
+    "ColorSetting",
+    "DoubleSetting",
+    "EnumSetting",
+    "IntSetting",
+    "KeybindSetting",
+    "Module",
+    "RegistryListSetting",
+    "SeQL/字符串解密+调用分发核心",
+    "Setting",
+    "StringListSetting",
+    "StringSetting"
+   ],
+   "refs": [
+    "DF",
+    "DM",
+    "DV",
+    "Db",
+    "Dl",
+    "Dx",
+    "X0",
+    "XF",
+    "XG",
+    "Xc",
+    "Xe",
+    "Xn",
+    "Xp",
+    "_E"
+   ],
+   "mc_imports": [],
+   "n_fields": 15,
+   "n_methods": 57,
+   "candidates": [
+    {
+     "src": "ModuleButton",
+     "score": 36.0,
+     "why": "锚点引用:BoolSetting,ButtonSetting,ColorSetting,DoubleSetting,EnumSetting",
+     "unique": false
+    },
+    {
+     "src": "SettingsContent",
+     "score": 33.0,
+     "why": "锚点引用:BoolSetting,ButtonSetting,ColorSetting,DoubleSetting,EnumSetting",
+     "unique": false
+    },
+    {
+     "src": "SettingViewFactory",
+     "score": 33.0,
+     "why": "锚点引用:BoolSetting,ButtonSetting,ColorSetting,DoubleSetting,EnumSetting",
+     "unique": false
+    }
+   ]
+  },
+  {
+   "obf": "lE",
+   "kind": "class",
+   "super": null,
+   "lines": 4918,
+   "decl_line": "class lE ",
+   "anchored_refs": [
+    "BoolSetting",
+    "ButtonSetting",
+    "ColorSetting",
+    "DoubleSetting",
+    "EnumSetting",
+    "IntSetting",
+    "KeybindSetting",
+    "RegistryListSetting",
+    "SeQL/字符串解密+调用分发核心",
+    "Setting",
+    "StringListSetting",
+    "StringSetting"
+   ],
+   "refs": [
+    "DF",
+    "DM",
+    "DV",
+    "Dl",
+    "Dx",
+    "X0",
+    "XF",
+    "XG",
+    "Xc",
+    "Xe",
+    "Xn",
+    "Xp",
+    "Xw",
+    "_E"
+   ],
+   "mc_imports": [],
+   "n_fields": 8,
+   "n_methods": 44,
+   "candidates": [
+    {
+     "src": "ModuleButton",
+     "score": 33.0,
+     "why": "锚点引用:BoolSetting,ButtonSetting,ColorSetting,DoubleSetting,EnumSetting",
+     "unique": false
+    },
+    {
+     "src": "SettingsContent",
+     "score": 33.0,
+     "why": "锚点引用:BoolSetting,ButtonSetting,ColorSetting,DoubleSetting,EnumSetting",
+     "unique": false
+    },
+    {
+     "src": "SettingViewFactory",
+     "score": 33.0,
+     "why": "锚点引用:BoolSetting,ButtonSetting,ColorSetting,DoubleSetting,EnumSetting",
+     "unique": false
+    }
+   ]
+  },
+  {
+   "obf": "vz",
+   "kind": "class",
+   "super": null,
+   "lines": 5057,
+   "decl_line": "class vz ",
+   "anchored_refs": [
+    "BoolSetting",
+    "ColorSetting",
+    "DoubleSetting",
+    "EnumSetting",
+    "IntSetting",
+    "KeybindSetting",
+    "Module",
+    "RegistryListSetting",
+    "SeQL/字符串解密+调用分发核心",
+    "Setting",
+    "StringListSetting",
+    "StringSetting"
+   ],
+   "refs": [
+    "D3",
+    "DM",
+    "DV",
+    "Dl",
+    "Dx",
+    "X0",
+    "XF",
+    "XG",
+    "Xc",
+    "Xe",
+    "Xn",
+    "_L",
+    "_W",
+    "_d"
+   ],
+   "mc_imports": [],
+   "n_fields": 39,
+   "n_methods": 133,
+   "candidates": [
+    {
+     "src": "ModuleButton",
+     "score": 33.0,
+     "why": "锚点引用:BoolSetting,ColorSetting,DoubleSetting,EnumSetting,IntSetting",
+     "unique": false
+    },
+    {
+     "src": "ConfigHolder",
+     "score": 33.0,
+     "why": "锚点引用:BoolSetting,ColorSetting,DoubleSetting,EnumSetting,IntSetting",
+     "unique": false
+    },
+    {
+     "src": "SettingsContent",
+     "score": 30.0,
+     "why": "锚点引用:BoolSetting,ColorSetting,DoubleSetting,EnumSetting,IntSetting",
+     "unique": false
+    }
+   ]
+  },
+  {
+   "obf": "_u",
+   "kind": "class",
+   "super": null,
+   "lines": 295,
+   "decl_line": "class _u ",
+   "anchored_refs": [
+    "BoolSetting",
+    "ButtonSetting",
+    "ColorSetting",
+    "DoubleSetting",
+    "EnumSetting",
+    "IntSetting",
+    "KeybindSetting",
+    "RegistryListSetting",
+    "SeQL/字符串解密+调用分发核心",
+    "Setting",
+    "StringListSetting",
+    "StringSetting"
+   ],
+   "refs": [
+    "DM",
+    "DV",
+    "Dl",
+    "Dx",
+    "X0",
+    "XF",
+    "XG",
+    "Xc",
+    "Xe",
+    "Xn",
+    "Xp",
+    "hi",
+    "v7",
+    "v9"
+   ],
+   "mc_imports": [],
+   "n_fields": 2,
+   "n_methods": 6,
+   "candidates": [
+    {
+     "src": "ModuleButton",
+     "score": 33.0,
+     "why": "锚点引用:BoolSetting,ButtonSetting,ColorSetting,DoubleSetting,EnumSetting",
+     "unique": false
+    },
+    {
+     "src": "SettingsContent",
+     "score": 33.0,
+     "why": "锚点引用:BoolSetting,ButtonSetting,ColorSetting,DoubleSetting,EnumSetting",
+     "unique": false
+    },
+    {
+     "src": "SettingViewFactory",
+     "score": 33.0,
+     "why": "锚点引用:BoolSetting,ButtonSetting,ColorSetting,DoubleSetting,EnumSetting",
+     "unique": false
+    }
+   ]
+  },
+  {
+   "obf": "eq",
+   "kind": "class",
+   "super": "e",
+   "lines": 7528,
+   "decl_line": "class eq\nextends e ",
+   "anchored_refs": [
+    "BoolSetting",
+    "ColorSetting",
+    "DoubleSetting",
+    "EnumSetting",
+    "IntSetting",
+    "KeybindSetting",
+    "Module",
+    "Render3DEvent",
+    "SeQL/字符串解密+调用分发核心",
+    "Setting",
+    "SettingGroup"
+   ],
+   "refs": [
+    "DM",
+    "DQ",
+    "DV",
+    "Dl",
+    "Dx",
+    "OQ",
+    "Oz",
+    "X0",
+    "XG",
+    "Xn",
+    "_Z",
+    "d9",
+    "dR",
+    "e"
+   ],
+   "mc_imports": [
+    "net.minecraft.client.multiplayer.ClientLevel",
+    "net.minecraft.client.player.LocalPlayer",
+    "net.minecraft.core.BlockPos",
+    "net.minecraft.core.Direction",
+    "net.minecraft.world.InteractionHand",
+    "net.minecraft.world.entity.LivingEntity",
+    "net.minecraft.world.item.Item",
+    "net.minecraft.world.item.ItemStack",
+    "net.minecraft.world.level.block.state.BlockState",
+    "net.minecraft.world.phys.AABB"
+   ],
+   "n_fields": 62,
+   "n_methods": 124,
+   "candidates": [
+    {
+     "src": "ClientSetting",
+     "score": 27.0,
+     "why": "锚点引用:BoolSetting,ColorSetting,DoubleSetting,EnumSetting,IntSetting",
+     "unique": false
+    },
+    {
+     "src": "ZealotCrystalPlus",
+     "score": 26.09,
+     "why": "锚点引用:BoolSetting,ColorSetting,DoubleSetting,EnumSetting,IntSetting; MCimport:9",
+     "unique": true
+    },
+    {
+     "src": "SettingHost",
+     "score": 24.25,
+     "why": "锚点引用:BoolSetting,ColorSetting,DoubleSetting,EnumSetting,IntSetting; MCimport:1",
+     "unique": false
+    }
+   ]
+  },
+  {
+   "obf": "T",
+   "kind": "class",
+   "super": "e",
+   "lines": 3625,
+   "decl_line": "class T\nextends e ",
+   "anchored_refs": [
+    "AttackEntityEvent",
+    "BoolSetting",
+    "ColorSetting",
+    "DoubleSetting",
+    "EnumSetting",
+    "IntSetting",
+    "Module",
+    "Render3DEvent",
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "refs": [
+    "DM",
+    "DV",
+    "Dl",
+    "Dx",
+    "XG",
+    "Xn",
+    "_U",
+    "_y",
+    "d9",
+    "dJ",
+    "dN",
+    "dP",
+    "e",
+    "g3"
+   ],
+   "mc_imports": [
+    "net.minecraft.client.Minecraft",
+    "net.minecraft.client.multiplayer.ClientPacketListener",
+    "net.minecraft.client.player.LocalPlayer",
+    "net.minecraft.network.protocol.Packet",
+    "net.minecraft.network.protocol.game.ClientboundEntityPositionSyncPacket",
+    "net.minecraft.network.protocol.game.ClientboundMoveEntityPacket",
+    "net.minecraft.network.protocol.game.ClientboundPlayerChatPacket",
+    "net.minecraft.network.protocol.game.ClientboundSoundPacket",
+    "net.minecraft.network.protocol.game.ClientboundSystemChatPacket",
+    "net.minecraft.network.protocol.game.ClientboundTeleportEntityPacket"
+   ],
+   "n_fields": 38,
+   "n_methods": 84,
+   "candidates": [
+    {
+     "src": "Follower",
+     "score": 22.89,
+     "why": "锚点引用:BoolSetting,ColorSetting,DoubleSetting,EnumSetting,IntSetting; MCimport:4",
+     "unique": false
+    },
+    {
+     "src": "ZealotCrystalPlus",
+     "score": 22.72,
+     "why": "锚点引用:BoolSetting,ColorSetting,DoubleSetting,EnumSetting,IntSetting; MCimport:7",
+     "unique": true
+    },
+    {
+     "src": "SafeAnchor",
+     "score": 22.41,
+     "why": "锚点引用:BoolSetting,ColorSetting,DoubleSetting,EnumSetting,IntSetting; MCimport:3",
+     "unique": false
+    }
+   ]
+  },
+  {
+   "obf": "eR",
+   "kind": "class",
+   "super": "e",
+   "lines": 759,
+   "decl_line": "class eR\nextends e ",
+   "anchored_refs": [
+    "BoolSetting",
+    "ColorSetting",
+    "DoubleSetting",
+    "EnumSetting",
+    "IntSetting",
+    "Module",
+    "Render3DEvent",
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "refs": [
+    "DB",
+    "DM",
+    "DV",
+    "Dl",
+    "Dx",
+    "XD",
+    "XG",
+    "Xn",
+    "_I",
+    "d9",
+    "dR",
+    "e",
+    "hi",
+    "nI"
+   ],
+   "mc_imports": [
+    "net.minecraft.client.Minecraft",
+    "net.minecraft.resources.Identifier"
+   ],
+   "n_fields": 19,
+   "n_methods": 30,
+   "candidates": [
+    {
+     "src": "ClientSetting",
+     "score": 22.33,
+     "why": "锚点引用:BoolSetting,ColorSetting,DoubleSetting,EnumSetting,IntSetting; MCimport:1",
+     "unique": false
+    },
+    {
+     "src": "Particles",
+     "score": 21.33,
+     "why": "锚点引用:BoolSetting,ColorSetting,DoubleSetting,EnumSetting,IntSetting; MCimport:1",
+     "unique": false
+    },
+    {
+     "src": "HitParticles",
+     "score": 21.25,
+     "why": "锚点引用:BoolSetting,ColorSetting,DoubleSetting,EnumSetting,IntSetting; MCimport:1",
+     "unique": false
+    }
+   ]
+  },
+  {
+   "obf": "u8",
+   "kind": "class",
+   "super": "e",
+   "lines": 1508,
+   "decl_line": "class u8\nextends e ",
+   "anchored_refs": [
+    "BoolSetting",
+    "ColorSetting",
+    "DoubleSetting",
+    "EnumSetting",
+    "IntSetting",
+    "Module",
+    "Render3DEvent",
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "refs": [
+    "DM",
+    "DV",
+    "Dl",
+    "Dx",
+    "O_",
+    "XG",
+    "Xn",
+    "_m",
+    "_x",
+    "d9",
+    "dR",
+    "e",
+    "hi",
+    "lW"
+   ],
+   "mc_imports": [
+    "net.minecraft.client.Minecraft",
+    "net.minecraft.client.player.LocalPlayer",
+    "net.minecraft.resources.Identifier"
+   ],
+   "n_fields": 22,
+   "n_methods": 39,
+   "candidates": [
+    {
+     "src": "ClientSetting",
+     "score": 22.0,
+     "why": "锚点引用:BoolSetting,ColorSetting,DoubleSetting,EnumSetting,IntSetting; MCimport:1",
+     "unique": false
+    },
+    {
+     "src": "Follower",
+     "score": 21.57,
+     "why": "锚点引用:BoolSetting,ColorSetting,DoubleSetting,EnumSetting,IntSetting; MCimport:1",
+     "unique": false
+    },
+    {
+     "src": "Particles",
+     "score": 21.31,
+     "why": "锚点引用:BoolSetting,ColorSetting,DoubleSetting,EnumSetting,IntSetting; MCimport:1",
+     "unique": false
+    }
+   ]
+  }
+ ]
+}

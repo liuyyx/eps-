@@ -1,0 +1,393 @@
+{
+ "batch": "B013",
+ "n": 8,
+ "classes": [
+  {
+   "obf": "DX",
+   "kind": "class",
+   "super": null,
+   "lines": 494,
+   "decl_line": "class DX\nimplements XJ ",
+   "anchored_refs": [
+    "EnumSetting",
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "refs": [
+    "Dl",
+    "Dx",
+    "XJ",
+    "_E",
+    "hi",
+    "ih",
+    "l5",
+    "lH",
+    "lm",
+    "vx",
+    "zU"
+   ],
+   "mc_imports": [
+    "net.minecraft.client.gui.GuiGraphicsExtractor",
+    "net.minecraft.client.input.MouseButtonEvent"
+   ],
+   "n_fields": 11,
+   "n_methods": 29,
+   "candidates": [
+    {
+     "src": "EnumSettingRow",
+     "score": 7.0,
+     "why": "锚点引用:EnumSetting; MCimport:2",
+     "unique": false
+    },
+    {
+     "src": "EnumSelectPopup",
+     "score": 7.0,
+     "why": "锚点引用:EnumSetting; MCimport:2",
+     "unique": false
+    },
+    {
+     "src": "I18NFileGenerator",
+     "score": 6.0,
+     "why": "锚点引用:EnumSetting,Setting",
+     "unique": true
+    }
+   ]
+  },
+  {
+   "obf": "lK",
+   "kind": "class",
+   "super": null,
+   "lines": 2710,
+   "decl_line": "class lK\nimplements XJ ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "refs": [
+    "Dl",
+    "XJ",
+    "XZ",
+    "_E",
+    "_j",
+    "hi",
+    "ih",
+    "l5",
+    "lH",
+    "lm",
+    "vx",
+    "zU"
+   ],
+   "mc_imports": [
+    "net.minecraft.client.gui.GuiGraphicsExtractor",
+    "net.minecraft.client.input.CharacterEvent",
+    "net.minecraft.client.input.MouseButtonEvent"
+   ],
+   "n_fields": 21,
+   "n_methods": 64,
+   "candidates": [
+    {
+     "src": "ModuleDetailPanel",
+     "score": 7.0,
+     "why": "锚点引用:Setting; MCimport:3",
+     "unique": false
+    },
+    {
+     "src": "AddonClientSettingTab",
+     "score": 7.0,
+     "why": "锚点引用:Setting; MCimport:3",
+     "unique": false
+    },
+    {
+     "src": "GeneralClientSettingTab",
+     "score": 7.0,
+     "why": "锚点引用:Setting; MCimport:3",
+     "unique": false
+    }
+   ]
+  },
+  {
+   "obf": "vi",
+   "kind": "class",
+   "super": "vh",
+   "lines": 370,
+   "decl_line": "class vi\nextends vh<Dx<?>> ",
+   "anchored_refs": [
+    "EnumSetting",
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "refs": [
+    "Dl",
+    "Dx",
+    "_E",
+    "_j",
+    "hi",
+    "ih",
+    "lH",
+    "vh",
+    "zU"
+   ],
+   "mc_imports": [
+    "net.minecraft.client.gui.GuiGraphicsExtractor",
+    "net.minecraft.client.input.MouseButtonEvent"
+   ],
+   "n_fields": 4,
+   "n_methods": 13,
+   "candidates": [
+    {
+     "src": "EnumSettingRow",
+     "score": 7.0,
+     "why": "锚点引用:EnumSetting; MCimport:2",
+     "unique": false
+    },
+    {
+     "src": "EnumSelectPopup",
+     "score": 7.0,
+     "why": "锚点引用:EnumSetting; MCimport:2",
+     "unique": false
+    },
+    {
+     "src": "I18NFileGenerator",
+     "score": 6.0,
+     "why": "锚点引用:EnumSetting,Setting",
+     "unique": true
+    }
+   ]
+  },
+  {
+   "obf": "X_",
+   "kind": "class",
+   "super": null,
+   "lines": 810,
+   "decl_line": "class X_ ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "refs": [
+    "Dl",
+    "hi",
+    "yy"
+   ],
+   "mc_imports": [
+    "net.minecraft.client.Minecraft"
+   ],
+   "n_fields": 7,
+   "n_methods": 19,
+   "candidates": [
+    {
+     "src": "Module",
+     "score": 7.0,
+     "why": "锚点引用:Setting; MCimport:1",
+     "unique": false
+    },
+    {
+     "src": "Constants",
+     "score": 4.0,
+     "why": "MCimport:1",
+     "unique": false
+    },
+    {
+     "src": "EpsilonAddon",
+     "score": 3.0,
+     "why": "锚点引用:Setting",
+     "unique": true
+    }
+   ]
+  },
+  {
+   "obf": "zf",
+   "kind": "class",
+   "super": null,
+   "lines": 820,
+   "decl_line": "class zf ",
+   "anchored_refs": [
+    "HudEditorScreen",
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "refs": [
+    "Dl",
+    "Ow",
+    "eh",
+    "hi",
+    "l5",
+    "yE",
+    "yt",
+    "zR"
+   ],
+   "mc_imports": [
+    "net.minecraft.client.Minecraft"
+   ],
+   "n_fields": 5,
+   "n_methods": 15,
+   "candidates": [
+    {
+     "src": "Module",
+     "score": 7.0,
+     "why": "锚点引用:Setting; MCimport:1",
+     "unique": false
+    },
+    {
+     "src": "ClientSetting",
+     "score": 6.0,
+     "why": "锚点引用:HudEditorScreen,Setting",
+     "unique": false
+    },
+    {
+     "src": "Constants",
+     "score": 4.0,
+     "why": "MCimport:1",
+     "unique": false
+    }
+   ]
+  },
+  {
+   "obf": "zt",
+   "kind": "class",
+   "super": null,
+   "lines": 1869,
+   "decl_line": "class zt\nimplements O0 ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "refs": [
+    "Dg",
+    "Dl",
+    "O0",
+    "XZ",
+    "_E",
+    "_j",
+    "hi",
+    "ih",
+    "l5",
+    "lH",
+    "lm",
+    "n4",
+    "v_",
+    "vj"
+   ],
+   "mc_imports": [
+    "net.minecraft.client.gui.GuiGraphicsExtractor",
+    "net.minecraft.client.input.CharacterEvent",
+    "net.minecraft.client.input.MouseButtonEvent"
+   ],
+   "n_fields": 15,
+   "n_methods": 57,
+   "candidates": [
+    {
+     "src": "ModuleDetailPanel",
+     "score": 7.0,
+     "why": "锚点引用:Setting; MCimport:3",
+     "unique": false
+    },
+    {
+     "src": "AddonClientSettingTab",
+     "score": 7.0,
+     "why": "锚点引用:Setting; MCimport:3",
+     "unique": false
+    },
+    {
+     "src": "GeneralClientSettingTab",
+     "score": 7.0,
+     "why": "锚点引用:Setting; MCimport:3",
+     "unique": false
+    }
+   ]
+  },
+  {
+   "obf": "b",
+   "kind": "class",
+   "super": "e",
+   "lines": 294,
+   "decl_line": "class b\nextends e ",
+   "anchored_refs": [
+    "KeyboardInputEvent",
+    "Module",
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "refs": [
+    "Dl",
+    "e",
+    "hi",
+    "vY",
+    "yE",
+    "yi"
+   ],
+   "mc_imports": [
+    "net.minecraft.client.player.LocalPlayer"
+   ],
+   "n_fields": 4,
+   "n_methods": 8,
+   "candidates": [
+    {
+     "src": "Follower",
+     "score": 6.8,
+     "why": "锚点引用:KeyboardInputEvent,Module; MCimport:1",
+     "unique": false
+    },
+    {
+     "src": "EpsilonAddon",
+     "score": 6.0,
+     "why": "锚点引用:Module,Setting",
+     "unique": true
+    },
+    {
+     "src": "I18NFileGenerator",
+     "score": 6.0,
+     "why": "锚点引用:Module,Setting",
+     "unique": true
+    }
+   ]
+  },
+  {
+   "obf": "eh",
+   "kind": "class",
+   "super": "e",
+   "lines": 806,
+   "decl_line": "class eh\nextends e ",
+   "anchored_refs": [
+    "Module",
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "refs": [
+    "Dl",
+    "e",
+    "g7",
+    "hi",
+    "lm",
+    "z8",
+    "zU"
+   ],
+   "mc_imports": [
+    "net.minecraft.client.DeltaTracker",
+    "net.minecraft.client.gui.GuiGraphicsExtractor"
+   ],
+   "n_fields": 16,
+   "n_methods": 42,
+   "candidates": [
+    {
+     "src": "ModuleDetailPanel",
+     "score": 6.8,
+     "why": "锚点引用:Module,Setting; MCimport:1",
+     "unique": false
+    },
+    {
+     "src": "EpsilonAddon",
+     "score": 6.0,
+     "why": "锚点引用:Module,Setting",
+     "unique": true
+    },
+    {
+     "src": "I18NFileGenerator",
+     "score": 6.0,
+     "why": "锚点引用:Module,Setting",
+     "unique": true
+    }
+   ]
+  }
+ ]
+}

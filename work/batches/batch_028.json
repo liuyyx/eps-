@@ -1,0 +1,380 @@
+{
+ "batch": "B028",
+ "n": 8,
+ "classes": [
+  {
+   "obf": "io",
+   "kind": "class",
+   "super": null,
+   "lines": 698,
+   "decl_line": "class io ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "refs": [
+    "Dl",
+    "hi"
+   ],
+   "mc_imports": [
+    "net.minecraft.core.Holder",
+    "net.minecraft.resources.ResourceKey",
+    "net.minecraft.world.item.ItemStack",
+    "net.minecraft.world.item.enchantment.Enchantment",
+    "net.minecraft.world.item.enchantment.ItemEnchantments"
+   ],
+   "n_fields": 2,
+   "n_methods": 10,
+   "candidates": [
+    {
+     "src": "EnchantmentUtils",
+     "score": 3.86,
+     "why": "MCimport:5",
+     "unique": false
+    },
+    {
+     "src": "RegistryListSelectPopup",
+     "score": 3.42,
+     "why": "锚点引用:Setting; MCimport:2",
+     "unique": true
+    },
+    {
+     "src": "EpsilonAddon",
+     "score": 3.0,
+     "why": "锚点引用:Setting",
+     "unique": true
+    }
+   ]
+  },
+  {
+   "obf": "gs",
+   "kind": "class",
+   "super": null,
+   "lines": 720,
+   "decl_line": "class gs ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "refs": [
+    "Dl",
+    "Xi",
+    "hi",
+    "iJ"
+   ],
+   "mc_imports": [
+    "net.minecraft.resources.Identifier",
+    "net.minecraft.world.entity.Entity",
+    "net.minecraft.world.level.Level",
+    "net.minecraft.world.phys.AABB",
+    "net.minecraft.world.phys.Vec3"
+   ],
+   "n_fields": 24,
+   "n_methods": 37,
+   "candidates": [
+    {
+     "src": "ClientSetting",
+     "score": 3.67,
+     "why": "锚点引用:Setting; MCimport:1",
+     "unique": false
+    },
+    {
+     "src": "RegistryListSetting",
+     "score": 3.33,
+     "why": "锚点引用:Setting; MCimport:1",
+     "unique": false
+    },
+    {
+     "src": "RegistryListSelectPopup",
+     "score": 3.2,
+     "why": "锚点引用:Setting; MCimport:1",
+     "unique": true
+    }
+   ]
+  },
+  {
+   "obf": "gZ",
+   "kind": "class",
+   "super": "gs",
+   "lines": 291,
+   "decl_line": "class gZ\nextends gs ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "refs": [
+    "Dl",
+    "Xi",
+    "gs",
+    "hi",
+    "iJ"
+   ],
+   "mc_imports": [
+    "net.minecraft.resources.Identifier",
+    "net.minecraft.util.RandomSource",
+    "net.minecraft.world.entity.Entity",
+    "net.minecraft.world.entity.Pose",
+    "net.minecraft.world.phys.Vec3"
+   ],
+   "n_fields": 7,
+   "n_methods": 12,
+   "candidates": [
+    {
+     "src": "ClientSetting",
+     "score": 3.67,
+     "why": "锚点引用:Setting; MCimport:1",
+     "unique": false
+    },
+    {
+     "src": "RegistryListSetting",
+     "score": 3.33,
+     "why": "锚点引用:Setting; MCimport:1",
+     "unique": false
+    },
+    {
+     "src": "RegistryListSelectPopup",
+     "score": 3.2,
+     "why": "锚点引用:Setting; MCimport:1",
+     "unique": true
+    }
+   ]
+  },
+  {
+   "obf": "lI",
+   "kind": "class",
+   "super": null,
+   "lines": 1212,
+   "decl_line": "class lI ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "refs": [
+    "Dl",
+    "Xi",
+    "hi",
+    "lH",
+    "n3",
+    "nf"
+   ],
+   "mc_imports": [
+    "net.minecraft.client.Camera",
+    "net.minecraft.resources.Identifier",
+    "net.minecraft.world.entity.Entity",
+    "net.minecraft.world.entity.LivingEntity",
+    "net.minecraft.world.phys.Vec3"
+   ],
+   "n_fields": 7,
+   "n_methods": 23,
+   "candidates": [
+    {
+     "src": "ClientSetting",
+     "score": 3.67,
+     "why": "锚点引用:Setting; MCimport:1",
+     "unique": false
+    },
+    {
+     "src": "RegistryListSetting",
+     "score": 3.33,
+     "why": "锚点引用:Setting; MCimport:1",
+     "unique": false
+    },
+    {
+     "src": "RegistryListSelectPopup",
+     "score": 3.2,
+     "why": "锚点引用:Setting; MCimport:1",
+     "unique": true
+    }
+   ]
+  },
+  {
+   "obf": "X3",
+   "kind": "class",
+   "super": null,
+   "lines": 768,
+   "decl_line": "class X3 ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "refs": [
+    "Dl",
+    "hi",
+    "lz"
+   ],
+   "mc_imports": [
+    "net.minecraft.client.player.LocalPlayer",
+    "net.minecraft.world.entity.player.Inventory",
+    "net.minecraft.world.item.Item",
+    "net.minecraft.world.item.ItemStack"
+   ],
+   "n_fields": 5,
+   "n_methods": 23,
+   "candidates": [
+    {
+     "src": "SettingHost",
+     "score": 3.57,
+     "why": "锚点引用:Setting; MCimport:1",
+     "unique": false
+    },
+    {
+     "src": "RegistryListSelectPopup",
+     "score": 3.44,
+     "why": "锚点引用:Setting; MCimport:2",
+     "unique": true
+    },
+    {
+     "src": "RegistryListSetting",
+     "score": 3.36,
+     "why": "锚点引用:Setting; MCimport:1",
+     "unique": false
+    }
+   ]
+  },
+  {
+   "obf": "_v",
+   "kind": "class",
+   "super": null,
+   "lines": 403,
+   "decl_line": "class _v ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "refs": [
+    "Dl",
+    "_E",
+    "hi",
+    "lH",
+    "m"
+   ],
+   "mc_imports": [
+    "net.minecraft.world.entity.EntityType",
+    "net.minecraft.world.entity.LivingEntity",
+    "net.minecraft.world.entity.animal.squid.Squid",
+    "net.minecraft.world.level.Level"
+   ],
+   "n_fields": 6,
+   "n_methods": 11,
+   "candidates": [
+    {
+     "src": "SettingHost",
+     "score": 3.57,
+     "why": "锚点引用:Setting; MCimport:1",
+     "unique": false
+    },
+    {
+     "src": "RegistryListSetting",
+     "score": 3.36,
+     "why": "锚点引用:Setting; MCimport:1",
+     "unique": false
+    },
+    {
+     "src": "RegistryListSelectPopup",
+     "score": 3.21,
+     "why": "锚点引用:Setting; MCimport:1",
+     "unique": true
+    }
+   ]
+  },
+  {
+   "obf": "_q",
+   "kind": "class",
+   "super": null,
+   "lines": 1469,
+   "decl_line": "class _q ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "refs": [
+    "Dl",
+    "hi",
+    "uK"
+   ],
+   "mc_imports": [
+    "net.minecraft.client.Minecraft",
+    "net.minecraft.client.OptionInstance",
+    "net.minecraft.client.player.LocalPlayer",
+    "net.minecraft.core.BlockPos",
+    "net.minecraft.core.Direction",
+    "net.minecraft.world.entity.Entity",
+    "net.minecraft.world.entity.LivingEntity",
+    "net.minecraft.world.level.ClipContext",
+    "net.minecraft.world.phys.AABB",
+    "net.minecraft.world.phys.HitResult"
+   ],
+   "n_fields": 2,
+   "n_methods": 30,
+   "candidates": [
+    {
+     "src": "RotationUtils",
+     "score": 3.46,
+     "why": "MCimport:8",
+     "unique": false
+    },
+    {
+     "src": "Module",
+     "score": 3.36,
+     "why": "锚点引用:Setting; MCimport:1",
+     "unique": false
+    },
+    {
+     "src": "EpsilonAddon",
+     "score": 3.0,
+     "why": "锚点引用:Setting",
+     "unique": true
+    }
+   ]
+  },
+  {
+   "obf": "ly",
+   "kind": "class",
+   "super": null,
+   "lines": 1089,
+   "decl_line": "class ly ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "refs": [
+    "DQ",
+    "Dl",
+    "hi"
+   ],
+   "mc_imports": [
+    "net.minecraft.client.Minecraft",
+    "net.minecraft.core.Holder",
+    "net.minecraft.world.entity.EquipmentSlot",
+    "net.minecraft.world.entity.LivingEntity",
+    "net.minecraft.world.entity.boss.enderdragon.EndCrystal",
+    "net.minecraft.world.entity.player.Player",
+    "net.minecraft.world.level.block.state.BlockState",
+    "net.minecraft.world.phys.AABB",
+    "net.minecraft.world.phys.Vec3"
+   ],
+   "n_fields": 3,
+   "n_methods": 22,
+   "candidates": [
+    {
+     "src": "Module",
+     "score": 3.44,
+     "why": "锚点引用:Setting; MCimport:1",
+     "unique": false
+    },
+    {
+     "src": "EpsilonAddon",
+     "score": 3.0,
+     "why": "锚点引用:Setting",
+     "unique": true
+    },
+    {
+     "src": "I18NFileGenerator",
+     "score": 3.0,
+     "why": "锚点引用:Setting",
+     "unique": true
+    }
+   ]
+  }
+ ]
+}

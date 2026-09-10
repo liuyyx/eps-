@@ -1,0 +1,146 @@
+{
+ "batch": "B066",
+ "n": 8,
+ "classes": [
+  {
+   "obf": "nc",
+   "kind": "class",
+   "super": "Record",
+   "lines": 71,
+   "decl_line": "class nc\nextends Record\nimplements _Q ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "_Q",
+    "hi",
+    "nK"
+   ],
+   "mc_imports": [],
+   "n_fields": 6,
+   "n_methods": 16,
+   "candidates": []
+  },
+  {
+   "obf": "nD",
+   "kind": "class",
+   "super": "Record",
+   "lines": 63,
+   "decl_line": "class nD\nextends Record ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "Oy",
+    "hi"
+   ],
+   "mc_imports": [
+    "net.minecraft.core.BlockPos",
+    "net.minecraft.world.phys.AABB"
+   ],
+   "n_fields": 4,
+   "n_methods": 12,
+   "candidates": []
+  },
+  {
+   "obf": "nd",
+   "kind": "class",
+   "super": null,
+   "lines": 19,
+   "decl_line": "class nd ",
+   "anchored_refs": [],
+   "refs": [
+    "XH"
+   ],
+   "mc_imports": [],
+   "n_fields": 1,
+   "n_methods": 2,
+   "candidates": []
+  },
+  {
+   "obf": "nE",
+   "kind": "class",
+   "super": "Record",
+   "lines": 74,
+   "decl_line": "class nE\nextends Record ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "hi",
+    "nZ"
+   ],
+   "mc_imports": [],
+   "n_fields": 7,
+   "n_methods": 18,
+   "candidates": []
+  },
+  {
+   "obf": "ne",
+   "kind": "class",
+   "super": "Enum",
+   "lines": 259,
+   "decl_line": "class ne\nextends Enum<ne> ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "hi"
+   ],
+   "mc_imports": [],
+   "n_fields": 3,
+   "n_methods": 16,
+   "candidates": []
+  },
+  {
+   "obf": "nG",
+   "kind": "class",
+   "super": "Record",
+   "lines": 55,
+   "decl_line": "class nG\nextends Record ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "hi"
+   ],
+   "mc_imports": [],
+   "n_fields": 4,
+   "n_methods": 12,
+   "candidates": []
+  },
+  {
+   "obf": "nH",
+   "kind": "interface",
+   "super": null,
+   "lines": 10,
+   "decl_line": "interface nH ",
+   "anchored_refs": [],
+   "refs": [],
+   "mc_imports": [],
+   "n_fields": 0,
+   "n_methods": 1,
+   "candidates": []
+  },
+  {
+   "obf": "nh",
+   "kind": "class",
+   "super": "Record",
+   "lines": 67,
+   "decl_line": "class nh\nextends Record ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "hi"
+   ],
+   "mc_imports": [
+    "net.minecraft.world.entity.boss.enderdragon.EndCrystal",
+    "net.minecraft.world.phys.Vec3"
+   ],
+   "n_fields": 5,
+   "n_methods": 14,
+   "candidates": []
+  }
+ ]
+}

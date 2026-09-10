@@ -1,0 +1,368 @@
+{
+ "batch": "B022",
+ "n": 8,
+ "classes": [
+  {
+   "obf": "zN",
+   "kind": "class",
+   "super": null,
+   "lines": 775,
+   "decl_line": "class zN ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "refs": [
+    "Dl",
+    "hi"
+   ],
+   "mc_imports": [
+    "net.minecraft.resources.Identifier"
+   ],
+   "n_fields": 8,
+   "n_methods": 16,
+   "candidates": [
+    {
+     "src": "ClientSetting",
+     "score": 5.0,
+     "why": "锚点引用:Setting; MCimport:1",
+     "unique": false
+    },
+    {
+     "src": "SoundKey",
+     "score": 4.0,
+     "why": "MCimport:1",
+     "unique": false
+    },
+    {
+     "src": "RegistryListSetting",
+     "score": 3.5,
+     "why": "锚点引用:Setting; MCimport:1",
+     "unique": false
+    }
+   ]
+  },
+  {
+   "obf": "zU",
+   "kind": "class",
+   "super": null,
+   "lines": 2690,
+   "decl_line": "class zU ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "refs": [
+    "D9",
+    "DH",
+    "Dd",
+    "Dl",
+    "On",
+    "Oq",
+    "Or",
+    "Ou",
+    "Ox",
+    "X6",
+    "XS",
+    "Xq",
+    "Xz",
+    "_0"
+   ],
+   "mc_imports": [
+    "net.minecraft.resources.Identifier"
+   ],
+   "n_fields": 7,
+   "n_methods": 140,
+   "candidates": [
+    {
+     "src": "ClientSetting",
+     "score": 5.0,
+     "why": "锚点引用:Setting; MCimport:1",
+     "unique": false
+    },
+    {
+     "src": "SoundKey",
+     "score": 4.0,
+     "why": "MCimport:1",
+     "unique": false
+    },
+    {
+     "src": "RegistryListSetting",
+     "score": 3.5,
+     "why": "锚点引用:Setting; MCimport:1",
+     "unique": false
+    }
+   ]
+  },
+  {
+   "obf": "ns",
+   "kind": "class",
+   "super": null,
+   "lines": 1044,
+   "decl_line": "class ns ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "refs": [
+    "Dl",
+    "_E",
+    "hi",
+    "ih",
+    "lH"
+   ],
+   "mc_imports": [
+    "net.minecraft.client.Minecraft",
+    "net.minecraft.client.input.CharacterEvent",
+    "net.minecraft.client.input.KeyEvent"
+   ],
+   "n_fields": 11,
+   "n_methods": 37,
+   "candidates": [
+    {
+     "src": "SettingListController",
+     "score": 4.6,
+     "why": "锚点引用:Setting; MCimport:2",
+     "unique": true
+    },
+    {
+     "src": "ModuleDetailPanel",
+     "score": 4.6,
+     "why": "锚点引用:Setting; MCimport:2",
+     "unique": false
+    },
+    {
+     "src": "AddonClientSettingTab",
+     "score": 4.6,
+     "why": "锚点引用:Setting; MCimport:2",
+     "unique": false
+    }
+   ]
+  },
+  {
+   "obf": "gf",
+   "kind": "class",
+   "super": "gs",
+   "lines": 177,
+   "decl_line": "class gf\nextends gs ",
+   "anchored_refs": [
+    "MasEffects",
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "refs": [
+    "Dl",
+    "e8",
+    "gs",
+    "hi",
+    "iJ"
+   ],
+   "mc_imports": [
+    "net.minecraft.resources.Identifier",
+    "net.minecraft.util.RandomSource",
+    "net.minecraft.world.phys.Vec3"
+   ],
+   "n_fields": 3,
+   "n_methods": 7,
+   "candidates": [
+    {
+     "src": "MasEffectsParticleRenderer",
+     "score": 4.52,
+     "why": "锚点引用:MasEffects; MCimport:3",
+     "unique": false
+    },
+    {
+     "src": "ClientSetting",
+     "score": 4.0,
+     "why": "锚点引用:Setting; MCimport:1",
+     "unique": false
+    },
+    {
+     "src": "MixinClientLevel",
+     "score": 3.67,
+     "why": "锚点引用:MasEffects; MCimport:1",
+     "unique": false
+    }
+   ]
+  },
+  {
+   "obf": "vM",
+   "kind": "class",
+   "super": null,
+   "lines": 5345,
+   "decl_line": "class vM ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "refs": [
+    "Dl",
+    "hi"
+   ],
+   "mc_imports": [
+    "net.minecraft.client.player.LocalPlayer",
+    "net.minecraft.core.Holder",
+    "net.minecraft.core.NonNullList",
+    "net.minecraft.network.chat.Component",
+    "net.minecraft.resources.ResourceKey",
+    "net.minecraft.world.entity.EquipmentSlot",
+    "net.minecraft.world.entity.ai.attributes.AttributeModifier",
+    "net.minecraft.world.entity.player.Inventory",
+    "net.minecraft.world.item.ArrowItem",
+    "net.minecraft.world.item.AxeItem"
+   ],
+   "n_fields": 8,
+   "n_methods": 112,
+   "candidates": [
+    {
+     "src": "RegistryListSelectPopup",
+     "score": 4.37,
+     "why": "锚点引用:Setting; MCimport:4",
+     "unique": true
+    },
+    {
+     "src": "SettingHost",
+     "score": 3.24,
+     "why": "锚点引用:Setting; MCimport:2",
+     "unique": false
+    },
+    {
+     "src": "RegistryListSetting",
+     "score": 3.22,
+     "why": "锚点引用:Setting; MCimport:2",
+     "unique": false
+    }
+   ]
+  },
+  {
+   "obf": "gl",
+   "kind": "class",
+   "super": "gs",
+   "lines": 219,
+   "decl_line": "class gl\nextends gs ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "refs": [
+    "Dl",
+    "gs",
+    "hi",
+    "iJ"
+   ],
+   "mc_imports": [
+    "net.minecraft.resources.Identifier",
+    "net.minecraft.world.phys.Vec3"
+   ],
+   "n_fields": 2,
+   "n_methods": 8,
+   "candidates": [
+    {
+     "src": "ClientSetting",
+     "score": 4.33,
+     "why": "锚点引用:Setting; MCimport:1",
+     "unique": false
+    },
+    {
+     "src": "RegistryListSetting",
+     "score": 3.44,
+     "why": "锚点引用:Setting; MCimport:1",
+     "unique": false
+    },
+    {
+     "src": "RegistryListSelectPopup",
+     "score": 3.24,
+     "why": "锚点引用:Setting; MCimport:1",
+     "unique": true
+    }
+   ]
+  },
+  {
+   "obf": "gM",
+   "kind": "class",
+   "super": "gs",
+   "lines": 238,
+   "decl_line": "class gM\nextends gs ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "refs": [
+    "Dl",
+    "gs",
+    "hi",
+    "iJ"
+   ],
+   "mc_imports": [
+    "net.minecraft.resources.Identifier",
+    "net.minecraft.world.phys.Vec3"
+   ],
+   "n_fields": 3,
+   "n_methods": 7,
+   "candidates": [
+    {
+     "src": "ClientSetting",
+     "score": 4.33,
+     "why": "锚点引用:Setting; MCimport:1",
+     "unique": false
+    },
+    {
+     "src": "RegistryListSetting",
+     "score": 3.44,
+     "why": "锚点引用:Setting; MCimport:1",
+     "unique": false
+    },
+    {
+     "src": "RegistryListSelectPopup",
+     "score": 3.24,
+     "why": "锚点引用:Setting; MCimport:1",
+     "unique": true
+    }
+   ]
+  },
+  {
+   "obf": "gq",
+   "kind": "class",
+   "super": "gs",
+   "lines": 243,
+   "decl_line": "class gq\nextends gs ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "refs": [
+    "Dl",
+    "Xi",
+    "gs",
+    "hi",
+    "iJ"
+   ],
+   "mc_imports": [
+    "net.minecraft.resources.Identifier",
+    "net.minecraft.world.phys.Vec3"
+   ],
+   "n_fields": 6,
+   "n_methods": 13,
+   "candidates": [
+    {
+     "src": "ClientSetting",
+     "score": 4.33,
+     "why": "锚点引用:Setting; MCimport:1",
+     "unique": false
+    },
+    {
+     "src": "RegistryListSetting",
+     "score": 3.44,
+     "why": "锚点引用:Setting; MCimport:1",
+     "unique": false
+    },
+    {
+     "src": "RegistryListSelectPopup",
+     "score": 3.24,
+     "why": "锚点引用:Setting; MCimport:1",
+     "unique": true
+    }
+   ]
+  }
+ ]
+}

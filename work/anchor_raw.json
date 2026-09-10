@@ -1,0 +1,701 @@
+[
+ {
+  "mixin": "MixinAvatar",
+  "jar": [
+   "DM",
+   "dD",
+   "e",
+   "eZ"
+  ],
+  "src": [
+   "modules",
+   "Constants"
+  ]
+ },
+ {
+  "mixin": "MixinAvatarRenderer",
+  "jar": [
+   "dD",
+   "e_",
+   "u",
+   "uj"
+  ],
+  "src": [
+   "modules",
+   "Constants"
+  ]
+ },
+ {
+  "mixin": "MixinBlock",
+  "jar": [
+   "U",
+   "Xn",
+   "e"
+  ],
+  "src": [
+   "modules"
+  ]
+ },
+ {
+  "mixin": "MixinBlockCollisions",
+  "jar": [
+   "_M",
+   "vy"
+  ],
+  "src": [
+   "events"
+  ]
+ },
+ {
+  "mixin": "MixinCamera",
+  "jar": [
+   "W",
+   "dD",
+   "e",
+   "eC",
+   "eZ",
+   "i"
+  ],
+  "src": [
+   "modules",
+   "Constants"
+  ]
+ },
+ {
+  "mixin": "MixinCapeLayer",
+  "jar": [
+   "C",
+   "Xr"
+  ],
+  "src": [
+   "interfaces",
+   "modules",
+   "Constants"
+  ]
+ },
+ {
+  "mixin": "MixinChatComponent",
+  "jar": [
+   "I",
+   "gp"
+  ],
+  "src": [
+   "managers"
+  ]
+ },
+ {
+  "mixin": "MixinChatComponentHash",
+  "jar": [
+   "I",
+   "dS",
+   "i8"
+  ],
+  "src": [
+   "interfaces"
+  ]
+ },
+ {
+  "mixin": "MixinChestRenderer",
+  "jar": [
+   "C",
+   "u",
+   "z2"
+  ],
+  "src": [
+   "holders",
+   "interfaces",
+   "modules"
+  ]
+ },
+ {
+  "mixin": "MixinChunkBorderRenderer",
+  "jar": [
+   "i"
+  ],
+  "src": [
+   "modules"
+  ]
+ },
+ {
+  "mixin": "MixinClientBrandRetriever",
+  "jar": [
+   "nO"
+  ],
+  "src": [
+   "utils"
+  ]
+ },
+ {
+  "mixin": "MixinClientLevel",
+  "jar": [
+   "dD",
+   "e",
+   "e8",
+   "eC"
+  ],
+  "src": [
+   "modules"
+  ]
+ },
+ {
+  "mixin": "MixinClientPacketListener",
+  "jar": [
+   "DK",
+   "L",
+   "XV",
+   "e",
+   "eC",
+   "eZ",
+   "g3",
+   "vy"
+  ],
+  "src": [
+   "events",
+   "modules"
+  ]
+ },
+ {
+  "mixin": "MixinCompassAngleState",
+  "jar": [
+   "dD",
+   "i"
+  ],
+  "src": [
+   "modules",
+   "Constants"
+  ]
+ },
+ {
+  "mixin": "MixinConnection",
+  "jar": [
+   "OK",
+   "_5",
+   "dP",
+   "dQ",
+   "gH",
+   "nO",
+   "vy"
+  ],
+  "src": [
+   "events",
+   "managers",
+   "utils"
+  ]
+ },
+ {
+  "mixin": "MixinDeltaTrackerTimer",
+  "jar": [
+   "no"
+  ],
+  "src": [
+   "managers"
+  ]
+ },
+ {
+  "mixin": "MixinEntity",
+  "jar": [
+   "DY",
+   "Dn",
+   "Du",
+   "dD",
+   "i",
+   "vy",
+   "w"
+  ],
+  "src": [
+   "events",
+   "modules",
+   "Constants"
+  ]
+ },
+ {
+  "mixin": "MixinEntityHitboxDebugRenderer",
+  "jar": [
+   "e8"
+  ],
+  "src": [
+   "modules"
+  ]
+ },
+ {
+  "mixin": "MixinEntityRenderDispatcher",
+  "jar": [
+   "Xr"
+  ],
+  "src": [
+   "interfaces"
+  ]
+ },
+ {
+  "mixin": "MixinEntityRenderer",
+  "jar": [
+   "DM",
+   "Z",
+   "e",
+   "eB",
+   "eC",
+   "u"
+  ],
+  "src": [
+   "modules"
+  ]
+ },
+ {
+  "mixin": "MixinEntityRenderState",
+  "jar": [
+   "Xr"
+  ],
+  "src": [
+   "interfaces"
+  ]
+ },
+ {
+  "mixin": "MixinEquipmentLayerRenderer",
+  "jar": [
+   "C",
+   "Xr"
+  ],
+  "src": [
+   "interfaces",
+   "modules",
+   "Constants"
+  ]
+ },
+ {
+  "mixin": "MixinFireworkRocketEntity",
+  "jar": [
+   "dD",
+   "vy",
+   "yC"
+  ],
+  "src": [
+   "events",
+   "Constants"
+  ]
+ },
+ {
+  "mixin": "MixinFlowingFluid",
+  "jar": [
+   "Du",
+   "w"
+  ],
+  "src": [
+   "modules"
+  ]
+ },
+ {
+  "mixin": "MixinFont",
+  "jar": [
+   "e",
+   "eC",
+   "gG",
+   "ls",
+   "uc"
+  ],
+  "src": [
+   "graphics",
+   "modules"
+  ]
+ },
+ {
+  "mixin": "MixinGameRenderer",
+  "jar": [
+   "W",
+   "i",
+   "u",
+   "z2"
+  ],
+  "src": [
+   "holders",
+   "modules"
+  ]
+ },
+ {
+  "mixin": "MixinGlyphRenderState",
+  "jar": [
+   "Dk"
+  ],
+  "src": [
+   "graphics"
+  ]
+ },
+ {
+  "mixin": "MixinGuiManager",
+  "jar": [
+   "du",
+   "vy"
+  ],
+  "src": [
+   "events"
+  ]
+ },
+ {
+  "mixin": "MixinGuiRenderer",
+  "jar": [
+   "OT",
+   "dD",
+   "vy",
+   "yt",
+   "zR",
+   "zm"
+  ],
+  "src": [
+   "events",
+   "utils",
+   "Constants"
+  ]
+ },
+ {
+  "mixin": "MixinGustSeedParticle",
+  "jar": [
+   "e8"
+  ],
+  "src": [
+   "modules"
+  ]
+ },
+ {
+  "mixin": "MixinHumanoidMobRenderer",
+  "jar": [
+   "dD",
+   "uj"
+  ],
+  "src": [
+   "modules",
+   "Constants"
+  ]
+ },
+ {
+  "mixin": "MixinItem",
+  "jar": [
+   "_K",
+   "vy"
+  ],
+  "src": [
+   "events"
+  ]
+ },
+ {
+  "mixin": "MixinItemInHandLayer",
+  "jar": [
+   "C",
+   "Xr"
+  ],
+  "src": [
+   "interfaces",
+   "modules",
+   "Constants"
+  ]
+ },
+ {
+  "mixin": "MixinItemInHandRenderer",
+  "jar": [
+   "dD",
+   "e_",
+   "lx",
+   "n1",
+   "u",
+   "vy",
+   "yF",
+   "z2"
+  ],
+  "src": [
+   "holders",
+   "modules",
+   "Constants"
+  ]
+ },
+ {
+  "mixin": "MixinItemStackLayerRenderState",
+  "jar": [
+   "C"
+  ],
+  "src": [
+   "modules"
+  ]
+ },
+ {
+  "mixin": "MixinKeyboardHandler",
+  "jar": [
+   "dL",
+   "vy"
+  ],
+  "src": [
+   "events"
+  ]
+ },
+ {
+  "mixin": "MixinKeyboardInput",
+  "jar": [
+   "vy",
+   "yi"
+  ],
+  "src": [
+   "events"
+  ]
+ },
+ {
+  "mixin": "MixinLevelRenderer",
+  "jar": [
+   "d9",
+   "e",
+   "e5",
+   "eC",
+   "u",
+   "ua",
+   "vy",
+   "yK",
+   "yZ"
+  ],
+  "src": [
+   "events",
+   "modules"
+  ]
+ },
+ {
+  "mixin": "MixinLightmap",
+  "jar": [
+   "U",
+   "e",
+   "e6",
+   "uA"
+  ],
+  "src": [
+   "modules"
+  ]
+ },
+ {
+  "mixin": "MixinLivingEntity",
+  "jar": [
+   "dD",
+   "e",
+   "eC",
+   "e_",
+   "nS",
+   "s",
+   "up",
+   "vB",
+   "vy",
+   "zV"
+  ],
+  "src": [
+   "events",
+   "modules",
+   "Constants"
+  ]
+ },
+ {
+  "mixin": "MixinLivingEntityRenderer",
+  "jar": [
+   "C",
+   "Xr",
+   "dD",
+   "i",
+   "vB",
+   "vy"
+  ],
+  "src": [
+   "events",
+   "interfaces",
+   "modules",
+   "Constants"
+  ]
+ },
+ {
+  "mixin": "MixinLocalPlayer",
+  "jar": [
+   "D2",
+   "Du",
+   "_J",
+   "d3",
+   "dD",
+   "dR",
+   "dY",
+   "db",
+   "nj",
+   "up",
+   "vy",
+   "w"
+  ],
+  "src": [
+   "events",
+   "modules"
+  ]
+ },
+ {
+  "mixin": "MixinMinecraft",
+  "jar": [
+   "B",
+   "_U",
+   "__",
+   "_y",
+   "dB",
+   "dD",
+   "dE",
+   "dj",
+   "dz",
+   "e_",
+   "ew",
+   "g3",
+   "i",
+   "iE",
+   "lM",
+   "lS",
+   "uc",
+   "vc",
+   "vy"
+  ],
+  "src": [
+   "Constants",
+   "events",
+   "graphics",
+   "modules"
+  ]
+ },
+ {
+  "mixin": "MixinMouseHandler",
+  "jar": [
+   "dW",
+   "dm",
+   "vy"
+  ],
+  "src": [
+   "events"
+  ]
+ },
+ {
+  "mixin": "MixinMultiPlayerGameMode",
+  "jar": [
+   "_S",
+   "dA",
+   "dN",
+   "dk",
+   "et",
+   "vy",
+   "zZ"
+  ],
+  "src": [
+   "events",
+   "modules"
+  ]
+ },
+ {
+  "mixin": "MixinOptions",
+  "jar": [
+   "i"
+  ],
+  "src": [
+   "modules"
+  ]
+ },
+ {
+  "mixin": "MixinOutputTarget",
+  "jar": [
+   "z2"
+  ],
+  "src": [
+   "holders"
+  ]
+ },
+ {
+  "mixin": "MixinParticleManager",
+  "jar": [
+   "e",
+   "e8",
+   "eC"
+  ],
+  "src": [
+   "modules"
+  ]
+ },
+ {
+  "mixin": "MixinPlayer",
+  "jar": [
+   "_z",
+   "dD",
+   "da",
+   "dv",
+   "vy"
+  ],
+  "src": [
+   "events",
+   "modules",
+   "Constants"
+  ]
+ },
+ {
+  "mixin": "MixinProjection",
+  "jar": [
+   "el"
+  ],
+  "src": [
+   "modules"
+  ]
+ },
+ {
+  "mixin": "MixinScreenEffectRenderer",
+  "jar": [
+   "O",
+   "e",
+   "eC"
+  ],
+  "src": [
+   "modules"
+  ]
+ },
+ {
+  "mixin": "MixinTitleScreen",
+  "jar": [
+   "dD",
+   "iS",
+   "uc",
+   "vc"
+  ],
+  "src": [
+   "gui",
+   "modules",
+   "Constants"
+  ]
+ },
+ {
+  "mixin": "MixinVisGraph",
+  "jar": [
+   "dH",
+   "vy"
+  ],
+  "src": [
+   "events"
+  ]
+ },
+ {
+  "mixin": "MixinWalkAnimationState",
+  "jar": [
+   "yL"
+  ],
+  "src": [
+   "interfaces"
+  ]
+ },
+ {
+  "mixin": "MixinWebBlock",
+  "jar": [
+   "dD",
+   "t"
+  ],
+  "src": [
+   "modules",
+   "Constants"
+  ]
+ },
+ {
+  "mixin": "MixinWindow",
+  "jar": [
+   "Xh",
+   "_p",
+   "uc"
+  ],
+  "src": [
+   "modules"
+  ]
+ }
+]

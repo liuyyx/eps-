@@ -1,0 +1,153 @@
+{
+ "batch": "B048",
+ "n": 8,
+ "classes": [
+  {
+   "obf": "DA",
+   "kind": "class",
+   "super": null,
+   "lines": 45,
+   "decl_line": "class DA ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "hi"
+   ],
+   "mc_imports": [],
+   "n_fields": 0,
+   "n_methods": 0,
+   "candidates": []
+  },
+  {
+   "obf": "DB",
+   "kind": "class",
+   "super": "Enum",
+   "lines": 123,
+   "decl_line": "class DB\nextends Enum<DB> ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "hi"
+   ],
+   "mc_imports": [],
+   "n_fields": 1,
+   "n_methods": 6,
+   "candidates": []
+  },
+  {
+   "obf": "Db",
+   "kind": "class",
+   "super": "Record",
+   "lines": 82,
+   "decl_line": "class Db\nextends Record ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "hi",
+    "is",
+    "zc"
+   ],
+   "mc_imports": [],
+   "n_fields": 1,
+   "n_methods": 14,
+   "candidates": []
+  },
+  {
+   "obf": "Dc",
+   "kind": "record",
+   "super": null,
+   "lines": 93,
+   "decl_line": "record Dc(Color ht, Color hU, Color hw, Color h3, Color he, Color hQ) implements DynamicUniformStorage.DynamicUniform\n",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "hi"
+   ],
+   "mc_imports": [
+    "net.minecraft.client.renderer.DynamicUniformStorage"
+   ],
+   "n_fields": 6,
+   "n_methods": 18,
+   "candidates": []
+  },
+  {
+   "obf": "dc",
+   "kind": "class",
+   "super": "Record",
+   "lines": 44,
+   "decl_line": "class dc\nextends Record ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "hi",
+    "ih"
+   ],
+   "mc_imports": [],
+   "n_fields": 2,
+   "n_methods": 8,
+   "candidates": []
+  },
+  {
+   "obf": "DD",
+   "kind": "class",
+   "super": "Enum",
+   "lines": 125,
+   "decl_line": "class DD\nextends Enum<DD> ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "hi"
+   ],
+   "mc_imports": [],
+   "n_fields": 1,
+   "n_methods": 7,
+   "candidates": []
+  },
+  {
+   "obf": "Dd",
+   "kind": "class",
+   "super": "Record",
+   "lines": 82,
+   "decl_line": "class Dd\nextends Record\nimplements _Q ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "_Q",
+    "hi"
+   ],
+   "mc_imports": [],
+   "n_fields": 8,
+   "n_methods": 20,
+   "candidates": []
+  },
+  {
+   "obf": "DE",
+   "kind": "class",
+   "super": null,
+   "lines": 158,
+   "decl_line": "class DE ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "Ob",
+    "_j",
+    "hi",
+    "ih",
+    "nK",
+    "zU"
+   ],
+   "mc_imports": [],
+   "n_fields": 0,
+   "n_methods": 15,
+   "candidates": []
+  }
+ ]
+}

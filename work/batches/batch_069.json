@@ -1,0 +1,150 @@
+{
+ "batch": "B069",
+ "n": 8,
+ "classes": [
+  {
+   "obf": "nX",
+   "kind": "class",
+   "super": "Enum",
+   "lines": 318,
+   "decl_line": "class nX\nextends Enum<nX> ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "hi"
+   ],
+   "mc_imports": [],
+   "n_fields": 5,
+   "n_methods": 19,
+   "candidates": []
+  },
+  {
+   "obf": "nZ",
+   "kind": "class",
+   "super": "Enum",
+   "lines": 123,
+   "decl_line": "class nZ\nextends Enum<nZ> ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "hi"
+   ],
+   "mc_imports": [],
+   "n_fields": 0,
+   "n_methods": 6,
+   "candidates": []
+  },
+  {
+   "obf": "nz",
+   "kind": "class",
+   "super": "Record",
+   "lines": 45,
+   "decl_line": "class nz\nextends Record ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "hi",
+    "ih",
+    "is"
+   ],
+   "mc_imports": [],
+   "n_fields": 2,
+   "n_methods": 8,
+   "candidates": []
+  },
+  {
+   "obf": "O1",
+   "kind": "class",
+   "super": null,
+   "lines": 44,
+   "decl_line": "class O1 ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "hi",
+    "iU"
+   ],
+   "mc_imports": [],
+   "n_fields": 0,
+   "n_methods": 1,
+   "candidates": []
+  },
+  {
+   "obf": "O2",
+   "kind": "class",
+   "super": "Enum",
+   "lines": 140,
+   "decl_line": "class O2\nextends Enum<O2> ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "hi"
+   ],
+   "mc_imports": [],
+   "n_fields": 1,
+   "n_methods": 7,
+   "candidates": []
+  },
+  {
+   "obf": "O3",
+   "kind": "record",
+   "super": null,
+   "lines": 83,
+   "decl_line": "record O3(float qC, float qL, float qp, float qx) ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "hi",
+    "ih"
+   ],
+   "mc_imports": [],
+   "n_fields": 4,
+   "n_methods": 16,
+   "candidates": []
+  },
+  {
+   "obf": "O4",
+   "kind": "class",
+   "super": "Record",
+   "lines": 49,
+   "decl_line": "class O4\nextends Record ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "hi"
+   ],
+   "mc_imports": [],
+   "n_fields": 3,
+   "n_methods": 10,
+   "candidates": []
+  },
+  {
+   "obf": "O5",
+   "kind": "class",
+   "super": null,
+   "lines": 65,
+   "decl_line": "class O5\nimplements DF ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "DF",
+    "_j",
+    "hi",
+    "nK",
+    "u4"
+   ],
+   "mc_imports": [],
+   "n_fields": 0,
+   "n_methods": 6,
+   "candidates": []
+  }
+ ]
+}

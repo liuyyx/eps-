@@ -1,0 +1,388 @@
+{
+ "batch": "B004",
+ "n": 8,
+ "classes": [
+  {
+   "obf": "DN",
+   "kind": "class",
+   "super": null,
+   "lines": 838,
+   "decl_line": "class DN ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "refs": [
+    "Dl",
+    "OU",
+    "_6",
+    "gW",
+    "hi",
+    "iA",
+    "y9"
+   ],
+   "mc_imports": [
+    "net.minecraft.client.input.CharacterEvent",
+    "net.minecraft.client.input.KeyEvent",
+    "net.minecraft.client.input.MouseButtonEvent"
+   ],
+   "n_fields": 2,
+   "n_methods": 9,
+   "candidates": [
+    {
+     "src": "SettingListController",
+     "score": 7.0,
+     "why": "锚点引用:Setting; MCimport:3",
+     "unique": true
+    },
+    {
+     "src": "ModuleDetailPanel",
+     "score": 7.0,
+     "why": "锚点引用:Setting; MCimport:3",
+     "unique": false
+    },
+    {
+     "src": "AddonClientSettingTab",
+     "score": 7.0,
+     "why": "锚点引用:Setting; MCimport:3",
+     "unique": false
+    }
+   ]
+  },
+  {
+   "obf": "M",
+   "kind": "class",
+   "super": "e",
+   "lines": 139,
+   "decl_line": "class M\nextends e ",
+   "anchored_refs": [
+    "Module",
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "refs": [
+    "Dl",
+    "e",
+    "hi",
+    "vY"
+   ],
+   "mc_imports": [
+    "net.minecraft.world.entity.Entity"
+   ],
+   "n_fields": 4,
+   "n_methods": 8,
+   "candidates": [
+    {
+     "src": "AntiBot",
+     "score": 7.0,
+     "why": "锚点引用:Module; MCimport:1",
+     "unique": true
+    },
+    {
+     "src": "EpsilonAddon",
+     "score": 6.0,
+     "why": "锚点引用:Module,Setting",
+     "unique": true
+    },
+    {
+     "src": "I18NFileGenerator",
+     "score": 6.0,
+     "why": "锚点引用:Module,Setting",
+     "unique": true
+    }
+   ]
+  },
+  {
+   "obf": "v7",
+   "kind": "class",
+   "super": "vh",
+   "lines": 230,
+   "decl_line": "class v7\nextends vh<Xe<?>> ",
+   "anchored_refs": [
+    "RegistryListSetting",
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "refs": [
+    "Dl",
+    "Xe",
+    "_j",
+    "hi",
+    "ih",
+    "vh",
+    "zU"
+   ],
+   "mc_imports": [
+    "net.minecraft.client.gui.GuiGraphicsExtractor",
+    "net.minecraft.client.input.MouseButtonEvent"
+   ],
+   "n_fields": 2,
+   "n_methods": 7,
+   "candidates": [
+    {
+     "src": "RegistryListSettingRow",
+     "score": 7.0,
+     "why": "锚点引用:RegistryListSetting; MCimport:2",
+     "unique": true
+    },
+    {
+     "src": "RegistryListSelectPopup",
+     "score": 6.5,
+     "why": "锚点引用:RegistryListSetting,Setting; MCimport:2",
+     "unique": true
+    },
+    {
+     "src": "ModuleButton",
+     "score": 6.0,
+     "why": "锚点引用:RegistryListSetting,Setting",
+     "unique": false
+    }
+   ]
+  },
+  {
+   "obf": "v9",
+   "kind": "class",
+   "super": "vh",
+   "lines": 2276,
+   "decl_line": "class v9\nextends vh<XG> ",
+   "anchored_refs": [
+    "IntSetting",
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "refs": [
+    "Dl",
+    "XG",
+    "_E",
+    "_j",
+    "hi",
+    "ih",
+    "lH",
+    "vh",
+    "zU"
+   ],
+   "mc_imports": [
+    "net.minecraft.client.gui.GuiGraphicsExtractor",
+    "net.minecraft.client.input.CharacterEvent",
+    "net.minecraft.client.input.MouseButtonEvent"
+   ],
+   "n_fields": 13,
+   "n_methods": 48,
+   "candidates": [
+    {
+     "src": "IntSettingRow",
+     "score": 7.0,
+     "why": "锚点引用:IntSetting; MCimport:3",
+     "unique": true
+    },
+    {
+     "src": "ModuleDetailPanel",
+     "score": 7.0,
+     "why": "锚点引用:Setting; MCimport:3",
+     "unique": false
+    },
+    {
+     "src": "AddonClientSettingTab",
+     "score": 7.0,
+     "why": "锚点引用:Setting; MCimport:3",
+     "unique": false
+    }
+   ]
+  },
+  {
+   "obf": "vD",
+   "kind": "class",
+   "super": "vh",
+   "lines": 311,
+   "decl_line": "class vD\nextends vh<Xp> ",
+   "anchored_refs": [
+    "ButtonSetting",
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "refs": [
+    "Dl",
+    "Xp",
+    "_E",
+    "_j",
+    "hi",
+    "ih",
+    "lH",
+    "vh",
+    "zU"
+   ],
+   "mc_imports": [
+    "net.minecraft.client.gui.GuiGraphicsExtractor",
+    "net.minecraft.client.input.MouseButtonEvent"
+   ],
+   "n_fields": 3,
+   "n_methods": 10,
+   "candidates": [
+    {
+     "src": "ButtonSettingRow",
+     "score": 7.0,
+     "why": "锚点引用:ButtonSetting; MCimport:2",
+     "unique": true
+    },
+    {
+     "src": "ModuleButton",
+     "score": 6.0,
+     "why": "锚点引用:ButtonSetting,Setting",
+     "unique": false
+    },
+    {
+     "src": "SettingsContent",
+     "score": 6.0,
+     "why": "锚点引用:ButtonSetting,Setting",
+     "unique": false
+    }
+   ]
+  },
+  {
+   "obf": "vf",
+   "kind": "class",
+   "super": "vh",
+   "lines": 2497,
+   "decl_line": "class vf\nextends vh<DM> ",
+   "anchored_refs": [
+    "DoubleSetting",
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "refs": [
+    "DM",
+    "Dl",
+    "_E",
+    "_j",
+    "hi",
+    "ih",
+    "lH",
+    "vh",
+    "zU"
+   ],
+   "mc_imports": [
+    "net.minecraft.client.gui.GuiGraphicsExtractor",
+    "net.minecraft.client.input.CharacterEvent",
+    "net.minecraft.client.input.MouseButtonEvent"
+   ],
+   "n_fields": 12,
+   "n_methods": 48,
+   "candidates": [
+    {
+     "src": "DoubleSettingRow",
+     "score": 7.0,
+     "why": "锚点引用:DoubleSetting; MCimport:3",
+     "unique": true
+    },
+    {
+     "src": "ModuleDetailPanel",
+     "score": 7.0,
+     "why": "锚点引用:Setting; MCimport:3",
+     "unique": false
+    },
+    {
+     "src": "AddonClientSettingTab",
+     "score": 7.0,
+     "why": "锚点引用:Setting; MCimport:3",
+     "unique": false
+    }
+   ]
+  },
+  {
+   "obf": "vg",
+   "kind": "class",
+   "super": "vh",
+   "lines": 278,
+   "decl_line": "class vg\nextends vh<XF> ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心",
+    "Setting",
+    "StringListSetting"
+   ],
+   "refs": [
+    "Dl",
+    "XF",
+    "_j",
+    "hi",
+    "ih",
+    "vh",
+    "zU"
+   ],
+   "mc_imports": [
+    "net.minecraft.client.gui.GuiGraphicsExtractor",
+    "net.minecraft.client.input.MouseButtonEvent"
+   ],
+   "n_fields": 2,
+   "n_methods": 7,
+   "candidates": [
+    {
+     "src": "StringListSettingRow",
+     "score": 7.0,
+     "why": "锚点引用:StringListSetting; MCimport:2",
+     "unique": true
+    },
+    {
+     "src": "ModuleButton",
+     "score": 6.0,
+     "why": "锚点引用:Setting,StringListSetting",
+     "unique": false
+    },
+    {
+     "src": "SettingsContent",
+     "score": 6.0,
+     "why": "锚点引用:Setting,StringListSetting",
+     "unique": false
+    }
+   ]
+  },
+  {
+   "obf": "vX",
+   "kind": "class",
+   "super": "vh",
+   "lines": 481,
+   "decl_line": "class vX\nextends vh<Xn> ",
+   "anchored_refs": [
+    "BoolSetting",
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "refs": [
+    "Dl",
+    "Xn",
+    "_E",
+    "_j",
+    "hi",
+    "ih",
+    "lH",
+    "vh",
+    "zU"
+   ],
+   "mc_imports": [
+    "net.minecraft.client.gui.GuiGraphicsExtractor",
+    "net.minecraft.client.input.MouseButtonEvent"
+   ],
+   "n_fields": 5,
+   "n_methods": 14,
+   "candidates": [
+    {
+     "src": "BoolSettingRow",
+     "score": 7.0,
+     "why": "锚点引用:BoolSetting; MCimport:2",
+     "unique": true
+    },
+    {
+     "src": "ModuleButton",
+     "score": 6.0,
+     "why": "锚点引用:BoolSetting,Setting",
+     "unique": false
+    },
+    {
+     "src": "SettingsContent",
+     "score": 6.0,
+     "why": "锚点引用:BoolSetting,Setting",
+     "unique": false
+    }
+   ]
+  }
+ ]
+}

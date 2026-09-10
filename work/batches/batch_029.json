@@ -1,0 +1,403 @@
+{
+ "batch": "B029",
+ "n": 8,
+ "classes": [
+  {
+   "obf": "iR",
+   "kind": "class",
+   "super": "Record",
+   "lines": 100,
+   "decl_line": "class iR\nextends Record ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "hi",
+    "im"
+   ],
+   "mc_imports": [
+    "net.minecraft.world.entity.LivingEntity",
+    "net.minecraft.world.phys.AABB",
+    "net.minecraft.world.phys.Vec3"
+   ],
+   "n_fields": 10,
+   "n_methods": 24,
+   "candidates": [
+    {
+     "src": "Criticals",
+     "score": 3.4,
+     "why": "MCimport:3",
+     "unique": true
+    },
+    {
+     "src": "SpearKill",
+     "score": 3.4,
+     "why": "MCimport:3",
+     "unique": false
+    },
+    {
+     "src": "AStarFollowerNavigator",
+     "score": 3.4,
+     "why": "MCimport:3",
+     "unique": false
+    }
+   ]
+  },
+  {
+   "obf": "nV",
+   "kind": "class",
+   "super": null,
+   "lines": 738,
+   "decl_line": "class nV<T extends nV<?>> ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "refs": [
+    "DJ",
+    "Dl",
+    "X_",
+    "hi"
+   ],
+   "mc_imports": [
+    "net.minecraft.client.Minecraft",
+    "net.minecraft.client.User",
+    "net.minecraft.client.gui.screens.social.PlayerSocialManager",
+    "net.minecraft.client.gui.screens.social.RemoteFriendListUpdateHandler",
+    "net.minecraft.client.multiplayer.ProfileKeyPairManager",
+    "net.minecraft.client.multiplayer.chat.report.ReportingContext",
+    "net.minecraft.client.renderer.texture.SkinTextureDownloader",
+    "net.minecraft.client.renderer.texture.TextureManager",
+    "net.minecraft.client.resources.SkinManager",
+    "net.minecraft.server.Services"
+   ],
+   "n_fields": 7,
+   "n_methods": 22,
+   "candidates": [
+    {
+     "src": "Module",
+     "score": 3.4,
+     "why": "锚点引用:Setting; MCimport:1",
+     "unique": false
+    },
+    {
+     "src": "EpsilonAddon",
+     "score": 3.0,
+     "why": "锚点引用:Setting",
+     "unique": true
+    },
+    {
+     "src": "I18NFileGenerator",
+     "score": 3.0,
+     "why": "锚点引用:Setting",
+     "unique": true
+    }
+   ]
+  },
+  {
+   "obf": "XO",
+   "kind": "class",
+   "super": null,
+   "lines": 1313,
+   "decl_line": "class XO ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "refs": [
+    "Dl",
+    "OH",
+    "gc",
+    "hi"
+   ],
+   "mc_imports": [
+    "net.minecraft.core.BlockPos",
+    "net.minecraft.world.entity.player.Player",
+    "net.minecraft.world.level.BlockGetter",
+    "net.minecraft.world.level.block.state.BlockState"
+   ],
+   "n_fields": 2,
+   "n_methods": 10,
+   "candidates": [
+    {
+     "src": "MixinBlockCollisions",
+     "score": 3.4,
+     "why": "MCimport:3",
+     "unique": false
+    },
+    {
+     "src": "EpsilonAddon",
+     "score": 3.0,
+     "why": "锚点引用:Setting",
+     "unique": true
+    },
+    {
+     "src": "I18NFileGenerator",
+     "score": 3.0,
+     "why": "锚点引用:Setting",
+     "unique": true
+    }
+   ]
+  },
+  {
+   "obf": "lc",
+   "kind": "class",
+   "super": "l8",
+   "lines": 4493,
+   "decl_line": "class lc\nextends l8 ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "refs": [
+    "Dl",
+    "_j",
+    "gk",
+    "hi",
+    "l8",
+    "nK",
+    "ug",
+    "v0",
+    "zU"
+   ],
+   "mc_imports": [
+    "net.minecraft.client.gui.Hud",
+    "net.minecraft.client.multiplayer.ClientPacketListener",
+    "net.minecraft.client.multiplayer.PlayerInfo",
+    "net.minecraft.network.chat.Component",
+    "net.minecraft.network.chat.FormattedText",
+    "net.minecraft.network.chat.Style",
+    "net.minecraft.resources.Identifier",
+    "net.minecraft.world.scores.Objective",
+    "net.minecraft.world.scores.PlayerTeam",
+    "net.minecraft.world.scores.Scoreboard"
+   ],
+   "n_fields": 34,
+   "n_methods": 100,
+   "candidates": [
+    {
+     "src": "ClientSetting",
+     "score": 3.33,
+     "why": "锚点引用:Setting; MCimport:1",
+     "unique": false
+    },
+    {
+     "src": "RegistryListSetting",
+     "score": 3.22,
+     "why": "锚点引用:Setting; MCimport:1",
+     "unique": false
+    },
+    {
+     "src": "RegistryListSelectPopup",
+     "score": 3.15,
+     "why": "锚点引用:Setting; MCimport:1",
+     "unique": true
+    }
+   ]
+  },
+  {
+   "obf": "us",
+   "kind": "class",
+   "super": "u9",
+   "lines": 1995,
+   "decl_line": "class us\nextends u9 ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "refs": [
+    "Dl",
+    "XE",
+    "hi",
+    "lz",
+    "u9",
+    "uK",
+    "zD"
+   ],
+   "mc_imports": [
+    "net.minecraft.client.multiplayer.ClientLevel",
+    "net.minecraft.client.multiplayer.MultiPlayerGameMode",
+    "net.minecraft.client.player.LocalPlayer",
+    "net.minecraft.core.BlockPos",
+    "net.minecraft.core.Direction",
+    "net.minecraft.world.InteractionHand",
+    "net.minecraft.world.item.BlockItem",
+    "net.minecraft.world.item.Item",
+    "net.minecraft.world.item.ItemStack",
+    "net.minecraft.world.phys.AABB"
+   ],
+   "n_fields": 10,
+   "n_methods": 34,
+   "candidates": [
+    {
+     "src": "RegistryListSelectPopup",
+     "score": 3.31,
+     "why": "锚点引用:Setting; MCimport:2",
+     "unique": true
+    },
+    {
+     "src": "SettingHost",
+     "score": 3.27,
+     "why": "锚点引用:Setting; MCimport:1",
+     "unique": false
+    },
+    {
+     "src": "RegistryListSetting",
+     "score": 3.21,
+     "why": "锚点引用:Setting; MCimport:1",
+     "unique": false
+    }
+   ]
+  },
+  {
+   "obf": "uZ",
+   "kind": "class",
+   "super": "u9",
+   "lines": 1451,
+   "decl_line": "class uZ\nextends u9 ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "refs": [
+    "Dl",
+    "hi",
+    "ie",
+    "le",
+    "lz",
+    "u9",
+    "uK",
+    "yY"
+   ],
+   "mc_imports": [
+    "net.minecraft.client.player.LocalPlayer",
+    "net.minecraft.core.BlockPos",
+    "net.minecraft.core.Direction",
+    "net.minecraft.core.Vec3i",
+    "net.minecraft.world.entity.Entity",
+    "net.minecraft.world.entity.player.Inventory",
+    "net.minecraft.world.item.BlockItem",
+    "net.minecraft.world.item.Item",
+    "net.minecraft.world.item.ItemStack",
+    "net.minecraft.world.level.ClipContext"
+   ],
+   "n_fields": 9,
+   "n_methods": 29,
+   "candidates": [
+    {
+     "src": "RegistryListSelectPopup",
+     "score": 3.3,
+     "why": "锚点引用:Setting; MCimport:2",
+     "unique": true
+    },
+    {
+     "src": "SettingHost",
+     "score": 3.25,
+     "why": "锚点引用:Setting; MCimport:1",
+     "unique": false
+    },
+    {
+     "src": "RegistryListSetting",
+     "score": 3.2,
+     "why": "锚点引用:Setting; MCimport:1",
+     "unique": false
+    }
+   ]
+  },
+  {
+   "obf": "nJ",
+   "kind": "class",
+   "super": null,
+   "lines": 777,
+   "decl_line": "class nJ ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "refs": [
+    "Dl",
+    "hi",
+    "uK"
+   ],
+   "mc_imports": [
+    "net.minecraft.core.BlockPos",
+    "net.minecraft.core.Direction",
+    "net.minecraft.world.entity.Entity",
+    "net.minecraft.world.level.ClipContext",
+    "net.minecraft.world.phys.EntityHitResult",
+    "net.minecraft.world.phys.HitResult",
+    "net.minecraft.world.phys.Vec3"
+   ],
+   "n_fields": 2,
+   "n_methods": 13,
+   "candidates": [
+    {
+     "src": "RaytraceUtils",
+     "score": 3.29,
+     "why": "MCimport:4",
+     "unique": false
+    },
+    {
+     "src": "RotationUtils",
+     "score": 3.18,
+     "why": "MCimport:6",
+     "unique": false
+    },
+    {
+     "src": "EpsilonAddon",
+     "score": 3.0,
+     "why": "锚点引用:Setting",
+     "unique": true
+    }
+   ]
+  },
+  {
+   "obf": "uf",
+   "kind": "class",
+   "super": "u9",
+   "lines": 931,
+   "decl_line": "class uf\nextends u9 ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "refs": [
+    "Dl",
+    "hi",
+    "u9",
+    "uK"
+   ],
+   "mc_imports": [
+    "net.minecraft.client.multiplayer.ClientLevel",
+    "net.minecraft.core.BlockPos",
+    "net.minecraft.world.entity.Entity",
+    "net.minecraft.world.level.ClipContext",
+    "net.minecraft.world.level.block.state.BlockState",
+    "net.minecraft.world.phys.AABB",
+    "net.minecraft.world.phys.Vec3"
+   ],
+   "n_fields": 7,
+   "n_methods": 19,
+   "candidates": [
+    {
+     "src": "MixinClientLevel",
+     "score": 3.29,
+     "why": "MCimport:4",
+     "unique": false
+    },
+    {
+     "src": "EpsilonAddon",
+     "score": 3.0,
+     "why": "锚点引用:Setting",
+     "unique": true
+    },
+    {
+     "src": "I18NFileGenerator",
+     "score": 3.0,
+     "why": "锚点引用:Setting",
+     "unique": true
+    }
+   ]
+  }
+ ]
+}

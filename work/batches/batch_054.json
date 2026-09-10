@@ -1,0 +1,146 @@
+{
+ "batch": "B054",
+ "n": 8,
+ "classes": [
+  {
+   "obf": "g0",
+   "kind": "class",
+   "super": null,
+   "lines": 30,
+   "decl_line": "class g0 ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "hi",
+    "i2"
+   ],
+   "mc_imports": [],
+   "n_fields": 1,
+   "n_methods": 4,
+   "candidates": []
+  },
+  {
+   "obf": "g2",
+   "kind": "class",
+   "super": "Record",
+   "lines": 84,
+   "decl_line": "class g2\nextends Record\nimplements _Q ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "_Q",
+    "hi",
+    "ih",
+    "nK"
+   ],
+   "mc_imports": [],
+   "n_fields": 8,
+   "n_methods": 20,
+   "candidates": []
+  },
+  {
+   "obf": "g4",
+   "kind": "class",
+   "super": null,
+   "lines": 45,
+   "decl_line": "class g4 ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "hi"
+   ],
+   "mc_imports": [],
+   "n_fields": 0,
+   "n_methods": 0,
+   "candidates": []
+  },
+  {
+   "obf": "g5",
+   "kind": "class",
+   "super": null,
+   "lines": 23,
+   "decl_line": "class g5 ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "hi"
+   ],
+   "mc_imports": [],
+   "n_fields": 0,
+   "n_methods": 2,
+   "candidates": []
+  },
+  {
+   "obf": "g6",
+   "kind": "class",
+   "super": null,
+   "lines": 27,
+   "decl_line": "class g6 ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "hi"
+   ],
+   "mc_imports": [],
+   "n_fields": 0,
+   "n_methods": 0,
+   "candidates": []
+  },
+  {
+   "obf": "g7",
+   "kind": "class",
+   "super": "Enum",
+   "lines": 142,
+   "decl_line": "class g7\nextends Enum<g7> ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "hi"
+   ],
+   "mc_imports": [],
+   "n_fields": 1,
+   "n_methods": 8,
+   "candidates": []
+  },
+  {
+   "obf": "g8",
+   "kind": "class",
+   "super": "Enum",
+   "lines": 168,
+   "decl_line": "class g8\nextends Enum<g8> ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "hi"
+   ],
+   "mc_imports": [],
+   "n_fields": 1,
+   "n_methods": 8,
+   "candidates": []
+  },
+  {
+   "obf": "g9",
+   "kind": "class",
+   "super": "Enum",
+   "lines": 123,
+   "decl_line": "class g9\nextends Enum<g9> ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "hi"
+   ],
+   "mc_imports": [],
+   "n_fields": 1,
+   "n_methods": 6,
+   "candidates": []
+  }
+ ]
+}

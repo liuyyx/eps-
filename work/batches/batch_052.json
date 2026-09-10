@@ -1,0 +1,148 @@
+{
+ "batch": "B052",
+ "n": 8,
+ "classes": [
+  {
+   "obf": "DR",
+   "kind": "class",
+   "super": "Enum",
+   "lines": 252,
+   "decl_line": "class DR\nextends Enum<DR> ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "hi"
+   ],
+   "mc_imports": [],
+   "n_fields": 3,
+   "n_methods": 12,
+   "candidates": []
+  },
+  {
+   "obf": "Dr",
+   "kind": "class",
+   "super": "Record",
+   "lines": 72,
+   "decl_line": "class Dr\nextends Record ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "hi"
+   ],
+   "mc_imports": [
+    "net.minecraft.world.phys.AABB"
+   ],
+   "n_fields": 6,
+   "n_methods": 16,
+   "candidates": []
+  },
+  {
+   "obf": "DS",
+   "kind": "interface",
+   "super": null,
+   "lines": 17,
+   "decl_line": "interface DS ",
+   "anchored_refs": [],
+   "refs": [
+    "yW"
+   ],
+   "mc_imports": [],
+   "n_fields": 0,
+   "n_methods": 4,
+   "candidates": []
+  },
+  {
+   "obf": "Ds",
+   "kind": "class",
+   "super": "Record",
+   "lines": 62,
+   "decl_line": "class Ds\nextends Record ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "hi"
+   ],
+   "mc_imports": [],
+   "n_fields": 5,
+   "n_methods": 14,
+   "candidates": []
+  },
+  {
+   "obf": "ds",
+   "kind": "class",
+   "super": "Record",
+   "lines": 119,
+   "decl_line": "class ds\nextends Record\nimplements yM ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "XL",
+    "Xu",
+    "hi",
+    "nK",
+    "y3",
+    "yM"
+   ],
+   "mc_imports": [],
+   "n_fields": 12,
+   "n_methods": 29,
+   "candidates": []
+  },
+  {
+   "obf": "Dt",
+   "kind": "class",
+   "super": "Record",
+   "lines": 50,
+   "decl_line": "class Dt\nextends Record ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "hi",
+    "ih"
+   ],
+   "mc_imports": [],
+   "n_fields": 3,
+   "n_methods": 10,
+   "candidates": []
+  },
+  {
+   "obf": "dT",
+   "kind": "class",
+   "super": "Enum",
+   "lines": 125,
+   "decl_line": "class dT\nextends Enum<dT> ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "hi"
+   ],
+   "mc_imports": [],
+   "n_fields": 1,
+   "n_methods": 7,
+   "candidates": []
+  },
+  {
+   "obf": "dt",
+   "kind": "record",
+   "super": null,
+   "lines": 32,
+   "decl_line": "record dt(float PI) implements GlyphInfo\n",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "hi"
+   ],
+   "mc_imports": [],
+   "n_fields": 1,
+   "n_methods": 5,
+   "candidates": []
+  }
+ ]
+}

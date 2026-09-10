@@ -1,0 +1,155 @@
+{
+ "batch": "B047",
+ "n": 8,
+ "classes": [
+  {
+   "obf": "d5",
+   "kind": "class",
+   "super": "Record",
+   "lines": 77,
+   "decl_line": "class d5\nextends Record ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "hi"
+   ],
+   "mc_imports": [],
+   "n_fields": 6,
+   "n_methods": 16,
+   "candidates": []
+  },
+  {
+   "obf": "D6",
+   "kind": "class",
+   "super": "Enum",
+   "lines": 123,
+   "decl_line": "class D6\nextends Enum<D6> ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "hi"
+   ],
+   "mc_imports": [],
+   "n_fields": 1,
+   "n_methods": 6,
+   "candidates": []
+  },
+  {
+   "obf": "d6",
+   "kind": "class",
+   "super": "Enum",
+   "lines": 123,
+   "decl_line": "class d6\nextends Enum<d6> ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "hi"
+   ],
+   "mc_imports": [],
+   "n_fields": 1,
+   "n_methods": 6,
+   "candidates": []
+  },
+  {
+   "obf": "D7",
+   "kind": "class",
+   "super": "Record",
+   "lines": 168,
+   "decl_line": "class D7\nextends Record ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "DQ",
+    "Xb",
+    "Xo",
+    "hi",
+    "yQ",
+    "yr"
+   ],
+   "mc_imports": [],
+   "n_fields": 22,
+   "n_methods": 48,
+   "candidates": []
+  },
+  {
+   "obf": "d7",
+   "kind": "class",
+   "super": "Record",
+   "lines": 149,
+   "decl_line": "class d7\nextends Record\nimplements yM ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "X6",
+    "XL",
+    "Xu",
+    "hi",
+    "y3",
+    "yM"
+   ],
+   "mc_imports": [],
+   "n_fields": 17,
+   "n_methods": 39,
+   "candidates": []
+  },
+  {
+   "obf": "D8",
+   "kind": "class",
+   "super": "Enum",
+   "lines": 125,
+   "decl_line": "class D8\nextends Enum<D8> ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "hi"
+   ],
+   "mc_imports": [],
+   "n_fields": 1,
+   "n_methods": 7,
+   "candidates": []
+  },
+  {
+   "obf": "d8",
+   "kind": "class",
+   "super": "Record",
+   "lines": 62,
+   "decl_line": "class d8\nextends Record ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "hi",
+    "y4"
+   ],
+   "mc_imports": [],
+   "n_fields": 5,
+   "n_methods": 14,
+   "candidates": []
+  },
+  {
+   "obf": "D9",
+   "kind": "class",
+   "super": "Record",
+   "lines": 65,
+   "decl_line": "class D9\nextends Record\nimplements _Q ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "_Q",
+    "hi",
+    "ih"
+   ],
+   "mc_imports": [],
+   "n_fields": 5,
+   "n_methods": 14,
+   "candidates": []
+  }
+ ]
+}

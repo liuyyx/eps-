@@ -1,0 +1,451 @@
+{
+ "batch": "B007",
+ "n": 8,
+ "classes": [
+  {
+   "obf": "ef",
+   "kind": "class",
+   "super": "eh",
+   "lines": 2397,
+   "decl_line": "class ef\nextends eh ",
+   "anchored_refs": [
+    "BoolSetting",
+    "ColorSetting",
+    "DoubleSetting",
+    "IntSetting",
+    "SeQL/字符串解密+调用分发核心",
+    "Setting",
+    "TranslateComponent"
+   ],
+   "refs": [
+    "DM",
+    "DV",
+    "Dl",
+    "XG",
+    "Xn",
+    "_j",
+    "dP",
+    "eh",
+    "g3",
+    "hi",
+    "iZ",
+    "nj",
+    "uT",
+    "yE"
+   ],
+   "mc_imports": [
+    "net.minecraft.client.DeltaTracker",
+    "net.minecraft.client.player.AbstractClientPlayer",
+    "net.minecraft.client.player.LocalPlayer",
+    "net.minecraft.resources.Identifier"
+   ],
+   "n_fields": 32,
+   "n_methods": 69,
+   "candidates": [
+    {
+     "src": "ClientSetting",
+     "score": 15.8,
+     "why": "锚点引用:BoolSetting,ColorSetting,DoubleSetting,IntSetting,Setting; MCimport:1",
+     "unique": false
+    },
+    {
+     "src": "ModuleButton",
+     "score": 15.0,
+     "why": "锚点引用:BoolSetting,ColorSetting,DoubleSetting,IntSetting,Setting",
+     "unique": false
+    },
+    {
+     "src": "SettingsContent",
+     "score": 15.0,
+     "why": "锚点引用:BoolSetting,ColorSetting,DoubleSetting,IntSetting,Setting",
+     "unique": false
+    }
+   ]
+  },
+  {
+   "obf": "eU",
+   "kind": "class",
+   "super": "eh",
+   "lines": 2145,
+   "decl_line": "class eU\nextends eh ",
+   "anchored_refs": [
+    "BoolSetting",
+    "ColorSetting",
+    "DoubleSetting",
+    "EnumSetting",
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "refs": [
+    "DM",
+    "DV",
+    "Dl",
+    "Dx",
+    "Xn",
+    "_j",
+    "eh",
+    "hi",
+    "lH",
+    "y4",
+    "zK",
+    "zU"
+   ],
+   "mc_imports": [
+    "net.minecraft.client.DeltaTracker",
+    "net.minecraft.client.gui.GuiGraphicsExtractor",
+    "net.minecraft.client.player.AbstractClientPlayer",
+    "net.minecraft.client.renderer.texture.TextureManager",
+    "net.minecraft.resources.Identifier",
+    "net.minecraft.world.entity.EquipmentSlot",
+    "net.minecraft.world.entity.LivingEntity",
+    "net.minecraft.world.item.ItemStack"
+   ],
+   "n_fields": 41,
+   "n_methods": 66,
+   "candidates": [
+    {
+     "src": "ClientSetting",
+     "score": 15.44,
+     "why": "锚点引用:BoolSetting,ColorSetting,DoubleSetting,EnumSetting,Setting; MCimport:1",
+     "unique": false
+    },
+    {
+     "src": "ModuleButton",
+     "score": 15.0,
+     "why": "锚点引用:BoolSetting,ColorSetting,DoubleSetting,EnumSetting,Setting",
+     "unique": false
+    },
+    {
+     "src": "SettingsContent",
+     "score": 15.0,
+     "why": "锚点引用:BoolSetting,ColorSetting,DoubleSetting,EnumSetting,Setting",
+     "unique": false
+    }
+   ]
+  },
+  {
+   "obf": "e4",
+   "kind": "class",
+   "super": "e",
+   "lines": 2583,
+   "decl_line": "class e4\nextends e ",
+   "anchored_refs": [
+    "DoubleSetting",
+    "EnumSetting",
+    "IntSetting",
+    "Module",
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "refs": [
+    "DM",
+    "Dl",
+    "Dx",
+    "OW",
+    "XG",
+    "_Z",
+    "_y",
+    "dR",
+    "e",
+    "hi",
+    "vY",
+    "yE"
+   ],
+   "mc_imports": [
+    "net.minecraft.client.player.LocalPlayer",
+    "net.minecraft.world.entity.LivingEntity",
+    "net.minecraft.world.item.ItemStack",
+    "net.minecraft.world.phys.Vec3"
+   ],
+   "n_fields": 13,
+   "n_methods": 33,
+   "candidates": [
+    {
+     "src": "ModuleButton",
+     "score": 15.0,
+     "why": "锚点引用:DoubleSetting,EnumSetting,IntSetting,Module,Setting",
+     "unique": false
+    },
+    {
+     "src": "ConfigHolder",
+     "score": 15.0,
+     "why": "锚点引用:DoubleSetting,EnumSetting,IntSetting,Module,Setting",
+     "unique": false
+    },
+    {
+     "src": "ClientSetting",
+     "score": 15.0,
+     "why": "锚点引用:DoubleSetting,EnumSetting,IntSetting,Module,Setting",
+     "unique": false
+    }
+   ]
+  },
+  {
+   "obf": "ea",
+   "kind": "class",
+   "super": "e",
+   "lines": 1582,
+   "decl_line": "class ea\nextends e ",
+   "anchored_refs": [
+    "BoolSetting",
+    "DoubleSetting",
+    "EnumSetting",
+    "Module",
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "refs": [
+    "DM",
+    "Dl",
+    "Dx",
+    "Xn",
+    "_P",
+    "_y",
+    "dR",
+    "e",
+    "hi",
+    "nj",
+    "vY",
+    "yE"
+   ],
+   "mc_imports": [],
+   "n_fields": 13,
+   "n_methods": 29,
+   "candidates": [
+    {
+     "src": "ModuleButton",
+     "score": 15.0,
+     "why": "锚点引用:BoolSetting,DoubleSetting,EnumSetting,Module,Setting",
+     "unique": false
+    },
+    {
+     "src": "ConfigHolder",
+     "score": 15.0,
+     "why": "锚点引用:BoolSetting,DoubleSetting,EnumSetting,Module,Setting",
+     "unique": false
+    },
+    {
+     "src": "ClientSetting",
+     "score": 15.0,
+     "why": "锚点引用:BoolSetting,DoubleSetting,EnumSetting,Module,Setting",
+     "unique": false
+    }
+   ]
+  },
+  {
+   "obf": "eD",
+   "kind": "class",
+   "super": "eh",
+   "lines": 1663,
+   "decl_line": "class eD\nextends eh ",
+   "anchored_refs": [
+    "BoolSetting",
+    "ColorSetting",
+    "EnumSetting",
+    "Module",
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "refs": [
+    "DV",
+    "Dl",
+    "Dx",
+    "Xn",
+    "_j",
+    "dl",
+    "e",
+    "eh",
+    "hi",
+    "i7",
+    "iX",
+    "l3"
+   ],
+   "mc_imports": [
+    "net.minecraft.client.DeltaTracker"
+   ],
+   "n_fields": 16,
+   "n_methods": 45,
+   "candidates": [
+    {
+     "src": "ModuleButton",
+     "score": 15.0,
+     "why": "锚点引用:BoolSetting,ColorSetting,EnumSetting,Module,Setting",
+     "unique": false
+    },
+    {
+     "src": "ConfigHolder",
+     "score": 15.0,
+     "why": "锚点引用:BoolSetting,ColorSetting,EnumSetting,Module,Setting",
+     "unique": false
+    },
+    {
+     "src": "ClientSetting",
+     "score": 15.0,
+     "why": "锚点引用:BoolSetting,ColorSetting,EnumSetting,Module,Setting",
+     "unique": false
+    }
+   ]
+  },
+  {
+   "obf": "eE",
+   "kind": "class",
+   "super": "e",
+   "lines": 1048,
+   "decl_line": "class eE\nextends e ",
+   "anchored_refs": [
+    "BoolSetting",
+    "IntSetting",
+    "KeybindSetting",
+    "Module",
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "refs": [
+    "Dl",
+    "X0",
+    "XG",
+    "Xn",
+    "dR",
+    "e",
+    "hi",
+    "vY",
+    "yE"
+   ],
+   "mc_imports": [
+    "net.minecraft.world.item.Item",
+    "net.minecraft.world.item.ItemStack"
+   ],
+   "n_fields": 13,
+   "n_methods": 24,
+   "candidates": [
+    {
+     "src": "ModuleButton",
+     "score": 15.0,
+     "why": "锚点引用:BoolSetting,IntSetting,KeybindSetting,Module,Setting",
+     "unique": false
+    },
+    {
+     "src": "ConfigHolder",
+     "score": 15.0,
+     "why": "锚点引用:BoolSetting,IntSetting,KeybindSetting,Module,Setting",
+     "unique": false
+    },
+    {
+     "src": "ClientSetting",
+     "score": 15.0,
+     "why": "锚点引用:BoolSetting,IntSetting,KeybindSetting,Module,Setting",
+     "unique": false
+    }
+   ]
+  },
+  {
+   "obf": "eo",
+   "kind": "class",
+   "super": "e",
+   "lines": 740,
+   "decl_line": "class eo\nextends e ",
+   "anchored_refs": [
+    "BoolSetting",
+    "EnumSetting",
+    "IntSetting",
+    "Module",
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "refs": [
+    "Dl",
+    "Dx",
+    "XG",
+    "Xn",
+    "_y",
+    "e",
+    "hi",
+    "lL",
+    "lj",
+    "vW",
+    "vY",
+    "yE"
+   ],
+   "mc_imports": [
+    "net.minecraft.client.Minecraft",
+    "net.minecraft.core.Holder",
+    "net.minecraft.world.entity.EquipmentSlot",
+    "net.minecraft.world.entity.ai.attributes.AttributeModifier",
+    "net.minecraft.world.item.ItemStack",
+    "net.minecraft.world.item.equipment.Equippable"
+   ],
+   "n_fields": 17,
+   "n_methods": 26,
+   "candidates": [
+    {
+     "src": "ModuleButton",
+     "score": 15.0,
+     "why": "锚点引用:BoolSetting,EnumSetting,IntSetting,Module,Setting",
+     "unique": false
+    },
+    {
+     "src": "ConfigHolder",
+     "score": 15.0,
+     "why": "锚点引用:BoolSetting,EnumSetting,IntSetting,Module,Setting",
+     "unique": false
+    },
+    {
+     "src": "ClientSetting",
+     "score": 15.0,
+     "why": "锚点引用:BoolSetting,EnumSetting,IntSetting,Module,Setting",
+     "unique": false
+    }
+   ]
+  },
+  {
+   "obf": "er",
+   "kind": "class",
+   "super": "e",
+   "lines": 1507,
+   "decl_line": "class er\nextends e ",
+   "anchored_refs": [
+    "EnumSetting",
+    "IntSetting",
+    "Module",
+    "SeQL/字符串解密+调用分发核心",
+    "Setting",
+    "StringSetting"
+   ],
+   "refs": [
+    "Dl",
+    "Dx",
+    "XG",
+    "Xc",
+    "dG",
+    "dR",
+    "e",
+    "hi",
+    "vY",
+    "yE"
+   ],
+   "mc_imports": [],
+   "n_fields": 12,
+   "n_methods": 29,
+   "candidates": [
+    {
+     "src": "ModuleButton",
+     "score": 15.0,
+     "why": "锚点引用:EnumSetting,IntSetting,Module,Setting,StringSetting",
+     "unique": false
+    },
+    {
+     "src": "ConfigHolder",
+     "score": 15.0,
+     "why": "锚点引用:EnumSetting,IntSetting,Module,Setting,StringSetting",
+     "unique": false
+    },
+    {
+     "src": "ClientSetting",
+     "score": 15.0,
+     "why": "锚点引用:EnumSetting,IntSetting,Module,Setting,StringSetting",
+     "unique": false
+    }
+   ]
+  }
+ ]
+}

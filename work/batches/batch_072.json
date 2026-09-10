@@ -1,0 +1,148 @@
+{
+ "batch": "B072",
+ "n": 8,
+ "classes": [
+  {
+   "obf": "Oo",
+   "kind": "class",
+   "super": "Record",
+   "lines": 51,
+   "decl_line": "class Oo\nextends Record ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "df",
+    "hi",
+    "ih"
+   ],
+   "mc_imports": [],
+   "n_fields": 3,
+   "n_methods": 10,
+   "candidates": []
+  },
+  {
+   "obf": "Op",
+   "kind": "class",
+   "super": null,
+   "lines": 31,
+   "decl_line": "class Op ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "dX",
+    "hi"
+   ],
+   "mc_imports": [],
+   "n_fields": 2,
+   "n_methods": 4,
+   "candidates": []
+  },
+  {
+   "obf": "OQ",
+   "kind": "class",
+   "super": "Enum",
+   "lines": 140,
+   "decl_line": "class OQ\nextends Enum<OQ> ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "hi"
+   ],
+   "mc_imports": [],
+   "n_fields": 1,
+   "n_methods": 7,
+   "candidates": []
+  },
+  {
+   "obf": "OR",
+   "kind": "class",
+   "super": null,
+   "lines": 27,
+   "decl_line": "class OR ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "hi"
+   ],
+   "mc_imports": [],
+   "n_fields": 0,
+   "n_methods": 0,
+   "candidates": []
+  },
+  {
+   "obf": "Or",
+   "kind": "record",
+   "super": null,
+   "lines": 18,
+   "decl_line": "record Or(On xC) implements _Q\n",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "On",
+    "_Q",
+    "hi"
+   ],
+   "mc_imports": [],
+   "n_fields": 1,
+   "n_methods": 2,
+   "candidates": []
+  },
+  {
+   "obf": "Ou",
+   "kind": "class",
+   "super": "Record",
+   "lines": 88,
+   "decl_line": "class Ou\nextends Record\nimplements _Q ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "_Q",
+    "hi"
+   ],
+   "mc_imports": [],
+   "n_fields": 9,
+   "n_methods": 22,
+   "candidates": []
+  },
+  {
+   "obf": "OV",
+   "kind": "record",
+   "super": null,
+   "lines": 26,
+   "decl_line": "record OV(GpuTextureView kN, GpuSampler TX) ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "hi"
+   ],
+   "mc_imports": [],
+   "n_fields": 2,
+   "n_methods": 4,
+   "candidates": []
+  },
+  {
+   "obf": "OW",
+   "kind": "class",
+   "super": "Enum",
+   "lines": 234,
+   "decl_line": "class OW\nextends Enum<OW> ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "hi"
+   ],
+   "mc_imports": [],
+   "n_fields": 1,
+   "n_methods": 11,
+   "candidates": []
+  }
+ ]
+}

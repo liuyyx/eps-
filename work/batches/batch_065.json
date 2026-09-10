@@ -1,0 +1,143 @@
+{
+ "batch": "B065",
+ "n": 8,
+ "classes": [
+  {
+   "obf": "n0",
+   "kind": "class",
+   "super": "Enum",
+   "lines": 142,
+   "decl_line": "class n0\nextends Enum<n0> ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "hi"
+   ],
+   "mc_imports": [],
+   "n_fields": 1,
+   "n_methods": 8,
+   "candidates": []
+  },
+  {
+   "obf": "n2",
+   "kind": "class",
+   "super": null,
+   "lines": 21,
+   "decl_line": "class n2 ",
+   "anchored_refs": [],
+   "refs": [
+    "yj"
+   ],
+   "mc_imports": [],
+   "n_fields": 2,
+   "n_methods": 3,
+   "candidates": []
+  },
+  {
+   "obf": "n7",
+   "kind": "class",
+   "super": "Enum",
+   "lines": 125,
+   "decl_line": "class n7\nextends Enum<n7> ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "hi"
+   ],
+   "mc_imports": [],
+   "n_fields": 1,
+   "n_methods": 7,
+   "candidates": []
+  },
+  {
+   "obf": "n8",
+   "kind": "class",
+   "super": "Record",
+   "lines": 45,
+   "decl_line": "class n8\nextends Record\nimplements _Q ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "_Q",
+    "hi"
+   ],
+   "mc_imports": [],
+   "n_fields": 2,
+   "n_methods": 8,
+   "candidates": []
+  },
+  {
+   "obf": "n9",
+   "kind": "class",
+   "super": "Enum",
+   "lines": 170,
+   "decl_line": "class n9\nextends Enum<n9> ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "hi"
+   ],
+   "mc_imports": [],
+   "n_fields": 1,
+   "n_methods": 9,
+   "candidates": []
+  },
+  {
+   "obf": "nA",
+   "kind": "class",
+   "super": "Record",
+   "lines": 61,
+   "decl_line": "class nA\nextends Record ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "hi"
+   ],
+   "mc_imports": [],
+   "n_fields": 5,
+   "n_methods": 14,
+   "candidates": []
+  },
+  {
+   "obf": "na",
+   "kind": "class",
+   "super": null,
+   "lines": 80,
+   "decl_line": "class na ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "hi"
+   ],
+   "mc_imports": [
+    "net.minecraft.core.Direction"
+   ],
+   "n_fields": 0,
+   "n_methods": 1,
+   "candidates": []
+  },
+  {
+   "obf": "nB",
+   "kind": "class",
+   "super": "Record",
+   "lines": 55,
+   "decl_line": "class nB\nextends Record ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "hi"
+   ],
+   "mc_imports": [],
+   "n_fields": 4,
+   "n_methods": 12,
+   "candidates": []
+  }
+ ]
+}

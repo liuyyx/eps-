@@ -1,0 +1,152 @@
+{
+ "batch": "B063",
+ "n": 8,
+ "classes": [
+  {
+   "obf": "ll",
+   "kind": "class",
+   "super": "Record",
+   "lines": 47,
+   "decl_line": "class ll\nextends Record\nimplements _Q ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "_Q",
+    "hi",
+    "ih"
+   ],
+   "mc_imports": [],
+   "n_fields": 2,
+   "n_methods": 8,
+   "candidates": []
+  },
+  {
+   "obf": "lN",
+   "kind": "class",
+   "super": null,
+   "lines": 194,
+   "decl_line": "class lN ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "Xi",
+    "hi"
+   ],
+   "mc_imports": [
+    "net.minecraft.client.renderer.GameRenderer",
+    "net.minecraft.resources.Identifier",
+    "net.minecraft.world.entity.LivingEntity"
+   ],
+   "n_fields": 2,
+   "n_methods": 5,
+   "candidates": []
+  },
+  {
+   "obf": "ln",
+   "kind": "class",
+   "super": "Record",
+   "lines": 89,
+   "decl_line": "class ln\nextends Record\nimplements _Q ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "_Q",
+    "hi",
+    "nK"
+   ],
+   "mc_imports": [],
+   "n_fields": 9,
+   "n_methods": 22,
+   "candidates": []
+  },
+  {
+   "obf": "lO",
+   "kind": "class",
+   "super": null,
+   "lines": 35,
+   "decl_line": "class lO ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "hi",
+    "i2"
+   ],
+   "mc_imports": [],
+   "n_fields": 1,
+   "n_methods": 4,
+   "candidates": []
+  },
+  {
+   "obf": "lP",
+   "kind": "class",
+   "super": "Enum",
+   "lines": 125,
+   "decl_line": "class lP\nextends Enum<lP> ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "hi"
+   ],
+   "mc_imports": [],
+   "n_fields": 1,
+   "n_methods": 7,
+   "candidates": []
+  },
+  {
+   "obf": "lQ",
+   "kind": "class",
+   "super": "Enum",
+   "lines": 237,
+   "decl_line": "class lQ\nextends Enum<lQ> ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "hi"
+   ],
+   "mc_imports": [],
+   "n_fields": 3,
+   "n_methods": 15,
+   "candidates": []
+  },
+  {
+   "obf": "lq",
+   "kind": "class",
+   "super": "Enum",
+   "lines": 185,
+   "decl_line": "class lq\nextends Enum<lq> ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "hi"
+   ],
+   "mc_imports": [],
+   "n_fields": 1,
+   "n_methods": 9,
+   "candidates": []
+  },
+  {
+   "obf": "lR",
+   "kind": "class",
+   "super": null,
+   "lines": 182,
+   "decl_line": "class lR ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "hi"
+   ],
+   "mc_imports": [],
+   "n_fields": 5,
+   "n_methods": 7,
+   "candidates": []
+  }
+ ]
+}

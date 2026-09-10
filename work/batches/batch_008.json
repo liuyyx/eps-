@@ -1,0 +1,468 @@
+{
+ "batch": "B008",
+ "n": 8,
+ "classes": [
+  {
+   "obf": "Og",
+   "kind": "class",
+   "super": null,
+   "lines": 2877,
+   "decl_line": "class Og\nimplements AutoCloseable ",
+   "anchored_refs": [
+    "ColorSetting",
+    "EnumSetting",
+    "RegistryListSetting",
+    "SeQL/字符串解密+调用分发核心",
+    "Setting",
+    "StringListSetting"
+   ],
+   "refs": [
+    "DV",
+    "DX",
+    "Dl",
+    "Dx",
+    "OZ",
+    "XF",
+    "XJ",
+    "Xd",
+    "Xe",
+    "_6",
+    "_E",
+    "_j",
+    "dU",
+    "hi"
+   ],
+   "mc_imports": [
+    "net.minecraft.client.input.CharacterEvent",
+    "net.minecraft.client.input.KeyEvent",
+    "net.minecraft.client.input.MouseButtonEvent",
+    "net.minecraft.client.input.PreeditEvent"
+   ],
+   "n_fields": 11,
+   "n_methods": 64,
+   "candidates": [
+    {
+     "src": "ModuleButton",
+     "score": 15.0,
+     "why": "锚点引用:ColorSetting,EnumSetting,RegistryListSetting,Setting,StringListSetting",
+     "unique": false
+    },
+    {
+     "src": "SettingsContent",
+     "score": 15.0,
+     "why": "锚点引用:ColorSetting,EnumSetting,RegistryListSetting,Setting,StringListSetting",
+     "unique": false
+    },
+    {
+     "src": "SettingViewFactory",
+     "score": 15.0,
+     "why": "锚点引用:ColorSetting,EnumSetting,RegistryListSetting,Setting,StringListSetting",
+     "unique": false
+    }
+   ]
+  },
+  {
+   "obf": "q",
+   "kind": "class",
+   "super": "e",
+   "lines": 2907,
+   "decl_line": "class q\nextends e ",
+   "anchored_refs": [
+    "BoolSetting",
+    "DoubleSetting",
+    "IntSetting",
+    "Module",
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "refs": [
+    "DM",
+    "Dl",
+    "XG",
+    "Xn",
+    "_Z",
+    "dP",
+    "dQ",
+    "dR",
+    "di",
+    "e",
+    "eK",
+    "hi",
+    "uK",
+    "vY"
+   ],
+   "mc_imports": [
+    "net.minecraft.client.Minecraft",
+    "net.minecraft.client.gui.Gui",
+    "net.minecraft.client.gui.screens.inventory.AbstractContainerScreen",
+    "net.minecraft.client.multiplayer.ClientLevel",
+    "net.minecraft.client.player.LocalPlayer",
+    "net.minecraft.core.BlockPos",
+    "net.minecraft.network.protocol.game.ClientboundBlockEventPacket",
+    "net.minecraft.network.protocol.game.ClientboundContainerClosePacket",
+    "net.minecraft.network.protocol.game.ClientboundSoundPacket",
+    "net.minecraft.network.protocol.game.ServerboundContainerClosePacket"
+   ],
+   "n_fields": 25,
+   "n_methods": 55,
+   "candidates": [
+    {
+     "src": "ModuleButton",
+     "score": 15.0,
+     "why": "锚点引用:BoolSetting,DoubleSetting,IntSetting,Module,Setting",
+     "unique": false
+    },
+    {
+     "src": "ConfigHolder",
+     "score": 15.0,
+     "why": "锚点引用:BoolSetting,DoubleSetting,IntSetting,Module,Setting",
+     "unique": false
+    },
+    {
+     "src": "ClientSetting",
+     "score": 15.0,
+     "why": "锚点引用:BoolSetting,DoubleSetting,IntSetting,Module,Setting",
+     "unique": false
+    }
+   ]
+  },
+  {
+   "obf": "uI",
+   "kind": "class",
+   "super": null,
+   "lines": 3008,
+   "decl_line": "class uI ",
+   "anchored_refs": [
+    "BoolSetting",
+    "ColorSetting",
+    "Dependency",
+    "DoubleSetting",
+    "IntSetting",
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "refs": [
+    "DM",
+    "DV",
+    "Dl",
+    "XG",
+    "Xn",
+    "_j",
+    "eJ",
+    "g7",
+    "hi",
+    "nK",
+    "nX",
+    "y1",
+    "yx",
+    "z8"
+   ],
+   "mc_imports": [],
+   "n_fields": 12,
+   "n_methods": 55,
+   "candidates": [
+    {
+     "src": "ModuleButton",
+     "score": 15.0,
+     "why": "锚点引用:BoolSetting,ColorSetting,DoubleSetting,IntSetting,Setting",
+     "unique": false
+    },
+    {
+     "src": "SettingsContent",
+     "score": 15.0,
+     "why": "锚点引用:BoolSetting,ColorSetting,DoubleSetting,IntSetting,Setting",
+     "unique": false
+    },
+    {
+     "src": "SettingViewFactory",
+     "score": 15.0,
+     "why": "锚点引用:BoolSetting,ColorSetting,DoubleSetting,IntSetting,Setting",
+     "unique": false
+    }
+   ]
+  },
+  {
+   "obf": "uk",
+   "kind": "class",
+   "super": "e",
+   "lines": 1275,
+   "decl_line": "class uk\nextends e ",
+   "anchored_refs": [
+    "BoolSetting",
+    "IntSetting",
+    "KeybindSetting",
+    "Module",
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "refs": [
+    "Dl",
+    "X0",
+    "XG",
+    "Xn",
+    "dR",
+    "e",
+    "hi",
+    "vY",
+    "yE"
+   ],
+   "mc_imports": [
+    "net.minecraft.client.player.LocalPlayer",
+    "net.minecraft.world.InteractionHand",
+    "net.minecraft.world.item.ItemStack",
+    "net.minecraft.world.item.equipment.Equippable"
+   ],
+   "n_fields": 16,
+   "n_methods": 27,
+   "candidates": [
+    {
+     "src": "ModuleButton",
+     "score": 15.0,
+     "why": "锚点引用:BoolSetting,IntSetting,KeybindSetting,Module,Setting",
+     "unique": false
+    },
+    {
+     "src": "ConfigHolder",
+     "score": 15.0,
+     "why": "锚点引用:BoolSetting,IntSetting,KeybindSetting,Module,Setting",
+     "unique": false
+    },
+    {
+     "src": "ClientSetting",
+     "score": 15.0,
+     "why": "锚点引用:BoolSetting,IntSetting,KeybindSetting,Module,Setting",
+     "unique": false
+    }
+   ]
+  },
+  {
+   "obf": "y",
+   "kind": "class",
+   "super": "e",
+   "lines": 993,
+   "decl_line": "class y\nextends e ",
+   "anchored_refs": [
+    "BoolSetting",
+    "DoubleSetting",
+    "IntSetting",
+    "Module",
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "refs": [
+    "DM",
+    "Dl",
+    "XG",
+    "Xn",
+    "d3",
+    "dR",
+    "e",
+    "hi",
+    "vY",
+    "yE"
+   ],
+   "mc_imports": [
+    "net.minecraft.client.multiplayer.MultiPlayerGameMode",
+    "net.minecraft.world.entity.Entity",
+    "net.minecraft.world.entity.LivingEntity",
+    "net.minecraft.world.entity.player.Player"
+   ],
+   "n_fields": 14,
+   "n_methods": 21,
+   "candidates": [
+    {
+     "src": "ModuleButton",
+     "score": 15.0,
+     "why": "锚点引用:BoolSetting,DoubleSetting,IntSetting,Module,Setting",
+     "unique": false
+    },
+    {
+     "src": "ConfigHolder",
+     "score": 15.0,
+     "why": "锚点引用:BoolSetting,DoubleSetting,IntSetting,Module,Setting",
+     "unique": false
+    },
+    {
+     "src": "ClientSetting",
+     "score": 15.0,
+     "why": "锚点引用:BoolSetting,DoubleSetting,IntSetting,Module,Setting",
+     "unique": false
+    }
+   ]
+  },
+  {
+   "obf": "z",
+   "kind": "class",
+   "super": "e",
+   "lines": 940,
+   "decl_line": "class z\nextends e ",
+   "anchored_refs": [
+    "BoolSetting",
+    "DoubleSetting",
+    "IntSetting",
+    "Module",
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "refs": [
+    "DM",
+    "Dl",
+    "XG",
+    "Xn",
+    "dR",
+    "e",
+    "hi",
+    "vY",
+    "yE"
+   ],
+   "mc_imports": [
+    "net.minecraft.client.multiplayer.MultiPlayerGameMode",
+    "net.minecraft.client.player.LocalPlayer",
+    "net.minecraft.network.protocol.game.ServerboundSwingPacket",
+    "net.minecraft.world.InteractionHand",
+    "net.minecraft.world.entity.Entity",
+    "net.minecraft.world.entity.LivingEntity",
+    "net.minecraft.world.entity.player.Player"
+   ],
+   "n_fields": 17,
+   "n_methods": 26,
+   "candidates": [
+    {
+     "src": "ModuleButton",
+     "score": 15.0,
+     "why": "锚点引用:BoolSetting,DoubleSetting,IntSetting,Module,Setting",
+     "unique": false
+    },
+    {
+     "src": "ConfigHolder",
+     "score": 15.0,
+     "why": "锚点引用:BoolSetting,DoubleSetting,IntSetting,Module,Setting",
+     "unique": false
+    },
+    {
+     "src": "ClientSetting",
+     "score": 15.0,
+     "why": "锚点引用:BoolSetting,DoubleSetting,IntSetting,Module,Setting",
+     "unique": false
+    }
+   ]
+  },
+  {
+   "obf": "y9",
+   "kind": "class",
+   "super": null,
+   "lines": 3269,
+   "decl_line": "class y9\nimplements AutoCloseable ",
+   "anchored_refs": [
+    "KeybindSetting",
+    "Module",
+    "SeQL/字符串解密+调用分发核心",
+    "Setting",
+    "TranslateComponent"
+   ],
+   "refs": [
+    "Dg",
+    "Dl",
+    "Og",
+    "X0",
+    "XZ",
+    "_6",
+    "_E",
+    "_j",
+    "e",
+    "hi",
+    "ih",
+    "l5",
+    "lH",
+    "lm"
+   ],
+   "mc_imports": [
+    "net.minecraft.client.gui.GuiGraphicsExtractor",
+    "net.minecraft.client.input.CharacterEvent",
+    "net.minecraft.client.input.KeyEvent",
+    "net.minecraft.client.input.MouseButtonEvent"
+   ],
+   "n_fields": 24,
+   "n_methods": 81,
+   "candidates": [
+    {
+     "src": "ModuleDetailPanel",
+     "score": 14.0,
+     "why": "锚点引用:KeybindSetting,Module,Setting; MCimport:4",
+     "unique": false
+    },
+    {
+     "src": "AddonClientSettingTab",
+     "score": 11.0,
+     "why": "锚点引用:KeybindSetting,Setting; MCimport:4",
+     "unique": false
+    },
+    {
+     "src": "GeneralClientSettingTab",
+     "score": 11.0,
+     "why": "锚点引用:KeybindSetting,Setting; MCimport:4",
+     "unique": false
+    }
+   ]
+  },
+  {
+   "obf": "eI",
+   "kind": "class",
+   "super": "e",
+   "lines": 1626,
+   "decl_line": "class eI\nextends e ",
+   "anchored_refs": [
+    "BoolSetting",
+    "IntSetting",
+    "KeyboardInputEvent",
+    "Module",
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "refs": [
+    "Dl",
+    "XG",
+    "Xn",
+    "dR",
+    "e",
+    "hi",
+    "vY",
+    "yE",
+    "yi"
+   ],
+   "mc_imports": [
+    "net.minecraft.client.player.LocalPlayer",
+    "net.minecraft.world.item.BlockItem",
+    "net.minecraft.world.level.block.CarvedPumpkinBlock",
+    "net.minecraft.world.level.block.EntityBlock",
+    "net.minecraft.world.level.block.FallingBlock",
+    "net.minecraft.world.level.block.PumpkinBlock",
+    "net.minecraft.world.level.block.SlimeBlock",
+    "net.minecraft.world.level.block.TntBlock",
+    "net.minecraft.world.phys.Vec3"
+   ],
+   "n_fields": 11,
+   "n_methods": 28,
+   "candidates": [
+    {
+     "src": "Follower",
+     "score": 12.67,
+     "why": "锚点引用:BoolSetting,IntSetting,KeyboardInputEvent,Module; MCimport:2",
+     "unique": false
+    },
+    {
+     "src": "Eagle",
+     "score": 12.57,
+     "why": "锚点引用:BoolSetting,IntSetting,KeyboardInputEvent,Module; MCimport:2",
+     "unique": false
+    },
+    {
+     "src": "Scaffold",
+     "score": 12.38,
+     "why": "锚点引用:BoolSetting,IntSetting,KeyboardInputEvent,Module; MCimport:2",
+     "unique": true
+    }
+   ]
+  }
+ ]
+}

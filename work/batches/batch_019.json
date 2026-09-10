@@ -1,0 +1,393 @@
+{
+ "batch": "B019",
+ "n": 8,
+ "classes": [
+  {
+   "obf": "zS",
+   "kind": "class",
+   "super": null,
+   "lines": 697,
+   "decl_line": "class zS ",
+   "anchored_refs": [
+    "Module",
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "refs": [
+    "Dl",
+    "e",
+    "hi"
+   ],
+   "mc_imports": [
+    "net.minecraft.client.player.LocalPlayer",
+    "net.minecraft.core.BlockPos",
+    "net.minecraft.world.level.block.WebBlock",
+    "net.minecraft.world.level.block.state.BlockState"
+   ],
+   "n_fields": 3,
+   "n_methods": 10,
+   "candidates": [
+    {
+     "src": "EpsilonAddon",
+     "score": 6.0,
+     "why": "锚点引用:Module,Setting",
+     "unique": true
+    },
+    {
+     "src": "I18NFileGenerator",
+     "score": 6.0,
+     "why": "锚点引用:Module,Setting",
+     "unique": true
+    },
+    {
+     "src": "ModuleButton",
+     "score": 6.0,
+     "why": "锚点引用:Module,Setting",
+     "unique": false
+    }
+   ]
+  },
+  {
+   "obf": "zW",
+   "kind": "class",
+   "super": "zc",
+   "lines": 350,
+   "decl_line": "class zW\nextends zc<Xp> ",
+   "anchored_refs": [
+    "ButtonSetting",
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "refs": [
+    "DF",
+    "Dl",
+    "Xp",
+    "_E",
+    "hi",
+    "lH",
+    "u4",
+    "zJ",
+    "zU",
+    "zc"
+   ],
+   "mc_imports": [],
+   "n_fields": 3,
+   "n_methods": 10,
+   "candidates": [
+    {
+     "src": "ModuleButton",
+     "score": 6.0,
+     "why": "锚点引用:ButtonSetting,Setting",
+     "unique": false
+    },
+    {
+     "src": "SettingsContent",
+     "score": 6.0,
+     "why": "锚点引用:ButtonSetting,Setting",
+     "unique": false
+    },
+    {
+     "src": "SettingViewFactory",
+     "score": 6.0,
+     "why": "锚点引用:ButtonSetting,Setting",
+     "unique": false
+    }
+   ]
+  },
+  {
+   "obf": "zz",
+   "kind": "class",
+   "super": "zc",
+   "lines": 1771,
+   "decl_line": "class zz\nextends zc<Dx<?>> ",
+   "anchored_refs": [
+    "EnumSetting",
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "refs": [
+    "DF",
+    "Dl",
+    "Dx",
+    "_E",
+    "hi",
+    "lH",
+    "zU",
+    "zc"
+   ],
+   "mc_imports": [],
+   "n_fields": 5,
+   "n_methods": 51,
+   "candidates": [
+    {
+     "src": "I18NFileGenerator",
+     "score": 6.0,
+     "why": "锚点引用:EnumSetting,Setting",
+     "unique": true
+    },
+    {
+     "src": "ModuleButton",
+     "score": 6.0,
+     "why": "锚点引用:EnumSetting,Setting",
+     "unique": false
+    },
+    {
+     "src": "SettingsContent",
+     "score": 6.0,
+     "why": "锚点引用:EnumSetting,Setting",
+     "unique": false
+    }
+   ]
+  },
+  {
+   "obf": "_I",
+   "kind": "class",
+   "super": null,
+   "lines": 648,
+   "decl_line": "class _I ",
+   "anchored_refs": [
+    "IntSetting",
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "refs": [
+    "Dl",
+    "XG",
+    "Xi",
+    "eR",
+    "hi"
+   ],
+   "mc_imports": [
+    "net.minecraft.client.multiplayer.ClientLevel",
+    "net.minecraft.core.BlockPos",
+    "net.minecraft.world.level.block.state.BlockState",
+    "net.minecraft.world.phys.Vec3"
+   ],
+   "n_fields": 17,
+   "n_methods": 26,
+   "candidates": [
+    {
+     "src": "ModuleButton",
+     "score": 6.0,
+     "why": "锚点引用:IntSetting,Setting",
+     "unique": false
+    },
+    {
+     "src": "SettingsContent",
+     "score": 6.0,
+     "why": "锚点引用:IntSetting,Setting",
+     "unique": false
+    },
+    {
+     "src": "SettingViewFactory",
+     "score": 6.0,
+     "why": "锚点引用:IntSetting,Setting",
+     "unique": false
+    }
+   ]
+  },
+  {
+   "obf": "_n",
+   "kind": "class",
+   "super": null,
+   "lines": 835,
+   "decl_line": "class _n ",
+   "anchored_refs": [
+    "EventBus",
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "refs": [
+    "Dl",
+    "__",
+    "hi",
+    "vy",
+    "yE",
+    "ym"
+   ],
+   "mc_imports": [
+    "net.minecraft.client.player.AbstractClientPlayer",
+    "net.minecraft.world.entity.Entity",
+    "net.minecraft.world.entity.player.Player",
+    "net.minecraft.world.level.Level",
+    "net.minecraft.world.phys.AABB",
+    "net.minecraft.world.phys.Vec3"
+   ],
+   "n_fields": 3,
+   "n_methods": 14,
+   "candidates": [
+    {
+     "src": "MixinPlayer",
+     "score": 6.0,
+     "why": "锚点引用:EventBus; MCimport:3",
+     "unique": false
+    },
+    {
+     "src": "Module",
+     "score": 6.0,
+     "why": "锚点引用:EventBus,Setting",
+     "unique": false
+    },
+    {
+     "src": "MixinItem",
+     "score": 5.5,
+     "why": "锚点引用:EventBus; MCimport:3",
+     "unique": false
+    }
+   ]
+  },
+  {
+   "obf": "_W",
+   "kind": "class",
+   "super": null,
+   "lines": 759,
+   "decl_line": "class _W ",
+   "anchored_refs": [
+    "Module",
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "refs": [
+    "Dl",
+    "e",
+    "hi"
+   ],
+   "mc_imports": [],
+   "n_fields": 7,
+   "n_methods": 16,
+   "candidates": [
+    {
+     "src": "EpsilonAddon",
+     "score": 6.0,
+     "why": "锚点引用:Module,Setting",
+     "unique": true
+    },
+    {
+     "src": "I18NFileGenerator",
+     "score": 6.0,
+     "why": "锚点引用:Module,Setting",
+     "unique": true
+    },
+    {
+     "src": "ModuleButton",
+     "score": 6.0,
+     "why": "锚点引用:Module,Setting",
+     "unique": false
+    }
+   ]
+  },
+  {
+   "obf": "iJ",
+   "kind": "class",
+   "super": null,
+   "lines": 1678,
+   "decl_line": "class iJ ",
+   "anchored_refs": [
+    "MasEffects",
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "refs": [
+    "Dl",
+    "e8",
+    "gE",
+    "gK",
+    "gM",
+    "gT",
+    "gV",
+    "gZ",
+    "gf",
+    "gl",
+    "gq",
+    "gs",
+    "gw",
+    "hi"
+   ],
+   "mc_imports": [
+    "net.minecraft.resources.Identifier",
+    "net.minecraft.tags.TagKey",
+    "net.minecraft.util.RandomSource",
+    "net.minecraft.world.entity.Entity",
+    "net.minecraft.world.entity.EntityDimensions",
+    "net.minecraft.world.entity.player.Player",
+    "net.minecraft.world.entity.projectile.throwableitemprojectile.ThrownEnderpearl",
+    "net.minecraft.world.item.Item",
+    "net.minecraft.world.item.ItemStack",
+    "net.minecraft.world.phys.Vec3"
+   ],
+   "n_fields": 23,
+   "n_methods": 48,
+   "candidates": [
+    {
+     "src": "MasEffectsParticleRenderer",
+     "score": 5.28,
+     "why": "锚点引用:MasEffects; MCimport:8",
+     "unique": false
+    },
+    {
+     "src": "RegistryListSelectPopup",
+     "score": 4.52,
+     "why": "锚点引用:Setting; MCimport:3",
+     "unique": true
+    },
+    {
+     "src": "MixinClientLevel",
+     "score": 3.67,
+     "why": "锚点引用:MasEffects; MCimport:2",
+     "unique": false
+    }
+   ]
+  },
+  {
+   "obf": "_i",
+   "kind": "class",
+   "super": "RemotePlayer",
+   "lines": 392,
+   "decl_line": "class _i\nextends RemotePlayer ",
+   "anchored_refs": [
+    "Render3DEvent",
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "refs": [
+    "Dl",
+    "d9",
+    "hi",
+    "lH",
+    "uz",
+    "yL"
+   ],
+   "mc_imports": [
+    "net.minecraft.client.Minecraft",
+    "net.minecraft.client.multiplayer.ClientLevel",
+    "net.minecraft.client.player.RemotePlayer",
+    "net.minecraft.network.chat.Component",
+    "net.minecraft.world.InteractionHand",
+    "net.minecraft.world.entity.WalkAnimationState",
+    "net.minecraft.world.entity.player.Player"
+   ],
+   "n_fields": 7,
+   "n_methods": 14,
+   "candidates": [
+    {
+     "src": "PopChams",
+     "score": 5.09,
+     "why": "锚点引用:Render3DEvent; MCimport:3",
+     "unique": false
+    },
+    {
+     "src": "LogoutSpots",
+     "score": 5.0,
+     "why": "锚点引用:Render3DEvent; MCimport:3",
+     "unique": false
+    },
+    {
+     "src": "Module",
+     "score": 3.57,
+     "why": "锚点引用:Setting; MCimport:1",
+     "unique": false
+    }
+   ]
+  }
+ ]
+}

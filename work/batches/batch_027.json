@@ -1,0 +1,326 @@
+{
+ "batch": "B027",
+ "n": 8,
+ "classes": [
+  {
+   "obf": "yl",
+   "kind": "class",
+   "super": "Record",
+   "lines": 67,
+   "decl_line": "class yl\nextends Record ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "hi",
+    "nD"
+   ],
+   "mc_imports": [
+    "net.minecraft.core.BlockPos"
+   ],
+   "n_fields": 5,
+   "n_methods": 14,
+   "candidates": [
+    {
+     "src": "DestroyBlockEvent",
+     "score": 4.0,
+     "why": "MCimport:1",
+     "unique": false
+    },
+    {
+     "src": "BlockCollisionEvent",
+     "score": 2.0,
+     "why": "MCimport:1",
+     "unique": false
+    },
+    {
+     "src": "StartDestroyBlockEvent",
+     "score": 2.0,
+     "why": "MCimport:1",
+     "unique": false
+    }
+   ]
+  },
+  {
+   "obf": "yn",
+   "kind": "class",
+   "super": null,
+   "lines": 885,
+   "decl_line": "class yn ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "refs": [
+    "Dl",
+    "hi",
+    "ij",
+    "nG",
+    "y4"
+   ],
+   "mc_imports": [
+    "net.minecraft.client.renderer.texture.AbstractTexture",
+    "net.minecraft.client.renderer.texture.TextureManager",
+    "net.minecraft.resources.Identifier"
+   ],
+   "n_fields": 15,
+   "n_methods": 28,
+   "candidates": [
+    {
+     "src": "ClientSetting",
+     "score": 4.0,
+     "why": "锚点引用:Setting; MCimport:1",
+     "unique": false
+    },
+    {
+     "src": "RegistryListSetting",
+     "score": 3.4,
+     "why": "锚点引用:Setting; MCimport:1",
+     "unique": false
+    },
+    {
+     "src": "RegistryListSelectPopup",
+     "score": 3.22,
+     "why": "锚点引用:Setting; MCimport:1",
+     "unique": true
+    }
+   ]
+  },
+  {
+   "obf": "zo",
+   "kind": "class",
+   "super": null,
+   "lines": 23,
+   "decl_line": "class zo ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "hi"
+   ],
+   "mc_imports": [
+    "net.minecraft.client.gui.GuiGraphicsExtractor"
+   ],
+   "n_fields": 1,
+   "n_methods": 3,
+   "candidates": [
+    {
+     "src": "Render2DEvent",
+     "score": 4.0,
+     "why": "MCimport:1",
+     "unique": false
+    },
+    {
+     "src": "ColorSettingRow",
+     "score": 4.0,
+     "why": "MCimport:1",
+     "unique": false
+    },
+    {
+     "src": "BoolSettingRow",
+     "score": 2.0,
+     "why": "MCimport:1",
+     "unique": true
+    }
+   ]
+  },
+  {
+   "obf": "zq",
+   "kind": "class",
+   "super": "Record",
+   "lines": 176,
+   "decl_line": "class zq\nextends Record ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "refs": [
+    "Dl",
+    "hi"
+   ],
+   "mc_imports": [
+    "net.minecraft.world.entity.LivingEntity"
+   ],
+   "n_fields": 12,
+   "n_methods": 32,
+   "candidates": [
+    {
+     "src": "TargetRequest",
+     "score": 4.0,
+     "why": "MCimport:1",
+     "unique": false
+    },
+    {
+     "src": "EpsilonAddon",
+     "score": 3.0,
+     "why": "锚点引用:Setting",
+     "unique": true
+    },
+    {
+     "src": "I18NFileGenerator",
+     "score": 3.0,
+     "why": "锚点引用:Setting",
+     "unique": true
+    }
+   ]
+  },
+  {
+   "obf": "zs",
+   "kind": "class",
+   "super": "Enum",
+   "lines": 940,
+   "decl_line": "class zs\nextends Enum<zs> ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "refs": [
+    "Dl",
+    "hi"
+   ],
+   "mc_imports": [
+    "net.minecraft.core.Holder",
+    "net.minecraft.resources.Identifier",
+    "net.minecraft.world.entity.player.Player"
+   ],
+   "n_fields": 13,
+   "n_methods": 29,
+   "candidates": [
+    {
+     "src": "ClientSetting",
+     "score": 4.0,
+     "why": "锚点引用:Setting; MCimport:1",
+     "unique": false
+    },
+    {
+     "src": "RegistryListSetting",
+     "score": 3.4,
+     "why": "锚点引用:Setting; MCimport:1",
+     "unique": false
+    },
+    {
+     "src": "RegistryListSelectPopup",
+     "score": 3.22,
+     "why": "锚点引用:Setting; MCimport:1",
+     "unique": true
+    }
+   ]
+  },
+  {
+   "obf": "zx",
+   "kind": "class",
+   "super": null,
+   "lines": 36,
+   "decl_line": "class zx ",
+   "anchored_refs": [],
+   "refs": [
+    "ih",
+    "v_"
+   ],
+   "mc_imports": [
+    "net.minecraft.client.gui.GuiGraphicsExtractor",
+    "net.minecraft.client.input.MouseButtonEvent"
+   ],
+   "n_fields": 1,
+   "n_methods": 4,
+   "candidates": [
+    {
+     "src": "BoolSettingRow",
+     "score": 4.0,
+     "why": "MCimport:2",
+     "unique": true
+    },
+    {
+     "src": "ButtonSettingRow",
+     "score": 4.0,
+     "why": "MCimport:2",
+     "unique": true
+    },
+    {
+     "src": "ChoiceSettingRow",
+     "score": 4.0,
+     "why": "MCimport:2",
+     "unique": false
+    }
+   ]
+  },
+  {
+   "obf": "_l",
+   "kind": "class",
+   "super": null,
+   "lines": 177,
+   "decl_line": "class _l ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "refs": [
+    "Dl",
+    "hi"
+   ],
+   "mc_imports": [
+    "net.minecraft.core.BlockPos"
+   ],
+   "n_fields": 5,
+   "n_methods": 8,
+   "candidates": [
+    {
+     "src": "DestroyBlockEvent",
+     "score": 4.0,
+     "why": "MCimport:1",
+     "unique": false
+    },
+    {
+     "src": "EpsilonAddon",
+     "score": 3.0,
+     "why": "锚点引用:Setting",
+     "unique": true
+    },
+    {
+     "src": "I18NFileGenerator",
+     "score": 3.0,
+     "why": "锚点引用:Setting",
+     "unique": true
+    }
+   ]
+  },
+  {
+   "obf": "_V",
+   "kind": "class",
+   "super": null,
+   "lines": 622,
+   "decl_line": "class _V\nimplements AutoCloseable ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "hi"
+   ],
+   "mc_imports": [
+    "net.minecraft.resources.Identifier"
+   ],
+   "n_fields": 14,
+   "n_methods": 26,
+   "candidates": [
+    {
+     "src": "SoundKey",
+     "score": 4.0,
+     "why": "MCimport:1",
+     "unique": false
+    },
+    {
+     "src": "ResourceLocationUtils",
+     "score": 2.0,
+     "why": "MCimport:1",
+     "unique": false
+    },
+    {
+     "src": "ClientSetting",
+     "score": 2.0,
+     "why": "MCimport:1",
+     "unique": false
+    }
+   ]
+  }
+ ]
+}

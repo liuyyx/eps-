@@ -1,0 +1,142 @@
+{
+ "batch": "B053",
+ "n": 8,
+ "classes": [
+  {
+   "obf": "dV",
+   "kind": "class",
+   "super": "Record",
+   "lines": 47,
+   "decl_line": "class dV\nextends Record ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "hi"
+   ],
+   "mc_imports": [
+    "net.minecraft.world.phys.AABB"
+   ],
+   "n_fields": 2,
+   "n_methods": 8,
+   "candidates": []
+  },
+  {
+   "obf": "DW",
+   "kind": "class",
+   "super": "Enum",
+   "lines": 168,
+   "decl_line": "class DW\nextends Enum<DW> ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "hi"
+   ],
+   "mc_imports": [],
+   "n_fields": 1,
+   "n_methods": 8,
+   "candidates": []
+  },
+  {
+   "obf": "dw",
+   "kind": "class",
+   "super": "Record",
+   "lines": 67,
+   "decl_line": "class dw\nextends Record ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "hi"
+   ],
+   "mc_imports": [],
+   "n_fields": 6,
+   "n_methods": 16,
+   "candidates": []
+  },
+  {
+   "obf": "dx",
+   "kind": "class",
+   "super": "Enum",
+   "lines": 123,
+   "decl_line": "class dx\nextends Enum<dx> ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "hi"
+   ],
+   "mc_imports": [],
+   "n_fields": 1,
+   "n_methods": 6,
+   "candidates": []
+  },
+  {
+   "obf": "Dy",
+   "kind": "class",
+   "super": "Record",
+   "lines": 56,
+   "decl_line": "class Dy\nextends Record ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "hi"
+   ],
+   "mc_imports": [],
+   "n_fields": 4,
+   "n_methods": 12,
+   "candidates": []
+  },
+  {
+   "obf": "Dz",
+   "kind": "class",
+   "super": "Exception",
+   "lines": 12,
+   "decl_line": "class Dz\nextends Exception ",
+   "anchored_refs": [],
+   "refs": [],
+   "mc_imports": [],
+   "n_fields": 0,
+   "n_methods": 0,
+   "candidates": []
+  },
+  {
+   "obf": "dZ",
+   "kind": "class",
+   "super": null,
+   "lines": 59,
+   "decl_line": "class dZ ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "hi"
+   ],
+   "mc_imports": [
+    "net.minecraft.world.Difficulty"
+   ],
+   "n_fields": 0,
+   "n_methods": 1,
+   "candidates": []
+  },
+  {
+   "obf": "d_",
+   "kind": "class",
+   "super": "Enum",
+   "lines": 170,
+   "decl_line": "class d_\nextends Enum<d_> ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "hi"
+   ],
+   "mc_imports": [],
+   "n_fields": 1,
+   "n_methods": 9,
+   "candidates": []
+  }
+ ]
+}

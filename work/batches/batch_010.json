@@ -1,0 +1,431 @@
+{
+ "batch": "B010",
+ "n": 8,
+ "classes": [
+  {
+   "obf": "K",
+   "kind": "class",
+   "super": "e",
+   "lines": 1736,
+   "decl_line": "class K\nextends e ",
+   "anchored_refs": [
+    "DoubleSetting",
+    "IntSetting",
+    "Module",
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "refs": [
+    "DM",
+    "Dl",
+    "XG",
+    "dR",
+    "e",
+    "hi",
+    "vY",
+    "yE"
+   ],
+   "mc_imports": [
+    "net.minecraft.client.player.LocalPlayer",
+    "net.minecraft.core.Holder",
+    "net.minecraft.world.entity.Entity",
+    "net.minecraft.world.entity.LivingEntity",
+    "net.minecraft.world.level.ClipContext",
+    "net.minecraft.world.phys.HitResult",
+    "net.minecraft.world.phys.Vec3"
+   ],
+   "n_fields": 10,
+   "n_methods": 27,
+   "candidates": [
+    {
+     "src": "ModuleButton",
+     "score": 12.0,
+     "why": "锚点引用:DoubleSetting,IntSetting,Module,Setting",
+     "unique": false
+    },
+    {
+     "src": "ConfigHolder",
+     "score": 12.0,
+     "why": "锚点引用:DoubleSetting,IntSetting,Module,Setting",
+     "unique": false
+    },
+    {
+     "src": "ClientSetting",
+     "score": 12.0,
+     "why": "锚点引用:DoubleSetting,IntSetting,Module,Setting",
+     "unique": false
+    }
+   ]
+  },
+  {
+   "obf": "u3",
+   "kind": "class",
+   "super": "e",
+   "lines": 1601,
+   "decl_line": "class u3\nextends e ",
+   "anchored_refs": [
+    "BoolSetting",
+    "DoubleSetting",
+    "Module",
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "refs": [
+    "DM",
+    "Dl",
+    "Xn",
+    "e",
+    "hi",
+    "nj",
+    "vY",
+    "yE"
+   ],
+   "mc_imports": [
+    "net.minecraft.core.BlockPos",
+    "net.minecraft.world.entity.Entity",
+    "net.minecraft.world.level.block.BedBlock"
+   ],
+   "n_fields": 6,
+   "n_methods": 16,
+   "candidates": [
+    {
+     "src": "ModuleButton",
+     "score": 12.0,
+     "why": "锚点引用:BoolSetting,DoubleSetting,Module,Setting",
+     "unique": false
+    },
+    {
+     "src": "ConfigHolder",
+     "score": 12.0,
+     "why": "锚点引用:BoolSetting,DoubleSetting,Module,Setting",
+     "unique": false
+    },
+    {
+     "src": "ClientSetting",
+     "score": 12.0,
+     "why": "锚点引用:BoolSetting,DoubleSetting,Module,Setting",
+     "unique": false
+    }
+   ]
+  },
+  {
+   "obf": "v",
+   "kind": "class",
+   "super": "e",
+   "lines": 673,
+   "decl_line": "class v\nextends e ",
+   "anchored_refs": [
+    "AttackEntityEvent",
+    "EnumSetting",
+    "IntSetting",
+    "KeyboardInputEvent",
+    "Module",
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "refs": [
+    "Dl",
+    "Dx",
+    "XG",
+    "dN",
+    "e",
+    "hi",
+    "uy",
+    "vY",
+    "yE",
+    "yi"
+   ],
+   "mc_imports": [],
+   "n_fields": 8,
+   "n_methods": 16,
+   "candidates": [
+    {
+     "src": "ModuleButton",
+     "score": 12.0,
+     "why": "锚点引用:EnumSetting,IntSetting,Module,Setting",
+     "unique": false
+    },
+    {
+     "src": "ConfigHolder",
+     "score": 12.0,
+     "why": "锚点引用:EnumSetting,IntSetting,Module,Setting",
+     "unique": false
+    },
+    {
+     "src": "ClientSetting",
+     "score": 12.0,
+     "why": "锚点引用:EnumSetting,IntSetting,Module,Setting",
+     "unique": false
+    }
+   ]
+  },
+  {
+   "obf": "v_",
+   "kind": "class",
+   "super": null,
+   "lines": 1592,
+   "decl_line": "class v_ ",
+   "anchored_refs": [
+    "EnumSetting",
+    "KeybindSetting",
+    "Module",
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "refs": [
+    "Dl",
+    "Dx",
+    "X0",
+    "e",
+    "g8",
+    "hi",
+    "vN",
+    "vY",
+    "vn"
+   ],
+   "mc_imports": [],
+   "n_fields": 27,
+   "n_methods": 97,
+   "candidates": [
+    {
+     "src": "ModuleButton",
+     "score": 12.0,
+     "why": "锚点引用:EnumSetting,KeybindSetting,Module,Setting",
+     "unique": false
+    },
+    {
+     "src": "ConfigHolder",
+     "score": 12.0,
+     "why": "锚点引用:EnumSetting,KeybindSetting,Module,Setting",
+     "unique": false
+    },
+    {
+     "src": "ClientSetting",
+     "score": 12.0,
+     "why": "锚点引用:EnumSetting,KeybindSetting,Module,Setting",
+     "unique": false
+    }
+   ]
+  },
+  {
+   "obf": "X",
+   "kind": "class",
+   "super": "e",
+   "lines": 1293,
+   "decl_line": "class X\nextends e ",
+   "anchored_refs": [
+    "IntSetting",
+    "KeybindSetting",
+    "Module",
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "refs": [
+    "Dl",
+    "X0",
+    "XG",
+    "_a",
+    "dR",
+    "e",
+    "hi",
+    "vY",
+    "yE"
+   ],
+   "mc_imports": [
+    "net.minecraft.client.multiplayer.ClientLevel",
+    "net.minecraft.client.player.LocalPlayer",
+    "net.minecraft.core.BlockPos",
+    "net.minecraft.world.entity.player.Inventory",
+    "net.minecraft.world.item.Item",
+    "net.minecraft.world.phys.BlockHitResult"
+   ],
+   "n_fields": 11,
+   "n_methods": 28,
+   "candidates": [
+    {
+     "src": "ModuleButton",
+     "score": 12.0,
+     "why": "锚点引用:IntSetting,KeybindSetting,Module,Setting",
+     "unique": false
+    },
+    {
+     "src": "ConfigHolder",
+     "score": 12.0,
+     "why": "锚点引用:IntSetting,KeybindSetting,Module,Setting",
+     "unique": false
+    },
+    {
+     "src": "ClientSetting",
+     "score": 12.0,
+     "why": "锚点引用:IntSetting,KeybindSetting,Module,Setting",
+     "unique": false
+    }
+   ]
+  },
+  {
+   "obf": "XQ",
+   "kind": "class",
+   "super": null,
+   "lines": 1288,
+   "decl_line": "class XQ ",
+   "anchored_refs": [
+    "BoolSetting",
+    "Dependency",
+    "DoubleSetting",
+    "IntSetting",
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "refs": [
+    "DM",
+    "Dl",
+    "XG",
+    "Xn",
+    "_j",
+    "eJ",
+    "es",
+    "g7",
+    "hi",
+    "y1",
+    "yx",
+    "z8",
+    "zU"
+   ],
+   "mc_imports": [],
+   "n_fields": 11,
+   "n_methods": 39,
+   "candidates": [
+    {
+     "src": "ModuleButton",
+     "score": 12.0,
+     "why": "锚点引用:BoolSetting,DoubleSetting,IntSetting,Setting",
+     "unique": false
+    },
+    {
+     "src": "SettingsContent",
+     "score": 12.0,
+     "why": "锚点引用:BoolSetting,DoubleSetting,IntSetting,Setting",
+     "unique": false
+    },
+    {
+     "src": "SettingViewFactory",
+     "score": 12.0,
+     "why": "锚点引用:BoolSetting,DoubleSetting,IntSetting,Setting",
+     "unique": false
+    }
+   ]
+  },
+  {
+   "obf": "ld",
+   "kind": "class",
+   "super": null,
+   "lines": 2401,
+   "decl_line": "class ld\nimplements O0 ",
+   "anchored_refs": [
+    "KeybindSetting",
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "refs": [
+    "Dg",
+    "Dl",
+    "O0",
+    "Og",
+    "X0",
+    "XZ",
+    "_6",
+    "_E",
+    "_j",
+    "hi",
+    "ih",
+    "l5",
+    "lH",
+    "lm"
+   ],
+   "mc_imports": [
+    "net.minecraft.client.gui.GuiGraphicsExtractor",
+    "net.minecraft.client.input.CharacterEvent",
+    "net.minecraft.client.input.KeyEvent",
+    "net.minecraft.client.input.MouseButtonEvent"
+   ],
+   "n_fields": 17,
+   "n_methods": 47,
+   "candidates": [
+    {
+     "src": "ModuleDetailPanel",
+     "score": 11.0,
+     "why": "锚点引用:KeybindSetting,Setting; MCimport:4",
+     "unique": false
+    },
+    {
+     "src": "AddonClientSettingTab",
+     "score": 11.0,
+     "why": "锚点引用:KeybindSetting,Setting; MCimport:4",
+     "unique": false
+    },
+    {
+     "src": "GeneralClientSettingTab",
+     "score": 11.0,
+     "why": "锚点引用:KeybindSetting,Setting; MCimport:4",
+     "unique": false
+    }
+   ]
+  },
+  {
+   "obf": "nl",
+   "kind": "class",
+   "super": null,
+   "lines": 4497,
+   "decl_line": "class nl\nimplements O0 ",
+   "anchored_refs": [
+    "KeybindSetting",
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "refs": [
+    "Dg",
+    "Dl",
+    "O0",
+    "Og",
+    "X0",
+    "XZ",
+    "_6",
+    "_E",
+    "_j",
+    "dc",
+    "hi",
+    "iB",
+    "iH",
+    "ih"
+   ],
+   "mc_imports": [
+    "net.minecraft.client.gui.GuiGraphicsExtractor",
+    "net.minecraft.client.input.CharacterEvent",
+    "net.minecraft.client.input.KeyEvent",
+    "net.minecraft.client.input.MouseButtonEvent"
+   ],
+   "n_fields": 24,
+   "n_methods": 87,
+   "candidates": [
+    {
+     "src": "ModuleDetailPanel",
+     "score": 11.0,
+     "why": "锚点引用:KeybindSetting,Setting; MCimport:4",
+     "unique": false
+    },
+    {
+     "src": "AddonClientSettingTab",
+     "score": 11.0,
+     "why": "锚点引用:KeybindSetting,Setting; MCimport:4",
+     "unique": false
+    },
+    {
+     "src": "GeneralClientSettingTab",
+     "score": 11.0,
+     "why": "锚点引用:KeybindSetting,Setting; MCimport:4",
+     "unique": false
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,146 @@
+{
+ "batch": "B050",
+ "n": 8,
+ "classes": [
+  {
+   "obf": "Dh",
+   "kind": "record",
+   "super": null,
+   "lines": 82,
+   "decl_line": "record Dh(float zG, float zo, float z5, float z7) ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "hi"
+   ],
+   "mc_imports": [],
+   "n_fields": 4,
+   "n_methods": 16,
+   "candidates": []
+  },
+  {
+   "obf": "DI",
+   "kind": "class",
+   "super": null,
+   "lines": 8,
+   "decl_line": "class DI ",
+   "anchored_refs": [],
+   "refs": [],
+   "mc_imports": [],
+   "n_fields": 0,
+   "n_methods": 0,
+   "candidates": []
+  },
+  {
+   "obf": "Di",
+   "kind": "class",
+   "super": "Record",
+   "lines": 45,
+   "decl_line": "class Di\nextends Record ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "gQ",
+    "hi",
+    "y1"
+   ],
+   "mc_imports": [],
+   "n_fields": 2,
+   "n_methods": 8,
+   "candidates": []
+  },
+  {
+   "obf": "dI",
+   "kind": "record",
+   "super": null,
+   "lines": 20,
+   "decl_line": "record dI(float[] hF, float yG) ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "hi"
+   ],
+   "mc_imports": [],
+   "n_fields": 2,
+   "n_methods": 4,
+   "candidates": []
+  },
+  {
+   "obf": "di",
+   "kind": "class",
+   "super": "Record",
+   "lines": 55,
+   "decl_line": "class di\nextends Record ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "hi"
+   ],
+   "mc_imports": [
+    "net.minecraft.core.BlockPos",
+    "net.minecraft.world.phys.BlockHitResult"
+   ],
+   "n_fields": 3,
+   "n_methods": 10,
+   "candidates": []
+  },
+  {
+   "obf": "DJ",
+   "kind": "class",
+   "super": "Enum",
+   "lines": 168,
+   "decl_line": "class DJ\nextends Enum<DJ> ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "hi"
+   ],
+   "mc_imports": [],
+   "n_fields": 0,
+   "n_methods": 8,
+   "candidates": []
+  },
+  {
+   "obf": "Dj",
+   "kind": "class",
+   "super": "Enum",
+   "lines": 237,
+   "decl_line": "class Dj\nextends Enum<Dj> ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "hi"
+   ],
+   "mc_imports": [],
+   "n_fields": 3,
+   "n_methods": 15,
+   "candidates": []
+  },
+  {
+   "obf": "dJ",
+   "kind": "class",
+   "super": "Record",
+   "lines": 49,
+   "decl_line": "class dJ\nextends Record ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "hi"
+   ],
+   "mc_imports": [
+    "net.minecraft.client.multiplayer.ClientPacketListener",
+    "net.minecraft.network.protocol.Packet"
+   ],
+   "n_fields": 1,
+   "n_methods": 8,
+   "candidates": []
+  }
+ ]
+}

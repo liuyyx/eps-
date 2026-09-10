@@ -1,0 +1,139 @@
+{
+ "batch": "B064",
+ "n": 8,
+ "classes": [
+  {
+   "obf": "lr",
+   "kind": "class",
+   "super": "Enum",
+   "lines": 190,
+   "decl_line": "class lr\nextends Enum<lr> ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "hi"
+   ],
+   "mc_imports": [],
+   "n_fields": 2,
+   "n_methods": 11,
+   "candidates": []
+  },
+  {
+   "obf": "lT",
+   "kind": "class",
+   "super": "Enum",
+   "lines": 125,
+   "decl_line": "class lT\nextends Enum<lT> ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "hi"
+   ],
+   "mc_imports": [],
+   "n_fields": 1,
+   "n_methods": 7,
+   "candidates": []
+  },
+  {
+   "obf": "lt",
+   "kind": "class",
+   "super": null,
+   "lines": 3465,
+   "decl_line": "class lt ",
+   "anchored_refs": [],
+   "refs": [],
+   "mc_imports": [],
+   "n_fields": 0,
+   "n_methods": 3457,
+   "candidates": []
+  },
+  {
+   "obf": "lu",
+   "kind": "record",
+   "super": null,
+   "lines": 69,
+   "decl_line": "record lu(float ay, float ar, float aF, float a4) implements DynamicUniformStorage.DynamicUniform\n",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "hi"
+   ],
+   "mc_imports": [
+    "net.minecraft.client.renderer.DynamicUniformStorage"
+   ],
+   "n_fields": 4,
+   "n_methods": 14,
+   "candidates": []
+  },
+  {
+   "obf": "lV",
+   "kind": "record",
+   "super": null,
+   "lines": 42,
+   "decl_line": "record lV(double vN, double vl) ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "hi"
+   ],
+   "mc_imports": [],
+   "n_fields": 2,
+   "n_methods": 8,
+   "candidates": []
+  },
+  {
+   "obf": "lY",
+   "kind": "class",
+   "super": null,
+   "lines": 109,
+   "decl_line": "class lY ",
+   "anchored_refs": [],
+   "refs": [],
+   "mc_imports": [],
+   "n_fields": 2,
+   "n_methods": 3,
+   "candidates": []
+  },
+  {
+   "obf": "lZ",
+   "kind": "class",
+   "super": null,
+   "lines": 59,
+   "decl_line": "class lZ ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "hi",
+    "i2"
+   ],
+   "mc_imports": [],
+   "n_fields": 1,
+   "n_methods": 6,
+   "candidates": []
+  },
+  {
+   "obf": "l_",
+   "kind": "class",
+   "super": null,
+   "lines": 62,
+   "decl_line": "class l_ ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心",
+    "Type"
+   ],
+   "refs": [
+    "Xf",
+    "hi"
+   ],
+   "mc_imports": [],
+   "n_fields": 0,
+   "n_methods": 1,
+   "candidates": []
+  }
+ ]
+}

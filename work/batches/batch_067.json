@@ -1,0 +1,147 @@
+{
+ "batch": "B067",
+ "n": 8,
+ "classes": [
+  {
+   "obf": "nI",
+   "kind": "class",
+   "super": "Enum",
+   "lines": 140,
+   "decl_line": "class nI\nextends Enum<nI> ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "hi"
+   ],
+   "mc_imports": [],
+   "n_fields": 1,
+   "n_methods": 7,
+   "candidates": []
+  },
+  {
+   "obf": "ni",
+   "kind": "record",
+   "super": null,
+   "lines": 55,
+   "decl_line": "record ni(ih sT, ih sv, ih sb, ih sY) ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "hi",
+    "ih"
+   ],
+   "mc_imports": [],
+   "n_fields": 4,
+   "n_methods": 12,
+   "candidates": []
+  },
+  {
+   "obf": "nk",
+   "kind": "class",
+   "super": "Record",
+   "lines": 55,
+   "decl_line": "class nk\nextends Record ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "hi"
+   ],
+   "mc_imports": [],
+   "n_fields": 4,
+   "n_methods": 12,
+   "candidates": []
+  },
+  {
+   "obf": "nM",
+   "kind": "class",
+   "super": "Enum",
+   "lines": 168,
+   "decl_line": "class nM\nextends Enum<nM> ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "hi"
+   ],
+   "mc_imports": [],
+   "n_fields": 1,
+   "n_methods": 8,
+   "candidates": []
+  },
+  {
+   "obf": "nn",
+   "kind": "class",
+   "super": "Enum",
+   "lines": 125,
+   "decl_line": "class nn\nextends Enum<nn> ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "hi"
+   ],
+   "mc_imports": [],
+   "n_fields": 1,
+   "n_methods": 7,
+   "candidates": []
+  },
+  {
+   "obf": "np",
+   "kind": "class",
+   "super": null,
+   "lines": 113,
+   "decl_line": "class np ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "hi"
+   ],
+   "mc_imports": [],
+   "n_fields": 2,
+   "n_methods": 5,
+   "candidates": []
+  },
+  {
+   "obf": "nQ",
+   "kind": "class",
+   "super": "ViaBedrockConfig",
+   "lines": 45,
+   "decl_line": "class nQ\nextends ViaBedrockConfig ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "hi"
+   ],
+   "mc_imports": [],
+   "n_fields": 0,
+   "n_methods": 4,
+   "candidates": []
+  },
+  {
+   "obf": "nq",
+   "kind": "class",
+   "super": "Record",
+   "lines": 75,
+   "decl_line": "class nq\nextends Record ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "hi"
+   ],
+   "mc_imports": [
+    "net.minecraft.world.entity.boss.enderdragon.EndCrystal",
+    "net.minecraft.world.phys.AABB",
+    "net.minecraft.world.phys.Vec3"
+   ],
+   "n_fields": 6,
+   "n_methods": 16,
+   "candidates": []
+  }
+ ]
+}

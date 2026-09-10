@@ -1,0 +1,440 @@
+{
+ "batch": "B002",
+ "n": 8,
+ "classes": [
+  {
+   "obf": "e7",
+   "kind": "class",
+   "super": "eh",
+   "lines": 1145,
+   "decl_line": "class e7\nextends eh ",
+   "anchored_refs": [
+    "BoolSetting",
+    "ColorSetting",
+    "DoubleSetting",
+    "IntSetting",
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "refs": [
+    "DM",
+    "DV",
+    "Dl",
+    "XG",
+    "Xn",
+    "eh",
+    "hi",
+    "ng"
+   ],
+   "mc_imports": [
+    "net.minecraft.client.DeltaTracker",
+    "net.minecraft.client.gui.GuiGraphicsExtractor",
+    "net.minecraft.world.item.ItemStack"
+   ],
+   "n_fields": 14,
+   "n_methods": 25,
+   "candidates": [
+    {
+     "src": "Inventory",
+     "score": 17.0,
+     "why": "锚点引用:BoolSetting,ColorSetting,DoubleSetting,IntSetting; MCimport:3",
+     "unique": true
+    },
+    {
+     "src": "ModuleButton",
+     "score": 15.0,
+     "why": "锚点引用:BoolSetting,ColorSetting,DoubleSetting,IntSetting,Setting",
+     "unique": false
+    },
+    {
+     "src": "SettingsContent",
+     "score": 15.0,
+     "why": "锚点引用:BoolSetting,ColorSetting,DoubleSetting,IntSetting,Setting",
+     "unique": false
+    }
+   ]
+  },
+  {
+   "obf": "A",
+   "kind": "class",
+   "super": "e",
+   "lines": 2312,
+   "decl_line": "class A\nextends e ",
+   "anchored_refs": [
+    "BoolSetting",
+    "EnumSetting",
+    "IntSetting",
+    "Module",
+    "Render3DEvent",
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "refs": [
+    "Dl",
+    "Dx",
+    "OW",
+    "XG",
+    "Xn",
+    "d9",
+    "dR",
+    "e",
+    "hi",
+    "i9",
+    "u9",
+    "uE",
+    "uK",
+    "uZ"
+   ],
+   "mc_imports": [
+    "net.minecraft.client.multiplayer.ClientLevel",
+    "net.minecraft.core.BlockPos",
+    "net.minecraft.world.level.block.Block"
+   ],
+   "n_fields": 13,
+   "n_methods": 43,
+   "candidates": [
+    {
+     "src": "Xray",
+     "score": 15.89,
+     "why": "锚点引用:BoolSetting,EnumSetting,IntSetting,Module,Render3DEvent; MCimport:2",
+     "unique": true
+    },
+    {
+     "src": "Particles",
+     "score": 15.31,
+     "why": "锚点引用:BoolSetting,EnumSetting,IntSetting,Module,Render3DEvent; MCimport:1",
+     "unique": false
+    },
+    {
+     "src": "Scaffold",
+     "score": 15.25,
+     "why": "锚点引用:BoolSetting,EnumSetting,IntSetting,Module,Render3DEvent; MCimport:1",
+     "unique": true
+    }
+   ]
+  },
+  {
+   "obf": "g1",
+   "kind": "class",
+   "super": "gt",
+   "lines": 2060,
+   "decl_line": "class g1\nextends gt ",
+   "anchored_refs": [
+    "ElytraFly",
+    "FallFlyingEvent",
+    "FireworkRotationEvent",
+    "KeyboardInputEvent",
+    "SeQL/字符串解密+调用分发核心",
+    "Setting",
+    "TravelEvent"
+   ],
+   "refs": [
+    "Dl",
+    "_Z",
+    "dv",
+    "gt",
+    "hi",
+    "lz",
+    "uK",
+    "uj",
+    "yC",
+    "yi",
+    "yo",
+    "zV"
+   ],
+   "mc_imports": [
+    "net.minecraft.client.KeyMapping",
+    "net.minecraft.world.item.Item",
+    "net.minecraft.world.phys.AABB"
+   ],
+   "n_fields": 5,
+   "n_methods": 28,
+   "candidates": [
+    {
+     "src": "ControlElytraFlightMode",
+     "score": 15.8,
+     "why": "锚点引用:ElytraFly,FallFlyingEvent,FireworkRotationEvent,KeyboardInputEvent,TravelEvent; MCimport:1",
+     "unique": true
+    },
+    {
+     "src": "ElytraFlightMode",
+     "score": 15.0,
+     "why": "锚点引用:ElytraFly,FallFlyingEvent,FireworkRotationEvent,KeyboardInputEvent,TravelEvent",
+     "unique": true
+    },
+    {
+     "src": "ElytraFly",
+     "score": 12.0,
+     "why": "锚点引用:FallFlyingEvent,FireworkRotationEvent,KeyboardInputEvent,TravelEvent",
+     "unique": false
+    }
+   ]
+  },
+  {
+   "obf": "gd",
+   "kind": "class",
+   "super": "gt",
+   "lines": 1803,
+   "decl_line": "class gd\nextends gt ",
+   "anchored_refs": [
+    "DoubleSetting",
+    "ElytraFly",
+    "FallFlyingEvent",
+    "FireworkRotationEvent",
+    "KeyboardInputEvent",
+    "SeQL/字符串解密+调用分发核心",
+    "Setting",
+    "TranslateComponent"
+   ],
+   "refs": [
+    "DM",
+    "Dl",
+    "_Z",
+    "gp",
+    "gt",
+    "hi",
+    "lz",
+    "uK",
+    "uT",
+    "uj",
+    "yC",
+    "yi",
+    "zV"
+   ],
+   "mc_imports": [
+    "net.minecraft.client.player.LocalPlayer",
+    "net.minecraft.world.item.Item"
+   ],
+   "n_fields": 11,
+   "n_methods": 38,
+   "candidates": [
+    {
+     "src": "Pitch40ElytraFlightMode",
+     "score": 15.0,
+     "why": "锚点引用:ElytraFly,FallFlyingEvent,FireworkRotationEvent,KeyboardInputEvent,TranslateComponent",
+     "unique": true
+    },
+    {
+     "src": "ControlElytraFlightMode",
+     "score": 12.0,
+     "why": "锚点引用:ElytraFly,FallFlyingEvent,FireworkRotationEvent,KeyboardInputEvent",
+     "unique": true
+    },
+    {
+     "src": "ElytraFlightMode",
+     "score": 12.0,
+     "why": "锚点引用:ElytraFly,FallFlyingEvent,FireworkRotationEvent,KeyboardInputEvent",
+     "unique": true
+    }
+   ]
+  },
+  {
+   "obf": "OD",
+   "kind": "class",
+   "super": null,
+   "lines": 1302,
+   "decl_line": "class OD ",
+   "anchored_refs": [
+    "EnumSetting",
+    "Module",
+    "SeQL/字符串解密+调用分发核心",
+    "Setting",
+    "SettingGroup",
+    "TranslateComponent"
+   ],
+   "refs": [
+    "Dl",
+    "Dx",
+    "e",
+    "hi",
+    "nN",
+    "uT"
+   ],
+   "mc_imports": [],
+   "n_fields": 6,
+   "n_methods": 17,
+   "candidates": [
+    {
+     "src": "I18NFileGenerator",
+     "score": 15.0,
+     "why": "锚点引用:EnumSetting,Module,Setting,SettingGroup,TranslateComponent",
+     "unique": true
+    },
+    {
+     "src": "ClientSetting",
+     "score": 12.0,
+     "why": "锚点引用:EnumSetting,Module,Setting,SettingGroup",
+     "unique": false
+    },
+    {
+     "src": "PlayerAlarms",
+     "score": 12.0,
+     "why": "锚点引用:EnumSetting,Module,SettingGroup,TranslateComponent",
+     "unique": false
+    }
+   ]
+  },
+  {
+   "obf": "E",
+   "kind": "class",
+   "super": "e",
+   "lines": 775,
+   "decl_line": "class E\nextends e ",
+   "anchored_refs": [
+    "BoolSetting",
+    "KeyboardInputEvent",
+    "Module",
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "refs": [
+    "Dl",
+    "Xn",
+    "e",
+    "hi",
+    "vY",
+    "yE",
+    "yi"
+   ],
+   "mc_imports": [
+    "net.minecraft.client.KeyMapping",
+    "net.minecraft.client.gui.screens.ChatScreen"
+   ],
+   "n_fields": 5,
+   "n_methods": 12,
+   "candidates": [
+    {
+     "src": "GUIMove",
+     "score": 13.0,
+     "why": "锚点引用:BoolSetting,KeyboardInputEvent,Module; MCimport:2",
+     "unique": true
+    },
+    {
+     "src": "ModuleButton",
+     "score": 9.0,
+     "why": "锚点引用:BoolSetting,Module,Setting",
+     "unique": false
+    },
+    {
+     "src": "ConfigHolder",
+     "score": 9.0,
+     "why": "锚点引用:BoolSetting,Module,Setting",
+     "unique": false
+    }
+   ]
+  },
+  {
+   "obf": "l",
+   "kind": "class",
+   "super": "e",
+   "lines": 921,
+   "decl_line": "class l\nextends e ",
+   "anchored_refs": [
+    "DoubleSetting",
+    "EnumSetting",
+    "FastWeb",
+    "KeyboardInputEvent",
+    "Module",
+    "SeQL/字符串解密+调用分发核心",
+    "Setting",
+    "TranslateComponent"
+   ],
+   "refs": [
+    "DM",
+    "Dl",
+    "Dx",
+    "dY",
+    "e",
+    "gp",
+    "hi",
+    "t",
+    "uQ",
+    "uT",
+    "vY",
+    "yE",
+    "yi"
+   ],
+   "mc_imports": [
+    "net.minecraft.network.protocol.game.ServerboundMovePlayerPacket"
+   ],
+   "n_fields": 8,
+   "n_methods": 17,
+   "candidates": [
+    {
+     "src": "NoFall",
+     "score": 13.0,
+     "why": "锚点引用:DoubleSetting,EnumSetting,Module; MCimport:1",
+     "unique": true
+    },
+    {
+     "src": "I18NFileGenerator",
+     "score": 12.0,
+     "why": "锚点引用:EnumSetting,Module,Setting,TranslateComponent",
+     "unique": true
+    },
+    {
+     "src": "ModuleButton",
+     "score": 12.0,
+     "why": "锚点引用:DoubleSetting,EnumSetting,Module,Setting",
+     "unique": false
+    }
+   ]
+  },
+  {
+   "obf": "eS",
+   "kind": "class",
+   "super": "e",
+   "lines": 1183,
+   "decl_line": "class eS\nextends e ",
+   "anchored_refs": [
+    "BoolSetting",
+    "IntSetting",
+    "Module",
+    "SeQL/字符串解密+调用分发核心",
+    "Setting",
+    "StartDestroyBlockEvent"
+   ],
+   "refs": [
+    "Dl",
+    "XG",
+    "Xn",
+    "_J",
+    "dA",
+    "e",
+    "hi",
+    "vY",
+    "yE"
+   ],
+   "mc_imports": [
+    "net.minecraft.client.player.LocalPlayer",
+    "net.minecraft.core.BlockPos",
+    "net.minecraft.world.entity.player.Inventory",
+    "net.minecraft.world.level.block.DropExperienceBlock",
+    "net.minecraft.world.level.block.RedStoneOreBlock",
+    "net.minecraft.world.level.block.WebBlock"
+   ],
+   "n_fields": 8,
+   "n_methods": 17,
+   "candidates": [
+    {
+     "src": "PacketMine",
+     "score": 12.18,
+     "why": "锚点引用:BoolSetting,IntSetting,Module,StartDestroyBlockEvent; MCimport:1",
+     "unique": true
+    },
+    {
+     "src": "ModuleButton",
+     "score": 12.0,
+     "why": "锚点引用:BoolSetting,IntSetting,Module,Setting",
+     "unique": false
+    },
+    {
+     "src": "ConfigHolder",
+     "score": 12.0,
+     "why": "锚点引用:BoolSetting,IntSetting,Module,Setting",
+     "unique": false
+    }
+   ]
+  }
+ ]
+}

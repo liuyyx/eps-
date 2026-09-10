@@ -1,0 +1,309 @@
+{
+ "batch": "B025",
+ "n": 8,
+ "classes": [
+  {
+   "obf": "lC",
+   "kind": "class",
+   "super": null,
+   "lines": 806,
+   "decl_line": "class lC ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "refs": [
+    "Dl",
+    "hi"
+   ],
+   "mc_imports": [
+    "net.minecraft.world.level.block.Block"
+   ],
+   "n_fields": 3,
+   "n_methods": 13,
+   "candidates": [
+    {
+     "src": "SettingHost",
+     "score": 4.0,
+     "why": "锚点引用:Setting; MCimport:1",
+     "unique": false
+    },
+    {
+     "src": "RegistryListSetting",
+     "score": 3.5,
+     "why": "锚点引用:Setting; MCimport:1",
+     "unique": false
+    },
+    {
+     "src": "RegistryListSelectPopup",
+     "score": 3.25,
+     "why": "锚点引用:Setting; MCimport:1",
+     "unique": true
+    }
+   ]
+  },
+  {
+   "obf": "lU",
+   "kind": "class",
+   "super": null,
+   "lines": 46,
+   "decl_line": "class lU\nimplements PreparableReloadListener ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "hi"
+   ],
+   "mc_imports": [
+    "net.minecraft.server.packs.resources.PreparableReloadListener"
+   ],
+   "n_fields": 0,
+   "n_methods": 3,
+   "candidates": [
+    {
+     "src": "LanguageReloadListener",
+     "score": 4.0,
+     "why": "MCimport:1",
+     "unique": false
+    }
+   ]
+  },
+  {
+   "obf": "lv",
+   "kind": "class",
+   "super": "lW",
+   "lines": 421,
+   "decl_line": "class lv\nextends lW ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "refs": [
+    "Dl",
+    "Xi",
+    "hi",
+    "lW",
+    "u8",
+    "vb"
+   ],
+   "mc_imports": [
+    "net.minecraft.core.BlockPos",
+    "net.minecraft.world.phys.Vec3"
+   ],
+   "n_fields": 3,
+   "n_methods": 8,
+   "candidates": [
+    {
+     "src": "Hole",
+     "score": 4.0,
+     "why": "MCimport:2",
+     "unique": false
+    },
+    {
+     "src": "EpsilonAddon",
+     "score": 3.0,
+     "why": "锚点引用:Setting",
+     "unique": true
+    },
+    {
+     "src": "I18NFileGenerator",
+     "score": 3.0,
+     "why": "锚点引用:Setting",
+     "unique": true
+    }
+   ]
+  },
+  {
+   "obf": "lz",
+   "kind": "record",
+   "super": null,
+   "lines": 419,
+   "decl_line": "record lz(int pD, int p6, int pq) ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "refs": [
+    "Dl",
+    "hi"
+   ],
+   "mc_imports": [
+    "net.minecraft.world.InteractionHand"
+   ],
+   "n_fields": 5,
+   "n_methods": 18,
+   "candidates": [
+    {
+     "src": "FindItemResult",
+     "score": 4.0,
+     "why": "MCimport:1",
+     "unique": false
+    },
+    {
+     "src": "EpsilonAddon",
+     "score": 3.0,
+     "why": "锚点引用:Setting",
+     "unique": true
+    },
+    {
+     "src": "I18NFileGenerator",
+     "score": 3.0,
+     "why": "锚点引用:Setting",
+     "unique": true
+    }
+   ]
+  },
+  {
+   "obf": "n3",
+   "kind": "class",
+   "super": null,
+   "lines": 44,
+   "decl_line": "class n3 ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "hi"
+   ],
+   "mc_imports": [
+    "net.minecraft.world.entity.LivingEntity",
+    "net.minecraft.world.phys.Vec3"
+   ],
+   "n_fields": 6,
+   "n_methods": 8,
+   "candidates": [
+    {
+     "src": "MixinLivingEntity",
+     "score": 4.0,
+     "why": "MCimport:2",
+     "unique": false
+    },
+    {
+     "src": "MixinFireworkRocketEntity",
+     "score": 2.67,
+     "why": "MCimport:2",
+     "unique": false
+    },
+    {
+     "src": "FollowerNavigator",
+     "score": 2.67,
+     "why": "MCimport:2",
+     "unique": false
+    }
+   ]
+  },
+  {
+   "obf": "n5",
+   "kind": "interface",
+   "super": null,
+   "lines": 17,
+   "decl_line": "interface n5 ",
+   "anchored_refs": [],
+   "refs": [
+    "ih",
+    "vh"
+   ],
+   "mc_imports": [
+    "net.minecraft.client.input.MouseButtonEvent"
+   ],
+   "n_fields": 0,
+   "n_methods": 1,
+   "candidates": [
+    {
+     "src": "UiCoordinateMapper",
+     "score": 4.0,
+     "why": "MCimport:1",
+     "unique": false
+    },
+    {
+     "src": "BoolSettingRow",
+     "score": 2.0,
+     "why": "MCimport:1",
+     "unique": true
+    },
+    {
+     "src": "ButtonSettingRow",
+     "score": 2.0,
+     "why": "MCimport:1",
+     "unique": true
+    }
+   ]
+  },
+  {
+   "obf": "nF",
+   "kind": "record",
+   "super": null,
+   "lines": 56,
+   "decl_line": "record nF(BlockPos _c, double zw, double z9) ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "hi"
+   ],
+   "mc_imports": [
+    "net.minecraft.core.BlockPos"
+   ],
+   "n_fields": 3,
+   "n_methods": 11,
+   "candidates": [
+    {
+     "src": "DestroyBlockEvent",
+     "score": 4.0,
+     "why": "MCimport:1",
+     "unique": false
+    },
+    {
+     "src": "BlockCollisionEvent",
+     "score": 2.0,
+     "why": "MCimport:1",
+     "unique": false
+    },
+    {
+     "src": "StartDestroyBlockEvent",
+     "score": 2.0,
+     "why": "MCimport:1",
+     "unique": false
+    }
+   ]
+  },
+  {
+   "obf": "nf",
+   "kind": "class",
+   "super": "Enum",
+   "lines": 194,
+   "decl_line": "class nf\nextends Enum<nf> ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "hi"
+   ],
+   "mc_imports": [
+    "net.minecraft.resources.Identifier"
+   ],
+   "n_fields": 2,
+   "n_methods": 10,
+   "candidates": [
+    {
+     "src": "SoundKey",
+     "score": 4.0,
+     "why": "MCimport:1",
+     "unique": false
+    },
+    {
+     "src": "ResourceLocationUtils",
+     "score": 2.0,
+     "why": "MCimport:1",
+     "unique": false
+    },
+    {
+     "src": "ClientSetting",
+     "score": 2.0,
+     "why": "MCimport:1",
+     "unique": false
+    }
+   ]
+  }
+ ]
+}

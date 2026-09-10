@@ -1,0 +1,421 @@
+{
+ "batch": "B012",
+ "n": 8,
+ "classes": [
+  {
+   "obf": "Y",
+   "kind": "class",
+   "super": "e",
+   "lines": 607,
+   "decl_line": "class Y\nextends e ",
+   "anchored_refs": [
+    "DoubleSetting",
+    "Module",
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "refs": [
+    "DM",
+    "Dl",
+    "dY",
+    "e",
+    "hi",
+    "vY",
+    "yE"
+   ],
+   "mc_imports": [
+    "net.minecraft.client.player.LocalPlayer"
+   ],
+   "n_fields": 5,
+   "n_methods": 13,
+   "candidates": [
+    {
+     "src": "ModuleButton",
+     "score": 9.0,
+     "why": "锚点引用:DoubleSetting,Module,Setting",
+     "unique": false
+    },
+    {
+     "src": "ConfigHolder",
+     "score": 9.0,
+     "why": "锚点引用:DoubleSetting,Module,Setting",
+     "unique": false
+    },
+    {
+     "src": "ClientSetting",
+     "score": 9.0,
+     "why": "锚点引用:DoubleSetting,Module,Setting",
+     "unique": false
+    }
+   ]
+  },
+  {
+   "obf": "_R",
+   "kind": "class",
+   "super": null,
+   "lines": 2128,
+   "decl_line": "class _R ",
+   "anchored_refs": [
+    "BoolSetting",
+    "DoubleSetting",
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "refs": [
+    "DM",
+    "Dl",
+    "Oq",
+    "Xn",
+    "_E",
+    "_e",
+    "_j",
+    "d0",
+    "e9",
+    "hi",
+    "ih",
+    "l8",
+    "lH",
+    "ng"
+   ],
+   "mc_imports": [
+    "net.minecraft.client.multiplayer.ClientPacketListener",
+    "net.minecraft.client.player.LocalPlayer"
+   ],
+   "n_fields": 17,
+   "n_methods": 41,
+   "candidates": [
+    {
+     "src": "ModuleButton",
+     "score": 9.0,
+     "why": "锚点引用:BoolSetting,DoubleSetting,Setting",
+     "unique": false
+    },
+    {
+     "src": "SettingsContent",
+     "score": 9.0,
+     "why": "锚点引用:BoolSetting,DoubleSetting,Setting",
+     "unique": false
+    },
+    {
+     "src": "SettingViewFactory",
+     "score": 9.0,
+     "why": "锚点引用:BoolSetting,DoubleSetting,Setting",
+     "unique": false
+    }
+   ]
+  },
+  {
+   "obf": "gW",
+   "kind": "class",
+   "super": null,
+   "lines": 1922,
+   "decl_line": "class gW ",
+   "anchored_refs": [
+    "Module",
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "refs": [
+    "Dl",
+    "_E",
+    "_j",
+    "e",
+    "hi",
+    "ih",
+    "lH",
+    "lm",
+    "nK",
+    "vY",
+    "v_",
+    "zU"
+   ],
+   "mc_imports": [
+    "net.minecraft.client.gui.GuiGraphicsExtractor",
+    "net.minecraft.client.input.MouseButtonEvent"
+   ],
+   "n_fields": 17,
+   "n_methods": 49,
+   "candidates": [
+    {
+     "src": "ModuleDetailPanel",
+     "score": 8.0,
+     "why": "锚点引用:Module,Setting; MCimport:2",
+     "unique": false
+    },
+    {
+     "src": "EpsilonAddon",
+     "score": 6.0,
+     "why": "锚点引用:Module,Setting",
+     "unique": true
+    },
+    {
+     "src": "I18NFileGenerator",
+     "score": 6.0,
+     "why": "锚点引用:Module,Setting",
+     "unique": true
+    }
+   ]
+  },
+  {
+   "obf": "OU",
+   "kind": "class",
+   "super": null,
+   "lines": 970,
+   "decl_line": "class OU\nimplements AutoCloseable ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心",
+    "Setting",
+    "TranslateComponent"
+   ],
+   "refs": [
+    "Dl",
+    "O0",
+    "X4",
+    "XI",
+    "_6",
+    "_E",
+    "_j",
+    "g8",
+    "hi",
+    "iB",
+    "ih",
+    "lH",
+    "ld",
+    "lm"
+   ],
+   "mc_imports": [
+    "net.minecraft.client.gui.GuiGraphicsExtractor",
+    "net.minecraft.client.input.CharacterEvent",
+    "net.minecraft.client.input.KeyEvent",
+    "net.minecraft.client.input.MouseButtonEvent"
+   ],
+   "n_fields": 9,
+   "n_methods": 40,
+   "candidates": [
+    {
+     "src": "ClientSettingPanel",
+     "score": 8.0,
+     "why": "锚点引用:TranslateComponent; MCimport:4",
+     "unique": false
+    },
+    {
+     "src": "ModuleDetailPanel",
+     "score": 8.0,
+     "why": "锚点引用:Setting; MCimport:4",
+     "unique": false
+    },
+    {
+     "src": "AddonClientSettingTab",
+     "score": 8.0,
+     "why": "锚点引用:Setting; MCimport:4",
+     "unique": false
+    }
+   ]
+  },
+  {
+   "obf": "vJ",
+   "kind": "class",
+   "super": "vh",
+   "lines": 815,
+   "decl_line": "class vJ\nextends vh<X0> ",
+   "anchored_refs": [
+    "KeybindSetting",
+    "SeQL/字符串解密+调用分发核心",
+    "Setting",
+    "TranslateComponent"
+   ],
+   "refs": [
+    "Dl",
+    "X0",
+    "_E",
+    "_j",
+    "hi",
+    "ih",
+    "lH",
+    "uT",
+    "vh",
+    "zU"
+   ],
+   "mc_imports": [
+    "net.minecraft.client.gui.GuiGraphicsExtractor",
+    "net.minecraft.client.input.MouseButtonEvent"
+   ],
+   "n_fields": 6,
+   "n_methods": 19,
+   "candidates": [
+    {
+     "src": "ModuleDetailPanel",
+     "score": 8.0,
+     "why": "锚点引用:KeybindSetting,Setting; MCimport:2",
+     "unique": false
+    },
+    {
+     "src": "AddonClientSettingTab",
+     "score": 8.0,
+     "why": "锚点引用:KeybindSetting,Setting; MCimport:2",
+     "unique": false
+    },
+    {
+     "src": "GeneralClientSettingTab",
+     "score": 8.0,
+     "why": "锚点引用:KeybindSetting,Setting; MCimport:2",
+     "unique": false
+    }
+   ]
+  },
+  {
+   "obf": "XI",
+   "kind": "class",
+   "super": null,
+   "lines": 3862,
+   "decl_line": "class XI\nimplements O0 ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心",
+    "Setting",
+    "TranslateComponent"
+   ],
+   "refs": [
+    "Dg",
+    "Dl",
+    "Dt",
+    "Dv",
+    "O0",
+    "Oo",
+    "XZ",
+    "_6",
+    "_E",
+    "_j",
+    "df",
+    "hi",
+    "ih",
+    "l5"
+   ],
+   "mc_imports": [
+    "net.minecraft.client.gui.GuiGraphicsExtractor",
+    "net.minecraft.client.input.CharacterEvent",
+    "net.minecraft.client.input.KeyEvent",
+    "net.minecraft.client.input.MouseButtonEvent"
+   ],
+   "n_fields": 18,
+   "n_methods": 87,
+   "candidates": [
+    {
+     "src": "ClientSettingPanel",
+     "score": 8.0,
+     "why": "锚点引用:TranslateComponent; MCimport:4",
+     "unique": false
+    },
+    {
+     "src": "ModuleDetailPanel",
+     "score": 8.0,
+     "why": "锚点引用:Setting; MCimport:4",
+     "unique": false
+    },
+    {
+     "src": "AddonClientSettingTab",
+     "score": 8.0,
+     "why": "锚点引用:Setting; MCimport:4",
+     "unique": false
+    }
+   ]
+  },
+  {
+   "obf": "_6",
+   "kind": "class",
+   "super": null,
+   "lines": 1014,
+   "decl_line": "class _6 ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "refs": [
+    "Dl",
+    "XJ",
+    "hi",
+    "ih",
+    "lm"
+   ],
+   "mc_imports": [
+    "net.minecraft.client.gui.GuiGraphicsExtractor",
+    "net.minecraft.client.input.CharacterEvent",
+    "net.minecraft.client.input.KeyEvent",
+    "net.minecraft.client.input.MouseButtonEvent"
+   ],
+   "n_fields": 6,
+   "n_methods": 22,
+   "candidates": [
+    {
+     "src": "ModuleDetailPanel",
+     "score": 8.0,
+     "why": "锚点引用:Setting; MCimport:4",
+     "unique": false
+    },
+    {
+     "src": "AddonClientSettingTab",
+     "score": 8.0,
+     "why": "锚点引用:Setting; MCimport:4",
+     "unique": false
+    },
+    {
+     "src": "GeneralClientSettingTab",
+     "score": 8.0,
+     "why": "锚点引用:Setting; MCimport:4",
+     "unique": false
+    }
+   ]
+  },
+  {
+   "obf": "dU",
+   "kind": "class",
+   "super": null,
+   "lines": 2426,
+   "decl_line": "class dU\nimplements XJ ",
+   "anchored_refs": [
+    "ColorSetting",
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "refs": [
+    "DR",
+    "DV",
+    "Dl",
+    "XJ",
+    "_E",
+    "_j",
+    "hi",
+    "ih",
+    "lH",
+    "lm",
+    "zU"
+   ],
+   "mc_imports": [
+    "net.minecraft.client.gui.GuiGraphicsExtractor",
+    "net.minecraft.client.input.CharacterEvent",
+    "net.minecraft.client.input.MouseButtonEvent"
+   ],
+   "n_fields": 15,
+   "n_methods": 54,
+   "candidates": [
+    {
+     "src": "ModuleDetailPanel",
+     "score": 7.0,
+     "why": "锚点引用:Setting; MCimport:3",
+     "unique": false
+    },
+    {
+     "src": "AddonClientSettingTab",
+     "score": 7.0,
+     "why": "锚点引用:Setting; MCimport:3",
+     "unique": false
+    },
+    {
+     "src": "GeneralClientSettingTab",
+     "score": 7.0,
+     "why": "锚点引用:Setting; MCimport:3",
+     "unique": false
+    }
+   ]
+  }
+ ]
+}
