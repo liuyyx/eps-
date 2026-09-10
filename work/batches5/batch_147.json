@@ -1,0 +1,24 @@
+{
+ "batch": "F147",
+ "n": 3,
+ "classes": [
+  {
+   "obf": "_g",
+   "is_module": false,
+   "lines": 8,
+   "cands": []
+  },
+  {
+   "obf": "_H",
+   "is_module": false,
+   "lines": 510,
+   "cands": []
+  },
+  {
+   "obf": "_j",
+   "is_module": false,
+   "lines": 627,
+   "cands": []
+  }
+ ]
+}

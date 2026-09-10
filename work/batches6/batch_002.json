@@ -1,0 +1,87 @@
+{
+ "batch": "G002",
+ "n": 3,
+ "classes": [
+  {
+   "obf": "up",
+   "is_module": true,
+   "lines": 3572,
+   "cands": [
+    {
+     "name": "Stealer",
+     "jac": 0.304,
+     "path": "work/official26/com/github/epsilon/modules/impl/player/Stealer.java"
+    },
+    {
+     "name": "NoSlow",
+     "jac": 0.08,
+     "path": "work/official26/com/github/epsilon/modules/impl/movement/NoSlow.java"
+    },
+    {
+     "name": "Stuck",
+     "jac": 0.053,
+     "path": "work/official26/com/github/epsilon/modules/impl/movement/Stuck.java"
+    },
+    {
+     "name": "AutoFirework",
+     "jac": 0.053,
+     "path": "work/official26/com/github/epsilon/modules/impl/player/AutoFirework.java"
+    }
+   ]
+  },
+  {
+   "obf": "O",
+   "is_module": true,
+   "lines": 673,
+   "cands": [
+    {
+     "name": "AutoFirework",
+     "jac": 0.25,
+     "path": "work/official26/com/github/epsilon/modules/impl/player/AutoFirework.java"
+    },
+    {
+     "name": "AutoTool",
+     "jac": 0.091,
+     "path": "work/official26/com/github/epsilon/modules/impl/player/AutoTool.java"
+    },
+    {
+     "name": "Stealer",
+     "jac": 0.071,
+     "path": "work/official26/com/github/epsilon/modules/impl/player/Stealer.java"
+    },
+    {
+     "name": "Watermark",
+     "jac": 0.0,
+     "path": "work/official26/com/github/epsilon/elements/impl/Watermark.java"
+    }
+   ]
+  },
+  {
+   "obf": "G",
+   "is_module": true,
+   "lines": 2138,
+   "cands": [
+    {
+     "name": "ESP2D",
+     "jac": 0.2,
+     "path": "work/official26/com/github/epsilon/modules/impl/render/ESP2D.java"
+    },
+    {
+     "name": "AutoFirework",
+     "jac": 0.1,
+     "path": "work/official26/com/github/epsilon/modules/impl/player/AutoFirework.java"
+    },
+    {
+     "name": "NoSlow",
+     "jac": 0.059,
+     "path": "work/official26/com/github/epsilon/modules/impl/movement/NoSlow.java"
+    },
+    {
+     "name": "AutoTool",
+     "jac": 0.059,
+     "path": "work/official26/com/github/epsilon/modules/impl/player/AutoTool.java"
+    }
+   ]
+  }
+ ]
+}

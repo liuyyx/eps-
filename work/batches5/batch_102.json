@@ -1,0 +1,24 @@
+{
+ "batch": "F102",
+ "n": 3,
+ "classes": [
+  {
+   "obf": "u6",
+   "is_module": false,
+   "lines": 136,
+   "cands": []
+  },
+  {
+   "obf": "u7",
+   "is_module": false,
+   "lines": 80,
+   "cands": []
+  },
+  {
+   "obf": "u9",
+   "is_module": false,
+   "lines": 41,
+   "cands": []
+  }
+ ]
+}

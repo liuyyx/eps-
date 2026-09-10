@@ -1,0 +1,24 @@
+{
+ "batch": "F146",
+ "n": 3,
+ "classes": [
+  {
+   "obf": "_d",
+   "is_module": false,
+   "lines": 23,
+   "cands": []
+  },
+  {
+   "obf": "_e",
+   "is_module": false,
+   "lines": 62,
+   "cands": []
+  },
+  {
+   "obf": "_G",
+   "is_module": false,
+   "lines": 104,
+   "cands": []
+  }
+ ]
+}

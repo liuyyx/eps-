@@ -1,0 +1,24 @@
+{
+ "batch": "F141",
+ "n": 3,
+ "classes": [
+  {
+   "obf": "zT",
+   "is_module": false,
+   "lines": 10,
+   "cands": []
+  },
+  {
+   "obf": "zw",
+   "is_module": false,
+   "lines": 68,
+   "cands": []
+  },
+  {
+   "obf": "zY",
+   "is_module": false,
+   "lines": 125,
+   "cands": []
+  }
+ ]
+}

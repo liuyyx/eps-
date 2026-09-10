@@ -1,0 +1,24 @@
+{
+ "batch": "F134",
+ "n": 3,
+ "classes": [
+  {
+   "obf": "yT",
+   "is_module": false,
+   "lines": 404,
+   "cands": []
+  },
+  {
+   "obf": "yU",
+   "is_module": false,
+   "lines": 59,
+   "cands": []
+  },
+  {
+   "obf": "yu",
+   "is_module": false,
+   "lines": 1482,
+   "cands": []
+  }
+ ]
+}

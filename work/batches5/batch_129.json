@@ -1,0 +1,24 @@
+{
+ "batch": "F129",
+ "n": 3,
+ "classes": [
+  {
+   "obf": "yB",
+   "is_module": false,
+   "lines": 125,
+   "cands": []
+  },
+  {
+   "obf": "yE",
+   "is_module": false,
+   "lines": 16,
+   "cands": []
+  },
+  {
+   "obf": "ye",
+   "is_module": false,
+   "lines": 125,
+   "cands": []
+  }
+ ]
+}

@@ -1,0 +1,24 @@
+{
+ "batch": "F083",
+ "n": 3,
+ "classes": [
+  {
+   "obf": "nb",
+   "is_module": false,
+   "lines": 1985,
+   "cands": []
+  },
+  {
+   "obf": "nc",
+   "is_module": false,
+   "lines": 71,
+   "cands": []
+  },
+  {
+   "obf": "nd",
+   "is_module": false,
+   "lines": 19,
+   "cands": []
+  }
+ ]
+}

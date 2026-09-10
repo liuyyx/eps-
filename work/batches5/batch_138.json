@@ -1,0 +1,24 @@
+{
+ "batch": "F138",
+ "n": 3,
+ "classes": [
+  {
+   "obf": "zh",
+   "is_module": false,
+   "lines": 220,
+   "cands": []
+  },
+  {
+   "obf": "zI",
+   "is_module": false,
+   "lines": 16,
+   "cands": []
+  },
+  {
+   "obf": "zK",
+   "is_module": false,
+   "lines": 140,
+   "cands": []
+  }
+ ]
+}

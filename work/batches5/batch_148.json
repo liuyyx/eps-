@@ -1,0 +1,24 @@
+{
+ "batch": "F148",
+ "n": 3,
+ "classes": [
+  {
+   "obf": "_k",
+   "is_module": false,
+   "lines": 20,
+   "cands": []
+  },
+  {
+   "obf": "_L",
+   "is_module": false,
+   "lines": 296,
+   "cands": []
+  },
+  {
+   "obf": "_O",
+   "is_module": false,
+   "lines": 78,
+   "cands": []
+  }
+ ]
+}

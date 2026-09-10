@@ -1,0 +1,24 @@
+{
+ "batch": "F124",
+ "n": 3,
+ "classes": [
+  {
+   "obf": "XP",
+   "is_module": false,
+   "lines": 203,
+   "cands": []
+  },
+  {
+   "obf": "XQ",
+   "is_module": false,
+   "lines": 1288,
+   "cands": []
+  },
+  {
+   "obf": "Xq",
+   "is_module": false,
+   "lines": 121,
+   "cands": []
+  }
+ ]
+}

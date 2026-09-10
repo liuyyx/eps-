@@ -1,0 +1,24 @@
+{
+ "batch": "F128",
+ "n": 3,
+ "classes": [
+  {
+   "obf": "y5",
+   "is_module": false,
+   "lines": 123,
+   "cands": []
+  },
+  {
+   "obf": "y7",
+   "is_module": false,
+   "lines": 970,
+   "cands": []
+  },
+  {
+   "obf": "y8",
+   "is_module": false,
+   "lines": 438,
+   "cands": []
+  }
+ ]
+}

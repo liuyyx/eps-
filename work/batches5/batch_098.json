@@ -1,0 +1,24 @@
+{
+ "batch": "F098",
+ "n": 3,
+ "classes": [
+  {
+   "obf": "OQ",
+   "is_module": false,
+   "lines": 140,
+   "cands": []
+  },
+  {
+   "obf": "Oq",
+   "is_module": false,
+   "lines": 267,
+   "cands": []
+  },
+  {
+   "obf": "OR",
+   "is_module": false,
+   "lines": 27,
+   "cands": []
+  }
+ ]
+}

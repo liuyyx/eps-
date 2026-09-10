@@ -1,0 +1,24 @@
+{
+ "batch": "F119",
+ "n": 3,
+ "classes": [
+  {
+   "obf": "X5",
+   "is_module": false,
+   "lines": 140,
+   "cands": []
+  },
+  {
+   "obf": "X6",
+   "is_module": false,
+   "lines": 12,
+   "cands": []
+  },
+  {
+   "obf": "X7",
+   "is_module": false,
+   "lines": 123,
+   "cands": []
+  }
+ ]
+}

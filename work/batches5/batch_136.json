@@ -1,0 +1,24 @@
+{
+ "batch": "F136",
+ "n": 3,
+ "classes": [
+  {
+   "obf": "z5",
+   "is_module": false,
+   "lines": 39,
+   "cands": []
+  },
+  {
+   "obf": "z7",
+   "is_module": false,
+   "lines": 145,
+   "cands": []
+  },
+  {
+   "obf": "z9",
+   "is_module": false,
+   "lines": 74,
+   "cands": []
+  }
+ ]
+}

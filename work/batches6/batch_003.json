@@ -1,0 +1,87 @@
+{
+ "batch": "G003",
+ "n": 3,
+ "classes": [
+  {
+   "obf": "H",
+   "is_module": true,
+   "lines": 1269,
+   "cands": [
+    {
+     "name": "AutoFirework",
+     "jac": 0.167,
+     "path": "work/official26/com/github/epsilon/modules/impl/player/AutoFirework.java"
+    },
+    {
+     "name": "ESP2D",
+     "jac": 0.143,
+     "path": "work/official26/com/github/epsilon/modules/impl/render/ESP2D.java"
+    },
+    {
+     "name": "Watermark",
+     "jac": 0.0,
+     "path": "work/official26/com/github/epsilon/elements/impl/Watermark.java"
+    },
+    {
+     "name": "Timer",
+     "jac": 0.0,
+     "path": "work/official26/com/github/epsilon/modules/impl/player/Timer.java"
+    }
+   ]
+  },
+  {
+   "obf": "m",
+   "is_module": true,
+   "lines": 1525,
+   "cands": [
+    {
+     "name": "ESP2D",
+     "jac": 0.167,
+     "path": "work/official26/com/github/epsilon/modules/impl/render/ESP2D.java"
+    },
+    {
+     "name": "Watermark",
+     "jac": 0.0,
+     "path": "work/official26/com/github/epsilon/elements/impl/Watermark.java"
+    },
+    {
+     "name": "Timer",
+     "jac": 0.0,
+     "path": "work/official26/com/github/epsilon/modules/impl/player/Timer.java"
+    },
+    {
+     "name": "Stuck",
+     "jac": 0.0,
+     "path": "work/official26/com/github/epsilon/modules/impl/movement/Stuck.java"
+    }
+   ]
+  },
+  {
+   "obf": "n",
+   "is_module": true,
+   "lines": 203,
+   "cands": [
+    {
+     "name": "Stuck",
+     "jac": 0.167,
+     "path": "work/official26/com/github/epsilon/modules/impl/movement/Stuck.java"
+    },
+    {
+     "name": "NoSlow",
+     "jac": 0.077,
+     "path": "work/official26/com/github/epsilon/modules/impl/movement/NoSlow.java"
+    },
+    {
+     "name": "AutoTool",
+     "jac": 0.077,
+     "path": "work/official26/com/github/epsilon/modules/impl/player/AutoTool.java"
+    },
+    {
+     "name": "Watermark",
+     "jac": 0.0,
+     "path": "work/official26/com/github/epsilon/elements/impl/Watermark.java"
+    }
+   ]
+  }
+ ]
+}

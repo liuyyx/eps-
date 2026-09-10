@@ -1,0 +1,24 @@
+{
+ "batch": "F113",
+ "n": 3,
+ "classes": [
+  {
+   "obf": "vd",
+   "is_module": false,
+   "lines": 46,
+   "cands": []
+  },
+  {
+   "obf": "ve",
+   "is_module": false,
+   "lines": 118,
+   "cands": []
+  },
+  {
+   "obf": "vF",
+   "is_module": false,
+   "lines": 62,
+   "cands": []
+  }
+ ]
+}
