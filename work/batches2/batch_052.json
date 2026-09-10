@@ -1,0 +1,220 @@
+{
+ "batch": "C052",
+ "n": 8,
+ "classes": [
+  {
+   "obf": "OY",
+   "kind": "class",
+   "super": null,
+   "lines": 109,
+   "anchored_refs": [],
+   "mc_imports": [],
+   "candidates": []
+  },
+  {
+   "obf": "Oy",
+   "kind": "class",
+   "super": "Enum",
+   "lines": 168,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc_imports": [],
+   "candidates": []
+  },
+  {
+   "obf": "OZ",
+   "kind": "interface",
+   "super": null,
+   "lines": 14,
+   "anchored_refs": [
+    "Setting",
+    "SettingRow"
+   ],
+   "mc_imports": [],
+   "candidates": [
+    {
+     "src": "EpsilonAddon",
+     "score": 3.0,
+     "why": "锚点引用:Setting"
+    },
+    {
+     "src": "I18NFileGenerator",
+     "score": 3.0,
+     "why": "锚点引用:Setting"
+    },
+    {
+     "src": "AddonPanelEntry",
+     "score": 3.0,
+     "why": "锚点引用:Setting"
+    }
+   ]
+  },
+  {
+   "obf": "Oz",
+   "kind": "record",
+   "super": null,
+   "lines": 24,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc_imports": [
+    "net.minecraft.core.BlockPos"
+   ],
+   "candidates": [
+    {
+     "src": "DestroyBlockEvent",
+     "score": 4.0,
+     "why": "MCimport:1"
+    },
+    {
+     "src": "BlockCollisionEvent",
+     "score": 2.0,
+     "why": "MCimport:1"
+    },
+    {
+     "src": "StartDestroyBlockEvent",
+     "score": 2.0,
+     "why": "MCimport:1"
+    }
+   ]
+  },
+  {
+   "obf": "O_",
+   "kind": "class",
+   "super": "Enum",
+   "lines": 123,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc_imports": [],
+   "candidates": []
+  },
+  {
+   "obf": "p",
+   "kind": "class",
+   "super": "e",
+   "lines": 3043,
+   "anchored_refs": [
+    "BoolSetting",
+    "DoubleSetting",
+    "IntSetting",
+    "Module",
+    "PlayerTickEvent.Pre",
+    "Render3DEvent",
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "mc_imports": [
+    "net.minecraft.client.player.LocalPlayer",
+    "net.minecraft.core.BlockPos",
+    "net.minecraft.core.Direction",
+    "net.minecraft.network.protocol.game.ServerboundSwingPacket",
+    "net.minecraft.world.InteractionHand",
+    "net.minecraft.world.level.block.BedBlock",
+    "net.minecraft.world.level.block.state.BlockState",
+    "net.minecraft.world.phys.AABB",
+    "net.minecraft.world.phys.BlockHitResult",
+    "net.minecraft.world.phys.Vec3"
+   ],
+   "candidates": []
+  },
+  {
+   "obf": "q",
+   "kind": "class",
+   "super": "e",
+   "lines": 2907,
+   "anchored_refs": [
+    "BoolSetting",
+    "DoubleSetting",
+    "IntSetting",
+    "Module",
+    "PacketEvent.Receive",
+    "PacketEvent.Send",
+    "PlayerTickEvent.Pre",
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "mc_imports": [
+    "net.minecraft.client.Minecraft",
+    "net.minecraft.client.gui.Gui",
+    "net.minecraft.client.gui.screens.inventory.AbstractContainerScreen",
+    "net.minecraft.client.multiplayer.ClientLevel",
+    "net.minecraft.client.player.LocalPlayer",
+    "net.minecraft.core.BlockPos",
+    "net.minecraft.network.protocol.game.ClientboundBlockEventPacket",
+    "net.minecraft.network.protocol.game.ClientboundContainerClosePacket",
+    "net.minecraft.network.protocol.game.ClientboundSoundPacket",
+    "net.minecraft.network.protocol.game.ServerboundContainerClosePacket"
+   ],
+   "candidates": [
+    {
+     "src": "ModuleButton",
+     "score": 15.0,
+     "why": "锚点引用:BoolSetting,DoubleSetting,IntSetting,Module,Setting"
+    },
+    {
+     "src": "ConfigHolder",
+     "score": 15.0,
+     "why": "锚点引用:BoolSetting,DoubleSetting,IntSetting,Module,Setting"
+    },
+    {
+     "src": "ClientSetting",
+     "score": 15.0,
+     "why": "锚点引用:BoolSetting,DoubleSetting,IntSetting,Module,Setting"
+    }
+   ]
+  },
+  {
+   "obf": "T",
+   "kind": "class",
+   "super": "e",
+   "lines": 3625,
+   "anchored_refs": [
+    "AttackEntityEvent",
+    "BoolSetting",
+    "ClientTickEvent.Pre",
+    "ColorSetting",
+    "DoubleSetting",
+    "EnumSetting",
+    "GameLeftEvent",
+    "IntSetting",
+    "LevelUpdateEvent",
+    "Module",
+    "PacketEvent.Receive",
+    "Render3DEvent",
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "mc_imports": [
+    "net.minecraft.client.Minecraft",
+    "net.minecraft.client.multiplayer.ClientPacketListener",
+    "net.minecraft.client.player.LocalPlayer",
+    "net.minecraft.network.protocol.Packet",
+    "net.minecraft.network.protocol.game.ClientboundEntityPositionSyncPacket",
+    "net.minecraft.network.protocol.game.ClientboundMoveEntityPacket",
+    "net.minecraft.network.protocol.game.ClientboundPlayerChatPacket",
+    "net.minecraft.network.protocol.game.ClientboundSoundPacket",
+    "net.minecraft.network.protocol.game.ClientboundSystemChatPacket",
+    "net.minecraft.network.protocol.game.ClientboundTeleportEntityPacket"
+   ],
+   "candidates": [
+    {
+     "src": "Follower",
+     "score": 22.89,
+     "why": "锚点引用:BoolSetting,ColorSetting,DoubleSetting,EnumSetting,IntSetting; MCimport:4"
+    },
+    {
+     "src": "ZealotCrystalPlus",
+     "score": 22.72,
+     "why": "锚点引用:BoolSetting,ColorSetting,DoubleSetting,EnumSetting,IntSetting; MCimport:7"
+    },
+    {
+     "src": "SafeAnchor",
+     "score": 22.41,
+     "why": "锚点引用:BoolSetting,ColorSetting,DoubleSetting,EnumSetting,IntSetting; MCimport:3"
+    }
+   ]
+  }
+ ]
+}

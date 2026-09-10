@@ -1,0 +1,162 @@
+{
+ "batch": "C043",
+ "n": 8,
+ "classes": [
+  {
+   "obf": "ns",
+   "kind": "class",
+   "super": null,
+   "lines": 1044,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "mc_imports": [
+    "net.minecraft.client.Minecraft",
+    "net.minecraft.client.input.CharacterEvent",
+    "net.minecraft.client.input.KeyEvent"
+   ],
+   "candidates": [
+    {
+     "src": "SettingListController",
+     "score": 4.6,
+     "why": "锚点引用:Setting; MCimport:2"
+    },
+    {
+     "src": "ModuleDetailPanel",
+     "score": 4.6,
+     "why": "锚点引用:Setting; MCimport:2"
+    },
+    {
+     "src": "AddonClientSettingTab",
+     "score": 4.6,
+     "why": "锚点引用:Setting; MCimport:2"
+    }
+   ]
+  },
+  {
+   "obf": "nT",
+   "kind": "class",
+   "super": null,
+   "lines": 1098,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "mc_imports": [],
+   "candidates": [
+    {
+     "src": "EpsilonAddon",
+     "score": 3.0,
+     "why": "锚点引用:Setting"
+    },
+    {
+     "src": "I18NFileGenerator",
+     "score": 3.0,
+     "why": "锚点引用:Setting"
+    },
+    {
+     "src": "AddonPanelEntry",
+     "score": 3.0,
+     "why": "锚点引用:Setting"
+    }
+   ]
+  },
+  {
+   "obf": "nt",
+   "kind": "class",
+   "super": "Record",
+   "lines": 113,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心",
+    "异步资源/数据加载缓存类（implements DS 接口，确切类名未定）"
+   ],
+   "mc_imports": [],
+   "candidates": []
+  },
+  {
+   "obf": "nU",
+   "kind": "class",
+   "super": "Record",
+   "lines": 83,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心",
+    "异步资源/数据加载缓存类（implements DS 接口，确切类名未定）"
+   ],
+   "mc_imports": [],
+   "candidates": []
+  },
+  {
+   "obf": "nu",
+   "kind": "class",
+   "super": "Enum",
+   "lines": 142,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc_imports": [],
+   "candidates": []
+  },
+  {
+   "obf": "nV",
+   "kind": "class",
+   "super": null,
+   "lines": 738,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "mc_imports": [
+    "net.minecraft.client.Minecraft",
+    "net.minecraft.client.User",
+    "net.minecraft.client.gui.screens.social.PlayerSocialManager",
+    "net.minecraft.client.gui.screens.social.RemoteFriendListUpdateHandler",
+    "net.minecraft.client.multiplayer.ProfileKeyPairManager",
+    "net.minecraft.client.multiplayer.chat.report.ReportingContext",
+    "net.minecraft.client.renderer.texture.SkinTextureDownloader",
+    "net.minecraft.client.renderer.texture.TextureManager",
+    "net.minecraft.client.resources.SkinManager",
+    "net.minecraft.server.Services"
+   ],
+   "candidates": [
+    {
+     "src": "Module",
+     "score": 3.4,
+     "why": "锚点引用:Setting; MCimport:1"
+    },
+    {
+     "src": "EpsilonAddon",
+     "score": 3.0,
+     "why": "锚点引用:Setting"
+    },
+    {
+     "src": "I18NFileGenerator",
+     "score": 3.0,
+     "why": "锚点引用:Setting"
+    }
+   ]
+  },
+  {
+   "obf": "nv",
+   "kind": "class",
+   "super": "Record",
+   "lines": 45,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc_imports": [],
+   "candidates": []
+  },
+  {
+   "obf": "nW",
+   "kind": "class",
+   "super": "Enum",
+   "lines": 170,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc_imports": [],
+   "candidates": []
+  }
+ ]
+}

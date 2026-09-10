@@ -1,0 +1,175 @@
+{
+ "batch": "C022",
+ "n": 8,
+ "classes": [
+  {
+   "obf": "gT",
+   "kind": "class",
+   "super": "gs",
+   "lines": 133,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc_imports": [
+    "net.minecraft.resources.Identifier",
+    "net.minecraft.world.phys.Vec3"
+   ],
+   "candidates": []
+  },
+  {
+   "obf": "gU",
+   "kind": "class",
+   "super": "Record",
+   "lines": 152,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc_imports": [],
+   "candidates": []
+  },
+  {
+   "obf": "gu",
+   "kind": "class",
+   "super": null,
+   "lines": 237,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "mc_imports": [],
+   "candidates": [
+    {
+     "src": "EpsilonAddon",
+     "score": 3.0,
+     "why": "锚点引用:Setting"
+    },
+    {
+     "src": "I18NFileGenerator",
+     "score": 3.0,
+     "why": "锚点引用:Setting"
+    },
+    {
+     "src": "AddonPanelEntry",
+     "score": 3.0,
+     "why": "锚点引用:Setting"
+    }
+   ]
+  },
+  {
+   "obf": "gV",
+   "kind": "class",
+   "super": "gs",
+   "lines": 183,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "mc_imports": [
+    "net.minecraft.resources.Identifier",
+    "net.minecraft.world.phys.Vec3"
+   ],
+   "candidates": [
+    {
+     "src": "ClientSetting",
+     "score": 4.33,
+     "why": "锚点引用:Setting; MCimport:1"
+    },
+    {
+     "src": "RegistryListSetting",
+     "score": 3.44,
+     "why": "锚点引用:Setting; MCimport:1"
+    },
+    {
+     "src": "RegistryListSelectPopup",
+     "score": 3.24,
+     "why": "锚点引用:Setting; MCimport:1"
+    }
+   ]
+  },
+  {
+   "obf": "gv",
+   "kind": "class",
+   "super": "Record",
+   "lines": 48,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc_imports": [
+    "net.minecraft.world.phys.Vec3"
+   ],
+   "candidates": [
+    {
+     "src": "FollowerPath",
+     "score": 4.0,
+     "why": "MCimport:1"
+    },
+    {
+     "src": "MixinEntity",
+     "score": 2.0,
+     "why": "MCimport:1"
+    },
+    {
+     "src": "MixinLivingEntity",
+     "score": 2.0,
+     "why": "MCimport:1"
+    }
+   ]
+  },
+  {
+   "obf": "gW",
+   "kind": "class",
+   "super": null,
+   "lines": 1922,
+   "anchored_refs": [
+    "Module",
+    "SeQL/字符串解密+调用分发核心",
+    "Setting",
+    "异步资源/数据加载缓存类（implements DS 接口，确切类名未定）"
+   ],
+   "mc_imports": [
+    "net.minecraft.client.gui.GuiGraphicsExtractor",
+    "net.minecraft.client.input.MouseButtonEvent"
+   ],
+   "candidates": [
+    {
+     "src": "ModuleDetailPanel",
+     "score": 8.0,
+     "why": "锚点引用:Module,Setting; MCimport:2"
+    },
+    {
+     "src": "EpsilonAddon",
+     "score": 6.0,
+     "why": "锚点引用:Module,Setting"
+    },
+    {
+     "src": "I18NFileGenerator",
+     "score": 6.0,
+     "why": "锚点引用:Module,Setting"
+    }
+   ]
+  },
+  {
+   "obf": "gw",
+   "kind": "class",
+   "super": "gs",
+   "lines": 46,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc_imports": [
+    "net.minecraft.resources.Identifier",
+    "net.minecraft.world.phys.Vec3"
+   ],
+   "candidates": []
+  },
+  {
+   "obf": "gX",
+   "kind": "class",
+   "super": null,
+   "lines": 15,
+   "anchored_refs": [],
+   "mc_imports": [],
+   "candidates": []
+  }
+ ]
+}

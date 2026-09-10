@@ -1,0 +1,181 @@
+{
+ "batch": "C025",
+ "n": 8,
+ "classes": [
+  {
+   "obf": "i9",
+   "kind": "class",
+   "super": null,
+   "lines": 28,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc_imports": [
+    "net.minecraft.core.BlockPos",
+    "net.minecraft.world.level.block.Block"
+   ],
+   "candidates": []
+  },
+  {
+   "obf": "iA",
+   "kind": "class",
+   "super": null,
+   "lines": 2447,
+   "anchored_refs": [
+    "Module",
+    "SeQL/字符串解密+调用分发核心",
+    "Setting",
+    "TranslateComponent"
+   ],
+   "mc_imports": [
+    "net.minecraft.client.gui.GuiGraphicsExtractor",
+    "net.minecraft.client.input.CharacterEvent",
+    "net.minecraft.client.input.MouseButtonEvent"
+   ],
+   "candidates": [
+    {
+     "src": "ModuleDetailPanel",
+     "score": 10.0,
+     "why": "锚点引用:Module,Setting; MCimport:3"
+    },
+    {
+     "src": "I18NFileGenerator",
+     "score": 9.0,
+     "why": "锚点引用:Module,Setting,TranslateComponent"
+    },
+    {
+     "src": "ClientSettingPanel",
+     "score": 7.0,
+     "why": "锚点引用:TranslateComponent; MCimport:3"
+    }
+   ]
+  },
+  {
+   "obf": "ia",
+   "kind": "class",
+   "super": null,
+   "lines": 44,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc_imports": [],
+   "candidates": []
+  },
+  {
+   "obf": "iB",
+   "kind": "class",
+   "super": null,
+   "lines": 94,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc_imports": [],
+   "candidates": []
+  },
+  {
+   "obf": "ib",
+   "kind": "class",
+   "super": "iN",
+   "lines": 493,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心",
+    "Setting",
+    "TranslateComponent"
+   ],
+   "mc_imports": [],
+   "candidates": [
+    {
+     "src": "I18NFileGenerator",
+     "score": 6.0,
+     "why": "锚点引用:Setting,TranslateComponent"
+    },
+    {
+     "src": "SettingsListPanel",
+     "score": 6.0,
+     "why": "锚点引用:Setting,TranslateComponent"
+    },
+    {
+     "src": "Module",
+     "score": 6.0,
+     "why": "锚点引用:Setting,TranslateComponent"
+    }
+   ]
+  },
+  {
+   "obf": "iC",
+   "kind": "class",
+   "super": "iN",
+   "lines": 1234,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心",
+    "Setting",
+    "TranslateComponent"
+   ],
+   "mc_imports": [],
+   "candidates": [
+    {
+     "src": "I18NFileGenerator",
+     "score": 6.0,
+     "why": "锚点引用:Setting,TranslateComponent"
+    },
+    {
+     "src": "SettingsListPanel",
+     "score": 6.0,
+     "why": "锚点引用:Setting,TranslateComponent"
+    },
+    {
+     "src": "Module",
+     "score": 6.0,
+     "why": "锚点引用:Setting,TranslateComponent"
+    }
+   ]
+  },
+  {
+   "obf": "ic",
+   "kind": "class",
+   "super": null,
+   "lines": 1069,
+   "anchored_refs": [
+    "BoolSetting",
+    "ColorSetting",
+    "Dependency",
+    "DoubleSetting",
+    "EnumSetting",
+    "IntSetting",
+    "SeQL/字符串解密+调用分发核心",
+    "Setting",
+    "SettingGroup",
+    "Shaders"
+   ],
+   "mc_imports": [],
+   "candidates": [
+    {
+     "src": "ClientSetting",
+     "score": 21.0,
+     "why": "锚点引用:BoolSetting,ColorSetting,DoubleSetting,EnumSetting,IntSetting"
+    },
+    {
+     "src": "SettingHost",
+     "score": 21.0,
+     "why": "锚点引用:BoolSetting,ColorSetting,DoubleSetting,EnumSetting,IntSetting"
+    },
+    {
+     "src": "ModuleButton",
+     "score": 18.0,
+     "why": "锚点引用:BoolSetting,ColorSetting,DoubleSetting,EnumSetting,IntSetting"
+    }
+   ]
+  },
+  {
+   "obf": "iD",
+   "kind": "class",
+   "super": "Enum",
+   "lines": 123,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc_imports": [],
+   "candidates": []
+  }
+ ]
+}

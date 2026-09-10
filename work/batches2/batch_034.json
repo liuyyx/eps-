@@ -1,0 +1,155 @@
+{
+ "batch": "C034",
+ "n": 8,
+ "classes": [
+  {
+   "obf": "lJ",
+   "kind": "class",
+   "super": null,
+   "lines": 192,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心",
+    "TranslateComponent"
+   ],
+   "mc_imports": [],
+   "candidates": [
+    {
+     "src": "DefaultTranslateComponent",
+     "score": 3.0,
+     "why": "锚点引用:TranslateComponent"
+    },
+    {
+     "src": "EpsilonTranslateComponent",
+     "score": 3.0,
+     "why": "锚点引用:TranslateComponent"
+    },
+    {
+     "src": "EpsilonTranslations",
+     "score": 3.0,
+     "why": "锚点引用:TranslateComponent"
+    }
+   ]
+  },
+  {
+   "obf": "lj",
+   "kind": "class",
+   "super": null,
+   "lines": 196,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc_imports": [
+    "net.minecraft.world.entity.EquipmentSlot"
+   ],
+   "candidates": []
+  },
+  {
+   "obf": "lK",
+   "kind": "class",
+   "super": null,
+   "lines": 2710,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "mc_imports": [
+    "net.minecraft.client.gui.GuiGraphicsExtractor",
+    "net.minecraft.client.input.CharacterEvent",
+    "net.minecraft.client.input.MouseButtonEvent"
+   ],
+   "candidates": [
+    {
+     "src": "ModuleDetailPanel",
+     "score": 7.0,
+     "why": "锚点引用:Setting; MCimport:3"
+    },
+    {
+     "src": "AddonClientSettingTab",
+     "score": 7.0,
+     "why": "锚点引用:Setting; MCimport:3"
+    },
+    {
+     "src": "GeneralClientSettingTab",
+     "score": 7.0,
+     "why": "锚点引用:Setting; MCimport:3"
+    }
+   ]
+  },
+  {
+   "obf": "lk",
+   "kind": "class",
+   "super": "Enum",
+   "lines": 140,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc_imports": [],
+   "candidates": []
+  },
+  {
+   "obf": "lL",
+   "kind": "class",
+   "super": "Enum",
+   "lines": 123,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc_imports": [],
+   "candidates": []
+  },
+  {
+   "obf": "ll",
+   "kind": "class",
+   "super": "Record",
+   "lines": 47,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc_imports": [],
+   "candidates": []
+  },
+  {
+   "obf": "lm",
+   "kind": "class",
+   "super": null,
+   "lines": 843,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "mc_imports": [],
+   "candidates": [
+    {
+     "src": "EpsilonAddon",
+     "score": 3.0,
+     "why": "锚点引用:Setting"
+    },
+    {
+     "src": "I18NFileGenerator",
+     "score": 3.0,
+     "why": "锚点引用:Setting"
+    },
+    {
+     "src": "AddonPanelEntry",
+     "score": 3.0,
+     "why": "锚点引用:Setting"
+    }
+   ]
+  },
+  {
+   "obf": "lN",
+   "kind": "class",
+   "super": null,
+   "lines": 194,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc_imports": [
+    "net.minecraft.client.renderer.GameRenderer",
+    "net.minecraft.resources.Identifier",
+    "net.minecraft.world.entity.LivingEntity"
+   ],
+   "candidates": []
+  }
+ ]
+}

@@ -1,0 +1,59 @@
+{
+ "batch": "B096",
+ "n": 3,
+ "classes": [
+  {
+   "obf": "_w",
+   "kind": "record",
+   "super": null,
+   "lines": 25,
+   "decl_line": "record _w(float DU) implements DynamicUniformStorage.DynamicUniform\n",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "hi"
+   ],
+   "mc_imports": [
+    "net.minecraft.client.renderer.DynamicUniformStorage"
+   ],
+   "n_fields": 1,
+   "n_methods": 3,
+   "candidates": []
+  },
+  {
+   "obf": "_x",
+   "kind": "class",
+   "super": "Enum",
+   "lines": 140,
+   "decl_line": "class _x\nextends Enum<_x> ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "hi"
+   ],
+   "mc_imports": [],
+   "n_fields": 1,
+   "n_methods": 7,
+   "candidates": []
+  },
+  {
+   "obf": "_Y",
+   "kind": "class",
+   "super": null,
+   "lines": 39,
+   "decl_line": "class _Y ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "hi"
+   ],
+   "mc_imports": [],
+   "n_fields": 0,
+   "n_methods": 0,
+   "candidates": []
+  }
+ ]
+}

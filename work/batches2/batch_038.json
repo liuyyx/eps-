@@ -1,0 +1,166 @@
+{
+ "batch": "C038",
+ "n": 8,
+ "classes": [
+  {
+   "obf": "n0",
+   "kind": "class",
+   "super": "Enum",
+   "lines": 142,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc_imports": [],
+   "candidates": []
+  },
+  {
+   "obf": "n2",
+   "kind": "class",
+   "super": null,
+   "lines": 21,
+   "anchored_refs": [],
+   "mc_imports": [],
+   "candidates": []
+  },
+  {
+   "obf": "n3",
+   "kind": "class",
+   "super": null,
+   "lines": 44,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc_imports": [
+    "net.minecraft.world.entity.LivingEntity",
+    "net.minecraft.world.phys.Vec3"
+   ],
+   "candidates": [
+    {
+     "src": "MixinLivingEntity",
+     "score": 4.0,
+     "why": "MCimport:2"
+    },
+    {
+     "src": "MixinFireworkRocketEntity",
+     "score": 2.67,
+     "why": "MCimport:2"
+    },
+    {
+     "src": "FollowerNavigator",
+     "score": 2.67,
+     "why": "MCimport:2"
+    }
+   ]
+  },
+  {
+   "obf": "n4",
+   "kind": "class",
+   "super": null,
+   "lines": 1131,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "mc_imports": [
+    "net.minecraft.client.Minecraft",
+    "net.minecraft.client.input.CharacterEvent"
+   ],
+   "candidates": [
+    {
+     "src": "Module",
+     "score": 5.0,
+     "why": "锚点引用:Setting; MCimport:1"
+    },
+    {
+     "src": "SettingListController",
+     "score": 3.8,
+     "why": "锚点引用:Setting; MCimport:1"
+    },
+    {
+     "src": "ModuleDetailPanel",
+     "score": 3.8,
+     "why": "锚点引用:Setting; MCimport:1"
+    }
+   ]
+  },
+  {
+   "obf": "n5",
+   "kind": "interface",
+   "super": null,
+   "lines": 17,
+   "anchored_refs": [
+    "SettingRow"
+   ],
+   "mc_imports": [
+    "net.minecraft.client.input.MouseButtonEvent"
+   ],
+   "candidates": [
+    {
+     "src": "UiCoordinateMapper",
+     "score": 4.0,
+     "why": "MCimport:1"
+    },
+    {
+     "src": "BoolSettingRow",
+     "score": 2.0,
+     "why": "MCimport:1"
+    },
+    {
+     "src": "ButtonSettingRow",
+     "score": 2.0,
+     "why": "MCimport:1"
+    }
+   ]
+  },
+  {
+   "obf": "n6",
+   "kind": "class",
+   "super": null,
+   "lines": 208,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "mc_imports": [],
+   "candidates": [
+    {
+     "src": "EpsilonAddon",
+     "score": 3.0,
+     "why": "锚点引用:Setting"
+    },
+    {
+     "src": "I18NFileGenerator",
+     "score": 3.0,
+     "why": "锚点引用:Setting"
+    },
+    {
+     "src": "AddonPanelEntry",
+     "score": 3.0,
+     "why": "锚点引用:Setting"
+    }
+   ]
+  },
+  {
+   "obf": "n7",
+   "kind": "class",
+   "super": "Enum",
+   "lines": 125,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc_imports": [],
+   "candidates": []
+  },
+  {
+   "obf": "n8",
+   "kind": "class",
+   "super": "Record",
+   "lines": 45,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc_imports": [],
+   "candidates": []
+  }
+ ]
+}

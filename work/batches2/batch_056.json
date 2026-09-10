@@ -1,0 +1,208 @@
+{
+ "batch": "C056",
+ "n": 8,
+ "classes": [
+  {
+   "obf": "uk",
+   "kind": "class",
+   "super": "e",
+   "lines": 1275,
+   "anchored_refs": [
+    "BoolSetting",
+    "IntSetting",
+    "KeybindSetting",
+    "Module",
+    "PlayerTickEvent.Pre",
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "mc_imports": [
+    "net.minecraft.client.player.LocalPlayer",
+    "net.minecraft.world.InteractionHand",
+    "net.minecraft.world.item.ItemStack",
+    "net.minecraft.world.item.equipment.Equippable"
+   ],
+   "candidates": [
+    {
+     "src": "ModuleButton",
+     "score": 15.0,
+     "why": "锚点引用:BoolSetting,IntSetting,KeybindSetting,Module,Setting"
+    },
+    {
+     "src": "ConfigHolder",
+     "score": 15.0,
+     "why": "锚点引用:BoolSetting,IntSetting,KeybindSetting,Module,Setting"
+    },
+    {
+     "src": "ClientSetting",
+     "score": 15.0,
+     "why": "锚点引用:BoolSetting,IntSetting,KeybindSetting,Module,Setting"
+    }
+   ]
+  },
+  {
+   "obf": "uL",
+   "kind": "class",
+   "super": "e",
+   "lines": 993,
+   "anchored_refs": [
+    "BoolSetting",
+    "KeyboardInputEvent",
+    "Module",
+    "MoveEvent",
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "mc_imports": [
+    "net.minecraft.client.player.LocalPlayer",
+    "net.minecraft.core.Holder"
+   ],
+   "candidates": [
+    {
+     "src": "Follower",
+     "score": 9.67,
+     "why": "锚点引用:BoolSetting,KeyboardInputEvent,Module; MCimport:1"
+    },
+    {
+     "src": "ModuleButton",
+     "score": 9.0,
+     "why": "锚点引用:BoolSetting,Module,Setting"
+    },
+    {
+     "src": "ConfigHolder",
+     "score": 9.0,
+     "why": "锚点引用:BoolSetting,Module,Setting"
+    }
+   ]
+  },
+  {
+   "obf": "ul",
+   "kind": "class",
+   "super": "Enum",
+   "lines": 168,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc_imports": [],
+   "candidates": []
+  },
+  {
+   "obf": "uM",
+   "kind": "class",
+   "super": "Record",
+   "lines": 45,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc_imports": [],
+   "candidates": []
+  },
+  {
+   "obf": "um",
+   "kind": "class",
+   "super": null,
+   "lines": 181,
+   "anchored_refs": [
+    "EpsilonAddon",
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "mc_imports": [],
+   "candidates": [
+    {
+     "src": "EpsilonAddon",
+     "score": 3.0,
+     "why": "锚点引用:Setting"
+    },
+    {
+     "src": "I18NFileGenerator",
+     "score": 3.0,
+     "why": "锚点引用:Setting"
+    },
+    {
+     "src": "AddonPanelEntry",
+     "score": 3.0,
+     "why": "锚点引用:Setting"
+    }
+   ]
+  },
+  {
+   "obf": "uN",
+   "kind": "class",
+   "super": null,
+   "lines": 500,
+   "anchored_refs": [
+    "BoolSetting",
+    "Dependency",
+    "DoubleSetting",
+    "HandsView",
+    "SeQL/字符串解密+调用分发核心",
+    "SettingGroup"
+   ],
+   "mc_imports": [],
+   "candidates": [
+    {
+     "src": "ClientSetting",
+     "score": 9.0,
+     "why": "锚点引用:BoolSetting,DoubleSetting,SettingGroup"
+    },
+    {
+     "src": "ZealotCrystalPlus",
+     "score": 9.0,
+     "why": "锚点引用:BoolSetting,DoubleSetting,SettingGroup"
+    },
+    {
+     "src": "HoleSnap",
+     "score": 9.0,
+     "why": "锚点引用:BoolSetting,DoubleSetting,SettingGroup"
+    }
+   ]
+  },
+  {
+   "obf": "uO",
+   "kind": "class",
+   "super": "Enum",
+   "lines": 140,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc_imports": [],
+   "candidates": []
+  },
+  {
+   "obf": "uo",
+   "kind": "class",
+   "super": null,
+   "lines": 811,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "mc_imports": [
+    "net.minecraft.core.BlockPos",
+    "net.minecraft.world.entity.Entity",
+    "net.minecraft.world.entity.player.Player",
+    "net.minecraft.world.level.ClipContext",
+    "net.minecraft.world.phys.BlockHitResult",
+    "net.minecraft.world.phys.Vec3"
+   ],
+   "candidates": [
+    {
+     "src": "FallingPlayer",
+     "score": 3.22,
+     "why": "MCimport:5"
+    },
+    {
+     "src": "EpsilonAddon",
+     "score": 3.0,
+     "why": "锚点引用:Setting"
+    },
+    {
+     "src": "I18NFileGenerator",
+     "score": 3.0,
+     "why": "锚点引用:Setting"
+    }
+   ]
+  }
+ ]
+}

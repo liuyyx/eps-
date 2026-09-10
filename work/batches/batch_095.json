@@ -1,0 +1,152 @@
+{
+ "batch": "B095",
+ "n": 8,
+ "classes": [
+  {
+   "obf": "_k",
+   "kind": "class",
+   "super": null,
+   "lines": 20,
+   "decl_line": "class _k ",
+   "anchored_refs": [],
+   "refs": [],
+   "mc_imports": [],
+   "n_fields": 2,
+   "n_methods": 3,
+   "candidates": []
+  },
+  {
+   "obf": "_m",
+   "kind": "class",
+   "super": "Enum",
+   "lines": 207,
+   "decl_line": "class _m\nextends Enum<_m> ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "hi"
+   ],
+   "mc_imports": [],
+   "n_fields": 2,
+   "n_methods": 12,
+   "candidates": []
+  },
+  {
+   "obf": "_O",
+   "kind": "class",
+   "super": "Record",
+   "lines": 78,
+   "decl_line": "class _O\nextends Record\nimplements _Q ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "_Q",
+    "hi",
+    "ih",
+    "nK"
+   ],
+   "mc_imports": [],
+   "n_fields": 7,
+   "n_methods": 18,
+   "candidates": []
+  },
+  {
+   "obf": "_P",
+   "kind": "class",
+   "super": "Enum",
+   "lines": 125,
+   "decl_line": "class _P\nextends Enum<_P> ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "hi"
+   ],
+   "mc_imports": [],
+   "n_fields": 1,
+   "n_methods": 7,
+   "candidates": []
+  },
+  {
+   "obf": "_Q",
+   "kind": "interface",
+   "super": null,
+   "lines": 41,
+   "decl_line": "interface _Q\npermits vd, n8, ll, nR, Xq, Ou, yq, l2, Dd, XS, gI, nc, Xz, nU, li, ln, _O, u2, iG, Ox, ud, d4, Or, g2, ux, uB, D9, _7, _0, gi, uS ",
+   "anchored_refs": [],
+   "refs": [
+    "D9",
+    "Dd",
+    "Or",
+    "Ou",
+    "Ox",
+    "XS",
+    "Xq",
+    "Xz",
+    "_0",
+    "_7",
+    "_O",
+    "d4",
+    "g2",
+    "gI"
+   ],
+   "mc_imports": [],
+   "n_fields": 0,
+   "n_methods": 0,
+   "candidates": []
+  },
+  {
+   "obf": "_r",
+   "kind": "class",
+   "super": "Enum",
+   "lines": 168,
+   "decl_line": "class _r\nextends Enum<_r> ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "hi"
+   ],
+   "mc_imports": [],
+   "n_fields": 1,
+   "n_methods": 8,
+   "candidates": []
+  },
+  {
+   "obf": "_s",
+   "kind": "class",
+   "super": "Enum",
+   "lines": 123,
+   "decl_line": "class _s\nextends Enum<_s> ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "hi"
+   ],
+   "mc_imports": [],
+   "n_fields": 1,
+   "n_methods": 6,
+   "candidates": []
+  },
+  {
+   "obf": "_T",
+   "kind": "class",
+   "super": "Enum",
+   "lines": 140,
+   "decl_line": "class _T\nextends Enum<_T> ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "hi"
+   ],
+   "mc_imports": [],
+   "n_fields": 1,
+   "n_methods": 7,
+   "candidates": []
+  }
+ ]
+}

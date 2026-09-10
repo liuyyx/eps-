@@ -1,0 +1,157 @@
+{
+ "batch": "B078",
+ "n": 8,
+ "classes": [
+  {
+   "obf": "v4",
+   "kind": "class",
+   "super": null,
+   "lines": 18,
+   "decl_line": "class v4 ",
+   "anchored_refs": [],
+   "refs": [],
+   "mc_imports": [],
+   "n_fields": 1,
+   "n_methods": 2,
+   "candidates": []
+  },
+  {
+   "obf": "v6",
+   "kind": "class",
+   "super": "Record",
+   "lines": 75,
+   "decl_line": "class v6\nextends Record ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "hi",
+    "n_"
+   ],
+   "mc_imports": [],
+   "n_fields": 7,
+   "n_methods": 18,
+   "candidates": []
+  },
+  {
+   "obf": "vA",
+   "kind": "class",
+   "super": "Record",
+   "lines": 113,
+   "decl_line": "class vA\nextends Record\nimplements yM ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "XL",
+    "Xu",
+    "hi",
+    "y3",
+    "yM"
+   ],
+   "mc_imports": [],
+   "n_fields": 10,
+   "n_methods": 26,
+   "candidates": []
+  },
+  {
+   "obf": "vd",
+   "kind": "class",
+   "super": "Record",
+   "lines": 46,
+   "decl_line": "class vd\nextends Record\nimplements _Q ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "_Q",
+    "hi"
+   ],
+   "mc_imports": [],
+   "n_fields": 2,
+   "n_methods": 8,
+   "candidates": []
+  },
+  {
+   "obf": "ve",
+   "kind": "class",
+   "super": "Record",
+   "lines": 118,
+   "decl_line": "class ve\nextends Record\nimplements yM ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "XL",
+    "Xu",
+    "hi",
+    "y3",
+    "yM"
+   ],
+   "mc_imports": [],
+   "n_fields": 12,
+   "n_methods": 29,
+   "candidates": []
+  },
+  {
+   "obf": "vF",
+   "kind": "class",
+   "super": null,
+   "lines": 62,
+   "decl_line": "class vF ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心",
+    "Type"
+   ],
+   "refs": [
+    "Xf",
+    "hi"
+   ],
+   "mc_imports": [],
+   "n_fields": 0,
+   "n_methods": 1,
+   "candidates": []
+  },
+  {
+   "obf": "vH",
+   "kind": "class",
+   "super": "Record",
+   "lines": 81,
+   "decl_line": "class vH\nextends Record ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "_G",
+    "hi"
+   ],
+   "mc_imports": [],
+   "n_fields": 8,
+   "n_methods": 20,
+   "candidates": []
+  },
+  {
+   "obf": "vI",
+   "kind": "class",
+   "super": null,
+   "lines": 117,
+   "decl_line": "class vI ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "O3",
+    "X1",
+    "hi",
+    "ih",
+    "nK",
+    "vT",
+    "zU"
+   ],
+   "mc_imports": [],
+   "n_fields": 2,
+   "n_methods": 16,
+   "candidates": []
+  }
+ ]
+}

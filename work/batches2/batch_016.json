@@ -1,0 +1,273 @@
+{
+ "batch": "C016",
+ "n": 8,
+ "classes": [
+  {
+   "obf": "es",
+   "kind": "class",
+   "super": "eh",
+   "lines": 3021,
+   "anchored_refs": [
+    "BoolSetting",
+    "ColorSetting",
+    "DoubleSetting",
+    "EnumSetting",
+    "IntSetting",
+    "Module",
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "mc_imports": [
+    "net.minecraft.client.DeltaTracker"
+   ],
+   "candidates": [
+    {
+     "src": "ModuleButton",
+     "score": 21.0,
+     "why": "锚点引用:BoolSetting,ColorSetting,DoubleSetting,EnumSetting,IntSetting"
+    },
+    {
+     "src": "ConfigHolder",
+     "score": 21.0,
+     "why": "锚点引用:BoolSetting,ColorSetting,DoubleSetting,EnumSetting,IntSetting"
+    },
+    {
+     "src": "ClientSetting",
+     "score": 21.0,
+     "why": "锚点引用:BoolSetting,ColorSetting,DoubleSetting,EnumSetting,IntSetting"
+    }
+   ]
+  },
+  {
+   "obf": "eT",
+   "kind": "class",
+   "super": "e",
+   "lines": 926,
+   "anchored_refs": [
+    "BoolSetting",
+    "Module",
+    "PlayerTickEvent.Pre",
+    "SeQL/字符串解密+调用分发核心",
+    "Setting",
+    "StringSetting"
+   ],
+   "mc_imports": [
+    "net.minecraft.client.multiplayer.ClientLevel",
+    "net.minecraft.client.player.LocalPlayer",
+    "net.minecraft.client.player.RemotePlayer"
+   ],
+   "candidates": [
+    {
+     "src": "ModuleButton",
+     "score": 12.0,
+     "why": "锚点引用:BoolSetting,Module,Setting,StringSetting"
+    },
+    {
+     "src": "ConfigHolder",
+     "score": 12.0,
+     "why": "锚点引用:BoolSetting,Module,Setting,StringSetting"
+    },
+    {
+     "src": "ClientSetting",
+     "score": 12.0,
+     "why": "锚点引用:BoolSetting,Module,Setting,StringSetting"
+    }
+   ]
+  },
+  {
+   "obf": "eU",
+   "kind": "class",
+   "super": "eh",
+   "lines": 2145,
+   "anchored_refs": [
+    "BoolSetting",
+    "ColorSetting",
+    "DoubleSetting",
+    "EnumSetting",
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "mc_imports": [
+    "net.minecraft.client.DeltaTracker",
+    "net.minecraft.client.gui.GuiGraphicsExtractor",
+    "net.minecraft.client.player.AbstractClientPlayer",
+    "net.minecraft.client.renderer.texture.TextureManager",
+    "net.minecraft.resources.Identifier",
+    "net.minecraft.world.entity.EquipmentSlot",
+    "net.minecraft.world.entity.LivingEntity",
+    "net.minecraft.world.item.ItemStack"
+   ],
+   "candidates": [
+    {
+     "src": "ClientSetting",
+     "score": 15.44,
+     "why": "锚点引用:BoolSetting,ColorSetting,DoubleSetting,EnumSetting,Setting; MCimport:1"
+    },
+    {
+     "src": "ModuleButton",
+     "score": 15.0,
+     "why": "锚点引用:BoolSetting,ColorSetting,DoubleSetting,EnumSetting,Setting"
+    },
+    {
+     "src": "SettingsContent",
+     "score": 15.0,
+     "why": "锚点引用:BoolSetting,ColorSetting,DoubleSetting,EnumSetting,Setting"
+    }
+   ]
+  },
+  {
+   "obf": "eV",
+   "kind": "class",
+   "super": "e",
+   "lines": 1230,
+   "anchored_refs": [
+    "EnumSetting",
+    "IntSetting",
+    "Module",
+    "PlayerTickEvent.Pre",
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "mc_imports": [],
+   "candidates": [
+    {
+     "src": "ModuleButton",
+     "score": 12.0,
+     "why": "锚点引用:EnumSetting,IntSetting,Module,Setting"
+    },
+    {
+     "src": "ConfigHolder",
+     "score": 12.0,
+     "why": "锚点引用:EnumSetting,IntSetting,Module,Setting"
+    },
+    {
+     "src": "ClientSetting",
+     "score": 12.0,
+     "why": "锚点引用:EnumSetting,IntSetting,Module,Setting"
+    }
+   ]
+  },
+  {
+   "obf": "eX",
+   "kind": "class",
+   "super": "eh",
+   "lines": 1056,
+   "anchored_refs": [
+    "BoolSetting",
+    "ColorSetting",
+    "DoubleSetting",
+    "EnumSetting",
+    "IntSetting",
+    "SeQL/字符串解密+调用分发核心",
+    "Setting",
+    "StringSetting",
+    "异步资源/数据加载缓存类（implements DS 接口，确切类名未定）"
+   ],
+   "mc_imports": [],
+   "candidates": [
+    {
+     "src": "ModuleButton",
+     "score": 21.0,
+     "why": "锚点引用:BoolSetting,ColorSetting,DoubleSetting,EnumSetting,IntSetting"
+    },
+    {
+     "src": "SettingsContent",
+     "score": 21.0,
+     "why": "锚点引用:BoolSetting,ColorSetting,DoubleSetting,EnumSetting,IntSetting"
+    },
+    {
+     "src": "SettingViewFactory",
+     "score": 21.0,
+     "why": "锚点引用:BoolSetting,ColorSetting,DoubleSetting,EnumSetting,IntSetting"
+    }
+   ]
+  },
+  {
+   "obf": "ex",
+   "kind": "class",
+   "super": "e",
+   "lines": 316,
+   "anchored_refs": [
+    "Module",
+    "PlayerTickEvent.Pre",
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "mc_imports": [
+    "net.minecraft.client.player.LocalPlayer",
+    "net.minecraft.world.item.CrossbowItem"
+   ],
+   "candidates": [
+    {
+     "src": "EpsilonAddon",
+     "score": 6.0,
+     "why": "锚点引用:Module,Setting"
+    },
+    {
+     "src": "I18NFileGenerator",
+     "score": 6.0,
+     "why": "锚点引用:Module,Setting"
+    },
+    {
+     "src": "ModuleButton",
+     "score": 6.0,
+     "why": "锚点引用:Module,Setting"
+    }
+   ]
+  },
+  {
+   "obf": "G",
+   "kind": "class",
+   "super": "e",
+   "lines": 2138,
+   "anchored_refs": [
+    "BoolSetting",
+    "DoubleSetting",
+    "IntSetting",
+    "KeyboardInputEvent",
+    "Module",
+    "PlayerTickEvent.Pre",
+    "Render3DEvent",
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "mc_imports": [
+    "net.minecraft.client.gui.Gui",
+    "net.minecraft.client.player.LocalPlayer",
+    "net.minecraft.core.BlockPos",
+    "net.minecraft.world.entity.LivingEntity",
+    "net.minecraft.world.entity.player.Player",
+    "net.minecraft.world.phys.AABB",
+    "net.minecraft.world.phys.Vec3"
+   ],
+   "candidates": [
+    {
+     "src": "Follower",
+     "score": 21.0,
+     "why": "锚点引用:BoolSetting,DoubleSetting,IntSetting,KeyboardInputEvent,Module; MCimport:4"
+    },
+    {
+     "src": "HoleSnap",
+     "score": 17.2,
+     "why": "锚点引用:BoolSetting,DoubleSetting,IntSetting,Module,Render3DEvent; MCimport:3"
+    },
+    {
+     "src": "HoleESP",
+     "score": 17.0,
+     "why": "锚点引用:BoolSetting,DoubleSetting,IntSetting,Module,Render3DEvent; MCimport:3"
+    }
+   ]
+  },
+  {
+   "obf": "g0",
+   "kind": "class",
+   "super": null,
+   "lines": 30,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc_imports": [],
+   "candidates": []
+  }
+ ]
+}

@@ -1,0 +1,150 @@
+{
+ "batch": "B088",
+ "n": 8,
+ "classes": [
+  {
+   "obf": "yQ",
+   "kind": "class",
+   "super": "Enum",
+   "lines": 142,
+   "decl_line": "class yQ\nextends Enum<yQ> ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "hi"
+   ],
+   "mc_imports": [],
+   "n_fields": 1,
+   "n_methods": 8,
+   "candidates": []
+  },
+  {
+   "obf": "yq",
+   "kind": "class",
+   "super": "Record",
+   "lines": 106,
+   "decl_line": "class yq\nextends Record\nimplements _Q ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "_Q",
+    "hi"
+   ],
+   "mc_imports": [],
+   "n_fields": 12,
+   "n_methods": 28,
+   "candidates": []
+  },
+  {
+   "obf": "yR",
+   "kind": "class",
+   "super": "Enum",
+   "lines": 123,
+   "decl_line": "class yR\nextends Enum<yR> ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "hi"
+   ],
+   "mc_imports": [],
+   "n_fields": 1,
+   "n_methods": 6,
+   "candidates": []
+  },
+  {
+   "obf": "yr",
+   "kind": "class",
+   "super": "Enum",
+   "lines": 149,
+   "decl_line": "class yr\nextends Enum<yr> ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "hi"
+   ],
+   "mc_imports": [],
+   "n_fields": 3,
+   "n_methods": 11,
+   "candidates": []
+  },
+  {
+   "obf": "yS",
+   "kind": "class",
+   "super": null,
+   "lines": 21,
+   "decl_line": "class yS ",
+   "anchored_refs": [],
+   "refs": [
+    "nd"
+   ],
+   "mc_imports": [],
+   "n_fields": 2,
+   "n_methods": 3,
+   "candidates": []
+  },
+  {
+   "obf": "yU",
+   "kind": "class",
+   "super": null,
+   "lines": 59,
+   "decl_line": "class yU ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "hi"
+   ],
+   "mc_imports": [
+    "net.minecraft.world.entity.EquipmentSlot"
+   ],
+   "n_fields": 0,
+   "n_methods": 1,
+   "candidates": []
+  },
+  {
+   "obf": "yV",
+   "kind": "class",
+   "super": "SubmitNodeStorage",
+   "lines": 38,
+   "decl_line": "class yV\nextends SubmitNodeStorage ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "hi"
+   ],
+   "mc_imports": [
+    "net.minecraft.client.model.Model",
+    "net.minecraft.client.renderer.SubmitNodeCollector",
+    "net.minecraft.client.renderer.SubmitNodeStorage",
+    "net.minecraft.client.renderer.feature.ModelFeatureRenderer",
+    "net.minecraft.client.renderer.rendertype.RenderType",
+    "net.minecraft.client.renderer.texture.TextureAtlasSprite"
+   ],
+   "n_fields": 0,
+   "n_methods": 3,
+   "candidates": []
+  },
+  {
+   "obf": "yv",
+   "kind": "class",
+   "super": "Enum",
+   "lines": 140,
+   "decl_line": "class yv\nextends Enum<yv> ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "hi"
+   ],
+   "mc_imports": [],
+   "n_fields": 1,
+   "n_methods": 7,
+   "candidates": []
+  }
+ ]
+}

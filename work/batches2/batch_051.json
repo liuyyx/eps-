@@ -1,0 +1,152 @@
+{
+ "batch": "C051",
+ "n": 8,
+ "classes": [
+  {
+   "obf": "OU",
+   "kind": "class",
+   "super": null,
+   "lines": 970,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心",
+    "Setting",
+    "TranslateComponent"
+   ],
+   "mc_imports": [
+    "net.minecraft.client.gui.GuiGraphicsExtractor",
+    "net.minecraft.client.input.CharacterEvent",
+    "net.minecraft.client.input.KeyEvent",
+    "net.minecraft.client.input.MouseButtonEvent"
+   ],
+   "candidates": [
+    {
+     "src": "ClientSettingPanel",
+     "score": 8.0,
+     "why": "锚点引用:TranslateComponent; MCimport:4"
+    },
+    {
+     "src": "ModuleDetailPanel",
+     "score": 8.0,
+     "why": "锚点引用:Setting; MCimport:4"
+    },
+    {
+     "src": "AddonClientSettingTab",
+     "score": 8.0,
+     "why": "锚点引用:Setting; MCimport:4"
+    }
+   ]
+  },
+  {
+   "obf": "Ou",
+   "kind": "class",
+   "super": "Record",
+   "lines": 88,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc_imports": [],
+   "candidates": []
+  },
+  {
+   "obf": "OV",
+   "kind": "record",
+   "super": null,
+   "lines": 26,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc_imports": [],
+   "candidates": []
+  },
+  {
+   "obf": "Ov",
+   "kind": "class",
+   "super": null,
+   "lines": 696,
+   "anchored_refs": [
+    "Module",
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "mc_imports": [],
+   "candidates": [
+    {
+     "src": "EpsilonAddon",
+     "score": 6.0,
+     "why": "锚点引用:Module,Setting"
+    },
+    {
+     "src": "I18NFileGenerator",
+     "score": 6.0,
+     "why": "锚点引用:Module,Setting"
+    },
+    {
+     "src": "ModuleButton",
+     "score": 6.0,
+     "why": "锚点引用:Module,Setting"
+    }
+   ]
+  },
+  {
+   "obf": "OW",
+   "kind": "class",
+   "super": "Enum",
+   "lines": 234,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc_imports": [],
+   "candidates": []
+  },
+  {
+   "obf": "Ow",
+   "kind": "class",
+   "super": null,
+   "lines": 160,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc_imports": [],
+   "candidates": []
+  },
+  {
+   "obf": "OX",
+   "kind": "class",
+   "super": null,
+   "lines": 407,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "mc_imports": [],
+   "candidates": [
+    {
+     "src": "EpsilonAddon",
+     "score": 3.0,
+     "why": "锚点引用:Setting"
+    },
+    {
+     "src": "I18NFileGenerator",
+     "score": 3.0,
+     "why": "锚点引用:Setting"
+    },
+    {
+     "src": "AddonPanelEntry",
+     "score": 3.0,
+     "why": "锚点引用:Setting"
+    }
+   ]
+  },
+  {
+   "obf": "Ox",
+   "kind": "class",
+   "super": "Record",
+   "lines": 88,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc_imports": [],
+   "candidates": []
+  }
+ ]
+}

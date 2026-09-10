@@ -1,0 +1,143 @@
+{
+ "batch": "B083",
+ "n": 8,
+ "classes": [
+  {
+   "obf": "Xk",
+   "kind": "class",
+   "super": null,
+   "lines": 53,
+   "decl_line": "class Xk ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "hi",
+    "ih",
+    "ni"
+   ],
+   "mc_imports": [],
+   "n_fields": 0,
+   "n_methods": 3,
+   "candidates": []
+  },
+  {
+   "obf": "Xl",
+   "kind": "class",
+   "super": "Enum",
+   "lines": 140,
+   "decl_line": "class Xl\nextends Enum<Xl> ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "hi"
+   ],
+   "mc_imports": [],
+   "n_fields": 1,
+   "n_methods": 7,
+   "candidates": []
+  },
+  {
+   "obf": "XM",
+   "kind": "class",
+   "super": "Enum",
+   "lines": 140,
+   "decl_line": "class XM\nextends Enum<XM> ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "hi"
+   ],
+   "mc_imports": [],
+   "n_fields": 1,
+   "n_methods": 7,
+   "candidates": []
+  },
+  {
+   "obf": "Xm",
+   "kind": "class",
+   "super": "Xo",
+   "lines": 15,
+   "decl_line": "class Xm\nextends Xo ",
+   "anchored_refs": [],
+   "refs": [
+    "Xo"
+   ],
+   "mc_imports": [],
+   "n_fields": 0,
+   "n_methods": 0,
+   "candidates": []
+  },
+  {
+   "obf": "Xo",
+   "kind": "class",
+   "super": "Enum",
+   "lines": 145,
+   "decl_line": "class Xo\nextends Enum<Xo>\npermits Xm, XR ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "XR",
+    "Xm",
+    "hi"
+   ],
+   "mc_imports": [],
+   "n_fields": 1,
+   "n_methods": 7,
+   "candidates": []
+  },
+  {
+   "obf": "XP",
+   "kind": "class",
+   "super": null,
+   "lines": 203,
+   "decl_line": "class XP ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "hi"
+   ],
+   "mc_imports": [],
+   "n_fields": 15,
+   "n_methods": 17,
+   "candidates": []
+  },
+  {
+   "obf": "Xq",
+   "kind": "class",
+   "super": "Record",
+   "lines": 121,
+   "decl_line": "class Xq\nextends Record\nimplements _Q ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "_Q",
+    "hi"
+   ],
+   "mc_imports": [],
+   "n_fields": 14,
+   "n_methods": 32,
+   "candidates": []
+  },
+  {
+   "obf": "XR",
+   "kind": "class",
+   "super": "Xo",
+   "lines": 15,
+   "decl_line": "class XR\nextends Xo ",
+   "anchored_refs": [],
+   "refs": [
+    "Xo"
+   ],
+   "mc_imports": [],
+   "n_fields": 0,
+   "n_methods": 0,
+   "candidates": []
+  }
+ ]
+}

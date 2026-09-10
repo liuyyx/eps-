@@ -1,0 +1,144 @@
+{
+ "batch": "B079",
+ "n": 8,
+ "classes": [
+  {
+   "obf": "vj",
+   "kind": "class",
+   "super": "Record",
+   "lines": 50,
+   "decl_line": "class vj\nextends Record ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "hi",
+    "ih"
+   ],
+   "mc_imports": [],
+   "n_fields": 3,
+   "n_methods": 10,
+   "candidates": []
+  },
+  {
+   "obf": "vL",
+   "kind": "class",
+   "super": null,
+   "lines": 41,
+   "decl_line": "class vL ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "hi"
+   ],
+   "mc_imports": [
+    "net.minecraft.client.renderer.DynamicUniformStorage"
+   ],
+   "n_fields": 0,
+   "n_methods": 6,
+   "candidates": []
+  },
+  {
+   "obf": "vl",
+   "kind": "class",
+   "super": "Record",
+   "lines": 53,
+   "decl_line": "class vl\nextends Record ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "hi"
+   ],
+   "mc_imports": [
+    "net.minecraft.world.phys.AABB"
+   ],
+   "n_fields": 3,
+   "n_methods": 10,
+   "candidates": []
+  },
+  {
+   "obf": "vm",
+   "kind": "record",
+   "super": null,
+   "lines": 30,
+   "decl_line": "record vm(int cL, int cw, int cZ, double WU) ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "hi"
+   ],
+   "mc_imports": [],
+   "n_fields": 4,
+   "n_methods": 8,
+   "candidates": []
+  },
+  {
+   "obf": "vN",
+   "kind": "class",
+   "super": "Enum",
+   "lines": 125,
+   "decl_line": "class vN\nextends Enum<vN> ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "hi"
+   ],
+   "mc_imports": [],
+   "n_fields": 1,
+   "n_methods": 7,
+   "candidates": []
+  },
+  {
+   "obf": "vn",
+   "kind": "class",
+   "super": "Enum",
+   "lines": 168,
+   "decl_line": "class vn\nextends Enum<vn> ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "hi"
+   ],
+   "mc_imports": [],
+   "n_fields": 1,
+   "n_methods": 8,
+   "candidates": []
+  },
+  {
+   "obf": "vP",
+   "kind": "interface",
+   "super": null,
+   "lines": 63,
+   "decl_line": "interface vP ",
+   "anchored_refs": [],
+   "refs": [],
+   "mc_imports": [],
+   "n_fields": 0,
+   "n_methods": 25,
+   "candidates": []
+  },
+  {
+   "obf": "vQ",
+   "kind": "class",
+   "super": "Record",
+   "lines": 74,
+   "decl_line": "class vQ\nextends Record ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "Ds",
+    "hi"
+   ],
+   "mc_imports": [],
+   "n_fields": 7,
+   "n_methods": 18,
+   "candidates": []
+  }
+ ]
+}

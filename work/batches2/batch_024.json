@@ -1,0 +1,191 @@
+{
+ "batch": "C024",
+ "n": 8,
+ "classes": [
+  {
+   "obf": "i0",
+   "kind": "class",
+   "super": "Enum",
+   "lines": 142,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc_imports": [],
+   "candidates": []
+  },
+  {
+   "obf": "i1",
+   "kind": "class",
+   "super": "iN",
+   "lines": 1698,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心",
+    "Setting",
+    "TranslateComponent"
+   ],
+   "mc_imports": [],
+   "candidates": [
+    {
+     "src": "I18NFileGenerator",
+     "score": 6.0,
+     "why": "锚点引用:Setting,TranslateComponent"
+    },
+    {
+     "src": "SettingsListPanel",
+     "score": 6.0,
+     "why": "锚点引用:Setting,TranslateComponent"
+    },
+    {
+     "src": "Module",
+     "score": 6.0,
+     "why": "锚点引用:Setting,TranslateComponent"
+    }
+   ]
+  },
+  {
+   "obf": "i2",
+   "kind": "class",
+   "super": null,
+   "lines": 1701,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "mc_imports": [
+    "net.minecraft.resources.Identifier"
+   ],
+   "candidates": [
+    {
+     "src": "ClientSetting",
+     "score": 5.0,
+     "why": "锚点引用:Setting; MCimport:1"
+    },
+    {
+     "src": "SoundKey",
+     "score": 4.0,
+     "why": "MCimport:1"
+    },
+    {
+     "src": "RegistryListSetting",
+     "score": 3.5,
+     "why": "锚点引用:Setting; MCimport:1"
+    }
+   ]
+  },
+  {
+   "obf": "i3",
+   "kind": "class",
+   "super": null,
+   "lines": 16,
+   "anchored_refs": [],
+   "mc_imports": [],
+   "candidates": []
+  },
+  {
+   "obf": "i4",
+   "kind": "class",
+   "super": null,
+   "lines": 223,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "mc_imports": [],
+   "candidates": [
+    {
+     "src": "EpsilonAddon",
+     "score": 3.0,
+     "why": "锚点引用:Setting"
+    },
+    {
+     "src": "I18NFileGenerator",
+     "score": 3.0,
+     "why": "锚点引用:Setting"
+    },
+    {
+     "src": "AddonPanelEntry",
+     "score": 3.0,
+     "why": "锚点引用:Setting"
+    }
+   ]
+  },
+  {
+   "obf": "i5",
+   "kind": "class",
+   "super": "Enum",
+   "lines": 140,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc_imports": [],
+   "candidates": []
+  },
+  {
+   "obf": "i6",
+   "kind": "class",
+   "super": "Screen",
+   "lines": 2504,
+   "anchored_refs": [
+    "Module",
+    "PanelInputRouter",
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "mc_imports": [
+    "net.minecraft.client.gui.GuiGraphicsExtractor",
+    "net.minecraft.client.gui.components.IMEPreeditOverlay",
+    "net.minecraft.client.gui.screens.Screen",
+    "net.minecraft.client.input.CharacterEvent",
+    "net.minecraft.client.input.KeyEvent",
+    "net.minecraft.client.input.MouseButtonEvent",
+    "net.minecraft.client.input.PreeditEvent",
+    "net.minecraft.network.chat.Component"
+   ],
+   "candidates": [
+    {
+     "src": "ModuleDetailPanel",
+     "score": 9.0,
+     "why": "锚点引用:Module,Setting; MCimport:4"
+    },
+    {
+     "src": "SettingRow",
+     "score": 6.5,
+     "why": "锚点引用:Setting; MCimport:5"
+    },
+    {
+     "src": "EpsilonAddon",
+     "score": 6.0,
+     "why": "锚点引用:Module,Setting"
+    }
+   ]
+  },
+  {
+   "obf": "i7",
+   "kind": "class",
+   "super": "Record",
+   "lines": 74,
+   "anchored_refs": [
+    "Module",
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc_imports": [],
+   "candidates": [
+    {
+     "src": "EpsilonAddon",
+     "score": 3.0,
+     "why": "锚点引用:Module"
+    },
+    {
+     "src": "LegacyConfigMigrator",
+     "score": 3.0,
+     "why": "锚点引用:Module"
+    },
+    {
+     "src": "EpsilonTranslations",
+     "score": 3.0,
+     "why": "锚点引用:Module"
+    }
+   ]
+  }
+ ]
+}

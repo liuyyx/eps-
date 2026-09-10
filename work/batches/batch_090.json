@@ -1,0 +1,146 @@
+{
+ "batch": "B090",
+ "n": 8,
+ "classes": [
+  {
+   "obf": "z7",
+   "kind": "class",
+   "super": "Record",
+   "lines": 145,
+   "decl_line": "class z7\nextends Record ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "hi"
+   ],
+   "mc_imports": [],
+   "n_fields": 19,
+   "n_methods": 42,
+   "candidates": []
+  },
+  {
+   "obf": "z8",
+   "kind": "class",
+   "super": "Enum",
+   "lines": 142,
+   "decl_line": "class z8\nextends Enum<z8> ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "hi"
+   ],
+   "mc_imports": [],
+   "n_fields": 1,
+   "n_methods": 8,
+   "candidates": []
+  },
+  {
+   "obf": "z9",
+   "kind": "class",
+   "super": null,
+   "lines": 74,
+   "decl_line": "class z9 ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "DQ",
+    "hi"
+   ],
+   "mc_imports": [
+    "net.minecraft.world.Difficulty"
+   ],
+   "n_fields": 0,
+   "n_methods": 1,
+   "candidates": []
+  },
+  {
+   "obf": "zB",
+   "kind": "interface",
+   "super": null,
+   "lines": 9,
+   "decl_line": "interface zB ",
+   "anchored_refs": [],
+   "refs": [],
+   "mc_imports": [],
+   "n_fields": 0,
+   "n_methods": 1,
+   "candidates": []
+  },
+  {
+   "obf": "zD",
+   "kind": "class",
+   "super": "Record",
+   "lines": 61,
+   "decl_line": "class zD\nextends Record ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "hi"
+   ],
+   "mc_imports": [
+    "net.minecraft.core.BlockPos",
+    "net.minecraft.core.Direction",
+    "net.minecraft.world.phys.Vec3"
+   ],
+   "n_fields": 3,
+   "n_methods": 11,
+   "candidates": []
+  },
+  {
+   "obf": "zd",
+   "kind": "class",
+   "super": null,
+   "lines": 124,
+   "decl_line": "class zd ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "hi"
+   ],
+   "mc_imports": [],
+   "n_fields": 12,
+   "n_methods": 16,
+   "candidates": []
+  },
+  {
+   "obf": "zE",
+   "kind": "class",
+   "super": "Enum",
+   "lines": 140,
+   "decl_line": "class zE\nextends Enum<zE> ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "hi"
+   ],
+   "mc_imports": [],
+   "n_fields": 1,
+   "n_methods": 7,
+   "candidates": []
+  },
+  {
+   "obf": "zg",
+   "kind": "class",
+   "super": null,
+   "lines": 642,
+   "decl_line": "class zg ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "hi",
+    "vz"
+   ],
+   "mc_imports": [],
+   "n_fields": 6,
+   "n_methods": 15,
+   "candidates": []
+  }
+ ]
+}

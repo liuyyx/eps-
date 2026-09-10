@@ -1,0 +1,139 @@
+{
+ "batch": "C039",
+ "n": 8,
+ "classes": [
+  {
+   "obf": "n9",
+   "kind": "class",
+   "super": "Enum",
+   "lines": 170,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc_imports": [],
+   "candidates": []
+  },
+  {
+   "obf": "nA",
+   "kind": "class",
+   "super": "Record",
+   "lines": 61,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc_imports": [],
+   "candidates": []
+  },
+  {
+   "obf": "na",
+   "kind": "class",
+   "super": null,
+   "lines": 80,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc_imports": [
+    "net.minecraft.core.Direction"
+   ],
+   "candidates": []
+  },
+  {
+   "obf": "nB",
+   "kind": "class",
+   "super": "Record",
+   "lines": 55,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc_imports": [],
+   "candidates": []
+  },
+  {
+   "obf": "nb",
+   "kind": "class",
+   "super": null,
+   "lines": 1985,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "mc_imports": [],
+   "candidates": [
+    {
+     "src": "EpsilonAddon",
+     "score": 3.0,
+     "why": "锚点引用:Setting"
+    },
+    {
+     "src": "I18NFileGenerator",
+     "score": 3.0,
+     "why": "锚点引用:Setting"
+    },
+    {
+     "src": "AddonPanelEntry",
+     "score": 3.0,
+     "why": "锚点引用:Setting"
+    }
+   ]
+  },
+  {
+   "obf": "nC",
+   "kind": "class",
+   "super": "TimerTask",
+   "lines": 64,
+   "anchored_refs": [
+    "PacketMine",
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc_imports": [
+    "net.minecraft.client.Minecraft",
+    "net.minecraft.core.BlockPos",
+    "net.minecraft.core.Direction",
+    "net.minecraft.network.protocol.game.ServerboundPlayerActionPacket"
+   ],
+   "candidates": [
+    {
+     "src": "ZealotCrystalPlus",
+     "score": 3.26,
+     "why": "锚点引用:PacketMine; MCimport:2"
+    },
+    {
+     "src": "ModuleHolder",
+     "score": 3.0,
+     "why": "锚点引用:PacketMine"
+    },
+    {
+     "src": "InteractionUtils",
+     "score": 2.2,
+     "why": "MCimport:3"
+    }
+   ]
+  },
+  {
+   "obf": "nc",
+   "kind": "class",
+   "super": "Record",
+   "lines": 71,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心",
+    "异步资源/数据加载缓存类（implements DS 接口，确切类名未定）"
+   ],
+   "mc_imports": [],
+   "candidates": []
+  },
+  {
+   "obf": "nD",
+   "kind": "class",
+   "super": "Record",
+   "lines": 63,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc_imports": [
+    "net.minecraft.core.BlockPos",
+    "net.minecraft.world.phys.AABB"
+   ],
+   "candidates": []
+  }
+ ]
+}

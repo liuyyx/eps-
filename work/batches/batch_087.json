@@ -1,0 +1,148 @@
+{
+ "batch": "B087",
+ "n": 8,
+ "classes": [
+  {
+   "obf": "yh",
+   "kind": "class",
+   "super": "Enum",
+   "lines": 125,
+   "decl_line": "class yh\nextends Enum<yh> ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "hi"
+   ],
+   "mc_imports": [],
+   "n_fields": 1,
+   "n_methods": 7,
+   "candidates": []
+  },
+  {
+   "obf": "yI",
+   "kind": "class",
+   "super": null,
+   "lines": 19,
+   "decl_line": "class yI ",
+   "anchored_refs": [],
+   "refs": [
+    "yn"
+   ],
+   "mc_imports": [],
+   "n_fields": 0,
+   "n_methods": 1,
+   "candidates": []
+  },
+  {
+   "obf": "yJ",
+   "kind": "class",
+   "super": "Record",
+   "lines": 55,
+   "decl_line": "class yJ\nextends Record ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "hi"
+   ],
+   "mc_imports": [],
+   "n_fields": 4,
+   "n_methods": 12,
+   "candidates": []
+  },
+  {
+   "obf": "yj",
+   "kind": "class",
+   "super": null,
+   "lines": 20,
+   "decl_line": "class yj ",
+   "anchored_refs": [],
+   "refs": [],
+   "mc_imports": [],
+   "n_fields": 2,
+   "n_methods": 3,
+   "candidates": []
+  },
+  {
+   "obf": "yk",
+   "kind": "class",
+   "super": null,
+   "lines": 176,
+   "decl_line": "class yk\nimplements l5 ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "hi",
+    "l5"
+   ],
+   "mc_imports": [],
+   "n_fields": 2,
+   "n_methods": 28,
+   "candidates": []
+  },
+  {
+   "obf": "yM",
+   "kind": "interface",
+   "super": null,
+   "lines": 39,
+   "decl_line": "interface yM\npermits vA, gU, ve, yX, Od, v1, u6, d7, ds, v3, gj, nt ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "Od",
+    "XL",
+    "Xu",
+    "d7",
+    "ds",
+    "gU",
+    "gj",
+    "hi",
+    "nt",
+    "u6",
+    "v1",
+    "v3",
+    "vA",
+    "ve"
+   ],
+   "mc_imports": [],
+   "n_fields": 0,
+   "n_methods": 5,
+   "candidates": []
+  },
+  {
+   "obf": "ym",
+   "kind": "interface",
+   "super": null,
+   "lines": 10,
+   "decl_line": "interface ym<T, E> ",
+   "anchored_refs": [],
+   "refs": [],
+   "mc_imports": [],
+   "n_fields": 0,
+   "n_methods": 1,
+   "candidates": []
+  },
+  {
+   "obf": "yN",
+   "kind": "class",
+   "super": "Record",
+   "lines": 53,
+   "decl_line": "class yN\nextends Record ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "hi"
+   ],
+   "mc_imports": [
+    "net.minecraft.world.phys.AABB"
+   ],
+   "n_fields": 3,
+   "n_methods": 10,
+   "candidates": []
+  }
+ ]
+}

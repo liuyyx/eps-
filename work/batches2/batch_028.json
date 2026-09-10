@@ -1,0 +1,198 @@
+{
+ "batch": "C028",
+ "n": 8,
+ "classes": [
+  {
+   "obf": "io",
+   "kind": "class",
+   "super": null,
+   "lines": 698,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "mc_imports": [
+    "net.minecraft.core.Holder",
+    "net.minecraft.resources.ResourceKey",
+    "net.minecraft.world.item.ItemStack",
+    "net.minecraft.world.item.enchantment.Enchantment",
+    "net.minecraft.world.item.enchantment.ItemEnchantments"
+   ],
+   "candidates": [
+    {
+     "src": "EnchantmentUtils",
+     "score": 3.86,
+     "why": "MCimport:5"
+    },
+    {
+     "src": "RegistryListSelectPopup",
+     "score": 3.42,
+     "why": "锚点引用:Setting; MCimport:2"
+    },
+    {
+     "src": "EpsilonAddon",
+     "score": 3.0,
+     "why": "锚点引用:Setting"
+    }
+   ]
+  },
+  {
+   "obf": "iP",
+   "kind": "class",
+   "super": "iH",
+   "lines": 488,
+   "anchored_refs": [
+    "EpsilonAddon",
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc_imports": [],
+   "candidates": []
+  },
+  {
+   "obf": "ip",
+   "kind": "class",
+   "super": null,
+   "lines": 278,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "mc_imports": [],
+   "candidates": [
+    {
+     "src": "EpsilonAddon",
+     "score": 3.0,
+     "why": "锚点引用:Setting"
+    },
+    {
+     "src": "I18NFileGenerator",
+     "score": 3.0,
+     "why": "锚点引用:Setting"
+    },
+    {
+     "src": "AddonPanelEntry",
+     "score": 3.0,
+     "why": "锚点引用:Setting"
+    }
+   ]
+  },
+  {
+   "obf": "iQ",
+   "kind": "class",
+   "super": null,
+   "lines": 20,
+   "anchored_refs": [],
+   "mc_imports": [],
+   "candidates": []
+  },
+  {
+   "obf": "iR",
+   "kind": "class",
+   "super": "Record",
+   "lines": 100,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc_imports": [
+    "net.minecraft.world.entity.LivingEntity",
+    "net.minecraft.world.phys.AABB",
+    "net.minecraft.world.phys.Vec3"
+   ],
+   "candidates": [
+    {
+     "src": "Criticals",
+     "score": 3.4,
+     "why": "MCimport:3"
+    },
+    {
+     "src": "SpearKill",
+     "score": 3.4,
+     "why": "MCimport:3"
+    },
+    {
+     "src": "AStarFollowerNavigator",
+     "score": 3.4,
+     "why": "MCimport:3"
+    }
+   ]
+  },
+  {
+   "obf": "ir",
+   "kind": "class",
+   "super": null,
+   "lines": 134,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc_imports": [
+    "net.minecraft.world.inventory.ContainerInput"
+   ],
+   "candidates": [
+    {
+     "src": "ClickSlotUtils",
+     "score": 4.0,
+     "why": "MCimport:1"
+    }
+   ]
+  },
+  {
+   "obf": "is",
+   "kind": "class",
+   "super": "Record",
+   "lines": 405,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心",
+    "Setting",
+    "SettingGroup"
+   ],
+   "mc_imports": [],
+   "candidates": [
+    {
+     "src": "EpsilonAddon",
+     "score": 6.0,
+     "why": "锚点引用:Setting,SettingGroup"
+    },
+    {
+     "src": "I18NFileGenerator",
+     "score": 6.0,
+     "why": "锚点引用:Setting,SettingGroup"
+    },
+    {
+     "src": "Module",
+     "score": 6.0,
+     "why": "锚点引用:Setting,SettingGroup"
+    }
+   ]
+  },
+  {
+   "obf": "it",
+   "kind": "class",
+   "super": "iN",
+   "lines": 958,
+   "anchored_refs": [
+    "FriendManager",
+    "SeQL/字符串解密+调用分发核心",
+    "Setting",
+    "TranslateComponent"
+   ],
+   "mc_imports": [],
+   "candidates": [
+    {
+     "src": "I18NFileGenerator",
+     "score": 6.0,
+     "why": "锚点引用:Setting,TranslateComponent"
+    },
+    {
+     "src": "SettingsListPanel",
+     "score": 6.0,
+     "why": "锚点引用:Setting,TranslateComponent"
+    },
+    {
+     "src": "Module",
+     "score": 6.0,
+     "why": "锚点引用:Setting,TranslateComponent"
+    }
+   ]
+  }
+ ]
+}

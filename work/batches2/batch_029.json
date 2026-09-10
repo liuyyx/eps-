@@ -1,0 +1,169 @@
+{
+ "batch": "C029",
+ "n": 8,
+ "classes": [
+  {
+   "obf": "iU",
+   "kind": "class",
+   "super": "Enum",
+   "lines": 140,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc_imports": [],
+   "candidates": []
+  },
+  {
+   "obf": "iu",
+   "kind": "class",
+   "super": "iN",
+   "lines": 2749,
+   "anchored_refs": [
+    "Module",
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "mc_imports": [],
+   "candidates": [
+    {
+     "src": "EpsilonAddon",
+     "score": 6.0,
+     "why": "锚点引用:Module,Setting"
+    },
+    {
+     "src": "I18NFileGenerator",
+     "score": 6.0,
+     "why": "锚点引用:Module,Setting"
+    },
+    {
+     "src": "ModuleButton",
+     "score": 6.0,
+     "why": "锚点引用:Module,Setting"
+    }
+   ]
+  },
+  {
+   "obf": "iv",
+   "kind": "class",
+   "super": null,
+   "lines": 1158,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "mc_imports": [
+    "net.minecraft.world.entity.Entity"
+   ],
+   "candidates": [
+    {
+     "src": "AttackSlowDownEvent",
+     "score": 4.0,
+     "why": "MCimport:1"
+    },
+    {
+     "src": "EntityRenderStateAccessor",
+     "score": 4.0,
+     "why": "MCimport:1"
+    },
+    {
+     "src": "AntiBot",
+     "score": 4.0,
+     "why": "MCimport:1"
+    }
+   ]
+  },
+  {
+   "obf": "iW",
+   "kind": "class",
+   "super": null,
+   "lines": 1379,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "mc_imports": [
+    "net.minecraft.resources.Identifier",
+    "net.minecraft.world.phys.Vec3"
+   ],
+   "candidates": [
+    {
+     "src": "ClientSetting",
+     "score": 4.33,
+     "why": "锚点引用:Setting; MCimport:1"
+    },
+    {
+     "src": "RegistryListSetting",
+     "score": 3.44,
+     "why": "锚点引用:Setting; MCimport:1"
+    },
+    {
+     "src": "RegistryListSelectPopup",
+     "score": 3.24,
+     "why": "锚点引用:Setting; MCimport:1"
+    }
+   ]
+  },
+  {
+   "obf": "iX",
+   "kind": "class",
+   "super": "Enum",
+   "lines": 123,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc_imports": [],
+   "candidates": []
+  },
+  {
+   "obf": "iY",
+   "kind": "class",
+   "super": "Record",
+   "lines": 61,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc_imports": [],
+   "candidates": []
+  },
+  {
+   "obf": "iy",
+   "kind": "class",
+   "super": "Enum",
+   "lines": 123,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc_imports": [],
+   "candidates": []
+  },
+  {
+   "obf": "iZ",
+   "kind": "class",
+   "super": "Record",
+   "lines": 91,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc_imports": [
+    "net.minecraft.resources.Identifier"
+   ],
+   "candidates": [
+    {
+     "src": "SoundKey",
+     "score": 4.0,
+     "why": "MCimport:1"
+    },
+    {
+     "src": "ResourceLocationUtils",
+     "score": 2.0,
+     "why": "MCimport:1"
+    },
+    {
+     "src": "ClientSetting",
+     "score": 2.0,
+     "why": "MCimport:1"
+    }
+   ]
+  }
+ ]
+}

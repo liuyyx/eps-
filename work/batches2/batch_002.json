@@ -1,0 +1,129 @@
+{
+ "batch": "C002",
+ "n": 8,
+ "classes": [
+  {
+   "obf": "d1",
+   "kind": "class",
+   "super": null,
+   "lines": 66,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc_imports": [],
+   "candidates": []
+  },
+  {
+   "obf": "d2",
+   "kind": "class",
+   "super": null,
+   "lines": 303,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "mc_imports": [
+    "net.minecraft.core.BlockPos",
+    "net.minecraft.world.level.Level"
+   ],
+   "candidates": [
+    {
+     "src": "EpsilonAddon",
+     "score": 3.0,
+     "why": "锚点引用:Setting"
+    },
+    {
+     "src": "I18NFileGenerator",
+     "score": 3.0,
+     "why": "锚点引用:Setting"
+    },
+    {
+     "src": "AddonPanelEntry",
+     "score": 3.0,
+     "why": "锚点引用:Setting"
+    }
+   ]
+  },
+  {
+   "obf": "D3",
+   "kind": "class",
+   "super": "ViaLegacyConfig",
+   "lines": 50,
+   "anchored_refs": [
+    "BoolSetting",
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc_imports": [],
+   "candidates": [
+    {
+     "src": "BPS",
+     "score": 3.0,
+     "why": "锚点引用:BoolSetting"
+    },
+    {
+     "src": "Inventory",
+     "score": 3.0,
+     "why": "锚点引用:BoolSetting"
+    },
+    {
+     "src": "ModuleList",
+     "score": 3.0,
+     "why": "锚点引用:BoolSetting"
+    }
+   ]
+  },
+  {
+   "obf": "D4",
+   "kind": "class",
+   "super": null,
+   "lines": 20,
+   "anchored_refs": [],
+   "mc_imports": [],
+   "candidates": []
+  },
+  {
+   "obf": "d4",
+   "kind": "class",
+   "super": "Record",
+   "lines": 52,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc_imports": [],
+   "candidates": []
+  },
+  {
+   "obf": "d5",
+   "kind": "class",
+   "super": "Record",
+   "lines": 77,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc_imports": [],
+   "candidates": []
+  },
+  {
+   "obf": "D6",
+   "kind": "class",
+   "super": "Enum",
+   "lines": 123,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc_imports": [],
+   "candidates": []
+  },
+  {
+   "obf": "d6",
+   "kind": "class",
+   "super": "Enum",
+   "lines": 123,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc_imports": [],
+   "candidates": []
+  }
+ ]
+}

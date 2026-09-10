@@ -1,0 +1,120 @@
+{
+ "batch": "C019",
+ "n": 8,
+ "classes": [
+  {
+   "obf": "gf",
+   "kind": "class",
+   "super": "gs",
+   "lines": 177,
+   "anchored_refs": [
+    "MasEffects",
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "mc_imports": [
+    "net.minecraft.resources.Identifier",
+    "net.minecraft.util.RandomSource",
+    "net.minecraft.world.phys.Vec3"
+   ],
+   "candidates": [
+    {
+     "src": "MasEffectsParticleRenderer",
+     "score": 4.52,
+     "why": "锚点引用:MasEffects; MCimport:3"
+    },
+    {
+     "src": "ClientSetting",
+     "score": 4.0,
+     "why": "锚点引用:Setting; MCimport:1"
+    },
+    {
+     "src": "MixinClientLevel",
+     "score": 3.67,
+     "why": "锚点引用:MasEffects; MCimport:1"
+    }
+   ]
+  },
+  {
+   "obf": "gg",
+   "kind": "class",
+   "super": "Record",
+   "lines": 75,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc_imports": [],
+   "candidates": []
+  },
+  {
+   "obf": "gh",
+   "kind": "class",
+   "super": null,
+   "lines": 17,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc_imports": [],
+   "candidates": []
+  },
+  {
+   "obf": "gI",
+   "kind": "class",
+   "super": "Record",
+   "lines": 94,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc_imports": [],
+   "candidates": []
+  },
+  {
+   "obf": "gi",
+   "kind": "class",
+   "super": "Record",
+   "lines": 100,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc_imports": [],
+   "candidates": []
+  },
+  {
+   "obf": "gJ",
+   "kind": "class",
+   "super": "Enum",
+   "lines": 140,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc_imports": [],
+   "candidates": []
+  },
+  {
+   "obf": "gj",
+   "kind": "class",
+   "super": "Record",
+   "lines": 125,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心",
+    "异步资源/数据加载缓存类（implements DS 接口，确切类名未定）"
+   ],
+   "mc_imports": [],
+   "candidates": []
+  },
+  {
+   "obf": "gK",
+   "kind": "class",
+   "super": "gs",
+   "lines": 45,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc_imports": [
+    "net.minecraft.resources.Identifier",
+    "net.minecraft.world.phys.Vec3"
+   ],
+   "candidates": []
+  }
+ ]
+}

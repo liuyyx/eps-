@@ -1,0 +1,134 @@
+{
+ "batch": "B091",
+ "n": 8,
+ "classes": [
+  {
+   "obf": "zh",
+   "kind": "class",
+   "super": "Enum",
+   "lines": 220,
+   "decl_line": "class zh\nextends Enum<zh> ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "hi"
+   ],
+   "mc_imports": [],
+   "n_fields": 3,
+   "n_methods": 14,
+   "candidates": []
+  },
+  {
+   "obf": "zI",
+   "kind": "interface",
+   "super": null,
+   "lines": 16,
+   "decl_line": "interface zI ",
+   "anchored_refs": [],
+   "refs": [],
+   "mc_imports": [],
+   "n_fields": 0,
+   "n_methods": 4,
+   "candidates": []
+  },
+  {
+   "obf": "zi",
+   "kind": "class",
+   "super": "Enum",
+   "lines": 123,
+   "decl_line": "class zi\nextends Enum<zi> ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "hi"
+   ],
+   "mc_imports": [],
+   "n_fields": 1,
+   "n_methods": 6,
+   "candidates": []
+  },
+  {
+   "obf": "zK",
+   "kind": "class",
+   "super": "Enum",
+   "lines": 140,
+   "decl_line": "class zK\nextends Enum<zK> ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "hi"
+   ],
+   "mc_imports": [],
+   "n_fields": 1,
+   "n_methods": 7,
+   "candidates": []
+  },
+  {
+   "obf": "zL",
+   "kind": "class",
+   "super": "Enum",
+   "lines": 220,
+   "decl_line": "class zL\nextends Enum<zL> ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "hi"
+   ],
+   "mc_imports": [],
+   "n_fields": 3,
+   "n_methods": 14,
+   "candidates": []
+  },
+  {
+   "obf": "zl",
+   "kind": "class",
+   "super": null,
+   "lines": 17,
+   "decl_line": "class zl ",
+   "anchored_refs": [],
+   "refs": [],
+   "mc_imports": [],
+   "n_fields": 2,
+   "n_methods": 2,
+   "candidates": []
+  },
+  {
+   "obf": "zM",
+   "kind": "class",
+   "super": "Enum",
+   "lines": 123,
+   "decl_line": "class zM\nextends Enum<zM> ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "hi"
+   ],
+   "mc_imports": [],
+   "n_fields": 1,
+   "n_methods": 6,
+   "candidates": []
+  },
+  {
+   "obf": "zO",
+   "kind": "class",
+   "super": "Enum",
+   "lines": 125,
+   "decl_line": "class zO\nextends Enum<zO> ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "hi"
+   ],
+   "mc_imports": [],
+   "n_fields": 1,
+   "n_methods": 7,
+   "candidates": []
+  }
+ ]
+}

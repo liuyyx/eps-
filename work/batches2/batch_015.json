@@ -1,0 +1,314 @@
+{
+ "batch": "C015",
+ "n": 8,
+ "classes": [
+  {
+   "obf": "eO",
+   "kind": "class",
+   "super": "e",
+   "lines": 1675,
+   "anchored_refs": [
+    "BoolSetting",
+    "DoubleSetting",
+    "EnumSetting",
+    "IntSetting",
+    "Module",
+    "PlayerTickEvent.Pre",
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "mc_imports": [
+    "net.minecraft.network.protocol.game.ServerboundMovePlayerPacket",
+    "net.minecraft.world.entity.LivingEntity",
+    "net.minecraft.world.item.Item",
+    "net.minecraft.world.phys.Vec3"
+   ],
+   "candidates": [
+    {
+     "src": "ModuleButton",
+     "score": 18.0,
+     "why": "锚点引用:BoolSetting,DoubleSetting,EnumSetting,IntSetting,Module"
+    },
+    {
+     "src": "ConfigHolder",
+     "score": 18.0,
+     "why": "锚点引用:BoolSetting,DoubleSetting,EnumSetting,IntSetting,Module"
+    },
+    {
+     "src": "ClientSetting",
+     "score": 18.0,
+     "why": "锚点引用:BoolSetting,DoubleSetting,EnumSetting,IntSetting,Module"
+    }
+   ]
+  },
+  {
+   "obf": "eo",
+   "kind": "class",
+   "super": "e",
+   "lines": 740,
+   "anchored_refs": [
+    "BoolSetting",
+    "ClientTickEvent.Pre",
+    "EnumSetting",
+    "IntSetting",
+    "Module",
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "mc_imports": [
+    "net.minecraft.client.Minecraft",
+    "net.minecraft.core.Holder",
+    "net.minecraft.world.entity.EquipmentSlot",
+    "net.minecraft.world.entity.ai.attributes.AttributeModifier",
+    "net.minecraft.world.item.ItemStack",
+    "net.minecraft.world.item.equipment.Equippable"
+   ],
+   "candidates": [
+    {
+     "src": "ModuleButton",
+     "score": 15.0,
+     "why": "锚点引用:BoolSetting,EnumSetting,IntSetting,Module,Setting"
+    },
+    {
+     "src": "ConfigHolder",
+     "score": 15.0,
+     "why": "锚点引用:BoolSetting,EnumSetting,IntSetting,Module,Setting"
+    },
+    {
+     "src": "ClientSetting",
+     "score": 15.0,
+     "why": "锚点引用:BoolSetting,EnumSetting,IntSetting,Module,Setting"
+    }
+   ]
+  },
+  {
+   "obf": "eP",
+   "kind": "class",
+   "super": "e",
+   "lines": 1961,
+   "anchored_refs": [
+    "BoolSetting",
+    "DoubleSetting",
+    "EnumSetting",
+    "IntSetting",
+    "Module",
+    "PlayerTickEvent.Pre",
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "mc_imports": [
+    "net.minecraft.client.gui.Gui",
+    "net.minecraft.client.player.LocalPlayer"
+   ],
+   "candidates": [
+    {
+     "src": "ModuleButton",
+     "score": 18.0,
+     "why": "锚点引用:BoolSetting,DoubleSetting,EnumSetting,IntSetting,Module"
+    },
+    {
+     "src": "ConfigHolder",
+     "score": 18.0,
+     "why": "锚点引用:BoolSetting,DoubleSetting,EnumSetting,IntSetting,Module"
+    },
+    {
+     "src": "ClientSetting",
+     "score": 18.0,
+     "why": "锚点引用:BoolSetting,DoubleSetting,EnumSetting,IntSetting,Module"
+    }
+   ]
+  },
+  {
+   "obf": "ep",
+   "kind": "class",
+   "super": "e",
+   "lines": 1024,
+   "anchored_refs": [
+    "KeyboardInputEvent",
+    "Module",
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "mc_imports": [],
+   "candidates": [
+    {
+     "src": "EpsilonAddon",
+     "score": 6.0,
+     "why": "锚点引用:Module,Setting"
+    },
+    {
+     "src": "I18NFileGenerator",
+     "score": 6.0,
+     "why": "锚点引用:Module,Setting"
+    },
+    {
+     "src": "ModuleButton",
+     "score": 6.0,
+     "why": "锚点引用:Module,Setting"
+    }
+   ]
+  },
+  {
+   "obf": "eQ",
+   "kind": "class",
+   "super": "e",
+   "lines": 1640,
+   "anchored_refs": [
+    "ClientTickEvent.Pre",
+    "IntSetting",
+    "Module",
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "mc_imports": [
+    "net.minecraft.client.multiplayer.ClientLevel",
+    "net.minecraft.client.player.LocalPlayer",
+    "net.minecraft.core.BlockPos",
+    "net.minecraft.world.entity.Entity",
+    "net.minecraft.world.level.ClipContext",
+    "net.minecraft.world.level.block.SlabBlock",
+    "net.minecraft.world.level.block.state.BlockState",
+    "net.minecraft.world.level.block.state.properties.SlabType",
+    "net.minecraft.world.phys.Vec3"
+   ],
+   "candidates": [
+    {
+     "src": "ModuleButton",
+     "score": 9.0,
+     "why": "锚点引用:IntSetting,Module,Setting"
+    },
+    {
+     "src": "ConfigHolder",
+     "score": 9.0,
+     "why": "锚点引用:IntSetting,Module,Setting"
+    },
+    {
+     "src": "ClientSetting",
+     "score": 9.0,
+     "why": "锚点引用:IntSetting,Module,Setting"
+    }
+   ]
+  },
+  {
+   "obf": "eq",
+   "kind": "class",
+   "super": "e",
+   "lines": 7528,
+   "anchored_refs": [
+    "BoolSetting",
+    "ColorSetting",
+    "DoubleSetting",
+    "EnumSetting",
+    "IntSetting",
+    "KeybindSetting",
+    "Module",
+    "PlayerTickEvent.Pre",
+    "Render3DEvent",
+    "SeQL/字符串解密+调用分发核心",
+    "Setting",
+    "SettingGroup"
+   ],
+   "mc_imports": [
+    "net.minecraft.client.multiplayer.ClientLevel",
+    "net.minecraft.client.player.LocalPlayer",
+    "net.minecraft.core.BlockPos",
+    "net.minecraft.core.Direction",
+    "net.minecraft.world.InteractionHand",
+    "net.minecraft.world.entity.LivingEntity",
+    "net.minecraft.world.item.Item",
+    "net.minecraft.world.item.ItemStack",
+    "net.minecraft.world.level.block.state.BlockState",
+    "net.minecraft.world.phys.AABB"
+   ],
+   "candidates": [
+    {
+     "src": "ClientSetting",
+     "score": 27.0,
+     "why": "锚点引用:BoolSetting,ColorSetting,DoubleSetting,EnumSetting,IntSetting"
+    },
+    {
+     "src": "ZealotCrystalPlus",
+     "score": 26.09,
+     "why": "锚点引用:BoolSetting,ColorSetting,DoubleSetting,EnumSetting,IntSetting; MCimport:9"
+    },
+    {
+     "src": "SettingHost",
+     "score": 24.25,
+     "why": "锚点引用:BoolSetting,ColorSetting,DoubleSetting,EnumSetting,IntSetting; MCimport:1"
+    }
+   ]
+  },
+  {
+   "obf": "eR",
+   "kind": "class",
+   "super": "e",
+   "lines": 759,
+   "anchored_refs": [
+    "BoolSetting",
+    "ColorSetting",
+    "DoubleSetting",
+    "EnumSetting",
+    "IntSetting",
+    "Module",
+    "PlayerTickEvent.Pre",
+    "Render3DEvent",
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "mc_imports": [
+    "net.minecraft.client.Minecraft",
+    "net.minecraft.resources.Identifier"
+   ],
+   "candidates": [
+    {
+     "src": "ClientSetting",
+     "score": 22.33,
+     "why": "锚点引用:BoolSetting,ColorSetting,DoubleSetting,EnumSetting,IntSetting; MCimport:1"
+    },
+    {
+     "src": "Particles",
+     "score": 21.33,
+     "why": "锚点引用:BoolSetting,ColorSetting,DoubleSetting,EnumSetting,IntSetting; MCimport:1"
+    },
+    {
+     "src": "HitParticles",
+     "score": 21.25,
+     "why": "锚点引用:BoolSetting,ColorSetting,DoubleSetting,EnumSetting,IntSetting; MCimport:1"
+    }
+   ]
+  },
+  {
+   "obf": "er",
+   "kind": "class",
+   "super": "e",
+   "lines": 1507,
+   "anchored_refs": [
+    "EnumSetting",
+    "IntSetting",
+    "Module",
+    "PlayerTickEvent.Pre",
+    "SeQL/字符串解密+调用分发核心",
+    "Setting",
+    "StringSetting"
+   ],
+   "mc_imports": [],
+   "candidates": [
+    {
+     "src": "ModuleButton",
+     "score": 15.0,
+     "why": "锚点引用:EnumSetting,IntSetting,Module,Setting,StringSetting"
+    },
+    {
+     "src": "ConfigHolder",
+     "score": 15.0,
+     "why": "锚点引用:EnumSetting,IntSetting,Module,Setting,StringSetting"
+    },
+    {
+     "src": "ClientSetting",
+     "score": 15.0,
+     "why": "锚点引用:EnumSetting,IntSetting,Module,Setting,StringSetting"
+    }
+   ]
+  }
+ ]
+}

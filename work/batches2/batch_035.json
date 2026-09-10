@@ -1,0 +1,149 @@
+{
+ "batch": "C035",
+ "n": 8,
+ "classes": [
+  {
+   "obf": "ln",
+   "kind": "class",
+   "super": "Record",
+   "lines": 89,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心",
+    "异步资源/数据加载缓存类（implements DS 接口，确切类名未定）"
+   ],
+   "mc_imports": [],
+   "candidates": []
+  },
+  {
+   "obf": "lO",
+   "kind": "class",
+   "super": null,
+   "lines": 35,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc_imports": [],
+   "candidates": []
+  },
+  {
+   "obf": "lo",
+   "kind": "class",
+   "super": "RemotePlayer",
+   "lines": 257,
+   "anchored_refs": [
+    "ColorSetting",
+    "LogoutSpots",
+    "SeQL/字符串解密+调用分发核心",
+    "Setting",
+    "WalkAnimationStateAccessor"
+   ],
+   "mc_imports": [
+    "net.minecraft.client.multiplayer.ClientLevel",
+    "net.minecraft.client.player.RemotePlayer",
+    "net.minecraft.network.chat.Component",
+    "net.minecraft.world.InteractionHand",
+    "net.minecraft.world.TickRateManager",
+    "net.minecraft.world.entity.Entity",
+    "net.minecraft.world.entity.WalkAnimationState",
+    "net.minecraft.world.entity.ai.attributes.AttributeMap",
+    "net.minecraft.world.entity.player.Player"
+   ],
+   "candidates": [
+    {
+     "src": "ModuleButton",
+     "score": 6.0,
+     "why": "锚点引用:ColorSetting,Setting"
+    },
+    {
+     "src": "SettingsContent",
+     "score": 6.0,
+     "why": "锚点引用:ColorSetting,Setting"
+    },
+    {
+     "src": "SettingViewFactory",
+     "score": 6.0,
+     "why": "锚点引用:ColorSetting,Setting"
+    }
+   ]
+  },
+  {
+   "obf": "lP",
+   "kind": "class",
+   "super": "Enum",
+   "lines": 125,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc_imports": [],
+   "candidates": []
+  },
+  {
+   "obf": "lp",
+   "kind": "class",
+   "super": "l8",
+   "lines": 1065,
+   "anchored_refs": [
+    "Module",
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "mc_imports": [
+    "net.minecraft.client.player.AbstractClientPlayer",
+    "net.minecraft.client.player.LocalPlayer",
+    "net.minecraft.network.chat.Component",
+    "net.minecraft.world.entity.Entity",
+    "net.minecraft.world.entity.LivingEntity"
+   ],
+   "candidates": [
+    {
+     "src": "EpsilonAddon",
+     "score": 6.0,
+     "why": "锚点引用:Module,Setting"
+    },
+    {
+     "src": "I18NFileGenerator",
+     "score": 6.0,
+     "why": "锚点引用:Module,Setting"
+    },
+    {
+     "src": "ModuleButton",
+     "score": 6.0,
+     "why": "锚点引用:Module,Setting"
+    }
+   ]
+  },
+  {
+   "obf": "lQ",
+   "kind": "class",
+   "super": "Enum",
+   "lines": 237,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc_imports": [],
+   "candidates": []
+  },
+  {
+   "obf": "lq",
+   "kind": "class",
+   "super": "Enum",
+   "lines": 185,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc_imports": [],
+   "candidates": []
+  },
+  {
+   "obf": "lR",
+   "kind": "class",
+   "super": null,
+   "lines": 182,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc_imports": [],
+   "candidates": []
+  }
+ ]
+}

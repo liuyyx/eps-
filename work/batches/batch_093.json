@@ -1,0 +1,148 @@
+{
+ "batch": "B093",
+ "n": 8,
+ "classes": [
+  {
+   "obf": "_1",
+   "kind": "class",
+   "super": "Record",
+   "lines": 59,
+   "decl_line": "class _1\nextends Record ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "hi"
+   ],
+   "mc_imports": [
+    "net.minecraft.world.item.ItemStack"
+   ],
+   "n_fields": 4,
+   "n_methods": 12,
+   "candidates": []
+  },
+  {
+   "obf": "_2",
+   "kind": "record",
+   "super": null,
+   "lines": 49,
+   "decl_line": "record _2(ih oR, float oq, float o2) ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "hi",
+    "ih"
+   ],
+   "mc_imports": [],
+   "n_fields": 3,
+   "n_methods": 10,
+   "candidates": []
+  },
+  {
+   "obf": "_4",
+   "kind": "class",
+   "super": null,
+   "lines": 8,
+   "decl_line": "class _4 ",
+   "anchored_refs": [],
+   "refs": [],
+   "mc_imports": [],
+   "n_fields": 0,
+   "n_methods": 0,
+   "candidates": []
+  },
+  {
+   "obf": "_7",
+   "kind": "class",
+   "super": "Record",
+   "lines": 101,
+   "decl_line": "class _7\nextends Record\nimplements _Q ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "_Q",
+    "hi",
+    "ih"
+   ],
+   "mc_imports": [],
+   "n_fields": 11,
+   "n_methods": 26,
+   "candidates": []
+  },
+  {
+   "obf": "_8",
+   "kind": "class",
+   "super": null,
+   "lines": 155,
+   "decl_line": "class _8 ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "hi",
+    "y3"
+   ],
+   "mc_imports": [],
+   "n_fields": 0,
+   "n_methods": 1,
+   "candidates": []
+  },
+  {
+   "obf": "_9",
+   "kind": "class",
+   "super": "Record",
+   "lines": 64,
+   "decl_line": "class _9\nextends Record ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "hi"
+   ],
+   "mc_imports": [
+    "net.minecraft.world.entity.Entity",
+    "net.minecraft.world.phys.BlockHitResult",
+    "net.minecraft.world.phys.Vec3"
+   ],
+   "n_fields": 4,
+   "n_methods": 12,
+   "candidates": []
+  },
+  {
+   "obf": "_A",
+   "kind": "interface",
+   "super": null,
+   "lines": 32,
+   "decl_line": "interface _A ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "hi"
+   ],
+   "mc_imports": [],
+   "n_fields": 0,
+   "n_methods": 3,
+   "candidates": []
+  },
+  {
+   "obf": "_a",
+   "kind": "class",
+   "super": "Enum",
+   "lines": 187,
+   "decl_line": "class _a\nextends Enum<_a> ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "hi"
+   ],
+   "mc_imports": [],
+   "n_fields": 1,
+   "n_methods": 10,
+   "candidates": []
+  }
+ ]
+}

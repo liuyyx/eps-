@@ -1,0 +1,158 @@
+{
+ "batch": "B077",
+ "n": 8,
+ "classes": [
+  {
+   "obf": "ux",
+   "kind": "class",
+   "super": "Record",
+   "lines": 64,
+   "decl_line": "class ux\nextends Record\nimplements _Q ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "_Q",
+    "hi",
+    "ih"
+   ],
+   "mc_imports": [],
+   "n_fields": 5,
+   "n_methods": 14,
+   "candidates": []
+  },
+  {
+   "obf": "uY",
+   "kind": "class",
+   "super": null,
+   "lines": 95,
+   "decl_line": "class uY ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "hi"
+   ],
+   "mc_imports": [
+    "net.minecraft.world.entity.MobCategory"
+   ],
+   "n_fields": 0,
+   "n_methods": 1,
+   "candidates": []
+  },
+  {
+   "obf": "uy",
+   "kind": "class",
+   "super": "Enum",
+   "lines": 125,
+   "decl_line": "class uy\nextends Enum<uy> ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "hi"
+   ],
+   "mc_imports": [],
+   "n_fields": 1,
+   "n_methods": 7,
+   "candidates": []
+  },
+  {
+   "obf": "u_",
+   "kind": "class",
+   "super": "Record",
+   "lines": 43,
+   "decl_line": "class u_\nextends Record ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "hi"
+   ],
+   "mc_imports": [],
+   "n_fields": 2,
+   "n_methods": 8,
+   "candidates": []
+  },
+  {
+   "obf": "v0",
+   "kind": "class",
+   "super": "Record",
+   "lines": 50,
+   "decl_line": "class v0\nextends Record ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "hi"
+   ],
+   "mc_imports": [],
+   "n_fields": 3,
+   "n_methods": 10,
+   "candidates": []
+  },
+  {
+   "obf": "v1",
+   "kind": "class",
+   "super": "Record",
+   "lines": 100,
+   "decl_line": "class v1\nextends Record\nimplements yM ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "XL",
+    "Xu",
+    "hi",
+    "y3",
+    "yM"
+   ],
+   "mc_imports": [],
+   "n_fields": 9,
+   "n_methods": 23,
+   "candidates": []
+  },
+  {
+   "obf": "v2",
+   "kind": "interface",
+   "super": null,
+   "lines": 57,
+   "decl_line": "interface v2 ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "Oq",
+    "hi",
+    "nK"
+   ],
+   "mc_imports": [],
+   "n_fields": 0,
+   "n_methods": 6,
+   "candidates": []
+  },
+  {
+   "obf": "v3",
+   "kind": "class",
+   "super": "Record",
+   "lines": 114,
+   "decl_line": "class v3\nextends Record\nimplements yM ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "Oq",
+    "XL",
+    "Xu",
+    "hi",
+    "nK",
+    "y3",
+    "yM"
+   ],
+   "mc_imports": [],
+   "n_fields": 11,
+   "n_methods": 27,
+   "candidates": []
+  }
+ ]
+}

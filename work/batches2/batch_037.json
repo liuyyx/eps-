@@ -1,0 +1,201 @@
+{
+ "batch": "C037",
+ "n": 8,
+ "classes": [
+  {
+   "obf": "lw",
+   "kind": "class",
+   "super": null,
+   "lines": 2885,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "mc_imports": [
+    "net.minecraft.client.player.LocalPlayer",
+    "net.minecraft.core.BlockPos",
+    "net.minecraft.core.Vec3i",
+    "net.minecraft.world.entity.Entity",
+    "net.minecraft.world.entity.LivingEntity",
+    "net.minecraft.world.level.Level",
+    "net.minecraft.world.phys.AABB",
+    "net.minecraft.world.phys.Vec3",
+    "net.minecraft.world.phys.shapes.VoxelShape"
+   ],
+   "candidates": [
+    {
+     "src": "AStarFollowerNavigator",
+     "score": 3.22,
+     "why": "MCimport:5"
+    },
+    {
+     "src": "EpsilonAddon",
+     "score": 3.0,
+     "why": "锚点引用:Setting"
+    },
+    {
+     "src": "I18NFileGenerator",
+     "score": 3.0,
+     "why": "锚点引用:Setting"
+    }
+   ]
+  },
+  {
+   "obf": "lX",
+   "kind": "class",
+   "super": null,
+   "lines": 1287,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "mc_imports": [],
+   "candidates": [
+    {
+     "src": "EpsilonAddon",
+     "score": 3.0,
+     "why": "锚点引用:Setting"
+    },
+    {
+     "src": "I18NFileGenerator",
+     "score": 3.0,
+     "why": "锚点引用:Setting"
+    },
+    {
+     "src": "AddonPanelEntry",
+     "score": 3.0,
+     "why": "锚点引用:Setting"
+    }
+   ]
+  },
+  {
+   "obf": "lx",
+   "kind": "class",
+   "super": "Record",
+   "lines": 49,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc_imports": [
+    "net.minecraft.world.InteractionHand"
+   ],
+   "candidates": [
+    {
+     "src": "FindItemResult",
+     "score": 4.0,
+     "why": "MCimport:1"
+    },
+    {
+     "src": "AutoMend",
+     "score": 1.33,
+     "why": "MCimport:1"
+    },
+    {
+     "src": "AutoFirework",
+     "score": 1.33,
+     "why": "MCimport:1"
+    }
+   ]
+  },
+  {
+   "obf": "lY",
+   "kind": "class",
+   "super": null,
+   "lines": 109,
+   "anchored_refs": [],
+   "mc_imports": [],
+   "candidates": []
+  },
+  {
+   "obf": "ly",
+   "kind": "class",
+   "super": null,
+   "lines": 1089,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "mc_imports": [
+    "net.minecraft.client.Minecraft",
+    "net.minecraft.core.Holder",
+    "net.minecraft.world.entity.EquipmentSlot",
+    "net.minecraft.world.entity.LivingEntity",
+    "net.minecraft.world.entity.boss.enderdragon.EndCrystal",
+    "net.minecraft.world.entity.player.Player",
+    "net.minecraft.world.level.block.state.BlockState",
+    "net.minecraft.world.phys.AABB",
+    "net.minecraft.world.phys.Vec3"
+   ],
+   "candidates": [
+    {
+     "src": "Module",
+     "score": 3.44,
+     "why": "锚点引用:Setting; MCimport:1"
+    },
+    {
+     "src": "EpsilonAddon",
+     "score": 3.0,
+     "why": "锚点引用:Setting"
+    },
+    {
+     "src": "I18NFileGenerator",
+     "score": 3.0,
+     "why": "锚点引用:Setting"
+    }
+   ]
+  },
+  {
+   "obf": "lZ",
+   "kind": "class",
+   "super": null,
+   "lines": 59,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc_imports": [],
+   "candidates": []
+  },
+  {
+   "obf": "lz",
+   "kind": "record",
+   "super": null,
+   "lines": 419,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "mc_imports": [
+    "net.minecraft.world.InteractionHand"
+   ],
+   "candidates": [
+    {
+     "src": "FindItemResult",
+     "score": 4.0,
+     "why": "MCimport:1"
+    },
+    {
+     "src": "EpsilonAddon",
+     "score": 3.0,
+     "why": "锚点引用:Setting"
+    },
+    {
+     "src": "I18NFileGenerator",
+     "score": 3.0,
+     "why": "锚点引用:Setting"
+    }
+   ]
+  },
+  {
+   "obf": "l_",
+   "kind": "class",
+   "super": null,
+   "lines": 62,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心",
+    "Type"
+   ],
+   "mc_imports": [],
+   "candidates": []
+  }
+ ]
+}

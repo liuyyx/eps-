@@ -1,0 +1,115 @@
+{
+ "batch": "C007",
+ "n": 8,
+ "classes": [
+  {
+   "obf": "dI",
+   "kind": "record",
+   "super": null,
+   "lines": 20,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc_imports": [],
+   "candidates": []
+  },
+  {
+   "obf": "di",
+   "kind": "class",
+   "super": "Record",
+   "lines": 55,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc_imports": [
+    "net.minecraft.core.BlockPos",
+    "net.minecraft.world.phys.BlockHitResult"
+   ],
+   "candidates": []
+  },
+  {
+   "obf": "DJ",
+   "kind": "class",
+   "super": "Enum",
+   "lines": 168,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc_imports": [],
+   "candidates": []
+  },
+  {
+   "obf": "Dj",
+   "kind": "class",
+   "super": "Enum",
+   "lines": 237,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc_imports": [],
+   "candidates": []
+  },
+  {
+   "obf": "dJ",
+   "kind": "class",
+   "super": "Record",
+   "lines": 49,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc_imports": [
+    "net.minecraft.client.multiplayer.ClientPacketListener",
+    "net.minecraft.network.protocol.Packet"
+   ],
+   "candidates": []
+  },
+  {
+   "obf": "dK",
+   "kind": "interface",
+   "super": null,
+   "lines": 10,
+   "anchored_refs": [],
+   "mc_imports": [],
+   "candidates": []
+  },
+  {
+   "obf": "DL",
+   "kind": "record",
+   "super": null,
+   "lines": 20,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc_imports": [],
+   "candidates": []
+  },
+  {
+   "obf": "dl",
+   "kind": "class",
+   "super": null,
+   "lines": 263,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "mc_imports": [],
+   "candidates": [
+    {
+     "src": "EpsilonAddon",
+     "score": 3.0,
+     "why": "锚点引用:Setting"
+    },
+    {
+     "src": "I18NFileGenerator",
+     "score": 3.0,
+     "why": "锚点引用:Setting"
+    },
+    {
+     "src": "AddonPanelEntry",
+     "score": 3.0,
+     "why": "锚点引用:Setting"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,221 @@
+{
+ "batch": "C001",
+ "n": 8,
+ "classes": [
+  {
+   "obf": "A",
+   "kind": "class",
+   "super": "e",
+   "lines": 2312,
+   "anchored_refs": [
+    "BoolSetting",
+    "EnumSetting",
+    "IntSetting",
+    "Module",
+    "PlayerTickEvent.Pre",
+    "Render3DEvent",
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "mc_imports": [
+    "net.minecraft.client.multiplayer.ClientLevel",
+    "net.minecraft.core.BlockPos",
+    "net.minecraft.world.level.block.Block"
+   ],
+   "candidates": [
+    {
+     "src": "Xray",
+     "score": 15.89,
+     "why": "锚点引用:BoolSetting,EnumSetting,IntSetting,Module,Render3DEvent; MCimport:2"
+    },
+    {
+     "src": "Particles",
+     "score": 15.31,
+     "why": "锚点引用:BoolSetting,EnumSetting,IntSetting,Module,Render3DEvent; MCimport:1"
+    },
+    {
+     "src": "Scaffold",
+     "score": 15.25,
+     "why": "锚点引用:BoolSetting,EnumSetting,IntSetting,Module,Render3DEvent; MCimport:1"
+    }
+   ]
+  },
+  {
+   "obf": "b",
+   "kind": "class",
+   "super": "e",
+   "lines": 294,
+   "anchored_refs": [
+    "KeyboardInputEvent",
+    "Module",
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "mc_imports": [
+    "net.minecraft.client.player.LocalPlayer"
+   ],
+   "candidates": [
+    {
+     "src": "Follower",
+     "score": 6.8,
+     "why": "锚点引用:KeyboardInputEvent,Module; MCimport:1"
+    },
+    {
+     "src": "EpsilonAddon",
+     "score": 6.0,
+     "why": "锚点引用:Module,Setting"
+    },
+    {
+     "src": "I18NFileGenerator",
+     "score": 6.0,
+     "why": "锚点引用:Module,Setting"
+    }
+   ]
+  },
+  {
+   "obf": "bo",
+   "kind": "class",
+   "super": null,
+   "lines": 2299,
+   "anchored_refs": [],
+   "mc_imports": [],
+   "candidates": []
+  },
+  {
+   "obf": "c",
+   "kind": "class",
+   "super": "e",
+   "lines": 977,
+   "anchored_refs": [
+    "BoolSetting",
+    "Module",
+    "PacketEvent.Send",
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "mc_imports": [
+    "net.minecraft.network.protocol.game.ServerboundSetCarriedItemPacket"
+   ],
+   "candidates": [
+    {
+     "src": "ModuleButton",
+     "score": 9.0,
+     "why": "锚点引用:BoolSetting,Module,Setting"
+    },
+    {
+     "src": "ConfigHolder",
+     "score": 9.0,
+     "why": "锚点引用:BoolSetting,Module,Setting"
+    },
+    {
+     "src": "ClientSetting",
+     "score": 9.0,
+     "why": "锚点引用:BoolSetting,Module,Setting"
+    }
+   ]
+  },
+  {
+   "obf": "d",
+   "kind": "class",
+   "super": "e",
+   "lines": 935,
+   "anchored_refs": [
+    "BoolSetting",
+    "DoubleSetting",
+    "Module",
+    "PlayerTickEvent.Pre",
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "mc_imports": [
+    "net.minecraft.client.gui.screens.inventory.InventoryScreen",
+    "net.minecraft.world.item.ItemStack"
+   ],
+   "candidates": [
+    {
+     "src": "ModuleButton",
+     "score": 12.0,
+     "why": "锚点引用:BoolSetting,DoubleSetting,Module,Setting"
+    },
+    {
+     "src": "ConfigHolder",
+     "score": 12.0,
+     "why": "锚点引用:BoolSetting,DoubleSetting,Module,Setting"
+    },
+    {
+     "src": "ClientSetting",
+     "score": 12.0,
+     "why": "锚点引用:BoolSetting,DoubleSetting,Module,Setting"
+    }
+   ]
+  },
+  {
+   "obf": "D0",
+   "kind": "class",
+   "super": "Enum",
+   "lines": 170,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc_imports": [],
+   "candidates": []
+  },
+  {
+   "obf": "d0",
+   "kind": "class",
+   "super": null,
+   "lines": 735,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "mc_imports": [],
+   "candidates": [
+    {
+     "src": "EpsilonAddon",
+     "score": 3.0,
+     "why": "锚点引用:Setting"
+    },
+    {
+     "src": "I18NFileGenerator",
+     "score": 3.0,
+     "why": "锚点引用:Setting"
+    },
+    {
+     "src": "AddonPanelEntry",
+     "score": 3.0,
+     "why": "锚点引用:Setting"
+    }
+   ]
+  },
+  {
+   "obf": "D1",
+   "kind": "class",
+   "super": null,
+   "lines": 391,
+   "anchored_refs": [
+    "BoolSetting",
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "mc_imports": [],
+   "candidates": [
+    {
+     "src": "ModuleButton",
+     "score": 6.0,
+     "why": "锚点引用:BoolSetting,Setting"
+    },
+    {
+     "src": "SettingsContent",
+     "score": 6.0,
+     "why": "锚点引用:BoolSetting,Setting"
+    },
+    {
+     "src": "SettingViewFactory",
+     "score": 6.0,
+     "why": "锚点引用:BoolSetting,Setting"
+    }
+   ]
+  }
+ ]
+}

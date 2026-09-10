@@ -1,0 +1,166 @@
+{
+ "batch": "C041",
+ "n": 8,
+ "classes": [
+  {
+   "obf": "nh",
+   "kind": "class",
+   "super": "Record",
+   "lines": 67,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc_imports": [
+    "net.minecraft.world.entity.boss.enderdragon.EndCrystal",
+    "net.minecraft.world.phys.Vec3"
+   ],
+   "candidates": []
+  },
+  {
+   "obf": "nI",
+   "kind": "class",
+   "super": "Enum",
+   "lines": 140,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc_imports": [],
+   "candidates": []
+  },
+  {
+   "obf": "ni",
+   "kind": "record",
+   "super": null,
+   "lines": 55,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc_imports": [],
+   "candidates": []
+  },
+  {
+   "obf": "nJ",
+   "kind": "class",
+   "super": null,
+   "lines": 777,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "mc_imports": [
+    "net.minecraft.core.BlockPos",
+    "net.minecraft.core.Direction",
+    "net.minecraft.world.entity.Entity",
+    "net.minecraft.world.level.ClipContext",
+    "net.minecraft.world.phys.EntityHitResult",
+    "net.minecraft.world.phys.HitResult",
+    "net.minecraft.world.phys.Vec3"
+   ],
+   "candidates": [
+    {
+     "src": "RaytraceUtils",
+     "score": 3.29,
+     "why": "MCimport:4"
+    },
+    {
+     "src": "RotationUtils",
+     "score": 3.18,
+     "why": "MCimport:6"
+    },
+    {
+     "src": "EpsilonAddon",
+     "score": 3.0,
+     "why": "锚点引用:Setting"
+    }
+   ]
+  },
+  {
+   "obf": "nk",
+   "kind": "class",
+   "super": "Record",
+   "lines": 55,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc_imports": [],
+   "candidates": []
+  },
+  {
+   "obf": "nL",
+   "kind": "class",
+   "super": null,
+   "lines": 917,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "mc_imports": [
+    "net.minecraft.server.packs.resources.ResourceManager"
+   ],
+   "candidates": [
+    {
+     "src": "EpsilonAddon",
+     "score": 3.0,
+     "why": "锚点引用:Setting"
+    },
+    {
+     "src": "I18NFileGenerator",
+     "score": 3.0,
+     "why": "锚点引用:Setting"
+    },
+    {
+     "src": "AddonPanelEntry",
+     "score": 3.0,
+     "why": "锚点引用:Setting"
+    }
+   ]
+  },
+  {
+   "obf": "nl",
+   "kind": "class",
+   "super": null,
+   "lines": 4497,
+   "anchored_refs": [
+    "EpsilonAddon",
+    "KeybindSetting",
+    "SeQL/字符串解密+调用分发核心",
+    "Setting",
+    "SettingRow"
+   ],
+   "mc_imports": [
+    "net.minecraft.client.gui.GuiGraphicsExtractor",
+    "net.minecraft.client.input.CharacterEvent",
+    "net.minecraft.client.input.KeyEvent",
+    "net.minecraft.client.input.MouseButtonEvent"
+   ],
+   "candidates": [
+    {
+     "src": "ModuleDetailPanel",
+     "score": 11.0,
+     "why": "锚点引用:KeybindSetting,Setting; MCimport:4"
+    },
+    {
+     "src": "AddonClientSettingTab",
+     "score": 11.0,
+     "why": "锚点引用:KeybindSetting,Setting; MCimport:4"
+    },
+    {
+     "src": "GeneralClientSettingTab",
+     "score": 11.0,
+     "why": "锚点引用:KeybindSetting,Setting; MCimport:4"
+    }
+   ]
+  },
+  {
+   "obf": "nM",
+   "kind": "class",
+   "super": "Enum",
+   "lines": 168,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc_imports": [],
+   "candidates": []
+  }
+ ]
+}

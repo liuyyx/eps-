@@ -1,0 +1,144 @@
+{
+ "batch": "B075",
+ "n": 8,
+ "classes": [
+  {
+   "obf": "uh",
+   "kind": "class",
+   "super": null,
+   "lines": 39,
+   "decl_line": "class uh ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "hi"
+   ],
+   "mc_imports": [],
+   "n_fields": 0,
+   "n_methods": 0,
+   "candidates": []
+  },
+  {
+   "obf": "uK",
+   "kind": "class",
+   "super": null,
+   "lines": 46,
+   "decl_line": "class uK ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "hi"
+   ],
+   "mc_imports": [],
+   "n_fields": 2,
+   "n_methods": 9,
+   "candidates": []
+  },
+  {
+   "obf": "ul",
+   "kind": "class",
+   "super": "Enum",
+   "lines": 168,
+   "decl_line": "class ul\nextends Enum<ul> ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "hi"
+   ],
+   "mc_imports": [],
+   "n_fields": 1,
+   "n_methods": 8,
+   "candidates": []
+  },
+  {
+   "obf": "uM",
+   "kind": "class",
+   "super": "Record",
+   "lines": 45,
+   "decl_line": "class uM\nextends Record ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "Xu",
+    "hi",
+    "y3"
+   ],
+   "mc_imports": [],
+   "n_fields": 2,
+   "n_methods": 8,
+   "candidates": []
+  },
+  {
+   "obf": "uO",
+   "kind": "class",
+   "super": "Enum",
+   "lines": 140,
+   "decl_line": "class uO\nextends Enum<uO> ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "hi"
+   ],
+   "mc_imports": [],
+   "n_fields": 1,
+   "n_methods": 7,
+   "candidates": []
+  },
+  {
+   "obf": "uP",
+   "kind": "class",
+   "super": null,
+   "lines": 33,
+   "decl_line": "class uP ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "hi"
+   ],
+   "mc_imports": [],
+   "n_fields": 0,
+   "n_methods": 0,
+   "candidates": []
+  },
+  {
+   "obf": "uQ",
+   "kind": "class",
+   "super": "Enum",
+   "lines": 123,
+   "decl_line": "class uQ\nextends Enum<uQ> ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "hi"
+   ],
+   "mc_imports": [],
+   "n_fields": 1,
+   "n_methods": 6,
+   "candidates": []
+  },
+  {
+   "obf": "uq",
+   "kind": "class",
+   "super": "Enum",
+   "lines": 125,
+   "decl_line": "class uq\nextends Enum<uq> ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "hi"
+   ],
+   "mc_imports": [],
+   "n_fields": 1,
+   "n_methods": 7,
+   "candidates": []
+  }
+ ]
+}

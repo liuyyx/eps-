@@ -1,0 +1,252 @@
+{
+ "batch": "C032",
+ "n": 8,
+ "classes": [
+  {
+   "obf": "lB",
+   "kind": "class",
+   "super": null,
+   "lines": 435,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "mc_imports": [
+    "net.minecraft.client.gui.GuiGraphicsExtractor",
+    "net.minecraft.client.input.MouseButtonEvent"
+   ],
+   "candidates": [
+    {
+     "src": "ModuleDetailPanel",
+     "score": 5.0,
+     "why": "锚点引用:Setting; MCimport:2"
+    },
+    {
+     "src": "AddonClientSettingTab",
+     "score": 5.0,
+     "why": "锚点引用:Setting; MCimport:2"
+    },
+    {
+     "src": "GeneralClientSettingTab",
+     "score": 5.0,
+     "why": "锚点引用:Setting; MCimport:2"
+    }
+   ]
+  },
+  {
+   "obf": "lb",
+   "kind": "class",
+   "super": null,
+   "lines": 474,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "mc_imports": [],
+   "candidates": [
+    {
+     "src": "EpsilonAddon",
+     "score": 3.0,
+     "why": "锚点引用:Setting"
+    },
+    {
+     "src": "I18NFileGenerator",
+     "score": 3.0,
+     "why": "锚点引用:Setting"
+    },
+    {
+     "src": "AddonPanelEntry",
+     "score": 3.0,
+     "why": "锚点引用:Setting"
+    }
+   ]
+  },
+  {
+   "obf": "lC",
+   "kind": "class",
+   "super": null,
+   "lines": 806,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "mc_imports": [
+    "net.minecraft.world.level.block.Block"
+   ],
+   "candidates": [
+    {
+     "src": "SettingHost",
+     "score": 4.0,
+     "why": "锚点引用:Setting; MCimport:1"
+    },
+    {
+     "src": "RegistryListSetting",
+     "score": 3.5,
+     "why": "锚点引用:Setting; MCimport:1"
+    },
+    {
+     "src": "RegistryListSelectPopup",
+     "score": 3.25,
+     "why": "锚点引用:Setting; MCimport:1"
+    }
+   ]
+  },
+  {
+   "obf": "lc",
+   "kind": "class",
+   "super": "l8",
+   "lines": 4493,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心",
+    "Setting",
+    "异步资源/数据加载缓存类（implements DS 接口，确切类名未定）"
+   ],
+   "mc_imports": [
+    "net.minecraft.client.gui.Hud",
+    "net.minecraft.client.multiplayer.ClientPacketListener",
+    "net.minecraft.client.multiplayer.PlayerInfo",
+    "net.minecraft.network.chat.Component",
+    "net.minecraft.network.chat.FormattedText",
+    "net.minecraft.network.chat.Style",
+    "net.minecraft.resources.Identifier",
+    "net.minecraft.world.scores.Objective",
+    "net.minecraft.world.scores.PlayerTeam",
+    "net.minecraft.world.scores.Scoreboard"
+   ],
+   "candidates": [
+    {
+     "src": "ClientSetting",
+     "score": 3.33,
+     "why": "锚点引用:Setting; MCimport:1"
+    },
+    {
+     "src": "RegistryListSetting",
+     "score": 3.22,
+     "why": "锚点引用:Setting; MCimport:1"
+    },
+    {
+     "src": "RegistryListSelectPopup",
+     "score": 3.15,
+     "why": "锚点引用:Setting; MCimport:1"
+    }
+   ]
+  },
+  {
+   "obf": "lD",
+   "kind": "class",
+   "super": "Record",
+   "lines": 57,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc_imports": [],
+   "candidates": []
+  },
+  {
+   "obf": "ld",
+   "kind": "class",
+   "super": null,
+   "lines": 2401,
+   "anchored_refs": [
+    "KeybindSetting",
+    "SeQL/字符串解密+调用分发核心",
+    "Setting",
+    "SettingRow"
+   ],
+   "mc_imports": [
+    "net.minecraft.client.gui.GuiGraphicsExtractor",
+    "net.minecraft.client.input.CharacterEvent",
+    "net.minecraft.client.input.KeyEvent",
+    "net.minecraft.client.input.MouseButtonEvent"
+   ],
+   "candidates": [
+    {
+     "src": "ModuleDetailPanel",
+     "score": 11.0,
+     "why": "锚点引用:KeybindSetting,Setting; MCimport:4"
+    },
+    {
+     "src": "AddonClientSettingTab",
+     "score": 11.0,
+     "why": "锚点引用:KeybindSetting,Setting; MCimport:4"
+    },
+    {
+     "src": "GeneralClientSettingTab",
+     "score": 11.0,
+     "why": "锚点引用:KeybindSetting,Setting; MCimport:4"
+    }
+   ]
+  },
+  {
+   "obf": "lE",
+   "kind": "class",
+   "super": null,
+   "lines": 4918,
+   "anchored_refs": [
+    "BoolSetting",
+    "ButtonSetting",
+    "ColorSetting",
+    "DoubleSetting",
+    "EnumSetting",
+    "IntSetting",
+    "KeybindSetting",
+    "RegistryListSetting",
+    "SeQL/字符串解密+调用分发核心",
+    "Setting",
+    "StringListSetting",
+    "StringSetting"
+   ],
+   "mc_imports": [],
+   "candidates": [
+    {
+     "src": "ModuleButton",
+     "score": 33.0,
+     "why": "锚点引用:BoolSetting,ButtonSetting,ColorSetting,DoubleSetting,EnumSetting"
+    },
+    {
+     "src": "SettingsContent",
+     "score": 33.0,
+     "why": "锚点引用:BoolSetting,ButtonSetting,ColorSetting,DoubleSetting,EnumSetting"
+    },
+    {
+     "src": "SettingViewFactory",
+     "score": 33.0,
+     "why": "锚点引用:BoolSetting,ButtonSetting,ColorSetting,DoubleSetting,EnumSetting"
+    }
+   ]
+  },
+  {
+   "obf": "le",
+   "kind": "class",
+   "super": null,
+   "lines": 1695,
+   "anchored_refs": [
+    "Render3DEvent",
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "mc_imports": [
+    "net.minecraft.core.Direction",
+    "net.minecraft.world.phys.AABB",
+    "net.minecraft.world.phys.Vec3"
+   ],
+   "candidates": [
+    {
+     "src": "Render3DScheduler",
+     "score": 6.4,
+     "why": "锚点引用:Render3DEvent; MCimport:3"
+    },
+    {
+     "src": "HoleESP",
+     "score": 5.5,
+     "why": "锚点引用:Render3DEvent; MCimport:3"
+    },
+    {
+     "src": "LuaRender3DContext",
+     "score": 5.0,
+     "why": "MCimport:3"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,146 @@
+{
+ "batch": "B080",
+ "n": 8,
+ "classes": [
+  {
+   "obf": "vR",
+   "kind": "class",
+   "super": null,
+   "lines": 173,
+   "decl_line": "class vR ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "dd",
+    "hi"
+   ],
+   "mc_imports": [],
+   "n_fields": 3,
+   "n_methods": 10,
+   "candidates": []
+  },
+  {
+   "obf": "vT",
+   "kind": "class",
+   "super": "Enum",
+   "lines": 123,
+   "decl_line": "class vT\nextends Enum<vT> ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "hi"
+   ],
+   "mc_imports": [],
+   "n_fields": 1,
+   "n_methods": 6,
+   "candidates": []
+  },
+  {
+   "obf": "vt",
+   "kind": "class",
+   "super": "Enum",
+   "lines": 207,
+   "decl_line": "class vt\nextends Enum<vt> ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "hi"
+   ],
+   "mc_imports": [],
+   "n_fields": 2,
+   "n_methods": 12,
+   "candidates": []
+  },
+  {
+   "obf": "vu",
+   "kind": "class",
+   "super": "Record",
+   "lines": 61,
+   "decl_line": "class vu\nextends Record ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "hi"
+   ],
+   "mc_imports": [
+    "net.minecraft.core.Direction",
+    "net.minecraft.world.phys.AABB"
+   ],
+   "n_fields": 4,
+   "n_methods": 12,
+   "candidates": []
+  },
+  {
+   "obf": "vV",
+   "kind": "class",
+   "super": "Record",
+   "lines": 49,
+   "decl_line": "class vV\nextends Record ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "hi"
+   ],
+   "mc_imports": [],
+   "n_fields": 3,
+   "n_methods": 10,
+   "candidates": []
+  },
+  {
+   "obf": "vv",
+   "kind": "class",
+   "super": "Enum",
+   "lines": 175,
+   "decl_line": "class vv\nextends Enum<vv> ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "hi"
+   ],
+   "mc_imports": [],
+   "n_fields": 2,
+   "n_methods": 10,
+   "candidates": []
+  },
+  {
+   "obf": "vW",
+   "kind": "class",
+   "super": "Enum",
+   "lines": 168,
+   "decl_line": "class vW\nextends Enum<vW> ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "hi"
+   ],
+   "mc_imports": [],
+   "n_fields": 1,
+   "n_methods": 8,
+   "candidates": []
+  },
+  {
+   "obf": "X2",
+   "kind": "class",
+   "super": "Enum",
+   "lines": 140,
+   "decl_line": "class X2\nextends Enum<X2> ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "hi"
+   ],
+   "mc_imports": [],
+   "n_fields": 1,
+   "n_methods": 7,
+   "candidates": []
+  }
+ ]
+}

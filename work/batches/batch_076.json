@@ -1,0 +1,147 @@
+{
+ "batch": "B076",
+ "n": 8,
+ "classes": [
+  {
+   "obf": "uR",
+   "kind": "record",
+   "super": null,
+   "lines": 21,
+   "decl_line": "record uR<T>(String aq, Predicate<T> AS) ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "hi"
+   ],
+   "mc_imports": [],
+   "n_fields": 2,
+   "n_methods": 4,
+   "candidates": []
+  },
+  {
+   "obf": "ur",
+   "kind": "record",
+   "super": null,
+   "lines": 74,
+   "decl_line": "record ur(float gO, float gE, float gw) implements DynamicUniformStorage.DynamicUniform\n",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "hi"
+   ],
+   "mc_imports": [
+    "net.minecraft.client.renderer.DynamicUniformStorage"
+   ],
+   "n_fields": 3,
+   "n_methods": 12,
+   "candidates": []
+  },
+  {
+   "obf": "uS",
+   "kind": "class",
+   "super": "Record",
+   "lines": 84,
+   "decl_line": "class uS\nextends Record\nimplements _Q ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "_Q",
+    "hi",
+    "ih",
+    "vx"
+   ],
+   "mc_imports": [],
+   "n_fields": 8,
+   "n_methods": 20,
+   "candidates": []
+  },
+  {
+   "obf": "ut",
+   "kind": "class",
+   "super": "Enum",
+   "lines": 185,
+   "decl_line": "class ut\nextends Enum<ut> ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "hi"
+   ],
+   "mc_imports": [],
+   "n_fields": 1,
+   "n_methods": 9,
+   "candidates": []
+  },
+  {
+   "obf": "uU",
+   "kind": "class",
+   "super": null,
+   "lines": 82,
+   "decl_line": "class uU ",
+   "anchored_refs": [],
+   "refs": [],
+   "mc_imports": [],
+   "n_fields": 4,
+   "n_methods": 5,
+   "candidates": []
+  },
+  {
+   "obf": "uu",
+   "kind": "class",
+   "super": null,
+   "lines": 65,
+   "decl_line": "class uu ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "hi"
+   ],
+   "mc_imports": [
+    "net.minecraft.world.entity.MobCategory"
+   ],
+   "n_fields": 0,
+   "n_methods": 1,
+   "candidates": []
+  },
+  {
+   "obf": "uV",
+   "kind": "record",
+   "super": null,
+   "lines": 19,
+   "decl_line": "record uV(GpuBufferSlice xh) ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "hi"
+   ],
+   "mc_imports": [],
+   "n_fields": 1,
+   "n_methods": 2,
+   "candidates": []
+  },
+  {
+   "obf": "uw",
+   "kind": "record",
+   "super": null,
+   "lines": 49,
+   "decl_line": "record uw(float kZ, float kB) implements DynamicUniformStorage.DynamicUniform\n",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "hi"
+   ],
+   "mc_imports": [
+    "net.minecraft.client.renderer.DynamicUniformStorage"
+   ],
+   "n_fields": 2,
+   "n_methods": 6,
+   "candidates": []
+  }
+ ]
+}

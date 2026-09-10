@@ -1,0 +1,147 @@
+{
+ "batch": "C040",
+ "n": 8,
+ "classes": [
+  {
+   "obf": "nd",
+   "kind": "class",
+   "super": null,
+   "lines": 19,
+   "anchored_refs": [],
+   "mc_imports": [],
+   "candidates": []
+  },
+  {
+   "obf": "nE",
+   "kind": "class",
+   "super": "Record",
+   "lines": 74,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc_imports": [],
+   "candidates": []
+  },
+  {
+   "obf": "ne",
+   "kind": "class",
+   "super": "Enum",
+   "lines": 259,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc_imports": [],
+   "candidates": []
+  },
+  {
+   "obf": "nF",
+   "kind": "record",
+   "super": null,
+   "lines": 56,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc_imports": [
+    "net.minecraft.core.BlockPos"
+   ],
+   "candidates": [
+    {
+     "src": "DestroyBlockEvent",
+     "score": 4.0,
+     "why": "MCimport:1"
+    },
+    {
+     "src": "BlockCollisionEvent",
+     "score": 2.0,
+     "why": "MCimport:1"
+    },
+    {
+     "src": "StartDestroyBlockEvent",
+     "score": 2.0,
+     "why": "MCimport:1"
+    }
+   ]
+  },
+  {
+   "obf": "nf",
+   "kind": "class",
+   "super": "Enum",
+   "lines": 194,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc_imports": [
+    "net.minecraft.resources.Identifier"
+   ],
+   "candidates": [
+    {
+     "src": "SoundKey",
+     "score": 4.0,
+     "why": "MCimport:1"
+    },
+    {
+     "src": "ResourceLocationUtils",
+     "score": 2.0,
+     "why": "MCimport:1"
+    },
+    {
+     "src": "ClientSetting",
+     "score": 2.0,
+     "why": "MCimport:1"
+    }
+   ]
+  },
+  {
+   "obf": "nG",
+   "kind": "class",
+   "super": "Record",
+   "lines": 55,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc_imports": [],
+   "candidates": []
+  },
+  {
+   "obf": "ng",
+   "kind": "class",
+   "super": null,
+   "lines": 1044,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "mc_imports": [
+    "net.minecraft.client.Camera",
+    "net.minecraft.resources.Identifier",
+    "net.minecraft.world.phys.AABB"
+   ],
+   "candidates": [
+    {
+     "src": "ClientSetting",
+     "score": 4.0,
+     "why": "锚点引用:Setting; MCimport:1"
+    },
+    {
+     "src": "RegistryListSetting",
+     "score": 3.4,
+     "why": "锚点引用:Setting; MCimport:1"
+    },
+    {
+     "src": "RegistryListSelectPopup",
+     "score": 3.22,
+     "why": "锚点引用:Setting; MCimport:1"
+    }
+   ]
+  },
+  {
+   "obf": "nH",
+   "kind": "interface",
+   "super": null,
+   "lines": 10,
+   "anchored_refs": [],
+   "mc_imports": [],
+   "candidates": []
+  }
+ ]
+}

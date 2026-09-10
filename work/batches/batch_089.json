@@ -1,0 +1,156 @@
+{
+ "batch": "B089",
+ "n": 8,
+ "classes": [
+  {
+   "obf": "yW",
+   "kind": "class",
+   "super": "Record",
+   "lines": 75,
+   "decl_line": "class yW\nextends Record ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "hi",
+    "nG",
+    "yn"
+   ],
+   "mc_imports": [],
+   "n_fields": 7,
+   "n_methods": 18,
+   "candidates": []
+  },
+  {
+   "obf": "yX",
+   "kind": "class",
+   "super": "Record",
+   "lines": 128,
+   "decl_line": "class yX\nextends Record\nimplements yM ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "XL",
+    "Xu",
+    "hi",
+    "y3",
+    "yM"
+   ],
+   "mc_imports": [],
+   "n_fields": 10,
+   "n_methods": 27,
+   "candidates": []
+  },
+  {
+   "obf": "yY",
+   "kind": "class",
+   "super": "Record",
+   "lines": 57,
+   "decl_line": "class yY\nextends Record ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "hi"
+   ],
+   "mc_imports": [
+    "net.minecraft.core.BlockPos",
+    "net.minecraft.core.Direction",
+    "net.minecraft.world.phys.Vec3"
+   ],
+   "n_fields": 3,
+   "n_methods": 10,
+   "candidates": []
+  },
+  {
+   "obf": "yy",
+   "kind": "class",
+   "super": "y4",
+   "lines": 580,
+   "decl_line": "class yy\nextends y4 ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "hi",
+    "lD",
+    "y4"
+   ],
+   "mc_imports": [],
+   "n_fields": 4,
+   "n_methods": 14,
+   "candidates": []
+  },
+  {
+   "obf": "yz",
+   "kind": "class",
+   "super": null,
+   "lines": 80,
+   "decl_line": "class yz ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "hi"
+   ],
+   "mc_imports": [
+    "net.minecraft.core.Direction"
+   ],
+   "n_fields": 0,
+   "n_methods": 1,
+   "candidates": []
+  },
+  {
+   "obf": "z4",
+   "kind": "class",
+   "super": "Enum",
+   "lines": 207,
+   "decl_line": "class z4\nextends Enum<z4> ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "hi"
+   ],
+   "mc_imports": [],
+   "n_fields": 2,
+   "n_methods": 12,
+   "candidates": []
+  },
+  {
+   "obf": "z5",
+   "kind": "class",
+   "super": null,
+   "lines": 39,
+   "decl_line": "class z5 ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "hi"
+   ],
+   "mc_imports": [],
+   "n_fields": 0,
+   "n_methods": 0,
+   "candidates": []
+  },
+  {
+   "obf": "z6",
+   "kind": "class",
+   "super": "Record",
+   "lines": 47,
+   "decl_line": "class z6\nextends Record ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "hi"
+   ],
+   "mc_imports": [],
+   "n_fields": 2,
+   "n_methods": 8,
+   "candidates": []
+  }
+ ]
+}

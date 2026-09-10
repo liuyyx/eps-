@@ -1,0 +1,154 @@
+{
+ "batch": "B073",
+ "n": 8,
+ "classes": [
+  {
+   "obf": "Ow",
+   "kind": "class",
+   "super": null,
+   "lines": 160,
+   "decl_line": "class Ow\nimplements AutoCloseable ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "Df",
+    "gy",
+    "hi",
+    "iB",
+    "l5",
+    "lm",
+    "y_"
+   ],
+   "mc_imports": [],
+   "n_fields": 2,
+   "n_methods": 18,
+   "candidates": []
+  },
+  {
+   "obf": "Ox",
+   "kind": "class",
+   "super": "Record",
+   "lines": 88,
+   "decl_line": "class Ox\nextends Record\nimplements _Q ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "_Q",
+    "hi"
+   ],
+   "mc_imports": [],
+   "n_fields": 9,
+   "n_methods": 22,
+   "candidates": []
+  },
+  {
+   "obf": "OY",
+   "kind": "class",
+   "super": null,
+   "lines": 109,
+   "decl_line": "class OY ",
+   "anchored_refs": [],
+   "refs": [],
+   "mc_imports": [],
+   "n_fields": 2,
+   "n_methods": 4,
+   "candidates": []
+  },
+  {
+   "obf": "Oy",
+   "kind": "class",
+   "super": "Enum",
+   "lines": 168,
+   "decl_line": "class Oy\nextends Enum<Oy> ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "hi"
+   ],
+   "mc_imports": [],
+   "n_fields": 1,
+   "n_methods": 8,
+   "candidates": []
+  },
+  {
+   "obf": "O_",
+   "kind": "class",
+   "super": "Enum",
+   "lines": 123,
+   "decl_line": "class O_\nextends Enum<O_> ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "hi"
+   ],
+   "mc_imports": [],
+   "n_fields": 1,
+   "n_methods": 6,
+   "candidates": []
+  },
+  {
+   "obf": "u1",
+   "kind": "class",
+   "super": "Enum",
+   "lines": 82,
+   "decl_line": "class u1\nextends Enum<u1> ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "hi"
+   ],
+   "mc_imports": [],
+   "n_fields": 1,
+   "n_methods": 5,
+   "candidates": []
+  },
+  {
+   "obf": "u2",
+   "kind": "class",
+   "super": "Record",
+   "lines": 119,
+   "decl_line": "class u2\nextends Record\nimplements _Q ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "X6",
+    "_Q",
+    "hi"
+   ],
+   "mc_imports": [],
+   "n_fields": 14,
+   "n_methods": 32,
+   "candidates": []
+  },
+  {
+   "obf": "u5",
+   "kind": "class",
+   "super": "Record",
+   "lines": 109,
+   "decl_line": "class u5\nextends Record ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "hi",
+    "im",
+    "uK"
+   ],
+   "mc_imports": [
+    "net.minecraft.world.Difficulty",
+    "net.minecraft.world.entity.player.Player",
+    "net.minecraft.world.phys.AABB",
+    "net.minecraft.world.phys.Vec3"
+   ],
+   "n_fields": 11,
+   "n_methods": 26,
+   "candidates": []
+  }
+ ]
+}

@@ -1,0 +1,218 @@
+{
+ "batch": "C055",
+ "n": 8,
+ "classes": [
+  {
+   "obf": "uG",
+   "kind": "class",
+   "super": "e",
+   "lines": 971,
+   "anchored_refs": [
+    "ClientTickEvent.Pre",
+    "KeyboardInputEvent",
+    "Module",
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "mc_imports": [
+    "net.minecraft.client.player.LocalPlayer"
+   ],
+   "candidates": [
+    {
+     "src": "Follower",
+     "score": 6.8,
+     "why": "锚点引用:KeyboardInputEvent,Module; MCimport:1"
+    },
+    {
+     "src": "EpsilonAddon",
+     "score": 6.0,
+     "why": "锚点引用:Module,Setting"
+    },
+    {
+     "src": "I18NFileGenerator",
+     "score": 6.0,
+     "why": "锚点引用:Module,Setting"
+    }
+   ]
+  },
+  {
+   "obf": "ug",
+   "kind": "class",
+   "super": "Record",
+   "lines": 67,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc_imports": [
+    "net.minecraft.resources.Identifier"
+   ],
+   "candidates": [
+    {
+     "src": "SoundKey",
+     "score": 4.0,
+     "why": "MCimport:1"
+    },
+    {
+     "src": "ResourceLocationUtils",
+     "score": 2.0,
+     "why": "MCimport:1"
+    },
+    {
+     "src": "ClientSetting",
+     "score": 2.0,
+     "why": "MCimport:1"
+    }
+   ]
+  },
+  {
+   "obf": "uH",
+   "kind": "class",
+   "super": null,
+   "lines": 751,
+   "anchored_refs": [
+    "ChatComponentAccessor",
+    "DoubleSetting",
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "mc_imports": [
+    "net.minecraft.client.Minecraft",
+    "net.minecraft.client.gui.components.ChatComponent",
+    "net.minecraft.network.chat.Component",
+    "net.minecraft.network.chat.MutableComponent",
+    "net.minecraft.network.chat.Style",
+    "net.minecraft.util.FormattedCharSequence"
+   ],
+   "candidates": [
+    {
+     "src": "ModuleButton",
+     "score": 6.0,
+     "why": "锚点引用:DoubleSetting,Setting"
+    },
+    {
+     "src": "SettingsContent",
+     "score": 6.0,
+     "why": "锚点引用:DoubleSetting,Setting"
+    },
+    {
+     "src": "SettingViewFactory",
+     "score": 6.0,
+     "why": "锚点引用:DoubleSetting,Setting"
+    }
+   ]
+  },
+  {
+   "obf": "uh",
+   "kind": "class",
+   "super": null,
+   "lines": 39,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc_imports": [],
+   "candidates": []
+  },
+  {
+   "obf": "uI",
+   "kind": "class",
+   "super": null,
+   "lines": 3008,
+   "anchored_refs": [
+    "BoolSetting",
+    "ColorSetting",
+    "Dependency",
+    "DoubleSetting",
+    "IntSetting",
+    "SeQL/字符串解密+调用分发核心",
+    "Setting",
+    "异步资源/数据加载缓存类（implements DS 接口，确切类名未定）"
+   ],
+   "mc_imports": [],
+   "candidates": [
+    {
+     "src": "ModuleButton",
+     "score": 15.0,
+     "why": "锚点引用:BoolSetting,ColorSetting,DoubleSetting,IntSetting,Setting"
+    },
+    {
+     "src": "SettingsContent",
+     "score": 15.0,
+     "why": "锚点引用:BoolSetting,ColorSetting,DoubleSetting,IntSetting,Setting"
+    },
+    {
+     "src": "SettingViewFactory",
+     "score": 15.0,
+     "why": "锚点引用:BoolSetting,ColorSetting,DoubleSetting,IntSetting,Setting"
+    }
+   ]
+  },
+  {
+   "obf": "ui",
+   "kind": "class",
+   "super": null,
+   "lines": 2338,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "mc_imports": [],
+   "candidates": [
+    {
+     "src": "EpsilonAddon",
+     "score": 3.0,
+     "why": "锚点引用:Setting"
+    },
+    {
+     "src": "I18NFileGenerator",
+     "score": 3.0,
+     "why": "锚点引用:Setting"
+    },
+    {
+     "src": "AddonPanelEntry",
+     "score": 3.0,
+     "why": "锚点引用:Setting"
+    }
+   ]
+  },
+  {
+   "obf": "uJ",
+   "kind": "class",
+   "super": null,
+   "lines": 3565,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心",
+    "Setting",
+    "异步资源/数据加载缓存类（implements DS 接口，确切类名未定）"
+   ],
+   "mc_imports": [],
+   "candidates": [
+    {
+     "src": "EpsilonAddon",
+     "score": 3.0,
+     "why": "锚点引用:Setting"
+    },
+    {
+     "src": "I18NFileGenerator",
+     "score": 3.0,
+     "why": "锚点引用:Setting"
+    },
+    {
+     "src": "AddonPanelEntry",
+     "score": 3.0,
+     "why": "锚点引用:Setting"
+    }
+   ]
+  },
+  {
+   "obf": "uK",
+   "kind": "class",
+   "super": null,
+   "lines": 46,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc_imports": [],
+   "candidates": []
+  }
+ ]
+}

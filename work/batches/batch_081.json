@@ -1,0 +1,146 @@
+{
+ "batch": "B081",
+ "n": 8,
+ "classes": [
+  {
+   "obf": "X5",
+   "kind": "class",
+   "super": "Enum",
+   "lines": 140,
+   "decl_line": "class X5\nextends Enum<X5> ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "hi"
+   ],
+   "mc_imports": [],
+   "n_fields": 1,
+   "n_methods": 7,
+   "candidates": []
+  },
+  {
+   "obf": "X6",
+   "kind": "interface",
+   "super": null,
+   "lines": 12,
+   "decl_line": "interface X6\npermits iO, dq ",
+   "anchored_refs": [],
+   "refs": [
+    "dq",
+    "iO"
+   ],
+   "mc_imports": [],
+   "n_fields": 0,
+   "n_methods": 0,
+   "candidates": []
+  },
+  {
+   "obf": "X7",
+   "kind": "class",
+   "super": "Enum",
+   "lines": 123,
+   "decl_line": "class X7\nextends Enum<X7> ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "hi"
+   ],
+   "mc_imports": [],
+   "n_fields": 1,
+   "n_methods": 6,
+   "candidates": []
+  },
+  {
+   "obf": "X9",
+   "kind": "record",
+   "super": null,
+   "lines": 20,
+   "decl_line": "record X9(Object rQ, boolean WR) ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "hi"
+   ],
+   "mc_imports": [],
+   "n_fields": 2,
+   "n_methods": 4,
+   "candidates": []
+  },
+  {
+   "obf": "Xa",
+   "kind": "class",
+   "super": "Record",
+   "lines": 86,
+   "decl_line": "class Xa\nextends Record ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "O7",
+    "hi",
+    "iR",
+    "nh"
+   ],
+   "mc_imports": [],
+   "n_fields": 8,
+   "n_methods": 19,
+   "candidates": []
+  },
+  {
+   "obf": "XB",
+   "kind": "class",
+   "super": "Record",
+   "lines": 76,
+   "decl_line": "class XB\nextends Record ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "hi",
+    "ih",
+    "nK"
+   ],
+   "mc_imports": [],
+   "n_fields": 7,
+   "n_methods": 18,
+   "candidates": []
+  },
+  {
+   "obf": "Xb",
+   "kind": "class",
+   "super": "Enum",
+   "lines": 170,
+   "decl_line": "class Xb\nextends Enum<Xb> ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "hi"
+   ],
+   "mc_imports": [],
+   "n_fields": 1,
+   "n_methods": 9,
+   "candidates": []
+  },
+  {
+   "obf": "XC",
+   "kind": "class",
+   "super": "Enum",
+   "lines": 140,
+   "decl_line": "class XC\nextends Enum<XC> ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "hi"
+   ],
+   "mc_imports": [],
+   "n_fields": 1,
+   "n_methods": 7,
+   "candidates": []
+  }
+ ]
+}

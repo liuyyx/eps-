@@ -1,0 +1,135 @@
+{
+ "batch": "B094",
+ "n": 8,
+ "classes": [
+  {
+   "obf": "_b",
+   "kind": "class",
+   "super": null,
+   "lines": 16,
+   "decl_line": "class _b ",
+   "anchored_refs": [],
+   "refs": [
+    "i3"
+   ],
+   "mc_imports": [],
+   "n_fields": 1,
+   "n_methods": 1,
+   "candidates": []
+  },
+  {
+   "obf": "_c",
+   "kind": "class",
+   "super": "Enum",
+   "lines": 168,
+   "decl_line": "class _c\nextends Enum<_c> ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "hi"
+   ],
+   "mc_imports": [],
+   "n_fields": 1,
+   "n_methods": 8,
+   "candidates": []
+  },
+  {
+   "obf": "_d",
+   "kind": "class",
+   "super": "ViaBackwardsConfig",
+   "lines": 23,
+   "decl_line": "class _d\nextends ViaBackwardsConfig ",
+   "anchored_refs": [],
+   "refs": [],
+   "mc_imports": [],
+   "n_fields": 0,
+   "n_methods": 2,
+   "candidates": []
+  },
+  {
+   "obf": "_e",
+   "kind": "class",
+   "super": "Record",
+   "lines": 62,
+   "decl_line": "class _e\nextends Record ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "hi"
+   ],
+   "mc_imports": [],
+   "n_fields": 5,
+   "n_methods": 14,
+   "candidates": []
+  },
+  {
+   "obf": "_F",
+   "kind": "record",
+   "super": null,
+   "lines": 129,
+   "decl_line": "record _F(float uc, float uN, float uU, float uo, float u9, float uj, float uq, float uw, float uK, float u6, float uY) implements DynamicUniformStorage.DynamicUniform\n",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "hi"
+   ],
+   "mc_imports": [
+    "net.minecraft.client.renderer.DynamicUniformStorage"
+   ],
+   "n_fields": 11,
+   "n_methods": 29,
+   "candidates": []
+  },
+  {
+   "obf": "_f",
+   "kind": "class",
+   "super": "Enum",
+   "lines": 123,
+   "decl_line": "class _f\nextends Enum<_f> ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "hi"
+   ],
+   "mc_imports": [],
+   "n_fields": 1,
+   "n_methods": 6,
+   "candidates": []
+  },
+  {
+   "obf": "_G",
+   "kind": "class",
+   "super": "Record",
+   "lines": 104,
+   "decl_line": "class _G\nextends Record ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "Ds",
+    "hi"
+   ],
+   "mc_imports": [],
+   "n_fields": 12,
+   "n_methods": 28,
+   "candidates": []
+  },
+  {
+   "obf": "_g",
+   "kind": "class",
+   "super": null,
+   "lines": 8,
+   "decl_line": "class _g ",
+   "anchored_refs": [],
+   "refs": [],
+   "mc_imports": [],
+   "n_fields": 0,
+   "n_methods": 0,
+   "candidates": []
+  }
+ ]
+}

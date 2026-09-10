@@ -1,0 +1,184 @@
+{
+ "batch": "C030",
+ "n": 8,
+ "classes": [
+  {
+   "obf": "iz",
+   "kind": "record",
+   "super": null,
+   "lines": 142,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc_imports": [
+    "net.minecraft.client.renderer.DynamicUniformStorage"
+   ],
+   "candidates": []
+  },
+  {
+   "obf": "i_",
+   "kind": "interface",
+   "super": null,
+   "lines": 10,
+   "anchored_refs": [],
+   "mc_imports": [],
+   "candidates": []
+  },
+  {
+   "obf": "J",
+   "kind": "class",
+   "super": "e",
+   "lines": 82,
+   "anchored_refs": [
+    "AfterRender3DEvent",
+    "Module",
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc_imports": [],
+   "candidates": [
+    {
+     "src": "EpsilonAddon",
+     "score": 3.0,
+     "why": "锚点引用:Module"
+    },
+    {
+     "src": "LegacyConfigMigrator",
+     "score": 3.0,
+     "why": "锚点引用:Module"
+    },
+    {
+     "src": "EpsilonTranslations",
+     "score": 3.0,
+     "why": "锚点引用:Module"
+    }
+   ]
+  },
+  {
+   "obf": "K",
+   "kind": "class",
+   "super": "e",
+   "lines": 1736,
+   "anchored_refs": [
+    "DoubleSetting",
+    "IntSetting",
+    "Module",
+    "PlayerTickEvent.Pre",
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "mc_imports": [
+    "net.minecraft.client.player.LocalPlayer",
+    "net.minecraft.core.Holder",
+    "net.minecraft.world.entity.Entity",
+    "net.minecraft.world.entity.LivingEntity",
+    "net.minecraft.world.level.ClipContext",
+    "net.minecraft.world.phys.HitResult",
+    "net.minecraft.world.phys.Vec3"
+   ],
+   "candidates": [
+    {
+     "src": "ModuleButton",
+     "score": 12.0,
+     "why": "锚点引用:DoubleSetting,IntSetting,Module,Setting"
+    },
+    {
+     "src": "ConfigHolder",
+     "score": 12.0,
+     "why": "锚点引用:DoubleSetting,IntSetting,Module,Setting"
+    },
+    {
+     "src": "ClientSetting",
+     "score": 12.0,
+     "why": "锚点引用:DoubleSetting,IntSetting,Module,Setting"
+    }
+   ]
+  },
+  {
+   "obf": "l0",
+   "kind": "class",
+   "super": "l8",
+   "lines": 1183,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "mc_imports": [
+    "net.minecraft.client.color.block.BlockTintSource",
+    "net.minecraft.client.player.LocalPlayer",
+    "net.minecraft.client.renderer.block.BlockAndTintGetter",
+    "net.minecraft.client.renderer.texture.TextureAtlasSprite",
+    "net.minecraft.core.BlockPos",
+    "net.minecraft.world.item.BlockItem",
+    "net.minecraft.world.item.ItemStack",
+    "net.minecraft.world.level.block.state.BlockState"
+   ],
+   "candidates": [
+    {
+     "src": "RegistryListSelectPopup",
+     "score": 3.17,
+     "why": "锚点引用:Setting; MCimport:1"
+    },
+    {
+     "src": "EpsilonAddon",
+     "score": 3.0,
+     "why": "锚点引用:Setting"
+    },
+    {
+     "src": "I18NFileGenerator",
+     "score": 3.0,
+     "why": "锚点引用:Setting"
+    }
+   ]
+  },
+  {
+   "obf": "l1",
+   "kind": "class",
+   "super": null,
+   "lines": 224,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "mc_imports": [],
+   "candidates": [
+    {
+     "src": "EpsilonAddon",
+     "score": 3.0,
+     "why": "锚点引用:Setting"
+    },
+    {
+     "src": "I18NFileGenerator",
+     "score": 3.0,
+     "why": "锚点引用:Setting"
+    },
+    {
+     "src": "AddonPanelEntry",
+     "score": 3.0,
+     "why": "锚点引用:Setting"
+    }
+   ]
+  },
+  {
+   "obf": "l2",
+   "kind": "class",
+   "super": "Record",
+   "lines": 64,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc_imports": [],
+   "candidates": []
+  },
+  {
+   "obf": "l3",
+   "kind": "class",
+   "super": "Enum",
+   "lines": 140,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc_imports": [],
+   "candidates": []
+  }
+ ]
+}

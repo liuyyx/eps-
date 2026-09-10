@@ -1,0 +1,149 @@
+{
+ "batch": "B074",
+ "n": 8,
+ "classes": [
+  {
+   "obf": "u6",
+   "kind": "class",
+   "super": "Record",
+   "lines": 136,
+   "decl_line": "class u6\nextends Record\nimplements yM ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "XL",
+    "Xu",
+    "hi",
+    "y3",
+    "yM"
+   ],
+   "mc_imports": [],
+   "n_fields": 15,
+   "n_methods": 35,
+   "candidates": []
+  },
+  {
+   "obf": "u7",
+   "kind": "class",
+   "super": "Record",
+   "lines": 80,
+   "decl_line": "class u7\nextends Record ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "hi"
+   ],
+   "mc_imports": [],
+   "n_fields": 8,
+   "n_methods": 20,
+   "candidates": []
+  },
+  {
+   "obf": "u9",
+   "kind": "class",
+   "super": null,
+   "lines": 41,
+   "decl_line": "class u9 ",
+   "anchored_refs": [],
+   "refs": [
+    "uK"
+   ],
+   "mc_imports": [],
+   "n_fields": 1,
+   "n_methods": 10,
+   "candidates": []
+  },
+  {
+   "obf": "uB",
+   "kind": "class",
+   "super": "Record",
+   "lines": 65,
+   "decl_line": "class uB\nextends Record\nimplements _Q ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "_Q",
+    "hi",
+    "ih"
+   ],
+   "mc_imports": [],
+   "n_fields": 5,
+   "n_methods": 14,
+   "candidates": []
+  },
+  {
+   "obf": "ub",
+   "kind": "class",
+   "super": null,
+   "lines": 33,
+   "decl_line": "class ub ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "hi"
+   ],
+   "mc_imports": [],
+   "n_fields": 0,
+   "n_methods": 0,
+   "candidates": []
+  },
+  {
+   "obf": "uC",
+   "kind": "class",
+   "super": "Enum",
+   "lines": 140,
+   "decl_line": "class uC\nextends Enum<uC> ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "hi"
+   ],
+   "mc_imports": [],
+   "n_fields": 1,
+   "n_methods": 7,
+   "candidates": []
+  },
+  {
+   "obf": "uD",
+   "kind": "class",
+   "super": "Record",
+   "lines": 44,
+   "decl_line": "class uD\nextends Record ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "hi",
+    "yc"
+   ],
+   "mc_imports": [],
+   "n_fields": 2,
+   "n_methods": 8,
+   "candidates": []
+  },
+  {
+   "obf": "ud",
+   "kind": "class",
+   "super": "Record",
+   "lines": 52,
+   "decl_line": "class ud\nextends Record\nimplements _Q ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "_Q",
+    "hi",
+    "ih"
+   ],
+   "mc_imports": [],
+   "n_fields": 3,
+   "n_methods": 10,
+   "candidates": []
+  }
+ ]
+}

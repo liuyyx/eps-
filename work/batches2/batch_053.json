@@ -1,0 +1,151 @@
+{
+ "batch": "C053",
+ "n": 8,
+ "classes": [
+  {
+   "obf": "u1",
+   "kind": "class",
+   "super": "Enum",
+   "lines": 82,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc_imports": [],
+   "candidates": []
+  },
+  {
+   "obf": "u2",
+   "kind": "class",
+   "super": "Record",
+   "lines": 119,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc_imports": [],
+   "candidates": []
+  },
+  {
+   "obf": "u3",
+   "kind": "class",
+   "super": "e",
+   "lines": 1601,
+   "anchored_refs": [
+    "BoolSetting",
+    "DoubleSetting",
+    "Module",
+    "PlayerTickEvent.Post",
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "mc_imports": [
+    "net.minecraft.core.BlockPos",
+    "net.minecraft.world.entity.Entity",
+    "net.minecraft.world.level.block.BedBlock"
+   ],
+   "candidates": [
+    {
+     "src": "ModuleButton",
+     "score": 12.0,
+     "why": "锚点引用:BoolSetting,DoubleSetting,Module,Setting"
+    },
+    {
+     "src": "ConfigHolder",
+     "score": 12.0,
+     "why": "锚点引用:BoolSetting,DoubleSetting,Module,Setting"
+    },
+    {
+     "src": "ClientSetting",
+     "score": 12.0,
+     "why": "锚点引用:BoolSetting,DoubleSetting,Module,Setting"
+    }
+   ]
+  },
+  {
+   "obf": "u5",
+   "kind": "class",
+   "super": "Record",
+   "lines": 109,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc_imports": [
+    "net.minecraft.world.Difficulty",
+    "net.minecraft.world.entity.player.Player",
+    "net.minecraft.world.phys.AABB",
+    "net.minecraft.world.phys.Vec3"
+   ],
+   "candidates": []
+  },
+  {
+   "obf": "u6",
+   "kind": "class",
+   "super": "Record",
+   "lines": 136,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc_imports": [],
+   "candidates": []
+  },
+  {
+   "obf": "u7",
+   "kind": "class",
+   "super": "Record",
+   "lines": 80,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc_imports": [],
+   "candidates": []
+  },
+  {
+   "obf": "u8",
+   "kind": "class",
+   "super": "e",
+   "lines": 1508,
+   "anchored_refs": [
+    "BoolSetting",
+    "ColorSetting",
+    "DoubleSetting",
+    "EnumSetting",
+    "IntSetting",
+    "Module",
+    "PlayerTickEvent.Pre",
+    "Render3DEvent",
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "mc_imports": [
+    "net.minecraft.client.Minecraft",
+    "net.minecraft.client.player.LocalPlayer",
+    "net.minecraft.resources.Identifier"
+   ],
+   "candidates": [
+    {
+     "src": "ClientSetting",
+     "score": 22.0,
+     "why": "锚点引用:BoolSetting,ColorSetting,DoubleSetting,EnumSetting,IntSetting; MCimport:1"
+    },
+    {
+     "src": "Follower",
+     "score": 21.57,
+     "why": "锚点引用:BoolSetting,ColorSetting,DoubleSetting,EnumSetting,IntSetting; MCimport:1"
+    },
+    {
+     "src": "Particles",
+     "score": 21.31,
+     "why": "锚点引用:BoolSetting,ColorSetting,DoubleSetting,EnumSetting,IntSetting; MCimport:1"
+    }
+   ]
+  },
+  {
+   "obf": "u9",
+   "kind": "class",
+   "super": null,
+   "lines": 41,
+   "anchored_refs": [],
+   "mc_imports": [],
+   "candidates": []
+  }
+ ]
+}

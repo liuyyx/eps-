@@ -1,0 +1,132 @@
+{
+ "batch": "C009",
+ "n": 8,
+ "classes": [
+  {
+   "obf": "dp",
+   "kind": "class",
+   "super": null,
+   "lines": 2848,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "mc_imports": [
+    "net.minecraft.client.input.CharacterEvent",
+    "net.minecraft.client.input.KeyEvent"
+   ],
+   "candidates": [
+    {
+     "src": "SettingListController",
+     "score": 5.0,
+     "why": "锚点引用:Setting; MCimport:2"
+    },
+    {
+     "src": "ModuleDetailPanel",
+     "score": 5.0,
+     "why": "锚点引用:Setting; MCimport:2"
+    },
+    {
+     "src": "AddonClientSettingTab",
+     "score": 5.0,
+     "why": "锚点引用:Setting; MCimport:2"
+    }
+   ]
+  },
+  {
+   "obf": "DQ",
+   "kind": "class",
+   "super": "Enum",
+   "lines": 125,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc_imports": [],
+   "candidates": []
+  },
+  {
+   "obf": "Dq",
+   "kind": "class",
+   "super": "Record",
+   "lines": 55,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc_imports": [],
+   "candidates": []
+  },
+  {
+   "obf": "dq",
+   "kind": "class",
+   "super": "Record",
+   "lines": 40,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc_imports": [],
+   "candidates": []
+  },
+  {
+   "obf": "DR",
+   "kind": "class",
+   "super": "Enum",
+   "lines": 252,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc_imports": [],
+   "candidates": []
+  },
+  {
+   "obf": "Dr",
+   "kind": "class",
+   "super": "Record",
+   "lines": 72,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc_imports": [
+    "net.minecraft.world.phys.AABB"
+   ],
+   "candidates": []
+  },
+  {
+   "obf": "dr",
+   "kind": "class",
+   "super": null,
+   "lines": 607,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心",
+    "Setting",
+    "TranslateComponent"
+   ],
+   "mc_imports": [],
+   "candidates": [
+    {
+     "src": "I18NFileGenerator",
+     "score": 6.0,
+     "why": "锚点引用:Setting,TranslateComponent"
+    },
+    {
+     "src": "SettingsListPanel",
+     "score": 6.0,
+     "why": "锚点引用:Setting,TranslateComponent"
+    },
+    {
+     "src": "Module",
+     "score": 6.0,
+     "why": "锚点引用:Setting,TranslateComponent"
+    }
+   ]
+  },
+  {
+   "obf": "DS",
+   "kind": "interface",
+   "super": null,
+   "lines": 17,
+   "anchored_refs": [],
+   "mc_imports": [],
+   "candidates": []
+  }
+ ]
+}

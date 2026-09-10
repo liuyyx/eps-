@@ -1,0 +1,134 @@
+{
+ "batch": "C010",
+ "n": 8,
+ "classes": [
+  {
+   "obf": "Ds",
+   "kind": "class",
+   "super": "Record",
+   "lines": 62,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc_imports": [],
+   "candidates": []
+  },
+  {
+   "obf": "dS",
+   "kind": "class",
+   "super": "Record",
+   "lines": 49,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc_imports": [],
+   "candidates": []
+  },
+  {
+   "obf": "ds",
+   "kind": "class",
+   "super": "Record",
+   "lines": 119,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心",
+    "异步资源/数据加载缓存类（implements DS 接口，确切类名未定）"
+   ],
+   "mc_imports": [],
+   "candidates": []
+  },
+  {
+   "obf": "DT",
+   "kind": "class",
+   "super": null,
+   "lines": 492,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "mc_imports": [],
+   "candidates": [
+    {
+     "src": "EpsilonAddon",
+     "score": 3.0,
+     "why": "锚点引用:Setting"
+    },
+    {
+     "src": "I18NFileGenerator",
+     "score": 3.0,
+     "why": "锚点引用:Setting"
+    },
+    {
+     "src": "AddonPanelEntry",
+     "score": 3.0,
+     "why": "锚点引用:Setting"
+    }
+   ]
+  },
+  {
+   "obf": "Dt",
+   "kind": "class",
+   "super": "Record",
+   "lines": 50,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc_imports": [],
+   "candidates": []
+  },
+  {
+   "obf": "dT",
+   "kind": "class",
+   "super": "Enum",
+   "lines": 125,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc_imports": [],
+   "candidates": []
+  },
+  {
+   "obf": "dt",
+   "kind": "record",
+   "super": null,
+   "lines": 32,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc_imports": [],
+   "candidates": []
+  },
+  {
+   "obf": "dU",
+   "kind": "class",
+   "super": null,
+   "lines": 2426,
+   "anchored_refs": [
+    "ColorSetting",
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "mc_imports": [
+    "net.minecraft.client.gui.GuiGraphicsExtractor",
+    "net.minecraft.client.input.CharacterEvent",
+    "net.minecraft.client.input.MouseButtonEvent"
+   ],
+   "candidates": [
+    {
+     "src": "ModuleDetailPanel",
+     "score": 7.0,
+     "why": "锚点引用:Setting; MCimport:3"
+    },
+    {
+     "src": "AddonClientSettingTab",
+     "score": 7.0,
+     "why": "锚点引用:Setting; MCimport:3"
+    },
+    {
+     "src": "GeneralClientSettingTab",
+     "score": 7.0,
+     "why": "锚点引用:Setting; MCimport:3"
+    }
+   ]
+  }
+ ]
+}

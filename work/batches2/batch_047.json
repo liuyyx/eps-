@@ -1,0 +1,200 @@
+{
+ "batch": "C047",
+ "n": 8,
+ "classes": [
+  {
+   "obf": "OC",
+   "kind": "class",
+   "super": "Record",
+   "lines": 67,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc_imports": [],
+   "candidates": []
+  },
+  {
+   "obf": "Oc",
+   "kind": "class",
+   "super": "nV",
+   "lines": 299,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "mc_imports": [
+    "net.minecraft.client.User"
+   ],
+   "candidates": [
+    {
+     "src": "EpsilonAddon",
+     "score": 3.0,
+     "why": "锚点引用:Setting"
+    },
+    {
+     "src": "I18NFileGenerator",
+     "score": 3.0,
+     "why": "锚点引用:Setting"
+    },
+    {
+     "src": "AddonPanelEntry",
+     "score": 3.0,
+     "why": "锚点引用:Setting"
+    }
+   ]
+  },
+  {
+   "obf": "Od",
+   "kind": "class",
+   "super": "Record",
+   "lines": 94,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc_imports": [],
+   "candidates": []
+  },
+  {
+   "obf": "OE",
+   "kind": "class",
+   "super": null,
+   "lines": 659,
+   "anchored_refs": [
+    "ResourceLocationUtils",
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc_imports": [
+    "net.minecraft.resources.Identifier"
+   ],
+   "candidates": [
+    {
+     "src": "SoundKey",
+     "score": 4.0,
+     "why": "MCimport:1"
+    },
+    {
+     "src": "ResourceLocationUtils",
+     "score": 2.0,
+     "why": "MCimport:1"
+    },
+    {
+     "src": "ClientSetting",
+     "score": 2.0,
+     "why": "MCimport:1"
+    }
+   ]
+  },
+  {
+   "obf": "OF",
+   "kind": "class",
+   "super": "nV",
+   "lines": 187,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "mc_imports": [
+    "net.minecraft.client.User"
+   ],
+   "candidates": [
+    {
+     "src": "EpsilonAddon",
+     "score": 3.0,
+     "why": "锚点引用:Setting"
+    },
+    {
+     "src": "I18NFileGenerator",
+     "score": 3.0,
+     "why": "锚点引用:Setting"
+    },
+    {
+     "src": "AddonPanelEntry",
+     "score": 3.0,
+     "why": "锚点引用:Setting"
+    }
+   ]
+  },
+  {
+   "obf": "Of",
+   "kind": "class",
+   "super": null,
+   "lines": 48,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc_imports": [
+    "net.minecraft.client.player.LocalPlayer",
+    "net.minecraft.world.entity.LivingEntity",
+    "net.minecraft.world.phys.Vec3"
+   ],
+   "candidates": [
+    {
+     "src": "FollowerNavigator",
+     "score": 5.0,
+     "why": "MCimport:3"
+    },
+    {
+     "src": "StraightFollowerNavigator",
+     "score": 5.0,
+     "why": "MCimport:3"
+    },
+    {
+     "src": "AStarFollowerNavigator",
+     "score": 3.4,
+     "why": "MCimport:3"
+    }
+   ]
+  },
+  {
+   "obf": "OG",
+   "kind": "class",
+   "super": null,
+   "lines": 39,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc_imports": [],
+   "candidates": []
+  },
+  {
+   "obf": "Og",
+   "kind": "class",
+   "super": null,
+   "lines": 2877,
+   "anchored_refs": [
+    "ColorSetting",
+    "EnumSetting",
+    "RegistryListSetting",
+    "RegistryListSettingRow",
+    "SeQL/字符串解密+调用分发核心",
+    "Setting",
+    "SettingRow",
+    "StringListSetting",
+    "StringListSettingRow"
+   ],
+   "mc_imports": [
+    "net.minecraft.client.input.CharacterEvent",
+    "net.minecraft.client.input.KeyEvent",
+    "net.minecraft.client.input.MouseButtonEvent",
+    "net.minecraft.client.input.PreeditEvent"
+   ],
+   "candidates": [
+    {
+     "src": "ModuleButton",
+     "score": 15.0,
+     "why": "锚点引用:ColorSetting,EnumSetting,RegistryListSetting,Setting,StringListSetting"
+    },
+    {
+     "src": "SettingsContent",
+     "score": 15.0,
+     "why": "锚点引用:ColorSetting,EnumSetting,RegistryListSetting,Setting,StringListSetting"
+    },
+    {
+     "src": "SettingViewFactory",
+     "score": 15.0,
+     "why": "锚点引用:ColorSetting,EnumSetting,RegistryListSetting,Setting,StringListSetting"
+    }
+   ]
+  }
+ ]
+}

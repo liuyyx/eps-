@@ -1,0 +1,143 @@
+{
+ "batch": "B086",
+ "n": 8,
+ "classes": [
+  {
+   "obf": "yb",
+   "kind": "class",
+   "super": null,
+   "lines": 43,
+   "decl_line": "class yb\nimplements Font.GlyphVisitor ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "OT",
+    "hi"
+   ],
+   "mc_imports": [
+    "net.minecraft.client.gui.Font",
+    "net.minecraft.client.gui.font.TextRenderable",
+    "net.minecraft.client.gui.navigation.ScreenRectangle",
+    "net.minecraft.client.renderer.state.gui.GlyphRenderState"
+   ],
+   "n_fields": 0,
+   "n_methods": 1,
+   "candidates": []
+  },
+  {
+   "obf": "yc",
+   "kind": "interface",
+   "super": null,
+   "lines": 13,
+   "decl_line": "interface yc ",
+   "anchored_refs": [],
+   "refs": [],
+   "mc_imports": [],
+   "n_fields": 0,
+   "n_methods": 1,
+   "candidates": []
+  },
+  {
+   "obf": "yD",
+   "kind": "class",
+   "super": "Enum",
+   "lines": 123,
+   "decl_line": "class yD\nextends Enum<yD> ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "hi"
+   ],
+   "mc_imports": [],
+   "n_fields": 1,
+   "n_methods": 6,
+   "candidates": []
+  },
+  {
+   "obf": "yd",
+   "kind": "record",
+   "super": null,
+   "lines": 31,
+   "decl_line": "record yd(Vec3 JL, HitResult bP, boolean pc) ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "hi"
+   ],
+   "mc_imports": [
+    "net.minecraft.world.phys.HitResult",
+    "net.minecraft.world.phys.Vec3"
+   ],
+   "n_fields": 3,
+   "n_methods": 6,
+   "candidates": []
+  },
+  {
+   "obf": "yE",
+   "kind": "interface",
+   "super": null,
+   "lines": 16,
+   "decl_line": "interface yE ",
+   "anchored_refs": [],
+   "refs": [],
+   "mc_imports": [],
+   "n_fields": 0,
+   "n_methods": 1,
+   "candidates": []
+  },
+  {
+   "obf": "ye",
+   "kind": "class",
+   "super": "Enum",
+   "lines": 125,
+   "decl_line": "class ye\nextends Enum<ye> ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "hi"
+   ],
+   "mc_imports": [],
+   "n_fields": 1,
+   "n_methods": 7,
+   "candidates": []
+  },
+  {
+   "obf": "yf",
+   "kind": "class",
+   "super": "Enum",
+   "lines": 125,
+   "decl_line": "class yf\nextends Enum<yf> ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "hi"
+   ],
+   "mc_imports": [],
+   "n_fields": 1,
+   "n_methods": 7,
+   "candidates": []
+  },
+  {
+   "obf": "yG",
+   "kind": "record",
+   "super": null,
+   "lines": 20,
+   "decl_line": "record yG(int q9, int qv) ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "hi"
+   ],
+   "mc_imports": [],
+   "n_fields": 2,
+   "n_methods": 4,
+   "candidates": []
+  }
+ ]
+}

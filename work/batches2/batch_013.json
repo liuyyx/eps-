@@ -1,0 +1,289 @@
+{
+ "batch": "C013",
+ "n": 8,
+ "classes": [
+  {
+   "obf": "e4",
+   "kind": "class",
+   "super": "e",
+   "lines": 2583,
+   "anchored_refs": [
+    "ClientTickEvent.Pre",
+    "DoubleSetting",
+    "EnumSetting",
+    "IntSetting",
+    "Module",
+    "PlayerTickEvent.Pre",
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "mc_imports": [
+    "net.minecraft.client.player.LocalPlayer",
+    "net.minecraft.world.entity.LivingEntity",
+    "net.minecraft.world.item.ItemStack",
+    "net.minecraft.world.phys.Vec3"
+   ],
+   "candidates": [
+    {
+     "src": "ModuleButton",
+     "score": 15.0,
+     "why": "锚点引用:DoubleSetting,EnumSetting,IntSetting,Module,Setting"
+    },
+    {
+     "src": "ConfigHolder",
+     "score": 15.0,
+     "why": "锚点引用:DoubleSetting,EnumSetting,IntSetting,Module,Setting"
+    },
+    {
+     "src": "ClientSetting",
+     "score": 15.0,
+     "why": "锚点引用:DoubleSetting,EnumSetting,IntSetting,Module,Setting"
+    }
+   ]
+  },
+  {
+   "obf": "eA",
+   "kind": "class",
+   "super": "e",
+   "lines": 1067,
+   "anchored_refs": [
+    "BoolSetting",
+    "DoubleSetting",
+    "Module",
+    "PlayerTickEvent.Pre",
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "mc_imports": [
+    "net.minecraft.client.player.LocalPlayer"
+   ],
+   "candidates": [
+    {
+     "src": "ModuleButton",
+     "score": 12.0,
+     "why": "锚点引用:BoolSetting,DoubleSetting,Module,Setting"
+    },
+    {
+     "src": "ConfigHolder",
+     "score": 12.0,
+     "why": "锚点引用:BoolSetting,DoubleSetting,Module,Setting"
+    },
+    {
+     "src": "ClientSetting",
+     "score": 12.0,
+     "why": "锚点引用:BoolSetting,DoubleSetting,Module,Setting"
+    }
+   ]
+  },
+  {
+   "obf": "ea",
+   "kind": "class",
+   "super": "e",
+   "lines": 1582,
+   "anchored_refs": [
+    "BoolSetting",
+    "ClientTickEvent.Pre",
+    "DoubleSetting",
+    "EnumSetting",
+    "Module",
+    "PlayerTickEvent.Post",
+    "PlayerTickEvent.Pre",
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "mc_imports": [],
+   "candidates": [
+    {
+     "src": "ModuleButton",
+     "score": 15.0,
+     "why": "锚点引用:BoolSetting,DoubleSetting,EnumSetting,Module,Setting"
+    },
+    {
+     "src": "ConfigHolder",
+     "score": 15.0,
+     "why": "锚点引用:BoolSetting,DoubleSetting,EnumSetting,Module,Setting"
+    },
+    {
+     "src": "ClientSetting",
+     "score": 15.0,
+     "why": "锚点引用:BoolSetting,DoubleSetting,EnumSetting,Module,Setting"
+    }
+   ]
+  },
+  {
+   "obf": "eD",
+   "kind": "class",
+   "super": "eh",
+   "lines": 1663,
+   "anchored_refs": [
+    "BoolSetting",
+    "ColorSetting",
+    "EnumSetting",
+    "Module",
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "mc_imports": [
+    "net.minecraft.client.DeltaTracker"
+   ],
+   "candidates": [
+    {
+     "src": "ModuleButton",
+     "score": 15.0,
+     "why": "锚点引用:BoolSetting,ColorSetting,EnumSetting,Module,Setting"
+    },
+    {
+     "src": "ConfigHolder",
+     "score": 15.0,
+     "why": "锚点引用:BoolSetting,ColorSetting,EnumSetting,Module,Setting"
+    },
+    {
+     "src": "ClientSetting",
+     "score": 15.0,
+     "why": "锚点引用:BoolSetting,ColorSetting,EnumSetting,Module,Setting"
+    }
+   ]
+  },
+  {
+   "obf": "ed",
+   "kind": "class",
+   "super": "e",
+   "lines": 284,
+   "anchored_refs": [
+    "AttackSlowDownEvent",
+    "Module",
+    "PostSendPositionEvent",
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "mc_imports": [
+    "net.minecraft.client.player.LocalPlayer"
+   ],
+   "candidates": [
+    {
+     "src": "EpsilonAddon",
+     "score": 6.0,
+     "why": "锚点引用:Module,Setting"
+    },
+    {
+     "src": "I18NFileGenerator",
+     "score": 6.0,
+     "why": "锚点引用:Module,Setting"
+    },
+    {
+     "src": "ModuleButton",
+     "score": 6.0,
+     "why": "锚点引用:Module,Setting"
+    }
+   ]
+  },
+  {
+   "obf": "eE",
+   "kind": "class",
+   "super": "e",
+   "lines": 1048,
+   "anchored_refs": [
+    "BoolSetting",
+    "IntSetting",
+    "KeybindSetting",
+    "Module",
+    "PlayerTickEvent.Pre",
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "mc_imports": [
+    "net.minecraft.world.item.Item",
+    "net.minecraft.world.item.ItemStack"
+   ],
+   "candidates": [
+    {
+     "src": "ModuleButton",
+     "score": 15.0,
+     "why": "锚点引用:BoolSetting,IntSetting,KeybindSetting,Module,Setting"
+    },
+    {
+     "src": "ConfigHolder",
+     "score": 15.0,
+     "why": "锚点引用:BoolSetting,IntSetting,KeybindSetting,Module,Setting"
+    },
+    {
+     "src": "ClientSetting",
+     "score": 15.0,
+     "why": "锚点引用:BoolSetting,IntSetting,KeybindSetting,Module,Setting"
+    }
+   ]
+  },
+  {
+   "obf": "ee",
+   "kind": "class",
+   "super": "e",
+   "lines": 517,
+   "anchored_refs": [
+    "BoolSetting",
+    "DestroyBlockEvent",
+    "Module",
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "mc_imports": [],
+   "candidates": [
+    {
+     "src": "ModuleButton",
+     "score": 9.0,
+     "why": "锚点引用:BoolSetting,Module,Setting"
+    },
+    {
+     "src": "ConfigHolder",
+     "score": 9.0,
+     "why": "锚点引用:BoolSetting,Module,Setting"
+    },
+    {
+     "src": "ClientSetting",
+     "score": 9.0,
+     "why": "锚点引用:BoolSetting,Module,Setting"
+    }
+   ]
+  },
+  {
+   "obf": "ef",
+   "kind": "class",
+   "super": "eh",
+   "lines": 2397,
+   "anchored_refs": [
+    "BoolSetting",
+    "ColorSetting",
+    "DoubleSetting",
+    "GameLeftEvent",
+    "IntSetting",
+    "PacketEvent.Receive",
+    "PlayerTickEvent.Post",
+    "SeQL/字符串解密+调用分发核心",
+    "Setting",
+    "TranslateComponent"
+   ],
+   "mc_imports": [
+    "net.minecraft.client.DeltaTracker",
+    "net.minecraft.client.player.AbstractClientPlayer",
+    "net.minecraft.client.player.LocalPlayer",
+    "net.minecraft.resources.Identifier"
+   ],
+   "candidates": [
+    {
+     "src": "ClientSetting",
+     "score": 15.8,
+     "why": "锚点引用:BoolSetting,ColorSetting,DoubleSetting,IntSetting,Setting; MCimport:1"
+    },
+    {
+     "src": "ModuleButton",
+     "score": 15.0,
+     "why": "锚点引用:BoolSetting,ColorSetting,DoubleSetting,IntSetting,Setting"
+    },
+    {
+     "src": "SettingsContent",
+     "score": 15.0,
+     "why": "锚点引用:BoolSetting,ColorSetting,DoubleSetting,IntSetting,Setting"
+    }
+   ]
+  }
+ ]
+}

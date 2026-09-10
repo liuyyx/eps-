@@ -1,0 +1,175 @@
+{
+ "batch": "C054",
+ "n": 8,
+ "classes": [
+  {
+   "obf": "ua",
+   "kind": "class",
+   "super": "e",
+   "lines": 811,
+   "anchored_refs": [
+    "AfterRender3DEvent",
+    "BoolSetting",
+    "DoubleSetting",
+    "EnumSetting",
+    "GameJoinedEvent",
+    "GameLeftEvent",
+    "IntSetting",
+    "LevelUpdateEvent",
+    "Module",
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "mc_imports": [
+    "net.minecraft.client.renderer.state.level.CameraRenderState",
+    "net.minecraft.world.phys.Vec3"
+   ],
+   "candidates": [
+    {
+     "src": "ModuleButton",
+     "score": 18.0,
+     "why": "锚点引用:BoolSetting,DoubleSetting,EnumSetting,IntSetting,Module"
+    },
+    {
+     "src": "ConfigHolder",
+     "score": 18.0,
+     "why": "锚点引用:BoolSetting,DoubleSetting,EnumSetting,IntSetting,Module"
+    },
+    {
+     "src": "ClientSetting",
+     "score": 18.0,
+     "why": "锚点引用:BoolSetting,DoubleSetting,EnumSetting,IntSetting,Module"
+    }
+   ]
+  },
+  {
+   "obf": "uB",
+   "kind": "class",
+   "super": "Record",
+   "lines": 65,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc_imports": [],
+   "candidates": []
+  },
+  {
+   "obf": "ub",
+   "kind": "class",
+   "super": null,
+   "lines": 33,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc_imports": [],
+   "candidates": []
+  },
+  {
+   "obf": "uC",
+   "kind": "class",
+   "super": "Enum",
+   "lines": 140,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc_imports": [],
+   "candidates": []
+  },
+  {
+   "obf": "uD",
+   "kind": "class",
+   "super": "Record",
+   "lines": 44,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc_imports": [],
+   "candidates": []
+  },
+  {
+   "obf": "ud",
+   "kind": "class",
+   "super": "Record",
+   "lines": 52,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc_imports": [],
+   "candidates": []
+  },
+  {
+   "obf": "uE",
+   "kind": "class",
+   "super": "u9",
+   "lines": 1649,
+   "anchored_refs": [
+    "BoolSetting",
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "mc_imports": [
+    "net.minecraft.client.player.LocalPlayer",
+    "net.minecraft.core.BlockPos",
+    "net.minecraft.world.InteractionHand",
+    "net.minecraft.world.InteractionResult",
+    "net.minecraft.world.entity.player.Inventory",
+    "net.minecraft.world.item.Item",
+    "net.minecraft.world.phys.AABB",
+    "net.minecraft.world.phys.BlockHitResult"
+   ],
+   "candidates": [
+    {
+     "src": "SettingHost",
+     "score": 6.36,
+     "why": "锚点引用:BoolSetting,Setting; MCimport:1"
+    },
+    {
+     "src": "ModuleButton",
+     "score": 6.0,
+     "why": "锚点引用:BoolSetting,Setting"
+    },
+    {
+     "src": "SettingsContent",
+     "score": 6.0,
+     "why": "锚点引用:BoolSetting,Setting"
+    }
+   ]
+  },
+  {
+   "obf": "uf",
+   "kind": "class",
+   "super": "u9",
+   "lines": 931,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "mc_imports": [
+    "net.minecraft.client.multiplayer.ClientLevel",
+    "net.minecraft.core.BlockPos",
+    "net.minecraft.world.entity.Entity",
+    "net.minecraft.world.level.ClipContext",
+    "net.minecraft.world.level.block.state.BlockState",
+    "net.minecraft.world.phys.AABB",
+    "net.minecraft.world.phys.Vec3"
+   ],
+   "candidates": [
+    {
+     "src": "MixinClientLevel",
+     "score": 3.29,
+     "why": "MCimport:4"
+    },
+    {
+     "src": "EpsilonAddon",
+     "score": 3.0,
+     "why": "锚点引用:Setting"
+    },
+    {
+     "src": "I18NFileGenerator",
+     "score": 3.0,
+     "why": "锚点引用:Setting"
+    }
+   ]
+  }
+ ]
+}

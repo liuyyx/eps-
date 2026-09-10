@@ -1,0 +1,199 @@
+{
+ "batch": "C023",
+ "n": 8,
+ "classes": [
+  {
+   "obf": "gx",
+   "kind": "class",
+   "super": "Enum",
+   "lines": 142,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc_imports": [],
+   "candidates": []
+  },
+  {
+   "obf": "gY",
+   "kind": "class",
+   "super": null,
+   "lines": 14,
+   "anchored_refs": [],
+   "mc_imports": [],
+   "candidates": []
+  },
+  {
+   "obf": "gy",
+   "kind": "class",
+   "super": null,
+   "lines": 273,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "mc_imports": [],
+   "candidates": [
+    {
+     "src": "EpsilonAddon",
+     "score": 3.0,
+     "why": "锚点引用:Setting"
+    },
+    {
+     "src": "I18NFileGenerator",
+     "score": 3.0,
+     "why": "锚点引用:Setting"
+    },
+    {
+     "src": "AddonPanelEntry",
+     "score": 3.0,
+     "why": "锚点引用:Setting"
+    }
+   ]
+  },
+  {
+   "obf": "gZ",
+   "kind": "class",
+   "super": "gs",
+   "lines": 291,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "mc_imports": [
+    "net.minecraft.resources.Identifier",
+    "net.minecraft.util.RandomSource",
+    "net.minecraft.world.entity.Entity",
+    "net.minecraft.world.entity.Pose",
+    "net.minecraft.world.phys.Vec3"
+   ],
+   "candidates": [
+    {
+     "src": "ClientSetting",
+     "score": 3.67,
+     "why": "锚点引用:Setting; MCimport:1"
+    },
+    {
+     "src": "RegistryListSetting",
+     "score": 3.33,
+     "why": "锚点引用:Setting; MCimport:1"
+    },
+    {
+     "src": "RegistryListSelectPopup",
+     "score": 3.2,
+     "why": "锚点引用:Setting; MCimport:1"
+    }
+   ]
+  },
+  {
+   "obf": "gz",
+   "kind": "class",
+   "super": null,
+   "lines": 2337,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "mc_imports": [
+    "net.minecraft.resources.Identifier"
+   ],
+   "candidates": [
+    {
+     "src": "ClientSetting",
+     "score": 5.0,
+     "why": "锚点引用:Setting; MCimport:1"
+    },
+    {
+     "src": "SoundKey",
+     "score": 4.0,
+     "why": "MCimport:1"
+    },
+    {
+     "src": "RegistryListSetting",
+     "score": 3.5,
+     "why": "锚点引用:Setting; MCimport:1"
+    }
+   ]
+  },
+  {
+   "obf": "g_",
+   "kind": "class",
+   "super": "Enum",
+   "lines": 123,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc_imports": [],
+   "candidates": []
+  },
+  {
+   "obf": "H",
+   "kind": "class",
+   "super": "e",
+   "lines": 1269,
+   "anchored_refs": [
+    "BoolSetting",
+    "DoubleSetting",
+    "EnumSetting",
+    "Module",
+    "PlayerTickEvent.Pre",
+    "Render3DEvent",
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "mc_imports": [
+    "net.minecraft.resources.Identifier",
+    "net.minecraft.world.entity.player.Player",
+    "net.minecraft.world.phys.Vec3"
+   ],
+   "candidates": []
+  },
+  {
+   "obf": "h",
+   "kind": "class",
+   "super": "e",
+   "lines": 2385,
+   "anchored_refs": [
+    "BoolSetting",
+    "ColorSetting",
+    "DoubleSetting",
+    "IntSetting",
+    "Module",
+    "RegistryListSetting",
+    "Render3DEvent",
+    "SeQL/字符串解密+调用分发核心",
+    "Setting",
+    "SettingGroup",
+    "Type"
+   ],
+   "mc_imports": [
+    "net.minecraft.core.component.DataComponentType",
+    "net.minecraft.world.entity.Entity",
+    "net.minecraft.world.entity.player.Player",
+    "net.minecraft.world.entity.projectile.Projectile",
+    "net.minecraft.world.entity.projectile.arrow.ThrownTrident",
+    "net.minecraft.world.entity.projectile.hurtingprojectile.WitherSkull",
+    "net.minecraft.world.item.CrossbowItem",
+    "net.minecraft.world.item.Item",
+    "net.minecraft.world.item.ItemStack",
+    "net.minecraft.world.item.component.ChargedProjectiles"
+   ],
+   "candidates": [
+    {
+     "src": "ZealotCrystalPlus",
+     "score": 22.76,
+     "why": "锚点引用:BoolSetting,ColorSetting,DoubleSetting,IntSetting,Module; MCimport:7"
+    },
+    {
+     "src": "HoleSnap",
+     "score": 21.42,
+     "why": "锚点引用:BoolSetting,ColorSetting,DoubleSetting,IntSetting,Module; MCimport:2"
+    },
+    {
+     "src": "HoleESP",
+     "score": 21.38,
+     "why": "锚点引用:BoolSetting,ColorSetting,DoubleSetting,IntSetting,Module; MCimport:2"
+    }
+   ]
+  }
+ ]
+}

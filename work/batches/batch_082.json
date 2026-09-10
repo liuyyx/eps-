@@ -1,0 +1,142 @@
+{
+ "batch": "B082",
+ "n": 8,
+ "classes": [
+  {
+   "obf": "XD",
+   "kind": "class",
+   "super": "Enum",
+   "lines": 142,
+   "decl_line": "class XD\nextends Enum<XD> ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "hi"
+   ],
+   "mc_imports": [],
+   "n_fields": 1,
+   "n_methods": 8,
+   "candidates": []
+  },
+  {
+   "obf": "Xd",
+   "kind": "class",
+   "super": "Record",
+   "lines": 45,
+   "decl_line": "class Xd\nextends Record ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "hi",
+    "ih",
+    "vh"
+   ],
+   "mc_imports": [],
+   "n_fields": 1,
+   "n_methods": 8,
+   "candidates": []
+  },
+  {
+   "obf": "XE",
+   "kind": "class",
+   "super": "Enum",
+   "lines": 125,
+   "decl_line": "class XE\nextends Enum<XE> ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "hi"
+   ],
+   "mc_imports": [],
+   "n_fields": 1,
+   "n_methods": 7,
+   "candidates": []
+  },
+  {
+   "obf": "Xg",
+   "kind": "class",
+   "super": "Record",
+   "lines": 55,
+   "decl_line": "class Xg\nextends Record ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "hi"
+   ],
+   "mc_imports": [],
+   "n_fields": 4,
+   "n_methods": 12,
+   "candidates": []
+  },
+  {
+   "obf": "XH",
+   "kind": "class",
+   "super": null,
+   "lines": 18,
+   "decl_line": "class XH ",
+   "anchored_refs": [],
+   "refs": [],
+   "mc_imports": [],
+   "n_fields": 1,
+   "n_methods": 2,
+   "candidates": []
+  },
+  {
+   "obf": "Xi",
+   "kind": "class",
+   "super": null,
+   "lines": 48,
+   "decl_line": "class Xi ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "hi",
+    "i2"
+   ],
+   "mc_imports": [],
+   "n_fields": 1,
+   "n_methods": 5,
+   "candidates": []
+  },
+  {
+   "obf": "Xj",
+   "kind": "class",
+   "super": "Enum",
+   "lines": 140,
+   "decl_line": "class Xj\nextends Enum<Xj> ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "hi"
+   ],
+   "mc_imports": [],
+   "n_fields": 1,
+   "n_methods": 7,
+   "candidates": []
+  },
+  {
+   "obf": "XK",
+   "kind": "class",
+   "super": null,
+   "lines": 170,
+   "decl_line": "class XK ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "_A",
+    "hi"
+   ],
+   "mc_imports": [],
+   "n_fields": 3,
+   "n_methods": 10,
+   "candidates": []
+  }
+ ]
+}

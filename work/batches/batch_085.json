@@ -1,0 +1,148 @@
+{
+ "batch": "B085",
+ "n": 8,
+ "classes": [
+  {
+   "obf": "Xz",
+   "kind": "class",
+   "super": "Record",
+   "lines": 77,
+   "decl_line": "class Xz\nextends Record\nimplements _Q ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "_Q",
+    "hi",
+    "nK"
+   ],
+   "mc_imports": [],
+   "n_fields": 7,
+   "n_methods": 18,
+   "candidates": []
+  },
+  {
+   "obf": "y2",
+   "kind": "class",
+   "super": "Record",
+   "lines": 65,
+   "decl_line": "class y2\nextends Record ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "hi"
+   ],
+   "mc_imports": [
+    "net.minecraft.client.gui.navigation.ScreenRectangle",
+    "net.minecraft.client.gui.render.TextureSetup",
+    "net.minecraft.client.renderer.StagedVertexBuffer"
+   ],
+   "n_fields": 4,
+   "n_methods": 12,
+   "candidates": []
+  },
+  {
+   "obf": "y3",
+   "kind": "class",
+   "super": "Enum",
+   "lines": 279,
+   "decl_line": "class y3\nextends Enum<y3> ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "hi"
+   ],
+   "mc_imports": [],
+   "n_fields": 2,
+   "n_methods": 18,
+   "candidates": []
+  },
+  {
+   "obf": "y5",
+   "kind": "class",
+   "super": "Enum",
+   "lines": 123,
+   "decl_line": "class y5\nextends Enum<y5> ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "hi"
+   ],
+   "mc_imports": [],
+   "n_fields": 1,
+   "n_methods": 6,
+   "candidates": []
+  },
+  {
+   "obf": "y6",
+   "kind": "class",
+   "super": "Enum",
+   "lines": 168,
+   "decl_line": "class y6\nextends Enum<y6> ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "hi"
+   ],
+   "mc_imports": [],
+   "n_fields": 1,
+   "n_methods": 8,
+   "candidates": []
+  },
+  {
+   "obf": "yA",
+   "kind": "class",
+   "super": "Enum",
+   "lines": 142,
+   "decl_line": "class yA\nextends Enum<yA> ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "hi"
+   ],
+   "mc_imports": [],
+   "n_fields": 1,
+   "n_methods": 8,
+   "candidates": []
+  },
+  {
+   "obf": "ya",
+   "kind": "class",
+   "super": "Enum",
+   "lines": 142,
+   "decl_line": "class ya\nextends Enum<ya> ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "hi"
+   ],
+   "mc_imports": [],
+   "n_fields": 1,
+   "n_methods": 8,
+   "candidates": []
+  },
+  {
+   "obf": "yB",
+   "kind": "class",
+   "super": "Enum",
+   "lines": 125,
+   "decl_line": "class yB\nextends Enum<yB> ",
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "refs": [
+    "hi"
+   ],
+   "mc_imports": [],
+   "n_fields": 1,
+   "n_methods": 7,
+   "candidates": []
+  }
+ ]
+}
