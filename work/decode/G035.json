@@ -1,0 +1,22 @@
+{
+  "batch": "G035",
+  "results": {
+    "yV": {
+      "identity": "WireframeSubmitNodeStorage",
+      "kind": "class",
+      "conf": "A",
+      "evidence": "final class extends SubmitNodeStorage; 私有构造; 两个方法 submitModel + submitCustomGeometry 参数签名与 WireframeEntityRenderer.java:211-230 的内部类 WireframeSubmitNodeStorage 完全一致 (submitModel: Model<S>, S, PoseStack, RenderType, int×4, TextureAtlasSprite, int, CrumblingOverlay; submitCustomGeometry: PoseStack, RenderType, CustomGeometryRenderer); MC 导入 PoseStack/Model/SubmitNodeCollector/SubmitNodeStorage/ModelFeatureRenderer.CrumblingOverlay/RenderType/TextureAtlasSprite 全匹配; hi.a() 加密调用直接映射 wireframe 渲染逻辑; 包差异(root vs utils.render)因 CFR 扁平化内部类所致",
+      "official_path": "work/official26/com/github/epsilon/utils/render/WireframeEntityRenderer.java"
+    }
+  },
+  "unident": [
+    {
+      "obf": "yl",
+      "reason": "final Record(5字段: 2×List<nD> + 3×List<BlockPos>); nD为独立Record(boolean,AABB,List<BlockPos>,Oy); candidates (InteractionUtils/RotationUtils) 均为静态工具类非Record, 包路径(root vs utils.player/utils.rotation)不符, Jaccard极低(0.091/0.077); official无匹配Record类型"
+    },
+    {
+      "obf": "yz",
+      "reason": "class含static int[] a + switch bootstrap方法 u(MethodHandles.Lookup,String,MethodType,MethodHandle)及反混淆保护 static块; candidates (InteractionUtils/RotationUtils) 均为静态工具类无switch bootstrap结构; official中无匹配类"
+    }
+  ]
+}

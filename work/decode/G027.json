@@ -1,0 +1,18 @@
+{
+  "batch": "G027",
+  "results": {},
+  "unident": [
+    {
+      "obf": "O7",
+      "reason": "Record 7字段(LivingEntity,BlockPos,float,float,Direction,Vec3,uK)与ZealotCrystalPlus.PlaceInfo字段类型完全对应,但候选名单RotationUtils/InteractionUtils/CaptureMarkESP均非Record,无匹配项"
+    },
+    {
+      "obf": "us",
+      "reason": "1995行Module(extends u9),含useItemOn/blockPosition/lambda$findBlock$0(BlockItem检查)等块放置逻辑,但class_map已有b=InteractionUtils(conf B),候选中无其他匹配:RotationUtils非Module,FindItemResult为3-int-Record,CaptureMarkESP为渲染类"
+    },
+    {
+      "obf": "yY",
+      "reason": "Record 3字段(Vec3,BlockPos,Direction),在uZ Module中用作块放置数据。候选InteractionUtils/RotationUtils/CaptureMarkESP均非Record且字段类型不匹配,官方无对应Record声明"
+    }
+  ]
+}

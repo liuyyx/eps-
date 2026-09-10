@@ -1,0 +1,25 @@
+{
+  "batch": "G040",
+  "results": {
+    "d8": {
+      "identity": "SystemEmojiAtlas.EmojiGlyph",
+      "kind": "record",
+      "conf": "A",
+      "evidence": "Record字段: LuminTexture + 4×float (u0/v0/u1/v1); y4=LuminTexture (extends AbstractTexture, 构造GpuTexture+GpuTextureView+GpuSampler, close()逻辑一致); OO.java中构造new d8(y4, u0, v0, u1, v1)与SystemEmojiAtlas.get()中new EmojiGlyph(texture, u0, v0, u1, v1)完全对应; 512×512 atlas UV计算一致; MTF.java使用EmojiGlyph.texture()/u0()/v0()/u1()/v1()与d8的cC()/xE()/xX()/x3()/xA()访问器映射",
+      "official_path": "work/official26/com/github/epsilon/graphics/text/SystemEmojiAtlas.java"
+    },
+    "D9": {
+      "identity": "UiTree.PopupCardNode",
+      "kind": "record",
+      "conf": "A",
+      "evidence": "Record实现sealed interface _Q (permits约32个); 字段: ih(UiRect, 4×float带finite校验) + float + float + Color + Color 共5字段; 官方PopupCardNode: UiRect bounds, float radius, float blurRadius, Color shadowColor, Color surfaceColor 共5字段完全匹配; 两色字段(u_/ua→shadowColor/surfaceColor)与popup卡片阴影+表面色语义一致; UiNode sealed interface (26+permits)对应_Q",
+      "official_path": "work/official26/com/github/epsilon/gui/lib/UiTree.java"
+    }
+  },
+  "unident": [
+    {
+      "obf": "D8",
+      "reason": "final enum, 3值(Sakura/Tradition/Glitch), 无构造参数; 官方所有3值enum均不匹配: MainMenuScreen.Background(4值)、HorizontalAnchor/VerticalAnchor/ModuleList.Mode/SortingMode/EpsilonLanguage/NotificationMode/ShaderHolder.Shader/ClientSettingTab/ActionButtonType的值均不同; eX.java中作为Dx<D8> EnumSetting使用, 语义似背景/主题模式, 但official中无对应枚举; 可能为10月版新增或重命名"
+    }
+  ]
+}

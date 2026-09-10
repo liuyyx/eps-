@@ -1,0 +1,22 @@
+{
+  "batch": "G029",
+  "results": {
+    "n3": {
+      "identity": "DeobfESP.Effect",
+      "kind": "class",
+      "conf": "A",
+      "evidence": "n3是private final class，字段 LivingEntity D / Vec3 x / long Z / long A / long c 完全对应 Effect 的 target / deathAnchor / killedAtMs / createdAtMs / lastHitAtMs；构造函数(LivingEntity, long)匹配 new Effect(target, now)；方法y(Object[])内 hi.a(设置Vec3) 对应 beginKill 设置 deathAnchor = target.getEyePosition(partialTick)",
+      "official_path": "work/official26/com/github/epsilon/utils/render/esp/DeobfESP.java"
+    }
+  },
+  "unident": [
+    {
+      "obf": "_9",
+      "reason": "extends Record，4个record组件(List<Vec3>/int/BlockHitResult/List<Entity>)，三个候选均非Record，official26中无匹配Record类"
+    },
+    {
+      "obf": "_n",
+      "reason": "835行public类，单例模式+Map<AbstractClientPlayer,List<Vec3>>+extrapolateMap+collideBoundingBox调用，是玩家位置外推/碰撞预测工具类；三个候选均为纯工具/渲染类，结构语义均不匹配"
+    }
+  ]
+}

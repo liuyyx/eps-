@@ -1,0 +1,27 @@
+{
+  "batch": "G039",
+  "results": {
+    "d4": {
+      "identity": "UiTree.FilledFieldNode",
+      "kind": "record",
+      "conf": "A",
+      "evidence": "Record 3 字段逐项对应: MS(ih=UiRect)=bounds, u4(boolean)=focused, il(float)=hoverProgress; 官方 UiTree.FilledFieldNode(UiRect bounds, boolean focused, float hoverProgress) implements UiNode 完全一致; _Q=UiTree.UiNode(sealed interface); ih=UiRect 已确认于 D031",
+      "official_path": "work/official26/com/github/epsilon/gui/lib/UiTree.java"
+    },
+    "D7": {
+      "identity": "ZealotCrystalPlus.SettingsSnapshot",
+      "kind": "record",
+      "conf": "A",
+      "evidence": "Record 22 字段逐项对应: rS(int)=globalDelayNanos, ec(float)=noSuicide, eZ=placeMaxSelfDamage, ez=breakMaxSelfDamage, el=placeMinDamage, eO=breakMinDamage, ep=placeBalance, eX=breakBalance, eI=forcePlaceMinDamage, eU=forcePlaceBalance, VW(boolean)=lethalOverride, en=lethalThresholdAddition, ek=lethalMaxSelfDamage, em=safeMaxTargetDamageReduction, eT=safeMinSelfDamageReduction, eP=collidingCrystalExtraSelfDamageThreshold, oM(DQ)=armorMode(DamageUtils.ArmorEnchantmentMode), mQ(Xo)=damagePriority(DamagePriority), iX(yQ)=placeSideBypass(PlaceBypass), yr=packetPlaceMode(PacketPlaceMode), Xb×2=breakMode+packetBreakMode(BreakMode); 22字段类型与 ZealotCrystalPlus.SettingsSnapshot 完全一致; D020 已确认 nn(D7)=SettingsSnapshot",
+      "official_path": "work/official26/com/github/epsilon/modules/impl/combat/ZealotCrystalPlus.java"
+    },
+    "d7": {
+      "identity": "Render2DCommand.Texture",
+      "kind": "record",
+      "conf": "A-",
+      "evidence": "Record 17 字段逐项对应: layer(int)/sequence(long)/bounds(XL=Render2DBounds)/scissor(Xu=Render2DScissor)/dH(X6=Render2DTexture) 类型骨架一致; 12×float(xr/xg/xl/xD/xY/xU/xN/xx/xJ/xR/x9/xR对应radiusTopLeft/radiusTopRight/radiusBottomRight/radiusBottomLeft/u0/v0/u1/v1/originX/originY/rotationDegrees) + OA(Color=color); implements yM(Render2DCommand); a()返回y3(ShapeType); 官方 Render2DCommand.Texture 17字段完全匹配; conf A- 因类型名映射(XL→Render2DBounds/Xu→Render2DScissor/X6→Render2DTexture)非直接同名",
+      "official_path": "work/official26/com/github/epsilon/graphics/schedulers/render2d/Render2DCommand.java"
+    }
+  },
+  "unident": []
+}

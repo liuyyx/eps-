@@ -1,0 +1,36 @@
+{
+  "batch": "G062",
+  "results": {
+    "gy": {
+      "identity": "unknown",
+      "kind": "class",
+      "conf": "C",
+      "evidence": "混淆框架类: CallSite bootstrap桥 s(MethodHandles.Lookup,String,MethodType,MethodHandle)创建ConstantCallSite; 静态字段S(int)/a(String)/b(long[])/c(Integer[])为string decryption表; e(Df)方法取Df(窗口层枚举)返回int, 但Df本身为混淆后枚举(CHROME/POPUP/BACKGROUND/FLOATING/CONTENT/OVERLAY), official26中Df对应窗口层枚举; l(Object[])含复杂分支与IllegalArgumentException抛出; C023和D034均将gy判为unident, official26中无结构匹配类",
+      "official_path": null
+    },
+    "i3": {
+      "identity": "unknown",
+      "kind": "class",
+      "conf": "C",
+      "evidence": "仅16行Gson反序列化模型类: @SerializedName(\"SKIN\") public gX y; 其中gX为@SerializedName(\"url\") String O; 为皮肤配置DTO; official26(26.2-2026.8.1)中无任何Gson@SerializedName注解, 该类为26.2-2026.10.7版本新增; C024已将i3判为unident; 无官方候选",
+      "official_path": null
+    },
+    "i4": {
+      "identity": "ZealotCrystalPlus.BreakChoice",
+      "kind": "class",
+      "conf": "A",
+      "evidence": "final类3字段: nq(CrystalSnapshot)+float f(selfDamage,默认MAX_VALUE)+float O(targetDamage,默认NEGATIVE_INFINITY); 与ZealotCrystalPlus.java:内层BreakChoice字段完全一致(crystal/selfDamage/targetDamage); J(Object[])=update(crystal,selfDamage,targetDamage); W(Object[])=clear()重置为null/MAX_VALUE/NEGATIVE_INFINITY; x(Object[])=takeValid()取max计算; 构造器设f=MAX_VALUE/O=NEGATIVE_INFINITY匹配BreakChoice字段初始化; CFR扁平化内部类至root包属已知行为",
+      "official_path": "work/official26/com/github/epsilon/modules/impl/combat/ZealotCrystalPlus.java"
+    }
+  },
+  "unident": [
+    {
+      "obf": "gy",
+      "reason": "混淆框架类(string decryption+CallSite bootstrap), Df为窗口层枚举非用户类; C023/D034均判unident, official26无匹配"
+    },
+    {
+      "obf": "i3",
+      "reason": "Gson反序列化Skin配置DTO(16行), official26无Gson注解, 为26.2-2026.10.7版本新增类"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "batch": "G010",
+  "results": {},
+  "unident": [
+    {
+      "obf": "eC",
+      "reason": "922行Module, 37×Xn(BoolSetting)+1×Xe<EntityType/>(RegistryListSetting), MC imports LevelExtractor+EntityType, lambda调用allChanged()触发区块重算。38个设置远超候选(Watermark/Timer/Stuck/Stealer均≤5设置); Xe<EntityType/>为逐实体类型选择器, src无模块含此类型; 前次decode(D004)判定为26.2新增EntityESP类"
+    },
+    {
+      "obf": "ed",
+      "reason": "284行Module, 仅1个boolean字段+LocalPlayer; 两个@yE事件处理器分别接收da和_J类型事件, 前次decode(D005)识别为AttackSlowDownEvent+PostSendPositionEvent。候选Timer(1设置+1handler)、Stuck(1Enum+4handler)、Stealer(5设置+1handler)均不匹配2-handler结构; src无模块同时订阅这两个事件, 疑为26.2新增辅助模块"
+    },
+    {
+      "obf": "ee",
+      "reason": "517行Module, 2×Xn(BoolSetting)字段k和m, 两个@yE事件处理器分别接收dk和dO类型事件。候选Stuck(1Enum+4handler)设置数和事件数均不匹配; Stealer(5设置+1handler)不匹配; 前次decode(C013)判定为26.2新增模块, DestroyBlockEvent暗示方块破坏相关但src无对应"
+    }
+  ]
+}

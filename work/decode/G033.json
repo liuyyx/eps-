@@ -1,0 +1,22 @@
+{
+  "batch": "G033",
+  "results": {
+    "y2": {
+      "identity": "EpsilonGuiRenderer.Draw",
+      "kind": "record",
+      "conf": "A",
+      "evidence": "EpsilonGuiRenderer.java:402定义private record Draw(StagedVertexBuffer.Draw draw, RenderPipeline pipeline, TextureSetup textureSetup, @Nullable ScreenRectangle scissorArea)。我方y2是Record，4个字段类型完全一致(StagedVertexBuffer.Draw, RenderPipeline, TextureSetup, ScreenRectangle)，仅包名因混淆被移至根包。",
+      "official_path": "work/official26/com/github/epsilon/utils/render/EpsilonGuiRenderer.java"
+    }
+  },
+  "unident": [
+    {
+      "obf": "nV",
+      "reason": "抽象类abstract class nV<T extends nV<?>>，含DJ/X_字段和大量YggdrasilAuthenticationService/User/PlayerSocialManager/ProfileKeyPairManager/ReportingContext/SkinManager/Services会话认证逻辑。候选(Constants/TtfGlyphAtlas/EpsilonGuiRenderer)均不匹配：Constants是简单常量类(5行)，TtfGlyphAtlas是字体图集，EpsilonGuiRenderer是GUI渲染器。官方26中无任何类使用这些认证类型导入，疑似版本间新增的账户抽象类。"
+    },
+    {
+      "obf": "ge",
+      "reason": "Record实现DynamicUniformStorage.DynamicUniform，12个字段：4×Matrix4fc + Vec3 + 3×float + 2×boolean + 2×int，write方法含大量Std140Builder矩阵数据写入。候选(CaptureMarkESP/InteractionUtils/RotationUtils)均非Record且不实现DynamicUniform。官方全部7个DynamicUniform记录(BlurUniforms/BoxBlurUniforms/FXAAShader.FXAAInfo/FilterColor/SandboxInfo/ShaderParams/ShaderColors)字段类型均为float/Color，无Matrix4fc+Vec3组合，系版本间新增的渲染uniform数据类型。"
+    }
+  ]
+}

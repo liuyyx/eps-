@@ -1,0 +1,27 @@
+{
+  "batch": "G006",
+  "results": {
+    "h": {
+      "identity": "ESP2D",
+      "kind": "module",
+      "conf": "A",
+      "evidence": "imports含AABB/BlockHitResult/EntityHitResult/Vec3/java.awt.Color/Entity/LivingEntity/Player/MobCategory→2D ESP必需；字段含Xe<Item>×1+DM×3+DV×3+Xn×6+XG×2+nN×2→大量渲染/颜色/开关设置；方法E(Object[])构造AABB(pos±expand,pos.y±expand,pos.y±expand)用于box绘制→与ESP2D的2D bounding box逻辑完全对应",
+      "official_path": "work/official26/com/github/epsilon/modules/impl/render/ESP2D.java"
+    },
+    "q": {
+      "identity": "AutoTool",
+      "kind": "module",
+      "conf": "A-",
+      "evidence": "imports含FurnaceBlockEntity/ChestBlockEntity/BrewingStandBlockEntity/SmokerBlockEntity/BlastFurnaceBlockEntity/BlockHitResult/ServerboundSwingPacket/ServerboundUseItemOnPacket→方块交互+工具选择；@yE事件处理参数为dR(PlayTick)；findTarget$1含BlockPos判空；构造中z()→durability阈值/pe()→enchantment获取→与官方AutoTool的getTool(遍历背包选最快工具)+onClientTick(tool swap逻辑)对应；版本差异：obf有额外GUI/BlockEntity导入，可能来自升级",
+      "official_path": "work/official26/com/github/epsilon/modules/impl/player/AutoTool.java"
+    },
+    "c": {
+      "identity": "AutoTool",
+      "kind": "module",
+      "conf": "A",
+      "evidence": "977行；imports含ServerboundSetCarriedItemPacket→核心信号；@yE事件处理参数为dQ(PlayTick)；switch中var4_6<0验证slot范围、发送ServerboundSetCarriedItemPacket(slot)、读取Xn(boolean)判断条件、最后hi.\\u00f2写入slot→与AutoTool的onClientTick(silent模式发Packet切换快捷栏)+swapBack逻辑完全匹配；int B为internal slot索引",
+      "official_path": "work/official26/com/github/epsilon/modules/impl/player/AutoTool.java"
+    }
+  },
+  "unident": []
+}

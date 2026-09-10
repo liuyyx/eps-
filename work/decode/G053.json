@@ -1,0 +1,32 @@
+{
+  "batch": "G053",
+  "results": {
+    "g2": {
+      "identity": "UiTree.AssistChipNode",
+      "kind": "record",
+      "conf": "A",
+      "evidence": "Record implements _Q(UiNode), 8 fields match exactly: UiRect tp→bounds, String oJ→label, float kO→textScale, Color MN→background, Color m1→foreground, String oi→trailingIcon, float kI→trailingIconScale, nK(TtfFontLoader) ta→trailingIconFont. UiNode sealed interface has 26 permits vs _Q's 30 (version diff).",
+      "official_path": "work/official26/com/github/epsilon/gui/lib/UiTree.java:677"
+    },
+    "g4": {
+      "identity": null,
+      "kind": "synthetic_switchmap",
+      "conf": null,
+      "evidence": "Compiler-generated $SwitchMap class with static int[] and try-catch ordinal mapping (values 1-5). No standalone equivalent in official source; these are synthetic inner classes not present in clean decompilation.",
+      "official_path": null
+    },
+    "g5": {
+      "identity": "ConfigFolderOpener",
+      "kind": "utility_class",
+      "conf": "B",
+      "evidence": "Both are utility classes with private constructor and single static Path method throwing IOException. ConfigFolderOpener.openConfigFolder() creates directories and returns Path. g5.X() does similar (Files.createTempDirectory/createDirectories pattern). Same structural signature; internal call chain differs due to obfuscation.",
+      "official_path": "work/official26/com/github/epsilon/utils/client/ConfigFolderOpener.java:20"
+    }
+  },
+  "unident": [
+    {
+      "obf": "g4",
+      "reason": "Synthetic compiler-generated $SwitchMap class. Has no real-class equivalent in official source — these are generated artifacts for enum switch optimization."
+    }
+  ]
+}

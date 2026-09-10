@@ -1,0 +1,18 @@
+{
+  "batch": "G034",
+  "results": {},
+  "unident": [
+    {
+      "obf": "na",
+      "reason": "编译器生成的SwitchBootstrap辅助类（Direction枚举switch），package=com.github.epsilon，static final int[]K，bootstrap方法L返回CallSite。候选InteractionUtils/RotationUtils均为工具类（含airPlace/rotate等公开方法），包路径为utils.player/utils.rotation，结构完全不同。"
+    },
+    {
+      "obf": "Ol",
+      "reason": "同na模式的SwitchBootstrap辅助类（Direction枚举switch），package=com.github.epsilon，static final int[]y，bootstrap方法G返回CallSite。候选均为含公开静态方法的工具类，包路径与结构均不匹配。"
+    },
+    {
+      "obf": "Oz",
+      "reason": "record类型 record Oz(BlockPos ap, long rT)，纯数据持有者。候选InteractionUtils/RotationUtils均为class（非record），含airPlace/rotate等静态方法，无字段类型的对应关系。"
+    }
+  ]
+}

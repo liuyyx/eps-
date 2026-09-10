@@ -1,0 +1,25 @@
+{
+  "batch": "G016",
+  "results": {
+    "lz": {
+      "identity": "FindItemResult",
+      "kind": "record",
+      "conf": "A",
+      "evidence": "lz是record(int pD, int pq, int p6)共3个int字段；官方FindItemResult是record(int slot, int count, int maxCount)也是3个int字段。方法一一对应：Y()→found()返回boolean, a()→getHand()返回InteractionHand, x()→isMainHand()返回boolean, N()→isOffhand()返回boolean, pq()/pD()/p6()对应getter。结构完全匹配。",
+      "official_path": "work/official26/com/github/epsilon/utils/player/FindItemResult.java"
+    },
+    "nK": {
+      "identity": "TtfFontLoader",
+      "kind": "class",
+      "conf": "A-",
+      "evidence": "nK implements DS（obf版IFontLoader），字段高度吻合：S=yW[128]→GlyphDescriptor[128], a=int[128]→int[128], U=boolean[128]→boolean[128], P=HashMap→glyphMap, O=HashMap→advanceMap, L=HashMap<CompletableFuture>→pendingGlyphs, Y=LinkedHashSet→deferredReadyGlyphs, C=List<yn>→List<TtfGlyphAtlas>, b=OE→TtfFontFile。构造器接收Path。import一致(ExecutorService, AtomicInteger, CompletableFuture, HashMap, LinkedHashSet, Path等)。lambda方法名lambda$requestMissingChars$0直接包含requestMissingChars。唯一差异：nK实现DS接口而官方TtfFontLoader实现IFontLoader——可能是混淆版使用了重映射的接口名。",
+      "official_path": "work/official26/com/github/epsilon/graphics/text/ttf/TtfFontLoader.java"
+    }
+  },
+  "unident": [
+    {
+      "obf": "nf",
+      "reason": "nf是extends Enum<nf>的枚举类，仅有2个常量(Niuren, Mengcha)，持有Identifier字段。4个候选(UiTree/TtfFontLoader/TtfFontFile/TextureCacheHolder)全部是普通class，无一为枚举。官方代码中也未找到与之匹配的Identifier字段枚举类。Jaccard 1.0可能源于共享import包路径，非结构相似。"
+    }
+  ]
+}

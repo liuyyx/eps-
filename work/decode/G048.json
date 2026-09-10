@@ -1,0 +1,18 @@
+{
+  "batch": "G048",
+  "results": {},
+  "unident": [
+    {
+      "obf": "DS",
+      "reason": "接口，4个Object[]参数方法（z/N/c/r），r返回yW。yW为26.2新增Record(yn/nG/5×int)，src无对应。无MC imports，无candidates。26.2新增，src 26.1.2无匹配接口"
+    },
+    {
+      "obf": "Ds",
+      "reason": "Record 5字段(String rw/String r0/boolean io/Color zx/Color zr)；src 26.1.2无同结构Record。字段类型序列(name+name+enabled+color×2)暗示主题/UI配置条目，但无确切src对照。无MC imports，无candidates。26.2新增"
+    },
+    {
+      "obf": "dS",
+      "reason": "Record 3字段(float sq/int LE/float SB)；src 26.1.2无(int/float/float)三组件Record。S04-Chat锚点显示dS是ChatComponentAccessor.epsilon$getVisibility返回类型，jar中new dS(n5,f,f2)对应可见行数/最大不透明度/不透明度求和→聊天可见性聚合POJO，但src 26.1.2无此类，确切类名无证据"
+    }
+  ]
+}

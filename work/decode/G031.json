@@ -1,0 +1,18 @@
+{
+  "batch": "G031",
+  "results": {},
+  "unident": [
+    {
+      "obf": "vu",
+      "reason": "Java Record(Direction,float,AABB,int)，候选 RotationUtils/InteractionUtils 均为工具类(非 Record)，无任何官方文件匹配此 Record 签名"
+    },
+    {
+      "obf": "yd",
+      "reason": "Java Record(Vec3,HitResult,boolean)，候选 RotationUtils/CaptureMarkESP/InteractionUtils 均为工具/渲染类(非 Record)，无匹配"
+    },
+    {
+      "obf": "Om",
+      "reason": "2344 行弹道轨迹计算类，13+ static gN 物理参数(FishingHook/AbstractArrow/ThrownEnderpearl 等)，import yd Record，重度字符串加密；候选 RotationUtils(jac=0.143)/CaptureMarkESP/InteractionUtils 均为小型工具类，结构/规模/语义均不匹配"
+    }
+  ]
+}

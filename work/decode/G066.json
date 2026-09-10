@@ -1,0 +1,27 @@
+{
+  "batch": "G066",
+  "results": {
+    "ih": {
+      "identity": "Render2DBounds",
+      "kind": "record",
+      "conf": "A",
+      "evidence": "Record 4 float 字段序列完全匹配: (ke→x, kz→y, kt→width, k5→height); 构造器验证 width/height≥0 并抛 IllegalArgumentException 与官方 of() 的 Math.max(0, width) 一致; Kb()=x+width 对应 right(); t(ih) 求交集对应 intersects()/include(); X(double,double) 点包含判定对应 contains(); 字段数+类型+Record 结构+验证逻辑+方法语义逐项对应",
+      "official_path": "work/official26/com/github/epsilon/graphics/schedulers/render2d/Render2DBounds.java"
+    },
+    "iI": {
+      "identity": "Notifications",
+      "kind": "class",
+      "conf": "A-",
+      "evidence": "4 个 IntSetting(XG)字段 + 1 个 DoubleSetting(DM)字段 + 1 个 eJ 字段; lambda$renderStage2$0 签名与 Notifications.renderStage2 对应; 使用 vt=Notifications$RenderStage 枚举 + gQ=Notifications$RenderFrame record; g(Object[]) 方法做通知颜色混合(blend=5种模式); Color 乘法 255.0f*f7 与渲染透明度一致; 2238 行大型 HUD 渲染类; batch 标记 is_module=false 但 Notifications extends HudModule 故降为 A-",
+      "official_path": "work/official26/com/github/epsilon/elements/impl/notification/Notifications.java"
+    },
+    "ij": {
+      "identity": "TtfGlyph",
+      "kind": "record",
+      "conf": "A-",
+      "evidence": "Record 2 ByteBuffer + 5 int 字段; nK(字体加载类)用 HashMap<Integer, CompletableFuture<ij>> 存储字形; OE(STB字体读取器)方法返回 ij; yn(ATLAS渲染)用 ij 获取 Cp(字形宽度)/C5(偏移) 做 1024.0f 归一化 UV 坐标; 官方 TtfGlyph(ByteBuffer glyphData, int width, int height, int xOffset, int yOffset, int advance)为 1 ByteBuffer + 5 int = 6 字段; 我方多 1 个 ByteBuffer(hR)可能为 26.2-2026.10.7 新增; 降为 A- 因字段数差异",
+      "official_path": "work/official26/com/github/epsilon/graphics/text/ttf/TtfGlyph.java"
+    }
+  },
+  "unident": []
+}

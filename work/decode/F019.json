@@ -1,0 +1,18 @@
+{
+  "batch": "F019",
+  "results": {},
+  "unident": [
+    {
+      "obf": "XI",
+      "reason": "3862行巨型类，implements O0，含3个Map<String,_E>、List<String>、List<Dt>，方法U渲染popupCard/text/button（Supplier<String>），方法G处理Path。候选PanelPopupHost(187行)和FriendClientSettingTab(341行)虽jac=1.0但结构差异极大：字段类型序列不对应，常量值(6.0/26.0/36.0/28.0/0.78)与任何候选均不符，行数差距超过10倍，渲染功能（popup卡片+供应商文本）与FriendClientSettingTab（好友列表行渲染）完全不同。O0接口也无法确认对应ClientSettingTabView。"
+    },
+    {
+      "obf": "X_",
+      "reason": "810行类，字段yy T(String/player头像)、String y/S、volatile boolean m，方法P返回yy、I/S处理JSON序列化、lambda$loadHead从网络加载头像字节→new yy(bytes)。候选Constants仅15行纯静态常量(mc/NAME/MOD_ID/VERSION/LOGGER)，无实例字段无方法，结构完全不匹配。TtfGlyphAtlas/Mixin类也无关联。Jaccard=1.0疑似仅基于共享String字段或Minecraft导入。"
+    },
+    {
+      "obf": "y0",
+      "reason": "1191行类，字段zJ e/N(双字体文件)、_E l、long K/m/Y/B/k、boolean J、int V、static float b=0.5546875f(71/128)，方法f渲染坐标+颜色+alpha、R返回float偏移、i计算bounds用0.5546875f缩放、L预热纹理。四个候选jac均为1.0但均不匹配：UiTree(834行)是UI节点树构建器无渲染方法；TtfFontLoader是字体加载器无draw方法；TtfFontFile仅144行处理STB字体数据；TextureCacheHolder仅22行是单例缓存。y0的渲染+双字体文件结构无法对应任何候选。"
+    }
+  ]
+}

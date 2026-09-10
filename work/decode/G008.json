@@ -1,0 +1,25 @@
+{
+  "batch": "G008",
+  "results": {
+    "a": {
+      "identity": "Watermark",
+      "kind": "module",
+      "conf": "B",
+      "evidence": "import三种MC title/subtitle/actionbar packet类型+Pattern做regex文本替换+Color+Component/MutableComponent；R(dP)拦截title/subtitle/actionbar packet并用x()格式化后重新发送；构造器vY与Watermark一致（类别HUD）",
+      "official_path": "work/official26/com/github/epsilon/elements/impl/Watermark.java"
+    },
+    "eS": {
+      "identity": "AutoTool",
+      "kind": "module",
+      "conf": "B",
+      "evidence": "import LocalPlayer/BlockPos/Inventory+三种方块类型(DropExperienceBlock/RedStoneOreBlock/WebBlock)=方块对应工具选择逻辑；H(dA)调用getSelectedSlot()/getInventory()管理当前槽位；int X/E字段保存/恢复槽位状态；Xn t=BoolSetting swapBack，XG w=IntSetting相关设置；jac=0.062匹配AutoTool",
+      "official_path": "work/official26/com/github/epsilon/modules/impl/player/AutoTool.java"
+    }
+  },
+  "unident": [
+    {
+      "obf": "ex",
+      "reason": "仅import CrossbowItem+LocalPlayer；N(dR)方法检测getUseItem()instanceof CrossbowItem后调用getTicksUsingItem()做定时弩箭自动射击；无任何库存/GUI交互逻辑；候选Stealer(jac=0.067)为十字弩偷取但官方Stealer无弩箭自动发射功能；无足够特征匹配任何候选"
+    }
+  ]
+}

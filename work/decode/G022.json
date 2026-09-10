@@ -1,0 +1,25 @@
+{
+  "batch": "G022",
+  "results": {
+    "ls": {
+      "identity": "EpsilonFontMetrics",
+      "kind": "class",
+      "conf": "A",
+      "evidence": "缺失类完全匹配(FormattedText/Style/Identifier/FormattedCharSequence/FormattedCharSink)；静态常量 l=0.0f=LETTER_SPACING, e=3.0f=SPACE_WIDTH；Identifier n 对应 FONT_ID(fonts/font.ttf)；nK=TtfFontLoader 对应 font 字段；方法 Y(String)/U(FormattedCharSequence)/k(...) 对应 width(String)/width(FormattedCharSequence)/width(Text)；jac=0.667 最高",
+      "official_path": "work/official26/com/github/epsilon/graphics/text/minecraft/EpsilonFontMetrics.java"
+    },
+    "OT": {
+      "identity": "EpsilonGuiRenderer",
+      "kind": "class",
+      "conf": "A",
+      "evidence": "实现 AutoCloseable；导入集合完全匹配(GpuBuffer/RenderPipeline/RenderPass/GpuSampler/GpuTextureView/Object2ObjectOpenHashMap/ScreenRectangle/GuiItemAtlas/OversizedItemRenderer/CubeMap/Projection/ProjectionMatrixBuffer/StagedVertexBuffer/FeatureRenderDispatcher/BlitRenderState/GuiRenderState/GuiTextRenderState/OversizedItemRenderState/TextureManager/Logger)；字段 Map<Object,OversizedItemRenderer> F / TextureSetup m / RenderPipeline A / ScreenRectangle l / GuiItemAtlas V / GuiRenderState x / FeatureRenderDispatcher M / StagedVertexBuffer Q / Projection z / CubeMap j / ProjectionMatrixBuffer y / Logger e 完全对应；jac=0.586",
+      "official_path": "work/official26/com/github/epsilon/utils/render/EpsilonGuiRenderer.java"
+    }
+  },
+  "unident": [
+    {
+      "obf": "iW",
+      "reason": "4候选 jac 均为 0.5（UiTree/TtfFontLoader/TtfFontFile/TextureCacheHolder），无一匹配：iW 有 Matrix4f t/l、RenderPipeline R、RenderTarget u、Vec3 N、static final iW A 单例、lambda$renderEffect$0；UiTree 是 UI 树(final class, List/Consumer/BiConsumer/Animation)，TtfFontLoader 实现 IFontLoader(ByteBuffer/STBTruetype/HashMap/ExecutorService)，TtfFontFile 有 STBTTFontinfo/fontData/fontHeight，TextureCacheHolder 仅 Map<Identifier,LuminTexture>；previous batches (B023/C029/D013) 均判定 unident；该类属渲染管线/后处理 shader 效果管理器，官方 26.2 源码中无精确匹配候选"
+    }
+  ]
+}

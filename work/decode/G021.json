@@ -1,0 +1,27 @@
+{
+  "batch": "G021",
+  "results": {
+    "_6": {
+      "identity": "PanelPopupHost",
+      "kind": "class",
+      "conf": "A",
+      "evidence": "3实例字段(XJ/lm/ih→Popup/UiRect/UiRenderBatch)逐一对应; 方法签名完全匹配: r(Object[])→open(Popup), G(Object[])→render(GuiGraphicsExtractor,UiRenderBatch,int,int,float)五参数, I(Object[])→mouseClicked(MouseButtonEvent,double,double)三参数, Q(Object[])→close()调用close+置null, w(Object[])→mouseReleased(MouseButtonEvent,boolean)两参数; import完全一致: GuiGraphicsExtractor+三个事件类; Package匹配gui.panel.popup",
+      "official_path": "work/official26/com/github/epsilon/gui/panel/popup/PanelPopupHost.java"
+    },
+    "gG": {
+      "identity": "EpsilonFontGlyph",
+      "kind": "class",
+      "conf": "A",
+      "evidence": "implements BakedGlyph一致; 两个static Map<yn,RenderType>→AA/NO_AA_RENDER_TYPES; static float 0.45f→SHADOW_OFFSET/BOLD_OFFSET; 3实例字段(nK I/GlyphInfo h/yW v→codepoint/font/descriptor); info()方法直接对应; lambda$renderType$0创建RenderType→renderType()私有方法; T(float,boolean,float,boolean,boolean)→right计算; left/top/bottom/activeRight等方法与official GlyphInstance委托方法语义匹配; Package匹配graphics.text.minecraft",
+      "official_path": "work/official26/com/github/epsilon/graphics/text/minecraft/EpsilonFontGlyph.java"
+    },
+    "dh": {
+      "identity": "EpsilonFontGlyph.GlyphInstance",
+      "kind": "class",
+      "conf": "A",
+      "evidence": "final Record implements TextRenderable.Styled+Dk(=EpsilonTextRenderable)与official GlyphInstance签名一致; 8个字段逐一对应: gG kv→glyph(EpsilonFontGlyph), float p5→x, float PO→y, int _8→color, int _T→shadowColor, Style style→style, float PN→boldOffset, float pp→shadowOffset; 方法完整匹配: renderType(Font.DisplayMode)→RenderType, textureView()→GpuTextureView, O()→GpuSampler(对应epsilon$sampler), left()/top()/right()/activeRight()/bottom()→同名; hashCode/toString/equals用ObjectMethods.bootstrap记录标准方法; CFR将private inner record提升为同包顶层类",
+      "official_path": "work/official26/com/github/epsilon/graphics/text/minecraft/EpsilonFontGlyph.java:GlyphInstance"
+    }
+  },
+  "unident": []
+}

@@ -1,0 +1,22 @@
+{
+ "batch": "G045",
+ "results": {
+  "DJ": {
+   "identity": "AccountType",
+   "kind": "enum",
+   "conf": "B",
+   "evidence": "枚举常量 TheAltening/Cracked/Session/Microsoft 为账号认证类型；被 nV(DJ I) 基类及子类 O8(Session)/OF(TheAltening)/Oc(Cracked)/nx(Microsoft) 引用；PascalCase 命名风格匹配顶层枚举；26.1.2 源码无此枚举，26.2 新增",
+   "official_path": "26.2新增（旧版本源代码无对应）"
+  }
+ },
+ "unident": [
+  {
+   "obf": "Di",
+   "reason": "Record(y1, gQ=Notifications$RenderFrame) 两字段；gQ已确认为RenderFrame(A)；y1=616行未识别类；Di为顶层Record非Notifications内部类；官方26.2源码Notifications$RenderEntry为三字段(Notification,float,RenderFrame)不匹配；无其他官方Record含RenderFrame字段；无法映射到具体真实类名"
+  },
+  {
+   "obf": "dI",
+   "reason": "record(float[] hF, float yG) 20行；无MC导入；仅hi引用；官方26.2源码无(float[],float)两字段record匹配；可能为渲染/字体度量数据结构，但无唯一结构指纹"
+  }
+ ]
+}

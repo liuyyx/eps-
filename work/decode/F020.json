@@ -1,0 +1,22 @@
+{
+  "batch": "F020",
+  "results": {
+    "y9": {
+      "identity": "FriendClientSettingTab",
+      "kind": "class",
+      "conf": "A",
+      "evidence": "同为GUI面板类，共享 GuiGraphicsExtractor/CharacterEvent/KeyEvent/MouseButtonEvent 四事件导入；y9实现AutoCloseable对应close()；lambda$mouseClicked$0(MouseButtonEvent,boolean)对应mouseClicked()；lambda$render$0-8对应render()渲染链；lambda$mouseClicked$0 lambda签名含vh/ih/MouseButtonEvent/bl与FriendClientSettingTab的click handler一致；Map字段(Map<Dl<?>,_E>)对应Map<String,Animation> rowHoverAnimations；List<String>对应lastFriendList；float y对应scrollVelocity；约18个实例字段+20+方法匹配FriendClientSettingTab(340行源码因字符串加密+控制流混淆膨胀至3269行)",
+      "official_path": "work/official26/com/github/epsilon/gui/panel/view/settings/FriendClientSettingTab.java"
+    }
+  },
+  "unident": [
+    {
+      "obf": "yF",
+      "reason": "yF是Java record，字段为(InteractionHand, PoseStack)；唯一record候选FindItemResult字段为(int slot, int count, int maxCount)，类型完全不同；official26中无任何record同时拥有InteractionHand+PoseStack字段；jac=1.0仅因record结构和小体量相似"
+    },
+    {
+      "obf": "yK",
+      "reason": "yK字段(TextureTarget L, EnumMap<n7,RenderPipeline> S, public static final yK b, Identifier J)及方法(lambda$getPipeline$0返回RenderPipeline, 操作RenderTarget尺寸)对应GPU渲染管线管理；四个候选均不匹配：TextureCacheHolder是单例HashMap缓存(TextureTarget≠LuminTexture)；TtfFontFile含STBTTFontinfo/ByteBuffer；TtfFontLoader实现IFontLoader；UiTree是UI树组件；无候选有RenderPipeline/TextureTarget/EnumMap字段"
+    }
+  ]
+}

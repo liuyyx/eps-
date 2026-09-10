@@ -1,0 +1,31 @@
+{
+  "batch": "G065",
+  "results": {
+    "ie": {
+      "identity": "unknown",
+      "kind": "enum",
+      "conf": "C",
+      "evidence": "final enum<ie> 3值: NONE/WATER/WATER_SUPPORT; 仅被uZ(Scaffold)引用(唯一import者); Scaffold在official26中有Mode(TellyBridge/GodBridge)、SwapMode(None/Normal/Silent/InvSwitch)、RotationMode(Rise/Hypixel)、RaytraceMode(Normal/Strict)四个enum，无一匹配NONE/WATER/WATER_SUPPORT; 可能为26.2→26.10.7演进期新增的水桶放置模式枚举",
+      "official_path": null
+    },
+    "iF": {
+      "identity": "unknown",
+      "kind": "class",
+      "conf": "C",
+      "evidence": "extends SimpleFileVisitor<Path>, 构造函数接收vz(ConfigHolder); 方法X(Object[])=visitFile(Path,BasicFileAttributes)返回CONTINUE, o(Object[])=visitFileFailed(Path,IOException)返回CONTINUE; official26 ConfigHolder中copyDirectory/deleteDirectory均用匿名SimpleFileVisitor内部类，无独立命名类; iF为反编译器提取的匿名内部类，official26无对应独立类",
+      "official_path": null
+    },
+    "iG": {
+      "identity": "unknown",
+      "kind": "record",
+      "conf": "C",
+      "evidence": "public final class iG extends Record implements _Q; 17字段: X6 tz + Color YE + 15个float(RV/RT/RW/rr/RG/re/ra/rh/rp/rf/r9/rb/RB/RE/ri); _Q为sealed interface permits 31类型，全部未识别; X6为sealed interface permits iO(Identifier+boolean)/dq(y4); official26无Record类，无_Q接口; 可能为渲染参数数据record(大量float+Color+纹理类型X6)",
+      "official_path": null
+    }
+  },
+  "unident": [
+    {"obf": "ie", "reason": "3值enum(NONE/WATER/WATER_SUPPORT)仅被uZ(Scaffold)引用; official26中Scaffold无匹配enum; 可能为26.2→26.10.7新增的水桶模式枚举"},
+    {"obf": "iF", "reason": "SimpleFileVisitor<Path>匿名内部类提取物; official26 ConfigHolder中为匿名类，无独立命名文件"},
+    {"obf": "iG", "reason": "Record implements _Q, 17字段(Color+X6+15float); official26无Record类和_Q接口，可能为26.2→26.10.7新增渲染数据record"}
+  ]
+}

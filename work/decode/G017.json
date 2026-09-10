@@ -1,0 +1,22 @@
+{
+  "batch": "G017",
+  "results": {
+    "OE": {
+      "identity": "TtfFontFile",
+      "kind": "class",
+      "conf": "A",
+      "evidence": "字段逐项对应：ByteBuffer B=fontData, STBTTFontinfo i=fontInfo, float n=scale, int z=padding, int h=pixelAscent, int U=fontHeight；构造器(Identifier,int,int)/(Path,int,int)/(ByteBuffer,int,int,String)均匹配；方法generateGlyph→Y(int), getAdvance→B(int), getVisualHeight→N(String), destroy→T(Object[])语义完全一致；依赖STBTTFontinfo+STBTruetype+MemoryUtil+ByteBuffer，均为TrueType字体渲染特有",
+      "official_path": "work/official26/com/github/epsilon/graphics/text/ttf/TtfFontFile.java"
+    }
+  },
+  "unident": [
+    {
+      "obf": "Oe",
+      "reason": "Oe是渲染管线工具类，含static工厂方法用RenderPipeline+VertexFormat+PrimitiveTopology创建绘制调用包装(Xi/g0/lZ/lO/De)。4个候选(UiTree/TtfFontLoader/TtfFontFile/TextureCacheHolder)均非渲染管线工具类，无任何结构/语义匹配"
+    },
+    {
+      "obf": "ug",
+      "reason": "ug extends Record，含5个record组件(Identifier/List<v0>/int/String/float)。official26中无任何Record类，4个候选均非Record类型，无法匹配"
+    }
+  ]
+}

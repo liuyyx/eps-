@@ -1,0 +1,18 @@
+{
+  "batch": "G036",
+  "results": {},
+  "unident": [
+    {
+      "obf": "zZ",
+      "reason": "23行简单包装类，仅含BlockPos b字段+getter(Object[])→BlockPos；无extends；候选InteractionUtils（静态工具类，5个参数airPlace+swapWithOffhand）和RotationUtils（303行raytrace/旋转工具）结构完全不匹配。D023已记录为26.2新增BlockPos包装类，类名不可得。"
+    },
+    {
+      "obf": "dO",
+      "reason": "extends de（Event基类），字段Block S+BlockPos V；构造(BlockPos,Block)。S06-ItemRender已确认为26.2新增的方块放置事件，MixinBlockItem注入调用new dO(clickedPos,block)，但旧src无同名mixin无对应事件类，类名不可得。候选InteractionUtils/RotationUtils均为静态工具类，非event，不匹配。"
+    },
+    {
+      "obf": "i9",
+      "reason": "28行包私有数据持有类，字段Block r+BlockPos l+Set<BlockPos> g+int w；构造(Block,BlockPos,Set<BlockPos>,int)。C025已确认src中无匹配record或内部类。候选InteractionUtils/RotationUtils结构完全不匹配（均为静态工具方法类，无此字段模式）。"
+    }
+  ]
+}

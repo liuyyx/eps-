@@ -1,0 +1,27 @@
+{
+  "batch": "G057",
+  "results": {
+    "gh": {
+      "identity": "EpsilonFabric",
+      "kind": "class",
+      "conf": "B",
+      "evidence": "在MixinMinecraftFabric中于Minecraft.<init> TAIL处new gh()触发客户端初始化，功能角色对应官方EpsilonFabric（ClientModInitializer入口）。无直接字段匹配，依据初始化语义判定",
+      "official_path": "com/github/epsilon/fabric/EpsilonFabric.java"
+    },
+    "gI": {
+      "identity": "OutlineNode",
+      "kind": "record",
+      "conf": "B",
+      "evidence": "Record implements _Q（=UiNode），10字段=9float+1Color，与OutlineNode(x,y,w,h,radiusTopLeft,TopRight,BottomRight,BottomLeft,outlineWidth,color)字段数/类型完全对应",
+      "official_path": "com/github/epsilon/gui/lib/UiTree.java"
+    },
+    "gi": {
+      "identity": "ShadowNode",
+      "kind": "record",
+      "conf": "B",
+      "evidence": "Record implements _Q（=UiNode），11字段=8float+1boolean+3Color；官方ShadowNode为10字段（9float+1Color），gi多出1boolean+2Color少1float，推测2个月版本演进扩展了ShadowNode（增加blur开关+多色支持）。基础结构（pos+size+4radii+blurRadius+color）一致",
+      "official_path": "com/github/epsilon/gui/lib/UiTree.java"
+    }
+  },
+  "unident": []
+}

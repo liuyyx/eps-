@@ -1,0 +1,25 @@
+{
+ "batch": "G052",
+ "results": {
+  "eg": {
+   "identity": "TargetHUD",
+   "kind": "hudmodule",
+   "conf": "A",
+   "evidence": "extends eh(HudModule)确认; 8+DM(DoubleSetting: scale/width/height/radius/blurStrength/healthBarHeight/healthBarRadius/nameSize) + 多个DV(ColorSetting: background/barBg/barFill/delayBar/barOutline/text) + Xn(BoolSetting: delayBar/delayWait/barOutline/drawShadow) 完全匹配src TargetHUD设置谱; z=24.0f对应HEAD_DAMAGE_SCALE_FACTOR*160; lambda$drawText$0渲染血条/名字文字; static o=INSTANCE; 2122行(26.2扩展至src 370行)",
+   "official_path": "com/github/epsilon/elements/impl/TargetHUD.java"
+  },
+  "eJ": {
+   "identity": "ModuleList",
+   "kind": "hudmodule",
+   "conf": "A",
+   "evidence": "extends eh(HudModule)确认; Dx<uq>=EnumSetting<Style/Mode/SortingMode> + DM(DoubleSetting: scale等) + XG(IntSetting: openBlurStrength等) + iI(ToggleFlag相关) 完全匹配src ModuleList设置谱(Style Compact/Open, Mode, SortingMode + 多DoubleSetting); lambda$render$0/1过滤/反转模块列表; screen()/Gui引用对应HudEditorScreen交互; Supplier<_j>=TextRenderer缓存; static l=INSTANCE; 1141行(26.2扩展)",
+   "official_path": "com/github/epsilon/elements/impl/ModuleList.java"
+  }
+ },
+ "unident": [
+  {
+   "obf": "g0",
+   "reason": "30行final class; 无super声明; private final i2(=LuminImmediateRenderer) W; 私有构造g0(i2); J()生命周期方法; N(Matrix4f,float,float,float,int)渲染委托; 非Module/HudModule/enum/record; D065声称GpuRenderPass但official26 graphics/目录无此文件; C016也标记unident; 26.2版本新增轻量渲染包装类, official26源码中无匹配"
+  }
+ ]
+}

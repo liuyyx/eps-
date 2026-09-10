@@ -1,0 +1,22 @@
+{
+ "batch": "G018",
+ "results": {
+  "XI": {
+   "identity": "FriendClientSettingTab",
+   "kind": "class",
+   "conf": "B",
+   "evidence": "实现 O0(=ClientSettingTabView); 导入与 FriendClientSettingTab 高度重合: EpsilonTranslations/TextRenderer/UiRect/UiTree/UiContentBuffer/UiRenderBatch/UiInvalidationState/PanelState/PanelElements/ScrollBarDragState/ClientSettingTabView/ClientSettingTextField/EpsilonUiTheme/MD3Theme/TranslateHolder/Managers/Animation/Easing/HashMap/Consumer/Supplier/Path + MC input events; 字段类型序列(Map<String,_E>×3, ih, String, List<String>, _6, _j, float×2, long, XZ, List<Dt>)与 FriendClientSettingTab 的复杂设置 tab 结构吻合(多 Map 存储设置, List<String> 选项列表, Float 常量=6.0/26.0/36.0/28.0/0.78 布局常量); 行数 3862 vs official ~340 差距大,疑为版本演进(26.2→26.10)大幅扩展; 包路径差异(root vs gui.panel.view.settings)因 obfuscation 分包重组",
+   "official_path": "work/official26/com/github/epsilon/gui/panel/view/settings/FriendClientSettingTab.java"
+  }
+ },
+ "unident": [
+  {
+   "obf": "X_",
+   "reason": "810行, root包, 字段 yy(皮肤数据类型)+2×String(y/S)+volatile boolean(m); 方法 lambda$loadHead 异步加载皮肤/头部纹理(Minecraft.execute), I()/S() 做 JSON 序列化(readHead/writeHead), P() 返回 yy; 候选 Constants(20行纯静态常量,5字段)、TtfGlyphAtlas(GPU纹理图集,appendGlyph)、EpsilonGuiRenderer(大规模渲染系统,100+导入)均不匹配体量/功能/字段结构; 疑为 26.2 新增玩家皮肤/头部管理器"
+  },
+  {
+   "obf": "y0",
+   "reason": "1191行, root包, 有 draw/f/R/S/L 方法; 方法 R 为动画变换(返回 ±4f/±2.5f/±1.5f 基于 zJ 枚举状态判断); 方法 f 做颜色/坐标计算(lambda$draw$0/lambda$draw$1 渲染矩形); lambda$prewarmTextures 引用 Color; 字段 zJ×2+_E+long+boolean+int 做动画/状态; 候选 UiTree(UI节点树,32字段无draw方法)、TtfFontLoader(font加载,IFontLoader实现)、TtfFontFile(字体文件操作)、TextureCacheHolder(缓存Holder)均不匹配功能/字段; 之前 D017 识别为 ColorWidget(conf B) 但官方26.2无此候选; 疑为 26.2 新增颜色/动画 widget 组件"
+  }
+ ]
+}

@@ -1,0 +1,22 @@
+{
+  "batch": "G020",
+  "results": {
+    "zx": {
+      "identity": "TopBarPanel",
+      "kind": "class",
+      "conf": "A",
+      "evidence": "protected final v_ v 完全匹配 protected final PanelState state；构造函数 zx(v_) 完全匹配 TopBarPanel(PanelState)；render()空实现、mouseClicked返回false均一致；import GuiGraphicsExtractor + MouseButtonEvent 与官方一致；行数少(36 vs 28)因我方混淆后空方法体精简",
+      "official_path": "work/official26/com/github/epsilon/gui/panel/view/TopBarPanel.java"
+    }
+  },
+  "unident": [
+    {
+      "obf": "zJ",
+      "reason": "zJ是Enum<zJ>，21个枚举值(IDLE/PANEL_OPEN/CANCEL/PANEL_CLOSE/SCROLL_DOWN/TOGGLE_ON/PRIMARY_CLICK/CONFIRM/HEAD_HOVER/TOGGLE_OFF/BUTTON_ACTION/BLINK/COLOR_PICK/DRAG/SLIDER_ADJUST/KEY_BIND/SCROLL_UP/MODULE_HIDDEN/SECONDARY_CLICK/TYPING)，每个含Identifier+long+int。候选(UiTree/TtfFontLoader/TtfFontFile/TextureCacheHolder)均非枚举类型，官方无此枚举，属客户端自定义UI交互事件枚举"
+    },
+    {
+      "obf": "zU",
+      "reason": "zU是大型渲染工具类(2690行)，含viewport/roundedRect/roundedRectOutline/text/image等GUI绘制方法，protected final v_ v字段。候选UiTree(832行final类，结构不同)、TtfFontLoader(implements IFontLoader)、TtfFontFile(115行STB字体包装)、TextureCacheHolder(24行单例缓存)均不匹配其渲染命令构建器结构"
+    }
+  ]
+}

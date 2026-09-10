@@ -1,0 +1,18 @@
+{
+  "batch": "F010",
+  "results": {},
+  "unident": [
+    {
+      "obf": "uG",
+      "reason": "971行Module子类，有@yE(P=-200)和@yE(P=200)双事件处理器，方法C(yi)内调setSprinting(false)处理移动事件。三个候选均为Mixin类（MixinLocalPlayer/MixinMinecraft/MixinItemInHandRenderer），基类不同（Module vs Mixin），Jaccard最高仅0.167，结构对应不足。"
+    },
+    {
+      "obf": "f",
+      "reason": "1881行Module子类，特征为Color[]渐变方法C(float[],Color[],float)、DecimalFormat、\"♥\"常量、ContainerScreen/CreativeModeInventoryScreen/InventoryScreen/ChestMenu/Font/GuiGraphicsExtractor/RenderPipeline多imports。三个候选均为Mixin类，唯一Module候选Stealer(J=0.053)缺Color渐变、DecimalFormat、Font、GuiGraphicsExtractor、RenderPipeline，行数205 vs 1881差距过大，结构不对应。"
+    },
+    {
+      "obf": "ex",
+      "reason": "316行Module子类，@yE事件处理器N(dR)内检查getUseItem() instanceof CrossbowItem并比较getTicksUsingItem()做弩箭发射时序控制。三个候选为Mixin类，Module候选Stealer(J=0.067)仅用CrossbowItem做物品评分而非使用时序，无getTicksUsingItem()逻辑，结构不对应。"
+    }
+  ]
+}

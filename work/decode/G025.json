@@ -1,0 +1,18 @@
+{
+  "batch": "G025",
+  "results": {},
+  "unident": [
+    {
+      "obf": "dE",
+      "reason": "1660行，导入FFmpegFrameGrabber/DynamicTexture/ExecutorService，是视频播放器类。所有候选（TtfGlyphAtlas/UiTree/TtfFontLoader/TtfFontFile）均为TTF字体/GUI类，无FFmpeg或视频相关字段，结构完全不匹配。官方源码中也无任何FFmpeg使用者。"
+    },
+    {
+      "obf": "_o",
+      "reason": "4189行，extends Screen（基包com.github.epsilon），有drawAccountList/IME处理/大量ih布局字段/OA/OP/Xv/vx等业务引用。候选PanelPopupHost（114行，不继承Screen）、FriendClientSettingTab（实现ClientSettingTabView）、TopBarPanel（不继承Screen）、MessagePopup（实现Popup）均非Screen子类，官方5个Screen子类均不在候选列表中。"
+    },
+    {
+      "obf": "gf",
+      "reason": "177行，final class gf extends gs。gs是混淆基类，被gE/gK/gM/gT/gV/gZ/gf/gl/gq/gw共10个任务类继承，均在基包。候选UiTree/TtfFontLoader/TtfFontFile/TextureCacheHolder为完全不同的工具类，不继承gs，字段结构/包路径/语义均不匹配。"
+    }
+  ]
+}

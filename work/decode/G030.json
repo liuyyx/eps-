@@ -1,0 +1,22 @@
+{
+  "batch": "G030",
+  "results": {
+    "nD": {
+      "identity": "HoleESP.Hole",
+      "kind": "record",
+      "conf": "A",
+      "evidence": "Record(Oy/List<BlockPos>/AABB/boolean) 完全对应 HoleESP.Hole(HoleShape/List<BlockPos>/AABB/boolean)。Oy 是枚举(DoubleZ/Quad/Single/DoubleX) = HoleShape。字段类型序列、数量、Record 类型全部一致。",
+      "official_path": "work/official26/com/github/epsilon/modules/impl/render/HoleESP.java"
+    }
+  },
+  "unident": [
+    {
+      "obf": "di",
+      "reason": "Record(BlockPos/BlockHitResult/boolean)。两个候选 InteractionUtils/RotationUtils 均为工具类非 Record；遍历整个 official26 所有 Record 定义均无此签名匹配。可能为我方版本新增记录。"
+    },
+    {
+      "obf": "gS",
+      "reason": "Record(BlockPos/Direction/uK/double/int/boolean/BlockPos/Direction) 共 8 字段。两个候选均为工具类非 Record；official26 中无任何 8 字段 Record 含此字段签名。可能为我方版本新增记录。"
+    }
+  ]
+}

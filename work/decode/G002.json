@@ -1,0 +1,27 @@
+{
+  "batch": "G002",
+  "results": {
+    "up": {
+      "identity": "Stealer",
+      "kind": "module",
+      "conf": "A",
+      "evidence": "imports完全一致：EquipmentSlot/AxeItem/BowItem/CrossbowItem/FishingRodItem/ShovelItem/StandingAndWallBlockItem/ServerboundInteractPacket/ServerboundAttackPacket；引用ClickSlotUtils(混淆为ul)和Hidden0；jac=0.304最高；字段数多因混淆膨胀+版本差异",
+      "official_path": "work/official26/com/github/epsilon/modules/impl/player/Stealer.java"
+    },
+    "O": {
+      "identity": "AutoFirework",
+      "kind": "module",
+      "conf": "A",
+      "evidence": "小型模块(673行)；ItemStack字段(previousItem)+int计数器(useDelayCounter/switchDelayCounter/cooldownCounter)；@yE注解事件处理方法y(dR)=onTick；方法b(Object[])=onEnable重置状态；jac=0.25最高；无GUI相关导入",
+      "official_path": "work/official26/com/github/epsilon/modules/impl/player/AutoFirework.java"
+    },
+    "G": {
+      "identity": "ESP2D",
+      "kind": "module",
+      "conf": "A-",
+      "evidence": "LivingEntity目标b+float q(透明度)+DM Q(ColorSetting)；Vec3/AABB/BlockPos.Mutable用于2D渲染；@yE渲染事件yi=Render2DEvent；d方法遍历列表找最近distanceToSqr+getY；color字段映射玩家/生物/怪物；混淆致2138行(vs官方92行后字段)膨胀严重；jac=0.2最高",
+      "official_path": "work/official26/com/github/epsilon/modules/impl/render/ESP2D.java"
+    }
+  },
+  "unident": []
+}

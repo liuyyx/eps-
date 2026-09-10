@@ -1,0 +1,27 @@
+{
+  "batch": "G014",
+  "results": {
+    "dC": {
+      "identity": "TtfFontLoader",
+      "kind": "class",
+      "conf": "A-",
+      "evidence": "imports Path/Identifier/LinkedHashSet/Map均指向字体加载；字段Path i, Map<String,Path> z为字体路径缓存；X2 V为字体渲染相关；volatile nK y/k/f为字体对象；方法n(Object[])做路径字符串处理；与官方TtfFontLoader的IFontLoader实现+TtfFontFile依赖一致",
+      "official_path": "work/official26/com/github/epsilon/graphics/text/ttf/TtfFontLoader.java"
+    },
+    "gW": {
+      "identity": "CategoryRailPanel",
+      "kind": "class",
+      "conf": "A",
+      "evidence": "常量精确对应：w=38.0f==CATEGORY_ITEM_SPACING, r='\\ue8b8'==SETTINGS_ICON, L=34.0f==CATEGORY_ITEM_HEIGHT, u=40.0f==CATEGORY_START_Y, T=2.0f==RAIL_ICON_CENTER_X_OFFSET；lambda名lambda$buildCategoryItem$0直接命中；imports GuiGraphicsExtractor+MouseButtonEvent与官方一致；多个_E字段对应Animation/UiRect",
+      "official_path": "work/official26/com/github/epsilon/gui/panel/view/CategoryRailPanel.java"
+    },
+    "gz": {
+      "identity": "TextureCacheHolder",
+      "kind": "class",
+      "conf": "A-",
+      "evidence": "imports GPU资源(GpuBufferSlice/RenderPass/GpuSampler/GpuTextureView/Identifier)指向GPU纹理管理；方法addRotatedRoundedTexture接收8个Color+坐标参数，渲染圆角纹理；Map<Object,ik> U为纹理缓存映射；与官方TextureCacheHolder的Map<Identifier,LuminTexture>纹理缓存功能一致；行数膨胀因我方版本增加了复杂渲染逻辑",
+      "official_path": "work/official26/com/github/epsilon/holders/TextureCacheHolder.java"
+    }
+  },
+  "unident": []
+}

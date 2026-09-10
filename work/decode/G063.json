@@ -1,0 +1,25 @@
+{
+  "batch": "G063",
+  "results": {
+    "i5": {
+      "identity": "Scaffold.RaytraceMode",
+      "kind": "enum",
+      "conf": "A",
+      "evidence": "枚举恰好2值Normal/Strict，与Scaffold.java:524-526的private enum RaytraceMode { Normal, Strict }完全一致；枚举静态初始化顺序(Normal=0, Strict=1)与我方一致；仅被Scaffold的raytrace EnumSetting引用",
+      "official_path": "com/github/epsilon/modules/impl/movement/Scaffold.java:524-527"
+    },
+    "ia": {
+      "identity": "ClientSetting.GuiMode",
+      "kind": "enum_bootstrap",
+      "conf": "A-",
+      "evidence": "ia为switch table bootstrap类：静态int[]查找表+k数组+bridge方法+v()。引用iU枚举(Dropdown/Panel共2值)做ordinal索引。官方ClientSetting.GuiMode枚举同为Dropdown(ordinal 0)和Panel(ordinal 1)；官方switch用GuiMode ordinal做Screen选择(Dropdown→DropdownScreen, Panel→PanelScreen)与ia的switch table用途吻合。非直接类名匹配，结构等价",
+      "official_path": "com/github/epsilon/modules/impl/ClientSetting.java:133-135"
+    }
+  },
+  "unident": [
+    {
+      "obf": "i7",
+      "reason": "Record(Module e + String×3 + float×3) 74行。首字段为Module类型(e)，后续3个String+3个float为模块显示元数据(名称/信息/keybind + 宽度)。官方26.2(2026.8.1)源码中ModuleList的ModuleLine(String×2 + float×6)和RenderRow(Module+ModuleLine+float×2)均不匹配此签名。该Record可能为26.2版本(2026.10.7)新增内部类型或模块列表重构产物"
+    }
+  ]
+}

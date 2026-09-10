@@ -1,0 +1,18 @@
+{
+  "batch": "G023",
+  "results": {},
+  "unident": [
+    {
+      "obf": "lG",
+      "reason": "根包 com.github.epsilon 类，1657行，extends l8（混淆基类），有 DynamicTexture、smtc.W/O 字段、drawIconText/drawMarqueeTitle/updateCoverTexture 方法、42.0f 等 UI 尺寸常量。4个候选均在子包（UiTree=树数据结构，TtfFontLoader=字体加载器，TtfFontFile=字体文件，TextureCacheHolder=纹理缓存），结构完全不匹配。"
+    },
+    {
+      "obf": "n4",
+      "reason": "根包类，1131行，文本输入字段，有 _E(Animation)+lH(Easing) 字段、cursor/String 管理、CharacterEvent 处理、insertText/clampToMaxLength/handleControlShortcut 方法。候选 Constants（4静态字段）、TtfGlyphAtlas（GPU图集）、PanelPopupHost（弹窗管理器）、FriendClientSettingTab（设置标签页）均不匹配。注意官方 ClientSettingTextField 与此类功能高度匹配但不在候选列表中。"
+    },
+    {
+      "obf": "O0",
+      "reason": "根包 AutoCloseable 接口，52行，方法签名用 Object[] 参数 + MouseButtonEvent（v/m/s/M/K/u 方法）。候选 TopBarPanel/MessagePopup/CategoryRailPanel 均为 class（非 interface），PanelPopupHost.Popup 接口使用类型化参数（GuiGraphicsExtractor/UiRenderBatch/UiRect 等）而非 Object[]，结构不匹配。"
+    }
+  ]
+}

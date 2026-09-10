@@ -1,0 +1,25 @@
+{
+  "batch": "G024",
+  "results": {
+    "yn": {
+      "identity": "TtfGlyphAtlas",
+      "kind": "class",
+      "conf": "A",
+      "evidence": "imports GPU纹理类(GpuSampler/GpuTexture/GpuTextureView/CommandEncoder)+AbstractTexture+TextureManager；字段Identifier(textureId)+AtomicInteger(NEXT_TEXTURE_ID)+两处y4=LuminTexture+int X/a=currentX/currentRowHeight；static m/b=SIZE/GLYPH_GUTTER",
+      "official_path": "work/official26/com/github/epsilon/graphics/text/ttf/TtfGlyphAtlas.java"
+    },
+    "_q": {
+      "identity": "RotationUtils",
+      "kind": "util",
+      "conf": "A",
+      "evidence": "全静态类无实例字段；导入Vec3/BlockPos/Direction/Entity/LivingEntity/ClipContext+Constants+Managers；方法语义完全对应：calculate(Vec3方向+距离)、calculate(Vec3+bool)、smoothRotation(OptionInstance速度)、getBlockCenter(Vec3+Direction)、calculateEntityRotation(Entity)、getDirection过滤",
+      "official_path": "work/official26/com/github/epsilon/utils/rotation/RotationUtils.java"
+    }
+  },
+  "unident": [
+    {
+      "obf": "uZ",
+      "reason": "extends u9(Module)的BlockPlace模块，有findBlock/onMotion/BlockPos目标/RotationUtils调用；但BlockPlace在official26(26.2-2026.8.1)中不存在——为我方26.2-2026.10.7新增模块，batch候选中无Module类型"
+    }
+  ]
+}

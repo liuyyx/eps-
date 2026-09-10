@@ -1,0 +1,25 @@
+{
+  "batch": "G005",
+  "results": {
+    "eq": {
+      "identity": "SafeAnchor",
+      "kind": "module",
+      "conf": "B",
+      "evidence": "Dj(DoubleAnchor.Phase枚举)+DM(DoubleSetting×5+range 0-50)+Xn(BoolSetting×5)+XG(IntSetting×5)+DV(ColorSetting)+X0(KeybindSetting)≈27 setting字段；MC导入BlockPos+Direction+BlockHitResult+Vec3+LivingEntity+VoxelShape+BlockState+AABB+InteractionHand+Color与SafeAnchor的锚点放置/碰撞检测/渲染/朝向计算一致；VoxelShape仅出现在SafeAnchor+AStarFollowerNavigator中，结合combat模块→SafeAnchor；D001/D003已交叉验证eq→SafeAnchor(conf B)；26.2 indy混淆导致行数膨胀(802→7527)",
+      "official_path": "work/official26/com/github/epsilon/modules/impl/combat/SafeAnchor.java"
+    },
+    "uv": {
+      "identity": "DoubleAnchor",
+      "kind": "module",
+      "conf": "A",
+      "evidence": "Dj字段为DoubleAnchor.Phase枚举唯一指纹；X0(KeybindSetting)=triggerKey(-1)；XG(IntSetting×3)=detonateSlot/placeCps/chargeCps(min=1,max=9/30/30)；MC导入InteractionHand+Item+BlockHitResult与DoubleAnchor的锚点放置/引爆逻辑一致；super构造函数Category.COMBAT+名称匹配；单事件handler(@yE→PlayerTickEvent.Pre)；D003已验证uv→DoubleAnchor(conf A)；dual_consistent_leads确认0.375",
+      "official_path": "work/official26/com/github/epsilon/modules/impl/combat/DoubleAnchor.java"
+    }
+  },
+  "unident": [
+    {
+      "obf": "u3",
+      "reason": "1601行Module；MC导入BedBlock为唯一特征——全official26模块/工具/混入类中无任何非Mixin类导入BedBlock（BedBlock仅在MixinWebBlock中被@Mixin引用）；Xn(BoolSetting)+DM(DoubleSetting×2)仅2-3个setting；方法X通过8方向偏移(0/±1)遍历BlockPos.MutableBlockPos检查坐标阈值0.0/0.3/0.7与BedBlock；事件handler参数类型为nj(非标准PlayerTickEvent子类)；四个候选(NoSlow/AutoTool/AutoFirework/ESP2D)均无BedBlock导入且setting数量/事件类型不符；此前D003/C053/F005已独立判定为unident——26.2新增模块，无26.2 src对应"
+    }
+  ]
+}

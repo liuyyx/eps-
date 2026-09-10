@@ -1,0 +1,32 @@
+{
+  "batch": "G012",
+  "results": {
+    "eV": {
+      "identity": "Stealer",
+      "kind": "module",
+      "conf": "A-",
+      "evidence": "字段类型强对应：eV有Random F和List<String> H，官方Stealer导入Random和List<String>（物品/随机逻辑）；eV 1230行+复杂event handler w(dR)与Stealer的复杂容器交互逻辑一致；多状态标志位(E,x,q)匹配stealer的多tab/延迟/计数状态",
+      "official_path": "work/official26/com/github/epsilon/modules/impl/player/Stealer.java"
+    },
+    "o": {
+      "identity": "Stuck",
+      "kind": "module",
+      "conf": "B",
+      "evidence": "导入LocalPlayer，event handler中检查player存在→isShiftKeyDown()→setDeltaMovement(x, y+0.04, z)修改玩家速度；281行结构简洁匹配Stuck的~75行；Stuck属Category.MOVEMENT涉及玩家位置/速度操作；static block解密模块名+类别与Stuck一致；但+0.04增量非Stuck NoPacket冻结逻辑的直接对应",
+      "official_path": "work/official26/com/github/epsilon/modules/impl/movement/Stuck.java"
+    },
+    "u0": {
+      "identity": "unident",
+      "kind": "module",
+      "conf": "low",
+      "evidence": "u0继承e(Module)，而Watermark继承HudModule，继承体系不匹配；u0有7+设置(DM双精度/DV颜色/Xn布尔/Dh矩形/Supplier<y_>)远超Watermark的2个设置；无其他候选可匹配此复杂度",
+      "official_path": ""
+    }
+  },
+  "unident": [
+    {
+      "obf": "u0",
+      "reason": "u0的7+设置字段(DM/DV/Xn/Dh/Supplier<y_>)、Color字段、矩形渲染逻辑与Watermark的HudModule基类+仅2设置(scale,color)完全不匹配；继承体系不同(Module vs HudModule)；Timer仅1设置(DoubleSetting)也不匹配；无法从候选中确定身份"
+    }
+  ]
+}

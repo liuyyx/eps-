@@ -1,0 +1,25 @@
+{
+ "batch": "F013",
+ "results": {
+  "eV": {
+   "identity": "AutoKouZi",
+   "kind": "module",
+   "conf": "B",
+   "evidence": "无MC导入→纯文本/状态机模块；字段XG(IntSetting)+Dx<uO>(StringSetting)+List<String>+Random+int状态计数器匹配AutoKouZi的mode(EnumSetting)+delay(IntSetting)+customPath(StringSetting)+allSentences(List)+sentSentences(Set)+lastSendTime(long)+Random；1229行膨胀因indy+混淆(state机多次递增/递减/重置)，src 81行；class_map无冲突；u0同批被确认为CrystalChams，AutoKouZi为同批PLAYER模块",
+   "official_path": "work/official26/com/github/epsilon/modules/impl/player/AutoKouZi.java"
+  },
+  "u0": {
+   "identity": "CrystalChams",
+   "kind": "module",
+   "conf": "B",
+   "evidence": "Color值唯一匹配：u0构造器new Color(160,120,255,70)≡sideColor, new Color(230,220,255,220)≡lineColor；import java.awt.Color唯一；DM(DoubleSetting)×4匹配scale(1.0,0.1,3.0,0.05)+lineWidth(2.0,0.5,5.0,0.5)；11字段→26.2扩展版(多BoolSetting渲染开关+Supplier<y_>渲染缓存)，src 4字段；Dh=矩形绘制辅助；zR=Render3DEvent(混淆名)；Module继承确认",
+   "official_path": "work/official26/com/github/epsilon/modules/impl/render/CrystalChams.java"
+  }
+ },
+ "unident": [
+  {
+   "obf": "v",
+   "reason": "672行Module，5字段（long a/boolean x/Dx<uy> EnumSetting/XG H+XG k IntSetting），t(dN)含counter+timestamp冷却逻辑，v(yi)含KeyboardInputEvent处理；同时使用AttackEntityEvent+KeyboardInputEvent的官方模块仅Criticals(113行，3设置+2字段，类型完全不同)；uy枚举值StopSprinting/Backwards/NoForwards在整个26.2源码中无任何对应；之前5次尝试(C016/D006/G013/C059/D005)均未能确认；疑26.2 October新增模块(如KeepSprint/SprintReset的大幅扩展版)"
+  }
+ ]
+}

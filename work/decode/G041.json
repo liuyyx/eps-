@@ -1,0 +1,25 @@
+{
+  "batch": "G041",
+  "results": {
+    "dc": {
+      "identity": "AddonClientSettingTab.AddonRowEntry",
+      "kind": "record",
+      "conf": "A",
+      "evidence": "Record 2字段(String yb + ih yy)。ih = UiRect(4-float record含contains/inset方法)。official26 AddonClientSettingTab.java:596定义private record AddonRowEntry(String addonId, UiRect bounds)，字段类型/数量完全一致。obfuscator将inner record提取为top-level class。",
+      "official_path": "work/official26/com/github/epsilon/gui/panel/view/settings/AddonClientSettingTab.java"
+    },
+    "Dd": {
+      "identity": "UiTree.RectGradientNode",
+      "kind": "record",
+      "conf": "A",
+      "evidence": "Record 8字段(4 float v2/vh/v_/vI + 4 Color wW/ww/wg/wT)，implements _Q(=UiTree.UiNode sealed interface)。official26 UiTree.java:733定义record RectGradientNode(float x, float y, float width, float height, Color topLeft, Color bottomLeft, Color bottomRight, Color topRight) implements UiNode，8字段类型/数量完全匹配。_Q permits列表含Dd(=RectGradientNode)。",
+      "official_path": "work/official26/com/github/epsilon/gui/lib/UiTree.java"
+    }
+  },
+  "unident": [
+    {
+      "obf": "DA",
+      "reason": "non-final class, static final int[] G + static block通过try-catch映射5个值(1-5)到数组索引。仅import hi。pattern为obfuscator生成的ordinal/switch映射合成类，official26中无任何class含匹配的static int[]字段+5值初始化模式。C003/D061均无法识别，判定为合成类不可映射。"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "batch": "G055",
+  "results": {
+    "gA": {
+      "identity": "MD3Theme",
+      "kind": "class",
+      "conf": "A",
+      "evidence": "约28个static Color字段(SHADOW/SURFACE/PRIMARY等)、约25个float常量(SWITCH_WIDTH=26/SECTION_GAP=3等)、Color F(Color,Color,float)=lerp、void w()=syncFromSettings(Color赋值)、boolean w()=isLightTheme、o(float)=filledFieldSurface(theme-aware hover)、K(boolean,float)=filledFieldIndicator、P(float)=switchTrack、V(boolean)返回静态Color、R(float,float)返回带透明度的Color、a(Object[])返回1+x*0.1=switchTrackOutlineWidth、T()返回固定Color=TEXT_SECONDARY。字段类型序列/方法签名/语义完全对应",
+      "official_path": "com/github/epsilon/gui/theme/MD3Theme.java"
+    },
+    "gb": {
+      "identity": "PreparedBatch",
+      "kind": "record",
+      "conf": "A",
+      "evidence": "record字段: RenderPipeline zj + _X gl。官方PreparedBatch: RenderPipeline pipeline + RendererBundle renderers。_X=RendererBundle(AutoCloseable/3字段/静态工厂方法)。record结构完全一致；gb是Render2DScheduler的private inner record，decompile后成为top-level class",
+      "official_path": "com/github/epsilon/graphics/schedulers/render2d/Render2DScheduler.java:734"
+    }
+  },
+  "unident": [
+    {
+      "obf": "ga",
+      "reason": "2值enum(Backwards/Centered)在官方26.2-2026.8.1源码中无匹配。搜索全部枚举定义和EnumSetting使用点均未找到语义对应的enum，可能为26.10新增"
+    }
+  ]
+}

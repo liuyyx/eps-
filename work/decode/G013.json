@@ -1,0 +1,18 @@
+{
+  "batch": "G013",
+  "results": {},
+  "unident": [
+    {
+      "obf": "ua",
+      "reason": "811行，10+字段（Matrix4f×2, Vec3, DoubleSetting, IntSetting, Dx<ga>, Xn×3, boolean），方法处理CameraRenderState/Matrix4fc/Vec3渲染逻辑。候选Watermark是HudModule非Module，Timer/Stuck/Stealer字段类型和数量均不匹配，无任何对应信号。"
+    },
+    {
+      "obf": "uG",
+      "reason": "971行，仅boolean D+int K字段，无可见构造器初始化。方法C检查LocalPlayer sprint状态并toggleSprinting(→false)，方法p含计数器逻辑（比较到3次）和protected b()重置int和boolean。候选Stealer无sprint逻辑，Stuck含packet操作无计数器，Timer结构完全不符。"
+    },
+    {
+      "obf": "v",
+      "reason": "673行，5字段（long a, boolean x, Dx<uy> t, XG H+XG k），方法t含计数器阈值比较和时间戳冷却逻辑（currentTimeMillis差值）。候选Timer仅DoubleSetting multiplier极简结构不符；Stealer含大量Item类型导入无对应；Stuck含EnumSetting和packet操作无时间冷却。"
+    }
+  ]
+}

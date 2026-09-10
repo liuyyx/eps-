@@ -1,0 +1,25 @@
+{
+  "batch": "G064",
+  "results": {
+    "ib": {
+      "identity": "SettingsListPanel",
+      "kind": "class",
+      "conf": "A",
+      "evidence": "extends iN(=AbstractDropdownPanel)；构造器(String, uT=TranslateComponent, String, int, List<Dl<?>>=List<Setting<?>>)完全匹配 src SettingsListPanel(String id, String title, String icon, int panelIndex, List<Setting<?>> settings)；字段 lE=SettingsContent 对应 src settingsContent；导入 DF(UiTextMetrics)+lE(SettingsContent)+uT(TranslateComponent)+Dl(Setting) 与 src SettingsListPanel 的依赖一致",
+      "official_path": "work/official26/com/github/epsilon/gui/dropdown/component/SettingsListPanel.java"
+    },
+    "id": {
+      "identity": "AddonDropdownPanel",
+      "kind": "class",
+      "conf": "A",
+      "evidence": "extends iN(=AbstractDropdownPanel)；float常量精确匹配: y=4.0f=GAP, G=38.0f=INFO_HEIGHT, F=28.0f=ADDON_ROW_HEIGHT, x=6.0f=PADDING；字段 iH=EpsilonAddon(已确认) J 对应 src lastAddon；List<zc<?>>=List<SettingWidget<?>> 对应 src widgets；String L/float V/int C 对应 selectedAddonId/cachedWidgetsHeight/cachedWidgetsHeightFrameId",
+      "official_path": "work/official26/com/github/epsilon/gui/dropdown/component/AddonDropdownPanel.java"
+    }
+  },
+  "unident": [
+    {
+      "obf": "iB",
+      "reason": "94行独立类(非iN子类)，字段 List<_Q> f + boolean B + static int A。_Q为26.2新增sealed接口(30+record实现)，官方src无_Q定义。DH record同样结构(List<_Q>+boolean)也未识别。iB含工厂方法P/B/h和CallSite桥接方法，疑为26.2新增的渲染管线/树构建结果类型，无src可对照"
+    }
+  ]
+}

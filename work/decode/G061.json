@@ -1,0 +1,22 @@
+{
+  "batch": "G061",
+  "results": {
+    "gY": {
+      "identity": "PlayerAlarms.RingState",
+      "kind": "class",
+      "conf": "A",
+      "evidence": "package-private inner class; 字段序列 int ticks(int s), int ringsLeft(int t), boolean active(boolean n) 完全对应; private无参构造器匹配; 14行简洁类体; 被 PlayerAlarms 的 5 个 RingState 实例字段(joinRing/leaveRing/enterRDRing/leaveRDRing/gamemodeRing)引用; resetRingState/startRing/handleRing 方法直接操作 ticks/ringsLeft/active 三字段",
+      "official_path": "work/official26/com/github/epsilon/modules/impl/player/PlayerAlarms.java:385"
+    }
+  },
+  "unident": [
+    {
+      "obf": "gu",
+      "reason": "237行重度混淆类; @SerializedName(\"properties\")在zl[]字段上(zl为name/value二字段DTO); z(String)方法遍历properties按名称查找; static long[]a/Integer[]b为字符串解密常量表; hi/Dl引用为核心混淆框架; official26无任何类具有SerializedNamed properties数组+name-value查找模式; ConfigHolder用JsonObject手动序列化非@SerializedName; 可能为我方版本新增的配置序列化容器或第三方库类"
+    },
+    {
+      "obf": "gX",
+      "reason": "15行极简DTO; @SerializedName(\"url\")在public String字段上; 无任何其他字段/方法/extends; official26全部源码无任何类含url字段或相似单String DTO结构; 可能为我方版本新增的URL数据传输类或第三方库类"
+    }
+  ]
+}

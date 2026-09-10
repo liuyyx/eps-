@@ -1,0 +1,25 @@
+{
+  "batch": "G032",
+  "results": {
+    "_i": {
+      "identity": "PopChams",
+      "kind": "class",
+      "conf": "A",
+      "evidence": "final class extends RemotePlayer; imports d9(Render3DEvent)+uz(PopChams)+yL(WalkAnimationStateAccessor); 构造器(uz,Player)创建ClientLevel+GameProfile并复制WalkAnimationState/位置/旋转/属性/InteractionHand，与PopChams假人实体完全同构; belowNameDisplay()=null; 392行",
+      "official_path": "work/official26/com/github/epsilon/modules/impl/render/PopChams.java"
+    },
+    "lp": {
+      "identity": "TargetHUD",
+      "kind": "hudmodule",
+      "conf": "A",
+      "evidence": "extends l8(Module/HudModule); 字段LivingEntity w=渲染目标; Supplier<_j>提供颜色; 大量float常量(160.0/5.0/4.0/1.25/0.9/36.0/8.0/16.0/12.0/10.0/6.0/1.0)=HUD面板布局尺寸; L(Object[])绘制十字准星+矩形面板; W(Object[])做float插值动画; S()override返回boolean(可见性); V(Object[])返回LivingEntity(获取目标); 1065行与src TargetHUD 26.2扩展版匹配",
+      "official_path": "work/official26/com/github/epsilon/elements/impl/TargetHUD.java"
+    }
+  },
+  "unident": [
+    {
+      "obf": "u5",
+      "reason": "Record 11组件(Player/Vec3×2/AABB/float/boolean×3/im/Difficulty/uK); 26.2新增类型im和uK无法映射到已知类; 官方26.1.2 src无匹配Record; 可能是战斗状态快照或伤害计算中间数据; C053/D010均确认无匹配"
+    }
+  ]
+}

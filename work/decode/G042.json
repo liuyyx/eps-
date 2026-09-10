@@ -1,0 +1,22 @@
+{
+  "batch": "G042",
+  "results": {
+    "DE": {
+      "identity": "PanelElements",
+      "kind": "util",
+      "conf": "A-",
+      "evidence": "常量 k=9.0f=ROW_LABEL_INSET, S=20.0f=ICON_BUTTON_SIZE 完全匹配；静态工具类+private构造；K(zU,ih,float,float)=buildRowSurface(scope,bounds,hover), A(ih)=rowLabelX(bounds)=x+9.0f, n(ih,float,float)=alignTrailing(bounds,w,h)=right-5.0f-w居中, K(zU,ih,boolean,float)=buildFilledField→Ob(=FilledFieldColors)返回text/caret/indicator三色(含new Color(0,0,0,0)透明), d(zU,_j,ih,String,float,Color,Color,String,float,nK)=buildAssistChip(scope,tr,renderer,label,scale,bg,fg,trailIcon,trailScale,trailFont), Q(zU,_j,ih,String,float,Color,float)=buildIconButton(scope,tr,bounds,label,scale,tone,hover), Q(ih,float)=measureAssistChipBounds(tr,row,label,scale,...)返回UiRect；结构与功能完全对应",
+      "official_path": "work/official26/com/github/epsilon/gui/panel/component/PanelElements.java"
+    }
+  },
+  "unident": [
+    {
+      "obf": "De",
+      "reason": "52行final包装类，持有i2(渲染器)实例；z(Object[])接受Matrix4f+3float+int执行渲染变换并委托给i2, p(Object[])清理资源；e()为CallSite桥接；src中无对应薄wrapper类；Render2DScheduler.RendererBundle(内部类)结构不同(AutoCloseable+kind/scissor字段)；可能为26.2新增渲染管线封装"
+    },
+    {
+      "obf": "de",
+      "reason": "52行极小类，boolean字段X+static int[]K(2元素)；构造设false, F()设true, l()读取boolean, h(int[])/p()管理静态数组；所有方法经hi.a分发；无MC import,无Color/UiRect/Matrix4f；结构过于通用(单boolean toggle+int[2] storage), src中无匹配类；非编译器生成类(有显式方法体非synthetic)"
+    }
+  ]
+}

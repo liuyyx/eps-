@@ -1,0 +1,25 @@
+{
+  "batch": "G060",
+  "results": {
+    "gU": {
+      "identity": "Render2DCommand.Shadow",
+      "kind": "record",
+      "conf": "A",
+      "evidence": "14字段完全对应: layer(int),sequence(long),bounds(XL→Render2DBounds),scissor(Xu→Render2DScissor),rL→radiusTopLeft,rE→radiusTopRight,r8→radiusBottomRight,rm→radiusBottomLeft,rA→blurRadius,dg(Color)→color,nK→originX,n8→originY,nx→rotationDegrees,zF→(同数)。a()返回y3=Render2DCommandKind(=SHADOW)。g()按rA展开bounds=Shadow.orderingBounds()的blurRadius扩展逻辑。sealed interface yM=Render2DCommand。",
+      "official_path": "com/github/epsilon/graphics/schedulers/render2d/Render2DCommand.java"
+    },
+    "gr": {
+      "identity": "FabricEpsilonAddonEntrypoint",
+      "kind": "interface",
+      "conf": "A-",
+      "evidence": "Os.java中通过gr.class作为Fabric入口点类型检索: FabricLoader.getEntrypointContainers(..., gr.class)。获取后转gr并调用f(Object[])=registerAddon(EpsilonAddonSetupEvent)。官方FabricEpsilonAddonEntrypoint同为单方法接口，方法签名为void registerAddon(EpsilonAddonSetupEvent)。角色完全一致(模组addon入口点)，但参数类型从具体事件改为Object[]属版本演进差异。",
+      "official_path": "com/github/epsilon/fabric/addon/FabricEpsilonAddonEntrypoint.java"
+    }
+  },
+  "unident": [
+    {
+      "obf": "go",
+      "reason": "final class包装DynamicTexture，含resize(J)和destroy(x)方法，被dE.java(视频/屏幕捕获工具类，使用FFmpegFrameGrabber)引用。官方26源码无DynamicTexture包装类，dE/FFmpegFrameGrabber均为26.2-2026.10.7新增功能，official26中不存在对应类。"
+    }
+  ]
+}

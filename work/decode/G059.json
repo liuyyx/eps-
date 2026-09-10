@@ -1,0 +1,18 @@
+{
+  "batch": "G059",
+  "results": {},
+  "unident": [
+    {
+      "obf": "gm",
+      "reason": "571行singleton类(static final gm U)；单一Path W字段；l(Object[])从dD.class ClassLoader getResourceAsStream加载资源→Files.copy到Path；static初始化器解密字符串并构建epsilon配置目录下文件路径。C020曾映射为ConfigHolder(conf:B)，但C065已将vz映射为ConfigHolder(conf:A,5057行,含所有Setting类型imports+Gson+多Path)。gm结构(单Path+资源提取)与ConfigHolder(多Path+Gson+Pattern+1095行)差异显著；official26中无资源部署/提取器类匹配；疑为26.2新增的默认资源提取器类"
+    },
+    {
+      "obf": "gN",
+      "reason": "Record类，7组件：5个double(UV/uf/u3/ub/um)+EntityType<?>+n0类型。n0为渲染顺序枚举(POSITION_DRAG_GRAVITY/GRAVITY_DRAG_POSITION/GRAVITY_POSITION_DRAG)。official26中所有record声明(ModuleLine/RenderRow/EffectInfo/AnimationState/Layout/RenderFrame/RenderEntry/LambdaFactoryInfo/ScissorRect/QuadRenderingInfo/Render2DBounds/各Render2DCommand/PreparedBatch/BatchKey/各Render3DCommand/BlurUniforms/BoxBlurUniforms/FXAAInfo/FilterColor/SandboxInfo/GlyphDescriptor/ColorGlyphFont/EmojiGlyph/ColorGlyphLayer/Table/EpsilonGlyphInfo/GlyphInstance/TtfGlyph)均无5double+EntityType+n0组件序列。疑为26.2新增的实体渲染数据record"
+    },
+    {
+      "obf": "gO",
+      "reason": "22行，extends gk(空基类)，单一Supplier<Boolean>字段+getter。在e9.java中作为可用性条件传入HUD元素构造器(lp/lc/l0/lG)。official26中Setting.Dependency为@FunctionalInterface(boolean check())而非Supplier<Boolean>；e9.java官方版本的HUD元素构造器不接受额外依赖参数；疑为26.2新增的条件包装类(26.2将Setting.Dependency重构为Supplier<Boolean>并引入独立包装)"
+    }
+  ]
+}

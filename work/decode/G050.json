@@ -1,0 +1,18 @@
+{
+  "batch": "G050",
+  "results": {},
+  "unident": [
+    {
+      "obf": "dw",
+      "reason": "Record(float, int, int, boolean, boolean, boolean) 共6字段。无候选(cands为空)；遍历official26所有Record定义(ScissorRect/HoleESP.Hole/InputElement/SelectionRange)均无此字段签名。可能为我方版本新增的数据记录。"
+    },
+    {
+      "obf": "dX",
+      "reason": "HTTP客户端包装类(736行)，含HttpRequest.Builder字段、Consumer<Exception>错误回调、B()返回HttpResponse、构造器接收URL字符串、D()/O()设置header/body，静态调用Op.t(url)/Op.I(url)创建实例。Op是Gson+HttpClient工厂类。official26无任何HTTP客户端/Api类，可能为我方版本新增的网络工具。"
+    },
+    {
+      "obf": "Dy",
+      "reason": "Record(ByteBuffer, int, int, long) 共4字段。无候选(cands为空)；遍历official26所有类均无ByteBuffer+int+int+long的Record定义。可能为我方版本新增的数据记录。"
+    }
+  ]
+}

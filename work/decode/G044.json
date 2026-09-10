@@ -1,0 +1,32 @@
+{
+  "batch": "G044",
+  "results": {
+    "DH": {
+      "identity": "CaptureResult",
+      "kind": "record",
+      "conf": "A-",
+      "evidence": "final Record 两组件: List<_Q> XM + boolean ka; 官方 UiTree.java 内部 record CaptureResult(List<UiNode> nodes, boolean hasActiveAnimations) 字段类型完全对应(List+boolean); 同为 private final inner Record; 虽 CaptureResult 在 gui/lib/UiTree.java 而非顶层包，但字段类型序列 + private Record 修饰符 + 无其他候选(全 src 仅此一个(List,boolean) Record)为决定性信号",
+      "official_path": "work/official26/com/github/epsilon/gui/lib/UiTree.java:773"
+    },
+    "Dh": {
+      "identity": "Render2DBounds",
+      "kind": "record",
+      "conf": "A",
+      "evidence": "Record(float zG,zo,z5,z7) 四组件全 float; K()=z7-zG→width差, z()=z5-zo→height差, z(Dh)取各分量min/max→矩形合并/intersect; 官方 Render2DBounds(float x,y,width,height) right()=x+width, bottom()=y+height, include()取min(x)min(y)max(right)max(bottom); 宽高差+min/max矩形操作为唯一指纹; struct完全一致",
+      "official_path": "work/official26/com/github/epsilon/graphics/schedulers/render2d/Render2DBounds.java"
+    },
+    "DI": {
+      "identity": "unknown",
+      "kind": "class",
+      "conf": "C",
+      "evidence": "8行空类体: 无字段/无方法/无extends/无implements/无注解; 全official26搜索无顶层com.github.epsilon空类匹配; 事件类(AfterRender3DEvent等)已在其他obf中解出; 仅角色推测(编译占位/接口桩)",
+      "official_path": null
+    }
+  },
+  "unident": [
+    {
+      "obf": "DI",
+      "reason": "空类体无任何结构信号; 官方src无同包空类候选; 已排除事件类(yZ/g3/_U/DK/XV); 无法判别"
+    }
+  ]
+}

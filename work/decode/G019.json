@@ -1,0 +1,25 @@
+{
+  "batch": "G019",
+  "results": {
+    "y9": {
+      "identity": "PanelPopupHost",
+      "kind": "class",
+      "conf": "B",
+      "evidence": "AutoCloseable + imports(GuiGraphicsExtractor,CharacterEvent,KeyEvent,MouseButtonEvent)与官方PanelPopupHost完全匹配；行数差异大(3269 vs 139)可能因2个月版本演进或内联辅助类",
+      "official_path": "work/official26/com/github/epsilon/gui/panel/popup/PanelPopupHost.java"
+    },
+    "yK": {
+      "identity": "TextureCacheHolder",
+      "kind": "util",
+      "conf": "B",
+      "evidence": "含static final单例(b≈INSTANCE)、纹理相关字段(TextureTarget, Identifier)、缓存结构(EnumMap)；但官方TextureCacheHolder仅2字段，行数差异大(746 vs 20)，对应度低",
+      "official_path": "work/official26/com/github/epsilon/holders/TextureCacheHolder.java"
+    }
+  },
+  "unident": [
+    {
+      "obf": "yF",
+      "reason": "yF是Record，2字段(PoseStack, InteractionHand)。FindItemResult是Record但3字段(slot,count,maxCount)类型不匹配；InteractionUtils是class非record。两者均不符合yF结构"
+    }
+  ]
+}

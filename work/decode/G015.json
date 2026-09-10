@@ -1,0 +1,18 @@
+{
+  "batch": "G015",
+  "results": {},
+  "unident": [
+    {
+      "obf": "iO",
+      "reason": "Record with 2 fields (Identifier vk, boolean dr), implements X6。4个候选均为普通类（UiTree/TtfFontLoader/TtfFontFile/TextureCacheHolder），无一为Record，类型完全不匹配。"
+    },
+    {
+      "obf": "iZ",
+      "reason": "Record with 9 fields (UUID fz, Identifier cg, String×5, Color×2)。同上4个候选均为普通类，结构/字段数/类型完全不符。"
+    },
+    {
+      "obf": "lx",
+      "reason": "Record with 2 fields (PoseStack es, InteractionHand bu)。候选FindItemResult是Record但字段为3个int；InteractionUtils是普通类含静态工具方法。均不匹配。"
+    }
+  ]
+}

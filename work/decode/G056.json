@@ -1,0 +1,31 @@
+{
+  "batch": "G056",
+  "results": {
+    "gC": {
+      "identity": "unknown",
+      "kind": "class",
+      "conf": "C",
+      "evidence": "混淆框架类: IlilIlIlil.registerNativesForClass((int)19) + Hidden0.special_clinit_19_70(); 私有构造, static final long[] a + Integer[] b 为解密常量表; C(double,double)/H(int,int)/I(float, float)均为混淆后工具方法(decompiler failed); U(MethodHandles.Lookup,String,MethodType,MethodHandle)为invokedynamic bootstrap桥; e[] N 字段为模块引用数组。全为混淆器注入的StringSwitch/内联辅助类, official26中无对应",
+      "official_path": null
+    },
+    "gF": {
+      "identity": "unknown",
+      "kind": "class",
+      "conf": "C",
+      "evidence": "混淆框架类: static int[] x/s + bootstrap桥r(MethodHandles.Lookup,String,MethodType,MethodHandle); 静态初始化块含NoSuchFieldError catch块包围的CallSite赋值(StringSwitch辅助); 引用g7枚举(Left/Center/Right); hi.a('j',...)数组操作为字符串解混淆表。official26中无对应类",
+      "official_path": null
+    },
+    "gg": {
+      "identity": "unknown",
+      "kind": "record",
+      "conf": "C",
+      "evidence": "final Record 5字段, @SerializedName标注: agent(String), username(String), password(String), clientToken(String), requestUser(boolean)。标准Yggdrasil认证请求数据结构,属com.mojang.authlib三方依赖,非com.github.epsilon类; official26仅含Epsilon模块源码,不含auth库类",
+      "official_path": null
+    }
+  },
+  "unident": [
+    {"obf": "gC", "reason": "混淆器注入框架类(StringSwitch/bootstrap辅助),非Epsilon模块; official26无对应"},
+    {"obf": "gF", "reason": "混淆器注入框架类(StringSwitch解混淆表),非Epsilon模块; official26无对应"},
+    {"obf": "gg", "reason": "Yggdrasil认证Record(com.mojang.authlib三方依赖),非Epsilon模块; official26无对应"}
+  ]
+}

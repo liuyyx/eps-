@@ -1,0 +1,27 @@
+{
+  "batch": "G007",
+  "results": {
+    "f": {
+      "identity": "ESP2D",
+      "kind": "module",
+      "conf": "A-",
+      "evidence": "f继承Module(e)，导入Font/GuiGraphicsExtractor/Screen/ContainerScreen/InventoryScreen/ChestMenu/RenderPipeline；字段含Random, Color[], static Color[], DecimalFormat, static int×7；方法C(float[],Color[],float)=颜色插值, Z(Object[])使用getHealth()/getMaxHealth()绘制血量, U(Object[])使用GuiGraphicsExtractor绘制, N(Object,float,float,float,int,int)=GUI绘制(x,y坐标)；构造器(String,vY)=模块名+类别；O='❤'为血量符号。与ESP2D的实体渲染、血条绘制、颜色渐变完全匹配",
+      "official_path": "work/official26/com/github/epsilon/modules/impl/render/ESP2D.java"
+    },
+    "A": {
+      "identity": "AutoTool",
+      "kind": "module",
+      "conf": "A-",
+      "evidence": "A继承Module(e)，导入BlockPos/Block/ClientLevel；字段含Map<BlockPos,Integer>(E,L), List<u9>(d), Dx<OW>(q), i9(B), uK(m), XG(X), static int；方法C(Object[])迭代方块坐标收集至Set, a(dR)标注@yE事件处理遍历BlockPos检测方块状态；构造器中设置swapBack/saveItem/silent/echestSilk等BoolSetting，字段模式匹配AutoTool的swap返回/保存/静默/末影箱丝触逻辑",
+      "official_path": "work/official26/com/github/epsilon/modules/impl/player/AutoTool.java"
+    },
+    "eQ": {
+      "identity": "NoSlow",
+      "kind": "module",
+      "conf": "A-",
+      "evidence": "eQ继承Module(e)，导入ClientLevel/LocalPlayer/BlockPos/Entity/ClipContext/SlabBlock/BlockState/SlabType/Vec3；字段含5个boolean(P,q,V,w,C), 2个XG设置, 2个_Z, 2个uK；方法q(Object[])使用ClipContext射线追踪, 遍历x/z∈[-1,1]检查isAir()状态, 用getDeltaMovement()计算玩家速度向量, 找到玩家下方方块(y-1)；ClipContext+SlabBlock+空气检测=防止减速的碰撞分析",
+      "official_path": "work/official26/com/github/epsilon/modules/impl/movement/NoSlow.java"
+    }
+  },
+  "unident": []
+}

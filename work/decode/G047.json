@@ -1,0 +1,27 @@
+{
+  "batch": "G047",
+  "results": {
+    "dM": {
+      "identity": "UiTree.ButtonElement",
+      "kind": "record",
+      "conf": "A",
+      "evidence": "6字段类型序列完全一致：(ih→UiRect bounds, float→radius, Color→background, String→label, float→labelScale, Color→labelColor)。zU.java直接new dM(ih,float,Color,String,float,Color)构造后提取bounds/label字段，字段语义完全对应ButtonElement(UiRect bounds, float radius, Color background, String label, float labelScale, Color labelColor)",
+      "official_path": "work/official26/com/github/epsilon/gui/lib/UiTree.java:766"
+    },
+    "Dq": {
+      "identity": "Follower.DirectionInput",
+      "kind": "record",
+      "conf": "A",
+      "evidence": "4个boolean字段类型序列一致：(boolean forward→qa, boolean back→QB, boolean left→QW, boolean right→QQ)。private记录在Follower内，e1.java中Follower相关代码使用Dq控制方向输入(8种方向组合构造)。Official: private record DirectionInput(boolean forward, boolean back, boolean left, boolean right)",
+      "official_path": "work/official26/com/github/epsilon/modules/impl/movement/follower/Follower.java:186"
+    },
+    "dq": {
+      "identity": "Render2DTexture.LuminRef",
+      "kind": "record",
+      "conf": "A",
+      "evidence": "单字段y4(LuminTexture)记录+实现X6(Render2DTexture sealed interface)。class_map确认y4→LuminTexture。X6是sealed interface permits iO(dq→IdentifierRef)和dq(LuminRef)，与官方Render2DTexture结构完全一致：record LuminRef(LuminTexture texture) implements Render2DTexture",
+      "official_path": "work/official26/com/github/epsilon/graphics/schedulers/render2d/Render2DTexture.java:14"
+    }
+  },
+  "unident": []
+}

@@ -1,0 +1,18 @@
+{
+  "batch": "G051",
+  "results": {},
+  "unident": [
+    {
+      "obf": "Dz",
+      "reason": "final class extends Exception，仅一个构造器Dz(String)。官方26.2源码中无自定义Exception子类（仅使用标准IllegalArgumentException/IllegalStateException/RuntimeException/JsonParseException），无法匹配。"
+    },
+    {
+      "obf": "dZ",
+      "reason": "编译器生成的Difficulty枚举switch map辅助类（static int[] y + switch map初始化块），用于Difficulty枚举的switch语义映射。此类为Kotlin编译器合成产物，官方源码中不作为独立类存在。"
+    },
+    {
+      "obf": "eD",
+      "reason": "extends eh（Module中间基类），1663行渲染模块，含3个DV(ColorSetting)字段P/z/N、2个Dx<l3>/<iX>(EnumSetting)字段、Supplier<_j> D、Map<e,dl> m、Color静态字段n/C、gradient渲染方法r(Object[])/Z(Object[])及@DeltaTracker渲染主方法e(Object[])。候选渲染模块（Chams/CrystalChams/Shaders/ESP2D/PopChams等）的设置谱、字段结构及方法签名均无法逐项对应；eh中间基类在26.1.2源码中无对应，疑26.2新增模块。"
+    }
+  ]
+}

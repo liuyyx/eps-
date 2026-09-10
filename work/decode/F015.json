@@ -1,0 +1,22 @@
+{
+  "batch": "F015",
+  "results": {
+    "gW": {
+      "identity": "CategoryRailPanel",
+      "kind": "class",
+      "conf": "A",
+      "evidence": "5个常量逐一对应：L=34.0f=CATEGORY_ITEM_HEIGHT, w=38.0f=CATEGORY_ITEM_SPACING, u=40.0f=CATEGORY_START_Y, T=2.0f=RAIL_ICON_CENTER_X_OFFSET, r='\\ue8b8'=SETTINGS_ICON；方法lambda$buildCategoryItem$0与官方buildCategoryItem渲染逻辑一致；混淆膨胀来自hi.a字符串/数字加密和控制流平坦化，核心字段与渲染流程完全匹配",
+      "official_path": "work/official26/com/github/epsilon/gui/panel/view/CategoryRailPanel.java"
+    }
+  },
+  "unident": [
+    {
+      "obf": "gz",
+      "reason": "gz是2337行的2D GPU纹理渲染器(实现_A接口，导入GpuBufferSlice/RenderPass/GpuSampler/GpuTextureView)，所有候选官方类(TopBarPanel 18行/MessagePopup 103行/CategoryRailPanel 289行/PanelPopupHost 187行)规模远小且无GPU导入，无匹配项"
+    },
+    {
+      "obf": "iO",
+      "reason": "iO是49行的Record类，仅含Identifier vk和boolean dr两个字段，所有候选官方类(UiTree 834行/TtfFontLoader 327行/TtfFontFile 144行/TextureCacheHolder 25行)结构完全不同且规模差异过大，无匹配项"
+    }
+  ]
+}

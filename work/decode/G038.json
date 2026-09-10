@@ -1,0 +1,22 @@
+{
+  "batch": "G038",
+  "results": {
+    "d0": {
+      "identity": "ModuleHolder",
+      "kind": "class",
+      "conf": "A",
+      "evidence": "单例模式(public static d0 l = ModuleHolder.INSTANCE); List<l8>=List<Module>字段; 方法n(Object[])调用add添加模块; 方法D(Object[])按Class查找模块返回l8; 方法e(Object[])遍历列表用ToIntFunction排序取最优; 静态初始化块创建singleton并调用hi.a注册; l8=Module(已确认于G008); 官方ModuleHolder具有完全相同的结构: INSTANCE单例+List<Module> modules+addModule+getModules",
+      "official_path": "work/official26/com/github/epsilon/holders/ModuleHolder.java"
+    }
+  },
+  "unident": [
+    {
+      "obf": "D1",
+      "reason": "391行内部计时包装器; 7个long时间戳字段+3个boolean状态字段+final eP引用(Module); 构造器D1(eP)初始化所有字段为0/false; 方法g()重置全部字段; 方法B(Object[])执行时间戳比较和状态转换逻辑; 仅被eP(疑似战斗模块)使用(new D1(this)×2); 官方26.2-2026.8.1中无对应独立计时类; TimerUtils仅有startTime一个字段不匹配; 26.2新增内部计时机制"
+    },
+    {
+      "obf": "D4",
+      "reason": "20行简单Gson DTO; @SerializedName(\"id\") String R + @SerializedName(\"name\") String J; 私有构造器; 与已识别的_k和yj(均为26.2新增Gson DTO)结构完全相同(id+name字段); 官方26.2-2026.8.1中无任何@SerializedName注解类; 26.2新增"
+    }
+  ]
+}

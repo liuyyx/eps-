@@ -1,0 +1,22 @@
+{
+ "batch": "G058",
+ "results": {
+  "gj": {
+   "identity": "Render2DCommand.Text",
+   "kind": "record",
+   "conf": "A",
+   "evidence": "final class extends Record implements yM(=Render2DCommand); 13字段序列: int layer/long sequence/Render2DBounds bounds/Render2DScissor scissor/String text/float x/float y/float scale/Color color/TtfFontLoader fontLoader/float originX/float originY/float rotationDegrees; kind()返回'j'→TEXT; equals/hashCode/toString用ObjectMethods.bootstrap; 官方Text record字段完全匹配",
+   "official_path": "com/github/epsilon/graphics/schedulers/render2d/Render2DCommand.java"
+  }
+ },
+ "unident": [
+  {
+   "obf": "gk",
+   "reason": "10行空基类，仅protected无参构造函数，无字段无方法。源码无匹配的空基类（Setting有7字段+abstract；IRenderer是接口；各sealed interface不是class）。可能是混淆器生成的合成基类或演进中删除的类"
+  },
+  {
+   "obf": "gL",
+   "reason": "extends gk，21行，单一int字段U+getter D(Object[])。源码IntSetting有min/max/step额外字段，KeybindSetting的int字段含义不同，BoolSetting无int字段。无法确认匹配——可能是混淆器裁剪字段后的包装类型或26.2→26.10演进中出现的新增类"
+  }
+ ]
+}

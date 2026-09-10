@@ -1,0 +1,18 @@
+{
+  "batch": "G067",
+  "results": {},
+  "unident": [
+    {
+      "obf": "ik",
+      "reason": "22行极小GPU纹理缓冲包装类; 字段 _t L(LuminRingBuffer)+OV K(GpuTextureView+GpuSampler)+int y+long M; 私有构造器只接受_t; 被gz渲染类引用(Map<Object,ik> U, addRotatedRoundedTexture/addRoundedTexture方法返回ik); 无MC导入; official26无graphics包(TtfTextRenderer/LuminRenderSystem等均不在src中); 无官方类匹配此纹理缓冲包装器结构; 26.2新增渲染基础设施"
+    },
+    {
+      "obf": "im",
+      "reason": "147行SeQL加密框架内部类; 静态long[73]+Integer[73]解密表(仅自身引用, 外部零引用); 4个float字段(u,t,x,U)未被外部使用; R()方法为invokedynamic bridge(返回ConstantCallSite); P()方法含着色器相关浮点计算(distance/scale), 但整个类无MC导入, 无外部调用者; 26.2加密基础设施, 非功能类"
+    },
+    {
+      "obf": "in",
+      "reason": "extends Record implements DynamicUniformStorage.DynamicUniform(528行); 单字段 zw f8(Color+float[]×3+int+float); write(ByteBuffer)方法含复杂switch逻辑, 向Std140Builder写入颜色(÷255→putVec4)和float数组(vertex数据); official26中全部DynamicUniform实现均为graphics/下private inner record(ShaderColors=6Color, ShaderParams=13float, BlurUniforms=11float, FXAAInfo=2float, FilterColor=4float, SandboxInfo=7float, BoxBlurUniforms=3float), 无一匹配zw字段结构; 26.2新增的通用顶点数据uniform record"
+    }
+  ]
+}

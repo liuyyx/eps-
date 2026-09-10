@@ -1,0 +1,27 @@
+{
+ "batch": "G009",
+ "results": {
+  "b": {
+   "identity": "Stuck",
+   "kind": "module",
+   "conf": "A",
+   "evidence": "Module模块(extends e)，294行。1个@yE事件处理方法x(yi)。导入LocalPlayer；事件内检查onGround()、toggle()、读取垂直速度。移动/物理类事件处理与Stuck(阻止玩家移动+检测位置偏移)结构一致。官方Stuck是movement模块。",
+   "official_path": "work/official26/com/github/epsilon/modules/impl/movement/Stuck.java"
+  },
+  "e3": {
+   "identity": "Stealer",
+   "kind": "module",
+   "conf": "A",
+   "evidence": "Module模块(extends e)，323行。@yE(P=-200)低优先级事件处理方法m(_y)；@Override b(Object[])设置显示。导入net.minecraft.client.gui.Gui/IlilIlIlil/Hidden0。事件方法内调用screen()获取GUI实例，模块启用状态检查后处理箱子操作逻辑。GUI交互+箱子操作的结构与Stealer(自动拾取箱子物品)完全吻合。官方Stealer是player模块。",
+   "official_path": "work/official26/com/github/epsilon/modules/impl/player/Stealer.java"
+  },
+  "e5": {
+   "identity": "JumpCircle",
+   "kind": "module",
+   "conf": "A-",
+   "evidence": "Module模块(extends e)，502行。静态字符串数组含5个设置名，与JumpCircle的5个设置(mode/easeOut/rotateSpeed/circleScale/onlySelf)匹配。实例字段：DM(DoubleSetting)=circleScale，DV(ColorSetting)×2=圈颜色+背景色，Dx<n7>(BoolSetting或EnumSetting)=easeOut/onlySelf。n7类型为枚举类型，对应JumpCircle.Mode。2个月版本差导致字段结构略有演进(conf A-)。",
+   "official_path": "work/official26/com/github/epsilon/modules/impl/render/JumpCircle.java"
+  }
+ },
+ "unident": []
+}

@@ -1,0 +1,27 @@
+{
+  "batch": "G004",
+  "results": {
+    "p": {
+      "identity": "NoSlow",
+      "kind": "module",
+      "conf": "A",
+      "evidence": "Constructor Category MOVEMENT; imports BedBlock/Direction/BlockPos/VoxelShape/ServerboundSwingPacket; method r() computes Vec3 positions with Direction offsets (0.42 step); method E() decompilation-failed switch; packet queuing pattern (ConcurrentLinkedQueue<Packet<?>>). Signature: bed-block interaction + direction-calculation + slowdown-cancellation packet pattern",
+      "official_path": "work/official26/com/github/epsilon/modules/impl/movement/NoSlow.java"
+    },
+    "T": {
+      "identity": "ESP2D",
+      "kind": "module",
+      "conf": "A",
+      "evidence": "Constructor has 20+ settings incl. Color (DV q,c), multiple boolean suppliers, int ranges, Dx<g9> enum; imports ArmorStand/ClientboundEntityPositionSyncPacket/ClientboundMoveEntityPacket; method i() intercepts ClientboundSystemChatPacket/ClientboundPlayerChatPacket/ClientboundSoundPacket; method h() schedules packets via Minecraft.execute(); method n() returns Vec3; @yE(P=-200) annotation; package render. Signature: packet-based entity position rendering + color settings + ArmorStand entity tracking",
+      "official_path": "work/official26/com/github/epsilon/modules/impl/render/ESP2D.java"
+    },
+    "e4": {
+      "identity": "AutoTool",
+      "kind": "module",
+      "conf": "A-",
+      "evidence": "Constructor: distance DM range (3.0, 0-10, step 0.1); two XG int settings; Dx<OW> enum; _Z tracker; imports LivingEntity/ItemStack/Vec3/LocalPlayer; method o() iterates inventory slots checking ItemStack validity; method A() returns Vec3 for positioning. Signature: inventory iteration + ItemStack evaluation + entity targeting = tool auto-selection. Version diff: 2583 vs 112 lines (heavy obfuscation/control-flow flattening inflation)",
+      "official_path": "work/official26/com/github/epsilon/modules/impl/player/AutoTool.java"
+    }
+  },
+  "unident": []
+}

@@ -1,0 +1,27 @@
+{
+  "batch": "G001",
+  "results": {
+    "eH": {
+      "identity": "Stuck",
+      "kind": "module",
+      "conf": "A",
+      "evidence": "Packet拦截模块；静态Queue<Packet<ClientGamePacketListener>>X；导入ServerboundMovePlayerPacket/ClientboundPlayerPositionPacket/ClientboundSetEntityMotionPacket/ServerboundInteractPacket/ClientboundPingPacket等移动包；7+@yE事件处理器处理包事件与输入事件；与官方Stuck共享packet取消+输入拦截模式；行数差异（2695 vs 93）源于CFR反编译失败展开的混淆字节码",
+      "official_path": "work/official26/com/github/epsilon/modules/impl/movement/Stuck.java"
+    },
+    "uk": {
+      "identity": "AutoFirework",
+      "kind": "module",
+      "conf": "A",
+      "evidence": "玩家模块；导入InteractionHand/ItemStack/Equippable；lambda检查Equippable.CELESTIAL_FIREWORK物品类型（烟花火箭装备槽位匹配）；多个int/boolean延迟计数器（useDelayCounter/switchDelayCounter/cooldownCounter）；延迟+切回逻辑与官方AutoFirework的Delay/SwitchBack/SwitchDelay/ActivateKey设置吻合",
+      "official_path": "work/official26/com/github/epsilon/modules/impl/player/AutoFirework.java"
+    },
+    "z": {
+      "identity": "KillAura",
+      "kind": "module",
+      "conf": "B",
+      "evidence": "战斗模块；导入MultiPlayerGameMode/LocalPlayer/ServerboundSwingPacket/Entity/LivingEntity/Player；通过bootstrap调用MultiPlayerGameMode.attack(Player,Entity)即mc.gameMode.attack()；发送ServerboundSwingPacket（战斗攻击摇手）；DM类型设置含reach参数（5.0/1.0/6.0/0.05）匹配KillAura的Reach设置；多个Xn布尔设置对应ESP/rotation等选项；940行但仅1个@yE事件处理器（简化版KillAura，无Render3DEvent/TargetRequest等高级功能）；候选列表无KillAura但official26中KillAura.java为唯一匹配",
+      "official_path": "work/official26/com/github/epsilon/modules/impl/combat/KillAura.java"
+    }
+  },
+  "unident": []
+}

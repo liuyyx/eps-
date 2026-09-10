@@ -1,0 +1,22 @@
+{
+ "batch": "F012",
+ "results": {
+  "eC": {
+   "identity": "NoRender",
+   "kind": "module",
+   "conf": "B",
+   "evidence": "922行Module, extends e(Module); static final eC.T(INSTANCE)匹配NoRender.INSTANCE; role_notes mixin证据: MixinCamera去流体雾(FogType.NONE)、MixinClientPacketListener.handleAddEntity实体类型过滤 eC.T.j(entityType)、MixinParticleManager/MixinScreenEffectRe屏幕效果抑制; lambda$new$0(Boolean)调用allChanged()触发LevelExtractor区块重算(26.2新增回调); 30+Xn(BoolSetting)远超src 10个,为26.2大幅扩展; Xe<EntityType<?>>为新增逐实体类型过滤选择器(src无但SettingHost定义entityTypeListSetting); 官方NoRender在26.2-2026.8.1仅10个BoolSetting无逻辑,26.2-2026.10.7扩展为完整渲染抑制模块",
+   "official_path": "work/official26/com/github/epsilon/modules/impl/render/NoRender.java"
+  }
+ },
+ "unident": [
+  {
+   "obf": "ee",
+   "reason": "517行Module, extends e(Module); static final ee.C(INSTANCE); 仅2×Xn(BoolSetting k,m); @EventHandler方法j(dO)+a(dk); dk=DestroyBlockEvent(已确认); dO=Block+BlockPos字段的block事件(26.2新增,疑BlockPlaceEvent); S06-ItemRender mixin证据: MixinBlockItem注入中调用ee.C.N()&&ee.k.z(),与block放置逻辑关联; 构造参数super(ee.b(-94,-6710),vY)含Category; C013判定src无同时仅2个BoolSetting且引用DestroyBlockEvent的模块; D006误判为Phase(Phase实际有EnumSetting+DoubleSetting+IntSetting+4个EventHandler,字段结构严重不符); 为26.2新增block交互模块,官方26.2-2026.8.1无对应"
+  },
+  {
+   "obf": "ep",
+   "reason": "1024行Module, extends e(Module); static final ep.Q(INSTANCE); 导入外部库me.sofurry.iiIllIllli(IlilIlIlil+Hidden0),非net.minecraft标准类; M(Object[])方法取2个Float参数做重度浮点运算+大量switch(duff decompiler恢复); yi=KeyboardInputEvent(已确认); 无可见字段声明(前280+行全为方法体); D006判定src使用KeyboardInputEvent的模块最大仅Scaffold(588行),字段结构均不匹配; 为26.2新增或外部addon模块,官方26.2-2026.8.1无对应"
+  }
+ ]
+}

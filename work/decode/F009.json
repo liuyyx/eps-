@@ -1,0 +1,27 @@
+{
+  "batch": "F009",
+  "results": {
+    "ed": {
+      "identity": "MixinLocalPlayer",
+      "kind": "class",
+      "conf": "B",
+      "evidence": "284行小型模块,extends e, boolean字段t, 2个@yE事件方法, 导入LocalPlayer, 方法l含isMoving()调用及速度值(float 2.0f/0.0f), 与MixinLocalPlayer的movement/slowdown事件处理信号对应; 但候选Jaccard仅0.167, 结构上模块vs mixin类型不同, 低置信",
+      "official_path": "work/official26/com/github/epsilon/mixins/MixinLocalPlayer.java"
+    },
+    "o": {
+      "identity": "MixinLocalPlayer",
+      "kind": "class",
+      "conf": "B",
+      "evidence": "281行小型模块,extends e, boolean字段, 2个@yE事件方法, 导入LocalPlayer, 方法p含isShiftKeyDown()检查及setDeltaMovement操作(垂直+0.04加速度), 与MixinLocalPlayer的shift/slowdown/movement事件信号对应; Jaccard仅0.167, 模块vs mixin类型不同, 低置信",
+      "official_path": "work/official26/com/github/epsilon/mixins/MixinLocalPlayer.java"
+    },
+    "T": {
+      "identity": "MixinPlayer",
+      "kind": "class",
+      "conf": "B",
+      "evidence": "3625行大型模块,extends e, 30+设置字段(Xn/DV/DM/XG/Dx), Deque<dJ>队列, LivingEntity M, Vec3 z, volatile boolean Q, 导入Packet+Clientbound*多种数据包类, i(Object[])方法过滤SystemChat/PlayerChat/Sound数据包, 6个@yE事件处理方法; 与MixinPlayer的Player类事件(travel/attack/knockback)的player实体操作信号部分对应; Jaccard仅0.167, 结构差异大(3625行vs mixin), 低置信",
+      "official_path": "work/official26/com/github/epsilon/mixins/MixinPlayer.java"
+    }
+  },
+  "unident": []
+}

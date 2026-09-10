@@ -1,0 +1,22 @@
+{
+  "batch": "F011",
+  "results": {
+    "c": {
+      "identity": "AutoTool",
+      "kind": "module",
+      "conf": "A",
+      "evidence": "class_map已锁定(A): 977行；核心导入ServerboundSetCarriedItemPacket；@yE事件处理参数dQ(PlayTick)；switch内var4_6<0校验slot范围→发送ServerboundSetCarriedItemPacket(slot)→读Xn(boolean)条件→hi.\u00f2写入slot，与AutoTool.onClientTick(silent模式Packet切换快捷栏)+swapBack逻辑完全匹配；int B=内部slot索引；2个Xn(Boolean)=swapBack+silent",
+      "official_path": "work/official26/com/github/epsilon/modules/impl/player/AutoTool.java"
+    }
+  },
+  "unident": [
+    {
+      "obf": "a",
+      "reason": "无官方对应模块：标题包拦截+正则替换功能(ClientboundSetTitleTextPacket/SubtitleTextPacket/ActionBarTextPacket+Pattern/Matcher)在官方26.2-2026.8.1中不存在；MixinChatComponentHash为Mixin层级不同，Stealer为物品栏模块均不匹配；class_map无a条目；jac最高仅0.091"
+    },
+    {
+      "obf": "e5",
+      "reason": "4字段签名(DM double+2DV color+Dx<n7> list)在官方全部26个render模块中逐一排查无匹配；class_map无e5条目；候选jac最高仅0.091；疑为26.2-2026.10.7版本新增render模块"
+    }
+  ]
+}

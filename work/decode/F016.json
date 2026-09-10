@@ -1,0 +1,22 @@
+{
+  "batch": "F016",
+  "results": {
+    "lz": {
+      "identity": "FindItemResult",
+      "kind": "record",
+      "conf": "A",
+      "evidence": "Record 3 int 字段(pD/p6/pq)对应(slot/count/maxCount)；方法 a()→InteractionHand 对应 getHand()；Y()/x()/N()→boolean 对应 found()/isMainHand()/isOffhand()；构造器(int,int,int)签名一致",
+      "official_path": "work/official26/com/github/epsilon/utils/player/FindItemResult.java"
+    }
+  },
+  "unident": [
+    {
+      "obf": "iZ",
+      "reason": "Record 9 字段(UUID,Identifier,5×String,2×Color)，4 个候选均非 Record 且结构完全不匹配；搜遍官方全部 record 定义无匹配，疑为 10.7 新增类"
+    },
+    {
+      "obf": "lx",
+      "reason": "Record 2 字段(PoseStack,InteractionHand)，4 个候选均非匹配的 Record；搜遍官方全部 record 及 PoseStack/InteractionHand 组合无匹配，疑为 10.7 新增类"
+    }
+  ]
+}

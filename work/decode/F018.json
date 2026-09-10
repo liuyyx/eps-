@@ -1,0 +1,22 @@
+{
+  "batch": "F018",
+  "results": {
+    "OE": {
+      "identity": "TtfFontFile",
+      "kind": "class",
+      "conf": "A",
+      "evidence": "字段结构逐项对应：STBTTFontinfo(fontInfo)、ByteBuffer(fontData)、int(padding)、float(scale)、int(pixelAscent→h)、int(fontHeight→U)；构造器(Identifier,int,int)/(Path,int,int)与官方TtfFontFile完全一致；方法generateGlyph→Y、getAdvance→B/Z、getVisualHeight→N、destroy→T对应",
+      "official_path": "work/official26/com/github/epsilon/graphics/text/ttf/TtfFontFile.java"
+    }
+  },
+  "unident": [
+    {
+      "obf": "Oe",
+      "reason": "Oe是105行的静态工具类，所有字段为i2/long/boolean静态字段，所有方法为static且操作RenderPipeline返回渲染对象(Xi/g0/lZ/lO/De)。4个候选(UiTree/TtfFontLoader/TtfFontFile/TextureCacheHolder)均为实例类且在不同包(com.github.epsilon.gui.lib/graphics.text.ttf/holders)，无一匹配。官方com.github.epsilon根包仅含Constants/EpsilonCommon/BuildConfig三个类，均不匹配。可能是26.2-2026.10.7新增的渲染工具类"
+    },
+    {
+      "obf": "ug",
+      "reason": "ug是67行的Record类，5个字段(String eM, Identifier yD, float e5, List<v0> qW, int QD)，引用另一混淆Record v0(3字段：float/Color/String)。4个候选均非Record类，且官方源码中无任何Record类含Identifier+List<v0>字段组合。可能是26.2-2026.10.7新增的配置/渲染参数Record"
+    }
+  ]
+}

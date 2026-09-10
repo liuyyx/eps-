@@ -1,0 +1,27 @@
+{
+  "batch": "G003",
+  "results": {
+    "H": {
+      "identity": "ESP2D",
+      "kind": "module",
+      "conf": "B",
+      "evidence": "H extends e(Module), is_module=true, 1269行. 导入RenderPipeline/PoseStack/Axis/Player/Vec3/Color/Matrix4f/BlendFunction/DepthStencilState/CompareOp——全套3D渲染API. 方法k():PoseStack translate到玩家位置→Axis rotationDegrees旋转→Xi绘制填充形状→距离衰减颜色→PoseStack restore. 方法k中遍历List<Dp>,每个Dp含Vec3+颜色. List<UUID> h追踪玩家. Dx<_f>/Xn(bool)/DM/DM×2 4个设置. 候选列表唯一render模块ESP2D在render类目. 虽然H用RenderPipeline(3D圆环)而官方ESP2D用RectRenderer(2D框),但render类目+玩家遍历+逐实体颜色渲染的结构模式匹配,官方版本差异可能导致渲染实现不同(26.2-8.1 vs 26.2-10.7).",
+      "official_path": "work/official26/com/github/epsilon/modules/impl/render/ESP2D.java"
+    },
+    "m": {
+      "identity": "ESP2D",
+      "kind": "module",
+      "conf": "B",
+      "evidence": "m extends e(Module), is_module=true, 1525行. 导入BlockParticleOption/ParticleType/Entity/EntityType/LightningBolt/LivingEntity/Level/BlockState. Set<LivingEntity> W, Set<Entity> C追踪实体. 方法D():iterator()遍历LivingEntity,getId()检查,逐实体条件判断和处理. 方法O():遍历List<_v>对象,调用condition检查+remove(). 静态方法L()返回Minecraft实例. _v对象含(Object[] args)方法(类似渲染调用). 有1.0f常量和double精度常量. 候选列表唯一render模块ESP2D. m的实体遍历+逐实体处理+颜色/条件逻辑匹配ESP2D的shouldRender()+getEntityColor()模式.",
+      "official_path": "work/official26/com/github/epsilon/modules/impl/render/ESP2D.java"
+    },
+    "n": {
+      "identity": "NoSlow",
+      "kind": "module",
+      "conf": "A-",
+      "evidence": "n extends e(Module), is_module=true, 203行. 关键:Queue<Packet<?>> l = new ConcurrentLinkedQueue()——与官方NoSlow完全相同的字段类型+初始化方式. 导入Packet/ServerboundUseItemOnPacket/ServerboundUseItemPacket(与NoSlow的packet拦截功能一致). 方法j(dQ):检查instanceof ServerboundUseItemPacket/ServerboundUseItemOnPacket→加入队列或取消. 方法M(Object[]):初始化字段(对应onEnable). 方法b(Object[]):清空队列(对应releasePackets()/onDisable). 方法s(dR):反编译失败(CFR无法解析switch). NoSlow官方也有Queue<Packet<?>> packets、onDisable调用releasePackets()、onPacketSend处理Serverbound* packets. 构造器传vY(category)→movement类目匹配. 包名不同(ServerboundUseItemOnPacket vs ServerboundPongPacket)可能因版本差异(8.1→10.7演进).",
+      "official_path": "work/official26/com/github/epsilon/modules/impl/movement/NoSlow.java"
+    }
+  },
+  "unident": []
+}

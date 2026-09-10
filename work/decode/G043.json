@@ -1,0 +1,22 @@
+{
+ "batch": "G043",
+ "results": {
+  "dg": {
+   "identity": "UiTree.Scope.Stack",
+   "kind": "inner class",
+   "conf": "A",
+   "evidence": "结构逐项对应：字段 ih S=bounds(float4)=UiRect, zU I=this$0=Scope(合成字段), float a=cursor; 构造(dzU,ih)=(Scope,UiRect)与官方Stack(Scope,UiRect)一一对应; x(float4)→ih 返回 new ih(x+w,y+h,w-h3-w4,h-h4) 对应 offset(xOffset,yOffset,widthOffset,heightOffset) 创建偏移 UiRect; s(Object[])→ih 对应 bounds(); r(Object[]) 含 BiConsumer<ih,zU> 回调对应 item(height,BiConsumer) 生成 UiRect+Scope; Q(Object[]) 两个 float 参数对应 item(height) 或 gap(); o(Object[]) 含 float 参数对应 gap(float) 累加 cursor; d(Object[]) 含 Consumer+ih+ih 对应 item(height,Consumer) 调用 pushAbsolute; b(Object[]) 四个 float+Consumer 对应 offset(x,y,w,h,Consumer); c(float,float,BiConsumer) 对应 item(height,gapAfter,BiConsumer)",
+   "official_path": "work/official26/com/github/epsilon/gui/lib/UiTree.java:528"
+  }
+ },
+ "unident": [
+  {
+   "obf": "DF",
+   "reason": "15行接口，4个float返回方法(O(Object[]),q(String,float),X(Object[]),O(float))。UiTextMetrics有4个float方法(textWidth(String,float),textWidth(String,float,TtfFontLoader),textHeight(float),textHeight(float,TtfFontLoader))但Object[]参数与TtfFontLoader参数不对应；其他官方接口(IRenderer/IFontLoader/ITextRenderer/DropdownPanel等)方法签名完全不匹配。可能是26.2-26.10间新增的内部接口，无官方对应。"
+  },
+  {
+   "obf": "Dg",
+   "reason": "473行非Module类，7个实例字段(int L,ih T,boolean e,int n,long p,int m,boolean O)+3个static字段(long[]/Integer[]/long)；构造器初始化默认值(0,-1,0,static c)；Y()含加密switch分派设boolean；L(ih,int,int,int,long)→boolean 含5个字段比较(坐标+时间戳匹配)，返回boolean；方法w(ih,int,int,int,long)设置全部字段。疑似事件或状态过滤类，但official26中无匹配的非Module事件/过滤类（de为Event基类，o9/S06等为具体Event但字段不匹配），无法确定官方身份。"
+  }
+ ]
+}

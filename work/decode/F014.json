@@ -1,0 +1,27 @@
+{
+  "batch": "F014",
+  "results": {
+    "dC": {
+      "identity": "TtfFontLoader",
+      "kind": "class",
+      "conf": "A",
+      "evidence": "字段对应：Identifier资源标识符、Map<String,Path>字体文件缓存、Path字体路径、LinkedHashSet已用导入、Locale语言区域设置；方法结构含CallSite/MethodHandle(invokedynamic用于字符串拼接)；功能为TTF字体加载与缓存，2484行含混淆膨胀",
+      "official_path": "work/official26/com/github/epsilon/graphics/text/ttf/TtfFontLoader.java"
+    },
+    "eD": {
+      "identity": "BPS",
+      "kind": "module",
+      "conf": "A",
+      "evidence": "extends eh(=HudModule)；DV类型字段对应ColorSetting/DoubleSetting/BoolSetting(IntSetting)；Map<e,dl>对应图表面板状态；Supplier<_j>对应textRendererSupplier；Dx<iX>对应枚举状态管理；static Color字段对应预设颜色值；jac=0.5(BPS候选)；e(Object[])=render(DeltaTracker)；1663行含混淆膨胀",
+      "official_path": "work/official26/com/github/epsilon/elements/impl/BPS.java"
+    },
+    "eg": {
+      "identity": "Watermark",
+      "kind": "module",
+      "conf": "A",
+      "evidence": "extends eh(=HudModule)；jac=1.0(Watermark候选)；DV类型字段对应ColorSetting/DoubleSetting；Supplier<_j>对应textRendererSupplier；DM字段(含0.7,0.5,2.0,0.1)对应缩放/颜色动画；e(Object[])=render(DeltaTracker)；lambda$drawText$0对应文本渲染逻辑；static eg o对应INSTANCE；2122行含混淆膨胀",
+      "official_path": "work/official26/com/github/epsilon/elements/impl/Watermark.java"
+    }
+  },
+  "unident": []
+}

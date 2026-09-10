@@ -1,0 +1,18 @@
+{
+  "batch": "G046",
+  "results": {},
+  "unident": [
+    {
+      "obf": "dK",
+      "reason": "10行 @FunctionalInterface，单方法 String A()；TitleSupplier(String get()) 与 LabelSupplier(String get()) 均匹配签名且均为嵌套接口被CFR提取至顶层；无 MC 导入或其他锚点区分二者；与此前 C007 判定一致"
+    },
+    {
+      "obf": "DL",
+      "reason": "record(int, int) 20行；访问器通过 hi.a indy 分发无原始名；官方同型 record 有 ColorGlyphLayer(int glyphId, int paletteIndex) 与 Table(int offset, int length)（均属 SystemEmojiAtlas 嵌套 record）；SelectionRange(int start, int end)（UiTree 嵌套 record）亦为2int；无 MC 导入或附加信号区分具体归属"
+    },
+    {
+      "obf": "dl",
+      "reason": "263行 static final class；静态方法 m(Lookup,String,MethodType,MethodHandle) 创建 ConstantCallSite 为 invokedynamic bootstrap 桥接方法，属 obfuscator 生成的 indy 引导/lambda 类；静态初始化含 XOR 加密 long[]/Integer[]/Long[] 常量池；H(Object[]) 含 clamp+easing 插值逻辑但经 switch 分发混淆；无 MC 导入；与 C025 ia、C045 O1、C075 yg、D053 gF 等已识别的 indy bootstrap 类同属 synthetic 基础设施，无源码等价物"
+    }
+  ]
+}

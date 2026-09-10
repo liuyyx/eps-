@@ -1,0 +1,18 @@
+{
+  "batch": "G028",
+  "results": {},
+  "unident": [
+    {
+      "obf": "zD",
+      "reason": "Record类型(BlockPos,Vec3,Direction)3字段；3个候选(InteractionUtils,RotationUtils,CaptureMarkESP)均为非Record工具/渲染类，Jaccard≤0.273，无结构匹配"
+    },
+    {
+      "obf": "ef",
+      "reason": "extends eh(HudModule)的TAB玩家列表渲染模块；2397行，含UUID→Integer/Long滚动偏移Map、多种颜色/尺寸设置、字体渲染、AbstractClientPlayer/DeltaTracker导入。4个候选(UiTree,TtfFontLoader,TtfFontFile,TextureCacheHolder)均非Module/HudModule子类，功能完全不匹配"
+    },
+    {
+      "obf": "lc",
+      "reason": "extends l8(Module/HudModule)的计分板渲染模块；4493行，含Scoreboard/PlayerTeam/PlayerInfo/TeamColor/Comparator<PlayerInfo>等计分板特有引用，大量颜色和float布局常量。4个候选(EpsilonFontMetrics,UiTree,TtfFontLoader,TtfFontFile)均非Module子类，功能完全不匹配"
+    }
+  ]
+}

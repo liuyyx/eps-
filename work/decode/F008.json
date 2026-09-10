@@ -1,0 +1,32 @@
+{
+  "batch": "F008",
+  "results": {
+    "eS": {
+      "identity": "unident",
+      "kind": "module",
+      "conf": "unident",
+      "evidence": "1183行Module，导入WebBlock/DropExperienceBlock/RedStoneOreBlock/Hidden0/IlilIlIlil。4个候选均为Mixin类且结构极不匹配(Jac≤0.2)：MixinWebBlock仅23行单方法，其余同理。DropExperienceBlock在官方源码中无任何出现，说明eS属于26.2-10.7版本新增或大改模块，官方26.2-8.1无对应。含Xn Boolean+XG Number设置、getInventory/getSelectedSlot调用、int状态字段(X/E)，推断为Nuker类方块破坏模块，但官方候选中无对应身份。",
+      "official_path": null
+    },
+    "q": {
+      "identity": "MixinMinecraft",
+      "kind": "module",
+      "conf": "B",
+      "evidence": "2907行，导入Minecraft/ClientLevel/LocalPlayer/Gui/AbstractContainerScreen/多类BlockEntity/Furnace/BrewingStand/Chest/Smoker+网络包(ServerboundSwingPacket等)。字段含多个DM/Xn/XG/ClientLevel o/HashSet<BlockPos> P,E等大型状态。与官方MixinMinecraft(Minecraft.class)字段规模和导入范围吻合：官方版有ClientLevel/LocalPlayer/Screen/RightClickEvent/StartUseItemEvent等。混淆版额外含BlockEntity容器相关功能属版本演进(10.7新增)。核心对应：同规模Module、相同MC客户端核心类依赖、相同字段类型结构。",
+      "official_path": "work/official26/com/github/epsilon/mixins/MixinMinecraft.java"
+    },
+    "b": {
+      "identity": "InteractionUtils",
+      "kind": "module",
+      "conf": "B",
+      "evidence": "294行Module(extends e)，导入LocalPlayer，方法内调用onGround()/player/lookAngle+设置管理。官方InteractionUtils同样操作LocalPlayer状态和旋转。b为混淆Module形式(构造器super(name, vY))，官方为utils类，属编译后混淆处理差异。功能对应：onGround判断+旋转look计算=InteractionUtils核心逻辑。备选MixinLocalPlayer也操作LocalPlayer但字段结构不匹配。",
+      "official_path": "work/official26/com/github/epsilon/utils/player/InteractionUtils.java"
+    }
+  },
+  "unident": [
+    {
+      "obf": "eS",
+      "reason": "1183行Module，导入WebBlock/DropExperienceBlock/RedStoneOreBlock/Hidden0。4个候选Jac≤0.2均为Mixin类完全不匹配。DropExperienceBlock在官方源码中不存在。推断为版本演进新增模块(如Nuker)，官方26.2-8.1无对应身份。"
+    }
+  ]
+}

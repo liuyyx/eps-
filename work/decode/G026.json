@@ -1,0 +1,25 @@
+{
+  "batch": "G026",
+  "results": {
+    "lN": {
+      "identity": "CaptureMarkESP",
+      "kind": "class",
+      "conf": "A",
+      "evidence": "静态渲染工具类：字段Identifier U+RenderPipeline x完全一致；v(Object[])方法渲染旋转billboard四边形围绕LivingEntity，color wave插值；p()方法做sin波颜色混合；RenderPipeline构建(CompareOp.ALWAYS_PASS, ColorTargetState TRANSLUCENT)与官方完全一致；方法签名(PoseStack, LivingEntity, double×3, Color×2)匹配",
+      "official_path": "work/official26/com/github/epsilon/utils/render/esp/CaptureMarkESP.java"
+    },
+    "uf": {
+      "identity": "BlockHighlight",
+      "kind": "module",
+      "conf": "B",
+      "evidence": "extends u9(Module)；使用ClipContext做射线追踪定位方块；有BlockPos目标+boolean标志字段；T()方法中先检查目标null后raytrace，渲染AABB+Color高亮；与BlockHighlight(射线追踪渲染方块高亮框+颜色)功能语义一致",
+      "official_path": "work/official26/com/github/epsilon/modules/impl/render/BlockHighlight.java"
+    }
+  },
+  "unident": [
+    {
+      "obf": "zs",
+      "reason": "zs是final enum类，6个枚举值(CONTAINER/NORMAL/POISONED/WITHERED/ABSORBING/FROZEN)，每个含8个Identifier字段+static x(Player)方法。4个候选(UiTree/TtfFontLoader/TtfFontFile/TextureCacheHolder)均非enum类型，且官方源码中无任何匹配的枚举定义。该enum可能在26.2-2026.10.7版本中被重构或移除"
+    }
+  ]
+}

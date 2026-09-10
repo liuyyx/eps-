@@ -1,0 +1,27 @@
+{
+  "batch": "G011",
+  "results": {
+    "eP": {
+      "identity": "KillAura",
+      "kind": "module",
+      "conf": "B",
+      "evidence": "单信号：import Gui/LocalPlayer 用于 setXRot/setYRot 旋转操控 + GUI 屏幕检测 + 插值计算方法 X() 表现平滑旋转过渡，13 个设置与 KillAura 的 30+ 设置不完全匹配（版本差异约 2 个月），无逐项字段对应",
+      "official_path": "work/official26/com/github/epsilon/modules/impl/combat/KillAura.java"
+    },
+    "ep": {
+      "identity": "Stuck",
+      "kind": "module",
+      "conf": "B",
+      "evidence": "单信号：import IlilIlIlil/Hidden0 对应网络/工具库；M(float,float)→float 方法含角度范围比较（-180.0f 相关）匹配 Stuck 的旋转/锁定逻辑；float 精细调节和最小/最大角度插值匹配 Stuck 的 NoPacket/CancelMove 模式",
+      "official_path": "work/official26/com/github/epsilon/modules/impl/movement/Stuck.java"
+    },
+    "eR": {
+      "identity": "Particles",
+      "kind": "module",
+      "conf": "A-",
+      "evidence": "强对应：import 完全匹配 Particles（RenderPipeline+BlendFunction+ColorTargetState+DepthStencilState+CompareOp+Identifier）；8 个设置类型分布匹配 Particles（BoolSetting×1 vs Particles×2，IntSetting×2 vs ×2，DoubleSetting×1 vs ×2，EnumSetting×2 vs ×2，ColorSetting×1 vs ×1，结构微调符合版本演进）；static Identifier 字段（纹理）匹配；u(int) 方法 HSB 颜色计算匹配 Particles 的 ColorMode 功能；static RenderPipeline 创建匹配",
+      "official_path": "work/official26/com/github/epsilon/modules/impl/render/Particles.java"
+    }
+  },
+  "unident": []
+}

@@ -1,0 +1,22 @@
+{
+  "batch": "G054",
+  "results": {
+    "g7": {
+      "identity": "HudModule.HorizontalAnchor",
+      "kind": "enum",
+      "conf": "A",
+      "evidence": "g7 is public final enum extending Enum<g7> with exactly 3 values: Center, Right, Left. HudModule.HorizontalAnchor in official source (elements/HudModule.java:186-190) is `public static enum HorizontalAnchor { Left, Center, Right; }` — identical value set, identical type (enum), identical count (3). g7 is package-private in bytecode as inner enum; CFR decompiles inner enums as public. Structural match exact.",
+      "official_path": "work/official26/com/github/epsilon/elements/HudModule.java:186"
+    }
+  },
+  "unident": [
+    {
+      "obf": "g6",
+      "reason": "Package-private class with static int[] U field and static initializer using try/catch NoSuchFieldError to set ordinal-mapped values. This is a compiler-generated $SwitchMap synthetic class for enum switch optimization. No real-class equivalent exists in the official decompiled source — these are synthetic artifacts, similar to g4 in G053."
+    },
+    {
+      "obf": "g9",
+      "reason": "Package-private final enum with 2 values (Attack, Range). Exhaustive search of all inner enums in official source (26.2-2026.8.1) found no 2-value enum with these names. Possible new enum added between official 2026.8.1 and my version 2026.10.7, or inner enum of a class not included in the official decompilation."
+    }
+  ]
+}

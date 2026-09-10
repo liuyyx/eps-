@@ -1,0 +1,27 @@
+{
+  "batch": "G049",
+  "results": {
+    "ds": {
+      "identity": "Render2DCommand.Text",
+      "kind": "record",
+      "conf": "A-",
+      "evidence": "12字段Record，前9字段逐位对应：int layer, long sequence, Render2DBounds bounds(XL), Render2DScissor scissor(Xu), String text(r7), float x(tA), float y(ti), float scale(t3), Color color(rZ)。implements yM=Render2DCommand。a()返回y3=Render2DCommandKind。官方Text有13字段(多rotationDegrees)，我方12字段，字段9后类型偏移(fontLoader位float而非TtfFontLoader, originX位int而非float)，可能版本演进导致字段调整",
+      "official_path": "com/github/epsilon/graphics/schedulers/render2d/Render2DCommand.java"
+    },
+    "Dt": {
+      "identity": "ConfigClientSettingTab.ConfigRowEntry",
+      "kind": "record",
+      "conf": "B",
+      "evidence": "3字段Record：String AF, ih wX, ih wG。ih=UiRect(4float)。官方ConfigRowEntry(String name, UiRect rowBounds, UiRect deleteBounds)结构完全一致。FriendRowEntry也同结构(String, UiRect, UiRect)无法区分，取ConfigRowEntry。包级别可见性(非private)与官方nested record flatten一致",
+      "official_path": "com/github/epsilon/gui/panel/view/settings/ConfigClientSettingTab.java"
+    },
+    "dt": {
+      "identity": "EpsilonFontGlyph.EpsilonGlyphInfo",
+      "kind": "record",
+      "conf": "A",
+      "evidence": "record实现GlyphInfo接口，单float字段PI。getAdvance()返回PI值。getShadowOffset()=0.45f, getBoldOffset()=0.45f与官方完全一致。官方EpsilonGlyphInfo为EpsilonFontGlyph内private record(float advance)implements GlyphInfo，方法和常量逐位匹配",
+      "official_path": "com/github/epsilon/graphics/text/minecraft/EpsilonFontGlyph.java"
+    }
+  },
+  "unident": []
+}

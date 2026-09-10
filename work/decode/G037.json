@@ -1,0 +1,18 @@
+{
+  "batch": "G037",
+  "results": {},
+  "unident": [
+    {
+      "obf": "_v",
+      "reason": "final class，构造器创建 Squid 实体并追踪 LivingEntity 位置，管理实体生命周期。候选 CaptureMarkESP 是渲染类（PoseStack/RenderPipeline），RotationUtils 是静态旋转工具类，均无法匹配创建/管理 Squid 实体的语义。"
+    },
+    {
+      "obf": "l0",
+      "reason": "extends l8（Module 基类），含 Color、TextureAtlasSprite 等 UI 字段和渲染常量。候选 CaptureMarkESP 和 RotationUtils 均非 Module 类（不继承 Module），无法匹配。"
+    },
+    {
+      "obf": "bo",
+      "reason": "2299 行独立工具类，使用 MessageDigest、ConcurrentHashMap×4、BigInteger 做名称哈希映射还原（混淆映射/反混淆工具）。无候选；26.2 官方源码中无此类。"
+    }
+  ]
+}
