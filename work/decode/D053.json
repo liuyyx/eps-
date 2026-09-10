@@ -1,0 +1,15 @@
+{
+ "batch": "D053",
+ "results": {},
+ "unident": [
+  {"obf": "v6", "reason": "Record(n_,float×5,Color) 75行。SeQL内部渲染数据记录，用于ModuleList(es)中存储渲染坐标+颜色。src 26.1.2无对应record；26.2新增SeQL内部类型"},
+  {"obf": "yW", "reason": "Record(nG,int×5,yn) 75行。SeQL内部GPU纹理引用记录，被dh(文本渲染)和gG引用，含nG+yn(GPU纹理类)+5个int维度。src 26.1.2无对应record；26.2新增SeQL内部类型"},
+  {"obf": "i7", "reason": "Record(Module,String×3,float×3) 74行。SeQL内部模块元数据记录，唯一引用Module(e)的SeQL record，含模块引用+字符串名+浮点尺寸。src 26.1.2无对应record；26.2新增SeQL内部类型"},
+  {"obf": "ij", "reason": "Record(ByteBuffer×2,int×5) 74行。SeQL内部二进制数据记录，被OE(字体类,STBTTFontinfo)和yn(GPU纹理)返回，含2个ByteBuffer(字体/atlas数据)+5个int维度。src 26.1.2无对应record；26.2新增SeQL内部类型"},
+  {"obf": "nE", "reason": "Record(boolean×3,double×2,Float,nZ) 74行。SeQL内部状态配置记录，被uW/uj引用，含布尔标志+双精度参数+可选Float+nZ类型。src 26.1.2无对应record；26.2新增SeQL内部类型"},
+  {"obf": "vQ", "reason": "Record(Ds,float×6) 74行。SeQL内部6分量向量记录，被Z类引用，含Ds类型+6个float(疑似3D坐标+3D方向或颜色分量)。src 26.1.2无对应record；26.2新增SeQL内部类型"},
+  {"obf": "gF", "reason": "SeQL invokedynamic bootstrap类(非Record)。静态方法r()创建ConstantCallSite；静态初始化器设置int[]查找表和enum(g7)常量索引；通过hi.d()解密链路获取MethodHandle。src无对应类(属混淆器生成的bootstrap基础设施)；26.2新增"},
+  {"obf": "nc", "reason": "Record(String,float×3,Color,nK) implements _Q。SeQL文本渲染元素记录，被zU/uJ调用new nc(text,x,y,size,color,font)创建文本标签；_Q为SeQL密封渲染接口(31个实现)。src 26.1.2无对应record；26.2新增SeQL内部类型"}
+ ],
+ "conflicts": []
+}

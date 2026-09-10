@@ -1,0 +1,18 @@
+{
+  "batch": "F003",
+  "results": {},
+  "unident": [
+    {
+      "obf": "eq",
+      "reason": "7528行大型模块，extends e(Module)；MC导入BlockPos/Direction/InteractionHand/LivingEntity/BlockHitResult/Vec3/VoxelShape/AABB/BlockState等——多个combat/movement模块(SafeAnchor/Scaffold/PacketMine/ZealotCrystalPlus)共享此导入集，无法唯一锁定；W()方法含Vec3点乘+AABB/VoxelShape射线检测——SafeAnchor和Scaffold均有此逻辑；构造器含~33个设置(8 bool+9 int+9 double+1 enum+2 color)——SafeAnchor(25设置)和Scaffold(35设置)均在量级范围内；4个候选(RotationUtils/MixinLocalPlayer/InteractionUtils/MixinClientLevel)均为util/mixin，非module，完全不匹配；eq的Category长值1119278030115886606L在vY.java中对应enum首项但Hidden0隐藏了实际初始化顺序，无法确认Category归属"
+    },
+    {
+      "obf": "z",
+      "reason": "940行模块，extends e(Module)；MC导入MultiPlayerGameMode/LocalPlayer/ServerboundSwingPacket/InteractionHand/Entity/LivingEntity/Player——ServerboundSwingPacket+MultiPlayerGameMode组合在已映射combat模块中无精确匹配；@yE事件处理器含swing packet发送+isBlocking()+CPS累加(double a字段)——疑似auto-click类模块但AutoClicker(已映射为另一obf名)导入不同；Range double设置(5.0,1.0,6.0,0.05)——step=0.05在所有官方combat模块中无精确匹配；4个候选(MixinMinecraft/MixinMultiPlayerGameMode/ESP2D/MixinLivingEntityRenderer)中ESP2D为唯一module但为render类别(16设置vs z的13设置)且导入完全不同"
+    },
+    {
+      "obf": "A",
+      "reason": "2312行模块，extends e(Module)；Category长值526176563220736169L——在vY.java中对应enum第二项，但Hidden0隐藏实际初始化，无法确认是PLAYER还是其他；MC导入ClientLevel/BlockPos/Block——太通用，多个player/movement模块共享；Map<BlockPos,Integer> E/L静态字段——在所有官方模块源码中无此字段类型(搜索'Map<BlockPos'无匹配)；C()方法返回Set并迭代BlockPos偏移(-5~+5)×3轴——可能为block scanning/flood fill但无法锁定具体模块；4个候选(MixinClientLevel/MixinVisGraph/MixinGustSeedParticle/MixinBlock)均为mixin，非module，完全不匹配"
+    }
+  ]
+}

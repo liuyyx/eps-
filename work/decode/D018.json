@@ -1,0 +1,43 @@
+{
+ "batch": "D018",
+ "results": {
+  "_V": {
+   "identity": "GlslSandBox",
+   "kind": "class",
+   "conf": "A",
+   "evidence": "结构逐项同构: implements AutoCloseable + static final _V I(INSTANCE) + Map<Identifier,RenderPipeline> Z(pipelines) + getOrCreatePipeline(Identifier)方法 + lambda工厂创建pipeline(withCull/withFragmentShader) + close()清理pipelines + static初始化7个Identifier静态常量; src GlslSandBox.java: implements AutoCloseable + static final INSTANCE + Map<Identifier,RenderPipeline> pipelines + getOrCreatePipeline(Identifier) + close() + 4个Identifier常量(SEA_LEVEL/PLANET/BLACK_HOLE/MINECRAFT); 26.2扩展至7个Identifier,结构本质一致",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/graphics/shaders/GlslSandBox.java"
+  }
+ },
+ "unident": [
+  {
+   "obf": "nx",
+   "reason": "extends nV<nx>(nV=未知泛型基类,不在class_map), implements zy(未知接口), 使用net.minecraft.client.User(UUID/String/Optional), 构造器(String), JSON序列化(a/Object[]/O/Object[]), equals; 设置+User组合暗示用户账户/profile类,但nV和zy均无法在src中匹配; 可能为26.2新增用户账户管理类"
+  },
+  {
+   "obf": "OE",
+   "reason": "STBTTFontinfo+ByteBuffer+Identifier组合=TrueType字体加载/管理类; 字段h(行高)/n(缩放)/U(内部间距)/z(外部padding)/B(字体数据ByteBuffer)/i(STBTTFontinfo); 构造器(Identifier)/构造器(Path)/Z(int)/N(String)/B(int)获取字体度量; src中有TTF_FONT_AA/TTF_FONT_NO_AA管线和MixinFont/MinecraftFontAdapter2612但无此类STB包装器; 可能为26.2新增TTF字体包装类"
+  },
+  {
+   "obf": "go",
+   "reason": "final类, 包装DynamicTexture, 字段int v(宽)/int r(高)/DynamicTexture u(纹理); 方法J(int,int)初始化纹理=DynamicTexture(name,w,h,true), x()关闭纹理=close()+重置为-1; src中InnerRenderTarget(LuminRenderSystem内部类)使用DynamicTexture但为内部类非独立类; 26.2可能将纹理管理提取为独立工具类"
+  },
+  {
+   "obf": "in",
+   "reason": "record extends Record implements DynamicUniformStorage.DynamicUniform; 单字段zw(类型不明); write方法提取zw的ARGB值(除以255.0f归一化)写入Std140Builder, 处理float数组; 无src匹配(FXAAShader.FXAAInfo=2float, FilterColor=4float, SandboxInfo=7float均不符); 可能为26.2新增颜色uniform record"
+  },
+  {
+   "obf": "_H",
+   "reason": "record extends Record implements DynamicUniformStorage.DynamicUniform; toString显示17个float字段(lq/lA/lm/lQ/lV/ls/lz/lh/la/l5/le/lR/lE)+2个float数组(UH/UK)+int yP; write方法处理float数组的putVec4; 无src匹配(ShaderParams=13float, ShaderColors=6Color, BlurUniforms=11float均不符); 可能为26.2新增复杂着色器uniform record"
+  },
+  {
+   "obf": "XT",
+   "reason": "final class implements W(=me.sofurry.via.W, ViaVersion接口); 导入me.sofurry.via.{Bi/OD/OK/OR/Ot/W}+net.fabricmc.loader.api.{ModContainer/Version/EntrypointContainer/Person}; 方法K返回List<Bi>遍历ModContainer.getEntrypointContainers提取mod ID/name/version/authors; src无me.sofurry.via包; 26.2 ViaVersion兼容层新增类(ViaVersion addon discovery)"
+  },
+  {
+   "obf": "lz",
+   "reason": "record(int pD, int p6, int pq) 3个int组件; 方法Y()/x()/N()检查字段值判断手部状态; a()返回InteractionHand(MAIN_HAND/OFF_HAND); equals/hashCode由ObjectMethods自动生成; src HandsView为Module类非record; 可能为26.2新增InteractionHand状态记录类"
+  }
+ ],
+ "conflicts": []
+}

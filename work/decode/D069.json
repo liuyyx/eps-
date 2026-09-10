@@ -1,0 +1,22 @@
+{
+ "batch": "D069",
+ "results": {
+  "XR": {
+   "identity": "DamagePriority.Aggressive",
+   "kind": "enum",
+   "conf": "A-",
+   "evidence": "XR extends Xo(DamagePriority); XR.e(float,float)返回f2(targetDamage)→匹配Aggressive.score=targetDamage; Xm已识别为Efficient(f2-f),XR为sibling; anchored_refs含DamagePriority; 源码ZealotCrystalPlus.DamagePriority inner enum 26.2提取为顶层",
+   "src_path": "旧版本的源代码/"
+  }
+ },
+ "unident": [
+  {"obf": "i3", "reason": "@SerializedName(\"SKIN\")字段含gX,与_b/gX构成skin texture deserialization模型; 源码26.1.2无此类; 26.2新增皮肤数据模型"},
+  {"obf": "yE", "reason": "method-level RUNTIME annotation(@interface), int P() default 0; 无epsilon导入; 源码无匹配; 26.2新增注解"},
+  {"obf": "zI", "reason": "interface含Object[]参数的boolean/int/Class/void方法,回调模式; 无epsilon导入; 26.2新增接口"},
+  {"obf": "_b", "reason": "@SerializedName(\"textures\")字段含i3,与i3/gX构成skin texture deserialization模型; 源码26.1.2无此类; 26.2新增皮肤数据模型"},
+  {"obf": "DF", "reason": "interface含4个float方法(动画插值器模式); 无epsilon导入; 26.2新增接口"},
+  {"obf": "gX", "reason": "@SerializedName(\"url\")String字段; 与i3/_b构成skin texture模型; 26.2新增"},
+  {"obf": "gY", "reason": "小class(int s,t; boolean n); 无epsilon导入无锚点; 26.2新增工具类"}
+ ],
+ "conflicts": []
+}

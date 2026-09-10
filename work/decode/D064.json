@@ -1,0 +1,39 @@
+{
+  "batch": "D064",
+  "results": {},
+  "unident": [
+    {
+      "obf": "de",
+      "reason": "38行简单类，boolean字段X+static int[]K+getter/setter，所有方法经hi.a分发。结构过于通用（boolean toggle + int[] storage），无法唯一匹配源码中任何具体类。"
+    },
+    {
+      "obf": "iF",
+      "reason": "extends SimpleFileVisitor<Path>，方法X(Object[])=visitFile，o(Object[])=postVisitDirectory，构造器取vz(ConfigHolder)。源码ConfigHolder使用内联匿名SimpleFileVisitor（非独立类），26.2提取为独立类，无精确源码对应。"
+    },
+    {
+      "obf": "lO",
+      "reason": "final类，持有i2(LuminImmediateRenderer)，方法含Matrix4f+float+int参数的3D渲染操作。是包装LuminImmediateRenderer的渲染工具类，26.2新增（源码无此类）。"
+    },
+    {
+      "obf": "ub",
+      "reason": "static初始化类，static int[]L + try/catch块注册dispatch常量。SeQL字符串解密+调用分发核心的bootstrap注册器，26.2新增。"
+    },
+    {
+      "obf": "uP",
+      "reason": "与ub结构相同（static int[]L + try/catch dispatch注册），不同long常量。SeQL引导注册类，26.2新增。"
+    },
+    {
+      "obf": "dt",
+      "reason": "record dt(float PI) implements GlyphInfo，方法getAdvance()/getShadowOffset()=0.45f/getBoldOffset()=0.45f。GlyphInfo在26.1.2源码中未被任何类实现，26.2新增字体渲染record。"
+    },
+    {
+      "obf": "_A",
+      "reason": "interface，import RenderPass，抽象方法K()/Q()/m(Object[])+default方法H()调用K()/Q()。渲染生命周期接口，26.2新增（源码无匹配接口）。"
+    },
+    {
+      "obf": "Op",
+      "reason": "静态Gson M + HttpClient j + 工厂方法t(String)/I(String)→dX(HTTP请求构建器)。HttpClient在26.1.2源码中未使用，26.2新增网络客户端工厂类。"
+    }
+  ],
+  "conflicts": []
+}

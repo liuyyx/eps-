@@ -1,0 +1,15 @@
+{
+ "batch": "D067",
+ "results": {},
+ "unident": [
+  {"obf": "iQ", "reason": "Gson模型，@SerializedName(\"refresh_token\"/\"access_token\")，OAuth令牌响应类，无源码对应，26.2新增"},
+  {"obf": "X9", "reason": "SeQL基础设施record(Object,boolean)，无枚举常量/字段名可匹配，26.2新增"},
+  {"obf": "yG", "reason": "SeQL基础设施record(int,int)，无枚举常量/字段名可匹配，26.2新增"},
+  {"obf": "yj", "reason": "Gson模型，@SerializedName(\"name\"/\"id\")，通用命名实体DTO，无源码对应，26.2新增"},
+  {"obf": "_k", "reason": "Gson模型，@SerializedName(\"name\"/\"id\")，与yj结构相同，通用命名实体DTO，26.2新增"},
+  {"obf": "lf", "reason": "实现gr接口，创建iP实例并调用SeQL分发，SeQL基础设施类，26.2新增"},
+  {"obf": "nd", "reason": "Gson模型，@SerializedName(\"xui\")含XH数组，API响应DTO，26.2新增"},
+  {"obf": "uV", "reason": "SeQL基础设施record(GpuBufferSlice)，渲染管线相关，无源码对应，26.2新增"}
+ ],
+ "conflicts": []
+}

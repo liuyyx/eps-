@@ -1,0 +1,39 @@
+{
+ "batch": "D050",
+ "results": {},
+ "unident": [
+  {
+   "obf": "gI",
+   "reason": "26.2 新增类。extends Record implements _Q; 9 float + 1 Color 字段。_Q 是 26.2 新增密封接口（30 个 permit 实现），源码字典无对应；无法确定具体渲染记录类型名"
+  },
+  {
+   "obf": "iB",
+   "reason": "26.2 新增类。非 record，包装 List<_Q>，由 zU 构建器产出。_Q 体系全部为 26.2 新增，源码无对应；角色为 _Q 批次容器（BatchResult），但无法确认精确类名"
+  },
+  {
+   "obf": "nR",
+   "reason": "26.2 新增类。extends Record implements _Q; 9 float + 1 Color 字段，与 gI 结构完全相同（不同混淆种子）。_Q 为 26.2 新密封接口，源码无对应"
+  },
+  {
+   "obf": "Od",
+   "reason": "26.2 新增类。extends Record implements yM; 8 字段：int layer, long sequence, Xu scissor, XL bounds, 4 Color。yM 为 26.2 新增密封渲染操作接口（bounds/layer/scissor/sequence），源码无对应"
+  },
+  {
+   "obf": "ln",
+   "reason": "26.2 新增类。extends Record implements _Q; 9 字段：String aL + 6 float + Color zZ + nK rP。_Q 为 26.2 新密封接口，源码无对应；含 String 和 nK 引用，可能是文本/字体渲染记录"
+  },
+  {
+   "obf": "l6",
+   "reason": "26.2 新增类。非 record，单例 ExecutorService（daemon 线程池），静态初始化含字符串解密。角色为通用线程池工具类，但源码无对应（26.1.2 用 Executors.newSingleThreadExecutor）"
+  },
+  {
+   "obf": "Ou",
+   "reason": "26.2 新增类。extends Record implements _Q; 8 float + 1 Color 字段。_Q 为 26.2 新密封接口，源码无对应"
+  },
+  {
+   "obf": "Ox",
+   "reason": "26.2 新增类。extends Record implements _Q; 7 float + 2 Color + 1 String 字段。_Q 为 26.2 新密封接口，源码无对应；含 String 字段，可能是带文本的渲染记录"
+  }
+ ],
+ "conflicts": []
+}

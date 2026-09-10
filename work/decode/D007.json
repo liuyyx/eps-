@@ -1,0 +1,63 @@
+{
+  "batch": "D007",
+  "results": {
+    "OT": {
+      "identity": "LuminRenderPipeline",
+      "kind": "util",
+      "conf": "B",
+      "evidence": "2209行implements AutoCloseable; MC导入GuiItemAtlas/OversizedItemRenderer/StagedVertexBuffer/Projection/FeatureRenderDispatcher/BlitRenderState均为Lumin渲染管线组件; 字段含Map<Object,OversizedItemRenderer>、GuiRenderState、StagedVertexBuffer.Draw、ProjectionMatrixBuffer、CubeMap; 锚点LuminRenderTarget指向Lumin渲染系统; src无直接对应(26.2新增渲染管线)",
+      "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/graphics/LuminRenderSystem.java"
+    },
+    "_h": {
+      "identity": "BlockUtils",
+      "kind": "util",
+      "conf": "B",
+      "evidence": "854行static工具类; MC导入ExperienceOrb/ItemEntity/Arrow/ThrownExperienceBottle/EndCrystal/ClientLevel/Block/BlockState/AABB/BlockHitResult完全匹配src BlockUtils.java实体过滤集; 方法m(Vec3,boolean)检查方块可放置性并过滤非碰撞实体; 854行vs src25行说明26.2大幅扩展(新增EndCrystal处理等)",
+      "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/utils/world/BlockUtils.java"
+    },
+    "uZ": {
+      "identity": "Scaffold",
+      "kind": "module",
+      "conf": "A-",
+      "evidence": "1451行extends u9; MC导入LocalPlayer/BlockPos/Direction/Vec3i/Inventory/BlockItem/ItemStack/ClipContext/AABB; 锚点Render3DScheduler匹配src Scaffold订阅Render3DEvent; 字段yY/ie/BlockPos; lambda方法onMotion处理移动事件+方块放置渲染; src Scaffold导入Render3DScheduler/InvUtils/BlockItem/RaytraceUtils完全吻合",
+      "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/modules/impl/movement/Scaffold.java"
+    },
+    "us": {
+      "identity": "Scaffold",
+      "kind": "module",
+      "conf": "A-",
+      "evidence": "1995行extends u9(同uZ父类); MC导入ClientLevel/MultiPlayerGameMode/LocalPlayer/BlockPos/Direction/InteractionHand/BlockItem/ItemStack/AABB; 字段static final double 20.25=4.5²(放置距离阈值); 方法R(Object[])验证BlockPos有效性; uZ+us共同实现Scaffold(uZ=位置/库存管理, us=游戏交互/放置执行); 与src Scaffold行数(588)有版本差",
+      "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/modules/impl/movement/Scaffold.java"
+    },
+    "lc": {
+      "identity": "TabOverlay",
+      "kind": "class",
+      "conf": "B",
+      "evidence": "4493行extends l8(非Module); MC导入Hud/ClientPacketListener/PlayerInfo/Component/FormattedText/Style/Objective/PlayerTeam/Scoreboard/TeamColor; 字段Comparator<PlayerInfo> a(玩家排序)/List<List<v0>> f(渲染行)/Supplier<_j> b8; 大量Color/float布局常量; 与src无直接对应(26.2新增tab/scoreboard覆盖层)",
+      "src_path": ""
+    },
+    "_q": {
+      "identity": "RaytraceUtils",
+      "kind": "util",
+      "conf": "A",
+      "evidence": "1469行static工具类; MC导入Minecraft/LocalPlayer/BlockPos/Direction/Entity/LivingEntity/ClipContext/AABB/HitResult/Vec3; 方法b(uK,uK,double)→uK计算两位置间旋转角(=rotationBetween); 方法j(Vec3,boolean)→uK检查视线(=canSeePointFrom); 方法getDirection获取方块方向; 与src RaytraceUtils方法签名+MC导入完全吻合",
+      "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/utils/rotation/RaytraceUtils.java"
+    },
+    "_o": {
+      "identity": "PanelScreen",
+      "kind": "screen",
+      "conf": "B",
+      "evidence": "4189行extends Screen; MC导入IMEPreeditOverlay/CharacterEvent/KeyEvent/MouseButtonEvent/PreeditEvent(=src PanelScreen IME输入处理); 锚点ModuleSort/LuminRenderTarget匹配src PanelScreen ModuleSort引用; 方法drawAccountList管理账户列表; 字段AtomicReference<nV<?>> D管理账户状态; 单例static final _o Q; 导入nV(Account类)/ns/xU/OP(面板子组件)",
+      "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/gui/panel/PanelScreen.java"
+    },
+    "nV": {
+      "identity": "AccountManager",
+      "kind": "class",
+      "conf": "B",
+      "evidence": "738行abstract class nV<T extends nV<?>>; MC导入Minecraft/User/PlayerSocialManager/ProfileKeyPairManager/ReportingContext/SkinManager/Services; 构造函数nV(DJ,String); 方法Z(User)调用YggdrasilAuthenticationService建立会话(UserApiService/FriendsService/ProfileKeyPairManager); 方法f(JsonObject)反序列化账户; src无直接对应(26.2账户管理系统)",
+      "src_path": ""
+    }
+  },
+  "unident": [],
+  "conflicts": []
+}

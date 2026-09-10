@@ -1,0 +1,52 @@
+{
+ "batch": "D028",
+ "results": {
+  "XA": {
+   "identity": "HudLayoutHelper",
+   "kind": "util",
+   "conf": "A",
+   "evidence": "静态工具类，g7(=HudModule.HorizontalAnchor)枚举switch + float偏移量计算，与src HudLayoutHelper.getHorizontalAnchorOffset/getRenderX等逐一对应",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/gui/hudeditor/HudLayoutHelper.java"
+  },
+  "zp": {
+   "identity": "StringWidget",
+   "kind": "class",
+   "conf": "A",
+   "evidence": "extends zc<Xc> = SettingWidget<StringSetting>；字段dp A(=DropdownTextField)精确匹配src StringWidget.inputField",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/gui/dropdown/widget/StringWidget.java"
+  },
+  "za": {
+   "identity": "KeybindWidget",
+   "kind": "class",
+   "conf": "A",
+   "evidence": "extends zc<X0> = SettingWidget<KeybindSetting>；_E b(=Animation hoverAnim)+Easing引用精确匹配src KeybindWidget.hoverAnim(Easing.EASE_OUT_CUBIC)",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/gui/dropdown/widget/KeybindWidget.java"
+  },
+  "_W": {
+   "identity": "LegacyConfigMigrator",
+   "kind": "class",
+   "conf": "A",
+   "evidence": "字段Gson n + Path z/b(=targetConfigDir/legacyRootDir) + lambda$migrateIfNeeded$0(Module) + z(Module)→Path(=getModuleFile)精确匹配src LegacyConfigMigrator",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/assets/config/LegacyConfigMigrator.java"
+  }
+ },
+ "unident": [
+  {
+   "obf": "OP",
+   "reason": "26.2新增类：ClickGUI屏幕(_o)中List<OP>子组件，构造器OP(nV<?> client)，含28x28图标绘制+文本换行+y方法，src无对应；非Notification(HudModule已独立实现)、非ModuleButton(extends Component≠standalone)，功能疑似通知弹窗渲染器但src无匹配"
+  },
+  {
+   "obf": "y7",
+   "reason": "26.2新增类：extends AbstractViaConfig(ViaVersion库)，方法isServersideBlockConnections()，ViaVersion为26.2新引入依赖，旧版本源代码无对应"
+  },
+  {
+   "obf": "lm",
+   "reason": "26.2新增类：implements AutoCloseable，字段y_/Set<Integer>/l5(int)/boolean，src无AutoCloseable实现匹配此字段序列"
+  },
+  {
+   "obf": "vp",
+   "reason": "26.2新增类：单例singleton，Gson+UUID+yy(=skin texture)+gu(=Mojang API响应)，N(UUID)获取皮肤URL，src无SkinManager类"
+  }
+ ],
+ "conflicts": []
+}

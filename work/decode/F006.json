@@ -1,0 +1,18 @@
+{
+  "batch": "F006",
+  "results": {},
+  "unident": [
+    {
+      "obf": "up",
+      "reason": "3572行Module，Category=PLAYER，导入全部武器物品类型(AxeItem/BowItem/CrossbowItem等)+库存工具(ClickSlotUtils/InvHelper/InvManager)，功能为Stealer(偷物品)。候选Stealer jac=0.304但混淆过重：字段序列(XG/Xn/Dx类型)、extends链(e而非Module)、常量数值均无法逐项对应，仅凭物品类型导入单信号不足以确认。其余候选NoSlow/InteractionUtils/Stuck完全不匹配。"
+    },
+    {
+      "obf": "uv",
+      "reason": "1452行Module，Category=PLAYER，构造函数含IntSetting(搜索范围)，方法V(Item)遍历库存slot找指定物品。四个候选均为Mixin类(MixinMinecraft/MixinLocalPlayer/MixinItemInHandRenderer)或小工具类(FindItemResult record)，均不extends Module，结构完全不匹配。该类在候选中无对应。"
+    },
+    {
+      "obf": "G",
+      "reason": "2138行Module，Category=COMBAT，含IntSetting/BoolSetting，LivingEntity目标字段，方法d(List)遍历实体列表用distanceToSqr找最近实体，方法L处理事件设置标记。候选MixinLivingEntity/MixinFireworkRocketEntity/MixinPlayer均为@Mixin注解类且规模小(50-80行)，RotationUtils为静态工具类不extends Module，均完全不匹配。该类在候选中无对应。"
+    }
+  ]
+}

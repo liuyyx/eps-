@@ -1,0 +1,39 @@
+{
+ "batch": "D052",
+ "results": {},
+ "unident": [
+  {
+   "obf": "uU",
+   "reason": "26.2 新增。82 行 utility class，无 super、无 anchored、无 MC 导入。含 static final int s/V/F/T/u，静态块用加密字符串初始化常量。jar 中无外部引用（仅自引用 static block）。src 无对应。"
+  },
+  {
+   "obf": "vH",
+   "reason": "26.2 新增。Record(81行)，字段：6×float + 1×double + 1×List<_G>。被 NameTags(Z.java) 使用。_G 为含 11×float + Ds 的 Record（疑似字形数据）。此为 NameTags 文本渲染管线的样式化文本行记录，src 的 TagDrawData 字段不匹配（List<ItemStack>+String+boolean+Color+11float），故为 26.2 新增记录类型。"
+  },
+  {
+   "obf": "u7",
+   "reason": "26.2 新增。Record(80行)，字段：3×float(位置/尺寸) + 2×float[](字形/顶点数据) + 1×Color[](调色板) + 1×int(类型/索引)。被 ModuleList(es.java) 使用，构造参数为坐标+宽高+渲染数据。src 的 ModuleLine record(String+6float)字段不匹配，为 26.2 新增模块列表渲染条目记录。"
+  },
+  {
+   "obf": "li",
+   "reason": "26.2 新增。Record(78行)，implements _Q（sealed interface，26.2 新增，permits 30+类）。字段：String m4(文本) + 3×float(位置/尺寸) + Color by(颜色) + Oq eD + nK yV(字体/样式引用)。_Q sealed interface 在 src 中无对应（26.1.2 无 sealed interface 声明），为 26.2 新增文本渲染段类型。"
+  },
+  {
+   "obf": "_O",
+   "reason": "26.2 新增。Record(78行)，implements _Q。字段：String oC(文本) + 3×float(位置/尺寸) + Color vU(颜色) + nK PB(字体/样式) + ih uA(额外渲染数据)。_Q 为 26.2 新增 sealed interface，src 无对应。"
+  },
+  {
+   "obf": "Xz",
+   "reason": "26.2 新增。Record(77行)，implements _Q。字段：String fb(文本) + 3×float(位置/尺寸) + 2×Color(f5/FW，双色方案) + nK ud(字体/样式)。_Q 为 26.2 新增 sealed interface，src 无对应。"
+  },
+  {
+   "obf": "XB",
+   "reason": "26.2 新增。Record(76行)，未实现 _Q。字段：String vd(文本) + 3×float(位置/尺寸) + Color eo(颜色) + nK lk(字体/样式) + ih OY(额外渲染数据)。被 vx.java（文本渲染上下文，List<XB>）使用。与 _Q 实现类结构相似但未纳入 sealed interface，为 26.2 新增文本渲染段类型。"
+  },
+  {
+   "obf": "gg",
+   "reason": "26.2 新增。Record(75行)，字段均有 @SerializedName 注解：agent(String)、username(String)、password(String)、clientToken(String)、requestUser(boolean)。被 O8.java 使用，O8 导入 YggdrasilAuthenticationService + Environment + User。src 无对应（26.1.2 无 auth 模块），为 26.2 新增 Yggdrasil/Mojang 认证请求记录。"
+  }
+ ],
+ "conflicts": []
+}

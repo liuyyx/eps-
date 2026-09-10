@@ -1,0 +1,15 @@
+{
+  "batch": "D068",
+  "results": {},
+  "unident": [
+    {"obf": "yI", "reason": "渲染数据条目（yn+float[]+int），用于ON/_B缓冲管理；无MC import，无src对应，26.2新增"},
+    {"obf": "l7", "reason": "Gson DTO @SerializedName(\"access_token\")，用于nb HTTP认证响应；无src对应，26.2新增"},
+    {"obf": "Or", "reason": "record implements _Q（sealed display interface），包装On渲染record；引用SeQL分发器hi.a；无src对应，26.2新增"},
+    {"obf": "v4", "reason": "Gson DTO @SerializedName(\"name\")，仅含单个name字段；过于通用无法定位，26.2新增"},
+    {"obf": "XH", "reason": "Gson DTO @SerializedName(\"uhs\")，被nd作为xui数组元素引用；无src对应，26.2新增"},
+    {"obf": "DS", "reason": "接口，4个Object[]参数方法（z/N/c/r），r返回yW；yW未识别，无法推断角色，26.2新增"},
+    {"obf": "gh", "reason": "引用SeQL分发器hi.a（构造器+L方法），属于SeQL相关类；但无法确定具体职责，26.2新增"},
+    {"obf": "zl", "reason": "Gson DTO @SerializedName(\"name\"/\"value\")，用作gu的properties数组元素；通用键值对DTO，26.2新增"}
+  ],
+  "conflicts": []
+}

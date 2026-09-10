@@ -1,0 +1,52 @@
+{
+ "batch": "D058",
+ "results": {
+  "yJ": {
+   "identity": "ScissorRect",
+   "kind": "record",
+   "conf": "A",
+   "evidence": "Record 4 int fields (b4,bw,bf,b8→x,y,width,height)；55行≈简单record；src LuminRenderSystem.ScissorRect(int x,int y,int width,int height) 完全匹配",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/graphics/LuminRenderSystem.java"
+  },
+  "_N": {
+   "identity": "CategorySnapshot",
+   "kind": "record",
+   "conf": "A",
+   "evidence": "Record(String wN, List<String> pW)；54行；静态工厂W(String, List<e>)调用e::G→Module::getName；src ModuleListPanel.CategorySnapshot(String categoryName, List<String> moduleIds) 完全匹配；锚点Module一致",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/gui/panel/view/ModuleListPanel.java"
+  },
+  "Xk": {
+   "identity": "PanelLayout",
+   "kind": "class",
+   "conf": "A",
+   "evidence": "compute(int screenWidth, int screenHeight, float railWidth)返回ni(Layout)；计算逻辑完全匹配：panelWidth=min(sw*0.56f,584), min(528), panelHeight=min(sh*0.56f,324), min(300), moduleWidth=min(164,pw*0.292f)；创建4个ih(UiRect)→Layout(panel,rail,modules,detail)",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/gui/panel/PanelLayout.java"
+  },
+  "Oo": {
+   "identity": "ActionButton",
+   "kind": "record",
+   "conf": "A",
+   "evidence": "Record(df aI, String mu, ih jE)→(ActionButtonType type, String label, UiRect bounds)；df枚举6常量SAVE_AS/RELOAD/EXPORT/IMPORT/NEW/OPEN_FOLDER与src ConfigClientSettingTab.ActionButtonType完全匹配",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/gui/panel/view/settings/ConfigClientSettingTab.java"
+  }
+ },
+ "unident": [
+  {
+   "obf": "d4",
+   "reason": "Record implements _Q（sealed interface，26.1.2源码中不存在该接口）；字段(ih/UiRect, boolean, float)无匹配；26.2新增类"
+  },
+  {
+   "obf": "ud",
+   "reason": "Record implements _Q（sealed interface，26.1.2源码中不存在该接口）；字段(float, float, ih/UiRect)无匹配；26.2新增类"
+  },
+  {
+   "obf": "OL",
+   "reason": "Record(float, yn, Oq)；yn为884行GPU渲染类（未识别），Oq为9 floats+Color Record（未识别）；26.1.2源码无匹配记录类型；26.2新增"
+  },
+  {
+   "obf": "De",
+   "reason": "普通类，字段i2(LuminImmediateRenderer)；方法z(Object[])接受Matrix4f+3float+int执行渲染，p(Object[])清理；似lambda编译产物；26.1.2源码无匹配；26.2新增"
+  }
+ ],
+ "conflicts": []
+}

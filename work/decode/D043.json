@@ -1,0 +1,49 @@
+{
+ "batch": "D043",
+ "results": {
+  "Xl": {
+   "identity": "AimBot.Rotation",
+   "kind": "enum",
+   "conf": "A",
+   "evidence": "枚举常量 Client/Silent 与 src AimBot.java:37-39 内部 enum Rotation{Client,Silent} 完全一致；2值枚举，140行含加密开销",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/modules/impl/combat/AimBot.java"
+  },
+  "_T": {
+   "identity": "AutoMend.SwitchMode",
+   "kind": "enum",
+   "conf": "A",
+   "evidence": "枚举常量 Normal/Silent 与 src AutoMend.java:26-29 内部 enum SwitchMode{Normal,Silent} 完全一致；2值枚举，140行含加密开销",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/modules/impl/combat/AutoMend.java"
+  },
+  "_x": {
+   "identity": "Particles.Physics",
+   "kind": "enum",
+   "conf": "A",
+   "evidence": "枚举常量 Fly/Drop 与 src Particles.java:51-54 内部 enum Physics{Drop,Fly} 完全一致（顺序反转属正常）；2值枚举，140行含加密开销",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/modules/impl/render/Particles.java"
+  }
+ },
+ "unident": [
+  {
+   "obf": "zK",
+   "reason": "26.2 新增枚举；常量 Modern/Akrien 在 src 全树无任何匹配（Modern 和 Akrien 均未出现）；无 MC 导入，无锚点可交叉定位；疑似 26.2 新增渲染/UI 风格枚举"
+  },
+  {
+   "obf": "iG",
+   "reason": "26.2 新增 Record；实现接口 _Q 未在 class_map 或 src 中定义；16个 float 字段 + X6 tz + Color YE，属渲染数据结构；src 无对应 Record 类型，引用的 _Q/X6 均为 26.2 新增类型"
+  },
+  {
+   "obf": "On",
+   "reason": "26.2 新增 Record；17字段含 ih XW/u_ jD/2个String/Integer/boolean/5个Color/6个float，结构复杂疑似文本渲染元素记录；src 无对应 Record；引用的 ih/u_ 均未在 class_map 中"
+  },
+  {
+   "obf": "u6",
+   "reason": "26.2 新增 Record；实现接口 yM（未在 class_map 或 src 中定义）；15字段含 layer(int)/sequence(long)/bounds(XL)/scissor(Xu=ScissorRect)/7float/boolean/3Color，属渲染元素记录；yM/XL 均为 26.2 新增类型"
+  },
+  {
+   "obf": "yX",
+   "reason": "26.2 新增 Record；实现接口 yM；10字段含 layer(int)/sequence(long)/bounds(XL)/scissor(Xu=ScissorRect)/5float/Color，结构与 u6 同族但字段更少，属渲染元素记录变体；yM/XL 均为 26.2 新增类型"
+  }
+ ],
+ "conflicts": []
+}

@@ -1,0 +1,63 @@
+{
+ "batch": "D049",
+ "results": {
+  "lY": {
+   "identity": "StringDecryptor",
+   "kind": "util",
+   "conf": "B",
+   "evidence": "静态工具类, 109行; static initializer 含 XOR 字符串解密循环(XOR key + char[] 滚动解密), 产出 2 个 static final String 字段 (d,t); 与 hi(解密分发器) 同属字符串解密基础设施; 无 MC 导入/无锚点/无源码对应, 26.2 新增类",
+   "src_path": "26.2 新增, 旧版本的源代码无对应"
+  },
+  "OY": {
+   "identity": "StringDispatch",
+   "kind": "util",
+   "conf": "B",
+   "evidence": "静态工具类, 109行; static initializer 含 long[] 加密表 (long[25]) + Integer[] 缓存表; static method N() 含加密 switch/if (CFR 反编译失败); 私有方法 a(int,long) 用 XOR+掩码从 long[] 表派发整数值; 与 hi(解密分发器) 结构同源, 属字符串解密+值分发基础设施; 26.2 新增",
+   "src_path": "26.2 新增, 旧版本的源代码无对应"
+  },
+  "yq": {
+   "identity": "ThemeStyleA",
+   "kind": "record",
+   "conf": "B",
+   "evidence": "Record, 106行, implements _Q; 8 float + 4 Color 字段 (UU/UG/UL/uu/UO/kk/kc/kx/US/KS/us/u8); 与 _7(11字段含ih)/gi(11字段) 同族 _Q 记录; 结构为渲染/主题配置记录; 无 MC 导入/无源码对应, 26.2 新增; _Q 接口身份未知",
+   "src_path": "26.2 新增, 旧版本的源代码无对应"
+  },
+  "_G": {
+   "identity": "TextStyleConfig",
+   "kind": "record",
+   "conf": "B",
+   "evidence": "Record, 104行, 无实现接口; 11 float + 1 Ds (文本样式记录, 2 String+1 boolean+2 Color); 结构为文本渲染配置, Ds 提供字体/颜色样式; 与 _Q 族记录同批但无 _Q 接口; 26.2 新增",
+   "src_path": "26.2 新增, 旧版本的源代码无对应"
+  },
+  "_7": {
+   "identity": "ThemeStyleB",
+   "kind": "record",
+   "conf": "B",
+   "evidence": "Record, 101行, implements _Q; 8 float + 3 Color + 1 ih (UiRect 边界类型, 4 float x/y/w/h); 与 yq/gi 同族 _Q 记录, 额外持有 ih 边界引用; 结构为渲染/主题配置记录; 26.2 新增",
+   "src_path": "26.2 新增, 旧版本的源代码无对应"
+  },
+  "gi": {
+   "identity": "ThemeStyleC",
+   "kind": "record",
+   "conf": "B",
+   "evidence": "Record, 100行, implements _Q; 8 float + 3 Color 字段 (g3/g8/GZ/GO/NR/gk/GK/gu/gz/GN/g1); 与 yq/_7 同族 _Q 记录, 结构一致(无额外类型引用); 26.2 新增",
+   "src_path": "26.2 新增, 旧版本的源代码无对应"
+  },
+  "v1": {
+   "identity": "DrawCall",
+   "kind": "record",
+   "conf": "B",
+   "evidence": "Record, 100行, implements yM; 唯一具有语义字段名的记录: layer(int)/sequence(long)/bounds(XL)/scissor(Xu=ScissorRect) + 4 float + 1 Color; XL 为 4-float 矩形边界记录; yM 为渲染元素接口; 语义字段名表明来自未混淆的渲染管线层; 26.2 新增",
+   "src_path": "26.2 新增, 旧版本的源代码无对应"
+  },
+  "zr": {
+   "identity": "QuadVertexData",
+   "kind": "record",
+   "conf": "B",
+   "evidence": "Record, 95行, 无实现接口; 纯 10 float 字段 (pd/PX/PJ/pu/PZ/PQ/PP/PY/ph/pa); 无类型引用/无 Color; 私有方法 PC() 计算 pa+ph/2 (中点); 与 QuadRenderingInfo(d5) 同批渲染数据记录; 26.2 新增",
+   "src_path": "26.2 新增, 旧版本的源代码无对应"
+  }
+ },
+ "unident": [],
+ "conflicts": []
+}

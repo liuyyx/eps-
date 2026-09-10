@@ -1,0 +1,46 @@
+{
+ "batch": "D035",
+ "results": {
+  "DR": {
+   "identity": "ColorPickerPopup.Channel",
+   "kind": "enum",
+   "conf": "A-",
+   "evidence": "Enum constants ALPHA/RED/BLUE/GREEN + fields Color p + String o + ctor(String,Color) 完全匹配 ColorPickerPopup.java 内部 enum Channel { RED('R',new Color(...)),GREEN('G',...),BLUE('B',...),ALPHA('A',MD3Theme.PRIMARY)} + field shortLabel(String)/accent(Color)；26.2 从 ColorPickerPopup 提升为顶层类",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/gui/panel/popup/ColorPickerPopup.java:23-38"
+  },
+  "Xu": {
+   "identity": "LuminRenderSystem.ScissorRect",
+   "kind": "record",
+   "conf": "A-",
+   "evidence": "record 4 int 字段(wv/we/wb/wL) + accessor 方法(wv()/we()/wb()/wL()) 与 src record ScissorRect(int x, int y, int width, int height) 结构完全同构；toString 使用 ObjectMethods.bootstrap 确认 record 语义；Dl.S() 调试开关引用一致",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/graphics/LuminRenderSystem.java:220-221"
+  }
+ },
+ "unident": [
+  {
+   "obf": "dl",
+   "reason": "26.2 新增类。fields: float o / boolean n / long A；constructor(long)；float w()返回当前值；float H(Object[]) 含 spring 物理 (200.0f stiffness, 25.0f damping, 1.0E9f timeStep)；引用 Dl.S() 调试开关。无 src 对应（26.1.2 无独立弹簧动画类）。可能是 26.2 新增 SpringAnimation 或 easing helper"
+  },
+  {
+   "obf": "zH",
+   "reason": "26.2 新增类。fields: long v / float H / float N；constructor 初始化 float NaN + long；float F(Object[]) 含 spring 物理与 Dl.S()。与 dl 结构类似但字段不同，可能是同一动画子系统的另一个类（如 SpringState/SpringAnimator）"
+  },
+  {
+   "obf": "XZ",
+   "reason": "26.2 新增类。字段 nT D（从 hi 加载 l5 类型）；方法 boolean F(Object[])/void V()/boolean a()/boolean l()/float u(double,ih,float)。导入 ih、nT（均 src 无对应）。功能疑似渲染状态/绘制上下文，但无 src 可匹配"
+  },
+  {
+   "obf": "gu",
+   "reason": "26.2 新增类。@SerializedName('properties') zl[] w 字段(Gson 序列化)；String z(String) 遍历 properties 匹配；boolean v(Object[]) 校验。zl 类 src 无对应。可能是配置/模块属性容器"
+  },
+  {
+   "obf": "_B",
+   "reason": "26.2 新增类。fields: float[] P / yn f / int i；void H(float,float,float,float,nG,float,float) 向数组追加顶点数据(position/color/texcoord)；yI F(Object[]) 返回 yI 对象。yn/nG/yI 均 src 无对应。疑似顶点缓冲/Tessellator 类"
+  },
+  {
+   "obf": "l1",
+   "reason": "26.2 新增类。anchored=Easing；fields: _E C / dK z / Consumer<String> a / String N / BooleanSupplier L / String I；constructor(iC,dK,String,String,Consumer,BooleanSupplier)。导入 _E/dK/iC/lH 均 src 无对应。疑似动画 easing 配置/回调包装器"
+  }
+ ],
+ "conflicts": []
+}

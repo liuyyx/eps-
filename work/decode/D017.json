@@ -1,0 +1,49 @@
+{
+ "batch": "D017",
+ "results": {
+  "y0": {
+   "identity": "ColorWidget",
+   "kind": "class",
+   "conf": "B",
+   "evidence": "导入lH(Easing)+_E(Animation)；f()绘制方法+zJ交互状态引用+zU绘制上下文；26.1.2源码ColorWidget=517行，26.2可能扩展至1191行",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/gui/dropdown/widget/ColorWidget.java"
+  },
+  "iv": {
+   "identity": "WireframeEntityRenderer",
+   "kind": "util",
+   "conf": "A-",
+   "evidence": "静态工具类：RenderPipeline+PoseStack+Entity+Color+Matrix4f；引用dn(WireframeVertexConsumer)+g0+lZ；k()/P()/R()/x()方法处理管线切换与实体线框绘制；26.1.2 src WireframeEntityRenderer 匹配",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/utils/render/WireframeEntityRenderer.java"
+  },
+  "O8": {
+   "identity": "ChoiceSetting",
+   "kind": "class",
+   "conf": "B",
+   "evidence": "extends nV<O8>实现zy接口；字段YggdrasilAuthenticationService+User+Environment+z()认证检查+O()JSON序列化；nV为Setting子类基，zy为序列化接口；26.1.2 ChoiceSetting extends Setting<String> 有类似模式",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/settings/impl/ChoiceSetting.java"
+  },
+  "z1": {
+   "identity": "FXAAShader",
+   "kind": "class",
+   "conf": "A-",
+   "evidence": "单例public static final z1 M；字段RenderPipeline u+RenderTarget g+Identifier r/D+int q；static init创建Std140SizeCalculator；lambda$render$0()返回着色器路径；src FXAAShader=INSTANCE+pipeline+input+vertexShader+fragmentShader+UNIFORMS_SIZE 结构完全对应",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/graphics/shaders/FXAAShader.java"
+  },
+  "zN": {
+   "identity": "FilterShader",
+   "kind": "class",
+   "conf": "A-",
+   "evidence": "单例public static final zN z；字段RenderPipeline g+RenderTarget U；F(Color)方法按颜色过滤渲染；k()管理RenderTarget创建/调整；c()构建RenderPipeline(withVertexShader/withFragmentShader)；src FilterShader=INSTANCE+pipeline+input+render(Color) 结构对应",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/graphics/shaders/FilterShader.java"
+  },
+  "yK": {
+   "identity": "ShaderHolder",
+   "kind": "class",
+   "conf": "A",
+   "evidence": "单例public static final yK b；EnumMap<n7,RenderPipeline> S；static Identifier J+int R+long f；lambda$getPipeline$0(n7)构建RenderPipeline(withVertexShader/withFragmentShader+Snippet)；src ShaderHolder=INSTANCE+EnumMap风格(26.2重构)+enum Shader 内部枚举 对应n7",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/holders/ShaderHolder.java"
+  }
+ },
+ "unident": [{"obf":"X_","reason":"26.2 新增类，src 26.1.2 无对应；字段yy(皮肤数据)+String+boolean；lambda$loadHead异步加载；功能推断=玩家皮肤/头部纹理加载器，但无源码确认"},{"obf":"zJ","reason":"26.2 新增枚举，src 26.1.2 无对应；extends Enum<zJ> 21值(UI交互状态：IDLE/PANEL_OPEN/CANCEL/SCROLL_UP等)；字段Identifier+long+int；y0引用此枚举做交互判断"}],
+ "conflicts": []
+}

@@ -1,0 +1,43 @@
+{
+ "batch": "D060",
+ "results": {
+  "zA": {
+   "identity": "StringListSettingWidget",
+   "kind": "class",
+   "conf": "A",
+   "evidence": "extends zv<XF>=AbstractSetSettingWidget<StringListSetting>; 方法签名精确映射: Y(Object[])→int=elementCount(), L(Object[])→String=labelText(), X(Object[])=void=openPopup(); 构造接收XF=StringListSetting; 锚点DropdownScreen吻合src中DropdownScreen.INSTANCE.openStringListSettingPopup调用",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/gui/dropdown/widget/StringListSettingWidget.java"
+  }
+ },
+ "unident": [
+  {
+   "obf": "vV",
+   "reason": "26.2 新增类。Record(long oa, String vQ, String vA)，src 中无 long+String+String 签名的 Record，仅锚点 SeQL/hi，无法匹配。"
+  },
+  {
+   "obf": "_2",
+   "reason": "26.2 新增类。record(ih oR, float oq, float o2)，ih 未识别，src 中无此 Record 签名，仅锚点 SeQL/hi。"
+  },
+  {
+   "obf": "gb",
+   "reason": "26.2 新增类。Record(_X gl, RenderPipeline zj)，_X 未识别，src 中无此 Record 签名，仅锚点 SeQL/hi。"
+  },
+  {
+   "obf": "Xi",
+   "reason": "26.2 新增类。final class(i2 P=LuminImmediateRenderer)，含 Matrix4f 的渲染变换方法 J(Matrix4f,float,float,float,float,float,int)，src 中无匹配类。"
+  },
+  {
+   "obf": "ll",
+   "reason": "26.2 新增类。Record implements _Q(ih zC, List<_Q> q2)，_Q 和 ih 均未识别，src 中无此 Record。"
+  },
+  {
+   "obf": "yP",
+   "reason": "26.2 新增类。class implements DF(field: yt q=HudEditorScreen)，float 回调/提供者模式(O(float)→float, q(String,float)→float)，src 中无匹配类。"
+  },
+  {
+   "obf": "uK",
+   "reason": "26.2 新增类。简单 float 对(float G, float q)，含 getters/setters/copy，src 中无匹配类。"
+  }
+ ],
+ "conflicts": []
+}

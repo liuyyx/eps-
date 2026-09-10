@@ -1,0 +1,63 @@
+{
+ "batch": "D002",
+ "results": {
+  "ev": {
+   "identity": "SafeCrystal",
+   "kind": "module",
+   "conf": "B",
+   "evidence": "DM(DoubleSetting:2.0,1.0,20.0,0.5)=antiSuicide参数完全匹配; Xn x2 BoolSetting=autoBreak+autoPlace; MC EndCrystal+InteractionHand+ClipContext+Vec3导入匹配; 构造器Category=COMBAT(长值=456237291118568391L); 26.2版新增MultiPlayerGameMode/AABB/BlockHitResult/EntityHitResult导入(通过mc.gameMode间接使用)",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/modules/impl/combat/SafeCrystal.java"
+  },
+  "eQ": {
+   "identity": "Scaffold",
+   "kind": "module",
+   "conf": "A",
+   "evidence": "SlabBlock+SlabType MC导入在src中唯一出现在Scaffold; Category=MOVEMENT(长值=7590425561598498072L); 26.2版新增RotationManager引用(anchored); XG(IntSetting)x2+多个uK/_Z字段; ClipContext用于方块放置射线检测",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/modules/impl/movement/Scaffold.java"
+  },
+  "eI": {
+   "identity": "Eagle",
+   "kind": "module",
+   "conf": "A",
+   "evidence": "MC CarvedPumpkinBlock+PumpkinBlock+SlimeBlock+TntBlock+FallingBlock+EntityBlock+BlockItem导入与Eagle.isHoldingBlock()黑名单完全一致; Xn x5 BoolSetting匹配Eagle的5个BoolSetting; KeyboardInputEvent+PlayerTickEvent.Pre锚点一致; 26.2版新增Hidden0/IlilIlIlil加密库及额外IntSetting",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/modules/impl/movement/Eagle.java"
+  },
+  "m": {
+   "identity": "Criticals",
+   "kind": "module",
+   "conf": "B",
+   "evidence": "AttackEntityEvent+PlayerTickEvent.Pre锚点与Criticals匹配; Category=COMBAT(长值=1050408241407708132L); Xn x3 BoolSetting对应Criticals扩展版(26.2可能新增暴击粒子+雷电效果); src Criticals仅120行/无粒子导入, 26.2版显著扩展含BlockParticleOption+LightningBolt+EntityType+Set<LivingEntity>粒子追踪系统",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/modules/impl/combat/Criticals.java"
+  },
+  "eH": {
+   "identity": "Disabler",
+   "kind": "module",
+   "conf": "B",
+   "evidence": "PacketEvent.Send+PacketEvent.Receive锚点匹配Disabler; Queue<Packet<ClientGamePacketListener>>静态包队列; MC ClientboundPlayerPositionPacket+ClientboundSetEntityMotionPacket+ServerboundMovePlayerPacket包处理; 26.2版从95行/3 BoolSetting扩展至2695行, 新增DM/Dx/X0/XG多种设置类型及ClientTickEvent/LevelUpdateEvent等事件处理",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/modules/impl/player/Disabler.java"
+  },
+  "G": {
+   "identity": "KillAura",
+   "kind": "module",
+   "conf": "B",
+   "evidence": "Render3DEvent(d9)+PlayerTickEvent.Pre(dR)+KeyboardInputEvent(yi)三事件锚点组合; MC LivingEntity+Player+Vec3+AABB+LocalPlayer+BlockPos导入; Category=COMBAT(长值=456237291118568391L); IntSetting+BoolSetting x3; 26.2版新增Gui类(vanilla HUD渲染)及d9/lV/uK等辅助类; src KillAura 265行→2138行大幅扩展",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/modules/impl/combat/KillAura.java"
+  },
+  "X": {
+   "identity": "DoubleAnchor",
+   "kind": "module",
+   "conf": "A",
+   "evidence": "_a导入=AnchorBlast$Phase枚举(DoubleAnchor源码直接使用AnchorBlast的Phase); KeybindSetting+IntSetting x2锚点完全匹配; Category=COMBAT(长值=1119278030115886606L); MC BlockHitResult+Item+Inventory导入匹配锚爆行为; 26.2版新增ClientLevel+LocalPlayer+BlockPos+X0(KeybindSetting)支持",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/modules/impl/combat/DoubleAnchor.java"
+  },
+  "eS": {
+   "identity": "PacketMine",
+   "kind": "module",
+   "conf": "A",
+   "evidence": "StartDestroyBlockEvent(dA)+PostSendPositionEvent(_J)锚点唯一匹配PacketMine; MC DropExperienceBlock+RedStoneOreBlock+WebBlock导入(稀有方块类型仅PacketMine使用); Category=COMBAT; BoolSetting+IntSetting x2+IlilIlIlil/Hidden0加密库; src PacketMine 629行→1183行",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/modules/impl/combat/PacketMine.java"
+  }
+ },
+ "unident": [],
+ "conflicts": []
+}

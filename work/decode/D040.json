@@ -1,0 +1,63 @@
+{
+  "batch": "D040",
+  "results": {
+    "OB": {
+      "identity": "ClientSetting$ThemePreset$SwitchMap",
+      "kind": "class",
+      "conf": "B",
+      "evidence": "静态 int[] X 为 ne(=ClientSetting$ThemePreset) 的 ordinal→index 映射；static block 解密 long[4] 并按 ordinal() 填充 5 元素 int[]；ne 已确认为 ThemePreset(9常量 TonalSpot/Neutral/Vibrant/Expressive/Fidelity/Content/Rainbow/FruitSalad/Monochrome)；此类为编译器生成的 switch map 辅助类，无直接源码等价物",
+      "src_path": "（编译器生成的 switch map，对应源码 ClientSetting.ThemePreset 内部枚举）"
+    },
+    "gU": {
+      "identity": "UiRenderBatch.RecordV1",
+      "kind": "record",
+      "conf": "B",
+      "evidence": "extends Record + implements yM(渲染管线接口)；14 record 组件 layer(int)/sequence(long)/bounds(XL=UiRect)/scissor(Xu)/多 float(rL/rE/r8/rm/rA)/Color dg/3×float[](nK/n8=nx)/int zF 完全匹配渲染批次数据结构；g() 方法返回 XL(UiRect) 经过 bounds 偏移计算；26.2 新增渲染管线类型",
+      "src_path": "（26.2 新增渲染管线 record，源码无对应）"
+    },
+    "d7": {
+      "identity": "UiRenderBatch.RecordV2",
+      "kind": "record",
+      "conf": "B",
+      "evidence": "extends Record + implements yM(同 gU)；17 record 组件含 scissor(Xu)/layer(int)/bounds(XL)/sequence(long) 与 gU 完全相同结构骨架；额外 X6 dH 字段+更多 float(xY/xU/xl/xx/xg/xr/xN/xD/xJ/x9/xR) 对应扩展渲染数据；与 gU 成对出现于渲染管线，为增强版批次记录",
+      "src_path": "（26.2 新增渲染管线 record，源码无对应）"
+    },
+    "_8": {
+      "identity": "ShapeType$SwitchMap",
+      "kind": "class",
+      "conf": "B",
+      "evidence": "引用 y3 枚举(常量 TEXT/TEXTURE/ROUND_RECT_OUTLINE/RECT/ROUND_RECT/BLUR_TEXT/SHADOW/TRIANGLE/GLITCH_TEXT/ARC=10值，为渲染形状类型枚举)；int[] T[5] 为 ordinal→index 映射数组；static block 解密 long[5] 并按 ordinal() 填充；编译器生成的 switch map 辅助类",
+      "src_path": "（编译器生成的 switch map，对应源码 y3=ShapeType/NodeType 渲染形状枚举）"
+    },
+    "XX": {
+      "identity": "TranslationConstants3",
+      "kind": "class",
+      "conf": "B",
+      "evidence": "3 个 static final uT(=TranslateComponent) 字段 u/Z/m；private 构造函数；static block 解密字符串数组(5字符串)并通过 hi.a(\"G\",...) 创建 TranslateComponent 实例；3个常量可能为 UI 标题/section 翻译组件；独立于 EpsilonTranslations(95个)的加密常量持有类",
+      "src_path": "（26.2 新增翻译常量类，源码无对应；类似 EpsilonTranslations 但为加密独立子集）"
+    },
+    "DE": {
+      "identity": "PanelTextFieldRenderer",
+      "kind": "util",
+      "conf": "B",
+      "evidence": "静态工具类(private 构造)；方法签名模式: K(zU=Render2D,ih=UiRect,...)=文本字段渲染, n(ih,float,float)=位置计算, Q(ih,float)=偏移计算, K(zU,ih,boolean,float)=buildFilledField→Ob(=FilledFieldColors), h(_j=TextMetrics,ih,String,...)=文本测量, y(ih)=尺寸计算；常量 k=9.0f(光标宽度), S=20.0f(字段高度)；功能与 PanelElements 的 buildFilledField/measureAssistChipBounds 同类但 API 签名不同(Object[] 加密包装)；26.2 新增文本字段渲染辅助",
+      "src_path": "（26.2 新增渲染辅助类；功能类似 PanelElements.java 但 API 不同）"
+    },
+    "Ow": {
+      "identity": "UiLayerManager",
+      "kind": "class",
+      "conf": "B",
+      "evidence": "implements AutoCloseable + 引用 Df(=UiLayer)；字段 l5(O,疑似 Scene/Runtime)/y_(J,疑似 TextMetrics)/gy(t,疑似 UiTree)；z(Df)=按 UiLayer 返回 lm(疑似 UiRenderBatch)；close()/e()/p() 管理渲染资源生命周期；与 PanelScreen/DropdownScreen 的 scene.batch(UiLayer) 调用模式一致；为 UiScene/UiLayer 管理包装器",
+      "src_path": "（26.2 新增 UI 层管理器，源码无直接对应；PanelScreen 使用 UiScene.batch(UiLayer) 模式相同）"
+    },
+    "gC": {
+      "identity": "ModuleRegistry",
+      "kind": "class",
+      "conf": "B",
+      "evidence": "static e[](=Module[]) N + P()/F(e[]) getter/setter = 模块注册表；static double C(double,double)/float I(float,float)/int H(int,int) 为加密数学工具(clamp/max)；private 构造；static block 调用 IlilIlIlil.registerNativesForClass(19)；锚点 Module(=e) 确认持有模块数组；26.2 新增模块注册+数学工具整合类",
+      "src_path": "（26.2 新增模块注册工具类；功能分散于 ModuleHolder(List) + 各处 Math.max/clamp）"
+    }
+  },
+  "unident": [],
+  "conflicts": []
+}

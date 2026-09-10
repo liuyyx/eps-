@@ -1,0 +1,46 @@
+{
+  "batch": "D066",
+  "results": {
+    "n2": {
+      "identity": "MicrosoftAuthSession",
+      "kind": "class",
+      "conf": "B",
+      "evidence": "Gson字段组合: accessToken(String)+selectedProfile(yj{name+id}) 匹配MS OAuth登录响应; yj=Profile(name,id); 26.2新增",
+      "src_path": "26.2新增,无26.1.2对应"
+    },
+    "yS": {
+      "identity": "XboxAuthToken",
+      "kind": "class",
+      "conf": "B",
+      "evidence": "Gson字段组合: DisplayClaims(nd{xui[XH{uhs}]})+Token(String) 匹配Xbox Live认证令牌; nd=DisplayClaims, XH=uhs(user hash); 26.2新增",
+      "src_path": "26.2新增,无26.1.2对应"
+    }
+  },
+  "unident": [
+    {
+      "obf": "gO",
+      "reason": "extends gk(空基类,26.2新增); 字段Supplier<Boolean> S; 无MC导入; 无匹配的26.1.2源码类(Setting子类结构不同); 26.2新增的布尔条件/包装器类型"
+    },
+    {
+      "obf": "ik",
+      "reason": "final类; 字段 LuminRingBuffer+record(GpuTextureView,GpuSampler)+int+long; GPU资源包装器; 26.1.2中无独立类匹配此组合; 26.2新增"
+    },
+    {
+      "obf": "gL",
+      "reason": "extends gk(空基类); 字段int U; 无MC导入; 无匹配的26.1.2源码类; 26.2新增的数值包装器类型"
+    },
+    {
+      "obf": "D4",
+      "reason": "Gson字段id(String)+name(String)过于通用; 可匹配Profile/Server/Guild/Category等多种实体; 无唯一结构指纹; 26.2新增"
+    },
+    {
+      "obf": "dI",
+      "reason": "record(float[] hF, float yG); 无MC导入; 源码中无匹配record; 可能为26.2渲染数据结构"
+    },
+    {
+      "obf": "DL",
+      "reason": "record(int qN, int qd); 无MC导入; 源码中无匹配record; 可能为26.2坐标/尺寸数据结构"
+    }
+  ],
+  "conflicts": []
+}

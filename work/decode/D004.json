@@ -1,0 +1,52 @@
+{
+  "batch": "D004",
+  "results": {
+    "eE": {
+      "identity": "ElytraSwap",
+      "kind": "module",
+      "conf": "A-",
+      "evidence": "字段类型精确吻合: X0(activateKey:KeybindSetting) + 2×XG(swapDelay/switchDelay:IntSetting) + Xn(switchBack:BoolSetting); MC: Item+ItemStack 对应 src net.minecraft.world.item.ItemStack 导入; 构造器 Category.PLAYER 一致",
+      "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/modules/impl/player/ElytraSwap.java"
+    },
+    "c": {
+      "identity": "Disabler",
+      "kind": "module",
+      "conf": "B",
+      "evidence": "MC: ServerboundSetCarriedItemPacket 吻合 src Disabler 的 badPacketsA 逻辑; 2×Xn(BoolSetting) 对应 src badPacketsA+sprinting; @yE 事件处理器处理 dQ(包事件); int 字段 m 可能为26.2新增状态",
+      "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/modules/impl/player/Disabler.java"
+    },
+    "ua": {
+      "identity": "FreeCamera",
+      "kind": "module",
+      "conf": "B",
+      "evidence": "MC: CameraRenderState+Vec3+Matrix4f 对应 src FreeCamera 的相机位置/旋转管理; Dx<ga>(枚举相机模式); 2×Matrix4f(O,E) 对应 pos/prevPos 的矩阵表示(26.2重构); GameLeftEvent handler 吻合 src onGameLeft; dw 类为渲染点工具",
+      "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/modules/impl/render/FreeCamera.java"
+    },
+    "eA": {
+      "identity": "AutoTotem",
+      "kind": "module",
+      "conf": "A",
+      "evidence": "z()方法精确匹配 src shouldHoldTotem(): health+getAbsorptionAmount() 阈值判断、getY()<-64.0 虚空检测、getMainHandItem()==GOLDEN_APPLE 金苹果检查; DM(double阈值)对应 src health DoubleSetting; Xn 对应 src strict/checkGapple BoolSetting",
+      "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/modules/impl/combat/AutoTotem.java"
+    }
+  },
+  "unident": [
+    {
+      "obf": "n",
+      "reason": "203行 Module, MC: Packet+ServerboundUseItemOnPacket+ServerboundUseItemPacket, Queue<Packet<?>> 包队列。src 中无匹配模块: UseCooldown(15行无包处理)、Blink(=eN,MC不同)、PacketEat(=k,无此MC)均不吻合; 26.2 新增模块"
+    },
+    {
+      "obf": "eP",
+      "reason": "1961行 Module, MC: Gui+LocalPlayer, 15+设置(BoolSetting/IntSetting/DoubleSetting/EnumSetting<Dx<vv>>/ClickButton)。src 无模块同时导入 Gui+LocalPlayer 且有此规模; ClickButton 暗示 HUD 按钮功能; 26.2 新增模块"
+    },
+    {
+      "obf": "eC",
+      "reason": "922行 Module, MC: LevelExtractor(26.2新API)+EntityType, Xe<EntityType<?>> RegistryListSetting, 30+Xn(BoolSetting逐实体类型开关)。src 无 EntityESP 模块; LevelExtractor 仅26.2存在; 高度疑似 EntityESP 但 src 无对应, 26.2 新增模块"
+    },
+    {
+      "obf": "ex",
+      "reason": "316行 Module, MC: LocalPlayer+CrossbowItem, 无任何 Setting。src 无纯弩模块: InvManager/Stealer 仅引用 CrossbowItem 作为工具评分; 极简结构+弩专用逻辑; 26.2 新增模块(AutoCrossbow?)"
+    }
+  ],
+  "conflicts": []
+}

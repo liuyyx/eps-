@@ -1,0 +1,22 @@
+{
+  "batch": "D055",
+  "results": {
+    "va": {
+      "identity": "SettingLayoutPlanner$Section",
+      "kind": "record",
+      "conf": "B",
+      "evidence": "字段匹配: String LO(=key), List<Dl<?>>(=settings), nN(=SettingGroup); 静态工厂 C(String,nN) 和 n(String) 对应 Section.inline/Section(...) 模式; 26.1.2 源码 SettingLayoutPlanner.Section 为内部 record，编译后可能提升为顶层类",
+      "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/settings/SettingLayoutPlanner.java"
+    }
+  },
+  "unident": [
+    {"obf": "O5", "reason": "26.2 新增类。实现 DF(text metrics 回调接口)，持有 u4(DropdownScreen)，委托 _j(渲染核心)。DF 接口有 q(String,float)/O(float) 等文本度量方法。src 无 DF 接口对应，疑为 26.2 新增的 DropdownScreen 文本度量适配器"},
+    {"obf": "uB", "reason": "26.2 新增类。Record 实现 _Q(sealed 渲染数据接口)，字段: Color, float, ih(=UiRect), float, String。_Q 为 26.2 新增 sealed 接口(30 个 Record 许可)，src 无对应"},
+    {"obf": "l2", "reason": "26.2 新增类。Record 实现 _Q，字段: float×4, Color。_Q 为 26.2 新增 sealed 接口，src 无对应"},
+    {"obf": "ux", "reason": "26.2 新增类。Record 实现 _Q，字段: ih(=UiRect), float×2, String×2。_Q 为 26.2 新增 sealed 接口，src 无对应"},
+    {"obf": "_0", "reason": "26.2 新增类。Record 实现 _Q，字段: float×4, Color。_Q 为 26.2 新增 sealed 接口，src 无对应"},
+    {"obf": "vP", "reason": "26.2 新增类。接口，被 iN(抽象类，3312 行渲染逻辑) 实现。方法签名涉及坐标/颜色/状态的渲染操作。src 无对应接口"},
+    {"obf": "d8", "reason": "26.2 新增类。Record，字段: float×4, y4(=LuminTexture)。锚点 LuminTexture，为纹理渲染数据记录。src 无对应"}
+  ],
+  "conflicts": []
+}

@@ -1,0 +1,34 @@
+{
+  "batch": "D045",
+  "results": {
+    "_P": {
+      "identity": "Step.Mode",
+      "kind": "enum",
+      "conf": "A-",
+      "evidence": "jar常量 OldNCP/NCP/Vanilla 与 Step.java 内部枚举 Mode{Vanilla,OldNCP,NCP} 完全一致，仅顺序不同（jar排列 vs 源码声明序）；26.1.2 Step 模块独有此三值组合",
+      "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/modules/impl/movement/Step.java"
+    },
+    "zY": {
+      "identity": "ZealotCrystalPlus.PlaceMode",
+      "kind": "enum",
+      "conf": "A-",
+      "evidence": "jar常量 Multi/Off/Single 与 ZealotCrystalPlus.java 内部枚举 PlaceMode{Off,Single,Multi} 完全一致，仅顺序不同；该三值组合仅在 ZCP PlaceMode 中出现",
+      "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/modules/impl/combat/ZealotCrystalPlus.java"
+    },
+    "zO": {
+      "identity": "ZealotCrystalPlus.SwingMode",
+      "kind": "enum",
+      "conf": "A-",
+      "evidence": "jar常量 Client/None/Packet 与 ZealotCrystalPlus.java 内部枚举 SwingMode{None,Client,Packet} 完全一致，仅顺序不同；该三值组合仅在 ZCP SwingMode 中出现",
+      "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/modules/impl/combat/ZealotCrystalPlus.java"
+    }
+  },
+  "unident": [
+    {"obf": "uq", "reason": "26.2 新增枚举；常量 Quantum/NVIDIA/Akarin 为服务器实现名称，26.1.2 src 中无对应枚举"},
+    {"obf": "uy", "reason": "26.2 新增枚举；常量 Backwards/NoForwards/StopSprinting 为冲刺方向模式，26.1.2 src 中无对应枚举"},
+    {"obf": "XE", "reason": "26.2 新增枚举；常量 NONE/LAVA/LAVA_SUPPORT 为岩浆行/移动模式，26.1.2 src 中无对应枚举"},
+    {"obf": "yB", "reason": "26.2 新增枚举；常量 None/Color/Scoreboard 为信息显示模式，26.1.2 src 中无对应枚举"},
+    {"obf": "ye", "reason": "26.2 新增枚举；常量 VanillaAndModded/Off/VanillaOnly 为服务器版本检测模式，26.1.2 src 中无对应枚举"}
+  ],
+  "conflicts": []
+}

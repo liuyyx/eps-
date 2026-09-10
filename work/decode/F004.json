@@ -1,0 +1,40 @@
+{
+  "batch": "F004",
+  "results": {
+    "eP": {
+      "identity": "unidentifiable",
+      "kind": "module",
+      "conf": "-",
+      "evidence": "eP为大型渲染/ESP模块(extends e=Module)，1961行，含15+设置(DM=DoubleSetting, XG=IntegerSetting, Xn=BooleanSetting, Dx<vv>=EnumSetting, D1=容器实例2个)；方法f(Object[])处理D1+vv枚举渲染逻辑含1000/timing计算；n(Object[])含screen()访问和设置重置；I()/L()检查vv枚举状态；x(dR)@yE事件处理含设置g()重置；导入Gui+LocalPlayer；4个候选(MixinGuiManager 30行Mixin类, MixinLocalPlayer 141行, MixinMinecraft 193行, MixinItemInHandRenderer 153行)均为小Mixin而非Module，无匹配",
+      "official_path": "N/A"
+    },
+    "n": {
+      "identity": "unidentifiable",
+      "kind": "module",
+      "conf": "-",
+      "evidence": "n为数据包过滤模块(extends e=Module)，203行，含ConcurrentLinkedQueue<Packet<?>> l缓存数据包、int m/a计数器；M(Object[])初始化队列+计数器；j(dQ)@yE检测ServerboundUseItemOnPacket/ServerboundUseItemPacket实例类型，满足条件时l.add(packet)+cancel+设置标志；s(dR)@yE处理数据包发送事件；static block含IlilIlIlil.registerNativesForClass+Hidden0.special_clinit；4个候选(PacketEvent为事件类191行非Module, MixinConnection为Mixin 153行非Module, Stuck已用于F002/E009, InteractionUtils为工具类非Module)均不匹配",
+      "official_path": "N/A"
+    },
+    "p": {
+      "identity": "unidentifiable",
+      "kind": "module",
+      "conf": "-",
+      "evidence": "p为交互/放置/旋转模块(extends e=Module)，3043行，含多个设置(q/K/M/L=Boolean, l=XG整数范围, F/a=BlockPos, m=DM浮点, e=Direction+BlockPos)；方法r(Object[])处理BlockHitResult+Vec3+Direction含射线投射逻辑；t(Object[])处理距离+角度检查含AABB；B(Object[])检测BlockHitResult+距离比较；X(Object,Object)遍历Direction数组找最近面含Vec3距离计算；g()重置5个字段；static block含772个long常量表(混淆数据)；4个候选(RotationUtils为工具类260行非Module, InteractionUtils 48行工具类非Module, MixinLocalPlayer 141行Mixin非Module, MixinSodiumAbstractBlockRenderContext为Mixin)均不匹配",
+      "official_path": "N/A"
+    }
+  },
+  "unident": [
+    {
+      "obf": "eP",
+      "reason": "1961行Module子类，15+设置含EnumSetting/DoubleSetting/IntegerSetting/BooleanSetting，渲染/ESP特征(screen/LocalPlayer/Gui)，4候选均为30-193行Mixin类，结构和规模完全不匹配"
+    },
+    {
+      "obf": "n",
+      "reason": "203行Module子类，ConcurrentLinkedQueue<Packet<?>>数据包缓存+实例类型检测(ServerboundUseItemOnPacket/ServerboundUseItemPacket)，PacketEvent为191行事件类非Module，MixinConnection为Mixin非Module，InteractionUtils为工具类非Module，Stuck已被其他批次使用"
+    },
+    {
+      "obf": "p",
+      "reason": "3043行Module子类，含BlockHitResult/Direction/Vec3/BlockPos射线投射+距离计算+遍历Direction找最近面，RotationUtils为工具类非Module，InteractionUtils为工具类非Module，无Module候选匹配"
+    }
+  ]
+}

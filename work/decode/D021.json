@@ -1,0 +1,43 @@
+{
+ "batch": "D021",
+ "results": {
+  "Dr": {
+   "identity": "Scaffold$RenderInfo",
+   "kind": "record",
+   "conf": "A",
+   "evidence": "Record 字段类型序列 AABB,Color,Color,long,boolean,boolean 与源码 Scaffold.RenderInfo(AABB aabb,Color lineColor,Color sideColor,long startTime,boolean fade,boolean shrink) 完全一致; equals/hashCode toString 引用6字段 GC;c2;CC;wc;eQ;eq",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/modules/impl/movement/Scaffold.java"
+  }
+ },
+ "unident": [
+  {
+   "obf": "na",
+   "reason": "编译器生成的 Direction switch bootstrap 辅助类(invokedynamic); 静态 int[] + bootstrap 方法 L(), 仅引用 Direction, 无源码对应"
+  },
+  {
+   "obf": "Ol",
+   "reason": "编译器生成的 Direction switch bootstrap 辅助类(invokedynamic); 静态 int[] + bootstrap 方法 G(), 仅引用 Direction, 无源码对应"
+  },
+  {
+   "obf": "yz",
+   "reason": "编译器生成的 Direction switch bootstrap 辅助类(invokedynamic); 静态 int[] + bootstrap 方法 u(), 仅引用 Direction, 无源码对应"
+  },
+  {
+   "obf": "O6",
+   "reason": "Record implements DynamicUniformStorage.DynamicUniform, 2字段 (Oq KA, float cF), write()调用 putVec4; 源码中所有 DynamicUniform 记录(BlurUniforms/FXAAInfo/FilterColor/SandboxInfo)字段数不匹配 → 26.2 新增"
+  },
+  {
+   "obf": "z9",
+   "reason": "编译器生成的 switch bootstrap 辅助类; 引用 DQ(ArmorEnchantmentMode) 和 Difficulty 双枚举, 静态 int[] Y/z, 无源码对应"
+  },
+  {
+   "obf": "ug",
+   "reason": "Record: Identifier yD, List<v0> qW, int QD, String eM, float e5; 源码无匹配的 Record 类型组合 → 26.2 新增"
+  },
+  {
+   "obf": "yl",
+   "reason": "Record: List<nD>×2, List<BlockPos>×3; 源码无匹配的 Record 类型组合 → 26.2 新增"
+  }
+ ],
+ "conflicts": []
+}

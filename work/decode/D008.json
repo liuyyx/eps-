@@ -1,0 +1,49 @@
+{
+  "batch": "D008",
+  "results": {
+    "uE": {
+      "identity": "SafeAnchor",
+      "kind": "module",
+      "conf": "A",
+      "evidence": "MC imports匹配(LocalPlayer,InteractionHand,InteractionResult,Inventory,AABB,BlockHitResult)；jar extends u9(Module)；jar代码含getDirection()→BlockHitResult、consumesAction()→InteractionResult，与SafeAnchor锚块放置逻辑一致；字段BlockPos V=锚点位置",
+      "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/modules/impl/combat/SafeAnchor.java"
+    },
+    "e9": {
+      "identity": "ScaffoldBlock",
+      "kind": "hudmodule",
+      "conf": "A",
+      "evidence": "super=eh(HudModule)；imports含eW(Scaffold)、DM(DoubleSetting)、DV(ColorSetting)、Xn(BoolSetting)；anchored含HudModule+Scaffold；jar代码引用KeyMapping/Gui/ChatScreen+lambda(updateBalanceInstance/updateMusicInstance/updateTabListInstance)与ScaffoldBlock HUD元素完全匹配",
+      "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/elements/impl/ScaffoldBlock.java"
+    },
+    "_i": {
+      "identity": "PopChams",
+      "kind": "class",
+      "conf": "A",
+      "evidence": "super=RemotePlayer；imports含d9(Render3DEvent)、uz(PopChams)、yL(WalkAnimationStateAccessor)；anchored含PopChams+Render3DEvent+WalkAnimationStateAccessor；jar构造器创建ClientLevel+GameProfile并复制WalkAnimationState，与PopChams假人实体完全匹配",
+      "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/modules/impl/render/PopChams.java"
+    }
+  },
+  "unident": [
+    {
+      "obf": "l0",
+      "reason": "extends l8(未识别父类)；MC imports含BlockTintSource、BlockAndTintGetter——这两个类在26.1.2 src树中无任何文件引用；TextureAtlasSprite仅在Mixin文件中出现；jar代码含sprite渲染+颜色计算逻辑；无法与src中任何类匹配，疑为26.2新增渲染工具类"
+    },
+    {
+      "obf": "uf",
+      "reason": "extends u9(Module)；MC imports(ClientLevel,BlockPos,Entity,ClipContext,BlockState,AABB,Vec3)指向射线追踪功能；jar方法Y()检查BlockPos可见性、T()执行射线追踪+渲染AABB框、A()查找最近方块——与RaytraceUtils(nJ)功能相似但nJ已映射；SafeCrystal imports匹配但类结构不同；无法确认唯一身份"
+    },
+    {
+      "obf": "gG",
+      "reason": "implements BakedGlyph；MC imports(TextRenderable,BakedGlyph,RenderSetup,RenderType,Style,Identifier)指向字体渲染；jar代码含info()返回GlyphInfo、renderType()创建RenderType、样式化字形渲染——为Epsilon自定义BakedGlyph实现(配合MixinFont/MinecraftFontAdapter2612)；src中无直接对应类，疑为26.2新增字体渲染类"
+    },
+    {
+      "obf": "_n",
+      "reason": "无super类；imports含vy(EventBus)、__(ClientTickEvent.Post)；HashMap<AbstractClientPlayer,List<Vec3>>追踪玩家位置+计算AABB包围盒+物理模拟(重力0.08/摩擦0.98)——疑为玩家轨迹/位置记录工具；Trail(vb)已映射为不同类；src中无直接匹配类"
+    },
+    {
+      "obf": "yV",
+      "reason": "super=SubmitNodeStorage；仅38行；override submitModel()和submitCustomGeometry()方法——为SubmitNodeStorage的覆写实现，用于模型渲染拦截/重定向；src中MixinModelFeatureRenderer引用SubmitNodeStorage但功能不同；疑为26.2新增渲染节点存储类"
+    }
+  ],
+  "conflicts": []
+}

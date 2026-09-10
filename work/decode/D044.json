@@ -1,0 +1,39 @@
+{
+ "batch": "D044",
+ "results": {},
+ "unident": [
+  {
+   "obf": "D8",
+   "reason": "26.2 新增。Enum (Sakura/Tradition/Glitch)，用于 eX(Potions HudModule) 的 Dx<D8> 枚举设置。常量为视觉主题名，但源码(26.1.2)中 Potions 无此枚举，无法确定原始类名。"
+  },
+  {
+   "obf": "dg",
+   "reason": "26.2 新增。普通类，字段 ih S + zU I + float a，含动画插值方法(j/c/S/b/x)，构造器取 zU+ih，使用 CallSite 做调用分发。源码无对应类，无法确定原始类名。"
+  },
+  {
+   "obf": "gj",
+   "reason": "26.2 新增。Record 实现 yM，13 字段(layer/sequence/bounds/scissor/PF/GI/GX/GQ/up(Color)/fs(nK)/g9/g7/GD)，为文本渲染记录。源码无对应类，无法确定原始类名。"
+  },
+  {
+   "obf": "l4",
+   "reason": "26.2 新增。Enum (Disabled/Auto/Enabled)，用作 X8(版本门控 EnumSetting)的类型参数，在 uc(ClientSetting) 中使用。源码 ClientSetting 无此枚举。"
+  },
+  {
+   "obf": "lP",
+   "reason": "26.2 新增。Enum (FONT_BLUR/STANDARD/GLITCH)，被 _j(文本渲染接口) 和 vq(GPU 渲染)引用。源码无对应枚举，无法确定原始类名。"
+  },
+  {
+   "obf": "lT",
+   "reason": "26.2 新增。Enum (Balance/Always/SlowBalance)，源码中无此枚举，常量暗示平衡/始终/慢平衡类设置，但无法确定所属模块和原始类名。"
+  },
+  {
+   "obf": "n7",
+   "reason": "26.2 新增。Enum (Cine/Euabe/Local)，在 e5(Module) 中作 Dx<n7> 枚举设置，在 yK 中作 EnumMap<n7, RenderPipeline> 键。源码无对应枚举。"
+  },
+  {
+   "obf": "nn",
+   "reason": "26.2 新增。Enum (Cancel/Kick/CancelAndNotify)，在 uc(ClientSetting) 中作 Dx<nn> 枚举设置。源码 ClientSetting 无此枚举。"
+  }
+ ],
+ "conflicts": []
+}

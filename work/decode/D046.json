@@ -1,0 +1,52 @@
+{
+  "batch": "D046",
+  "results": {
+    "DB": {
+      "identity": "HitParticles.Physics",
+      "kind": "enum",
+      "conf": "A",
+      "evidence": "枚举常量 Fall/Fly 与 src HitParticles.Physics (render/HitParticles.java:48-51) 完全一致",
+      "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/modules/impl/render/HitParticles.java"
+    },
+    "nZ": {
+      "identity": "ElytraFlightModes",
+      "kind": "enum",
+      "conf": "A",
+      "evidence": "枚举常量 Control/Pitch40 与 src ElytraFlightModes (elytrafly/ElytraFlightModes.java) 完全一致",
+      "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/modules/impl/movement/elytrafly/ElytraFlightModes.java"
+    },
+    "lL": {
+      "identity": "AutoArmor.EnchantPriority",
+      "kind": "enum",
+      "conf": "A",
+      "evidence": "枚举常量 Protection/Blast 与 src AutoArmor.EnchantPriority (player/AutoArmor.java:47-50) 完全一致",
+      "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/modules/impl/player/AutoArmor.java"
+    },
+    "nw": {
+      "identity": "Module.BindMode",
+      "kind": "enum",
+      "conf": "A",
+      "evidence": "枚举常量 Hold/Toggle 与 src Module.BindMode (modules/Module.java:27-30) 完全一致",
+      "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/modules/Module.java"
+    }
+  },
+  "unident": [
+    {
+      "obf": "g9",
+      "reason": "枚举常量 Range/Attack 未在 26.1.2 src 中找到任何匹配的 2 值枚举，可能为 26.2 新增枚举"
+    },
+    {
+      "obf": "ga",
+      "reason": "枚举常量 Backwards/Centered 未在 26.1.2 src 中找到任何匹配的枚举（Backwards 作为枚举常量未出现），可能为 26.2 新增枚举"
+    },
+    {
+      "obf": "iX",
+      "reason": "枚举常量 Double/Single 未在 26.1.2 src 中找到匹配的 2 值枚举（KillAura.TargetMode 有 Single 但为 3 值且含 Multiple），可能为 26.2 新增枚举"
+    },
+    {
+      "obf": "lh",
+      "reason": "枚举常量 Switch/Single 与 KillAura.TargetMode 部分匹配但后者含 3 值（Single/Switch/Multiple），2 值版本在 26.1.2 src 中无对应，可能为 26.2 新增枚举"
+    }
+  ],
+  "conflicts": []
+}

@@ -1,0 +1,55 @@
+{
+ "batch": "D031",
+ "results": {
+  "_E": {
+   "identity": "Animation",
+   "kind": "class",
+   "conf": "A",
+   "evidence": "字段 lH C=Easing 与 Animation.easing 完全一致; g(float) 插值逻辑与 run(float) 同构: 均设 startValue → 计算 easing(progress) → 根据方向做 startValue±(target-startValue)*result; 字段映射: q→finished, C→easing, b→duration, k→startTime, I→startValue, f→destinationValue, T→value",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/utils/render/animation/Animation.java"
+  },
+  "DT": {
+   "identity": "DropdownTheme",
+   "kind": "class",
+   "conf": "A",
+   "evidence": "float 常量与 DropdownTheme 逐一对应: Q=130.0f=PANEL_WIDTH, A=28.0f=PANEL_HEADER_HEIGHT, K=16.0f=SETTING_HEIGHT, k=14.0f=PANEL_GAP, z=10.0f=PANEL_RADIUS, R=4.0f=GROUP_INSET, B=8.0f=PANEL_BOTTOM_PADDING, s=1.5f=SLIDER_RADIUS, t=3.5f=SLIDER_KNOB_RADIUS, v=0.42f=GROUP_COUNT_TEXT_SCALE, W=0.52f=GROUP_HEADER_TEXT_SCALE, e=0.82f=HEADER_TEXT_SCALE, a=0.86f=HEADER_ICON_SCALE 等; 静态 Color 方法对应 moduleEnabled/moduleDisabled/settingLabel 等; 26.2 可能合并了 MD3Theme 的 Color 常量",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/gui/dropdown/DropdownTheme.java"
+  },
+  "ib": {
+   "identity": "SettingWidget",
+   "kind": "class",
+   "conf": "B",
+   "evidence": "extends iN(未知基类); 构造器 (String, uT=TranslateComponent, String, int, List<Dl<?>>) 与 SettingWidget/SettingRow 通用模式一致; 翻译组件锚点确认; 方法签名 (p/N/J=渲染/命中测试, c=高度, t=键盘, v=可见性) 符合 widget 模式; 但 26.1.2 SettingWidget 构造器仅 (S setting), 26.2 可能重构为5参; 无法确定具体子类",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/gui/dropdown/widget/SettingWidget.java"
+  },
+  "ih": {
+   "identity": "UiRect",
+   "kind": "record",
+   "conf": "B",
+   "evidence": "Record 4 float 字段 (ke=x, kz=y, kt=width, k5=height); 访问器 Ke()=x, Kz()=y, Kb()=x+width, K5()=y+height; X(double,double) 做边界包含测试; C(float,float) 偏移x/y后裁剪宽高; t(ih) 做 union(取min/max); 与 com.github.slmpc.lumingraphics.ui.geometry.UiRect 功能完全一致; 26.2 将其内化为 epsilon 自有 record",
+   "src_path": "无直接 src 对应 (UiRect 来自 LuminGraphics 库; 26.2 新增 epsilon 内化版本)"
+  },
+  "iP": {
+   "identity": "EpsilonAddon",
+   "kind": "class",
+   "conf": "B",
+   "evidence": "extends iH=class_map 确认 iH=EpsilonAddon(A); super(iP.b(30467,29450)) 传 addonId 给父构造器; 有 SettingHost 接口实现方法 (e/w/V/R/z); String[] 静态加密字段为 addon 名称常量; 是 EpsilonAddon 的具体子类, 但无法确定具体 addon 名称",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/addon/EpsilonAddon.java"
+  }
+ },
+ "unident": [
+  {
+   "obf": "lb",
+   "reason": "字段 y3/Xu/yM/XL 类型均未在 class_map 或 src 中找到; 方法 m/Q/G/H 角色推测为 SettingGroup 相关渲染器, 但无法确认; 26.2 新增, 无 src 对应"
+  },
+  {
+   "obf": "Dg",
+   "reason": "字段 ih T=UiRect, 方法 L(ih,int,int,int,long) 做边界匹配; 锚点含 Setting; 角色推测为边界/碰撞判定工具, 但 26.2 新增类无 src 对应, 无法确定真实类名"
+  },
+  {
+   "obf": "y8",
+   "reason": "implements AutoCloseable; 字段 Map<y3,Deque<_X>> + List<_X>; close() 遍历清理; 角色推测为 addon 生命周期/资源管理器; 锚点含 EpsilonAddon; 26.2 新增, 无 src 对应"
+  }
+ ],
+ "conflicts": []
+}

@@ -1,0 +1,63 @@
+{
+ "batch": "D036",
+ "results": {
+  "_m": {
+   "identity": "Particles.Mode",
+   "kind": "enum",
+   "conf": "A",
+   "evidence": "6枚举常量Bloom/Stars/Dollars/Off/SnowFlake/Hearts与src Particles.Mode完全一致(仅顺序不同)",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/modules/impl/render/Particles.java"
+  },
+  "zL": {
+   "identity": "MainMenuScreen.Background",
+   "kind": "enum",
+   "conf": "A-",
+   "evidence": "7枚举常量BLACK_HOLE/ALIEN_TERRAIN/MINECRAFT/PLANET/SEA_LEVEL/CLOUDS/INFERNO; src MainMenuScreen.Background有4值(SEA_LEVEL/PLANET/BLACK_HOLE/MINECRAFT), 26.2新增3个背景(ALIEN_TERRAIN/CLOUDS/INFERNO)",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/gui/screen/MainMenuScreen.java"
+  },
+  "yO": {
+   "identity": "RegistryListUi",
+   "kind": "util",
+   "conf": "A-",
+   "evidence": "public static String j(Object[])取Xf(RegistryListSetting$Type)参数,switch返回uT(TranslateComponent)翻译字符串; src RegistryListUi.labelText(RegistryListSetting.Type)功能一致; jar多一个空串case为版本差异",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/gui/utils/RegistryListUi.java"
+  },
+  "X8": {
+   "identity": "ProtocolVersionSetting",
+   "kind": "class",
+   "conf": "B",
+   "evidence": "extends Dx<l4>(EnumSetting<l4>), l4枚举3值(Disabled/Auto/Enabled), 字段ProtocolVersionRange; ViaVersion兼容功能; 26.1.2 src无对应(ViaVersion为新依赖)",
+   "src_path": ""
+  },
+  "i4": {
+   "identity": "CrystalDamageInfo",
+   "kind": "class",
+   "conf": "B",
+   "evidence": "final类, 字段nq(=CrystalSnapshot)+float f/O(J方法设最小/最大浮点边界,W方法重置为MAX/MIN); anchor含CrystalSnapshot; 26.2新增CrystalAura伤害追踪辅助类",
+   "src_path": ""
+  },
+  "l8": {
+   "identity": "Element",
+   "kind": "class",
+   "conf": "B",
+   "evidence": "abstract类, protected final gk d(空基类引用), _Z K辅助, float P/k/N/Z坐标+int I索引, V(Color)->Color修改alpha, abstract B/n; 子类l0(l8)引用BlockTintSource, 为HUD元素渲染基类; 26.2新增抽象基类",
+   "src_path": ""
+  },
+  "n6": {
+   "identity": "DynamicUniformChunk",
+   "kind": "class",
+   "conf": "B",
+   "evidence": "字段Oq S/float z/vq o/_t W/yn v/GpuBufferSlice O/q, GpuBufferSlice用于GPU uniform管理; f(Object[])方法计算偏移量+写入uniform; 26.2 Lumin渲染管线新增的uniform chunk管理类",
+   "src_path": ""
+  },
+  "zh": {
+   "identity": "NotificationType",
+   "kind": "enum",
+   "conf": "B",
+   "evidence": "7枚举常量Roll/Fall/Insert/Size/FadeOut/Rocket/Otkisuli均为动画/通知效果名; src Notifications模块使用NotificationMode, 26.2重构为独立枚举",
+   "src_path": ""
+  }
+ },
+ "unident": [],
+ "conflicts": []
+}

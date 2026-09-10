@@ -1,0 +1,52 @@
+{
+  "batch": "D032",
+  "results": {
+    "vk": {
+      "identity": "ScrollBarUtils.ThumbGeometry",
+      "kind": "record",
+      "conf": "A",
+      "evidence": "Record 8 float组件(mc,mw,m3,ML,mi,MJ,m8,MW)匹配ThumbGeometry(thumbX,thumbY,thumbWidth,thumbHeight,trackX,trackY,trackWidth,trackHeight)；两个containment方法X(double,double)->boolean/n(double,double)->boolean精确对应thumbContains/trackContains；Record结构+8 float+2 bool containment → 唯一匹配",
+      "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/gui/panel/utils/ScrollBarUtils.java"
+    },
+    "OX": {
+      "identity": "MoveUtils",
+      "kind": "util",
+      "conf": "A",
+      "evidence": "静态工具类；j(double)->double[] 匹配forwardWithoutStrafe(double)->double[]：(rad=toRadians(y+90.0f), ret={speed*cos(rad), speed*sin(rad)})；x(double)->double[] 匹配forward(double)->double[]：含forward/left向量加法(forward*speed*cos+left*speed*sin, forward*speed*sin-left*speed*cos)；无实例字段+纯静态方法 → MoveUtils",
+      "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/utils/player/MoveUtils.java"
+    },
+    "zv": {
+      "identity": "AbstractSetSettingWidget",
+      "kind": "class",
+      "conf": "A",
+      "evidence": "abstract class extends zc(=SettingWidget)；字段private static final float D=14.0f匹配FIELD_HEIGHT=14.0f；字段_E为Animation类型匹配hoverAnim=new Animation(Easing.EASE_OUT_CUBIC,...)；abstract方法Y()->int匹配elementCount(), L()->String匹配labelText(), X()->void匹配openPopup()；anchored[Easing,SettingWidget]与AbstractSetSettingWidget的import完全吻合",
+      "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/gui/dropdown/widget/AbstractSetSettingWidget.java"
+    },
+    "Dw": {
+      "identity": "ScissorUtils",
+      "kind": "util",
+      "conf": "A",
+      "evidence": "静态工具类(import RenderPass,yJ)；f(Object[])->boolean匹配enableScissor(RenderPass,int,int,int,int)->boolean：检查width>0&&height>0后调用pass.enableScissor(x,y,w,h)；T(Object[])->int匹配clampFramebufferScissor；static E字段(String)为framebuffer缓存；private构造器→纯静态工具类→ScissorUtils",
+      "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/utils/render/ScissorUtils.java"
+    }
+  },
+  "unident": [
+    {
+      "obf": "vr",
+      "reason": "Record 4 float组件(nz,n1,NG,np)，有containment方法w()->boolean和多个float accessor；src中仅找到2个8-float record(ThumbGeometry/Geometry)和1个4-int record(ScissorRect)，无4-float record匹配；可能是26.2新增record或从外部库提取的内部类"
+    },
+    {
+      "obf": "yT",
+      "reason": "record 8 float组件(mP,mY,mV,mM,mF,mr,ms,my)，两个containment方法r(double,double)->boolean/d(double,double)->boolean；结构类似ThumbGeometry(vk)但accessor名不同(mM/mr/mP/mV/ms/my/mF/mY vs thumbX/thumbY/thumbWidth/thumbHeight/trackX/trackY/trackWidth/trackHeight)；可能是26.2新增的scrollbar内部record或不同用途的geometry record"
+    },
+    {
+      "obf": "Ot",
+      "reason": "使用Int2ObjectMap<O9>，方法参数均为Object[]，有keySet/contains/get/size/add等集合操作；O9未在class_map中识别；可能是26.2新增的翻译索引、调度表或缓存结构"
+    },
+    {
+      "obf": "D1",
+      "reason": "引用BoolSetting(Xn)+eP(未识别)，字段long l/E/w/h/Y/J/M+boolean A/g/F+final eP W；构造器初始化多个时间戳字段；方法B(Object[])处理long时间戳并操作BoolSetting；可能是26.2新增的cooldown/state tracker或tick-based调度器"
+    }
+  ],
+  "conflicts": []
+}

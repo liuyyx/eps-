@@ -1,0 +1,27 @@
+{
+  "batch": "F002",
+  "results": {
+    "eH": {
+      "identity": "Stuck",
+      "kind": "module",
+      "conf": "A",
+      "evidence": "均为Module子类；eH有Queue<Packet<ClientGamePacketListener>>及ServerboundMovePlayerPacket/ClientboundPlayerPositionPacket/ClientboundSetEntityMotionPacket处理，与Stuck的PacketEvent.Send handler完全对应；eH的float字段(lastYaw/lastPitch)对应Stuck的lastYaw/lastPitch；O方法处理dQ事件含ServerboundInteractPacket，对应Stuck.onInteract中旋转发送逻辑；Disable时发送坐标偏移数据包对应Stuck.onDisable的ServerboundMovePlayerPacket.PosRot",
+      "official_path": "work/official26/com/github/epsilon/modules/impl/movement/Stuck.java"
+    },
+    "eQ": {
+      "identity": "MixinClientLevel",
+      "kind": "class",
+      "conf": "A-",
+      "evidence": "eQ虽标记is_module:true但实为MixinClientLevel（可能是模块化的Mixin包装）；关键匹配：eQ使用ClientLevel.getBlockState、ClipContext做射线检测遍历方块位置，与MixinClientLevel的levelEvent处理方块检测逻辑一致；字段uK(ClientLevel引用)对应MixinClientLevel的ClientLevel参数；q方法中反复读取getBlockState/isAir并遍历坐标偏移(-1到1范围)，对应levelEvent中对pos的方块状态查询；添加了SlabBlock/SlabType引用为版本演进差异",
+      "official_path": "work/official26/com/github/epsilon/mixins/MixinClientLevel.java"
+    },
+    "H": {
+      "identity": "JumpCircle",
+      "kind": "module",
+      "conf": "A-",
+      "evidence": "H为Module子类，关键匹配JumpCircle：(1)static RenderPipeline V=JUMP_CIRCLE_PIPELINE；(2)两个Identifier P/B=CIRCLE_TEXTURE/BUBBLE_TEXTURE；(3)List<UUID> h=groundedCache追踪玩家着地状态；(4)List<Dp> Q=circles粒子/圆圈位置列表；(5)Dx<_f> W为enum设置(Mode.Portal/非Portal)；(6)Color alpha混合方法y()对应JumpCircle的颜色动画；(7)D(dR)方法遍历Player列表并用getUUID过滤+创建Vec3位置对应渲染圆圈逻辑；(8)lambda$onTick$0对应PlayerTickEvent处理；is_module:true标记正确，非候选列表中的UiTree/TtfFontLoader/MixinPlayer",
+      "official_path": "work/official26/com/github/epsilon/modules/impl/render/JumpCircle.java"
+    }
+  },
+  "unident": []
+}

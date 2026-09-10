@@ -1,0 +1,22 @@
+{
+  "batch": "F005",
+  "results": {
+    "uk": {
+      "identity": "AutoFirework",
+      "kind": "module",
+      "conf": "B",
+      "evidence": "12个非静态字段，类型序列与AutoFirework精确对应：3个boolean状态(hasUsedFirework/isKeyDown/switchBack)、3个XG int设置(delay/switchDelay)、2个Xn键绑定(activateKey)、1个X0槽切换器(previousSelectedSlot)、3个int计数器(useDelayCounter/switchDelayCounter/cooldownCounter)。lambda$onTick$0/1名匹配AutoFirework的onTick方法。方法K含延迟计数器递增+阈值判断+槽切换逻辑，对应handleSwitchBack。lambda检查Equippable/HELMET槽位与预期firework检查有差异，可能是版本演进。",
+      "official_path": "work/official26/com/github/epsilon/modules/impl/player/AutoFirework.java"
+    }
+  },
+  "unident": [
+    {
+      "obf": "u3",
+      "reason": "导入BedBlock（MutableBlockPos/Entity/BedBlock），官方26.2-8.1中无任何模块引用BedBlock。方法X通过8方向偏移(0,0)/(-1,0)/(1,0)/(0,-1)/(0,1)/(-1,-1)/(-1,1)/(1,-1)/(1,1)检查坐标阈值0.0/0.3/0.7，为床方块交互逻辑。候选MixinMultiPlayerGameMode/MixinClientLevel/MixinWebBlock/MixinVisGraph均为@Mixin类，无共同结构。u3是10.7版本新增模块。"
+    },
+    {
+      "obf": "ua",
+      "reason": "导入CameraRenderState/Matrix4f/Matrix4fc，方法z(CameraRenderState,Matrix4fc)设置相机矩阵和位置。26.2-8.1中CameraRenderState仅出现在MixinGameRenderer/MixinLevelRenderer(均为@mixin)和WorldToScreen(工具类)中，无模块使用。方法f()@优先级200构建Object[]渲染参数(dw/XV/ga)。候选均为@mixin类，无模块类匹配。ua是10.7版本新增渲染模块。"
+    }
+  ]
+}

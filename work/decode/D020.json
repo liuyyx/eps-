@@ -1,0 +1,63 @@
+{
+ "batch": "D020",
+ "results": {
+  "_F": {
+   "identity": "BlurShader.BlurUniforms",
+   "kind": "record",
+   "conf": "A",
+   "evidence": "record 11 float 字段 + write(ByteBuffer) 用 putVec4×3 序列化全部 11 float；与 src graphics/shaders/BlurShader.java 内 record BlurUniforms(float width,float height,float quality,float rectWidth,float rectHeight,float rectX,float rectY,float radiusTopLeft,float radiusTopRight,float radiusBottomRight,float radiusBottomLeft) 逐一吻合",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/graphics/shaders/BlurShader.java"
+  },
+  "iz": {
+   "identity": "26.2新增shader uniform record(14-float)",
+   "kind": "record",
+   "conf": "B",
+   "evidence": "record 14 float 字段 + implements DynamicUniformStorage.DynamicUniform + write(ByteBuffer) 用 putFloat 序列化；src 无 14-float DynamicUniform record（BlurUniforms=11, ShaderParams=13, SandboxInfo=7）；26.2 新增 shader uniform",
+   "src_path": "无"
+  },
+  "Oi": {
+   "identity": "26.2新增shader uniform record",
+   "kind": "record",
+   "conf": "B",
+   "evidence": "extends Record + implements DynamicUniformStorage.DynamicUniform；15 字段(3 Color + 12 float)；write(ByteBuffer) 用 putVec4 序列化 float 部分；字段类型组合(3 Color + 12 float)在 26.1.2 src 无匹配 record（ShaderColors=6 Color，ShaderParams=13 float 无 Color）；26.2 新增 shader uniform",
+   "src_path": "无"
+  },
+  "Oe": {
+   "identity": "26.2新增render pipeline工厂",
+   "kind": "util",
+   "conf": "B",
+   "evidence": "静态方法 U/P/s/W 接收 RenderPipeline(±Identifier) 返回包装类型(Xi/g0/lZ/lO)；MC 导入 RenderPipeline/Identifier/PrimitiveTopology/RenderPass/VertexFormat；src LuminImmediateRenderer 为不同功能（创建 PosColorQuads/Lines 等顶点批处理器），Oe 为 26.2 新增管线创建/封装工厂",
+   "src_path": "无"
+  },
+  "iL": {
+   "identity": "ZealotCrystalPlus.SnapshotData",
+   "kind": "record",
+   "conf": "A",
+   "evidence": "Record 8 字段逐一对应: t4(long)=id, ko(d2=ResistantBlockCache), nn(D7=SettingsSnapshot), fn(List<nq>=List<CrystalSnapshot>), fT(List<iR>=List<TargetSnapshot>), qw(u5=SelfSnapshot), t5(long)=capturedAt, fu(List<BlockPos>)=placePositions；static final N 构造 7 参数空实例匹配 src SnapshotData.EMPTY；d2=ResistantBlockCache(nq=CrystalSnapshot)已在 class_map 确认",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/modules/impl/combat/ZealotCrystalPlus.java"
+  },
+  "uY": {
+   "identity": "26.2新增MobCategory switch辅助类",
+   "kind": "class",
+   "conf": "B",
+   "evidence": "MC 导入 MobCategory；static int[] r 在 static{} 中通过 MobCategory ordinal switch 表达式赋值（编译器将 switch 生成为 int 数组查表）；方法 A(MethodHandles.Lookup,String,MethodType,MethodHandle) 为 SeQL indy bootstrap；src 无独立 MobCategory 辅助类，26.2 新增",
+   "src_path": "无"
+  },
+  "iZ": {
+   "identity": "26.2新增player/entity profile record",
+   "kind": "record",
+   "conf": "B",
+   "evidence": "Record 9 字段: Identifier cg + Color co/c3 + String s2/sg/sw/s9/sQ + UUID fz；Identifier+UUID+Color+String 组合在 src 无匹配 record；疑为玩家皮肤/资料 profile 数据结构，26.2 新增",
+   "src_path": "无"
+  },
+  "gN": {
+   "identity": "26.2新增entity position snapshot record",
+   "kind": "record",
+   "conf": "B",
+   "evidence": "Record 7 字段: 5×double(UV/uf/u3/ub/um) + EntityType<?> si + n0 ny；double 坐标+EntityType 为实体位置快照模式；src 无对应独立 record（26.1.2 无此结构），26.2 新增",
+   "src_path": "无"
+  }
+ },
+ "unident": [],
+ "conflicts": []
+}

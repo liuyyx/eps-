@@ -1,0 +1,63 @@
+{
+  "batch": "D019",
+  "results": {
+    "zu": {
+      "identity": "SnapRotationManager",
+      "kind": "class",
+      "conf": "A",
+      "evidence": "extends zb(=RotationManager) 且有 uK(=Rot2f)字段用于 snappedRot; 重写 E(Object[])=handleSendPosition(dY=SendPositionEvent)、J(dR)=onPlayerTick(PlayerTickEvent.Pre)、G(Object[])=onRotationsSet、B()=clearRotations; v(Object[])方法含snap/restore Rot2f逻辑——保存当前旋转→发包→下tick恢复, 与 src SnapRotationManager 的 sendRotationPacket+snapToCurrentRotation+restoreSnappedRotation 流程同构",
+      "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/managers/impl/rotations/SnapRotationManager.java"
+    },
+    "vZ": {
+      "identity": "TranslatableComponentUtils",
+      "kind": "util",
+      "conf": "B",
+      "evidence": "静态List<uT>(=TranslateComponent)E(约157个注册组件)+静态方法W(uT,Object[])→MutableComponent; MC导入MutableComponent; 功能:将Epsilon TranslateComponent转换为MC MutableComponent(translatable); 26.1.2 src无此类直接对应(翻译工具类为26.2新增/重构)",
+      "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/assets/i18n/DefaultTranslateComponent.java"
+    },
+    "Oc": {
+      "identity": "OfflineAccount",
+      "kind": "class",
+      "conf": "B",
+      "evidence": "extends nV(=Account基类, 含User/Minecraft/Services导入+JSON序列化); 构造 Oc(String)=super(DJ,string); e(Object[])中从name+UUID构建User(username,uuid,空串,Optional.empty(),Optional)→离线模式; equals基于name比较; MC导入User; 与O8(=OnlineAccount)同级; 26.1.2 src无Alt管理类(26.2新增)",
+      "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/managers/impl/NotificationManager.java"
+    },
+    "lj": {
+      "identity": "AutoArmor.ArmorData",
+      "kind": "class",
+      "conf": "A",
+      "evidence": "final class 引用 eo(=AutoArmor); EquipmentSlot I(equipmentSlot); int Y(inventorySlot); 3个可重置int字段 V/B/n(prevProtection/newSlot/newProtection); 构造函数(eo,EquipmentSlot,int); G()=reset()将3字段置-1; 与 src AutoArmor.ArmorData inner class 结构逐字段同构; 额外字段为外类引用(混淆后显式化)",
+      "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/modules/impl/player/AutoArmor.java"
+    },
+    "nf": {
+      "identity": "PlayerModel",
+      "kind": "enum",
+      "conf": "B",
+      "evidence": "extends Enum, 2值(Niuren=牛人/Mengcha=萌茶), 每值含 Identifier o 字段; 被 eY(=KillAura) 和 lI(渲染类) 引用; 常量名为中文暗示角色/皮肤模型枚举; 26.1.2 src 无完全匹配的双值Identifier枚举; 可能为26.2新增角色模型枚举",
+      "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/managers/impl/sound/SoundKey.java"
+    },
+    "OF": {
+      "identity": "OnlineAccount",
+      "kind": "class",
+      "conf": "B",
+      "evidence": "extends nV(=Account基类); 构造OF(String)=super(DJ,string); e(Object[])中从name构建User(name,uuid,token,Optional.empty(),Optional)→在线模式; equals基于UUID比较(实例同类型+UUID.equals); z()=login成功; MC导入User+UUID+Optional; 与O8(=OnlineAccount带Yggdrasil)同级; 26.1.2 src无Alt管理类(26.2新增)",
+      "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/managers/impl/NotificationManager.java"
+    },
+    "_l": {
+      "identity": "Xray.BlockMemory",
+      "kind": "class",
+      "conf": "A",
+      "evidence": "类级同构: private final BlockPos H(=blockPos) + private long w(=time) + 构造函数(_l/BlockPos) + private boolean v()=isDelayed(): 读取time与静态常量 _l.c(阈值)比较; 被 U(=Xray) 引用为 ArrayList<_l> z 字段 + new _l(BlockPos)调用; 与 src Xray.BlockMemory(blockPos,time,构造,isDelayed) 完全同构",
+      "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/modules/impl/render/Xray.java"
+    },
+    "zq": {
+      "identity": "TargetRequest",
+      "kind": "record",
+      "conf": "A-",
+      "evidence": "extends Record, 12组件: double th(=range) + float ac(=fov) + 9×boolean(XR/xd/xp/x1/xb/XS/x5/xe=实体类型过滤) + Predicate<LivingEntity> MP(=extraFilter) + int or(=maxTargets); 与 src TargetRequest(range,fov,player,mob,animal,villager,invisible,extraFilter,maxTargets) 9组件结构吻合(9布尔中5对应src+3为26.2新增); 被 eY(=KillAura) 等模块引用",
+      "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/managers/impl/target/TargetRequest.java"
+    }
+  },
+  "unident": [],
+  "conflicts": []
+}

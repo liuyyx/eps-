@@ -1,0 +1,58 @@
+{
+ "batch": "D039",
+ "results": {
+  "DJ": {
+   "identity": "AccountType",
+   "kind": "enum",
+   "conf": "B",
+   "evidence": "枚举常量 TheAltening/Cracked/Session/Microsoft 为账号认证类型；被 nV(DJ I) 基类及子类 O8(Session)/OF(TheAltening)/Oc(Cracked)/nx(Microsoft) 引用；26.1.2 源码无此枚举，26.2 新增",
+   "src_path": "26.2 新增（旧版本源码无对应）"
+  },
+  "DW": {
+   "identity": "ModuleList.ColorMode",
+   "kind": "enum",
+   "conf": "B",
+   "evidence": "被 es(ModuleList) 引用为 Dx<DW>（EnumSetting<DW>）；常量 Double/Rainbow/Single/Fade 为模块列表配色模式；26.1.2 源码 ModuleList 无匹配枚举，26.2 新增",
+   "src_path": "26.2 新增（旧版本源码无对应）"
+  },
+  "Oy": {
+   "identity": "HoleESP.HoleShape",
+   "kind": "enum",
+   "conf": "A",
+   "evidence": "枚举常量 DoubleZ/Quad/DoubleX/Single 与源码 HoleESP.HoleShape（Single/DoubleX/DoubleZ/Quad）完全一致，仅声明顺序不同",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/modules/impl/render/HoleESP.java"
+  },
+  "y6": {
+   "identity": "KillAura.TargetSort",
+   "kind": "enum",
+   "conf": "B",
+   "evidence": "被 eY(KillAura) 引用为 Dx<y6>（EnumSetting<y6>）；常量 Range/None/Fov/Health 为目标排序优先级（按距离/无/视场角/血量）；26.1.2 源码 KillAura 无此枚举，26.2 新增",
+   "src_path": "26.2 新增（旧版本源码无对应）"
+  },
+  "_c": {
+   "identity": "KillAura.ESPMode",
+   "kind": "enum",
+   "conf": "A",
+   "evidence": "枚举常量 CaptureMark/Deobf/Circle/Firefly 与源码 KillAura.ESPMode（CaptureMark/Circle/Firefly/Deobf）完全一致，仅声明顺序不同",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/modules/impl/combat/KillAura.java"
+  },
+  "_r": {
+   "identity": "LoginStatus",
+   "kind": "enum",
+   "conf": "B",
+   "evidence": "枚举常量 SESSION/CRACKED/NONE/ALTENING 为登录状态；被 _o（登录管理器）引用为 _r M 字段，默认值 _r.NONE；SCREAMING_CASE 命名风格为顶层枚举；26.1.2 源码无此枚举，26.2 新增",
+   "src_path": "26.2 新增（旧版本源码无对应）"
+  }
+ },
+ "unident": [
+  {
+   "obf": "ul",
+   "reason": "枚举常量 IDLE/READY_TO_EXECUTE/WAITING_FOR_INVENTORY_CLOSE/WAITING_FOR_SPRINT_STOP 为数据包矿状态机；被 up（疑似 PacketMine）引用；26.1.2 源码 PacketMine.SwitchMode（None/Delay/Silent）与 RenderMode（Box/Normal/Shrink/Grow）均不匹配；26.2 新增状态枚举"
+  },
+  {
+   "obf": "vO",
+   "reason": "extends LinkedHashMap<Ok,Float>，实现 removeEldestEntry(LRU 缓存)；被 vq（4036行渲染管线类，引用 GpuBufferSlice/RenderPipeline/RenderPass 等 GPU 类）引用；26.1.2 源码 LuminRenderSystem 等渲染类无此嵌套类；26.2 渲染管线重构新增"
+  }
+ ],
+ "conflicts": []
+}

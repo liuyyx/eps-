@@ -1,0 +1,49 @@
+{
+ "batch": "D026",
+ "results": {
+  "z0": {
+   "identity": "AbstractSliderWidget",
+   "kind": "class",
+   "conf": "A",
+   "evidence": "extends zc<S>(SettingWidget<S>) 且 <S extends Dl<T>, T extends Number> 完全匹配 src AbstractSliderWidget<S extends Setting<T>, T extends Number> extends SettingWidget<S>；字段 dp b(DropdownTextField) + float s=0.46f(VALUE_TEXT_SCALE) + float f=5.0f(EDITOR_Y_OFFSET) 精确匹配 src 常量；导入 dp(=DropdownTextField)、zc(=SettingWidget)、DF 与 src import 一致",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/gui/dropdown/widget/AbstractSliderWidget.java"
+  },
+  "gR": {
+   "identity": "SettingLayoutPlanner",
+   "kind": "class",
+   "conf": "A-",
+   "evidence": "静态工具类，方法 e(String,List<Dl<?>>) 返回 Section(is)——与 src SettingsContent.java 调用 SettingLayoutPlanner.plan(String,List<Setting<?>>)→List<Section> 完全一致；import is(=SettingLayoutPlanner.Section record)+nN(=SettingGroup)+Dl(=Setting) 与 src 一致；src 无独立 SettingLayoutPlanner.java（可能为内部类/26.1.2 缺失），但调用链锚定身份",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/gui/dropdown/component/SettingsContent.java"
+  },
+  "iC": {
+   "identity": "MainDropdownPanel",
+   "kind": "class",
+   "conf": "A",
+   "evidence": "extends iN（中间基类/AbstractDropdownPanel 变体）；构造函数签名 (int,Consumer<String>,BooleanSupplier,nH) 完全匹配 src MainDropdownPanel(int panelIndex,Consumer<String> togglePanel,BooleanSupplier anySubPanelVisible,PanelVisibleResolver panelVisibleResolver)；字段 lE(=SettingsContent) 对应 src settingsContent 字段；width=160.0f 对应 src 160.0f；构造器内通过 Category(vY) 添加多个 Category 条目与 src add(Category.COMBAT,...) 逐项吻合；Category/TranslateComponent/Setting 锚点完全一致",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/gui/dropdown/component/MainDropdownPanel.java"
+  }
+ },
+ "unident": [
+  {
+   "obf": "yu",
+   "reason": "HttpServer+SecureRandom+MessageDigest+SecretKeySpec+CompletableFuture+@NiurenDEOBF 注解；无 MC 导入；锚点 SeQL/Setting 为强加密类误触假阳性。src 26.1.2 无此类；疑为 26.2 新增的认证/许可证/DRM 类（LicenseVerifier 或 AuthServer 等），src 无对应"
+  },
+  {
+   "obf": "zP",
+   "reason": "无 MC 导入；import Od(疑似 Setting 子类)+XL(渲染辅助)+X6(TextureInfo)+Xu(纹理类型)；float/Color 参数渲染方法（圆角矩形绘制）；src 无对应渲染工具类匹配；疑为 26.2 新增的渲染辅助类（如 ThemeRenderer 或 CanvasHelper），src 无对应"
+  },
+  {
+   "obf": "XN",
+   "reason": "implements _A（渲染元素接口）；import IndexType+GpuBuffer+RenderPass(=GPU 管线)+d5(=QuadRenderingInfo)；大量 float/Color draw 方法提交顶点数据；lX(=LuminImmediateRenderer)已占用同类角色；src 无其他独立 quad 渲染管线类匹配；疑为 26.2 新增的 GPU 渲染管线类（如 ShaderManager 或 LuminPipeline），src 无对应"
+  },
+  {
+   "obf": "OO",
+   "reason": "implements AutoCloseable；import NativeImage+Font+FontRenderContext+BufferedImage+Map<String,d8>(字体缓存)+y4(=LuminTexture)；font atlas 生成/纹理缓存功能；src 26.1.2 无独立字体纹理管理器类；疑为 26.2 新增的 FontTextureManager 或 FontAtlasManager，src 无对应"
+  },
+  {
+   "obf": "XQ",
+   "reason": "import DM(=DoubleSetting)+XG(=IntSetting)+Xn(=BoolSetting)+yx(=Dependency)+eJ(Module/模块上下文)+es(=ModuleList)+z8(=HudModule.VerticalAnchor)；构造器接收 eJ 并创建 BoolSetting/DoubleSetting/IntSetting；float 110.0f/29.0f/10.0f/6.0f/5.0f 等常量；method D(_j,List<y1>,float,float)→float 为布局计算；疑为 26.2 新增的 ModuleListLayoutHelper 或 ModuleListContentRenderer（HUD 模块列表布局渲染器），src 无对应"
+  }
+ ],
+ "conflicts": []
+}

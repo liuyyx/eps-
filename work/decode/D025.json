@@ -1,0 +1,55 @@
+{
+ "batch": "D025",
+ "results": {
+  "id": {
+   "identity": "ColorWidget",
+   "kind": "class",
+   "conf": "A",
+   "evidence": "锚点 ColorWidget+SettingWidget; extends iN(SettingWidget基类); lambda$drawPanelContent$0 含 zc(SettingWidget)参数; 字段 List<zc<?>>; 导入 Dl(Setting)/uT(TranslateComponent); src ColorWidget extends SettingWidget<ColorSetting>",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/gui/dropdown/widget/ColorWidget.java"
+  },
+  "iI": {
+   "identity": "ModuleButton",
+   "kind": "class",
+   "conf": "A",
+   "evidence": "锚点 Module/Dependency/DoubleSetting/IntSetting/RenderStage; 导入 DM(DoubleSetting)/XG(IntSetting)/yx(Dependency)/eJ(模块引用); 字段 XG×4(IntSetting)+DM(DoubleSetting)+eJ; lambda$renderStage2$0 含渲染坐标+颜色; src ModuleButton extends Component 含相同设置类型",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/gui/dropdown/component/ModuleButton.java"
+  },
+  "zz": {
+   "identity": "EnumWidget",
+   "kind": "class",
+   "conf": "A",
+   "evidence": "extends zc<Dx<?>> 即 SettingWidget<EnumSetting<?>>; 锚点 EnumSetting/Easing/SettingWidget; 导入 Dx(EnumSetting)/_E(动画); 字段 _E×2(缓动实例)+boolean b(展开状态); src EnumWidget extends SettingWidget<EnumSetting<?>>",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/gui/dropdown/widget/EnumWidget.java"
+  },
+  "v_": {
+   "identity": "PanelState",
+   "kind": "class",
+   "conf": "A",
+   "evidence": "锚点 ActivePopup/Category/ClientSettingTab/KeybindSetting/Module/ModuleSort; 字段 e(Module)×2+vY(Category)+X0(KeybindSetting)+vn+g8+boolean+String; lambda$ensureValidSelection$1(String, Module) 匹配 src PanelState.ensureValidSelection; src PanelState 含同名内部枚举 ActivePopup/ClientSettingTab",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/gui/panel/PanelState.java"
+  },
+  "ui": {
+   "identity": "QuadRenderingInfo",
+   "kind": "class",
+   "conf": "B",
+   "evidence": "锚点 QuadRenderingInfo; implements _A(渲染接口); 导入 GpuBufferSlice/RenderPass(GPU渲染); 字段 _t/d5(渲染状态)+List<uV>/List<zw>/List<nB>(渲染元素集合); 方法 Y()含10+float+Color+float[]参数; 26.2 新增无 src 对应",
+   "src_path": ""
+  }
+ },
+ "unident": [
+  {
+   "obf": "bo",
+   "reason": "无 anchored_refs; 无 MC imports; 字段 ConcurrentHashMap+MessageDigest+PrintWriter+BigInteger; 方法 a(String) 做名称映射还原; 非标准 MC 客户端类; src 无匹配; 疑似26.2新增的混淆映射/名称还原工具类"
+  },
+  {
+   "obf": "nb",
+   "reason": "无 anchored_refs; 无 MC imports; 导入 com.sun.net.httpserver.HttpServer/HttpExchange/HttpHandler(内置HTTP服务器); 字段 static volatile HttpServer+Consumer<String>; 方法 P()做字符解密; 26.2新增 HTTP 外部控制/API 服务类, src 无匹配"
+  },
+  {
+   "obf": "lg",
+   "reason": "锚点 QuadRenderingInfo/SeQL/Setting; implements _A(渲染接口); 导入 GpuBufferSlice/RenderPass; 字段 d5/_t(与 ui 同类型); 方法 j()含8 float+Color+boolean; 26.2 新增渲染辅助类, 与 ui 同接口但功能分工不明, src 无匹配"
+  }
+ ],
+ "conflicts": []
+}

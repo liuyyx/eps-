@@ -1,0 +1,63 @@
+{
+  "batch": "D065",
+  "results": {
+    "z3": {
+      "identity": "RegistryListSettingWidget",
+      "kind": "class",
+      "conf": "A-",
+      "evidence": "extends zv<Xe<?>>=AbstractSetSettingWidget<RegistryListSetting>；方法 Y()→elementCount(), L()→labelText(), X()→openPopup() 精确映射 src 三抽象方法；与已识别 zA(StringListSettingWidget, extends zv<XF>) 同构；构造接收 Xe<?>=RegistryListSetting<?>",
+      "src_path": "旧版本的源代码/.../RegistryListSettingWidget.java"
+    },
+    "g0": {
+      "identity": "GpuRenderPass",
+      "kind": "class",
+      "conf": "B",
+      "evidence": "private field i2(=LuminImmediateRenderer,已知锚点)；N(Matrix4f,float,float,float,int)=绘制调用(proj+pos+scale+vertexCount)；J()=生命周期；SeQL解密方法体委托LuminImmediateRenderer；26.2新增轻量渲染包装类",
+      "src_path": ""
+    },
+    "g6": {
+      "identity": "switch bootstrap map",
+      "kind": "class",
+      "conf": "A",
+      "evidence": "静态 final int[] + try/catch(NoSuchFieldError) 填充序号到枚举ordinal映射；纯编译器生成的 switch bootstrap 合成类",
+      "src_path": ""
+    },
+    "OR": {
+      "identity": "switch bootstrap map",
+      "kind": "class",
+      "conf": "A",
+      "evidence": "与 g6 完全同构：static final int[] + try/catch(NoSuchFieldError) switch bootstrap 合成类",
+      "src_path": ""
+    },
+    "OV": {
+      "identity": "GpuTexturePair",
+      "kind": "record",
+      "conf": "B",
+      "evidence": "record(GpuTextureView kN, GpuSampler TX)；持有 GPU 纹理视图和采样器配对；方法 kN()→GpuTextureView, TX()→GpuSampler；MC导入 com.mojang.blaze3d.textures 精确匹配",
+      "src_path": ""
+    },
+    "ON": {
+      "identity": "AnimationPlaybackState",
+      "kind": "class",
+      "conf": "B",
+      "evidence": "final class；yI[] v=keyframes, int i=currentIndex, float k=duration, boolean U=looping, long x/Y=timing；私有构造；无 SeQL 加密方法→纯数据持有类",
+      "src_path": ""
+    },
+    "g5": {
+      "identity": "TempDir",
+      "kind": "class",
+      "conf": "B",
+      "evidence": "static Path X() 创建临时目录(FileAttribute+createDirectories+返回Path)；私有构造；27行极简工具类",
+      "src_path": ""
+    },
+    "_d": {
+      "identity": "ViaBackwardsConfig",
+      "kind": "class",
+      "conf": "A",
+      "evidence": "extends com.viaversion.viabackwards.ViaBackwardsConfig；save(File,Map) 无操作覆写；私有构造；23行极简兼容层；类名 ViaBackwardsConfig 在 import 中明文出现",
+      "src_path": ""
+    }
+  },
+  "unident": [],
+  "conflicts": []
+}

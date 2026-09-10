@@ -1,0 +1,52 @@
+{
+ "batch": "D034",
+ "results": {
+  "Xy": {
+   "identity": "PanelDirtyState",
+   "kind": "class",
+   "conf": "A",
+   "evidence": "5 个 boolean 字段 + 5 个 consume 方法名完全匹配：consumeChromeDirty/consumeRailDirty/consumeModuleListDirty/consumeDetailDirty/consumeClientSettingDirty；markAllDirty/markLayoutDirty 全部置 true；lambda 名与 src 一一对应",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/gui/panel/PanelDirtyState.java"
+  },
+  "ip": {
+   "identity": "SettingLayoutPlanner",
+   "kind": "class",
+   "conf": "A-",
+   "evidence": "final class + private 无参构造 + lambda$plan$0/plan$1 对应 plan 方法 + LinkedHashMap 分组逻辑 + Section record 结构匹配；版本差：26.2 jar 用 lb/yM/uM/Xu 隐射 Section/MutableSection/SettingGroup/Setting<?>, 26.1.2 源码无此类型名",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/settings/SettingLayoutPlanner.java"
+  },
+  "zn": {
+   "identity": "IntSettingRow",
+   "kind": "class",
+   "conf": "A-",
+   "evidence": "extends z0<XG, Integer> → SettingRow<IntSetting>；构造器接收 XG(IntSetting) 并调用 super；方法 n(String)→格式化值、o(Object[])→计算滑块位置(0-1)、D(Object[])→从位置写回值、S(Integer)→setValue；slider 行为完全匹配；版本差：26.2 jar 用 z0/XG 泛型名, 26.1.2 源码用 SettingRow<IntSetting>",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/gui/panel/component/setting/IntSettingRow.java"
+  },
+  "OS": {
+   "identity": "NotificationManager",
+   "kind": "class",
+   "conf": "B",
+   "evidence": "singleton(静态 final OS m) + CopyOnWriteArrayList<nV<?>> 管理通知列表 + 方法语义(g=add, T=contains, e=get-by-index, D=getList, W=isEmpty, x=add-or-skip, n=setAll) 与 NotificationManager 功能一致；但 26.1.2 源码 NotificationManager 用 Queue+Map 而非 List+CopyOnWriteArrayList，存在结构性版本差",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/managers/impl/NotificationManager.java"
+  }
+ },
+ "unident": [
+  {
+   "obf": "X1",
+   "reason": "final class, fields: ih(Vec4)/vT(align)/float/zU(UiLayer)/float; anchored_refs=Setting+UiLayer; 方法 v→计算坐标(ih), b→回调Consumer<vI>, y→初始化; 可能是 UI 定位/布局元素类，但 src 中无精确匹配（PanelLayout/HudLayoutHelper 为静态工具类不匹配）；ih/vT/vI/zU 类型在 src 中无明确对应"
+  },
+  {
+   "obf": "y3",
+   "reason": "enum extends Enum: TEXT/TEXTURE/ROUND_RECT_OUTLINE/RECT/ROUND_RECT/BLUR_TEXT/SHADOW/TRIANGLE/GLITCH_TEXT/ARC; 值名与 LuminRenderPipelines 常量(ROUND_RECT_OUTLINE/TEXTURE/TRIANGLE/SHADOW 等)高度吻合，推测为渲染管线类型枚举；但 26.1.2 src 中无显式 enum 定义，可能来自 LuminGraphics 库或 26.2 新增"
+  },
+  {
+   "obf": "gy",
+   "reason": "class, 导入 Df(未知类型)；方法 e(Df)→int, l(Object[])→index 计算(含 min/max 范围检查+IllegalArgumentException)；S 静态 int 为计算常量、a 静态 String 可能为错误信息；推测为某种索引/范围工具类，但 src 中无 Df 类型对应，无法确定真实身份"
+  },
+  {
+   "obf": "Oq",
+   "reason": "record extends Record: 10 个 float 字段(b_/BT/BK/BB/bz/bl/be/BZ/BW) + 1 个 Color 字段(i6); 构造器 clamp 各字段到特定范围(0-12/0-20/0-5/1-64 等); B() 计算总尺寸; 推测为 UI 样式/渲染参数记录(如阴影/渐变/发光配置)；但 src 中 FilterColor 只有 4 float 不匹配，无精确对应"
+  }
+ ],
+ "conflicts": []
+}

@@ -1,0 +1,43 @@
+{
+ "batch": "D057",
+ "results": {
+  "XY": {
+   "identity": "SeQL/字符串解密+调用分发核心",
+   "kind": "class",
+   "conf": "A",
+   "evidence": "唯一 CallSite bootstrap 方法 L(Lookup,String,MethodType,MethodHandle) → 调用 hi.d() 解密 MethodHandle + hi.a(methodType) 转换；static block 向 hi.a(\"j\") 分发表注入 CallSite；引用 DJ（已知为 SeQL 辅助类）。此 INDY bootstrap 机制是 SeQL 字符串加密的核心分发入口。",
+   "src_path": "26.2 新增，无 26.1.2 源码对应"
+  }
+ },
+ "unident": [
+  {
+   "obf": "Dy",
+   "reason": "Record 类型，字段 (ByteBuffer hu, int BA, int bj, long uX)。仅被 dE.java（视频/媒体类，引用 FFmpegFrameGrabber、DynamicTexture、AtomicReference<Dy>）使用。为 26.2 视频功能新增帧数据 record，旧版本源码无对应，无法确定真实类名。"
+  },
+  {
+   "obf": "Dq",
+   "reason": "Record 类型，字段 (boolean qa, boolean QB, boolean QW, boolean QQ)。被 e1.java 使用，e1 导入 Dl/BoolSetting/IntSetting/EnumSetting 等模块设置类。4 boolean 可能是模块行为标志，但无明文串或结构指纹可唯一对应。26.2 新增 record。"
+  },
+  {
+   "obf": "nB",
+   "reason": "Record 类型，字段 (boolean q1, int VR, int vx, int VG)。被 ui.java（渲染管线类，引用 GpuBufferSlice、RenderPass、zw 等）使用，构造模式 new nB(bool, int, int, int)。为 26.2 渲染命令 record，无源码对应。"
+  },
+  {
+   "obf": "nG",
+   "reason": "Record 类型，字段 (float wp, float w_, float wh, float WN)。被渲染/GPU 类 _B.java、gG.java、nK.java、yW.java、yn.java（引用 CommandEncoder、GpuSampler）使用。4 float record 可能是颜色/坐标向量，无源码对应。"
+  },
+  {
+   "obf": "ni",
+   "reason": "Record 类型，字段 (ih sT, ih sv, ih sb, ih sY)。被 Xk.java 使用，构造模式 new ni(ih, ih, ih, ih) — 4 个 ih 向量表示布局矩形。Xk.x() 为 UI 布局计算方法。为 26.2 新增布局区域 record，无源码对应。"
+  },
+  {
+   "obf": "nk",
+   "reason": "Record 类型，字段 (float ZJ, float ZQ, float ZV, float z4)。被 y0.java（引用 java.awt.Color）使用。4 float record 与 nG 结构相同但命名不同，可能用于颜色/渲染数据。无源码对应，无法区分真实身份。"
+  },
+  {
+   "obf": "Xg",
+   "reason": "Record 类型，字段 (int HT, double dp, int hc, double dS)。被 Of.java、e1.java、lw.java 使用 — 均为战斗模块类（引用 LocalPlayer、LivingEntity、Vec3）。为 26.2 战斗目标数据 record，无源码对应，无法确定真实类名。"
+  }
+ ],
+ "conflicts": []
+}

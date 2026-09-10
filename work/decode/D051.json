@@ -1,0 +1,43 @@
+{
+ "batch": "D051",
+ "results": {
+  "Db": {
+   "identity": "ModuleButton.SettingSection",
+   "kind": "record",
+   "conf": "A",
+   "evidence": "字段完全匹配: is(=SettingLayoutPlanner.Section) + List<zc<?>>(=List<SettingWidget<?>>); 锚点 SettingLayoutPlanner.Section + SettingWidget 确认; 26.1.2 源码 ModuleButton.java L557",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/gui/dropdown/component/ModuleButton.java"
+  }
+ },
+ "unident": [
+  {
+   "obf": "Xa",
+   "reason": "7字段(long×2, nh×2, iR, O7×2)与 ZealotCrystalPlus.BreakPlan(5字段: EndCrystal,int,Vec3,float,float)字段数不符;与 PlaceInfo(7字段)字段数一致但类型不匹配(nh≠LivingEntity,iR≠Direction,O7≠Vec3/Rot2f);锚点仅泛化指向 ZealotCrystalPlus 而非精确 BreakPlan; 26.2 变更重构了此 record 结构"
+  },
+  {
+   "obf": "g2",
+   "reason": "实现 _Q 接口(26.2 新增，src 无此接口); 字段(ih tp, String oJ, float kO, Color MN, Color m1, String oi, float kI, nK ta)均为 26.2 混淆类型，ih/nK 在 26.1.2 src 中不存在; 可能是 HUD 渲染数据 record，但无匹配源"
+  },
+  {
+   "obf": "uS",
+   "reason": "实现 _Q 接口; 字段(vx yT, ih as, float×3, int×2, List<_Q> ln)使用 26.2 特有类型(vx, ih, _Q 均在 src 中不存在); 可能是 UI 布局/渲染复合 record，但无法匹配"
+  },
+  {
+   "obf": "nU",
+   "reason": "实现 _Q 接口; 字段(String MV, float×4, Color cs, int p3, nK PR)含 26.2 特有类型 nK; 8字段 HUD 渲染 record，无 src 匹配"
+  },
+  {
+   "obf": "O3",
+   "reason": "4-float record(qC,qL,qp,qx)含工厂方法 p(float)/w(float,float); 可能是 padding/margin 对象，但 26.1.2 src 中无精确匹配的 4-float record; SnapInfo/HudEditorScreen.SnapInfo 也是4-float但类型标签不同(x,y,verticalLineX,horizontalLineY)"
+  },
+  {
+   "obf": "Dd",
+   "reason": "实现 _Q 接口; 8字段(4×Color + 4×float)含 26.2 混淆类型; 可能是颜色主题/渲染样式 record，src 中 FilledFieldColors(3色)、RenderBox(2色)均字段数不匹配"
+  },
+  {
+   "obf": "Dh",
+   "reason": "4-float record(zG,zo,z5,z7)含私有 width/height 计算方法(z()=z5-zo, K()=z7-zG); 结构类似矩形区域定义，但 26.1.2 src 中无匹配的独立4-float rectangle record"
+  }
+ ],
+ "conflicts": []
+}

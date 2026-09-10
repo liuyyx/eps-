@@ -1,0 +1,43 @@
+{
+ "batch": "D062",
+ "results": {
+  "nz": {
+   "identity": "SettingListController.SectionEntry",
+   "kind": "record",
+   "conf": "B",
+   "evidence": "字段结构(is=SettingLayoutPlanner.Section确认于class_map + ih=bounds矩形4float)与src SettingListController.SectionEntry(Section, UiRect)完全一致; 内部类混淆后移至顶层包",
+   "src_path": "旧版本的源代码/.../gui/panel/adapter/SettingListController.java:522"
+  }
+ },
+ "unident": [
+  {
+   "obf": "uM",
+   "reason": "Record(Xu=4-int位置记录, y3=渲染元素类型枚举SHADOW/RECT/TRIANGLE等), 26.2新增渲染管线数据类, src字典无对应"
+  },
+  {
+   "obf": "dc",
+   "reason": "Record(ih=bounds矩形, String=文本), 26.2新增文本+位置元素记录, src字典无对应"
+  },
+  {
+   "obf": "ia",
+   "reason": "SeQL indy bootstrap类(static int[] k + bridge方法v()返回ConstantCallSite), 为GuiMode枚举生成的字符串解密分发器, 非源码命名类"
+  },
+  {
+   "obf": "O1",
+   "reason": "SeQL indy bootstrap类(同ia结构), 为GuiMode枚举生成的另一字符串解密分发器, 非源码命名类"
+  },
+  {
+   "obf": "uD",
+   "reason": "Record(yc=MethodHandles.Lookup提供者接口, String=名称), 26.2新增方法引用记录, src字典无对应"
+  },
+  {
+   "obf": "u_",
+   "reason": "Record(int, int)简单整数对, 26.2新增坐标/索引记录, src字典无对应"
+  },
+  {
+   "obf": "lV",
+   "reason": "record(double, double)双精度坐标对, 26.2新增坐标记录, src字典无对应"
+  }
+ ],
+ "conflicts": []
+}

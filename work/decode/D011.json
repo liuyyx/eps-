@@ -1,0 +1,63 @@
+{
+ "batch": "D011",
+ "results": {
+  "XJ": {
+   "identity": "ClientSettingTabView",
+   "kind": "interface",
+   "conf": "A",
+   "evidence": "接口 extends AutoCloseable; 方法签名逐一对应: g→render(GuiGraphicsExtractor,...), Y→keyPressed(KeyEvent), X→charTyped(CharacterEvent), h→mouseClicked(MouseButtonEvent), r(Object[])→mouseDragged(MouseButtonEvent,double,double), l(double,double,double,double)→mouseScrolled, o(lm)→markDirty, r(Object[])→hasActiveAnimations, V(MouseButtonEvent,boolean)→mouseClicked(Event,boolean); close() default",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/gui/panel/view/settings/ClientSettingTabView.java"
+  },
+  "yb": {
+   "identity": "FontGlyphVisitorAdapter",
+   "kind": "class",
+   "conf": "B",
+   "evidence": "实现 Font.GlyphVisitor; 构造参数 OT(Matrix3x2fc,ScreenRectangle); acceptRenderable(TextRenderable) 创建 GlyphRenderState; 43行内部类; 26.1.2 src无独立文件(编译后匿名类提升为顶级类)",
+   "src_path": "26.1.2无独立源文件(匿名类编译产物)"
+  },
+  "dU": {
+   "identity": "ColorPickerPopup",
+   "kind": "class",
+   "conf": "B",
+   "evidence": "implements XJ(ClientSettingTabView); 字段: DR(ColorChannel)×2 + DV(ColorSetting) + Color g + ih(文本渲染) + Consumer; 锚点 ColorSetting; 2426行(26.2大幅扩展, src 26.1.2版仅~300行实现Popup接口)",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/gui/panel/popup/ColorPickerPopup.java"
+  },
+  "zt": {
+   "identity": "ConfigClientSettingTab",
+   "kind": "class",
+   "conf": "A",
+   "evidence": "implements O0(ClientSettingTabView 26.2版); 锚点 ConfigRowEntry(ConfigClientSettingTab内部record)强唯一指纹; 字段 Map<String,_E>(rowHoverAnimations) + List<vj>(rowEntries) + Dg(文本) + n4 + XZ; src ConfigClientSettingTab 676行→jar 1869行(26.2扩展)",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/gui/panel/view/settings/ConfigClientSettingTab.java"
+  },
+  "ng": {
+   "identity": "BlurShader",
+   "kind": "class",
+   "conf": "A-",
+   "evidence": "锚点 LuminRenderTarget; 字段: RenderTarget input + RenderPipeline×2(pipeline/boxPipeline) + Identifier×2(BLUR_PATH/BLUR_3D_BOX_PATH); 单例 static ng g==INSTANCE; MC: Camera+AABB(render3DBox方法); src BlurShader字段模式一致, jar多了Camera(26.2新增3D渲染依赖)",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/graphics/shaders/BlurShader.java"
+  },
+  "ns": {
+   "identity": "GeneralClientSettingTab",
+   "kind": "class",
+   "conf": "B",
+   "evidence": "普通类(不implements XJ); 字段: _E animation×2 + String + float×2 + int×2; MC: Minecraft+KeyEvent+CharacterEvent+Window; 锚点 Easing+Setting; src GeneralClientSettingTab 302行→jar 1044行(26.2扩展含完整事件处理+渲染); 不导入XJ(非ClientSettingTabView实现)",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/gui/panel/view/settings/GeneralClientSettingTab.java"
+  },
+  "zs": {
+   "identity": "StatusEffectType",
+   "kind": "enum",
+   "conf": "B",
+   "evidence": "Enum<zs>; 枚举常量 CONTAINER/FROZEN/NORMAL/POISONED/WITHERED/ABSORBING(自定义状态效果); 字段 Identifier×6(每种效果关联资源); MC: Holder+Identifier+Player; 26.1.2 src无此类(26.2新增枚举)",
+   "src_path": "26.2新增"
+  },
+  "yn": {
+   "identity": "LuminTexture",
+   "kind": "class",
+   "conf": "A",
+   "evidence": "锚点 LuminTexture; extends AbstractTexture(与src一致); 字段 GpuTexture/TextureView/Sampler(与src LuminTexture字段一致); AtomicInteger B(static计数器,26.2新增); y4×2(j, 26.2额外字段); src LuminTexture 30行→jar 885行(26.2大幅扩展含GPU资源管理)",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/graphics/LuminTexture.java"
+  }
+ },
+ "unident": [],
+ "conflicts": []
+}

@@ -1,0 +1,51 @@
+{
+  "batch": "E012",
+  "results": {
+    "uZ": {
+      "identity": "Scaffold",
+      "kind": "module",
+      "conf": "A",
+      "evidence": "继承模块基类(u9→Module)，字段含BlockPos l/yY Y(放置目标)/int W(槽位)/uK O(结果)；lambda$findBlock$0检查BlockItem，a(Object)做AABB碰撞+ClipContext射线找放置位置，lambda$onMotion$0处理移动事件；MC导入(AABB/BlockHitResult/BlockItem/BlockPos/ClipContext/Direction/Entity/Inventory/Item/ItemStack/LocalPlayer/Vec3/Vec3i)与Scaffold完全对应；1451行=533行+控制流扁平化混淆膨胀",
+      "official_path": "work/official26/com/github/epsilon/modules/impl/movement/Scaffold.java"
+    },
+    "gZ": {
+      "identity": "JumpCircle",
+      "kind": "module",
+      "conf": "A",
+      "evidence": "继承gs(→Module)；构造函数接受iJ(Vec3/Identifier)/Vec3/int/float+RandomSource，创建粒子效果并取Entity.getDimensions(Pose)；M方法含PoseStack渲染循环和sin/cos数学（圆形路径），使用随机boolean初始化颜色/旋转；MC导入(Entity/Identifier/Pose/RandomSource/Vec3)与JumpCircle匹配",
+      "official_path": "work/official26/com/github/epsilon/modules/impl/render/JumpCircle.java"
+    },
+    "zS": {
+      "identity": "PlayerUtils",
+      "kind": "util",
+      "conf": "A-",
+      "evidence": "静态工具类含两个boolean方法：h()检查LocalPlayer+isUsingItem()+WebBlock(isEating)，A()遍历AABB deflate(1E-6)→BlockPos.MutableBlockPos→getBlockState检查WebBlock(isInWeb)；MC导入(BlockPos/BlockState/LocalPlayer/WebBlock)与PlayerUtils完全匹配；行数差异(697 vs 68)因混淆控制流膨胀",
+      "official_path": "work/official26/com/github/epsilon/utils/player/PlayerUtils.java"
+    },
+    "yb": {
+      "identity": "MixinFont",
+      "kind": "mixin",
+      "conf": "A-",
+      "evidence": "package-private类实现Font.GlyphVisitor接口，构造函数(OT,Matrix3x2fc,ScreenRectangle)→acceptRenderable(TextRenderable)创建GlyphRenderState并回调外层OT；OT为MixinFont内部引用（OT的glyphVisitor返回此实例）；MC导入(Font.GlyphVisitor/TextRenderable/ScreenRectangle/GlyphRenderState/Matrix3x2fc)与MixinFont完全对应",
+      "official_path": "work/official26/com/github/epsilon/mixins/MixinFont.java"
+    }
+  },
+  "unident": [
+    {
+      "obf": "_n",
+      "reason": "单例碰撞工具类(835行)含Map<AbstractClientPlayer,List<Vec3>>缓存，t(Object[])实现完整AABB碰撞物理(构造→collideBoundingBox→水平碰撞检测→摩擦减速→重力→Vec3运动)；MC导入(AABB/AbstractClientPlayer/Entity/Level/Player/Vec3)；候选全部为Mixin类(35-73行)无匹配；26.2-2026.10.7版本新增类，官方26.2-2026.8.1中无对应"
+    },
+    {
+      "obf": "dE",
+      "reason": "大型静态工具类(1660行)含FFmpegFrameGrabber+ExecutorService+DynamicTexture+Identifier+ByteBuffer[]字段；M()注册纹理到TextureManager，V(Frame)解码视频帧为RGBA到ByteBuffer；lambda$init$0创建守护线程；MC导入(AbstractTexture/DynamicTexture/Identifier/TextureManager)+FFmpeg导入；功能为视频纹理解码器，官方26.2-2026.8.1中无对应"
+    },
+    {
+      "obf": "gS",
+      "reason": "Record类(86行)，8个字段(Direction sd/td/Direction SU/uK HM/BlockPos g_/BlockPos g2/boolean pj/int _3)，仅含getter+ObjectMethods bootstrap；候选全部为Mixin类(29-97行)且无Record结构匹配；混淆名高度不透明，无法关联到official26中任何已知类"
+    },
+    {
+      "obf": "nD",
+      "reason": "Record类(63行)，4个字段(boolean xP/AABB EI/List<BlockPos> nh/Oy xQ)，仅含getter+ObjectMethods bootstrap；候选中PlayerUtils(68行)为静态工具类非Record，其余为Mixin类；混淆Oy类型无法解析，无法匹配official26中任何类"
+    }
+  ]
+}

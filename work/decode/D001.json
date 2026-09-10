@@ -1,0 +1,55 @@
+{
+ "batch": "D001",
+ "results": {
+  "eF": {
+   "identity": "Phase",
+   "kind": "module",
+   "conf": "A-",
+   "evidence": "Mode/SwapMode 枚举与 src Phase 的 Mode(Vanilla,Pearl,Sunrise,ForceMine,CCClip)+SwapMode(Silent,InvSwitch)一致；MC导入 ServerboundMovePlayerPacket$Pos+ServerboundPlayerCommandPacket+ServerboundSwingPacket+ClipContext 均为 Phase 穿墙核心依赖；26.2 行数膨胀(264→1992)符合 indy 混淆扩张",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/modules/impl/movement/Phase.java"
+  },
+  "eq": {
+   "identity": "SafeAnchor",
+   "kind": "module",
+   "conf": "B",
+   "evidence": "AnchorBlast.Phase+ArmorEnchantmentMode 枚举与 src SafeAnchor 的 DamageUtils.ArmorEnchantmentMode/RenderBox.age 等锚点一致；VoxelShape 字段对应锚点碰撞检测；SettingGroup(nN)+Render3DScheduler+uK+Oz 符合 SafeAnchor 渲染/碰撞结构；26.2 行数膨胀(780→7528)",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/modules/impl/combat/SafeAnchor.java"
+  },
+  "up": {
+   "identity": "AutoWeapon",
+   "kind": "module",
+   "conf": "B",
+   "evidence": "MC导入含 BowItem+CrossbowItem+AxeItem+FishingRodItem+ShovelItem+StandingAndWallBlockItem 与 src AutoWeapon 的武器切换逻辑一致；anchored Refs 含 InvManager.BowPriorityMode(武器优先级)；26.2 行数膨胀(340→3572)",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/modules/impl/combat/AutoWeapon.java"
+  }
+ },
+ "unident": [
+  {
+   "obf": "q",
+   "reason": "26.2 新增模块。MC导入含 BlastFurnaceBlockEntity/BrewingStandBlockEntity/ChestBlockEntity/FurnaceBlockEntity/SmokerBlockEntity 等容器方块实体类，src 中无任何模块引用这些类。anchored Refs 含 InvManager（非自身），排除 InvManager。行数2907，结构上为大型容器交互/自动熔炉类模块，但无源码对应。"
+  },
+  {
+   "obf": "T",
+   "reason": "26.2 新增模块。MC导入含 BlinkPacket/GameLeftEvent/LevelUpdateEvent 等26.1.2 src 中不存在的类。Deque<dJ> 队列+LivingEntity+ArmorStand+多种 Clientbound 包类型指向实体位置冻结/反作弊模块，但 src 无对应源码。"
+  },
+  {
+   "obf": "h",
+   "reason": "26.2 新增模块。MC导入含 ThrownTrident/WitherSkull/ChargedProjectiles 等投射物类，src 中无模块使用这些投射物类。RegistryListSetting<Item>(Xe)+SettingGroup(nN)+多个 ColorSetting 表明是带列表设置的渲染/过滤模块，但无源码对应。"
+  },
+  {
+   "obf": "p",
+   "reason": "26.2 新增模块。MC导入含 BedBlock+VoxelShape，src 中无任何文件使用 BedBlock。BedBlock(床方块)+VoxelShape(碰撞)+Direction+BlockHitResult+ServerboundSwingPacket 指向与床相关的战斗/锚点模块，但 src 无对应源码。"
+  },
+  {
+   "obf": "f",
+   "reason": "26.2 新增渲染模块。MC导入含 RenderPipeline+Font+GuiGraphicsExtractor+Screen+ContainerScreen+CreativeModeInventoryScreen+InventoryScreen，src 中无模块同时使用这些类。Color[] 数组+♥(heart)符号+Random+DecimalFormat 指向带颜色渐变的屏幕渲染效果模块，但无源码对应。"
+  }
+ ],
+ "conflicts": [
+  {
+   "obf": "up",
+   "claimed": "AutoWeapon",
+   "existing": "class_map 里的 e2 (conf: B)"
+  }
+ ]
+}

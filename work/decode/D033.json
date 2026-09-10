@@ -1,0 +1,58 @@
+{
+  "batch": "D033",
+  "results": {
+    "gA": {
+      "identity": "ThemePalette",
+      "kind": "class",
+      "conf": "A",
+      "evidence": "353行；大量静态Color字段+float尺寸常量；static w()引用Dx(EnumSetting)/ne/ii加载ThemeMode+ThemePreset；F(Color,Color,float)做颜色插值；静态块初始化30+Color(RGBA)；与MD3Theme.ThemePalette record结构完全匹配",
+      "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/gui/theme/MD3Theme.java"
+    },
+    "zW": {
+      "identity": "ButtonWidget",
+      "kind": "class",
+      "conf": "A",
+      "evidence": "extends zc<Xp>即SettingWidget<ButtonSetting>；导入Xp(ButtonSetting)/DF/zJ/zU；O()方法含roundRect渲染+buttonSurface+text居中逻辑；e()方法处理mouseClicked检测按钮区域；与源码ButtonWidget完全匹配",
+      "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/gui/dropdown/widget/ButtonWidget.java"
+    },
+    "nX": {
+      "identity": "NotificationMode",
+      "kind": "enum",
+      "conf": "A-",
+      "evidence": "enum<Success/Info/Warning/Error>四常量；3个int字段(RGB/RGBA)；getColor()/getColor(int alpha)方法；fromEnabled(boolean)静态工厂；与NotificationMode结构高度匹配；Warning为26.2新增常量(26.1.2源码仅3个)，构造函数多1个alpha参数",
+      "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/elements/impl/notification/NotificationMode.java"
+    },
+    "OA": {
+      "identity": "ModuleButton",
+      "kind": "class",
+      "conf": "A",
+      "evidence": "导入Xv(模块类型)/_E(animation)/_j(文本渲染器)/ih(坐标)/zU(渲染域)；含_E动画实例(float u=5.0/r=0.75/y=8.0)；e()方法渲染模块条目(icon+text+颜色+hover检测)；t()方法处理toggle状态；与ModuleButton渲染模块列表条目的功能完全匹配",
+      "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/gui/dropdown/component/ModuleButton.java"
+    },
+    "_L": {
+      "identity": "ConfigFileVisitor",
+      "kind": "class",
+      "conf": "A",
+      "evidence": "extends SimpleFileVisitor<Path>；字段Path J/Z + boolean T；f()方法(visitFile)做文件复制(Files.copy with CopyOption)；y()方法(preVisitDirectory)做目录创建(Files.createDirectories)；静态块含混淆字符串解密常量a；与ConfigHolder中SimpleFileVisitor的目录复制逻辑匹配",
+      "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/holders/ConfigHolder.java"
+    },
+    "_u": {
+      "identity": "SettingViewFactory",
+      "kind": "class",
+      "conf": "A",
+      "evidence": "导入全部10种Setting类型(X0/Xn/XG/DM/DV/Xe/Xc/Xp/XF)+全部SettingRow子类(v7/v9/vf/vg/vD/vi/vU/vX/vJ/vh/vs)；static s(Dl<?>)方法用SwitchBootstraps.typeSwitch按Setting类型创建对应SettingRow；与SettingViewFactory.create()完全一致",
+      "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/gui/panel/adapter/SettingViewFactory.java"
+    }
+  },
+  "unident": [
+    {
+      "obf": "no",
+      "reason": "336行工具类；float字段l/o + singleton(B) + 比率/钳位方法；无MC导入、仅SeQL+Setting锚点；遍历26.1.2全源码树(timer/utils/gui/math/render)未找到结构匹配类；可能是26.2新增插值/平滑值工具"
+    },
+    {
+      "obf": "_Z",
+      "reason": "296行工具类；long p字段 + 时间戳方法(S返回 elapsed, m设置cooldown, e检查是否到期, B/D接受int/double参数返回boolean)；无MC导入；与TimerUtils结构不匹配(后者仅long startTime)；可能是26.2新增时间/节流工具"
+    }
+  ],
+  "conflicts": []
+}

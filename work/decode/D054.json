@@ -1,0 +1,15 @@
+{
+ "batch": "D054",
+ "results": {},
+ "unident": [
+  {"obf": "XS", "reason": "SeQL内部dispatch Record(6组件: float×5+Color); 实现_Q接口; 所有accessor通过hi.a()解密; 无MC导入; 无源码对应类 — SeQL字符串加密基础设施，非用户类"},
+  {"obf": "dM", "reason": "SeQL内部dispatch Record(6组件: ih+float×2+Color×2+String); 所有accessor通过hi.a()解密; 无MC导入; 无源码对应类 — SeQL字符串加密基础设施"},
+  {"obf": "n_", "reason": "SeQL内部dispatch Record(6组件: Module+String×2+float×3); 引用e(=Module); 所有accessor通过hi.a()解密; 无MC导入; 无源码对应类 — SeQL字符串加密基础设施"},
+  {"obf": "zw", "reason": "SeQL内部dispatch Record(6组件: Color+float[]×3+int+float); 持有float数组(vertex数据); 所有accessor通过hi.a()解密; 无MC导入; 无源码对应类 — SeQL字符串加密基础设施"},
+  {"obf": "dw", "reason": "SeQL内部dispatch Record(6组件: boolean×3+int×2+float); 纯原语; 所有accessor通过hi.a()解密; 无MC导入; 无源码对应类 — SeQL字符串加密基础设施"},
+  {"obf": "OC", "reason": "SeQL内部dispatch Record(4组件: zP+_j+l5+vx); 全为混淆类型; 含静态工厂方法R(vx); 所有accessor通过hi.a()解密; 无MC导入; 无源码对应类 — SeQL字符串加密基础设施"},
+  {"obf": "Xs", "reason": "SeQL内部dispatch Record(6组件: boolean×4+double×2); 纯原语; 所有accessor通过hi.a()解密; 无MC导入; 无源码对应类 — SeQL字符串加密基础设施"},
+  {"obf": "D9", "reason": "SeQL内部dispatch Record(5组件: ih+float×2+Color×2); 实现_Q接口; 所有accessor通过hi.a()解密; 无MC导入; 无源码对应类 — SeQL字符串加密基础设施"}
+ ],
+ "conflicts": []
+}

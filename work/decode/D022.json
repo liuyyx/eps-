@@ -1,0 +1,58 @@
+{
+ "batch": "D022",
+ "results": {
+  "zX": {
+   "identity": "RenderBox",
+   "kind": "record",
+   "conf": "A",
+   "evidence": "class_map AutoHitCrystal(ey)证据: List<zX>=renderBoxes; 字段序列 AABB(aabb)+Color(lineColor)+Color(sideColor)+long(startTime) 与 AutoHitCrystal.RenderBox record 完全吻合",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/modules/impl/combat/AutoHitCrystal.java"
+  },
+  "_1": {
+   "identity": "ItemPreview",
+   "kind": "record",
+   "conf": "A",
+   "evidence": "字段序列 ItemStack(stack)+float(x)+float(y)+float(size) 与 RegistryListSelectPopup.ItemPreview record 完全吻合",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/gui/panel/popup/RegistryListSelectPopup.java"
+  },
+  "nF": {
+   "identity": "Node",
+   "kind": "record",
+   "conf": "A",
+   "evidence": "record(BlockPos,double,double) + 私有方法 z() 返回两 double 之和 → AStarFollowerNavigator.Node 的 fScore()=gScore+hScore; _c→pos,z9→gScore,zw→hScore",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/modules/impl/movement/follower/AStarFollowerNavigator.java"
+  },
+  "uu": {
+   "identity": "MobCategory-switch-bootstrap",
+   "kind": "class",
+   "conf": "B",
+   "evidence": "编译器生成的 invokedynamic switch bootstrap 类; 静态初始化器通过 MobCategory.ordinal() 构建 switch 表; 源码 ESP2D.java 有 switch(category) on MobCategory",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/modules/impl/render/ESP2D.java"
+  },
+  "dZ": {
+   "identity": "Difficulty-switch-bootstrap",
+   "kind": "class",
+   "conf": "B",
+   "evidence": "编译器生成的 invokedynamic switch bootstrap 类; 静态初始化器通过 Difficulty.ordinal() 构建 switch 表; 源码 ZealotCrystalPlus/DamageUtils 有 switch(difficulty) on Difficulty",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/modules/impl/combat/ZealotCrystalPlus.java"
+  },
+  "yU": {
+   "identity": "EquipmentSlot-switch-bootstrap",
+   "kind": "class",
+   "conf": "B",
+   "evidence": "编译器生成的 invokedynamic switch bootstrap 类; 静态初始化器通过 EquipmentSlot.ordinal() 构建 switch 表; 源码 AutoWeapon/ZealotCrystalPlus/DamageUtils 等多处有 switch(slot) on EquipmentSlot",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/modules/impl/combat/AutoWeapon.java"
+  }
+ },
+ "unident": [
+  {
+   "obf": "O0",
+   "reason": "26.2 新增: 输入事件监听接口(extends AutoCloseable), 含 v(MouseButtonEvent)/K(Object[])等键盘鼠标事件方法; 26.1.2 src 无对应接口"
+  },
+  {
+   "obf": "iO",
+   "reason": "26.2 新增: Record implements 密封接口 X6(permits iO,dq); 字段 Identifier+boolean; X6 在 26.1.2 src 无对应(密封接口模式为 26.2 新增)"
+  }
+ ],
+ "conflicts": []
+}

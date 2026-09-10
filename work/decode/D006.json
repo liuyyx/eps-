@@ -1,0 +1,49 @@
+{
+ "batch": "D006",
+ "results": {
+  "ee": {
+   "identity": "Phase",
+   "kind": "module",
+   "conf": "B",
+   "evidence": "DestroyBlockEvent 锚点唯一匹配 Phase.java（movement 模块中唯一使用 DestroyBlockEvent）；BoolSetting k/m 与 Phase 的 pauseOnPhase/onlyOnGround 等 BoolSetting 一致；Category.MOVEMENT 隐含匹配",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/modules/impl/movement/Phase.java"
+  },
+  "el": {
+   "identity": "AspectRatio",
+   "kind": "module",
+   "conf": "A",
+   "evidence": "DoubleSetting C default=1.78, min=0.1, max=8.0, step=0.1 完全匹配 AspectRatio.java 的 ratio 字段；Category.RENDER；极简模块无其他设置；src 仅此一处有 1.78 默认值",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/modules/impl/render/AspectRatio.java"
+  },
+  "J": {
+   "identity": "AntiAlias",
+   "kind": "module",
+   "conf": "B",
+   "evidence": "82 行极简模块仅含 static final 实例 + 单个 @EventHandler 方法 V(yZ)；AntiAlias.java 是唯一仅处理 AfterRender3DEvent 的极简模块（21 行，差额为 SeQL 静态初始化解密）；Category.RENDER 匹配",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/modules/impl/render/AntiAlias.java"
+  }
+ },
+ "unident": [
+  {
+   "obf": "ep",
+   "reason": "1024 行大型模块，anchored: KeyboardInputEvent + Category。无 MC import，无可见字段声明（前 280 行全为方法体）。源码中使用 KeyboardInputEvent 的模块最大仅 Scaffold(588 行)；ep 的 M(Object[]) 方法处理 float 参数和 switch，疑似移动输入处理，但无法与具体源码模块（Scaffold/ElytraFly/Velocity 等）建立唯一匹配。可能是 26.2 新增或大规模重构模块"
+  },
+  {
+   "obf": "u0",
+   "reason": "701 行渲染模块，anchored: Render2DEvent.HUD + BoolSetting + ColorSetting + DoubleSetting。使用 Dh（矩形绘制）、Supplier<y_>、多个 DM/DV/Xn 字段。K 方法处理 int 坐标和 Dh 矩形渲染。源码中使用 Render2DEvent.HUD 的模块仅 MasEffects（但字段不匹配）。可能是 NameTags/ESP2D 的 26.2 扩展版或新增渲染模块"
+  },
+  {
+   "obf": "v",
+   "reason": "673 行战斗模块，anchored: AttackEntityEvent + KeyboardInputEvent + EnumSetting<uy> + IntSetting。t(dN) 方法处理 dN（AttackEntityEvent）事件。源码中同时使用 AttackEntityEvent 和 KeyboardInputEvent 的模块仅 Criticals（120 行，字段不匹配）。uy 枚举类型无法从 src 确认。可能是 26.2 新增或大幅重构的战斗模块"
+  },
+  {
+   "obf": "e5",
+   "reason": "502 行渲染模块，anchored: EnumSetting<n7> + ColorSetting x2 + DoubleSetting。Constructor 确认 Category.RENDER。n7 枚举类型无法从 src 确认。源码中 ColorSetting x2 + DoubleSetting 的渲染模块有 CrystalChams/BlockESP 等，但均无 EnumSetting 匹配。可能是 26.2 新增或大幅重构的渲染模块"
+  },
+  {
+   "obf": "Om",
+   "reason": "2344 行非模块工具类，35 个 MC import 覆盖全部投射物类型（FishingHook/LlamaSpit/AbstractArrow/ThrownTrident 等）。静态字段含 14+ 个 gN Record（投射物物理参数记录：gravity/drag/bounce/EntityType）。src 中无对应工具类。这是 26.2 新增的投射物轨迹预测/计算工具"
+  }
+ ],
+ "conflicts": []
+}

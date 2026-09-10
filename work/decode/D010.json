@@ -1,0 +1,57 @@
+{
+ "batch": "D010",
+ "results": {
+  "zS": {
+   "identity": "FastWeb",
+   "kind": "class",
+   "conf": "B",
+   "evidence": "MC 导入 WebBlock+LocalPlayer+BlockPos 唯一匹配 FastWeb。static boolean h() 方法调用 isUsingItem()/L(int)/setting 检查，与 FastWeb 的 cobweb() 语义一致（检测玩家是否在蛛网中+设置条件）。class_map t=MixinWebBlock 辅助类（isInWeb），zS 为独立的 FastWeb 模块类（26.2 重构后不直接 extends Module，结构差异）。26.2 版本差：src 26.1.2 FastWeb 仅 58 行，jar 697 行含 indy 解密+控制流混淆膨胀。",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/modules/impl/movement/FastWeb.java"
+  },
+  "_I": {
+   "identity": "HitParticles",
+   "kind": "module",
+   "conf": "A",
+   "evidence": "anchored_refs 包含 HitParticles+IntSetting（双重确认）。MC 导入 ClientLevel+BlockPos+BlockState+Vec3 与 src HitParticles 的 onRender3D/onTick 方法使用一致。字段 r/Q/K/R/m/a 均 float 类型，对应 Particle 内部类的渲染属性（position/velocity/rotation/scale）。Color w 对应 particleColor。方法 P(float) 做 lerp 插值（粒子位置计算），方法 M() 检查距离/可见性。src HitParticles 确认含 IntSetting（amount/lifeTime/speed 三个 IntSetting）。",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/modules/impl/render/HitParticles.java"
+  }
+ },
+ "unident": [
+  {
+   "obf": "_6",
+   "reason": "MC 导入 {GuiGraphicsExtractor, CharacterEvent, KeyEvent, MouseButtonEvent}。iA=ModuleListPanel 和 nl=ModuleDetailPanel 已占位。字段 XJ(PanelPopupHost.Popup)、lm、ih(=UiRect)。DN(PanelInputRouter) evidence 中 _6 为 dispatch 目标之一。src 26.1.2 中同时导入 4 个事件的类有 ModuleDetailPanel/nl(已占)、ClientSettingPanel/y9(已占)、PanelScreen/i6(已占)。可能为 26.2 新增的面板类或现有类的重构拆分。"
+  },
+  {
+   "obf": "dE",
+   "reason": "26.2 新增类。MC 导入 FFmpegFrameGrabber+DynamicTexture+TextureManager+Identifier，另有 ExecutorService/ByteBuffer[]/AtomicReference<go>/FFmpegFrameGrabber 字段。src 26.1.2 全树无 FFmpeg/视频相关代码，无 DynamicTexture 使用（仅 LuminRenderSystem 有 TextureManager.register）。推测为视频播放器/动态纹理管理器，26.2 新增功能。"
+  },
+  {
+   "obf": "dh",
+   "reason": "26.2 新增类。Record 类，implements TextRenderable.Styled+Dk(=TextRenderableAdapter)。MC 导入 Font+TextRenderable.Styled+RenderType+Style。src 26.1.2 无 TextRenderable.Styled（MC 26.2 新增 API）。字段 PO/kv(gG)/PN/p5/_T(int)/pp/_8(int)/style 对应文本渲染段落的样式/位置/字体信息。推测为文本渲染段落 record。"
+  },
+  {
+   "obf": "_v",
+   "reason": "26.2 新增类。MC 导入 EntityType+LivingEntity+Squid+Level，构造中 new Squid(EntityType,Level) 创建鱿鱼实体。src 全树无任何 Squid 引用。字段 m=Squid、i=m(模块引用)、d=_E(动画)、p=double(位置)。引用 Easing 和 Setting。推测为鱿鱼特效/粒子渲染辅助类（26.2 新增视觉效果）。"
+  },
+  {
+   "obf": "u5",
+   "reason": "26.2 新增 Record。Record 组件 ol(Player), JI(Vec3), jl(Vec3), fV(AABB), qm(float), LX(boolean), lt(boolean), LQ(boolean), zf(im 类型), k7(Difficulty), DK(uK 类型)。src 无任何 Record 类匹配此字段组合。im 和 uK 均为未识别的 26.2 新增类。推测为战斗状态快照或伤害计算中间数据。"
+  },
+  {
+   "obf": "O7",
+   "reason": "26.2 新增 Record。Record 组件 gX(LivingEntity), mL(BlockPos), uk(float), u5(float), WL(Direction), pn(Vec3), HC(uK 类型)。src 无任何 Record 类匹配此字段组合（RaytraceResult 在 26.1.2 无独立 Record 定义）。uK 为未识别的 26.2 新增类（推测为 Rot2f 旋转记录）。推测为放置/射线追踪结果记录。"
+  }
+ ],
+ "conflicts": [
+  {
+   "obf": "_I",
+   "claimed": "HitParticles",
+   "existing": "class_map 里的 eR"
+  },
+  {
+   "obf": "zS",
+   "claimed": "FastWeb",
+   "existing": "class_map 里的 t"
+  }
+ ]
+}

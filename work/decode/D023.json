@@ -1,0 +1,49 @@
+{
+ "batch": "D023",
+ "results": {
+  "dV": {
+   "identity": "Render3DScheduler.BlurredBoxCommand",
+   "kind": "record",
+   "conf": "A",
+   "evidence": "Record(AABB, double) 完全匹配 src Render3DScheduler.BlurredBoxCommand(AABB box, double blurStrength)；Render3DScheduler(le)命令列表含 List<dV>，同系列 Dm/vl/yN/uX 已识别为同调度器其他命令记录",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/graphics/schedulers/render3d/Render3DScheduler.java"
+  },
+  "Dp": {
+   "identity": "JumpCircle.Circle",
+   "kind": "record",
+   "conf": "A",
+   "evidence": "Record(Vec3, _Z) 匹配 src JumpCircle.Circle(Vec3 pos, TimerUtils timer)；_Z=S/Object[] 计时器模式(S=毫秒差/m=设时间/p=时间戳/j=passedMillise/B=reset)与 TimerUtils.java 逐方法对应",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/modules/impl/render/JumpCircle.java"
+  },
+  "zo": {
+   "identity": "Render2DEvent",
+   "kind": "class",
+   "conf": "A",
+   "evidence": "26.2 class_map 已确认：zm extends zo 构造(GuiGraphicsExtractor)→super，zR extends zo 构造(GuiGraphicsExtractor)→super；zm=zR 对应 src Render2DEvent.Level/Render2DEvent.HUD(GuiGraphicsExtractor)→super(guiGraphics)；zo 基类含 GuiGraphicsExtractor v 字段+N(Object[]) getter 即 getGuiGraphics()",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/events/impl/Render2DEvent.java"
+  }
+ },
+ "unident": [
+  {
+   "obf": "lx",
+   "reason": "26.2 新增 Record(InteractionHand, PoseStack)，src 无同签名 record；可能为手部渲染事件数据包(与 MixinItemInHandRenderer 注入点参数形状一致)，但无法确认具体类名"
+  },
+  {
+   "obf": "yF",
+   "reason": "26.2 新增 Record(InteractionHand, PoseStack)，与 lx 结构相同但混淆不同(不同 SeQL 常量)，src 无同签名 record；可能为手部渲染事件变体，无法确认具体类名"
+  },
+  {
+   "obf": "_w",
+   "reason": "26.2 新增 record implementing DynamicUniformStorage.DynamicUniform，单 float DU；src 中所有 DynamicUniform 实现均有多个字段(SandboxInfo 7/BoxBlurUniforms 3/FXAAInfo 2/FilterColor 4/ShaderParams 12/ShaderColors 6)，无单 float 匹配"
+  },
+  {
+   "obf": "Oz",
+   "reason": "26.2 新增 Record(BlockPos, long)，src 无同签名 record；AStarFollowerNavigator.Node 为 (BlockPos, double, double) 不匹配"
+  },
+  {
+   "obf": "zZ",
+   "reason": "26.2 新增 class 包装 BlockPos，简单类(23行)无 extends；w(Object[])→BlockPos 为 getter；docs 提及 DestroyedBlockEvent/PlaceBlockEvent 无 src 对应，结构相似但无法确认具体类名"
+  }
+ ],
+ "conflicts": []
+}

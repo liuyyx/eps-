@@ -1,0 +1,55 @@
+{
+ "batch": "D009",
+ "results": {
+  "ef": {
+   "identity": "TargetHUD",
+   "kind": "hudmodule",
+   "conf": "B",
+   "evidence": "extends eh(HudModule); MC DeltaTracker+AbstractClientPlayer+LocalPlayer+Identifier; anchors: BoolSetting(Xn), ColorSetting(DV), DoubleSetting(DM), IntSetting(XG), GameLeftEvent(g3), PacketEvent.Receive(dP), PlayerTickEvent.Post(nj); 与 src TargetHUD 的 settings/events 完全对应",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/elements/impl/TargetHUD.java"
+  },
+  "lI": {
+   "identity": "MasEffectsParticleRenderer",
+   "kind": "class",
+   "conf": "B",
+   "evidence": "MC Camera+Entity+LivingEntity+Vec3+Identifier+RenderPipeline+PoseStack+Matrix4f+Quaternionfc 完全匹配 src; 字段 Map<Integer,n3>+RenderPipeline; 锚点 Easing(lH)+Setting(Dl); 1212行 vs src 709行(26.2扩展)",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/modules/impl/render/maseffects/MasEffectsParticleRenderer.java"
+  },
+  "XI": {
+   "identity": "ConfigClientSettingTab",
+   "kind": "class",
+   "conf": "B",
+   "evidence": "implements O0; MC GuiGraphicsExtractor+CharacterEvent+KeyEvent+MouseButtonEvent; 锚点 ActionButtonType(df)+ConfigHolder(vz)+ConfirmActionPopup(Dv)+GeneralClientSettingTab(lB)+Setting(Dl)+TranslateComponent(uT); ConfigClientSettingTab 是唯一同时引用 ConfigHolder+ConfirmActionPopup+ActionButtonType 的 Tab 类; 3862行 vs src 676行(26.2合并扩展)",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/gui/panel/view/settings/ConfigClientSettingTab.java"
+  },
+  "y9": {
+   "identity": "ModuleDetailPanel",
+   "kind": "class",
+   "conf": "B",
+   "evidence": "implements AutoCloseable; MC GuiGraphicsExtractor+CharacterEvent+KeyEvent+MouseButtonEvent; 锚点 KeybindSetting(X0)+KeybindSettingRow(vJ)+Module(e)+RowClickInterceptor(n5)+SettingListController(Og)+SettingRow(v_)+TranslateComponent(uT); ModuleDetailPanel 是唯一实现 AutoCloseable 且引用 Module+KeybindSettingRow+SettingListController 的面板; 3269行 vs src 568行(26.2扩展)",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/gui/panel/view/ModuleDetailPanel.java"
+  },
+  "ld": {
+   "identity": "AddonClientSettingTab",
+   "kind": "class",
+   "conf": "B",
+   "evidence": "implements O0; MC GuiGraphicsExtractor+CharacterEvent+KeyEvent+MouseButtonEvent; 锚点 KeybindSetting(X0)+KeybindSettingRow(vJ)+RowClickInterceptor(n5)+SettingListController(Og)+SettingRow(v_); 字段 Map<Dl<?>,_E>(settings→view映射); AddonClientSettingTab 是唯一引用 SettingListController+KeybindSettingRow+RowClickInterceptor 的 Tab 类(排除已匹配的 XI/y9); 2401行 vs src 700行(26.2扩展)",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/gui/panel/view/settings/AddonClientSettingTab.java"
+  }
+ },
+ "unident": [
+  {
+   "obf": "gZ",
+   "reason": "extends gs(EffectParticle),是 MasEffectsParticleRenderer 内部类的具体子类; 6字段(V:float,g:int,z:iJ,S:float,y:float,Z:float); 锚点 EffectParticle+MasEffectsParticleRenderer; 291行; MC Identifier+PoseStack+Vec3+Entity+Pose+RandomSource; 字段类型不匹配已知 src 子类(Shockwave/ShieldWave/Flick/Flash/Scrap/Revive等); 可能是26.2新增的粒子子类"
+  },
+  {
+   "obf": "lp",
+   "reason": "extends l8(未知超类,不在class_map); MC AbstractClientPlayer+LocalPlayer+Component+Entity+LivingEntity; 字段 Supplier<_j>,LivingEntity,_Z; 1065行; 锚点 Module+Setting; 无法确定具体源码类(可能是26.2新增或大幅重构的player utility/rendering类)"
+  },
+  {
+   "obf": "ls",
+   "reason": "MC FormattedText+Style+Identifier+FormattedCharSequence+FormattedCharSink; 651行; 锚点 Setting; 字段 nK,Identifier,Float常量(0.0f,3.0f,7.0f,10.0f); 这是文本渲染/格式化工具类,但src中没有匹配的651行类(最接近的TextWrapper仅125行); 可能是26.2新增或大幅扩展的text utility类"
+  }
+ ],
+ "conflicts": []
+}

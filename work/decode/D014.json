@@ -1,0 +1,63 @@
+{
+ "batch": "D014",
+ "results": {
+  "gq": {
+   "identity": "ShockwaveParticle",
+   "kind": "class",
+   "conf": "A",
+   "evidence": "构造器(iJ,Vec3,Identifier[],float,float,float,boolean)与源码ShockwaveParticle(Vec3,Identifier[],float,float,float,boolean)参数签名完全匹配（iJ为外层MasEffectsParticleRenderer引用）；o()方法(PoseStack渲染)使用Quaternionf旋转π/2+可选π/4(rotateX/rotateY)并检查crossed布尔标志，与源码ShockwaveParticle.render()的renderPlane(π/2) + if(crossed) renderPlane(rotateY(π/4).rotateX(π/2))完全对应；字段float alphaControl+boolean crossed匹配；导入PoseStack+Quaternionf",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/modules/impl/render/maseffects/MasEffectsParticleRenderer.java:411"
+  },
+  "gM": {
+   "identity": "PearlTrailParticle",
+   "kind": "class",
+   "conf": "A",
+   "evidence": "构造器(iJ,Vec3,Vec3)匹配源码PearlTrailParticle(Vec3,Vec3)（iJ为外层引用）；构造器内motion+random*0.005偏移与源码xd/motion.x+randomInclusive(-10,10)*0.005F完全对应；friction=0.98匹配；afterTick计算size=(1-age/lifetime)*0.15并检查player距离<6.0调整alpha，与源码PearlTrailParticle.afterTick一致；Dl.S()距离检查匹配源码mc.player.position().distanceTo(position)<6.0",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/modules/impl/render/maseffects/MasEffectsParticleRenderer.java:599"
+  },
+  "gV": {
+   "identity": "FlashParticle",
+   "kind": "class",
+   "conf": "A",
+   "evidence": "构造器(iJ,Vec3)匹配FlashParticle(Vec3)；字段初始化size=0.12, gravity=0.1, alpha=0.99, friction=0.91与源码this.size=0.12F/this.gravity=0.1F/this.alpha=0.99F/this.friction=0.91F完全一致；lifetime=base+nextInt(range)匹配源码48+random.nextInt(12)；M()实现age>lifetime/2时alpha衰减的分支逻辑与源码afterTick完全对应",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/modules/impl/render/maseffects/MasEffectsParticleRenderer.java:493"
+  },
+  "gT": {
+   "identity": "DeathSparkParticle",
+   "kind": "class",
+   "conf": "A",
+   "evidence": "构造器(iJ,Vec3)匹配DeathSparkParticle(Vec3)；friction=1.0匹配源码this.friction=1.0F；size使用gT.s(k,int,int,iJ,5,range)*0.06f匹配源码randomInclusive(5,10)*0.06F；lifetime使用gT.s(k,int,int,iJ,5,range)匹配源码固定值20的随机变体；M()中xd/zd乘以0.9匹配源码afterTick中xd*=0.9F/zd*=0.9F；alpha线性衰减(1-age/lifetime)*0.45匹配源码afterTick",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/modules/impl/render/maseffects/MasEffectsParticleRenderer.java:660"
+  },
+  "gl": {
+   "identity": "DeathSkullParticle",
+   "kind": "class",
+   "conf": "B",
+   "evidence": "构造器(iJ,Vec3)匹配DeathSkullParticle(Vec3)；size=1.0匹配源码this.size=1.0F；friction=1.0匹配源码this.friction=1.0F；M()中alpha递减与yd乘以0.95的摩擦逻辑匹配源码afterTick: alpha-=1/30F + yd*=0.95F；C()/n()返回固定lifetime匹配源码58；注意：源码设置yd=0.2(初始速度)而jar设置gravity=0.2，可能是26.2将初始向上速度改为重力参数的版本差异",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/modules/impl/render/maseffects/MasEffectsParticleRenderer.java:639"
+  },
+  "gS": {
+   "identity": "MaceSlamResult",
+   "kind": "record",
+   "conf": "B",
+   "evidence": "Record类，8个字段：BlockPos+Direction+uK+double+int+boolean+BlockPos+Direction；mc导入BlockPos+Direction匹配攻击判定场景；26.2新增record（src无对应），从字段结构推断为锤击攻击的碰撞/方向结果记录（起点BlockPos+方向+距离+碰撞BlockPos+方向），命名为MaceSlamResult",
+   "src_path": "26.2 新增"
+  },
+  "nD": {
+   "identity": "WindBurstResult",
+   "kind": "record",
+   "conf": "B",
+   "evidence": "Record类，4个字段：Oy(未知类型)+List<BlockPos>+AABB+boolean；mc导入BlockPos+AABB匹配区域判定场景；26.2新增record（src无对应），从字段结构推断为风爆效果的结果记录（风爆类型+受影响方块列表+影响区域+是否成功），命名为WindBurstResult",
+   "src_path": "26.2 新增"
+  },
+  "vu": {
+   "identity": "ArmorBreakResult",
+   "kind": "record",
+   "conf": "B",
+   "evidence": "Record类，4个字段：AABB+int+float+Direction；mc导入Direction+AABB匹配方向+区域判定场景；26.2新增record（src无对应），从字段结构推断为护甲破坏效果的结果记录（破坏区域+破坏数量+伤害值+方向），命名为ArmorBreakResult",
+   "src_path": "26.2 新增"
+  }
+ },
+ "unident": [],
+ "conflicts": []
+}

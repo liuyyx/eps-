@@ -1,0 +1,43 @@
+{
+  "batch": "D038",
+  "results": {
+    "vR": {
+      "identity": "RenderTargetHolder",
+      "kind": "class",
+      "conf": "A",
+      "evidence": "List<dd>(dd=LuminRenderTarget) + synchronized register/unregister/destroyAll 模式，与 src RenderTargetHolder(List<LuminRenderSystem.LuminRenderTarget> + synchronized register/unregister/destroyAll) 结构完全匹配；单例 static final H = new vR()",
+      "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/holders/RenderTargetHolder.java"
+    }
+  },
+  "unident": [
+    {
+      "obf": "nY",
+      "reason": "26.2 新增。字符串分发辅助类，引用 hi(SeQL核心)、Dl(Setting)、um(列表容器)，含 static 方法分发 Iterable/um 对象。src 无对应类"
+    },
+    {
+      "obf": "yk",
+      "reason": "26.2 新增。实现 l5 接口(Color相关多方法接口)的单例，提供 Color 返回值和 float 常量(4/7/8/2/12/20)。src 无对应的颜色提供者实现"
+    },
+    {
+      "obf": "_D",
+      "reason": "26.2 新增。4个 public String 字段(k/B/u/H)，构造函数接收4个字符串，方法 J 用 Dl.S() 检查 Setting 状态并判断首字段是否为 null。src 无对应的4字段配置类"
+    },
+    {
+      "obf": "ny",
+      "reason": "26.2 新增。3个 static final TranslateComponent 字段(O/r/y)，静态初始化器解密字符串创建组件。src 无对应的翻译组件常量类"
+    },
+    {
+      "obf": "n9",
+      "reason": "26.2 新增。枚举含 None/LeftTop/RightTop/LeftBottom/RightBottom 五个常量，用于 HUD 元素位置。src 26.1.2 无此枚举"
+    },
+    {
+      "obf": "XK",
+      "reason": "26.2 新增。List<_A>(_A 为使用 RenderPass 的未知接口)注册表，单例，synchronized add/iterate/clear。src 无对应的渲染对象注册表"
+    },
+    {
+      "obf": "D7",
+      "reason": "26.2 新增。Record 类，包含5个伤害相关枚举(DQ=ArmorEnchantmentMode, Xb=BreakMode, Xo=DamagePriority, yr=PacketPlaceMode, yQ=PlaceBypass) + 1 int + 9 float。src ZealotCrystalPlus 的 SettingsSnapshot 有22个组件，与 D7 的14个组件不匹配"
+    }
+  ],
+  "conflicts": []
+}

@@ -1,0 +1,61 @@
+{
+ "batch": "D027",
+ "results": {
+  "_t": {
+   "identity": "LuminRingBuffer",
+   "kind": "class",
+   "conf": "A",
+   "evidence": "字段逐一对应: GpuBuffer[3] buffers=S, List<GpuBuffer> retiredBuffers=Z, int usage=V, GpuBuffer.MappedView mappedBuffer=T, int current=Y, boolean mapped=i, int[] sizes=M, long frameId=c; 方法 c()=flush/map循环, q()=getCurrentBuffer; src LuminRingBuffer 3槽环形GPU缓冲区, 26.2扩展增至3+1槽+retired list",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/graphics/buffer/LuminRingBuffer.java"
+  },
+  "eX": {
+   "identity": "Potions",
+   "kind": "hudmodule",
+   "conf": "A-",
+   "evidence": "extends eh(HudModule)+静态单例C; 锚点BoolSetting/ColorSetting/DoubleSetting/EnumSetting/IntSetting/StringSetting=15+设置; DM×11+DV×7+Dx×3+XG×1+Xn×1+Xc×1=24字段; me.sofurry.iiIllIllli导入(26.2药水图标依赖); float常量B=3.5f/A=2.5f/k=10.0f=药水渲染尺寸; src Potions extends HudModule 19个设置(scale/nameScale/durationScale/cornerRadius/animSpeed+6×Bool+3×Color+1×Int), 26.2增加渲染管线依赖和枚举设置",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/elements/impl/Potions.java"
+  },
+  "ic": {
+   "identity": "Shaders (settings holder)",
+   "kind": "class",
+   "conf": "A",
+   "evidence": "u.java(Shaders模块) 3次实例化 new ic(this, prefix, group, dependency); 构造函数创建3×Dx<ShaderHolder.Shader>(mode/handsMode/chestMode)+7×XG(maxRange/quality等)+8×DV(outline/fill颜色)+4×DM(factor/gradient)+1×Xn; 锚点ShaderHolder.Shader+Shaders确认角色; 26.2从Shaders模块提取的设置容器类, src Shaders.java settings内联在同一类",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/modules/impl/render/Shaders.java"
+  },
+  "nm": {
+   "identity": "PipelineStateRecord",
+   "kind": "record",
+   "conf": "B",
+   "evidence": "Record含Map<Integer, yG[]> pH+Color[] yL; 静态I()方法解析ByteBuffer→LinkedHashMap(按hash分发switch); 引用DL(boolean)+yG(渲染管线数据); 26.2新增类(src无对应), 角色为着色器管线状态解码记录",
+   "src_path": null
+  },
+  "ys": {
+   "identity": "QuadPipelineA",
+   "kind": "class",
+   "conf": "B",
+   "evidence": "implements _A(渲染管线接口); d5(QuadRenderingInfo)=IndexType+GpuBufferSlice+GpuTextureView×2; Q(Object[])接收RenderPass绑定纹理渲染; K(Object[])返回boolean(状态检查); 引用_t(LuminRingBuffer); 26.2新增(src无对应), com.github.slmpc.lumingraphics库渲染管线实现A",
+   "src_path": null
+  },
+  "v5": {
+   "identity": "QuadPipelineB",
+   "kind": "class",
+   "conf": "B",
+   "evidence": "implements _A(渲染管线接口); GpuBufferSlice i(DynamicUniform); W(Object[])渲染四边形坐标; 引用_t(LuminRingBuffer)+yJ(渲染参数Record); 与ys结构相似但使用不同GPU缓冲方案; 26.2新增(src无对应), com.github.slmpc.lumingraphics库渲染管线实现B",
+   "src_path": null
+  },
+  "nT": {
+   "identity": "PathEasingHelper",
+   "kind": "class",
+   "conf": "B",
+   "evidence": "float常量B=3.5f/A=2.5f/k=10.0f/y=10.0f/H=2.5f/O=10.0f; 锚点Easing(lH); 引用zU(路径数据)+ih(2D点)+_E(Easing状态对象含lH C); D(Object[])做路径点插值+easing曲线计算; B(Object[])静态浮点插值工具; 26.2新增(src无对应), UI路径动画插值辅助类",
+   "src_path": null
+  }
+ },
+ "unident": [
+  {
+   "obf": "_3",
+   "reason": "final class, 1056行, 纯静态工具方法; p(Object[])比较器,N(Object[])集合处理; 引用lb/y3/uM(未知Record类型)+Dl.S()(boolean开关); Iterator+List遍历逻辑; 26.2新增(src无对应), 角色为集合/列表处理工具类, 缺乏足够结构指纹定位真实身份"
+  }
+ ],
+ "conflicts": []
+}

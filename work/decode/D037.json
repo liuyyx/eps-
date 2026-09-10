@@ -1,0 +1,46 @@
+{
+ "batch": "D037",
+ "results": {
+  "Xx": {
+   "identity": "ZealotCrystalPlus$HudInfo",
+   "kind": "enum",
+   "conf": "A",
+   "evidence": "枚举常量Target/Damage/CalculationTime/Off/Speed与src ZealotCrystalPlus内嵌HudInfo枚举完全一致（顺序、数量、值名均匹配），26.2版被提取为顶层类",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/modules/impl/combat/ZealotCrystalPlus.java"
+  },
+  "um": {
+   "identity": "EpsilonAddon",
+   "kind": "class",
+   "conf": "A-",
+   "evidence": "ArrayList<iH>(疑似Setting<?>)字段 + 引用Dl(Setting) + hi；方法y返回List、i处理iH+Dl条件分支；anchored指向EpsilonAddon/Setting，src EpsilonAddon有ArrayList<Setting<?>>结构；字段类型iH与Setting映射合理",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/addon/EpsilonAddon.java"
+  }
+ },
+ "unident": [
+  {
+   "obf": "XP",
+   "reason": "15 static final BindGroupLayout字段 + Mojang blaze3d.pipeline/UniformType import；GPU bind group布局配置类，26.2新增渲染管线相关，src无对应"
+  },
+  {
+   "obf": "yg",
+   "reason": "静态工具类(private ctor)，方法M返回yT(8-float record)、v返回float、G处理zU+ih+float；引用Dl/ih/vk/yT/zU；26.2新增计算辅助类，src无对应"
+  },
+  {
+   "obf": "lJ",
+   "reason": "public final class + 13 static final uT(TranslateComponent)字段 + hi解密；i18n常量容器，src EpsilonTranslations内嵌类字段数不匹配(3/6/60+/3/10)，可能是26.2新增翻译常量文件"
+  },
+  {
+   "obf": "vG",
+   "reason": "extends LinkedHashMap<Ok, ON> + removeEldestEntry重载(vq.K引用)；LRU缓存，Ok为record(String,float,nK)、ON为数据类；26.2新增设置缓存，src无对应"
+  },
+  {
+   "obf": "la",
+   "reason": "public final class + 10 static final uT(TranslateComponent)字段 + hi解密；同类型i18n常量容器，字段数与EpsilonTranslations.PlayerAlarms(10)一致但无法确认身份"
+  },
+  {
+   "obf": "nP",
+   "reason": "public final class + 10 static final uT(TranslateComponent)字段 + hi解密；同类型i18n常量容器，字段数与EpsilonTranslations.PlayerAlarms(10)一致但无法确认身份"
+  }
+ ],
+ "conflicts": []
+}

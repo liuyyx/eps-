@@ -1,0 +1,15 @@
+{
+  "batch": "D071",
+  "results": {},
+  "unident": [
+    {"obf": "ym", "reason": "26.2新增@FunctionalInterface<T,E>，单方法E f(T)，通用泛型映射接口，无源码对应，缺乏判别信号"},
+    {"obf": "zT", "reason": "26.2新增@FunctionalInterface，单方法String c()，通用Supplier-like接口，无源码对应"},
+    {"obf": "gr", "reason": "26.2新增接口，单方法void f(Object[])，被Os/lf引用（与Setting/hi相关），但无足够结构判别"},
+    {"obf": "zB", "reason": "26.2新增接口，单方法boolean F()，被Xy引用（含hi解密），但无足够结构判别"},
+    {"obf": "zy", "reason": "26.2新增接口，单方法String g(Object[])，被O8/nx引用（与auth/JsonObject相关），但无足够结构判别"},
+    {"obf": "DI", "reason": "26.2新增空类，无字段/方法/接口/引用，完全无法判别"},
+    {"obf": "_4", "reason": "26.2新增空类，被__.java和_y.java继承，但子类本身也极小，无法推断父类身份"},
+    {"obf": "_g", "reason": "26.2新增空类，被R.java引用（与Module/BoolSetting/hi同用），但无字段/方法，无法判别"}
+  ],
+  "conflicts": []
+}

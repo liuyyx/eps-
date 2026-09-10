@@ -1,0 +1,43 @@
+{
+  "batch": "D013",
+  "results": {
+    "vo": {
+      "identity": "FireflyESP",
+      "kind": "class",
+      "conf": "A",
+      "evidence": "ya=FireflyESP.ColorMode 唯一指纹（anchored_refs 含 ya，src 仅 KillAura 引用 FireflyESP.ColorMode）；static v(PoseStack, LivingEntity, int, int, double, double, Color, ya, Color, ...) 精确匹配 src FireflyESP.render 签名；2 个 RenderPipeline(y,o) 对应 TARGET_ICON_NO_DEPTH_PIPELINE/TARGET_ICON_PIPELINE；Identifier Y 对应 FIREFLY_TEX；BlendFunction/ColorTargetState/DepthStencilState/CompareOp 导入完全一致",
+      "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/utils/render/esp/FireflyESP.java"
+    }
+  },
+  "unident": [
+    {
+      "obf": "_R",
+      "reason": "26.2 新增或大幅重构。2128行；MC imports: ClientPacketListener+LocalPlayer+GameProfile；引用 BoolSetting(Xn)+DoubleSetting(DM)+Easing+Setting；多个 _E(Animation) 字段；l8 u 字段；d0 p 字段；List<_e> O（tab entry 列表）；方法 k() 从 LocalPlayer/GameProfile 构建 _e 列表（图标+名称+颜色）。src 无直接匹配类（26.1.2 无 ClientPacketListener 用法的模块）。角色推测：TabList/PlayerOverlay 相关，但禁止猜名。"
+    },
+    {
+      "obf": "gW",
+      "reason": "26.2 大幅重构。1922行；anchored: Category+Module+Setting+Easing；MC: GuiGraphicsExtractor+MouseButtonEvent；多个 _E(Animation) 字段 + _j 字体 + ih(UiRect) + v_ 类型；方法 V(GuiGraphicsExtractor,lm,ih,int,int,float) 处理鼠标渲染；lambda$buildCategoryItem$0 构建分类项。CategoryPanel(src 284行) 有 Category+Module 引用但行数差异过大(1922 vs 284)，26.2 可能将下拉面板大幅扩展或合并其他组件。"
+    },
+    {
+      "obf": "lG",
+      "reason": "26.2 新增。1657行；extends l8；MC: DynamicTexture+Identifier；imports NativeImage+smtc.O+smtc.W（src 无 smtc 库引用）；float 布局常量 20+个；DynamicTexture M 字段；Supplier<_j> b 字体；String f；O i + W l smtc 实例。src 无匹配类。角色推测：基于 DynamicTexture 的 UI 组件（可能是通知/内容面板）。"
+    },
+    {
+      "obf": "iW",
+      "reason": "26.2 新增。1379行；MC: Identifier+Vec3；imports Matrix4f/Matrix4fc+RenderPipeline+RenderTarget+TextureTarget+GpuFormat+Std140SizeCalculator；2 个 static Identifier(y,H)；Matrix4f t/l；RenderPipeline R；RenderTarget u；Vec3 N；public static final iW A。方法 I() 初始化渲染管线，E() 管理 RenderTarget 大小/纹理。LuminRenderSystem/LuminRenderTarget(src) 有相似模式但无直接匹配。角色推测：渲染管线/投影管理器。"
+    },
+    {
+      "obf": "eJ",
+      "reason": "26.2 新增 HUD 模块或大幅重构。1142行；extends eh(=HudModule)；MC: DeltaTracker+Gui；DX<uq>=EnumSetting(某模式)；DM X + DM W (2个 DoubleSetting)；XQ d + iI y + uI D 布局/动画类；Supplier<_j> T 字体；public static final eJ l(INSTANCE)；method e(Object[]) 以 DeltaTracker 为参数（渲染方法）。TargetHUD(src) 有8个 DoubleSetting 但无 EnumSetting；ModuleList 有3个 EnumSetting 但5个 DoubleSetting；eJ 的2DM+1Dx 组合 src 无匹配。26.2 可能新增 HUD 模块。"
+    },
+    {
+      "obf": "n4",
+      "reason": "26.2 新增或大幅重构。1131行；MC: Minecraft+CharacterEvent；引用 Easing+Setting；字段 int p, String n, long G, int e, _E P(Animation), _E j(Animation), boolean t, static String a；方法 v() 调用 length()/substring()，I() 处理字符输入，l() 处理子串截取，D() 返回 boolean，F() 反编译失败。StringSettingRow(src) 有 CharacterEvent+String 操作但不继承 l8 且字段结构不同。角色推测：文本输入/处理组件。"
+    },
+    {
+      "obf": "ge",
+      "reason": "26.2 新增 record。352行；extends Record + implements DynamicUniformStorage.DynamicUniform；12 组件：Matrix4fc x4(tW,t2,t0,tb) + Vec3(xw) + float x3(m5,md,mq) + boolean x2(bA,bL) + int x2(f3,fQ)；write(ByteBuffer) 调用 putVec4/putIVec4。src 已有 shader uniform record：BoxBlurUniforms(3 float)、FXAAInfo(2 float)、FilterColor(4 float)、GlslSandbox uniforms(2 float+2 int+mouseX/Y)——均不匹配 12 组件结构。26.2 新增的 shader uniform record。"
+    }
+  ],
+  "conflicts": []
+}

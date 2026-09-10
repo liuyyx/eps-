@@ -1,0 +1,28 @@
+{
+  "batch": "D070",
+  "results": {
+    "yc": {
+      "identity": "LambdaListener.Factory",
+      "kind": "interface",
+      "conf": "A",
+      "evidence": "events/bus/listeners/LambdaListener.java:20-22 定义完全一致的接口: MethodHandles.Lookup create(Method, Class<?>) throws InvocationTargetException, IllegalAccessException",
+      "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/events/bus/listeners/LambdaListener.java"
+    },
+    "Oa": {
+      "identity": "FollowerNavigator",
+      "kind": "interface",
+      "conf": "B",
+      "evidence": "anchored FollowerPath(gv); 实现者 Of/lw 取 (LocalPlayer,LivingEntity,Vec3,FollowerConfig)→FollowerPath; is版 FollowerNavigator.getPath 签名语义一致但参数由 Object[] 泛化; 26.2 签名变更导致方法签名不完全匹配",
+      "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/modules/impl/movement/follower/FollowerNavigator.java"
+    }
+  },
+  "unident": [
+    {"obf": "Dz", "reason": "package-private final class extends Exception, 无字段无方法体; 源码无匹配的自定义异常类; 可能是 26.2 新增的内部异常"},
+    {"obf": "X6", "reason": "sealed interface permits iO(Identifier,boolean record) + dq(y4 record); 源码(26.1.2)无 sealed 关键字; 26.2 新增的密封类型"},
+    {"obf": "dK", "reason": "@FunctionalInterface 返回 String; 单方法签名过于通用; 源码无匹配的 String 供给接口"},
+    {"obf": "gk", "reason": "空 class 仅 protected 构造器; 无字段无方法; 源码无匹配的空基类"},
+    {"obf": "i_", "reason": "@FunctionalInterface void (int,int); 单方法签名过于通用; 源码无匹配的双参回调"},
+    {"obf": "nH", "reason": "@FunctionalInterface boolean (String); 单方法签名过于通用; 源码无匹配的 String 谓词"}
+  ],
+  "conflicts": []
+}

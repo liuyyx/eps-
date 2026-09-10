@@ -1,0 +1,58 @@
+{
+ "batch": "D016",
+ "results": {
+  "eD": {
+   "identity": "ModuleList",
+   "kind": "hudmodule",
+   "conf": "B",
+   "evidence": "extends eh(HudModule)+Dx EnumSetting<l3>+Module(e)引用+static INSTANCE(d)匹配源码ModuleList: extends HudModule, EnumSetting<Style/Mode/SortingMode>, ModuleHolder.getModules(); 26.2版本可能新增设置",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/elements/impl/ModuleList.java"
+  },
+  "eg": {
+   "identity": "TargetHUD",
+   "kind": "hudmodule",
+   "conf": "B",
+   "evidence": "extends eh(HudModule)+DM(DoubleSetting scale=0.7)+DV(ColorSetting×4)+Xn(BoolSetting×3)+XG(IntSetting)+lH(Easing)+yt(HudEditorScreen)+zU(renderer)+static INSTANCE(o)匹配源码TargetHUD: extends HudModule, DoubleSetting scale/width/height/radius+ColorSetting×6+BoolSetting×3; lambda$drawText调用zU渲染",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/elements/impl/TargetHUD.java"
+  },
+  "zU": {
+   "identity": "LuminRenderSystem",
+   "kind": "class",
+   "conf": "B",
+   "evidence": "final class+imports y4(LuminTexture)+draw方法(rect/text/gradient)+Oq(text renderer)+nK(font download)+Color; 源码LuminRenderSystem是主渲染工具类+LuminRenderTarget/LuminShaderUniforms等内部类; 26.2扩展大幅增加绘制API",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/graphics/LuminRenderSystem.java"
+  },
+  "gz": {
+   "identity": "LuminRenderPipelines",
+   "kind": "class",
+   "conf": "B",
+   "evidence": "implements _A+imports GpuBufferSlice/GpuSampler/GpuTextureView/RenderPass(GPU渲染管线)+UV绘制方法+LinkedHashMap<Object,ik>管理渲染批次; 源码LuminRenderPipelines仅85行(静态管线定义), 26.2大幅扩展为管线管理类",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/graphics/LuminRenderPipelines.java"
+  },
+  "i2": {
+   "identity": "LuminImmediateRenderer",
+   "kind": "class",
+   "conf": "B",
+   "evidence": "final class+imports RenderPipeline/RenderPass/VertexFormat/PrimitiveTopology/Matrix4f/Vector3f(GPU顶点管线)+Consumer<RenderPass>+VertexFormat字段; 源码LuminImmediateRenderer final class+Channel内部类管理顶点格式/管线; 26.2展平+扩展",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/graphics/immediate/LuminImmediateRenderer.java"
+  },
+  "y_": {
+   "identity": "LuminTessellator",
+   "kind": "class",
+   "conf": "B",
+   "evidence": "implements AutoCloseable+imports gz(pipeline)+RenderPipeline+Int2ObjectMap<zP>(渲染通道映射)+Ot(渲染上下文)+y8(缓冲管理); 源码LuminTessellator仅26行, 26.2大幅扩展为批次化顶点装配管理器",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/graphics/immediate/LuminTessellator.java"
+  }
+ },
+ "unident": [
+  {
+   "obf": "dC",
+   "reason": "2484行, imports nK+Identifier+X2, 多个nK静态字段, Path/Map<String,Path>字段, 可能是资源管理/配置类; 源码26.1.2无直接匹配(LegacyConfigMigrator仅import/config结构不同); 26.2可能新增或大幅重构"
+  },
+  {
+   "obf": "nK",
+   "reason": "2361行, implements DS(未知接口), ExecutorService+CompletableFuture+HashMap<Integer,CompletableFuture<ij>>(异步下载/流式处理), yW[](下载块), OE(资源操作), Path构造函数; 源码26.1.2无匹配类(网络管理器结构完全不同); 26.2可能新增下载管理器"
+  }
+ ],
+ "conflicts": []
+}

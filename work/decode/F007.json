@@ -1,0 +1,18 @@
+{
+  "batch": "F007",
+  "results": {},
+  "unident": [
+    {
+      "obf": "h",
+      "reason": "2385行Module类，导入ThrownTrident/WitherSkull/CrossbowItem/ChargedProjectiles/DataComponentType等投射物类型，使用Om投射物预测工具，有AABB/Vec3/Color渲染字段和18+个设置字段。4个候选均为Mixin类(20-40行)或RotationUtils工具类(300行)，全部非Module子类，结构/行数/导入均不匹配。"
+    },
+    {
+      "obf": "m",
+      "reason": "1525行Module类，导入Minecraft/BlockParticleOption/ParticleType/LightningBolt/LivingEntity/BlockState，有Set<LivingEntity>/Set<Entity>集合字段。4个候选为Mixin类(30-200行)或ESP2D(160行)，结构和导入均不匹配，无候选是处理粒子/闪电效果的Module。"
+    },
+    {
+      "obf": "O",
+      "reason": "673行Module类，有EnumSetting<zh>(枚举值FadeOut/Size/Otkisuli/Insert/Fall/Rocket/Roll为动画类型)+ColorSetting+ItemStack+int计数器。最佳候选AutoFirework(100行)同有ItemStack+计数器模式，但字段类型完全不同(AutoFirework: KeybindSetting/IntSetting/BoolSetting vs O: ColorSetting/EnumSetting)，行数差6.7倍，置信度不足。"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "batch": "F001",
+  "results": {
+    "eR": {
+      "identity": "unidentifiable",
+      "kind": "class",
+      "conf": "-",
+      "evidence": "eR为渲染管线模块(extends e), 含RenderPipeline/BlendFunction/ColorTargetState/DepthStencilState/CompareOp字段, GUI Color计算方法, 19个字段; 4个候选(TtfGlyphAtlas/UiTree/TtfFontLoader/TtfFontFile)均不匹配: TtfGlyphAtlas仅6字段无管线; UiTree为树结构; TtfFont*为字体加载器, 无Color/RenderPipeline",
+      "official_path": "N/A"
+    },
+    "e3": {
+      "identity": "MixinGuiManager",
+      "kind": "module",
+      "conf": "A",
+      "evidence": "extends e(模块基类), 静态单例e3.q, 构造函数传(name,category); 导入net.minecraft.client.gui.Gui; 方法m(_y)参数含Screen+Gui, 逻辑为EventBus.post+screen管理; @yE=-200匹配@Mixin优先级; 322行与官方322行一致; 字段数(q,a,b,c共4个)与官方一致",
+      "official_path": "work/official26/com/github/epsilon/mixins/MixinGuiManager.java"
+    },
+    "e4": {
+      "identity": "MixinLivingEntity",
+      "kind": "module",
+      "conf": "B",
+      "evidence": "extends e(模块基类), 静态单例e4.b; 导入LivingEntity/LocalPlayer/Vec3/ItemStack(与官方一致); 15字段含DM/XG/Dx/_Z类型; 方法A(Object[])返回Vec3含射线投射+包围盒碰撞(匹配LivingEntity碰撞逻辑); 方法o(Object[])遍历物品栏(匹配LivingEntity物品交互); 2583行远超官方, 混淆控制流膨胀所致; @yE=-200匹配@Mixin优先级",
+      "official_path": "work/official26/com/github/epsilon/mixins/MixinLivingEntity.java"
+    }
+  },
+  "unident": [
+    {
+      "obf": "eR",
+      "reason": "eR为含RenderPipeline/BlendFunction/DepthStencilState等GPU管线字段的渲染模块, 4个候选(TtfGlyphAtlas字形图谱6字段, UiTree UI树, TtfFontLoader/TtfFontFile字体加载)均无管线/颜色/GUI相关结构, 无法匹配"
+    }
+  ]
+}

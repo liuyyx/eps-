@@ -1,0 +1,62 @@
+{
+ "batch": "D024",
+ "results": {
+  "iN": {
+   "identity": "AbstractDropdownPanel",
+   "kind": "class",
+   "conf": "B",
+   "evidence": "abstract class implements vP(DropdownPanel); 字段: float b/f/c/M/R/P/N/S/h/g/w/u/A/O(布局/动画参数) + uT(TranslateComponent) + zT + nT + _E(动画) + zU(渲染上下文); 与 src AbstractDropdownPanel: abstract implements DropdownPanel, 有 openAnim/introAnim/scrollBar + float x/y/width/scroll/targetScroll/maxScroll/maxPanelHeight 一致; iu(=CategoryPanel) extends iN 对应 src CategoryPanel extends AbstractDropdownPanel",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/gui/dropdown/component/AbstractDropdownPanel.java"
+  },
+  "iu": {
+   "identity": "CategoryPanel",
+   "kind": "class",
+   "conf": "B",
+   "evidence": "extends iN(=AbstractDropdownPanel); 字段: vY v(Category) + List<zk>(ModuleButton) d + Map<zk,String> D(searchTextCache) + List<zk> G(sortedModuleButtons)/x(visibleModuleButtons) + vN n(ClientSetting$ModuleSort) + String l(searchQuery); 与 src CategoryPanel: extends AbstractDropdownPanel, Category category, List<ModuleButton> moduleButtons/sortedModuleButtons/visibleModuleButtons, Map<ModuleButton,String> searchTextCache, ClientSetting.ModuleSort cachedSortMode, String searchQuery 完全对应",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/gui/dropdown/component/CategoryPanel.java"
+  },
+  "lE": {
+   "identity": "SettingsContent",
+   "kind": "class",
+   "conf": "B",
+   "evidence": "无 super; imports: 全部 Setting 类型(DF/DM/DV/Dx/X0/XF/XG/Xc/Xe/Xn/Xp) + Xw(SettingSection) + zc(SettingWidget) + lH(Easing); 字段: List<Xw> Y(sections) + Map<String,_E> w(F)(sectionHoverAnimations/sectionExpandAnimations); 与 src SettingsContent: List<SettingSection> sections + Map<String,Animation> sectionHoverAnimations/sectionExpandAnimations 一致; 但行数 4918 远超 src 393→26.2 大幅扩展",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/gui/dropdown/component/SettingsContent.java"
+  },
+  "zk": {
+   "identity": "ModuleButton",
+   "kind": "class",
+   "conf": "B",
+   "evidence": "extends zF(Component); imports: Module(e) + 全部 Setting 类型 + zG(ColorWidget)/ze(DoubleSliderWidget)/zW(ButtonWidget) + is(SettingLayoutPlanner.Section) + u4(DropdownScreen)/lH(Easing); anchored_refs 含 Module/SettingLayoutPlanner.Section/所有 SettingWidget 子类; 与 class_map OA(=ModuleButton) 为26.2同一类不同混淆名(zk含 Module+全部 Setting→ModuleButton 功能; OA 侧重 Module 渲染); iu(=CategoryPanel) 持有 List<zk> 即 List<ModuleButton>",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/gui/dropdown/component/ModuleButton.java"
+  },
+  "lt": {
+   "identity": "IconConstants",
+   "kind": "class",
+   "conf": "B",
+   "evidence": "纯常量类: 无 import/无 super/无 anchored_refs; 约 300+ 个 public static final String 字段，值均为 Unicode 转义(\\ueXXX 格式即 icon font codepoint); 3465 行与图标/资源常量表一致; 无方法体(仅字段声明)",
+   "src_path": "26.2 新增(旧版无直接对应, 可能为 IconChars/资源常量拆分)"
+  }
+ },
+ "unident": [
+  {
+   "obf": "vq",
+   "reason": "26.2 新增渲染管线类; implements v2(未知接口); imports: com.mojang.blaze3d GPU 类(GpuBufferSlice/RenderPipeline/RenderPass/GpuSampler/GpuTextureView) + O6/OL/ON/Ok/Oq/vG/vO/yJ/yn; 字段: GpuBufferSlice J + Map<Ok,Float> + Map<OL,n6> + Map<Ok,ON> + lP; 无 src 对应(26.1.2 无此 import 集合的类)"
+  },
+  {
+   "obf": "uJ",
+   "reason": "26.2 新增渲染工具类; imports: EntityRenderDispatcher/Font/GuiGraphics/Matrix3f/PoseStack 等 MC 渲染类 + OC/Or/Ou/Ox/XB/XS/Xq/Xu/Xz/_0/_7/_O/_Q/_j + ih(坐标) + Xu(矩形); 方法 V() 处理 Xu 矩形交集/合并; 多处 decompilation failure; 无 src 对应"
+  },
+  {
+   "obf": "uI",
+   "reason": "26.2 新增 HUD 配置类; anchored_refs: BoolSetting/ColorSetting/Dependency/DoubleSetting/HudModule.VerticalAnchor/IntSetting/Setting; 字段: DV A/m(ColorSetting×2) + DM r/h(DoubleSetting×2) + XG X(IntSetting) + Xn u/j(BoolSetting×2) + Map<y1,zH>(元素配置); 方法 T() 遍历 HUD 元素渲染; 无 src 直接对应"
+  }
+ ],
+ "conflicts": [
+  {
+   "obf": "zk",
+   "claimed": "ModuleButton",
+   "existing": "OA=ModuleButton(class_map, conf=A)",
+   "note": "OA 已被标记为 ModuleButton(conf=A); zk 也判定为 ModuleButton: iu(=CategoryPanel) 持有 List<zk> 对应 src List<ModuleButton>; zk extends zF(Component) + imports Module + SettingLayoutPlanner 与 ModuleButton 功能一致; 可能为26.2不同混淆名或新版变体"
+  }
+ ]
+}

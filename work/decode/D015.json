@@ -1,0 +1,42 @@
+{
+  "batch": "D015",
+  "results": {
+    "gw": {
+      "identity": "ShieldWaveParticle",
+      "kind": "class",
+      "conf": "A",
+      "evidence": "extends gs(=EffectParticle)；构造器iJ+Vec3→gs(iJ,Vec3,int,Identifier[])；afterTick: size+=0.2*scaler, alpha按1/lifetime衰减→完全匹配ShieldWaveParticle(Vec3)的afterTick(scaler*0.2F, alpha-1/lifetime)；父类gs已确认为EffectParticle；iJ已确认为MasEffectsParticleRenderer；26.1.2为内部类，26.2提升为顶层类",
+      "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/modules/impl/render/maseffects/MasEffectsParticleRenderer.java"
+    },
+    "gK": {
+      "identity": "ScrapParticle",
+      "kind": "class",
+      "conf": "A",
+      "evidence": "extends gs(=EffectParticle)；构造器iJ+Vec3+Vec3+Identifier→gs(iJ,Vec3,int,Identifier[])；存储方向xd/yd/zd(第二个Vec3)；设置physics=true；afterTick: alpha=(1-age/lifetime)*0.35→匹配ScrapParticle(Vec3,Vec3,Identifier)的构造器签名(position,motion,texture)+physics=true+afterTick: size=(1-age/lifetime)*0.35(alpha/size版本差)；26.1.2为内部类，26.2提升为顶层类",
+      "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/modules/impl/render/maseffects/MasEffectsParticleRenderer.java"
+    }
+  },
+  "unident": [
+    {
+      "obf": "di",
+      "reason": "Record(BlockPos, BlockHitResult, boolean)；src中无匹配record(ModuleViewModel/TargetRequest/ModuleKey/FollowerPath/FindItemResult等均不匹配此字段组合)；BlockPos+BlockHitResult组合在src中仅作为方法局部变量使用，无独立record；疑为26.2新增的block placement/interaction result record"
+    },
+    {
+      "obf": "n3",
+      "reason": "class(LivingEntity, Vec3, long×3)；super=null；方法y(long,float)缩放Vec3；锚点SeQL；非事件(不extends de)、非粒子(不extends gs)；src中无匹配类（Trail仅含Vec3+Vec3+Color，ReviveParticle虽有targetId+Vec3但extends EffectParticle）；疑为26.2新增的entity position interpolation/trail helper"
+    },
+    {
+      "obf": "zx",
+      "reason": "class(v_=UI组件, GuiGraphicsExtractor, MouseButtonEvent)；方法H(MouseButtonEvent,boolean)→boolean(默认false)=鼠标点击处理；方法r(GuiGraphicsExtractor,ih,int,int,float)=渲染方法；ih=UiRect(来自lumingraphics)；src中gui/目录有Component(zF)基类和多种widget，但无直接匹配vx(含v_字段+点击/渲染方法)的类；疑为26.2新增的dropdown/panel widget base class"
+    },
+    {
+      "obf": "dO",
+      "reason": "extends de(=Event基类,boolean cancelled+static int[] metadata)；字段Block S+BlockPos V；src events/impl/中block相关事件：BlockCollisionEvent(BlockState+BlockPos)、DestroyBlockEvent(BlockPos)、StartDestroyBlockEvent(BlockPos+Direction)，均无Block+BlockPos组合；疑为26.2新增的block event(如BlockPlaceEvent/BlockInteractEvent)"
+    },
+    {
+      "obf": "i9",
+      "reason": "class(Block, BlockPos, Set<BlockPos>, int)；super=null；锚点SeQL；src中无匹配类（BlockESP.getConnectedShapeAABB使用BlockPos+Set<BlockPos>但为方法参数非独立类）；疑为26.2新增的block region/area tracker helper"
+    }
+  ],
+  "conflicts": []
+}

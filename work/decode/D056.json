@@ -1,0 +1,39 @@
+{
+ "batch": "D056",
+ "results": {},
+ "unident": [
+  {
+   "obf": "Ds",
+   "reason": "26.2 新增 Record，5 字段 (String×2, boolean, Color×2)，无 src 匹配。字段类型序列 (name/key + enabled + primary/accent color) 暗示主题配置条目，但 26.1.2 源码无对应 Record。"
+  },
+  {
+   "obf": "vF",
+   "reason": "26.2 新增枚举引导类。static int[] p 通过 CallSite(values().length) 初始化 + ordinal() 查表引用 Xf (RegistryListSetting$Type)，是编译器生成的 enum switch map 辅助类，非独立业务类。"
+  },
+  {
+   "obf": "_e",
+   "reason": "26.2 新增 Record，5 字段 (String×2, boolean, Color×2)，结构与 Ds 完全一致但字段名不同。无 src 匹配。可能是同类数据的另一变体（如亮/暗主题条目）。"
+  },
+  {
+   "obf": "nA",
+   "reason": "26.2 新增 Record，5 字段 (String, int×3, float)。潜在候选 DisplaySlice (StringSettingRow 内部 Record，同样 String+float+int×3)，但 DisplaySlice 是私有内部类且字段顺序/数量不完全吻合，无法确证。"
+  },
+  {
+   "obf": "l5",
+   "reason": "26.2 新增 interface，24 个方法，大量返回 Color + Object[] 参数的方法 + float/long/boolean 方法 + E(Color,Color,float) 插值方法。疑似颜色提供者/主题接口，但 26.1.2 源码无匹配接口。"
+  },
+  {
+   "obf": "lZ",
+   "reason": "26.2 新增渲染辅助类，2 字段 (Vector3f r, i2 b=LuminImmediateRenderer)。Y() 方法签名 (Matrix4f, PoseStack.Pose, float×4, int, float×4) 与 LuminImmediateRenderer.Lines.vertex 接近，但 src 中 Lines 是内部类且结构不同。"
+  },
+  {
+   "obf": "lD",
+   "reason": "26.2 新增 Record，3 字段 (GpuTextureView, GpuTexture, GpuSampler)。类型与 LuminTexture 三字段一致，但 LuminTexture 是 class 非 record。可能是 26.2 将纹理包装重构为 record。"
+  },
+  {
+   "obf": "v2",
+   "reason": "26.2 新增 interface，文本绘制接口。方法含 String+float×3+Color+nK(FontManager) 签名 + RenderPass 参数 + Oq(TextInfo record) 引用。26.1.2 源码无匹配渲染接口。"
+  }
+ ],
+ "conflicts": []
+}

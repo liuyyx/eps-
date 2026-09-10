@@ -1,0 +1,46 @@
+{
+  "batch": "D029",
+  "results": {
+    "zj": {
+      "identity": "BoolWidget",
+      "kind": "class",
+      "conf": "A",
+      "evidence": "extends zc<Xn>=SettingWidget<BoolSetting>; float常量完全匹配src BoolWidget: SWITCH_WIDTH=22.0f, SWITCH_HEIGHT=12.0f, KNOB_SIZE_OFF=6.0f, KNOB_SIZE_ON=9.0f, KNOB_INSET_OFF=3.5f, KNOB_INSET_ON=2.0f, STATE_LAYER_SIZE=16.0f, KNOB_STRETCH=3.5f; 3个_E动画字段(对应toggleAnim/knobBounceAnim/hoverAnim); src确认 extends SettingWidget<BoolSetting>",
+      "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/gui/dropdown/widget/BoolWidget.java"
+    },
+    "_j": {
+      "identity": "UiTextMetrics",
+      "kind": "class",
+      "conf": "B",
+      "evidence": "implements _A(接口); 方法S(String,float,nK)→float, v(String,float)→float, X(String,float×8,Color,nK)等为文本宽度/高度度量; 导入RenderPass(MC渲染); v2 F为底层实现(vq/lP); 静态工厂S()和U()创建实例; src中UiTextMetrics被广泛用于textWidth/textHeight调用",
+      "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/gui/dropdown/widget/Component.java"
+    }
+  },
+  "unident": [
+    {
+      "obf": "zQ",
+      "reason": "@SerializedName(\"items\")注解 + v4[] items字段 + 包私有类 + 744行; 26.1.2源码中无@SerializedName使用; 26.2新增的Gson数据映射类"
+    },
+    {
+      "obf": "lF",
+      "reason": "extends l8(非已知Setting子类); 导入Easing+float常量暗示滑块/动画设置; Supplier<_j>=UiTextMetrics; l8可能是26.2新增Setting子类; src中IntSetting/DoubleSetting无Easing关联"
+    },
+    {
+      "obf": "dX",
+      "reason": "HttpRequest.Builder + Consumer<Exception> = HTTP客户端封装; 26.1.2源码中无HTTP工具类; 26.2新增网络工具"
+    },
+    {
+      "obf": "d0",
+      "reason": "List<l8> + 静态单例 + 按Class查找add方法; l8类型未识别,无法确定具体注册表类; 可能是SettingRegistry或SettingHost管理器"
+    },
+    {
+      "obf": "zg",
+      "reason": "Gson+GsonBuilder+Path; ConfigHolder也有相同模式但gz为包私有+小类(642行)vs ConfigHolder为1288行public; vz类型未知; 26.2可能拆分了配置子模块"
+    },
+    {
+      "obf": "vS",
+      "reason": "final类 + 父节点字段 + vS[]同级 + List<yM>子节点 + int索引; XL/yM类型未知; 树状结构但无src匹配(可能是26.2新增布局树节点)"
+    }
+  ],
+  "conflicts": []
+}

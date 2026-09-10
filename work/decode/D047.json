@@ -1,0 +1,52 @@
+{
+  "batch": "D047",
+  "results": {
+    "zi": {
+      "identity": "Xray.Plugin",
+      "kind": "enum",
+      "conf": "B",
+      "evidence": "内层枚举 Old/New 与 src Xray.Plugin{Old,New} 完全匹配; i18n xray.plugin 有 old/new 两项",
+      "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/modules/impl/render/Xray.java"
+    },
+    "zM": {
+      "identity": "SafeAnchor.PlaceMode",
+      "kind": "enum",
+      "conf": "B",
+      "evidence": "内层枚举 Adaptive/Cover 与 src SafeAnchor.PlaceMode{Adaptive,Cover} 完全匹配; i18n safe_anchor.place_mode 有 adaptive/cover",
+      "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/modules/impl/combat/SafeAnchor.java"
+    },
+    "_f": {
+      "identity": "JumpCircle.Mode",
+      "kind": "enum",
+      "conf": "B",
+      "evidence": "内层枚举 Default/Portal 与 src JumpCircle.Mode{Default,Portal} 完全匹配; i18n jump_circle.mode 有 default/portal",
+      "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/modules/impl/render/JumpCircle.java"
+    },
+    "_s": {
+      "identity": "SwapMode",
+      "kind": "enum",
+      "conf": "B",
+      "evidence": "内层枚举 Silent/InvSwitch 与 src Phase.SwapMode{Silent,InvSwitch} 完全匹配; Scaffold/ElytraFly 亦有同名 SwapMode; i18n scaffold.swap_mode 有 silent/invswitch",
+      "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/modules/impl/movement/Phase.java"
+    }
+  },
+  "unident": [
+    {
+      "obf": "OI",
+      "reason": "26.2 新增: Solid/Gradient 两值枚举, src 26.1.2 中无此枚举对; FireflyESP.ColorMode 有 Solid 但配 Blend/Rainbow(3值); ShaderHolder.Shader 有 Gradient 但配 Smoke/Snow/Fade(4值); 无法确定归属"
+    },
+    {
+      "obf": "vT",
+      "reason": "26.2 新增: VERTICAL/HORIZONTAL 两值枚举(大写常量名), src 26.1.2 的 i18n 和 Java 中无此枚举; 仅见 AStarFollowerNavigator 有 HORIZONTAL_CLEARANCE/VERTICAL_CLEARANCE 常量但非枚举; 可能是26.2新增模块的内部枚举"
+    },
+    {
+      "obf": "X7",
+      "reason": "26.2 新增: Simple/Normal 两值枚举, src 26.1.2 中 AutoWeapon.Mode 为 Simple/Smart(非 Normal); AutoMend.SwitchMode 为 Normal/Silent; Scaffold.RaytraceMode 为 Normal/Strict; 均不匹配此组合"
+    },
+    {
+      "obf": "y5",
+      "reason": "26.2 新增: ChargeFirst/ShieldFirst 两值枚举, src 26.1.2 全仓无此枚举常量; 可能与26.2新增的盾牌/充能机制模块相关"
+    }
+  ],
+  "conflicts": []
+}

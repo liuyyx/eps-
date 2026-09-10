@@ -1,0 +1,62 @@
+{
+  "batch": "E009",
+  "results": {
+    "gG": {
+      "identity": "EpsilonFontGlyph",
+      "kind": "class",
+      "conf": "A",
+      "evidence": "implements BakedGlyph；字段 GlyphInfo/nK(→TtfFontLoader)/yW(→GlyphDescriptor)；static Map<yn,RenderType> L/T(→AA/NO_AA_RENDER_TYPES)；float 0.45f×2(→SHADOW_OFFSET/BOLD_OFFSET)；方法 create(int)/info()/renderType()/left()/right()/top()/bottom()/activeRight()/render() 与官方逐一对应；内嵌 GlyphInstance record（→dh）",
+      "official_path": "work/official26/com/github/epsilon/graphics/text/minecraft/EpsilonFontGlyph.java"
+    },
+    "dh": {
+      "identity": "GlyphInstance",
+      "kind": "record",
+      "conf": "A",
+      "evidence": "extends Record，implements TextRenderable.Styled；8字段：gG kv(→glyph)/float×4+int×2+Style/float(→x,y,color,shadowColor,style,boldOffset,shadowOffset)；方法 renderType/render/textureView/O()/left()/right()/top()/bottom()/activeRight() 与官方 EpsilonFontGlyph.GlyphInstance 内嵌 record 完全对应；dh 顶部也 import gG，证实与 EpsilonFontGlyph 的内外关系",
+      "official_path": "work/official26/com/github/epsilon/graphics/text/minecraft/EpsilonFontGlyph.java#GlyphInstance"
+    },
+    "iR": {
+      "identity": "TargetSnapshot",
+      "kind": "record",
+      "conf": "A",
+      "evidence": "extends Record，10字段精确对应 ZealotCrystalPlus.TargetSnapshot：LivingEntity wu(→entity)/Vec3 zt(→pos)/AABB qJ(→box)/Vec3 ZT(→currentPos)/Vec3 zb(→predictMotion)/float YI(→totalHealth)/boolean ba(→player)/double tJ(→speed)/int OZ(→minArmorRate)/im y0(→DamageReductionData reduction)；im 类含 float×4，疑似 DamageReductionData 的混淆对应",
+      "official_path": "work/official26/com/github/epsilon/modules/impl/combat/ZealotCrystalPlus.java#TargetSnapshot"
+    },
+    "ls": {
+      "identity": "EpsilonFontMetrics",
+      "kind": "class",
+      "conf": "A",
+      "evidence": "import FormattedCharSequence/FormattedText/Style/Identifier/FormattedCharSink；static final float F=7.0f/l=0.0f/e=3.0f/G=10.0f(→VANILLA_LINE_HEIGHT≈9→7是混淆)/LETTER_SPACING=0/SPACE_WIDTH=3；static nK b(→TtfFontLoader font)；方法 Y(String)/U(FormattedCharSequence)/k(FormattedText) 对应 width(String)/width(FormattedCharSequence)/width(FormattedText)；static block 初始化 Identifier n(→FONT_ID)",
+      "official_path": "work/official26/com/github/epsilon/graphics/text/minecraft/EpsilonFontMetrics.java"
+    },
+    "ns": {
+      "identity": "ClientSettingTextField",
+      "kind": "class",
+      "conf": "A",
+      "evidence": "import CharacterEvent/KeyEvent/Minecraft；字段 _E c/_E z(→hoverAnimation/focusAnimation)、boolean P(→focused)、String D(→text)、float h(→some float)、int A(→cursor)、String b(→?)、int H(→maxLength)；构造 ns(int) 对应 ClientSettingTextField(int maxLength)；方法 M/keyPressed/e(charTyped)/Q/reset/c 与官方 keyPressed/charTyped/blur/focusIfContains 等对应",
+      "official_path": "work/official26/com/github/epsilon/gui/panel/view/settings/ClientSettingTextField.java"
+    },
+    "_9": {
+      "identity": "TraceResult",
+      "kind": "record",
+      "conf": "B",
+      "evidence": "extends Record，4字段：List<Entity> fo(→entities)/BlockHitResult wY(→hitResult)/List<Vec3> f4(→points)/int sy(→id/type)；import BlockHitResult/Entity/Vec3 与光线追踪结果一致；但官方 26.2 源码未见同名顶层 record，疑为 ZealotCrystalPlus 内嵌私有 record 或 26.2→26.2.10 新增；结构明确可判为 TraceResult 类光线追踪结果记录",
+      "official_path": "work/official26/com/github/epsilon/modules/impl/combat/ZealotCrystalPlus.java（推测内嵌）"
+    },
+    "OT": {
+      "identity": "EpsilonGuiRenderer",
+      "kind": "class",
+      "conf": "A",
+      "evidence": "implements AutoCloseable；字段 Map<Object,OversizedItemRenderer> F/GuiRenderState x/FeatureRenderDispatcher M/StagedVertexBuffer Q/Projection z/CubeMap j/ProjectionMatrixBuffer y/ScreenRectangle l/GuiItemAtlas V/List<y2> k/TextureSetup m/RenderPipeline A；public static int L/E/t/float q(→GUI_3D_Z_FAR/GUI_3D_Z_NEAR/DEFAULT_ITEM_SIZE/MIN_GUI_Z)；static Comparator u/W/G(→SCISSOR_COMPARATOR/ELEMENT_SORT_COMPARATOR/TEXTURE_COMPARATOR)；Logger e(→LOGGER)；方法 o(Object,Object)(→executeDraw)/render/endFrame/close/prepare/draw/prepareItemElements/prepareText/prepareItemAtlas/enableScissor/registerPanoramaTextures 与官方逐一对应",
+      "official_path": "work/official26/com/github/epsilon/utils/render/EpsilonGuiRenderer.java"
+    },
+    "lI": {
+      "identity": "DeobfESP",
+      "kind": "class",
+      "conf": "A",
+      "evidence": "import Camera/Entity/Identifier/LivingEntity/Vec3/PoseStack/BlendFunction/ColorTargetState/DepthStencilState/RenderPipeline/CompareOp/Matrix4f/Quaternionfc；static Map<Integer,n3> g(→Map<Integer,Color>)；static float X=180.0f(→未直接对应但 180 用于旋转)；static RenderPipeline j(→某管线)；方法 D()(→render 清理方法)含 values()/iterator()/remove()/currentTimeMillis()，与 DeobfESP 的 render 方法（含 LinkedHashMap 迭代/清理/时间计算）匹配",
+      "official_path": "work/official26/com/github/epsilon/utils/render/esp/DeobfESP.java"
+    }
+  },
+  "unident": []
+}

@@ -1,0 +1,46 @@
+{
+  "batch": "D059",
+  "results": {
+    "gQ": {
+      "identity": "Notifications$RenderFrame",
+      "kind": "record",
+      "conf": "A",
+      "evidence": "锚点 RenderStage 唯一命中; vt=Notifications$RenderStage(已知); jar record(vt, float, float) = src record(RenderStage stage, float progress, float occupiedHeight) 三组件类型逐一对应",
+      "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/elements/impl/notification/Notifications.java:242"
+    },
+    "gn": {
+      "identity": "ModuleSort$$switchHelper",
+      "kind": "enum",
+      "conf": "B",
+      "evidence": "锚点 ModuleSort + ordinal() 调用 vN(=ClientSetting$ModuleSort) 类型; CallSite bootstrap 模式 + static int[] f 为编译器生成的 enum switch map 辅助类",
+      "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/modules/impl/ClientSetting.java:40"
+    }
+  },
+  "unident": [
+    {
+      "obf": "Dt",
+      "reason": "Record(String, UiRect, UiRect); 锚点仅 SeQL/字符串解密+调用分发核心(弱); 26.1.2 源码无此三组件类型组合的 record; 可能为 26.2 新增内部 record"
+    },
+    {
+      "obf": "Ok",
+      "reason": "Record(nK, String, float); nK 类型未在 class_map 或 src 中识别; 锚点仅 SeQL; 无源码匹配; 可能为 26.2 新增 record 或 nK 对应 26.2 新增类型"
+    },
+    {
+      "obf": "v0",
+      "reason": "Record(String, Color, float); 锚点仅 SeQL; 26.1.2 源码无 (String, Color, float) 三组件 record; Potions.EffectInfo 为 (String, String, float, Color, float, float, Identifier) 类型不匹配"
+    },
+    {
+      "obf": "z_",
+      "reason": "编译器生成的 enum switch map 辅助类(CallSite bootstrap + static int[] s); ordinal() 调用 g7 类型; g7 未在 class_map 或 src 中识别, 无法确定关联的 enum"
+    },
+    {
+      "obf": "dS",
+      "reason": "Record(int, float, float); 锚点仅 SeQL; FindItemResult(int, int, int) 类型序列不匹配; 无其他 src record 命中; 可能为 26.2 新增 record"
+    },
+    {
+      "obf": "O4",
+      "reason": "Record(float, float, float); 锚点仅 SeQL; 26.1.2 源码无三 float 组件 record(ScaffoldBlock.AnimationState 为 private 且结构语义不同); 可能为 26.2 新增 record"
+    }
+  ],
+  "conflicts": []
+}

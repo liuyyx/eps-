@@ -1,0 +1,63 @@
+{
+  "batch": "D048",
+  "results": {
+    "ds": {
+      "identity": "TextRenderOp",
+      "kind": "record",
+      "conf": "B",
+      "evidence": "26.2 渲染管线 yM sealed interface 实现; 含 String r7 + nK font + Color + float + XL bounds + Xu scissor + layer/sequence; 对应 y3.TEXT 类型的文字绘制操作记录; 26.1.2 用外部库 UiTree.Scope.text()，26.2 内化为独立 Record",
+      "src_path": "N/A (26.2 新增，旧版源码无对应)"
+    },
+    "ve": {
+      "identity": "ShadowRenderOp",
+      "kind": "record",
+      "conf": "B",
+      "evidence": "26.2 渲染管线 yM sealed interface 实现; 含 4 个 Color 字段(ic/iq/iH/im) + 4 个 float(rj/rx/RK/RP) + XL bounds + Xu scissor + layer/sequence; 阴影渲染需要多色+多尺寸参数; 对应 y3.SHADOW",
+      "src_path": "N/A (26.2 新增，旧版源码无对应)"
+    },
+    "v3": {
+      "identity": "BlurTextRenderOp",
+      "kind": "record",
+      "conf": "B",
+      "evidence": "26.2 渲染管线 yM sealed interface 实现; 含 String lu + Oq FE(渐变/模糊参数) + nK cz(font) + Color wr + float eE/ed/eC + XL bounds + Xu scissor + layer/sequence; 对应 y3.BLUR_TEXT 模糊文字绘制操作",
+      "src_path": "N/A (26.2 新增，旧版源码无对应)"
+    },
+    "nt": {
+      "identity": "TextTextureRenderOp",
+      "kind": "record",
+      "conf": "B",
+      "evidence": "26.2 渲染管线 yM sealed interface 实现; 含 String hX(资源路径) + nK mv(font) + Color YT/ys + float gc/gh/gF + XL bounds + Xu scissor + layer/sequence; 对应 y3.TEXTURE 纹理绘制操作",
+      "src_path": "N/A (26.2 新增，旧版源码无对应)"
+    },
+    "vA": {
+      "identity": "RectRenderOp",
+      "kind": "record",
+      "conf": "B",
+      "evidence": "26.2 渲染管线 yM sealed interface 实现; 含 Color sU + 5 个 float(om/oj/ON/OQ/OL) + XL bounds + Xu scissor + layer/sequence; 最简单的绘制操作(矩形); 对应 y3.RECT 或 y3.ROUND_RECT",
+      "src_path": "N/A (26.2 新增，旧版源码无对应)"
+    },
+    "Xq": {
+      "identity": "QuadRenderOp",
+      "kind": "record",
+      "conf": "B",
+      "evidence": "26.2 _Q sealed interface 实现; 含 3 个 float[](w3/wO/wx) + 8 个 float + int NW + Color gd; float 数组表示顶点/UV 坐标; 与 u2 同属 _Q 接口，是四边形绘制操作",
+      "src_path": "N/A (26.2 新增，旧版源码无对应)"
+    },
+    "u2": {
+      "identity": "TexturedQuadRenderOp",
+      "kind": "record",
+      "conf": "B",
+      "evidence": "26.2 _Q sealed interface 实现; 含 X6 vf(纹理类型 sealed interface) + 13 个 float + Color fm; 与 Xq 同属 _Q 接口; X6 sealed interface permits iO/dq(纹理类型); 是带纹理的四边形绘制操作",
+      "src_path": "N/A (26.2 新增，旧版源码无对应)"
+    },
+    "vI": {
+      "identity": "RenderScope",
+      "kind": "class",
+      "conf": "B",
+      "evidence": "26.2 渲染作用域; 非 Record; 持有 zU(=UiTree.Scope) + ih(=bounds); 方法 G/text/X/rect/S/textAligned/F/render 创建 yM Record 类型的渲染操作; 有 ConstantCallSite bootstrap (类型混淆); 对应 26.1.2 的 com.github.slmpc.lumingraphics.ui.tree.UiTree.Scope",
+      "src_path": "N/A (26.2 新增，旧版通过外部库 com.github.slmpc.lumingraphics.ui.tree.UiTree.Scope 实现)"
+    }
+  },
+  "unident": [],
+  "conflicts": []
+}

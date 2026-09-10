@@ -1,0 +1,39 @@
+{
+  "batch": "D063",
+  "results": {},
+  "unident": [
+    {
+      "obf": "u9",
+      "reason": "abstract class, String field + Object[] methods, no MC imports, no anchored refs, 26.2 新增，无法定位真实类名"
+    },
+    {
+      "obf": "_Q",
+      "reason": "sealed interface, 31 permits 全部未识别, 无方法声明, 无 MC imports, 26.2 新增，无法定位真实类名"
+    },
+    {
+      "obf": "dq",
+      "reason": "record 单字段 y4(LuminTexture), implements X6(X6未识别), 无 MC imports, 26.2 新增，无法定位真实类名"
+    },
+    {
+      "obf": "OG",
+      "reason": "enum 4常量, 仅 hi.a 解密初始化, 无 MC imports, 无明文, 26.2 新增，无法定位真实类名"
+    },
+    {
+      "obf": "uh",
+      "reason": "enum 4常量, 仅 hi.a 解密初始化, 无 MC imports, 无明文, 26.2 新增，无法定位真实类名"
+    },
+    {
+      "obf": "yM",
+      "reason": "sealed interface, 12 permits 全部未识别, 方法含 bounds/layer/scissor/sequence, 无 MC imports, 26.2 新增，无法定位真实类名"
+    },
+    {
+      "obf": "z5",
+      "reason": "enum 4常量, 仅 hi.a 解密初始化, 无 MC imports, 无明文, 26.2 新增，无法定位真实类名"
+    },
+    {
+      "obf": "_Y",
+      "reason": "enum 4常量, 仅 hi.a 解密初始化, 无 MC imports, 无明文, 26.2 新增，无法定位真实类名"
+    }
+  ],
+  "conflicts": []
+}

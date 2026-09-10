@@ -1,0 +1,46 @@
+{
+ "batch": "D061",
+ "results": {
+  "nQ": {
+   "identity": "ViaBedrockConfig子类(26.2新增)",
+   "kind": "class",
+   "conf": "B",
+   "evidence": "直接继承ViaBedrockConfig，重写save()和shouldEnableExperimentalFeatures()，唯一可识别的非SeQL内部类",
+   "src_path": "无对应src（26.2新增，旧版本源代码无此类）"
+  },
+  "nv": {
+   "identity": "HTTP服务器包装Record(26.2新增)",
+   "kind": "record",
+   "conf": "B",
+   "evidence": "Record字段CompletableFuture<String>+HttpServer，SeQL管线中的HTTP服务端点包装器，src无对应",
+   "src_path": "无对应src（26.2新增）"
+  }
+ },
+ "unident": [
+  {
+   "obf": "vd",
+   "reason": "SeQL内部Record：int+List<_Q>，实现_Q接口，src无对应（26.2新增，SeQL管线内部数据结构，无法映射到具体真实类名）"
+  },
+  {
+   "obf": "DA",
+   "reason": "SeQL内部静态分发表：int[]+CallSite初始化块，src无对应（26.2新增，SeQL表达式类型→处理器映射表，无法映射到具体真实类名）"
+  },
+  {
+   "obf": "DH",
+   "reason": "SeQL内部Record：List<_Q>+boolean，src无对应（26.2新增，SeQL解析结果/表达式集合包装器，无法映射到具体真实类名）"
+  },
+  {
+   "obf": "Di",
+   "reason": "SeQL内部Record：gQ(Notifications$RenderFrame)+y1，src无对应（26.2新增，SeQL渲染帧绑定记录，无法映射到具体真实类名）"
+  },
+  {
+   "obf": "g4",
+   "reason": "SeQL内部静态分发表：int[]+CallSite初始化块，src无对应（26.2新增，SeQL表达式类型→处理器映射表，与DA结构相同，无法映射到具体真实类名）"
+  },
+  {
+   "obf": "n8",
+   "reason": "SeQL内部Record：int+_Q，实现_Q接口，src无对应（26.2新增，SeQL内部AST节点，无法映射到具体真实类名）"
+  }
+ ],
+ "conflicts": []
+}

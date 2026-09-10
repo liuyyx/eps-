@@ -1,0 +1,43 @@
+{
+  "batch": "D012",
+  "results": {
+    "gp": {
+      "identity": "NotificationManager",
+      "kind": "util",
+      "conf": "A",
+      "evidence": "MC import唯一指纹 ChatFormatting+Component+FormattedCharSequence 仅匹配 NotificationManager；字段结构 Map<Integer,y1> O / Queue<y1> M 对应 src Map<Integer,Notification> hashCodeMap / Queue<Notification> notifications；单例 static gp p 对应 src static INSTANCE",
+      "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/managers/impl/NotificationManager.java"
+    }
+  },
+  "unident": [
+    {
+      "obf": "lN",
+      "reason": "26.2 新增渲染工具类（194行）。MC import RenderPipeline+GameRenderer+LivingEntity+Axis+PoseStack+Color，做 billboard 四边形渲染（颜色插值+相机朝向旋转）。导入未知类 Xi（疑似顶点缓冲类型）。src 无对应文件（FireflyESP/CaptureMarkESP 结构不同）。no other class references lN，独立工具类。"
+    },
+    {
+      "obf": "gf",
+      "reason": "26.2 EffectParticle 具体子类（177行，extends gs=EffectParticle）。引用 iJ=MasEffectsParticleRenderer，字段 iJ d + int a。构造函数 (iJ, Vec3, int) 与 src 内部粒子类不完全匹配（ShockwaveParticle 6参/ShieldWave 1参/Flick 2参/ReviveSpark 2参）。M() 反编译失败（switch 异常），无法确定具体粒子类型（Shockwave/Flick/ReviveSpark 等之一）。"
+    },
+    {
+      "obf": "iR",
+      "reason": "26.2 新增 record（100行）。组件 LivingEntity+Vec3+Vec3+im+Vec3+float+boolean+double+int+AABB（10组件）。被 Xa record 引用。src 无匹配 record。im 未识别，无法进一步定位具体用途（可能是 combat target 追踪数据）。"
+    },
+    {
+      "obf": "y2",
+      "reason": "26.2 新增 record（65行）。组件 TextureSetup+ScreenRectangle+StagedVertexBuffer.Draw+RenderPipeline（4组件，纯渲染管线数据）。被 X3=InvUtils 引用。src 无匹配 record。ScreenRectangle+TextureSetup+StagedVertexBuffer 在 26.1.2 src 中不存在。"
+    },
+    {
+      "obf": "_9",
+      "reason": "26.2 新增 record（64行）。组件 List<Entity>+BlockHitResult+List<Vec3>+int（4组件，射线检测结果）。无其他 jar 类引用此 record。src 无匹配 record。"
+    },
+    {
+      "obf": "zD",
+      "reason": "26.2 新增 record（61行）。组件 BlockPos+Direction+Vec3（3组件，方块交互目标）。被 us（疑似 PacketMine/SafeAnchor）引用。有私有方法 M() 计算 BlockPos + Direction 偏移。src 无匹配 record（FollowerPath 组件不同）。"
+    },
+    {
+      "obf": "yY",
+      "reason": "26.2 新增 record（61行）。组件 BlockPos+Direction+Vec3（3组件，方块交互目标，与 zD 同构但不同类）。被 uZ（疑似 SafeAnchor）引用。src 无匹配 record。"
+    }
+  ],
+  "conflicts": []
+}

@@ -1,0 +1,52 @@
+{
+  "batch": "D003",
+  "results": {
+    "uv": {
+      "identity": "DoubleAnchor",
+      "kind": "module",
+      "conf": "A",
+      "evidence": "字段类型Dj(DoubleAnchor.Phase枚举)为唯一指纹；X0(KeybindSetting)+XG(IntSetting)匹配源码triggerKey+detonateSlot/placeCps/chargeCps；MC:InteractionHand,Item,BlockHitResult；事件PlayerTickEvent.Pre；构造函数设置Phase=IDLE",
+      "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/modules/impl/combat/DoubleAnchor.java"
+    },
+    "uk": {
+      "identity": "AutoArmor",
+      "kind": "module",
+      "conf": "A",
+      "evidence": "MC:Equippable为唯一指纹(全src仅AutoArmor+InvHelper引用)；XG(IntSetting)+X0(KeybindSetting)+Xn(BoolSetting)匹配源码swapDelay/switchDelay/elytraSlotSetting/activateKey/switchBack/moveToSlot；lambda:onTick中检查Equippable.slot()类型为HUMANOID_ARMOR",
+      "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/modules/impl/player/AutoArmor.java"
+    },
+    "y": {
+      "identity": "SilentAim",
+      "kind": "module",
+      "conf": "A",
+      "evidence": "双事件handler:PlayerTickEvent.Pre+SwingHandEvent(d3)为唯一指纹(全combat仅SilentAim导入SwingHandEvent)；5个Xn(BoolSetting)匹配weaponOnly/player/mob/animal/villagers/invisible；DM(DoubleSetting)+XG(IntSetting)匹配range+fov；LivingEntity u=target字段",
+      "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/modules/impl/combat/SilentAim.java"
+    },
+    "A": {
+      "identity": "BlockESP",
+      "kind": "module",
+      "conf": "A",
+      "evidence": "Map<BlockPos,Integer> E+L(静态)为唯一指纹；List<u9>扫描结果列表+i9(Block+BlockPos+Set<BlockPos>)扫描项；MC:ClientLevel+BlockPos+Block；Dx<OW>=EnumSetting<Priority>匹配渲染优先级；双事件PlayerTickEvent.Pre+Render3DEvent(d9)；2312行匹配复杂方块扫描+渲染",
+      "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/modules/impl/render/BlockESP.java"
+    }
+  },
+  "unident": [
+    {
+      "obf": "a",
+      "reason": "26.2新增模块：MC导入ClientboundSetTitleTextPacket/SetSubtitleTextPacket/SetActionBarTextPacket(title包)为唯一特征；设置含Xc(StringSetting)+DV(ColorSetting×3)+Xn(BoolSetting)+Pattern(regex)；事件dP(PacketEvent.Receive)；引用me.sofurry.iiIllIllli隐藏库。全src 26.1.2无任何模块处理title包，此模块为26.2新增"
+    },
+    {
+      "obf": "e4",
+      "reason": "26.2新增模块：2583行大型战斗模块；Dx<OW>(EnumSetting<Priority>)+_Z(计时器)+LivingEntity(目标)；双事件PlayerTickEvent.Pre+ClientTickEvent.Pre；MC:LocalPlayer+LivingEntity+ItemStack+Vec3。全src 26.1.2无完全匹配：现有导入Priority的战斗模块(SafeAnchor/SafeCrystal等)结构不符。可能为26.2新增的目标选择/战斗辅助模块"
+    },
+    {
+      "obf": "u3",
+      "reason": "26.2新增模块：MC导入BedBlock为唯一特征(全src 26.1.2无模块导入BedBlock)；DM(DoubleSetting×2)+Xn(BoolSetting)；事件nj(PlayerTickEvent.Post)；1601行。可能为BedAura/床相关战斗模块，26.2新增"
+    },
+    {
+      "obf": "H",
+      "reason": "26.2新增模块：1269行渲染模块；RenderPipeline V+Identifier P/B+List<Dp>(Vec3+计时器record)；Dx<_f>(EnumSetting<Default|Portal>)+List<UUID>(玩家追踪)；双事件PlayerTickEvent.Pre+Render3DEvent(d9)；MC:Identifier+Player+Vec3。全src 26.1.2无匹配：现有渲染模块(JumpCircle/HitParticles等)无Portal模式或UUID列表。可能为26.2新增的玩家轨迹/_portal渲染模块"
+    }
+  ],
+  "conflicts": []
+}

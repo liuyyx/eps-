@@ -1,0 +1,43 @@
+{
+ "batch": "D005",
+ "results": {
+  "Y": {
+   "identity": "Flight",
+   "kind": "module",
+   "conf": "A",
+   "evidence": "DM字段值精确匹配: x(3.5,0.1,10.0,0.1)==src horizontalSpeed; E(1.0,0.1,5.0,0.1)==src verticalSpeed; 构造super(name,Category.MOVEMENT); @yE处理器i(dY=SendPositionEvent)对应src onSendPosition; 行数607≈src68+indy膨胀; MC:LocalPlayer+SendPositionEvent双吻合",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/modules/impl/movement/Flight.java"
+  }
+ },
+ "unident": [
+  {
+   "obf": "uG",
+   "reason": "971行，订阅ClientTickEvent.Pre+KeyboardInputEvent，MC:LocalPlayer。源码中无模块同时订阅这两个事件的明确匹配。规模过大(971行)，可能是26.2重构/合并模块，无唯一指纹可定位"
+  },
+  {
+   "obf": "O",
+   "reason": "673行，Dx<zh>(EnumSetting内部类型)+XG(IntSetting 1,1,9,1)+ItemStack+PlayerTickEvent.Pre。IntSetting值(1,1,9,1)与AutoWeapon.targetSlot一致，但e2已映射AutoWeapon(B级)。Dx<zh>的zh无法确认对应AutoWeapon的Page/Mode枚举(命名不一致)。无其他src模块同时匹配这三个特征"
+  },
+  {
+   "obf": "e3",
+   "reason": "323行，ClientTickEvent.Pre+net.minecraft.client.gui.Gui+Hidden0(smtc库)+IlilIlIlil.registerNativesForClass。Gui导入指向HUD渲染模块，Hidden0为26.2 smtc库特有(26.1.2 src无对应)。无src模块同时具备Gui导入+ClientTickEvent.Pre+Hidden0特征，疑26.2新增或重大重构模块"
+  },
+  {
+   "obf": "b",
+   "reason": "294行，KeyboardInputEvent+LocalPlayer。仅一个MC导入(LocalPlayer)，无法区分KeyboardInputEvent的众多使用者(Eagle/Criticals/Scaffold/Velocity/NoSlow等)。无唯一结构指纹"
+  },
+  {
+   "obf": "ed",
+   "reason": "284行，AttackSlowDownEvent(da)+PostSendPositionEvent(_J)+LocalPlayer+boolean t字段。两个事件订阅组合在src中无直接匹配模块。PostSendPositionEvent为26.2新增事件，该模块可能同时处理攻击减速和位置发送后逻辑，但无法定位具体src类"
+  },
+  {
+   "obf": "o",
+   "reason": "281行，PlayerTickEvent.Pre+LocalPlayer。handler中检查isShiftKeyDown()并调用setDeltaMovement(x,y+0.04,z)。+0.04 y偏移为特定运动行为，但src中无模块同时具备此特征+281行规模。SafeWalk(152行)行为接近但行数差距过大"
+  },
+  {
+   "obf": "eV",
+   "reason": "1230行(批次最大)，Dx<uO>(EnumSetting内部类型)+XG(IntSetting)+List<String>+Random+PlayerTickEvent.Pre，无MC导入。uO为未知内部枚举类型。规模远超任何已知src模块(最大Scaffold仅692行)。可能是26.2新增或大幅扩展的模块"
+  }
+ ],
+ "conflicts": []
+}

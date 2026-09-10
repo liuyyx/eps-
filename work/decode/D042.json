@@ -1,0 +1,43 @@
+{
+ "batch": "D042",
+ "results": {
+  "X2": {
+   "identity": "ClientSetting$FontMode",
+   "kind": "enum",
+   "conf": "A",
+   "evidence": "枚举常量 Custom/Default 与 src ClientSetting.java:81-83 enum FontMode {Default, Custom} 完全一致(名称相同,数量=2); 26.1.2 src 仅有此双常量枚举含 Custom+Default; 常量序 src Default(0)/Custom(1) vs jar X2.Custom(ordinal=0)/X2.Default(ordinal=1) 因编译器重排而序不同但集合一致",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/modules/impl/ClientSetting.java"
+  }
+ },
+ "unident": [
+  {
+   "obf": "lk",
+   "reason": "26.2新增; 枚举常量 Default/OsakaChips; 'OsakaChips'仅见于 Watermark.java OSAKA_FONT 常量字符串和 ClientSetting.java registerFont，src 无同名枚举; ShaderHolder.Shader 含 Default 但其余常量(Smoke/Gradient/Snow/Fade)不匹配 OsakaChips"
+  },
+  {
+   "obf": "nr",
+   "reason": "26.2新增; 枚举常量 Glow/Outline; src 全树无含此二常量的枚举; 可能为 26.2 新增的渲染模式枚举"
+  },
+  {
+   "obf": "O2",
+   "reason": "26.2新增; 枚举常量 Columbina/Classic; 'Columbina'(意大利即兴喜剧角色名) src 无出现; 无匹配枚举"
+  },
+  {
+   "obf": "OQ",
+   "reason": "26.2新增; 枚举常量 Auto/Assist; src 无此二常量组合的枚举; AimBot.Mode 为 AimAssist/BowAim 不匹配"
+  },
+  {
+   "obf": "uO",
+   "reason": "26.2新增; 枚举常量 RANDOM/SEQUENTIAL; src 无匹配枚举; LuminRenderSystem.getSequentialBuffer 为 MC API 调用非枚举定义"
+  },
+  {
+   "obf": "X5",
+   "reason": "26.2新增; 枚举常量 Single/Double; src 无此二常量组合的枚举"
+  },
+  {
+   "obf": "Xj",
+   "reason": "26.2新增; 枚举常量 Silent/Inventory; Inventory 在 src 为独立 HudModule 类而非枚举常量; AimBot.Rotation(Client/Silent)、Phase.SwapMode(Silent/InvSwitch) 均不完全匹配"
+  }
+ ],
+ "conflicts": []
+}

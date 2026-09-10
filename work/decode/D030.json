@@ -1,0 +1,46 @@
+{
+ "batch": "D030",
+ "results": {
+  "yy": {
+   "identity": "LuminGpuTextureLoader",
+   "kind": "class",
+   "conf": "B",
+   "evidence": "extends y4(LuminTexture)；导入NativeImage/CommandEncoder/GpuTexture/GpuTextureView/GpuSampler/GpuSampler；构造函数从byte[]创建NativeImage→GPU纹理；静态方法p()→lD(texture,view,sampler)与源码LuminTexture(GpuTexture,GpuTextureView,GpuSampler)参数一致；26.1.2源码无extends LuminTexture的子类",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/graphics/LuminTexture.java"
+  },
+  "vx": {
+   "identity": "MarqueeTextRenderer",
+   "kind": "class",
+   "conf": "B",
+   "evidence": "implements AutoCloseable；List<XB> G(文本条目列表)；方法lambda$flushMarqueeTexts$0处理zU(渲染域)上marquee text绘制(位置+颜色+clip)；方法o(Object[])含ih(float,float,float)→viewport坐标；方法W(Object[])添加XB条目；方法s()清空列表；方法O()→_j(文本渲染器)；与ModuleRow.marqueePhase()的滚动文本机制功能一致",
+   "src_path": "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/gui/panel/component/ModuleRow.java"
+  }
+ },
+ "unident": [
+  {
+   "obf": "y1",
+   "reason": "26.2新增：616行class；8实例字段(long/int/nX/boolean×2/String×2)+4静态数组；hashCode()/equals()含加密switch(hi.a(\"G\"))复杂模式；E()→nX(NotificationMode)；C(Object[])→int；N(Object[])→boolean；nX=NotificationMode(已识别)；Setting锚点暗示配置/通知相关；26.1.2源码无匹配类(Notification仅7字段+简单hashCode/equals)"
+  },
+  {
+   "obf": "_X",
+   "reason": "26.2新增：597行final class；implements AutoCloseable；锚点LuminImmediateRenderer；导入_A/y3/Xu/gz/lX/lg/ui/v5/y3/ys+RenderPass；工厂方法V(y3)按11种y3值创建不同_X实例(typeSwitch)；多方法Cast到gz/_j/lg/lX/ui/ys/v5等渲染类型；F(Object[])处理RenderPass；疑为渲染管线调度器/适配器；lX=LuminImmediateRenderer(26.2扩展)已识别；26.1.2源码无匹配"
+  },
+  {
+   "obf": "XL",
+   "reason": "26.2新增：585行record(float bo,bE,bR,bY)；4个float字段；n(XL)实现复杂排序逻辑(compares 4个float×2交叉)；疑为坐标/边界record(UiRect/Bounds)；26.1.2源码ScissorRect(int×4)/QuadRenderingInfo(6组件)均不匹配"
+  },
+  {
+   "obf": "O9",
+   "reason": "26.2新增：566行final class；List<yM> g(条目列表)；int W(容量上限)；XL n(边界)；vS w(未知引用)；T(Object[])→添加yM+管理边界+超限时flush到vS；Z(Object[])→size()；L(Object[])→list()；疑为渲染条目管理器/缓存；26.1.2源码无匹配"
+  },
+  {
+   "obf": "gm",
+   "reason": "26.2新增：571行class；static final Path W(路径)；static final gm U(单例)；l(Object[]) throws IOException→getResourceAsStream(dD.class)→Files.copy到Path；锚点Setting+通用事件/触发入口(dD)；疑为配置资源部署器/默认配置提取器；26.1.2源码ConfigHolder(1288行/52.8KB)结构差异大"
+  },
+  {
+   "obf": "yo",
+   "reason": "26.2新增：516行Record(extends Record)；8组件：boolean l8/lb/l9/lM/ly/lg + float g4/g5；hashCode/equals由ObjectMethods.bootstrap生成；G4()/G5()→float getter；l9()→boolean getter；Gp()→float(1.0/-1.0/0.0/12.0基于bool组合)；lB()→boolean(多bool逻辑)；疑为UI状态record(HoverState/LayoutState)；26.1.2源码无匹配record"
+  }
+ ],
+ "conflicts": []
+}
