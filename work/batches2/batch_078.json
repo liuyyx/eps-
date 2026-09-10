@@ -1,0 +1,128 @@
+{
+ "batch": "C078",
+ "n": 8,
+ "classes": [
+  {
+   "obf": "yQ",
+   "kind": "class",
+   "super": "Enum",
+   "lines": 142,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc_imports": [],
+   "candidates": []
+  },
+  {
+   "obf": "yq",
+   "kind": "class",
+   "super": "Record",
+   "lines": 106,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc_imports": [],
+   "candidates": []
+  },
+  {
+   "obf": "yR",
+   "kind": "class",
+   "super": "Enum",
+   "lines": 123,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc_imports": [],
+   "candidates": []
+  },
+  {
+   "obf": "yr",
+   "kind": "class",
+   "super": "Enum",
+   "lines": 149,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc_imports": [],
+   "candidates": []
+  },
+  {
+   "obf": "yS",
+   "kind": "class",
+   "super": null,
+   "lines": 21,
+   "anchored_refs": [],
+   "mc_imports": [],
+   "candidates": []
+  },
+  {
+   "obf": "ys",
+   "kind": "class",
+   "super": null,
+   "lines": 1192,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "mc_imports": [],
+   "candidates": [
+    {
+     "src": "EpsilonAddon",
+     "score": 3.0,
+     "why": "锚点引用:Setting"
+    },
+    {
+     "src": "I18NFileGenerator",
+     "score": 3.0,
+     "why": "锚点引用:Setting"
+    },
+    {
+     "src": "AddonPanelEntry",
+     "score": 3.0,
+     "why": "锚点引用:Setting"
+    }
+   ]
+  },
+  {
+   "obf": "yT",
+   "kind": "record",
+   "super": null,
+   "lines": 404,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "mc_imports": [],
+   "candidates": [
+    {
+     "src": "EpsilonAddon",
+     "score": 3.0,
+     "why": "锚点引用:Setting"
+    },
+    {
+     "src": "I18NFileGenerator",
+     "score": 3.0,
+     "why": "锚点引用:Setting"
+    },
+    {
+     "src": "AddonPanelEntry",
+     "score": 3.0,
+     "why": "锚点引用:Setting"
+    }
+   ]
+  },
+  {
+   "obf": "yU",
+   "kind": "class",
+   "super": null,
+   "lines": 59,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc_imports": [
+    "net.minecraft.world.entity.EquipmentSlot"
+   ],
+   "candidates": []
+  }
+ ]
+}

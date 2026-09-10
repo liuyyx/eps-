@@ -1,0 +1,186 @@
+{
+ "batch": "C062",
+ "n": 8,
+ "classes": [
+  {
+   "obf": "vJ",
+   "kind": "class",
+   "super": "vh",
+   "lines": 815,
+   "anchored_refs": [
+    "KeybindSetting",
+    "SeQL/字符串解密+调用分发核心",
+    "Setting",
+    "SettingRow",
+    "TranslateComponent"
+   ],
+   "mc_imports": [
+    "net.minecraft.client.gui.GuiGraphicsExtractor",
+    "net.minecraft.client.input.MouseButtonEvent"
+   ],
+   "candidates": [
+    {
+     "src": "ModuleDetailPanel",
+     "score": 8.0,
+     "why": "锚点引用:KeybindSetting,Setting; MCimport:2"
+    },
+    {
+     "src": "AddonClientSettingTab",
+     "score": 8.0,
+     "why": "锚点引用:KeybindSetting,Setting; MCimport:2"
+    },
+    {
+     "src": "GeneralClientSettingTab",
+     "score": 8.0,
+     "why": "锚点引用:KeybindSetting,Setting; MCimport:2"
+    }
+   ]
+  },
+  {
+   "obf": "vj",
+   "kind": "class",
+   "super": "Record",
+   "lines": 50,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc_imports": [],
+   "candidates": []
+  },
+  {
+   "obf": "vK",
+   "kind": "class",
+   "super": null,
+   "lines": 315,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "mc_imports": [
+    "net.minecraft.client.Minecraft",
+    "net.minecraft.client.gui.components.events.GuiEventListener"
+   ],
+   "candidates": [
+    {
+     "src": "Module",
+     "score": 5.0,
+     "why": "锚点引用:Setting; MCimport:1"
+    },
+    {
+     "src": "EpsilonAddon",
+     "score": 3.0,
+     "why": "锚点引用:Setting"
+    },
+    {
+     "src": "I18NFileGenerator",
+     "score": 3.0,
+     "why": "锚点引用:Setting"
+    }
+   ]
+  },
+  {
+   "obf": "vk",
+   "kind": "class",
+   "super": "Record",
+   "lines": 412,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "mc_imports": [],
+   "candidates": [
+    {
+     "src": "EpsilonAddon",
+     "score": 3.0,
+     "why": "锚点引用:Setting"
+    },
+    {
+     "src": "I18NFileGenerator",
+     "score": 3.0,
+     "why": "锚点引用:Setting"
+    },
+    {
+     "src": "AddonPanelEntry",
+     "score": 3.0,
+     "why": "锚点引用:Setting"
+    }
+   ]
+  },
+  {
+   "obf": "vL",
+   "kind": "class",
+   "super": null,
+   "lines": 41,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc_imports": [
+    "net.minecraft.client.renderer.DynamicUniformStorage"
+   ],
+   "candidates": []
+  },
+  {
+   "obf": "vl",
+   "kind": "class",
+   "super": "Record",
+   "lines": 53,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc_imports": [
+    "net.minecraft.world.phys.AABB"
+   ],
+   "candidates": []
+  },
+  {
+   "obf": "vM",
+   "kind": "class",
+   "super": null,
+   "lines": 5345,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "mc_imports": [
+    "net.minecraft.client.player.LocalPlayer",
+    "net.minecraft.core.Holder",
+    "net.minecraft.core.NonNullList",
+    "net.minecraft.network.chat.Component",
+    "net.minecraft.resources.ResourceKey",
+    "net.minecraft.world.entity.EquipmentSlot",
+    "net.minecraft.world.entity.ai.attributes.AttributeModifier",
+    "net.minecraft.world.entity.player.Inventory",
+    "net.minecraft.world.item.ArrowItem",
+    "net.minecraft.world.item.AxeItem"
+   ],
+   "candidates": [
+    {
+     "src": "RegistryListSelectPopup",
+     "score": 4.37,
+     "why": "锚点引用:Setting; MCimport:4"
+    },
+    {
+     "src": "SettingHost",
+     "score": 3.24,
+     "why": "锚点引用:Setting; MCimport:2"
+    },
+    {
+     "src": "RegistryListSetting",
+     "score": 3.22,
+     "why": "锚点引用:Setting; MCimport:2"
+    }
+   ]
+  },
+  {
+   "obf": "vm",
+   "kind": "record",
+   "super": null,
+   "lines": 30,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc_imports": [],
+   "candidates": []
+  }
+ ]
+}

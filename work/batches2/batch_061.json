@@ -1,0 +1,159 @@
+{
+ "batch": "C061",
+ "n": 8,
+ "classes": [
+  {
+   "obf": "vd",
+   "kind": "class",
+   "super": "Record",
+   "lines": 46,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc_imports": [],
+   "candidates": []
+  },
+  {
+   "obf": "vE",
+   "kind": "class",
+   "super": null,
+   "lines": 1265,
+   "anchored_refs": [
+    "ClientTickEvent.Pre",
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "mc_imports": [
+    "net.minecraft.client.multiplayer.ClientPacketListener",
+    "net.minecraft.world.entity.Entity",
+    "net.minecraft.world.entity.LivingEntity",
+    "net.minecraft.world.entity.decoration.ArmorStand",
+    "net.minecraft.world.entity.player.Player"
+   ],
+   "candidates": [
+    {
+     "src": "EpsilonAddon",
+     "score": 3.0,
+     "why": "锚点引用:Setting"
+    },
+    {
+     "src": "I18NFileGenerator",
+     "score": 3.0,
+     "why": "锚点引用:Setting"
+    },
+    {
+     "src": "AddonPanelEntry",
+     "score": 3.0,
+     "why": "锚点引用:Setting"
+    }
+   ]
+  },
+  {
+   "obf": "ve",
+   "kind": "class",
+   "super": "Record",
+   "lines": 118,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc_imports": [],
+   "candidates": []
+  },
+  {
+   "obf": "vF",
+   "kind": "class",
+   "super": null,
+   "lines": 62,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心",
+    "Type"
+   ],
+   "mc_imports": [],
+   "candidates": []
+  },
+  {
+   "obf": "vG",
+   "kind": "class",
+   "super": "LinkedHashMap",
+   "lines": 187,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "mc_imports": [],
+   "candidates": [
+    {
+     "src": "EpsilonAddon",
+     "score": 3.0,
+     "why": "锚点引用:Setting"
+    },
+    {
+     "src": "I18NFileGenerator",
+     "score": 3.0,
+     "why": "锚点引用:Setting"
+    },
+    {
+     "src": "AddonPanelEntry",
+     "score": 3.0,
+     "why": "锚点引用:Setting"
+    }
+   ]
+  },
+  {
+   "obf": "vH",
+   "kind": "class",
+   "super": "Record",
+   "lines": 81,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc_imports": [],
+   "candidates": []
+  },
+  {
+   "obf": "vI",
+   "kind": "class",
+   "super": null,
+   "lines": 117,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心",
+    "异步资源/数据加载缓存类（implements DS 接口，确切类名未定）"
+   ],
+   "mc_imports": [],
+   "candidates": []
+  },
+  {
+   "obf": "vi",
+   "kind": "class",
+   "super": "vh",
+   "lines": 370,
+   "anchored_refs": [
+    "EnumSetting",
+    "SeQL/字符串解密+调用分发核心",
+    "Setting",
+    "SettingRow"
+   ],
+   "mc_imports": [
+    "net.minecraft.client.gui.GuiGraphicsExtractor",
+    "net.minecraft.client.input.MouseButtonEvent"
+   ],
+   "candidates": [
+    {
+     "src": "EnumSettingRow",
+     "score": 7.0,
+     "why": "锚点引用:EnumSetting; MCimport:2"
+    },
+    {
+     "src": "EnumSelectPopup",
+     "score": 7.0,
+     "why": "锚点引用:EnumSetting; MCimport:2"
+    },
+    {
+     "src": "I18NFileGenerator",
+     "score": 6.0,
+     "why": "锚点引用:EnumSetting,Setting"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,185 @@
+{
+ "batch": "D008",
+ "n": 8,
+ "classes": [
+  {
+   "obf": "uE",
+   "kind": "class",
+   "super": "u9",
+   "lines": 1649,
+   "is_module": false,
+   "anchored": [
+    "BoolSetting",
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "mc": [
+    "net.minecraft.client.player.LocalPlayer",
+    "net.minecraft.core.BlockPos",
+    "net.minecraft.world.InteractionHand",
+    "net.minecraft.world.InteractionResult",
+    "net.minecraft.world.entity.player.Inventory",
+    "net.minecraft.world.item.Item",
+    "net.minecraft.world.phys.AABB",
+    "net.minecraft.world.phys.BlockHitResult"
+   ],
+   "n_mc": 8
+  },
+  {
+   "obf": "l0",
+   "kind": "class",
+   "super": "l8",
+   "lines": 1183,
+   "is_module": false,
+   "anchored": [
+    "Easing",
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "mc": [
+    "net.minecraft.client.color.block.BlockTintSource",
+    "net.minecraft.client.player.LocalPlayer",
+    "net.minecraft.client.renderer.block.BlockAndTintGetter",
+    "net.minecraft.client.renderer.texture.TextureAtlasSprite",
+    "net.minecraft.core.BlockPos",
+    "net.minecraft.world.item.BlockItem",
+    "net.minecraft.world.item.ItemStack",
+    "net.minecraft.world.level.block.state.BlockState"
+   ],
+   "n_mc": 8
+  },
+  {
+   "obf": "uf",
+   "kind": "class",
+   "super": "u9",
+   "lines": 931,
+   "is_module": false,
+   "anchored": [
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "mc": [
+    "net.minecraft.client.multiplayer.ClientLevel",
+    "net.minecraft.core.BlockPos",
+    "net.minecraft.world.entity.Entity",
+    "net.minecraft.world.level.ClipContext",
+    "net.minecraft.world.level.block.state.BlockState",
+    "net.minecraft.world.phys.AABB",
+    "net.minecraft.world.phys.Vec3"
+   ],
+   "n_mc": 7
+  },
+  {
+   "obf": "_i",
+   "kind": "class",
+   "super": "RemotePlayer",
+   "lines": 392,
+   "is_module": false,
+   "anchored": [
+    "Easing",
+    "PopChams",
+    "Render3DEvent",
+    "SeQL/字符串解密+调用分发核心",
+    "Setting",
+    "WalkAnimationStateAccessor"
+   ],
+   "mc": [
+    "net.minecraft.client.Minecraft",
+    "net.minecraft.client.multiplayer.ClientLevel",
+    "net.minecraft.client.player.RemotePlayer",
+    "net.minecraft.network.chat.Component",
+    "net.minecraft.world.InteractionHand",
+    "net.minecraft.world.entity.WalkAnimationState",
+    "net.minecraft.world.entity.player.Player"
+   ],
+   "n_mc": 7
+  },
+  {
+   "obf": "e9",
+   "kind": "class",
+   "super": "eh",
+   "lines": 1555,
+   "is_module": false,
+   "anchored": [
+    "BoolSetting",
+    "ColorSetting",
+    "DoubleSetting",
+    "HudModule",
+    "Scaffold",
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "mc": [
+    "net.minecraft.client.DeltaTracker",
+    "net.minecraft.client.KeyMapping",
+    "net.minecraft.client.gui.Gui",
+    "net.minecraft.client.gui.screens.ChatScreen",
+    "net.minecraft.world.entity.LivingEntity",
+    "net.minecraft.world.item.ItemStack"
+   ],
+   "n_mc": 6
+  },
+  {
+   "obf": "gG",
+   "kind": "class",
+   "super": null,
+   "lines": 1531,
+   "is_module": false,
+   "anchored": [
+    "BoolSetting",
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "mc": [
+    "net.minecraft.client.gui.font.TextRenderable",
+    "net.minecraft.client.gui.font.glyphs.BakedGlyph",
+    "net.minecraft.client.renderer.rendertype.RenderSetup",
+    "net.minecraft.client.renderer.rendertype.RenderType",
+    "net.minecraft.network.chat.Style",
+    "net.minecraft.resources.Identifier"
+   ],
+   "n_mc": 6
+  },
+  {
+   "obf": "_n",
+   "kind": "class",
+   "super": null,
+   "lines": 835,
+   "is_module": false,
+   "anchored": [
+    "ClientTickEvent.Post",
+    "EventBus",
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "mc": [
+    "net.minecraft.client.player.AbstractClientPlayer",
+    "net.minecraft.world.entity.Entity",
+    "net.minecraft.world.entity.player.Player",
+    "net.minecraft.world.level.Level",
+    "net.minecraft.world.phys.AABB",
+    "net.minecraft.world.phys.Vec3"
+   ],
+   "n_mc": 6
+  },
+  {
+   "obf": "yV",
+   "kind": "class",
+   "super": "SubmitNodeStorage",
+   "lines": 38,
+   "is_module": false,
+   "anchored": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc": [
+    "net.minecraft.client.model.Model",
+    "net.minecraft.client.renderer.SubmitNodeCollector",
+    "net.minecraft.client.renderer.SubmitNodeStorage",
+    "net.minecraft.client.renderer.feature.ModelFeatureRenderer",
+    "net.minecraft.client.renderer.rendertype.RenderType",
+    "net.minecraft.client.renderer.texture.TextureAtlasSprite"
+   ],
+   "n_mc": 6
+  }
+ ]
+}

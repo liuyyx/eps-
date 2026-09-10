@@ -1,0 +1,130 @@
+{
+ "batch": "C075",
+ "n": 8,
+ "classes": [
+  {
+   "obf": "yD",
+   "kind": "class",
+   "super": "Enum",
+   "lines": 123,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc_imports": [],
+   "candidates": []
+  },
+  {
+   "obf": "yd",
+   "kind": "record",
+   "super": null,
+   "lines": 31,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc_imports": [
+    "net.minecraft.world.phys.HitResult",
+    "net.minecraft.world.phys.Vec3"
+   ],
+   "candidates": []
+  },
+  {
+   "obf": "yE",
+   "kind": "interface",
+   "super": null,
+   "lines": 16,
+   "anchored_refs": [],
+   "mc_imports": [],
+   "candidates": []
+  },
+  {
+   "obf": "ye",
+   "kind": "class",
+   "super": "Enum",
+   "lines": 125,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc_imports": [],
+   "candidates": []
+  },
+  {
+   "obf": "yF",
+   "kind": "class",
+   "super": "Record",
+   "lines": 49,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc_imports": [
+    "net.minecraft.world.InteractionHand"
+   ],
+   "candidates": [
+    {
+     "src": "FindItemResult",
+     "score": 4.0,
+     "why": "MCimport:1"
+    },
+    {
+     "src": "AutoMend",
+     "score": 1.33,
+     "why": "MCimport:1"
+    },
+    {
+     "src": "AutoFirework",
+     "score": 1.33,
+     "why": "MCimport:1"
+    }
+   ]
+  },
+  {
+   "obf": "yf",
+   "kind": "class",
+   "super": "Enum",
+   "lines": 125,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc_imports": [],
+   "candidates": []
+  },
+  {
+   "obf": "yG",
+   "kind": "record",
+   "super": null,
+   "lines": 20,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc_imports": [],
+   "candidates": []
+  },
+  {
+   "obf": "yg",
+   "kind": "class",
+   "super": null,
+   "lines": 195,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "mc_imports": [],
+   "candidates": [
+    {
+     "src": "EpsilonAddon",
+     "score": 3.0,
+     "why": "锚点引用:Setting"
+    },
+    {
+     "src": "I18NFileGenerator",
+     "score": 3.0,
+     "why": "锚点引用:Setting"
+    },
+    {
+     "src": "AddonPanelEntry",
+     "score": 3.0,
+     "why": "锚点引用:Setting"
+    }
+   ]
+  }
+ ]
+}

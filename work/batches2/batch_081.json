@@ -1,0 +1,156 @@
+{
+ "batch": "C081",
+ "n": 8,
+ "classes": [
+  {
+   "obf": "z6",
+   "kind": "class",
+   "super": "Record",
+   "lines": 47,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc_imports": [],
+   "candidates": []
+  },
+  {
+   "obf": "z7",
+   "kind": "class",
+   "super": "Record",
+   "lines": 145,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc_imports": [],
+   "candidates": []
+  },
+  {
+   "obf": "z8",
+   "kind": "class",
+   "super": "Enum",
+   "lines": 142,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc_imports": [],
+   "candidates": []
+  },
+  {
+   "obf": "z9",
+   "kind": "class",
+   "super": null,
+   "lines": 74,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc_imports": [
+    "net.minecraft.world.Difficulty"
+   ],
+   "candidates": []
+  },
+  {
+   "obf": "zA",
+   "kind": "class",
+   "super": "zv",
+   "lines": 49,
+   "anchored_refs": [
+    "DropdownScreen",
+    "SeQL/字符串解密+调用分发核心",
+    "StringListSetting"
+   ],
+   "mc_imports": [],
+   "candidates": [
+    {
+     "src": "DropdownScreen",
+     "score": 3.0,
+     "why": "锚点引用:StringListSetting"
+    },
+    {
+     "src": "ModuleButton",
+     "score": 3.0,
+     "why": "锚点引用:StringListSetting"
+    },
+    {
+     "src": "SettingsContent",
+     "score": 3.0,
+     "why": "锚点引用:StringListSetting"
+    }
+   ]
+  },
+  {
+   "obf": "za",
+   "kind": "class",
+   "super": "zc",
+   "lines": 880,
+   "anchored_refs": [
+    "KeybindSetting",
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "mc_imports": [],
+   "candidates": [
+    {
+     "src": "ModuleButton",
+     "score": 6.0,
+     "why": "锚点引用:KeybindSetting,Setting"
+    },
+    {
+     "src": "SettingsContent",
+     "score": 6.0,
+     "why": "锚点引用:KeybindSetting,Setting"
+    },
+    {
+     "src": "SettingViewFactory",
+     "score": 6.0,
+     "why": "锚点引用:KeybindSetting,Setting"
+    }
+   ]
+  },
+  {
+   "obf": "zB",
+   "kind": "interface",
+   "super": null,
+   "lines": 9,
+   "anchored_refs": [],
+   "mc_imports": [],
+   "candidates": []
+  },
+  {
+   "obf": "zb",
+   "kind": "class",
+   "super": null,
+   "lines": 1632,
+   "anchored_refs": [
+    "PlayerTickEvent.Pre",
+    "RaytraceEvent",
+    "RespawnEvent",
+    "RotationAnimationEvent",
+    "SeQL/字符串解密+调用分发核心",
+    "SendPositionEvent",
+    "Setting"
+   ],
+   "mc_imports": [
+    "net.minecraft.client.Minecraft",
+    "net.minecraft.client.player.LocalPlayer",
+    "net.minecraft.world.phys.HitResult"
+   ],
+   "candidates": [
+    {
+     "src": "RotationManager",
+     "score": 6.67,
+     "why": "锚点引用:RaytraceEvent,RotationAnimationEvent; MCimport:1"
+    },
+    {
+     "src": "LuaEventRegistry",
+     "score": 6.0,
+     "why": "锚点引用:RaytraceEvent,RotationAnimationEvent"
+    },
+    {
+     "src": "Module",
+     "score": 4.33,
+     "why": "锚点引用:Setting; MCimport:1"
+    }
+   ]
+  }
+ ]
+}

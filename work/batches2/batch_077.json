@@ -1,0 +1,187 @@
+{
+ "batch": "C077",
+ "n": 8,
+ "classes": [
+  {
+   "obf": "yM",
+   "kind": "interface",
+   "super": null,
+   "lines": 39,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc_imports": [],
+   "candidates": []
+  },
+  {
+   "obf": "ym",
+   "kind": "interface",
+   "super": null,
+   "lines": 10,
+   "anchored_refs": [],
+   "mc_imports": [],
+   "candidates": []
+  },
+  {
+   "obf": "yN",
+   "kind": "class",
+   "super": "Record",
+   "lines": 53,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc_imports": [
+    "net.minecraft.world.phys.AABB"
+   ],
+   "candidates": []
+  },
+  {
+   "obf": "yn",
+   "kind": "class",
+   "super": null,
+   "lines": 885,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "mc_imports": [
+    "net.minecraft.client.renderer.texture.AbstractTexture",
+    "net.minecraft.client.renderer.texture.TextureManager",
+    "net.minecraft.resources.Identifier"
+   ],
+   "candidates": [
+    {
+     "src": "ClientSetting",
+     "score": 4.0,
+     "why": "锚点引用:Setting; MCimport:1"
+    },
+    {
+     "src": "RegistryListSetting",
+     "score": 3.4,
+     "why": "锚点引用:Setting; MCimport:1"
+    },
+    {
+     "src": "RegistryListSelectPopup",
+     "score": 3.22,
+     "why": "锚点引用:Setting; MCimport:1"
+    }
+   ]
+  },
+  {
+   "obf": "yO",
+   "kind": "class",
+   "super": null,
+   "lines": 219,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心",
+    "Setting",
+    "TranslateComponent",
+    "Type"
+   ],
+   "mc_imports": [],
+   "candidates": [
+    {
+     "src": "I18NFileGenerator",
+     "score": 6.0,
+     "why": "锚点引用:Setting,TranslateComponent"
+    },
+    {
+     "src": "SettingsListPanel",
+     "score": 6.0,
+     "why": "锚点引用:Setting,TranslateComponent"
+    },
+    {
+     "src": "Module",
+     "score": 6.0,
+     "why": "锚点引用:Setting,TranslateComponent"
+    }
+   ]
+  },
+  {
+   "obf": "yo",
+   "kind": "class",
+   "super": "Record",
+   "lines": 516,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "mc_imports": [],
+   "candidates": [
+    {
+     "src": "EpsilonAddon",
+     "score": 3.0,
+     "why": "锚点引用:Setting"
+    },
+    {
+     "src": "I18NFileGenerator",
+     "score": 3.0,
+     "why": "锚点引用:Setting"
+    },
+    {
+     "src": "AddonPanelEntry",
+     "score": 3.0,
+     "why": "锚点引用:Setting"
+    }
+   ]
+  },
+  {
+   "obf": "yP",
+   "kind": "class",
+   "super": null,
+   "lines": 47,
+   "anchored_refs": [
+    "HudEditorScreen",
+    "SeQL/字符串解密+调用分发核心",
+    "异步资源/数据加载缓存类（implements DS 接口，确切类名未定）"
+   ],
+   "mc_imports": [],
+   "candidates": [
+    {
+     "src": "ScaffoldBlock",
+     "score": 3.0,
+     "why": "锚点引用:HudEditorScreen"
+    },
+    {
+     "src": "TargetHUD",
+     "score": 3.0,
+     "why": "锚点引用:HudEditorScreen"
+    },
+    {
+     "src": "Notifications",
+     "score": 3.0,
+     "why": "锚点引用:HudEditorScreen"
+    }
+   ]
+  },
+  {
+   "obf": "yp",
+   "kind": "class",
+   "super": null,
+   "lines": 800,
+   "anchored_refs": [
+    "EpsilonAddon",
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "mc_imports": [],
+   "candidates": [
+    {
+     "src": "EpsilonAddon",
+     "score": 3.0,
+     "why": "锚点引用:Setting"
+    },
+    {
+     "src": "I18NFileGenerator",
+     "score": 3.0,
+     "why": "锚点引用:Setting"
+    },
+    {
+     "src": "AddonPanelEntry",
+     "score": 3.0,
+     "why": "锚点引用:Setting"
+    }
+   ]
+  }
+ ]
+}

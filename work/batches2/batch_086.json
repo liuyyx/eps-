@@ -1,0 +1,211 @@
+{
+ "batch": "C086",
+ "n": 8,
+ "classes": [
+  {
+   "obf": "zt",
+   "kind": "class",
+   "super": null,
+   "lines": 1869,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "mc_imports": [
+    "net.minecraft.client.gui.GuiGraphicsExtractor",
+    "net.minecraft.client.input.CharacterEvent",
+    "net.minecraft.client.input.MouseButtonEvent"
+   ],
+   "candidates": [
+    {
+     "src": "ModuleDetailPanel",
+     "score": 7.0,
+     "why": "锚点引用:Setting; MCimport:3"
+    },
+    {
+     "src": "AddonClientSettingTab",
+     "score": 7.0,
+     "why": "锚点引用:Setting; MCimport:3"
+    },
+    {
+     "src": "GeneralClientSettingTab",
+     "score": 7.0,
+     "why": "锚点引用:Setting; MCimport:3"
+    }
+   ]
+  },
+  {
+   "obf": "zU",
+   "kind": "class",
+   "super": null,
+   "lines": 2690,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心",
+    "Setting",
+    "异步资源/数据加载缓存类（implements DS 接口，确切类名未定）"
+   ],
+   "mc_imports": [
+    "net.minecraft.resources.Identifier"
+   ],
+   "candidates": [
+    {
+     "src": "ClientSetting",
+     "score": 5.0,
+     "why": "锚点引用:Setting; MCimport:1"
+    },
+    {
+     "src": "SoundKey",
+     "score": 4.0,
+     "why": "MCimport:1"
+    },
+    {
+     "src": "RegistryListSetting",
+     "score": 3.5,
+     "why": "锚点引用:Setting; MCimport:1"
+    }
+   ]
+  },
+  {
+   "obf": "zu",
+   "kind": "class",
+   "super": "zb",
+   "lines": 362,
+   "anchored_refs": [
+    "PlayerTickEvent.Pre",
+    "SeQL/字符串解密+调用分发核心",
+    "SendPositionEvent",
+    "Setting"
+   ],
+   "mc_imports": [
+    "net.minecraft.client.player.LocalPlayer"
+   ],
+   "candidates": [
+    {
+     "src": "EpsilonAddon",
+     "score": 3.0,
+     "why": "锚点引用:Setting"
+    },
+    {
+     "src": "I18NFileGenerator",
+     "score": 3.0,
+     "why": "锚点引用:Setting"
+    },
+    {
+     "src": "AddonPanelEntry",
+     "score": 3.0,
+     "why": "锚点引用:Setting"
+    }
+   ]
+  },
+  {
+   "obf": "zv",
+   "kind": "class",
+   "super": "zc",
+   "lines": 382,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "mc_imports": [],
+   "candidates": [
+    {
+     "src": "EpsilonAddon",
+     "score": 3.0,
+     "why": "锚点引用:Setting"
+    },
+    {
+     "src": "I18NFileGenerator",
+     "score": 3.0,
+     "why": "锚点引用:Setting"
+    },
+    {
+     "src": "AddonPanelEntry",
+     "score": 3.0,
+     "why": "锚点引用:Setting"
+    }
+   ]
+  },
+  {
+   "obf": "zW",
+   "kind": "class",
+   "super": "zc",
+   "lines": 350,
+   "anchored_refs": [
+    "ButtonSetting",
+    "DropdownScreen",
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "mc_imports": [],
+   "candidates": [
+    {
+     "src": "ModuleButton",
+     "score": 6.0,
+     "why": "锚点引用:ButtonSetting,Setting"
+    },
+    {
+     "src": "SettingsContent",
+     "score": 6.0,
+     "why": "锚点引用:ButtonSetting,Setting"
+    },
+    {
+     "src": "SettingViewFactory",
+     "score": 6.0,
+     "why": "锚点引用:ButtonSetting,Setting"
+    }
+   ]
+  },
+  {
+   "obf": "zw",
+   "kind": "class",
+   "super": "Record",
+   "lines": 68,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc_imports": [],
+   "candidates": []
+  },
+  {
+   "obf": "zX",
+   "kind": "class",
+   "super": "Record",
+   "lines": 60,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc_imports": [
+    "net.minecraft.world.phys.AABB"
+   ],
+   "candidates": []
+  },
+  {
+   "obf": "zx",
+   "kind": "class",
+   "super": null,
+   "lines": 36,
+   "anchored_refs": [],
+   "mc_imports": [
+    "net.minecraft.client.gui.GuiGraphicsExtractor",
+    "net.minecraft.client.input.MouseButtonEvent"
+   ],
+   "candidates": [
+    {
+     "src": "BoolSettingRow",
+     "score": 4.0,
+     "why": "MCimport:2"
+    },
+    {
+     "src": "ButtonSettingRow",
+     "score": 4.0,
+     "why": "MCimport:2"
+    },
+    {
+     "src": "ChoiceSettingRow",
+     "score": 4.0,
+     "why": "MCimport:2"
+    }
+   ]
+  }
+ ]
+}

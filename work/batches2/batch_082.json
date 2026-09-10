@@ -1,0 +1,188 @@
+{
+ "batch": "C082",
+ "n": 8,
+ "classes": [
+  {
+   "obf": "zc",
+   "kind": "class",
+   "super": "zF",
+   "lines": 26,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "mc_imports": [],
+   "candidates": [
+    {
+     "src": "EpsilonAddon",
+     "score": 3.0,
+     "why": "锚点引用:Setting"
+    },
+    {
+     "src": "I18NFileGenerator",
+     "score": 3.0,
+     "why": "锚点引用:Setting"
+    },
+    {
+     "src": "AddonPanelEntry",
+     "score": 3.0,
+     "why": "锚点引用:Setting"
+    }
+   ]
+  },
+  {
+   "obf": "zD",
+   "kind": "class",
+   "super": "Record",
+   "lines": 61,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc_imports": [
+    "net.minecraft.core.BlockPos",
+    "net.minecraft.core.Direction",
+    "net.minecraft.world.phys.Vec3"
+   ],
+   "candidates": []
+  },
+  {
+   "obf": "zd",
+   "kind": "class",
+   "super": null,
+   "lines": 124,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc_imports": [],
+   "candidates": []
+  },
+  {
+   "obf": "zE",
+   "kind": "class",
+   "super": "Enum",
+   "lines": 140,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc_imports": [],
+   "candidates": []
+  },
+  {
+   "obf": "ze",
+   "kind": "class",
+   "super": "z0",
+   "lines": 587,
+   "anchored_refs": [
+    "DoubleSetting",
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc_imports": [],
+   "candidates": [
+    {
+     "src": "BPS",
+     "score": 3.0,
+     "why": "锚点引用:DoubleSetting"
+    },
+    {
+     "src": "Inventory",
+     "score": 3.0,
+     "why": "锚点引用:DoubleSetting"
+    },
+    {
+     "src": "ModuleList",
+     "score": 3.0,
+     "why": "锚点引用:DoubleSetting"
+    }
+   ]
+  },
+  {
+   "obf": "zF",
+   "kind": "class",
+   "super": null,
+   "lines": 322,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "mc_imports": [],
+   "candidates": [
+    {
+     "src": "EpsilonAddon",
+     "score": 3.0,
+     "why": "锚点引用:Setting"
+    },
+    {
+     "src": "I18NFileGenerator",
+     "score": 3.0,
+     "why": "锚点引用:Setting"
+    },
+    {
+     "src": "AddonPanelEntry",
+     "score": 3.0,
+     "why": "锚点引用:Setting"
+    }
+   ]
+  },
+  {
+   "obf": "zf",
+   "kind": "class",
+   "super": null,
+   "lines": 820,
+   "anchored_refs": [
+    "HudEditorScreen",
+    "Render2DEvent.HUD",
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "mc_imports": [
+    "net.minecraft.client.Minecraft"
+   ],
+   "candidates": [
+    {
+     "src": "Module",
+     "score": 7.0,
+     "why": "锚点引用:Setting; MCimport:1"
+    },
+    {
+     "src": "ClientSetting",
+     "score": 6.0,
+     "why": "锚点引用:HudEditorScreen,Setting"
+    },
+    {
+     "src": "Constants",
+     "score": 4.0,
+     "why": "MCimport:1"
+    }
+   ]
+  },
+  {
+   "obf": "zG",
+   "kind": "class",
+   "super": "zc",
+   "lines": 3513,
+   "anchored_refs": [
+    "ColorSetting",
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "mc_imports": [],
+   "candidates": [
+    {
+     "src": "ModuleButton",
+     "score": 6.0,
+     "why": "锚点引用:ColorSetting,Setting"
+    },
+    {
+     "src": "SettingsContent",
+     "score": 6.0,
+     "why": "锚点引用:ColorSetting,Setting"
+    },
+    {
+     "src": "SettingViewFactory",
+     "score": 6.0,
+     "why": "锚点引用:ColorSetting,Setting"
+    }
+   ]
+  }
+ ]
+}

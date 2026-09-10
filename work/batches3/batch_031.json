@@ -1,0 +1,113 @@
+{
+ "batch": "D031",
+ "n": 8,
+ "classes": [
+  {
+   "obf": "_E",
+   "kind": "class",
+   "super": null,
+   "lines": 496,
+   "is_module": false,
+   "anchored": [
+    "Easing",
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "mc": [],
+   "n_mc": 0
+  },
+  {
+   "obf": "ib",
+   "kind": "class",
+   "super": "iN",
+   "lines": 493,
+   "is_module": false,
+   "anchored": [
+    "SeQL/字符串解密+调用分发核心",
+    "Setting",
+    "SettingWidget",
+    "TranslateComponent"
+   ],
+   "mc": [],
+   "n_mc": 0
+  },
+  {
+   "obf": "DT",
+   "kind": "class",
+   "super": null,
+   "lines": 492,
+   "is_module": false,
+   "anchored": [
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "mc": [],
+   "n_mc": 0
+  },
+  {
+   "obf": "ih",
+   "kind": "class",
+   "super": "Record",
+   "lines": 489,
+   "is_module": false,
+   "anchored": [
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "mc": [],
+   "n_mc": 0
+  },
+  {
+   "obf": "iP",
+   "kind": "class",
+   "super": "iH",
+   "lines": 488,
+   "is_module": false,
+   "anchored": [
+    "EpsilonAddon",
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc": [],
+   "n_mc": 0
+  },
+  {
+   "obf": "lb",
+   "kind": "class",
+   "super": null,
+   "lines": 474,
+   "is_module": false,
+   "anchored": [
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "mc": [],
+   "n_mc": 0
+  },
+  {
+   "obf": "Dg",
+   "kind": "class",
+   "super": null,
+   "lines": 473,
+   "is_module": false,
+   "anchored": [
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "mc": [],
+   "n_mc": 0
+  },
+  {
+   "obf": "y8",
+   "kind": "class",
+   "super": null,
+   "lines": 438,
+   "is_module": false,
+   "anchored": [
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "mc": [],
+   "n_mc": 0
+  }
+ ]
+}

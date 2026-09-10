@@ -1,0 +1,193 @@
+{
+ "batch": "C065",
+ "n": 8,
+ "classes": [
+  {
+   "obf": "vV",
+   "kind": "class",
+   "super": "Record",
+   "lines": 49,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc_imports": [],
+   "candidates": []
+  },
+  {
+   "obf": "vv",
+   "kind": "class",
+   "super": "Enum",
+   "lines": 175,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc_imports": [],
+   "candidates": []
+  },
+  {
+   "obf": "vW",
+   "kind": "class",
+   "super": "Enum",
+   "lines": 168,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc_imports": [],
+   "candidates": []
+  },
+  {
+   "obf": "vw",
+   "kind": "class",
+   "super": null,
+   "lines": 161,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心",
+    "TranslateComponent"
+   ],
+   "mc_imports": [],
+   "candidates": [
+    {
+     "src": "DefaultTranslateComponent",
+     "score": 3.0,
+     "why": "锚点引用:TranslateComponent"
+    },
+    {
+     "src": "EpsilonTranslateComponent",
+     "score": 3.0,
+     "why": "锚点引用:TranslateComponent"
+    },
+    {
+     "src": "EpsilonTranslations",
+     "score": 3.0,
+     "why": "锚点引用:TranslateComponent"
+    }
+   ]
+  },
+  {
+   "obf": "vx",
+   "kind": "class",
+   "super": null,
+   "lines": 580,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "mc_imports": [],
+   "candidates": [
+    {
+     "src": "EpsilonAddon",
+     "score": 3.0,
+     "why": "锚点引用:Setting"
+    },
+    {
+     "src": "I18NFileGenerator",
+     "score": 3.0,
+     "why": "锚点引用:Setting"
+    },
+    {
+     "src": "AddonPanelEntry",
+     "score": 3.0,
+     "why": "锚点引用:Setting"
+    }
+   ]
+  },
+  {
+   "obf": "vY",
+   "kind": "class",
+   "super": "Enum",
+   "lines": 366,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心",
+    "TranslateComponent"
+   ],
+   "mc_imports": [],
+   "candidates": [
+    {
+     "src": "DefaultTranslateComponent",
+     "score": 3.0,
+     "why": "锚点引用:TranslateComponent"
+    },
+    {
+     "src": "EpsilonTranslateComponent",
+     "score": 3.0,
+     "why": "锚点引用:TranslateComponent"
+    },
+    {
+     "src": "EpsilonTranslations",
+     "score": 3.0,
+     "why": "锚点引用:TranslateComponent"
+    }
+   ]
+  },
+  {
+   "obf": "vZ",
+   "kind": "class",
+   "super": null,
+   "lines": 345,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心",
+    "Setting",
+    "TranslateComponent"
+   ],
+   "mc_imports": [
+    "net.minecraft.network.chat.MutableComponent"
+   ],
+   "candidates": [
+    {
+     "src": "I18NFileGenerator",
+     "score": 6.0,
+     "why": "锚点引用:Setting,TranslateComponent"
+    },
+    {
+     "src": "SettingsListPanel",
+     "score": 6.0,
+     "why": "锚点引用:Setting,TranslateComponent"
+    },
+    {
+     "src": "Module",
+     "score": 6.0,
+     "why": "锚点引用:Setting,TranslateComponent"
+    }
+   ]
+  },
+  {
+   "obf": "vz",
+   "kind": "class",
+   "super": null,
+   "lines": 5057,
+   "anchored_refs": [
+    "BoolSetting",
+    "ColorSetting",
+    "DoubleSetting",
+    "EnumSetting",
+    "EpsilonAddon",
+    "IntSetting",
+    "KeybindSetting",
+    "Module",
+    "RegistryListSetting",
+    "SeQL/字符串解密+调用分发核心",
+    "Setting",
+    "StringListSetting",
+    "StringSetting"
+   ],
+   "mc_imports": [],
+   "candidates": [
+    {
+     "src": "ModuleButton",
+     "score": 33.0,
+     "why": "锚点引用:BoolSetting,ColorSetting,DoubleSetting,EnumSetting,IntSetting"
+    },
+    {
+     "src": "ConfigHolder",
+     "score": 33.0,
+     "why": "锚点引用:BoolSetting,ColorSetting,DoubleSetting,EnumSetting,IntSetting"
+    },
+    {
+     "src": "SettingsContent",
+     "score": 30.0,
+     "why": "锚点引用:BoolSetting,ColorSetting,DoubleSetting,EnumSetting,IntSetting"
+    }
+   ]
+  }
+ ]
+}

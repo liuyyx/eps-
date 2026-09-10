@@ -1,0 +1,202 @@
+{
+ "batch": "D007",
+ "n": 8,
+ "classes": [
+  {
+   "obf": "OT",
+   "kind": "class",
+   "super": null,
+   "lines": 2209,
+   "is_module": false,
+   "anchored": [
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "mc": [
+    "net.minecraft.client.gui.navigation.ScreenRectangle",
+    "net.minecraft.client.gui.render.GuiItemAtlas",
+    "net.minecraft.client.gui.render.TextureSetup",
+    "net.minecraft.client.gui.render.pip.OversizedItemRenderer",
+    "net.minecraft.client.renderer.CubeMap",
+    "net.minecraft.client.renderer.Projection",
+    "net.minecraft.client.renderer.ProjectionMatrixBuffer",
+    "net.minecraft.client.renderer.StagedVertexBuffer",
+    "net.minecraft.client.renderer.feature.FeatureRenderDispatcher",
+    "net.minecraft.client.renderer.state.gui.BlitRenderState"
+   ],
+   "n_mc": 18
+  },
+  {
+   "obf": "_h",
+   "kind": "class",
+   "super": null,
+   "lines": 854,
+   "is_module": false,
+   "anchored": [
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "mc": [
+    "net.minecraft.client.multiplayer.ClientLevel",
+    "net.minecraft.core.BlockPos",
+    "net.minecraft.core.Direction",
+    "net.minecraft.world.entity.Entity",
+    "net.minecraft.world.entity.ExperienceOrb",
+    "net.minecraft.world.entity.boss.enderdragon.EndCrystal",
+    "net.minecraft.world.entity.item.ItemEntity",
+    "net.minecraft.world.entity.projectile.arrow.Arrow",
+    "net.minecraft.world.entity.projectile.throwableitemprojectile.ThrownExperienceBottle",
+    "net.minecraft.world.item.ItemStack"
+   ],
+   "n_mc": 15
+  },
+  {
+   "obf": "uZ",
+   "kind": "class",
+   "super": "u9",
+   "lines": 1451,
+   "is_module": false,
+   "anchored": [
+    "Render3DScheduler",
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "mc": [
+    "net.minecraft.client.player.LocalPlayer",
+    "net.minecraft.core.BlockPos",
+    "net.minecraft.core.Direction",
+    "net.minecraft.core.Vec3i",
+    "net.minecraft.world.entity.Entity",
+    "net.minecraft.world.entity.player.Inventory",
+    "net.minecraft.world.item.BlockItem",
+    "net.minecraft.world.item.Item",
+    "net.minecraft.world.item.ItemStack",
+    "net.minecraft.world.level.ClipContext"
+   ],
+   "n_mc": 13
+  },
+  {
+   "obf": "us",
+   "kind": "class",
+   "super": "u9",
+   "lines": 1995,
+   "is_module": false,
+   "anchored": [
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "mc": [
+    "net.minecraft.client.multiplayer.ClientLevel",
+    "net.minecraft.client.multiplayer.MultiPlayerGameMode",
+    "net.minecraft.client.player.LocalPlayer",
+    "net.minecraft.core.BlockPos",
+    "net.minecraft.core.Direction",
+    "net.minecraft.world.InteractionHand",
+    "net.minecraft.world.item.BlockItem",
+    "net.minecraft.world.item.Item",
+    "net.minecraft.world.item.ItemStack",
+    "net.minecraft.world.phys.AABB"
+   ],
+   "n_mc": 12
+  },
+  {
+   "obf": "lc",
+   "kind": "class",
+   "super": "l8",
+   "lines": 4493,
+   "is_module": false,
+   "anchored": [
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "mc": [
+    "net.minecraft.client.gui.Hud",
+    "net.minecraft.client.multiplayer.ClientPacketListener",
+    "net.minecraft.client.multiplayer.PlayerInfo",
+    "net.minecraft.network.chat.Component",
+    "net.minecraft.network.chat.FormattedText",
+    "net.minecraft.network.chat.Style",
+    "net.minecraft.resources.Identifier",
+    "net.minecraft.world.scores.Objective",
+    "net.minecraft.world.scores.PlayerTeam",
+    "net.minecraft.world.scores.Scoreboard"
+   ],
+   "n_mc": 11
+  },
+  {
+   "obf": "_q",
+   "kind": "class",
+   "super": null,
+   "lines": 1469,
+   "is_module": false,
+   "anchored": [
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "mc": [
+    "net.minecraft.client.Minecraft",
+    "net.minecraft.client.OptionInstance",
+    "net.minecraft.client.player.LocalPlayer",
+    "net.minecraft.core.BlockPos",
+    "net.minecraft.core.Direction",
+    "net.minecraft.world.entity.Entity",
+    "net.minecraft.world.entity.LivingEntity",
+    "net.minecraft.world.level.ClipContext",
+    "net.minecraft.world.phys.AABB",
+    "net.minecraft.world.phys.HitResult"
+   ],
+   "n_mc": 11
+  },
+  {
+   "obf": "_o",
+   "kind": "class",
+   "super": "Screen",
+   "lines": 4189,
+   "is_module": false,
+   "anchored": [
+    "LuminRenderTarget",
+    "ModuleSort",
+    "SeQL/字符串解密+调用分发核心",
+    "Setting",
+    "TranslateComponent"
+   ],
+   "mc": [
+    "net.minecraft.client.Minecraft",
+    "net.minecraft.client.gui.Font",
+    "net.minecraft.client.gui.GuiGraphicsExtractor",
+    "net.minecraft.client.gui.components.IMEPreeditOverlay",
+    "net.minecraft.client.gui.screens.Screen",
+    "net.minecraft.client.input.CharacterEvent",
+    "net.minecraft.client.input.KeyEvent",
+    "net.minecraft.client.input.MouseButtonEvent",
+    "net.minecraft.client.input.PreeditEvent",
+    "net.minecraft.network.chat.Component"
+   ],
+   "n_mc": 10
+  },
+  {
+   "obf": "nV",
+   "kind": "class",
+   "super": null,
+   "lines": 738,
+   "is_module": false,
+   "anchored": [
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "mc": [
+    "net.minecraft.client.Minecraft",
+    "net.minecraft.client.User",
+    "net.minecraft.client.gui.screens.social.PlayerSocialManager",
+    "net.minecraft.client.gui.screens.social.RemoteFriendListUpdateHandler",
+    "net.minecraft.client.multiplayer.ProfileKeyPairManager",
+    "net.minecraft.client.multiplayer.chat.report.ReportingContext",
+    "net.minecraft.client.renderer.texture.SkinTextureDownloader",
+    "net.minecraft.client.renderer.texture.TextureManager",
+    "net.minecraft.client.resources.SkinManager",
+    "net.minecraft.server.Services"
+   ],
+   "n_mc": 10
+  }
+ ]
+}

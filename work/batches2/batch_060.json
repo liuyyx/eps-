@@ -1,0 +1,165 @@
+{
+ "batch": "C060",
+ "n": 8,
+ "classes": [
+  {
+   "obf": "v3",
+   "kind": "class",
+   "super": "Record",
+   "lines": 114,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心",
+    "异步资源/数据加载缓存类（implements DS 接口，确切类名未定）"
+   ],
+   "mc_imports": [],
+   "candidates": []
+  },
+  {
+   "obf": "v4",
+   "kind": "class",
+   "super": null,
+   "lines": 18,
+   "anchored_refs": [],
+   "mc_imports": [],
+   "candidates": []
+  },
+  {
+   "obf": "v5",
+   "kind": "class",
+   "super": null,
+   "lines": 1157,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "mc_imports": [],
+   "candidates": [
+    {
+     "src": "EpsilonAddon",
+     "score": 3.0,
+     "why": "锚点引用:Setting"
+    },
+    {
+     "src": "I18NFileGenerator",
+     "score": 3.0,
+     "why": "锚点引用:Setting"
+    },
+    {
+     "src": "AddonPanelEntry",
+     "score": 3.0,
+     "why": "锚点引用:Setting"
+    }
+   ]
+  },
+  {
+   "obf": "v6",
+   "kind": "class",
+   "super": "Record",
+   "lines": 75,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc_imports": [],
+   "candidates": []
+  },
+  {
+   "obf": "vA",
+   "kind": "class",
+   "super": "Record",
+   "lines": 113,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc_imports": [],
+   "candidates": []
+  },
+  {
+   "obf": "va",
+   "kind": "class",
+   "super": "Record",
+   "lines": 64,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心",
+    "Setting",
+    "SettingGroup"
+   ],
+   "mc_imports": [],
+   "candidates": [
+    {
+     "src": "EpsilonAddon",
+     "score": 6.0,
+     "why": "锚点引用:Setting,SettingGroup"
+    },
+    {
+     "src": "I18NFileGenerator",
+     "score": 6.0,
+     "why": "锚点引用:Setting,SettingGroup"
+    },
+    {
+     "src": "Module",
+     "score": 6.0,
+     "why": "锚点引用:Setting,SettingGroup"
+    }
+   ]
+  },
+  {
+   "obf": "vb",
+   "kind": "class",
+   "super": null,
+   "lines": 213,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "mc_imports": [
+    "net.minecraft.client.Camera",
+    "net.minecraft.world.phys.Vec3"
+   ],
+   "candidates": [
+    {
+     "src": "EpsilonAddon",
+     "score": 3.0,
+     "why": "锚点引用:Setting"
+    },
+    {
+     "src": "I18NFileGenerator",
+     "score": 3.0,
+     "why": "锚点引用:Setting"
+    },
+    {
+     "src": "AddonPanelEntry",
+     "score": 3.0,
+     "why": "锚点引用:Setting"
+    }
+   ]
+  },
+  {
+   "obf": "vC",
+   "kind": "class",
+   "super": null,
+   "lines": 269,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "mc_imports": [],
+   "candidates": [
+    {
+     "src": "EpsilonAddon",
+     "score": 3.0,
+     "why": "锚点引用:Setting"
+    },
+    {
+     "src": "I18NFileGenerator",
+     "score": 3.0,
+     "why": "锚点引用:Setting"
+    },
+    {
+     "src": "AddonPanelEntry",
+     "score": 3.0,
+     "why": "锚点引用:Setting"
+    }
+   ]
+  }
+ ]
+}

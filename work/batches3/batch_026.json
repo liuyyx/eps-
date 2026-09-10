@@ -1,0 +1,124 @@
+{
+ "batch": "D026",
+ "n": 8,
+ "classes": [
+  {
+   "obf": "yu",
+   "kind": "class",
+   "super": null,
+   "lines": 1482,
+   "is_module": false,
+   "anchored": [
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "mc": [],
+   "n_mc": 0
+  },
+  {
+   "obf": "zP",
+   "kind": "class",
+   "super": null,
+   "lines": 1434,
+   "is_module": false,
+   "anchored": [
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "mc": [],
+   "n_mc": 0
+  },
+  {
+   "obf": "z0",
+   "kind": "class",
+   "super": "Number",
+   "lines": 1428,
+   "is_module": false,
+   "anchored": [
+    "DropdownTextField",
+    "SeQL/字符串解密+调用分发核心",
+    "Setting",
+    "SettingWidget"
+   ],
+   "mc": [],
+   "n_mc": 0
+  },
+  {
+   "obf": "XN",
+   "kind": "class",
+   "super": null,
+   "lines": 1426,
+   "is_module": false,
+   "anchored": [
+    "QuadRenderingInfo",
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "mc": [],
+   "n_mc": 0
+  },
+  {
+   "obf": "OO",
+   "kind": "class",
+   "super": null,
+   "lines": 1407,
+   "is_module": false,
+   "anchored": [
+    "LuminTexture",
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "mc": [],
+   "n_mc": 0
+  },
+  {
+   "obf": "gR",
+   "kind": "class",
+   "super": null,
+   "lines": 1288,
+   "is_module": false,
+   "anchored": [
+    "SeQL/字符串解密+调用分发核心",
+    "Setting",
+    "SettingGroup",
+    "SettingLayoutPlanner.Section"
+   ],
+   "mc": [],
+   "n_mc": 0
+  },
+  {
+   "obf": "XQ",
+   "kind": "class",
+   "super": null,
+   "lines": 1288,
+   "is_module": false,
+   "anchored": [
+    "BoolSetting",
+    "Dependency",
+    "DoubleSetting",
+    "HudModule.VerticalAnchor",
+    "IntSetting",
+    "ModuleList",
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "mc": [],
+   "n_mc": 0
+  },
+  {
+   "obf": "iC",
+   "kind": "class",
+   "super": "iN",
+   "lines": 1234,
+   "is_module": false,
+   "anchored": [
+    "Category",
+    "SeQL/字符串解密+调用分发核心",
+    "Setting",
+    "TranslateComponent"
+   ],
+   "mc": [],
+   "n_mc": 0
+  }
+ ]
+}

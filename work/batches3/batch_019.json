@@ -1,0 +1,129 @@
+{
+ "batch": "D019",
+ "n": 8,
+ "classes": [
+  {
+   "obf": "zu",
+   "kind": "class",
+   "super": "zb",
+   "lines": 362,
+   "is_module": false,
+   "anchored": [
+    "PlayerTickEvent.Pre",
+    "RotationManager",
+    "SeQL/字符串解密+调用分发核心",
+    "SendPositionEvent",
+    "Setting"
+   ],
+   "mc": [
+    "net.minecraft.client.player.LocalPlayer"
+   ],
+   "n_mc": 1
+  },
+  {
+   "obf": "vZ",
+   "kind": "class",
+   "super": null,
+   "lines": 345,
+   "is_module": false,
+   "anchored": [
+    "SeQL/字符串解密+调用分发核心",
+    "Setting",
+    "TranslateComponent"
+   ],
+   "mc": [
+    "net.minecraft.network.chat.MutableComponent"
+   ],
+   "n_mc": 1
+  },
+  {
+   "obf": "Oc",
+   "kind": "class",
+   "super": "nV",
+   "lines": 299,
+   "is_module": false,
+   "anchored": [
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "mc": [
+    "net.minecraft.client.User"
+   ],
+   "n_mc": 1
+  },
+  {
+   "obf": "lj",
+   "kind": "class",
+   "super": null,
+   "lines": 196,
+   "is_module": false,
+   "anchored": [
+    "AutoArmor",
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc": [
+    "net.minecraft.world.entity.EquipmentSlot"
+   ],
+   "n_mc": 1
+  },
+  {
+   "obf": "nf",
+   "kind": "class",
+   "super": "Enum",
+   "lines": 194,
+   "is_module": false,
+   "anchored": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc": [
+    "net.minecraft.resources.Identifier"
+   ],
+   "n_mc": 1
+  },
+  {
+   "obf": "OF",
+   "kind": "class",
+   "super": "nV",
+   "lines": 187,
+   "is_module": false,
+   "anchored": [
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "mc": [
+    "net.minecraft.client.User"
+   ],
+   "n_mc": 1
+  },
+  {
+   "obf": "_l",
+   "kind": "class",
+   "super": null,
+   "lines": 177,
+   "is_module": false,
+   "anchored": [
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "mc": [
+    "net.minecraft.core.BlockPos"
+   ],
+   "n_mc": 1
+  },
+  {
+   "obf": "zq",
+   "kind": "class",
+   "super": "Record",
+   "lines": 176,
+   "is_module": false,
+   "anchored": [
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "mc": [
+    "net.minecraft.world.entity.LivingEntity"
+   ],
+   "n_mc": 1
+  }
+ ]
+}

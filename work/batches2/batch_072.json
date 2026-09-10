@@ -1,0 +1,187 @@
+{
+ "batch": "C072",
+ "n": 8,
+ "classes": [
+  {
+   "obf": "XX",
+   "kind": "class",
+   "super": null,
+   "lines": 155,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心",
+    "TranslateComponent"
+   ],
+   "mc_imports": [],
+   "candidates": [
+    {
+     "src": "DefaultTranslateComponent",
+     "score": 3.0,
+     "why": "锚点引用:TranslateComponent"
+    },
+    {
+     "src": "EpsilonTranslateComponent",
+     "score": 3.0,
+     "why": "锚点引用:TranslateComponent"
+    },
+    {
+     "src": "EpsilonTranslations",
+     "score": 3.0,
+     "why": "锚点引用:TranslateComponent"
+    }
+   ]
+  },
+  {
+   "obf": "Xx",
+   "kind": "class",
+   "super": "Enum",
+   "lines": 187,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc_imports": [],
+   "candidates": []
+  },
+  {
+   "obf": "XY",
+   "kind": "class",
+   "super": null,
+   "lines": 56,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc_imports": [],
+   "candidates": []
+  },
+  {
+   "obf": "Xy",
+   "kind": "class",
+   "super": null,
+   "lines": 272,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "mc_imports": [],
+   "candidates": [
+    {
+     "src": "EpsilonAddon",
+     "score": 3.0,
+     "why": "锚点引用:Setting"
+    },
+    {
+     "src": "I18NFileGenerator",
+     "score": 3.0,
+     "why": "锚点引用:Setting"
+    },
+    {
+     "src": "AddonPanelEntry",
+     "score": 3.0,
+     "why": "锚点引用:Setting"
+    }
+   ]
+  },
+  {
+   "obf": "XZ",
+   "kind": "class",
+   "super": null,
+   "lines": 239,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "mc_imports": [],
+   "candidates": [
+    {
+     "src": "EpsilonAddon",
+     "score": 3.0,
+     "why": "锚点引用:Setting"
+    },
+    {
+     "src": "I18NFileGenerator",
+     "score": 3.0,
+     "why": "锚点引用:Setting"
+    },
+    {
+     "src": "AddonPanelEntry",
+     "score": 3.0,
+     "why": "锚点引用:Setting"
+    }
+   ]
+  },
+  {
+   "obf": "Xz",
+   "kind": "class",
+   "super": "Record",
+   "lines": 77,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心",
+    "异步资源/数据加载缓存类（implements DS 接口，确切类名未定）"
+   ],
+   "mc_imports": [],
+   "candidates": []
+  },
+  {
+   "obf": "X_",
+   "kind": "class",
+   "super": null,
+   "lines": 810,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "mc_imports": [
+    "net.minecraft.client.Minecraft"
+   ],
+   "candidates": [
+    {
+     "src": "Module",
+     "score": 7.0,
+     "why": "锚点引用:Setting; MCimport:1"
+    },
+    {
+     "src": "Constants",
+     "score": 4.0,
+     "why": "MCimport:1"
+    },
+    {
+     "src": "EpsilonAddon",
+     "score": 3.0,
+     "why": "锚点引用:Setting"
+    }
+   ]
+  },
+  {
+   "obf": "Y",
+   "kind": "class",
+   "super": "e",
+   "lines": 607,
+   "anchored_refs": [
+    "DoubleSetting",
+    "Module",
+    "SeQL/字符串解密+调用分发核心",
+    "SendPositionEvent",
+    "Setting"
+   ],
+   "mc_imports": [
+    "net.minecraft.client.player.LocalPlayer"
+   ],
+   "candidates": [
+    {
+     "src": "ModuleButton",
+     "score": 9.0,
+     "why": "锚点引用:DoubleSetting,Module,Setting"
+    },
+    {
+     "src": "ConfigHolder",
+     "score": 9.0,
+     "why": "锚点引用:DoubleSetting,Module,Setting"
+    },
+    {
+     "src": "ClientSetting",
+     "score": 9.0,
+     "why": "锚点引用:DoubleSetting,Module,Setting"
+    }
+   ]
+  }
+ ]
+}

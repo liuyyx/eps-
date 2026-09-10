@@ -1,0 +1,145 @@
+{
+ "batch": "C076",
+ "n": 8,
+ "classes": [
+  {
+   "obf": "yH",
+   "kind": "class",
+   "super": null,
+   "lines": 686,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc_imports": [
+    "net.minecraft.resources.Identifier"
+   ],
+   "candidates": [
+    {
+     "src": "SoundKey",
+     "score": 4.0,
+     "why": "MCimport:1"
+    },
+    {
+     "src": "ResourceLocationUtils",
+     "score": 2.0,
+     "why": "MCimport:1"
+    },
+    {
+     "src": "ClientSetting",
+     "score": 2.0,
+     "why": "MCimport:1"
+    }
+   ]
+  },
+  {
+   "obf": "yh",
+   "kind": "class",
+   "super": "Enum",
+   "lines": 125,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc_imports": [],
+   "candidates": []
+  },
+  {
+   "obf": "yI",
+   "kind": "class",
+   "super": null,
+   "lines": 19,
+   "anchored_refs": [],
+   "mc_imports": [],
+   "candidates": []
+  },
+  {
+   "obf": "yJ",
+   "kind": "class",
+   "super": "Record",
+   "lines": 55,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc_imports": [],
+   "candidates": []
+  },
+  {
+   "obf": "yj",
+   "kind": "class",
+   "super": null,
+   "lines": 20,
+   "anchored_refs": [],
+   "mc_imports": [],
+   "candidates": []
+  },
+  {
+   "obf": "yK",
+   "kind": "class",
+   "super": null,
+   "lines": 746,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "mc_imports": [
+    "net.minecraft.resources.Identifier"
+   ],
+   "candidates": [
+    {
+     "src": "ClientSetting",
+     "score": 5.0,
+     "why": "锚点引用:Setting; MCimport:1"
+    },
+    {
+     "src": "SoundKey",
+     "score": 4.0,
+     "why": "MCimport:1"
+    },
+    {
+     "src": "RegistryListSetting",
+     "score": 3.5,
+     "why": "锚点引用:Setting; MCimport:1"
+    }
+   ]
+  },
+  {
+   "obf": "yk",
+   "kind": "class",
+   "super": null,
+   "lines": 176,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc_imports": [],
+   "candidates": []
+  },
+  {
+   "obf": "yl",
+   "kind": "class",
+   "super": "Record",
+   "lines": 67,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc_imports": [
+    "net.minecraft.core.BlockPos"
+   ],
+   "candidates": [
+    {
+     "src": "DestroyBlockEvent",
+     "score": 4.0,
+     "why": "MCimport:1"
+    },
+    {
+     "src": "BlockCollisionEvent",
+     "score": 2.0,
+     "why": "MCimport:1"
+    },
+    {
+     "src": "StartDestroyBlockEvent",
+     "score": 2.0,
+     "why": "MCimport:1"
+    }
+   ]
+  }
+ ]
+}

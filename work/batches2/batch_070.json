@@ -1,0 +1,152 @@
+{
+ "batch": "C070",
+ "n": 8,
+ "classes": [
+  {
+   "obf": "XN",
+   "kind": "class",
+   "super": null,
+   "lines": 1426,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "mc_imports": [],
+   "candidates": [
+    {
+     "src": "EpsilonAddon",
+     "score": 3.0,
+     "why": "锚点引用:Setting"
+    },
+    {
+     "src": "I18NFileGenerator",
+     "score": 3.0,
+     "why": "锚点引用:Setting"
+    },
+    {
+     "src": "AddonPanelEntry",
+     "score": 3.0,
+     "why": "锚点引用:Setting"
+    }
+   ]
+  },
+  {
+   "obf": "XO",
+   "kind": "class",
+   "super": null,
+   "lines": 1313,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "mc_imports": [
+    "net.minecraft.core.BlockPos",
+    "net.minecraft.world.entity.player.Player",
+    "net.minecraft.world.level.BlockGetter",
+    "net.minecraft.world.level.block.state.BlockState"
+   ],
+   "candidates": [
+    {
+     "src": "MixinBlockCollisions",
+     "score": 3.4,
+     "why": "MCimport:3"
+    },
+    {
+     "src": "EpsilonAddon",
+     "score": 3.0,
+     "why": "锚点引用:Setting"
+    },
+    {
+     "src": "I18NFileGenerator",
+     "score": 3.0,
+     "why": "锚点引用:Setting"
+    }
+   ]
+  },
+  {
+   "obf": "Xo",
+   "kind": "class",
+   "super": "Enum",
+   "lines": 145,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc_imports": [],
+   "candidates": []
+  },
+  {
+   "obf": "XP",
+   "kind": "class",
+   "super": null,
+   "lines": 203,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc_imports": [],
+   "candidates": []
+  },
+  {
+   "obf": "XQ",
+   "kind": "class",
+   "super": null,
+   "lines": 1288,
+   "anchored_refs": [
+    "BoolSetting",
+    "Dependency",
+    "DoubleSetting",
+    "IntSetting",
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "mc_imports": [],
+   "candidates": [
+    {
+     "src": "ModuleButton",
+     "score": 12.0,
+     "why": "锚点引用:BoolSetting,DoubleSetting,IntSetting,Setting"
+    },
+    {
+     "src": "SettingsContent",
+     "score": 12.0,
+     "why": "锚点引用:BoolSetting,DoubleSetting,IntSetting,Setting"
+    },
+    {
+     "src": "SettingViewFactory",
+     "score": 12.0,
+     "why": "锚点引用:BoolSetting,DoubleSetting,IntSetting,Setting"
+    }
+   ]
+  },
+  {
+   "obf": "Xq",
+   "kind": "class",
+   "super": "Record",
+   "lines": 121,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc_imports": [],
+   "candidates": []
+  },
+  {
+   "obf": "XR",
+   "kind": "class",
+   "super": "Xo",
+   "lines": 15,
+   "anchored_refs": [],
+   "mc_imports": [],
+   "candidates": []
+  },
+  {
+   "obf": "XS",
+   "kind": "class",
+   "super": "Record",
+   "lines": 70,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc_imports": [],
+   "candidates": []
+  }
+ ]
+}

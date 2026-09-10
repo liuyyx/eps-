@@ -1,0 +1,171 @@
+{
+ "batch": "C059",
+ "n": 8,
+ "classes": [
+  {
+   "obf": "uy",
+   "kind": "class",
+   "super": "Enum",
+   "lines": 125,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc_imports": [],
+   "candidates": []
+  },
+  {
+   "obf": "uZ",
+   "kind": "class",
+   "super": "u9",
+   "lines": 1451,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "mc_imports": [
+    "net.minecraft.client.player.LocalPlayer",
+    "net.minecraft.core.BlockPos",
+    "net.minecraft.core.Direction",
+    "net.minecraft.core.Vec3i",
+    "net.minecraft.world.entity.Entity",
+    "net.minecraft.world.entity.player.Inventory",
+    "net.minecraft.world.item.BlockItem",
+    "net.minecraft.world.item.Item",
+    "net.minecraft.world.item.ItemStack",
+    "net.minecraft.world.level.ClipContext"
+   ],
+   "candidates": [
+    {
+     "src": "RegistryListSelectPopup",
+     "score": 3.3,
+     "why": "锚点引用:Setting; MCimport:2"
+    },
+    {
+     "src": "SettingHost",
+     "score": 3.25,
+     "why": "锚点引用:Setting; MCimport:1"
+    },
+    {
+     "src": "RegistryListSetting",
+     "score": 3.2,
+     "why": "锚点引用:Setting; MCimport:1"
+    }
+   ]
+  },
+  {
+   "obf": "uz",
+   "kind": "class",
+   "super": "e",
+   "lines": 796,
+   "anchored_refs": [
+    "BoolSetting",
+    "ColorSetting",
+    "DoubleSetting",
+    "EnumSetting",
+    "Module",
+    "PacketEvent.Receive",
+    "Render3DEvent",
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "mc_imports": [
+    "net.minecraft.client.Minecraft"
+   ],
+   "candidates": [
+    {
+     "src": "ModuleButton",
+     "score": 18.0,
+     "why": "锚点引用:BoolSetting,ColorSetting,DoubleSetting,EnumSetting,Module"
+    },
+    {
+     "src": "ConfigHolder",
+     "score": 18.0,
+     "why": "锚点引用:BoolSetting,ColorSetting,DoubleSetting,EnumSetting,Module"
+    },
+    {
+     "src": "ClientSetting",
+     "score": 18.0,
+     "why": "锚点引用:BoolSetting,ColorSetting,DoubleSetting,EnumSetting,Module"
+    }
+   ]
+  },
+  {
+   "obf": "u_",
+   "kind": "class",
+   "super": "Record",
+   "lines": 43,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc_imports": [],
+   "candidates": []
+  },
+  {
+   "obf": "v",
+   "kind": "class",
+   "super": "e",
+   "lines": 673,
+   "anchored_refs": [
+    "AttackEntityEvent",
+    "EnumSetting",
+    "IntSetting",
+    "KeyboardInputEvent",
+    "Module",
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "mc_imports": [],
+   "candidates": [
+    {
+     "src": "ModuleButton",
+     "score": 12.0,
+     "why": "锚点引用:EnumSetting,IntSetting,Module,Setting"
+    },
+    {
+     "src": "ConfigHolder",
+     "score": 12.0,
+     "why": "锚点引用:EnumSetting,IntSetting,Module,Setting"
+    },
+    {
+     "src": "ClientSetting",
+     "score": 12.0,
+     "why": "锚点引用:EnumSetting,IntSetting,Module,Setting"
+    }
+   ]
+  },
+  {
+   "obf": "v0",
+   "kind": "class",
+   "super": "Record",
+   "lines": 50,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc_imports": [],
+   "candidates": []
+  },
+  {
+   "obf": "v1",
+   "kind": "class",
+   "super": "Record",
+   "lines": 100,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc_imports": [],
+   "candidates": []
+  },
+  {
+   "obf": "v2",
+   "kind": "interface",
+   "super": null,
+   "lines": 57,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心",
+    "异步资源/数据加载缓存类（implements DS 接口，确切类名未定）"
+   ],
+   "mc_imports": [],
+   "candidates": []
+  }
+ ]
+}

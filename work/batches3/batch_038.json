@@ -1,0 +1,111 @@
+{
+ "batch": "D038",
+ "n": 8,
+ "classes": [
+  {
+   "obf": "nY",
+   "kind": "class",
+   "super": null,
+   "lines": 176,
+   "is_module": false,
+   "anchored": [
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "mc": [],
+   "n_mc": 0
+  },
+  {
+   "obf": "yk",
+   "kind": "class",
+   "super": null,
+   "lines": 176,
+   "is_module": false,
+   "anchored": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc": [],
+   "n_mc": 0
+  },
+  {
+   "obf": "_D",
+   "kind": "class",
+   "super": null,
+   "lines": 174,
+   "is_module": false,
+   "anchored": [
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "mc": [],
+   "n_mc": 0
+  },
+  {
+   "obf": "vR",
+   "kind": "class",
+   "super": null,
+   "lines": 173,
+   "is_module": false,
+   "anchored": [
+    "LuminRenderTarget",
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc": [],
+   "n_mc": 0
+  },
+  {
+   "obf": "ny",
+   "kind": "class",
+   "super": null,
+   "lines": 172,
+   "is_module": false,
+   "anchored": [
+    "SeQL/字符串解密+调用分发核心",
+    "TranslateComponent"
+   ],
+   "mc": [],
+   "n_mc": 0
+  },
+  {
+   "obf": "n9",
+   "kind": "class",
+   "super": "Enum",
+   "lines": 170,
+   "is_module": false,
+   "anchored": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc": [],
+   "n_mc": 0
+  },
+  {
+   "obf": "XK",
+   "kind": "class",
+   "super": null,
+   "lines": 170,
+   "is_module": false,
+   "anchored": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc": [],
+   "n_mc": 0
+  },
+  {
+   "obf": "D7",
+   "kind": "class",
+   "super": "Record",
+   "lines": 168,
+   "is_module": false,
+   "anchored": [
+    "ArmorEnchantmentMode",
+    "BreakMode",
+    "DamagePriority",
+    "PacketPlaceMode",
+    "PlaceBypass",
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc": [],
+   "n_mc": 0
+  }
+ ]
+}

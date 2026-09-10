@@ -1,0 +1,237 @@
+{
+ "batch": "D002",
+ "n": 8,
+ "classes": [
+  {
+   "obf": "ev",
+   "kind": "class",
+   "super": "e",
+   "lines": 1460,
+   "is_module": true,
+   "anchored": [
+    "BoolSetting",
+    "Category",
+    "DoubleSetting",
+    "Module",
+    "PlayerTickEvent.Pre",
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "mc": [
+    "net.minecraft.client.multiplayer.MultiPlayerGameMode",
+    "net.minecraft.client.player.LocalPlayer",
+    "net.minecraft.world.InteractionHand",
+    "net.minecraft.world.entity.Entity",
+    "net.minecraft.world.entity.boss.enderdragon.EndCrystal",
+    "net.minecraft.world.level.ClipContext",
+    "net.minecraft.world.phys.AABB",
+    "net.minecraft.world.phys.BlockHitResult",
+    "net.minecraft.world.phys.EntityHitResult",
+    "net.minecraft.world.phys.Vec3"
+   ],
+   "n_mc": 10
+  },
+  {
+   "obf": "eQ",
+   "kind": "class",
+   "super": "e",
+   "lines": 1640,
+   "is_module": true,
+   "anchored": [
+    "Category",
+    "ClientTickEvent.Pre",
+    "IntSetting",
+    "Module",
+    "RotationManager",
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "mc": [
+    "net.minecraft.client.multiplayer.ClientLevel",
+    "net.minecraft.client.player.LocalPlayer",
+    "net.minecraft.core.BlockPos",
+    "net.minecraft.world.entity.Entity",
+    "net.minecraft.world.level.ClipContext",
+    "net.minecraft.world.level.block.SlabBlock",
+    "net.minecraft.world.level.block.state.BlockState",
+    "net.minecraft.world.level.block.state.properties.SlabType",
+    "net.minecraft.world.phys.Vec3"
+   ],
+   "n_mc": 9
+  },
+  {
+   "obf": "eI",
+   "kind": "class",
+   "super": "e",
+   "lines": 1626,
+   "is_module": true,
+   "anchored": [
+    "BoolSetting",
+    "Category",
+    "IntSetting",
+    "KeyboardInputEvent",
+    "Module",
+    "PlayerTickEvent.Pre",
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "mc": [
+    "net.minecraft.client.player.LocalPlayer",
+    "net.minecraft.world.item.BlockItem",
+    "net.minecraft.world.level.block.CarvedPumpkinBlock",
+    "net.minecraft.world.level.block.EntityBlock",
+    "net.minecraft.world.level.block.FallingBlock",
+    "net.minecraft.world.level.block.PumpkinBlock",
+    "net.minecraft.world.level.block.SlimeBlock",
+    "net.minecraft.world.level.block.TntBlock",
+    "net.minecraft.world.phys.Vec3"
+   ],
+   "n_mc": 9
+  },
+  {
+   "obf": "m",
+   "kind": "class",
+   "super": "e",
+   "lines": 1525,
+   "is_module": true,
+   "anchored": [
+    "AttackEntityEvent",
+    "BoolSetting",
+    "Category",
+    "Module",
+    "PlayerTickEvent.Pre",
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "mc": [
+    "net.minecraft.client.Minecraft",
+    "net.minecraft.core.particles.BlockParticleOption",
+    "net.minecraft.core.particles.ParticleType",
+    "net.minecraft.world.entity.Entity",
+    "net.minecraft.world.entity.EntityType",
+    "net.minecraft.world.entity.LightningBolt",
+    "net.minecraft.world.entity.LivingEntity",
+    "net.minecraft.world.level.Level",
+    "net.minecraft.world.level.block.state.BlockState"
+   ],
+   "n_mc": 9
+  },
+  {
+   "obf": "eH",
+   "kind": "class",
+   "super": "e",
+   "lines": 2695,
+   "is_module": true,
+   "anchored": [
+    "Category",
+    "ClientTickEvent.Post",
+    "ClientTickEvent.Pre",
+    "DoubleSetting",
+    "EnumSetting",
+    "IntSetting",
+    "KeyPressEvent",
+    "KeybindSetting",
+    "LevelUpdateEvent",
+    "Module",
+    "MousePressEvent",
+    "PacketEvent.Receive",
+    "PacketEvent.Send",
+    "PlayerTickEvent.Post",
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "mc": [
+    "net.minecraft.client.Minecraft",
+    "net.minecraft.network.protocol.Packet",
+    "net.minecraft.network.protocol.common.ClientboundPingPacket",
+    "net.minecraft.network.protocol.game.ClientGamePacketListener",
+    "net.minecraft.network.protocol.game.ClientboundPlayerPositionPacket",
+    "net.minecraft.network.protocol.game.ClientboundSetEntityMotionPacket",
+    "net.minecraft.network.protocol.game.ServerboundInteractPacket",
+    "net.minecraft.network.protocol.game.ServerboundMovePlayerPacket"
+   ],
+   "n_mc": 8
+  },
+  {
+   "obf": "G",
+   "kind": "class",
+   "super": "e",
+   "lines": 2138,
+   "is_module": true,
+   "anchored": [
+    "BoolSetting",
+    "Category",
+    "DoubleSetting",
+    "IntSetting",
+    "KeyboardInputEvent",
+    "Module",
+    "PlayerTickEvent.Pre",
+    "Render3DEvent",
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "mc": [
+    "net.minecraft.client.gui.Gui",
+    "net.minecraft.client.player.LocalPlayer",
+    "net.minecraft.core.BlockPos",
+    "net.minecraft.world.entity.LivingEntity",
+    "net.minecraft.world.entity.player.Player",
+    "net.minecraft.world.phys.AABB",
+    "net.minecraft.world.phys.Vec3"
+   ],
+   "n_mc": 7
+  },
+  {
+   "obf": "X",
+   "kind": "class",
+   "super": "e",
+   "lines": 1293,
+   "is_module": true,
+   "anchored": [
+    "Category",
+    "IntSetting",
+    "KeybindSetting",
+    "Module",
+    "Phase",
+    "PlayerTickEvent.Pre",
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "mc": [
+    "net.minecraft.client.multiplayer.ClientLevel",
+    "net.minecraft.client.player.LocalPlayer",
+    "net.minecraft.core.BlockPos",
+    "net.minecraft.world.entity.player.Inventory",
+    "net.minecraft.world.item.Item",
+    "net.minecraft.world.phys.BlockHitResult"
+   ],
+   "n_mc": 6
+  },
+  {
+   "obf": "eS",
+   "kind": "class",
+   "super": "e",
+   "lines": 1183,
+   "is_module": true,
+   "anchored": [
+    "BoolSetting",
+    "Category",
+    "IntSetting",
+    "Module",
+    "PostSendPositionEvent",
+    "SeQL/字符串解密+调用分发核心",
+    "Setting",
+    "StartDestroyBlockEvent"
+   ],
+   "mc": [
+    "net.minecraft.client.player.LocalPlayer",
+    "net.minecraft.core.BlockPos",
+    "net.minecraft.world.entity.player.Inventory",
+    "net.minecraft.world.level.block.DropExperienceBlock",
+    "net.minecraft.world.level.block.RedStoneOreBlock",
+    "net.minecraft.world.level.block.WebBlock"
+   ],
+   "n_mc": 6
+  }
+ ]
+}

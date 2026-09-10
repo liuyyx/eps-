@@ -1,0 +1,147 @@
+{
+ "batch": "D013",
+ "n": 8,
+ "classes": [
+  {
+   "obf": "_R",
+   "kind": "class",
+   "super": null,
+   "lines": 2128,
+   "is_module": false,
+   "anchored": [
+    "BoolSetting",
+    "DoubleSetting",
+    "Easing",
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "mc": [
+    "net.minecraft.client.multiplayer.ClientPacketListener",
+    "net.minecraft.client.player.LocalPlayer"
+   ],
+   "n_mc": 2
+  },
+  {
+   "obf": "gW",
+   "kind": "class",
+   "super": null,
+   "lines": 1922,
+   "is_module": false,
+   "anchored": [
+    "Category",
+    "Easing",
+    "Module",
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "mc": [
+    "net.minecraft.client.gui.GuiGraphicsExtractor",
+    "net.minecraft.client.input.MouseButtonEvent"
+   ],
+   "n_mc": 2
+  },
+  {
+   "obf": "lG",
+   "kind": "class",
+   "super": "l8",
+   "lines": 1657,
+   "is_module": false,
+   "anchored": [
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "mc": [
+    "net.minecraft.client.renderer.texture.DynamicTexture",
+    "net.minecraft.resources.Identifier"
+   ],
+   "n_mc": 2
+  },
+  {
+   "obf": "iW",
+   "kind": "class",
+   "super": null,
+   "lines": 1379,
+   "is_module": false,
+   "anchored": [
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "mc": [
+    "net.minecraft.resources.Identifier",
+    "net.minecraft.world.phys.Vec3"
+   ],
+   "n_mc": 2
+  },
+  {
+   "obf": "eJ",
+   "kind": "class",
+   "super": "eh",
+   "lines": 1142,
+   "is_module": false,
+   "anchored": [
+    "DoubleSetting",
+    "EnumSetting",
+    "HudEditorScreen",
+    "HudModule",
+    "HudModule.VerticalAnchor",
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "mc": [
+    "net.minecraft.client.DeltaTracker",
+    "net.minecraft.client.gui.Gui"
+   ],
+   "n_mc": 2
+  },
+  {
+   "obf": "n4",
+   "kind": "class",
+   "super": null,
+   "lines": 1131,
+   "is_module": false,
+   "anchored": [
+    "Easing",
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "mc": [
+    "net.minecraft.client.Minecraft",
+    "net.minecraft.client.input.CharacterEvent"
+   ],
+   "n_mc": 2
+  },
+  {
+   "obf": "vo",
+   "kind": "class",
+   "super": null,
+   "lines": 392,
+   "is_module": false,
+   "anchored": [
+    "FireflyESP.ColorMode",
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "mc": [
+    "net.minecraft.resources.Identifier",
+    "net.minecraft.world.entity.LivingEntity"
+   ],
+   "n_mc": 2
+  },
+  {
+   "obf": "ge",
+   "kind": "class",
+   "super": "Record",
+   "lines": 352,
+   "is_module": false,
+   "anchored": [
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "mc": [
+    "net.minecraft.client.renderer.DynamicUniformStorage",
+    "net.minecraft.world.phys.Vec3"
+   ],
+   "n_mc": 2
+  }
+ ]
+}

@@ -1,0 +1,111 @@
+{
+ "batch": "D036",
+ "n": 8,
+ "classes": [
+  {
+   "obf": "i4",
+   "kind": "class",
+   "super": null,
+   "lines": 223,
+   "is_module": false,
+   "anchored": [
+    "CrystalSnapshot",
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "mc": [],
+   "n_mc": 0
+  },
+  {
+   "obf": "l8",
+   "kind": "class",
+   "super": null,
+   "lines": 222,
+   "is_module": false,
+   "anchored": [
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "mc": [],
+   "n_mc": 0
+  },
+  {
+   "obf": "X8",
+   "kind": "class",
+   "super": "Dx",
+   "lines": 220,
+   "is_module": false,
+   "anchored": [
+    "EnumSetting",
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "mc": [],
+   "n_mc": 0
+  },
+  {
+   "obf": "zh",
+   "kind": "class",
+   "super": "Enum",
+   "lines": 220,
+   "is_module": false,
+   "anchored": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc": [],
+   "n_mc": 0
+  },
+  {
+   "obf": "zL",
+   "kind": "class",
+   "super": "Enum",
+   "lines": 220,
+   "is_module": false,
+   "anchored": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc": [],
+   "n_mc": 0
+  },
+  {
+   "obf": "yO",
+   "kind": "class",
+   "super": null,
+   "lines": 219,
+   "is_module": false,
+   "anchored": [
+    "SeQL/字符串解密+调用分发核心",
+    "Setting",
+    "TranslateComponent",
+    "Type"
+   ],
+   "mc": [],
+   "n_mc": 0
+  },
+  {
+   "obf": "n6",
+   "kind": "class",
+   "super": null,
+   "lines": 208,
+   "is_module": false,
+   "anchored": [
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "mc": [],
+   "n_mc": 0
+  },
+  {
+   "obf": "_m",
+   "kind": "class",
+   "super": "Enum",
+   "lines": 207,
+   "is_module": false,
+   "anchored": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc": [],
+   "n_mc": 0
+  }
+ ]
+}

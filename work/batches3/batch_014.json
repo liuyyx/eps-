@@ -1,0 +1,140 @@
+{
+ "batch": "D014",
+ "n": 8,
+ "classes": [
+  {
+   "obf": "gq",
+   "kind": "class",
+   "super": "gs",
+   "lines": 243,
+   "is_module": false,
+   "anchored": [
+    "EffectParticle",
+    "MasEffectsParticleRenderer",
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "mc": [
+    "net.minecraft.resources.Identifier",
+    "net.minecraft.world.phys.Vec3"
+   ],
+   "n_mc": 2
+  },
+  {
+   "obf": "gM",
+   "kind": "class",
+   "super": "gs",
+   "lines": 238,
+   "is_module": false,
+   "anchored": [
+    "EffectParticle",
+    "MasEffectsParticleRenderer",
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "mc": [
+    "net.minecraft.resources.Identifier",
+    "net.minecraft.world.phys.Vec3"
+   ],
+   "n_mc": 2
+  },
+  {
+   "obf": "gl",
+   "kind": "class",
+   "super": "gs",
+   "lines": 219,
+   "is_module": false,
+   "anchored": [
+    "EffectParticle",
+    "MasEffectsParticleRenderer",
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "mc": [
+    "net.minecraft.resources.Identifier",
+    "net.minecraft.world.phys.Vec3"
+   ],
+   "n_mc": 2
+  },
+  {
+   "obf": "gV",
+   "kind": "class",
+   "super": "gs",
+   "lines": 183,
+   "is_module": false,
+   "anchored": [
+    "EffectParticle",
+    "MasEffectsParticleRenderer",
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "mc": [
+    "net.minecraft.resources.Identifier",
+    "net.minecraft.world.phys.Vec3"
+   ],
+   "n_mc": 2
+  },
+  {
+   "obf": "gT",
+   "kind": "class",
+   "super": "gs",
+   "lines": 133,
+   "is_module": false,
+   "anchored": [
+    "EffectParticle",
+    "MasEffectsParticleRenderer",
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc": [
+    "net.minecraft.resources.Identifier",
+    "net.minecraft.world.phys.Vec3"
+   ],
+   "n_mc": 2
+  },
+  {
+   "obf": "gS",
+   "kind": "class",
+   "super": "Record",
+   "lines": 86,
+   "is_module": false,
+   "anchored": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc": [
+    "net.minecraft.core.BlockPos",
+    "net.minecraft.core.Direction"
+   ],
+   "n_mc": 2
+  },
+  {
+   "obf": "nD",
+   "kind": "class",
+   "super": "Record",
+   "lines": 63,
+   "is_module": false,
+   "anchored": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc": [
+    "net.minecraft.core.BlockPos",
+    "net.minecraft.world.phys.AABB"
+   ],
+   "n_mc": 2
+  },
+  {
+   "obf": "vu",
+   "kind": "class",
+   "super": "Record",
+   "lines": 61,
+   "is_module": false,
+   "anchored": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc": [
+    "net.minecraft.core.Direction",
+    "net.minecraft.world.phys.AABB"
+   ],
+   "n_mc": 2
+  }
+ ]
+}

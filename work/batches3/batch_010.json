@@ -1,0 +1,153 @@
+{
+ "batch": "D010",
+ "n": 8,
+ "classes": [
+  {
+   "obf": "dE",
+   "kind": "class",
+   "super": null,
+   "lines": 1660,
+   "is_module": false,
+   "anchored": [
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "mc": [
+    "net.minecraft.client.renderer.texture.AbstractTexture",
+    "net.minecraft.client.renderer.texture.DynamicTexture",
+    "net.minecraft.client.renderer.texture.TextureManager",
+    "net.minecraft.resources.Identifier"
+   ],
+   "n_mc": 4
+  },
+  {
+   "obf": "dh",
+   "kind": "class",
+   "super": "Record",
+   "lines": 1047,
+   "is_module": false,
+   "anchored": [
+    "SeQL/字符串解密+调用分发核心",
+    "Setting",
+    "TextRenderableAdapter"
+   ],
+   "mc": [
+    "net.minecraft.client.gui.Font",
+    "net.minecraft.client.gui.font.TextRenderable",
+    "net.minecraft.client.renderer.rendertype.RenderType",
+    "net.minecraft.network.chat.Style"
+   ],
+   "n_mc": 4
+  },
+  {
+   "obf": "_6",
+   "kind": "class",
+   "super": null,
+   "lines": 1014,
+   "is_module": false,
+   "anchored": [
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "mc": [
+    "net.minecraft.client.gui.GuiGraphicsExtractor",
+    "net.minecraft.client.input.CharacterEvent",
+    "net.minecraft.client.input.KeyEvent",
+    "net.minecraft.client.input.MouseButtonEvent"
+   ],
+   "n_mc": 4
+  },
+  {
+   "obf": "zS",
+   "kind": "class",
+   "super": null,
+   "lines": 697,
+   "is_module": false,
+   "anchored": [
+    "Module",
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "mc": [
+    "net.minecraft.client.player.LocalPlayer",
+    "net.minecraft.core.BlockPos",
+    "net.minecraft.world.level.block.WebBlock",
+    "net.minecraft.world.level.block.state.BlockState"
+   ],
+   "n_mc": 4
+  },
+  {
+   "obf": "_I",
+   "kind": "class",
+   "super": null,
+   "lines": 648,
+   "is_module": false,
+   "anchored": [
+    "HitParticles",
+    "IntSetting",
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "mc": [
+    "net.minecraft.client.multiplayer.ClientLevel",
+    "net.minecraft.core.BlockPos",
+    "net.minecraft.world.level.block.state.BlockState",
+    "net.minecraft.world.phys.Vec3"
+   ],
+   "n_mc": 4
+  },
+  {
+   "obf": "_v",
+   "kind": "class",
+   "super": null,
+   "lines": 403,
+   "is_module": false,
+   "anchored": [
+    "Easing",
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "mc": [
+    "net.minecraft.world.entity.EntityType",
+    "net.minecraft.world.entity.LivingEntity",
+    "net.minecraft.world.entity.animal.squid.Squid",
+    "net.minecraft.world.level.Level"
+   ],
+   "n_mc": 4
+  },
+  {
+   "obf": "u5",
+   "kind": "class",
+   "super": "Record",
+   "lines": 109,
+   "is_module": false,
+   "anchored": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc": [
+    "net.minecraft.world.Difficulty",
+    "net.minecraft.world.entity.player.Player",
+    "net.minecraft.world.phys.AABB",
+    "net.minecraft.world.phys.Vec3"
+   ],
+   "n_mc": 4
+  },
+  {
+   "obf": "O7",
+   "kind": "class",
+   "super": "Record",
+   "lines": 84,
+   "is_module": false,
+   "anchored": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc": [
+    "net.minecraft.core.BlockPos",
+    "net.minecraft.core.Direction",
+    "net.minecraft.world.entity.LivingEntity",
+    "net.minecraft.world.phys.Vec3"
+   ],
+   "n_mc": 4
+  }
+ ]
+}

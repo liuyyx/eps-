@@ -1,0 +1,148 @@
+{
+ "batch": "D006",
+ "n": 8,
+ "classes": [
+  {
+   "obf": "ep",
+   "kind": "class",
+   "super": "e",
+   "lines": 1024,
+   "is_module": true,
+   "anchored": [
+    "Category",
+    "KeyboardInputEvent",
+    "Module",
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "mc": [],
+   "n_mc": 0
+  },
+  {
+   "obf": "u0",
+   "kind": "class",
+   "super": "e",
+   "lines": 701,
+   "is_module": true,
+   "anchored": [
+    "BoolSetting",
+    "Category",
+    "ColorSetting",
+    "DoubleSetting",
+    "Module",
+    "Render2DEvent.HUD",
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "mc": [],
+   "n_mc": 0
+  },
+  {
+   "obf": "v",
+   "kind": "class",
+   "super": "e",
+   "lines": 673,
+   "is_module": true,
+   "anchored": [
+    "AttackEntityEvent",
+    "Category",
+    "EnumSetting",
+    "IntSetting",
+    "KeyboardInputEvent",
+    "Module",
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "mc": [],
+   "n_mc": 0
+  },
+  {
+   "obf": "ee",
+   "kind": "class",
+   "super": "e",
+   "lines": 517,
+   "is_module": true,
+   "anchored": [
+    "BoolSetting",
+    "Category",
+    "DestroyBlockEvent",
+    "Module",
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "mc": [],
+   "n_mc": 0
+  },
+  {
+   "obf": "e5",
+   "kind": "class",
+   "super": "e",
+   "lines": 502,
+   "is_module": true,
+   "anchored": [
+    "Category",
+    "ColorSetting",
+    "DoubleSetting",
+    "EnumSetting",
+    "Module",
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc": [],
+   "n_mc": 0
+  },
+  {
+   "obf": "el",
+   "kind": "class",
+   "super": "e",
+   "lines": 409,
+   "is_module": true,
+   "anchored": [
+    "Category",
+    "DoubleSetting",
+    "Module",
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc": [],
+   "n_mc": 0
+  },
+  {
+   "obf": "J",
+   "kind": "class",
+   "super": "e",
+   "lines": 82,
+   "is_module": true,
+   "anchored": [
+    "AfterRender3DEvent",
+    "Category",
+    "Module",
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc": [],
+   "n_mc": 0
+  },
+  {
+   "obf": "Om",
+   "kind": "class",
+   "super": null,
+   "lines": 2344,
+   "is_module": false,
+   "anchored": [
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "mc": [
+    "net.minecraft.core.BlockPos",
+    "net.minecraft.world.entity.Entity",
+    "net.minecraft.world.entity.EntityDimensions",
+    "net.minecraft.world.entity.EntityType",
+    "net.minecraft.world.entity.LivingEntity",
+    "net.minecraft.world.entity.player.Player",
+    "net.minecraft.world.entity.projectile.FishingHook",
+    "net.minecraft.world.entity.projectile.LlamaSpit",
+    "net.minecraft.world.entity.projectile.Projectile",
+    "net.minecraft.world.entity.projectile.ThrowableProjectile"
+   ],
+   "n_mc": 35
+  }
+ ]
+}

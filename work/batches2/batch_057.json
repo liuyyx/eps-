@@ -1,0 +1,158 @@
+{
+ "batch": "C057",
+ "n": 8,
+ "classes": [
+  {
+   "obf": "uP",
+   "kind": "class",
+   "super": null,
+   "lines": 33,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc_imports": [],
+   "candidates": []
+  },
+  {
+   "obf": "up",
+   "kind": "class",
+   "super": "e",
+   "lines": 3572,
+   "anchored_refs": [
+    "BoolSetting",
+    "ClientTickEvent.Pre",
+    "EnumSetting",
+    "IntSetting",
+    "Module",
+    "PacketEvent.Send",
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "mc_imports": [
+    "net.minecraft.network.protocol.game.ServerboundAttackPacket",
+    "net.minecraft.network.protocol.game.ServerboundContainerClosePacket",
+    "net.minecraft.network.protocol.game.ServerboundInteractPacket",
+    "net.minecraft.network.protocol.game.ServerboundMovePlayerPacket",
+    "net.minecraft.network.protocol.game.ServerboundPlayerActionPacket",
+    "net.minecraft.network.protocol.game.ServerboundUseItemOnPacket",
+    "net.minecraft.network.protocol.game.ServerboundUseItemPacket",
+    "net.minecraft.world.entity.EquipmentSlot",
+    "net.minecraft.world.item.AxeItem",
+    "net.minecraft.world.item.BowItem"
+   ],
+   "candidates": [
+    {
+     "src": "ModuleButton",
+     "score": 15.0,
+     "why": "锚点引用:BoolSetting,EnumSetting,IntSetting,Module,Setting"
+    },
+    {
+     "src": "ConfigHolder",
+     "score": 15.0,
+     "why": "锚点引用:BoolSetting,EnumSetting,IntSetting,Module,Setting"
+    },
+    {
+     "src": "ClientSetting",
+     "score": 15.0,
+     "why": "锚点引用:BoolSetting,EnumSetting,IntSetting,Module,Setting"
+    }
+   ]
+  },
+  {
+   "obf": "uQ",
+   "kind": "class",
+   "super": "Enum",
+   "lines": 123,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc_imports": [],
+   "candidates": []
+  },
+  {
+   "obf": "uq",
+   "kind": "class",
+   "super": "Enum",
+   "lines": 125,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc_imports": [],
+   "candidates": []
+  },
+  {
+   "obf": "uR",
+   "kind": "record",
+   "super": null,
+   "lines": 21,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc_imports": [],
+   "candidates": []
+  },
+  {
+   "obf": "ur",
+   "kind": "record",
+   "super": null,
+   "lines": 74,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc_imports": [
+    "net.minecraft.client.renderer.DynamicUniformStorage"
+   ],
+   "candidates": []
+  },
+  {
+   "obf": "uS",
+   "kind": "class",
+   "super": "Record",
+   "lines": 84,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc_imports": [],
+   "candidates": []
+  },
+  {
+   "obf": "us",
+   "kind": "class",
+   "super": "u9",
+   "lines": 1995,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "mc_imports": [
+    "net.minecraft.client.multiplayer.ClientLevel",
+    "net.minecraft.client.multiplayer.MultiPlayerGameMode",
+    "net.minecraft.client.player.LocalPlayer",
+    "net.minecraft.core.BlockPos",
+    "net.minecraft.core.Direction",
+    "net.minecraft.world.InteractionHand",
+    "net.minecraft.world.item.BlockItem",
+    "net.minecraft.world.item.Item",
+    "net.minecraft.world.item.ItemStack",
+    "net.minecraft.world.phys.AABB"
+   ],
+   "candidates": [
+    {
+     "src": "RegistryListSelectPopup",
+     "score": 3.31,
+     "why": "锚点引用:Setting; MCimport:2"
+    },
+    {
+     "src": "SettingHost",
+     "score": 3.27,
+     "why": "锚点引用:Setting; MCimport:1"
+    },
+    {
+     "src": "RegistryListSetting",
+     "score": 3.21,
+     "why": "锚点引用:Setting; MCimport:1"
+    }
+   ]
+  }
+ ]
+}

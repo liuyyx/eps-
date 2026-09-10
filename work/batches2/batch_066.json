@@ -1,0 +1,222 @@
+{
+ "batch": "C066",
+ "n": 8,
+ "classes": [
+  {
+   "obf": "v_",
+   "kind": "class",
+   "super": null,
+   "lines": 1592,
+   "anchored_refs": [
+    "EnumSetting",
+    "KeybindSetting",
+    "Module",
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "mc_imports": [],
+   "candidates": [
+    {
+     "src": "ModuleButton",
+     "score": 12.0,
+     "why": "锚点引用:EnumSetting,KeybindSetting,Module,Setting"
+    },
+    {
+     "src": "ConfigHolder",
+     "score": 12.0,
+     "why": "锚点引用:EnumSetting,KeybindSetting,Module,Setting"
+    },
+    {
+     "src": "ClientSetting",
+     "score": 12.0,
+     "why": "锚点引用:EnumSetting,KeybindSetting,Module,Setting"
+    }
+   ]
+  },
+  {
+   "obf": "X",
+   "kind": "class",
+   "super": "e",
+   "lines": 1293,
+   "anchored_refs": [
+    "IntSetting",
+    "KeybindSetting",
+    "Module",
+    "PlayerTickEvent.Pre",
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "mc_imports": [
+    "net.minecraft.client.multiplayer.ClientLevel",
+    "net.minecraft.client.player.LocalPlayer",
+    "net.minecraft.core.BlockPos",
+    "net.minecraft.world.entity.player.Inventory",
+    "net.minecraft.world.item.Item",
+    "net.minecraft.world.phys.BlockHitResult"
+   ],
+   "candidates": [
+    {
+     "src": "ModuleButton",
+     "score": 12.0,
+     "why": "锚点引用:IntSetting,KeybindSetting,Module,Setting"
+    },
+    {
+     "src": "ConfigHolder",
+     "score": 12.0,
+     "why": "锚点引用:IntSetting,KeybindSetting,Module,Setting"
+    },
+    {
+     "src": "ClientSetting",
+     "score": 12.0,
+     "why": "锚点引用:IntSetting,KeybindSetting,Module,Setting"
+    }
+   ]
+  },
+  {
+   "obf": "x",
+   "kind": "class",
+   "super": "e",
+   "lines": 276,
+   "anchored_refs": [
+    "Module",
+    "PacketEvent.Send",
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "mc_imports": [
+    "net.minecraft.network.protocol.game.ServerboundContainerClickPacket",
+    "net.minecraft.network.protocol.game.ServerboundContainerClosePacket",
+    "net.minecraft.network.protocol.game.ServerboundPlayerInputPacket",
+    "net.minecraft.world.entity.player.Input"
+   ],
+   "candidates": [
+    {
+     "src": "EpsilonAddon",
+     "score": 6.0,
+     "why": "锚点引用:Module,Setting"
+    },
+    {
+     "src": "I18NFileGenerator",
+     "score": 6.0,
+     "why": "锚点引用:Module,Setting"
+    },
+    {
+     "src": "ModuleButton",
+     "score": 6.0,
+     "why": "锚点引用:Module,Setting"
+    }
+   ]
+  },
+  {
+   "obf": "X1",
+   "kind": "class",
+   "super": null,
+   "lines": 285,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "mc_imports": [],
+   "candidates": [
+    {
+     "src": "EpsilonAddon",
+     "score": 3.0,
+     "why": "锚点引用:Setting"
+    },
+    {
+     "src": "I18NFileGenerator",
+     "score": 3.0,
+     "why": "锚点引用:Setting"
+    },
+    {
+     "src": "AddonPanelEntry",
+     "score": 3.0,
+     "why": "锚点引用:Setting"
+    }
+   ]
+  },
+  {
+   "obf": "X2",
+   "kind": "class",
+   "super": "Enum",
+   "lines": 140,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc_imports": [],
+   "candidates": []
+  },
+  {
+   "obf": "X3",
+   "kind": "class",
+   "super": null,
+   "lines": 768,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "mc_imports": [
+    "net.minecraft.client.player.LocalPlayer",
+    "net.minecraft.world.entity.player.Inventory",
+    "net.minecraft.world.item.Item",
+    "net.minecraft.world.item.ItemStack"
+   ],
+   "candidates": [
+    {
+     "src": "SettingHost",
+     "score": 3.57,
+     "why": "锚点引用:Setting; MCimport:1"
+    },
+    {
+     "src": "RegistryListSelectPopup",
+     "score": 3.44,
+     "why": "锚点引用:Setting; MCimport:2"
+    },
+    {
+     "src": "RegistryListSetting",
+     "score": 3.36,
+     "why": "锚点引用:Setting; MCimport:1"
+    }
+   ]
+  },
+  {
+   "obf": "X4",
+   "kind": "class",
+   "super": "Record",
+   "lines": 45,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心",
+    "TranslateComponent"
+   ],
+   "mc_imports": [],
+   "candidates": [
+    {
+     "src": "DefaultTranslateComponent",
+     "score": 3.0,
+     "why": "锚点引用:TranslateComponent"
+    },
+    {
+     "src": "EpsilonTranslateComponent",
+     "score": 3.0,
+     "why": "锚点引用:TranslateComponent"
+    },
+    {
+     "src": "EpsilonTranslations",
+     "score": 3.0,
+     "why": "锚点引用:TranslateComponent"
+    }
+   ]
+  },
+  {
+   "obf": "X5",
+   "kind": "class",
+   "super": "Enum",
+   "lines": 140,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc_imports": [],
+   "candidates": []
+  }
+ ]
+}

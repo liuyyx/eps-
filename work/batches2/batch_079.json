@@ -1,0 +1,139 @@
+{
+ "batch": "C079",
+ "n": 8,
+ "classes": [
+  {
+   "obf": "yu",
+   "kind": "class",
+   "super": null,
+   "lines": 1482,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "mc_imports": [],
+   "candidates": [
+    {
+     "src": "EpsilonAddon",
+     "score": 3.0,
+     "why": "锚点引用:Setting"
+    },
+    {
+     "src": "I18NFileGenerator",
+     "score": 3.0,
+     "why": "锚点引用:Setting"
+    },
+    {
+     "src": "AddonPanelEntry",
+     "score": 3.0,
+     "why": "锚点引用:Setting"
+    }
+   ]
+  },
+  {
+   "obf": "yV",
+   "kind": "class",
+   "super": "SubmitNodeStorage",
+   "lines": 38,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc_imports": [
+    "net.minecraft.client.model.Model",
+    "net.minecraft.client.renderer.SubmitNodeCollector",
+    "net.minecraft.client.renderer.SubmitNodeStorage",
+    "net.minecraft.client.renderer.feature.ModelFeatureRenderer",
+    "net.minecraft.client.renderer.rendertype.RenderType",
+    "net.minecraft.client.renderer.texture.TextureAtlasSprite"
+   ],
+   "candidates": []
+  },
+  {
+   "obf": "yv",
+   "kind": "class",
+   "super": "Enum",
+   "lines": 140,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc_imports": [],
+   "candidates": []
+  },
+  {
+   "obf": "yW",
+   "kind": "class",
+   "super": "Record",
+   "lines": 75,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc_imports": [],
+   "candidates": []
+  },
+  {
+   "obf": "yw",
+   "kind": "class",
+   "super": null,
+   "lines": 356,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心",
+    "TranslateComponent"
+   ],
+   "mc_imports": [],
+   "candidates": [
+    {
+     "src": "DefaultTranslateComponent",
+     "score": 3.0,
+     "why": "锚点引用:TranslateComponent"
+    },
+    {
+     "src": "EpsilonTranslateComponent",
+     "score": 3.0,
+     "why": "锚点引用:TranslateComponent"
+    },
+    {
+     "src": "EpsilonTranslations",
+     "score": 3.0,
+     "why": "锚点引用:TranslateComponent"
+    }
+   ]
+  },
+  {
+   "obf": "yX",
+   "kind": "class",
+   "super": "Record",
+   "lines": 128,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc_imports": [],
+   "candidates": []
+  },
+  {
+   "obf": "yY",
+   "kind": "class",
+   "super": "Record",
+   "lines": 57,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc_imports": [
+    "net.minecraft.core.BlockPos",
+    "net.minecraft.core.Direction",
+    "net.minecraft.world.phys.Vec3"
+   ],
+   "candidates": []
+  },
+  {
+   "obf": "yy",
+   "kind": "class",
+   "super": "y4",
+   "lines": 580,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc_imports": [],
+   "candidates": []
+  }
+ ]
+}

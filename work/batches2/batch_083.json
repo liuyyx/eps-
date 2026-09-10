@@ -1,0 +1,146 @@
+{
+ "batch": "C083",
+ "n": 8,
+ "classes": [
+  {
+   "obf": "zg",
+   "kind": "class",
+   "super": null,
+   "lines": 642,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc_imports": [],
+   "candidates": []
+  },
+  {
+   "obf": "zH",
+   "kind": "class",
+   "super": null,
+   "lines": 241,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "mc_imports": [],
+   "candidates": [
+    {
+     "src": "EpsilonAddon",
+     "score": 3.0,
+     "why": "锚点引用:Setting"
+    },
+    {
+     "src": "I18NFileGenerator",
+     "score": 3.0,
+     "why": "锚点引用:Setting"
+    },
+    {
+     "src": "AddonPanelEntry",
+     "score": 3.0,
+     "why": "锚点引用:Setting"
+    }
+   ]
+  },
+  {
+   "obf": "zh",
+   "kind": "class",
+   "super": "Enum",
+   "lines": 220,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc_imports": [],
+   "candidates": []
+  },
+  {
+   "obf": "zI",
+   "kind": "interface",
+   "super": null,
+   "lines": 16,
+   "anchored_refs": [],
+   "mc_imports": [],
+   "candidates": []
+  },
+  {
+   "obf": "zi",
+   "kind": "class",
+   "super": "Enum",
+   "lines": 123,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc_imports": [],
+   "candidates": []
+  },
+  {
+   "obf": "zJ",
+   "kind": "class",
+   "super": "Enum",
+   "lines": 753,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "mc_imports": [
+    "net.minecraft.resources.Identifier"
+   ],
+   "candidates": [
+    {
+     "src": "ClientSetting",
+     "score": 5.0,
+     "why": "锚点引用:Setting; MCimport:1"
+    },
+    {
+     "src": "SoundKey",
+     "score": 4.0,
+     "why": "MCimport:1"
+    },
+    {
+     "src": "RegistryListSetting",
+     "score": 3.5,
+     "why": "锚点引用:Setting; MCimport:1"
+    }
+   ]
+  },
+  {
+   "obf": "zj",
+   "kind": "class",
+   "super": "zc",
+   "lines": 630,
+   "anchored_refs": [
+    "BoolSetting",
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "mc_imports": [],
+   "candidates": [
+    {
+     "src": "ModuleButton",
+     "score": 6.0,
+     "why": "锚点引用:BoolSetting,Setting"
+    },
+    {
+     "src": "SettingsContent",
+     "score": 6.0,
+     "why": "锚点引用:BoolSetting,Setting"
+    },
+    {
+     "src": "SettingViewFactory",
+     "score": 6.0,
+     "why": "锚点引用:BoolSetting,Setting"
+    }
+   ]
+  },
+  {
+   "obf": "zK",
+   "kind": "class",
+   "super": "Enum",
+   "lines": 140,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc_imports": [],
+   "candidates": []
+  }
+ ]
+}

@@ -1,0 +1,128 @@
+{
+ "batch": "C069",
+ "n": 8,
+ "classes": [
+  {
+   "obf": "XJ",
+   "kind": "interface",
+   "super": "AutoCloseable",
+   "lines": 74,
+   "anchored_refs": [],
+   "mc_imports": [
+    "net.minecraft.client.gui.GuiGraphicsExtractor",
+    "net.minecraft.client.input.CharacterEvent",
+    "net.minecraft.client.input.KeyEvent",
+    "net.minecraft.client.input.MouseButtonEvent"
+   ],
+   "candidates": [
+    {
+     "src": "DoubleSettingRow",
+     "score": 5.0,
+     "why": "MCimport:4"
+    },
+    {
+     "src": "IntSettingRow",
+     "score": 5.0,
+     "why": "MCimport:4"
+    },
+    {
+     "src": "StringSettingRow",
+     "score": 5.0,
+     "why": "MCimport:4"
+    }
+   ]
+  },
+  {
+   "obf": "Xj",
+   "kind": "class",
+   "super": "Enum",
+   "lines": 140,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc_imports": [],
+   "candidates": []
+  },
+  {
+   "obf": "XK",
+   "kind": "class",
+   "super": null,
+   "lines": 170,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc_imports": [],
+   "candidates": []
+  },
+  {
+   "obf": "Xk",
+   "kind": "class",
+   "super": null,
+   "lines": 53,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc_imports": [],
+   "candidates": []
+  },
+  {
+   "obf": "XL",
+   "kind": "record",
+   "super": null,
+   "lines": 585,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "mc_imports": [],
+   "candidates": [
+    {
+     "src": "EpsilonAddon",
+     "score": 3.0,
+     "why": "锚点引用:Setting"
+    },
+    {
+     "src": "I18NFileGenerator",
+     "score": 3.0,
+     "why": "锚点引用:Setting"
+    },
+    {
+     "src": "AddonPanelEntry",
+     "score": 3.0,
+     "why": "锚点引用:Setting"
+    }
+   ]
+  },
+  {
+   "obf": "Xl",
+   "kind": "class",
+   "super": "Enum",
+   "lines": 140,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc_imports": [],
+   "candidates": []
+  },
+  {
+   "obf": "XM",
+   "kind": "class",
+   "super": "Enum",
+   "lines": 140,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc_imports": [],
+   "candidates": []
+  },
+  {
+   "obf": "Xm",
+   "kind": "class",
+   "super": "Xo",
+   "lines": 15,
+   "anchored_refs": [],
+   "mc_imports": [],
+   "candidates": []
+  }
+ ]
+}

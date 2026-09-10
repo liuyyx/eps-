@@ -1,0 +1,118 @@
+{
+ "batch": "D023",
+ "n": 8,
+ "classes": [
+  {
+   "obf": "lx",
+   "kind": "class",
+   "super": "Record",
+   "lines": 49,
+   "is_module": false,
+   "anchored": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc": [
+    "net.minecraft.world.InteractionHand"
+   ],
+   "n_mc": 1
+  },
+  {
+   "obf": "yF",
+   "kind": "class",
+   "super": "Record",
+   "lines": 49,
+   "is_module": false,
+   "anchored": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc": [
+    "net.minecraft.world.InteractionHand"
+   ],
+   "n_mc": 1
+  },
+  {
+   "obf": "Dp",
+   "kind": "class",
+   "super": "Record",
+   "lines": 48,
+   "is_module": false,
+   "anchored": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc": [
+    "net.minecraft.world.phys.Vec3"
+   ],
+   "n_mc": 1
+  },
+  {
+   "obf": "dV",
+   "kind": "class",
+   "super": "Record",
+   "lines": 47,
+   "is_module": false,
+   "anchored": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc": [
+    "net.minecraft.world.phys.AABB"
+   ],
+   "n_mc": 1
+  },
+  {
+   "obf": "_w",
+   "kind": "record",
+   "super": null,
+   "lines": 25,
+   "is_module": false,
+   "anchored": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc": [
+    "net.minecraft.client.renderer.DynamicUniformStorage"
+   ],
+   "n_mc": 1
+  },
+  {
+   "obf": "Oz",
+   "kind": "record",
+   "super": null,
+   "lines": 24,
+   "is_module": false,
+   "anchored": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc": [
+    "net.minecraft.core.BlockPos"
+   ],
+   "n_mc": 1
+  },
+  {
+   "obf": "zo",
+   "kind": "class",
+   "super": null,
+   "lines": 23,
+   "is_module": false,
+   "anchored": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc": [
+    "net.minecraft.client.gui.GuiGraphicsExtractor"
+   ],
+   "n_mc": 1
+  },
+  {
+   "obf": "zZ",
+   "kind": "class",
+   "super": null,
+   "lines": 23,
+   "is_module": false,
+   "anchored": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc": [
+    "net.minecraft.core.BlockPos"
+   ],
+   "n_mc": 1
+  }
+ ]
+}

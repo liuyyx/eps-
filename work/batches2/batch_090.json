@@ -1,0 +1,205 @@
+{
+ "batch": "C090",
+ "n": 8,
+ "classes": [
+  {
+   "obf": "_G",
+   "kind": "class",
+   "super": "Record",
+   "lines": 104,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc_imports": [],
+   "candidates": []
+  },
+  {
+   "obf": "_g",
+   "kind": "class",
+   "super": null,
+   "lines": 8,
+   "anchored_refs": [],
+   "mc_imports": [],
+   "candidates": []
+  },
+  {
+   "obf": "_H",
+   "kind": "class",
+   "super": "Record",
+   "lines": 510,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "mc_imports": [
+    "net.minecraft.client.renderer.DynamicUniformStorage"
+   ],
+   "candidates": [
+    {
+     "src": "EpsilonAddon",
+     "score": 3.0,
+     "why": "锚点引用:Setting"
+    },
+    {
+     "src": "I18NFileGenerator",
+     "score": 3.0,
+     "why": "锚点引用:Setting"
+    },
+    {
+     "src": "AddonPanelEntry",
+     "score": 3.0,
+     "why": "锚点引用:Setting"
+    }
+   ]
+  },
+  {
+   "obf": "_h",
+   "kind": "class",
+   "super": null,
+   "lines": 854,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "mc_imports": [
+    "net.minecraft.client.multiplayer.ClientLevel",
+    "net.minecraft.core.BlockPos",
+    "net.minecraft.core.Direction",
+    "net.minecraft.world.entity.Entity",
+    "net.minecraft.world.entity.ExperienceOrb",
+    "net.minecraft.world.entity.boss.enderdragon.EndCrystal",
+    "net.minecraft.world.entity.item.ItemEntity",
+    "net.minecraft.world.entity.projectile.arrow.Arrow",
+    "net.minecraft.world.entity.projectile.throwableitemprojectile.ThrownExperienceBottle",
+    "net.minecraft.world.item.ItemStack"
+   ],
+   "candidates": [
+    {
+     "src": "RegistryListSelectPopup",
+     "score": 3.28,
+     "why": "锚点引用:Setting; MCimport:2"
+    },
+    {
+     "src": "SettingHost",
+     "score": 3.22,
+     "why": "锚点引用:Setting; MCimport:1"
+    },
+    {
+     "src": "RegistryListSetting",
+     "score": 3.18,
+     "why": "锚点引用:Setting; MCimport:1"
+    }
+   ]
+  },
+  {
+   "obf": "_I",
+   "kind": "class",
+   "super": null,
+   "lines": 648,
+   "anchored_refs": [
+    "IntSetting",
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "mc_imports": [
+    "net.minecraft.client.multiplayer.ClientLevel",
+    "net.minecraft.core.BlockPos",
+    "net.minecraft.world.level.block.state.BlockState",
+    "net.minecraft.world.phys.Vec3"
+   ],
+   "candidates": [
+    {
+     "src": "ModuleButton",
+     "score": 6.0,
+     "why": "锚点引用:IntSetting,Setting"
+    },
+    {
+     "src": "SettingsContent",
+     "score": 6.0,
+     "why": "锚点引用:IntSetting,Setting"
+    },
+    {
+     "src": "SettingViewFactory",
+     "score": 6.0,
+     "why": "锚点引用:IntSetting,Setting"
+    }
+   ]
+  },
+  {
+   "obf": "_i",
+   "kind": "class",
+   "super": "RemotePlayer",
+   "lines": 392,
+   "anchored_refs": [
+    "Render3DEvent",
+    "SeQL/字符串解密+调用分发核心",
+    "Setting",
+    "WalkAnimationStateAccessor"
+   ],
+   "mc_imports": [
+    "net.minecraft.client.Minecraft",
+    "net.minecraft.client.multiplayer.ClientLevel",
+    "net.minecraft.client.player.RemotePlayer",
+    "net.minecraft.network.chat.Component",
+    "net.minecraft.world.InteractionHand",
+    "net.minecraft.world.entity.WalkAnimationState",
+    "net.minecraft.world.entity.player.Player"
+   ],
+   "candidates": [
+    {
+     "src": "PopChams",
+     "score": 5.09,
+     "why": "锚点引用:Render3DEvent; MCimport:3"
+    },
+    {
+     "src": "LogoutSpots",
+     "score": 5.0,
+     "why": "锚点引用:Render3DEvent; MCimport:3"
+    },
+    {
+     "src": "Module",
+     "score": 3.57,
+     "why": "锚点引用:Setting; MCimport:1"
+    }
+   ]
+  },
+  {
+   "obf": "_j",
+   "kind": "class",
+   "super": null,
+   "lines": 627,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心",
+    "Setting",
+    "异步资源/数据加载缓存类（implements DS 接口，确切类名未定）"
+   ],
+   "mc_imports": [],
+   "candidates": [
+    {
+     "src": "EpsilonAddon",
+     "score": 3.0,
+     "why": "锚点引用:Setting"
+    },
+    {
+     "src": "I18NFileGenerator",
+     "score": 3.0,
+     "why": "锚点引用:Setting"
+    },
+    {
+     "src": "AddonPanelEntry",
+     "score": 3.0,
+     "why": "锚点引用:Setting"
+    }
+   ]
+  },
+  {
+   "obf": "_k",
+   "kind": "class",
+   "super": null,
+   "lines": 20,
+   "anchored_refs": [],
+   "mc_imports": [],
+   "candidates": []
+  }
+ ]
+}

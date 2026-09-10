@@ -1,0 +1,194 @@
+{
+ "batch": "C092",
+ "n": 8,
+ "classes": [
+  {
+   "obf": "_Q",
+   "kind": "interface",
+   "super": null,
+   "lines": 41,
+   "anchored_refs": [],
+   "mc_imports": [],
+   "candidates": []
+  },
+  {
+   "obf": "_q",
+   "kind": "class",
+   "super": null,
+   "lines": 1469,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "mc_imports": [
+    "net.minecraft.client.Minecraft",
+    "net.minecraft.client.OptionInstance",
+    "net.minecraft.client.player.LocalPlayer",
+    "net.minecraft.core.BlockPos",
+    "net.minecraft.core.Direction",
+    "net.minecraft.world.entity.Entity",
+    "net.minecraft.world.entity.LivingEntity",
+    "net.minecraft.world.level.ClipContext",
+    "net.minecraft.world.phys.AABB",
+    "net.minecraft.world.phys.HitResult"
+   ],
+   "candidates": [
+    {
+     "src": "RotationUtils",
+     "score": 3.46,
+     "why": "MCimport:8"
+    },
+    {
+     "src": "Module",
+     "score": 3.36,
+     "why": "锚点引用:Setting; MCimport:1"
+    },
+    {
+     "src": "EpsilonAddon",
+     "score": 3.0,
+     "why": "锚点引用:Setting"
+    }
+   ]
+  },
+  {
+   "obf": "_R",
+   "kind": "class",
+   "super": null,
+   "lines": 2128,
+   "anchored_refs": [
+    "BoolSetting",
+    "DoubleSetting",
+    "SeQL/字符串解密+调用分发核心",
+    "Setting",
+    "TabList?"
+   ],
+   "mc_imports": [
+    "net.minecraft.client.multiplayer.ClientPacketListener",
+    "net.minecraft.client.player.LocalPlayer"
+   ],
+   "candidates": [
+    {
+     "src": "ModuleButton",
+     "score": 9.0,
+     "why": "锚点引用:BoolSetting,DoubleSetting,Setting"
+    },
+    {
+     "src": "SettingsContent",
+     "score": 9.0,
+     "why": "锚点引用:BoolSetting,DoubleSetting,Setting"
+    },
+    {
+     "src": "SettingViewFactory",
+     "score": 9.0,
+     "why": "锚点引用:BoolSetting,DoubleSetting,Setting"
+    }
+   ]
+  },
+  {
+   "obf": "_r",
+   "kind": "class",
+   "super": "Enum",
+   "lines": 168,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc_imports": [],
+   "candidates": []
+  },
+  {
+   "obf": "_s",
+   "kind": "class",
+   "super": "Enum",
+   "lines": 123,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc_imports": [],
+   "candidates": []
+  },
+  {
+   "obf": "_T",
+   "kind": "class",
+   "super": "Enum",
+   "lines": 140,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc_imports": [],
+   "candidates": []
+  },
+  {
+   "obf": "_t",
+   "kind": "class",
+   "super": null,
+   "lines": 1163,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "mc_imports": [],
+   "candidates": [
+    {
+     "src": "EpsilonAddon",
+     "score": 3.0,
+     "why": "锚点引用:Setting"
+    },
+    {
+     "src": "I18NFileGenerator",
+     "score": 3.0,
+     "why": "锚点引用:Setting"
+    },
+    {
+     "src": "AddonPanelEntry",
+     "score": 3.0,
+     "why": "锚点引用:Setting"
+    }
+   ]
+  },
+  {
+   "obf": "_u",
+   "kind": "class",
+   "super": null,
+   "lines": 295,
+   "anchored_refs": [
+    "BoolSetting",
+    "BoolSettingRow",
+    "ButtonSetting",
+    "ButtonSettingRow",
+    "ColorSetting",
+    "DoubleSetting",
+    "DoubleSettingRow",
+    "EnumSetting",
+    "IntSetting",
+    "IntSettingRow",
+    "KeybindSetting",
+    "RegistryListSetting",
+    "RegistryListSettingRow",
+    "SeQL/字符串解密+调用分发核心",
+    "Setting",
+    "SettingRow",
+    "StringListSetting",
+    "StringListSettingRow",
+    "StringSetting"
+   ],
+   "mc_imports": [],
+   "candidates": [
+    {
+     "src": "ModuleButton",
+     "score": 33.0,
+     "why": "锚点引用:BoolSetting,ButtonSetting,ColorSetting,DoubleSetting,EnumSetting"
+    },
+    {
+     "src": "SettingsContent",
+     "score": 33.0,
+     "why": "锚点引用:BoolSetting,ButtonSetting,ColorSetting,DoubleSetting,EnumSetting"
+    },
+    {
+     "src": "SettingViewFactory",
+     "score": 33.0,
+     "why": "锚点引用:BoolSetting,ButtonSetting,ColorSetting,DoubleSetting,EnumSetting"
+    }
+   ]
+  }
+ ]
+}

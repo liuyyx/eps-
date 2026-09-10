@@ -1,0 +1,120 @@
+{
+ "batch": "D020",
+ "n": 8,
+ "classes": [
+  {
+   "obf": "Oi",
+   "kind": "class",
+   "super": "Record",
+   "lines": 150,
+   "is_module": false,
+   "anchored": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc": [
+    "net.minecraft.client.renderer.DynamicUniformStorage"
+   ],
+   "n_mc": 1
+  },
+  {
+   "obf": "iz",
+   "kind": "record",
+   "super": null,
+   "lines": 142,
+   "is_module": false,
+   "anchored": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc": [
+    "net.minecraft.client.renderer.DynamicUniformStorage"
+   ],
+   "n_mc": 1
+  },
+  {
+   "obf": "_F",
+   "kind": "record",
+   "super": null,
+   "lines": 129,
+   "is_module": false,
+   "anchored": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc": [
+    "net.minecraft.client.renderer.DynamicUniformStorage"
+   ],
+   "n_mc": 1
+  },
+  {
+   "obf": "Oe",
+   "kind": "class",
+   "super": null,
+   "lines": 105,
+   "is_module": false,
+   "anchored": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc": [
+    "net.minecraft.resources.Identifier"
+   ],
+   "n_mc": 1
+  },
+  {
+   "obf": "iL",
+   "kind": "class",
+   "super": "Record",
+   "lines": 99,
+   "is_module": false,
+   "anchored": [
+    "CrystalSnapshot",
+    "ResistantBlockCache",
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc": [
+    "net.minecraft.core.BlockPos"
+   ],
+   "n_mc": 1
+  },
+  {
+   "obf": "uY",
+   "kind": "class",
+   "super": null,
+   "lines": 95,
+   "is_module": false,
+   "anchored": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc": [
+    "net.minecraft.world.entity.MobCategory"
+   ],
+   "n_mc": 1
+  },
+  {
+   "obf": "iZ",
+   "kind": "class",
+   "super": "Record",
+   "lines": 91,
+   "is_module": false,
+   "anchored": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc": [
+    "net.minecraft.resources.Identifier"
+   ],
+   "n_mc": 1
+  },
+  {
+   "obf": "gN",
+   "kind": "class",
+   "super": "Record",
+   "lines": 82,
+   "is_module": false,
+   "anchored": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc": [
+    "net.minecraft.world.entity.EntityType"
+   ],
+   "n_mc": 1
+  }
+ ]
+}

@@ -1,0 +1,141 @@
+{
+ "batch": "D016",
+ "n": 8,
+ "classes": [
+  {
+   "obf": "zU",
+   "kind": "class",
+   "super": null,
+   "lines": 2690,
+   "is_module": false,
+   "anchored": [
+    "LuminTexture",
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "mc": [
+    "net.minecraft.resources.Identifier"
+   ],
+   "n_mc": 1
+  },
+  {
+   "obf": "y_",
+   "kind": "class",
+   "super": null,
+   "lines": 2526,
+   "is_module": false,
+   "anchored": [
+    "LuminImmediateRenderer",
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "mc": [
+    "net.minecraft.resources.Identifier"
+   ],
+   "n_mc": 1
+  },
+  {
+   "obf": "dC",
+   "kind": "class",
+   "super": null,
+   "lines": 2484,
+   "is_module": false,
+   "anchored": [
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "mc": [
+    "net.minecraft.resources.Identifier"
+   ],
+   "n_mc": 1
+  },
+  {
+   "obf": "nK",
+   "kind": "class",
+   "super": null,
+   "lines": 2361,
+   "is_module": false,
+   "anchored": [
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "mc": [
+    "net.minecraft.resources.Identifier"
+   ],
+   "n_mc": 1
+  },
+  {
+   "obf": "gz",
+   "kind": "class",
+   "super": null,
+   "lines": 2337,
+   "is_module": false,
+   "anchored": [
+    "LuminTexture",
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "mc": [
+    "net.minecraft.resources.Identifier"
+   ],
+   "n_mc": 1
+  },
+  {
+   "obf": "eg",
+   "kind": "class",
+   "super": "eh",
+   "lines": 2123,
+   "is_module": false,
+   "anchored": [
+    "BoolSetting",
+    "ColorSetting",
+    "DoubleSetting",
+    "Easing",
+    "HudEditorScreen",
+    "HudModule",
+    "IntSetting",
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "mc": [
+    "net.minecraft.client.DeltaTracker"
+   ],
+   "n_mc": 1
+  },
+  {
+   "obf": "i2",
+   "kind": "class",
+   "super": null,
+   "lines": 1701,
+   "is_module": false,
+   "anchored": [
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "mc": [
+    "net.minecraft.resources.Identifier"
+   ],
+   "n_mc": 1
+  },
+  {
+   "obf": "eD",
+   "kind": "class",
+   "super": "eh",
+   "lines": 1663,
+   "is_module": false,
+   "anchored": [
+    "BoolSetting",
+    "ColorSetting",
+    "EnumSetting",
+    "HudModule",
+    "Module",
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "mc": [
+    "net.minecraft.client.DeltaTracker"
+   ],
+   "n_mc": 1
+  }
+ ]
+}

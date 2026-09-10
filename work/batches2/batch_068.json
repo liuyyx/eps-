@@ -1,0 +1,116 @@
+{
+ "batch": "C068",
+ "n": 8,
+ "classes": [
+  {
+   "obf": "XC",
+   "kind": "class",
+   "super": "Enum",
+   "lines": 140,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc_imports": [],
+   "candidates": []
+  },
+  {
+   "obf": "XD",
+   "kind": "class",
+   "super": "Enum",
+   "lines": 142,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc_imports": [],
+   "candidates": []
+  },
+  {
+   "obf": "Xd",
+   "kind": "class",
+   "super": "Record",
+   "lines": 45,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心",
+    "SettingRow"
+   ],
+   "mc_imports": [],
+   "candidates": []
+  },
+  {
+   "obf": "XE",
+   "kind": "class",
+   "super": "Enum",
+   "lines": 125,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc_imports": [],
+   "candidates": []
+  },
+  {
+   "obf": "Xg",
+   "kind": "class",
+   "super": "Record",
+   "lines": 55,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc_imports": [],
+   "candidates": []
+  },
+  {
+   "obf": "XH",
+   "kind": "class",
+   "super": null,
+   "lines": 18,
+   "anchored_refs": [],
+   "mc_imports": [],
+   "candidates": []
+  },
+  {
+   "obf": "XI",
+   "kind": "class",
+   "super": null,
+   "lines": 3862,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心",
+    "Setting",
+    "TranslateComponent"
+   ],
+   "mc_imports": [
+    "net.minecraft.client.gui.GuiGraphicsExtractor",
+    "net.minecraft.client.input.CharacterEvent",
+    "net.minecraft.client.input.KeyEvent",
+    "net.minecraft.client.input.MouseButtonEvent"
+   ],
+   "candidates": [
+    {
+     "src": "ClientSettingPanel",
+     "score": 8.0,
+     "why": "锚点引用:TranslateComponent; MCimport:4"
+    },
+    {
+     "src": "ModuleDetailPanel",
+     "score": 8.0,
+     "why": "锚点引用:Setting; MCimport:4"
+    },
+    {
+     "src": "AddonClientSettingTab",
+     "score": 8.0,
+     "why": "锚点引用:Setting; MCimport:4"
+    }
+   ]
+  },
+  {
+   "obf": "Xi",
+   "kind": "class",
+   "super": null,
+   "lines": 48,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc_imports": [],
+   "candidates": []
+  }
+ ]
+}

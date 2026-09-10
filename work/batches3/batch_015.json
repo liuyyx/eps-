@@ -1,0 +1,128 @@
+{
+ "batch": "D015",
+ "n": 8,
+ "classes": [
+  {
+   "obf": "di",
+   "kind": "class",
+   "super": "Record",
+   "lines": 55,
+   "is_module": false,
+   "anchored": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc": [
+    "net.minecraft.core.BlockPos",
+    "net.minecraft.world.phys.BlockHitResult"
+   ],
+   "n_mc": 2
+  },
+  {
+   "obf": "gw",
+   "kind": "class",
+   "super": "gs",
+   "lines": 46,
+   "is_module": false,
+   "anchored": [
+    "EffectParticle",
+    "MasEffectsParticleRenderer",
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc": [
+    "net.minecraft.resources.Identifier",
+    "net.minecraft.world.phys.Vec3"
+   ],
+   "n_mc": 2
+  },
+  {
+   "obf": "gK",
+   "kind": "class",
+   "super": "gs",
+   "lines": 45,
+   "is_module": false,
+   "anchored": [
+    "EffectParticle",
+    "MasEffectsParticleRenderer",
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc": [
+    "net.minecraft.resources.Identifier",
+    "net.minecraft.world.phys.Vec3"
+   ],
+   "n_mc": 2
+  },
+  {
+   "obf": "n3",
+   "kind": "class",
+   "super": null,
+   "lines": 44,
+   "is_module": false,
+   "anchored": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc": [
+    "net.minecraft.world.entity.LivingEntity",
+    "net.minecraft.world.phys.Vec3"
+   ],
+   "n_mc": 2
+  },
+  {
+   "obf": "zx",
+   "kind": "class",
+   "super": null,
+   "lines": 36,
+   "is_module": false,
+   "anchored": [],
+   "mc": [
+    "net.minecraft.client.gui.GuiGraphicsExtractor",
+    "net.minecraft.client.input.MouseButtonEvent"
+   ],
+   "n_mc": 2
+  },
+  {
+   "obf": "dO",
+   "kind": "class",
+   "super": "de",
+   "lines": 33,
+   "is_module": false,
+   "anchored": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc": [
+    "net.minecraft.core.BlockPos",
+    "net.minecraft.world.level.block.Block"
+   ],
+   "n_mc": 2
+  },
+  {
+   "obf": "yd",
+   "kind": "record",
+   "super": null,
+   "lines": 31,
+   "is_module": false,
+   "anchored": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc": [
+    "net.minecraft.world.phys.HitResult",
+    "net.minecraft.world.phys.Vec3"
+   ],
+   "n_mc": 2
+  },
+  {
+   "obf": "i9",
+   "kind": "class",
+   "super": null,
+   "lines": 28,
+   "is_module": false,
+   "anchored": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc": [
+    "net.minecraft.core.BlockPos",
+    "net.minecraft.world.level.block.Block"
+   ],
+   "n_mc": 2
+  }
+ ]
+}

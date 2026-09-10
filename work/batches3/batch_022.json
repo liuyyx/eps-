@@ -1,0 +1,116 @@
+{
+ "batch": "D022",
+ "n": 8,
+ "classes": [
+  {
+   "obf": "uu",
+   "kind": "class",
+   "super": null,
+   "lines": 65,
+   "is_module": false,
+   "anchored": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc": [
+    "net.minecraft.world.entity.MobCategory"
+   ],
+   "n_mc": 1
+  },
+  {
+   "obf": "zX",
+   "kind": "class",
+   "super": "Record",
+   "lines": 60,
+   "is_module": false,
+   "anchored": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc": [
+    "net.minecraft.world.phys.AABB"
+   ],
+   "n_mc": 1
+  },
+  {
+   "obf": "dZ",
+   "kind": "class",
+   "super": null,
+   "lines": 59,
+   "is_module": false,
+   "anchored": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc": [
+    "net.minecraft.world.Difficulty"
+   ],
+   "n_mc": 1
+  },
+  {
+   "obf": "yU",
+   "kind": "class",
+   "super": null,
+   "lines": 59,
+   "is_module": false,
+   "anchored": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc": [
+    "net.minecraft.world.entity.EquipmentSlot"
+   ],
+   "n_mc": 1
+  },
+  {
+   "obf": "_1",
+   "kind": "class",
+   "super": "Record",
+   "lines": 59,
+   "is_module": false,
+   "anchored": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc": [
+    "net.minecraft.world.item.ItemStack"
+   ],
+   "n_mc": 1
+  },
+  {
+   "obf": "nF",
+   "kind": "record",
+   "super": null,
+   "lines": 56,
+   "is_module": false,
+   "anchored": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc": [
+    "net.minecraft.core.BlockPos"
+   ],
+   "n_mc": 1
+  },
+  {
+   "obf": "O0",
+   "kind": "interface",
+   "super": "AutoCloseable",
+   "lines": 52,
+   "is_module": false,
+   "anchored": [],
+   "mc": [
+    "net.minecraft.client.input.MouseButtonEvent"
+   ],
+   "n_mc": 1
+  },
+  {
+   "obf": "iO",
+   "kind": "class",
+   "super": "Record",
+   "lines": 49,
+   "is_module": false,
+   "anchored": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc": [
+    "net.minecraft.resources.Identifier"
+   ],
+   "n_mc": 1
+  }
+ ]
+}

@@ -1,0 +1,128 @@
+{
+ "batch": "D017",
+ "n": 8,
+ "classes": [
+  {
+   "obf": "y0",
+   "kind": "class",
+   "super": null,
+   "lines": 1191,
+   "is_module": false,
+   "anchored": [
+    "Easing",
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "mc": [
+    "net.minecraft.resources.Identifier"
+   ],
+   "n_mc": 1
+  },
+  {
+   "obf": "iv",
+   "kind": "class",
+   "super": null,
+   "lines": 1158,
+   "is_module": false,
+   "anchored": [
+    "SeQL/字符串解密+调用分发核心",
+    "Setting",
+    "WireframeEntityRenderer.WireframeVertexConsumer"
+   ],
+   "mc": [
+    "net.minecraft.world.entity.Entity"
+   ],
+   "n_mc": 1
+  },
+  {
+   "obf": "O8",
+   "kind": "class",
+   "super": "nV",
+   "lines": 847,
+   "is_module": false,
+   "anchored": [
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "mc": [
+    "net.minecraft.client.User"
+   ],
+   "n_mc": 1
+  },
+  {
+   "obf": "X_",
+   "kind": "class",
+   "super": null,
+   "lines": 810,
+   "is_module": false,
+   "anchored": [
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "mc": [
+    "net.minecraft.client.Minecraft"
+   ],
+   "n_mc": 1
+  },
+  {
+   "obf": "z1",
+   "kind": "class",
+   "super": null,
+   "lines": 775,
+   "is_module": false,
+   "anchored": [
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "mc": [
+    "net.minecraft.resources.Identifier"
+   ],
+   "n_mc": 1
+  },
+  {
+   "obf": "zN",
+   "kind": "class",
+   "super": null,
+   "lines": 775,
+   "is_module": false,
+   "anchored": [
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "mc": [
+    "net.minecraft.resources.Identifier"
+   ],
+   "n_mc": 1
+  },
+  {
+   "obf": "zJ",
+   "kind": "class",
+   "super": "Enum",
+   "lines": 753,
+   "is_module": false,
+   "anchored": [
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "mc": [
+    "net.minecraft.resources.Identifier"
+   ],
+   "n_mc": 1
+  },
+  {
+   "obf": "yK",
+   "kind": "class",
+   "super": null,
+   "lines": 746,
+   "is_module": false,
+   "anchored": [
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "mc": [
+    "net.minecraft.resources.Identifier"
+   ],
+   "n_mc": 1
+  }
+ ]
+}

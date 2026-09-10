@@ -1,0 +1,116 @@
+{
+ "batch": "C058",
+ "n": 8,
+ "classes": [
+  {
+   "obf": "ut",
+   "kind": "class",
+   "super": "Enum",
+   "lines": 185,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc_imports": [],
+   "candidates": []
+  },
+  {
+   "obf": "uU",
+   "kind": "class",
+   "super": null,
+   "lines": 82,
+   "anchored_refs": [],
+   "mc_imports": [],
+   "candidates": []
+  },
+  {
+   "obf": "uu",
+   "kind": "class",
+   "super": null,
+   "lines": 65,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc_imports": [
+    "net.minecraft.world.entity.MobCategory"
+   ],
+   "candidates": []
+  },
+  {
+   "obf": "uV",
+   "kind": "record",
+   "super": null,
+   "lines": 19,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc_imports": [],
+   "candidates": []
+  },
+  {
+   "obf": "uw",
+   "kind": "record",
+   "super": null,
+   "lines": 49,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc_imports": [
+    "net.minecraft.client.renderer.DynamicUniformStorage"
+   ],
+   "candidates": []
+  },
+  {
+   "obf": "uX",
+   "kind": "class",
+   "super": "Record",
+   "lines": 59,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc_imports": [
+    "net.minecraft.world.phys.Vec3"
+   ],
+   "candidates": [
+    {
+     "src": "FollowerPath",
+     "score": 4.0,
+     "why": "MCimport:1"
+    },
+    {
+     "src": "MixinEntity",
+     "score": 2.0,
+     "why": "MCimport:1"
+    },
+    {
+     "src": "MixinLivingEntity",
+     "score": 2.0,
+     "why": "MCimport:1"
+    }
+   ]
+  },
+  {
+   "obf": "ux",
+   "kind": "class",
+   "super": "Record",
+   "lines": 64,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc_imports": [],
+   "candidates": []
+  },
+  {
+   "obf": "uY",
+   "kind": "class",
+   "super": null,
+   "lines": 95,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc_imports": [
+    "net.minecraft.world.entity.MobCategory"
+   ],
+   "candidates": []
+  }
+ ]
+}

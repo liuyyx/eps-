@@ -1,0 +1,147 @@
+{
+ "batch": "C071",
+ "n": 8,
+ "classes": [
+  {
+   "obf": "Xs",
+   "kind": "class",
+   "super": "Record",
+   "lines": 67,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc_imports": [],
+   "candidates": []
+  },
+  {
+   "obf": "XT",
+   "kind": "class",
+   "super": null,
+   "lines": 474,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "mc_imports": [
+    "net.minecraft.commands.CommandBuildContext"
+   ],
+   "candidates": [
+    {
+     "src": "EpsilonAddon",
+     "score": 3.0,
+     "why": "锚点引用:Setting"
+    },
+    {
+     "src": "I18NFileGenerator",
+     "score": 3.0,
+     "why": "锚点引用:Setting"
+    },
+    {
+     "src": "AddonPanelEntry",
+     "score": 3.0,
+     "why": "锚点引用:Setting"
+    }
+   ]
+  },
+  {
+   "obf": "Xt",
+   "kind": "class",
+   "super": "Record",
+   "lines": 794,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc_imports": [],
+   "candidates": []
+  },
+  {
+   "obf": "XU",
+   "kind": "class",
+   "super": "Enum",
+   "lines": 185,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc_imports": [],
+   "candidates": []
+  },
+  {
+   "obf": "Xu",
+   "kind": "record",
+   "super": null,
+   "lines": 249,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "mc_imports": [],
+   "candidates": [
+    {
+     "src": "EpsilonAddon",
+     "score": 3.0,
+     "why": "锚点引用:Setting"
+    },
+    {
+     "src": "I18NFileGenerator",
+     "score": 3.0,
+     "why": "锚点引用:Setting"
+    },
+    {
+     "src": "AddonPanelEntry",
+     "score": 3.0,
+     "why": "锚点引用:Setting"
+    }
+   ]
+  },
+  {
+   "obf": "Xv",
+   "kind": "class",
+   "super": "Enum",
+   "lines": 179,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心",
+    "TranslateComponent"
+   ],
+   "mc_imports": [],
+   "candidates": [
+    {
+     "src": "DefaultTranslateComponent",
+     "score": 3.0,
+     "why": "锚点引用:TranslateComponent"
+    },
+    {
+     "src": "EpsilonTranslateComponent",
+     "score": 3.0,
+     "why": "锚点引用:TranslateComponent"
+    },
+    {
+     "src": "EpsilonTranslations",
+     "score": 3.0,
+     "why": "锚点引用:TranslateComponent"
+    }
+   ]
+  },
+  {
+   "obf": "XW",
+   "kind": "class",
+   "super": "Enum",
+   "lines": 125,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc_imports": [],
+   "candidates": []
+  },
+  {
+   "obf": "Xw",
+   "kind": "class",
+   "super": "Record",
+   "lines": 82,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc_imports": [],
+   "candidates": []
+  }
+ ]
+}

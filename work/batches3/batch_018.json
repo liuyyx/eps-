@@ -1,0 +1,125 @@
+{
+ "batch": "D018",
+ "n": 8,
+ "classes": [
+  {
+   "obf": "nx",
+   "kind": "class",
+   "super": "nV",
+   "lines": 737,
+   "is_module": false,
+   "anchored": [
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "mc": [
+    "net.minecraft.client.User"
+   ],
+   "n_mc": 1
+  },
+  {
+   "obf": "OE",
+   "kind": "class",
+   "super": null,
+   "lines": 659,
+   "is_module": false,
+   "anchored": [
+    "ResourceLocationUtils",
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc": [
+    "net.minecraft.resources.Identifier"
+   ],
+   "n_mc": 1
+  },
+  {
+   "obf": "_V",
+   "kind": "class",
+   "super": null,
+   "lines": 622,
+   "is_module": false,
+   "anchored": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc": [
+    "net.minecraft.resources.Identifier"
+   ],
+   "n_mc": 1
+  },
+  {
+   "obf": "go",
+   "kind": "class",
+   "super": null,
+   "lines": 549,
+   "is_module": false,
+   "anchored": [
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "mc": [
+    "net.minecraft.client.renderer.texture.DynamicTexture"
+   ],
+   "n_mc": 1
+  },
+  {
+   "obf": "in",
+   "kind": "class",
+   "super": "Record",
+   "lines": 528,
+   "is_module": false,
+   "anchored": [
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "mc": [
+    "net.minecraft.client.renderer.DynamicUniformStorage"
+   ],
+   "n_mc": 1
+  },
+  {
+   "obf": "_H",
+   "kind": "class",
+   "super": "Record",
+   "lines": 510,
+   "is_module": false,
+   "anchored": [
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "mc": [
+    "net.minecraft.client.renderer.DynamicUniformStorage"
+   ],
+   "n_mc": 1
+  },
+  {
+   "obf": "XT",
+   "kind": "class",
+   "super": null,
+   "lines": 474,
+   "is_module": false,
+   "anchored": [
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "mc": [
+    "net.minecraft.commands.CommandBuildContext"
+   ],
+   "n_mc": 1
+  },
+  {
+   "obf": "lz",
+   "kind": "record",
+   "super": null,
+   "lines": 419,
+   "is_module": false,
+   "anchored": [
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "mc": [
+    "net.minecraft.world.InteractionHand"
+   ],
+   "n_mc": 1
+  }
+ ]
+}

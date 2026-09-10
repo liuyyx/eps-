@@ -1,0 +1,189 @@
+{
+ "batch": "C093",
+ "n": 8,
+ "classes": [
+  {
+   "obf": "_V",
+   "kind": "class",
+   "super": null,
+   "lines": 622,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc_imports": [
+    "net.minecraft.resources.Identifier"
+   ],
+   "candidates": [
+    {
+     "src": "SoundKey",
+     "score": 4.0,
+     "why": "MCimport:1"
+    },
+    {
+     "src": "ResourceLocationUtils",
+     "score": 2.0,
+     "why": "MCimport:1"
+    },
+    {
+     "src": "ClientSetting",
+     "score": 2.0,
+     "why": "MCimport:1"
+    }
+   ]
+  },
+  {
+   "obf": "_v",
+   "kind": "class",
+   "super": null,
+   "lines": 403,
+   "anchored_refs": [
+    "Criticals",
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "mc_imports": [
+    "net.minecraft.world.entity.EntityType",
+    "net.minecraft.world.entity.LivingEntity",
+    "net.minecraft.world.entity.animal.squid.Squid",
+    "net.minecraft.world.level.Level"
+   ],
+   "candidates": [
+    {
+     "src": "SettingHost",
+     "score": 3.57,
+     "why": "锚点引用:Setting; MCimport:1"
+    },
+    {
+     "src": "RegistryListSetting",
+     "score": 3.36,
+     "why": "锚点引用:Setting; MCimport:1"
+    },
+    {
+     "src": "RegistryListSelectPopup",
+     "score": 3.21,
+     "why": "锚点引用:Setting; MCimport:1"
+    }
+   ]
+  },
+  {
+   "obf": "_W",
+   "kind": "class",
+   "super": null,
+   "lines": 759,
+   "anchored_refs": [
+    "Module",
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "mc_imports": [],
+   "candidates": [
+    {
+     "src": "EpsilonAddon",
+     "score": 6.0,
+     "why": "锚点引用:Module,Setting"
+    },
+    {
+     "src": "I18NFileGenerator",
+     "score": 6.0,
+     "why": "锚点引用:Module,Setting"
+    },
+    {
+     "src": "ModuleButton",
+     "score": 6.0,
+     "why": "锚点引用:Module,Setting"
+    }
+   ]
+  },
+  {
+   "obf": "_w",
+   "kind": "record",
+   "super": null,
+   "lines": 25,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc_imports": [
+    "net.minecraft.client.renderer.DynamicUniformStorage"
+   ],
+   "candidates": []
+  },
+  {
+   "obf": "_X",
+   "kind": "class",
+   "super": null,
+   "lines": 597,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "mc_imports": [],
+   "candidates": [
+    {
+     "src": "EpsilonAddon",
+     "score": 3.0,
+     "why": "锚点引用:Setting"
+    },
+    {
+     "src": "I18NFileGenerator",
+     "score": 3.0,
+     "why": "锚点引用:Setting"
+    },
+    {
+     "src": "AddonPanelEntry",
+     "score": 3.0,
+     "why": "锚点引用:Setting"
+    }
+   ]
+  },
+  {
+   "obf": "_x",
+   "kind": "class",
+   "super": "Enum",
+   "lines": 140,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc_imports": [],
+   "candidates": []
+  },
+  {
+   "obf": "_Y",
+   "kind": "class",
+   "super": null,
+   "lines": 39,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc_imports": [],
+   "candidates": []
+  },
+  {
+   "obf": "_Z",
+   "kind": "class",
+   "super": null,
+   "lines": 296,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "mc_imports": [],
+   "candidates": [
+    {
+     "src": "EpsilonAddon",
+     "score": 3.0,
+     "why": "锚点引用:Setting"
+    },
+    {
+     "src": "I18NFileGenerator",
+     "score": 3.0,
+     "why": "锚点引用:Setting"
+    },
+    {
+     "src": "AddonPanelEntry",
+     "score": 3.0,
+     "why": "锚点引用:Setting"
+    }
+   ]
+  }
+ ]
+}

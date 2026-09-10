@@ -1,0 +1,119 @@
+{
+ "batch": "D021",
+ "n": 8,
+ "classes": [
+  {
+   "obf": "na",
+   "kind": "class",
+   "super": null,
+   "lines": 80,
+   "is_module": false,
+   "anchored": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc": [
+    "net.minecraft.core.Direction"
+   ],
+   "n_mc": 1
+  },
+  {
+   "obf": "Ol",
+   "kind": "class",
+   "super": null,
+   "lines": 80,
+   "is_module": false,
+   "anchored": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc": [
+    "net.minecraft.core.Direction"
+   ],
+   "n_mc": 1
+  },
+  {
+   "obf": "yz",
+   "kind": "class",
+   "super": null,
+   "lines": 80,
+   "is_module": false,
+   "anchored": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc": [
+    "net.minecraft.core.Direction"
+   ],
+   "n_mc": 1
+  },
+  {
+   "obf": "O6",
+   "kind": "class",
+   "super": "Record",
+   "lines": 74,
+   "is_module": false,
+   "anchored": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc": [
+    "net.minecraft.client.renderer.DynamicUniformStorage"
+   ],
+   "n_mc": 1
+  },
+  {
+   "obf": "z9",
+   "kind": "class",
+   "super": null,
+   "lines": 74,
+   "is_module": false,
+   "anchored": [
+    "ArmorEnchantmentMode",
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc": [
+    "net.minecraft.world.Difficulty"
+   ],
+   "n_mc": 1
+  },
+  {
+   "obf": "Dr",
+   "kind": "class",
+   "super": "Record",
+   "lines": 72,
+   "is_module": false,
+   "anchored": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc": [
+    "net.minecraft.world.phys.AABB"
+   ],
+   "n_mc": 1
+  },
+  {
+   "obf": "ug",
+   "kind": "class",
+   "super": "Record",
+   "lines": 67,
+   "is_module": false,
+   "anchored": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc": [
+    "net.minecraft.resources.Identifier"
+   ],
+   "n_mc": 1
+  },
+  {
+   "obf": "yl",
+   "kind": "class",
+   "super": "Record",
+   "lines": 67,
+   "is_module": false,
+   "anchored": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc": [
+    "net.minecraft.core.BlockPos"
+   ],
+   "n_mc": 1
+  }
+ ]
+}

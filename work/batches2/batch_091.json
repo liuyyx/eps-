@@ -1,0 +1,204 @@
+{
+ "batch": "C091",
+ "n": 8,
+ "classes": [
+  {
+   "obf": "_L",
+   "kind": "class",
+   "super": "SimpleFileVisitor",
+   "lines": 296,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "mc_imports": [],
+   "candidates": [
+    {
+     "src": "EpsilonAddon",
+     "score": 3.0,
+     "why": "锚点引用:Setting"
+    },
+    {
+     "src": "I18NFileGenerator",
+     "score": 3.0,
+     "why": "锚点引用:Setting"
+    },
+    {
+     "src": "AddonPanelEntry",
+     "score": 3.0,
+     "why": "锚点引用:Setting"
+    }
+   ]
+  },
+  {
+   "obf": "_l",
+   "kind": "class",
+   "super": null,
+   "lines": 177,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "mc_imports": [
+    "net.minecraft.core.BlockPos"
+   ],
+   "candidates": [
+    {
+     "src": "DestroyBlockEvent",
+     "score": 4.0,
+     "why": "MCimport:1"
+    },
+    {
+     "src": "EpsilonAddon",
+     "score": 3.0,
+     "why": "锚点引用:Setting"
+    },
+    {
+     "src": "I18NFileGenerator",
+     "score": 3.0,
+     "why": "锚点引用:Setting"
+    }
+   ]
+  },
+  {
+   "obf": "_m",
+   "kind": "class",
+   "super": "Enum",
+   "lines": 207,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc_imports": [],
+   "candidates": []
+  },
+  {
+   "obf": "_N",
+   "kind": "class",
+   "super": "Record",
+   "lines": 54,
+   "anchored_refs": [
+    "Module",
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc_imports": [],
+   "candidates": [
+    {
+     "src": "EpsilonAddon",
+     "score": 3.0,
+     "why": "锚点引用:Module"
+    },
+    {
+     "src": "LegacyConfigMigrator",
+     "score": 3.0,
+     "why": "锚点引用:Module"
+    },
+    {
+     "src": "EpsilonTranslations",
+     "score": 3.0,
+     "why": "锚点引用:Module"
+    }
+   ]
+  },
+  {
+   "obf": "_n",
+   "kind": "class",
+   "super": null,
+   "lines": 835,
+   "anchored_refs": [
+    "ClientTickEvent.Post",
+    "EventBus",
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "mc_imports": [
+    "net.minecraft.client.player.AbstractClientPlayer",
+    "net.minecraft.world.entity.Entity",
+    "net.minecraft.world.entity.player.Player",
+    "net.minecraft.world.level.Level",
+    "net.minecraft.world.phys.AABB",
+    "net.minecraft.world.phys.Vec3"
+   ],
+   "candidates": [
+    {
+     "src": "MixinPlayer",
+     "score": 6.0,
+     "why": "锚点引用:EventBus; MCimport:3"
+    },
+    {
+     "src": "Module",
+     "score": 6.0,
+     "why": "锚点引用:EventBus,Setting"
+    },
+    {
+     "src": "MixinItem",
+     "score": 5.5,
+     "why": "锚点引用:EventBus; MCimport:3"
+    }
+   ]
+  },
+  {
+   "obf": "_O",
+   "kind": "class",
+   "super": "Record",
+   "lines": 78,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心",
+    "异步资源/数据加载缓存类（implements DS 接口，确切类名未定）"
+   ],
+   "mc_imports": [],
+   "candidates": []
+  },
+  {
+   "obf": "_o",
+   "kind": "class",
+   "super": "Screen",
+   "lines": 4189,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心",
+    "Setting",
+    "TranslateComponent",
+    "异步资源/数据加载缓存类（implements DS 接口，确切类名未定）"
+   ],
+   "mc_imports": [
+    "net.minecraft.client.Minecraft",
+    "net.minecraft.client.gui.Font",
+    "net.minecraft.client.gui.GuiGraphicsExtractor",
+    "net.minecraft.client.gui.components.IMEPreeditOverlay",
+    "net.minecraft.client.gui.screens.Screen",
+    "net.minecraft.client.input.CharacterEvent",
+    "net.minecraft.client.input.KeyEvent",
+    "net.minecraft.client.input.MouseButtonEvent",
+    "net.minecraft.client.input.PreeditEvent",
+    "net.minecraft.network.chat.Component"
+   ],
+   "candidates": [
+    {
+     "src": "Module",
+     "score": 6.4,
+     "why": "锚点引用:Setting,TranslateComponent; MCimport:1"
+    },
+    {
+     "src": "I18NFileGenerator",
+     "score": 6.0,
+     "why": "锚点引用:Setting,TranslateComponent"
+    },
+    {
+     "src": "SettingsListPanel",
+     "score": 6.0,
+     "why": "锚点引用:Setting,TranslateComponent"
+    }
+   ]
+  },
+  {
+   "obf": "_P",
+   "kind": "class",
+   "super": "Enum",
+   "lines": 125,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc_imports": [],
+   "candidates": []
+  }
+ ]
+}

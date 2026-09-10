@@ -1,0 +1,177 @@
+{
+ "batch": "D004",
+ "n": 8,
+ "classes": [
+  {
+   "obf": "n",
+   "kind": "class",
+   "super": "e",
+   "lines": 203,
+   "is_module": true,
+   "anchored": [
+    "Category",
+    "Module",
+    "PacketEvent.Send",
+    "PlayerTickEvent.Pre",
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "mc": [
+    "net.minecraft.network.protocol.Packet",
+    "net.minecraft.network.protocol.game.ServerboundUseItemOnPacket",
+    "net.minecraft.network.protocol.game.ServerboundUseItemPacket"
+   ],
+   "n_mc": 3
+  },
+  {
+   "obf": "eP",
+   "kind": "class",
+   "super": "e",
+   "lines": 1961,
+   "is_module": true,
+   "anchored": [
+    "BoolSetting",
+    "Category",
+    "ClickButton",
+    "DoubleSetting",
+    "EnumSetting",
+    "IntSetting",
+    "Module",
+    "PlayerTickEvent.Pre",
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "mc": [
+    "net.minecraft.client.gui.Gui",
+    "net.minecraft.client.player.LocalPlayer"
+   ],
+   "n_mc": 2
+  },
+  {
+   "obf": "eE",
+   "kind": "class",
+   "super": "e",
+   "lines": 1048,
+   "is_module": true,
+   "anchored": [
+    "BoolSetting",
+    "Category",
+    "IntSetting",
+    "KeybindSetting",
+    "Module",
+    "PlayerTickEvent.Pre",
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "mc": [
+    "net.minecraft.world.item.Item",
+    "net.minecraft.world.item.ItemStack"
+   ],
+   "n_mc": 2
+  },
+  {
+   "obf": "eC",
+   "kind": "class",
+   "super": "e",
+   "lines": 922,
+   "is_module": true,
+   "anchored": [
+    "BoolSetting",
+    "Category",
+    "Module",
+    "RegistryListSetting",
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "mc": [
+    "net.minecraft.client.renderer.extract.LevelExtractor",
+    "net.minecraft.world.entity.EntityType"
+   ],
+   "n_mc": 2
+  },
+  {
+   "obf": "ua",
+   "kind": "class",
+   "super": "e",
+   "lines": 811,
+   "is_module": true,
+   "anchored": [
+    "AfterRender3DEvent",
+    "BoolSetting",
+    "Category",
+    "DoubleSetting",
+    "EnumSetting",
+    "GameJoinedEvent",
+    "GameLeftEvent",
+    "IntSetting",
+    "LevelUpdateEvent",
+    "Module",
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "mc": [
+    "net.minecraft.client.renderer.state.level.CameraRenderState",
+    "net.minecraft.world.phys.Vec3"
+   ],
+   "n_mc": 2
+  },
+  {
+   "obf": "ex",
+   "kind": "class",
+   "super": "e",
+   "lines": 316,
+   "is_module": true,
+   "anchored": [
+    "Category",
+    "Module",
+    "PlayerTickEvent.Pre",
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "mc": [
+    "net.minecraft.client.player.LocalPlayer",
+    "net.minecraft.world.item.CrossbowItem"
+   ],
+   "n_mc": 2
+  },
+  {
+   "obf": "eA",
+   "kind": "class",
+   "super": "e",
+   "lines": 1067,
+   "is_module": true,
+   "anchored": [
+    "BoolSetting",
+    "Category",
+    "DoubleSetting",
+    "Module",
+    "PlayerTickEvent.Pre",
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "mc": [
+    "net.minecraft.client.player.LocalPlayer"
+   ],
+   "n_mc": 1
+  },
+  {
+   "obf": "c",
+   "kind": "class",
+   "super": "e",
+   "lines": 977,
+   "is_module": true,
+   "anchored": [
+    "BoolSetting",
+    "Category",
+    "Module",
+    "PacketEvent.Send",
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "mc": [
+    "net.minecraft.network.protocol.game.ServerboundSetCarriedItemPacket"
+   ],
+   "n_mc": 1
+  }
+ ]
+}

@@ -1,0 +1,202 @@
+{
+ "batch": "D003",
+ "n": 8,
+ "classes": [
+  {
+   "obf": "uv",
+   "kind": "class",
+   "super": "e",
+   "lines": 1452,
+   "is_module": true,
+   "anchored": [
+    "Category",
+    "DoubleAnchor.Phase",
+    "IntSetting",
+    "KeybindSetting",
+    "Module",
+    "PlayerTickEvent.Pre",
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "mc": [
+    "net.minecraft.client.multiplayer.MultiPlayerGameMode",
+    "net.minecraft.client.player.LocalPlayer",
+    "net.minecraft.world.InteractionHand",
+    "net.minecraft.world.item.Item",
+    "net.minecraft.world.phys.BlockHitResult"
+   ],
+   "n_mc": 5
+  },
+  {
+   "obf": "a",
+   "kind": "class",
+   "super": "e",
+   "lines": 951,
+   "is_module": true,
+   "anchored": [
+    "BoolSetting",
+    "Category",
+    "ColorSetting",
+    "Module",
+    "PacketEvent.Receive",
+    "SeQL/字符串解密+调用分发核心",
+    "Setting",
+    "StringSetting"
+   ],
+   "mc": [
+    "net.minecraft.network.chat.Component",
+    "net.minecraft.network.chat.MutableComponent",
+    "net.minecraft.network.protocol.game.ClientboundSetActionBarTextPacket",
+    "net.minecraft.network.protocol.game.ClientboundSetSubtitleTextPacket",
+    "net.minecraft.network.protocol.game.ClientboundSetTitleTextPacket"
+   ],
+   "n_mc": 5
+  },
+  {
+   "obf": "e4",
+   "kind": "class",
+   "super": "e",
+   "lines": 2583,
+   "is_module": true,
+   "anchored": [
+    "Category",
+    "ClientTickEvent.Pre",
+    "DoubleSetting",
+    "EnumSetting",
+    "IntSetting",
+    "Module",
+    "PlayerTickEvent.Pre",
+    "Priority",
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "mc": [
+    "net.minecraft.client.player.LocalPlayer",
+    "net.minecraft.world.entity.LivingEntity",
+    "net.minecraft.world.item.ItemStack",
+    "net.minecraft.world.phys.Vec3"
+   ],
+   "n_mc": 4
+  },
+  {
+   "obf": "uk",
+   "kind": "class",
+   "super": "e",
+   "lines": 1275,
+   "is_module": true,
+   "anchored": [
+    "BoolSetting",
+    "Category",
+    "IntSetting",
+    "KeybindSetting",
+    "Module",
+    "PlayerTickEvent.Pre",
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "mc": [
+    "net.minecraft.client.player.LocalPlayer",
+    "net.minecraft.world.InteractionHand",
+    "net.minecraft.world.item.ItemStack",
+    "net.minecraft.world.item.equipment.Equippable"
+   ],
+   "n_mc": 4
+  },
+  {
+   "obf": "y",
+   "kind": "class",
+   "super": "e",
+   "lines": 993,
+   "is_module": true,
+   "anchored": [
+    "BoolSetting",
+    "Category",
+    "DoubleSetting",
+    "IntSetting",
+    "Module",
+    "PlayerTickEvent.Pre",
+    "SeQL/字符串解密+调用分发核心",
+    "Setting",
+    "SwingHandEvent"
+   ],
+   "mc": [
+    "net.minecraft.client.multiplayer.MultiPlayerGameMode",
+    "net.minecraft.world.entity.Entity",
+    "net.minecraft.world.entity.LivingEntity",
+    "net.minecraft.world.entity.player.Player"
+   ],
+   "n_mc": 4
+  },
+  {
+   "obf": "A",
+   "kind": "class",
+   "super": "e",
+   "lines": 2312,
+   "is_module": true,
+   "anchored": [
+    "BoolSetting",
+    "Category",
+    "EnumSetting",
+    "IntSetting",
+    "Module",
+    "PlayerTickEvent.Pre",
+    "Priority",
+    "Render3DEvent",
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "mc": [
+    "net.minecraft.client.multiplayer.ClientLevel",
+    "net.minecraft.core.BlockPos",
+    "net.minecraft.world.level.block.Block"
+   ],
+   "n_mc": 3
+  },
+  {
+   "obf": "u3",
+   "kind": "class",
+   "super": "e",
+   "lines": 1601,
+   "is_module": true,
+   "anchored": [
+    "BoolSetting",
+    "Category",
+    "DoubleSetting",
+    "Module",
+    "PlayerTickEvent.Post",
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "mc": [
+    "net.minecraft.core.BlockPos",
+    "net.minecraft.world.entity.Entity",
+    "net.minecraft.world.level.block.BedBlock"
+   ],
+   "n_mc": 3
+  },
+  {
+   "obf": "H",
+   "kind": "class",
+   "super": "e",
+   "lines": 1269,
+   "is_module": true,
+   "anchored": [
+    "BoolSetting",
+    "Category",
+    "DoubleSetting",
+    "EnumSetting",
+    "Module",
+    "PlayerTickEvent.Pre",
+    "Render3DEvent",
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "mc": [
+    "net.minecraft.resources.Identifier",
+    "net.minecraft.world.entity.player.Player",
+    "net.minecraft.world.phys.Vec3"
+   ],
+   "n_mc": 3
+  }
+ ]
+}

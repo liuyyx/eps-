@@ -1,0 +1,187 @@
+{
+ "batch": "D009",
+ "n": 8,
+ "classes": [
+  {
+   "obf": "lI",
+   "kind": "class",
+   "super": null,
+   "lines": 1212,
+   "is_module": false,
+   "anchored": [
+    "Easing",
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "mc": [
+    "net.minecraft.client.Camera",
+    "net.minecraft.resources.Identifier",
+    "net.minecraft.world.entity.Entity",
+    "net.minecraft.world.entity.LivingEntity",
+    "net.minecraft.world.phys.Vec3"
+   ],
+   "n_mc": 5
+  },
+  {
+   "obf": "lp",
+   "kind": "class",
+   "super": "l8",
+   "lines": 1065,
+   "is_module": false,
+   "anchored": [
+    "Module",
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "mc": [
+    "net.minecraft.client.player.AbstractClientPlayer",
+    "net.minecraft.client.player.LocalPlayer",
+    "net.minecraft.network.chat.Component",
+    "net.minecraft.world.entity.Entity",
+    "net.minecraft.world.entity.LivingEntity"
+   ],
+   "n_mc": 5
+  },
+  {
+   "obf": "ls",
+   "kind": "class",
+   "super": null,
+   "lines": 651,
+   "is_module": false,
+   "anchored": [
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "mc": [
+    "net.minecraft.network.chat.FormattedText",
+    "net.minecraft.network.chat.Style",
+    "net.minecraft.resources.Identifier",
+    "net.minecraft.util.FormattedCharSequence",
+    "net.minecraft.util.FormattedCharSink"
+   ],
+   "n_mc": 5
+  },
+  {
+   "obf": "gZ",
+   "kind": "class",
+   "super": "gs",
+   "lines": 291,
+   "is_module": false,
+   "anchored": [
+    "EffectParticle",
+    "MasEffectsParticleRenderer",
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "mc": [
+    "net.minecraft.resources.Identifier",
+    "net.minecraft.util.RandomSource",
+    "net.minecraft.world.entity.Entity",
+    "net.minecraft.world.entity.Pose",
+    "net.minecraft.world.phys.Vec3"
+   ],
+   "n_mc": 5
+  },
+  {
+   "obf": "XI",
+   "kind": "class",
+   "super": null,
+   "lines": 3862,
+   "is_module": false,
+   "anchored": [
+    "ActionButtonType",
+    "ConfigHolder",
+    "ConfirmActionPopup",
+    "Easing",
+    "GeneralClientSettingTab",
+    "SeQL/字符串解密+调用分发核心",
+    "Setting",
+    "TranslateComponent"
+   ],
+   "mc": [
+    "net.minecraft.client.gui.GuiGraphicsExtractor",
+    "net.minecraft.client.input.CharacterEvent",
+    "net.minecraft.client.input.KeyEvent",
+    "net.minecraft.client.input.MouseButtonEvent"
+   ],
+   "n_mc": 4
+  },
+  {
+   "obf": "y9",
+   "kind": "class",
+   "super": null,
+   "lines": 3269,
+   "is_module": false,
+   "anchored": [
+    "Easing",
+    "KeybindSetting",
+    "KeybindSettingRow",
+    "Module",
+    "RowClickInterceptor",
+    "SeQL/字符串解密+调用分发核心",
+    "Setting",
+    "SettingListController",
+    "SettingRow",
+    "TranslateComponent"
+   ],
+   "mc": [
+    "net.minecraft.client.gui.GuiGraphicsExtractor",
+    "net.minecraft.client.input.CharacterEvent",
+    "net.minecraft.client.input.KeyEvent",
+    "net.minecraft.client.input.MouseButtonEvent"
+   ],
+   "n_mc": 4
+  },
+  {
+   "obf": "ld",
+   "kind": "class",
+   "super": null,
+   "lines": 2401,
+   "is_module": false,
+   "anchored": [
+    "Easing",
+    "KeybindSetting",
+    "KeybindSettingRow",
+    "RowClickInterceptor",
+    "SeQL/字符串解密+调用分发核心",
+    "Setting",
+    "SettingListController",
+    "SettingRow"
+   ],
+   "mc": [
+    "net.minecraft.client.gui.GuiGraphicsExtractor",
+    "net.minecraft.client.input.CharacterEvent",
+    "net.minecraft.client.input.KeyEvent",
+    "net.minecraft.client.input.MouseButtonEvent"
+   ],
+   "n_mc": 4
+  },
+  {
+   "obf": "ef",
+   "kind": "class",
+   "super": "eh",
+   "lines": 2397,
+   "is_module": false,
+   "anchored": [
+    "BoolSetting",
+    "ColorSetting",
+    "DoubleSetting",
+    "GameLeftEvent",
+    "HudModule",
+    "IntSetting",
+    "PacketEvent.Receive",
+    "PlayerTickEvent.Post",
+    "SeQL/字符串解密+调用分发核心",
+    "Setting",
+    "TranslateComponent"
+   ],
+   "mc": [
+    "net.minecraft.client.DeltaTracker",
+    "net.minecraft.client.player.AbstractClientPlayer",
+    "net.minecraft.client.player.LocalPlayer",
+    "net.minecraft.resources.Identifier"
+   ],
+   "n_mc": 4
+  }
+ ]
+}

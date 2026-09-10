@@ -1,0 +1,127 @@
+{
+ "batch": "D025",
+ "n": 8,
+ "classes": [
+  {
+   "obf": "id",
+   "kind": "class",
+   "super": "iN",
+   "lines": 2547,
+   "is_module": false,
+   "anchored": [
+    "ColorWidget",
+    "EpsilonAddon",
+    "SeQL/字符串解密+调用分发核心",
+    "Setting",
+    "SettingWidget",
+    "TranslateComponent"
+   ],
+   "mc": [],
+   "n_mc": 0
+  },
+  {
+   "obf": "ui",
+   "kind": "class",
+   "super": null,
+   "lines": 2338,
+   "is_module": false,
+   "anchored": [
+    "QuadRenderingInfo",
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "mc": [],
+   "n_mc": 0
+  },
+  {
+   "obf": "bo",
+   "kind": "class",
+   "super": null,
+   "lines": 2299,
+   "is_module": false,
+   "anchored": [],
+   "mc": [],
+   "n_mc": 0
+  },
+  {
+   "obf": "iI",
+   "kind": "class",
+   "super": null,
+   "lines": 2238,
+   "is_module": false,
+   "anchored": [
+    "Dependency",
+    "DoubleSetting",
+    "IntSetting",
+    "RenderStage",
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "mc": [],
+   "n_mc": 0
+  },
+  {
+   "obf": "nb",
+   "kind": "class",
+   "super": null,
+   "lines": 1985,
+   "is_module": false,
+   "anchored": [
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "mc": [],
+   "n_mc": 0
+  },
+  {
+   "obf": "zz",
+   "kind": "class",
+   "super": "zc",
+   "lines": 1771,
+   "is_module": false,
+   "anchored": [
+    "Easing",
+    "EnumSetting",
+    "SeQL/字符串解密+调用分发核心",
+    "Setting",
+    "SettingWidget"
+   ],
+   "mc": [],
+   "n_mc": 0
+  },
+  {
+   "obf": "v_",
+   "kind": "class",
+   "super": null,
+   "lines": 1592,
+   "is_module": false,
+   "anchored": [
+    "ActivePopup",
+    "Category",
+    "ClientSettingTab",
+    "EnumSetting",
+    "KeybindSetting",
+    "Module",
+    "ModuleSort",
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "mc": [],
+   "n_mc": 0
+  },
+  {
+   "obf": "lg",
+   "kind": "class",
+   "super": null,
+   "lines": 1517,
+   "is_module": false,
+   "anchored": [
+    "QuadRenderingInfo",
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "mc": [],
+   "n_mc": 0
+  }
+ ]
+}

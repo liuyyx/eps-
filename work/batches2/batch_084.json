@@ -1,0 +1,175 @@
+{
+ "batch": "C084",
+ "n": 8,
+ "classes": [
+  {
+   "obf": "zk",
+   "kind": "class",
+   "super": "zF",
+   "lines": 6060,
+   "anchored_refs": [
+    "BoolSetting",
+    "ButtonSetting",
+    "ColorSetting",
+    "DoubleSetting",
+    "DropdownScreen",
+    "EnumSetting",
+    "IntSetting",
+    "KeybindSetting",
+    "Module",
+    "RegistryListSetting",
+    "SeQL/字符串解密+调用分发核心",
+    "Setting",
+    "StringListSetting",
+    "StringSetting"
+   ],
+   "mc_imports": [],
+   "candidates": [
+    {
+     "src": "ModuleButton",
+     "score": 36.0,
+     "why": "锚点引用:BoolSetting,ButtonSetting,ColorSetting,DoubleSetting,EnumSetting"
+    },
+    {
+     "src": "SettingsContent",
+     "score": 33.0,
+     "why": "锚点引用:BoolSetting,ButtonSetting,ColorSetting,DoubleSetting,EnumSetting"
+    },
+    {
+     "src": "SettingViewFactory",
+     "score": 33.0,
+     "why": "锚点引用:BoolSetting,ButtonSetting,ColorSetting,DoubleSetting,EnumSetting"
+    }
+   ]
+  },
+  {
+   "obf": "zL",
+   "kind": "class",
+   "super": "Enum",
+   "lines": 220,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc_imports": [],
+   "candidates": []
+  },
+  {
+   "obf": "zl",
+   "kind": "class",
+   "super": null,
+   "lines": 17,
+   "anchored_refs": [],
+   "mc_imports": [],
+   "candidates": []
+  },
+  {
+   "obf": "zM",
+   "kind": "class",
+   "super": "Enum",
+   "lines": 123,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc_imports": [],
+   "candidates": []
+  },
+  {
+   "obf": "zN",
+   "kind": "class",
+   "super": null,
+   "lines": 775,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "mc_imports": [
+    "net.minecraft.resources.Identifier"
+   ],
+   "candidates": [
+    {
+     "src": "ClientSetting",
+     "score": 5.0,
+     "why": "锚点引用:Setting; MCimport:1"
+    },
+    {
+     "src": "SoundKey",
+     "score": 4.0,
+     "why": "MCimport:1"
+    },
+    {
+     "src": "RegistryListSetting",
+     "score": 3.5,
+     "why": "锚点引用:Setting; MCimport:1"
+    }
+   ]
+  },
+  {
+   "obf": "zn",
+   "kind": "class",
+   "super": "z0",
+   "lines": 273,
+   "anchored_refs": [
+    "IntSetting",
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc_imports": [],
+   "candidates": [
+    {
+     "src": "BPS",
+     "score": 3.0,
+     "why": "锚点引用:IntSetting"
+    },
+    {
+     "src": "Inventory",
+     "score": 3.0,
+     "why": "锚点引用:IntSetting"
+    },
+    {
+     "src": "ModuleList",
+     "score": 3.0,
+     "why": "锚点引用:IntSetting"
+    }
+   ]
+  },
+  {
+   "obf": "zO",
+   "kind": "class",
+   "super": "Enum",
+   "lines": 125,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc_imports": [],
+   "candidates": []
+  },
+  {
+   "obf": "zo",
+   "kind": "class",
+   "super": null,
+   "lines": 23,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc_imports": [
+    "net.minecraft.client.gui.GuiGraphicsExtractor"
+   ],
+   "candidates": [
+    {
+     "src": "Render2DEvent",
+     "score": 4.0,
+     "why": "MCimport:1"
+    },
+    {
+     "src": "ColorSettingRow",
+     "score": 4.0,
+     "why": "MCimport:1"
+    },
+    {
+     "src": "BoolSettingRow",
+     "score": 2.0,
+     "why": "MCimport:1"
+    }
+   ]
+  }
+ ]
+}

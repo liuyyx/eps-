@@ -1,0 +1,208 @@
+{
+ "batch": "C085",
+ "n": 8,
+ "classes": [
+  {
+   "obf": "zP",
+   "kind": "class",
+   "super": null,
+   "lines": 1434,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心",
+    "Setting",
+    "异步资源/数据加载缓存类（implements DS 接口，确切类名未定）"
+   ],
+   "mc_imports": [],
+   "candidates": [
+    {
+     "src": "EpsilonAddon",
+     "score": 3.0,
+     "why": "锚点引用:Setting"
+    },
+    {
+     "src": "I18NFileGenerator",
+     "score": 3.0,
+     "why": "锚点引用:Setting"
+    },
+    {
+     "src": "AddonPanelEntry",
+     "score": 3.0,
+     "why": "锚点引用:Setting"
+    }
+   ]
+  },
+  {
+   "obf": "zp",
+   "kind": "class",
+   "super": "zc",
+   "lines": 885,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心",
+    "Setting",
+    "StringSetting"
+   ],
+   "mc_imports": [],
+   "candidates": [
+    {
+     "src": "ModuleButton",
+     "score": 6.0,
+     "why": "锚点引用:Setting,StringSetting"
+    },
+    {
+     "src": "SettingsContent",
+     "score": 6.0,
+     "why": "锚点引用:Setting,StringSetting"
+    },
+    {
+     "src": "SettingViewFactory",
+     "score": 6.0,
+     "why": "锚点引用:Setting,StringSetting"
+    }
+   ]
+  },
+  {
+   "obf": "zQ",
+   "kind": "class",
+   "super": null,
+   "lines": 744,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "mc_imports": [],
+   "candidates": [
+    {
+     "src": "EpsilonAddon",
+     "score": 3.0,
+     "why": "锚点引用:Setting"
+    },
+    {
+     "src": "I18NFileGenerator",
+     "score": 3.0,
+     "why": "锚点引用:Setting"
+    },
+    {
+     "src": "AddonPanelEntry",
+     "score": 3.0,
+     "why": "锚点引用:Setting"
+    }
+   ]
+  },
+  {
+   "obf": "zq",
+   "kind": "class",
+   "super": "Record",
+   "lines": 176,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "mc_imports": [
+    "net.minecraft.world.entity.LivingEntity"
+   ],
+   "candidates": [
+    {
+     "src": "TargetRequest",
+     "score": 4.0,
+     "why": "MCimport:1"
+    },
+    {
+     "src": "EpsilonAddon",
+     "score": 3.0,
+     "why": "锚点引用:Setting"
+    },
+    {
+     "src": "I18NFileGenerator",
+     "score": 3.0,
+     "why": "锚点引用:Setting"
+    }
+   ]
+  },
+  {
+   "obf": "zr",
+   "kind": "class",
+   "super": "Record",
+   "lines": 95,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc_imports": [],
+   "candidates": []
+  },
+  {
+   "obf": "zS",
+   "kind": "class",
+   "super": null,
+   "lines": 697,
+   "anchored_refs": [
+    "Module",
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "mc_imports": [
+    "net.minecraft.client.player.LocalPlayer",
+    "net.minecraft.core.BlockPos",
+    "net.minecraft.world.level.block.WebBlock",
+    "net.minecraft.world.level.block.state.BlockState"
+   ],
+   "candidates": [
+    {
+     "src": "EpsilonAddon",
+     "score": 6.0,
+     "why": "锚点引用:Module,Setting"
+    },
+    {
+     "src": "I18NFileGenerator",
+     "score": 6.0,
+     "why": "锚点引用:Module,Setting"
+    },
+    {
+     "src": "ModuleButton",
+     "score": 6.0,
+     "why": "锚点引用:Module,Setting"
+    }
+   ]
+  },
+  {
+   "obf": "zs",
+   "kind": "class",
+   "super": "Enum",
+   "lines": 940,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "mc_imports": [
+    "net.minecraft.core.Holder",
+    "net.minecraft.resources.Identifier",
+    "net.minecraft.world.entity.player.Player"
+   ],
+   "candidates": [
+    {
+     "src": "ClientSetting",
+     "score": 4.0,
+     "why": "锚点引用:Setting; MCimport:1"
+    },
+    {
+     "src": "RegistryListSetting",
+     "score": 3.4,
+     "why": "锚点引用:Setting; MCimport:1"
+    },
+    {
+     "src": "RegistryListSelectPopup",
+     "score": 3.22,
+     "why": "锚点引用:Setting; MCimport:1"
+    }
+   ]
+  },
+  {
+   "obf": "zT",
+   "kind": "interface",
+   "super": null,
+   "lines": 10,
+   "anchored_refs": [],
+   "mc_imports": [],
+   "candidates": []
+  }
+ ]
+}

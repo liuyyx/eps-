@@ -1,0 +1,155 @@
+{
+ "batch": "D005",
+ "n": 8,
+ "classes": [
+  {
+   "obf": "uG",
+   "kind": "class",
+   "super": "e",
+   "lines": 971,
+   "is_module": true,
+   "anchored": [
+    "Category",
+    "ClientTickEvent.Pre",
+    "KeyboardInputEvent",
+    "Module",
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "mc": [
+    "net.minecraft.client.player.LocalPlayer"
+   ],
+   "n_mc": 1
+  },
+  {
+   "obf": "O",
+   "kind": "class",
+   "super": "e",
+   "lines": 673,
+   "is_module": true,
+   "anchored": [
+    "Category",
+    "EnumSetting",
+    "IntSetting",
+    "Module",
+    "PlayerTickEvent.Pre",
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "mc": [
+    "net.minecraft.world.item.ItemStack"
+   ],
+   "n_mc": 1
+  },
+  {
+   "obf": "Y",
+   "kind": "class",
+   "super": "e",
+   "lines": 607,
+   "is_module": true,
+   "anchored": [
+    "Category",
+    "DoubleSetting",
+    "Module",
+    "SeQL/字符串解密+调用分发核心",
+    "SendPositionEvent",
+    "Setting"
+   ],
+   "mc": [
+    "net.minecraft.client.player.LocalPlayer"
+   ],
+   "n_mc": 1
+  },
+  {
+   "obf": "e3",
+   "kind": "class",
+   "super": "e",
+   "lines": 323,
+   "is_module": true,
+   "anchored": [
+    "Category",
+    "ClientTickEvent.Pre",
+    "Module",
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "mc": [
+    "net.minecraft.client.gui.Gui"
+   ],
+   "n_mc": 1
+  },
+  {
+   "obf": "b",
+   "kind": "class",
+   "super": "e",
+   "lines": 294,
+   "is_module": true,
+   "anchored": [
+    "Category",
+    "KeyboardInputEvent",
+    "Module",
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "mc": [
+    "net.minecraft.client.player.LocalPlayer"
+   ],
+   "n_mc": 1
+  },
+  {
+   "obf": "ed",
+   "kind": "class",
+   "super": "e",
+   "lines": 284,
+   "is_module": true,
+   "anchored": [
+    "AttackSlowDownEvent",
+    "Category",
+    "Module",
+    "PostSendPositionEvent",
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "mc": [
+    "net.minecraft.client.player.LocalPlayer"
+   ],
+   "n_mc": 1
+  },
+  {
+   "obf": "o",
+   "kind": "class",
+   "super": "e",
+   "lines": 281,
+   "is_module": true,
+   "anchored": [
+    "Category",
+    "Module",
+    "PlayerTickEvent.Pre",
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "mc": [
+    "net.minecraft.client.player.LocalPlayer"
+   ],
+   "n_mc": 1
+  },
+  {
+   "obf": "eV",
+   "kind": "class",
+   "super": "e",
+   "lines": 1230,
+   "is_module": true,
+   "anchored": [
+    "Category",
+    "EnumSetting",
+    "IntSetting",
+    "Module",
+    "PlayerTickEvent.Pre",
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "mc": [],
+   "n_mc": 0
+  }
+ ]
+}

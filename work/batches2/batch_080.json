@@ -1,0 +1,198 @@
+{
+ "batch": "C080",
+ "n": 8,
+ "classes": [
+  {
+   "obf": "yz",
+   "kind": "class",
+   "super": null,
+   "lines": 80,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc_imports": [
+    "net.minecraft.core.Direction"
+   ],
+   "candidates": []
+  },
+  {
+   "obf": "y_",
+   "kind": "class",
+   "super": null,
+   "lines": 2526,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "mc_imports": [
+    "net.minecraft.resources.Identifier"
+   ],
+   "candidates": [
+    {
+     "src": "ClientSetting",
+     "score": 5.0,
+     "why": "锚点引用:Setting; MCimport:1"
+    },
+    {
+     "src": "SoundKey",
+     "score": 4.0,
+     "why": "MCimport:1"
+    },
+    {
+     "src": "RegistryListSetting",
+     "score": 3.5,
+     "why": "锚点引用:Setting; MCimport:1"
+    }
+   ]
+  },
+  {
+   "obf": "z",
+   "kind": "class",
+   "super": "e",
+   "lines": 940,
+   "anchored_refs": [
+    "BoolSetting",
+    "DoubleSetting",
+    "IntSetting",
+    "Module",
+    "PlayerTickEvent.Pre",
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "mc_imports": [
+    "net.minecraft.client.multiplayer.MultiPlayerGameMode",
+    "net.minecraft.client.player.LocalPlayer",
+    "net.minecraft.network.protocol.game.ServerboundSwingPacket",
+    "net.minecraft.world.InteractionHand",
+    "net.minecraft.world.entity.Entity",
+    "net.minecraft.world.entity.LivingEntity",
+    "net.minecraft.world.entity.player.Player"
+   ],
+   "candidates": [
+    {
+     "src": "ModuleButton",
+     "score": 15.0,
+     "why": "锚点引用:BoolSetting,DoubleSetting,IntSetting,Module,Setting"
+    },
+    {
+     "src": "ConfigHolder",
+     "score": 15.0,
+     "why": "锚点引用:BoolSetting,DoubleSetting,IntSetting,Module,Setting"
+    },
+    {
+     "src": "ClientSetting",
+     "score": 15.0,
+     "why": "锚点引用:BoolSetting,DoubleSetting,IntSetting,Module,Setting"
+    }
+   ]
+  },
+  {
+   "obf": "z0",
+   "kind": "class",
+   "super": "Number",
+   "lines": 1428,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "mc_imports": [],
+   "candidates": [
+    {
+     "src": "EpsilonAddon",
+     "score": 3.0,
+     "why": "锚点引用:Setting"
+    },
+    {
+     "src": "I18NFileGenerator",
+     "score": 3.0,
+     "why": "锚点引用:Setting"
+    },
+    {
+     "src": "AddonPanelEntry",
+     "score": 3.0,
+     "why": "锚点引用:Setting"
+    }
+   ]
+  },
+  {
+   "obf": "z1",
+   "kind": "class",
+   "super": null,
+   "lines": 775,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心",
+    "Setting"
+   ],
+   "mc_imports": [
+    "net.minecraft.resources.Identifier"
+   ],
+   "candidates": [
+    {
+     "src": "ClientSetting",
+     "score": 5.0,
+     "why": "锚点引用:Setting; MCimport:1"
+    },
+    {
+     "src": "SoundKey",
+     "score": 4.0,
+     "why": "MCimport:1"
+    },
+    {
+     "src": "RegistryListSetting",
+     "score": 3.5,
+     "why": "锚点引用:Setting; MCimport:1"
+    }
+   ]
+  },
+  {
+   "obf": "z3",
+   "kind": "class",
+   "super": "zv",
+   "lines": 31,
+   "anchored_refs": [
+    "RegistryListSetting",
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc_imports": [],
+   "candidates": [
+    {
+     "src": "DropdownScreen",
+     "score": 3.0,
+     "why": "锚点引用:RegistryListSetting"
+    },
+    {
+     "src": "ModuleButton",
+     "score": 3.0,
+     "why": "锚点引用:RegistryListSetting"
+    },
+    {
+     "src": "SettingsContent",
+     "score": 3.0,
+     "why": "锚点引用:RegistryListSetting"
+    }
+   ]
+  },
+  {
+   "obf": "z4",
+   "kind": "class",
+   "super": "Enum",
+   "lines": 207,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc_imports": [],
+   "candidates": []
+  },
+  {
+   "obf": "z5",
+   "kind": "class",
+   "super": null,
+   "lines": 39,
+   "anchored_refs": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc_imports": [],
+   "candidates": []
+  }
+ ]
+}
