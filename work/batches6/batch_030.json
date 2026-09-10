@@ -1,0 +1,57 @@
+{
+ "batch": "G030",
+ "n": 3,
+ "classes": [
+  {
+   "obf": "di",
+   "is_module": false,
+   "lines": 55,
+   "cands": [
+    {
+     "name": "InteractionUtils",
+     "jac": 0.182,
+     "path": "work/official26/com/github/epsilon/utils/player/InteractionUtils.java"
+    },
+    {
+     "name": "RotationUtils",
+     "jac": 0.154,
+     "path": "work/official26/com/github/epsilon/utils/rotation/RotationUtils.java"
+    }
+   ]
+  },
+  {
+   "obf": "gS",
+   "is_module": false,
+   "lines": 86,
+   "cands": [
+    {
+     "name": "InteractionUtils",
+     "jac": 0.182,
+     "path": "work/official26/com/github/epsilon/utils/player/InteractionUtils.java"
+    },
+    {
+     "name": "RotationUtils",
+     "jac": 0.154,
+     "path": "work/official26/com/github/epsilon/utils/rotation/RotationUtils.java"
+    }
+   ]
+  },
+  {
+   "obf": "nD",
+   "is_module": false,
+   "lines": 63,
+   "cands": [
+    {
+     "name": "RotationUtils",
+     "jac": 0.154,
+     "path": "work/official26/com/github/epsilon/utils/rotation/RotationUtils.java"
+    },
+    {
+     "name": "InteractionUtils",
+     "jac": 0.083,
+     "path": "work/official26/com/github/epsilon/utils/player/InteractionUtils.java"
+    }
+   ]
+  }
+ ]
+}

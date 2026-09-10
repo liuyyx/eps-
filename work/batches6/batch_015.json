@@ -1,0 +1,77 @@
+{
+ "batch": "G015",
+ "n": 3,
+ "classes": [
+  {
+   "obf": "iO",
+   "is_module": false,
+   "lines": 49,
+   "cands": [
+    {
+     "name": "UiTree",
+     "jac": 1.0,
+     "path": "work/official26/com/github/epsilon/gui/lib/UiTree.java"
+    },
+    {
+     "name": "TtfFontLoader",
+     "jac": 1.0,
+     "path": "work/official26/com/github/epsilon/graphics/text/ttf/TtfFontLoader.java"
+    },
+    {
+     "name": "TtfFontFile",
+     "jac": 1.0,
+     "path": "work/official26/com/github/epsilon/graphics/text/ttf/TtfFontFile.java"
+    },
+    {
+     "name": "TextureCacheHolder",
+     "jac": 1.0,
+     "path": "work/official26/com/github/epsilon/holders/TextureCacheHolder.java"
+    }
+   ]
+  },
+  {
+   "obf": "iZ",
+   "is_module": false,
+   "lines": 91,
+   "cands": [
+    {
+     "name": "UiTree",
+     "jac": 1.0,
+     "path": "work/official26/com/github/epsilon/gui/lib/UiTree.java"
+    },
+    {
+     "name": "TtfFontLoader",
+     "jac": 1.0,
+     "path": "work/official26/com/github/epsilon/graphics/text/ttf/TtfFontLoader.java"
+    },
+    {
+     "name": "TtfFontFile",
+     "jac": 1.0,
+     "path": "work/official26/com/github/epsilon/graphics/text/ttf/TtfFontFile.java"
+    },
+    {
+     "name": "TextureCacheHolder",
+     "jac": 1.0,
+     "path": "work/official26/com/github/epsilon/holders/TextureCacheHolder.java"
+    }
+   ]
+  },
+  {
+   "obf": "lx",
+   "is_module": false,
+   "lines": 49,
+   "cands": [
+    {
+     "name": "FindItemResult",
+     "jac": 1.0,
+     "path": "work/official26/com/github/epsilon/utils/player/FindItemResult.java"
+    },
+    {
+     "name": "InteractionUtils",
+     "jac": 0.091,
+     "path": "work/official26/com/github/epsilon/utils/player/InteractionUtils.java"
+    }
+   ]
+  }
+ ]
+}

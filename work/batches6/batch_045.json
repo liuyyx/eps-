@@ -1,0 +1,24 @@
+{
+ "batch": "G045",
+ "n": 3,
+ "classes": [
+  {
+   "obf": "Di",
+   "is_module": false,
+   "lines": 45,
+   "cands": []
+  },
+  {
+   "obf": "dI",
+   "is_module": false,
+   "lines": 20,
+   "cands": []
+  },
+  {
+   "obf": "DJ",
+   "is_module": false,
+   "lines": 168,
+   "cands": []
+  }
+ ]
+}

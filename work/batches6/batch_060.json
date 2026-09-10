@@ -1,0 +1,24 @@
+{
+ "batch": "G060",
+ "n": 3,
+ "classes": [
+  {
+   "obf": "go",
+   "is_module": false,
+   "lines": 549,
+   "cands": []
+  },
+  {
+   "obf": "gr",
+   "is_module": false,
+   "lines": 9,
+   "cands": []
+  },
+  {
+   "obf": "gU",
+   "is_module": false,
+   "lines": 152,
+   "cands": []
+  }
+ ]
+}

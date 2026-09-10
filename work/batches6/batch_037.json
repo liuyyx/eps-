@@ -1,0 +1,46 @@
+{
+ "batch": "G037",
+ "n": 3,
+ "classes": [
+  {
+   "obf": "_v",
+   "is_module": false,
+   "lines": 403,
+   "cands": [
+    {
+     "name": "CaptureMarkESP",
+     "jac": 0.077,
+     "path": "work/official26/com/github/epsilon/utils/render/esp/CaptureMarkESP.java"
+    },
+    {
+     "name": "RotationUtils",
+     "jac": 0.062,
+     "path": "work/official26/com/github/epsilon/utils/rotation/RotationUtils.java"
+    }
+   ]
+  },
+  {
+   "obf": "l0",
+   "is_module": false,
+   "lines": 1183,
+   "cands": [
+    {
+     "name": "InteractionUtils",
+     "jac": 0.056,
+     "path": "work/official26/com/github/epsilon/utils/player/InteractionUtils.java"
+    },
+    {
+     "name": "RotationUtils",
+     "jac": 0.05,
+     "path": "work/official26/com/github/epsilon/utils/rotation/RotationUtils.java"
+    }
+   ]
+  },
+  {
+   "obf": "bo",
+   "is_module": false,
+   "lines": 2299,
+   "cands": []
+  }
+ ]
+}

@@ -1,0 +1,87 @@
+{
+ "batch": "G014",
+ "n": 3,
+ "classes": [
+  {
+   "obf": "dC",
+   "is_module": false,
+   "lines": 2484,
+   "cands": [
+    {
+     "name": "UiTree",
+     "jac": 1.0,
+     "path": "work/official26/com/github/epsilon/gui/lib/UiTree.java"
+    },
+    {
+     "name": "TtfFontLoader",
+     "jac": 1.0,
+     "path": "work/official26/com/github/epsilon/graphics/text/ttf/TtfFontLoader.java"
+    },
+    {
+     "name": "TtfFontFile",
+     "jac": 1.0,
+     "path": "work/official26/com/github/epsilon/graphics/text/ttf/TtfFontFile.java"
+    },
+    {
+     "name": "TextureCacheHolder",
+     "jac": 1.0,
+     "path": "work/official26/com/github/epsilon/holders/TextureCacheHolder.java"
+    }
+   ]
+  },
+  {
+   "obf": "gW",
+   "is_module": false,
+   "lines": 1922,
+   "cands": [
+    {
+     "name": "TopBarPanel",
+     "jac": 1.0,
+     "path": "work/official26/com/github/epsilon/gui/panel/view/TopBarPanel.java"
+    },
+    {
+     "name": "MessagePopup",
+     "jac": 1.0,
+     "path": "work/official26/com/github/epsilon/gui/panel/popup/MessagePopup.java"
+    },
+    {
+     "name": "CategoryRailPanel",
+     "jac": 1.0,
+     "path": "work/official26/com/github/epsilon/gui/panel/view/CategoryRailPanel.java"
+    },
+    {
+     "name": "PanelPopupHost",
+     "jac": 0.5,
+     "path": "work/official26/com/github/epsilon/gui/panel/popup/PanelPopupHost.java"
+    }
+   ]
+  },
+  {
+   "obf": "gz",
+   "is_module": false,
+   "lines": 2337,
+   "cands": [
+    {
+     "name": "UiTree",
+     "jac": 1.0,
+     "path": "work/official26/com/github/epsilon/gui/lib/UiTree.java"
+    },
+    {
+     "name": "TtfFontLoader",
+     "jac": 1.0,
+     "path": "work/official26/com/github/epsilon/graphics/text/ttf/TtfFontLoader.java"
+    },
+    {
+     "name": "TtfFontFile",
+     "jac": 1.0,
+     "path": "work/official26/com/github/epsilon/graphics/text/ttf/TtfFontFile.java"
+    },
+    {
+     "name": "TextureCacheHolder",
+     "jac": 1.0,
+     "path": "work/official26/com/github/epsilon/holders/TextureCacheHolder.java"
+    }
+   ]
+  }
+ ]
+}

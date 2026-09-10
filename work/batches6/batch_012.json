@@ -1,0 +1,87 @@
+{
+ "batch": "G012",
+ "n": 3,
+ "classes": [
+  {
+   "obf": "eV",
+   "is_module": true,
+   "lines": 1230,
+   "cands": [
+    {
+     "name": "Watermark",
+     "jac": 0.0,
+     "path": "work/official26/com/github/epsilon/elements/impl/Watermark.java"
+    },
+    {
+     "name": "Timer",
+     "jac": 0,
+     "path": "work/official26/com/github/epsilon/modules/impl/player/Timer.java"
+    },
+    {
+     "name": "Stuck",
+     "jac": 0.0,
+     "path": "work/official26/com/github/epsilon/modules/impl/movement/Stuck.java"
+    },
+    {
+     "name": "Stealer",
+     "jac": 0.0,
+     "path": "work/official26/com/github/epsilon/modules/impl/player/Stealer.java"
+    }
+   ]
+  },
+  {
+   "obf": "o",
+   "is_module": true,
+   "lines": 281,
+   "cands": [
+    {
+     "name": "Watermark",
+     "jac": 0.0,
+     "path": "work/official26/com/github/epsilon/elements/impl/Watermark.java"
+    },
+    {
+     "name": "Timer",
+     "jac": 0.0,
+     "path": "work/official26/com/github/epsilon/modules/impl/player/Timer.java"
+    },
+    {
+     "name": "Stuck",
+     "jac": 0.0,
+     "path": "work/official26/com/github/epsilon/modules/impl/movement/Stuck.java"
+    },
+    {
+     "name": "Stealer",
+     "jac": 0.0,
+     "path": "work/official26/com/github/epsilon/modules/impl/player/Stealer.java"
+    }
+   ]
+  },
+  {
+   "obf": "u0",
+   "is_module": true,
+   "lines": 701,
+   "cands": [
+    {
+     "name": "Watermark",
+     "jac": 0.0,
+     "path": "work/official26/com/github/epsilon/elements/impl/Watermark.java"
+    },
+    {
+     "name": "Timer",
+     "jac": 0,
+     "path": "work/official26/com/github/epsilon/modules/impl/player/Timer.java"
+    },
+    {
+     "name": "Stuck",
+     "jac": 0.0,
+     "path": "work/official26/com/github/epsilon/modules/impl/movement/Stuck.java"
+    },
+    {
+     "name": "Stealer",
+     "jac": 0.0,
+     "path": "work/official26/com/github/epsilon/modules/impl/player/Stealer.java"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,72 @@
+{
+ "batch": "G032",
+ "n": 3,
+ "classes": [
+  {
+   "obf": "_i",
+   "is_module": false,
+   "lines": 392,
+   "cands": [
+    {
+     "name": "FindItemResult",
+     "jac": 0.143,
+     "path": "work/official26/com/github/epsilon/utils/player/FindItemResult.java"
+    },
+    {
+     "name": "Constants",
+     "jac": 0.143,
+     "path": "work/official26/com/github/epsilon/Constants.java"
+    },
+    {
+     "name": "TtfGlyphAtlas",
+     "jac": 0.111,
+     "path": "work/official26/com/github/epsilon/graphics/text/ttf/TtfGlyphAtlas.java"
+    },
+    {
+     "name": "InteractionUtils",
+     "jac": 0.059,
+     "path": "work/official26/com/github/epsilon/utils/player/InteractionUtils.java"
+    }
+   ]
+  },
+  {
+   "obf": "u5",
+   "is_module": false,
+   "lines": 109,
+   "cands": [
+    {
+     "name": "RotationUtils",
+     "jac": 0.133,
+     "path": "work/official26/com/github/epsilon/utils/rotation/RotationUtils.java"
+    },
+    {
+     "name": "CaptureMarkESP",
+     "jac": 0.077,
+     "path": "work/official26/com/github/epsilon/utils/render/esp/CaptureMarkESP.java"
+    },
+    {
+     "name": "InteractionUtils",
+     "jac": 0.071,
+     "path": "work/official26/com/github/epsilon/utils/player/InteractionUtils.java"
+    }
+   ]
+  },
+  {
+   "obf": "lp",
+   "is_module": false,
+   "lines": 1065,
+   "cands": [
+    {
+     "name": "RotationUtils",
+     "jac": 0.125,
+     "path": "work/official26/com/github/epsilon/utils/rotation/RotationUtils.java"
+    },
+    {
+     "name": "CaptureMarkESP",
+     "jac": 0.071,
+     "path": "work/official26/com/github/epsilon/utils/render/esp/CaptureMarkESP.java"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,24 @@
+{
+ "batch": "G055",
+ "n": 3,
+ "classes": [
+  {
+   "obf": "gA",
+   "is_module": false,
+   "lines": 353,
+   "cands": []
+  },
+  {
+   "obf": "ga",
+   "is_module": false,
+   "lines": 123,
+   "cands": []
+  },
+  {
+   "obf": "gb",
+   "is_module": false,
+   "lines": 48,
+   "cands": []
+  }
+ ]
+}

@@ -1,0 +1,87 @@
+{
+ "batch": "G025",
+ "n": 3,
+ "classes": [
+  {
+   "obf": "dE",
+   "is_module": false,
+   "lines": 1660,
+   "cands": [
+    {
+     "name": "TtfGlyphAtlas",
+     "jac": 0.4,
+     "path": "work/official26/com/github/epsilon/graphics/text/ttf/TtfGlyphAtlas.java"
+    },
+    {
+     "name": "UiTree",
+     "jac": 0.25,
+     "path": "work/official26/com/github/epsilon/gui/lib/UiTree.java"
+    },
+    {
+     "name": "TtfFontLoader",
+     "jac": 0.25,
+     "path": "work/official26/com/github/epsilon/graphics/text/ttf/TtfFontLoader.java"
+    },
+    {
+     "name": "TtfFontFile",
+     "jac": 0.25,
+     "path": "work/official26/com/github/epsilon/graphics/text/ttf/TtfFontFile.java"
+    }
+   ]
+  },
+  {
+   "obf": "_o",
+   "is_module": false,
+   "lines": 4189,
+   "cands": [
+    {
+     "name": "PanelPopupHost",
+     "jac": 0.4,
+     "path": "work/official26/com/github/epsilon/gui/panel/popup/PanelPopupHost.java"
+    },
+    {
+     "name": "FriendClientSettingTab",
+     "jac": 0.4,
+     "path": "work/official26/com/github/epsilon/gui/panel/view/settings/FriendClientSettingTab.java"
+    },
+    {
+     "name": "TopBarPanel",
+     "jac": 0.2,
+     "path": "work/official26/com/github/epsilon/gui/panel/view/TopBarPanel.java"
+    },
+    {
+     "name": "MessagePopup",
+     "jac": 0.2,
+     "path": "work/official26/com/github/epsilon/gui/panel/popup/MessagePopup.java"
+    }
+   ]
+  },
+  {
+   "obf": "gf",
+   "is_module": false,
+   "lines": 177,
+   "cands": [
+    {
+     "name": "UiTree",
+     "jac": 0.333,
+     "path": "work/official26/com/github/epsilon/gui/lib/UiTree.java"
+    },
+    {
+     "name": "TtfFontLoader",
+     "jac": 0.333,
+     "path": "work/official26/com/github/epsilon/graphics/text/ttf/TtfFontLoader.java"
+    },
+    {
+     "name": "TtfFontFile",
+     "jac": 0.333,
+     "path": "work/official26/com/github/epsilon/graphics/text/ttf/TtfFontFile.java"
+    },
+    {
+     "name": "TextureCacheHolder",
+     "jac": 0.333,
+     "path": "work/official26/com/github/epsilon/holders/TextureCacheHolder.java"
+    }
+   ]
+  }
+ ]
+}

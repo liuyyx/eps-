@@ -1,0 +1,24 @@
+{
+ "batch": "G066",
+ "n": 3,
+ "classes": [
+  {
+   "obf": "ih",
+   "is_module": false,
+   "lines": 489,
+   "cands": []
+  },
+  {
+   "obf": "iI",
+   "is_module": false,
+   "lines": 2238,
+   "cands": []
+  },
+  {
+   "obf": "ij",
+   "is_module": false,
+   "lines": 74,
+   "cands": []
+  }
+ ]
+}

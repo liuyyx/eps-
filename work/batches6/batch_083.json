@@ -1,0 +1,24 @@
+{
+ "batch": "G083",
+ "n": 3,
+ "classes": [
+  {
+   "obf": "nE",
+   "is_module": false,
+   "lines": 74,
+   "cands": []
+  },
+  {
+   "obf": "nG",
+   "is_module": false,
+   "lines": 55,
+   "cands": []
+  },
+  {
+   "obf": "nH",
+   "is_module": false,
+   "lines": 10,
+   "cands": []
+  }
+ ]
+}

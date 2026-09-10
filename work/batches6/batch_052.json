@@ -1,0 +1,24 @@
+{
+ "batch": "G052",
+ "n": 3,
+ "classes": [
+  {
+   "obf": "eg",
+   "is_module": false,
+   "lines": 2123,
+   "cands": []
+  },
+  {
+   "obf": "eJ",
+   "is_module": false,
+   "lines": 1142,
+   "cands": []
+  },
+  {
+   "obf": "g0",
+   "is_module": false,
+   "lines": 30,
+   "cands": []
+  }
+ ]
+}

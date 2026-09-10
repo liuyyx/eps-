@@ -1,0 +1,87 @@
+{
+ "batch": "G006",
+ "n": 3,
+ "classes": [
+  {
+   "obf": "h",
+   "is_module": true,
+   "lines": 2385,
+   "cands": [
+    {
+     "name": "AutoFirework",
+     "jac": 0.118,
+     "path": "work/official26/com/github/epsilon/modules/impl/player/AutoFirework.java"
+    },
+    {
+     "name": "ESP2D",
+     "jac": 0.111,
+     "path": "work/official26/com/github/epsilon/modules/impl/render/ESP2D.java"
+    },
+    {
+     "name": "AutoTool",
+     "jac": 0.083,
+     "path": "work/official26/com/github/epsilon/modules/impl/player/AutoTool.java"
+    },
+    {
+     "name": "Stealer",
+     "jac": 0.074,
+     "path": "work/official26/com/github/epsilon/modules/impl/player/Stealer.java"
+    }
+   ]
+  },
+  {
+   "obf": "q",
+   "is_module": true,
+   "lines": 2907,
+   "cands": [
+    {
+     "name": "AutoFirework",
+     "jac": 0.115,
+     "path": "work/official26/com/github/epsilon/modules/impl/player/AutoFirework.java"
+    },
+    {
+     "name": "NoSlow",
+     "jac": 0.091,
+     "path": "work/official26/com/github/epsilon/modules/impl/movement/NoSlow.java"
+    },
+    {
+     "name": "AutoTool",
+     "jac": 0.091,
+     "path": "work/official26/com/github/epsilon/modules/impl/player/AutoTool.java"
+    },
+    {
+     "name": "ESP2D",
+     "jac": 0.071,
+     "path": "work/official26/com/github/epsilon/modules/impl/render/ESP2D.java"
+    }
+   ]
+  },
+  {
+   "obf": "c",
+   "is_module": true,
+   "lines": 977,
+   "cands": [
+    {
+     "name": "AutoTool",
+     "jac": 0.091,
+     "path": "work/official26/com/github/epsilon/modules/impl/player/AutoTool.java"
+    },
+    {
+     "name": "Watermark",
+     "jac": 0.0,
+     "path": "work/official26/com/github/epsilon/elements/impl/Watermark.java"
+    },
+    {
+     "name": "Timer",
+     "jac": 0.0,
+     "path": "work/official26/com/github/epsilon/modules/impl/player/Timer.java"
+    },
+    {
+     "name": "Stuck",
+     "jac": 0.0,
+     "path": "work/official26/com/github/epsilon/modules/impl/movement/Stuck.java"
+    }
+   ]
+  }
+ ]
+}

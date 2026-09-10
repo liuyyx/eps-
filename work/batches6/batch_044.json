@@ -1,0 +1,24 @@
+{
+ "batch": "G044",
+ "n": 3,
+ "classes": [
+  {
+   "obf": "DH",
+   "is_module": false,
+   "lines": 45,
+   "cands": []
+  },
+  {
+   "obf": "Dh",
+   "is_module": false,
+   "lines": 82,
+   "cands": []
+  },
+  {
+   "obf": "DI",
+   "is_module": false,
+   "lines": 8,
+   "cands": []
+  }
+ ]
+}

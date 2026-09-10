@@ -1,0 +1,24 @@
+{
+ "batch": "G063",
+ "n": 3,
+ "classes": [
+  {
+   "obf": "i5",
+   "is_module": false,
+   "lines": 140,
+   "cands": []
+  },
+  {
+   "obf": "i7",
+   "is_module": false,
+   "lines": 74,
+   "cands": []
+  },
+  {
+   "obf": "ia",
+   "is_module": false,
+   "lines": 44,
+   "cands": []
+  }
+ ]
+}
