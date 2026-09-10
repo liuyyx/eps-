@@ -1,0 +1,405 @@
+{
+ "batch": "E009",
+ "n": 8,
+ "classes": [
+  {
+   "obf": "gG",
+   "is_module": false,
+   "lines": 1531,
+   "mc": [
+    "BakedGlyph",
+    "Identifier",
+    "RenderSetup",
+    "RenderType",
+    "Style",
+    "TextRenderable"
+   ],
+   "cands": [
+    {
+     "name": "EpsilonFontGlyph",
+     "jac": 0.714,
+     "is_module": false,
+     "path": "work/official26/com/github/epsilon/graphics/text/minecraft/EpsilonFontGlyph.java",
+     "lines": 275
+    },
+    {
+     "name": "CaptureMarkESP",
+     "jac": 0.231,
+     "is_module": false,
+     "path": "work/official26/com/github/epsilon/utils/render/esp/CaptureMarkESP.java",
+     "lines": 93
+    },
+    {
+     "name": "EpsilonFontMetrics",
+     "jac": 0.222,
+     "is_module": false,
+     "path": "work/official26/com/github/epsilon/graphics/text/minecraft/EpsilonFontMetrics.java",
+     "lines": 102
+    },
+    {
+     "name": "MixinFont",
+     "jac": 0.2,
+     "is_module": false,
+     "path": "work/official26/com/github/epsilon/mixins/MixinFont.java",
+     "lines": 66
+    },
+    {
+     "name": "MixinCapeLayer",
+     "jac": 0.182,
+     "is_module": false,
+     "path": "work/official26/com/github/epsilon/mixins/MixinCapeLayer.java",
+     "lines": 49
+    }
+   ]
+  },
+  {
+   "obf": "dh",
+   "is_module": false,
+   "lines": 1047,
+   "mc": [
+    "Font",
+    "RenderType",
+    "Style",
+    "TextRenderable"
+   ],
+   "cands": [
+    {
+     "name": "EpsilonFontGlyph",
+     "jac": 0.667,
+     "is_module": false,
+     "path": "work/official26/com/github/epsilon/graphics/text/minecraft/EpsilonFontGlyph.java",
+     "lines": 275
+    },
+    {
+     "name": "MixinFont",
+     "jac": 0.25,
+     "is_module": false,
+     "path": "work/official26/com/github/epsilon/mixins/MixinFont.java",
+     "lines": 66
+    },
+    {
+     "name": "MixinGlyphRenderState",
+     "jac": 0.167,
+     "is_module": false,
+     "path": "work/official26/com/github/epsilon/mixins/MixinGlyphRenderState.java",
+     "lines": 39
+    },
+    {
+     "name": "EpsilonFontMetrics",
+     "jac": 0.125,
+     "is_module": false,
+     "path": "work/official26/com/github/epsilon/graphics/text/minecraft/EpsilonFontMetrics.java",
+     "lines": 102
+    },
+    {
+     "name": "MixinCapeLayer",
+     "jac": 0.1,
+     "is_module": false,
+     "path": "work/official26/com/github/epsilon/mixins/MixinCapeLayer.java",
+     "lines": 49
+    }
+   ]
+  },
+  {
+   "obf": "iR",
+   "is_module": false,
+   "lines": 100,
+   "mc": [
+    "AABB",
+    "LivingEntity",
+    "Vec3"
+   ],
+   "cands": [
+    {
+     "name": "MixinLivingEntity",
+     "jac": 0.667,
+     "is_module": false,
+     "path": "work/official26/com/github/epsilon/mixins/MixinLivingEntity.java",
+     "lines": 90
+    },
+    {
+     "name": "MixinFireworkRocketEntity",
+     "jac": 0.5,
+     "is_module": false,
+     "path": "work/official26/com/github/epsilon/mixins/MixinFireworkRocketEntity.java",
+     "lines": 37
+    },
+    {
+     "name": "DeobfESP",
+     "jac": 0.286,
+     "is_module": false,
+     "path": "work/official26/com/github/epsilon/utils/render/esp/DeobfESP.java",
+     "lines": 241
+    },
+    {
+     "name": "MixinEntity",
+     "jac": 0.25,
+     "is_module": false,
+     "path": "work/official26/com/github/epsilon/mixins/MixinEntity.java",
+     "lines": 73
+    },
+    {
+     "name": "RotationUtils",
+     "jac": 0.231,
+     "is_module": false,
+     "path": "work/official26/com/github/epsilon/utils/rotation/RotationUtils.java",
+     "lines": 304
+    }
+   ]
+  },
+  {
+   "obf": "ls",
+   "is_module": false,
+   "lines": 651,
+   "mc": [
+    "FormattedCharSequence",
+    "FormattedCharSink",
+    "FormattedText",
+    "Identifier",
+    "Style"
+   ],
+   "cands": [
+    {
+     "name": "EpsilonFontMetrics",
+     "jac": 0.667,
+     "is_module": false,
+     "path": "work/official26/com/github/epsilon/graphics/text/minecraft/EpsilonFontMetrics.java",
+     "lines": 102
+    },
+    {
+     "name": "MixinFont",
+     "jac": 0.375,
+     "is_module": false,
+     "path": "work/official26/com/github/epsilon/mixins/MixinFont.java",
+     "lines": 66
+    },
+    {
+     "name": "UiTree",
+     "jac": 0.2,
+     "is_module": false,
+     "path": "work/official26/com/github/epsilon/gui/lib/UiTree.java",
+     "lines": 834
+    },
+    {
+     "name": "TtfFontLoader",
+     "jac": 0.2,
+     "is_module": false,
+     "path": "work/official26/com/github/epsilon/graphics/text/ttf/TtfFontLoader.java",
+     "lines": 327
+    },
+    {
+     "name": "TtfFontFile",
+     "jac": 0.2,
+     "is_module": false,
+     "path": "work/official26/com/github/epsilon/graphics/text/ttf/TtfFontFile.java",
+     "lines": 144
+    }
+   ]
+  },
+  {
+   "obf": "ns",
+   "is_module": false,
+   "lines": 1044,
+   "mc": [
+    "CharacterEvent",
+    "KeyEvent",
+    "Minecraft"
+   ],
+   "cands": [
+    {
+     "name": "ClientSettingTextField",
+     "jac": 0.667,
+     "is_module": false,
+     "path": "work/official26/com/github/epsilon/gui/panel/view/settings/ClientSettingTextField.java",
+     "lines": 196
+    },
+    {
+     "name": "PanelPopupHost",
+     "jac": 0.4,
+     "is_module": false,
+     "path": "work/official26/com/github/epsilon/gui/panel/popup/PanelPopupHost.java",
+     "lines": 187
+    },
+    {
+     "name": "FriendClientSettingTab",
+     "jac": 0.4,
+     "is_module": false,
+     "path": "work/official26/com/github/epsilon/gui/panel/view/settings/FriendClientSettingTab.java",
+     "lines": 341
+    },
+    {
+     "name": "Constants",
+     "jac": 0.333,
+     "is_module": false,
+     "path": "work/official26/com/github/epsilon/Constants.java",
+     "lines": 23
+    },
+    {
+     "name": "MixinKeyboardHandler",
+     "jac": 0.25,
+     "is_module": false,
+     "path": "work/official26/com/github/epsilon/mixins/MixinKeyboardHandler.java",
+     "lines": 33
+    }
+   ]
+  },
+  {
+   "obf": "_9",
+   "is_module": false,
+   "lines": 64,
+   "mc": [
+    "BlockHitResult",
+    "Entity",
+    "Vec3"
+   ],
+   "cands": [
+    {
+     "name": "MixinEntity",
+     "jac": 0.667,
+     "is_module": false,
+     "path": "work/official26/com/github/epsilon/mixins/MixinEntity.java",
+     "lines": 73
+    },
+    {
+     "name": "MixinPlayer",
+     "jac": 0.4,
+     "is_module": false,
+     "path": "work/official26/com/github/epsilon/mixins/MixinPlayer.java",
+     "lines": 72
+    },
+    {
+     "name": "MixinClientLevel",
+     "jac": 0.333,
+     "is_module": false,
+     "path": "work/official26/com/github/epsilon/mixins/MixinClientLevel.java",
+     "lines": 37
+    },
+    {
+     "name": "MixinCamera",
+     "jac": 0.333,
+     "is_module": false,
+     "path": "work/official26/com/github/epsilon/mixins/MixinCamera.java",
+     "lines": 142
+    },
+    {
+     "name": "MixinLivingEntity",
+     "jac": 0.25,
+     "is_module": false,
+     "path": "work/official26/com/github/epsilon/mixins/MixinLivingEntity.java",
+     "lines": 90
+    }
+   ]
+  },
+  {
+   "obf": "OT",
+   "is_module": false,
+   "lines": 2209,
+   "mc": [
+    "BlitRenderState",
+    "CubeMap",
+    "FeatureRenderDispatcher",
+    "GuiElementRenderState",
+    "GuiItemAtlas",
+    "GuiItemRenderState",
+    "GuiRenderState",
+    "GuiTextRenderState",
+    "Identifier",
+    "OversizedItemRenderState",
+    "OversizedItemRenderer",
+    "ProfilerFiller",
+    "Projection",
+    "ProjectionMatrixBuffer",
+    "ScreenRectangle",
+    "StagedVertexBuffer",
+    "TextureManager",
+    "TextureSetup"
+   ],
+   "cands": [
+    {
+     "name": "EpsilonGuiRenderer",
+     "jac": 0.586,
+     "is_module": false,
+     "path": "work/official26/com/github/epsilon/utils/render/EpsilonGuiRenderer.java",
+     "lines": 405
+    },
+    {
+     "name": "MixinGuiRenderer",
+     "jac": 0.1,
+     "is_module": false,
+     "path": "work/official26/com/github/epsilon/mixins/MixinGuiRenderer.java",
+     "lines": 90
+    },
+    {
+     "name": "UiTree",
+     "jac": 0.056,
+     "is_module": false,
+     "path": "work/official26/com/github/epsilon/gui/lib/UiTree.java",
+     "lines": 834
+    },
+    {
+     "name": "TtfFontLoader",
+     "jac": 0.056,
+     "is_module": false,
+     "path": "work/official26/com/github/epsilon/graphics/text/ttf/TtfFontLoader.java",
+     "lines": 327
+    },
+    {
+     "name": "TtfFontFile",
+     "jac": 0.056,
+     "is_module": false,
+     "path": "work/official26/com/github/epsilon/graphics/text/ttf/TtfFontFile.java",
+     "lines": 144
+    }
+   ]
+  },
+  {
+   "obf": "lI",
+   "is_module": false,
+   "lines": 1212,
+   "mc": [
+    "Camera",
+    "Entity",
+    "Identifier",
+    "LivingEntity",
+    "Vec3"
+   ],
+   "cands": [
+    {
+     "name": "DeobfESP",
+     "jac": 0.571,
+     "is_module": false,
+     "path": "work/official26/com/github/epsilon/utils/render/esp/DeobfESP.java",
+     "lines": 241
+    },
+    {
+     "name": "MixinCamera",
+     "jac": 0.429,
+     "is_module": false,
+     "path": "work/official26/com/github/epsilon/mixins/MixinCamera.java",
+     "lines": 142
+    },
+    {
+     "name": "MixinLivingEntity",
+     "jac": 0.4,
+     "is_module": false,
+     "path": "work/official26/com/github/epsilon/mixins/MixinLivingEntity.java",
+     "lines": 90
+    },
+    {
+     "name": "MixinEntity",
+     "jac": 0.4,
+     "is_module": false,
+     "path": "work/official26/com/github/epsilon/mixins/MixinEntity.java",
+     "lines": 73
+    },
+    {
+     "name": "JumpCircle",
+     "jac": 0.375,
+     "is_module": true,
+     "path": "work/official26/com/github/epsilon/modules/impl/render/JumpCircle.java",
+     "lines": 156
+    }
+   ]
+  }
+ ]
+}

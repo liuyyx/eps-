@@ -1,0 +1,373 @@
+{
+ "batch": "E008",
+ "n": 8,
+ "classes": [
+  {
+   "obf": "y0",
+   "is_module": false,
+   "lines": 1191,
+   "mc": [
+    "Identifier"
+   ],
+   "cands": [
+    {
+     "name": "UiTree",
+     "jac": 1.0,
+     "is_module": false,
+     "path": "work/official26/com/github/epsilon/gui/lib/UiTree.java",
+     "lines": 834
+    },
+    {
+     "name": "TtfFontLoader",
+     "jac": 1.0,
+     "is_module": false,
+     "path": "work/official26/com/github/epsilon/graphics/text/ttf/TtfFontLoader.java",
+     "lines": 327
+    },
+    {
+     "name": "TtfFontFile",
+     "jac": 1.0,
+     "is_module": false,
+     "path": "work/official26/com/github/epsilon/graphics/text/ttf/TtfFontFile.java",
+     "lines": 144
+    },
+    {
+     "name": "TextureCacheHolder",
+     "jac": 1.0,
+     "is_module": false,
+     "path": "work/official26/com/github/epsilon/holders/TextureCacheHolder.java",
+     "lines": 28
+    },
+    {
+     "name": "StaticFontLoader",
+     "jac": 1.0,
+     "is_module": false,
+     "path": "work/official26/com/github/epsilon/graphics/text/StaticFontLoader.java",
+     "lines": 369
+    }
+   ]
+  },
+  {
+   "obf": "y9",
+   "is_module": false,
+   "lines": 3269,
+   "mc": [
+    "CharacterEvent",
+    "GuiGraphicsExtractor",
+    "KeyEvent",
+    "MouseButtonEvent"
+   ],
+   "cands": [
+    {
+     "name": "PanelPopupHost",
+     "jac": 1.0,
+     "is_module": false,
+     "path": "work/official26/com/github/epsilon/gui/panel/popup/PanelPopupHost.java",
+     "lines": 187
+    },
+    {
+     "name": "FriendClientSettingTab",
+     "jac": 1.0,
+     "is_module": false,
+     "path": "work/official26/com/github/epsilon/gui/panel/view/settings/FriendClientSettingTab.java",
+     "lines": 341
+    },
+    {
+     "name": "TopBarPanel",
+     "jac": 0.5,
+     "is_module": false,
+     "path": "work/official26/com/github/epsilon/gui/panel/view/TopBarPanel.java",
+     "lines": 29
+    },
+    {
+     "name": "MessagePopup",
+     "jac": 0.5,
+     "is_module": false,
+     "path": "work/official26/com/github/epsilon/gui/panel/popup/MessagePopup.java",
+     "lines": 103
+    },
+    {
+     "name": "ClientSettingTextField",
+     "jac": 0.5,
+     "is_module": false,
+     "path": "work/official26/com/github/epsilon/gui/panel/view/settings/ClientSettingTextField.java",
+     "lines": 196
+    }
+   ]
+  },
+  {
+   "obf": "yF",
+   "is_module": false,
+   "lines": 49,
+   "mc": [
+    "InteractionHand"
+   ],
+   "cands": [
+    {
+     "name": "FindItemResult",
+     "jac": 1.0,
+     "is_module": false,
+     "path": "work/official26/com/github/epsilon/utils/player/FindItemResult.java",
+     "lines": 31
+    },
+    {
+     "name": "AutoFirework",
+     "jac": 0.25,
+     "is_module": true,
+     "path": "work/official26/com/github/epsilon/modules/impl/player/AutoFirework.java",
+     "lines": 113
+    },
+    {
+     "name": "MixinLocalPlayer",
+     "jac": 0.167,
+     "is_module": false,
+     "path": "work/official26/com/github/epsilon/mixins/MixinLocalPlayer.java",
+     "lines": 142
+    },
+    {
+     "name": "MixinMinecraft",
+     "jac": 0.125,
+     "is_module": false,
+     "path": "work/official26/com/github/epsilon/mixins/MixinMinecraft.java",
+     "lines": 194
+    },
+    {
+     "name": "MixinItemInHandRenderer",
+     "jac": 0.111,
+     "is_module": false,
+     "path": "work/official26/com/github/epsilon/mixins/MixinItemInHandRenderer.java",
+     "lines": 154
+    }
+   ]
+  },
+  {
+   "obf": "yK",
+   "is_module": false,
+   "lines": 746,
+   "mc": [
+    "Identifier"
+   ],
+   "cands": [
+    {
+     "name": "UiTree",
+     "jac": 1.0,
+     "is_module": false,
+     "path": "work/official26/com/github/epsilon/gui/lib/UiTree.java",
+     "lines": 834
+    },
+    {
+     "name": "TtfFontLoader",
+     "jac": 1.0,
+     "is_module": false,
+     "path": "work/official26/com/github/epsilon/graphics/text/ttf/TtfFontLoader.java",
+     "lines": 327
+    },
+    {
+     "name": "TtfFontFile",
+     "jac": 1.0,
+     "is_module": false,
+     "path": "work/official26/com/github/epsilon/graphics/text/ttf/TtfFontFile.java",
+     "lines": 144
+    },
+    {
+     "name": "TextureCacheHolder",
+     "jac": 1.0,
+     "is_module": false,
+     "path": "work/official26/com/github/epsilon/holders/TextureCacheHolder.java",
+     "lines": 28
+    },
+    {
+     "name": "StaticFontLoader",
+     "jac": 1.0,
+     "is_module": false,
+     "path": "work/official26/com/github/epsilon/graphics/text/StaticFontLoader.java",
+     "lines": 369
+    }
+   ]
+  },
+  {
+   "obf": "zJ",
+   "is_module": false,
+   "lines": 753,
+   "mc": [
+    "Identifier"
+   ],
+   "cands": [
+    {
+     "name": "UiTree",
+     "jac": 1.0,
+     "is_module": false,
+     "path": "work/official26/com/github/epsilon/gui/lib/UiTree.java",
+     "lines": 834
+    },
+    {
+     "name": "TtfFontLoader",
+     "jac": 1.0,
+     "is_module": false,
+     "path": "work/official26/com/github/epsilon/graphics/text/ttf/TtfFontLoader.java",
+     "lines": 327
+    },
+    {
+     "name": "TtfFontFile",
+     "jac": 1.0,
+     "is_module": false,
+     "path": "work/official26/com/github/epsilon/graphics/text/ttf/TtfFontFile.java",
+     "lines": 144
+    },
+    {
+     "name": "TextureCacheHolder",
+     "jac": 1.0,
+     "is_module": false,
+     "path": "work/official26/com/github/epsilon/holders/TextureCacheHolder.java",
+     "lines": 28
+    },
+    {
+     "name": "StaticFontLoader",
+     "jac": 1.0,
+     "is_module": false,
+     "path": "work/official26/com/github/epsilon/graphics/text/StaticFontLoader.java",
+     "lines": 369
+    }
+   ]
+  },
+  {
+   "obf": "zU",
+   "is_module": false,
+   "lines": 2690,
+   "mc": [
+    "Identifier"
+   ],
+   "cands": [
+    {
+     "name": "UiTree",
+     "jac": 1.0,
+     "is_module": false,
+     "path": "work/official26/com/github/epsilon/gui/lib/UiTree.java",
+     "lines": 834
+    },
+    {
+     "name": "TtfFontLoader",
+     "jac": 1.0,
+     "is_module": false,
+     "path": "work/official26/com/github/epsilon/graphics/text/ttf/TtfFontLoader.java",
+     "lines": 327
+    },
+    {
+     "name": "TtfFontFile",
+     "jac": 1.0,
+     "is_module": false,
+     "path": "work/official26/com/github/epsilon/graphics/text/ttf/TtfFontFile.java",
+     "lines": 144
+    },
+    {
+     "name": "TextureCacheHolder",
+     "jac": 1.0,
+     "is_module": false,
+     "path": "work/official26/com/github/epsilon/holders/TextureCacheHolder.java",
+     "lines": 28
+    },
+    {
+     "name": "StaticFontLoader",
+     "jac": 1.0,
+     "is_module": false,
+     "path": "work/official26/com/github/epsilon/graphics/text/StaticFontLoader.java",
+     "lines": 369
+    }
+   ]
+  },
+  {
+   "obf": "zx",
+   "is_module": false,
+   "lines": 36,
+   "mc": [
+    "GuiGraphicsExtractor",
+    "MouseButtonEvent"
+   ],
+   "cands": [
+    {
+     "name": "TopBarPanel",
+     "jac": 1.0,
+     "is_module": false,
+     "path": "work/official26/com/github/epsilon/gui/panel/view/TopBarPanel.java",
+     "lines": 29
+    },
+    {
+     "name": "MessagePopup",
+     "jac": 1.0,
+     "is_module": false,
+     "path": "work/official26/com/github/epsilon/gui/panel/popup/MessagePopup.java",
+     "lines": 103
+    },
+    {
+     "name": "CategoryRailPanel",
+     "jac": 1.0,
+     "is_module": false,
+     "path": "work/official26/com/github/epsilon/gui/panel/view/CategoryRailPanel.java",
+     "lines": 289
+    },
+    {
+     "name": "PanelPopupHost",
+     "jac": 0.5,
+     "is_module": false,
+     "path": "work/official26/com/github/epsilon/gui/panel/popup/PanelPopupHost.java",
+     "lines": 187
+    },
+    {
+     "name": "FriendClientSettingTab",
+     "jac": 0.5,
+     "is_module": false,
+     "path": "work/official26/com/github/epsilon/gui/panel/view/settings/FriendClientSettingTab.java",
+     "lines": 341
+    }
+   ]
+  },
+  {
+   "obf": "_6",
+   "is_module": false,
+   "lines": 1014,
+   "mc": [
+    "CharacterEvent",
+    "GuiGraphicsExtractor",
+    "KeyEvent",
+    "MouseButtonEvent"
+   ],
+   "cands": [
+    {
+     "name": "PanelPopupHost",
+     "jac": 1.0,
+     "is_module": false,
+     "path": "work/official26/com/github/epsilon/gui/panel/popup/PanelPopupHost.java",
+     "lines": 187
+    },
+    {
+     "name": "FriendClientSettingTab",
+     "jac": 1.0,
+     "is_module": false,
+     "path": "work/official26/com/github/epsilon/gui/panel/view/settings/FriendClientSettingTab.java",
+     "lines": 341
+    },
+    {
+     "name": "TopBarPanel",
+     "jac": 0.5,
+     "is_module": false,
+     "path": "work/official26/com/github/epsilon/gui/panel/view/TopBarPanel.java",
+     "lines": 29
+    },
+    {
+     "name": "MessagePopup",
+     "jac": 0.5,
+     "is_module": false,
+     "path": "work/official26/com/github/epsilon/gui/panel/popup/MessagePopup.java",
+     "lines": 103
+    },
+    {
+     "name": "ClientSettingTextField",
+     "jac": 0.5,
+     "is_module": false,
+     "path": "work/official26/com/github/epsilon/gui/panel/view/settings/ClientSettingTextField.java",
+     "lines": 196
+    }
+   ]
+  }
+ ]
+}

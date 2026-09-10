@@ -1,0 +1,402 @@
+{
+ "batch": "E002",
+ "n": 8,
+ "classes": [
+  {
+   "obf": "A",
+   "is_module": true,
+   "lines": 2312,
+   "mc": [
+    "Block",
+    "BlockPos",
+    "ClientLevel"
+   ],
+   "cands": [
+    {
+     "name": "MixinClientLevel",
+     "jac": 0.333,
+     "is_module": false,
+     "path": "work/official26/com/github/epsilon/mixins/MixinClientLevel.java",
+     "lines": 37
+    },
+    {
+     "name": "MixinVisGraph",
+     "jac": 0.25,
+     "is_module": false,
+     "path": "work/official26/com/github/epsilon/mixins/MixinVisGraph.java",
+     "lines": 33
+    },
+    {
+     "name": "MixinGustSeedParticle",
+     "jac": 0.2,
+     "is_module": false,
+     "path": "work/official26/com/github/epsilon/mixins/MixinGustSeedParticle.java",
+     "lines": 38
+    },
+    {
+     "name": "MixinBlock",
+     "jac": 0.2,
+     "is_module": false,
+     "path": "work/official26/com/github/epsilon/mixins/MixinBlock.java",
+     "lines": 34
+    },
+    {
+     "name": "MixinBlockCollisions",
+     "jac": 0.167,
+     "is_module": false,
+     "path": "work/official26/com/github/epsilon/mixins/MixinBlockCollisions.java",
+     "lines": 35
+    }
+   ]
+  },
+  {
+   "obf": "eP",
+   "is_module": true,
+   "lines": 1961,
+   "mc": [
+    "Gui",
+    "LocalPlayer"
+   ],
+   "cands": [
+    {
+     "name": "MixinGuiManager",
+     "jac": 0.333,
+     "is_module": false,
+     "path": "work/official26/com/github/epsilon/mixins/MixinGuiManager.java",
+     "lines": 33
+    },
+    {
+     "name": "MixinLocalPlayer",
+     "jac": 0.143,
+     "is_module": false,
+     "path": "work/official26/com/github/epsilon/mixins/MixinLocalPlayer.java",
+     "lines": 142
+    },
+    {
+     "name": "MixinMinecraft",
+     "jac": 0.111,
+     "is_module": false,
+     "path": "work/official26/com/github/epsilon/mixins/MixinMinecraft.java",
+     "lines": 194
+    },
+    {
+     "name": "MixinItemInHandRenderer",
+     "jac": 0.1,
+     "is_module": false,
+     "path": "work/official26/com/github/epsilon/mixins/MixinItemInHandRenderer.java",
+     "lines": 154
+    },
+    {
+     "name": "Watermark",
+     "jac": 0.0,
+     "is_module": true,
+     "path": "work/official26/com/github/epsilon/elements/impl/Watermark.java",
+     "lines": 42
+    }
+   ]
+  },
+  {
+   "obf": "n",
+   "is_module": true,
+   "lines": 203,
+   "mc": [
+    "Packet",
+    "ServerboundUseItemOnPacket",
+    "ServerboundUseItemPacket"
+   ],
+   "cands": [
+    {
+     "name": "PacketEvent",
+     "jac": 0.333,
+     "is_module": false,
+     "path": "work/official26/com/github/epsilon/events/impl/PacketEvent.java",
+     "lines": 48
+    },
+    {
+     "name": "MixinConnection",
+     "jac": 0.2,
+     "is_module": false,
+     "path": "work/official26/com/github/epsilon/mixins/MixinConnection.java",
+     "lines": 65
+    },
+    {
+     "name": "Stuck",
+     "jac": 0.167,
+     "is_module": true,
+     "path": "work/official26/com/github/epsilon/modules/impl/movement/Stuck.java",
+     "lines": 88
+    },
+    {
+     "name": "InteractionUtils",
+     "jac": 0.167,
+     "is_module": false,
+     "path": "work/official26/com/github/epsilon/utils/player/InteractionUtils.java",
+     "lines": 72
+    },
+    {
+     "name": "NoSlow",
+     "jac": 0.077,
+     "is_module": true,
+     "path": "work/official26/com/github/epsilon/modules/impl/movement/NoSlow.java",
+     "lines": 252
+    }
+   ]
+  },
+  {
+   "obf": "p",
+   "is_module": true,
+   "lines": 3043,
+   "mc": [
+    "AABB",
+    "BedBlock",
+    "BlockHitResult",
+    "BlockPos",
+    "BlockState",
+    "Direction",
+    "InteractionHand",
+    "LocalPlayer",
+    "ServerboundSwingPacket",
+    "Vec3",
+    "VoxelShape"
+   ],
+   "cands": [
+    {
+     "name": "RotationUtils",
+     "jac": 0.333,
+     "is_module": false,
+     "path": "work/official26/com/github/epsilon/utils/rotation/RotationUtils.java",
+     "lines": 304
+    },
+    {
+     "name": "InteractionUtils",
+     "jac": 0.294,
+     "is_module": false,
+     "path": "work/official26/com/github/epsilon/utils/player/InteractionUtils.java",
+     "lines": 72
+    },
+    {
+     "name": "MixinLocalPlayer",
+     "jac": 0.214,
+     "is_module": false,
+     "path": "work/official26/com/github/epsilon/mixins/MixinLocalPlayer.java",
+     "lines": 142
+    },
+    {
+     "name": "MixinSodiumAbstractBlockRenderContext",
+     "jac": 0.182,
+     "is_module": false,
+     "path": "work/official26/com/github/epsilon/fabric/mixins/sodium/MixinSodiumAbstractBlockRenderContext.java",
+     "lines": 39
+    },
+    {
+     "name": "MixinBlock",
+     "jac": 0.167,
+     "is_module": false,
+     "path": "work/official26/com/github/epsilon/mixins/MixinBlock.java",
+     "lines": 34
+    }
+   ]
+  },
+  {
+   "obf": "u3",
+   "is_module": true,
+   "lines": 1601,
+   "mc": [
+    "BedBlock",
+    "BlockPos",
+    "Entity"
+   ],
+   "cands": [
+    {
+     "name": "MixinMultiPlayerGameMode",
+     "jac": 0.333,
+     "is_module": false,
+     "path": "work/official26/com/github/epsilon/mixins/MixinMultiPlayerGameMode.java",
+     "lines": 97
+    },
+    {
+     "name": "MixinClientLevel",
+     "jac": 0.333,
+     "is_module": false,
+     "path": "work/official26/com/github/epsilon/mixins/MixinClientLevel.java",
+     "lines": 37
+    },
+    {
+     "name": "MixinWebBlock",
+     "jac": 0.286,
+     "is_module": false,
+     "path": "work/official26/com/github/epsilon/mixins/MixinWebBlock.java",
+     "lines": 40
+    },
+    {
+     "name": "MixinVisGraph",
+     "jac": 0.25,
+     "is_module": false,
+     "path": "work/official26/com/github/epsilon/mixins/MixinVisGraph.java",
+     "lines": 33
+    },
+    {
+     "name": "MixinEntityRenderState",
+     "jac": 0.25,
+     "is_module": false,
+     "path": "work/official26/com/github/epsilon/mixins/MixinEntityRenderState.java",
+     "lines": 34
+    }
+   ]
+  },
+  {
+   "obf": "ua",
+   "is_module": true,
+   "lines": 811,
+   "mc": [
+    "CameraRenderState",
+    "Vec3"
+   ],
+   "cands": [
+    {
+     "name": "MixinLivingEntity",
+     "jac": 0.333,
+     "is_module": false,
+     "path": "work/official26/com/github/epsilon/mixins/MixinLivingEntity.java",
+     "lines": 90
+    },
+    {
+     "name": "MixinEntity",
+     "jac": 0.333,
+     "is_module": false,
+     "path": "work/official26/com/github/epsilon/mixins/MixinEntity.java",
+     "lines": 73
+    },
+    {
+     "name": "MixinFireworkRocketEntity",
+     "jac": 0.25,
+     "is_module": false,
+     "path": "work/official26/com/github/epsilon/mixins/MixinFireworkRocketEntity.java",
+     "lines": 37
+    },
+    {
+     "name": "MixinPlayer",
+     "jac": 0.2,
+     "is_module": false,
+     "path": "work/official26/com/github/epsilon/mixins/MixinPlayer.java",
+     "lines": 72
+    },
+    {
+     "name": "MixinLevelRenderer",
+     "jac": 0.2,
+     "is_module": false,
+     "path": "work/official26/com/github/epsilon/mixins/MixinLevelRenderer.java",
+     "lines": 63
+    }
+   ]
+  },
+  {
+   "obf": "uk",
+   "is_module": true,
+   "lines": 1275,
+   "mc": [
+    "Equippable",
+    "InteractionHand",
+    "ItemStack",
+    "LocalPlayer"
+   ],
+   "cands": [
+    {
+     "name": "AutoFirework",
+     "jac": 0.333,
+     "is_module": true,
+     "path": "work/official26/com/github/epsilon/modules/impl/player/AutoFirework.java",
+     "lines": 113
+    },
+    {
+     "name": "MixinItemInHandRenderer",
+     "jac": 0.3,
+     "is_module": false,
+     "path": "work/official26/com/github/epsilon/mixins/MixinItemInHandRenderer.java",
+     "lines": 154
+    },
+    {
+     "name": "MixinLocalPlayer",
+     "jac": 0.25,
+     "is_module": false,
+     "path": "work/official26/com/github/epsilon/mixins/MixinLocalPlayer.java",
+     "lines": 142
+    },
+    {
+     "name": "FindItemResult",
+     "jac": 0.25,
+     "is_module": false,
+     "path": "work/official26/com/github/epsilon/utils/player/FindItemResult.java",
+     "lines": 31
+    },
+    {
+     "name": "MixinMinecraft",
+     "jac": 0.2,
+     "is_module": false,
+     "path": "work/official26/com/github/epsilon/mixins/MixinMinecraft.java",
+     "lines": 194
+    }
+   ]
+  },
+  {
+   "obf": "up",
+   "is_module": true,
+   "lines": 3572,
+   "mc": [
+    "AxeItem",
+    "BowItem",
+    "CrossbowItem",
+    "EquipmentSlot",
+    "FishingRodItem",
+    "Item",
+    "ItemStack",
+    "ServerboundAttackPacket",
+    "ServerboundContainerClosePacket",
+    "ServerboundInteractPacket",
+    "ServerboundMovePlayerPacket",
+    "ServerboundPlayerActionPacket",
+    "ServerboundUseItemOnPacket",
+    "ServerboundUseItemPacket",
+    "ShovelItem",
+    "StandingAndWallBlockItem"
+   ],
+   "cands": [
+    {
+     "name": "Stealer",
+     "jac": 0.304,
+     "is_module": true,
+     "path": "work/official26/com/github/epsilon/modules/impl/player/Stealer.java",
+     "lines": 206
+    },
+    {
+     "name": "NoSlow",
+     "jac": 0.08,
+     "is_module": true,
+     "path": "work/official26/com/github/epsilon/modules/impl/movement/NoSlow.java",
+     "lines": 252
+    },
+    {
+     "name": "InteractionUtils",
+     "jac": 0.08,
+     "is_module": false,
+     "path": "work/official26/com/github/epsilon/utils/player/InteractionUtils.java",
+     "lines": 72
+    },
+    {
+     "name": "Stuck",
+     "jac": 0.053,
+     "is_module": true,
+     "path": "work/official26/com/github/epsilon/modules/impl/movement/Stuck.java",
+     "lines": 88
+    },
+    {
+     "name": "AutoFirework",
+     "jac": 0.053,
+     "is_module": true,
+     "path": "work/official26/com/github/epsilon/modules/impl/player/AutoFirework.java",
+     "lines": 113
+    }
+   ]
+  }
+ ]
+}

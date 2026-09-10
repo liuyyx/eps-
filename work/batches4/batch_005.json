@@ -1,0 +1,355 @@
+{
+ "batch": "E005",
+ "n": 8,
+ "classes": [
+  {
+   "obf": "e5",
+   "is_module": true,
+   "lines": 502,
+   "mc": [],
+   "cands": [
+    {
+     "name": "Watermark",
+     "jac": 0.0,
+     "is_module": true,
+     "path": "work/official26/com/github/epsilon/elements/impl/Watermark.java",
+     "lines": 42
+    },
+    {
+     "name": "VulkanStd430Buffer",
+     "jac": 0,
+     "is_module": false,
+     "path": "work/official26/com/github/epsilon/graphics/vulkan/buffer/VulkanStd430Buffer.java",
+     "lines": 79
+    },
+    {
+     "name": "VulkanResourceManager",
+     "jac": 0,
+     "is_module": false,
+     "path": "work/official26/com/github/epsilon/graphics/vulkan/descriptor/VulkanResourceManager.java",
+     "lines": 267
+    },
+    {
+     "name": "VulkanOutputBuffer",
+     "jac": 0,
+     "is_module": false,
+     "path": "work/official26/com/github/epsilon/graphics/vulkan/buffer/VulkanOutputBuffer.java",
+     "lines": 92
+    },
+    {
+     "name": "VulkanComputeUtils",
+     "jac": 0,
+     "is_module": false,
+     "path": "work/official26/com/github/epsilon/graphics/vulkan/compute/VulkanComputeUtils.java",
+     "lines": 155
+    }
+   ]
+  },
+  {
+   "obf": "eC",
+   "is_module": true,
+   "lines": 922,
+   "mc": [
+    "EntityType",
+    "LevelExtractor"
+   ],
+   "cands": [
+    {
+     "name": "Watermark",
+     "jac": 0.0,
+     "is_module": true,
+     "path": "work/official26/com/github/epsilon/elements/impl/Watermark.java",
+     "lines": 42
+    },
+    {
+     "name": "VulkanStd430Buffer",
+     "jac": 0.0,
+     "is_module": false,
+     "path": "work/official26/com/github/epsilon/graphics/vulkan/buffer/VulkanStd430Buffer.java",
+     "lines": 79
+    },
+    {
+     "name": "VulkanResourceManager",
+     "jac": 0.0,
+     "is_module": false,
+     "path": "work/official26/com/github/epsilon/graphics/vulkan/descriptor/VulkanResourceManager.java",
+     "lines": 267
+    },
+    {
+     "name": "VulkanOutputBuffer",
+     "jac": 0.0,
+     "is_module": false,
+     "path": "work/official26/com/github/epsilon/graphics/vulkan/buffer/VulkanOutputBuffer.java",
+     "lines": 92
+    },
+    {
+     "name": "VulkanComputeUtils",
+     "jac": 0.0,
+     "is_module": false,
+     "path": "work/official26/com/github/epsilon/graphics/vulkan/compute/VulkanComputeUtils.java",
+     "lines": 155
+    }
+   ]
+  },
+  {
+   "obf": "ee",
+   "is_module": true,
+   "lines": 517,
+   "mc": [],
+   "cands": [
+    {
+     "name": "Watermark",
+     "jac": 0.0,
+     "is_module": true,
+     "path": "work/official26/com/github/epsilon/elements/impl/Watermark.java",
+     "lines": 42
+    },
+    {
+     "name": "VulkanStd430Buffer",
+     "jac": 0,
+     "is_module": false,
+     "path": "work/official26/com/github/epsilon/graphics/vulkan/buffer/VulkanStd430Buffer.java",
+     "lines": 79
+    },
+    {
+     "name": "VulkanResourceManager",
+     "jac": 0,
+     "is_module": false,
+     "path": "work/official26/com/github/epsilon/graphics/vulkan/descriptor/VulkanResourceManager.java",
+     "lines": 267
+    },
+    {
+     "name": "VulkanOutputBuffer",
+     "jac": 0,
+     "is_module": false,
+     "path": "work/official26/com/github/epsilon/graphics/vulkan/buffer/VulkanOutputBuffer.java",
+     "lines": 92
+    },
+    {
+     "name": "VulkanComputeUtils",
+     "jac": 0,
+     "is_module": false,
+     "path": "work/official26/com/github/epsilon/graphics/vulkan/compute/VulkanComputeUtils.java",
+     "lines": 155
+    }
+   ]
+  },
+  {
+   "obf": "ep",
+   "is_module": true,
+   "lines": 1024,
+   "mc": [],
+   "cands": [
+    {
+     "name": "Watermark",
+     "jac": 0.0,
+     "is_module": true,
+     "path": "work/official26/com/github/epsilon/elements/impl/Watermark.java",
+     "lines": 42
+    },
+    {
+     "name": "VulkanStd430Buffer",
+     "jac": 0,
+     "is_module": false,
+     "path": "work/official26/com/github/epsilon/graphics/vulkan/buffer/VulkanStd430Buffer.java",
+     "lines": 79
+    },
+    {
+     "name": "VulkanResourceManager",
+     "jac": 0,
+     "is_module": false,
+     "path": "work/official26/com/github/epsilon/graphics/vulkan/descriptor/VulkanResourceManager.java",
+     "lines": 267
+    },
+    {
+     "name": "VulkanOutputBuffer",
+     "jac": 0,
+     "is_module": false,
+     "path": "work/official26/com/github/epsilon/graphics/vulkan/buffer/VulkanOutputBuffer.java",
+     "lines": 92
+    },
+    {
+     "name": "VulkanComputeUtils",
+     "jac": 0,
+     "is_module": false,
+     "path": "work/official26/com/github/epsilon/graphics/vulkan/compute/VulkanComputeUtils.java",
+     "lines": 155
+    }
+   ]
+  },
+  {
+   "obf": "eV",
+   "is_module": true,
+   "lines": 1230,
+   "mc": [],
+   "cands": [
+    {
+     "name": "Watermark",
+     "jac": 0.0,
+     "is_module": true,
+     "path": "work/official26/com/github/epsilon/elements/impl/Watermark.java",
+     "lines": 42
+    },
+    {
+     "name": "VulkanStd430Buffer",
+     "jac": 0,
+     "is_module": false,
+     "path": "work/official26/com/github/epsilon/graphics/vulkan/buffer/VulkanStd430Buffer.java",
+     "lines": 79
+    },
+    {
+     "name": "VulkanResourceManager",
+     "jac": 0,
+     "is_module": false,
+     "path": "work/official26/com/github/epsilon/graphics/vulkan/descriptor/VulkanResourceManager.java",
+     "lines": 267
+    },
+    {
+     "name": "VulkanOutputBuffer",
+     "jac": 0,
+     "is_module": false,
+     "path": "work/official26/com/github/epsilon/graphics/vulkan/buffer/VulkanOutputBuffer.java",
+     "lines": 92
+    },
+    {
+     "name": "VulkanComputeUtils",
+     "jac": 0,
+     "is_module": false,
+     "path": "work/official26/com/github/epsilon/graphics/vulkan/compute/VulkanComputeUtils.java",
+     "lines": 155
+    }
+   ]
+  },
+  {
+   "obf": "u0",
+   "is_module": true,
+   "lines": 701,
+   "mc": [],
+   "cands": [
+    {
+     "name": "Watermark",
+     "jac": 0.0,
+     "is_module": true,
+     "path": "work/official26/com/github/epsilon/elements/impl/Watermark.java",
+     "lines": 42
+    },
+    {
+     "name": "VulkanStd430Buffer",
+     "jac": 0,
+     "is_module": false,
+     "path": "work/official26/com/github/epsilon/graphics/vulkan/buffer/VulkanStd430Buffer.java",
+     "lines": 79
+    },
+    {
+     "name": "VulkanResourceManager",
+     "jac": 0,
+     "is_module": false,
+     "path": "work/official26/com/github/epsilon/graphics/vulkan/descriptor/VulkanResourceManager.java",
+     "lines": 267
+    },
+    {
+     "name": "VulkanOutputBuffer",
+     "jac": 0,
+     "is_module": false,
+     "path": "work/official26/com/github/epsilon/graphics/vulkan/buffer/VulkanOutputBuffer.java",
+     "lines": 92
+    },
+    {
+     "name": "VulkanComputeUtils",
+     "jac": 0,
+     "is_module": false,
+     "path": "work/official26/com/github/epsilon/graphics/vulkan/compute/VulkanComputeUtils.java",
+     "lines": 155
+    }
+   ]
+  },
+  {
+   "obf": "v",
+   "is_module": true,
+   "lines": 673,
+   "mc": [],
+   "cands": [
+    {
+     "name": "Watermark",
+     "jac": 0.0,
+     "is_module": true,
+     "path": "work/official26/com/github/epsilon/elements/impl/Watermark.java",
+     "lines": 42
+    },
+    {
+     "name": "VulkanStd430Buffer",
+     "jac": 0,
+     "is_module": false,
+     "path": "work/official26/com/github/epsilon/graphics/vulkan/buffer/VulkanStd430Buffer.java",
+     "lines": 79
+    },
+    {
+     "name": "VulkanResourceManager",
+     "jac": 0,
+     "is_module": false,
+     "path": "work/official26/com/github/epsilon/graphics/vulkan/descriptor/VulkanResourceManager.java",
+     "lines": 267
+    },
+    {
+     "name": "VulkanOutputBuffer",
+     "jac": 0,
+     "is_module": false,
+     "path": "work/official26/com/github/epsilon/graphics/vulkan/buffer/VulkanOutputBuffer.java",
+     "lines": 92
+    },
+    {
+     "name": "VulkanComputeUtils",
+     "jac": 0,
+     "is_module": false,
+     "path": "work/official26/com/github/epsilon/graphics/vulkan/compute/VulkanComputeUtils.java",
+     "lines": 155
+    }
+   ]
+  },
+  {
+   "obf": "dC",
+   "is_module": false,
+   "lines": 2484,
+   "mc": [
+    "Identifier"
+   ],
+   "cands": [
+    {
+     "name": "UiTree",
+     "jac": 1.0,
+     "is_module": false,
+     "path": "work/official26/com/github/epsilon/gui/lib/UiTree.java",
+     "lines": 834
+    },
+    {
+     "name": "TtfFontLoader",
+     "jac": 1.0,
+     "is_module": false,
+     "path": "work/official26/com/github/epsilon/graphics/text/ttf/TtfFontLoader.java",
+     "lines": 327
+    },
+    {
+     "name": "TtfFontFile",
+     "jac": 1.0,
+     "is_module": false,
+     "path": "work/official26/com/github/epsilon/graphics/text/ttf/TtfFontFile.java",
+     "lines": 144
+    },
+    {
+     "name": "TextureCacheHolder",
+     "jac": 1.0,
+     "is_module": false,
+     "path": "work/official26/com/github/epsilon/holders/TextureCacheHolder.java",
+     "lines": 28
+    },
+    {
+     "name": "StaticFontLoader",
+     "jac": 1.0,
+     "is_module": false,
+     "path": "work/official26/com/github/epsilon/graphics/text/StaticFontLoader.java",
+     "lines": 369
+    }
+   ]
+  }
+ ]
+}

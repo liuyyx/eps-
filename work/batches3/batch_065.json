@@ -1,0 +1,99 @@
+{
+ "batch": "D065",
+ "n": 8,
+ "classes": [
+  {
+   "obf": "z3",
+   "kind": "class",
+   "super": "zv",
+   "lines": 31,
+   "is_module": false,
+   "anchored": [
+    "RegistryListSetting",
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc": [],
+   "n_mc": 0
+  },
+  {
+   "obf": "g0",
+   "kind": "class",
+   "super": null,
+   "lines": 30,
+   "is_module": false,
+   "anchored": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc": [],
+   "n_mc": 0
+  },
+  {
+   "obf": "g6",
+   "kind": "class",
+   "super": null,
+   "lines": 27,
+   "is_module": false,
+   "anchored": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc": [],
+   "n_mc": 0
+  },
+  {
+   "obf": "OR",
+   "kind": "class",
+   "super": null,
+   "lines": 27,
+   "is_module": false,
+   "anchored": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc": [],
+   "n_mc": 0
+  },
+  {
+   "obf": "OV",
+   "kind": "record",
+   "super": null,
+   "lines": 26,
+   "is_module": false,
+   "anchored": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc": [],
+   "n_mc": 0
+  },
+  {
+   "obf": "ON",
+   "kind": "class",
+   "super": null,
+   "lines": 25,
+   "is_module": false,
+   "anchored": [],
+   "mc": [],
+   "n_mc": 0
+  },
+  {
+   "obf": "g5",
+   "kind": "class",
+   "super": null,
+   "lines": 23,
+   "is_module": false,
+   "anchored": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc": [],
+   "n_mc": 0
+  },
+  {
+   "obf": "_d",
+   "kind": "class",
+   "super": "ViaBackwardsConfig",
+   "lines": 23,
+   "is_module": false,
+   "anchored": [],
+   "mc": [],
+   "n_mc": 0
+  }
+ ]
+}

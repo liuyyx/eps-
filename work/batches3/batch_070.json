@@ -1,0 +1,88 @@
+{
+ "batch": "D070",
+ "n": 8,
+ "classes": [
+  {
+   "obf": "yc",
+   "kind": "interface",
+   "super": null,
+   "lines": 13,
+   "is_module": false,
+   "anchored": [],
+   "mc": [],
+   "n_mc": 0
+  },
+  {
+   "obf": "Dz",
+   "kind": "class",
+   "super": "Exception",
+   "lines": 12,
+   "is_module": false,
+   "anchored": [],
+   "mc": [],
+   "n_mc": 0
+  },
+  {
+   "obf": "X6",
+   "kind": "interface",
+   "super": null,
+   "lines": 12,
+   "is_module": false,
+   "anchored": [],
+   "mc": [],
+   "n_mc": 0
+  },
+  {
+   "obf": "Oa",
+   "kind": "interface",
+   "super": null,
+   "lines": 11,
+   "is_module": false,
+   "anchored": [
+    "FollowerPath"
+   ],
+   "mc": [],
+   "n_mc": 0
+  },
+  {
+   "obf": "dK",
+   "kind": "interface",
+   "super": null,
+   "lines": 10,
+   "is_module": false,
+   "anchored": [],
+   "mc": [],
+   "n_mc": 0
+  },
+  {
+   "obf": "gk",
+   "kind": "class",
+   "super": null,
+   "lines": 10,
+   "is_module": false,
+   "anchored": [],
+   "mc": [],
+   "n_mc": 0
+  },
+  {
+   "obf": "i_",
+   "kind": "interface",
+   "super": null,
+   "lines": 10,
+   "is_module": false,
+   "anchored": [],
+   "mc": [],
+   "n_mc": 0
+  },
+  {
+   "obf": "nH",
+   "kind": "interface",
+   "super": null,
+   "lines": 10,
+   "is_module": false,
+   "anchored": [],
+   "mc": [],
+   "n_mc": 0
+  }
+ ]
+}

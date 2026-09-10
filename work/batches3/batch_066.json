@@ -1,0 +1,96 @@
+{
+ "batch": "D066",
+ "n": 8,
+ "classes": [
+  {
+   "obf": "gO",
+   "kind": "class",
+   "super": "gk",
+   "lines": 22,
+   "is_module": false,
+   "anchored": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc": [],
+   "n_mc": 0
+  },
+  {
+   "obf": "ik",
+   "kind": "class",
+   "super": null,
+   "lines": 22,
+   "is_module": false,
+   "anchored": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc": [],
+   "n_mc": 0
+  },
+  {
+   "obf": "gL",
+   "kind": "class",
+   "super": "gk",
+   "lines": 21,
+   "is_module": false,
+   "anchored": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc": [],
+   "n_mc": 0
+  },
+  {
+   "obf": "n2",
+   "kind": "class",
+   "super": null,
+   "lines": 21,
+   "is_module": false,
+   "anchored": [],
+   "mc": [],
+   "n_mc": 0
+  },
+  {
+   "obf": "yS",
+   "kind": "class",
+   "super": null,
+   "lines": 21,
+   "is_module": false,
+   "anchored": [],
+   "mc": [],
+   "n_mc": 0
+  },
+  {
+   "obf": "D4",
+   "kind": "class",
+   "super": null,
+   "lines": 20,
+   "is_module": false,
+   "anchored": [],
+   "mc": [],
+   "n_mc": 0
+  },
+  {
+   "obf": "dI",
+   "kind": "record",
+   "super": null,
+   "lines": 20,
+   "is_module": false,
+   "anchored": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc": [],
+   "n_mc": 0
+  },
+  {
+   "obf": "DL",
+   "kind": "record",
+   "super": null,
+   "lines": 20,
+   "is_module": false,
+   "anchored": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc": [],
+   "n_mc": 0
+  }
+ ]
+}

@@ -1,0 +1,99 @@
+{
+ "batch": "D063",
+ "n": 8,
+ "classes": [
+  {
+   "obf": "u9",
+   "kind": "class",
+   "super": null,
+   "lines": 41,
+   "is_module": false,
+   "anchored": [],
+   "mc": [],
+   "n_mc": 0
+  },
+  {
+   "obf": "_Q",
+   "kind": "interface",
+   "super": null,
+   "lines": 41,
+   "is_module": false,
+   "anchored": [],
+   "mc": [],
+   "n_mc": 0
+  },
+  {
+   "obf": "dq",
+   "kind": "class",
+   "super": "Record",
+   "lines": 40,
+   "is_module": false,
+   "anchored": [
+    "LuminTexture",
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc": [],
+   "n_mc": 0
+  },
+  {
+   "obf": "OG",
+   "kind": "class",
+   "super": null,
+   "lines": 39,
+   "is_module": false,
+   "anchored": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc": [],
+   "n_mc": 0
+  },
+  {
+   "obf": "uh",
+   "kind": "class",
+   "super": null,
+   "lines": 39,
+   "is_module": false,
+   "anchored": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc": [],
+   "n_mc": 0
+  },
+  {
+   "obf": "yM",
+   "kind": "interface",
+   "super": null,
+   "lines": 39,
+   "is_module": false,
+   "anchored": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc": [],
+   "n_mc": 0
+  },
+  {
+   "obf": "z5",
+   "kind": "class",
+   "super": null,
+   "lines": 39,
+   "is_module": false,
+   "anchored": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc": [],
+   "n_mc": 0
+  },
+  {
+   "obf": "_Y",
+   "kind": "class",
+   "super": null,
+   "lines": 39,
+   "is_module": false,
+   "anchored": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc": [],
+   "n_mc": 0
+  }
+ ]
+}

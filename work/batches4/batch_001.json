@@ -1,0 +1,405 @@
+{
+ "batch": "E001",
+ "n": 8,
+ "classes": [
+  {
+   "obf": "eR",
+   "is_module": true,
+   "lines": 759,
+   "mc": [
+    "Identifier",
+    "Minecraft"
+   ],
+   "cands": [
+    {
+     "name": "TtfGlyphAtlas",
+     "jac": 0.667,
+     "is_module": false,
+     "path": "work/official26/com/github/epsilon/graphics/text/ttf/TtfGlyphAtlas.java",
+     "lines": 133
+    },
+    {
+     "name": "UiTree",
+     "jac": 0.5,
+     "is_module": false,
+     "path": "work/official26/com/github/epsilon/gui/lib/UiTree.java",
+     "lines": 834
+    },
+    {
+     "name": "TtfFontLoader",
+     "jac": 0.5,
+     "is_module": false,
+     "path": "work/official26/com/github/epsilon/graphics/text/ttf/TtfFontLoader.java",
+     "lines": 327
+    },
+    {
+     "name": "TtfFontFile",
+     "jac": 0.5,
+     "is_module": false,
+     "path": "work/official26/com/github/epsilon/graphics/text/ttf/TtfFontFile.java",
+     "lines": 144
+    },
+    {
+     "name": "TextureCacheHolder",
+     "jac": 0.5,
+     "is_module": false,
+     "path": "work/official26/com/github/epsilon/holders/TextureCacheHolder.java",
+     "lines": 28
+    }
+   ]
+  },
+  {
+   "obf": "e3",
+   "is_module": true,
+   "lines": 323,
+   "mc": [
+    "Gui"
+   ],
+   "cands": [
+    {
+     "name": "MixinGuiManager",
+     "jac": 0.5,
+     "is_module": false,
+     "path": "work/official26/com/github/epsilon/mixins/MixinGuiManager.java",
+     "lines": 33
+    },
+    {
+     "name": "Watermark",
+     "jac": 0.0,
+     "is_module": true,
+     "path": "work/official26/com/github/epsilon/elements/impl/Watermark.java",
+     "lines": 42
+    },
+    {
+     "name": "VulkanStd430Buffer",
+     "jac": 0.0,
+     "is_module": false,
+     "path": "work/official26/com/github/epsilon/graphics/vulkan/buffer/VulkanStd430Buffer.java",
+     "lines": 79
+    },
+    {
+     "name": "VulkanResourceManager",
+     "jac": 0.0,
+     "is_module": false,
+     "path": "work/official26/com/github/epsilon/graphics/vulkan/descriptor/VulkanResourceManager.java",
+     "lines": 267
+    },
+    {
+     "name": "VulkanOutputBuffer",
+     "jac": 0.0,
+     "is_module": false,
+     "path": "work/official26/com/github/epsilon/graphics/vulkan/buffer/VulkanOutputBuffer.java",
+     "lines": 92
+    }
+   ]
+  },
+  {
+   "obf": "e4",
+   "is_module": true,
+   "lines": 2583,
+   "mc": [
+    "ItemStack",
+    "LivingEntity",
+    "LocalPlayer",
+    "Vec3"
+   ],
+   "cands": [
+    {
+     "name": "MixinLivingEntity",
+     "jac": 0.5,
+     "is_module": false,
+     "path": "work/official26/com/github/epsilon/mixins/MixinLivingEntity.java",
+     "lines": 90
+    },
+    {
+     "name": "MixinFireworkRocketEntity",
+     "jac": 0.4,
+     "is_module": false,
+     "path": "work/official26/com/github/epsilon/mixins/MixinFireworkRocketEntity.java",
+     "lines": 37
+    },
+    {
+     "name": "MixinLocalPlayer",
+     "jac": 0.25,
+     "is_module": false,
+     "path": "work/official26/com/github/epsilon/mixins/MixinLocalPlayer.java",
+     "lines": 142
+    },
+    {
+     "name": "DeobfESP",
+     "jac": 0.25,
+     "is_module": false,
+     "path": "work/official26/com/github/epsilon/utils/render/esp/DeobfESP.java",
+     "lines": 241
+    },
+    {
+     "name": "MixinEntity",
+     "jac": 0.2,
+     "is_module": false,
+     "path": "work/official26/com/github/epsilon/mixins/MixinEntity.java",
+     "lines": 73
+    }
+   ]
+  },
+  {
+   "obf": "eH",
+   "is_module": true,
+   "lines": 2695,
+   "mc": [
+    "ClientGamePacketListener",
+    "ClientboundPingPacket",
+    "ClientboundPlayerPositionPacket",
+    "ClientboundSetEntityMotionPacket",
+    "Minecraft",
+    "Packet",
+    "ServerboundInteractPacket",
+    "ServerboundMovePlayerPacket"
+   ],
+   "cands": [
+    {
+     "name": "Stuck",
+     "jac": 0.5,
+     "is_module": true,
+     "path": "work/official26/com/github/epsilon/modules/impl/movement/Stuck.java",
+     "lines": 88
+    },
+    {
+     "name": "MixinClientPacketListener",
+     "jac": 0.136,
+     "is_module": false,
+     "path": "work/official26/com/github/epsilon/mixins/MixinClientPacketListener.java",
+     "lines": 139
+    },
+    {
+     "name": "PacketEvent",
+     "jac": 0.125,
+     "is_module": false,
+     "path": "work/official26/com/github/epsilon/events/impl/PacketEvent.java",
+     "lines": 48
+    },
+    {
+     "name": "Constants",
+     "jac": 0.125,
+     "is_module": false,
+     "path": "work/official26/com/github/epsilon/Constants.java",
+     "lines": 23
+    },
+    {
+     "name": "TtfGlyphAtlas",
+     "jac": 0.1,
+     "is_module": false,
+     "path": "work/official26/com/github/epsilon/graphics/text/ttf/TtfGlyphAtlas.java",
+     "lines": 133
+    }
+   ]
+  },
+  {
+   "obf": "H",
+   "is_module": true,
+   "lines": 1269,
+   "mc": [
+    "Identifier",
+    "Player",
+    "Vec3"
+   ],
+   "cands": [
+    {
+     "name": "JumpCircle",
+     "jac": 0.5,
+     "is_module": true,
+     "path": "work/official26/com/github/epsilon/modules/impl/render/JumpCircle.java",
+     "lines": 156
+    },
+    {
+     "name": "MixinPlayer",
+     "jac": 0.4,
+     "is_module": false,
+     "path": "work/official26/com/github/epsilon/mixins/MixinPlayer.java",
+     "lines": 72
+    },
+    {
+     "name": "UiTree",
+     "jac": 0.333,
+     "is_module": false,
+     "path": "work/official26/com/github/epsilon/gui/lib/UiTree.java",
+     "lines": 834
+    },
+    {
+     "name": "TtfFontLoader",
+     "jac": 0.333,
+     "is_module": false,
+     "path": "work/official26/com/github/epsilon/graphics/text/ttf/TtfFontLoader.java",
+     "lines": 327
+    },
+    {
+     "name": "TtfFontFile",
+     "jac": 0.333,
+     "is_module": false,
+     "path": "work/official26/com/github/epsilon/graphics/text/ttf/TtfFontFile.java",
+     "lines": 144
+    }
+   ]
+  },
+  {
+   "obf": "eQ",
+   "is_module": true,
+   "lines": 1640,
+   "mc": [
+    "BlockPos",
+    "BlockState",
+    "ClientLevel",
+    "ClipContext",
+    "Entity",
+    "LocalPlayer",
+    "SlabBlock",
+    "SlabType",
+    "Vec3"
+   ],
+   "cands": [
+    {
+     "name": "MixinClientLevel",
+     "jac": 0.4,
+     "is_module": false,
+     "path": "work/official26/com/github/epsilon/mixins/MixinClientLevel.java",
+     "lines": 37
+    },
+    {
+     "name": "MixinWebBlock",
+     "jac": 0.25,
+     "is_module": false,
+     "path": "work/official26/com/github/epsilon/mixins/MixinWebBlock.java",
+     "lines": 40
+    },
+    {
+     "name": "MixinLocalPlayer",
+     "jac": 0.25,
+     "is_module": false,
+     "path": "work/official26/com/github/epsilon/mixins/MixinLocalPlayer.java",
+     "lines": 142
+    },
+    {
+     "name": "RotationUtils",
+     "jac": 0.222,
+     "is_module": false,
+     "path": "work/official26/com/github/epsilon/utils/rotation/RotationUtils.java",
+     "lines": 304
+    },
+    {
+     "name": "MixinEntity",
+     "jac": 0.222,
+     "is_module": false,
+     "path": "work/official26/com/github/epsilon/mixins/MixinEntity.java",
+     "lines": 73
+    }
+   ]
+  },
+  {
+   "obf": "eq",
+   "is_module": true,
+   "lines": 7528,
+   "mc": [
+    "AABB",
+    "BlockHitResult",
+    "BlockPos",
+    "BlockState",
+    "ClientLevel",
+    "Direction",
+    "InteractionHand",
+    "Item",
+    "ItemStack",
+    "LivingEntity",
+    "LocalPlayer",
+    "Vec3",
+    "VoxelShape"
+   ],
+   "cands": [
+    {
+     "name": "RotationUtils",
+     "jac": 0.368,
+     "is_module": false,
+     "path": "work/official26/com/github/epsilon/utils/rotation/RotationUtils.java",
+     "lines": 304
+    },
+    {
+     "name": "MixinLocalPlayer",
+     "jac": 0.267,
+     "is_module": false,
+     "path": "work/official26/com/github/epsilon/mixins/MixinLocalPlayer.java",
+     "lines": 142
+    },
+    {
+     "name": "InteractionUtils",
+     "jac": 0.263,
+     "is_module": false,
+     "path": "work/official26/com/github/epsilon/utils/player/InteractionUtils.java",
+     "lines": 72
+    },
+    {
+     "name": "MixinClientLevel",
+     "jac": 0.2,
+     "is_module": false,
+     "path": "work/official26/com/github/epsilon/mixins/MixinClientLevel.java",
+     "lines": 37
+    },
+    {
+     "name": "MixinMinecraft",
+     "jac": 0.167,
+     "is_module": false,
+     "path": "work/official26/com/github/epsilon/mixins/MixinMinecraft.java",
+     "lines": 194
+    }
+   ]
+  },
+  {
+   "obf": "z",
+   "is_module": true,
+   "lines": 940,
+   "mc": [
+    "Entity",
+    "InteractionHand",
+    "LivingEntity",
+    "LocalPlayer",
+    "MultiPlayerGameMode",
+    "Player",
+    "ServerboundSwingPacket"
+   ],
+   "cands": [
+    {
+     "name": "MixinMinecraft",
+     "jac": 0.364,
+     "is_module": false,
+     "path": "work/official26/com/github/epsilon/mixins/MixinMinecraft.java",
+     "lines": 194
+    },
+    {
+     "name": "MixinMultiPlayerGameMode",
+     "jac": 0.333,
+     "is_module": false,
+     "path": "work/official26/com/github/epsilon/mixins/MixinMultiPlayerGameMode.java",
+     "lines": 97
+    },
+    {
+     "name": "ESP2D",
+     "jac": 0.333,
+     "is_module": true,
+     "path": "work/official26/com/github/epsilon/modules/impl/render/ESP2D.java",
+     "lines": 174
+    },
+    {
+     "name": "MixinLivingEntityRenderer",
+     "jac": 0.25,
+     "is_module": false,
+     "path": "work/official26/com/github/epsilon/mixins/MixinLivingEntityRenderer.java",
+     "lines": 101
+    },
+    {
+     "name": "MixinPlayer",
+     "jac": 0.222,
+     "is_module": false,
+     "path": "work/official26/com/github/epsilon/mixins/MixinPlayer.java",
+     "lines": 72
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,86 @@
+{
+ "batch": "D071",
+ "n": 8,
+ "classes": [
+  {
+   "obf": "ym",
+   "kind": "interface",
+   "super": null,
+   "lines": 10,
+   "is_module": false,
+   "anchored": [],
+   "mc": [],
+   "n_mc": 0
+  },
+  {
+   "obf": "zT",
+   "kind": "interface",
+   "super": null,
+   "lines": 10,
+   "is_module": false,
+   "anchored": [],
+   "mc": [],
+   "n_mc": 0
+  },
+  {
+   "obf": "gr",
+   "kind": "interface",
+   "super": null,
+   "lines": 9,
+   "is_module": false,
+   "anchored": [],
+   "mc": [],
+   "n_mc": 0
+  },
+  {
+   "obf": "zB",
+   "kind": "interface",
+   "super": null,
+   "lines": 9,
+   "is_module": false,
+   "anchored": [],
+   "mc": [],
+   "n_mc": 0
+  },
+  {
+   "obf": "zy",
+   "kind": "interface",
+   "super": null,
+   "lines": 9,
+   "is_module": false,
+   "anchored": [],
+   "mc": [],
+   "n_mc": 0
+  },
+  {
+   "obf": "DI",
+   "kind": "class",
+   "super": null,
+   "lines": 8,
+   "is_module": false,
+   "anchored": [],
+   "mc": [],
+   "n_mc": 0
+  },
+  {
+   "obf": "_4",
+   "kind": "class",
+   "super": null,
+   "lines": 8,
+   "is_module": false,
+   "anchored": [],
+   "mc": [],
+   "n_mc": 0
+  },
+  {
+   "obf": "_g",
+   "kind": "class",
+   "super": null,
+   "lines": 8,
+   "is_module": false,
+   "anchored": [],
+   "mc": [],
+   "n_mc": 0
+  }
+ ]
+}

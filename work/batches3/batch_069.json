@@ -1,0 +1,88 @@
+{
+ "batch": "D069",
+ "n": 8,
+ "classes": [
+  {
+   "obf": "i3",
+   "kind": "class",
+   "super": null,
+   "lines": 16,
+   "is_module": false,
+   "anchored": [],
+   "mc": [],
+   "n_mc": 0
+  },
+  {
+   "obf": "yE",
+   "kind": "interface",
+   "super": null,
+   "lines": 16,
+   "is_module": false,
+   "anchored": [],
+   "mc": [],
+   "n_mc": 0
+  },
+  {
+   "obf": "zI",
+   "kind": "interface",
+   "super": null,
+   "lines": 16,
+   "is_module": false,
+   "anchored": [],
+   "mc": [],
+   "n_mc": 0
+  },
+  {
+   "obf": "_b",
+   "kind": "class",
+   "super": null,
+   "lines": 16,
+   "is_module": false,
+   "anchored": [],
+   "mc": [],
+   "n_mc": 0
+  },
+  {
+   "obf": "DF",
+   "kind": "interface",
+   "super": null,
+   "lines": 15,
+   "is_module": false,
+   "anchored": [],
+   "mc": [],
+   "n_mc": 0
+  },
+  {
+   "obf": "gX",
+   "kind": "class",
+   "super": null,
+   "lines": 15,
+   "is_module": false,
+   "anchored": [],
+   "mc": [],
+   "n_mc": 0
+  },
+  {
+   "obf": "XR",
+   "kind": "class",
+   "super": "Xo",
+   "lines": 15,
+   "is_module": false,
+   "anchored": [
+    "DamagePriority"
+   ],
+   "mc": [],
+   "n_mc": 0
+  },
+  {
+   "obf": "gY",
+   "kind": "class",
+   "super": null,
+   "lines": 14,
+   "is_module": false,
+   "anchored": [],
+   "mc": [],
+   "n_mc": 0
+  }
+ ]
+}

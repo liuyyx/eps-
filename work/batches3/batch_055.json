@@ -1,0 +1,104 @@
+{
+ "batch": "D055",
+ "n": 8,
+ "classes": [
+  {
+   "obf": "O5",
+   "kind": "class",
+   "super": null,
+   "lines": 65,
+   "is_module": false,
+   "anchored": [
+    "DropdownScreen",
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc": [],
+   "n_mc": 0
+  },
+  {
+   "obf": "uB",
+   "kind": "class",
+   "super": "Record",
+   "lines": 65,
+   "is_module": false,
+   "anchored": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc": [],
+   "n_mc": 0
+  },
+  {
+   "obf": "l2",
+   "kind": "class",
+   "super": "Record",
+   "lines": 64,
+   "is_module": false,
+   "anchored": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc": [],
+   "n_mc": 0
+  },
+  {
+   "obf": "ux",
+   "kind": "class",
+   "super": "Record",
+   "lines": 64,
+   "is_module": false,
+   "anchored": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc": [],
+   "n_mc": 0
+  },
+  {
+   "obf": "va",
+   "kind": "class",
+   "super": "Record",
+   "lines": 64,
+   "is_module": false,
+   "anchored": [
+    "SeQL/字符串解密+调用分发核心",
+    "Setting",
+    "SettingGroup"
+   ],
+   "mc": [],
+   "n_mc": 0
+  },
+  {
+   "obf": "_0",
+   "kind": "class",
+   "super": "Record",
+   "lines": 64,
+   "is_module": false,
+   "anchored": [
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc": [],
+   "n_mc": 0
+  },
+  {
+   "obf": "vP",
+   "kind": "interface",
+   "super": null,
+   "lines": 63,
+   "is_module": false,
+   "anchored": [],
+   "mc": [],
+   "n_mc": 0
+  },
+  {
+   "obf": "d8",
+   "kind": "class",
+   "super": "Record",
+   "lines": 62,
+   "is_module": false,
+   "anchored": [
+    "LuminTexture",
+    "SeQL/字符串解密+调用分发核心"
+   ],
+   "mc": [],
+   "n_mc": 0
+  }
+ ]
+}

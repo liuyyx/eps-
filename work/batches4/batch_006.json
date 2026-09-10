@@ -1,0 +1,367 @@
+{
+ "batch": "E006",
+ "n": 8,
+ "classes": [
+  {
+   "obf": "eD",
+   "is_module": false,
+   "lines": 1663,
+   "mc": [
+    "DeltaTracker"
+   ],
+   "cands": [
+    {
+     "name": "Watermark",
+     "jac": 1.0,
+     "is_module": true,
+     "path": "work/official26/com/github/epsilon/elements/impl/Watermark.java",
+     "lines": 42
+    },
+    {
+     "name": "MixinDeltaTrackerTimer",
+     "jac": 1.0,
+     "is_module": false,
+     "path": "work/official26/com/github/epsilon/mixins/MixinDeltaTrackerTimer.java",
+     "lines": 32
+    },
+    {
+     "name": "BPS",
+     "jac": 0.5,
+     "is_module": true,
+     "path": "work/official26/com/github/epsilon/elements/impl/BPS.java",
+     "lines": 330
+    },
+    {
+     "name": "MixinGui",
+     "jac": 0.333,
+     "is_module": false,
+     "path": "work/official26/com/github/epsilon/mixins/MixinGui.java",
+     "lines": 50
+    },
+    {
+     "name": "MixinLevelRenderer",
+     "jac": 0.25,
+     "is_module": false,
+     "path": "work/official26/com/github/epsilon/mixins/MixinLevelRenderer.java",
+     "lines": 63
+    }
+   ]
+  },
+  {
+   "obf": "eg",
+   "is_module": false,
+   "lines": 2123,
+   "mc": [
+    "DeltaTracker"
+   ],
+   "cands": [
+    {
+     "name": "Watermark",
+     "jac": 1.0,
+     "is_module": true,
+     "path": "work/official26/com/github/epsilon/elements/impl/Watermark.java",
+     "lines": 42
+    },
+    {
+     "name": "MixinDeltaTrackerTimer",
+     "jac": 1.0,
+     "is_module": false,
+     "path": "work/official26/com/github/epsilon/mixins/MixinDeltaTrackerTimer.java",
+     "lines": 32
+    },
+    {
+     "name": "BPS",
+     "jac": 0.5,
+     "is_module": true,
+     "path": "work/official26/com/github/epsilon/elements/impl/BPS.java",
+     "lines": 330
+    },
+    {
+     "name": "MixinGui",
+     "jac": 0.333,
+     "is_module": false,
+     "path": "work/official26/com/github/epsilon/mixins/MixinGui.java",
+     "lines": 50
+    },
+    {
+     "name": "MixinLevelRenderer",
+     "jac": 0.25,
+     "is_module": false,
+     "path": "work/official26/com/github/epsilon/mixins/MixinLevelRenderer.java",
+     "lines": 63
+    }
+   ]
+  },
+  {
+   "obf": "gW",
+   "is_module": false,
+   "lines": 1922,
+   "mc": [
+    "GuiGraphicsExtractor",
+    "MouseButtonEvent"
+   ],
+   "cands": [
+    {
+     "name": "TopBarPanel",
+     "jac": 1.0,
+     "is_module": false,
+     "path": "work/official26/com/github/epsilon/gui/panel/view/TopBarPanel.java",
+     "lines": 29
+    },
+    {
+     "name": "MessagePopup",
+     "jac": 1.0,
+     "is_module": false,
+     "path": "work/official26/com/github/epsilon/gui/panel/popup/MessagePopup.java",
+     "lines": 103
+    },
+    {
+     "name": "CategoryRailPanel",
+     "jac": 1.0,
+     "is_module": false,
+     "path": "work/official26/com/github/epsilon/gui/panel/view/CategoryRailPanel.java",
+     "lines": 289
+    },
+    {
+     "name": "PanelPopupHost",
+     "jac": 0.5,
+     "is_module": false,
+     "path": "work/official26/com/github/epsilon/gui/panel/popup/PanelPopupHost.java",
+     "lines": 187
+    },
+    {
+     "name": "FriendClientSettingTab",
+     "jac": 0.5,
+     "is_module": false,
+     "path": "work/official26/com/github/epsilon/gui/panel/view/settings/FriendClientSettingTab.java",
+     "lines": 341
+    }
+   ]
+  },
+  {
+   "obf": "gz",
+   "is_module": false,
+   "lines": 2337,
+   "mc": [
+    "Identifier"
+   ],
+   "cands": [
+    {
+     "name": "UiTree",
+     "jac": 1.0,
+     "is_module": false,
+     "path": "work/official26/com/github/epsilon/gui/lib/UiTree.java",
+     "lines": 834
+    },
+    {
+     "name": "TtfFontLoader",
+     "jac": 1.0,
+     "is_module": false,
+     "path": "work/official26/com/github/epsilon/graphics/text/ttf/TtfFontLoader.java",
+     "lines": 327
+    },
+    {
+     "name": "TtfFontFile",
+     "jac": 1.0,
+     "is_module": false,
+     "path": "work/official26/com/github/epsilon/graphics/text/ttf/TtfFontFile.java",
+     "lines": 144
+    },
+    {
+     "name": "TextureCacheHolder",
+     "jac": 1.0,
+     "is_module": false,
+     "path": "work/official26/com/github/epsilon/holders/TextureCacheHolder.java",
+     "lines": 28
+    },
+    {
+     "name": "StaticFontLoader",
+     "jac": 1.0,
+     "is_module": false,
+     "path": "work/official26/com/github/epsilon/graphics/text/StaticFontLoader.java",
+     "lines": 369
+    }
+   ]
+  },
+  {
+   "obf": "iO",
+   "is_module": false,
+   "lines": 49,
+   "mc": [
+    "Identifier"
+   ],
+   "cands": [
+    {
+     "name": "UiTree",
+     "jac": 1.0,
+     "is_module": false,
+     "path": "work/official26/com/github/epsilon/gui/lib/UiTree.java",
+     "lines": 834
+    },
+    {
+     "name": "TtfFontLoader",
+     "jac": 1.0,
+     "is_module": false,
+     "path": "work/official26/com/github/epsilon/graphics/text/ttf/TtfFontLoader.java",
+     "lines": 327
+    },
+    {
+     "name": "TtfFontFile",
+     "jac": 1.0,
+     "is_module": false,
+     "path": "work/official26/com/github/epsilon/graphics/text/ttf/TtfFontFile.java",
+     "lines": 144
+    },
+    {
+     "name": "TextureCacheHolder",
+     "jac": 1.0,
+     "is_module": false,
+     "path": "work/official26/com/github/epsilon/holders/TextureCacheHolder.java",
+     "lines": 28
+    },
+    {
+     "name": "StaticFontLoader",
+     "jac": 1.0,
+     "is_module": false,
+     "path": "work/official26/com/github/epsilon/graphics/text/StaticFontLoader.java",
+     "lines": 369
+    }
+   ]
+  },
+  {
+   "obf": "iZ",
+   "is_module": false,
+   "lines": 91,
+   "mc": [
+    "Identifier"
+   ],
+   "cands": [
+    {
+     "name": "UiTree",
+     "jac": 1.0,
+     "is_module": false,
+     "path": "work/official26/com/github/epsilon/gui/lib/UiTree.java",
+     "lines": 834
+    },
+    {
+     "name": "TtfFontLoader",
+     "jac": 1.0,
+     "is_module": false,
+     "path": "work/official26/com/github/epsilon/graphics/text/ttf/TtfFontLoader.java",
+     "lines": 327
+    },
+    {
+     "name": "TtfFontFile",
+     "jac": 1.0,
+     "is_module": false,
+     "path": "work/official26/com/github/epsilon/graphics/text/ttf/TtfFontFile.java",
+     "lines": 144
+    },
+    {
+     "name": "TextureCacheHolder",
+     "jac": 1.0,
+     "is_module": false,
+     "path": "work/official26/com/github/epsilon/holders/TextureCacheHolder.java",
+     "lines": 28
+    },
+    {
+     "name": "StaticFontLoader",
+     "jac": 1.0,
+     "is_module": false,
+     "path": "work/official26/com/github/epsilon/graphics/text/StaticFontLoader.java",
+     "lines": 369
+    }
+   ]
+  },
+  {
+   "obf": "lx",
+   "is_module": false,
+   "lines": 49,
+   "mc": [
+    "InteractionHand"
+   ],
+   "cands": [
+    {
+     "name": "FindItemResult",
+     "jac": 1.0,
+     "is_module": false,
+     "path": "work/official26/com/github/epsilon/utils/player/FindItemResult.java",
+     "lines": 31
+    },
+    {
+     "name": "AutoFirework",
+     "jac": 0.25,
+     "is_module": true,
+     "path": "work/official26/com/github/epsilon/modules/impl/player/AutoFirework.java",
+     "lines": 113
+    },
+    {
+     "name": "MixinLocalPlayer",
+     "jac": 0.167,
+     "is_module": false,
+     "path": "work/official26/com/github/epsilon/mixins/MixinLocalPlayer.java",
+     "lines": 142
+    },
+    {
+     "name": "MixinMinecraft",
+     "jac": 0.125,
+     "is_module": false,
+     "path": "work/official26/com/github/epsilon/mixins/MixinMinecraft.java",
+     "lines": 194
+    },
+    {
+     "name": "MixinItemInHandRenderer",
+     "jac": 0.111,
+     "is_module": false,
+     "path": "work/official26/com/github/epsilon/mixins/MixinItemInHandRenderer.java",
+     "lines": 154
+    }
+   ]
+  },
+  {
+   "obf": "lz",
+   "is_module": false,
+   "lines": 419,
+   "mc": [
+    "InteractionHand"
+   ],
+   "cands": [
+    {
+     "name": "FindItemResult",
+     "jac": 1.0,
+     "is_module": false,
+     "path": "work/official26/com/github/epsilon/utils/player/FindItemResult.java",
+     "lines": 31
+    },
+    {
+     "name": "AutoFirework",
+     "jac": 0.25,
+     "is_module": true,
+     "path": "work/official26/com/github/epsilon/modules/impl/player/AutoFirework.java",
+     "lines": 113
+    },
+    {
+     "name": "MixinLocalPlayer",
+     "jac": 0.167,
+     "is_module": false,
+     "path": "work/official26/com/github/epsilon/mixins/MixinLocalPlayer.java",
+     "lines": 142
+    },
+    {
+     "name": "MixinMinecraft",
+     "jac": 0.125,
+     "is_module": false,
+     "path": "work/official26/com/github/epsilon/mixins/MixinMinecraft.java",
+     "lines": 194
+    },
+    {
+     "name": "MixinItemInHandRenderer",
+     "jac": 0.111,
+     "is_module": false,
+     "path": "work/official26/com/github/epsilon/mixins/MixinItemInHandRenderer.java",
+     "lines": 154
+    }
+   ]
+  }
+ ]
+}
