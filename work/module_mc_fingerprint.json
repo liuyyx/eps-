@@ -1,0 +1,1627 @@
+{
+ "jar_modules": {
+  "A": [
+   "net.minecraft.client.multiplayer.ClientLevel",
+   "net.minecraft.core.BlockPos",
+   "net.minecraft.world.level.block.Block"
+  ],
+  "a": [
+   "net.minecraft.network.chat.Component",
+   "net.minecraft.network.chat.MutableComponent",
+   "net.minecraft.network.protocol.game.ClientboundSetActionBarTextPacket",
+   "net.minecraft.network.protocol.game.ClientboundSetSubtitleTextPacket",
+   "net.minecraft.network.protocol.game.ClientboundSetTitleTextPacket"
+  ],
+  "B": [],
+  "b": [
+   "net.minecraft.client.player.LocalPlayer"
+  ],
+  "C": [
+   "net.minecraft.client.renderer.chunk.ChunkSectionLayer",
+   "net.minecraft.client.renderer.rendertype.OutputTarget",
+   "net.minecraft.client.renderer.rendertype.RenderSetup",
+   "net.minecraft.client.renderer.rendertype.RenderType",
+   "net.minecraft.client.renderer.texture.TextureAtlasSprite",
+   "net.minecraft.client.resources.model.geometry.BakedQuad",
+   "net.minecraft.core.Direction",
+   "net.minecraft.resources.Identifier",
+   "net.minecraft.world.entity.player.Player"
+  ],
+  "c": [
+   "net.minecraft.network.protocol.game.ServerboundSetCarriedItemPacket"
+  ],
+  "D": [
+   "net.minecraft.core.BlockPos",
+   "net.minecraft.core.Direction",
+   "net.minecraft.world.phys.AABB",
+   "net.minecraft.world.phys.BlockHitResult"
+  ],
+  "d": [
+   "net.minecraft.client.gui.screens.inventory.InventoryScreen",
+   "net.minecraft.world.item.ItemStack"
+  ],
+  "E": [
+   "net.minecraft.client.KeyMapping",
+   "net.minecraft.client.gui.screens.ChatScreen"
+  ],
+  "e0": [],
+  "e1": [
+   "net.minecraft.client.player.LocalPlayer",
+   "net.minecraft.world.entity.LivingEntity",
+   "net.minecraft.world.entity.player.Player",
+   "net.minecraft.world.phys.Vec3"
+  ],
+  "e2": [
+   "net.minecraft.resources.ResourceKey",
+   "net.minecraft.tags.TagKey",
+   "net.minecraft.world.entity.Entity",
+   "net.minecraft.world.entity.EquipmentSlot",
+   "net.minecraft.world.entity.LivingEntity",
+   "net.minecraft.world.item.AxeItem",
+   "net.minecraft.world.item.ItemStack",
+   "net.minecraft.world.item.MaceItem",
+   "net.minecraft.world.item.TridentItem"
+  ],
+  "e3": [
+   "net.minecraft.client.gui.Gui"
+  ],
+  "e4": [
+   "net.minecraft.client.player.LocalPlayer",
+   "net.minecraft.world.entity.LivingEntity",
+   "net.minecraft.world.item.ItemStack",
+   "net.minecraft.world.phys.Vec3"
+  ],
+  "e5": [],
+  "e6": [],
+  "e8": [
+   "net.minecraft.client.gui.GuiGraphicsExtractor",
+   "net.minecraft.client.player.LocalPlayer",
+   "net.minecraft.core.Holder",
+   "net.minecraft.gizmos.GizmoStyle",
+   "net.minecraft.network.protocol.game.ClientboundEntityEventPacket",
+   "net.minecraft.resources.Identifier",
+   "net.minecraft.world.entity.Entity",
+   "net.minecraft.world.entity.LivingEntity",
+   "net.minecraft.world.entity.player.Player",
+   "net.minecraft.world.entity.projectile.hurtingprojectile.windcharge.WindCharge",
+   "net.minecraft.world.entity.projectile.throwableitemprojectile.ThrownEnderpearl",
+   "net.minecraft.world.level.Level",
+   "net.minecraft.world.phys.AABB",
+   "net.minecraft.world.phys.Vec3"
+  ],
+  "eA": [
+   "net.minecraft.client.player.LocalPlayer"
+  ],
+  "ea": [],
+  "eB": [
+   "net.minecraft.world.entity.Entity",
+   "net.minecraft.world.entity.boss.enderdragon.EndCrystal"
+  ],
+  "eb": [
+   "net.minecraft.client.KeyMapping",
+   "net.minecraft.client.Minecraft",
+   "net.minecraft.client.multiplayer.ClientLevel",
+   "net.minecraft.client.multiplayer.ClientPacketListener",
+   "net.minecraft.client.multiplayer.MultiPlayerGameMode",
+   "net.minecraft.client.multiplayer.prediction.BlockStatePredictionHandler",
+   "net.minecraft.client.player.LocalPlayer",
+   "net.minecraft.core.BlockPos",
+   "net.minecraft.core.Direction",
+   "net.minecraft.network.protocol.Packet",
+   "net.minecraft.network.protocol.game.ServerboundMovePlayerPacket",
+   "net.minecraft.network.protocol.game.ServerboundPlayerActionPacket",
+   "net.minecraft.network.protocol.game.ServerboundSetCarriedItemPacket",
+   "net.minecraft.world.InteractionHand",
+   "net.minecraft.world.entity.Entity",
+   "net.minecraft.world.entity.boss.enderdragon.EndCrystal",
+   "net.minecraft.world.phys.AABB"
+  ],
+  "eC": [
+   "net.minecraft.client.renderer.extract.LevelExtractor",
+   "net.minecraft.world.entity.EntityType"
+  ],
+  "ec": [
+   "net.minecraft.client.multiplayer.ClientLevel",
+   "net.minecraft.client.player.AbstractClientPlayer",
+   "net.minecraft.core.BlockPos",
+   "net.minecraft.core.Direction",
+   "net.minecraft.network.protocol.game.ServerboundSwingPacket",
+   "net.minecraft.world.InteractionHand",
+   "net.minecraft.world.effect.MobEffectInstance",
+   "net.minecraft.world.entity.boss.enderdragon.EndCrystal",
+   "net.minecraft.world.entity.monster.cubemob.Slime",
+   "net.minecraft.world.entity.player.Player",
+   "net.minecraft.world.item.ItemStack",
+   "net.minecraft.world.phys.AABB",
+   "net.minecraft.world.phys.BlockHitResult",
+   "net.minecraft.world.phys.EntityHitResult",
+   "net.minecraft.world.phys.Vec3"
+  ],
+  "ed": [
+   "net.minecraft.client.player.LocalPlayer"
+  ],
+  "eE": [
+   "net.minecraft.world.item.Item",
+   "net.minecraft.world.item.ItemStack"
+  ],
+  "ee": [],
+  "eF": [
+   "net.minecraft.client.Minecraft",
+   "net.minecraft.client.multiplayer.ClientLevel",
+   "net.minecraft.client.multiplayer.ClientPacketListener",
+   "net.minecraft.client.player.LocalPlayer",
+   "net.minecraft.core.BlockPos",
+   "net.minecraft.core.Position",
+   "net.minecraft.network.protocol.Packet",
+   "net.minecraft.network.protocol.game.ServerboundMovePlayerPacket",
+   "net.minecraft.network.protocol.game.ServerboundPlayerCommandPacket",
+   "net.minecraft.network.protocol.game.ServerboundSwingPacket",
+   "net.minecraft.world.InteractionHand",
+   "net.minecraft.world.entity.Entity",
+   "net.minecraft.world.level.ClipContext",
+   "net.minecraft.world.level.block.state.BlockState",
+   "net.minecraft.world.phys.Vec3"
+  ],
+  "eG": [
+   "net.minecraft.network.protocol.game.ServerboundSwingPacket",
+   "net.minecraft.world.InteractionHand",
+   "net.minecraft.world.item.Item"
+  ],
+  "eH": [
+   "net.minecraft.client.Minecraft",
+   "net.minecraft.network.protocol.Packet",
+   "net.minecraft.network.protocol.common.ClientboundPingPacket",
+   "net.minecraft.network.protocol.game.ClientGamePacketListener",
+   "net.minecraft.network.protocol.game.ClientboundPlayerPositionPacket",
+   "net.minecraft.network.protocol.game.ClientboundSetEntityMotionPacket",
+   "net.minecraft.network.protocol.game.ServerboundInteractPacket",
+   "net.minecraft.network.protocol.game.ServerboundMovePlayerPacket"
+  ],
+  "eh": [
+   "net.minecraft.client.DeltaTracker",
+   "net.minecraft.client.gui.GuiGraphicsExtractor"
+  ],
+  "eI": [
+   "net.minecraft.client.player.LocalPlayer",
+   "net.minecraft.world.item.BlockItem",
+   "net.minecraft.world.level.block.CarvedPumpkinBlock",
+   "net.minecraft.world.level.block.EntityBlock",
+   "net.minecraft.world.level.block.FallingBlock",
+   "net.minecraft.world.level.block.PumpkinBlock",
+   "net.minecraft.world.level.block.SlimeBlock",
+   "net.minecraft.world.level.block.TntBlock",
+   "net.minecraft.world.phys.Vec3"
+  ],
+  "ej": [],
+  "eK": [
+   "net.minecraft.client.gui.screens.Screen",
+   "net.minecraft.world.inventory.ChestMenu",
+   "net.minecraft.world.item.AxeItem",
+   "net.minecraft.world.item.BlockItem",
+   "net.minecraft.world.item.BowItem",
+   "net.minecraft.world.item.CrossbowItem",
+   "net.minecraft.world.item.FishingRodItem",
+   "net.minecraft.world.item.Item",
+   "net.minecraft.world.item.ItemStack",
+   "net.minecraft.world.item.ShovelItem",
+   "net.minecraft.world.item.StandingAndWallBlockItem"
+  ],
+  "ek": [
+   "net.minecraft.network.protocol.game.ServerboundSwingPacket",
+   "net.minecraft.world.InteractionHand",
+   "net.minecraft.world.InteractionResult",
+   "net.minecraft.world.item.Item"
+  ],
+  "eL": [
+   "net.minecraft.client.player.LocalPlayer",
+   "net.minecraft.core.BlockPos",
+   "net.minecraft.network.protocol.game.ClientboundPlayerPositionPacket",
+   "net.minecraft.network.protocol.game.ClientboundPlayerRotationPacket",
+   "net.minecraft.world.phys.AABB",
+   "net.minecraft.world.phys.Vec3"
+  ],
+  "el": [],
+  "eM": [
+   "net.minecraft.client.multiplayer.ClientLevel",
+   "net.minecraft.world.entity.Entity",
+   "net.minecraft.world.entity.LivingEntity",
+   "net.minecraft.world.phys.AABB",
+   "net.minecraft.world.phys.Vec3"
+  ],
+  "em": [
+   "net.minecraft.client.KeyMapping",
+   "net.minecraft.client.multiplayer.ClientLevel",
+   "net.minecraft.world.entity.Entity",
+   "net.minecraft.world.item.BlockItem",
+   "net.minecraft.world.level.block.CarvedPumpkinBlock",
+   "net.minecraft.world.level.block.EntityBlock",
+   "net.minecraft.world.level.block.FallingBlock",
+   "net.minecraft.world.level.block.PumpkinBlock",
+   "net.minecraft.world.level.block.SlimeBlock",
+   "net.minecraft.world.level.block.TntBlock",
+   "net.minecraft.world.phys.AABB"
+  ],
+  "eN": [
+   "net.minecraft.client.gui.screens.RecoverWorldDataScreen",
+   "net.minecraft.client.multiplayer.ClientLevel",
+   "net.minecraft.client.player.LocalPlayer",
+   "net.minecraft.client.player.RemotePlayer",
+   "net.minecraft.network.protocol.Packet",
+   "net.minecraft.network.protocol.game.ServerboundMovePlayerPacket",
+   "net.minecraft.network.protocol.handshake.ClientIntentionPacket",
+   "net.minecraft.network.protocol.login.ServerboundHelloPacket",
+   "net.minecraft.world.entity.Entity"
+  ],
+  "en": [],
+  "eO": [
+   "net.minecraft.network.protocol.game.ServerboundMovePlayerPacket",
+   "net.minecraft.world.entity.LivingEntity",
+   "net.minecraft.world.item.Item",
+   "net.minecraft.world.phys.Vec3"
+  ],
+  "eo": [
+   "net.minecraft.client.Minecraft",
+   "net.minecraft.core.Holder",
+   "net.minecraft.world.entity.EquipmentSlot",
+   "net.minecraft.world.entity.ai.attributes.AttributeModifier",
+   "net.minecraft.world.item.ItemStack",
+   "net.minecraft.world.item.equipment.Equippable"
+  ],
+  "eP": [
+   "net.minecraft.client.gui.Gui",
+   "net.minecraft.client.player.LocalPlayer"
+  ],
+  "ep": [],
+  "eQ": [
+   "net.minecraft.client.multiplayer.ClientLevel",
+   "net.minecraft.client.player.LocalPlayer",
+   "net.minecraft.core.BlockPos",
+   "net.minecraft.world.entity.Entity",
+   "net.minecraft.world.level.ClipContext",
+   "net.minecraft.world.level.block.SlabBlock",
+   "net.minecraft.world.level.block.state.BlockState",
+   "net.minecraft.world.level.block.state.properties.SlabType",
+   "net.minecraft.world.phys.Vec3"
+  ],
+  "eq": [
+   "net.minecraft.client.multiplayer.ClientLevel",
+   "net.minecraft.client.player.LocalPlayer",
+   "net.minecraft.core.BlockPos",
+   "net.minecraft.core.Direction",
+   "net.minecraft.world.InteractionHand",
+   "net.minecraft.world.entity.LivingEntity",
+   "net.minecraft.world.item.Item",
+   "net.minecraft.world.item.ItemStack",
+   "net.minecraft.world.level.block.state.BlockState",
+   "net.minecraft.world.phys.AABB",
+   "net.minecraft.world.phys.BlockHitResult",
+   "net.minecraft.world.phys.Vec3",
+   "net.minecraft.world.phys.shapes.VoxelShape"
+  ],
+  "eR": [
+   "net.minecraft.client.Minecraft",
+   "net.minecraft.resources.Identifier"
+  ],
+  "er": [],
+  "eS": [
+   "net.minecraft.client.player.LocalPlayer",
+   "net.minecraft.core.BlockPos",
+   "net.minecraft.world.entity.player.Inventory",
+   "net.minecraft.world.level.block.DropExperienceBlock",
+   "net.minecraft.world.level.block.RedStoneOreBlock",
+   "net.minecraft.world.level.block.WebBlock"
+  ],
+  "eT": [
+   "net.minecraft.client.multiplayer.ClientLevel",
+   "net.minecraft.client.player.LocalPlayer",
+   "net.minecraft.client.player.RemotePlayer"
+  ],
+  "et": [],
+  "eu": [
+   "net.minecraft.core.Holder"
+  ],
+  "eV": [],
+  "ev": [
+   "net.minecraft.client.multiplayer.MultiPlayerGameMode",
+   "net.minecraft.client.player.LocalPlayer",
+   "net.minecraft.world.InteractionHand",
+   "net.minecraft.world.entity.Entity",
+   "net.minecraft.world.entity.boss.enderdragon.EndCrystal",
+   "net.minecraft.world.level.ClipContext",
+   "net.minecraft.world.phys.AABB",
+   "net.minecraft.world.phys.BlockHitResult",
+   "net.minecraft.world.phys.EntityHitResult",
+   "net.minecraft.world.phys.Vec3"
+  ],
+  "eW": [
+   "net.minecraft.client.player.LocalPlayer",
+   "net.minecraft.core.BlockPos",
+   "net.minecraft.core.Direction",
+   "net.minecraft.network.protocol.game.ClientboundPlayerPositionPacket",
+   "net.minecraft.network.protocol.game.ServerboundUseItemPacket",
+   "net.minecraft.world.InteractionHand",
+   "net.minecraft.world.entity.player.Inventory",
+   "net.minecraft.world.item.BlockItem",
+   "net.minecraft.world.item.ItemStack",
+   "net.minecraft.world.item.StandingAndWallBlockItem",
+   "net.minecraft.world.level.block.Block",
+   "net.minecraft.world.level.block.BushBlock",
+   "net.minecraft.world.level.block.CropBlock",
+   "net.minecraft.world.level.block.FlowerBlock",
+   "net.minecraft.world.level.block.NetherFungusBlock",
+   "net.minecraft.world.level.block.SlabBlock",
+   "net.minecraft.world.phys.Vec3",
+   "net.minecraft.world.phys.shapes.VoxelShape"
+  ],
+  "ew": [],
+  "ex": [
+   "net.minecraft.client.player.LocalPlayer",
+   "net.minecraft.world.item.CrossbowItem"
+  ],
+  "eY": [
+   "net.minecraft.network.protocol.game.ServerboundSwingPacket",
+   "net.minecraft.world.InteractionHand",
+   "net.minecraft.world.entity.Entity",
+   "net.minecraft.world.entity.LivingEntity",
+   "net.minecraft.world.phys.EntityHitResult"
+  ],
+  "ey": [
+   "net.minecraft.core.BlockPos",
+   "net.minecraft.network.protocol.game.ServerboundSwingPacket",
+   "net.minecraft.world.InteractionHand",
+   "net.minecraft.world.item.Item",
+   "net.minecraft.world.item.ItemStack",
+   "net.minecraft.world.phys.AABB",
+   "net.minecraft.world.phys.BlockHitResult"
+  ],
+  "eZ": [],
+  "ez": [
+   "net.minecraft.client.multiplayer.ClientLevel",
+   "net.minecraft.core.BlockPos",
+   "net.minecraft.core.Direction",
+   "net.minecraft.world.level.block.state.BlockState",
+   "net.minecraft.world.phys.AABB",
+   "net.minecraft.world.phys.Vec3"
+  ],
+  "e_": [
+   "net.minecraft.world.InteractionHand",
+   "net.minecraft.world.entity.Avatar",
+   "net.minecraft.world.entity.HumanoidArm",
+   "net.minecraft.world.item.ItemStack"
+  ],
+  "F": [
+   "net.minecraft.ChatFormatting",
+   "net.minecraft.client.multiplayer.PlayerInfo",
+   "net.minecraft.network.chat.Component",
+   "net.minecraft.network.chat.MutableComponent",
+   "net.minecraft.network.protocol.game.ClientboundPlayerInfoRemovePacket",
+   "net.minecraft.network.protocol.game.ClientboundPlayerInfoUpdatePacket",
+   "net.minecraft.sounds.SoundEvent",
+   "net.minecraft.world.entity.Entity",
+   "net.minecraft.world.entity.player.Player",
+   "net.minecraft.world.level.GameType"
+  ],
+  "f": [
+   "net.minecraft.client.gui.Font",
+   "net.minecraft.client.gui.GuiGraphicsExtractor",
+   "net.minecraft.client.gui.screens.Screen",
+   "net.minecraft.client.gui.screens.inventory.ContainerScreen",
+   "net.minecraft.client.gui.screens.inventory.CreativeModeInventoryScreen",
+   "net.minecraft.client.gui.screens.inventory.InventoryScreen",
+   "net.minecraft.resources.Identifier",
+   "net.minecraft.world.entity.player.Player",
+   "net.minecraft.world.inventory.ChestMenu",
+   "net.minecraft.world.level.Level"
+  ],
+  "G": [
+   "net.minecraft.client.gui.Gui",
+   "net.minecraft.client.player.LocalPlayer",
+   "net.minecraft.core.BlockPos",
+   "net.minecraft.world.entity.LivingEntity",
+   "net.minecraft.world.entity.player.Player",
+   "net.minecraft.world.phys.AABB",
+   "net.minecraft.world.phys.Vec3"
+  ],
+  "g": [
+   "net.minecraft.client.multiplayer.MultiPlayerGameMode",
+   "net.minecraft.client.player.AbstractClientPlayer",
+   "net.minecraft.client.player.LocalPlayer",
+   "net.minecraft.core.BlockPos",
+   "net.minecraft.core.Direction",
+   "net.minecraft.core.Vec3i",
+   "net.minecraft.world.InteractionHand",
+   "net.minecraft.world.item.Item",
+   "net.minecraft.world.level.block.EntityBlock",
+   "net.minecraft.world.level.block.NoteBlock",
+   "net.minecraft.world.level.block.state.BlockState",
+   "net.minecraft.world.phys.AABB",
+   "net.minecraft.world.phys.BlockHitResult",
+   "net.minecraft.world.phys.Vec3"
+  ],
+  "H": [
+   "net.minecraft.resources.Identifier",
+   "net.minecraft.world.entity.player.Player",
+   "net.minecraft.world.phys.Vec3"
+  ],
+  "h": [
+   "net.minecraft.core.component.DataComponentType",
+   "net.minecraft.world.entity.Entity",
+   "net.minecraft.world.entity.player.Player",
+   "net.minecraft.world.entity.projectile.Projectile",
+   "net.minecraft.world.entity.projectile.arrow.ThrownTrident",
+   "net.minecraft.world.entity.projectile.hurtingprojectile.WitherSkull",
+   "net.minecraft.world.item.CrossbowItem",
+   "net.minecraft.world.item.Item",
+   "net.minecraft.world.item.ItemStack",
+   "net.minecraft.world.item.component.ChargedProjectiles",
+   "net.minecraft.world.level.Level",
+   "net.minecraft.world.phys.AABB",
+   "net.minecraft.world.phys.BlockHitResult",
+   "net.minecraft.world.phys.EntityHitResult",
+   "net.minecraft.world.phys.Vec3"
+  ],
+  "I": [
+   "net.minecraft.client.gui.navigation.ScreenRectangle"
+  ],
+  "i": [
+   "net.minecraft.client.CameraType",
+   "net.minecraft.client.KeyMapping",
+   "net.minecraft.client.Options",
+   "net.minecraft.client.renderer.extract.LevelExtractor",
+   "net.minecraft.network.protocol.game.ClientboundPlayerCombatKillPacket",
+   "net.minecraft.network.protocol.game.ClientboundRespawnPacket",
+   "net.minecraft.network.protocol.game.ClientboundSetHealthPacket"
+  ],
+  "J": [],
+  "j": [
+   "net.minecraft.client.DeltaTracker",
+   "net.minecraft.client.player.LocalPlayer",
+   "net.minecraft.core.BlockPos",
+   "net.minecraft.core.Direction",
+   "net.minecraft.core.Position",
+   "net.minecraft.core.Vec3i",
+   "net.minecraft.world.InteractionResult",
+   "net.minecraft.world.phys.BlockHitResult",
+   "net.minecraft.world.phys.HitResult",
+   "net.minecraft.world.phys.Vec3"
+  ],
+  "K": [
+   "net.minecraft.client.player.LocalPlayer",
+   "net.minecraft.core.Holder",
+   "net.minecraft.world.entity.Entity",
+   "net.minecraft.world.entity.LivingEntity",
+   "net.minecraft.world.level.ClipContext",
+   "net.minecraft.world.phys.HitResult",
+   "net.minecraft.world.phys.Vec3"
+  ],
+  "k": [
+   "net.minecraft.network.protocol.game.ServerboundPlayerActionPacket",
+   "net.minecraft.world.food.FoodProperties",
+   "net.minecraft.world.item.ItemStack"
+  ],
+  "L": [],
+  "l": [
+   "net.minecraft.network.protocol.game.ServerboundMovePlayerPacket"
+  ],
+  "M": [
+   "net.minecraft.world.entity.Entity"
+  ],
+  "m": [
+   "net.minecraft.client.Minecraft",
+   "net.minecraft.core.particles.BlockParticleOption",
+   "net.minecraft.core.particles.ParticleType",
+   "net.minecraft.world.entity.Entity",
+   "net.minecraft.world.entity.EntityType",
+   "net.minecraft.world.entity.LightningBolt",
+   "net.minecraft.world.entity.LivingEntity",
+   "net.minecraft.world.level.Level",
+   "net.minecraft.world.level.block.state.BlockState"
+  ],
+  "N": [
+   "net.minecraft.client.KeyMapping",
+   "net.minecraft.client.player.LocalPlayer",
+   "net.minecraft.core.Holder",
+   "net.minecraft.network.protocol.game.ClientboundExplodePacket",
+   "net.minecraft.network.protocol.game.ClientboundPlayerPositionPacket",
+   "net.minecraft.network.protocol.game.ClientboundPlayerRotationPacket",
+   "net.minecraft.network.protocol.game.ClientboundSetEntityMotionPacket",
+   "net.minecraft.world.effect.MobEffectInstance",
+   "net.minecraft.world.entity.Entity",
+   "net.minecraft.world.entity.LivingEntity",
+   "net.minecraft.world.entity.decoration.ArmorStand",
+   "net.minecraft.world.entity.vehicle.boat.Boat",
+   "net.minecraft.world.phys.AABB",
+   "net.minecraft.world.phys.Vec2",
+   "net.minecraft.world.phys.Vec3"
+  ],
+  "n": [
+   "net.minecraft.network.protocol.Packet",
+   "net.minecraft.network.protocol.game.ServerboundUseItemOnPacket",
+   "net.minecraft.network.protocol.game.ServerboundUseItemPacket"
+  ],
+  "O": [
+   "net.minecraft.world.item.ItemStack"
+  ],
+  "o": [
+   "net.minecraft.client.player.LocalPlayer"
+  ],
+  "P": [
+   "net.minecraft.client.Camera",
+   "net.minecraft.client.DeltaTracker",
+   "net.minecraft.world.entity.player.Player"
+  ],
+  "p": [
+   "net.minecraft.client.player.LocalPlayer",
+   "net.minecraft.core.BlockPos",
+   "net.minecraft.core.Direction",
+   "net.minecraft.network.protocol.game.ServerboundSwingPacket",
+   "net.minecraft.world.InteractionHand",
+   "net.minecraft.world.level.block.BedBlock",
+   "net.minecraft.world.level.block.state.BlockState",
+   "net.minecraft.world.phys.AABB",
+   "net.minecraft.world.phys.BlockHitResult",
+   "net.minecraft.world.phys.Vec3",
+   "net.minecraft.world.phys.shapes.VoxelShape"
+  ],
+  "Q": [
+   "net.minecraft.network.protocol.game.ClientboundSystemChatPacket"
+  ],
+  "q": [
+   "net.minecraft.client.Minecraft",
+   "net.minecraft.client.gui.Gui",
+   "net.minecraft.client.gui.screens.inventory.AbstractContainerScreen",
+   "net.minecraft.client.multiplayer.ClientLevel",
+   "net.minecraft.client.player.LocalPlayer",
+   "net.minecraft.core.BlockPos",
+   "net.minecraft.network.protocol.game.ClientboundBlockEventPacket",
+   "net.minecraft.network.protocol.game.ClientboundContainerClosePacket",
+   "net.minecraft.network.protocol.game.ClientboundSoundPacket",
+   "net.minecraft.network.protocol.game.ServerboundContainerClosePacket",
+   "net.minecraft.network.protocol.game.ServerboundSwingPacket",
+   "net.minecraft.network.protocol.game.ServerboundUseItemOnPacket",
+   "net.minecraft.world.InteractionHand",
+   "net.minecraft.world.entity.Entity",
+   "net.minecraft.world.entity.player.Player",
+   "net.minecraft.world.item.ItemStack",
+   "net.minecraft.world.level.ClipContext",
+   "net.minecraft.world.level.block.entity.BlastFurnaceBlockEntity",
+   "net.minecraft.world.level.block.entity.BlockEntity",
+   "net.minecraft.world.level.block.entity.BrewingStandBlockEntity",
+   "net.minecraft.world.level.block.entity.ChestBlockEntity",
+   "net.minecraft.world.level.block.entity.FurnaceBlockEntity",
+   "net.minecraft.world.level.block.entity.SmokerBlockEntity",
+   "net.minecraft.world.phys.BlockHitResult",
+   "net.minecraft.world.phys.Vec3"
+  ],
+  "R": [
+   "net.minecraft.world.entity.LivingEntity",
+   "net.minecraft.world.item.Item",
+   "net.minecraft.world.phys.Vec3"
+  ],
+  "r": [
+   "net.minecraft.client.multiplayer.MultiPlayerGameMode",
+   "net.minecraft.client.player.LocalPlayer",
+   "net.minecraft.core.BlockPos",
+   "net.minecraft.core.Direction",
+   "net.minecraft.core.Vec3i",
+   "net.minecraft.world.InteractionHand",
+   "net.minecraft.world.entity.Entity",
+   "net.minecraft.world.entity.boss.enderdragon.EndCrystal",
+   "net.minecraft.world.entity.player.Inventory",
+   "net.minecraft.world.item.Item",
+   "net.minecraft.world.level.ClipContext",
+   "net.minecraft.world.phys.BlockHitResult",
+   "net.minecraft.world.phys.Vec3"
+  ],
+  "S": [],
+  "s": [],
+  "T": [
+   "net.minecraft.client.Minecraft",
+   "net.minecraft.client.multiplayer.ClientPacketListener",
+   "net.minecraft.client.player.LocalPlayer",
+   "net.minecraft.network.protocol.Packet",
+   "net.minecraft.network.protocol.game.ClientboundEntityPositionSyncPacket",
+   "net.minecraft.network.protocol.game.ClientboundMoveEntityPacket",
+   "net.minecraft.network.protocol.game.ClientboundPlayerChatPacket",
+   "net.minecraft.network.protocol.game.ClientboundSoundPacket",
+   "net.minecraft.network.protocol.game.ClientboundSystemChatPacket",
+   "net.minecraft.network.protocol.game.ClientboundTeleportEntityPacket",
+   "net.minecraft.world.entity.Entity",
+   "net.minecraft.world.entity.LivingEntity",
+   "net.minecraft.world.entity.PositionMoveRotation",
+   "net.minecraft.world.entity.decoration.ArmorStand",
+   "net.minecraft.world.entity.player.Player",
+   "net.minecraft.world.phys.AABB",
+   "net.minecraft.world.phys.Vec3"
+  ],
+  "t": [
+   "net.minecraft.client.multiplayer.ClientPacketListener",
+   "net.minecraft.client.player.LocalPlayer",
+   "net.minecraft.core.BlockPos",
+   "net.minecraft.core.Direction",
+   "net.minecraft.network.protocol.Packet",
+   "net.minecraft.network.protocol.common.ClientboundPingPacket",
+   "net.minecraft.network.protocol.game.ClientboundAddEntityPacket",
+   "net.minecraft.network.protocol.game.ClientboundBlockEventPacket",
+   "net.minecraft.network.protocol.game.ClientboundBlockUpdatePacket",
+   "net.minecraft.network.protocol.game.ClientboundEntityEventPacket",
+   "net.minecraft.network.protocol.game.ClientboundMoveEntityPacket",
+   "net.minecraft.network.protocol.game.ClientboundPlayerPositionPacket",
+   "net.minecraft.network.protocol.game.ClientboundSetHealthPacket",
+   "net.minecraft.network.protocol.game.ClientboundSystemChatPacket",
+   "net.minecraft.network.protocol.game.ClientboundTeleportEntityPacket",
+   "net.minecraft.network.protocol.game.ServerboundPlayerActionPacket",
+   "net.minecraft.network.protocol.game.ServerboundUseItemPacket",
+   "net.minecraft.world.InteractionHand",
+   "net.minecraft.world.item.ItemStack"
+  ],
+  "U": [
+   "net.minecraft.client.multiplayer.ClientLevel",
+   "net.minecraft.client.player.LocalPlayer",
+   "net.minecraft.core.BlockPos",
+   "net.minecraft.network.protocol.game.ServerboundSwingPacket",
+   "net.minecraft.world.InteractionHand",
+   "net.minecraft.world.level.block.Block",
+   "net.minecraft.world.level.block.state.BlockState",
+   "net.minecraft.world.phys.AABB"
+  ],
+  "u": [
+   "net.minecraft.core.BlockPos",
+   "net.minecraft.core.Vec3i",
+   "net.minecraft.world.entity.Entity"
+  ],
+  "u0": [],
+  "u3": [
+   "net.minecraft.core.BlockPos",
+   "net.minecraft.world.entity.Entity",
+   "net.minecraft.world.level.block.BedBlock"
+  ],
+  "u8": [
+   "net.minecraft.client.Minecraft",
+   "net.minecraft.client.player.LocalPlayer",
+   "net.minecraft.resources.Identifier"
+  ],
+  "uA": [
+   "net.minecraft.client.player.LocalPlayer",
+   "net.minecraft.core.Holder",
+   "net.minecraft.world.effect.MobEffectInstance"
+  ],
+  "ua": [
+   "net.minecraft.client.renderer.state.level.CameraRenderState",
+   "net.minecraft.world.phys.Vec3"
+  ],
+  "uc": [
+   "net.minecraft.client.Minecraft",
+   "net.minecraft.server.packs.PackResources"
+  ],
+  "ue": [
+   "net.minecraft.client.Minecraft",
+   "net.minecraft.network.chat.Component",
+   "net.minecraft.network.protocol.game.ClientboundPlayerInfoRemovePacket",
+   "net.minecraft.network.protocol.game.ClientboundPlayerInfoUpdatePacket",
+   "net.minecraft.world.entity.Entity",
+   "net.minecraft.world.entity.player.Player"
+  ],
+  "uF": [
+   "net.minecraft.client.DeltaTracker",
+   "net.minecraft.client.OptionInstance",
+   "net.minecraft.client.multiplayer.ClientLevel",
+   "net.minecraft.client.player.LocalPlayer",
+   "net.minecraft.world.entity.Entity",
+   "net.minecraft.world.entity.player.Player",
+   "net.minecraft.world.item.BowItem",
+   "net.minecraft.world.phys.HitResult",
+   "net.minecraft.world.phys.Vec3"
+  ],
+  "uG": [
+   "net.minecraft.client.player.LocalPlayer"
+  ],
+  "uj": [
+   "net.minecraft.client.gui.Gui"
+  ],
+  "uk": [
+   "net.minecraft.client.player.LocalPlayer",
+   "net.minecraft.world.InteractionHand",
+   "net.minecraft.world.item.ItemStack",
+   "net.minecraft.world.item.equipment.Equippable"
+  ],
+  "uL": [
+   "net.minecraft.client.player.LocalPlayer",
+   "net.minecraft.core.Holder"
+  ],
+  "un": [
+   "net.minecraft.client.multiplayer.ClientLevel",
+   "net.minecraft.client.player.LocalPlayer",
+   "net.minecraft.core.BlockPos",
+   "net.minecraft.core.Direction",
+   "net.minecraft.core.Holder",
+   "net.minecraft.network.chat.Component",
+   "net.minecraft.network.protocol.game.ClientboundAddEntityPacket",
+   "net.minecraft.network.protocol.game.ClientboundSoundPacket",
+   "net.minecraft.network.protocol.game.ServerboundSwingPacket",
+   "net.minecraft.world.Difficulty",
+   "net.minecraft.world.InteractionHand",
+   "net.minecraft.world.entity.Entity",
+   "net.minecraft.world.entity.EquipmentSlot",
+   "net.minecraft.world.entity.LivingEntity",
+   "net.minecraft.world.entity.boss.enderdragon.EndCrystal",
+   "net.minecraft.world.entity.player.Player",
+   "net.minecraft.world.item.Item",
+   "net.minecraft.world.item.ItemStack",
+   "net.minecraft.world.level.Level",
+   "net.minecraft.world.level.block.state.BlockState",
+   "net.minecraft.world.phys.AABB",
+   "net.minecraft.world.phys.Vec3"
+  ],
+  "up": [
+   "net.minecraft.network.protocol.game.ServerboundAttackPacket",
+   "net.minecraft.network.protocol.game.ServerboundContainerClosePacket",
+   "net.minecraft.network.protocol.game.ServerboundInteractPacket",
+   "net.minecraft.network.protocol.game.ServerboundMovePlayerPacket",
+   "net.minecraft.network.protocol.game.ServerboundPlayerActionPacket",
+   "net.minecraft.network.protocol.game.ServerboundUseItemOnPacket",
+   "net.minecraft.network.protocol.game.ServerboundUseItemPacket",
+   "net.minecraft.world.entity.EquipmentSlot",
+   "net.minecraft.world.item.AxeItem",
+   "net.minecraft.world.item.BowItem",
+   "net.minecraft.world.item.CrossbowItem",
+   "net.minecraft.world.item.FishingRodItem",
+   "net.minecraft.world.item.Item",
+   "net.minecraft.world.item.ItemStack",
+   "net.minecraft.world.item.ShovelItem",
+   "net.minecraft.world.item.StandingAndWallBlockItem"
+  ],
+  "uv": [
+   "net.minecraft.client.multiplayer.MultiPlayerGameMode",
+   "net.minecraft.client.player.LocalPlayer",
+   "net.minecraft.world.InteractionHand",
+   "net.minecraft.world.item.Item",
+   "net.minecraft.world.phys.BlockHitResult"
+  ],
+  "uW": [
+   "net.minecraft.client.player.LocalPlayer",
+   "net.minecraft.world.phys.Vec3"
+  ],
+  "uz": [
+   "net.minecraft.client.Minecraft"
+  ],
+  "V": [
+   "net.minecraft.client.Minecraft",
+   "net.minecraft.client.multiplayer.ClientLevel",
+   "net.minecraft.core.BlockPos",
+   "net.minecraft.world.level.block.AirBlock",
+   "net.minecraft.world.level.block.BarrierBlock",
+   "net.minecraft.world.level.block.Block",
+   "net.minecraft.world.level.block.ChestBlock",
+   "net.minecraft.world.level.block.CommandBlock",
+   "net.minecraft.world.level.block.state.BlockState",
+   "net.minecraft.world.level.block.state.properties.Property",
+   "net.minecraft.world.phys.AABB"
+  ],
+  "v": [],
+  "W": [
+   "net.minecraft.world.phys.Vec3"
+  ],
+  "w": [
+   "net.minecraft.client.multiplayer.ClientPacketListener",
+   "net.minecraft.client.player.LocalPlayer",
+   "net.minecraft.core.Holder",
+   "net.minecraft.core.particles.ParticleOptions",
+   "net.minecraft.network.PacketListener",
+   "net.minecraft.network.protocol.Packet",
+   "net.minecraft.network.protocol.common.ClientboundDisconnectPacket",
+   "net.minecraft.network.protocol.common.ClientboundPingPacket",
+   "net.minecraft.network.protocol.game.ClientboundExplodePacket",
+   "net.minecraft.network.protocol.game.ClientboundMoveEntityPacket",
+   "net.minecraft.network.protocol.game.ClientboundPlayerLookAtPacket",
+   "net.minecraft.network.protocol.game.ClientboundPlayerPositionPacket",
+   "net.minecraft.network.protocol.game.ClientboundSetEntityMotionPacket",
+   "net.minecraft.network.protocol.game.ClientboundTeleportEntityPacket",
+   "net.minecraft.network.protocol.game.ServerboundSwingPacket",
+   "net.minecraft.util.random.WeightedList",
+   "net.minecraft.world.InteractionHand",
+   "net.minecraft.world.entity.Entity",
+   "net.minecraft.world.entity.player.Player",
+   "net.minecraft.world.phys.EntityHitResult",
+   "net.minecraft.world.phys.Vec3"
+  ],
+  "X": [
+   "net.minecraft.client.multiplayer.ClientLevel",
+   "net.minecraft.client.player.LocalPlayer",
+   "net.minecraft.core.BlockPos",
+   "net.minecraft.world.entity.player.Inventory",
+   "net.minecraft.world.item.Item",
+   "net.minecraft.world.phys.BlockHitResult"
+  ],
+  "x": [
+   "net.minecraft.network.protocol.game.ServerboundContainerClickPacket",
+   "net.minecraft.network.protocol.game.ServerboundContainerClosePacket",
+   "net.minecraft.network.protocol.game.ServerboundPlayerInputPacket",
+   "net.minecraft.world.entity.player.Input"
+  ],
+  "Y": [
+   "net.minecraft.client.player.LocalPlayer"
+  ],
+  "y": [
+   "net.minecraft.client.multiplayer.MultiPlayerGameMode",
+   "net.minecraft.world.entity.Entity",
+   "net.minecraft.world.entity.LivingEntity",
+   "net.minecraft.world.entity.player.Player"
+  ],
+  "Z": [
+   "net.minecraft.world.entity.Entity",
+   "net.minecraft.world.entity.player.Player"
+  ],
+  "z": [
+   "net.minecraft.client.multiplayer.MultiPlayerGameMode",
+   "net.minecraft.client.player.LocalPlayer",
+   "net.minecraft.network.protocol.game.ServerboundSwingPacket",
+   "net.minecraft.world.InteractionHand",
+   "net.minecraft.world.entity.Entity",
+   "net.minecraft.world.entity.LivingEntity",
+   "net.minecraft.world.entity.player.Player"
+  ]
+ },
+ "src_modules": {
+  "HudModule": [
+   "net.minecraft.client.DeltaTracker",
+   "net.minecraft.client.gui.GuiGraphicsExtractor",
+   "net.minecraft.util.Mth"
+  ],
+  "BPS": [
+   "net.minecraft.client.DeltaTracker",
+   "net.minecraft.util.Mth"
+  ],
+  "Inventory": [
+   "net.minecraft.client.DeltaTracker",
+   "net.minecraft.client.gui.GuiGraphicsExtractor",
+   "net.minecraft.world.item.ItemStack"
+  ],
+  "ModuleList": [
+   "net.minecraft.client.DeltaTracker",
+   "net.minecraft.util.Mth"
+  ],
+  "MTF": [
+   "net.minecraft.client.DeltaTracker"
+  ],
+  "Potions": [
+   "net.minecraft.client.DeltaTracker",
+   "net.minecraft.core.Holder",
+   "net.minecraft.resources.Identifier",
+   "net.minecraft.resources.ResourceKey",
+   "net.minecraft.util.Mth",
+   "net.minecraft.world.effect.MobEffect",
+   "net.minecraft.world.effect.MobEffectInstance"
+  ],
+  "ScaffoldBlock": [
+   "net.minecraft.client.DeltaTracker",
+   "net.minecraft.util.Mth"
+  ],
+  "TargetHUD": [
+   "net.minecraft.client.DeltaTracker",
+   "net.minecraft.client.gui.GuiGraphicsExtractor",
+   "net.minecraft.client.player.AbstractClientPlayer",
+   "net.minecraft.util.Mth",
+   "net.minecraft.world.entity.EquipmentSlot",
+   "net.minecraft.world.entity.LivingEntity",
+   "net.minecraft.world.item.ItemStack"
+  ],
+  "Watermark": [
+   "net.minecraft.client.DeltaTracker"
+  ],
+  "Notifications": [
+   "net.minecraft.client.DeltaTracker"
+  ],
+  "CategoryPanel": [],
+  "ModuleHolder": [],
+  "ClientSetting": [
+   "net.minecraft.SharedConstants",
+   "net.minecraft.resources.Identifier"
+  ],
+  "AimBot": [
+   "net.minecraft.core.component.DataComponents",
+   "net.minecraft.util.Mth",
+   "net.minecraft.world.entity.Entity",
+   "net.minecraft.world.entity.player.Player",
+   "net.minecraft.world.item.BowItem",
+   "net.minecraft.world.phys.HitResult",
+   "net.minecraft.world.phys.Vec3"
+  ],
+  "AnchorBlast": [
+   "net.minecraft.world.InteractionHand",
+   "net.minecraft.world.item.Item",
+   "net.minecraft.world.item.Items",
+   "net.minecraft.world.level.block.Blocks",
+   "net.minecraft.world.phys.BlockHitResult",
+   "net.minecraft.world.phys.HitResult"
+  ],
+  "AntiBot": [
+   "net.minecraft.world.entity.Entity"
+  ],
+  "AutoClicker": [
+   "net.minecraft.client.KeyMapping"
+  ],
+  "AutoDtap": [
+   "net.minecraft.core.BlockPos",
+   "net.minecraft.core.Direction",
+   "net.minecraft.tags.ItemTags",
+   "net.minecraft.world.InteractionHand",
+   "net.minecraft.world.item.ItemStack",
+   "net.minecraft.world.item.Items",
+   "net.minecraft.world.level.block.Blocks",
+   "net.minecraft.world.level.block.state.BlockState",
+   "net.minecraft.world.phys.BlockHitResult",
+   "net.minecraft.world.phys.HitResult"
+  ],
+  "AutoHitCrystal": [
+   "net.minecraft.core.BlockPos",
+   "net.minecraft.network.protocol.game.ServerboundSwingPacket",
+   "net.minecraft.tags.ItemTags",
+   "net.minecraft.util.Mth",
+   "net.minecraft.world.InteractionHand",
+   "net.minecraft.world.InteractionResult",
+   "net.minecraft.world.item.Items",
+   "net.minecraft.world.level.block.Blocks",
+   "net.minecraft.world.level.block.RespawnAnchorBlock",
+   "net.minecraft.world.level.block.state.BlockState",
+   "net.minecraft.world.phys.AABB",
+   "net.minecraft.world.phys.BlockHitResult",
+   "net.minecraft.world.phys.HitResult"
+  ],
+  "AutoMend": [
+   "net.minecraft.network.protocol.game.ServerboundSwingPacket",
+   "net.minecraft.world.InteractionHand",
+   "net.minecraft.world.item.Items"
+  ],
+  "AutoTotem": [
+   "net.minecraft.world.item.Item",
+   "net.minecraft.world.item.Items"
+  ],
+  "AutoWeapon": [
+   "net.minecraft.tags.EntityTypeTags",
+   "net.minecraft.tags.ItemTags",
+   "net.minecraft.world.effect.MobEffects",
+   "net.minecraft.world.entity.Entity",
+   "net.minecraft.world.entity.EquipmentSlot",
+   "net.minecraft.world.entity.LivingEntity",
+   "net.minecraft.world.entity.ai.attributes.Attributes",
+   "net.minecraft.world.entity.player.Player",
+   "net.minecraft.world.item.AxeItem",
+   "net.minecraft.world.item.ItemStack",
+   "net.minecraft.world.item.MaceItem",
+   "net.minecraft.world.item.TridentItem",
+   "net.minecraft.world.item.enchantment.Enchantments"
+  ],
+  "Criticals": [
+   "net.minecraft.world.effect.MobEffects",
+   "net.minecraft.world.entity.Entity",
+   "net.minecraft.world.entity.LivingEntity",
+   "net.minecraft.world.phys.AABB",
+   "net.minecraft.world.phys.Vec3"
+  ],
+  "CrystalAura": [
+   "net.minecraft.client.KeyMapping",
+   "net.minecraft.core.BlockPos",
+   "net.minecraft.core.Direction",
+   "net.minecraft.network.protocol.game.ServerboundSwingPacket",
+   "net.minecraft.tags.ItemTags",
+   "net.minecraft.world.InteractionHand",
+   "net.minecraft.world.InteractionResult",
+   "net.minecraft.world.effect.MobEffectInstance",
+   "net.minecraft.world.effect.MobEffects",
+   "net.minecraft.world.entity.Entity",
+   "net.minecraft.world.entity.boss.enderdragon.EndCrystal",
+   "net.minecraft.world.entity.monster.Slime",
+   "net.minecraft.world.entity.player.Player",
+   "net.minecraft.world.item.ItemStack",
+   "net.minecraft.world.item.Items",
+   "net.minecraft.world.level.block.Blocks",
+   "net.minecraft.world.phys.AABB",
+   "net.minecraft.world.phys.BlockHitResult",
+   "net.minecraft.world.phys.EntityHitResult",
+   "net.minecraft.world.phys.Vec3"
+  ],
+  "CrystalBlocker": [
+   "net.minecraft.core.BlockPos",
+   "net.minecraft.core.Direction",
+   "net.minecraft.util.Mth",
+   "net.minecraft.world.InteractionHand",
+   "net.minecraft.world.entity.boss.enderdragon.EndCrystal",
+   "net.minecraft.world.item.Items",
+   "net.minecraft.world.level.ClipContext",
+   "net.minecraft.world.level.block.Blocks",
+   "net.minecraft.world.phys.BlockHitResult",
+   "net.minecraft.world.phys.HitResult",
+   "net.minecraft.world.phys.Vec3"
+  ],
+  "DoubleAnchor": [
+   "net.minecraft.world.InteractionHand",
+   "net.minecraft.world.item.Item",
+   "net.minecraft.world.item.Items",
+   "net.minecraft.world.level.block.Blocks",
+   "net.minecraft.world.phys.BlockHitResult",
+   "net.minecraft.world.phys.HitResult"
+  ],
+  "FeetTrap": [
+   "net.minecraft.client.player.AbstractClientPlayer",
+   "net.minecraft.core.BlockPos",
+   "net.minecraft.core.Direction",
+   "net.minecraft.tags.BlockTags",
+   "net.minecraft.world.InteractionHand",
+   "net.minecraft.world.item.Items",
+   "net.minecraft.world.level.block.EntityBlock",
+   "net.minecraft.world.level.block.NoteBlock",
+   "net.minecraft.world.level.block.state.BlockState",
+   "net.minecraft.world.phys.AABB",
+   "net.minecraft.world.phys.BlockHitResult",
+   "net.minecraft.world.phys.Vec3"
+  ],
+  "HoverTotem": [
+   "net.minecraft.client.gui.screens.inventory.InventoryScreen",
+   "net.minecraft.world.inventory.Slot",
+   "net.minecraft.world.item.Items"
+  ],
+  "KeyPearl": [
+   "net.minecraft.network.protocol.game.ServerboundSwingPacket",
+   "net.minecraft.world.InteractionHand",
+   "net.minecraft.world.InteractionResult",
+   "net.minecraft.world.item.Items"
+  ],
+  "KillAura": [
+   "net.minecraft.network.protocol.game.ServerboundSwingPacket",
+   "net.minecraft.world.InteractionHand",
+   "net.minecraft.world.entity.LivingEntity",
+   "net.minecraft.world.phys.EntityHitResult",
+   "net.minecraft.world.phys.HitResult"
+  ],
+  "MaceAura": [
+   "net.minecraft.network.protocol.game.ServerboundMovePlayerPacket",
+   "net.minecraft.world.InteractionHand",
+   "net.minecraft.world.entity.LivingEntity",
+   "net.minecraft.world.item.Items",
+   "net.minecraft.world.phys.HitResult",
+   "net.minecraft.world.phys.Vec3"
+  ],
+  "PacketMine": [
+   "net.minecraft.core.BlockPos",
+   "net.minecraft.core.Direction",
+   "net.minecraft.network.protocol.game.ServerboundMovePlayerPacket",
+   "net.minecraft.network.protocol.game.ServerboundPlayerActionPacket",
+   "net.minecraft.network.protocol.game.ServerboundSetCarriedItemPacket",
+   "net.minecraft.util.Mth",
+   "net.minecraft.world.InteractionHand",
+   "net.minecraft.world.effect.MobEffects",
+   "net.minecraft.world.entity.Entity",
+   "net.minecraft.world.entity.boss.enderdragon.EndCrystal",
+   "net.minecraft.world.item.ItemStack",
+   "net.minecraft.world.item.enchantment.Enchantments",
+   "net.minecraft.world.level.block.Blocks",
+   "net.minecraft.world.level.block.state.BlockState",
+   "net.minecraft.world.phys.AABB",
+   "net.minecraft.world.phys.Vec3",
+   "net.minecraft.world.phys.shapes.Shapes"
+  ],
+  "SafeAnchor": [
+   "net.minecraft.core.BlockPos",
+   "net.minecraft.core.Direction",
+   "net.minecraft.network.protocol.Packet",
+   "net.minecraft.network.protocol.game.ServerboundUseItemOnPacket",
+   "net.minecraft.util.Mth",
+   "net.minecraft.world.InteractionHand",
+   "net.minecraft.world.item.ItemStack",
+   "net.minecraft.world.item.Items",
+   "net.minecraft.world.level.block.Blocks",
+   "net.minecraft.world.level.block.RespawnAnchorBlock",
+   "net.minecraft.world.level.block.state.BlockState",
+   "net.minecraft.world.phys.AABB",
+   "net.minecraft.world.phys.BlockHitResult",
+   "net.minecraft.world.phys.HitResult",
+   "net.minecraft.world.phys.Vec3"
+  ],
+  "SafeCrystal": [
+   "net.minecraft.core.BlockPos",
+   "net.minecraft.world.InteractionHand",
+   "net.minecraft.world.entity.boss.enderdragon.EndCrystal",
+   "net.minecraft.world.item.Items",
+   "net.minecraft.world.level.ClipContext",
+   "net.minecraft.world.level.block.Blocks"
+  ],
+  "SilentAim": [
+   "net.minecraft.core.component.DataComponents",
+   "net.minecraft.world.InteractionHand",
+   "net.minecraft.world.entity.LivingEntity",
+   "net.minecraft.world.phys.HitResult"
+  ],
+  "SpearKill": [
+   "net.minecraft.world.entity.LivingEntity",
+   "net.minecraft.world.item.Item",
+   "net.minecraft.world.item.Items",
+   "net.minecraft.world.phys.AABB",
+   "net.minecraft.world.phys.Vec3"
+  ],
+  "TriggerBot": [
+   "net.minecraft.core.BlockPos",
+   "net.minecraft.util.Mth",
+   "net.minecraft.world.InteractionHand",
+   "net.minecraft.world.entity.Entity",
+   "net.minecraft.world.entity.LivingEntity",
+   "net.minecraft.world.entity.ai.attributes.Attributes",
+   "net.minecraft.world.entity.projectile.ProjectileUtil",
+   "net.minecraft.world.level.ClipContext",
+   "net.minecraft.world.level.block.Blocks",
+   "net.minecraft.world.phys.AABB",
+   "net.minecraft.world.phys.EntityHitResult",
+   "net.minecraft.world.phys.HitResult",
+   "net.minecraft.world.phys.Vec3"
+  ],
+  "ZealotCrystalPlus": [
+   "net.minecraft.core.BlockPos",
+   "net.minecraft.core.Direction",
+   "net.minecraft.network.protocol.Packet",
+   "net.minecraft.network.protocol.game.ClientboundAddEntityPacket",
+   "net.minecraft.network.protocol.game.ClientboundSoundPacket",
+   "net.minecraft.network.protocol.game.ServerboundSwingPacket",
+   "net.minecraft.sounds.SoundEvents",
+   "net.minecraft.tags.ItemTags",
+   "net.minecraft.util.Mth",
+   "net.minecraft.world.Difficulty",
+   "net.minecraft.world.InteractionHand",
+   "net.minecraft.world.InteractionResult",
+   "net.minecraft.world.effect.MobEffects",
+   "net.minecraft.world.entity.Entity",
+   "net.minecraft.world.entity.EntityType",
+   "net.minecraft.world.entity.EquipmentSlot",
+   "net.minecraft.world.entity.LivingEntity",
+   "net.minecraft.world.entity.ai.attributes.Attributes",
+   "net.minecraft.world.entity.boss.enderdragon.EndCrystal",
+   "net.minecraft.world.entity.player.Player",
+   "net.minecraft.world.item.ItemStack",
+   "net.minecraft.world.item.Items",
+   "net.minecraft.world.item.enchantment.Enchantments",
+   "net.minecraft.world.level.Level",
+   "net.minecraft.world.level.block.Blocks",
+   "net.minecraft.world.level.block.state.BlockState",
+   "net.minecraft.world.phys.AABB",
+   "net.minecraft.world.phys.BlockHitResult",
+   "net.minecraft.world.phys.Vec3"
+  ],
+  "AutoMap": [
+   "net.minecraft.network.chat.Component",
+   "net.minecraft.util.Mth",
+   "net.minecraft.world.phys.Vec3"
+  ],
+  "AutoSprint": [],
+  "Blink": [
+   "net.minecraft.client.gui.screens.RecoverWorldDataScreen",
+   "net.minecraft.client.player.RemotePlayer",
+   "net.minecraft.network.protocol.Packet",
+   "net.minecraft.network.protocol.game.ServerboundMovePlayerPacket",
+   "net.minecraft.network.protocol.handshake.ClientIntentionPacket",
+   "net.minecraft.network.protocol.login.ServerboundHelloPacket",
+   "net.minecraft.world.entity.Entity"
+  ],
+  "Eagle": [
+   "net.minecraft.core.BlockPos",
+   "net.minecraft.util.Mth",
+   "net.minecraft.world.item.BlockItem",
+   "net.minecraft.world.item.ItemStack",
+   "net.minecraft.world.level.EmptyBlockGetter",
+   "net.minecraft.world.level.block.state.BlockState",
+   "net.minecraft.world.phys.Vec3"
+  ],
+  "FastWeb": [],
+  "Flight": [],
+  "GUIMove": [
+   "net.minecraft.client.KeyMapping",
+   "net.minecraft.client.gui.screens.ChatScreen"
+  ],
+  "HoleSnap": [
+   "net.minecraft.core.BlockPos",
+   "net.minecraft.network.protocol.game.ClientboundPlayerPositionPacket",
+   "net.minecraft.network.protocol.game.ClientboundPlayerRotationPacket",
+   "net.minecraft.util.Mth",
+   "net.minecraft.world.phys.AABB",
+   "net.minecraft.world.phys.Vec3"
+  ],
+  "JumpReset": [],
+  "KeepSprint": [
+   "net.minecraft.world.phys.HitResult"
+  ],
+  "MovementFix": [
+   "net.minecraft.util.Mth"
+  ],
+  "NoFall": [
+   "net.minecraft.network.protocol.game.ServerboundMovePlayerPacket"
+  ],
+  "NoSlow": [
+   "net.minecraft.core.BlockPos",
+   "net.minecraft.core.Direction",
+   "net.minecraft.core.component.DataComponents",
+   "net.minecraft.network.protocol.Packet",
+   "net.minecraft.network.protocol.common.ServerboundPongPacket",
+   "net.minecraft.network.protocol.game.ClientboundContainerSetSlotPacket",
+   "net.minecraft.network.protocol.game.ServerboundContainerClosePacket",
+   "net.minecraft.network.protocol.game.ServerboundPlayerActionPacket",
+   "net.minecraft.world.InteractionHand",
+   "net.minecraft.world.item.ItemUseAnimation",
+   "net.minecraft.world.item.Items"
+  ],
+  "Phase": [
+   "net.minecraft.core.BlockPos",
+   "net.minecraft.core.Direction",
+   "net.minecraft.network.protocol.game.ServerboundMovePlayerPacket",
+   "net.minecraft.network.protocol.game.ServerboundPlayerActionPacket",
+   "net.minecraft.network.protocol.game.ServerboundPlayerCommandPacket",
+   "net.minecraft.network.protocol.game.ServerboundSwingPacket",
+   "net.minecraft.world.InteractionHand",
+   "net.minecraft.world.item.Items",
+   "net.minecraft.world.level.ClipContext",
+   "net.minecraft.world.level.block.Blocks",
+   "net.minecraft.world.phys.AABB",
+   "net.minecraft.world.phys.HitResult"
+  ],
+  "SafeWalk": [
+   "net.minecraft.core.BlockPos",
+   "net.minecraft.world.effect.MobEffects",
+   "net.minecraft.world.item.BlockItem",
+   "net.minecraft.world.item.ItemStack",
+   "net.minecraft.world.level.EmptyBlockGetter",
+   "net.minecraft.world.level.block.state.BlockState",
+   "net.minecraft.world.phys.AABB"
+  ],
+  "Scaffold": [
+   "net.minecraft.core.BlockPos",
+   "net.minecraft.core.Direction",
+   "net.minecraft.network.protocol.game.ServerboundMovePlayerPacket",
+   "net.minecraft.network.protocol.game.ServerboundSwingPacket",
+   "net.minecraft.util.Mth",
+   "net.minecraft.world.InteractionHand",
+   "net.minecraft.world.InteractionResult",
+   "net.minecraft.world.item.BlockItem",
+   "net.minecraft.world.item.ItemStack",
+   "net.minecraft.world.item.StandingAndWallBlockItem",
+   "net.minecraft.world.level.block.state.BlockState",
+   "net.minecraft.world.phys.AABB",
+   "net.minecraft.world.phys.BlockHitResult",
+   "net.minecraft.world.phys.Vec3"
+  ],
+  "Speed": [
+   "net.minecraft.network.protocol.game.ClientboundExplodePacket",
+   "net.minecraft.network.protocol.game.ClientboundPlayerPositionPacket",
+   "net.minecraft.network.protocol.game.ClientboundPlayerRotationPacket",
+   "net.minecraft.network.protocol.game.ClientboundSetEntityMotionPacket",
+   "net.minecraft.util.Mth",
+   "net.minecraft.world.effect.MobEffects",
+   "net.minecraft.world.entity.Entity",
+   "net.minecraft.world.entity.LivingEntity",
+   "net.minecraft.world.entity.decoration.ArmorStand",
+   "net.minecraft.world.entity.vehicle.boat.Boat",
+   "net.minecraft.world.phys.AABB",
+   "net.minecraft.world.phys.Vec2",
+   "net.minecraft.world.phys.Vec3"
+  ],
+  "Step": [
+   "net.minecraft.network.protocol.game.ServerboundMovePlayerPacket",
+   "net.minecraft.world.entity.ai.attributes.Attributes"
+  ],
+  "Strafe": [
+   "net.minecraft.world.effect.MobEffects"
+  ],
+  "Stuck": [
+   "net.minecraft.network.protocol.game.ClientboundPlayerPositionPacket",
+   "net.minecraft.network.protocol.game.ClientboundSetEntityMotionPacket",
+   "net.minecraft.network.protocol.game.ServerboundMovePlayerPacket"
+  ],
+  "Velocity": [
+   "net.minecraft.core.component.DataComponents",
+   "net.minecraft.network.protocol.game.ClientboundExplodePacket",
+   "net.minecraft.network.protocol.game.ClientboundSetEntityMotionPacket",
+   "net.minecraft.network.protocol.game.ServerboundUseItemPacket",
+   "net.minecraft.world.item.ItemStack",
+   "net.minecraft.world.item.WindChargeItem",
+   "net.minecraft.world.item.enchantment.Enchantments",
+   "net.minecraft.world.phys.Vec3"
+  ],
+  "ElytraFly": [],
+  "Follower": [
+   "net.minecraft.client.player.LocalPlayer",
+   "net.minecraft.util.Mth",
+   "net.minecraft.world.entity.LivingEntity",
+   "net.minecraft.world.entity.player.Player",
+   "net.minecraft.world.phys.Vec3"
+  ],
+  "AutoArmor": [
+   "net.minecraft.client.gui.screens.ChatScreen",
+   "net.minecraft.core.component.DataComponents",
+   "net.minecraft.network.protocol.game.ServerboundContainerClosePacket",
+   "net.minecraft.network.protocol.game.ServerboundPlayerCommandPacket",
+   "net.minecraft.world.InteractionHand",
+   "net.minecraft.world.entity.EquipmentSlot",
+   "net.minecraft.world.entity.LivingEntity",
+   "net.minecraft.world.entity.ai.attributes.Attributes",
+   "net.minecraft.world.item.ItemStack",
+   "net.minecraft.world.item.Items",
+   "net.minecraft.world.item.enchantment.Enchantments",
+   "net.minecraft.world.item.equipment.Equippable"
+  ],
+  "AutoFirework": [
+   "net.minecraft.world.InteractionHand",
+   "net.minecraft.world.item.ItemStack",
+   "net.minecraft.world.item.Items"
+  ],
+  "AutoKouZi": [
+   "net.minecraft.network.chat.Component"
+  ],
+  "AutoQueue": [
+   "net.minecraft.network.protocol.game.ClientboundSystemChatPacket"
+  ],
+  "AutoTool": [
+   "net.minecraft.core.BlockPos",
+   "net.minecraft.network.protocol.game.ServerboundSetCarriedItemPacket",
+   "net.minecraft.world.item.ItemStack",
+   "net.minecraft.world.item.enchantment.Enchantments",
+   "net.minecraft.world.level.block.AirBlock",
+   "net.minecraft.world.level.block.EnderChestBlock",
+   "net.minecraft.world.phys.BlockHitResult"
+  ],
+  "BreakCooldown": [],
+  "Disabler": [
+   "net.minecraft.network.protocol.Packet",
+   "net.minecraft.world.entity.player.Input"
+  ],
+  "ElytraSwap": [
+   "net.minecraft.core.component.DataComponents",
+   "net.minecraft.world.InteractionHand",
+   "net.minecraft.world.entity.EquipmentSlot",
+   "net.minecraft.world.item.ItemStack",
+   "net.minecraft.world.item.Items"
+  ],
+  "FakePlayer": [
+   "net.minecraft.client.player.RemotePlayer",
+   "net.minecraft.world.entity.Entity"
+  ],
+  "GhostHand": [
+   "net.minecraft.core.BlockPos",
+   "net.minecraft.world.InteractionHand",
+   "net.minecraft.world.InteractionResult",
+   "net.minecraft.world.phys.BlockHitResult",
+   "net.minecraft.world.phys.HitResult",
+   "net.minecraft.world.phys.Vec3"
+  ],
+  "InvManager": [
+   "net.minecraft.client.gui.screens.inventory.AbstractContainerScreen",
+   "net.minecraft.client.gui.screens.inventory.InventoryScreen",
+   "net.minecraft.world.entity.EquipmentSlot"
+  ],
+  "JumpCooldown": [],
+  "MultiTask": [],
+  "NoRotate": [],
+  "PacketEat": [
+   "net.minecraft.core.component.DataComponents",
+   "net.minecraft.network.protocol.game.ServerboundPlayerActionPacket",
+   "net.minecraft.world.food.FoodProperties",
+   "net.minecraft.world.item.ItemStack"
+  ],
+  "PlayerAlarms": [
+   "net.minecraft.ChatFormatting",
+   "net.minecraft.network.chat.Component",
+   "net.minecraft.network.protocol.game.ClientboundPlayerInfoRemovePacket",
+   "net.minecraft.network.protocol.game.ClientboundPlayerInfoUpdatePacket",
+   "net.minecraft.network.protocol.game.ClientboundPlayerInfoUpdatePacket.Action",
+   "net.minecraft.network.protocol.game.ClientboundPlayerInfoUpdatePacket.Entry",
+   "net.minecraft.sounds.SoundEvent",
+   "net.minecraft.sounds.SoundEvents",
+   "net.minecraft.sounds.SoundSource",
+   "net.minecraft.world.entity.player.Player",
+   "net.minecraft.world.level.GameType"
+  ],
+  "SoundFX": [],
+  "Stealer": [
+   "net.minecraft.client.gui.screens.Screen",
+   "net.minecraft.client.gui.screens.inventory.AbstractContainerScreen",
+   "net.minecraft.network.chat.Component",
+   "net.minecraft.world.inventory.ChestMenu"
+  ],
+  "Timer": [],
+  "UseCooldown": [],
+  "AntiAlias": [],
+  "AspectRatio": [],
+  "BlockESP": [
+   "net.minecraft.core.BlockPos",
+   "net.minecraft.util.Mth",
+   "net.minecraft.util.Util",
+   "net.minecraft.world.level.Level",
+   "net.minecraft.world.level.block.state.BlockState",
+   "net.minecraft.world.level.block.state.properties.ChestType",
+   "net.minecraft.world.phys.AABB"
+  ],
+  "BlockHighlight": [
+   "net.minecraft.core.Direction",
+   "net.minecraft.world.phys.AABB",
+   "net.minecraft.world.phys.BlockHitResult",
+   "net.minecraft.world.phys.HitResult"
+  ],
+  "CameraClip": [
+   "net.minecraft.util.Mth",
+   "net.minecraft.world.phys.Vec3"
+  ],
+  "Chams": [
+   "net.minecraft.client.renderer.RenderPipelines",
+   "net.minecraft.client.renderer.rendertype.OutputTarget",
+   "net.minecraft.client.renderer.rendertype.RenderSetup",
+   "net.minecraft.client.renderer.rendertype.RenderType",
+   "net.minecraft.client.resources.model.geometry.BakedQuad",
+   "net.minecraft.resources.Identifier",
+   "net.minecraft.util.Util"
+  ],
+  "CrystalChams": [
+   "net.minecraft.world.entity.Entity",
+   "net.minecraft.world.entity.boss.enderdragon.EndCrystal"
+  ],
+  "ESP2D": [
+   "net.minecraft.util.Mth",
+   "net.minecraft.world.entity.Entity",
+   "net.minecraft.world.entity.LivingEntity",
+   "net.minecraft.world.entity.MobCategory",
+   "net.minecraft.world.entity.player.Player",
+   "net.minecraft.world.phys.AABB",
+   "net.minecraft.world.phys.Vec3"
+  ],
+  "Filter": [],
+  "FreeCamera": [
+   "net.minecraft.client.CameraType",
+   "net.minecraft.core.BlockPos",
+   "net.minecraft.network.protocol.game.ClientboundPlayerCombatKillPacket",
+   "net.minecraft.network.protocol.game.ClientboundRespawnPacket",
+   "net.minecraft.network.protocol.game.ClientboundSetHealthPacket",
+   "net.minecraft.util.Mth",
+   "net.minecraft.world.entity.Entity",
+   "net.minecraft.world.phys.BlockHitResult",
+   "net.minecraft.world.phys.EntityHitResult",
+   "net.minecraft.world.phys.Vec3"
+  ],
+  "Fullbright": [
+   "net.minecraft.world.effect.MobEffectInstance",
+   "net.minecraft.world.effect.MobEffects"
+  ],
+  "GameAnimation": [],
+  "HandsView": [
+   "net.minecraft.tags.ItemTags",
+   "net.minecraft.util.Mth",
+   "net.minecraft.world.InteractionHand",
+   "net.minecraft.world.entity.Avatar",
+   "net.minecraft.world.entity.HumanoidArm",
+   "net.minecraft.world.item.ItemStack",
+   "net.minecraft.world.item.ItemUseAnimation",
+   "net.minecraft.world.item.Items"
+  ],
+  "Hat": [
+   "net.minecraft.client.renderer.RenderPipelines",
+   "net.minecraft.util.Mth",
+   "net.minecraft.world.entity.player.Player",
+   "net.minecraft.world.phys.Vec3"
+  ],
+  "HitParticles": [
+   "net.minecraft.client.Camera",
+   "net.minecraft.client.renderer.RenderPipelines",
+   "net.minecraft.client.renderer.rendertype.LayeringTransform",
+   "net.minecraft.client.renderer.rendertype.OutputTarget",
+   "net.minecraft.client.renderer.rendertype.RenderSetup",
+   "net.minecraft.client.renderer.rendertype.RenderType",
+   "net.minecraft.core.BlockPos",
+   "net.minecraft.resources.Identifier",
+   "net.minecraft.util.Mth",
+   "net.minecraft.util.Util",
+   "net.minecraft.world.entity.Entity",
+   "net.minecraft.world.entity.LivingEntity",
+   "net.minecraft.world.level.block.Blocks",
+   "net.minecraft.world.level.block.state.BlockState",
+   "net.minecraft.world.phys.Vec3"
+  ],
+  "HoleESP": [
+   "net.minecraft.client.multiplayer.ClientLevel",
+   "net.minecraft.core.BlockPos",
+   "net.minecraft.core.Direction",
+   "net.minecraft.util.Mth",
+   "net.minecraft.world.level.block.Blocks",
+   "net.minecraft.world.level.block.state.BlockState",
+   "net.minecraft.world.phys.AABB",
+   "net.minecraft.world.phys.Vec3"
+  ],
+  "JumpCircle": [
+   "net.minecraft.client.Camera",
+   "net.minecraft.client.renderer.RenderPipelines",
+   "net.minecraft.client.renderer.rendertype.LayeringTransform",
+   "net.minecraft.client.renderer.rendertype.OutputTarget",
+   "net.minecraft.client.renderer.rendertype.RenderSetup",
+   "net.minecraft.client.renderer.rendertype.RenderType",
+   "net.minecraft.resources.Identifier",
+   "net.minecraft.util.Mth",
+   "net.minecraft.util.Util",
+   "net.minecraft.world.entity.player.Player",
+   "net.minecraft.world.phys.Vec3"
+  ],
+  "LogoutSpots": [
+   "net.minecraft.client.player.RemotePlayer",
+   "net.minecraft.network.chat.Component",
+   "net.minecraft.network.protocol.game.ClientboundPlayerInfoRemovePacket",
+   "net.minecraft.network.protocol.game.ClientboundPlayerInfoUpdatePacket",
+   "net.minecraft.network.protocol.game.ClientboundPlayerInfoUpdatePacket.Action",
+   "net.minecraft.network.protocol.game.ClientboundPlayerInfoUpdatePacket.Entry",
+   "net.minecraft.world.entity.player.Player",
+   "net.minecraft.world.phys.Vec3"
+  ],
+  "NameTags": [
+   "net.minecraft.client.gui.GuiGraphicsExtractor",
+   "net.minecraft.world.entity.EquipmentSlot",
+   "net.minecraft.world.entity.player.Player",
+   "net.minecraft.world.item.ItemStack",
+   "net.minecraft.world.phys.Vec3"
+  ],
+  "NoRender": [],
+  "Particles": [
+   "net.minecraft.client.Camera",
+   "net.minecraft.client.renderer.RenderPipelines",
+   "net.minecraft.client.renderer.rendertype.LayeringTransform",
+   "net.minecraft.client.renderer.rendertype.OutputTarget",
+   "net.minecraft.client.renderer.rendertype.RenderSetup",
+   "net.minecraft.client.renderer.rendertype.RenderType",
+   "net.minecraft.core.BlockPos",
+   "net.minecraft.resources.Identifier",
+   "net.minecraft.util.Mth",
+   "net.minecraft.util.Util",
+   "net.minecraft.world.phys.Vec3"
+  ],
+  "PopChams": [
+   "net.minecraft.client.player.RemotePlayer",
+   "net.minecraft.network.chat.Component",
+   "net.minecraft.network.protocol.game.ClientboundEntityEventPacket",
+   "net.minecraft.util.Mth",
+   "net.minecraft.world.entity.Entity",
+   "net.minecraft.world.entity.EntityEvent",
+   "net.minecraft.world.entity.player.Player"
+  ],
+  "Shaders": [
+   "net.minecraft.core.BlockPos",
+   "net.minecraft.world.entity.Entity",
+   "net.minecraft.world.entity.boss.enderdragon.EndCrystal",
+   "net.minecraft.world.entity.player.Player"
+  ],
+  "SneakTweak": [],
+  "Xray": [
+   "net.minecraft.core.BlockPos",
+   "net.minecraft.network.protocol.game.ClientboundBlockUpdatePacket",
+   "net.minecraft.network.protocol.game.ServerboundSwingPacket",
+   "net.minecraft.tags.ItemTags",
+   "net.minecraft.world.InteractionHand",
+   "net.minecraft.world.level.block.Block",
+   "net.minecraft.world.level.block.Blocks",
+   "net.minecraft.world.phys.AABB"
+  ],
+  "MasEffects": [
+   "net.minecraft.client.player.AbstractClientPlayer",
+   "net.minecraft.client.renderer.RenderPipelines",
+   "net.minecraft.core.component.DataComponents",
+   "net.minecraft.gizmos.GizmoStyle",
+   "net.minecraft.gizmos.Gizmos",
+   "net.minecraft.network.protocol.game.ClientboundEntityEventPacket",
+   "net.minecraft.resources.Identifier",
+   "net.minecraft.util.ARGB",
+   "net.minecraft.util.Mth",
+   "net.minecraft.world.entity.Entity",
+   "net.minecraft.world.entity.EntityEvent",
+   "net.minecraft.world.entity.LivingEntity",
+   "net.minecraft.world.entity.player.Player",
+   "net.minecraft.world.entity.projectile.hurtingprojectile.windcharge.WindCharge",
+   "net.minecraft.world.entity.projectile.throwableitemprojectile.ThrownEnderpearl",
+   "net.minecraft.world.item.Items",
+   "net.minecraft.world.item.enchantment.Enchantments",
+   "net.minecraft.world.item.enchantment.ItemEnchantments",
+   "net.minecraft.world.level.block.LevelEvent",
+   "net.minecraft.world.phys.Vec3"
+  ],
+  "LuaModule": []
+ },
+ "note": "jar=26.2 混淆模块 MC imports; src=26.1.2 本地源码模块 MC imports(相似度字典, 非真值)",
+ "method": "双向 Jaccard 互指, 见 IDENTITY_REPORT.md"
+}

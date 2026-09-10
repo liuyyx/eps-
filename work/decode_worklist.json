@@ -1,0 +1,1008 @@
+{
+ "MixinAbstractSignRenderer": {
+  "jar": "work/out/com/github/epsilon/mixins/MixinAbstractSignRenderer.java",
+  "unmapped": [],
+  "all_refs": [
+   "eC"
+  ],
+  "src": []
+ },
+ "MixinAddressCheck": {
+  "jar": "work/out/com/github/epsilon/mixins/MixinAddressCheck.java",
+  "unmapped": [],
+  "all_refs": [],
+  "src": []
+ },
+ "MixinAvatar": {
+  "jar": "work/out/com/github/epsilon/mixins/MixinAvatar.java",
+  "unmapped": [],
+  "all_refs": [
+   "dD",
+   "eZ"
+  ],
+  "src": [
+   "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/mixins/MixinAvatar.java"
+  ]
+ },
+ "MixinAvatarRenderer": {
+  "jar": "work/out/com/github/epsilon/mixins/MixinAvatarRenderer.java",
+  "unmapped": [],
+  "all_refs": [
+   "dD",
+   "e_",
+   "u",
+   "uj"
+  ],
+  "src": [
+   "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/mixins/MixinAvatarRenderer.java"
+  ]
+ },
+ "MixinBannerRenderer": {
+  "jar": "work/out/com/github/epsilon/mixins/MixinBannerRenderer.java",
+  "unmapped": [],
+  "all_refs": [
+   "eC"
+  ],
+  "src": []
+ },
+ "MixinBeaconRenderer": {
+  "jar": "work/out/com/github/epsilon/mixins/MixinBeaconRenderer.java",
+  "unmapped": [],
+  "all_refs": [
+   "eC"
+  ],
+  "src": []
+ },
+ "MixinBlock": {
+  "jar": "work/out/com/github/epsilon/mixins/MixinBlock.java",
+  "unmapped": [],
+  "all_refs": [
+   "U"
+  ],
+  "src": [
+   "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/mixins/MixinBlock.java"
+  ]
+ },
+ "MixinBlockCollisions": {
+  "jar": "work/out/com/github/epsilon/mixins/MixinBlockCollisions.java",
+  "unmapped": [],
+  "all_refs": [
+   "_M",
+   "vy"
+  ],
+  "src": [
+   "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/mixins/MixinBlockCollisions.java"
+  ]
+ },
+ "MixinBlockItem": {
+  "jar": "work/out/com/github/epsilon/mixins/MixinBlockItem.java",
+  "unmapped": [
+   "dO",
+   "ee"
+  ],
+  "all_refs": [
+   "dO",
+   "ee",
+   "vy"
+  ],
+  "src": []
+ },
+ "MixinBossHealthOverlay": {
+  "jar": "work/out/com/github/epsilon/mixins/MixinBossHealthOverlay.java",
+  "unmapped": [],
+  "all_refs": [
+   "eC"
+  ],
+  "src": []
+ },
+ "MixinCamera": {
+  "jar": "work/out/com/github/epsilon/mixins/MixinCamera.java",
+  "unmapped": [],
+  "all_refs": [
+   "W",
+   "dD",
+   "eC",
+   "eZ",
+   "i"
+  ],
+  "src": [
+   "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/mixins/MixinCamera.java",
+   "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/neoforge/src/main/java/com/github/epsilon/neoforge/mixins/MixinCamera.java"
+  ]
+ },
+ "MixinCapeLayer": {
+  "jar": "work/out/com/github/epsilon/mixins/MixinCapeLayer.java",
+  "unmapped": [],
+  "all_refs": [
+   "C",
+   "Xr"
+  ],
+  "src": [
+   "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/mixins/MixinCapeLayer.java"
+  ]
+ },
+ "MixinChatComponent": {
+  "jar": "work/out/com/github/epsilon/mixins/MixinChatComponent.java",
+  "unmapped": [
+   "I",
+   "gp"
+  ],
+  "all_refs": [
+   "I",
+   "gp"
+  ],
+  "src": [
+   "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/mixins/MixinChatComponent.java"
+  ]
+ },
+ "MixinChatComponentHash": {
+  "jar": "work/out/com/github/epsilon/mixins/MixinChatComponentHash.java",
+  "unmapped": [
+   "I",
+   "dS",
+   "i8"
+  ],
+  "all_refs": [
+   "I",
+   "dS",
+   "i8"
+  ],
+  "src": [
+   "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/mixins/MixinChatComponentHash.java"
+  ]
+ },
+ "MixinChatScreen": {
+  "jar": "work/out/com/github/epsilon/mixins/MixinChatScreen.java",
+  "unmapped": [
+   "I"
+  ],
+  "all_refs": [
+   "I"
+  ],
+  "src": []
+ },
+ "MixinChestRenderer": {
+  "jar": "work/out/com/github/epsilon/mixins/MixinChestRenderer.java",
+  "unmapped": [],
+  "all_refs": [
+   "C",
+   "u",
+   "z2"
+  ],
+  "src": [
+   "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/mixins/MixinChestRenderer.java"
+  ]
+ },
+ "MixinChunkBorderRenderer": {
+  "jar": "work/out/com/github/epsilon/mixins/MixinChunkBorderRenderer.java",
+  "unmapped": [],
+  "all_refs": [
+   "i"
+  ],
+  "src": [
+   "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/mixins/MixinChunkBorderRenderer.java"
+  ]
+ },
+ "MixinClientBrandRetriever": {
+  "jar": "work/out/com/github/epsilon/mixins/MixinClientBrandRetriever.java",
+  "unmapped": [],
+  "all_refs": [
+   "nO"
+  ],
+  "src": [
+   "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/mixins/MixinClientBrandRetriever.java"
+  ]
+ },
+ "MixinClientClockManager": {
+  "jar": "work/out/com/github/epsilon/mixins/MixinClientClockManager.java",
+  "unmapped": [
+   "eu"
+  ],
+  "all_refs": [
+   "eu"
+  ],
+  "src": []
+ },
+ "MixinClientLevel": {
+  "jar": "work/out/com/github/epsilon/mixins/MixinClientLevel.java",
+  "unmapped": [],
+  "all_refs": [
+   "dD",
+   "e8",
+   "eC"
+  ],
+  "src": [
+   "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/mixins/MixinClientLevel.java"
+  ]
+ },
+ "MixinClientPacketListener": {
+  "jar": "work/out/com/github/epsilon/mixins/MixinClientPacketListener.java",
+  "unmapped": [
+   "DK",
+   "XV",
+   "g3"
+  ],
+  "all_refs": [
+   "DK",
+   "L",
+   "XV",
+   "eC",
+   "eZ",
+   "g3",
+   "vy"
+  ],
+  "src": [
+   "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/mixins/MixinClientPacketListener.java"
+  ]
+ },
+ "MixinCompassAngleState": {
+  "jar": "work/out/com/github/epsilon/mixins/MixinCompassAngleState.java",
+  "unmapped": [],
+  "all_refs": [
+   "dD",
+   "i"
+  ],
+  "src": [
+   "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/mixins/MixinCompassAngleState.java"
+  ]
+ },
+ "MixinConnection": {
+  "jar": "work/out/com/github/epsilon/mixins/MixinConnection.java",
+  "unmapped": [
+   "OK",
+   "_5",
+   "dP",
+   "dQ",
+   "gH"
+  ],
+  "all_refs": [
+   "OK",
+   "_5",
+   "dP",
+   "dQ",
+   "gH",
+   "nO",
+   "vy"
+  ],
+  "src": [
+   "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/mixins/MixinConnection.java"
+  ]
+ },
+ "MixinDataComponentInitializerEntry": {
+  "jar": "work/out/com/github/epsilon/mixins/MixinDataComponentInitializerEntry.java",
+  "unmapped": [],
+  "all_refs": [],
+  "src": [
+   "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/mixins/MixinDataComponentInitializerEntry.java"
+  ]
+ },
+ "MixinDeltaTrackerTimer": {
+  "jar": "work/out/com/github/epsilon/mixins/MixinDeltaTrackerTimer.java",
+  "unmapped": [
+   "no"
+  ],
+  "all_refs": [
+   "no"
+  ],
+  "src": [
+   "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/mixins/MixinDeltaTrackerTimer.java"
+  ]
+ },
+ "MixinDynamicUniforms": {
+  "jar": "work/out/com/github/epsilon/mixins/MixinDynamicUniforms.java",
+  "unmapped": [
+   "Oe",
+   "dB",
+   "nK"
+  ],
+  "all_refs": [
+   "Oe",
+   "dB",
+   "nK"
+  ],
+  "src": []
+ },
+ "MixinEnchantTableRenderer": {
+  "jar": "work/out/com/github/epsilon/mixins/MixinEnchantTableRenderer.java",
+  "unmapped": [],
+  "all_refs": [
+   "eC"
+  ],
+  "src": []
+ },
+ "MixinEntity": {
+  "jar": "work/out/com/github/epsilon/mixins/MixinEntity.java",
+  "unmapped": [],
+  "all_refs": [
+   "DY",
+   "Dn",
+   "Du",
+   "dD",
+   "i",
+   "vy",
+   "w"
+  ],
+  "src": [
+   "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/mixins/MixinEntity.java"
+  ]
+ },
+ "MixinEntityHitboxDebugRenderer": {
+  "jar": "work/out/com/github/epsilon/mixins/MixinEntityHitboxDebugRenderer.java",
+  "unmapped": [],
+  "all_refs": [
+   "e8"
+  ],
+  "src": [
+   "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/mixins/MixinEntityHitboxDebugRenderer.java"
+  ]
+ },
+ "MixinEntityRenderDispatcher": {
+  "jar": "work/out/com/github/epsilon/mixins/MixinEntityRenderDispatcher.java",
+  "unmapped": [],
+  "all_refs": [
+   "Xr"
+  ],
+  "src": [
+   "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/mixins/MixinEntityRenderDispatcher.java"
+  ]
+ },
+ "MixinEntityRenderState": {
+  "jar": "work/out/com/github/epsilon/mixins/MixinEntityRenderState.java",
+  "unmapped": [],
+  "all_refs": [
+   "Xr"
+  ],
+  "src": [
+   "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/mixins/MixinEntityRenderState.java"
+  ]
+ },
+ "MixinEntityRenderer": {
+  "jar": "work/out/com/github/epsilon/mixins/MixinEntityRenderer.java",
+  "unmapped": [],
+  "all_refs": [
+   "Z",
+   "eB",
+   "eC",
+   "u"
+  ],
+  "src": [
+   "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/mixins/MixinEntityRenderer.java"
+  ]
+ },
+ "MixinEquipmentLayerRenderer": {
+  "jar": "work/out/com/github/epsilon/mixins/MixinEquipmentLayerRenderer.java",
+  "unmapped": [],
+  "all_refs": [
+   "C",
+   "Xr"
+  ],
+  "src": [
+   "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/mixins/MixinEquipmentLayerRenderer.java"
+  ]
+ },
+ "MixinFireworkParticlesStarter": {
+  "jar": "work/out/com/github/epsilon/mixins/MixinFireworkParticlesStarter.java",
+  "unmapped": [],
+  "all_refs": [],
+  "src": []
+ },
+ "MixinFireworkRocketEntity": {
+  "jar": "work/out/com/github/epsilon/mixins/MixinFireworkRocketEntity.java",
+  "unmapped": [],
+  "all_refs": [
+   "dD",
+   "vy",
+   "yC"
+  ],
+  "src": [
+   "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/mixins/MixinFireworkRocketEntity.java"
+  ]
+ },
+ "MixinFireworksSparkParticleSub": {
+  "jar": "work/out/com/github/epsilon/mixins/MixinFireworksSparkParticleSub.java",
+  "unmapped": [],
+  "all_refs": [
+   "eC"
+  ],
+  "src": []
+ },
+ "MixinFlowingFluid": {
+  "jar": "work/out/com/github/epsilon/mixins/MixinFlowingFluid.java",
+  "unmapped": [],
+  "all_refs": [
+   "Du",
+   "w"
+  ],
+  "src": [
+   "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/mixins/MixinFlowingFluid.java"
+  ]
+ },
+ "MixinFogRenderer": {
+  "jar": "work/out/com/github/epsilon/mixins/MixinFogRenderer.java",
+  "unmapped": [
+   "eu"
+  ],
+  "all_refs": [
+   "eC",
+   "eu"
+  ],
+  "src": []
+ },
+ "MixinFont": {
+  "jar": "work/out/com/github/epsilon/mixins/MixinFont.java",
+  "unmapped": [
+   "gG",
+   "ls"
+  ],
+  "all_refs": [
+   "eC",
+   "gG",
+   "ls",
+   "uc"
+  ],
+  "src": [
+   "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/mixins/MixinFont.java"
+  ]
+ },
+ "MixinGameRenderer": {
+  "jar": "work/out/com/github/epsilon/mixins/MixinGameRenderer.java",
+  "unmapped": [],
+  "all_refs": [
+   "W",
+   "i",
+   "u",
+   "z2"
+  ],
+  "src": [
+   "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/mixins/MixinGameRenderer.java"
+  ]
+ },
+ "MixinGlDebug": {
+  "jar": "work/out/com/github/epsilon/mixins/MixinGlDebug.java",
+  "unmapped": [],
+  "all_refs": [],
+  "src": [
+   "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/mixins/MixinGlDebug.java"
+  ]
+ },
+ "MixinGlyphRenderState": {
+  "jar": "work/out/com/github/epsilon/mixins/MixinGlyphRenderState.java",
+  "unmapped": [
+   "Dk"
+  ],
+  "all_refs": [
+   "Dk"
+  ],
+  "src": [
+   "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/mixins/MixinGlyphRenderState.java"
+  ]
+ },
+ "MixinGuiManager": {
+  "jar": "work/out/com/github/epsilon/mixins/MixinGuiManager.java",
+  "unmapped": [],
+  "all_refs": [
+   "du",
+   "vy"
+  ],
+  "src": []
+ },
+ "MixinGuiRenderer": {
+  "jar": "work/out/com/github/epsilon/mixins/MixinGuiRenderer.java",
+  "unmapped": [
+   "OT",
+   "zR",
+   "zm"
+  ],
+  "all_refs": [
+   "OT",
+   "dD",
+   "vy",
+   "yt",
+   "zR",
+   "zm"
+  ],
+  "src": [
+   "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/mixins/MixinGuiRenderer.java"
+  ]
+ },
+ "MixinGustSeedParticle": {
+  "jar": "work/out/com/github/epsilon/mixins/MixinGustSeedParticle.java",
+  "unmapped": [],
+  "all_refs": [
+   "e8"
+  ],
+  "src": [
+   "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/mixins/MixinGustSeedParticle.java"
+  ]
+ },
+ "MixinHud": {
+  "jar": "work/out/com/github/epsilon/mixins/MixinHud.java",
+  "unmapped": [
+   "e9",
+   "u0"
+  ],
+  "all_refs": [
+   "e0",
+   "e9",
+   "eC",
+   "i",
+   "u0"
+  ],
+  "src": []
+ },
+ "MixinHumanoidArmorLayer": {
+  "jar": "work/out/com/github/epsilon/mixins/MixinHumanoidArmorLayer.java",
+  "unmapped": [],
+  "all_refs": [
+   "eC"
+  ],
+  "src": []
+ },
+ "MixinHumanoidMobRenderer": {
+  "jar": "work/out/com/github/epsilon/mixins/MixinHumanoidMobRenderer.java",
+  "unmapped": [],
+  "all_refs": [
+   "dD",
+   "uj"
+  ],
+  "src": [
+   "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/mixins/MixinHumanoidMobRenderer.java"
+  ]
+ },
+ "MixinInventoryScreen": {
+  "jar": "work/out/com/github/epsilon/mixins/MixinInventoryScreen.java",
+  "unmapped": [],
+  "all_refs": [
+   "e0"
+  ],
+  "src": []
+ },
+ "MixinItem": {
+  "jar": "work/out/com/github/epsilon/mixins/MixinItem.java",
+  "unmapped": [],
+  "all_refs": [
+   "_K",
+   "vy"
+  ],
+  "src": [
+   "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/mixins/MixinItem.java"
+  ]
+ },
+ "MixinItemEntityRenderer": {
+  "jar": "work/out/com/github/epsilon/mixins/MixinItemEntityRenderer.java",
+  "unmapped": [
+   "S"
+  ],
+  "all_refs": [
+   "S",
+   "Xr"
+  ],
+  "src": []
+ },
+ "MixinItemFeatureRenderer": {
+  "jar": "work/out/com/github/epsilon/mixins/MixinItemFeatureRenderer.java",
+  "unmapped": [],
+  "all_refs": [
+   "eC"
+  ],
+  "src": []
+ },
+ "MixinItemInHandLayer": {
+  "jar": "work/out/com/github/epsilon/mixins/MixinItemInHandLayer.java",
+  "unmapped": [],
+  "all_refs": [
+   "C",
+   "Xr"
+  ],
+  "src": [
+   "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/mixins/MixinItemInHandLayer.java"
+  ]
+ },
+ "MixinItemInHandRenderer": {
+  "jar": "work/out/com/github/epsilon/mixins/MixinItemInHandRenderer.java",
+  "unmapped": [
+   "lx",
+   "n1",
+   "yF"
+  ],
+  "all_refs": [
+   "dD",
+   "e_",
+   "lx",
+   "n1",
+   "u",
+   "vy",
+   "yF",
+   "z2"
+  ],
+  "src": [
+   "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/mixins/MixinItemInHandRenderer.java"
+  ]
+ },
+ "MixinItemStackLayerRenderState": {
+  "jar": "work/out/com/github/epsilon/mixins/MixinItemStackLayerRenderState.java",
+  "unmapped": [],
+  "all_refs": [
+   "C"
+  ],
+  "src": [
+   "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/mixins/MixinItemStackLayerRenderState.java"
+  ]
+ },
+ "MixinKeyboardHandler": {
+  "jar": "work/out/com/github/epsilon/mixins/MixinKeyboardHandler.java",
+  "unmapped": [],
+  "all_refs": [
+   "dL",
+   "vy"
+  ],
+  "src": [
+   "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/mixins/MixinKeyboardHandler.java"
+  ]
+ },
+ "MixinKeyboardInput": {
+  "jar": "work/out/com/github/epsilon/mixins/MixinKeyboardInput.java",
+  "unmapped": [],
+  "all_refs": [
+   "vy",
+   "yi"
+  ],
+  "src": [
+   "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/mixins/MixinKeyboardInput.java"
+  ]
+ },
+ "MixinLevelExtractor": {
+  "jar": "work/out/com/github/epsilon/mixins/MixinLevelExtractor.java",
+  "unmapped": [],
+  "all_refs": [
+   "eC"
+  ],
+  "src": []
+ },
+ "MixinLevelRenderer": {
+  "jar": "work/out/com/github/epsilon/mixins/MixinLevelRenderer.java",
+  "unmapped": [
+   "e5",
+   "ua",
+   "yK",
+   "yZ"
+  ],
+  "all_refs": [
+   "d9",
+   "e5",
+   "eC",
+   "u",
+   "ua",
+   "vy",
+   "yK",
+   "yZ"
+  ],
+  "src": [
+   "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/mixins/MixinLevelRenderer.java"
+  ]
+ },
+ "MixinLightmap": {
+  "jar": "work/out/com/github/epsilon/mixins/MixinLightmap.java",
+  "unmapped": [],
+  "all_refs": [
+   "U",
+   "e6",
+   "uA"
+  ],
+  "src": [
+   "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/mixins/MixinLightmap.java"
+  ]
+ },
+ "MixinLivingEntity": {
+  "jar": "work/out/com/github/epsilon/mixins/MixinLivingEntity.java",
+  "unmapped": [
+   "up"
+  ],
+  "all_refs": [
+   "dD",
+   "eC",
+   "e_",
+   "nS",
+   "s",
+   "up",
+   "vB",
+   "vy",
+   "zV"
+  ],
+  "src": [
+   "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/mixins/MixinLivingEntity.java"
+  ]
+ },
+ "MixinLivingEntityRenderer": {
+  "jar": "work/out/com/github/epsilon/mixins/MixinLivingEntityRenderer.java",
+  "unmapped": [],
+  "all_refs": [
+   "C",
+   "Xr",
+   "dD",
+   "i",
+   "vB",
+   "vy"
+  ],
+  "src": [
+   "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/mixins/MixinLivingEntityRenderer.java"
+  ]
+ },
+ "MixinLocalPlayer": {
+  "jar": "work/out/com/github/epsilon/mixins/MixinLocalPlayer.java",
+  "unmapped": [
+   "D2",
+   "_J",
+   "d3",
+   "dR",
+   "dY",
+   "db",
+   "nj",
+   "up"
+  ],
+  "all_refs": [
+   "D2",
+   "Du",
+   "_J",
+   "d3",
+   "dD",
+   "dR",
+   "dY",
+   "db",
+   "nj",
+   "up",
+   "vy",
+   "w"
+  ],
+  "src": [
+   "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/mixins/MixinLocalPlayer.java"
+  ]
+ },
+ "MixinMain": {
+  "jar": "work/out/com/github/epsilon/mixins/MixinMain.java",
+  "unmapped": [
+   "yu"
+  ],
+  "all_refs": [
+   "yu"
+  ],
+  "src": [
+   "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/mixins/MixinMain.java"
+  ]
+ },
+ "MixinMapRenderer": {
+  "jar": "work/out/com/github/epsilon/mixins/MixinMapRenderer.java",
+  "unmapped": [],
+  "all_refs": [
+   "eC"
+  ],
+  "src": []
+ },
+ "MixinMinecraft": {
+  "jar": "work/out/com/github/epsilon/mixins/MixinMinecraft.java",
+  "unmapped": [
+   "_U",
+   "__",
+   "_y",
+   "dB",
+   "dE",
+   "dj",
+   "dz",
+   "g3",
+   "iE",
+   "lS"
+  ],
+  "all_refs": [
+   "B",
+   "_U",
+   "__",
+   "_y",
+   "dB",
+   "dD",
+   "dE",
+   "dj",
+   "dz",
+   "e_",
+   "ew",
+   "g3",
+   "i",
+   "iE",
+   "lM",
+   "lS",
+   "uc",
+   "vc",
+   "vy"
+  ],
+  "src": [
+   "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/mixins/MixinMinecraft.java",
+   "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/neoforge/src/main/java/com/github/epsilon/neoforge/mixins/MixinMinecraft.java"
+  ]
+ },
+ "MixinMouseHandler": {
+  "jar": "work/out/com/github/epsilon/mixins/MixinMouseHandler.java",
+  "unmapped": [],
+  "all_refs": [
+   "dW",
+   "dm",
+   "vy"
+  ],
+  "src": [
+   "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/mixins/MixinMouseHandler.java"
+  ]
+ },
+ "MixinMultiPlayerGameMode": {
+  "jar": "work/out/com/github/epsilon/mixins/MixinMultiPlayerGameMode.java",
+  "unmapped": [],
+  "all_refs": [
+   "_S",
+   "dA",
+   "dN",
+   "dk",
+   "et",
+   "vy",
+   "zZ"
+  ],
+  "src": [
+   "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/mixins/MixinMultiPlayerGameMode.java"
+  ]
+ },
+ "MixinOptions": {
+  "jar": "work/out/com/github/epsilon/mixins/MixinOptions.java",
+  "unmapped": [],
+  "all_refs": [
+   "i"
+  ],
+  "src": [
+   "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/mixins/MixinOptions.java"
+  ]
+ },
+ "MixinOutputTarget": {
+  "jar": "work/out/com/github/epsilon/mixins/MixinOutputTarget.java",
+  "unmapped": [],
+  "all_refs": [
+   "z2"
+  ],
+  "src": [
+   "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/mixins/MixinOutputTarget.java"
+  ]
+ },
+ "MixinPanorama": {
+  "jar": "work/out/com/github/epsilon/mixins/MixinPanorama.java",
+  "unmapped": [
+   "gB"
+  ],
+  "all_refs": [
+   "dD",
+   "gB",
+   "uc"
+  ],
+  "src": []
+ },
+ "MixinParticleManager": {
+  "jar": "work/out/com/github/epsilon/mixins/MixinParticleManager.java",
+  "unmapped": [],
+  "all_refs": [
+   "e8",
+   "eC"
+  ],
+  "src": [
+   "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/mixins/MixinParticleManager.java"
+  ]
+ },
+ "MixinPlayer": {
+  "jar": "work/out/com/github/epsilon/mixins/MixinPlayer.java",
+  "unmapped": [],
+  "all_refs": [
+   "_z",
+   "dD",
+   "da",
+   "dv",
+   "vy"
+  ],
+  "src": [
+   "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/mixins/MixinPlayer.java"
+  ]
+ },
+ "MixinProjection": {
+  "jar": "work/out/com/github/epsilon/mixins/MixinProjection.java",
+  "unmapped": [],
+  "all_refs": [
+   "el"
+  ],
+  "src": [
+   "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/mixins/MixinProjection.java"
+  ]
+ },
+ "MixinScreen": {
+  "jar": "work/out/com/github/epsilon/mixins/MixinScreen.java",
+  "unmapped": [],
+  "all_refs": [
+   "e0"
+  ],
+  "src": []
+ },
+ "MixinScreenEffectRenderer": {
+  "jar": "work/out/com/github/epsilon/mixins/MixinScreenEffectRenderer.java",
+  "unmapped": [
+   "O"
+  ],
+  "all_refs": [
+   "O",
+   "eC"
+  ],
+  "src": [
+   "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/mixins/MixinScreenEffectRenderer.java"
+  ]
+ },
+ "MixinSpawnerRenderer": {
+  "jar": "work/out/com/github/epsilon/mixins/MixinSpawnerRenderer.java",
+  "unmapped": [],
+  "all_refs": [
+   "eC"
+  ],
+  "src": []
+ },
+ "MixinTitleScreen": {
+  "jar": "work/out/com/github/epsilon/mixins/MixinTitleScreen.java",
+  "unmapped": [],
+  "all_refs": [
+   "dD",
+   "iS",
+   "uc",
+   "vc"
+  ],
+  "src": [
+   "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/mixins/MixinTitleScreen.java"
+  ]
+ },
+ "MixinVisGraph": {
+  "jar": "work/out/com/github/epsilon/mixins/MixinVisGraph.java",
+  "unmapped": [
+   "dH"
+  ],
+  "all_refs": [
+   "dH",
+   "vy"
+  ],
+  "src": [
+   "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/mixins/MixinVisGraph.java"
+  ]
+ },
+ "MixinWalkAnimationState": {
+  "jar": "work/out/com/github/epsilon/mixins/MixinWalkAnimationState.java",
+  "unmapped": [
+   "yL"
+  ],
+  "all_refs": [
+   "yL"
+  ],
+  "src": [
+   "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/mixins/MixinWalkAnimationState.java"
+  ]
+ },
+ "MixinWebBlock": {
+  "jar": "work/out/com/github/epsilon/mixins/MixinWebBlock.java",
+  "unmapped": [],
+  "all_refs": [
+   "dD",
+   "t"
+  ],
+  "src": [
+   "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/mixins/MixinWebBlock.java"
+  ]
+ },
+ "MixinWindow": {
+  "jar": "work/out/com/github/epsilon/mixins/MixinWindow.java",
+  "unmapped": [
+   "Xh"
+  ],
+  "all_refs": [
+   "Xh",
+   "_p",
+   "uc"
+  ],
+  "src": [
+   "旧版本的源代码/Epsilon-2026.09.01/Epsilon-2026.09.01/common/src/main/java/com/github/epsilon/mixins/MixinWindow.java"
+  ]
+ }
+}

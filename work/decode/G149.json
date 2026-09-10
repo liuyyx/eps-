@@ -1,0 +1,22 @@
+{
+  "batch": "G149",
+  "results": {
+    "_s": {
+      "identity": "Phase.SwapMode",
+      "kind": "enum",
+      "conf": "A-",
+      "evidence": "两值枚举 Silent/InvSwitch 与 official26 Phase.java 内层 SwapMode{Silent,InvSwitch} 完全匹配（值名、顺序、数量一致）；Scaffold.SwapMode 有4值(None/Normal/Silent/InvSwitch)，ElytraFly.SwapMode 也是2值(Silent/InvSwitch)——结构完全相同无法排除后者，但 Phase.SwapMode 优先匹配（D047 已确认）",
+      "official_path": "work/official26/com/github/epsilon/modules/impl/movement/Phase.java"
+    }
+  },
+  "unident": [
+    {
+      "obf": "_R",
+      "reason": "2128行非模块类；274加密方法；MC imports: ClientPacketListener+LocalPlayer+GameProfile；引用 BoolSetting(Xn)+DoubleSetting(DM)+Setting(_E)；构建 List<_e>(tab entry: 图标AUTO_AWESOME/PERSON/PUBLIC/NETWORK_PING/SPEED+文字+颜色)；GPU渲染(ng/zU)；D013已标记unident——official26无直接匹配类（推测为26.2新增的TabList/PlayerOverlay组件）"
+    },
+    {
+      "obf": "_r",
+      "reason": "4值枚举 NONE/CRACKED/ALTENING/SESSION；ALTENING=TheAltening验证服务，CRACKED=离线模式；official26全文搜索无此枚举——疑为26.2新增认证类型枚举（alt管理器相关），无官方源码对应"
+    }
+  ]
+}

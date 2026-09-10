@@ -1,0 +1,524 @@
+[
+ {
+  "obf": "eq",
+  "jac": 0.4,
+  "cands": [
+   [
+    "SafeAnchor",
+    0.4
+   ],
+   [
+    "Eagle",
+    0.25
+   ],
+   [
+    "DoubleAnchor",
+    0.188
+   ]
+  ]
+ },
+ {
+  "obf": "G",
+  "jac": 0.4,
+  "cands": [
+   [
+    "ESP2D",
+    0.4
+   ],
+   [
+    "Eagle",
+    0.167
+   ],
+   [
+    "SafeAnchor",
+    0.158
+   ]
+  ]
+ },
+ {
+  "obf": "uk",
+  "jac": 0.4,
+  "cands": [
+   [
+    "AutoFirework",
+    0.4
+   ],
+   [
+    "ElytraSwap",
+    0.286
+   ],
+   [
+    "SafeAnchor",
+    0.118
+   ]
+  ]
+ },
+ {
+  "obf": "eH",
+  "jac": 0.375,
+  "cands": [
+   [
+    "Stuck",
+    0.375
+   ],
+   [
+    "NoSlow",
+    0.056
+   ],
+   [
+    "SafeAnchor",
+    0.045
+   ]
+  ]
+ },
+ {
+  "obf": "uv",
+  "jac": 0.375,
+  "cands": [
+   [
+    "DoubleAnchor",
+    0.375
+   ],
+   [
+    "AutoTotem",
+    0.167
+   ],
+   [
+    "AutoFirework",
+    0.143
+   ]
+  ]
+ },
+ {
+  "obf": "y",
+  "jac": 0.375,
+  "cands": [
+   [
+    "ESP2D",
+    0.375
+   ],
+   [
+    "JumpCircle",
+    0.071
+   ],
+   [
+    "Watermark",
+    0.0
+   ]
+  ]
+ },
+ {
+  "obf": "p",
+  "jac": 0.368,
+  "cands": [
+   [
+    "SafeAnchor",
+    0.368
+   ],
+   [
+    "Eagle",
+    0.2
+   ],
+   [
+    "NoSlow",
+    0.158
+   ]
+  ]
+ },
+ {
+  "obf": "eE",
+  "jac": 0.333,
+  "cands": [
+   [
+    "AutoTotem",
+    0.333
+   ],
+   [
+    "AutoFirework",
+    0.25
+   ],
+   [
+    "ElytraSwap",
+    0.167
+   ]
+  ]
+ },
+ {
+  "obf": "O",
+  "jac": 0.333,
+  "cands": [
+   [
+    "AutoFirework",
+    0.333
+   ],
+   [
+    "ElytraSwap",
+    0.2
+   ],
+   [
+    "Eagle",
+    0.143
+   ]
+  ]
+ },
+ {
+  "obf": "H",
+  "jac": 0.273,
+  "cands": [
+   [
+    "JumpCircle",
+    0.273
+   ],
+   [
+    "ESP2D",
+    0.25
+   ],
+   [
+    "Potions",
+    0.111
+   ]
+  ]
+ },
+ {
+  "obf": "T",
+  "jac": 0.263,
+  "cands": [
+   [
+    "ESP2D",
+    0.263
+   ],
+   [
+    "SafeAnchor",
+    0.103
+   ],
+   [
+    "JumpCircle",
+    0.077
+   ]
+  ]
+ },
+ {
+  "obf": "eQ",
+  "jac": 0.231,
+  "cands": [
+   [
+    "Eagle",
+    0.231
+   ],
+   [
+    "SafeCrystal",
+    0.154
+   ],
+   [
+    "SafeAnchor",
+    0.143
+   ]
+  ]
+ },
+ {
+  "obf": "ev",
+  "jac": 0.231,
+  "cands": [
+   [
+    "SafeCrystal",
+    0.231
+   ],
+   [
+    "ESP2D",
+    0.214
+   ],
+   [
+    "SafeAnchor",
+    0.19
+   ]
+  ]
+ },
+ {
+  "obf": "e4",
+  "jac": 0.222,
+  "cands": [
+   [
+    "Eagle",
+    0.222
+   ],
+   [
+    "ESP2D",
+    0.222
+   ],
+   [
+    "AutoFirework",
+    0.167
+   ]
+  ]
+ },
+ {
+  "obf": "h",
+  "jac": 0.222,
+  "cands": [
+   [
+    "ESP2D",
+    0.222
+   ],
+   [
+    "SafeAnchor",
+    0.154
+   ],
+   [
+    "DoubleAnchor",
+    0.105
+   ]
+  ]
+ },
+ {
+  "obf": "eF",
+  "jac": 0.2,
+  "cands": [
+   [
+    "SafeAnchor",
+    0.2
+   ],
+   [
+    "SafeCrystal",
+    0.167
+   ],
+   [
+    "Eagle",
+    0.158
+   ]
+  ]
+ },
+ {
+  "obf": "X",
+  "jac": 0.2,
+  "cands": [
+   [
+    "DoubleAnchor",
+    0.2
+   ],
+   [
+    "AutoTool",
+    0.182
+   ],
+   [
+    "AutoTotem",
+    0.143
+   ]
+  ]
+ },
+ {
+  "obf": "q",
+  "jac": 0.176,
+  "cands": [
+   [
+    "SafeAnchor",
+    0.176
+   ],
+   [
+    "SafeCrystal",
+    0.107
+   ],
+   [
+    "Eagle",
+    0.103
+   ]
+  ]
+ },
+ {
+  "obf": "f",
+  "jac": 0.167,
+  "cands": [
+   [
+    "Stealer",
+    0.167
+   ],
+   [
+    "JumpCircle",
+    0.105
+   ],
+   [
+    "Potions",
+    0.062
+   ]
+  ]
+ },
+ {
+  "obf": "c",
+  "jac": 0.143,
+  "cands": [
+   [
+    "AutoTool",
+    0.143
+   ],
+   [
+    "Watermark",
+    0.0
+   ],
+   [
+    "Stuck",
+    0.0
+   ]
+  ]
+ },
+ {
+  "obf": "eI",
+  "jac": 0.143,
+  "cands": [
+   [
+    "Eagle",
+    0.143
+   ],
+   [
+    "ESP2D",
+    0.067
+   ],
+   [
+    "JumpCircle",
+    0.053
+   ]
+  ]
+ },
+ {
+  "obf": "m",
+  "jac": 0.143,
+  "cands": [
+   [
+    "ESP2D",
+    0.143
+   ],
+   [
+    "Eagle",
+    0.067
+   ],
+   [
+    "SafeAnchor",
+    0.043
+   ]
+  ]
+ },
+ {
+  "obf": "A",
+  "jac": 0.125,
+  "cands": [
+   [
+    "SafeCrystal",
+    0.125
+   ],
+   [
+    "Eagle",
+    0.111
+   ],
+   [
+    "AutoTool",
+    0.111
+   ]
+  ]
+ },
+ {
+  "obf": "a",
+  "jac": 0.125,
+  "cands": [
+   [
+    "Stealer",
+    0.125
+   ],
+   [
+    "Watermark",
+    0.0
+   ],
+   [
+    "Stuck",
+    0.0
+   ]
+  ]
+ },
+ {
+  "obf": "n",
+  "jac": 0.125,
+  "cands": [
+   [
+    "SafeAnchor",
+    0.125
+   ],
+   [
+    "NoSlow",
+    0.077
+   ],
+   [
+    "Watermark",
+    0.0
+   ]
+  ]
+ },
+ {
+  "obf": "u3",
+  "jac": 0.125,
+  "cands": [
+   [
+    "SafeCrystal",
+    0.125
+   ],
+   [
+    "Eagle",
+    0.111
+   ],
+   [
+    "ESP2D",
+    0.111
+   ]
+  ]
+ },
+ {
+  "obf": "ua",
+  "jac": 0.125,
+  "cands": [
+   [
+    "Eagle",
+    0.125
+   ],
+   [
+    "ESP2D",
+    0.125
+   ],
+   [
+    "JumpCircle",
+    0.083
+   ]
+  ]
+ },
+ {
+  "obf": "up",
+  "jac": 0.105,
+  "cands": [
+   [
+    "ElytraSwap",
+    0.105
+   ],
+   [
+    "NoSlow",
+    0.08
+   ],
+   [
+    "SafeAnchor",
+    0.069
+   ]
+  ]
+ },
+ {
+  "obf": "eS",
+  "jac": 0.091,
+  "cands": [
+   [
+    "SafeCrystal",
+    0.091
+   ],
+   [
+    "Eagle",
+    0.083
+   ],
+   [
+    "AutoTool",
+    0.083
+   ]
+  ]
+ }
+]

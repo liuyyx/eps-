@@ -1,0 +1,18 @@
+{
+ "batch": "G150",
+ "results": {},
+ "unident": [
+  {
+   "obf": "_w",
+   "reason": "26.2新增 record _w(float DU) implements DynamicUniformStorage.DynamicUniform；25行；write(ByteBuffer)写DU+3个0.0f(Std140 vec4)；官方所有DynamicUniform实现(BlurUniforms 11float/BoxBlurUniforms 3/FXAAInfo 2/FilterColor 4/SandboxInfo 7/ShaderParams 13/ShaderColors 6Color)均无单float匹配；vq.java中用于typeSwitch default case创建GpuBufferSlice uniform；疑为26.2新增单一值uniform"
+  },
+  {
+   "obf": "_X",
+   "reason": "26.2新增 597行 final class implements AutoCloseable；工厂方法V(y3)按10+enum ordinal创建不同_X实例(typeSwitch 8种渲染类型ui/lX/XN/ys/v5/lg/gz/_j)；构造函数(_A,y3)；close()委托内部状态；多类型cast方法(u/s/g/j/l/L/P/F/X/c)对应不同渲染器；F(Object[])处理RenderPass；导入Dl/XN/Xu/gz/lX/lg/ui/v5/y3/ys+RenderPass+169项常量表；与RendererBundle功能类似但结构差异大(构造函数参数不同/无kind枚举字段)；lX=LuminImmediateRenderer已识别；D030已标记unident"
+  },
+  {
+   "obf": "_Y",
+   "reason": "26.2新增 39行 class；static final int[] B(长度由hi.a(\"G\")运行时决定)+hi.a(\"j\")数组4次ConstantCallSite bootstrap赋值(true/2/3/4)；enum helper/ordinal映射类；无外部引用无MCimports；D063已标记unident；26.2新增无法定位"
+  }
+ ]
+}

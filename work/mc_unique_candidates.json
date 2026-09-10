@@ -1,0 +1,20 @@
+{
+ "gp": {
+  "src": "NotificationManager",
+  "rare": [
+   "ChatFormatting",
+   "FormattedCharSequence"
+  ],
+  "conf": "A",
+  "why": "2 个罕见 MC 类在 src 树唯一同时被 NotificationManager 引用: ['ChatFormatting', 'FormattedCharSequence']"
+ },
+ "ls": {
+  "src": "ChatUtils",
+  "rare": [
+   "FormattedCharSequence",
+   "Style"
+  ],
+  "conf": "A",
+  "why": "2 个罕见 MC 类在 src 树唯一同时被 ChatUtils 引用: ['FormattedCharSequence', 'Style']"
+ }
+}

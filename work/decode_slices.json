@@ -1,0 +1,156 @@
+[
+ {
+  "slice": "S01-LocalPlayer",
+  "mixins": [
+   "MixinLocalPlayer"
+  ],
+  "targets": [
+   "D2",
+   "_J",
+   "d3",
+   "dR",
+   "dY",
+   "db",
+   "nj",
+   "up"
+  ]
+ },
+ {
+  "slice": "S02-Minecraft",
+  "mixins": [
+   "MixinMinecraft"
+  ],
+  "targets": [
+   "_U",
+   "__",
+   "_y",
+   "dB",
+   "dE",
+   "dj",
+   "dz",
+   "g3",
+   "iE",
+   "lS"
+  ]
+ },
+ {
+  "slice": "S03-ConnectionPacket",
+  "mixins": [
+   "MixinConnection",
+   "MixinClientPacketListener"
+  ],
+  "targets": [
+   "DK",
+   "OK",
+   "XV",
+   "_5",
+   "dP",
+   "dQ",
+   "g3",
+   "gH"
+  ]
+ },
+ {
+  "slice": "S04-Chat",
+  "mixins": [
+   "MixinChatComponent",
+   "MixinChatComponentHash",
+   "MixinChatScreen"
+  ],
+  "targets": [
+   "I",
+   "dS",
+   "gp",
+   "i8"
+  ]
+ },
+ {
+  "slice": "S05-LevelRender",
+  "mixins": [
+   "MixinLevelRenderer"
+  ],
+  "targets": [
+   "e5",
+   "ua",
+   "yK",
+   "yZ"
+  ]
+ },
+ {
+  "slice": "S06-ItemRender",
+  "mixins": [
+   "MixinItemInHandRenderer",
+   "MixinItemEntityRenderer",
+   "MixinBlockItem"
+  ],
+  "targets": [
+   "S",
+   "dO",
+   "ee",
+   "lx",
+   "n1",
+   "yF"
+  ]
+ },
+ {
+  "slice": "S07-FontHudGlyph",
+  "mixins": [
+   "MixinHud",
+   "MixinFont",
+   "MixinGlyphRenderState",
+   "MixinWindow"
+  ],
+  "targets": [
+   "Dk",
+   "Xh",
+   "e9",
+   "gG",
+   "ls",
+   "u0"
+  ]
+ },
+ {
+  "slice": "S08-UniformsClock",
+  "mixins": [
+   "MixinDynamicUniforms",
+   "MixinClientClockManager",
+   "MixinFogRenderer"
+  ],
+  "targets": [
+   "Oe",
+   "dB",
+   "eu",
+   "nK"
+  ]
+ },
+ {
+  "slice": "S09-MiscRender",
+  "mixins": [
+   "MixinScreenEffectRenderer",
+   "MixinVisGraph",
+   "MixinWalkAnimationState",
+   "MixinPanorama",
+   "MixinDeltaTrackerTimer",
+   "MixinMain"
+  ],
+  "targets": [
+   "O",
+   "dH",
+   "gB",
+   "no",
+   "yL",
+   "yu"
+  ]
+ },
+ {
+  "slice": "S10-GuiRenderer",
+  "mixins": [
+   "MixinGuiRenderer"
+  ],
+  "targets": [
+   "OT",
+   "zR",
+   "zm"
+  ]
+ }
+]

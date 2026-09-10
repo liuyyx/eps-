@@ -1,0 +1,45 @@
+{
+  "slice": "S09-MiscRender",
+  "results": {
+    "dH": {
+      "identity": "ChunkOcclusionEvent",
+      "kind": "event",
+      "conf": "A",
+      "evidence": "注入点 MixinVisGraph.onMarkClosed @ VisGraph.setOpaque(HEAD,cancellable): jar `dH dH2 = (dH)vy.j.d(new Object[]{new dH()}); if (dH2.l(new Object[0])) cancel;` ↔ src `ChunkOcclusionEvent event = EventBus.INSTANCE.post(new ChunkOcclusionEvent()); if (event.isCancelled()) cancel;`。即 dH=ChunkOcclusionEvent，vy.j.d=EventBus.post，.l()=isCancelled。逐行同构。",
+      "mixin": "MixinVisGraph"
+    },
+    "yL": {
+      "identity": "WalkAnimationStateAccessor",
+      "kind": "class",
+      "conf": "A",
+      "evidence": "注入点 MixinWalkAnimationState @Mixin(WalkAnimationState.class) 实现接口 + epsilon$freeze: jar `public class MixinWalkAnimationState implements yL { @Override epsilon$freeze(float,float,float){ speedOld=speed; speed=speed; positionScale=1.0f; position=position+speed*(1.0f-partialTicks);} }` ↔ src `implements WalkAnimationStateAccessor` 且 epsilon$freeze 函数体逐字相同。故 yL=WalkAnimationStateAccessor（com.github.epsilon.interfaces 下访问器接口）。",
+      "mixin": "MixinWalkAnimationState"
+    },
+    "no": {
+      "identity": "Managers",
+      "kind": "class",
+      "conf": "A",
+      "evidence": "注入点 MixinDeltaTrackerTimer.onBeginRenderTick @ DeltaTracker.Timer.advanceGameTime(J)I (FIELD lastMs PUTFIELD): jar `this.deltaTicks *= no.B.C(new Object[0]);` ↔ src `deltaTicks *= Managers.TIMER.get();`。no.B=Managers.TIMER（静态字段），.C(new Object[0])=.get()（返回 float 倍率）。no.java 中 `public static final no B;` 印证其为静态字段。no=Managers。",
+      "mixin": "MixinDeltaTrackerTimer"
+    },
+    "gB": {
+      "identity": "ResourceLocationUtils",
+      "kind": "util",
+      "conf": "A",
+      "evidence": "注入点 MixinPanorama 静态字段 BACKGROUND_TEXTURE: jar `gB.G(\"textures/background/bluearchive.png\")` 返回 Identifier，内部 `Identifier.fromNamespaceAndPath(gB.a(2171,4755)=\"epsilon\", string)`；另有 `gB.T(Object[]): ByteBuffer`。↔ src `assets/resources/ResourceLocationUtils.getIdentifier(String){ return Identifier.fromNamespaceAndPath(\"epsilon\", path); }` 与 `loadResource(Identifier): ByteBuffer`。OE.java 中 `gB.T(new Object[]{identifier})` 亦印证 loadResource 签名/返回。故 gB=ResourceLocationUtils。",
+      "mixin": "MixinPanorama"
+    }
+  },
+  "unident": [
+    {
+      "obf": "O",
+      "mixin": "MixinScreenEffectRenderer",
+      "reason": "MixinScreenEffectRenderer 在 displayItemActivation / renderItemActivationAnimation 注入 `if(O.D.N()){O.D.q(itemStack);cancel;}` 与 `if(O.D.N()){O.D.m([f,poseStack,submitNodeCollector]);cancel;}`；O.java 确认 `public class O extends e(Module)`、`public static final O D`、方法 q(ItemStack)/m(动画)。即「物品激活覆盖层」模块（物品拾取旋转动画的自定义渲染）。但 26.1.2 源码中物品激活仅由 NoRender.totemAnimation（图腾）处理、无独立等价模块；该 O 为 26.2 从 NoRender 拆分出的新模块，26.1.2 源码无对应类，且 O.java 仅含 SeQL 加密字符串、无可读类名。真实模块名无法从给定材料还原，遵循禁止猜名，判为 unident。"
+    },
+    {
+      "obf": "yu",
+      "mixin": "MixinMain",
+      "reason": "MixinMain @ Main.main(HEAD) 注入 `if(!yu.g()){yu.T();}`。yu.java 导入 me.sofurry.NiurenDEOBF、HttpServer、GCMParameterSpec、SecretKeySpec、MessageDigest、CompletableFuture，含本地 HTTP 服务 + AES-GCM 加密 + 校验逻辑，是授权/反作弊/许可启动校验类。但 26.1.2 源码中无 HttpServer/license/anticheat 类（ClientSetting 仅有 AntiCheat 设置组，非此类），且 26.1.2 的 MixinMain 仅做 System.setProperty 重定向、完全不含 yu 引用。yu 实为 26.2 新增、经二次混淆(Niuren)的启动校验类，真实类名无法从给定材料还原，判为 unident。"
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "slice": "S01-LocalPlayer",
+  "results": {
+    "D2": {
+      "identity": "SlowdownEvent",
+      "kind": "event",
+      "conf": "A",
+      "evidence": "注入点 @WrapOperation(method=\"modifyInput\", at=INVOKE LocalPlayer.isUsingItem()) 同构: jar `D2 d2=(D2)vy.j.d(new Object[]{new D2((Boolean)operation.call(new Object[]{localPlayer}))}); return d2.d(new Object[0]);` == src(MixinLocalPlayer.onSlowdown) `SlowdownEvent event=EventBus.INSTANCE.post(new SlowdownEvent(original.call(localPlayer))); return event.isSlowdown();`。vy.j.d==EventBus.INSTANCE.post；new D2(bool)==new SlowdownEvent(bool)；d2.d()==isSlowdown()；同注入点同形 → D2=SlowdownEvent。",
+      "mixin": "MixinLocalPlayer"
+    },
+    "d3": {
+      "identity": "SwingHandEvent",
+      "kind": "event",
+      "conf": "A",
+      "evidence": "注入点 @Inject(method=\"swing\", HEAD, cancellable) 同构: jar `d3 d32=(d3)vy.j.d(new Object[]{new d3()}); if(d32.l(new Object[0])) callbackInfo.cancel();` == src(MixinLocalPlayer.onSwing) `SwingHandEvent event=EventBus.INSTANCE.post(new SwingHandEvent()); if(event.isCancelled()) ci.cancel();`。new d3()==new SwingHandEvent()；d32.l()==isCancelled()；同注入点同形 → d3=SwingHandEvent。",
+      "mixin": "MixinLocalPlayer"
+    },
+    "dR": {
+      "identity": "PlayerTickEvent.Pre",
+      "kind": "event",
+      "conf": "A",
+      "evidence": "注入点 @Inject(method=\"tick\", BEFORE AbstractClientPlayer.tick(), cancellable) 同构: jar `dR dR2=(dR)vy.j.d(new Object[]{new dR()}); if(dR2.l(new Object[0])) callbackInfo.cancel();` == src(MixinLocalPlayer.onPreTick) `PlayerTickEvent.Pre event=EventBus.INSTANCE.post(new PlayerTickEvent.Pre()); if(event.isCancelled()) ci.cancel();`。new dR()==new PlayerTickEvent.Pre()；dR2.l()==isCancelled()；同注入点(tick BEFORE)同形 → dR=PlayerTickEvent.Pre。",
+      "mixin": "MixinLocalPlayer"
+    },
+    "dY": {
+      "identity": "SendPositionEvent",
+      "kind": "event",
+      "conf": "A",
+      "evidence": "注入点 @Inject(method=\"sendPosition\", HEAD, cancellable) 同构: jar `dY dY2=new dY(getX,getY,getZ,getYRot,getXRot,onGround); this.epsilon$sendPositionEvent=dispatch?(dY)vy.j.d(new Object[]{dY2}):dY2; if(.l()) cancel;` + WrapOperation 访问器 .c()=getX,.A()=getY,.f()=getZ,.h()=getYaw,.V()=getPitch,.s()=isOnGround == src(MixinLocalPlayer.onPreSendPosition) `epsilon$sendPositionEvent=EventBus.INSTANCE.post(new SendPositionEvent(getX,getY,getZ,getYRot,getXRot,onGround)); if(.isCancelled()) cancel;` + redirectGetX/Y/Z=getX/Y/Z, redirectGetYRot=getYaw, redirectGetXRot=getPitch, redirectOnGround=isOnGround。6 实参构造序列与访问器逐一吻合 → dY=SendPositionEvent。",
+      "mixin": "MixinLocalPlayer"
+    },
+    "db": {
+      "identity": "MoveEvent",
+      "kind": "event",
+      "conf": "A",
+      "evidence": "注入点 @Inject(method=\"move\", at=INVOKE AbstractClientPlayer.move(MoverType,Vec3), cancellable) 同构: jar `db db2=(db)vy.j.d(new Object[]{new db(vec3.x,vec3.y,vec3.z)}); if(db2.l(new Object[0])){ super.move(moverType,new Vec3(db2.h(),db2.P(),db2.L())); ci.cancel(); }` == src(MixinLocalPlayer.onMove) `MoveEvent event=EventBus.INSTANCE.post(new MoveEvent(delta.x,delta.y,delta.z)); if(event.isCancelled()){ super.move(moverType,new Vec3(event.getX(),event.getY(),event.getZ())); ci.cancel(); }`。new db(x,y,z)==new MoveEvent(x,y,z)；db2.l()==isCancelled()；db2.h()/.P()/.L()==getX/getY/getZ → db=MoveEvent。",
+      "mixin": "MixinLocalPlayer"
+    },
+    "nj": {
+      "identity": "PlayerTickEvent.Post",
+      "kind": "event",
+      "conf": "A",
+      "evidence": "注入点 @Inject(method=\"tick\", AFTER AbstractClientPlayer.tick()) 同构: jar `vy.j.d(new Object[]{new nj()});` == src(MixinLocalPlayer.onPostTick) `EventBus.INSTANCE.post(new PlayerTickEvent.Post());`。new nj()==new PlayerTickEvent.Post()；同一 tick AFTER 注入点同形（与 dR=PlayerTickEvent.Pre 的 tick BEFORE 成对）→ nj=PlayerTickEvent.Post。",
+      "mixin": "MixinLocalPlayer"
+    },
+    "_J": {
+      "identity": "PostSendPositionEvent",
+      "kind": "event",
+      "conf": "A-",
+      "evidence": "26.2 新增注入点（26.1.2 src MixinLocalPlayer 无对应）: jar 在 @Inject(method=\"sendPosition\", HEAD) 取消分支与 @Inject(method=\"sendPosition\", TAIL) 均写 `vy.j.d(new Object[]{new _J()});`，且仅当 `epsilon$dispatchPositionEvents && player==dD.d.player` 时触发；_J 为无参构造+空体、extends de(事件基类) 的事件类。语义强推(无同形 src 调用点): dY=SendPositionEvent 在 sendPosition@HEAD 发布(Pre 角色)，_J 在 sendPosition@TAIL 与取消分支发布(Post 角色)，与代码库 PlayerTickEvent.Pre(dR)/Post(nj) 的 Pre/Post 事件对结构完全一致 → _J 即 sendPosition 的 Post 事件 = PostSendPositionEvent（可能形如 SendPositionEvent.Post 嵌套类，命名以 26.2 源码为准）。",
+      "mixin": "MixinLocalPlayer"
+    }
+  },
+  "unident": [
+    {
+      "obf": "up",
+      "mixin": "MixinLocalPlayer",
+      "reason": "kind=module 可确定（up extends e=Module，静态单例字段 N=INSTANCE，up2.N()==isEnabled()，up2.E() 为条件方法）；功能=背包排序(库存整理)进行中阻断冲刺(canStartSprinting 注入点返回 false)。但真实类名判不了: 此注入点 @Inject(method=\"canStartSprinting\", HEAD) 为 26.2 新增，26.1.2 对照基线 MixinLocalPlayer 仅引 Velocity(w) 于 pushOutOfBlocks，无 canStartSprinting 同形调用点；真实类名需 26.2 源码(NekoyaHouse/Epsilon@26.2.x 无凭据)或逆向 hi 字符串解密引擎(以周计)方可确定。禁止猜名 → 进 unident。"
+    }
+  ]
+}

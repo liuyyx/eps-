@@ -1,0 +1,96 @@
+{
+ "HoleESP": [
+  [
+   "A",
+   "ClientLevel"
+  ],
+  [
+   "eQ",
+   "ClientLevel"
+  ],
+  [
+   "uf",
+   "ClientLevel"
+  ],
+  [
+   "_I",
+   "ClientLevel"
+  ],
+  [
+   "_i",
+   "ClientLevel"
+  ]
+ ],
+ "ChatUtils": [
+  [
+   "a",
+   "MutableComponent"
+  ],
+  [
+   "dh",
+   "Style"
+  ],
+  [
+   "gG",
+   "Style"
+  ],
+  [
+   "lc",
+   "Style"
+  ],
+  [
+   "vZ",
+   "MutableComponent"
+  ]
+ ],
+ "MasEffectsParticleRenderer": [
+  [
+   "gf",
+   "RandomSource"
+  ],
+  [
+   "gZ",
+   "RandomSource"
+  ]
+ ],
+ "RotationUtils": [
+  [
+   "p",
+   "VoxelShape"
+  ]
+ ],
+ "WorldToScreen": [
+  [
+   "ua",
+   "CameraRenderState"
+  ]
+ ],
+ "InvHelper": [
+  [
+   "uE",
+   "Inventory"
+  ]
+ ],
+ "ESP2D": [
+  [
+   "uu",
+   "MobCategory"
+  ],
+  [
+   "uY",
+   "MobCategory"
+  ]
+ ],
+ "WireframeEntityRenderer": [
+  [
+   "yV",
+   "SubmitNodeStorage"
+  ]
+ ],
+ "PlayerUtils": [
+  [
+   "zS",
+   "WebBlock"
+  ]
+ ]
+}

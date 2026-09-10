@@ -1,0 +1,15 @@
+{
+ "note": "双向 Jaccard 一致且 >=0.35 的候选，供下一轮结构验证；未入库(依据弱)",
+ "dual_consistent": {
+  "uv": [
+   [
+    "DoubleAnchor",
+    0.375
+   ],
+   [
+    "AutoTotem",
+    0.167
+   ]
+  ]
+ }
+}

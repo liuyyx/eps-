@@ -1,0 +1,22 @@
+{
+ "no": {
+  "identity": "Managers",
+  "evidence": "共现投票 5.0（次高 0.0）"
+ },
+ "O": {
+  "identity": "EpsilonTextRenderable",
+  "evidence": "共现投票 5.0（次高 0.0）"
+ },
+ "z": {
+  "identity": "NoRender",
+  "evidence": "共现投票 2.0（次高 0.0）"
+ },
+ "v": {
+  "identity": "EpsilonFontMetrics",
+  "evidence": "共现投票 3.0（次高 1.0）"
+ },
+ "u2": {
+  "identity": "EpsilonFontGlyph",
+  "evidence": "共现投票 1.0（次高 0.0）"
+ }
+}

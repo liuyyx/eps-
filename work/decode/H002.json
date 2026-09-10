@@ -1,0 +1,17 @@
+{
+  "batch": "H002",
+  "results": {},
+  "unident": [
+    {"obf": "eq", "reason": "7528行module，字段极多(DM/XG/Xn/Dx)，导入BlockHitResult/Vec3/BlockPos，无候选无法定位"},
+    {"obf": "eR", "reason": "759行module，导入RenderPipeline/Color/Identifier，渲染相关但无候选"},
+    {"obf": "eS", "reason": "1183行module，导入DropExperienceBlock/WebBlock/Inventory，方块交互但无候选"},
+    {"obf": "eV", "reason": "1230行module，无外部库导入，仅有基础字段，无法辨识"},
+    {"obf": "ex", "reason": "316行module，导入CrossbowItem/LocalPlayer，弩相关但无候选"},
+    {"obf": "f", "reason": "1881行module，导入Gui/Font/ContainerScreen，HUD/渲染类但无候选"},
+    {"obf": "G", "reason": "2138行module，导入Gui/LivingEntity/Player/AABB，实体渲染但无候选"},
+    {"obf": "H", "reason": "1269行module，导入RenderPipeline/Player/PoseStack，渲染相关但无候选"},
+    {"obf": "m", "reason": "1525行module，导入Entity/LightningBolt/ParticleType，实体/粒子但无候选"},
+    {"obf": "n", "reason": "203行module，导入Packet/ServerboundUseItemOnPacket，网络模块但无候选"},
+    {"obf": "o", "reason": "281行module，导入LocalPlayer，仅玩家相关，无候选无法定位"}
+  ]
+}

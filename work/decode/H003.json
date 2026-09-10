@@ -1,0 +1,17 @@
+{
+  "batch": "H003",
+  "results": {},
+  "unident": [
+    {"obf": "q", "reason": "Module类，无候选，2907行无法判别"},
+    {"obf": "T", "reason": "Module类，无候选，3625行无法判别"},
+    {"obf": "u0", "reason": "Module类，无候选，701行无法判别"},
+    {"obf": "u3", "reason": "Module类，无候选，1601行无法判别"},
+    {"obf": "ua", "reason": "Module类，无候选，811行无法判别"},
+    {"obf": "uG", "reason": "Module类，无候选，971行无法判别"},
+    {"obf": "uk", "reason": "Module类，无候选，1275行无法判别"},
+    {"obf": "uv", "reason": "Module类，无候选，1452行无法判别"},
+    {"obf": "v", "reason": "Module类，无候选，673行无法判别"},
+    {"obf": "O0", "reason": "接口(extends AutoCloseable)，候选MessagePopup为实现类，结构不匹配"},
+    {"obf": "D1", "reason": "普通类，无候选，方法名严重混淆无法判别"}
+  ]
+}

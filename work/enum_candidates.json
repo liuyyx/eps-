@@ -1,0 +1,138 @@
+{
+ "dG": {
+  "src": "AutoKouZi$Mode",
+  "conf": "A",
+  "jac": 1.0,
+  "why": "枚举常量 2 个重合 (cover=1.0, jac=1.0), 唯一=True, jar 独有=[]",
+  "consts": [
+   "SENTENCE",
+   "TXT"
+  ],
+  "others": []
+ },
+ "DQ": {
+  "src": "DamageUtils$ArmorEnchantmentMode",
+  "conf": "A-",
+  "jac": 0.667,
+  "why": "枚举常量 2 个重合 (cover=0.667, jac=0.667), 唯一=True, jar 独有=['None']",
+  "consts": [
+   "None",
+   "PPBP",
+   "PPPP"
+  ],
+  "others": []
+ },
+ "DR": {
+  "src": "ColorWidget$Channel",
+  "conf": "B",
+  "jac": 0.5,
+  "why": "枚举常量 4 个重合 (cover=1.0, jac=0.5), 唯一=False, jar 独有=[]",
+  "consts": [
+   "ALPHA",
+   "BLUE",
+   "GREEN",
+   "RED"
+  ],
+  "others": []
+ },
+ "gP": {
+  "src": "ColorWidget$Channel",
+  "conf": "B",
+  "jac": 0.5,
+  "why": "枚举常量 4 个重合 (cover=1.0, jac=0.5), 唯一=False, jar 独有=[]",
+  "consts": [
+   "ALPHA",
+   "BLUE",
+   "GREEN",
+   "RED"
+  ],
+  "others": []
+ },
+ "iD": {
+  "src": "RotationManager$RotationMode",
+  "conf": "A",
+  "jac": 1.0,
+  "why": "枚举常量 2 个重合 (cover=1.0, jac=1.0), 唯一=True, jar 独有=[]",
+  "consts": [
+   "SILENT",
+   "SNAP"
+  ],
+  "others": []
+ },
+ "vn": {
+  "src": "PanelState$ActivePopup",
+  "conf": "A",
+  "jac": 1.0,
+  "why": "枚举常量 4 个重合 (cover=1.0, jac=1.0), 唯一=True, jar 独有=[]",
+  "consts": [
+   "COLOR_PICKER",
+   "ENUM_SELECT",
+   "KEY_BIND",
+   "NONE"
+  ],
+  "others": []
+ },
+ "vt": {
+  "src": "Notifications$RenderStage",
+  "conf": "A",
+  "jac": 1.0,
+  "why": "枚举常量 6 个重合 (cover=1.0, jac=1.0), 唯一=True, jar 独有=[]",
+  "consts": [
+   "ENTER_BAR",
+   "ENTER_CONTENT",
+   "EXIT_BAR",
+   "EXIT_CONTENT",
+   "HIDDEN",
+   "SHOW"
+  ],
+  "others": []
+ },
+ "vv": {
+  "src": "AutoClicker$ClickButton",
+  "conf": "A",
+  "jac": 1.0,
+  "why": "枚举常量 3 个重合 (cover=1.0, jac=1.0), 唯一=True, jar 独有=[]",
+  "consts": [
+   "BOTH",
+   "LEFT",
+   "RIGHT"
+  ],
+  "others": []
+ },
+ "vY": {
+  "src": "Category",
+  "conf": "A",
+  "jac": 0.5,
+  "why": "枚举常量 4 个重合 (cover=1.0, jac=0.5), 唯一=True, jar 独有=[]",
+  "consts": [
+   "COMBAT",
+   "MOVEMENT",
+   "PLAYER",
+   "RENDER"
+  ],
+  "others": []
+ },
+ "_a": {
+  "src": "AnchorBlast$Phase",
+  "conf": "A",
+  "jac": 1.0,
+  "why": "枚举常量 5 个重合 (cover=1.0, jac=1.0), 唯一=True, jar 独有=[]",
+  "consts": [
+   "CHARGE",
+   "CLEANUP",
+   "DETONATE",
+   "IDLE",
+   "PLACE_ANCHOR"
+  ],
+  "others": [
+   {
+    "src": "DoubleAnchor",
+    "enum": "Phase",
+    "jac": 0.714,
+    "cover": 1.0,
+    "n": 5,
+    "extra": []
+   }
+  ]
+ }
+}

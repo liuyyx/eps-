@@ -1,0 +1,13 @@
+{
+ "batch": "G151",
+ "results": {
+  "_Z": {
+   "identity": "TimerUtils",
+   "kind": "class",
+   "conf": "A",
+   "evidence": "D023(conf A)中Record(Vec3,_Z)已被识别为JumpCircle.Circle(Vec3 pos, TimerUtils timer); _Z方法逐一对应: S(Object[])=getMs()(返回elapsed毫秒差), m(long)=setMs()(设偏移时间戳), j(Object[])=every()(检查并reset), e(long)=passedMillise(long)(阈值比较), D(Object[])=passedMillise(double)(包装double版), B()=reset()(重置startTime); 实例字段long p=startTime; 无MC导入; 无super/interfaces符合TimerUtils声明; 4个static final long[]/Integer[]/Long[]为加密常量解密基础设施(invoke dynamic switch bootstrap), 非TimerUtils业务字段",
+   "official_path": "work/official26/com/github/epsilon/utils/timer/TimerUtils.java"
+  }
+ },
+ "unident": []
+}

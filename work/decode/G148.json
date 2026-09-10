@@ -1,0 +1,25 @@
+{
+  "batch": "G148",
+  "results": {
+    "_O": {
+      "identity": "UiTree.MarqueeTextNode",
+      "kind": "record",
+      "conf": "A",
+      "evidence": "Record 7字段逐项吻合: String oC(=text)+3 float b1/b2/bD(=x,y,scale)+Color vU(=color)+nK PB(=TtfFontLoader fontLoader)+ih uA(=UiRect/Render2DBounds clip); 构造器(String,3f,Color,nK,ih)签名匹配; 26.2→26.10 UiRect→Render2DBounds类型重构(ih=G066确认Render2DBounds); 官方MarqueeTextNode(String,float,float,float,Color,TtfFontLoader,UiRect)字段类型完全对应; _Q=UiNode(=UiTree.UiNode)",
+      "official_path": "com/github/epsilon/gui/lib/UiTree.java"
+    },
+    "_Q": {
+      "identity": "UiTree.UiNode",
+      "kind": "sealed interface",
+      "conf": "A",
+      "evidence": "sealed interface 31 permits, 0方法声明; 递归树结构: vd(=LayerNode)含List<_Q>, ll(=ScissorNode)含List<_Q>+ih(=UiRect), n8(=LayeredNode)含_Q; Dd=RectGradientNode(4f+4C), gI=OutlineNode(9f+1C), yq=RoundRectGradientNode(8f+4C), _O=MarqueeTextNode均implements _Q; 官方UiTree.UiNode为sealed interface permits 26类型, 26.2→26.10版本演进增至31个permits",
+      "official_path": "com/github/epsilon/gui/lib/UiTree.java"
+    }
+  },
+  "unident": [
+    {
+      "obf": "_L",
+      "reason": "extends SimpleFileVisitor<Path>, 296行; 字段Path J(source)+Path Z(target)+boolean T(skipExportMetadata); f(Object[])=preVisitDirectory创建目录, y(Object[])=visitFile做Files.copy; 为CFR从ConfigHolder.copyDirectory()提取的匿名内部类; 官方源码ConfigHolder.java中对应匿名SimpleFileVisitor(非独立类), 无standalone文件可映射"
+    }
+  ]
+}

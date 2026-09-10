@@ -1,0 +1,27 @@
+{
+  "slice": "S10-GuiRenderer",
+  "results": {
+    "OT": {
+      "identity": "MinecraftGuiExtractionBridge2612",
+      "kind": "class",
+      "conf": "A-",
+      "evidence": "注入点 onRenderHead（jar method=\"render\" @HEAD，对应 src method=\"draw\" @HEAD，均 on @Mixin(GuiRenderer)）。jar 形状：new OT(this.epsilon$levelRenderState, this.featureRenderDispatcher) 生成两个实例（epsilon$levelGuiRenderer/epsilon$guiRenderer），持有 GuiRenderState x + FeatureRenderDispatcher M，implements AutoCloseable，内含 StagedVertexBuffer/CubeMap/GuiItemAtlas/ProjectionMatrixBuffer 等完整 GUI 渲染管线，并向外暴露 .w()/.H()（事件 post 后调用，对应 submit/close）。src 形状：new MinecraftGuiExtractionBridge2612(new NativeResources(this.bufferSource, this.submitNodeCollector, this.featureRenderDispatcher))（包 com.github.slmpc.lumingraphics.mc.v2612.runtime 的 MC GUI 抽取桥，暴露 extractor()/submit()/close()）。配对：同一 GuiRenderer.render/draw 注入点、角色一致=GuiRenderer 的 GUI 抽取/渲染桥；但 26.2 构造函数签名改为 (GuiRenderState, FeatureRenderDispatcher)、包迁入 com.github.epsilon、方法名改为 .w/.H，非逐字段同构 → 语义强推 A-。",
+      "mixin": "MixinGuiRenderer"
+    },
+    "zm": {
+      "identity": "Render2DEvent.Level",
+      "kind": "event",
+      "conf": "A-",
+      "evidence": "注入点 onRenderHead（jar render @HEAD，对应 src draw @HEAD，on GuiRenderer）。jar 形状：vy.j.d(new Object[]{new zm(guiGraphicsExtractor)})；zm.java 显示 public final class zm extends zo，构造 zm(GuiGraphicsExtractor)→super(guiGraphicsExtractor)。src 形状：EventBus.INSTANCE.post(new Render2DEvent.Level(levelGuiGraphics))（Render2DEvent.Level(GuiGraphicsExtractor)→super(guiGraphicsExtractor)）。配对：同注入点-post 形状一致；zo 即 Render2DEvent 基类（含 GuiGraphicsExtractor v 字段 + N() getter，对应 getGuiGraphics()）；该实例绑定 epsilon$levelGuiRenderer/epsilon$levelRenderState（level 前缀）→ Render2DEvent.Level。子类名由变量命名推断，A-。",
+      "mixin": "MixinGuiRenderer"
+    },
+    "zR": {
+      "identity": "Render2DEvent.HUD",
+      "kind": "event",
+      "conf": "A-",
+      "evidence": "注入点 onRenderHead（jar render @HEAD，对应 src draw @HEAD，on GuiRenderer）。jar 形状：vy.j.d(new Object[]{new zR(guiGraphicsExtractor2)})；zR.java 显示 public final class zR extends zo，构造 zR(GuiGraphicsExtractor)→super(guiGraphicsExtractor)。src 形状：26.1.2 仅在 HEAD post Render2DEvent.Level，RETURN 处为 MainMenuScreen.INSTANCE.renderPendingOverlay()；Render2DEvent 另一静态子类为 Render2DEvent.HUD（构造同取 GuiGraphicsExtractor）。配对：同注入点-post 形状一致，zo=Render2DEvent 基类；该实例绑定 epsilon$guiRenderer/epsilon$renderState（无 level 前缀、通用 GUI 渲染通道），对应 26.2 把主菜单/HUD 覆盖改为事件驱动的 Render2DEvent.HUD。子类名由变量命名 + Render2DEvent 仅有的两个子类(Level/HUD)推断，A-。",
+      "mixin": "MixinGuiRenderer"
+    }
+  },
+  "unident": []
+}

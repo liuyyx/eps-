@@ -1,0 +1,34 @@
+{
+  "slice": "S08-UniformsClock",
+  "results": {
+    "eu": {
+      "identity": "Fog/WorldTime 跨域模块（环境雾覆盖+世界时钟覆盖，确切类名未定）",
+      "kind": "module",
+      "conf": "B",
+      "evidence": "两处注入点交叉定位同一类。① MixinFogRenderer.modifyFog(@ModifyReturnValue setupFog RETURN)：`eu eu2 = eu.n; if (eu2.N() && ((Boolean)eu2.m.z()).booleanValue()) { fogData.environmentalStart = ((Integer)eu2.W.z()).intValue(); fogData.environmentalEnd = ((Integer)eu2.O.z()).intValue(); Color color = (Color)eu2.E.z(); fogData.color.set(...); }` —— 模块单例 eu.n，eu.N()=isEnabled()，设置 m(Xn BoolSetting)、W(XG IntSetting=environmentalStart)、O(XG IntSetting=environmentalEnd)、E(DV ColorSetting) 直接覆盖 FogData 环境雾起止与颜色。② MixinClientClockManager.modifyTotalTicks(@ModifyReturnValue getTotalTicks RETURN)：`return eu.n.g(new Object[]{holder, l})` —— g(Object[]{Holder<WorldClock>, long}) 返回被改写的 long 总 tick，拦截世界时钟。类体：eu extends e(Module)，public static final eu n(INSTANCE)；字段 m:Xn、W:XG、O:XG、E:DV、v:XG、F:Xn；isModule=true，33 个加密方法。结论：兼具「环境雾覆盖」与「世界时间/时钟覆盖」的模块。无 src 同名 mixin（src:[]）、class_map/IDENTITY_REPORT 均无记录，无法逐行同构，且行为横跨雾+时间两域，确切 Epsilon 类名不可判定（疑 Fog 或 WorldTime 系合并模块），故 conf=B，不臆造具体名。",
+      "mixin": "MixinClientClockManager;MixinFogRenderer"
+    },
+    "Oe": {
+      "identity": "渲染管线/渲染通道构建工具类（RenderPipeline/RenderPass 构建器，确切类名未定）",
+      "kind": "class",
+      "conf": "C",
+      "evidence": "注入点：MixinDynamicUniforms.onReset(@Inject DynamicUniforms.reset RETURN) 调 `Oe.B();`（与 dB.b()/dB.Z()/nK.Z() 并列）。jar 类体：com.github.epsilon.Oe 私有构造器静态工具类；import blaze3d.RenderPipeline/RenderPass/VertexFormat、net.minecraft.resources.Identifier 及 De/Xi/g0/i2/lO/lZ；静态方法 U(RenderPipeline,Identifier)→Xi、P(RenderPipeline,Consumer<RenderPass>)→g0、s(RenderPipeline)→lZ、W/q/Q(Object[])→lO/g0/De、B()→void。即围绕 RenderPipeline/RenderPass 构建渲染管线/渲染通道的宿主工具类，绑定在 DynamicUniforms.reset() 重置路径上。无 src 对照（src:[]）、class_map 无记录，无法同构或指纹互指，确切真实类名不可判定（疑 PipelineBuilder/ShaderPipelines 类），conf=C，不臆造名。",
+      "mixin": "MixinDynamicUniforms"
+    },
+    "dB": {
+      "identity": "投影矩阵/GPU缓冲/DynamicUniform 渲染宿主工具类（与 ShaderHolder 同类，确切类名未定）",
+      "kind": "class",
+      "conf": "C",
+      "evidence": "两处注入点。① MixinDynamicUniforms.onReset：`dB.b(); dB.Z();`（与 Oe.B()/nK.Z() 并列）。② MixinMinecraft(S02 共享)：`dB.Q();`（src:[] 无对照）。jar 类体：com.github.epsilon.dB 静态工具类；字段 A:static final Projection、b:ProjectionMatrixBuffer、x:dd、u:String[]、a:long[]、c:Integer[]；import blaze3d GpuBuffer/GpuBufferSlice/RenderTarget/ProjectionType/IndexType、net.minecraft DynamicUniformStorage$DynamicUniform/Projection/ProjectionMatrixBuffer、org.joml Matrix4f/Vector3f/Vector4f 等；静态方法 A(int)→d5 等。即投影矩阵/GPU 缓冲/动态 uniform 的渲染宿主工具类，与已识别的 ShaderHolder(z2) 同类，属渲染宿主层。无 src 对照、class_map 无记录，确切真实类名不可判定，conf=C，不臆造名。",
+      "mixin": "MixinDynamicUniforms;MixinMinecraft"
+    },
+    "nK": {
+      "identity": "异步资源/数据加载缓存类（implements DS 接口，确切类名未定）",
+      "kind": "class",
+      "conf": "C",
+      "evidence": "注入点：MixinDynamicUniforms.onReset：`nK.Z();`（与 dB.b()/dB.Z()/Oe.B() 并列）。jar 类体：com.github.epsilon.nK implements DS 接口，2361 行/244 个加密方法；字段含 ExecutorService i、AtomicInteger B、HashMap<Integer,CompletableFuture<ij>> L、HashMap<Integer,yW> P、List<yn> C、Set<Integer> Y、float G、long h/k 等 —— 典型异步资源/数据加载与缓存结构（CompletableFuture + ExecutorService + 双重 HashMap 缓存）。绑定在 DynamicUniforms.reset() 重置路径上。无 src 对照（src:[]）、class_map 无记录，无法同构或指纹互指，确切真实类名不可判定（疑资源/着色器异步加载缓存类），conf=C，不臆造名。",
+      "mixin": "MixinDynamicUniforms"
+    }
+  },
+  "unident": []
+}

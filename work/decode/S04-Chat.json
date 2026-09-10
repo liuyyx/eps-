@@ -1,0 +1,33 @@
+{
+  "slice": "S04-Chat",
+  "results": {
+    "I": {
+      "identity": "BetterChat",
+      "kind": "module",
+      "conf": "A-",
+      "evidence": "三处 mixin 一致引用 I.J（I extends e 模块，静态单例字段 J）。jar 侧方法名直接揭示特性：MixinChatComponentHash 内注入方法命名为 pushBetterChatScissor / popBetterChatScissor。行为同构：①MixinChatComponent.animateMessageOpacity(handleMessage @ModifyVariable HEAD) 返回 `f * I.J.S(new Object[0])` → I.J.S() 返回 float 作为消息不透明度倍率；②MixinChatComponent.hookFill(fill @HEAD cancellable) `if (I.J.N() && (n5 & 0xFFFFFF) == 0) callbackInfo.cancel()` → 启用且背景色全透明时取消聊天背景 fill；③MixinChatComponent.hideTagIndicator(handleTag @INVOKE GuiGraphicsExtractor.fill) `if (!I.J.N()) operation.call(...)` → 启用时隐藏聊天标签指示；④MixinChatComponentHash.pushBetterChatScissor(extractRenderState @HEAD) `ScreenRectangle sr = I.J.q(new Object[0])` → I.J.q() 返回 ScreenRectangle(BetterChat 裁剪矩形) 后 enableScissor；popBetterChatScissor(@RETURN) disableScissor；⑤MixinChatScreen.onExtractRenderState(extractRenderState @INVOKE fill) `if (!I.J.N()) operation.call(...)` 同 hideTagIndicator。I.J.N()=isEnabled、I.J.S()=float 取值、I.J.q()=ScreenRectangle 取值，结构与模块一致。src 26.1.2 无 BetterChat 模块类（26.1.2 仅 ClientSetting 的 animatedChatPrefix 设置 + Managers.NOTIFICATION 前缀动画），故本模块为 26.2 新增、无 src 同构；类名由 jar 方法名 pushBetterChatScissor 实证，非猜测。",
+      "mixin": "MixinChatComponentHash"
+    },
+    "gp": {
+      "identity": "Managers",
+      "kind": "util",
+      "conf": "A",
+      "evidence": "MixinChatComponent.onHandleMessage(handleMessage @ModifyVariable HEAD, ordinal 0, FormattedCharSequence) jar 返回 `gp.p.I(new Object[]{formattedCharSequence})`；src MixinChatComponent.sakura$animateClientPrefix 同注入点同变量返回 `Managers.NOTIFICATION.applyAnimatedPrefix(message)`。逐行同构：gp.p.I ↔ Managers.NOTIFICATION.applyAnimatedPrefix → gp = Managers 持有类(包 com.github.epsilon.managers.Managers，混淆后位于 com.github.epsilon.gp)，p = NOTIFICATION 静态字段，I(方法) = applyAnimatedPrefix。形态一致（handleMessage @HEAD 对 FormattedCharSequence 做前缀动画变换），conf A。",
+      "mixin": "MixinChatComponent"
+    },
+    "i8": {
+      "identity": "ChatComponentAccessor",
+      "kind": "interface",
+      "conf": "A",
+      "evidence": "MixinChatComponentHash 声明 `implements i8` 且含 `@Override public void epsilon$addClientSystemMessage(Component component, int n)`；src MixinChatComponentHash 声明 `implements com.github.epsilon.interfaces.ChatComponentAccessor` 且含 `public void epsilon$addClientSystemMessage(Component message, int hash)`。逐行同构：接口实现 + 同名 @Override 方法签名一致 → i8 = ChatComponentAccessor（com.github.epsilon.interfaces.ChatComponentAccessor）。26.2 接口新增 getVisibility 方法（jar 中 epsilon$getVisibility 返回 dS），src 26.1.2 接口仅含 addClientSystemMessage 一项，属 26.2 接口扩展，但 i8 基类身份验证为 A。",
+      "mixin": "MixinChatComponentHash"
+    }
+  },
+  "unident": [
+    {
+      "obf": "dS",
+      "mixin": "MixinChatComponentHash",
+      "reason": "26.2 新增数据持有类（com.github.epsilon.dS），是 i8(ChatComponentAccessor).epsilon$getVisibility(int, boolean) 的返回类型。jar 中 `return new dS(n5, f, f2)`：n5=int 可见行数(f3>1e-5 计数)、f=float 最大不透明度、f2=float 不透明度之和 → 聊天可见性聚合状态(行数/最大不透明度/不透明度求和)。src 26.1.2 的 ChatComponentAccessor 接口未含 getVisibility（仅 addClientSystemMessage），无同名对照；混淆类名 dS 无法反推真实类名，且 jar 侧无方法名/常量揭示其名（仅构造器形参顺序）。可确定其角色为‘聊天可见性汇总 POJO’，但确切类名无证据，依铁律不猜名，判为 unident。"
+    }
+  ]
+}

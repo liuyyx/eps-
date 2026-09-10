@@ -1,0 +1,31 @@
+{
+  "slice": "S05-LevelRender",
+  "results": {
+    "yZ": {
+      "identity": "AfterRender3DEvent",
+      "kind": "event",
+      "conf": "A",
+      "evidence": "jar MixinLevelRenderer.onPostRenderLevel(method=render,@At RETURN): vy.j.d(new Object[]{new yZ()}) 与 src MixinLevelRenderer.onPostRenderLevel(method=renderLevel,@At RETURN): EventBus.INSTANCE.post(new AfterRender3DEvent()) 同注入点(LevelRenderer.render/renderLevel RETURN)、同调用形状(post 无参事件)。yZ 为无 extends 的空类, 与 AfterRender3DEvent(无参事件, 紧接 Render3DEvent 之后 post)结构吻合。d9=Render3DEvent 已解, 紧随其后者即 AfterRender3DEvent。",
+      "mixin": "MixinLevelRenderer"
+    },
+    "e5": {
+      "identity": "CustomSky",
+      "kind": "module",
+      "conf": "C",
+      "evidence": "jar MixinLevelRenderer.addCustomSkyPass(addSkyPass@RETURN): if(e5.F.N()) 守卫新增 FramePass 名字面量 \"epsilon_custom_sky\"(开发署名, 自定义天空特征确凿), lambda$addCustomSkyPass$0 以 [RenderTarget, e5.F] 调 yK.b.q 绘制。e5 结构: extends e + public static final e5 F(INSTANCE) + 构造 1 DoubleSetting(0-20,默认4.0,步0.1) + 2 ColorSetting(K/h)。26.1.2 源 modules/impl/render 下无 CustomSky/Skybox/SkyColor 模块(已逐一核对), 故为 26.2 新增; 帧通路名 'epsilon_custom_sky' 锚定其为自定义天空模块, 精确类名无源码佐证故 C。",
+      "mixin": "MixinLevelRenderer"
+    }
+  },
+  "unident": [
+    {
+      "obf": "yK",
+      "mixin": "MixinLevelRenderer",
+      "reason": "util 单例(public static final yK b; 非 extends e)。持有 TextureTarget L / EnumMap<n7,RenderPipeline> S, 静态块构建 RenderPipeline/Std140SizeCalculator, 私有方法 y(Object[]) 执行绘制。被 MixinLevelRenderer.lambda$addCustomSkyPass$0 以 [RenderTarget, e5.F(CustomSky)] 调 yK.b.q 完成自定义天空绘制。结构为 自定义天空渲染器工具类, 但此为 26.2 新增、jar 无源码同构 mixin, 精确类名(如 CustomSkyRenderer/SkyProcessor)无法确认, 禁止猜名。"
+    },
+    {
+      "obf": "ua",
+      "mixin": "MixinLevelRenderer",
+      "reason": "module(extends e + public static final ua H INSTANCE)。在 jar MixinLevelRenderer.onPostRenderLevel(render@RETURN) 被直接以 ua.H.z([CameraRenderState, Matrix4fc]) 调用其渲染方法 z(Object[])(内部设置 Matrix4f 字段 E/O、从 camera 取 Vec3、置 boolean); 并 @yE 订阅 yZ=AfterRender3DEvent(f(yZ))。设置谱: Dx<ga> enum(ga) + 3 Xn Bool(b/y/B) + Matrix4f O/E + DM t(0-5,默认1,步0.05) + XG e(int 默认4)。该注入点为 26.2 重构(26.1.2 源 onPostRenderLevel 仅 post 事件、无模块直调), 无源码同构, 且设置形状不锚定任何已知 26.1.2 render 模块, 精确类名无法确认, 禁止猜名。"
+    }
+  ]
+}

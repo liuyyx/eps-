@@ -1,0 +1,75 @@
+{
+  "slice": "S02-Minecraft",
+  "results": {
+    "_y": {
+      "identity": "ClientTickEvent.Pre",
+      "kind": "event",
+      "conf": "A",
+      "evidence": "注入点 method=tick @HEAD 同构: jar `vy.j.d(new Object[]{new _y()})` == src `EventBus.INSTANCE.post(new ClientTickEvent.Pre())`；_y extends _4（TickEvent 基类），与 src ClientTickEvent.Pre 一致。",
+      "mixin": "MixinMinecraft"
+    },
+    "__": {
+      "identity": "ClientTickEvent.Post",
+      "kind": "event",
+      "conf": "A",
+      "evidence": "注入点 method=tick @TAIL 同构: jar `vy.j.d(new Object[]{new __()})` == src `EventBus.INSTANCE.post(new ClientTickEvent.Post())`；__ extends _4（同 ClientTickEvent 基类）。",
+      "mixin": "MixinMinecraft"
+    },
+    "dj": {
+      "identity": "StartUseItemEvent",
+      "kind": "event",
+      "conf": "A",
+      "evidence": "注入点 method=startUseItem @INVOKE InteractionHand.values() cancellable 同构: jar `dj dj2=(dj)vy.j.d(new Object[]{new dj()}); if(dj2.l()) ci.cancel()` == src `StartUseItemEvent e=EventBus.INSTANCE.post(new StartUseItemEvent()); if(e.isCancelled()) ci.cancel()`；dj extends de(EventBase)，.l()==isCancelled。",
+      "mixin": "MixinMinecraft"
+    },
+    "dz": {
+      "identity": "RightClickEvent",
+      "kind": "event",
+      "conf": "A",
+      "evidence": "注入点 method=handleKeybinds @INVOKE LocalPlayer.isUsingItem() ordinal=0 BEFORE cancellable 同构: jar `dz dz2=(dz)vy.j.d(new Object[]{new dz()}); if(dz2.l()) ci.cancel()` == src `RightClickEvent e=EventBus.INSTANCE.post(new RightClickEvent()); if(e.isCancelled()) ci.cancel()`；dz extends de，.l()==isCancelled。",
+      "mixin": "MixinMinecraft"
+    },
+    "g3": {
+      "identity": "GameLeftEvent",
+      "kind": "event",
+      "conf": "A",
+      "evidence": "注入点 method=disconnect(Screen;ZZ) @HEAD 同构: jar `vy.j.d(new Object[]{new g3()})` == src `EventBus.INSTANCE.post(new GameLeftEvent())`；同位置（level!=null 守卫后触发）。",
+      "mixin": "MixinMinecraft"
+    },
+    "_U": {
+      "identity": "LevelUpdateEvent",
+      "kind": "event",
+      "conf": "A",
+      "evidence": "注入点 method=updateLevelInEngines(ClientLevel;Z) @HEAD 同构: jar `vy.j.d(new Object[]{new _U()})` == src `EventBus.INSTANCE.post(new LevelUpdateEvent())`。",
+      "mixin": "MixinMinecraft"
+    },
+    "dB": {
+      "identity": "LuminRenderSystem",
+      "kind": "util",
+      "conf": "A-",
+      "evidence": "注入点 method=close @HEAD 同位置末位清理同构: jar `dB.Q()` == src `LuminRenderSystem.destroyAll()`；类级同构: dB 导入集(Projection/ProjectionMatrixBuffer/GpuBuffer/GpuBufferSlice/GpuTextureView/IndexType/RenderTarget/MouseButtonEvent/Matrix4f/Vector3f/Vector4f, joml) 与 26.1.2 graphics/LuminRenderSystem.java 完全一致；dB.Q() 内部 close() ProjectionMatrixBuffer + I() iW（即 destroyAll 语义），S() 设投影矩阵、P()/P(int) 管理 GpuBuffer/GpuTextureView、W() 返回 GpuBufferSlice 均为 LuminRenderSystem 职责。注: 26.2 将 onClose 重写为 W.Z.z()(smtc 运行时) + dE.P() + dB.Q()，Q() 即 destroyAll 对应项。",
+      "mixin": "MixinMinecraft"
+    },
+    "iE": {
+      "identity": "SoundKey",
+      "kind": "enum",
+      "conf": "A-",
+      "evidence": "枚举类级同构: iE 为 enum，常量 ENABLE/DISABLE/SETTINGS_OPEN/SETTINGS_CLOSE/SHUTDOWN/UWU/NYA/MOAN1~4 与 26.1.2 managers/impl/sound/SoundKey.java 逐一吻合；26.2 扩展新增 REISA_WELCOME/REISA_BYE；其方法 g() 返回 Identifier 对应 src SoundKey.id()。注入点 onGameLoadFinished 使用 `iE.REISA_WELCOME`（26.2 新增欢迎音）即 SoundKey 的扩展项。注: onGameLoadFinished 为 26.2 新增注入点，无逐行 src 同构，但枚举类本身与 SoundKey 同构。",
+      "mixin": "MixinMinecraft"
+    },
+    "lS": {
+      "identity": "SoundManager",
+      "kind": "util",
+      "conf": "A-",
+      "evidence": "类级同构(方法形状): lS 为单例(lS.q==INSTANCE)，方法 C(Object[])→iE+1.2f 对应 26.1.2 SoundManager.playInUi(SoundKey)(内部 playSound(key,1.2f))；c(Object[])→iE+1.0f 对应 playSound(SoundKey,1.0f)；K(iE,float) 返回 Optional<SoundInstance> 对应 playSound(SoundKey,pitch,volume) 返回 instance；i(Object[]) 对应 stop(SoundKey)；使用 me.sofurry.iiIllIllli(smtc 音频库) 与 Dl(Setting)。即 26.2 单例化重构版 managers/impl/sound/SoundManager。",
+      "mixin": "MixinMinecraft"
+    }
+  },
+  "unident": [
+    {
+      "obf": "dE",
+      "mixin": "MixinMinecraft",
+      "reason": "dE 仅在 onClose 注入点 `dE.P()` 出现（与 dB.Q() 共同替换 26.1.2 的 `LuminRenderSystem.destroyAll()`）。类级分析: dE 使用 FFmpegFrameGrabber/Frame/AbstractTexture/DynamicTexture/TextureManager 实现视频/动态纹理播放（方法 M() 注册 DynamicTexture、B() 切换状态），属 26.2 新增的视频/图像渲染类。26.1.2 源全仓 grep FFmpeg/DynamicTexture/Video/FrameGrabber 无结果，无 src 同构；在不猜名前提下无法确认真实类名，故 unident。"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "slice": "S07-FontHudGlyph",
+  "results": {
+    "Xh": {
+      "identity": "EpsilonCommon",
+      "kind": "class",
+      "conf": "A",
+      "evidence": "注入点 MixinWindow.onSetIcon(@Mixin Window, method=setIcon, Redirect IconSet.getStandardIcons) 逐行同构: jar `Xh.class.getResourceAsStream(\"/assets/epsilon/textures/icons/icon_16x16.png\")` 等四个资源流 == src `EpsilonCommon.class.getResourceAsStream(...)` 同四路径; 分支 `uc.v.u0.i(_p.Epsilon)` == `ClientSetting.INSTANCE.customIcon.is(ClientSetting.IconMode.Epsilon)`, `_p.Minecraft_1_8_9` == `IconMode.Minecraft_1_8_9`。Xh 作资源宿主锚点类, 与 src EpsilonCommon 完全对应 → Xh = EpsilonCommon (资源宿主类)。",
+      "mixin": "MixinWindow"
+    },
+    "Dk": {
+      "identity": "TextRenderableAdapter",
+      "kind": "class",
+      "conf": "A",
+      "evidence": "注入点 MixinGlyphRenderState.onTextureSetup(@Mixin GlyphRenderState, method=textureSetup, HEAD cancellable) 逐行同构: jar `if (textRenderable instanceof Dk) { Dk dk=(Dk)textRenderable; cir.setReturnValue(TextureSetup.singleTexture(textRenderable.textureView(), dk.O())); }` == src `if (renderable instanceof TextRenderableAdapter adapter) { cir.setReturnValue(TextureSetup.singleTexture(renderable.textureView(), adapter.sampler())); }`。同样 instanceof 判定 + 同形调用 `Dk.O()`==`sampler()` 返回 GpuSampler、`textureView()` 一致。注: src 该类位于 com.github.slmpc.lumingraphics.mc.v2612.text.TextRenderableAdapter (slmpc 库), jar 经混淆/重定位为 com.github.epsilon.Dk, 行为逐一对应 → Dk = TextRenderableAdapter。",
+      "mixin": "MixinGlyphRenderState"
+    },
+    "gG": {
+      "identity": "字体字形静态封装类(对应 26.1.2 MinecraftFontAdapter2612.glyph 的 26.2 拆出, extends BakedGlyph)?",
+      "kind": "class",
+      "conf": "C",
+      "evidence": "注入点 MixinFont.onGetGlyph(method=getGlyph, HEAD, cancellable): jar `if (((Boolean)uc.v.u2.z()).booleanValue() && (gG2 = gG.g(n)) != null) cir.setReturnValue((Object)gG2);` —— gG.g(int) 静态返回 gG 实例并强转 BakedGlyph 作返回值, 故 gG extends/实现 BakedGlyph 作字形提供封装; src 同注入点改为 `if (ClientSetting.INSTANCE.replaceMinecraftFont.getValue()) { ... adapter.glyph(codepoint) ... }` (MinecraftFontAdapter2612.glyph)。26.1.2 源码无独立 com.github.epsilon.gG 类(26.2 将字形提供从 adapter 拆为静态封装 gG), 旧源码无同名类, 无法同构确认真实 Epsilon 类名, 仅能确认其角色为字体字形静态封装。",
+      "mixin": "MixinFont"
+    },
+    "ls": {
+      "identity": "字体宽度测量静态封装(util, 对应 26.1.2 adapter.width 的 26.2 拆出)?",
+      "kind": "util",
+      "conf": "C",
+      "evidence": "注入点 MixinFont 三处 width 注入(method=width(String)/width(FormattedCharSequence)/width(FormattedText), HEAD, cancellable) 同形: jar `if (uc.v.u2.z() && (f = ls.Y(string)) != null) cir.setReturnValue(Mth.ceil(f))` / `ls.U(formattedCharSequence)` / `ls.k(formattedText)`, ls.Y/U/k 静态返回 Float 宽度; src 同三注入点 `cir.setReturnValue(Mth.ceil(adapter.width(text)))` (MinecraftFontAdapter2612.width)。26.1.2 无独立 com.github.epsilon.ls 类(26.2 拆出宽度测量静态封装), 真实类名不可同构确认, 仅确认其角色为字体宽度测量 util。",
+      "mixin": "MixinFont"
+    },
+    "e9": {
+      "identity": "TabList?(标签页/计分板名单模块, 26.2 新增)?",
+      "kind": "module",
+      "conf": "C",
+      "evidence": "注入点 MixinHud.onExtractTabList(method=extractTabList, HEAD, cancellable): jar `if (e9.d.N()) { ci.cancel(); }` —— e9.d 为静态单例字段(INSTANCE 形), .N()=isEnabled(); 启用即取消原版 tab list 提取, 行为域唯一对应“标签页(TabList)”模块。但 26.1.2 源码 modules/impl 无 TabList 模块、src MixinGui 亦无该注入点, 属 26.2 新增 HUD 模块, 无法同构定位真实 Epsilon 类名(禁止猜名, 仅列功能角色)。",
+      "mixin": "MixinHud"
+    },
+    "u0": {
+      "identity": "Scoreboard?(计分板侧栏模块, 26.2 新增)?",
+      "kind": "module",
+      "conf": "C",
+      "evidence": "注入点 MixinHud.onExtractScoreboardSidebar / displayScoreboardSidebar (extractScoreboardSidebar HEAD + displayScoreboardSidebar 两处 WrapOperation): jar 以 `u0.J.N()` 判定启用; `u0.J.K(objectArray[4])` 等价 GuiGraphicsExtractor.fill(x,y,w,h) 重绘侧栏背景(四参 x,y,w,h); `u0.J.Q()`/`u0.J.r()` 返回 int 分别偏移文本 x/y 坐标。行为域唯一对应“计分板(Scoreboard)”模块。26.1.2 源码无 Scoreboard 模块、无该注入点, 属 26.2 新增 HUD 模块, 无法同构确认真实 Epsilon 类名(禁止猜名, 仅列功能角色)。",
+      "mixin": "MixinHud"
+    }
+  },
+  "unident": []
+}

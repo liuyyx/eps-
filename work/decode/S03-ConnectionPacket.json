@@ -1,0 +1,62 @@
+{
+  "slice": "S03-ConnectionPacket",
+  "results": {
+    "OK": {
+      "identity": "ClientboundPacketManager",
+      "kind": "class",
+      "conf": "A-",
+      "evidence": "注入点 method=channelRead0(Lio/netty/channel/ChannelHandlerContext;Lnet/minecraft/network/protocol/Packet;)V 经 WrapOperation onReceivePacket: jar 形状 `if (OK.L.U(new Object[]{packet})) return;` 与 src `if (Managers.S2CPACKET.onPacketReceive(packet)) return;` 逐义同构; OK 类含 `public static final OK L`(INSTANCE 单例)+`LinkedBlockingQueue<Packet>`+方法 U(Object[]{Packet})->boolean(体取 (Packet)var1_1[0] 走 Dl.S() 调试开关), 对应 26.1.2 Managers.S2CPACKET 字段类型 ClientboundPacketManager; 26.2 将字段重构为该管理类自身单例(OK.L 即原 Managers.S2CPACKET 实例的所属类)。",
+      "mixin": "MixinConnection"
+    },
+    "gH": {
+      "identity": "ServerboundPacketManager",
+      "kind": "class",
+      "conf": "A-",
+      "evidence": "注入点 method=send(Lnet/minecraft/network/protocol/Packet;Lio/netty/channel/ChannelFutureListener;Z)V 经 WrapOperation onSendPacket: jar 形状 `if (gH.v.A(new Object[]{packet})) return;` 与 src `if (Managers.C2SPACKET.onPacketSend(packet)) return;` 逐义同构; gH 类含 `public static final gH v`(INSTANCE 单例)+`LinkedBlockingQueue<Packet>`+方法 A(Object[]{Packet})->boolean(体取 (Packet)var1_1[0] 走 Dl.S()), 对应 26.1.2 Managers.C2SPACKET 字段类型 ServerboundPacketManager; 26.2 重构为单例类自身(gH.v 即原 Managers.C2SPACKET 实例所属类)。",
+      "mixin": "MixinConnection"
+    },
+    "_5": {
+      "identity": "PacketUtils",
+      "kind": "util",
+      "conf": "A",
+      "evidence": "注入点 method=send 经 WrapOperation onSendPacket: jar 形状 `_5.P.contains(packet)` 后 `_5.P.remove(packet)` 与 src `PacketUtils.bypassedPackets.contains(packet)` 后 `PacketUtils.bypassedPackets.remove(packet)` 完全同构; _5.P 为静态 Set<Packet<?>>(绕过 Epsilon 发送事件的待发集合), 对照 src utils/network/PacketUtils.java 第12行 `public static final Set<Packet<?>> bypassedPackets = new HashSet<>()`; 随后 nO.H(packet) 即 ClientIdentityHider.filterServerboundPacket 一致。",
+      "mixin": "MixinConnection"
+    },
+    "dP": {
+      "identity": "PacketEvent.Receive",
+      "kind": "event",
+      "conf": "A",
+      "evidence": "注入点 method=channelRead0 经 WrapOperation onReceivePacket: jar 形状 `dP dP2 = (dP)vy.j.d(new Object[]{new dP(packet)});` 与 src `PacketEvent.Receive event = EventBus.INSTANCE.post(new PacketEvent.Receive(packet));` 同构; 其 `if (!dP2.l(new Object[0]))` 对应 `!event.isCancelled()`(l=isCancelled), `dP2.B()` 对应 `event.getPacket()`(B=getPacket), 即收包事件。vy.j.d = EventBus.INSTANCE.post。",
+      "mixin": "MixinConnection"
+    },
+    "dQ": {
+      "identity": "PacketEvent.Send",
+      "kind": "event",
+      "conf": "A",
+      "evidence": "注入点 method=send 经 WrapOperation onSendPacket(else 分支): jar 形状 `dQ dQ2 = (dQ)vy.j.d(new Object[]{new dQ(packet)});` 与 src `PacketEvent.Send event = EventBus.INSTANCE.post(new PacketEvent.Send(packet));` 同构; 其 `if (!dQ2.l(new Object[0]))` 对应 `!event.isCancelled()`(l=isCancelled), `dQ2.N()` 对应 `event.getPacket()`(N=getPacket, 与 dP 的 B 为不同子类各自的 getter 混淆名), 即发包事件。",
+      "mixin": "MixinConnection"
+    },
+    "DK": {
+      "identity": "RespawnEvent",
+      "kind": "event",
+      "conf": "A",
+      "evidence": "注入点 method=handleRespawn(@Inject RETURN) onHandleRespawnReturn: jar 形状 `vy.j.d(new Object[]{new DK()});` 与 src `EventBus.INSTANCE.post(new RespawnEvent());` 完全同构; DK 无参构造事件(extends Cancellable), 同注入点、同位置(RESURNE)。",
+      "mixin": "MixinClientPacketListener"
+    },
+    "XV": {
+      "identity": "GameJoinedEvent",
+      "kind": "event",
+      "conf": "A",
+      "evidence": "注入点 method=handleLogin(@Inject TAIL) onHandleLoginTail 中无条件分支: jar 形状 `vy.j.d(new Object[]{new XV()});` 与 src `EventBus.INSTANCE.post(new GameJoinedEvent());` 完全同构; XV 无参构造事件, 同注入点(TAIL)、同位置(登录成功后无条件触发)。",
+      "mixin": "MixinClientPacketListener"
+    },
+    "g3": {
+      "identity": "GameLeftEvent",
+      "kind": "event",
+      "conf": "A",
+      "evidence": "注入点两处: (1) method=handleLogin(@Inject TAIL) 条件分支 `if (worldNotNull.get()) vy.j.d(new Object[]{new g3()});` 与 src `if (worldNotNull.get()) EventBus.INSTANCE.post(new GameLeftEvent());` 同构; (2) method=handleConfigurationStart(@Inject INVOKE ensureRunningOnSameThread AFTER) jar `vy.j.d(new Object[]{new g3()});` 与 src `EventBus.INSTANCE.post(new GameLeftEvent());` 同构; g3 无参构造事件(进入重配置/世界已存在重连即判定离开游戏)。与 S02 共享同一判定。",
+      "mixin": "MixinClientPacketListener"
+    }
+  },
+  "unident": []
+}

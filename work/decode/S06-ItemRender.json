@@ -1,0 +1,41 @@
+{
+  "slice": "S06-ItemRender",
+  "results": {
+    "n1": {
+      "identity": "HandsView.SwingMode",
+      "kind": "enum",
+      "conf": "A",
+      "evidence": "注入点 method=wrapSwingArmTranslate（MixinItemInHandRenderer.swingArm 的 PoseStack.translate 包裹）。jar 调用形状：e_ e_2 = e_.k; e_2.N() && e_2.o.i(n1.Flux)；同构 src：HandsView handsView = HandsView.INSTANCE; handsView.isEnabled() && handsView.swingMode.is(HandsView.SwingMode.Flux)。反编译 n1 extends Enum<n1>，常量 Vanilla / Flux。e_ 已识别为 HandsView（class_map），故 n1 为 HandsView 内部枚举 SwingMode。注入点 + 调用形状 + 枚举常量名三重一致 → A。",
+      "mixin": "MixinItemInHandRenderer"
+    },
+    "S": {
+      "identity": "ItemPhysics",
+      "kind": "module",
+      "conf": "A-",
+      "evidence": "注入点 method=applyItemPhysics / suppressVanillaBob / suppressVanillaSpin（MixinItemEntityRenderer.submit）。jar 调用形状：if (S.J.N() && ...) 对 ItemEntity 做渲染物理变换（上移 -item.getModelBoundingBox().minY+0.0625、绕 XP 旋转 90°、绕 ZP 按 itemEntity.getYRot() 旋转、离地时随 itemEntityRenderState.ageInTicks*8 旋转），并用 Redirect 抑制原版 bob/spin。反编译 S extends e（=Module），public static final S J（=INSTANCE），构造 super(a, category)；category 常量 (long)1050408241407708132L 与 ee 同属 Render 类。混淆显示名串 a 由 \"QOk\\n}n`aHg\\u0004.\" 经逐字符 XOR 解密（key 表 [110,77,120,17,43,72,126]，与 118 异或；已用脚本核验）得明文 'Item Physics'，与模块行为（物品实体地面物理）完全吻合；按 Epsilon PascalCase 约定类名推断为 ItemPhysics。MC26.2 新增（旧 src 无 MixinItemEntityRenderer 同名 mixin）。",
+      "mixin": "MixinItemEntityRenderer"
+    }
+  },
+  "unident": [
+    {
+      "obf": "lx",
+      "mixin": "MixinItemInHandRenderer",
+      "reason": "可判定 kind=event（EventBus 投递的消息记录），但拿不到真实类名。证据：注入点 method=beforeRenderHeldItem（submitArmWithItem 内 renderItem INVOKE 前），jar 调用形状 vy.j.d(new Object[]{new lx(interactionHand, poseStack)})（vy=EventBus，构造 InteractionHand+PoseStack 后 post）；反编译 lx extends Record，字段 InteractionHand/PoseStack，构造 (InteractionHand, PoseStack)。该注入点在旧 src 26.1.2 同名 MixinItemInHandRenderer 中不存在（src 对应注入 applyBlockingAnimation 不投递事件），属 26.2 新增事件记录，旧源码无对应类，显示名/类名均不可得。禁猜名。"
+    },
+    {
+      "obf": "yF",
+      "mixin": "MixinItemInHandRenderer",
+      "reason": "可判定 kind=event（EventBus 投递的消息记录），但拿不到真实类名。证据：注入点 method=beforeRenderArm（submitArmWithItem 内 renderPlayerArm INVOKE 处），jar 调用形状 vy.j.d(new Object[]{new yF(interactionHand, poseStack)})；反编译 yF extends Record，构造 (InteractionHand, PoseStack)。与 lx 对称，属 26.2 新增（渲染手臂事件），旧 src 无对应类，显示名/类名不可得。禁猜名。"
+    },
+    {
+      "obf": "dO",
+      "mixin": "MixinBlockItem",
+      "reason": "可判定 kind=event（Cancellable 事件，extends de=Event 基类），但拿不到真实类名。证据：注入点 method=onPlace（BlockItem.placeBlock HEAD，cancellable），jar 调用形状 if (((dO)vy.j.d(new Object[]{new dO(blockPlaceContext.getClickedPos(), blockState.getBlock())})).l(new Object[0])) 命中则 setReturnValue(true)；反编译 dO extends de，构造 (BlockPos, Block)。该事件仅在 26.2 新增的 MixinBlockItem 中触发、并被同为新模块的 ee.j(dO) 监听，旧 src 无同名 mixin 也无对应事件类，且无显示名串可解密，真实类名不可得。语义上应为方块放置（客户端、可取消）事件，但禁猜名。"
+    },
+    {
+      "obf": "ee",
+      "mixin": "MixinBlockItem",
+      "reason": "可判定 kind=module（extends e=Module，INSTANCE ee.C），但拿不到真实类名。证据：注入点 method=modifyState（BlockItem.place 的 placedState ModifyVariable 于 BlockState.is INVOKE 处），jar 调用形状 ee ee2 = ee.C; if (ee2.N() && ((Boolean)ee2.k.z()).booleanValue()) return this.getPlacementState(blockPlaceContext)；反编译 ee extends e，public static final ee C（INSTANCE），含设置字段 k（Xn），构造 super(ee.b(-94,-6710), category)，category 常量与 S 同属 Render 类；ee 还注册 @yE 监听器 j(dO) 处理方块放置事件。该 mixin 为 26.2 新增（旧 src 无 MixinBlockItem），模块显示名走混淆字符串表 ee.b(-94,-6710)（需完整静态解密表，本文档截断无法还原），旧 src 亦无对应模块类，真实类名不可得。禁猜名。"
+    }
+  ]
+}

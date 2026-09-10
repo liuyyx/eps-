@@ -1,0 +1,17 @@
+{
+  "batch": "H004",
+  "results": {},
+  "unident": [
+    {"obf": "D4", "reason": "Gson数据类(@SerializedName id/name), 无候选无匹配"},
+    {"obf": "D8", "reason": "Enum(Sakura/Tradition/Glitch), 26.2新增, official26无匹配"},
+    {"obf": "DA", "reason": "SwitchMap helper类, static int[]+ordinal映射, 无法关联enum"},
+    {"obf": "DF", "reason": "float值提供接口(O/q/X方法), 无匹配"},
+    {"obf": "DH", "reason": "Record(ka:boolean, XM:List<_Q>), 无法判断用途"},
+    {"obf": "DI", "reason": "空类, 无字段无方法"},
+    {"obf": "DJ", "reason": "Enum(TheAltening/Cracked/Session/Microsoft), 26.2新增登录类型"},
+    {"obf": "DL", "reason": "Record(qN:int, qd:int), 二元组/坐标, 无上下文"},
+    {"obf": "DS", "reason": "接口4方法, r()返回yW, 无匹配"},
+    {"obf": "De", "reason": "类持有i2字段+Matrix4f, 渲染相关, 无法确定身份"},
+    {"obf": "Dg", "reason": "重度混淆473行switch控制流, 引用Dl/ih, 无候选"}
+  ]
+}

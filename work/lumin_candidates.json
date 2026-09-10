@@ -1,0 +1,1048 @@
+[
+ {
+  "obf": "ng",
+  "kind": "class",
+  "lines": 1043,
+  "blaze3d": 10,
+  "joml": 1,
+  "mc": 3,
+  "d": [
+   "buffers.GpuBufferSlice",
+   "buffers.Std140SizeCalculator",
+   "pipeline.BindGroupLayout",
+   "pipeline.BlendFunction",
+   "pipeline.ColorTargetState"
+  ]
+ },
+ {
+  "obf": "u8",
+  "kind": "class",
+  "lines": 1507,
+  "blaze3d": 6,
+  "joml": 0,
+  "mc": 3,
+  "d": [
+   "pipeline.BlendFunction",
+   "pipeline.ColorTargetState",
+   "pipeline.DepthStencilState",
+   "pipeline.RenderPipeline",
+   "platform.CompareOp"
+  ]
+ },
+ {
+  "obf": "H",
+  "kind": "class",
+  "lines": 1268,
+  "blaze3d": 6,
+  "joml": 1,
+  "mc": 3,
+  "d": [
+   "pipeline.BlendFunction",
+   "pipeline.ColorTargetState",
+   "pipeline.DepthStencilState",
+   "pipeline.RenderPipeline",
+   "platform.CompareOp"
+  ]
+ },
+ {
+  "obf": "lI",
+  "kind": "class",
+  "lines": 1211,
+  "blaze3d": 6,
+  "joml": 2,
+  "mc": 5,
+  "d": [
+   "pipeline.BlendFunction",
+   "pipeline.ColorTargetState",
+   "pipeline.DepthStencilState",
+   "pipeline.RenderPipeline",
+   "platform.CompareOp"
+  ]
+ },
+ {
+  "obf": "yH",
+  "kind": "class",
+  "lines": 685,
+  "blaze3d": 6,
+  "joml": 0,
+  "mc": 1,
+  "d": [
+   "PrimitiveTopology",
+   "pipeline.BindGroupLayout",
+   "pipeline.BlendFunction",
+   "pipeline.ColorTargetState",
+   "pipeline.RenderPipeline"
+  ]
+ },
+ {
+  "obf": "vo",
+  "kind": "class",
+  "lines": 391,
+  "blaze3d": 6,
+  "joml": 0,
+  "mc": 2,
+  "d": [
+   "pipeline.BlendFunction",
+   "pipeline.ColorTargetState",
+   "pipeline.DepthStencilState",
+   "pipeline.RenderPipeline",
+   "platform.CompareOp"
+  ]
+ },
+ {
+  "obf": "lN",
+  "kind": "class",
+  "lines": 193,
+  "blaze3d": 6,
+  "joml": 1,
+  "mc": 3,
+  "d": [
+   "pipeline.BlendFunction",
+   "pipeline.ColorTargetState",
+   "pipeline.DepthStencilState",
+   "pipeline.RenderPipeline",
+   "platform.CompareOp"
+  ]
+ },
+ {
+  "obf": "vq",
+  "kind": "class",
+  "lines": 4036,
+  "blaze3d": 5,
+  "joml": 0,
+  "mc": 0,
+  "d": [
+   "buffers.GpuBufferSlice",
+   "pipeline.RenderPipeline",
+   "systems.RenderPass",
+   "textures.GpuSampler",
+   "textures.GpuTextureView"
+  ]
+ },
+ {
+  "obf": "iW",
+  "kind": "class",
+  "lines": 1378,
+  "blaze3d": 5,
+  "joml": 2,
+  "mc": 2,
+  "d": [
+   "GpuFormat",
+   "buffers.Std140SizeCalculator",
+   "pipeline.RenderPipeline",
+   "pipeline.RenderTarget",
+   "pipeline.TextureTarget"
+  ]
+ },
+ {
+  "obf": "z1",
+  "kind": "class",
+  "lines": 774,
+  "blaze3d": 5,
+  "joml": 0,
+  "mc": 1,
+  "d": [
+   "GpuFormat",
+   "buffers.Std140SizeCalculator",
+   "pipeline.RenderPipeline",
+   "pipeline.RenderTarget",
+   "pipeline.TextureTarget"
+  ]
+ },
+ {
+  "obf": "zN",
+  "kind": "class",
+  "lines": 774,
+  "blaze3d": 5,
+  "joml": 0,
+  "mc": 1,
+  "d": [
+   "GpuFormat",
+   "buffers.Std140SizeCalculator",
+   "pipeline.RenderPipeline",
+   "pipeline.RenderTarget",
+   "pipeline.TextureTarget"
+  ]
+ },
+ {
+  "obf": "eR",
+  "kind": "class",
+  "lines": 758,
+  "blaze3d": 5,
+  "joml": 0,
+  "mc": 2,
+  "d": [
+   "pipeline.BlendFunction",
+   "pipeline.ColorTargetState",
+   "pipeline.DepthStencilState",
+   "pipeline.RenderPipeline",
+   "platform.CompareOp"
+  ]
+ },
+ {
+  "obf": "yK",
+  "kind": "class",
+  "lines": 745,
+  "blaze3d": 5,
+  "joml": 0,
+  "mc": 1,
+  "d": [
+   "GpuFormat",
+   "buffers.Std140SizeCalculator",
+   "pipeline.RenderPipeline",
+   "pipeline.RenderTarget",
+   "pipeline.TextureTarget"
+  ]
+ },
+ {
+  "obf": "yy",
+  "kind": "class",
+  "lines": 579,
+  "blaze3d": 5,
+  "joml": 0,
+  "mc": 0,
+  "d": [
+   "platform.NativeImage",
+   "systems.CommandEncoder",
+   "textures.GpuSampler",
+   "textures.GpuTexture",
+   "textures.GpuTextureView"
+  ]
+ },
+ {
+  "obf": "gz",
+  "kind": "class",
+  "lines": 2336,
+  "blaze3d": 4,
+  "joml": 0,
+  "mc": 1,
+  "d": [
+   "buffers.GpuBufferSlice",
+   "systems.RenderPass",
+   "textures.GpuSampler",
+   "textures.GpuTextureView"
+  ]
+ },
+ {
+  "obf": "i2",
+  "kind": "class",
+  "lines": 1700,
+  "blaze3d": 4,
+  "joml": 2,
+  "mc": 1,
+  "d": [
+   "PrimitiveTopology",
+   "pipeline.RenderPipeline",
+   "systems.RenderPass",
+   "vertex.VertexFormat"
+  ]
+ },
+ {
+  "obf": "le",
+  "kind": "class",
+  "lines": 1694,
+  "blaze3d": 4,
+  "joml": 2,
+  "mc": 3,
+  "d": [
+   "pipeline.DepthStencilState",
+   "pipeline.RenderPipeline",
+   "platform.CompareOp",
+   "vertex.PoseStack"
+  ]
+ },
+ {
+  "obf": "lX",
+  "kind": "class",
+  "lines": 1286,
+  "blaze3d": 4,
+  "joml": 0,
+  "mc": 0,
+  "d": [
+   "IndexType",
+   "buffers.GpuBuffer",
+   "buffers.GpuBufferSlice",
+   "systems.RenderPass"
+  ]
+ },
+ {
+  "obf": "_t",
+  "kind": "class",
+  "lines": 1162,
+  "blaze3d": 4,
+  "joml": 0,
+  "mc": 0,
+  "d": [
+   "buffers.GpuBuffer",
+   "buffers.GpuBufferSlice",
+   "systems.CommandEncoder",
+   "systems.GpuDevice"
+  ]
+ },
+ {
+  "obf": "iv",
+  "kind": "class",
+  "lines": 1157,
+  "blaze3d": 4,
+  "joml": 2,
+  "mc": 1,
+  "d": [
+   "pipeline.DepthStencilState",
+   "pipeline.RenderPipeline",
+   "platform.CompareOp",
+   "vertex.PoseStack"
+  ]
+ },
+ {
+  "obf": "dh",
+  "kind": "class",
+  "lines": 1046,
+  "blaze3d": 4,
+  "joml": 1,
+  "mc": 4,
+  "d": [
+   "pipeline.RenderPipeline",
+   "textures.GpuSampler",
+   "textures.GpuTextureView",
+   "vertex.VertexConsumer"
+  ]
+ },
+ {
+  "obf": "dd",
+  "kind": "class",
+  "lines": 902,
+  "blaze3d": 4,
+  "joml": 2,
+  "mc": 1,
+  "d": [
+   "systems.CommandEncoder",
+   "textures.GpuSampler",
+   "textures.GpuTexture",
+   "textures.GpuTextureView"
+  ]
+ },
+ {
+  "obf": "yn",
+  "kind": "class",
+  "lines": 884,
+  "blaze3d": 4,
+  "joml": 0,
+  "mc": 3,
+  "d": [
+   "systems.CommandEncoder",
+   "textures.GpuSampler",
+   "textures.GpuTexture",
+   "textures.GpuTextureView"
+  ]
+ },
+ {
+  "obf": "d5",
+  "kind": "class",
+  "lines": 76,
+  "blaze3d": 4,
+  "joml": 0,
+  "mc": 0,
+  "d": [
+   "IndexType",
+   "buffers.GpuBuffer",
+   "buffers.GpuBufferSlice",
+   "textures.GpuTextureView"
+  ]
+ },
+ {
+  "obf": "ui",
+  "kind": "class",
+  "lines": 2337,
+  "blaze3d": 3,
+  "joml": 0,
+  "mc": 0,
+  "d": [
+   "buffers.GpuBufferSlice",
+   "buffers.Std140SizeCalculator",
+   "systems.RenderPass"
+  ]
+ },
+ {
+  "obf": "eU",
+  "kind": "class",
+  "lines": 2144,
+  "blaze3d": 3,
+  "joml": 1,
+  "mc": 8,
+  "d": [
+   "textures.GpuSampler",
+   "textures.GpuTexture",
+   "textures.GpuTextureView"
+  ]
+ },
+ {
+  "obf": "XN",
+  "kind": "class",
+  "lines": 1425,
+  "blaze3d": 3,
+  "joml": 0,
+  "mc": 0,
+  "d": [
+   "IndexType",
+   "buffers.GpuBuffer",
+   "systems.RenderPass"
+  ]
+ },
+ {
+  "obf": "y4",
+  "kind": "class",
+  "lines": 229,
+  "blaze3d": 3,
+  "joml": 0,
+  "mc": 1,
+  "d": [
+   "textures.GpuSampler",
+   "textures.GpuTexture",
+   "textures.GpuTextureView"
+  ]
+ },
+ {
+  "obf": "lD",
+  "kind": "class",
+  "lines": 56,
+  "blaze3d": 3,
+  "joml": 0,
+  "mc": 0,
+  "d": [
+   "textures.GpuSampler",
+   "textures.GpuTexture",
+   "textures.GpuTextureView"
+  ]
+ },
+ {
+  "obf": "lg",
+  "kind": "class",
+  "lines": 1516,
+  "blaze3d": 2,
+  "joml": 0,
+  "mc": 0,
+  "d": [
+   "buffers.GpuBufferSlice",
+   "systems.RenderPass"
+  ]
+ },
+ {
+  "obf": "ys",
+  "kind": "class",
+  "lines": 1191,
+  "blaze3d": 2,
+  "joml": 0,
+  "mc": 0,
+  "d": [
+   "buffers.GpuBuffer",
+   "systems.RenderPass"
+  ]
+ },
+ {
+  "obf": "v5",
+  "kind": "class",
+  "lines": 1156,
+  "blaze3d": 2,
+  "joml": 0,
+  "mc": 0,
+  "d": [
+   "buffers.GpuBufferSlice",
+   "systems.RenderPass"
+  ]
+ },
+ {
+  "obf": "_V",
+  "kind": "class",
+  "lines": 621,
+  "blaze3d": 2,
+  "joml": 0,
+  "mc": 1,
+  "d": [
+   "buffers.Std140SizeCalculator",
+   "pipeline.RenderPipeline"
+  ]
+ },
+ {
+  "obf": "XP",
+  "kind": "class",
+  "lines": 202,
+  "blaze3d": 2,
+  "joml": 0,
+  "mc": 0,
+  "d": [
+   "pipeline.BindGroupLayout",
+   "shaders.UniformType"
+  ]
+ },
+ {
+  "obf": "lR",
+  "kind": "class",
+  "lines": 181,
+  "blaze3d": 2,
+  "joml": 0,
+  "mc": 0,
+  "d": [
+   "GpuFormat",
+   "vertex.VertexFormat"
+  ]
+ },
+ {
+  "obf": "OV",
+  "kind": "record",
+  "lines": 25,
+  "blaze3d": 2,
+  "joml": 0,
+  "mc": 0,
+  "d": [
+   "textures.GpuSampler",
+   "textures.GpuTextureView"
+  ]
+ },
+ {
+  "obf": "_o",
+  "kind": "class",
+  "lines": 4188,
+  "blaze3d": 1,
+  "joml": 0,
+  "mc": 10,
+  "d": [
+   "platform.Window"
+  ]
+ },
+ {
+  "obf": "vs",
+  "kind": "class",
+  "lines": 3251,
+  "blaze3d": 1,
+  "joml": 0,
+  "mc": 4,
+  "d": [
+   "platform.Window"
+  ]
+ },
+ {
+  "obf": "dp",
+  "kind": "class",
+  "lines": 2847,
+  "blaze3d": 1,
+  "joml": 0,
+  "mc": 2,
+  "d": [
+   "platform.Window"
+  ]
+ },
+ {
+  "obf": "y_",
+  "kind": "class",
+  "lines": 2525,
+  "blaze3d": 1,
+  "joml": 0,
+  "mc": 1,
+  "d": [
+   "pipeline.RenderPipeline"
+  ]
+ },
+ {
+  "obf": "i6",
+  "kind": "class",
+  "lines": 2503,
+  "blaze3d": 1,
+  "joml": 0,
+  "mc": 8,
+  "d": [
+   "platform.Window"
+  ]
+ },
+ {
+  "obf": "lG",
+  "kind": "class",
+  "lines": 1656,
+  "blaze3d": 1,
+  "joml": 0,
+  "mc": 2,
+  "d": [
+   "platform.NativeImage"
+  ]
+ },
+ {
+  "obf": "OO",
+  "kind": "class",
+  "lines": 1406,
+  "blaze3d": 1,
+  "joml": 0,
+  "mc": 0,
+  "d": [
+   "platform.NativeImage"
+  ]
+ },
+ {
+  "obf": "ns",
+  "kind": "class",
+  "lines": 1043,
+  "blaze3d": 1,
+  "joml": 0,
+  "mc": 3,
+  "d": [
+   "platform.Window"
+  ]
+ },
+ {
+  "obf": "gs",
+  "kind": "class",
+  "lines": 719,
+  "blaze3d": 1,
+  "joml": 3,
+  "mc": 5,
+  "d": [
+   "vertex.PoseStack"
+  ]
+ },
+ {
+  "obf": "_I",
+  "kind": "class",
+  "lines": 647,
+  "blaze3d": 1,
+  "joml": 2,
+  "mc": 4,
+  "d": [
+   "vertex.PoseStack"
+  ]
+ },
+ {
+  "obf": "_j",
+  "kind": "class",
+  "lines": 626,
+  "blaze3d": 1,
+  "joml": 0,
+  "mc": 0,
+  "d": [
+   "systems.RenderPass"
+  ]
+ },
+ {
+  "obf": "_X",
+  "kind": "class",
+  "lines": 596,
+  "blaze3d": 1,
+  "joml": 0,
+  "mc": 0,
+  "d": [
+   "systems.RenderPass"
+  ]
+ },
+ {
+  "obf": "go",
+  "kind": "class",
+  "lines": 548,
+  "blaze3d": 1,
+  "joml": 0,
+  "mc": 1,
+  "d": [
+   "textures.GpuTextureView"
+  ]
+ },
+ {
+  "obf": "in",
+  "kind": "class",
+  "lines": 527,
+  "blaze3d": 1,
+  "joml": 0,
+  "mc": 1,
+  "d": [
+   "buffers.Std140Builder"
+  ]
+ },
+ {
+  "obf": "_H",
+  "kind": "class",
+  "lines": 509,
+  "blaze3d": 1,
+  "joml": 0,
+  "mc": 1,
+  "d": [
+   "buffers.Std140Builder"
+  ]
+ },
+ {
+  "obf": "uN",
+  "kind": "class",
+  "lines": 499,
+  "blaze3d": 1,
+  "joml": 0,
+  "mc": 0,
+  "d": [
+   "vertex.PoseStack"
+  ]
+ },
+ {
+  "obf": "dF",
+  "kind": "class",
+  "lines": 421,
+  "blaze3d": 1,
+  "joml": 0,
+  "mc": 1,
+  "d": [
+   "platform.InputConstants"
+  ]
+ },
+ {
+  "obf": "lv",
+  "kind": "class",
+  "lines": 420,
+  "blaze3d": 1,
+  "joml": 0,
+  "mc": 2,
+  "d": [
+   "vertex.PoseStack"
+  ]
+ },
+ {
+  "obf": "lW",
+  "kind": "class",
+  "lines": 389,
+  "blaze3d": 1,
+  "joml": 1,
+  "mc": 2,
+  "d": [
+   "vertex.PoseStack"
+  ]
+ },
+ {
+  "obf": "Dw",
+  "kind": "class",
+  "lines": 369,
+  "blaze3d": 1,
+  "joml": 0,
+  "mc": 0,
+  "d": [
+   "systems.RenderPass"
+  ]
+ },
+ {
+  "obf": "ge",
+  "kind": "class",
+  "lines": 351,
+  "blaze3d": 1,
+  "joml": 1,
+  "mc": 2,
+  "d": [
+   "buffers.Std140Builder"
+  ]
+ },
+ {
+  "obf": "gZ",
+  "kind": "class",
+  "lines": 290,
+  "blaze3d": 1,
+  "joml": 0,
+  "mc": 5,
+  "d": [
+   "vertex.PoseStack"
+  ]
+ },
+ {
+  "obf": "lo",
+  "kind": "class",
+  "lines": 256,
+  "blaze3d": 1,
+  "joml": 0,
+  "mc": 9,
+  "d": [
+   "vertex.PoseStack"
+  ]
+ },
+ {
+  "obf": "gq",
+  "kind": "class",
+  "lines": 242,
+  "blaze3d": 1,
+  "joml": 1,
+  "mc": 2,
+  "d": [
+   "vertex.PoseStack"
+  ]
+ },
+ {
+  "obf": "dn",
+  "kind": "class",
+  "lines": 224,
+  "blaze3d": 1,
+  "joml": 0,
+  "mc": 0,
+  "d": [
+   "vertex.VertexConsumer"
+  ]
+ },
+ {
+  "obf": "n6",
+  "kind": "class",
+  "lines": 207,
+  "blaze3d": 1,
+  "joml": 0,
+  "mc": 0,
+  "d": [
+   "buffers.GpuBufferSlice"
+  ]
+ },
+ {
+  "obf": "Oi",
+  "kind": "class",
+  "lines": 149,
+  "blaze3d": 1,
+  "joml": 0,
+  "mc": 1,
+  "d": [
+   "buffers.Std140Builder"
+  ]
+ },
+ {
+  "obf": "iz",
+  "kind": "record",
+  "lines": 141,
+  "blaze3d": 1,
+  "joml": 0,
+  "mc": 1,
+  "d": [
+   "buffers.Std140Builder"
+  ]
+ },
+ {
+  "obf": "_F",
+  "kind": "record",
+  "lines": 128,
+  "blaze3d": 1,
+  "joml": 0,
+  "mc": 1,
+  "d": [
+   "buffers.Std140Builder"
+  ]
+ },
+ {
+  "obf": "ig",
+  "kind": "class",
+  "lines": 100,
+  "blaze3d": 1,
+  "joml": 0,
+  "mc": 1,
+  "d": [
+   "buffers.Std140Builder"
+  ]
+ },
+ {
+  "obf": "O6",
+  "kind": "class",
+  "lines": 73,
+  "blaze3d": 1,
+  "joml": 0,
+  "mc": 1,
+  "d": [
+   "buffers.Std140Builder"
+  ]
+ },
+ {
+  "obf": "y2",
+  "kind": "class",
+  "lines": 64,
+  "blaze3d": 1,
+  "joml": 0,
+  "mc": 3,
+  "d": [
+   "pipeline.RenderPipeline"
+  ]
+ },
+ {
+  "obf": "lZ",
+  "kind": "class",
+  "lines": 58,
+  "blaze3d": 1,
+  "joml": 2,
+  "mc": 0,
+  "d": [
+   "vertex.PoseStack"
+  ]
+ },
+ {
+  "obf": "v2",
+  "kind": "interface",
+  "lines": 56,
+  "blaze3d": 1,
+  "joml": 0,
+  "mc": 0,
+  "d": [
+   "systems.RenderPass"
+  ]
+ },
+ {
+  "obf": "lx",
+  "kind": "class",
+  "lines": 48,
+  "blaze3d": 1,
+  "joml": 0,
+  "mc": 1,
+  "d": [
+   "vertex.PoseStack"
+  ]
+ },
+ {
+  "obf": "uw",
+  "kind": "record",
+  "lines": 48,
+  "blaze3d": 1,
+  "joml": 0,
+  "mc": 1,
+  "d": [
+   "buffers.Std140Builder"
+  ]
+ },
+ {
+  "obf": "yF",
+  "kind": "class",
+  "lines": 48,
+  "blaze3d": 1,
+  "joml": 0,
+  "mc": 1,
+  "d": [
+   "vertex.PoseStack"
+  ]
+ },
+ {
+  "obf": "gb",
+  "kind": "class",
+  "lines": 47,
+  "blaze3d": 1,
+  "joml": 0,
+  "mc": 0,
+  "d": [
+   "pipeline.RenderPipeline"
+  ]
+ },
+ {
+  "obf": "z6",
+  "kind": "class",
+  "lines": 46,
+  "blaze3d": 1,
+  "joml": 0,
+  "mc": 0,
+  "d": [
+   "buffers.GpuBufferSlice"
+  ]
+ },
+ {
+  "obf": "vL",
+  "kind": "class",
+  "lines": 40,
+  "blaze3d": 1,
+  "joml": 0,
+  "mc": 1,
+  "d": [
+   "buffers.GpuBufferSlice"
+  ]
+ },
+ {
+  "obf": "yV",
+  "kind": "class",
+  "lines": 37,
+  "blaze3d": 1,
+  "joml": 0,
+  "mc": 6,
+  "d": [
+   "vertex.PoseStack"
+  ]
+ },
+ {
+  "obf": "dt",
+  "kind": "record",
+  "lines": 31,
+  "blaze3d": 1,
+  "joml": 0,
+  "mc": 0,
+  "d": [
+   "font.GlyphInfo"
+  ]
+ },
+ {
+  "obf": "_A",
+  "kind": "interface",
+  "lines": 31,
+  "blaze3d": 1,
+  "joml": 0,
+  "mc": 0,
+  "d": [
+   "systems.RenderPass"
+  ]
+ },
+ {
+  "obf": "uV",
+  "kind": "record",
+  "lines": 18,
+  "blaze3d": 1,
+  "joml": 0,
+  "mc": 0,
+  "d": [
+   "buffers.GpuBufferSlice"
+  ]
+ },
+ {
+  "obf": "ua",
+  "kind": "class",
+  "lines": 810,
+  "blaze3d": 0,
+  "joml": 2,
+  "mc": 2,
+  "d": []
+ },
+ {
+  "obf": "DO",
+  "kind": "class",
+  "lines": 424,
+  "blaze3d": 0,
+  "joml": 3,
+  "mc": 2,
+  "d": []
+ },
+ {
+  "obf": "De",
+  "kind": "class",
+  "lines": 51,
+  "blaze3d": 0,
+  "joml": 1,
+  "mc": 0,
+  "d": []
+ },
+ {
+  "obf": "Xi",
+  "kind": "class",
+  "lines": 47,
+  "blaze3d": 0,
+  "joml": 1,
+  "mc": 0,
+  "d": []
+ },
+ {
+  "obf": "yb",
+  "kind": "class",
+  "lines": 42,
+  "blaze3d": 0,
+  "joml": 1,
+  "mc": 4,
+  "d": []
+ },
+ {
+  "obf": "lO",
+  "kind": "class",
+  "lines": 34,
+  "blaze3d": 0,
+  "joml": 1,
+  "mc": 0,
+  "d": []
+ },
+ {
+  "obf": "g0",
+  "kind": "class",
+  "lines": 29,
+  "blaze3d": 0,
+  "joml": 1,
+  "mc": 0,
+  "d": []
+ }
+]
